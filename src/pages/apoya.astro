@@ -1,0 +1,34 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Icono from '../componentes/Icono.astro';
+import Base from '../layouts/Base.astro';
+import { DONATIVOS, NOMBRE, ruta } from '../lib/sitio';
+const bizum = DONATIVOS.bizum.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');
+---
+
+<Base titulo="Apoya el proyecto" descripcion="Productos Retirados es gratuito y sin publicidad. Puedes ayudar a mantenerlo con un donativo voluntario por Bizum o PayPal." ruta="/apoya/">
+  <div class="pagina">
+    <Cabecera titulo="Apoya el proyecto" migas={[{ texto: 'Apoya el proyecto' }]} color="rosa">
+      <p class="entradilla">{NOMBRE} es gratuito y lo seguirá siendo. Un donativo ayuda a pagar el dominio y las horas de mantenimiento, pero la web funciona igual sin él.</p>
+    </Cabecera>
+    <div class="dos">
+      <section class="caja" aria-labelledby="h-bizum">
+        <h2 id="h-bizum">Bizum</h2>
+        <p>Desde la app de tu banco, con el concepto «Productos Retirados», a este número:</p>
+        <p class="bizum">
+          <b aria-label={`Número de Bizum: ${bizum}`}>{bizum}</b>
+          <button class="copiar" type="button" data-copiar={DONATIVOS.bizum} hidden><Icono n="copy" /><span>Copiar número</span></button>
+        </p>
+      </section>
+      <section class="caja" aria-labelledby="h-paypal">
+        <h2 id="h-paypal">PayPal</h2>
+        <p>Tú eliges la cantidad, con tu cuenta de PayPal.</p>
+        <img src={ruta('/apoya/paypal-qr.svg')} alt="Código QR para donar con PayPal" width="168" height="168" loading="lazy" class="qr" />
+        <a class="btn btn-ancho" href={DONATIVOS.paypal} rel="noopener noreferrer"><Icono n="heart" />Abrir PayPal</a>
+      </section>
+    </div>
+    <p class="nota">Los donativos son voluntarios, no dan derecho a contraprestación y no son deducibles.</p>
+    <h2>Otras formas de ayudar</h2>
+    <p>Compartir la web con tu familia y avisarnos de errores ayuda tanto como un donativo.</p>
+  </div>
+</Base>

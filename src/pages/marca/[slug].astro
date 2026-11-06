@@ -1,0 +1,22 @@
+---
+import Lista from '../../componentes/Lista.astro';
+import Cabecera from '../../componentes/Cabecera.astro';
+import Base from '../../layouts/Base.astro';
+import { alertasDeMarca, marcas } from '../../lib/datos';
+import { numero } from '../../lib/formato';
+
+export function getStaticPaths() {
+  return marcas().map((m) => ({ params: { slug: m.slug }, props: { nombre: m.nombre } }));
+}
+const { nombre } = Astro.props as { nombre: string };
+const lista = alertasDeMarca(Astro.params.slug!);
+---
+
+<Base titulo={`${nombre}: alertas y retiradas`} descripcion={`${numero(lista.length)} alertas de la marca ${nombre}, con lote, motivo y enlace a la fuente oficial.`} ruta={`/marca/${Astro.params.slug}/`}>
+  <div class="pagina">
+    <Cabecera titulo={nombre} migas={[{ texto: 'Marcas', href: '/marcas/' }, { texto: nombre }]}>
+      <p class="entradilla">{numero(lista.length)} alertas publicadas. Una alerta afecta a productos y lotes concretos, no a toda la marca.</p>
+    </Cabecera>
+    <Lista alertas={lista.slice(0, 60)} />
+  </div>
+</Base>

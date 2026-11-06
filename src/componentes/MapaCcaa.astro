@@ -1,0 +1,41 @@
+---
+import { numero } from '../lib/formato';
+import { ruta } from '../lib/sitio';
+
+interface Props { cuentas?: Record<string, number>; activas?: string[] }
+const { cuentas, activas } = Astro.props;
+
+// Nombre, abreviatura, columna, fila y ancho en una rejilla de 7 columnas que imita la forma de España.
+const TESELAS: [string, string, number, number, number][] = [
+  ['Galicia', 'GAL', 1, 1, 1], ['Asturias', 'AST', 2, 1, 1], ['Cantabria', 'CNT', 3, 1, 1], ['País Vasco', 'PV', 4, 1, 1], ['Navarra', 'NAV', 5, 1, 1],
+  ['Castilla y León', 'CYL', 2, 2, 2], ['La Rioja', 'RIO', 4, 2, 1], ['Aragón', 'ARA', 5, 2, 1], ['Cataluña', 'CAT', 6, 2, 1],
+  ['Extremadura', 'EXT', 2, 3, 1], ['Madrid', 'MAD', 3, 3, 1], ['Castilla-La Mancha', 'CLM', 4, 3, 1], ['Comunidad Valenciana', 'VAL', 5, 3, 1], ['Illes Balears', 'BAL', 7, 3, 1],
+  ['Andalucía', 'AND', 2, 4, 2], ['Murcia', 'MUR', 4, 4, 1], ['Canarias', 'CAN', 1, 5, 1], ['Ceuta', 'CEU', 3, 5, 1], ['Melilla', 'MEL', 4, 5, 1],
+];
+const CORTO: Record<string, string> = { 'Comunidad Valenciana': 'C. Valenciana', 'Castilla-La Mancha': 'C.-La Mancha', 'Illes Balears': 'Baleares' };
+const maximo = Math.max(1, ...Object.values(cuentas ?? {}));
+---
+
+{cuentas ? (
+  <div class="mapa">
+    {TESELAS.map(([n, a, x, y, w]) => {
+      const v = cuentas[n] ?? 0;
+      return (
+        <a class="ca" href={ruta(`/alertas/?ccaa=${encodeURIComponent(n)}`)} aria-label={`${n}: ${numero(v)} alertas`} style={`grid-column:${x}/span ${w};grid-row:${y};--k:${(0.08 + (v / maximo) * 0.92).toFixed(2)}`}>
+          <b><span class="largo">{CORTO[n] ?? n}</span><span class="abr">{a}</span></b><span>{numero(v)}</span>
+        </a>
+      );
+    })}
+  </div>
+) : (
+  <>
+    <p class="oculto">Comunidades afectadas: {activas?.join(', ')}.</p>
+    <div class="mapa mapa-f" aria-hidden="true">
+      {TESELAS.map(([n, a, x, y, w]) => (
+        <span class:list={['ca', { on: activas?.includes(n) }]} style={`grid-column:${x}/span ${w};grid-row:${y}`}>
+          <b><span class="largo">{CORTO[n] ?? n}</span><span class="abr">{a}</span></b>
+        </span>
+      ))}
+    </div>
+  </>
+)}

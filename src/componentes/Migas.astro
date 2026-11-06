@@ -1,0 +1,12 @@
+---
+import { ruta } from '../lib/sitio';
+interface Props { items: { texto: string; href?: string }[] }
+const { items } = Astro.props;
+---
+
+<nav class="migas" aria-label="Migas de pan">
+  <ol>
+    <li><a href={ruta('/')}>Inicio</a></li>
+    {items.map((i) => <li>{i.href ? <a href={ruta(i.href)}>{i.texto}</a> : <span aria-current="page">{i.texto}</span>}</li>)}
+  </ol>
+</nav>

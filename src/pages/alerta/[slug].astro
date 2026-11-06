@@ -1,0 +1,188 @@
+---
+import Icono from '../../componentes/Icono.astro';
+import MapaCcaa from '../../componentes/MapaCcaa.astro';
+import Migas from '../../componentes/Migas.astro';
+import Nivel from '../../componentes/Nivel.astro';
+import Base from '../../layouts/Base.astro';
+import { alertas, comunidadesDe, FUENTES, identificacion, nivelDe, porId, relaciones, tarjetaDe } from '../../lib/datos';
+import { fecha, recortar } from '../../lib/formato';
+import { ILUSTRACION_CATEGORIA } from '../../lib/iconos';
+import { NOMBRE, ruta } from '../../lib/sitio';
+import { CATEGORIAS } from '../../../pipeline/normalizar.ts';
+import type { Alerta } from '../../../pipeline/tipos.ts';
+
+export function getStaticPaths() {
+  const r = relaciones();
+  return alertas().map((a) => ({ params: { slug: a.slug }, props: { a, rel: r[a.id] ?? {} } }));
+}
+interface Props { a: Alerta; rel: { historial?: string[]; relacionadas?: string[] } }
+const { a, rel } = Astro.props;
+
+const f = FUENTES[a.fuente];
+const n = nivelDe(a);
+const t = tarjetaDe(a);
+const cat = a.categoria.normalizada ?? 'otros';
+const nombreCat = CATEGORIAS[cat] ?? 'Otros';
+const productos = a.productos;
+const unico = productos.length === 1;
+const visibles = productos.slice(0, 40);
+const fechaVista = a.fechas.publicacionWeb ?? a.fechas.publicacion;
+const paises = a.distribucion.paisesDetectado;
+const enEspana = a.fuente === 'safety-gate' && (paises.includes('ES') || a.distribucion.paisNotificante === 'España');
+const hacer = a.hacer?.length ? a.hacer : ['Consulta las recomendaciones en la fuente oficial.'];
+const historial = (rel.historial ?? []).map(porId).filter((x): x is Alerta => Boolean(x));
+const relacionadas = (rel.relacionadas ?? []).map(porId).filter((x): x is Alerta => Boolean(x)).slice(0, 5);
+const ident = identificacion(a);
+const descripcion = recortar(`${a.nombreVisible}: ${a.motivo ?? 'alerta'}. ${ident ? `${ident}. ` : ''}Publicada por ${f.corto} el ${fecha(a.fechas.publicacion)}.`, 158);
+const anio = a.fechas.publicacion.slice(0, 4);
+const url = new URL(ruta(`/alerta/${a.slug}/`), Astro.site).toString();
+const inicio = new URL(ruta('/'), Astro.site).toString();
+// El comprobador solo tiene sentido si todos los lotes publicados están separados.
+const lotes = productos.flatMap((p) => p.lotes.map((l) => l.numero)).filter(Boolean);
+const comprobarLote = productos.every((p) => p.lotes.length > 0 && !p.lotesTexto);
+const marca = productos.find((p) => p.marcas[0])?.marcas[0];
+const whatsapp = `https://wa.me/?text=${encodeURIComponent(`${recortar(a.nombreVisible, 80)}: ${url}`)}`;
+// schema.org no tiene un tipo para retiradas de producto.
+const jsonld = [
+  { '@context': 'https://schema.org', '@type': 'Article', headline: recortar(a.titulo, 110), datePublished: a.fechas.publicacion, dateModified: a.fechas.modificacion ?? a.fechas.publicacion, inLanguage: 'es-ES', mainEntityOfPage: url, author: { '@type': 'Organization', name: NOMBRE, url: inicio }, isBasedOn: a.urlOficial },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: inicio },
+    { '@type': 'ListItem', position: 2, name: nombreCat, item: new URL(ruta(`/categoria/${cat}/`), Astro.site).toString() },
+    { '@type': 'ListItem', position: 3, name: recortar(a.nombreVisible, 60) },
+  ] },
+];
+const etiquetasAviso = { alerta: 'Alerta inicial', ampliacion: 'Ampliación', correccion: 'Corrección' };
+---
+
+<Base titulo={recortar(a.nombreVisible, 60)} descripcion={descripcion} ruta={`/alerta/${a.slug}/`} tipo="article" jsonld={jsonld}>
+  <div class="pagina">
+    <article data-pagefind-body>
+      {(['nombre', 'motivo', 'ident', 'nivel', 'tipoNivel', 'fuente', 'fecha', 'icono'] as const).map((k) => <span hidden data-pagefind-meta={k} data-pagefind-ignore>{t[k]}</span>)}
+      <span hidden data-pagefind-sort="fecha" data-pagefind-ignore>{a.fechas.publicacion}</span>
+      <span hidden data-pagefind-filter="fuente" data-pagefind-ignore>{f.corto}</span>
+      <span hidden data-pagefind-filter="ambito" data-pagefind-ignore>{f.espana ? 'espana' : 'europa'}</span>
+      <span hidden data-pagefind-filter="categoria" data-pagefind-ignore>{nombreCat}</span>
+      <span hidden data-pagefind-filter="anio" data-pagefind-ignore>{anio}</span>
+      {a.riesgo.tipoNormalizado?.map((x) => <span hidden data-pagefind-filter="riesgo" data-pagefind-ignore>{x}</span>)}
+      {a.riesgo.alergenos?.map((x) => <span hidden data-pagefind-filter="alergeno" data-pagefind-ignore>{x}</span>)}
+      {comunidadesDe(a).map((x) => <span hidden data-pagefind-filter="ccaa" data-pagefind-ignore>{x}</span>)}
+
+      <header class="f-hero">
+        <div class="f-in">
+          <Migas items={[{ texto: nombreCat, href: `/categoria/${cat}/` }, { texto: recortar(a.nombreVisible, 40) }]} />
+          <p class="f-niv"><Nivel texto={n.texto} tipo={n.tipo} /> {f.corto}</p>
+          <h1 data-pagefind-weight="10">{a.nombreVisible}</h1>
+          {a.motivo && <p class="f-mot">{a.motivo}</p>}
+          {a.fuente === 'safety-gate' && (
+            <p class="f-esp">{enEspana ? `Consta relación con España: ${a.distribucion.paisNotificante === 'España' ? 'alerta notificada por España.' : 'detectada en España.'}` : 'Alerta europea. No consta si se ha vendido en España.'}</p>
+          )}
+        </div>
+        <img src={ruta(`/ilustraciones/${ILUSTRACION_CATEGORIA[cat] ?? 'caja'}.svg`)} alt="" width="240" height="240" />
+      </header>
+
+      <div class="f-rej">
+        <div class="f-col">
+          {comprobarLote && (
+            <section class="f-sec lote" aria-labelledby="h-lote" data-lotes={JSON.stringify(lotes.slice(0, 300))} data-pagefind-ignore>
+              <h2 id="h-lote"><Icono n="scan-barcode" />¿Es tu lote?</h2>
+              <label for="lote">Escribe el lote que aparece en tu envase.</label>
+              <input id="lote" autocomplete="off" autocapitalize="characters" placeholder={`Por ejemplo: ${lotes[0].slice(0, 20)}`} />
+              <p class="lote-res" role="status"></p>
+            </section>
+          )}
+
+          <section class="f-sec hacer oscuro" aria-labelledby="h-hacer" data-pagefind-ignore>
+            <h2 id="h-hacer">Qué hacer</h2>
+            <ol>{hacer.map((h) => <li><span>{h}</span></li>)}</ol>
+            <small>{a.hacerOrigen === 'general' ? 'Orientación general. Lee siempre la fuente oficial.' : 'Resumen del texto oficial. Lee siempre la fuente.'}</small>
+          </section>
+
+          {a.riesgo.descripcion && <section class="f-sec"><h2>Motivo</h2><p>{a.riesgo.descripcion}</p></section>}
+
+          {a.medidas.length > 0 && <section class="f-sec"><h2>Medidas</h2><ul>{a.medidas.map((m) => <li>{m.texto}</li>)}</ul></section>}
+
+          {(a.distribucion.ccaa.length > 0 || a.distribucion.literal || paises.length > 0) && (
+            <section class="f-sec">
+              <h2>Dónde se ha distribuido</h2>
+              {a.distribucion.ccaa.length > 0 && !a.distribucion.nacional && <MapaCcaa activas={a.distribucion.ccaa} />}
+              {a.distribucion.literal && <p>{a.distribucion.literal}</p>}
+              {paises.length > 0 && <p class="nota">Países que han notificado haber encontrado el producto: {paises.join(', ')}.</p>}
+            </section>
+          )}
+
+          {historial.length > 1 && (
+            <section class="f-sec" aria-labelledby="h-historial" data-pagefind-ignore>
+              <h2 id="h-historial">Historial de la alerta</h2>
+              <ol class="historial">
+                {historial.map((h) => (
+                  <li>
+                    <time datetime={h.fechas.publicacion}>{fecha(h.fechas.publicacion)}</time>
+                    {h.id === a.id ? <span><strong>{etiquetasAviso[h.tipoAviso]}</strong> (esta página)</span> : <a href={ruta(`/alerta/${h.slug}/`)}>{etiquetasAviso[h.tipoAviso]}</a>}
+                  </li>
+                ))}
+              </ol>
+            </section>
+          )}
+
+          {relacionadas.length > 0 && (
+            <section class="f-sec" aria-labelledby="h-rel" data-pagefind-ignore>
+              <h2 id="h-rel">También en otra alerta</h2>
+              <p class="nota">Coincide la marca con el modelo, el lote o el código de barras. Puede tratarse de otro lote: compruébalo.</p>
+              <ul>{relacionadas.map((r) => <li><a href={ruta(`/alerta/${r.slug}/`)}>{r.nombreVisible}</a> ({FUENTES[r.fuente].corto}, {fecha(r.fechas.publicacion)})</li>)}</ul>
+            </section>
+          )}
+        </div>
+
+        <aside class:list={['f-lat', { fija: unico }]} aria-labelledby="h-datos">
+          <div class="f-sec datos">
+            <h2 id="h-datos">Datos del producto</h2>
+            {visibles.map((p, i) => (
+              <>
+                {!unico && <h3>{p.nombre ?? `Producto ${i + 1}`}</h3>}
+                <dl>
+                  {unico && p.nombre && <dt>Producto</dt><dd>{p.nombre}</dd>}
+                  {p.marcas.length > 0 && <dt>Marca</dt><dd>{p.marcas.join(', ')}</dd>}
+                  {p.modelos.length > 0 && <dt>Modelo</dt><dd>{p.modelos.slice(0, 12).join(', ')}</dd>}
+                  {p.lotes.length > 0 && <dt>{p.lotes.length > 1 ? 'Lotes' : 'Lote'}</dt><dd class="d-lote">{p.lotes.slice(0, 30).map((l) => l.numero).join(', ')}</dd>}
+                  {p.lotesTexto && <dt>{p.lotes.length ? 'Detalle' : 'Lotes'}</dt><dd>{recortar(p.lotesTexto, 220)}</dd>}
+                  {p.lotes[0]?.caducidad && p.lotes.length === 1 && <dt>Caducidad</dt><dd>{fecha(p.lotes[0].caducidad)}</dd>}
+                  {p.lotes[0]?.consumoPreferente && p.lotes.length === 1 && <dt>Cons. preferente</dt><dd>{fecha(p.lotes[0].consumoPreferente)}</dd>}
+                  {p.fechasTexto && p.lotes.length !== 1 && <dt>Fechas</dt><dd>{p.fechasTexto}</dd>}
+                  {p.ean.length > 0 && <dt>EAN</dt><dd>{p.ean.join(', ')}</dd>}
+                  {p.peso && <dt>Peso</dt><dd>{p.peso}</dd>}
+                  {p.envase && <dt>Envase</dt><dd>{recortar(p.envase, 80)}</dd>}
+                  {p.temperatura && <dt>Conservación</dt><dd>{p.temperatura}</dd>}
+                </dl>
+                {p.descripcion && unico && <p class="ref">{recortar(p.descripcion, 240)}</p>}
+              </>
+            ))}
+            {productos.length > visibles.length && <p class="ref">Y {productos.length - visibles.length} productos más en la fuente oficial.</p>}
+            <dl>
+              {a.distribucion.paisOrigen && <dt>Origen</dt><dd>{a.distribucion.paisOrigen}</dd>}
+              {a.distribucion.paisNotificante && <dt>Notifica</dt><dd>{a.distribucion.paisNotificante}</dd>}
+              {a.empresas.map((e) => <><dt>{{ titular: 'Titular', fabricante: 'Fabricante', 'vendedor-online': 'Venta online' }[e.rol]}</dt><dd>{recortar(e.nombre, 70)}</dd></>)}
+            </dl>
+          </div>
+          <a class="btn btn-coral btn-ancho" href={a.urlOficial} rel="noopener"><Icono n="external-link" />Ver fuente oficial</a>
+          <div class="comparte" data-pagefind-ignore>
+            <a href={whatsapp} rel="noopener noreferrer"><Icono n="message-circle" />WhatsApp</a>
+            <button type="button" data-copiar={url} hidden><Icono n="link" /><span>Copiar enlace</span></button>
+            {marca && <button class="vigilar" type="button" data-vigilar={marca} hidden><Icono n="shopping-basket" /><span>Vigilar {marca}</span></button>}
+          </div>
+          <p class="ref">
+            {f.corto}{a.referenciaOficial ? ` · ${a.referenciaOficial}` : ''}<br />
+            Publicada {fecha(fechaVista)}
+            {a.fechas.modificacion && a.fechas.modificacion !== a.fechas.publicacion && <><br />Actualizada {fecha(a.fechas.modificacion)}</>}
+            <br />Consultada {fecha(a.procedencia.consultadoEn)}
+          </p>
+          {a.procedencia.extraccion !== 'campo-estructurado' && <p class="ref">Datos extraídos del texto de la fuente: pueden contener errores.</p>}
+          <p class="ref">{f.cita}</p>
+        </aside>
+      </div>
+    </article>
+  </div>
+</Base>
+
+<script>
+  import '../../scripts/ficha';
+</script>

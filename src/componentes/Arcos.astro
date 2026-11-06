@@ -1,0 +1,21 @@
+---
+import { alertas } from '../lib/datos';
+import { numero } from '../lib/formato';
+import { ILUSTRACION_CATEGORIA } from '../lib/iconos';
+import { ruta } from '../lib/sitio';
+import { CATEGORIAS } from '../../pipeline/normalizar.ts';
+
+interface Props { sinOtros?: boolean }
+const cuenta = (c: string) => alertas().filter((a) => a.categoria.normalizada === c).length;
+const lista = Object.entries(CATEGORIAS).map(([k, n]) => ({ k, n, t: cuenta(k) })).filter((c) => c.t > 0 && !(Astro.props.sinOtros && c.k === 'otros'));
+---
+
+<div class="rej-cat">
+  {lista.map((c) => (
+    <a class="cat-t" href={ruta(`/categoria/${c.k}/`)} data-tilt>
+      <img src={ruta(`/ilustraciones/${ILUSTRACION_CATEGORIA[c.k]}.svg`)} alt="" width="144" height="144" loading="lazy" />
+      <b>{c.n}</b>
+      <small>{numero(c.t)} alertas</small>
+    </a>
+  ))}
+</div>

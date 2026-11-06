@@ -1,0 +1,56 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Base from '../layouts/Base.astro';
+import { EMAIL, LEGAL_ACTUALIZADO, NOMBRE, REPOSITORIO, ruta } from '../lib/sitio';
+---
+
+<Base titulo="Aviso legal" descripcion="Condiciones de uso, responsabilidad y licencias de Productos Retirados." ruta="/aviso-legal/">
+  <div class="pagina texto">
+    <Cabecera titulo="Aviso legal" migas={[{ texto: 'Aviso legal' }]} color="crema">
+      <p class="nota">Última actualización: {LEGAL_ACTUALIZADO}.</p>
+    </Cabecera>
+
+    <h2>1. Información del sitio</h2>
+    <p>{NOMBRE} es un proyecto personal, independiente y sin ánimo de lucro. No vende productos ni servicios y no muestra publicidad.</p>
+    <p>Contacto: <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
+
+    <h2>2. Objeto</h2>
+    <p>{NOMBRE} reúne alertas públicas sobre productos publicadas por autoridades españolas y europeas, para facilitar su consulta. Su uso es libre y gratuito y no requiere registro.</p>
+
+    <h2>3. No es una web oficial</h2>
+    <p>{NOMBRE} no pertenece a ninguna administración ni está vinculada, patrocinada o respaldada por AESAN, la AEMPS, el Ministerio de Derechos Sociales, Consumo y Agenda 2030 ni la Comisión Europea. La información con validez es la que publica cada fuente oficial, enlazada en cada ficha.</p>
+
+    <h2>4. Alcance de la información y responsabilidad</h2>
+    <p>La información es divulgativa y <strong>no constituye asesoramiento sanitario ni jurídico</strong>. Se obtiene de forma automática de fuentes públicas y puede contener errores, omisiones o retrasos.</p>
+    <p><strong>Que un producto no aparezca no significa que sea seguro.</strong> Antes de tomar una decisión, compruébalo en la fuente oficial. En una urgencia sanitaria llama al 112.</p>
+    <p>En la medida en que lo permita la ley, no se responde de los daños derivados del uso de la información ni de las interrupciones del servicio.</p>
+
+    <h2>5. Condiciones de uso</h2>
+    <p>Te comprometes a usar la web conforme a la ley y a la buena fe, y a no dañarla ni sobrecargarla.</p>
+
+    <h2>6. Enlaces</h2>
+    <p>La web enlaza a sitios de terceros para que puedas comprobar los datos. No se controla su contenido ni su disponibilidad. Enlazar a un organismo no implica relación alguna con él.</p>
+
+    <h2>7. Propiedad intelectual</h2>
+    <ul>
+      <li>Código fuente: <a href={REPOSITORIO}>licencia MIT</a>.</li>
+      <li>Datos de cada alerta: pertenecen a su fuente y se reutilizan según sus condiciones, descritas en <a href={ruta('/fuentes/')}>fuentes y metodología</a>.</li>
+      <li>Tipografías Unbounded y Figtree: licencia SIL Open Font License.</li>
+      <li>Iconos de Lucide: licencia ISC.</li>
+      <li>Logotipo, ilustraciones y textos propios: pertenecen a {NOMBRE}. Puedes citar y compartir los textos enlazando a la página original.</li>
+      <li>Las marcas citadas pertenecen a sus titulares y se mencionan solo para identificar los productos afectados.</li>
+    </ul>
+
+    <h2>8. Errores y retirada de contenidos</h2>
+    <p>Si detectas un error o crees que un contenido vulnera tus derechos, escribe a <a href={`mailto:${EMAIL}`}>{EMAIL}</a>. Se revisará y, si procede, se corregirá o retirará con la mayor brevedad.</p>
+
+    <h2>9. Donativos</h2>
+    <p>Los donativos son voluntarios y no dan derecho a contraprestación alguna. Los gestionan Bizum, a través de tu banco, y PayPal, con sus propias condiciones. No son deducibles.</p>
+
+    <h2>10. Protección de datos y cookies</h2>
+    <p>Consulta la <a href={ruta('/privacidad/')}>política de privacidad</a> y la <a href={ruta('/cookies/')}>política de cookies</a>.</p>
+
+    <h2>11. Legislación aplicable</h2>
+    <p>Este aviso se rige por la legislación española.</p>
+  </div>
+</Base>

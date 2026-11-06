@@ -1,0 +1,19 @@
+---
+import Buscador from '../componentes/Buscador.astro';
+import Base from '../layouts/Base.astro';
+import { ruta } from '../lib/sitio';
+---
+
+<Base titulo="Página no encontrada" descripcion="Esta página no existe o se ha movido." ruta="/404.html">
+  <div class="pagina">
+    <div class="cabecera">
+      <div>
+        <h1>Aquí no hay nada</h1>
+        <p class="entradilla">Esta página no existe o se ha movido. Busca el producto que te interesa:</p>
+        <Buscador />
+        <p><a href={ruta('/')}>Volver al inicio</a></p>
+      </div>
+      <img class="cabecera-i" src={ruta('/ilustraciones/estante-hueco.svg')} alt="" width="208" height="208" />
+    </div>
+  </div>
+</Base>

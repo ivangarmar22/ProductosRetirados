@@ -1,0 +1,60 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /*wp-json*
+Disallow: /?s=
+Disallow: /page/*/?s=
+Disallow: /search/
+Disallow: /feed*/
+Disallow: /trackback*/
+Disallow: /attachment*/
+Disallow: /eu/laAEMPS/trabajeAEMPS/*.pdf$
+Disallow: /en/laAEMPS/trabajeAEMPS/*.pdf$
+Disallow: /ca/laAEMPS/trabajeAEMPS/*.pdf$
+Disallow: /fr/laAEMPS/trabajeAEMPS/*.pdf$
+Disallow: /gl/laAEMPS/trabajeAEMPS/*.pdf$
+Disallow: /va/laAEMPS/trabajeAEMPS/*.pdf$
+Disallow: /laAEMPS/trabajeAEMPS/*.pdf$
+Disallow: /laAEMPS/subvenciones/becas/*.pdf$
+Disallow: /informa/LISTA*ADMITIDOS*.pdf$
+Disallow: /informa/notasInformativas/medicamentosUsoHumano/comiteEvaluacion/2021/docs/*.pdf$
+Disallow: /informa/notasInformativas/medicamentosUsoHumano/problemasSuministro/2021/*.pdf$
+Disallow: /informa/notasInformativas/productosSanitarios/marcadoCEFalso/2021/docs/*.pdf$
+Disallow: /informa/notasInformativas/medicamentosUsoHumano/medIlegales/2021/docs/*.pdf$
+Disallow: /informa/notasInformativas/medicamentosUsoHumano/seguridad/2021/docs/*.pdf$
+Disallow: /informa/notasInformativas/productosSanitarios/seguridad/2021/docs/*.pdf$
+Disallow: /informa/notasInformativas/medicamentosUsoHumano/calidad/2021/docs/*.pdf$
+Disallow: /informa/notasInformativas/productosSanitarios/seguridad/2021/*.pdf$
+Disallow: /informa/notasInformativas/cosmeticos-cuidado-personal/2021/*.pdf$
+Disallow: /informa/notasInformativas/medicamentosUsoHumano/2021/*.pdf$
+Disallow: /informa/notasInformativas/productosSanitarios/2021/*.pdf$
+Disallow: /informa/notasInformativas/OrganismoNotificado/2021/*.pdf$
+Disallow: /informa/notasInformativas/laAEMPS/2021/docs/*.pdf$
+Disallow: /informa/notasInformativas/laAEMPS/2022/docs/NI-AEMPS-01-2022-ESVAC-ES.pdf
+Disallow: /medicamentos-de-uso-humano/medicamentosusohumano_medilegales_iniciativas_internacionales_red_eami
+Allow: /wp-admin/admin-ajax.php
+
+User-agent: GPTBot 
+Disallow: /
+
+User-agent: chatGPT-user 
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: amazonbot
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: YisouSpider
+Disallow: / 
+
+User-agent: bingbot
+Disallow: /?s=
+
+Sitemap: https://www.aemps.gob.es/sitemaps.xml

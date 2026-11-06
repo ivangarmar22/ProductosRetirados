@@ -1,0 +1,11 @@
+---
+import Listado from '../../componentes/Listado.astro';
+import Base from '../../layouts/Base.astro';
+import { alertas } from '../../lib/datos';
+const POR_PAGINA = 50;
+const todas = alertas();
+---
+
+<Base titulo="Alertas de productos retirados" descripcion="Busca entre todas las alertas y retiradas de productos en España. Filtra por categoría, riesgo, alérgeno, comunidad autónoma, fecha y marca." ruta="/alertas/" rss={{ titulo: 'Todas las alertas', href: '/rss.xml' }}>
+  <div class="pagina"><Listado alertas={todas.slice(0, POR_PAGINA)} pagina={1} paginas={Math.ceil(todas.length / POR_PAGINA)} /></div>
+</Base>

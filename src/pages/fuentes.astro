@@ -1,0 +1,60 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Base from '../layouts/Base.astro';
+import { alertas, estadoFuentes } from '../lib/datos';
+import { numero } from '../lib/formato';
+import { ruta } from '../lib/sitio';
+const estado = estadoFuentes();
+const total = (k: string) => numero(estado[k]?.total ?? alertas().filter((a) => a.fuente === k).length);
+---
+
+<Base titulo="Fuentes y metodología" descripcion="De dónde salen los datos, cada cuánto se actualizan, qué no cubrimos y con qué licencia se reutilizan." ruta="/fuentes/">
+  <div class="pagina texto">
+    <Cabecera titulo="Fuentes y metodología" migas={[{ texto: 'Fuentes y metodología' }]} ilustracion="archivador" color="cielo">
+      <p class="entradilla">Reunimos alertas públicas oficiales. No las creamos ni las evaluamos: cada ficha enlaza a su fuente, que es la que tiene validez.</p>
+    </Cabecera>
+
+
+    <h2>Qué fuentes incluimos</h2>
+    <table class="tablita">
+      <thead><tr><th scope="col">Fuente</th><th scope="col">Qué cubre</th><th scope="col">Desde</th><th scope="col">Alertas</th></tr></thead>
+      <tbody>
+        <tr><th scope="row"><a href="https://www.aesan.gob.es/alertas">AESAN</a></th><td>Alimentos, alérgenos y complementos alimenticios</td><td>2025</td><td class="num">{total('aesan')}</td></tr>
+        <tr><th scope="row"><a href="https://www.aemps.gob.es/comunicacion/alertas/">AEMPS</a></th><td>Medicamentos de uso humano, por defectos de calidad</td><td>2016</td><td class="num">{total('aemps-medicamentos')}</td></tr>
+        <tr><th scope="row"><a href="https://www.aemps.gob.es/cosmeticos/control-del-mercado/alertas">AEMPS</a></th><td>Cosméticos</td><td>2020</td><td class="num">{total('aemps-cosmeticos')}</td></tr>
+        <tr><th scope="row"><a href="https://ec.europa.eu/safety-gate-alerts/">Safety Gate</a></th><td>Productos no alimentarios peligrosos en Europa</td><td>2020</td><td class="num">{total('safety-gate')}</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Qué no cubrimos</h2>
+    <ul>
+      <li><strong>Alertas nacionales de Consumo:</strong> aún no las incluimos porque hemos pedido confirmar las condiciones de reutilización. Puedes consultarlas en <a href="https://servicios.consumo.gob.es/rapnaPublic">su web</a>.</li>
+      <li><strong>AESAN anterior a 2025:</strong> la agencia no las mantiene publicadas.</li>
+      <li><strong>Productos sanitarios y medicamentos veterinarios:</strong> están en la <a href="https://www.aemps.gob.es/comunicacion/alertas/">web de la AEMPS</a>.</li>
+      <li><strong>Vehículos:</strong> solo los que aparecen en Safety Gate.</li>
+      <li><strong>Avisos de empresas</strong> que no hayan pasado por estas autoridades.</li>
+    </ul>
+    <p class="alerta-roja">Que un producto no aparezca aquí no significa que sea seguro.</p>
+
+    <h2>Cada cuánto se actualiza</h2>
+    <p>Comprobamos las fuentes unas ocho veces al día, aunque el proceso puede retrasarse. Safety Gate publica un informe semanal los viernes. Si una fuente falla, conservamos el último dato bueno y lo indicamos en <a href={ruta('/estado/')}>Estado de las fuentes</a>.</p>
+
+    <h2>Cómo tratamos los datos</h2>
+    <ul>
+      <li><strong>Extracción automática.</strong> Algunas fuentes publican texto, no datos. Lo interpretamos con reglas y puede haber errores: lo indicamos en la ficha.</li>
+      <li><strong>Sin escala propia de gravedad.</strong> Mostramos solo la etiqueta oficial. AESAN no publica un nivel de riesgo.</li>
+      <li><strong>"Qué hacer".</strong> En AESAN y cosméticos resumimos el texto oficial. En medicamentos y Safety Gate mostramos una orientación general.</li>
+      <li><strong>Alertas relacionadas.</strong> Si coinciden el código de barras, o la marca con el modelo o el lote, las enlazamos, pero cada alerta conserva su ficha.</li>
+      <li><strong>España en Safety Gate.</strong> La red europea no siempre indica dónde se vendió un producto. Por eso mostramos todas las alertas y avisamos cuando no consta su relación con España.</li>
+    </ul>
+
+    <h2>Licencias y atribución</h2>
+    <ul>
+      <li><strong>AESAN:</strong> reutilización autorizada citando la fuente y la fecha de actualización, sin desnaturalizar el contenido.</li>
+      <li><strong>AEMPS:</strong> reproducción autorizada citando su origen y la fecha de actualización.</li>
+      <li><strong>Safety Gate:</strong> © Unión Europea. Informes semanales con licencia CC0; el resto del contenido, CC BY 4.0 según la política de reutilización de la Comisión Europea.</li>
+    </ul>
+    <p>No mostramos fotografías de productos para no reutilizar imágenes con derechos de terceros. El nombre de cada marca pertenece a su titular.</p>
+    <p>¿Has visto un error? Escríbenos a la dirección que aparece en el <a href={ruta('/aviso-legal/')}>aviso legal</a>.</p>
+  </div>
+</Base>

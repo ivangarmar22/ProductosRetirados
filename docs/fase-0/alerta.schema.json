@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://retirado.invalid/esquemas/alerta.schema.json",
+  "title": "Alerta normalizada (propuesta Fase 0)",
+  "description": "Solo contiene campos observados en fixtures reales. Lo que una fuente no da se deja null o []: nunca se rellena por inferencia. El $id es provisional hasta que haya dominio.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "fuente", "idFuente", "referenciaOficial", "urlOficial", "tipoAviso", "titulo", "fechas", "categoria", "productos", "riesgo", "medidas", "distribucion", "empresas", "imagenes", "documentos", "dedup", "procedencia"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Estable y derivado solo de fuente + idFuente. No cambia aunque cambie el título." },
+    "fuente": { "enum": ["aesan", "aemps-medicamentos", "aemps-productos-sanitarios", "aemps-cosmeticos", "consumo", "safety-gate"] },
+    "idFuente": { "type": "string", "description": "Identificador interno: slug AESAN, code AEMPS, id alertasps, id RAPNA, id Safety Gate." },
+    "referenciaOficial": { "type": ["string", "null"], "description": "ES2026/665, R_38/2026, 2026-536, COS, 07/2026, 162/2026, SR/03088/26." },
+    "urlOficial": { "type": "string", "format": "uri" },
+    "tipoAviso": { "enum": ["alerta", "ampliacion", "correccion"] },
+    "alertaBase": { "type": ["string", "null"], "description": "En ampliaciones y correcciones, id de la alerta original." },
+    "titulo": { "type": "string", "minLength": 1 },
+    "resumen": { "type": ["string", "null"] },
+    "fechas": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["publicacion"],
+      "properties": {
+        "publicacion": { "type": "string", "format": "date" },
+        "publicacionWeb": { "type": ["string", "null"], "format": "date", "description": "Consumo: fecha del lote web; puede ir semanas después de publicacion." },
+        "modificacion": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+    "categoria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["literal"],
+      "properties": {
+        "literal": { "type": "string", "description": "Texto tal como lo da la fuente." },
+        "normalizada": { "type": ["string", "null"], "description": "Taxonomía propia; se define en Fase 2." }
+      }
+    },
+    "publico": { "enum": ["consumidores", "profesionales", null], "description": "Solo Safety Gate lo da de forma explícita." },
+    "productos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["nombre", "marcas", "modelos", "lotes", "ean"],
+        "properties": {
+          "nombre": { "type": ["string", "null"] },
+          "marcas": { "type": "array", "items": { "type": "string" } },
+          "modelos": { "type": "array", "items": { "type": "string" } },
+          "lotes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["numero"],
+              "properties": {
+                "numero": { "type": ["string", "null"] },
+                "caducidad": { "type": ["string", "null"], "format": "date" },
+                "consumoPreferente": { "type": ["string", "null"], "format": "date" },
+                "codigoNacional": { "type": ["string", "null"], "description": "AEMPS: nationalCodePresentation." }
+              }
+            }
+          },
+          "ean": { "type": "array", "items": { "type": "string", "pattern": "^[0-9]{8,14}$" } },
+          "registroAemps": { "type": ["string", "null"], "description": "AEMPS: products[].cn." },
+          "descripcion": { "type": ["string", "null"] },
+          "envase": { "type": ["string", "null"] },
+          "peso": { "type": ["string", "null"] },
+          "temperatura": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "riesgo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tipos", "descripcion", "nivelLiteral"],
+      "properties": {
+        "tipos": { "type": "array", "items": { "type": "string" } },
+        "descripcion": { "type": ["string", "null"] },
+        "nivelLiteral": { "type": ["string", "null"], "description": "Riesgo grave / Otros niveles de riesgo (Safety Gate); clase 1-3 (AEMPS medicamentos); 1A, 2A, 2B (alertasps, significado sin verificar). AESAN y Consumo no publican nivel." },
+        "alergenos": { "type": "array", "items": { "type": "string" }, "description": "Derivado del título o texto de AESAN; ninguna fuente lo da como campo." }
+      }
+    },
+    "medidas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["texto"],
+        "properties": {
+          "texto": { "type": "string" },
+          "fecha": { "type": ["string", "null"], "format": "date" }
+        }
+      }
+    },
+    "recomendacion": { "type": ["string", "null"], "description": "Texto literal de la fuente dirigido a la persona consumidora. No se redacta ni se infiere." },
+    "distribucion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ccaa", "paisNotificante", "paisOrigen", "paisesDetectado", "autoridadNotificante", "literal"],
+      "properties": {
+        "ccaa": { "type": "array", "items": { "type": "string" } },
+        "paisNotificante": { "type": ["string", "null"] },
+        "paisOrigen": { "type": ["string", "null"] },
+        "paisesDetectado": { "type": "array", "items": { "type": "string" }, "description": "Safety Gate: reactingCountries (ISO 3166-1 alfa-2; XI = Irlanda del Norte)." },
+        "autoridadNotificante": { "type": ["string", "null"], "description": "Consumo: CCAA notificante. NO equivale a distribución." },
+        "literal": { "type": ["string", "null"] }
+      }
+    },
+    "empresas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rol", "nombre"],
+        "properties": {
+          "rol": { "enum": ["titular", "fabricante", "vendedor-online"] },
+          "nombre": { "type": "string" }
+        }
+      }
+    },
+    "imagenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["urlOrigen"],
+        "properties": {
+          "urlOrigen": { "type": ["string", "null"] },
+          "nombreFichero": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "documentos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "nombre"],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "nombre": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "dedup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claves"],
+      "properties": {
+        "claves": {
+          "type": "array",
+          "description": "ean:<gtin> | mm:<marca>:<modelo> | ml:<marca>:<lote> | ref:<referenciaOficial>. Una coincidencia genera un candidato; lote y modelo deciden si es el mismo producto o solo relacionado.",
+          "items": { "type": "string", "pattern": "^(ean|mm|ml|ref):.+$" }
+        }
+      }
+    },
+    "procedencia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["formato", "extraccion", "consultadoEn"],
+      "properties": {
+        "formato": { "enum": ["html", "json-incrustado", "json-api", "xml"] },
+        "extraccion": { "enum": ["campo-estructurado", "texto-etiquetado", "texto-libre"], "description": "Permite avisar en la ficha cuando el dato viene de interpretar prosa." },
+        "consultadoEn": { "type": "string", "format": "date" },
+        "hashContenido": { "type": ["string", "null"], "description": "Las fuentes comprobadas no envían ETag: los cambios se detectan por hash." }
+      }
+    }
+  }
+}

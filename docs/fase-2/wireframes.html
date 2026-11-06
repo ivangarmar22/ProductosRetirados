@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Está Retirado · Wireframes</title>
+<style>
+  :root { --l: #14181f; --g: #d9d5ca; --f: #f4f1ea; --r: #c22f10; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 400 15px/1.4 system-ui, sans-serif; background: #e9e7e1; color: var(--l); }
+  main { max-width: 90rem; margin: 0 auto; padding: 1.5rem; }
+  h1 { font-size: 1.75rem; margin: 0; }
+  h2 { font-size: 1.25rem; margin: 2.5rem 0 .25rem; border-top: 2px solid var(--l); padding-top: 1rem; }
+  .nota { max-width: 46rem; margin: 0 0 1rem; }
+  .par { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start; }
+  .m, .d { background: #fff; border: 2px solid var(--l); padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+  .m { width: 340px; }
+  .d { width: 720px; }
+  .tag { font-size: 12px; color: #555; margin-bottom: 4px; }
+  .b { border: 1.5px solid var(--l); padding: 8px; background: var(--f); }
+  .h { background: var(--l); color: #fff; padding: 8px; font-weight: 700; }
+  .t { font-size: 20px; font-weight: 800; line-height: 1.1; }
+  .x { font-size: 13px; color: #444; }
+  .fila { display: flex; gap: 8px; flex-wrap: wrap; }
+  .fila > * { flex: 1; }
+  .chip { flex: none; border: 1.5px solid var(--l); padding: 4px 8px; font-size: 13px; background: #fff; }
+  .chip.on { background: var(--l); color: #fff; }
+  .btn { background: var(--l); color: #fff; text-align: center; padding: 10px; font-weight: 700; }
+  .aviso { border: 2px solid var(--r); padding: 8px; color: var(--r); background: #fff; font-weight: 600; }
+  .col { display: grid; grid-template-columns: 200px 1fr; gap: 8px; }
+  .hoja { border: 2px dashed var(--l); padding: 8px; background: #fff; }
+  .tl { border-left: 3px solid var(--l); padding-left: 10px; display: grid; gap: 6px; }
+  ul { margin: 0; padding-left: 18px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Wireframes de las páginas clave</h1>
+  <p class="nota">Baja fidelidad: definen estructura y comportamiento, no el aspecto. El aspecto es el de la dirección B Etiqueta.</p>
+
+  <h2>1. Listado y buscador</h2>
+  <p class="nota">Todo el estado va en la URL. En móvil, los filtros salen en una hoja inferior que se abre y aplica con el pulgar. Filtros activos siempre visibles y eliminables.</p>
+  <div class="par">
+    <div><div class="tag">Móvil</div><div class="m">
+      <div class="h">Logo · Menú</div>
+      <div class="b">Marca, producto, lote o EAN · [escáner] · Buscar</div>
+      <div class="fila"><span class="chip on">Alimentos ×</span><span class="chip on">Huevo ×</span><span class="chip">+ Filtros (2)</span></div>
+      <div class="x">182 alertas · Orden: más recientes</div>
+      <div class="b"><b>Producto</b><br>Motivo<br><span class="x">Lote / EAN · Fecha · Nivel oficial · Fuente</span></div>
+      <div class="b"><b>Producto</b><br>Motivo<br><span class="x">Lote / EAN · Fecha · Nivel oficial · Fuente</span></div>
+      <div class="btn">Cargar más</div>
+      <div class="hoja"><b>Hoja inferior de filtros</b><ul><li>Fuente</li><li>Categoría</li><li>Tipo de riesgo</li><li>Alérgeno</li><li>CCAA</li><li>Fecha</li><li>Marca</li></ul><div class="btn" style="margin-top:6px">Ver 182 alertas</div></div>
+    </div></div>
+    <div><div class="tag">Escritorio</div><div class="d">
+      <div class="h">Logo · Alertas · Categorías · Alérgenos · Avisos · Guías</div>
+      <div class="b">Marca, producto, lote o EAN · [escáner] · Buscar</div>
+      <div class="col">
+        <div class="b"><b>Filtros</b><ul><li>Fuente</li><li>Categoría</li><li>Tipo de riesgo</li><li>Alérgeno</li><li>CCAA</li><li>Fecha</li><li>Marca</li></ul></div>
+        <div style="display:grid;gap:8px">
+          <div class="fila"><span class="chip on">Alimentos ×</span><span class="chip on">Huevo ×</span><span class="x" style="flex:none">182 alertas · Ordenar ▾</span></div>
+          <div class="h">Fecha · Producto · Motivo · Lote / EAN · Nivel</div>
+          <div class="b">Fila de alerta</div><div class="b">Fila de alerta</div><div class="b">Fila de alerta</div>
+          <div class="x">Paginación: 1 2 3 … · cada página con URL propia</div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+
+  <h2>2. Sin resultados: nunca decir "es seguro"</h2>
+  <p class="nota">Es la pantalla con más responsabilidad. No afirma que el producto sea seguro, explica por qué puede no aparecer y propone el siguiente paso. Si hay una errata probable, sugiere la corrección.</p>
+  <div class="par"><div><div class="tag">Móvil</div><div class="m">
+    <div class="b">urkave</div>
+    <div class="b">¿Querías decir <b>Urkabe</b>?</div>
+    <div class="x">[Ilustración: estante con hueco]</div>
+    <div class="t">No consta ninguna alerta para "urkave"</div>
+    <div class="aviso">Esto no significa que el producto sea seguro.</div>
+    <ul class="x"><li>Muchas alertas no publican EAN. Prueba con la marca o el lote.</li><li>Cubrimos estas fuentes y fechas: ver metodología.</li></ul>
+    <div class="btn">Buscar por marca</div>
+  </div></div></div>
+
+  <h2>3. Ficha de alerta</h2>
+  <p class="nota">"Qué hacer" arriba y el panel de datos pegado al lote. El historial agrupa ampliaciones y correcciones. Las alertas de Safety Gate muestran el aviso sobre España. El hueco de publicidad queda reservado en el pie, sin ningún script.</p>
+  <div class="par">
+    <div><div class="tag">Móvil</div><div class="m">
+      <div class="x">Inicio / Alimentos / Ficha</div>
+      <div class="t">Nombre del producto</div>
+      <div>Motivo · Nivel oficial</div>
+      <div class="aviso">Solo Safety Gate: alerta europea. No consta si se ha vendido en España.</div>
+      <div class="h">Qué hacer</div>
+      <div class="b">Pasos · "Resumen del texto oficial"</div>
+      <div class="b"><b>Panel de datos</b><br>Lote · Caducidad · EAN · Marca · Peso…</div>
+      <div class="b"><b>Distribución</b><br>CCAA o países, con la aclaración oficial</div>
+      <div class="b"><b>Historial de la alerta</b><div class="tl"><span>04/11 Alerta inicial</span><span>12/11 Ampliación: +2 lotes</span></div></div>
+      <div class="b"><b>También en otra fuente</b><br>Enlace a la alerta relacionada</div>
+      <div class="btn">Ver fuente oficial</div>
+      <div class="x">Referencia · Publicada · Actualizada · Compartir</div>
+    </div></div>
+    <div><div class="tag">Escritorio</div><div class="d"><div class="x">Inicio / Alimentos / Ficha</div><div class="t">Nombre del producto</div><div>Motivo · Nivel oficial</div>
+      <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:8px"><div style="display:grid;gap:8px"><div class="h">Qué hacer</div><div class="b">Pasos · "Resumen del texto oficial"</div><div class="b"><b>Distribución</b></div><div class="b"><b>Historial de la alerta</b></div><div class="b"><b>También en otra fuente</b></div></div><div style="display:grid;gap:8px;align-content:start"><div class="b"><b>Panel de datos</b><br>Lote · Caducidad · EAN · Marca · Peso…</div><div class="btn">Ver fuente oficial</div><div class="x">Referencia · Publicada · Actualizada · Compartir</div></div></div>
+    </div></div>
+  </div>
+
+  <h2>4. Mis alergias</h2>
+  <p class="nota">Se guarda solo en el navegador (<code>localStorage</code>): no hay cuenta ni servidor. Destaca coincidencias en listados y permite suscribirse al RSS de cada alérgeno.</p>
+  <div class="par"><div><div class="tag">Móvil</div><div class="m">
+    <div class="t">Mis alergias</div>
+    <div class="x">Se guardan solo en este dispositivo.</div>
+    <div class="fila"><span class="chip on">Huevo</span><span class="chip">Leche</span><span class="chip on">Sésamo</span><span class="chip">Gluten</span><span class="chip">Soja</span><span class="chip">Frutos secos</span></div>
+    <div class="b"><b>Alertas que te afectan</b><br>Lista filtrada</div>
+    <div class="btn">RSS de mis alérgenos</div>
+  </div></div></div>
+
+  <h2>5. Avisos y Apoya</h2>
+  <p class="nota">Avisos: los tres canales con su frecuencia. Apoya: igual que en LeyAnimal, con Bizum, PayPal y su QR.</p>
+  <div class="par">
+    <div><div class="tag">Avisos, móvil</div><div class="m">
+      <div class="t">Recibe los avisos</div>
+      <div class="b"><b>Telegram</b><br>Cada alerta nueva · Unirse al canal</div>
+      <div class="b"><b>Newsletter</b><br>Resumen semanal · correo · casilla de consentimiento · Apuntarme</div>
+      <div class="b"><b>RSS</b><br>General · por categoría · por alérgeno</div>
+    </div></div>
+    <div><div class="tag">Apoya, móvil</div><div class="m">
+      <div class="t">Apoya el proyecto</div>
+      <div class="x">Es gratis y lo seguirá siendo. Por qué existe y en qué ayuda.</div>
+      <div class="b"><b>Bizum</b><br>Número · Copiar</div>
+      <div class="b"><b>PayPal</b><br>QR · Abrir PayPal</div>
+      <div class="x">Voluntario, sin contraprestación y no deducible.</div>
+    </div></div>
+  </div>
+</main>
+</body>
+</html>

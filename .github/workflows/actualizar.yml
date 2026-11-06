@@ -1,0 +1,109 @@
+# Descarga las fuentes, guarda los datos en la rama "datos", publica la web y avisa por
+# Telegram. Los datos no van en main: serían más de 20.000 ficheros junto al código.
+# Variables del repositorio: PUBLIC_SITE_URL, PUBLIC_TELEGRAM_URL, PUBLIC_NEWSLETTER_URL.
+# Secrets: TELEGRAM_BOT_TOKEN, TELEGRAM_CHANNEL_ID.
+name: Actualizar y publicar
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  push:
+    branches: [main]
+    paths-ignore: ['docs/**', 'fixtures/**', '**.md']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+env:
+  PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL || 'https://ivangarmar22.github.io/ProductosRetirados' }}
+  PUBLIC_TELEGRAM_URL: ${{ vars.PUBLIC_TELEGRAM_URL }}
+  PUBLIC_NEWSLETTER_URL: ${{ vars.PUBLIC_NEWSLETTER_URL }}
+
+jobs:
+  compilar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: npm
+
+      - run: npm ci
+
+      - name: Tests de parsers
+        run: npm test
+
+      - name: Recuperar los datos de la rama datos
+        run: |
+          repo="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          rc=0
+          git ls-remote --exit-code --heads "$repo" datos > /dev/null || rc=$?
+          case "$rc" in
+            0) git clone --quiet --depth 1 --branch datos "$repo" data ;;
+            2) git init --quiet -b datos data; git -C data remote add origin "$repo" ;;
+            *) exit "$rc" ;;
+          esac
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Descargar fuentes
+        if: github.event_name != 'push'
+        run: npm run pipeline
+
+      - name: Avisar por Telegram
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: npm run avisos
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+
+      - name: Guardar los datos
+        if: github.event_name != 'push'
+        working-directory: data
+        run: |
+          git config user.name 'productosretirados-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet || { git commit --quiet -m "datos: actualización automática" && git push --quiet origin datos; }
+
+      - name: Compilar la web
+        run: npm run build
+
+      - name: Dominio propio
+        run: |
+          host=$(node -p "new URL(process.env.PUBLIC_SITE_URL).hostname")
+          case "$host" in *.github.io) ;; *) echo "$host" > dist/CNAME ;; esac
+
+      - name: Comprobar el sitio
+        run: |
+          fichas=$(ls dist/alerta | wc -l)
+          echo "Fichas: $fichas"
+          [ "$fichas" -ge 1000 ] || { echo "Sitio casi vacío: no se publica"; exit 1; }
+          kb=$(du -sk dist | cut -f1)
+          echo "Sitio: $((kb / 1024)) MB"
+          [ "$kb" -lt 943718 ] || { echo "Supera 900 MB: reduce el histórico"; exit 1; }
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  publicar:
+    needs: compilar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v5

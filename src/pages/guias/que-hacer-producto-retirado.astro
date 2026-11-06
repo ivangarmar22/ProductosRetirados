@@ -1,0 +1,39 @@
+---
+import Cabecera from '../../componentes/Cabecera.astro';
+import Base from '../../layouts/Base.astro';
+import { ruta } from '../../lib/sitio';
+---
+
+<Base titulo="Qué hacer si tienes un producto retirado" descripcion="Pasos claros si tienes en casa un alimento, medicamento, cosmético o producto retirado: cómo comprobarlo, qué hacer y a quién acudir." ruta="/guias/que-hacer-producto-retirado/" tipo="article">
+  <div class="pagina texto">
+    <Cabecera titulo="Qué hacer si tienes un producto retirado" migas={[{ texto: 'Qué hacer' }]} ilustracion="devolucion" color="rosa">
+      <p class="entradilla">Lo primero es confirmar que tu producto es el afectado. Una alerta suele referirse a lotes o modelos concretos, no a toda la marca.</p>
+    </Cabecera>
+
+
+    <h2>1. Comprueba si es el tuyo</h2>
+    <p>Compara con la ficha de la alerta la marca, el nombre, el lote, la fecha de caducidad o el modelo. Si no sabes dónde mirar, consulta <a href={ruta('/guias/donde-esta-el-lote/')}>dónde está el lote</a>.</p>
+    <p>Si tu lote no coincide, en general la alerta no te afecta. Si tienes dudas, trátalo como si coincidiera.</p>
+
+    <h2>2. Deja de usarlo</h2>
+    <p>Si coincide, no lo consumas ni lo uses, y sigue lo que indique la fuente oficial. Cada ficha enlaza a ella.</p>
+
+    <h2>3. Según el tipo de producto</h2>
+    <h3>Alimentos</h3>
+    <p>No lo consumas. Si lo has comido y tienes síntomas, acude a un centro de salud. Si estás embarazada o tienes una alergia relacionada con la alerta, extrema la precaución.</p>
+    <h3>Medicamentos</h3>
+    <p>Comprueba el número de lote. Si coincide, acude a tu farmacia para gestionar el cambio por un lote no afectado o consulta con tu médico. Las alertas con retirada a nivel de paciente lo indican expresamente.</p>
+    <h3>Cosméticos</h3>
+    <p>Deja de usarlo y lleva el producto al punto de venta donde lo compraste.</p>
+    <h3>Juguetes, eléctricos y otros productos</h3>
+    <p>Deja de usarlo, mantenlo fuera del alcance de la infancia y contacta con la tienda o con el fabricante.</p>
+
+    <h2>4. Devuélvelo o reclama</h2>
+    <p>Muchas retiradas permiten devolver el producto en la tienda. Guarda el ticket si lo tienes, aunque no siempre es imprescindible. Si tienes problemas, puedes acudir a la oficina de consumo de tu ayuntamiento o de tu comunidad autónoma.</p>
+
+    <h2>5. Si crees que has sufrido un daño</h2>
+    <p>Busca atención sanitaria si tienes síntomas y guarda el producto, el envase y el ticket. En una urgencia llama al 112.</p>
+
+    <p class="nota">Esta guía es información general y no sustituye a las indicaciones de la fuente oficial ni el consejo de un profesional sanitario.</p>
+  </div>
+</Base>

@@ -1,0 +1,75 @@
+---
+import type { Alerta } from '../../pipeline/tipos.ts';
+import { CATEGORIAS, nombresAlergenos, nombresCcaa, TIPOS_RIESGO } from '../../pipeline/normalizar.ts';
+import { alertas as todas } from '../lib/datos';
+import { numero } from '../lib/formato';
+import { ruta } from '../lib/sitio';
+import Buscador from './Buscador.astro';
+import Lista from './Lista.astro';
+
+interface Props { alertas: Alerta[]; pagina: number; paginas: number }
+const { alertas, pagina, paginas } = Astro.props;
+const anios = [...new Set(todas().map((a) => a.fechas.publicacion.slice(0, 4)))].sort().reverse();
+const total = todas().length;
+const url = (n: number) => (n === 1 ? '/alertas/' : `/alertas/pagina/${n}/`);
+---
+
+<div class="cabecera">
+  <div>
+    <h1>Alertas</h1>
+    <form id="filtros" class="busqueda" role="search" action={ruta('/alertas/')} method="get">
+      <Buscador interno />
+      <details class="filtros">
+        <summary>Filtros</summary>
+        <div class="filtros-in">
+          <label>Ámbito<select id="f-ambito" name="ambito"><option value="">Todos</option><option value="espana">Alertas de España</option><option value="europa">Alertas europeas</option></select></label>
+          <label>Fuente<select id="f-fuente" name="fuente"><option value="">Todas</option><option>AESAN</option><option>AEMPS</option><option>Safety Gate</option></select></label>
+          <label>Categoría<select id="f-categoria" name="categoria"><option value="">Todas</option>{Object.values(CATEGORIAS).map((c) => <option>{c}</option>)}</select></label>
+          <label>Tipo de riesgo<select id="f-riesgo" name="riesgo"><option value="">Todos</option>{Object.entries(TIPOS_RIESGO).map(([v, t]) => <option value={v}>{t}</option>)}</select></label>
+          <label>Alérgeno<select id="f-alergeno" name="alergeno"><option value="">Todos</option>{nombresAlergenos.map((c) => <option>{c}</option>)}</select></label>
+          <label>Comunidad autónoma<select id="f-ccaa" name="ccaa"><option value="">Todas</option>{nombresCcaa.map((c) => <option>{c}</option>)}</select></label>
+          <label>Año<select id="f-anio" name="anio"><option value="">Todos</option>{anios.map((c) => <option>{c}</option>)}</select></label>
+          <label>Marca<input id="f-marca" name="marca" type="text" autocomplete="off" /></label>
+          <label>Orden<select id="f-orden" name="orden"><option value="">Automático</option><option value="recientes">Más recientes</option><option value="antiguas">Más antiguas</option><option value="relevancia">Relevancia</option></select></label>
+          <button class="btn ver-resultados" type="submit">Ver resultados</button>
+        </div>
+      </details>
+    </form>
+  </div>
+</div>
+<noscript><p class="nota">El buscador y los filtros necesitan JavaScript. El listado completo sigue disponible abajo.</p></noscript>
+
+<div id="dinamico" hidden>
+  <div id="activos" class="activos"></div>
+  <p id="resumen" class="resumen-busqueda" role="status" aria-live="polite"></p>
+  <p id="sugerencia" class="quisiste" hidden>¿Querías decir <a href="#"></a>?</p>
+  <h2 class="oculto">Resultados</h2>
+  <div id="resultados" class="rej"></div>
+  <button id="cargar-mas" class="btn btn-ancho" type="button" hidden>Cargar más</button>
+  <div id="vacio" class="sin-resultados" hidden>
+    <div>
+      <h2>No consta ninguna alerta para <span id="vacio-termino"></span></h2>
+      <p class="alerta-roja">Esto no significa que el producto sea seguro.</p>
+      <ul>
+        <li>Muchas alertas no publican el código de barras: prueba con la marca o el lote.</li>
+        <li>Revisa cómo está escrito el lote en el envase.</li>
+        <li>No cubrimos todo: consulta <a href={ruta('/fuentes/')}>qué fuentes y fechas incluimos</a>.</li>
+      </ul>
+    </div>
+    <img src={ruta('/ilustraciones/estante-hueco.svg')} alt="" width="300" height="300" loading="lazy" />
+  </div>
+</div>
+
+<div id="estatico">
+  <p class="resumen-busqueda">{numero(total)} alertas · Página {pagina} de {numero(paginas)}</p>
+  <Lista alertas={alertas} />
+  <nav class="paginacion" aria-label="Paginación">
+    {pagina > 1 ? <a href={ruta(url(pagina - 1))} rel="prev">Anterior</a> : <span></span>}
+    <span>{pagina} / {numero(paginas)}</span>
+    {pagina < paginas ? <a href={ruta(url(pagina + 1))} rel="next">Siguiente</a> : <span></span>}
+  </nav>
+</div>
+
+<script>
+  import '../scripts/buscador';
+</script>

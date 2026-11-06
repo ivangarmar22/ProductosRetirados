@@ -1,0 +1,9 @@
+---
+import type { TipoNivel } from '../lib/datos';
+import { ICONO_NIVEL } from '../lib/iconos';
+import Icono from './Icono.astro';
+interface Props { texto: string; tipo: TipoNivel }
+const { texto, tipo } = Astro.props;
+---
+
+<span class={`nivel n-${tipo}`}><Icono n={ICONO_NIVEL[tipo]} />{texto}</span>

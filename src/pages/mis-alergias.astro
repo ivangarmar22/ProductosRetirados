@@ -1,0 +1,74 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Base from '../layouts/Base.astro';
+import { ruta } from '../lib/sitio';
+import { nombresAlergenos, slug } from '../../pipeline/normalizar.ts';
+---
+
+<Base titulo="Mis alergias" descripcion="Elige tus alérgenos y consulta solo las alertas que te afectan. Se guarda en tu dispositivo, sin cuenta ni registro." ruta="/mis-alergias/">
+  <div class="pagina">
+    <Cabecera titulo="Mis alergias" migas={[{ texto: 'Mis alergias' }]} ilustracion="alergenos" color="crema">
+      <p class="entradilla">Marca tus alérgenos. Se guardan solo en este dispositivo: no hay cuenta y no sale de tu navegador.</p>
+    </Cabecera>
+    <form id="alergias" class="caja">
+      <fieldset>
+        <legend class="oculto">Alérgenos</legend>
+        <div class="chips">
+          {nombresAlergenos.map((n) => <label class="chip-c"><input type="checkbox" name="a" value={n} />{n}</label>)}
+        </div>
+      </fieldset>
+    </form>
+    <p id="resumen" class="resumen-busqueda" role="status" aria-live="polite"></p>
+    <h2 class="oculto">Alertas de tus alérgenos</h2>
+    <div id="resultados" class="rej" hidden></div>
+    <div id="vacio" class="sin-resultados" hidden>
+      <div>
+        <p id="vacio-texto"></p>
+        <p class="alerta-roja">Lee siempre la etiqueta: que no haya una alerta no significa que un producto no contenga el alérgeno.</p>
+      </div>
+    </div>
+    <h2>Recibe avisos de tus alérgenos</h2>
+    <ul class="rejilla-enlaces">{nombresAlergenos.map((n) => <li><a href={ruta(`/rss/alergeno/${slug(n)}.xml`)}>RSS de {n.toLowerCase()}</a></li>)}</ul>
+  </div>
+</Base>
+
+
+<script>
+  import { tarjetaHtml } from '../lib/tarjeta';
+  import { aTarjeta, pagefind } from '../scripts/motor';
+
+  const CLAVE = 'mis-alergias';
+  const form = document.querySelector<HTMLFormElement>('#alergias')!;
+  const lista = document.querySelector<HTMLElement>('#resultados')!;
+  const resumen = document.querySelector<HTMLElement>('#resumen')!;
+  const vacio = document.querySelector<HTMLElement>('#vacio')!;
+  const vacioTexto = document.querySelector<HTMLElement>('#vacio-texto')!;
+  const casillas = [...form.querySelectorAll<HTMLInputElement>('input[name=a]')];
+
+  function leer(): string[] {
+    try { return JSON.parse(localStorage.getItem(CLAVE) ?? '[]'); } catch { return []; }
+  }
+  let turno = 0;
+  async function pintar() {
+    const yo = ++turno;
+    const elegidos = casillas.filter((c) => c.checked).map((c) => c.value);
+    try { localStorage.setItem(CLAVE, JSON.stringify(elegidos)); } catch { /* modo privado */ }
+    lista.hidden = true;
+    vacio.hidden = true;
+    if (!elegidos.length) { resumen.textContent = 'Elige al menos un alérgeno.'; return; }
+    resumen.textContent = 'Buscando…';
+    const motor = await pagefind();
+    const r = await motor.search(null, { filters: { alergeno: { any: elegidos } }, sort: { fecha: 'desc' } });
+    if (yo !== turno) return;
+    resumen.textContent = `${r.results.length.toLocaleString('es-ES')} alertas`;
+    if (!r.results.length) { vacioTexto.textContent = 'No hay alertas publicadas para estos alérgenos.'; vacio.hidden = false; return; }
+    const datos = await Promise.all(r.results.slice(0, 40).map((x) => x.data()));
+    if (yo !== turno) return;
+    lista.innerHTML = datos.map((d) => tarjetaHtml(aTarjeta(d))).join('');
+    lista.hidden = false;
+  }
+  const guardados = leer();
+  casillas.forEach((c) => { c.checked = guardados.includes(c.value); });
+  form.addEventListener('change', pintar);
+  pintar();
+</script>

@@ -1,0 +1,48 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Base from '../layouts/Base.astro';
+import { EMAIL, LEGAL_ACTUALIZADO, NOMBRE, ruta } from '../lib/sitio';
+---
+
+<Base titulo="Política de privacidad" descripcion="Cómo trata Productos Retirados los datos personales." ruta="/privacidad/">
+  <div class="pagina texto">
+    <Cabecera titulo="Privacidad" migas={[{ texto: 'Privacidad' }]} color="crema">
+      <p class="nota">Última actualización: {LEGAL_ACTUALIZADO}.</p>
+    </Cabecera>
+    <div class="caja">
+      <h2>En pocas palabras</h2>
+      <ul>
+        <li>No hay registro ni cuentas de usuario.</li>
+        <li>No usamos cookies, analítica, publicidad ni perfiles.</li>
+        <li>Tus búsquedas se hacen en tu navegador y no se envían a ningún servidor propio.</li>
+        <li>"Mis alergias" y "Mi despensa" se guardan solo en tu dispositivo.</li>
+      </ul>
+    </div>
+
+    <h2>1. Responsable</h2>
+    <p>El responsable es el titular de {NOMBRE}. Contacto: <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
+
+    <h2>2. Qué datos se tratan y para qué</h2>
+    <ul>
+      <li><strong>Si nos escribes:</strong> tu correo y el contenido del mensaje, para responderte (tu consentimiento, art. 6.1.a RGPD). Se conservan hasta atender la consulta y un máximo de 12 meses.</li>
+      <li><strong>Si te apuntas a la newsletter:</strong> tu correo, para enviarte el resumen (tu consentimiento). Se gestiona con MailerLite, en un formulario externo, hasta que te des de baja.</li>
+      <li><strong>Si haces un donativo:</strong> lo que muestran Bizum o PayPal al recibir el pago, normalmente nombre, importe y concepto (art. 6.1.b RGPD), durante los plazos que exija la normativa.</li>
+      <li><strong>Si te unes al canal de Telegram:</strong> Telegram gestiona tu suscripción con sus condiciones. No recibimos tus datos.</li>
+      <li><strong>Al visitar la web:</strong> el alojamiento registra datos técnicos como la dirección IP, por seguridad (interés legítimo, art. 6.1.f RGPD). No tenemos acceso a esos registros.</li>
+    </ul>
+    <p>No tomamos decisiones automatizadas ni elaboramos perfiles.</p>
+
+    <h2>3. Proveedores</h2>
+    <p>No cedemos datos a terceros salvo obligación legal. Usamos estos proveedores, que tratan los datos según sus políticas: GitHub (alojamiento), Google (correo del proyecto), MailerLite (newsletter), Telegram (canal de avisos), PayPal y Bizum (donativos).</p>
+    <p>Algunos pueden tratar datos fuera del Espacio Económico Europeo, con las garantías del capítulo V del RGPD que indica cada proveedor.</p>
+
+    <h2>4. Tus derechos</h2>
+    <p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad, y retirar tu consentimiento, escribiendo a <a href={`mailto:${EMAIL}`}>{EMAIL}</a>. Si crees que no se han atendido bien, puedes reclamar ante la <a href="https://www.aepd.es">Agencia Española de Protección de Datos</a>.</p>
+
+    <h2>5. Menores</h2>
+    <p>La web no está dirigida a menores de 14 años. Si lo eres, no nos envíes datos personales sin la autorización de tus padres o tutores.</p>
+
+    <h2>6. Cambios</h2>
+    <p>Si cambia la forma de tratar los datos, actualizaremos esta página y su fecha. Consulta también la <a href={ruta('/cookies/')}>política de cookies</a>.</p>
+  </div>
+</Base>

@@ -1,0 +1,451 @@
+[
+  {
+    "id": "aesan-2026-80",
+    "fuente": "aesan",
+    "idFuente": "2026_80",
+    "referenciaOficial": "ES2026/665",
+    "urlOficial": "https://www.aesan.gob.es/alertas/2026_80",
+    "tipoAviso": "alerta",
+    "alertaBase": null,
+    "titulo": "Alerta por presencia de Listeria monocytogenes en jamón cocido procedente de España (Ref. ES2026/665)",
+    "resumen": null,
+    "fechas": {
+      "publicacion": "2026-11-04",
+      "publicacionWeb": null,
+      "modificacion": null
+    },
+    "categoria": {
+      "literal": "Alertas alimentarias de interés para toda la población",
+      "normalizada": null
+    },
+    "publico": null,
+    "productos": [
+      {
+        "registroAemps": null,
+        "descripcion": null,
+        "envase": "Envase de plástico",
+        "peso": "175 g",
+        "temperatura": "Refrigerado",
+        "nombre": "Jamón cocido",
+        "marcas": [
+          "URKABE"
+        ],
+        "modelos": [],
+        "lotes": [
+          {
+            "numero": "61027",
+            "caducidad": "2026-11-26",
+            "consumoPreferente": null,
+            "codigoNacional": null
+          }
+        ],
+        "ean": []
+      }
+    ],
+    "riesgo": {
+      "tipos": [
+        "Listeria monocytogenes"
+      ],
+      "descripcion": null,
+      "nivelLiteral": null,
+      "alergenos": []
+    },
+    "medidas": [],
+    "recomendacion": "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos.",
+    "distribucion": {
+      "ccaa": [
+        "Castilla y León",
+        "Madrid",
+        "Navarra",
+        "País Vasco"
+      ],
+      "paisNotificante": null,
+      "paisOrigen": "España",
+      "paisesDetectado": [],
+      "autoridadNotificante": "País Vasco",
+      "literal": "la distribución inicial ha sido a las comunidades autónomas de Castilla y León, Madrid, Navarra y País Vasco, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas."
+    },
+    "empresas": [],
+    "imagenes": [
+      {
+        "urlOrigen": "https://www.aesan.gob.es/dam/jcr:46151134-f6fd-4d69-952c-51ea495a7b06/Alerta_2026_11_04_2.2026-11-04-18-35-16.png",
+        "nombreFichero": null
+      }
+    ],
+    "documentos": [],
+    "dedup": {
+      "claves": [
+        "ref:ES2026/665",
+        "ml:urkabe:61027"
+      ]
+    },
+    "procedencia": {
+      "formato": "html",
+      "extraccion": "texto-etiquetado",
+      "consultadoEn": "2026-11-06",
+      "hashContenido": null
+    }
+  },
+  {
+    "id": "aemps-medicamentos-r-38-2026",
+    "fuente": "aemps-medicamentos",
+    "idFuente": "R_38/2026",
+    "referenciaOficial": "R_38/2026",
+    "urlOficial": "https://www.aemps.gob.es/comunicacion/alertas/alertas-farmaceuticas-y-retiradas-de-lotes-de-medicamentos-de-uso-humano-por-defectos-de-calidad/",
+    "tipoAviso": "alerta",
+    "alertaBase": null,
+    "titulo": "MYNZEPLI 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA",
+    "resumen": null,
+    "fechas": {
+      "publicacion": "2026-10-26",
+      "publicacionWeb": null,
+      "modificacion": null
+    },
+    "categoria": {
+      "literal": "Medicamento registrado",
+      "normalizada": null
+    },
+    "publico": null,
+    "productos": [
+      {
+        "registroAemps": "1251964002",
+        "descripcion": "AFLIBERCEPT",
+        "envase": null,
+        "peso": null,
+        "temperatura": null,
+        "nombre": "MYNZEPLI 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA",
+        "marcas": [],
+        "modelos": [],
+        "lotes": [
+          {
+            "numero": "2461580",
+            "caducidad": "2027-09-30",
+            "consumoPreferente": null,
+            "codigoNacional": "768370"
+          }
+        ],
+        "ean": []
+      }
+    ],
+    "riesgo": {
+      "tipos": [],
+      "descripcion": "Se ha detectado una desviación en el componente de la jeringa que sirve para apoyo de los dedos, que podría provocar que se afloje o se desprenda durante la administración del medicamento",
+      "nivelLiteral": "Clase 2",
+      "alergenos": []
+    },
+    "medidas": [
+      {
+        "texto": "Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales",
+        "fecha": null
+      }
+    ],
+    "recomendacion": null,
+    "distribucion": {
+      "ccaa": [],
+      "paisNotificante": null,
+      "paisOrigen": null,
+      "paisesDetectado": [],
+      "autoridadNotificante": null,
+      "literal": "Cadena de distribución y dispensación/hospitales"
+    },
+    "empresas": [
+      {
+        "rol": "titular",
+        "nombre": "ADVANZ PHARMA LIMITED"
+      },
+      {
+        "rol": "fabricante",
+        "nombre": "ALVOTECH HF. - Saemundargata 15-19, 102, Islandia"
+      }
+    ],
+    "imagenes": [],
+    "documentos": [
+      {
+        "url": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f81956ed9&idFirma=4298036",
+        "nombre": null
+      }
+    ],
+    "dedup": {
+      "claves": [
+        "ref:R_38/2026"
+      ]
+    },
+    "procedencia": {
+      "formato": "json-incrustado",
+      "extraccion": "campo-estructurado",
+      "consultadoEn": "2026-11-06",
+      "hashContenido": null
+    }
+  },
+  {
+    "id": "aemps-ps-64473",
+    "fuente": "aemps-productos-sanitarios",
+    "idFuente": "64473",
+    "referenciaOficial": "2026-536",
+    "urlOficial": "https://alertasps.aemps.es/alertasps/alertas",
+    "tipoAviso": "alerta",
+    "alertaBase": null,
+    "titulo": "Advertencias de seguridad relacionadas con los catéteres IVUS OptiCross para reducir el riesgo de embolia gaseosa mediante la modificación de las instrucciones de uso sobre los procedimientos de lavado y gestión del aire.",
+    "resumen": null,
+    "fechas": {
+      "publicacion": "2026-11-05",
+      "publicacionWeb": null,
+      "modificacion": null
+    },
+    "categoria": {
+      "literal": "Productos Electromédicos / Mecánicos",
+      "normalizada": null
+    },
+    "publico": null,
+    "productos": [
+      {
+        "registroAemps": null,
+        "descripcion": null,
+        "envase": null,
+        "peso": null,
+        "temperatura": null,
+        "nombre": "Catéteres para la obtención de imágenes por ecografía intravascular (IVUS) OptiCross. \nVer números de material/UPN y GTIN en el Anexo 1 de la nota de aviso de la empresa.",
+        "marcas": [],
+        "modelos": [],
+        "lotes": [],
+        "ean": []
+      }
+    ],
+    "riesgo": {
+      "tipos": [],
+      "descripcion": null,
+      "nivelLiteral": "2A",
+      "alergenos": []
+    },
+    "medidas": [],
+    "recomendacion": null,
+    "distribucion": {
+      "ccaa": [],
+      "paisNotificante": null,
+      "paisOrigen": null,
+      "paisesDetectado": [],
+      "autoridadNotificante": null,
+      "literal": null
+    },
+    "empresas": [
+      {
+        "rol": "fabricante",
+        "nombre": "Boston Scientific Corporation, Estados Unidos."
+      }
+    ],
+    "imagenes": [],
+    "documentos": [
+      {
+        "url": "https://alertasps.aemps.es/alertasps/documentos/116040",
+        "nombre": "Información AEMPS.pdf"
+      },
+      {
+        "url": "https://alertasps.aemps.es/alertasps/documentos/116037",
+        "nombre": "Nota de aviso de la empresa.pdf"
+      }
+    ],
+    "dedup": {
+      "claves": [
+        "ref:2026-536"
+      ]
+    },
+    "procedencia": {
+      "formato": "json-api",
+      "extraccion": "campo-estructurado",
+      "consultadoEn": "2026-11-06",
+      "hashContenido": null
+    }
+  },
+  {
+    "id": "consumo-160-2026",
+    "fuente": "consumo",
+    "idFuente": "84661",
+    "referenciaOficial": "160/2026",
+    "urlOficial": "https://servicios.consumo.gob.es/rapnaPublic/public/notificacion/84661",
+    "tipoAviso": "alerta",
+    "alertaBase": null,
+    "titulo": "OSO DE PELUCHE, marca MILE, ref. MSMR00215, lote 2022-09",
+    "resumen": null,
+    "fechas": {
+      "publicacion": "2026-10-05",
+      "publicacionWeb": "2026-11-03",
+      "modificacion": null
+    },
+    "categoria": {
+      "literal": "Juguetes",
+      "normalizada": null
+    },
+    "publico": null,
+    "productos": [
+      {
+        "registroAemps": null,
+        "descripcion": null,
+        "envase": null,
+        "peso": null,
+        "temperatura": null,
+        "nombre": "OSO DE PELUCHE",
+        "marcas": [
+          "MILE"
+        ],
+        "modelos": [
+          "MSMR00215"
+        ],
+        "lotes": [
+          {
+            "numero": "2022-09",
+            "caducidad": null,
+            "consumoPreferente": null,
+            "codigoNacional": null
+          }
+        ],
+        "ean": []
+      }
+    ],
+    "riesgo": {
+      "tipos": [
+        "Asfixia"
+      ],
+      "descripcion": "Los ojos del peluche pueden desprenderse, lo que supone un riesgo de asfixia si el niño o niña los ingiere accidentalmente.",
+      "nivelLiteral": null,
+      "alergenos": []
+    },
+    "medidas": [
+      {
+        "texto": "Inmovilización",
+        "fecha": null
+      },
+      {
+        "texto": "Prohibición de la comercialización",
+        "fecha": null
+      }
+    ],
+    "recomendacion": null,
+    "distribucion": {
+      "ccaa": [],
+      "paisNotificante": null,
+      "paisOrigen": null,
+      "paisesDetectado": [],
+      "autoridadNotificante": "Comunidad de Madrid",
+      "literal": null
+    },
+    "empresas": [],
+    "imagenes": [
+      {
+        "urlOrigen": null,
+        "nombreFichero": "160_2026_Fotografía_web.jpg"
+      }
+    ],
+    "documentos": [],
+    "dedup": {
+      "claves": [
+        "ref:160/2026",
+        "mm:mile:msmr00215",
+        "ml:mile:2022-09"
+      ]
+    },
+    "procedencia": {
+      "formato": "json-api",
+      "extraccion": "texto-etiquetado",
+      "consultadoEn": "2026-11-06",
+      "hashContenido": null
+    }
+  },
+  {
+    "id": "safety-gate-10118629",
+    "fuente": "safety-gate",
+    "idFuente": "10118629",
+    "referenciaOficial": "SR/03088/26",
+    "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118629",
+    "tipoAviso": "alerta",
+    "alertaBase": null,
+    "titulo": "Mantel: Nappe Rectangulaire 140x300 cm, Anti-tâches, imperméable",
+    "resumen": null,
+    "fechas": {
+      "publicacion": "2026-11-04",
+      "publicacionWeb": null,
+      "modificacion": "2026-11-04"
+    },
+    "categoria": {
+      "literal": "Artículos de decoración",
+      "normalizada": null
+    },
+    "publico": "consumidores",
+    "productos": [
+      {
+        "registroAemps": null,
+        "descripcion": "Mantel de PVC transparente y rectangular de 140x300 cm y 100 micras de espesor. ",
+        "envase": "Bolsa de plástico transparente con cabecera de cartón.",
+        "peso": null,
+        "temperatura": null,
+        "nombre": "Nappe Rectangulaire 140x300 cm, Anti-tâches, imperméable",
+        "marcas": [
+          "Solei d'Ocre"
+        ],
+        "modelos": [
+          "052025",
+          "Crystal transparent 100 microns"
+        ],
+        "lotes": [
+          {
+            "numero": "86NG589",
+            "caducidad": null,
+            "consumoPreferente": null,
+            "codigoNacional": null
+          }
+        ],
+        "ean": [
+          "3418178586009"
+        ]
+      }
+    ],
+    "riesgo": {
+      "tipos": [
+        "Riesgos químicos"
+      ],
+      "descripcion": "El producto tiene una concentración excesiva de DEHP (valor medido: 27 % en peso). Este ftalato puede dañar la salud al causar posibles daños al sistema reproductivo. ",
+      "nivelLiteral": "Riesgo grave",
+      "alergenos": []
+    },
+    "medidas": [
+      {
+        "texto": "Retirada del producto del mercado.",
+        "fecha": null
+      }
+    ],
+    "recomendacion": null,
+    "distribucion": {
+      "ccaa": [],
+      "paisNotificante": "LU",
+      "paisOrigen": "CN",
+      "paisesDetectado": [],
+      "autoridadNotificante": null,
+      "literal": null
+    },
+    "empresas": [],
+    "imagenes": [
+      {
+        "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240816",
+        "nombreFichero": "REAC01326B_10_02.JPEG"
+      },
+      {
+        "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240817",
+        "nombreFichero": "REAC01326B_10_03.JPEG"
+      }
+    ],
+    "documentos": [],
+    "dedup": {
+      "claves": [
+        "ref:SR/03088/26",
+        "ean:3418178586009",
+        "mm:solei-d-ocre:052025",
+        "ml:solei-d-ocre:86ng589"
+      ]
+    },
+    "procedencia": {
+      "formato": "json-api",
+      "extraccion": "campo-estructurado",
+      "consultadoEn": "2026-11-06",
+      "hashContenido": null
+    }
+  }
+]

@@ -1,0 +1,29 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Base from '../layouts/Base.astro';
+import { EMAIL, NOMBRE } from '../lib/sitio';
+---
+
+<Base titulo="Accesibilidad" descripcion="Compromiso de accesibilidad de Productos Retirados." ruta="/accesibilidad/">
+  <div class="pagina texto">
+    <Cabecera titulo="Accesibilidad" migas={[{ texto: 'Accesibilidad' }]} color="crema">
+      <p class="entradilla">{NOMBRE} se diseña para que cualquiera pueda consultarla, con el objetivo de cumplir las pautas WCAG 2.2 de nivel AA.</p>
+    </Cabecera>
+    <h2>Qué hacemos</h2>
+    <ul>
+      <li>Navegación completa con teclado y foco visible.</li>
+      <li>El nivel de riesgo se indica con texto y forma, no solo con color.</li>
+      <li>Contraste suficiente y texto que se puede ampliar.</li>
+      <li>Objetivos táctiles de al menos 44 píxeles.</li>
+      <li>Las ilustraciones son decorativas y nunca sustituyen a la información.</li>
+      <li>Las animaciones se pueden pausar y desaparecen si tu sistema pide reducir el movimiento.</li>
+      <li>Los gráficos tienen sus datos disponibles en tabla.</li>
+    </ul>
+    <h2>Cómo lo comprobamos</h2>
+    <p>Pasamos auditorías automáticas con axe en cada cambio. Las pruebas automáticas no detectan todos los problemas, y aún no hemos hecho una revisión completa con personas usuarias de lectores de pantalla.</p>
+    <h2>Limitaciones conocidas</h2>
+    <p>Los documentos oficiales enlazados, como los PDF de las autoridades, no dependen de nosotros y pueden no ser accesibles.</p>
+    <h2>Avísanos</h2>
+    <p>Si encuentras una barrera, escríbenos a <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
+  </div>
+</Base>

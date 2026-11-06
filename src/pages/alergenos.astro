@@ -1,0 +1,18 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Base from '../layouts/Base.astro';
+import { alertas } from '../lib/datos';
+import { numero } from '../lib/formato';
+import { ruta } from '../lib/sitio';
+import { nombresAlergenos, slug } from '../../pipeline/normalizar.ts';
+const cuenta = (n: string) => alertas().filter((a) => a.riesgo.alergenos?.includes(n)).length;
+---
+
+<Base titulo="Alertas por alérgeno" descripcion="Alertas de alérgenos no declarados en alimentos: gluten, leche, huevo, frutos secos, soja, pescado, sulfitos y más." ruta="/alergenos/">
+  <div class="pagina">
+    <Cabecera titulo="Alérgenos" migas={[{ texto: 'Alérgenos' }]} ilustracion="alergenos" color="crema">
+      <p class="entradilla">Alertas de AESAN por alérgeno no declarado. Guarda los tuyos en <a href={ruta('/mis-alergias/')}>Mis alergias</a>.</p>
+    </Cabecera>
+    <ul class="rejilla-enlaces">{nombresAlergenos.map((n) => <li><a href={ruta(`/alergeno/${slug(n)}/`)}>{n} <small>{numero(cuenta(n))}</small></a></li>)}</ul>
+  </div>
+</Base>

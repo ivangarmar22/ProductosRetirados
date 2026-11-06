@@ -1,0 +1,105 @@
+---
+import Arcos from '../componentes/Arcos.astro';
+import Buscador from '../componentes/Buscador.astro';
+import Comprobador from '../componentes/Comprobador.astro';
+import Donar from '../componentes/Donar.astro';
+import Icono from '../componentes/Icono.astro';
+import Lista from '../componentes/Lista.astro';
+import MapaCcaa from '../componentes/MapaCcaa.astro';
+import cinta from '../ilustraciones/cinta.svg?raw';
+import Base from '../layouts/Base.astro';
+import { alertas, comunidadesDe, FUENTES } from '../lib/datos';
+import { numero, recortar } from '../lib/formato';
+import { NOMBRE, ruta } from '../lib/sitio';
+import { nombresAlergenos, slug } from '../../pipeline/normalizar.ts';
+
+const todas = alertas();
+// Safety Gate publica decenas de alertas por semana: si se mezclaran por fecha,
+// las españolas desaparecerían de la portada.
+const espana = todas.filter((a) => FUENTES[a.fuente].espana);
+const europa = todas.filter((a) => a.fuente === 'safety-gate' && a.publico !== 'profesionales');
+const haceUnaSemana = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+const nuevas = todas.filter((a) => a.fechas.publicacion >= haceUnaSemana).length;
+const nuevasEspana = espana.filter((a) => a.fechas.publicacion >= haceUnaSemana).length;
+const porCcaa: Record<string, number> = {};
+for (const c of todas.flatMap(comunidadesDe)) porCcaa[c] = (porCcaa[c] ?? 0) + 1;
+const recientes = [...espana.slice(0, 6), ...europa.slice(0, 4)];
+const jsonld = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: NOMBRE, inLanguage: 'es-ES', url: new URL(ruta('/'), Astro.site).toString(), potentialAction: { '@type': 'SearchAction', target: `${new URL(ruta('/alertas/'), Astro.site)}?q={search_term_string}`, 'query-input': 'required name=search_term_string' } }];
+---
+
+<Base titulo={NOMBRE} descripcion="Comprueba si un producto está retirado en España. Alertas oficiales de alimentos, medicamentos, cosméticos y productos de consumo en un solo buscador." ruta="/" jsonld={jsonld}>
+  <section class="hero">
+    <div class="panel">
+      <div class="hero-t">
+        <p class="chip"><i></i>{nuevas === 1 ? '1 alerta nueva' : `${numero(nuevas)} alertas nuevas`} esta semana</p>
+        <h1><span class="oculto">¿Está retirado?</span><span aria-hidden="true">¿Está <em data-rotar="retirado?|en alerta?|afectado?">retirado?</em></span></h1>
+        <p class="entradilla">Alimentos, medicamentos, cosméticos y juguetes. Todas las alertas oficiales de España, en un solo buscador.</p>
+        <Buscador />
+        <ul class="rap">
+          {[['Listeria', '/alertas/?q=listeria'], ['Salmonella', '/alertas/?q=salmonella'], ['Gluten', '/alergeno/gluten/'], ['Juguetes', '/categoria/juguetes/']].map(([t, h]) => <li><a href={ruta(h)}>{t}</a></li>)}
+        </ul>
+        <button class="pausa" type="button" data-pausa aria-pressed="false"><Icono n="pause" /><span>Pausar animación</span></button>
+      </div>
+      <div class="hero-e" set:html={cinta} />
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div>
+      {[0, 1].map(() => recientes.map((a) => <span><Icono n="triangle-alert" /><b>{recortar(a.nombreVisible, 44)}</b> {recortar(a.motivo ?? '', 40)}</span>))}
+    </div>
+  </div>
+
+  <section class="seccion cifras" aria-label="Cifras" data-ver>
+    <div><b data-cuenta={todas.length}>{numero(todas.length)}</b><span>alertas en el buscador</span></div>
+    <div><b data-cuenta={nuevasEspana}>{numero(nuevasEspana)}</b><span>nuevas en España esta semana</span></div>
+    <div><b data-cuenta="4">4</b><span><a href={ruta('/fuentes/')}>fuentes oficiales</a></span></div>
+  </section>
+
+  <section class="seccion" aria-labelledby="h-espana">
+    <div class="tit"><p class="ante">En España</p><h2 id="h-espana">Últimas alertas</h2></div>
+    <Lista alertas={espana.slice(0, 6)} sinTitulo />
+    <a class="mas" href={ruta('/alertas/?ambito=espana')}>Ver todas las alertas de España <Icono n="arrow-right" /></a>
+  </section>
+
+  <section class="seccion" aria-labelledby="h-cat" data-ver>
+    <div class="tit"><p class="ante">Explora</p><h2 id="h-cat">Por tipo de producto</h2></div>
+    <Arcos sinOtros />
+  </section>
+
+  <section class="bloque comp oscuro" id="comprobar" aria-labelledby="h-comp" data-ver>
+    <div class="tit sin-m">
+      <p class="ante">Comprobador</p>
+      <h2 id="h-comp">¿Te afecta? Lo miramos en tres pasos</h2>
+      <p>Sin registros. Dinos qué es y te decimos qué hemos encontrado.</p>
+    </div>
+    <Comprobador />
+  </section>
+
+  <section class="seccion" aria-labelledby="h-eu">
+    <div class="tit"><p class="ante">En Europa</p><h2 id="h-eu">Alertas de Safety Gate</h2><p>La red europea de productos peligrosos. No siempre consta si el producto se ha vendido en España.</p></div>
+    <Lista alertas={europa.slice(0, 3)} sinTitulo />
+    <a class="mas" href={ruta('/alertas/?ambito=europa')}>Ver todas las alertas europeas <Icono n="arrow-right" /></a>
+  </section>
+
+  <section class="seccion sec-mapa" aria-labelledby="h-mapa" data-ver>
+    <div class="tit"><p class="ante">Dónde</p><h2 id="h-mapa">Alertas alimentarias por comunidad</h2><p>Según la distribución que publica AESAN desde 2025, incluidas las alertas de todo o casi todo el país. El color más intenso indica más alertas. Pulsa tu comunidad.</p></div>
+    <MapaCcaa cuentas={porCcaa} />
+  </section>
+
+  <section class="seccion" aria-labelledby="h-alerg" data-ver>
+    <div class="tit"><p class="ante">Alergias</p><h2 id="h-alerg">Por alérgeno</h2><p>Guarda los tuyos en <a href={ruta('/mis-alergias/')}>Mis alergias</a> y vigila tus marcas en <a href={ruta('/mi-despensa/')}>Mi despensa</a>.</p></div>
+    <ul class="chips">{nombresAlergenos.map((n) => <li><a href={ruta(`/alergeno/${slug(n)}/`)}>{n}</a></li>)}</ul>
+  </section>
+
+  <section class="bloque avisos" aria-labelledby="h-avisos" data-ver>
+    <div class="tit sin-m">
+      <p class="ante">Avisos</p>
+      <h2 id="h-avisos">Entérate antes de hacer la compra</h2>
+      <p>Por Telegram, en tu correo o por RSS. Y si tienes alergias, solo las tuyas.</p>
+    </div>
+    <div class="av-b"><a class="btn" href={ruta('/avisos/')}><Icono n="bell" />Elegir mis avisos</a></div>
+  </section>
+
+  <Donar />
+</Base>

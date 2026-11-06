@@ -1,0 +1,11 @@
+node_modules/
+dist/
+# Los datos viven en la rama "datos", que solo actualiza el pipeline.
+data/
+.astro/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+.DS_Store

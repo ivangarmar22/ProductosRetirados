@@ -1,0 +1,68 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Base from '../layouts/Base.astro';
+import { alertas, FUENTES } from '../lib/datos';
+import { numero } from '../lib/formato';
+import { ruta } from '../lib/sitio';
+import { CATEGORIAS, TIPOS_RIESGO } from '../../pipeline/normalizar.ts';
+
+const todas = alertas();
+const contar = (claves: (string | null | undefined)[]) => {
+  const m = new Map<string, number>();
+  for (const k of claves) if (k) m.set(k, (m.get(k) ?? 0) + 1);
+  return [...m.entries()].sort((a, b) => b[1] - a[1]);
+};
+const porCategoria = contar(todas.map((a) => CATEGORIAS[a.categoria.normalizada ?? 'otros']));
+const porRiesgo = contar(todas.flatMap((a) => a.riesgo.tipoNormalizado ?? [])).map(([k, v]) => [TIPOS_RIESGO[k] ?? k, v] as [string, number]);
+const porOrigen = contar(todas.map((a) => a.distribucion.paisOrigen?.replace(/\.$/, ''))).slice(0, 10);
+const porFuente = contar(todas.map((a) => FUENTES[a.fuente].corto));
+
+// Últimos 24 meses con datos. Safety Gate marca la escala, así que España va aparte.
+const mesesDe = (lista: typeof todas) => {
+  const m = new Map<string, number>();
+  for (const a of lista) { const k = a.fechas.publicacion.slice(0, 7); m.set(k, (m.get(k) ?? 0) + 1); }
+  return [...m.entries()].sort().slice(-24);
+};
+const mesesEspana = mesesDe(todas.filter((a) => FUENTES[a.fuente].espana));
+const mesesEuropa = mesesDe(todas.filter((a) => a.fuente === 'safety-gate'));
+const mes = (k: string) => { const [a, m] = k.split('-'); return `${m}/${a}`; };
+---
+
+<Base titulo="Estadísticas" descripcion="Alertas de productos retirados por mes, categoría, tipo de riesgo y país de origen." ruta="/estadisticas/">
+  <div class="pagina texto">
+    <Cabecera titulo="Estadísticas" migas={[{ texto: 'Estadísticas' }]} color="cielo">
+      <p class="entradilla">{numero(todas.length)} alertas publicadas. El periodo cubierto cambia según la fuente: consulta <a href={ruta('/fuentes/')}>fuentes y metodología</a>.</p>
+    </Cabecera>
+
+    <div class="graficos">
+    {[['Alertas de España por mes', mesesEspana], ['Alertas europeas por mes', mesesEuropa]].map(([titulo, datos]) => {
+      const d = datos as [string, number][];
+      const max = Math.max(...d.map((x) => x[1]), 1);
+      return (
+        <section>
+          <h2>{titulo as string}</h2>
+          <div class="columnas" role="img" aria-label={`${titulo}: tabla de datos disponible debajo`}>
+            {d.map(([k, v]) => <span style={`height:${Math.max(1, (v / max) * 100)}%`} title={`${mes(k)}: ${numero(v)}`}></span>)}
+          </div>
+          <div class="eje"><span>{d[0] && mes(d[0][0])}</span><span>Máximo: {numero(max)}</span><span>{d.at(-1) && mes(d.at(-1)![0])}</span></div>
+          <details class="datos-g"><summary>Ver los datos</summary><table class="tablita"><thead><tr><th scope="col">Mes</th><th scope="col">Alertas</th></tr></thead><tbody>{d.map(([k, v]) => <tr><td>{mes(k)}</td><td class="num">{numero(v)}</td></tr>)}</tbody></table></details>
+        </section>
+      );
+    })}
+
+    {[['Por categoría', porCategoria], ['Por tipo de riesgo', porRiesgo], ['Por país de origen', porOrigen], ['Por fuente', porFuente]].map(([titulo, datos]) => {
+      const d = datos as [string, number][];
+      const max = Math.max(...d.map((x) => x[1]), 1);
+      return (
+        <section>
+          <h2>{titulo as string}</h2>
+          <div class="grafico">
+            {d.map(([k, v]) => <div class="barra-h"><span>{k}</span><span class="pista"><span class="val" style={`width:${(v / max) * 100}%`}></span></span><span class="num">{numero(v)}</span></div>)}
+          </div>
+        </section>
+      );
+    })}
+    </div>
+    <p class="nota">Una alerta puede tener varios tipos de riesgo. Los tipos se asignan automáticamente a partir del texto de la fuente.</p>
+  </div>
+</Base>

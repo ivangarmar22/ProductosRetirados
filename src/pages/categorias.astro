@@ -1,0 +1,14 @@
+---
+import Arcos from '../componentes/Arcos.astro';
+import Cabecera from '../componentes/Cabecera.astro';
+import Base from '../layouts/Base.astro';
+---
+
+<Base titulo="Categorías" descripcion="Alertas de productos retirados por categoría: alimentos, medicamentos, cosméticos, juguetes, eléctricos, infantil y más." ruta="/categorias/">
+  <div class="pagina">
+    <Cabecera titulo="Categorías" migas={[{ texto: 'Categorías' }]}>
+      <p class="entradilla">Elige un tipo de producto para ver sus alertas.</p>
+    </Cabecera>
+    <Arcos />
+  </div>
+</Base>

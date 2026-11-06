@@ -1,0 +1,15 @@
+---
+import { ruta } from '../lib/sitio';
+import Icono from './Icono.astro';
+interface Props { interno?: boolean }
+const Caja = Astro.props.interno ? 'div' : 'form';
+const atributos = Astro.props.interno ? {} : { role: 'search', action: ruta('/alertas/'), method: 'get' };
+---
+
+<Caja class="busca" data-buscador {...atributos}>
+  <Icono n="search" />
+  <label for="q" class="oculto">Buscar por marca, producto, lote o código de barras</label>
+  <input id="q" name="q" type="search" placeholder="Marca, producto, lote o EAN" autocomplete="off" enterkeyhint="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sug" />
+  <button type="submit">Buscar</button>
+  <ul class="sug" id="sug" role="listbox" aria-label="Sugerencias" hidden></ul>
+</Caja>

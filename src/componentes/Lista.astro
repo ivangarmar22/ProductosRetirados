@@ -1,0 +1,11 @@
+---
+import type { Alerta } from '../../pipeline/tipos.ts';
+import { tarjetaDe } from '../lib/datos';
+import { tarjetaHtml } from '../lib/tarjeta';
+
+interface Props { alertas: Alerta[]; sinTitulo?: boolean }
+const { alertas, sinTitulo = false } = Astro.props;
+---
+
+{!sinTitulo && <h2 class="oculto">Listado de alertas</h2>}
+<div class="rej" set:html={alertas.map((a) => tarjetaHtml(tarjetaDe(a))).join('')} />

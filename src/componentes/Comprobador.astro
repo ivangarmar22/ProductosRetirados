@@ -1,0 +1,31 @@
+---
+import Icono from './Icono.astro';
+const TIPOS: [string, string, string][] = [['Alimentos', 'Alimentos', 'apple'], ['Medicamentos', 'Medicamentos', 'pill'], ['Cosméticos', 'Cosméticos', 'sparkles'], ['Juguetes', 'Juguetes', 'toy-brick'], ['Eléctricos', 'Eléctricos', 'plug'], ['Infantil', 'Infantil', 'baby'], ['Vehículos', 'Vehículos', 'car'], ['', 'Otro o no lo sé', 'package']];
+---
+
+<div class="comp-caja" data-comprobador>
+  <div class="progreso" aria-hidden="true"><i></i></div>
+  <p class="paso-n" data-paso>Paso 1 de 3</p>
+  <div class="paso">
+    <h3 tabindex="-1">¿Qué tipo de producto es?</h3>
+    <div class="tipos">{TIPOS.map(([v, t, i]) => <button type="button" data-tipo={v}><Icono n={i} />{t}</button>)}</div>
+  </div>
+  <div class="paso" hidden>
+    <h3 tabindex="-1"><span data-elegido></span>: escribe la marca, el producto o el lote</h3>
+    <form class="linea">
+      <label class="oculto" for="comp-q">Marca, producto o lote</label>
+      <input id="comp-q" autocomplete="off" enterkeyhint="search" />
+      <button class="btn btn-coral" type="submit">Comprobar</button>
+    </form>
+  </div>
+  <div class="paso" hidden>
+    <h3 tabindex="-1">Resultado</h3>
+    <div data-salida role="status"></div>
+    <button class="volver" type="button" data-reinicio>Comprobar otro</button>
+  </div>
+  <noscript><p class="nota">El comprobador necesita JavaScript. Puedes consultar el listado completo de alertas.</p></noscript>
+</div>
+
+<script>
+  import '../scripts/comprobador';
+</script>

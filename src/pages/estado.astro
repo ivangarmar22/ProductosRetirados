@@ -1,0 +1,34 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Base from '../layouts/Base.astro';
+import { estadoFuentes } from '../lib/datos';
+import { fechaHora, numero } from '../lib/formato';
+import { ruta } from '../lib/sitio';
+const estado = estadoFuentes();
+const nombres: Record<string, string> = { aesan: 'AESAN', 'aemps-medicamentos': 'AEMPS medicamentos', 'aemps-cosmeticos': 'AEMPS cosméticos', 'safety-gate': 'Safety Gate' };
+---
+
+<Base titulo="Estado de las fuentes" descripcion="Cuándo se comprobó por última vez cada fuente de datos y si hubo errores." ruta="/estado/">
+  <div class="pagina texto">
+    <Cabecera titulo="Estado de las fuentes" migas={[{ texto: 'Estado de las fuentes' }]} ilustracion="cable" color="cielo">
+      <p class="entradilla">Si una fuente falla, conservamos el último dato bueno. Esta página muestra el estado del último proceso publicado.</p>
+    </Cabecera>
+    <table class="tablita">
+      <thead><tr><th scope="col">Fuente</th><th scope="col">Estado</th><th scope="col">Última correcta</th><th scope="col">Alertas</th></tr></thead>
+      <tbody>
+        {Object.entries(nombres).map(([k, n]) => {
+          const e = estado[k];
+          return (
+            <tr>
+              <th scope="row">{n}</th>
+              <td>{e?.ok ? <span class="ok">✓ Correcta</span> : <span class="ko">✕ Con errores</span>}</td>
+              <td class="num">{fechaHora(e?.ultimoOk)}</td>
+              <td class="num">{numero(e?.total ?? 0)}</td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+    <p class="nota">Horas en horario de Madrid.</p>
+  </div>
+</Base>

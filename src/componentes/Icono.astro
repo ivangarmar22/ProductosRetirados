@@ -1,0 +1,6 @@
+---
+import { icono } from '../lib/tarjeta';
+interface Props { n: string }
+---
+
+<Fragment set:html={icono(Astro.props.n)} />

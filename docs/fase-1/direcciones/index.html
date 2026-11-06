@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retirado · Tres direcciones visuales</title>
+<style>
+  body { margin: 0; font: 400 1rem/1.5 system-ui, sans-serif; background: #e9e7e1; color: #1c1c1a; }
+  main { max-width: 96rem; margin: 0 auto; padding: 1.5rem; }
+  h1 { font-size: 1.75rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.5rem; margin: 3rem 0 .25rem; border-top: 2px solid #1c1c1a; padding-top: 1rem; }
+  h3 { font-size: .875rem; margin: 1.25rem 0 .5rem; }
+  p { max-width: 46rem; margin: .25rem 0; }
+  .paleta { display: flex; flex-wrap: wrap; gap: .375rem; margin: .75rem 0; padding: 0; list-style: none; }
+  .paleta li { font: 400 .75rem/1.2 ui-monospace, monospace; background: #fff; padding: .25rem .5rem .25rem .25rem; display: flex; gap: .375rem; align-items: center; }
+  .paleta i { width: 1.25rem; height: 1.25rem; display: block; border: 1px solid #0003; }
+  .vistas { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; }
+  .movil iframe { width: 390px; height: 760px; border: 1px solid #0005; background: #fff; display: block; }
+  .escritorio { width: 640px; height: 760px; overflow: hidden; border: 1px solid #0005; background: #fff; }
+  .escritorio iframe { width: 1280px; height: 1520px; border: 0; transform: scale(.5); transform-origin: 0 0; display: block; }
+  .ilus img { width: 320px; height: auto; background: #fff; display: block; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tres direcciones visuales</h1>
+  <p>Son bocetos estáticos con alertas reales de los fixtures. El nombre "Retirado" y su rótulo son provisionales: el logo se diseña en la Fase 2.</p>
+
+  <section>
+    <h2>A. Boletín</h2>
+    <p>Periódico de referencia. Retícula editorial, reglas finas y serif con autoridad. Transmite calma y rigor; es la más densa y la más sobria.</p>
+    <ul class="paleta">
+      <li><i style="background:#f7f4ec"></i>papel #f7f4ec</li><li><i style="background:#1d1b18"></i>tinta #1d1b18</li><li><i style="background:#a3211c"></i>acento #a3211c</li><li><i style="background:#6a4a00"></i>alérgenos #6a4a00</li><li><i style="background:#27486b"></i>clase #27486b</li>
+    </ul>
+    <p>Tipografía: Newsreader (titulares) y Public Sans (texto). Ambas OFL.</p>
+    <p><a href="a-boletin/home.html">Abrir inicio</a> · <a href="a-boletin/ficha.html">Abrir ficha</a></p>
+    <div class="vistas">
+      <div class="movil"><h3>Inicio, móvil</h3><iframe src="a-boletin/home.html" title="A, inicio móvil"></iframe></div>
+      <div class="movil"><h3>Ficha, móvil</h3><iframe src="a-boletin/ficha.html" title="A, ficha móvil"></iframe></div>
+      <div><h3>Inicio, escritorio</h3><div class="escritorio"><iframe src="a-boletin/home.html" title="A, inicio escritorio"></iframe></div></div>
+      <div><h3>Ficha, escritorio</h3><div class="escritorio"><iframe src="a-boletin/ficha.html" title="A, ficha escritorio"></iframe></div></div>
+      <div class="ilus"><h3>Ilustración: estantería, tinta y tramado</h3><img src="a-boletin/ilustracion.svg" alt="Estantería con un producto retirado delante"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>B. Etiqueta</h2>
+    <p>Sale del propio envase: lote en monoespaciada, titulares de imprenta y la ficha como un panel de información nutricional. Es la más propia y la más orientada a la consulta.</p>
+    <ul class="paleta">
+      <li><i style="background:#efe9dc"></i>fondo #efe9dc</li><li><i style="background:#fbf8f1"></i>etiqueta #fbf8f1</li><li><i style="background:#14181f"></i>carbón #14181f</li><li><i style="background:#c22f10"></i>sello #c22f10</li><li><i style="background:#21407a"></i>azul #21407a</li><li><i style="background:#d4a76a"></i>kraft #d4a76a</li>
+    </ul>
+    <p>Tipografía: Sofia Sans Extra Condensed (titulares), IBM Plex Sans (texto) e IBM Plex Mono (lotes y códigos). Todas OFL.</p>
+    <p><a href="b-etiqueta/home.html">Abrir inicio</a> · <a href="b-etiqueta/ficha.html">Abrir ficha</a></p>
+    <div class="vistas">
+      <div class="movil"><h3>Inicio, móvil</h3><iframe src="b-etiqueta/home.html" title="B, inicio móvil"></iframe></div>
+      <div class="movil"><h3>Ficha, móvil</h3><iframe src="b-etiqueta/ficha.html" title="B, ficha móvil"></iframe></div>
+      <div><h3>Inicio, escritorio</h3><div class="escritorio"><iframe src="b-etiqueta/home.html" title="B, inicio escritorio"></iframe></div></div>
+      <div><h3>Ficha, escritorio</h3><div class="escritorio"><iframe src="b-etiqueta/ficha.html" title="B, ficha escritorio"></iframe></div></div>
+      <div class="ilus"><h3>Ilustración: envase, colores planos</h3><img src="b-etiqueta/ilustracion.svg" alt="Envase con etiqueta, código de barras y sello de lote"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>C. Señal</h2>
+    <p>Señalética cívica: bloques de color, pictogramas y buscador fijo abajo en móvil para usarlo con una mano. Es la más directa y la más cercana.</p>
+    <ul class="paleta">
+      <li><i style="background:#0f4d3f"></i>verde #0f4d3f</li><li><i style="background:#f5c518"></i>amarillo #f5c518</li><li><i style="background:#fbfaf5"></i>papel #fbfaf5</li><li><i style="background:#e8e6dc"></i>gris #e8e6dc</li><li><i style="background:#b3261e"></i>grave #b3261e</li>
+    </ul>
+    <p>Tipografía: Bricolage Grotesque (titulares) y Atkinson Hyperlegible Next (texto, diseñada para baja visión). Ambas OFL.</p>
+    <p><a href="c-senal/home.html">Abrir inicio</a> · <a href="c-senal/ficha.html">Abrir ficha</a></p>
+    <div class="vistas">
+      <div class="movil"><h3>Inicio, móvil</h3><iframe src="c-senal/home.html" title="C, inicio móvil"></iframe></div>
+      <div class="movil"><h3>Ficha, móvil</h3><iframe src="c-senal/ficha.html" title="C, ficha móvil"></iframe></div>
+      <div><h3>Inicio, escritorio</h3><div class="escritorio"><iframe src="c-senal/home.html" title="C, inicio escritorio"></iframe></div></div>
+      <div><h3>Ficha, escritorio</h3><div class="escritorio"><iframe src="c-senal/ficha.html" title="C, ficha escritorio"></iframe></div></div>
+      <div class="ilus"><h3>Ilustración: lupa, bloques y sombra larga</h3><img src="c-senal/ilustracion.svg" alt="Lupa sobre la etiqueta de un paquete"></div>
+    </div>
+  </section>
+</main>
+</body>
+</html>

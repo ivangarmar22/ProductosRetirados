@@ -1,0 +1,28 @@
+---
+import Cabecera from '../../componentes/Cabecera.astro';
+import Base from '../../layouts/Base.astro';
+import { ruta } from '../../lib/sitio';
+---
+
+<Base titulo="Dónde está el lote de un producto" descripcion="Cómo encontrar el lote, la fecha y el código de barras en alimentos, medicamentos, cosméticos y juguetes." ruta="/guias/donde-esta-el-lote/" tipo="article">
+  <div class="pagina texto">
+    <Cabecera titulo="Dónde está el lote" migas={[{ texto: 'Dónde está el lote' }]} ilustracion="lupa" color="agua">
+      <p class="entradilla">El lote es el código que identifica una tanda de fabricación. Es lo que permite saber si tu envase concreto está afectado.</p>
+    </Cabecera>
+
+
+    <h2>En alimentos</h2>
+    <p>Suele aparecer junto a la fecha de caducidad o de consumo preferente, a veces precedido de «L» o «Lote». Mira la base de latas y botes, la tapa, el cierre de las bolsas y los laterales de las cajas.</p>
+    <h2>En medicamentos</h2>
+    <p>Está impreso en la caja y en el blíster o el frasco, normalmente con la palabra «Lote» o «Lot», junto a la caducidad.</p>
+    <h2>En cosméticos</h2>
+    <p>Busca en la base del envase o en el pliegue del tubo. Suele ser un código corto impreso o grabado.</p>
+    <h2>En juguetes y otros productos</h2>
+    <p>Mira la etiqueta del producto, el embalaje y las instrucciones. Además del lote, puede servir la referencia o el modelo.</p>
+
+    <h2>El código de barras</h2>
+    <p>Son los números bajo las barras, normalmente 13. Identifican el producto, no el lote. Muchas alertas no lo publican, así que <strong>si no aparece al buscarlo, prueba con la marca o el lote</strong>.</p>
+
+    <p><a class="btn" href={ruta('/alertas/')}>Buscar mi producto</a></p>
+  </div>
+</Base>

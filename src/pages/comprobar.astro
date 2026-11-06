@@ -1,0 +1,15 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Comprobador from '../componentes/Comprobador.astro';
+import Base from '../layouts/Base.astro';
+import { ruta } from '../lib/sitio';
+---
+
+<Base titulo="Comprueba tu producto" descripcion="Comprueba en tres pasos si un producto que tienes en casa tiene una alerta oficial en España." ruta="/comprobar/">
+  <div class="pagina">
+    <Cabecera titulo="Comprueba tu producto" migas={[{ texto: 'Comprobar' }]} ilustracion="lupa" color="crema">
+      <p class="entradilla">Sin registros. Dinos qué es y te decimos qué hemos encontrado. Si no sabes dónde mirar, consulta <a href={ruta('/guias/donde-esta-el-lote/')}>dónde está el lote</a>.</p>
+    </Cabecera>
+    <Comprobador />
+  </div>
+</Base>

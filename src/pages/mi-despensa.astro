@@ -1,0 +1,31 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Icono from '../componentes/Icono.astro';
+import Base from '../layouts/Base.astro';
+import { ruta } from '../lib/sitio';
+---
+
+<Base titulo="Mi despensa" descripcion="Guarda las marcas y productos que tienes en casa y consulta sus alertas en cada visita. Sin cuenta: se guarda en tu dispositivo." ruta="/mi-despensa/">
+  <div class="pagina">
+    <Cabecera titulo="Mi despensa" migas={[{ texto: 'Mi despensa' }]} ilustracion="estante-hueco" color="agua">
+      <p class="entradilla">Apunta las marcas y productos que tienes en casa. Se guardan solo en este dispositivo: no hay cuenta y no salen de tu navegador.</p>
+    </Cabecera>
+    <div class="caja">
+      <form id="anadir" class="anadir">
+        <label class="oculto" for="vigilar">Marca o producto</label>
+        <input id="vigilar" autocomplete="off" enterkeyhint="done" placeholder="Por ejemplo: atún en lata" />
+        <button class="btn" type="submit"><Icono n="plus" />Añadir</button>
+      </form>
+      <div id="vigiladas" class="vigiladas"></div>
+    </div>
+    <p id="resumen" class="resumen-busqueda" role="status" aria-live="polite"></p>
+    <h2 class="oculto">Alertas de tu despensa</h2>
+    <div id="resultados" class="rej"></div>
+    <noscript><p class="nota">Mi despensa necesita JavaScript.</p></noscript>
+    <p class="nota">¿Tienes alergias? Usa también <a href={ruta('/mis-alergias/')}>Mis alergias</a>.</p>
+  </div>
+</Base>
+
+<script>
+  import '../scripts/despensa';
+</script>
