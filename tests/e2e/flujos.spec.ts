@@ -278,12 +278,15 @@ test('contacto: envía desde la web y avisa si falla', async ({ page }) => {
   await expect(page.getByLabel('Mensaje')).toHaveValue('Hola');
 });
 
-test('las miniaturas cargan al llegar y se amplían en un visor', async ({ page }) => {
+test('las miniaturas cargan con el primer gesto y se amplían en un visor', async ({ page }) => {
   const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==', 'base64');
-  await page.route(/^https:\/\/www\.aesan\.gob\.es\//, (r) => r.fulfill({ contentType: 'image/png', body: png }));
+  let pedidas = 0;
+  await page.route(/^https:\/\/www\.aesan\.gob\.es\//, (r) => { pedidas++; return r.fulfill({ contentType: 'image/png', body: png }); });
   await page.goto(FICHA);
+  await page.waitForLoadState('networkidle');
+  expect(pedidas).toBe(0);
   const primera = page.locator('.fotos a').first();
-  await primera.scrollIntoViewIfNeeded();
+  await page.mouse.move(40, 40);
   await expect.poll(() => primera.locator('img').evaluate((i: HTMLImageElement) => i.naturalWidth)).toBeGreaterThan(0);
   await expect(primera.locator('img')).toHaveAttribute('referrerpolicy', 'no-referrer');
   await expect(page.getByText('Imágenes de AESAN')).toBeVisible();
@@ -310,10 +313,17 @@ test('las miniaturas cargan al llegar y se amplían en un visor', async ({ page 
   await sinDesborde(page);
 });
 
+test('las fotos van entre ¿Es tu lote? y Qué hacer', async ({ page }) => {
+  await page.goto(FICHA);
+  await expect(page.locator('.f-col > section h2')).toHaveText([/Es tu lote/, 'Fotos del producto', 'Qué hacer', /.*/, /.*/].slice(0, await page.locator('.f-col > section h2').count()));
+});
+
 test('si las fotos no cargan, la sección desaparece sin dejar hueco', async ({ page }) => {
   await page.goto(FICHA);
-  await page.evaluate(() => document.querySelector('[data-fotos]')?.scrollIntoView({ block: 'center', behavior: 'instant' }));
-  await expect(page.getByRole('heading', { name: 'Fotos del producto' })).toHaveCount(0);
+  const titulo = page.getByRole('heading', { name: 'Fotos del producto' });
+  await expect(titulo).toHaveCount(1);
+  await page.mouse.move(40, 40);
+  await expect(titulo).toHaveCount(0);
 });
 
 test('si el buscador no carga lo dice, y se recupera al reintentar', async ({ page }) => {

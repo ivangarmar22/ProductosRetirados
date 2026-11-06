@@ -84,14 +84,6 @@ const etiquetasAviso = { alerta: 'Alerta inicial', ampliacion: 'Ampliación', co
             </section>
           )}
 
-          <section class="f-sec hacer oscuro" aria-labelledby="h-hacer" data-pagefind-ignore>
-            <h2 id="h-hacer">Qué hacer</h2>
-            <ol>{hacer.map((h) => <li><span>{h}</span></li>)}</ol>
-            <small>{a.hacerOrigen === 'general' ? 'Orientación general. Lee siempre la fuente oficial.' : 'Resumen del texto oficial. Lee siempre la fuente.'}</small>
-          </section>
-
-          {a.riesgo.descripcion && <section class="f-sec"><h2>Motivo</h2><p>{a.riesgo.descripcion}</p></section>}
-
           {fotos.length > 0 && (
             <section class="f-sec" aria-labelledby="h-fotos" data-fotos={JSON.stringify(fotos)} data-nombre={a.nombreVisible} data-pagefind-ignore>
               <h2 id="h-fotos">Fotos del producto</h2>
@@ -110,6 +102,14 @@ const etiquetasAviso = { alerta: 'Alerta inicial', ampliacion: 'Ampliación', co
               </dialog>
             </section>
           )}
+
+          <section class="f-sec hacer oscuro" aria-labelledby="h-hacer" data-pagefind-ignore>
+            <h2 id="h-hacer">Qué hacer</h2>
+            <ol>{hacer.map((h) => <li><span>{h}</span></li>)}</ol>
+            <small>{a.hacerOrigen === 'general' ? 'Orientación general. Lee siempre la fuente oficial.' : 'Resumen del texto oficial. Lee siempre la fuente.'}</small>
+          </section>
+
+          {a.riesgo.descripcion && <section class="f-sec"><h2>Motivo</h2><p>{a.riesgo.descripcion}</p></section>}
 
           {a.medidas.length > 0 && <section class="f-sec"><h2>Medidas</h2><ul>{a.medidas.map((m) => <li>{m.texto}</li>)}</ul></section>}
 

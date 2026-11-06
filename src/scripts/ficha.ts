@@ -35,16 +35,16 @@ if (fotos) {
     fotos.remove();
   };
 
-  // Esperan a estar en pantalla: así no compiten con la carga de la ficha.
-  const carga = new IntersectionObserver((entradas) => {
-    if (!entradas.some((e) => e.isIntersecting)) return;
-    carga.disconnect();
+  // Esperan al primer gesto: pesan más que la ficha y en móvil la harían tardar varios segundos.
+  const gesto = new AbortController();
+  const cargar = () => {
+    gesto.abort();
     miniaturas.forEach((m) => {
       m.addEventListener('error', () => quitar(m.dataset.src!));
       m.src = m.dataset.src!;
     });
-  }, { rootMargin: '0px 0px -15% 0px' });
-  carga.observe(fotos);
+  };
+  for (const evento of ['scroll', 'pointermove', 'pointerdown', 'keydown']) addEventListener(evento, cargar, { passive: true, signal: gesto.signal });
 
   const mostrar = (n: number) => {
     actual = (n + urls.length) % urls.length;
