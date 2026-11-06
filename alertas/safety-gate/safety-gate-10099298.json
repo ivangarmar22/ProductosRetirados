@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10099298",
+ "fuente": "safety-gate",
+ "idFuente": "10099298",
+ "referenciaOficial": "SR/01779/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099298",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Bmw · iX3",
+ "nombreVisible": "Coche de pasajeros Bmw",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-06-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "iX3",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "e1*2018/858*00579* (N-XA)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "18.12.2025 - 08.05.2026"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que los airbags de cabeza en los vehículos afectados no se hayan atornillado de acuerdo con las especificaciones, lo que podría hacer que el airbag se desplegara incorrectamente o que el inflador se moviera fuera de posición y golpeara a los ocupantes en caso de accidente, lo que provocaría lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11012238",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.bmw.de/rueckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01779/26",
+   "mm:bmw:e1-2018-858-00579-n-xa"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b0d3ea1777174c86"
+ },
+ "slug": "coche-de-pasajeros-bmw-safety-gate-10099298"
+}

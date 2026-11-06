@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10011799",
+ "fuente": "safety-gate",
+ "idFuente": "10011799",
+ "referenciaOficial": "A12/00297/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011799",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Moto · Ducati · XDiavel",
+ "nombreVisible": "Moto Ducati",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-02-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "XDiavel",
+   "marcas": [
+    "Ducati"
+   ],
+   "modelos": [
+    "e49*168/2013*00009* (GA)",
+    "e49*168/2013*00010* (GB)",
+    "e49*168/2013*00011* (GA)",
+    "e3*168/2013*00031* (1G)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Moto",
+   "fechasTexto": "21.11.2015 - 27.06.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los tornillos de fijación del respaldo del asiento del pasajero de pillion pueden no estar correctamente instalados, lo que puede hacer que el respaldo del asiento se rompa, lo que crea un riesgo de accidente. El respaldo del asiento también podría romperse si un pasajero se apoya en él sin aferrarse al jinete o a la correa del asiento. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10110163",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10110164",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ducati.com/de/de/service-wartung/rueckrufaktion",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00297/24",
+   "mm:ducati:e49-168-2013-00009-ga",
+   "mm:ducati:e49-168-2013-00010-gb",
+   "mm:ducati:e49-168-2013-00011-ga",
+   "mm:ducati:e3-168-2013-00031-1g"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4052ef275460843d"
+ },
+ "slug": "moto-ducati-safety-gate-10011799"
+}

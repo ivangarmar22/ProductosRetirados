@@ -1,0 +1,113 @@
+{
+ "id": "safety-gate-10097042",
+ "fuente": "safety-gate",
+ "idFuente": "10097042",
+ "referenciaOficial": "SR/04345/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097042",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta · KTM · 390 Duke, 250 Duke, 125 Duke, 990 Duke",
+ "nombreVisible": "Motocicleta KTM",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-12-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "390 Duke, 250 Duke, 125 Duke, 990 Duke",
+   "marcas": [
+    "KTM"
+   ],
+   "modelos": [
+    "KTM IS Dk",
+    "KTM IS Dk",
+    "KTM R2 Dk",
+    "e1*168/2013*00360*00",
+    "e1*168/2013*00359*00",
+    "e1*168/2013*00369*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta",
+   "fechasTexto": "28.3.2023 - 3.10.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Debido a irregularidades en los materiales, podrían desarrollarse grietas en el sello de la tapa del tanque de combustible. Esto puede provocar fugas de combustible si el vehículo se vuelca. Una chispa externa podría representar un riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Austria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10988946",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10988947",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10988948",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ktm.com/en-int/service/Safety.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/04345/25",
+   "mm:ktm:ktm-is-dk",
+   "mm:ktm:ktm-r2-dk",
+   "mm:ktm:e1-168-2013-00360-00",
+   "mm:ktm:e1-168-2013-00359-00",
+   "mm:ktm:e1-168-2013-00369-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5a2cd3435af0f935"
+ },
+ "slug": "motocicleta-ktm-safety-gate-10097042"
+}

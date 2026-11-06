@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10003625",
+ "fuente": "safety-gate",
+ "idFuente": "10003625",
+ "referenciaOficial": "A12/00617/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003625",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Renault · Master 3",
+ "nombreVisible": "Turismos Renault",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Master 3",
+   "marcas": [
+    "Renault"
+   ],
+   "modelos": [
+    "Types: MA",
+    "VA",
+    "MB",
+    "VB",
+    "e2*2007/46*0016*34 - 39",
+    "e2*2007/46*0047*33 - 34",
+    "e2*2007/46*0019*35 - 36",
+    "e2*2007/46*0049*25 - 38"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 3 June and 8 September 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La conexión de la bomba de combustible de alta presión puede apretarse incorrectamente. Esto podría dar lugar a una fuga de combustible, aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00617/21",
+   "mm:renault:types-ma",
+   "mm:renault:e2-2007-46-0016-34-39",
+   "mm:renault:e2-2007-46-0047-33-34",
+   "mm:renault:e2-2007-46-0019-35-36",
+   "mm:renault:e2-2007-46-0049-25-38"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "bb889fb0ab3400db"
+ },
+ "slug": "turismos-renault-safety-gate-10003625"
+}

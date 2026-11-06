@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10095469",
+ "fuente": "safety-gate",
+ "idFuente": "10095469",
+ "referenciaOficial": "SR/02886/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095469",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · GLA-Class",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-08-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GLA-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2007/46*1909*27 (F2B)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "17.10.2024 - 12.11.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los remaches de presión de los asientos traseros ajustables longitudinalmente no podrán instalarse en los rieles ajustables. Esto podría cambiar la posición del asiento más allá de su punto final definido cuando se ajusta manualmente. En caso de accidente o de fuerte desaceleración, los asientos traseros podrían salir de su posición definida, lo que aumentaría el riesgo de lesiones para los ocupantes. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10971542",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/passengercars/services/recall.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02886/25",
+   "mm:mercedes-benz:e1-2007-46-1909-27-f2b"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ea4d323c8c18c84e"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10095469"
+}

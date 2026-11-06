@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10011744",
+ "fuente": "safety-gate",
+ "idFuente": "10011744",
+ "referenciaOficial": "A12/00170/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011744",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión · Fuso · Canter",
+ "nombreVisible": "Camión Fuso",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-31",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Canter",
+   "marcas": [
+    "Fuso"
+   ],
+   "modelos": [
+    "FE4P10TF1N1",
+    "FE4P10TF1N2",
+    "e4*2007/46*0784*07-*10",
+    "e4*2007/46*0785*08-*11"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camión",
+   "fechasTexto": "1/07/2019 – 31/10/2022"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El indicador de desgaste del freno puede hacer que un fusible sople y las luces traseras de un remolque que están siendo remolcadas por el vehículo funcionen mal. Esto aumenta el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Portugal",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10108486",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10108487",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.fuso-trucks.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00170/24",
+   "mm:fuso:fe4p10tf1n1",
+   "mm:fuso:fe4p10tf1n2",
+   "mm:fuso:e4-2007-46-0784-07-10",
+   "mm:fuso:e4-2007-46-0785-08-11"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c4e1b82a3acd1586"
+ },
+ "slug": "camion-fuso-safety-gate-10011744"
+}

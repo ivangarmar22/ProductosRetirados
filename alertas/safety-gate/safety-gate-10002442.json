@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10002442",
+ "fuente": "safety-gate",
+ "idFuente": "10002442",
+ "referenciaOficial": "A12/01536/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002442",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mazda · CX-30",
+ "nombreVisible": "Turismos Mazda",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-11-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CX-30",
+   "marcas": [
+    "Mazda"
+   ],
+   "modelos": [
+    "e13*2007/46*2041*00",
+    "e13*2007/46*2041*01",
+    "e13*2007/46*2041*04"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Mazda CX-30 (DM).",
+   "fechasTexto": "The affected vehicles were manufactured between 25 April 2019 and 20 March 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El eje óptico del faro led adaptable (ALH) se puede ajustar demasiado alto mientras se inicializa en la posición central. Como resultado, el tráfico entrante está cegado por el deslumbramiento del faro, lo que aumenta el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01536/20",
+   "mm:mazda:e13-2007-46-2041-00",
+   "mm:mazda:e13-2007-46-2041-01",
+   "mm:mazda:e13-2007-46-2041-04"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "04aae01f9c72e951"
+ },
+ "slug": "turismos-mazda-safety-gate-10002442"
+}

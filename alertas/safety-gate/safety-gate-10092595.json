@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10092595",
+ "fuente": "safety-gate",
+ "idFuente": "10092595",
+ "referenciaOficial": "SR/00068/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10092595",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Hyundai · Genesis",
+ "nombreVisible": "Coche de pasajeros Hyundai",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-04-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Genesis",
+   "marcas": [
+    "Hyundai"
+   ],
+   "modelos": [
+    "DH",
+    "e4*2007/46*1030*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "10.07.2013 - 16.03.2016"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "El agua puede entrar en el relé de arranque en el compartimiento del motor, causando un cortocircuito dentro del relé de arranque, aumentando el riesgo de incendio y potencialmente resultando en lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República de Corea",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10942438",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.hyundai.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00068/25",
+   "mm:hyundai:e4-2007-46-1030-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "83a390998f709129"
+ },
+ "slug": "coche-de-pasajeros-hyundai-safety-gate-10092595"
+}

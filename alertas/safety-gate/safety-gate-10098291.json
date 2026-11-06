@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10098291",
+ "fuente": "safety-gate",
+ "idFuente": "10098291",
+ "referenciaOficial": "SR/00897/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098291",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vehículo comercial ligero · Nissan · NV400",
+ "nombreVisible": "Vehículo comercial ligero Nissan",
+ "motivo": "Medio ambiente",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-03-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "NV400",
+   "marcas": [
+    "Nissan"
+   ],
+   "modelos": [
+    "e2*2007/46*0137"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo comercial ligero.",
+   "fechasTexto": "16.11.2022 - 25.04.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Medio ambiente"
+  ],
+  "tipoNormalizado": [
+   "otros"
+  ],
+  "descripcion": "Es posible que el módulo de dosificación de AdBlue no se haya inicializado correctamente durante la producción de algunos vehículos NV400 (X62). En ese caso, el módulo de dosificación de AdBlue no activaría la inyección de AdBlue, lo que daría lugar a emisiones de óxido de nitrógeno (NOx) por encima de los límites reglamentarios. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11002111",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00897/26",
+   "mm:nissan:e2-2007-46-0137"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9efce1f159925d52"
+ },
+ "slug": "vehiculo-comercial-ligero-nissan-safety-gate-10098291"
+}

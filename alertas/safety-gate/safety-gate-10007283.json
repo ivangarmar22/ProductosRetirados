@@ -1,0 +1,95 @@
+{
+ "id": "safety-gate-10007283",
+ "fuente": "safety-gate",
+ "idFuente": "10007283",
+ "referenciaOficial": "A12/01864/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10007283",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Bmw · X1, iX1",
+ "nombreVisible": "Coche de pasajeros Bmw",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-12-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "X1, iX1",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "U1X",
+    "e1*2018/858*00153*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "28.06.2022 - 15.09.2022"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Cuando el agua penetra en la unidad de control básica, las diferentes funciones eléctricas pueden verse afectadas, como las luces y el bloqueo central pueden funcionar mal, la dirección y la asistencia de frenado pueden fallar y el motor puede detenerse. Además, esto podría conducir a un mayor riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.bmw.de/r%C3%BCckruf",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01864/22",
+   "mm:bmw:u1x",
+   "mm:bmw:e1-2018-858-00153"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "822649c216f05af7"
+ },
+ "slug": "coche-de-pasajeros-bmw-safety-gate-10007283"
+}

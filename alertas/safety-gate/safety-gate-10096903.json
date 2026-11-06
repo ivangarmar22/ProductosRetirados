@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10096903",
+ "fuente": "safety-gate",
+ "idFuente": "10096903",
+ "referenciaOficial": "SR/04340/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096903",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Enchufe al aire libre WiFi · Hama · WiFi-Außensteckdose",
+ "nombreVisible": "Enchufe al aire libre WiFi Hama",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-12-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "WiFi-Außensteckdose",
+   "marcas": [
+    "Hama"
+   ],
+   "modelos": [
+    "00176627"
+   ],
+   "lotes": [
+    {
+     "numero": "00176627 404744349859500176655 404744352462100176656 4047443524652 00176657 4047443524683 00176938 4047443525901"
+    }
+   ],
+   "ean": [
+    "4047443498595"
+   ],
+   "descripcion": "Enchufe WLAN para uso en exteriores con un interruptor manual de encendido/apagado.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El producto puede formar grietas en la línea del cabello en la carcasa exterior a lo largo del tiempo. Como resultado, el agua podría entrar y el usuario podría recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva sobre equipos radioeléctricos (RED).",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10988838",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://support.hama.com/product-safety-recall-smart-outdoor-wlan-sockets",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/04340/25",
+   "ean:4047443498595",
+   "mm:hama:00176627",
+   "ml:hama:00176627-404744349859500176655-404744352462100176656-4047443524652-00176657-4047443524683-00176938-4047443525901"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "1ada253e413501ed"
+ },
+ "slug": "enchufe-al-aire-libre-wifi-hama-safety-gate-10096903"
+}

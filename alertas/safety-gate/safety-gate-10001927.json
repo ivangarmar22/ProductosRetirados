@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10001927",
+ "fuente": "safety-gate",
+ "idFuente": "10001927",
+ "referenciaOficial": "A12/01269/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001927",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Guantes de cuero · Roeckl · Handschuhe",
+ "nombreVisible": "Guantes de cuero Roeckl",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-09-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Ropa, textiles y artículos de moda",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Handschuhe",
+   "marcas": [
+    "Roeckl"
+   ],
+   "modelos": [
+    "Frankfurt",
+    "Art.-Nr. 13011-018",
+    "Farbe 780 Coffee"
+   ],
+   "lotes": [
+    {
+     "numero": "PO00020461"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Guantes de cuero marrón oscuro, forro textil negro, blanco entre los dedos, botón de metal plateado.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El cuero del producto contiene cromo VI (valor medido hasta: 6,5 mg/kg). El cromo (VI) es sensibilizante, puede desencadenar reacciones alérgicas y puede causar cáncer. El producto no cumple con el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10016056",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01269/20",
+   "mm:roeckl:frankfurt",
+   "mm:roeckl:art-nr-13011-018",
+   "mm:roeckl:farbe-780-coffee",
+   "ml:roeckl:po00020461"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3f75c60e6839e59d"
+ },
+ "slug": "guantes-de-cuero-roeckl-safety-gate-10001927"
+}

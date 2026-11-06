@@ -1,0 +1,111 @@
+{
+ "id": "safety-gate-10119339",
+ "fuente": "safety-gate",
+ "idFuente": "10119339",
+ "referenciaOficial": "OR/00119/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119339",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Taza de cristal · Tesco Home F&F · Home Glass Latte Mug",
+ "nombreVisible": "Taza de cristal Tesco Home F&F",
+ "motivo": "Quemaduras, Cortes",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-20",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-05"
+ },
+ "categoria": {
+  "literal": "Accesorios de cocina",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Home Glass Latte Mug",
+   "marcas": [
+    "Tesco Home F&F"
+   ],
+   "modelos": [],
+   "lotes": [],
+   "ean": [
+    "05057967613311"
+   ],
+   "descripcion": "Taza de café con leche hecha de vidrio transparente. Todos los modelos y lotes están afectados.",
+   "fechasTexto": null,
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Cortes"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Debido a un defecto de fabricación, la taza de vidrio puede romperse inesperadamente durante el uso normal. Este fallo repentino puede dar lugar a fragmentos afilados, lo que supone un riesgo de cortes para el usuario. Además, la rotura puede hacer que se derrame líquido caliente, lo que aumenta el riesgo de quemaduras. El producto no cumple el Reglamento relativo a la seguridad general de los productos.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [
+   "SK"
+  ],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Other(www.tesco.ie)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239230",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://digitalcontent.api.tesco.com/v2/media/ghs-roi/8eca1cc9-56b4-499d-8a4f-4b81f8ff7a5c/2631-WF-1495050-F%26F-Uk+%26+ROI.pdf",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:OR/00119/26",
+   "ean:05057967613311"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "d054158f9138f469"
+ },
+ "slug": "taza-de-cristal-tesco-home-f-f-safety-gate-10119339"
+}

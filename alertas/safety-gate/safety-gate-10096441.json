@@ -1,0 +1,114 @@
+{
+ "id": "safety-gate-10096441",
+ "fuente": "safety-gate",
+ "idFuente": "10096441",
+ "referenciaOficial": "SR/03819/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096441",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Toyota · GR Supra",
+ "nombreVisible": "Coche de pasajeros Toyota",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-11-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GR Supra",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "JTSC",
+    "e1*2007/46*1982*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "07.02.2019 - 03.09.2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El agua puede entrar en contacto con el relé de arranque y causar corrosión gradualmente. Esto podría afectar la conexión eléctrica dentro del relé y dificultar el arranque del motor. También puede resultar en un cortocircuito y podría causar que el arrancador se sobrecaliente, lo que lleva a un incendio cuando el vehículo está en movimiento o cuando está estacionado con el encendido apagado. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Austria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10982067",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10982068",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10982069",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10982070",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10982071",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.toyota,tech.eu/euro5search/campaigns",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03819/25",
+   "mm:toyota:jtsc",
+   "mm:toyota:e1-2007-46-1982"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b13ca286f4970146"
+ },
+ "slug": "coche-de-pasajeros-toyota-safety-gate-10096441"
+}

@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10012021",
+ "fuente": "safety-gate",
+ "idFuente": "10012021",
+ "referenciaOficial": "A12/00457/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10012021",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · Ikea · USB ÅSKSTORM 40 W",
+ "nombreVisible": "Cargador USB Ikea",
+ "motivo": "Quemaduras, Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-02-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "USB ÅSKSTORM 40 W",
+   "marcas": [
+    "Ikea"
+   ],
+   "modelos": [
+    "50461193",
+    "CPSW5-40-1"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cargador USB, 40W. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "El cable de alimentación puede dañarse o romperse después de haber sido envuelto alrededor de un cargador o doblado hacia adelante y hacia atrás después de un período más largo de uso. Esto podría causar una descarga eléctrica o quemaduras. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10112079",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10112080",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ikea.com/ph/en/customer-service/product-support/recalls/askstorm-charger-pubc51e9340",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00457/24",
+   "mm:ikea:50461193",
+   "mm:ikea:cpsw5-40-1"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7a69efbd602304dc"
+ },
+ "slug": "cargador-usb-ikea-safety-gate-10012021"
+}

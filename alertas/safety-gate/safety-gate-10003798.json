@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003798",
+ "fuente": "safety-gate",
+ "idFuente": "10003798",
+ "referenciaOficial": "INFO/00120/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003798",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Chrysler · 300",
+ "nombreVisible": "Turismos Chrysler",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-06-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "300",
+   "marcas": [
+    "Chrysler"
+   ],
+   "modelos": [
+    "e11*2001/116*0141*21",
+    "Type: LX"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 31 May 2014 and 10 February 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido al uso de materiales defectuosos, la señalización del sensor de posición del cigüeñal es incorrecta. En consecuencia, el motor puede no ser capaz de funcionar.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00120/21",
+   "mm:chrysler:e11-2001-116-0141-21",
+   "mm:chrysler:type-lx"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "949d370135b12c0f"
+ },
+ "slug": "turismos-chrysler-safety-gate-10003798"
+}

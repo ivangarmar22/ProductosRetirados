@@ -1,0 +1,127 @@
+{
+ "id": "safety-gate-10097261",
+ "fuente": "safety-gate",
+ "idFuente": "10097261",
+ "referenciaOficial": "SR/00037/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097261",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Conector de fuente de alimentación · GTV",
+ "nombreVisible": "Conector de fuente de alimentación GTV",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-01-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Conector de fuente de alimentación",
+   "marcas": [
+    "GTV"
+   ],
+   "modelos": [
+    "XLT-1FAC19-00",
+    "XLT-1FAC24A-10",
+    "XLT-1FAC33-00",
+    "XLT-1FAC34-10"
+   ],
+   "lotes": [],
+   "ean": [
+    "5902801321481",
+    "5902801321498",
+    "5902801321511",
+    "5902801321597"
+   ],
+   "descripcion": "Conectores de alimentación para rieles de 1 fase, en colores blanco y negro.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La protección del conductor protector es insuficiente, lo que puede conducir a la interrupción de la tierra protectora. Por lo tanto, las partes activas son accesibles para el usuario, que puede recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10991356",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10991357",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10991358",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10991359",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://gtv.com.pl/wp-content/uploads/2025/11/Wycofanie_produktu_GPSR_1_PL-1.pdf",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00037/26",
+   "ean:5902801321481",
+   "ean:5902801321498",
+   "ean:5902801321511",
+   "ean:5902801321597",
+   "mm:gtv:xlt-1fac19-00",
+   "mm:gtv:xlt-1fac24a-10",
+   "mm:gtv:xlt-1fac33-00",
+   "mm:gtv:xlt-1fac34-10"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9ae5b080e1fabc12"
+ },
+ "slug": "conector-de-fuente-de-alimentacion-gtv-safety-gate-10097261"
+}

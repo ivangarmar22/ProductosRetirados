@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10003935",
+ "fuente": "safety-gate",
+ "idFuente": "10003935",
+ "referenciaOficial": "A12/00884/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003935",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Audi · A4, A4 Cabrio, RS4, A6, RS6",
+ "nombreVisible": "Turismos Audi",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-06-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A4, A4 Cabrio, RS4, A6, RS6",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "Types: 8E",
+    "8H",
+    "QB",
+    "4F",
+    "4F1",
+    "e1*2001/116*0151*",
+    "e1*2001/116*0177*",
+    "e1*2001/116*0243*",
+    "e1*2001/116*0254*",
+    "e1*2001/116*0276*",
+    "e13*2007/46*1080*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 12 May 2003 and 29 September 2011."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El propulsor utilizado en el inflador de bolsas de aire de los airbags del pasajero, fabricado por Takata, puede experimentar una alteración del material a lo largo del tiempo debido a la degradación que se produce tras una exposición prolongada a una humedad absoluta elevada y a un ciclo de alta temperatura. En caso de que se despliegue un airbag, la presión interna excesiva puede causar que el cuerpo del inflador se rompa y los fragmentos metálicos puedan pasar a través del material del cojín causando lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00884/21",
+   "mm:audi:types-8e",
+   "mm:audi:4f1",
+   "mm:audi:e1-2001-116-0151",
+   "mm:audi:e1-2001-116-0177",
+   "mm:audi:e1-2001-116-0243",
+   "mm:audi:e1-2001-116-0254",
+   "mm:audi:e1-2001-116-0276",
+   "mm:audi:e13-2007-46-1080"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "dc425f18fa391249"
+ },
+ "slug": "turismos-audi-safety-gate-10003935"
+}

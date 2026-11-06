@@ -1,0 +1,109 @@
+{
+ "id": "safety-gate-10006939",
+ "fuente": "safety-gate",
+ "idFuente": "10006939",
+ "referenciaOficial": "A12/01477/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006939",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Scooter eléctrico · Minimotors · Bluetran Lightning",
+ "nombreVisible": "Scooter eléctrico Minimotors",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-10-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de ocio y deporte",
+  "normalizada": "ocio"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Bluetran Lightning",
+   "marcas": [
+    "Minimotors"
+   ],
+   "modelos": [
+    "26ah",
+    "32ah",
+    "35ah"
+   ],
+   "lotes": [
+    {
+     "numero": "13.01.2022 - 31.03.2022"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Scooter eléctrico para adultos, comercializado entre el 13 de enero de 2022 y el 31 de marzo de 2022. El producto también se vende en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los tornillos de montaje tienen un diámetro insuficiente y pueden romperse. El scooter puede perder piezas y los usuarios corren el riesgo de caídas y lesiones. El producto no cumple con los requisitos de la Directiva de Maquinaria ni con las normas europeas EN 17128, EN 60335-1 y EN 62233.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Reemplazo de los tornillos M6 por tornillos M8 más adecuados, que son más sólidos",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10062852",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/7754/Interne",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01477/22",
+   "mm:minimotors:26ah",
+   "mm:minimotors:32ah",
+   "mm:minimotors:35ah",
+   "ml:minimotors:13-01-2022-31-03-2022"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5c26bed29befde19"
+ },
+ "slug": "scooter-electrico-minimotors-safety-gate-10006939"
+}

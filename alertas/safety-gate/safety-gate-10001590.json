@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10001590",
+ "fuente": "safety-gate",
+ "idFuente": "10001590",
+ "referenciaOficial": "A12/00995/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001590",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Kia · Sorento BL, Carnival VQ",
+ "nombreVisible": "Coche de pasajeros Kia",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-07-02",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Sorento BL, Carnival VQ",
+   "marcas": [
+    "Kia"
+   ],
+   "modelos": [
+    "e9*98/14*0045* (Sorento)",
+    "e4*2001/116*0112 (Carnival)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "Carnival: between 10 June 2005 and 14 December 2009Sorento: between 14 December 2005 and 17 December 2008"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El aceite y la humedad pueden penetrar en la fuente de alimentación del módulo de control ABS. Como resultado, puede ocurrir un cortocircuito, lo que lleva a una sobrecarga eléctrica y un mayor riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bélgica",
+  "paisOrigen": "República de Corea",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.kia.com/be/nl/mykia/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00995/20",
+   "mm:kia:e9-98-14-0045-sorento",
+   "mm:kia:e4-2001-116-0112-carnival"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "98a3e5cfc4671da6"
+ },
+ "slug": "coche-de-pasajeros-kia-safety-gate-10001590"
+}

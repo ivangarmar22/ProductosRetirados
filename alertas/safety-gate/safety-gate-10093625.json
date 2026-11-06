@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10093625",
+ "fuente": "safety-gate",
+ "idFuente": "10093625",
+ "referenciaOficial": "SR/01066/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093625",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Lápices iluminadores · Disney/Primark · Scented Highlighters Stitch",
+ "nombreVisible": "Lápices iluminadores Disney/Primark",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-03-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Juguetes",
+  "normalizada": "juguetes"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Scented Highlighters Stitch",
+   "marcas": [
+    "Disney/Primark"
+   ],
+   "modelos": [
+    "0688701",
+    "145478"
+   ],
+   "lotes": [
+    {
+     "numero": "010124:2302725.6.08"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Juego de 4 rotuladores fluorescentes perfumados con un patrón novedoso y una tapa de plástico suave de color en forma de cupcake.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El material plástico del cupcake cubre una concentración excesiva de ftalato de bis(2-etilhexilo) (DEHP) y ftalato de diisooctilo (DIOP) (valor medido hasta el 35,12% en peso, combinado). Estos ftalatos pueden dañar la salud de los niños, posiblemente causando daños al sistema reproductivo. El producto no cumple el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10951921",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/17643/Interne",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01066/25",
+   "mm:disney-primark:0688701",
+   "mm:disney-primark:145478",
+   "ml:disney-primark:010124-2302725-6-08"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "f225cc82b104a4ca"
+ },
+ "slug": "lapices-iluminadores-disney-primark-safety-gate-10093625"
+}

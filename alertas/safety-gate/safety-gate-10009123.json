@@ -1,0 +1,117 @@
+{
+ "id": "safety-gate-10009123",
+ "fuente": "safety-gate",
+ "idFuente": "10009123",
+ "referenciaOficial": "A11/00064/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009123",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Ventana de techo · Velux",
+ "nombreVisible": "Ventana de techo Velux",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-07-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Productos de construcción",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ventana de techo",
+   "marcas": [
+    "Velux"
+   ],
+   "modelos": [
+    "CVU - New Generation Glass Rooflight"
+   ],
+   "lotes": [
+    {
+     "numero": "7/2021-4/2023"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Ventana de techo plana accionada por la red a distancia. Se instalará en techos a una altura mínima de 2,5 metros del suelo. Vendido entre julio de 2021 y abril de 2023. Los productos afectados están marcados con la combinación del nombre del producto CVU y los dígitos séptimo y octavo del código del producto.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "Una acumulación de condensación en el compartimiento del actuador puede hacer que partes metálicas de la construcción de la ventana del techo plano sean conductivas. Las partes vivas pueden llegar a ser accesibles, el usuario puede recibir una descarga eléctrica. El producto no cumple con el Reglamento sobre productos de construcción.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Prohibición temporal del suministro, ofrecimiento de suministro o exposición del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "Dinamarca",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10083761",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10083762",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10083763",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.velux.pl/o-grupie-velux/electric-flat-roof-window-warning",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A11/00064/23",
+   "mm:velux:cvu-new-generation-glass-rooflight",
+   "ml:velux:7-2021-4-2023"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4be8bbf779840ccb"
+ },
+ "slug": "ventana-de-techo-velux-safety-gate-10009123"
+}

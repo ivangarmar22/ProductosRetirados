@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10098374",
+ "fuente": "safety-gate",
+ "idFuente": "10098374",
+ "referenciaOficial": "SR/00933/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098374",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Ford · Kuga",
+ "nombreVisible": "Coche de pasajeros Ford",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-04-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Kuga",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "DFK",
+    "e13*2007/46*2188*02-*13"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "02.08.2019 - 02.03.2026"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Un cortocircuito interno puede ocurrir en las células de la batería de alto voltaje que puede conducir a un incendio. Además, puede producirse una pérdida de potencia de propulsión, lo que aumenta el riesgo de accidentes y lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11002789",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.de/hilfe/r%C3%Bcckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00933/26",
+   "mm:ford:dfk",
+   "mm:ford:e13-2007-46-2188-02-13"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d33a9cc5cd8d655e"
+ },
+ "slug": "coche-de-pasajeros-ford-safety-gate-10098374"
+}

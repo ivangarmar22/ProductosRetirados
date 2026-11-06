@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10002437",
+ "fuente": "safety-gate",
+ "idFuente": "10002437",
+ "referenciaOficial": "A12/01570/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002437",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · VW · Phaeton",
+ "nombreVisible": "Turismos VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-11-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Phaeton",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "e1*2001/116*0189*",
+    "Type 3D"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos VW Phaeton, equipados con un techo corredizo.",
+   "fechasTexto": "The affected vehicles were manufactured between 18 June 2008 and 31 July 2008."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La adherencia de la cubierta de vidrio en el techo corredizo puede ser insuficiente debido a la contaminación durante el proceso de fabricación. Como resultado, la cubierta de vidrio puede desprenderse completamente mientras el vehículo está en movimiento, lo que supone un riesgo para el siguiente tráfico.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01570/20",
+   "mm:vw:e1-2001-116-0189",
+   "mm:vw:type-3d"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6bf0d50000cdc26d"
+ },
+ "slug": "turismos-vw-safety-gate-10002437"
+}

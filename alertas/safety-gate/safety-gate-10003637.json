@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10003637",
+ "fuente": "safety-gate",
+ "idFuente": "10003637",
+ "referenciaOficial": "A12/00648/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003637",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · GLB",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GLB",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2007/46*1909*01-09",
+    "Type: F2B"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: X247.",
+   "fechasTexto": "The affected vehicles were manufactured between 23 April 2019 and 13 November 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que las cubiertas delanteras del arco de la rueda no se hayan fijado correctamente. Como resultado, una cubierta de la rueda-arco podría desprenderse completamente mientras el vehículo está en movimiento, lo que aumenta el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00648/21",
+   "mm:mercedes-benz:e1-2007-46-1909-01-09",
+   "mm:mercedes-benz:type-f2b"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "2902a91576c3b6b2"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003637"
+}

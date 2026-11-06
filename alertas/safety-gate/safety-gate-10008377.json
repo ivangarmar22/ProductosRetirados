@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10008377",
+ "fuente": "safety-gate",
+ "idFuente": "10008377",
+ "referenciaOficial": "A12/00656/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008377",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Perfume · Ralph Lauren · Polo Sport",
+ "nombreVisible": "Perfume Ralph Lauren",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-04-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Polo Sport",
+   "marcas": [
+    "Ralph Lauren"
+   ],
+   "modelos": [
+    "S23015"
+   ],
+   "lotes": [
+    {
+     "numero": "SGU10W8"
+    }
+   ],
+   "ean": [
+    "3360372055419"
+   ],
+   "descripcion": "Eau de toillete, 75 ml. El producto se vende en línea, en particular a través de eMag.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene butilfenilo metilpropional (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo y la salud del feto, así como causar sensibilización cutánea. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Rumanía",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076338",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076339",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076340",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00656/23",
+   "ean:3360372055419",
+   "mm:ralph-lauren:s23015",
+   "ml:ralph-lauren:sgu10w8"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b7d1294be039c742"
+ },
+ "slug": "perfume-ralph-lauren-safety-gate-10008377"
+}

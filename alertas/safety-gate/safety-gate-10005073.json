@@ -1,0 +1,112 @@
+{
+ "id": "safety-gate-10005073",
+ "fuente": "safety-gate",
+ "idFuente": "10005073",
+ "referenciaOficial": "A12/00055/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005073",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · C-Class, EQS, GLC, S-Class",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-01-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class, EQS, GLC, S-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Types: R2CW",
+    "R2S",
+    "204 X",
+    "E2EQSW",
+    "R2CW",
+    "R2S",
+    "204 X",
+    "E2EQSW",
+    "e1*2001/116*0480*42",
+    "e1*200746*2115*06",
+    "e1*2018/858*00016*02",
+    "e1*2018/858*00035*00-*03"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "EQS (297 plataforma), GLC (253 plataforma), S-Class (223 plataforma) y C-Class (206 plataforma)",
+   "fechasTexto": "07.07.2021 - 05.11.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "Debido a la composición incorrecta del material del cable de carga de modo 2 para cargar en una toma de corriente doméstica, la resistencia de aislamiento del amortiguador de goma podría verse afectada, superando la función protectora del cable de carga. Además, en combinación con un error en la infraestructura doméstica, podría evitarse la activación del dispositivo de protección en el circuito eléctrico doméstico. Esto podría causar que el usuario tenga una descarga eléctrica y podría conducir a un incendio. El producto no cumple los requisitos establecidos en el Reglamento sobre homologación y vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00055/22",
+   "mm:mercedes-benz:types-r2cw",
+   "mm:mercedes-benz:r2s",
+   "mm:mercedes-benz:204-x",
+   "mm:mercedes-benz:e2eqsw",
+   "mm:mercedes-benz:r2cw",
+   "mm:mercedes-benz:e1-2001-116-0480-42",
+   "mm:mercedes-benz:e1-200746-2115-06",
+   "mm:mercedes-benz:e1-2018-858-00016-02",
+   "mm:mercedes-benz:e1-2018-858-00035-00-03"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ebcbeaae56dc2cb9"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10005073"
+}

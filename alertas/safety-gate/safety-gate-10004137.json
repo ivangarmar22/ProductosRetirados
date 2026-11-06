@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10004137",
+ "fuente": "safety-gate",
+ "idFuente": "10004137",
+ "referenciaOficial": "A12/01055/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004137",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Fiat · Doblo",
+ "nombreVisible": "Turismos Fiat",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Doblo",
+   "marcas": [
+    "Fiat"
+   ],
+   "modelos": [
+    "e3*2007/46*0002*46",
+    "Type: 263"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 6 June and 28 December 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La unidad de control ABS (sistema de frenado antibloqueo) puede estar defectuosa. Esto podría dar lugar a una reducción de la función ABS/ESC (control de estabilidad electrónica), aumentando el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01055/21",
+   "mm:fiat:e3-2007-46-0002-46",
+   "mm:fiat:type-263"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ca43ca78848b569a"
+ },
+ "slug": "turismos-fiat-safety-gate-10004137"
+}

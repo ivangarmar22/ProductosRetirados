@@ -1,0 +1,86 @@
+{
+ "id": "safety-gate-10001503",
+ "fuente": "safety-gate",
+ "idFuente": "10001503",
+ "referenciaOficial": "A12/00922/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001503",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camioneta de recogida · Dodge · RAM",
+ "nombreVisible": "Camioneta de recogida Dodge",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-06-23",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "RAM",
+   "marcas": [
+    "Dodge"
+   ],
+   "modelos": [
+    "Type-approval number: Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camioneta de recogida",
+   "fechasTexto": "The affected vehicles were manufactured between 12 June 2013 and 23 October 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a la fatiga térmica, se pueden producir grietas en el enfriador de recirculación de gases de escape (EGR). Esto conducirá a un mayor riesgo de que el vehículo se incendie.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00922/20",
+   "mm:dodge:type-approval-number-individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0c2856a06bab90c1"
+ },
+ "slug": "camioneta-de-recogida-dodge-safety-gate-10001503"
+}

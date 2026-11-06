@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10118538",
+ "fuente": "safety-gate",
+ "idFuente": "10118538",
+ "referenciaOficial": "SR/02311/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118538",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Colector solar · Hoval · Holzrahmen-Indachkollektor",
+ "nombreVisible": "Colector solar Hoval",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-08-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Productos de construcción",
+  "normalizada": "hogar"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Holzrahmen-Indachkollektor",
+   "marcas": [
+    "Hoval"
+   ],
+   "modelos": [
+    "IDKM 200E",
+    "IDKM 200G",
+    "IDKM 250",
+    "IDKM 251"
+   ],
+   "lotes": [
+    {
+     "numero": "2004206200420720362446046100"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Colectores solares en el techo con marco de madera, usando un fluido de transferencia de calor.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La temperatura de encendido automático del colector solar del fluido de transferencia de calor es demasiado baja. Bajo altas temperaturas exteriores si se desarrolla una fuga, permitiendo que se escape suficiente líquido, puede desarrollarse un incendio. El riesgo es causado exclusivamente por fluidos específicos de transferencia de calor. El producto no cumple con el Reglamento de Productos de Construcción.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11228961",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.hoval.at/de_AT/news/rueckruf",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02311/26",
+   "mm:hoval:idkm-200e",
+   "mm:hoval:idkm-200g",
+   "mm:hoval:idkm-250",
+   "mm:hoval:idkm-251",
+   "ml:hoval:2004206200420720362446046100"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "421ce7bbf216711c"
+ },
+ "slug": "colector-solar-hoval-safety-gate-10118538"
+}

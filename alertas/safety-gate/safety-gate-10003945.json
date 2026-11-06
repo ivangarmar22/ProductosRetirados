@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10003945",
+ "fuente": "safety-gate",
+ "idFuente": "10003945",
+ "referenciaOficial": "A12/00888/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003945",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes- Benz · C-Class, E-Class",
+ "nombreVisible": "Turismos Mercedes- Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-06-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class, E-Class",
+   "marcas": [
+    "Mercedes- Benz"
+   ],
+   "modelos": [
+    "Types: 204",
+    "204AMG",
+    "R1EC",
+    "e1*2001/116*0431*62",
+    "e1*2001/116*0464*20",
+    "*22",
+    "e1*2007/46*1666*20",
+    "*21"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cabriolet clase C (BR 205) y Cabriolet de clase E (BR 238).",
+   "fechasTexto": "The affected vehicles were manufactured between 29 January and 22 March 2021."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que los reposacabezas traseras no se hayan fijado correctamente. En consecuencia, podrían desplazarse o separarse del asiento en caso de accidente, lo que aumenta el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00888/21",
+   "mm:mercedes-benz:types-204",
+   "mm:mercedes-benz:204amg",
+   "mm:mercedes-benz:r1ec",
+   "mm:mercedes-benz:e1-2001-116-0431-62",
+   "mm:mercedes-benz:e1-2001-116-0464-20",
+   "mm:mercedes-benz:e1-2007-46-1666-20"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "99cde258dea7cf2b"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003945"
+}

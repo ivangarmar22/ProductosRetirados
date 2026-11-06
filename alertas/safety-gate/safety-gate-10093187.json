@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10093187",
+ "fuente": "safety-gate",
+ "idFuente": "10093187",
+ "referenciaOficial": "SR/00727/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093187",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Plomo de extensión · Lencent · Socket, Power-Socket",
+ "nombreVisible": "Plomo de extensión Lencent",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-02-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Socket, Power-Socket",
+   "marcas": [
+    "Lencent"
+   ],
+   "modelos": [
+    "F09U"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cable de extensión de múltiples tomas con tres tomas Schuko de 230 V, cuatro puertos USB-A, un puerto USB-C, un interruptor de encendido/apagado, una luz indicadora, un cable de conexión de dos metros, con un máximo de 2 500 W. Producto vendido en línea, en particular a través de Amazon (ASIN: B0DF9ZKHYV).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "Los contactos de tierra en los enchufes no están conectados y los contactos de tierra en el enchufe Schuko están parcialmente cubiertos de plástico. Además, al producto le falta el conductor protector en el cable de suministro. En el caso de un cortocircuito, la corriente de cortocircuito no se descarga a través de la puesta a tierra. Esto puede provocar una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10949254",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10949255",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10949256",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10949257",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10949258",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00727/25",
+   "mm:lencent:f09u"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6b9783f792df7fb5"
+ },
+ "slug": "plomo-de-extension-lencent-safety-gate-10093187"
+}

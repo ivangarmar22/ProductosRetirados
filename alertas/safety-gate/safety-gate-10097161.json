@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10097161",
+ "fuente": "safety-gate",
+ "idFuente": "10097161",
+ "referenciaOficial": "SR/04510/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097161",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta · HARLEY-DAVIDSON · SPORTSTER S",
+ "nombreVisible": "Motocicleta HARLEY-DAVIDSON",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-05-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "SPORTSTER S",
+   "marcas": [
+    "HARLEY-DAVIDSON"
+   ],
+   "modelos": [
+    "e4*168/2013*00131*01-*04 (RA1)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta.",
+   "fechasTexto": "08.12.2020 - 09.01.20268.12.2020 - 21.08.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La pinza triple superior puede fracturarse y conducir a una pérdida de control. Esto aumenta el riesgo de accidentes y lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10989698",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10989699",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://serviceinfo.harley-davidson.com/login",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/04510/25",
+   "mm:harley-davidson:e4-168-2013-00131-01-04-ra1"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "dde311749666a35b"
+ },
+ "slug": "motocicleta-harley-davidson-safety-gate-10097161"
+}

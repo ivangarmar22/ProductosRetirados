@@ -1,0 +1,86 @@
+{
+ "id": "safety-gate-10000297",
+ "fuente": "safety-gate",
+ "idFuente": "10000297",
+ "referenciaOficial": "A12/00050/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000297",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Ford · Fiesta",
+ "nombreVisible": "Coche de pasajeros Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-11-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Fiesta",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e9*2007/46*3142*11"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación de Ford: 19S46.",
+   "fechasTexto": "The affected vehicles were manufactured between 18/09/2019 and 25/09/2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Podría haberse aplicado un par insuficiente a los pernos de los pestillos del asiento trasero y al retractor central del cinturón de seguridad. En consecuencia, en caso de accidente, estos elementos podrían desprenderse, aumentando el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00050/20",
+   "mm:ford:e9-2007-46-3142-11"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "958c1e9df25fc5eb"
+ },
+ "slug": "coche-de-pasajeros-ford-safety-gate-10000297"
+}

@@ -1,0 +1,113 @@
+{
+ "id": "safety-gate-10002152",
+ "fuente": "safety-gate",
+ "idFuente": "10002152",
+ "referenciaOficial": "A12/01852/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002152",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Banco de energía · Dunlop · Power bank",
+ "nombreVisible": "Banco de energía Dunlop",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-12-25",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Power bank",
+   "marcas": [
+    "Dunlop"
+   ],
+   "modelos": [
+    "06910"
+   ],
+   "lotes": [
+    {
+     "numero": "8711252069104"
+    }
+   ],
+   "ean": [
+    "8711252069104"
+   ],
+   "descripcion": "El banco de energía. El producto también se vende en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "Debido a la falta de sistema de gestión de baterías, las celdas en el banco de energía no están protegidas de temperaturas fuera de sus especificaciones; el producto también carece de protección contra corrientes de carga fuera de sus especificaciones. Por lo tanto, bajo alta temperatura ambiente, las células de iones de litio pueden incendiarse. Además, las conexiones de los conductores no están aseguradas, por lo tanto, si uno se suelta, puede reducir las distancias de espacio/página. Por lo tanto, las partes accesibles pueden volverse vivas y el usuario podría recibir una descarga eléctrica de ellas. El producto no cumple con la norma europea pertinente EN 60950-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Países Bajos",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10022144",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01852/20",
+   "ean:8711252069104",
+   "mm:dunlop:06910",
+   "ml:dunlop:8711252069104"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9b0e9340c9b66fe8"
+ },
+ "slug": "banco-de-energia-dunlop-safety-gate-10002152"
+}

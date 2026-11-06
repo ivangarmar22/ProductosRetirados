@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10001094",
+ "fuente": "safety-gate",
+ "idFuente": "10001094",
+ "referenciaOficial": "A12/00620/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001094",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · G-Class",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-04-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "G-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Model series: BR 463",
+    "Type-approval number: e1*2007/46*1830*05",
+    "Type: 463A"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación de Mercedes-Benz: 2890002.",
+   "fechasTexto": "The affected vehicles were manufactured between 4 and 6 February 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "Los pernos en la caja de transferencia pueden no cumplir con las especificaciones y pueden fracturarse durante la conducción. En tal caso, la transmisión de potencia a los ejes se interrumpiría. Además, los fragmentos rotos de los pernos podrían bloquear la caja de transferencia y, por lo tanto, las ruedas, aumentando el riesgo de un accidente. Además, la carcasa del engranaje podría dañarse y el aceite podría filtrarse en la carretera, lo que representa un riesgo para el tráfico siguiente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00620/20",
+   "mm:mercedes-benz:model-series-br-463",
+   "mm:mercedes-benz:type-approval-number-e1-2007-46-1830-05",
+   "mm:mercedes-benz:type-463a"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "bafdbadb312437a2"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10001094"
+}

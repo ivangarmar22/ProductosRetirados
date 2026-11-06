@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10013091",
+ "fuente": "safety-gate",
+ "idFuente": "10013091",
+ "referenciaOficial": "A12/02304/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10013091",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Leche corporal · Dove · Crema corpo nutriente",
+ "nombreVisible": "Leche corporal Dove",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-08-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Crema corpo nutriente",
+   "marcas": [
+    "Dove"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "7035MBX"
+    }
+   ],
+   "ean": [
+    "4000388563803"
+   ],
+   "descripcion": "Crema corporal, anunciada para piel seca, 400 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene 2-(4-terc-butilbencil)propionaldehído (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización cutánea. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "Reino Unido",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10132608",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10132609",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10132610",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10132611",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/02304/24",
+   "ean:4000388563803",
+   "ml:dove:7035mbx"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "cbeccffda56649da"
+ },
+ "slug": "leche-corporal-dove-safety-gate-10013091"
+}

@@ -1,0 +1,118 @@
+{
+ "id": "safety-gate-10009240",
+ "fuente": "safety-gate",
+ "idFuente": "10009240",
+ "referenciaOficial": "A12/01349/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009240",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Manta eléctrica · Online Home Shop · Online Home Shop Electric Blanket",
+ "nombreVisible": "Manta eléctrica Online Home Shop",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-06-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Online Home Shop Electric Blanket",
+   "marcas": [
+    "Online Home Shop"
+   ],
+   "modelos": [
+    "OBEBPOLCL13",
+    "OBEBPOLWH02"
+   ],
+   "lotes": [
+    {
+     "numero": "PO1205PO1478PO1479PO1712"
+    }
+   ],
+   "ean": [
+    "5027434145454",
+    "5027434145461"
+   ],
+   "descripcion": "Mantas eléctricas calentadas en carbón y blanco. Productos vendidos en línea, en particular a través de Amazon, (ASIN B0BBG7J673, B0BBH1L6XW) y a través de eBay.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "Debido a un fusible defectuoso, el producto no está protegido contra la sobretensión. Un usuario puede tocar una parte de alto voltaje y recibir una descarga eléctrica y también está expuesto a un mayor riesgo de incendio. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10084423",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10084424",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10084425",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.onlinehomeshop.com/product-safety-recalls",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01349/23",
+   "ean:5027434145454",
+   "ean:5027434145461",
+   "mm:online-home-shop:obebpolcl13",
+   "mm:online-home-shop:obebpolwh02",
+   "ml:online-home-shop:po1205po1478po1479po1712"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "a294a4d5668d60da"
+ },
+ "slug": "manta-electrica-online-home-shop-safety-gate-10009240"
+}

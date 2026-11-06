@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10010210",
+ "fuente": "safety-gate",
+ "idFuente": "10010210",
+ "referenciaOficial": "A12/02166/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10010210",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Polvo para la higiene bucal · GIFRER BARBEZAT · Bicare plus",
+ "nombreVisible": "Polvo para la higiene bucal GIFRER BARBEZAT",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-10-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Bicare plus",
+   "marcas": [
+    "GIFRER BARBEZAT"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "58321"
+    }
+   ],
+   "ean": [
+    "3401373541324"
+   ],
+   "descripcion": "Polvo mentolado para la higiene bucal, anunciado como blanquear y combatir la placa, 60 g.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico"
+  ],
+  "descripcion": "El producto está microbiológicamente contaminado con bacterias aeróbicas mesófilas, levaduras y moho (400 cfu/g y 150 cfu/g respectivamente). El producto puede causar infecciones y problemas digestivos. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Bélgica",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10094289",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel//12119/interne",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/02166/23",
+   "ean:3401373541324",
+   "ml:gifrer-barbezat:58321"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7cb8b3cfe71a3264"
+ },
+ "slug": "polvo-para-la-higiene-bucal-gifrer-barbezat-safety-gate-10010210"
+}

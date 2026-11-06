@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10119558",
+ "fuente": "safety-gate",
+ "idFuente": "10119558",
+ "referenciaOficial": "SR/03136/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119558",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión · Mercedes-Benz · Actros, Arocs, eActros",
+ "nombreVisible": "Camión Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-11-04",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-04"
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Actros, Arocs, eActros",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2018/858*00045*00-*12 (963-0-C), e1*2018/858*00056*00-*11 (963-8-H)"
+   ],
+   "lotes": [
+    {
+     "numero": "24.08.2026 - 01.09.2026"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Camión",
+   "fechasTexto": "24.08.2026 - 01.09.2026",
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que los pernos que sujetan las abrazaderas de la línea hidráulica al cilindro no se aprieten correctamente y que las abrazaderas se aflojen. Esto podría causar que el aceite hidráulico se filtre en la carretera, creando un riesgo de accidentes. El producto incumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Recuperación de un producto de usuarios comerciales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240996",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240997",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240998",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.daimlertruck.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03136/26",
+   "mm:mercedes-benz:e1-2018-858-00045-00-12-963-0-c-e1-2018-858-00056-00-11-963-8-h",
+   "ml:mercedes-benz:24-08-2026-01-09-2026"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "c1528eb4ed2836da"
+ },
+ "slug": "camion-mercedes-benz-safety-gate-10119558"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10005798",
+ "fuente": "safety-gate",
+ "idFuente": "10005798",
+ "referenciaOficial": "A12/00503/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005798",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Tesla · Model Y",
+ "nombreVisible": "Turismos Tesla",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-03-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Model Y",
+   "marcas": [
+    "Tesla"
+   ],
+   "modelos": [
+    "003",
+    "e4*2007/46*1293*19"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "16.6.2020 -10.11.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los nudillos de dirección fabricados incorrectamente pueden romperse o deformarse o romperse y los brazos de suspensión podrían desprenderse de ellos, lo que reduce la estabilidad de conducción y la pérdida de control y aumenta el riesgo de accidente. El producto no cumple lo dispuesto en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.tesla.com/vin-recall-search",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00503/22",
+   "mm:tesla:003",
+   "mm:tesla:e4-2007-46-1293-19"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "915679c1dda58151"
+ },
+ "slug": "turismos-tesla-safety-gate-10005798"
+}

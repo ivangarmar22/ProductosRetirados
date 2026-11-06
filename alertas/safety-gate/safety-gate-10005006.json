@@ -1,0 +1,109 @@
+{
+ "id": "safety-gate-10005006",
+ "fuente": "safety-gate",
+ "idFuente": "10005006",
+ "referenciaOficial": "A12/01799/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005006",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Enfriador de aire · RL Icecube · Air cooler",
+ "nombreVisible": "Enfriador de aire RL Icecube",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-12-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Air cooler",
+   "marcas": [
+    "RL Icecube"
+   ],
+   "modelos": [
+    "CKS-0502012W",
+    "R031-01"
+   ],
+   "lotes": [],
+   "ean": [
+    "4017807457759"
+   ],
+   "descripcion": "Enfriador de aire con fuente de alimentación. Especificaciones eléctricas: Unidad de alimentación: 100-240V ~ 50/60 Hz Enfriador de aire: 5V 1-2A. El producto se vendió en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "En la unidad de alimentación provista del enfriador de aire, el aislamiento no es suficiente y la distancia de arrastre entre los circuitos primarios y secundarios accesibles en vivo no es adecuada. Un usuario podría tocar partes activas accesibles y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión y las normas europeas EN 60335-1 y EN 60335-2-98.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10042564",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10042565",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10042566",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.trio-lighting.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01799/21",
+   "ean:4017807457759",
+   "mm:rl-icecube:cks-0502012w",
+   "mm:rl-icecube:r031-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e799d7ac2ad09619"
+ },
+ "slug": "enfriador-de-aire-rl-icecube-safety-gate-10005006"
+}

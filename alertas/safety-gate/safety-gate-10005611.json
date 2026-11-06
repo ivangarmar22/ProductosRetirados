@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10005611",
+ "fuente": "safety-gate",
+ "idFuente": "10005611",
+ "referenciaOficial": "A12/00314/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005611",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · AMG GT",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-02-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "AMG GT",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2007/46*0233*18 -*20",
+    "197"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Mercedes-AMG GT Serie Negro; Serie de modelos: BR 190.",
+   "fechasTexto": "10.10.2019 - 22.12.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La longitud del arnés de cableado de los sensores de velocidad de la rueda delantera podría ser inadecuada. Como consecuencia de ello, en determinadas maniobras de conducción, como el ángulo completo del volante o la compresión/rebote total de la suspensión, podría producirse un daño en el arnés de cableado debido a la carga de tracción. Esto podría dar lugar a un deterioro de los sistemas de control de la dinámica del vehículo aumentando el riesgo de accidente. El producto no cumple los requisitos establecidos en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00314/22",
+   "mm:mercedes-benz:e1-2007-46-0233-18-20",
+   "mm:mercedes-benz:197"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3841809a6ffe9aed"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10005611"
+}

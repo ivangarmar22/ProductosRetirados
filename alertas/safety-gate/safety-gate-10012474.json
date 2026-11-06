@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10012474",
+ "fuente": "safety-gate",
+ "idFuente": "10012474",
+ "referenciaOficial": "A12/00856/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10012474",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Bmw · 5 series, i5",
+ "nombreVisible": "Coche de pasajeros Bmw",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-04-02",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "5 series, i5",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "G6L",
+    "G6E",
+    "e1*2018/858*00316*",
+    "e1*2018/858*00317*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "12.01.2024 - 29.01.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los clips ISOFIX soldados en los asientos traseros pueden dañarse. El asiento infantil puede desprenderse de los clips ISOFIX, lo que aumenta el riesgo de lesiones en caso de accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10116349",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10116350",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10116351",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.bmw.de/rueckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00856/24",
+   "mm:bmw:g6l",
+   "mm:bmw:g6e",
+   "mm:bmw:e1-2018-858-00316",
+   "mm:bmw:e1-2018-858-00317"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6d6e95311e81c493"
+ },
+ "slug": "coche-de-pasajeros-bmw-safety-gate-10012474"
+}

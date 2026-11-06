@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10012002",
+ "fuente": "safety-gate",
+ "idFuente": "10012002",
+ "referenciaOficial": "A12/00412/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10012002",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta eléctrica · CAKE · Kalk&, Kalk INK&, Kalk:work, Kalk Ink SL, Kalk INK, Kalk INK Race, Kalk OR, Kalk OR Race, Kalk AP",
+ "nombreVisible": "Motocicleta eléctrica CAKE",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-05-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Kalk&, Kalk INK&, Kalk:work, Kalk Ink SL, Kalk INK, Kalk INK Race, Kalk OR, Kalk OR Race, Kalk AP",
+   "marcas": [
+    "CAKE"
+   ],
+   "modelos": [
+    "e9*168/2013*11466*01-*02 (Kalk&)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta eléctrica para uso en carretera y fuera de carretera.",
+   "fechasTexto": "01.01.2018 - 01.11.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Las celdas específicas de las baterías de iones de litio pueden fallar durante la carga. Las fallas en las celdas de la batería pueden provocar el desarrollo de humo y / o fuego. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Suecia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10111047",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10111048",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://ridecake.com/en-SE/recall-kalk",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00412/24",
+   "mm:cake:e9-168-2013-11466-01-02-kalk"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0a92dea15caa3842"
+ },
+ "slug": "motocicleta-electrica-cake-safety-gate-10012002"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10004463",
+ "fuente": "safety-gate",
+ "idFuente": "10004463",
+ "referenciaOficial": "A12/01365/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004463",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Audi · e-tron",
+ "nombreVisible": "Turismos Audi",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-09-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "e-tron",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "e1*2007/46*1914*",
+    "Type: GE"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "15.1.2019 - 3.6.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Una soldadura en el refuerzo de freno puede ser defectuosa, lo que podría causar que el refuerzo de freno, ABS y ESP falle. Esto puede dar lugar a una mayor distancia de frenado y a una menor maniobrabilidad del vehículo durante el frenado, lo que aumenta el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01365/21",
+   "mm:audi:e1-2007-46-1914",
+   "mm:audi:type-ge"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "267fd38f548eb56f"
+ },
+ "slug": "turismos-audi-safety-gate-10004463"
+}

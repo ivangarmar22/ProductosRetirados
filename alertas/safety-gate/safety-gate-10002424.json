@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10002424",
+ "fuente": "safety-gate",
+ "idFuente": "10002424",
+ "referenciaOficial": "A12/01580/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002424",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Land Rover · Range Rover Evoque, Discovery Sport",
+ "nombreVisible": "Turismos Land Rover",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-11-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Range Rover Evoque, Discovery Sport",
+   "marcas": [
+    "Land Rover"
+   ],
+   "modelos": [
+    "e5*2007/46*1053",
+    "e5*2007/46*1056"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "2019 y 2020 modelos de vehículos Range Rover Evoque y Discovery Sport MHEV.",
+   "fechasTexto": "The affected vehicles were manufactured between 25 May 2018 and 2 October 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Una sobrecarga eléctrica en el sistema eléctrico de 48 voltios (V) puede causar un fallo del Transistor de Efecto de Campo de Semiconductores de Óxido Metal (MOSFET). Esto puede causar un fallo en cascada eléctrica, causando que el convertidor DCDC experimente un corto eléctrico donde el circuito de 12V a tierra. Como resultado, el humo del convertidor DCDC puede ser ventilado en el compartimento de pasajeros y, cuando exista suficiente oxígeno, puede producirse un incendio sostenido del vehículo.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido",
+  "paisOrigen": "Reino Unido",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01580/20",
+   "mm:land-rover:e5-2007-46-1053",
+   "mm:land-rover:e5-2007-46-1056"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "fba1bc729253bf22"
+ },
+ "slug": "turismos-land-rover-safety-gate-10002424"
+}

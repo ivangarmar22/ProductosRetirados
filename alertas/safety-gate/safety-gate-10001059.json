@@ -1,0 +1,95 @@
+{
+ "id": "safety-gate-10001059",
+ "fuente": "safety-gate",
+ "idFuente": "10001059",
+ "referenciaOficial": "A12/00601/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001059",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Subaru · Legacy, Outback, Impreza",
+ "nombreVisible": "Coche de pasajeros Subaru",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-04-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Legacy, Outback, Impreza",
+   "marcas": [
+    "Subaru"
+   ],
+   "modelos": [
+    "Type-approval numbers: e1*2001/116*0438*03",
+    "e1*2001/116*0438***",
+    "e1*2001/116*0228*10"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación de Subaru: SRT239.",
+   "fechasTexto": "The affected vehicles were manufactured between 2008 and 2010 (Impreza) between 2004 and 2009 (Legacy, Outback)"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El conector del arnés de la bomba de combustible puede sobrecalentarse y fundirse, lo que hace que la bomba de combustible se vuelva inoperante. Como resultado, el motor se detendrá o no podrá arrancar, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bélgica",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.subaru.be/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00601/20",
+   "mm:subaru:type-approval-numbers-e1-2001-116-0438-03",
+   "mm:subaru:e1-2001-116-0438",
+   "mm:subaru:e1-2001-116-0228-10"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "8d55187613c7d003"
+ },
+ "slug": "coche-de-pasajeros-subaru-safety-gate-10001059"
+}

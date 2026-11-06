@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10004409",
+ "fuente": "safety-gate",
+ "idFuente": "10004409",
+ "referenciaOficial": "A12/01313/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004409",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Fiat · 500e",
+ "nombreVisible": "Turismos Fiat",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-09-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "500e",
+   "marcas": [
+    "Fiat"
+   ],
+   "modelos": [
+    "e3*2018/858*00001*02",
+    "Type FA1"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "09.11.2020 - 03.12.2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El módulo IBS (sistema de freno integrado) puede estar defectuoso. Esto puede causar un fallo del ABS (sistema de frenado antibloqueo), lo que aumenta el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01313/21",
+   "mm:fiat:e3-2018-858-00001-02",
+   "mm:fiat:type-fa1"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "81780b7a8818ee6f"
+ },
+ "slug": "turismos-fiat-safety-gate-10004409"
+}

@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10010995",
+ "fuente": "safety-gate",
+ "idFuente": "10010995",
+ "referenciaOficial": "A12/02864/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10010995",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Toyota · bZ4X",
+ "nombreVisible": "Coche de pasajeros Toyota",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-11-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "bZ4X",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "e6*2018/858*00144*00",
+    "e6*2018/858*00144*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros, marco Código: bZ4X (XEAM10, YEAM15), año modelo: 2021-2023.",
+   "fechasTexto": "2.11.2021 - 7.08.023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "lesiones"
+  ],
+  "descripcion": "La comunicación entre el módulo de comunicación de datos (DCM) y la unidad de control electrónico (ECU) puede fallar. Esto puede dar lugar a la falta de visualización de ciertos indicadores y errores de la interfaz entre la ECU y las señales de giro, las luces de peligro y el sistema de precolisión, lo que aumenta el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10101479",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/02864/23",
+   "mm:toyota:e6-2018-858-00144-00",
+   "mm:toyota:e6-2018-858-00144-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "f3f4080ff59d7518"
+ },
+ "slug": "coche-de-pasajeros-toyota-safety-gate-10010995"
+}

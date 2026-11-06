@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10004266",
+ "fuente": "safety-gate",
+ "idFuente": "10004266",
+ "referenciaOficial": "A12/01191/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004266",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Lamborghini · Urus",
+ "nombreVisible": "Coche de pasajeros Lamborghini",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-08-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Urus",
+   "marcas": [
+    "Lamborghini"
+   ],
+   "modelos": [
+    "e3*2007/46*0616",
+    "Type 636"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "The affected vehicles were manufactured between 6 October and 7 December 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El bloque del motor puede agrietarse. Esto podría conducir a fallos del motor y a un mayor riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01191/21",
+   "mm:lamborghini:e3-2007-46-0616",
+   "mm:lamborghini:type-636"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d0899811c4898e7c"
+ },
+ "slug": "coche-de-pasajeros-lamborghini-safety-gate-10004266"
+}

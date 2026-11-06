@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10099109",
+ "fuente": "safety-gate",
+ "idFuente": "10099109",
+ "referenciaOficial": "SR/01577/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099109",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Furgoneta de pasajeros · Ford · Tourneo Courier, Transit Courier",
+ "nombreVisible": "Furgoneta de pasajeros Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-06-02",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Tourneo Courier, Transit Courier",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e13*2018/858*00648*04-*05",
+    "e13*2018/858*00649*04-*05 (N1P",
+    "N3P)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Furgoneta de pasajeros.",
+   "fechasTexto": "01.09.2025 - 24.11.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El freno de mano puede resbalar, causando una pérdida completa de poder de retención. Esto podría permitir que el vehículo se desplace involuntariamente, aumentando el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Rumanía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11010393",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11010394",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.com/support/recalls-details/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01577/26",
+   "mm:ford:e13-2018-858-00648-04-05",
+   "mm:ford:e13-2018-858-00649-04-05-n1p",
+   "mm:ford:n3p"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7325e37b856aace5"
+ },
+ "slug": "furgoneta-de-pasajeros-ford-safety-gate-10099109"
+}

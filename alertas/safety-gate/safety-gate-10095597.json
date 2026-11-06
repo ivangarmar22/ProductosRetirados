@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10095597",
+ "fuente": "safety-gate",
+ "idFuente": "10095597",
+ "referenciaOficial": "SR/03037/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095597",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Desmaquillante · CARREFOUR SOFT · Lait démaquillant douceur",
+ "nombreVisible": "Desmaquillante CARREFOUR SOFT",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-08-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Lait démaquillant douceur",
+   "marcas": [
+    "CARREFOUR SOFT"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "5022112 5022121"
+    }
+   ],
+   "ean": [
+    "3560071324988"
+   ],
+   "descripcion": "Desmaquillante.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano"
+  ],
+  "descripcion": "El producto está contaminado con la bacteria Burkholderia Cepacia, que puede causar enfermedades en algunos consumidores, particularmente aquellos con un sistema inmunológico debilitado (por ejemplo, pacientes hospitalizados y personas que sufren de fibrosis quística). El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10972970",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10972971",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/2025-07-0012",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03037/25",
+   "ean:3560071324988",
+   "ml:carrefour-soft:5022112-5022121"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b88747d3e3713698"
+ },
+ "slug": "desmaquillante-carrefour-soft-safety-gate-10095597"
+}

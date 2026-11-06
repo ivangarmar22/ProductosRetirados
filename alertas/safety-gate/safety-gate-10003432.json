@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003432",
+ "fuente": "safety-gate",
+ "idFuente": "10003432",
+ "referenciaOficial": "A12/00415/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003432",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Hyundai · Tucson (TLe)",
+ "nombreVisible": "Turismos Hyundai",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-31",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Tucson (TLe)",
+   "marcas": [
+    "Hyundai"
+   ],
+   "modelos": [
+    "e21*NKS*0055*00",
+    "e11*2007/46*2724*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Año de modelo: 2020; VINS: TMAJ2813MLJ000000 ~ TMAJ2813MLJ997665, TMAJ2817ALJ000007 ~ TMAJ3817GLJ179856.",
+   "fechasTexto": "The affected vehicles were manufactured between February 2017 and August 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Los módulos del sistema de frenos antibloqueo (ABS) pueden funcionar mal internamente. Esto podría causar un cortocircuito eléctrico con el tiempo, aumentando el riesgo de incendio en el compartimiento del motor.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Chequia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00415/21",
+   "mm:hyundai:e21-nks-0055-00",
+   "mm:hyundai:e11-2007-46-2724"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5e73c7784eec9733"
+ },
+ "slug": "turismos-hyundai-safety-gate-10003432"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001095",
+ "fuente": "safety-gate",
+ "idFuente": "10001095",
+ "referenciaOficial": "A12/00621/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001095",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Renault · Zoe",
+ "nombreVisible": "Coche de pasajeros Renault",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-04-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Zoe",
+   "marcas": [
+    "Renault"
+   ],
+   "modelos": [
+    "Type-approval number: e2*2007/46*0251*15-16",
+    "Type: AG"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación Renault: 0DA5.",
+   "fechasTexto": "23.9.2019 to 18.12.2019"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Un defecto de producción en la batería puede conducir a un cortocircuito. Esto puede causar sobrecalentamiento y daños a los sistemas eléctricos, aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00621/20",
+   "mm:renault:type-approval-number-e2-2007-46-0251-15-16",
+   "mm:renault:type-ag"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b8c15828f15d76c0"
+ },
+ "slug": "coche-de-pasajeros-renault-safety-gate-10001095"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10003005",
+ "fuente": "safety-gate",
+ "idFuente": "10003005",
+ "referenciaOficial": "A12/00129/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003005",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Peugeot · 4008",
+ "nombreVisible": "Turismos Peugeot",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "4008",
+   "marcas": [
+    "Peugeot"
+   ],
+   "modelos": [
+    "Type-approval number: e2*2007/46*0115*06",
+    "Type: B"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 28 January and 2 June 2016."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El freno de estacionamiento puede perder su eficacia durante la vida útil del vehículo. Esto aumentará el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.peugeot.de/teile-und-zubehor/prufung-ihres-fahrzeugs-auf-ruckrufaktionen.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00129/21",
+   "mm:peugeot:type-approval-number-e2-2007-46-0115-06",
+   "mm:peugeot:type-b"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "fae64f0a0d9726d6"
+ },
+ "slug": "turismos-peugeot-safety-gate-10003005"
+}

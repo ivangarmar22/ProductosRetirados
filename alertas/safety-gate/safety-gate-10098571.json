@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10098571",
+ "fuente": "safety-gate",
+ "idFuente": "10098571",
+ "referenciaOficial": "SR/01218/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098571",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Adaptador de alimentación USB · Topabol · Socket",
+ "nombreVisible": "Adaptador de alimentación USB Topabol",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-04-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Socket",
+   "marcas": [
+    "Topabol"
+   ],
+   "modelos": [
+    "BYHL-803EU"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Adaptador de zócalo con cuatro puertos USB (2× USB-A, 2× USB-C) clasificado para 250 V, 10 A. Producto vendido en línea, en particular a través de Amazon (ASIN: B0FRS259LK).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El adaptador tiene una toma de tierra, pero utiliza un enchufe de dos clavijas y no tiene conductor protector. Esto significa que un electrodoméstico de clase I se puede conectar sin la conexión a tierra adecuada. Si se produce un fallo, el aparato conectado podría activarse y el usuario podría recibir una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 62368-1",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11005409",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11005410",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11005411",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11005412",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/01218/26",
+   "mm:topabol:byhl-803eu"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "27339ac93a545daa"
+ },
+ "slug": "adaptador-de-alimentacion-usb-topabol-safety-gate-10098571"
+}

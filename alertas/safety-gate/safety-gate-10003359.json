@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10003359",
+ "fuente": "safety-gate",
+ "idFuente": "10003359",
+ "referenciaOficial": "A12/00365/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003359",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Cadillac · XT4",
+ "nombreVisible": "Turismos Cadillac",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "XT4",
+   "marcas": [
+    "Cadillac"
+   ],
+   "modelos": [
+    "Type: E2UL",
+    "e13*2007/46*2376*00 and e13*2007/46*2376*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos Cadillac XT4 de los años de modelo 2020 y 2021, equipados con un motor turbodiésel de 4 cilindros de 2,0 litros (RPO LSQ).",
+   "fechasTexto": "The affected vehicles were manufactured between 2020 and 2021."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Los vehículos afectados tienen una brida con una abertura de circulación abierta, a través de la cual el combustible puede salirse durante el repostaje. Esto aumentará el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00365/21",
+   "mm:cadillac:type-e2ul",
+   "mm:cadillac:e13-2007-46-2376-00-and-e13-2007-46-2376-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ca446cdd896dc2eb"
+ },
+ "slug": "turismos-cadillac-safety-gate-10003359"
+}

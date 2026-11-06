@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10096971",
+ "fuente": "safety-gate",
+ "idFuente": "10096971",
+ "referenciaOficial": "SR/04440/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096971",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Juguete de spinner · Ravensburger · Pop-it-Spinner",
+ "nombreVisible": "Juguete de spinner Ravensburger",
+ "motivo": "Ahogamiento",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-12-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Juguetes",
+  "normalizada": "juguetes"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Pop-it-Spinner",
+   "marcas": [
+    "Ravensburger"
+   ],
+   "modelos": [
+    "04867 Affe",
+    "04868 Leopard"
+   ],
+   "lotes": [
+    {
+     "numero": "SM17774P1SM17874P1SM21374P1SM24874P1SM35974P3SM35974P5SM36774P3SM36774P5"
+    }
+   ],
+   "ean": [
+    "4005556048687"
+   ],
+   "descripcion": "Spinners de juguete para niños a partir de los seis meses de edad, que se pueden fijar a las superficies mediante una ventosa en la espalda. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Ahogamiento"
+  ],
+  "tipoNormalizado": [
+   "asfixia"
+  ],
+  "descripcion": "El producto tiene piezas pequeñas que pueden desprenderse fácilmente. Un niño pequeño puede ponerlos en la boca y ahogarse. El producto no cumple con la Directiva de Seguridad de Juguetes ni con la norma europea EN 71-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10989585",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://files.ravensburger.cloud/ravensburger/product-recall/produktsicherheitsrueckruf.pdf",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/04440/25",
+   "ean:4005556048687",
+   "mm:ravensburger:04867-affe",
+   "mm:ravensburger:04868-leopard",
+   "ml:ravensburger:sm17774p1sm17874p1sm21374p1sm24874p1sm35974p3sm35974p5sm36774p3sm36774p5"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b2ea283c86d20d47"
+ },
+ "slug": "juguete-de-spinner-ravensburger-safety-gate-10096971"
+}

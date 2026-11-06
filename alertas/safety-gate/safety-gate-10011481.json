@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10011481",
+ "fuente": "safety-gate",
+ "idFuente": "10011481",
+ "referenciaOficial": "A12/00059/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011481",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cable de extensión · EMOS",
+ "nombreVisible": "Cable de extensión EMOS",
+ "motivo": "Quemaduras, Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Cable de extensión",
+   "marcas": [
+    "EMOS"
+   ],
+   "modelos": [
+    "P01220"
+   ],
+   "lotes": [],
+   "ean": [
+    "8595025345653"
+   ],
+   "descripcion": "Cordón de extensión en color naranja.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "El cable de extensión utiliza un conductor con un área de sección transversal que es demasiado pequeña, lo que puede causar que se sobrecaliente durante el uso, lo que provoca fuego y quemaduras. Además, si el aislamiento del cable de extensión se funde, las partes activas pueden ser accesibles y el usuario podría tocarlas y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Lituania",
+  "paisOrigen": "Chequia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106861",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106862",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00059/24",
+   "ean:8595025345653",
+   "mm:emos:p01220"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "8a0f5c8cb0f154f3"
+ },
+ "slug": "cable-de-extension-emos-safety-gate-10011481"
+}

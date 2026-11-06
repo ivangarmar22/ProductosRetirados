@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001839",
+ "fuente": "safety-gate",
+ "idFuente": "10001839",
+ "referenciaOficial": "A12/01195/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001839",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Ford · Puma MHEV",
+ "nombreVisible": "Turismos Ford",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-08-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Puma MHEV",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e9*2007/46*3165*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "The affected vehicles were manufactured between 12 November 2019 and 13 July 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Las conexiones de batería híbridas pueden no haber sido torqueadas de acuerdo con las especificaciones de Ford, lo que puede dar lugar a una mala conexión eléctrica. Esto puede conducir a la pérdida de la función de unidad híbrida (MHEV), aumentando el riesgo de un accidente. Además, puede producirse un sobrecalentamiento localizado y una posible fusión de los componentes circundantes, lo que aumenta el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido",
+  "paisOrigen": "Rumanía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01195/20",
+   "mm:ford:e9-2007-46-3165-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "967230e57a511293"
+ },
+ "slug": "turismos-ford-safety-gate-10001839"
+}

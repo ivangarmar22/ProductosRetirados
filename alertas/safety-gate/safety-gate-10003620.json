@@ -1,0 +1,89 @@
+{
+ "id": "safety-gate-10003620",
+ "fuente": "safety-gate",
+ "idFuente": "10003620",
+ "referenciaOficial": "A12/00615/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003620",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Audi · A6, A7",
+ "nombreVisible": "Turismos Audi",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A6, A7",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "e1*2007/46*1801*",
+    "Type F2"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between December 2017 and December 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "Debido defecto de fabricación en el panel de instrumentos, el despliegue del airbag podría ser obstaculizado. Esto podría menoscabar su potencial de protección y podría provocar que las piezas de plástico se desprendieran cuando se activa el airbag, aumentando el riesgo de lesiones en caso de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00615/21",
+   "mm:audi:e1-2007-46-1801",
+   "mm:audi:type-f2"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "35a7662120bf0f29"
+ },
+ "slug": "turismos-audi-safety-gate-10003620"
+}

@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10097045",
+ "fuente": "safety-gate",
+ "idFuente": "10097045",
+ "referenciaOficial": "SR/04402/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097045",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Mantequilla corporal · Yepoda · The Cocoa Cloud",
+ "nombreVisible": "Mantequilla corporal Yepoda",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-01-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "The Cocoa Cloud",
+   "marcas": [
+    "Yepoda"
+   ],
+   "modelos": [
+    "Limited Advent Calendar Edition"
+   ],
+   "lotes": [
+    {
+     "numero": "SR335"
+    }
+   ],
+   "ean": [
+    "8721154343752"
+   ],
+   "descripcion": "Mantequilla para el cuerpo.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico"
+  ],
+  "descripcion": "Se ha observado crecimiento microbiano (Pseudomonas aeruginosa) después del uso del producto (lote SR335) debido a una pérdida de eficacia del conservante en ese lote. Si se utiliza en la piel dañada, el producto puede causar infección o irritación. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "España",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10988952",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10988953",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://yepoda.es/products/the-yepoda-advent-calendar-2025?id=8",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/04402/25",
+   "ean:8721154343752",
+   "mm:yepoda:limited-advent-calendar-edition",
+   "ml:yepoda:sr335"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "62de8945672b0283"
+ },
+ "slug": "mantequilla-corporal-yepoda-safety-gate-10097045"
+}

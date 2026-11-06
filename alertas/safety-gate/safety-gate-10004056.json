@@ -1,0 +1,119 @@
+{
+ "id": "safety-gate-10004056",
+ "fuente": "safety-gate",
+ "idFuente": "10004056",
+ "referenciaOficial": "A12/00974/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004056",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Conjunto de pendientes · Tedi · Ohrringe",
+ "nombreVisible": "Conjunto de pendientes Tedi",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Joyería y bisutería",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ohrringe",
+   "marcas": [
+    "Tedi"
+   ],
+   "modelos": [
+    "120",
+    "DNP 176"
+   ],
+   "lotes": [
+    {
+     "numero": "252760017510000003005644300175100000030086772001751000000300"
+    }
+   ],
+   "ean": [],
+   "descripcion": "3 pares de pendientes de diamantes de imitación, en tres variantes de diseño diferentes",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El producto libera una cantidad excesiva de níquel (valores medidos: hasta 16,47 μg/cm²/semana). El níquel es altamente sensibilizante y puede causar reacciones alérgicas cuando están presentes en artículos en contacto directo prolongado con la piel. El producto no cumple con el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Suspensión de la venta del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10033170",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10033171",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.tedi.com/kundeninformation/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00974/21",
+   "mm:tedi:120",
+   "mm:tedi:dnp-176",
+   "ml:tedi:252760017510000003005644300175100000030086772001751000000300"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "80260c51964c6499"
+ },
+ "slug": "conjunto-de-pendientes-tedi-safety-gate-10004056"
+}

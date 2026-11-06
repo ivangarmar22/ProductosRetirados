@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10005387",
+ "fuente": "safety-gate",
+ "idFuente": "10005387",
+ "referenciaOficial": "A12/00205/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005387",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · ESPE · ESPE-1505-microUSB",
+ "nombreVisible": "Cargador USB ESPE",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-01-31",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "ESPE-1505-microUSB",
+   "marcas": [
+    "ESPE"
+   ],
+   "modelos": [
+    "P/N: YS30-0503000"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cargador micro-USB.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El producto no es resistente a altas temperaturas. Su carcasa puede deformarse debido al sobrecalentamiento y las partes activas pueden llegar a ser accesibles; en consecuencia, el usuario puede tocarlos y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión y la norma europea EN 60950-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10045614",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10045615",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10045616",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00205/22",
+   "mm:espe:p-n-ys30-0503000"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "dc5ad51c919c29c0"
+ },
+ "slug": "cargador-usb-espe-safety-gate-10005387"
+}

@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10118705",
+ "fuente": "safety-gate",
+ "idFuente": "10118705",
+ "referenciaOficial": "SR/02664/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118705",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cartera · Primark",
+ "nombreVisible": "Cartera Primark",
+ "motivo": "Riesgos químicos, Medio ambiente",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-09-24",
+  "publicacionWeb": null,
+  "modificacion": "2026-09-24"
+ },
+ "categoria": {
+  "literal": "Ropa, textiles y artículos de moda",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Cartera",
+   "marcas": [
+    "Primark"
+   ],
+   "modelos": [
+    "2595301"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Monedero hecho de material similar al cuero con un patrón de 101 dálmatas.",
+   "fechasTexto": null,
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos",
+   "Medio ambiente"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El material del monedero tiene una concentración excesiva de ftalato de bis(2-etilhexilo) (DEHP) (valor medido hasta el 7,55 % en peso). Este ftalato puede dañar la salud al causar posibles daños al sistema reproductivo. El producto no cumple con el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236104",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.primark.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02664/26",
+   "mm:primark:2595301"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "f5d54f8d9ad42fe7"
+ },
+ "slug": "cartera-primark-safety-gate-10118705"
+}

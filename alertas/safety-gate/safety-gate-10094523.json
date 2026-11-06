@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10094523",
+ "fuente": "safety-gate",
+ "idFuente": "10094523",
+ "referenciaOficial": "SR/02101/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10094523",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Jabón bar · Codexial · Pain Nettoyant Surgras ENOCARE",
+ "nombreVisible": "Jabón bar Codexial",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-06-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Pain Nettoyant Surgras ENOCARE",
+   "marcas": [
+    "Codexial"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "RK001L"
+    }
+   ],
+   "ean": [
+    "3770008263734"
+   ],
+   "descripcion": "Barra de jabón, anunciada como extra suave, calmante y ultra, destinada a bebés, niños y adultos, 100g. Producto vendido en línea, en particular a través de eno-codexial.com.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano"
+  ],
+  "descripcion": "El producto contiene una cantidad excesiva de mohos (esporas de Aspergillus versicolor) (valor medido: 150 000 UFC/g). Las esporas de Aspergillus versicolor son alérgenos conocidos que pueden desencadenar reacciones alérgicas en personas que son particularmente sensibles a ella, como niños, ancianos y personas con problemas pulmonares. El producto no cumple con el Reglamento de Productos Cosméticos ni con la norma europea EN 17156.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10963592",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/2025-04-0068",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02101/25",
+   "ean:3770008263734",
+   "ml:codexial:rk001l"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d89f2c0bd392452e"
+ },
+ "slug": "jabon-bar-codexial-safety-gate-10094523"
+}

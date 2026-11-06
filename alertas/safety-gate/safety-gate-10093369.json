@@ -1,0 +1,138 @@
+{
+ "id": "safety-gate-10093369",
+ "fuente": "safety-gate",
+ "idFuente": "10093369",
+ "referenciaOficial": "OR/00050/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093369",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Unidades de conexión · Sangamo · Powersaver",
+ "nombreVisible": "Unidades de conexión Sangamo",
+ "motivo": "Quemaduras, Choque eléctrico, Smoke inhalation",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-04-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Powersaver",
+   "marcas": [
+    "Sangamo"
+   ],
+   "modelos": [
+    "PSPBF",
+    "PSPBFB",
+    "PSPBFS",
+    "PSPSF24",
+    "PSPSF247",
+    "PSPSF247B",
+    "PSPSF247S",
+    "PSPSF24B",
+    "PSPSF24S"
+   ],
+   "lotes": [],
+   "ean": [
+    "5060654461706",
+    "5060654461720",
+    "5060654461737",
+    "5060654464080",
+    "5060654464103",
+    "5060654464110",
+    "5060654464233",
+    "5060654464257",
+    "5060654464264"
+   ],
+   "descripcion": "Unidades de conexión fusionadas 230v con temporizadores. Todos los lotes se ven afectados.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico",
+   "Smoke inhalation"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "La carcasa del temporizador fundido puede deformarse dejando accesibles las partes activas. El usuario puede recibir una descarga eléctrica. Además, la carcasa del temporizador fusionado puede sobrecalentarse y fundirse, lo que resulta en posibles quemaduras e inhalación de humo. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10955297",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://espi.ie/news/esp-issues-immediate-recall-of-sangamo-powersaver-heating-contro",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:OR/00050/25",
+   "ean:5060654461706",
+   "ean:5060654461720",
+   "ean:5060654461737",
+   "ean:5060654464080",
+   "ean:5060654464103",
+   "ean:5060654464110",
+   "ean:5060654464233",
+   "ean:5060654464257",
+   "ean:5060654464264",
+   "mm:sangamo:pspbf",
+   "mm:sangamo:pspbfb",
+   "mm:sangamo:pspbfs",
+   "mm:sangamo:pspsf24",
+   "mm:sangamo:pspsf247",
+   "mm:sangamo:pspsf247b",
+   "mm:sangamo:pspsf247s",
+   "mm:sangamo:pspsf24b",
+   "mm:sangamo:pspsf24s"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "23226aa5dfb52446"
+ },
+ "slug": "unidades-de-conexion-sangamo-safety-gate-10093369"
+}

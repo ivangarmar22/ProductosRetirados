@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10003356",
+ "fuente": "safety-gate",
+ "idFuente": "10003356",
+ "referenciaOficial": "A12/00364/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003356",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Skoda · Karoq, Kodiaq",
+ "nombreVisible": "Turismos Skoda",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Karoq, Kodiaq",
+   "marcas": [
+    "Skoda"
+   ],
+   "modelos": [
+    "Types: NU",
+    "NS",
+    "e8*2007/46*0272",
+    "e8*2007/46*0249"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos con caja de cambios automática.",
+   "fechasTexto": "The affected vehicles were manufactured between 29 June and 31 August 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un error de fabricación, la placa de freno-pedal puede no haber sido soldada adecuadamente y puede ser deformada y completamente desprendida cuando el pedal de freno se aplica repentinamente. Como resultado, la aplicación de los frenos se verá afectada, aumentando el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Chequia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00364/21",
+   "mm:skoda:types-nu",
+   "mm:skoda:e8-2007-46-0272",
+   "mm:skoda:e8-2007-46-0249"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ff62f7fe54eeaac0"
+ },
+ "slug": "turismos-skoda-safety-gate-10003356"
+}

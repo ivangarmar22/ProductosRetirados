@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10008856",
+ "fuente": "safety-gate",
+ "idFuente": "10008856",
+ "referenciaOficial": "A12/01127/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008856",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Perfume · Louis Varel · Extreme Patchouli",
+ "nombreVisible": "Perfume Louis Varel",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-05-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Extreme Patchouli",
+   "marcas": [
+    "Louis Varel"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "3359-EMB 1433 H"
+    }
+   ],
+   "ean": [
+    "3760168633591"
+   ],
+   "descripcion": "Eau de parfum, 100 ml. Producto vendido en línea, en particular a través de eMAG.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene butilfenilo metilpropional (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización cutánea. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Rumanía",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10082272",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10082273",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10082274",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01127/23",
+   "ean:3760168633591",
+   "ml:louis-varel:3359-emb-1433-h"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d9c57bf993cfc94b"
+ },
+ "slug": "perfume-louis-varel-safety-gate-10008856"
+}

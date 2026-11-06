@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10004091",
+ "fuente": "safety-gate",
+ "idFuente": "10004091",
+ "referenciaOficial": "A12/01009/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004091",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · EQC",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "EQC",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2001/116*0480*31-35",
+    "Type: 204 X"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: BR 293.",
+   "fechasTexto": "The affected vehicles were manufactured between 22 February and 28 November 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La carcasa de la batería de alto voltaje puede corroerse debido a una protección contra la corrosión inadecuada. Como resultado, la humedad podría penetrar en la batería y causar un fallo de aislamiento, lo que lleva a un mayor riesgo de incendio. Además, puede ser imposible reiniciar el vehículo una vez apagado el motor.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01009/21",
+   "mm:mercedes-benz:e1-2001-116-0480-31-35",
+   "mm:mercedes-benz:type-204-x"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "172112caaf15f66e"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10004091"
+}

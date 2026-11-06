@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10099560",
+ "fuente": "safety-gate",
+ "idFuente": "10099560",
+ "referenciaOficial": "SR/02031/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099560",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vehículo comercial ligero · Opel/Vauxhall · Movano NG",
+ "nombreVisible": "Vehículo comercial ligero Opel/Vauxhall",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-07-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Movano NG",
+   "marcas": [
+    "Opel/Vauxhall"
+   ],
+   "modelos": [
+    "e3*2007/46*0045*28 e3*2007/46*0045*29 e3*2007/46*0045*30 e3*2007/46*0045*31 e3*2007/46*0045*33 e3*2007/46*0050*31 e3*2007/46*0050*32 e3*2007/46*0051*32"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo comercial ligero. VIN: VXEYCG6FCPG053144 - VXEYDG6F6SG026530.",
+   "fechasTexto": "01.02.2024 - 09.07.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a una mala traducción de los datos de configuración entre dos sistemas de producción, es posible que el módulo de control de la carrocería (BCM) del vehículo no esté configurado correctamente para detectar fallos de luz indicadora. Si falla una bombilla indicadora, es posible que el BCM no detecte la falla y que la señal de advertencia no se ilumine, lo que reduce la comunicación con otros usuarios de la carretera y aumenta el riesgo de accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11013944",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02031/26",
+   "mm:opel-vauxhall:e3-2007-46-0045-28-e3-2007-46-0045-29-e3-2007-46-0045-30-e3-2007-46-0045-31-e3-2007-46-0045-33-e3-2007-46-0050-31-e3-2007-46-0050-32-e3-2007-46-0051-32"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "309e9631dbca5b07"
+ },
+ "slug": "vehiculo-comercial-ligero-opel-vauxhall-safety-gate-10099560"
+}

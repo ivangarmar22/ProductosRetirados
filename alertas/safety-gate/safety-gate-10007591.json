@@ -1,0 +1,122 @@
+{
+ "id": "safety-gate-10007591",
+ "fuente": "safety-gate",
+ "idFuente": "10007591",
+ "referenciaOficial": "A12/00468/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10007591",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cocina de arroz · Tristar · Rice cooker",
+ "nombreVisible": "Cocina de arroz Tristar",
+ "motivo": "Quemaduras, Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-09-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Rice cooker",
+   "marcas": [
+    "Tristar"
+   ],
+   "modelos": [
+    "RK-6126"
+   ],
+   "lotes": [
+    {
+     "numero": "T14691"
+    }
+   ],
+   "ean": [
+    "8713016009906"
+   ],
+   "descripcion": "Cocina de arroz eléctrica",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "La temperatura de los pines (para conectarlos con un enchufe) del aparato es demasiado alta. Un usuario podría sufrir quemaduras. Además, el producto tiene fugas de agua en el interior, lo que puede provocar una descarga eléctrica para un usuario. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10073704",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10073705",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10073706",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel//8385/interne",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00468/23",
+   "ean:8713016009906",
+   "mm:tristar:rk-6126",
+   "ml:tristar:t14691"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "daa223508bd6c164"
+ },
+ "slug": "cocina-de-arroz-tristar-safety-gate-10007591"
+}

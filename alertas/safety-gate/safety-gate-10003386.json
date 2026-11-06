@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10003386",
+ "fuente": "safety-gate",
+ "idFuente": "10003386",
+ "referenciaOficial": "A12/00390/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003386",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Bmw · 3",
+ "nombreVisible": "Turismos Bmw",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "3",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2007/46*0314*",
+    "*0315*",
+    "*0316*",
+    "Types: 3L",
+    "3K",
+    "3C"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 20 July 2004 and 8 July 2011."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Los vehículos pueden verse afectados por corrosión por fricción en el conector desde el arnés de cableado hasta la unidad de control del ventilador. Con el tiempo, esto puede causar daños en el aislamiento del arnés de cableado, que podría desencadenar un cortocircuito. Esto podría causar un incendio del vehículo, incluso cuando el motor está apagado.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00390/21",
+   "mm:bmw:type-approval-number-e1-2007-46-0314",
+   "mm:bmw:0315",
+   "mm:bmw:0316",
+   "mm:bmw:types-3l"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e71f62b5879a125f"
+ },
+ "slug": "turismos-bmw-safety-gate-10003386"
+}

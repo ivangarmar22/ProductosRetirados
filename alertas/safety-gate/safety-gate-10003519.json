@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10003519",
+ "fuente": "safety-gate",
+ "idFuente": "10003519",
+ "referenciaOficial": "A12/00537/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003519",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta · KTM · RC 390 R",
+ "nombreVisible": "Motocicleta KTM",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-04-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "RC 390 R",
+   "marcas": [
+    "KTM"
+   ],
+   "modelos": [
+    "e1*168/2013*00016*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta",
+   "fechasTexto": "Model Year 2018"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a las desviaciones durante el tratamiento térmico de la materia prima, pueden producirse grietas en las abrazaderas del manillar. En consecuencia, estas fisuras podrían provocar que la abrazadera del manillar se rompa junto con el manillar montado, lo que aumenta el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": "Austria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.ktm.com/de-de/service/Safety.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00537/21",
+   "mm:ktm:e1-168-2013-00016-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5afa2a1cecdf3cde"
+ },
+ "slug": "motocicleta-ktm-safety-gate-10003519"
+}

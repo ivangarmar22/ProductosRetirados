@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001363",
+ "fuente": "safety-gate",
+ "idFuente": "10001363",
+ "referenciaOficial": "A12/00833/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001363",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · GLE",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-05-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GLE",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2007/46*1885*00-03",
+    "Type: H1GLE"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: BR 167; Vehículos equipados con una segunda fila de asientos y bolsas laterales traseras ajustables eléctricamente.",
+   "fechasTexto": "The affected vehicles were manufactured between 30 November and 13 December 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El arnés de cableado que corre debajo del asiento de la segunda fila del lado derecho puede no haberse instalado de acuerdo con las especificaciones y puede dañarse cuando la segunda fila se mueve longitudinalmente. En consecuencia, las bolsas laterales traseras no pueden desplegarse según lo previsto, lo que aumenta el riesgo de lesiones en caso de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00833/20",
+   "mm:mercedes-benz:type-approval-number-e1-2007-46-1885-00-03",
+   "mm:mercedes-benz:type-h1gle"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "1777bb46a945fe38"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10001363"
+}

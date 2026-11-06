@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10004983",
+ "fuente": "safety-gate",
+ "idFuente": "10004983",
+ "referenciaOficial": "A12/01806/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004983",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Tesla · Model 3, Model Y",
+ "nombreVisible": "Turismos Tesla",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-12-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Model 3, Model Y",
+   "marcas": [
+    "Tesla"
+   ],
+   "modelos": [
+    "Type approval number: e4*2007/46*1293",
+    "Type: 003"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "03/01/2019 - 04/06/2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "lesiones"
+  ],
+  "descripcion": "El brazo de control lateral de la suspensión delantera se fija al submarco mediante dos elementos de fijación. Si un sujetador se suelta lo suficiente o se separa del submarco, esto puede hacer que la alineación de la rueda cambie. Esto causa inestabilidad, lo que podría tener un efecto negativo en el control del vehículo y aumentar el riesgo de colisión. El producto no cumple los requisitos establecidos en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.tesla/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01806/21",
+   "mm:tesla:type-approval-number-e4-2007-46-1293",
+   "mm:tesla:type-003"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "85e908e26e342ce3"
+ },
+ "slug": "turismos-tesla-safety-gate-10004983"
+}

@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10004758",
+ "fuente": "safety-gate",
+ "idFuente": "10004758",
+ "referenciaOficial": "INFO/00166/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004758",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión · Mercedes-Benz · Actros",
+ "nombreVisible": "Camión Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-11-23",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Actros",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Models: 963-0-A",
+    "963-4-A",
+    "963-0-C",
+    "e1*2018/858*00039*(00-01)",
+    "e1*2018/858*00040*(00-01)",
+    "e1*2018/858*00045*(00-01)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camión",
+   "fechasTexto": "25.5.2021 to 17.6.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Cuando se active el sistema Active Drive Assist (ADA2), un eje de dirección defectuoso puede dar lugar a que no se muestre una advertencia obligatoria para tomar el control del volante. Esto es especialmente relevante en situaciones en las que el conductor no dirige activamente (detección de manos-off). Como resultado, esto puede causar lesiones al conductor.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00166/21",
+   "mm:mercedes-benz:models-963-0-a",
+   "mm:mercedes-benz:963-4-a",
+   "mm:mercedes-benz:963-0-c",
+   "mm:mercedes-benz:e1-2018-858-00039-00-01",
+   "mm:mercedes-benz:e1-2018-858-00040-00-01",
+   "mm:mercedes-benz:e1-2018-858-00045-00-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "856786e3d5a39d11"
+ },
+ "slug": "camion-mercedes-benz-safety-gate-10004758"
+}

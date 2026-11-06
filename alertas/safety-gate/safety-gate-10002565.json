@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10002565",
+ "fuente": "safety-gate",
+ "idFuente": "10002565",
+ "referenciaOficial": "A12/01683/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002565",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · VW · Polo",
+ "nombreVisible": "Turismos VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-11-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Polo",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2007/46*1783*",
+    "Type: AW"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "The affected vehicles were manufactured between 9 March and 25 May 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Las hebillas dobles traseras del cinturón de seguridad pueden estar dañadas debido a un error de fabricación y tienen una resistencia reducida. Esto podría reducir el efecto de protección/restricción de los cinturones de seguridad, aumentando el riesgo de lesiones en caso de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01683/20",
+   "mm:vw:type-approval-number-e1-2007-46-1783",
+   "mm:vw:type-aw"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "386f1ada570b8c0e"
+ },
+ "slug": "turismos-vw-safety-gate-10002565"
+}

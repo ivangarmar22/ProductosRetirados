@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10003575",
+ "fuente": "safety-gate",
+ "idFuente": "10003575",
+ "referenciaOficial": "INFO/00101/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003575",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · A-Class, B-Class",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-04-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A-Class, B-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval numbers: e1*2007/46*1829*06-08",
+    "e1*2007/46*1909*02-04",
+    "Types: F2A",
+    "F2B"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: W177, W247",
+   "fechasTexto": "The affected vehicles were manufactured between 26 August and 10 October 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La manguera de drenaje de agua condensada del sistema de aire acondicionado puede bloquearse, lo que puede provocar que el agua entre en el interior del vehículo. En consecuencia, cualquier componente eléctrico instalado allí podría corroerse o someterse a cortocircuitos o corrientes de fuga. Como resultado, la unidad de control del sistema de retención suplementaria (SRS) podría dejar de funcionar, el vehículo puede no arrancar, el funcionamiento de emergencia del motor podría activarse mientras el vehículo está en movimiento, y el funcionamiento de otros componentes (por ejemplo, la bomba de combustible, la llamada automática/manual de emergencia) podría verse afectado negativamente. Esto aumentaría el riesgo de lesiones y accidentes.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00101/21",
+   "mm:mercedes-benz:type-approval-numbers-e1-2007-46-1829-06-08",
+   "mm:mercedes-benz:e1-2007-46-1909-02-04",
+   "mm:mercedes-benz:types-f2a",
+   "mm:mercedes-benz:f2b"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "877908a0f3acbc32"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003575"
+}

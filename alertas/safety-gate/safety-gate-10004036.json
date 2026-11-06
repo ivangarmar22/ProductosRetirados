@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10004036",
+ "fuente": "safety-gate",
+ "idFuente": "10004036",
+ "referenciaOficial": "A12/01012/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004036",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · VW · T6",
+ "nombreVisible": "Turismos VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "T6",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "e1*2001/116*0220*",
+    "e1*2007/46*0130*",
+    "e1*2001/116*0289*",
+    "Types : 7HC",
+    "7J0",
+    "7HMA"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 1 July 2019 and 5 May 2021."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un aislamiento inadecuado, el agua puede penetrar en las puertas a través de las ventanas laterales retráctiles. En consecuencia, el agua puede entrar en los cables Bowden dentro de las puertas y obstaculizar el movimiento del cable interno a temperaturas por debajo de la congelación. Como resultado, la puerta del conductor o del pasajero delantero puede abrirse por sí misma cuando el vehículo está en movimiento, lo que aumenta el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01012/21",
+   "mm:vw:e1-2001-116-0220",
+   "mm:vw:e1-2007-46-0130",
+   "mm:vw:e1-2001-116-0289",
+   "mm:vw:types-7hc",
+   "mm:vw:7j0",
+   "mm:vw:7hma"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "67c51bdfd7574caf"
+ },
+ "slug": "turismos-vw-safety-gate-10004036"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003473",
+ "fuente": "safety-gate",
+ "idFuente": "10003473",
+ "referenciaOficial": "INFO/00143/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003473",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Audi · A8/S8",
+ "nombreVisible": "Coche de pasajeros Audi",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A8/S8",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "Type: F8",
+    "e1*2007/46*1751*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "The affected vehicles were manufactured between April 2018 and October 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La humedad puede entrar en la unidad de control del motor debido a que falta un pasador de sellado en uno de los conectores. Como resultado, el motor puede funcionar en un modo de emergencia con potencia reducida o parada.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00143/21",
+   "mm:audi:type-f8",
+   "mm:audi:e1-2007-46-1751"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ad42e5f3846e39da"
+ },
+ "slug": "coche-de-pasajeros-audi-safety-gate-10003473"
+}

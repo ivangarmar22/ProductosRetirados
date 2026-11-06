@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10007526",
+ "fuente": "safety-gate",
+ "idFuente": "10007526",
+ "referenciaOficial": "A12/00019/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10007526",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Toyota · GR86",
+ "nombreVisible": "Coche de pasajeros Toyota",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-01-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GR86",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "e13*2018/858*00225*01",
+    "e13*2018/858*00225*02"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Nombre del modelo (Código modelo): GR86 (ZN8); Año del modelo: 2022.",
+   "fechasTexto": "17.03.2022 - 26.10.2022"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que el módulo de comunicación de datos (DCM) no se haya activado durante el servicio previo a la entrega. En esta condición, no hay advertencia al ocupante del vehículo de que el sistema no puede realizar una llamada de emergencia en caso de accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00019/23",
+   "mm:toyota:e13-2018-858-00225-01",
+   "mm:toyota:e13-2018-858-00225-02"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b1dc1bc7e4f252a8"
+ },
+ "slug": "coche-de-pasajeros-toyota-safety-gate-10007526"
+}

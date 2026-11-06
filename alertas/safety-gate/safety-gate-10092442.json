@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10092442",
+ "fuente": "safety-gate",
+ "idFuente": "10092442",
+ "referenciaOficial": "A12/03701/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10092442",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · WK DESIGN · QC3.0 FAST CHARGER",
+ "nombreVisible": "Cargador USB WK DESIGN",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-12-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "QC3.0 FAST CHARGER",
+   "marcas": [
+    "WK DESIGN"
+   ],
+   "modelos": [
+    "WP-U57"
+   ],
+   "lotes": [],
+   "ean": [
+    "6941027613641"
+   ],
+   "descripcion": "Cargador USB. Voltaje de entrada: 110-240 V CA. Tensión de salida: 5 V DC / 9 V DC / 12 V DC. Entrada de potencia o corriente: 0.3 A Potencia o corriente de salida: 2.4 A / 2 A / 1.5 A (18 W MAX) Protección contra descargas eléctricas Clase II.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "Las distancias de separación y arrastre entre los circuitos primario y secundario son insuficientes. Además, la resistencia dieléctrica entre los circuitos primario y secundario es insuficiente. Además, el condensador utilizado como impedancia protectora entre el circuito primario y el circuito secundario no es Clase-Y1. El usuario puede tener acceso a partes activas y recibir una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 62368-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10940651",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/2024-02-0211",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/03701/24",
+   "ean:6941027613641",
+   "mm:wk-design:wp-u57"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0b5c3718137c25e4"
+ },
+ "slug": "cargador-usb-wk-design-safety-gate-10092442"
+}

@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10008031",
+ "fuente": "safety-gate",
+ "idFuente": "10008031",
+ "referenciaOficial": "A12/00572/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008031",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Calzado de seguridad · OPSIAL · STEP’ROC EVOL",
+ "nombreVisible": "Calzado de seguridad OPSIAL",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-03-23",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de protección",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "STEP’ROC EVOL",
+   "marcas": [
+    "OPSIAL"
+   ],
+   "modelos": [
+    "55752354",
+    "P702688",
+    "Size 44"
+   ],
+   "lotes": [
+    {
+     "numero": "008254380082544300825481"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Botas de seguridad marrones, con parte superior de cuero de grano completo, destinadas a trabajos al aire libre en el sector de la construcción",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los zapatos no son lo suficientemente resistentes al impacto o compresión, lo que permite que un usuario se lesione. El producto no cumple con los requisitos de la Directiva sobre equipos de protección personal, ni con la norma europea EN 20345.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10074966",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00572/23",
+   "mm:opsial:55752354",
+   "mm:opsial:p702688",
+   "mm:opsial:size-44",
+   "ml:opsial:008254380082544300825481"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "8ee1961abda7d25b"
+ },
+ "slug": "calzado-de-seguridad-opsial-safety-gate-10008031"
+}

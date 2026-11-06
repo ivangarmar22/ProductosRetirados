@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10000509",
+ "fuente": "safety-gate",
+ "idFuente": "10000509",
+ "referenciaOficial": "A12/00368/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000509",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Fiat · Ducato",
+ "nombreVisible": "Coche de pasajeros Fiat",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ducato",
+   "marcas": [
+    "Fiat"
+   ],
+   "modelos": [
+    "Type-approval number: e3*2007/46*0049*16*01",
+    "Type: 250"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos con accionamiento a la derecha.",
+   "fechasTexto": "The affected vehicles were manufactured between 31 October 2014 and 16 July 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Las tuberías de freno pueden dañarse a través del contacto mecánico con otros componentes, lo que resulta en la fuga del líquido de frenos. Por lo tanto, esto puede conducir a una acción de frenado restringida, lo que aumenta el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00368/21",
+   "mm:fiat:type-approval-number-e3-2007-46-0049-16-01",
+   "mm:fiat:type-250"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ff7e9fa8536da6f9"
+ },
+ "slug": "coche-de-pasajeros-fiat-safety-gate-10000509"
+}

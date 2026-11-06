@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10018926",
+ "fuente": "safety-gate",
+ "idFuente": "10018926",
+ "referenciaOficial": "A12/03550/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10018926",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Eau de Colonia · Air Val · Masha and the bear",
+ "nombreVisible": "Eau de Colonia Air Val",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-12-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Masha and the bear",
+   "marcas": [
+    "Air Val"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "5527E310"
+    }
+   ],
+   "ean": [
+    "663350065657"
+   ],
+   "descripcion": "Agua de Colonia, 200 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene 2-(4-terc-butilbencil)propionaldehído (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización cutánea. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10939352",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10939353",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10939354",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/03550/24",
+   "ean:663350065657",
+   "ml:air-val:5527e310"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "03afceda1e051a32"
+ },
+ "slug": "eau-de-colonia-air-val-safety-gate-10018926"
+}

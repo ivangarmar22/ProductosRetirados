@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10002830",
+ "fuente": "safety-gate",
+ "idFuente": "10002830",
+ "referenciaOficial": "A12/00021/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002830",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · A-Class, GLC",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A-Class, GLC",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2007/46*1829*10",
+    "e1*2001/116*0480*36",
+    "Type: F2A",
+    "204 X"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: Clase A (BR 177), GLC (BR 253).",
+   "fechasTexto": "The affected vehicles were manufactured between 12 May and 3 June 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que los pernos del travesaño o el dispositivo de acoplamiento no se hayan apretado con el par correcto. Como resultado, el miembro cruzado podría desprenderse del vehículo mientras se remolca otro vehículo, lo que aumenta el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00021/21",
+   "mm:mercedes-benz:e1-2007-46-1829-10",
+   "mm:mercedes-benz:e1-2001-116-0480-36",
+   "mm:mercedes-benz:type-f2a",
+   "mm:mercedes-benz:204-x"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "af4086dd4837f01f"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10002830"
+}

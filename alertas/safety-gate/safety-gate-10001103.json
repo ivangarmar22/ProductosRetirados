@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001103",
+ "fuente": "safety-gate",
+ "idFuente": "10001103",
+ "referenciaOficial": "A12/00626/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001103",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · VW · T-Cross",
+ "nombreVisible": "Coche de pasajeros VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-04-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "T-Cross",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type approval number: e13*2007/46*1985*",
+    "Type: C1"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "Between 20 May 2019 and 21 June 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La junta en la boquilla de descarga del generador de gas para la bolsa de aire de la cortina podría haber sido soldada inapropiadamente. En el caso de un accidente que desencadena la bolsa de aire de la cortina, la articulación podría fallar perjudicando la inflación adecuada de la bolsa de aire, aumentando el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00626/20",
+   "mm:vw:type-approval-number-e13-2007-46-1985",
+   "mm:vw:type-c1"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "04d7b3711baed843"
+ },
+ "slug": "coche-de-pasajeros-vw-safety-gate-10001103"
+}

@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10096016",
+ "fuente": "safety-gate",
+ "idFuente": "10096016",
+ "referenciaOficial": "SR/03373/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096016",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Peugeot · 3008 V3, 5008 V3",
+ "nombreVisible": "Coche de pasajeros Peugeot",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-09-23",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "3008 V3, 5008 V3",
+   "marcas": [
+    "Peugeot"
+   ],
+   "modelos": [
+    "e2*2018/858*00064*08",
+    "e2*2018/858*00064*09"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "23/6/2025 – 20/8/2025 // VIN: VR3KAHPY1RS173932 - VR3KAHPY0SS141186 5008 V323/6/2025 – 20/8/2025 // VIN: VR3KAHPY3RS173785 - VR3KAHPY7SS140942 3008 V3"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La conexión para la calefacción auxiliar en el terminal del arnés de batería de 48 V puede no ser adecuada. Este problema podría llevar a que la calefacción no funcione correctamente. En raras ocasiones, existe la posibilidad de un arco eléctrico y sobrecalentamiento, lo que podría aumentar el riesgo de un incendio en el vehículo. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10977096",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10977097",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03373/25",
+   "mm:peugeot:e2-2018-858-00064-08",
+   "mm:peugeot:e2-2018-858-00064-09"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "325d29bfac29d635"
+ },
+ "slug": "coche-de-pasajeros-peugeot-safety-gate-10096016"
+}

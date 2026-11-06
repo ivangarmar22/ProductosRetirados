@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10000681",
+ "fuente": "safety-gate",
+ "idFuente": "10000681",
+ "referenciaOficial": "A12/00323/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000681",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Audi · A8",
+ "nombreVisible": "Coche de pasajeros Audi",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-26",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A8",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "Type-approval number: e1 * 2007/46 * 0284 *",
+    "Type: 4H"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros con conducción a la derecha bajo el código de recuperación Audi: 48O8.",
+   "fechasTexto": "The affected vehicles were manufactured between December 2009 and September 2016."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La junta de compresión entre la manguera hidráulica y la instalación hidráulica de la dirección asistida se puede poner a presión excesiva. Como resultado, el aceite puede filtrarse en el compartimiento del motor aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00323/20",
+   "mm:audi:type-approval-number-e1-2007-46-0284",
+   "mm:audi:type-4h"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ab43a47278ae95ad"
+ },
+ "slug": "coche-de-pasajeros-audi-safety-gate-10000681"
+}

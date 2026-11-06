@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10012306",
+ "fuente": "safety-gate",
+ "idFuente": "10012306",
+ "referenciaOficial": "A12/00764/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10012306",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · EQE 350, EQE 350+, Mercedes-AMG EQE 43 4MATIC",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-03-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "EQE 350, EQE 350+, Mercedes-AMG EQE 43 4MATIC",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2018/858*00036*00 (E2EQEW)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "22.11.2021 - 23.02.2022"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Es posible que la unidad de control del airbag no esté codificada correctamente. En caso de un choque trasero, es posible que el activador de pirofusión no aísle adecuadamente la batería de alto voltaje, lo que aumenta el riesgo de incendio. El producto no cumple los requisitos establecidos en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10114700",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00764/24",
+   "mm:mercedes-benz:e1-2018-858-00036-00-e2eqew"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "1eed64e9dab21fae"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10012306"
+}

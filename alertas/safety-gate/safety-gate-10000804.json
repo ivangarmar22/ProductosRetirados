@@ -1,0 +1,87 @@
+{
+ "id": "safety-gate-10000804",
+ "fuente": "safety-gate",
+ "idFuente": "10000804",
+ "referenciaOficial": "A12/00392/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000804",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Nissan · Pathfinder",
+ "nombreVisible": "Coche de pasajeros Nissan",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-03-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Pathfinder",
+   "marcas": [
+    "Nissan"
+   ],
+   "modelos": [
+    "Type-approval number: Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación de Nissan: R20A1.",
+   "fechasTexto": "The affected vehicles were manufactured between 19 July 2001 and 6 November 2003."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El generador de gas del airbag de pasajeros puede estar defectuoso. Esto puede resultar en una inflación incontrolada y la liberación de fragmentos de metal cuando se activa la bolsa de aire, causando lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00392/20",
+   "mm:nissan:type-approval-number-individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "52168659c2bbfd7f"
+ },
+ "slug": "coche-de-pasajeros-nissan-safety-gate-10000804"
+}

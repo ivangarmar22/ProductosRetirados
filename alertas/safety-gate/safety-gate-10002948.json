@@ -1,0 +1,87 @@
+{
+ "id": "safety-gate-10002948",
+ "fuente": "safety-gate",
+ "idFuente": "10002948",
+ "referenciaOficial": "A12/00100/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002948",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Infiniti · QX56",
+ "nombreVisible": "Turismos Infiniti",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-26",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "QX56",
+   "marcas": [
+    "Infiniti"
+   ],
+   "modelos": [
+    "Type-approval number: Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 22 November 2009 and 25 January 2013."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "La cantidad incorrecta del propulsor se distribuye en el generador de gas. Como resultado, la presión interna en el generador de gas del airbag del conductor puede aumentar anormalmente en caso de accidente, causando que estalle, lo que podría dar lugar a fragmentos de metal que causen lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00100/21",
+   "mm:infiniti:type-approval-number-individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e734117209470278"
+ },
+ "slug": "turismos-infiniti-safety-gate-10002948"
+}

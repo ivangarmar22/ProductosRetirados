@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10003406",
+ "fuente": "safety-gate",
+ "idFuente": "10003406",
+ "referenciaOficial": "A12/00411/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003406",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · CITROEN · C5 Aircross",
+ "nombreVisible": "Turismos CITROEN",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-23",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C5 Aircross",
+   "marcas": [
+    "CITROEN"
+   ],
+   "modelos": [
+    "e2*2007/46*0642*10",
+    "Type: A"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 4 and 21 December 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El enganche del remolque puede estar defectuoso. Como resultado, el remolque puede desprenderse inadvertidamente, aumentando el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.citroen.de/zubehoer-service/instandhaltung-und-reparatur/pruefen-ihres-fahrzeuges-auf-rueckrufaktion.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00411/21",
+   "mm:citroen:e2-2007-46-0642-10",
+   "mm:citroen:type-a"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ec824a002cdd0b9b"
+ },
+ "slug": "turismos-citroen-safety-gate-10003406"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10009169",
+ "fuente": "safety-gate",
+ "idFuente": "10009169",
+ "referenciaOficial": "A12/01354/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009169",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Calentador eléctrico · Lesvtu",
+ "nombreVisible": "Calentador eléctrico Lesvtu",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-06-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Calentador eléctrico",
+   "marcas": [
+    "Lesvtu"
+   ],
+   "modelos": [],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Calentador de pared portátil eléctrico con termostato ajustable, temporizador de 12 horas y pantalla led. Producto vendido en línea, en particular a través de Amazon. ASIN: B0BGYKN33D.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "El aislamiento eléctrico es inadecuado y el fusible utilizado en el enchufe de red no tiene la capacidad necesaria. Un usuario puede tocar partes activas y recibir una descarga eléctrica. En caso de sobrecarga eléctrica, el cable podría sobrecalentarse, provocando un incendio. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10085202",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01354/23"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "df30a94391ae38ec"
+ },
+ "slug": "calentador-electrico-lesvtu-safety-gate-10009169"
+}

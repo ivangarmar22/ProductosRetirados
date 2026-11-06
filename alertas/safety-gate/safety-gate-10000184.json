@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10000184",
+ "fuente": "safety-gate",
+ "idFuente": "10000184",
+ "referenciaOficial": "A12/00046/19",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000184",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Toyota · Camry",
+ "nombreVisible": "Coche de pasajeros Toyota",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2019-12-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Camry",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "Model code: ASV70",
+    "GSV70",
+    "AXVH71",
+    "Model year: 2019",
+    "e6*2007/46*0322*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación de Toyota: 19SMD-097.",
+   "fechasTexto": "The affected vehicles were manufactured between 19 August 2019 and 6 September 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "En los conjuntos de cinturones de seguridad de doble modo trasero, el muelle en el mecanismo de bloqueo del sensor de correa podría haberse instalado en una posición incorrecta. En consecuencia, el muelle podría perjudicar el bloqueo del cinturón de seguridad, aumentando así el riesgo de lesiones en caso de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00046/19",
+   "mm:toyota:model-code-asv70",
+   "mm:toyota:gsv70",
+   "mm:toyota:axvh71",
+   "mm:toyota:model-year-2019",
+   "mm:toyota:e6-2007-46-0322"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "befe6ebb82f5886f"
+ },
+ "slug": "coche-de-pasajeros-toyota-safety-gate-10000184"
+}

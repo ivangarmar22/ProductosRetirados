@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10097539",
+ "fuente": "safety-gate",
+ "idFuente": "10097539",
+ "referenciaOficial": "SR/00263/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097539",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión · Iveco · S-WAY, X-WAY",
+ "nombreVisible": "Camión Iveco",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-01-29",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "S-WAY, X-WAY",
+   "marcas": [
+    "Iveco"
+   ],
+   "modelos": [
+    "BA3C",
+    "2Y3C",
+    "1A3C",
+    "e3*2007/46*0135*",
+    "e3*2007/46*0136*",
+    "e3*2007/46*0143*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camión",
+   "fechasTexto": "1.06.2025 - 1.10.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un error en el proceso de endurecimiento, el resorte de la hoja frontal puede romperse. Esto puede reducir la estabilidad del vehículo durante la conducción y aumentar el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Recuperación de un producto de usuarios comerciales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995158",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995159",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.iveco.com/germany/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00263/26",
+   "mm:iveco:ba3c",
+   "mm:iveco:2y3c",
+   "mm:iveco:1a3c",
+   "mm:iveco:e3-2007-46-0135",
+   "mm:iveco:e3-2007-46-0136",
+   "mm:iveco:e3-2007-46-0143"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "a28e72b75d8a164b"
+ },
+ "slug": "camion-iveco-safety-gate-10097539"
+}

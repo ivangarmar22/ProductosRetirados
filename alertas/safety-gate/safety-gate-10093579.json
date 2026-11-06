@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10093579",
+ "fuente": "safety-gate",
+ "idFuente": "10093579",
+ "referenciaOficial": "SR/01001/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093579",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Bmw · iX3",
+ "nombreVisible": "Coche de pasajeros Bmw",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-03-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "iX3",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "e1*2007/46*2130* (G3XE)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "23.01.2024 - 29.08.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Durante el proceso de producción, el eje de la rueda del engranaje diferencial en la unidad motriz se ha montado sin un circlip. Esto puede resultar en la migración del eje de la rueda. Hay una anomalía acústica en la unidad de accionamiento. Esto también puede conducir a la filtración de aceite, pérdida de potencia de accionamiento y / o falla de la cerradura de estacionamiento. Esto aumenta el riesgo de accidentes y lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10951877",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.bmw.de/rueckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01001/25",
+   "mm:bmw:e1-2007-46-2130-g3xe"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "23ba2b1dcfd30b77"
+ },
+ "slug": "coche-de-pasajeros-bmw-safety-gate-10093579"
+}

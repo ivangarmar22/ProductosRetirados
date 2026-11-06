@@ -1,0 +1,112 @@
+{
+ "id": "safety-gate-10011358",
+ "fuente": "safety-gate",
+ "idFuente": "10011358",
+ "referenciaOficial": "A12/03136/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011358",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bodywash · Clinisan · Clinisan Bodywash",
+ "nombreVisible": "Bodywash Clinisan",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-12-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Clinisan Bodywash",
+   "marcas": [
+    "Clinisan"
+   ],
+   "modelos": [
+    "SBA250",
+    "SBA500"
+   ],
+   "lotes": [
+    {
+     "numero": "All batches"
+    }
+   ],
+   "ean": [
+    "5019829500092",
+    "5021209000542"
+   ],
+   "descripcion": "Lavado corporal sin jabón para limpiar y desodorizar suavemente la piel. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico"
+  ],
+  "descripcion": "El producto está microbiológicamente contaminado con bacterias mesófilas aeróbicas (valor medido > 3000 cfu/g). Si se usa en la piel dañada, o si entra en contacto con los ojos, el producto puede causar infección o irritación. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "Reino Unido",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10105319",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10105320",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://vernacare.com/blog/vernacare-issues-voluntary-recall-across-clinisan",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/03136/23",
+   "ean:5019829500092",
+   "ean:5021209000542",
+   "mm:clinisan:sba250",
+   "mm:clinisan:sba500",
+   "ml:clinisan:all-batches"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "caa082b5813c5459"
+ },
+ "slug": "bodywash-clinisan-safety-gate-10011358"
+}

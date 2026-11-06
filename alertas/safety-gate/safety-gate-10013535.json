@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10013535",
+ "fuente": "safety-gate",
+ "idFuente": "10013535",
+ "referenciaOficial": "A12/01706/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10013535",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · CITROEN · C5 Aircross",
+ "nombreVisible": "Coche de pasajeros CITROEN",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-07-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C5 Aircross",
+   "marcas": [
+    "CITROEN"
+   ],
+   "modelos": [
+    "e2*2007/46*0642*07",
+    "*09",
+    "*12 (A)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "20.01.2020 - 14.04.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El software de la unidad de control de gestión de la batería no puede detectar ciertos modos de fallo en la batería En los vehículos afectados puede haber un defecto en la batería de alto voltaje, lo que podría provocar un sobrecalentamiento. Esto aumenta el riesgo de incendio en el vehículo. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10127419",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.citroen.de/wartung-services/rueckrufaktion-pruefung.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01706/24",
+   "mm:citroen:e2-2007-46-0642-07",
+   "mm:citroen:12-a"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "dd0f8b5fd4af49aa"
+ },
+ "slug": "coche-de-pasajeros-citroen-safety-gate-10013535"
+}

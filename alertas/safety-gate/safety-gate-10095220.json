@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10095220",
+ "fuente": "safety-gate",
+ "idFuente": "10095220",
+ "referenciaOficial": "SR/02672/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095220",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-AMG · ONE",
+ "nombreVisible": "Coche de pasajeros Mercedes-AMG",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-07-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "ONE",
+   "marcas": [
+    "Mercedes-AMG"
+   ],
+   "modelos": [
+    "298",
+    "e9*KS18/858*11440*00-*05"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "12.12.2022 - 09.05.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Es posible que las cerraduras de pasador de la línea hidráulica del alerón trasero no se hayan instalado según sea necesario. Esto puede provocar fugas de fluido hidráulico y entrar en contacto con componentes calientes del sistema de escape, lo que aumenta el riesgo de que el vehículo se incendie. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Reino Unido",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10969818",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/passengercars/services/recall.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02672/25",
+   "mm:mercedes-amg:298",
+   "mm:mercedes-amg:e9-ks18-858-11440-00-05"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c6bfc948be181275"
+ },
+ "slug": "coche-de-pasajeros-mercedes-amg-safety-gate-10095220"
+}

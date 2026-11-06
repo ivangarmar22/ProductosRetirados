@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10000552",
+ "fuente": "safety-gate",
+ "idFuente": "10000552",
+ "referenciaOficial": "A12/00347/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000552",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Renault · Clio, Captur",
+ "nombreVisible": "Coche de pasajeros Renault",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-26",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Clio, Captur",
+   "marcas": [
+    "Renault"
+   ],
+   "modelos": [
+    "Model series: X98",
+    "X87",
+    "Type-approval numbers: e2*2001/116*0327*87",
+    "e2*2001/116*0327*88",
+    "e2*2001/116*0327*89",
+    "e2*2007/46*0008*40",
+    "e2*2007/46*0008*41",
+    "e2*2007/46*0008*42"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos equipados con motores H4Bt, producidos en Bursa, Valladolid y Novo Mesto bajo el código de retirada Renault: 0D78.",
+   "fechasTexto": "The affected vehicles were manufactured prior to 24 July 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El terminal positivo de la batería puede entrar en contacto con el disipador de calor en el alternador. Esto puede conducir a un cortocircuito eléctrico y a un mayor riesgo de incendio en el compartimiento del motor.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00347/20",
+   "mm:renault:model-series-x98",
+   "mm:renault:x87",
+   "mm:renault:type-approval-numbers-e2-2001-116-0327-87",
+   "mm:renault:e2-2001-116-0327-88",
+   "mm:renault:e2-2001-116-0327-89",
+   "mm:renault:e2-2007-46-0008-40",
+   "mm:renault:e2-2007-46-0008-41",
+   "mm:renault:e2-2007-46-0008-42"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "49052ee0e44ffbb2"
+ },
+ "slug": "coche-de-pasajeros-renault-safety-gate-10000552"
+}

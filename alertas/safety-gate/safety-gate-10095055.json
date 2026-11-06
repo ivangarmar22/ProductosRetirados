@@ -1,0 +1,123 @@
+{
+ "id": "safety-gate-10095055",
+ "fuente": "safety-gate",
+ "idFuente": "10095055",
+ "referenciaOficial": "SR/02909/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095055",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Pegamento · Hema · Colle universelle",
+ "nombreVisible": "Pegamento Hema",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-09-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Productos químicos",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Colle universelle",
+   "marcas": [
+    "Hema"
+   ],
+   "modelos": [
+    "81.04.0065"
+   ],
+   "lotes": [],
+   "ean": [
+    "8716618495443"
+   ],
+   "descripcion": "Pegamento. Identificador único de fórmula (UFI): 6WX0-90YF-V00X-1J5J",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El producto contiene acetona, acetato de N-butilo y butanona, que son altamente inflamables, pero no tiene la advertencia táctil requerida de peligro. Por lo tanto, el usuario no está adecuadamente informado sobre los riesgos al usar este producto. El producto no cumple el Reglamento sobre clasificación, etiquetado y envasado de sustancias y mezclas (CLP).",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  },
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10971464",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10971465",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10971466",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10971467",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.hema.com/fr-fr/service-clientele/avertissement-de-securite",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02909/25",
+   "ean:8716618495443",
+   "mm:hema:81-04-0065"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "46090092e8712f8b"
+ },
+ "slug": "pegamento-hema-safety-gate-10095055"
+}

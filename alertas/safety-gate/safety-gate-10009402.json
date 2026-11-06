@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10009402",
+ "fuente": "safety-gate",
+ "idFuente": "10009402",
+ "referenciaOficial": "A12/01381/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009402",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Moto · Honda · CBF250NA, CBF300NA, CRF300LRA, CRF300LA",
+ "nombreVisible": "Moto Honda",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-06-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CBF250NA, CBF300NA, CRF300LRA, CRF300LA",
+   "marcas": [
+    "Honda"
+   ],
+   "modelos": [
+    "MC52",
+    "NC55",
+    "ND16",
+    "e13*168/2013*00363*02",
+    "e13*168/2013*00368*02",
+    "e13*168/2013*00928*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Moto",
+   "fechasTexto": "19/02/2022 - 12/01/2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Un enchufe de aceite en la cubierta del cárter derecho puede desprenderse, lo que puede provocar fugas de aceite del motor. Esto aumenta el riesgo de lesiones por fugas de aceite caliente del motor y el riesgo de un accidente si el aceite del motor se filtra en el neumático trasero. Además, el aceite del motor puede filtrarse en el escape caliente, lo que aumenta el riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Tailandia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10085290",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10085291",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01381/23",
+   "mm:honda:mc52",
+   "mm:honda:nc55",
+   "mm:honda:nd16",
+   "mm:honda:e13-168-2013-00363-02",
+   "mm:honda:e13-168-2013-00368-02",
+   "mm:honda:e13-168-2013-00928-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ca22fbbcf56d08f8"
+ },
+ "slug": "moto-honda-safety-gate-10009402"
+}

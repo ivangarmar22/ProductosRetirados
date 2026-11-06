@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10009681",
+ "fuente": "safety-gate",
+ "idFuente": "10009681",
+ "referenciaOficial": "A12/01620/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009681",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Moto · Ducati · Panigale",
+ "nombreVisible": "Moto Ducati",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-07-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Panigale",
+   "marcas": [
+    "Ducati"
+   ],
+   "modelos": [
+    "1H",
+    "e3*168/2013*00021*00-*04",
+    "e3*168/2013*00022*00-*03"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Moto",
+   "fechasTexto": "26.07.2019 - 23.05.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El mal funcionamiento del software puede hacer que el panel de instrumentos active la luz de circulación diurna mientras la motocicleta se conduce por la noche. El faro también puede cambiar automáticamente de luz baja a luz diurna, insuficiente para iluminar la carretera, lo que aumenta el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10088296",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10088297",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ducati.com/de/de/service-wartung/recall-campaign",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01620/23",
+   "mm:ducati:e3-168-2013-00021-00-04",
+   "mm:ducati:e3-168-2013-00022-00-03"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "895fb9d176003a8f"
+ },
+ "slug": "moto-ducati-safety-gate-10009681"
+}

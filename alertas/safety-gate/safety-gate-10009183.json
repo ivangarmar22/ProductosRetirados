@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10009183",
+ "fuente": "safety-gate",
+ "idFuente": "10009183",
+ "referenciaOficial": "SR/01003/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009183",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Aftershave · DENIM · Musk",
+ "nombreVisible": "Aftershave DENIM",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-03-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Musk",
+   "marcas": [
+    "DENIM"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "81J226-5"
+    }
+   ],
+   "ean": [
+    "7640129895014"
+   ],
+   "descripcion": "Después del afeitado, 100 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene 2-(4-terc-butilbencil)propionaldehído (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización cutánea. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición temporal del suministro, ofrecimiento de suministro o exposición del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "Suiza",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10951767",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10951768",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10951769",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/01003/25",
+   "ean:7640129895014",
+   "ml:denim:81j226-5"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5b28d843a87ba724"
+ },
+ "slug": "aftershave-denim-safety-gate-10009183"
+}

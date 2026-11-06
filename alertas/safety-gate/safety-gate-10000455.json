@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10000455",
+ "fuente": "safety-gate",
+ "idFuente": "10000455",
+ "referenciaOficial": "A12/00090/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000455",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Moto de nieve · BRP · Ski-Doo",
+ "nombreVisible": "Moto de nieve BRP",
+ "motivo": "Quemaduras, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Maquinaria",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ski-Doo",
+   "marcas": [
+    "BRP"
+   ],
+   "modelos": [
+    "MXZ",
+    "Renegade"
+   ],
+   "lotes": [
+    {
+     "numero": "2018"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Motos de nieve Ski-Doo MXZ y modelos Renegade equipados con motor 850 E-TEC.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El sistema de suministro de combustible del vehículo tiene un problema potencial de desgaste que puede conducir a fugas de combustible. La fuga de combustible cerca de una fuente de ignición aumenta el riesgo de que el vehículo se incendie.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bélgica",
+  "paisOrigen": "Canadá",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.ski-doo.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00090/20",
+   "mm:brp:mxz",
+   "mm:brp:renegade",
+   "ml:brp:2018"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6e54e219f9a1a846"
+ },
+ "slug": "moto-de-nieve-brp-safety-gate-10000455"
+}

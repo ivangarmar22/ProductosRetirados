@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10006797",
+ "fuente": "safety-gate",
+ "idFuente": "10006797",
+ "referenciaOficial": "A12/01340/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006797",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Puf plegable · Pepco · Mickey",
+ "nombreVisible": "Puf plegable Pepco",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-09-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Mobiliario",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Mickey",
+   "marcas": [
+    "Pepco"
+   ],
+   "modelos": [
+    "SKU 326076"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Puf plegable.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El material plástico exterior del pouffe contiene una concentración excesiva de bis(2-etilhexil) ftalato (DEHP) (valor medido hasta el 11,23 % en peso). Este ftalato puede dañar la salud al causar un posible daño al sistema reproductivo. El producto no cumple con el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10061034",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10061035",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://pepco.pl/wycofane_produkty/sku-326076-skladany-puf-mickey/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01340/22",
+   "mm:pepco:sku-326076"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "15b13476288ca427"
+ },
+ "slug": "puf-plegable-pepco-safety-gate-10006797"
+}

@@ -1,0 +1,99 @@
+{
+ "id": "aemps-medicamentos-r-10-2024",
+ "fuente": "aemps-medicamentos",
+ "idFuente": "R_10/2024",
+ "referenciaOficial": "R_10/2024",
+ "urlOficial": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f81517d37&idFirma=3359982",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Retirada de COMBIPRASAL 0.5 mg/2.5 mg SOLUCION PARA INHALACION POR NEBULIZADOR",
+ "nombreVisible": "COMBIPRASAL 0.5 mg/2.5 mg SOLUCION PARA INHALACION POR NEBULIZADOR",
+ "motivo": "Problemas con la serialización del lote",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-06-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Medicamento registrado",
+  "normalizada": "medicamentos"
+ },
+ "publico": null,
+ "productos": [
+  {
+   "nombre": "COMBIPRASAL 0.5 mg/2.5 mg SOLUCION PARA INHALACION POR NEBULIZADOR",
+   "marcas": [],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "AU176D",
+     "caducidad": "2027-01-31",
+     "consumoPreferente": null,
+     "codigoNacional": "677602"
+    }
+   ],
+   "ean": [],
+   "registroAemps": "73561",
+   "descripcion": "IPRATROPIO BROMURO, SALBUTAMOL SULFATO"
+  }
+ ],
+ "riesgo": {
+  "tipos": [],
+  "tipoNormalizado": [
+   "calidad"
+  ],
+  "descripcion": "Problemas con la serialización del lote",
+  "nivelLiteral": "Clase 3",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba el número de lote de tu envase. Si no coincide, esta alerta no te afecta.",
+  "Si coincide, acude a tu farmacia para gestionar el cambio por un lote no afectado, o consulta con tu médico si es preciso."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": null,
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": "Cadena de distribución y dispensación"
+ },
+ "empresas": [
+  {
+   "rol": "titular",
+   "nombre": "LABORATORIO ALDO-UNIÓN, S.L."
+  },
+  {
+   "rol": "fabricante",
+   "nombre": "LABORATOIRE UNITHER - Espace Industriel Nord 151 rue Andre Durouchez - CS 28028, Amiens - Cedex 2, 80084, Francia"
+  }
+ ],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f81517d37&idFirma=3359982",
+   "nombre": "Alerta oficial de la AEMPS"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:R_10/2024"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-incrustado",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "hashContenido": "fcde4c8a460ee68a"
+ },
+ "slug": "combiprasal-0-5-mg-2-5-mg-solucion-para-inhalacion-por-nebulizador-aemps-medicamentos-r-10-2024"
+}

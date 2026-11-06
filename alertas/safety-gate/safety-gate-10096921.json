@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10096921",
+ "fuente": "safety-gate",
+ "idFuente": "10096921",
+ "referenciaOficial": "SR/04373/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096921",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Alarma ambiental · Deltronic Security AB · Environmental Alarm",
+ "nombreVisible": "Alarma ambiental Deltronic Security AB",
+ "motivo": "Otros riesgos para la salud",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-12-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Otros - Seguridad en el hogar/Prevención de incendios - Detectores de gas/calor/humo",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Environmental Alarm",
+   "marcas": [
+    "Deltronic Security AB"
+   ],
+   "modelos": [
+    "i10"
+   ],
+   "lotes": [
+    {
+     "numero": "156-158"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Detector de humo inteligente, controlado remotamente, detector de calor y alarmas de monóxido de carbono. Las unidades afectadas se fabricaron entre abril y el 4 de julio de 2022. Productos afectados: Smoke i10 Art – 8276, Heat i10 Art – 8277, CO i10 Art – 8278",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Otros riesgos para la salud"
+  ],
+  "tipoNormalizado": [
+   "otros"
+  ],
+  "descripcion": "El producto puede no activar la alerta al centro de control remoto cuando la batería del producto está fallando. El producto no cumple con el Reglamento de Equipos Radioeléctricos",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "Suecia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10988842",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.careium.co.uk/blog/product-recall-notice-i10-envirnomental-detectors/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/04373/25",
+   "mm:deltronic-security-ab:i10",
+   "ml:deltronic-security-ab:156-158"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "41c99d55d1e367ec"
+ },
+ "slug": "alarma-ambiental-deltronic-security-ab-safety-gate-10096921"
+}

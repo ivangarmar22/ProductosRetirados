@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10093629",
+ "fuente": "safety-gate",
+ "idFuente": "10093629",
+ "referenciaOficial": "SR/01064/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093629",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vehículo todo terreno · Polaris · RZR XP 1000, RZR XP4 1000",
+ "nombreVisible": "Vehículo todo terreno Polaris",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-04-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "RZR XP 1000, RZR XP4 1000",
+   "marcas": [
+    "Polaris"
+   ],
+   "modelos": [
+    "Individual approval (RZR XP4 1000)",
+    "e8*167/2013*00002*15 (RZR XP 1000)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo todo terreno / Quad.",
+   "fechasTexto": "28.04.2021 - 20.12.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Una cubierta del polo de la batería faltante en el polo positivo de la batería de arranque puede provocar un cortocircuito eléctrico, lo que aumenta el riesgo de que el vehículo se incendie. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos agrícolas y forestales.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10951927",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10951928",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.polaris.com/en-us/off-road-recalls/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01064/25",
+   "mm:polaris:individual-approval-rzr-xp4-1000",
+   "mm:polaris:e8-167-2013-00002-15-rzr-xp-1000"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "a426c76393299e30"
+ },
+ "slug": "vehiculo-todo-terreno-polaris-safety-gate-10093629"
+}

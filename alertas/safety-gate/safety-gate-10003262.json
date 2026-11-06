@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003262",
+ "fuente": "safety-gate",
+ "idFuente": "10003262",
+ "referenciaOficial": "INFO/00058/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003262",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Ford · Focus",
+ "nombreVisible": "Coche de pasajeros Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Focus",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "Type-approval number: e13*2007/46*1911*04",
+    "Type: DEH"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "The affected vehicles were manufactured between 7 May 2018 and 5 July 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a una reparación defectuosa cuando se estaba tratando el retiro 19S50, el arnés de cableado del motor puede entrar en contacto con los pernos de la caja de cambios, lo que daña el arnés de cableado. Como resultado, la potencia del motor puede reducirse o el motor puede detenerse, lo que aumenta el riesgo de un accidente.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00058/21",
+   "mm:ford:type-approval-number-e13-2007-46-1911-04",
+   "mm:ford:type-deh"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3d67d8cb2aa2cdeb"
+ },
+ "slug": "coche-de-pasajeros-ford-safety-gate-10003262"
+}

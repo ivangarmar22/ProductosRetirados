@@ -1,0 +1,115 @@
+{
+ "id": "safety-gate-10098727",
+ "fuente": "safety-gate",
+ "idFuente": "10098727",
+ "referenciaOficial": "SR/01272/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098727",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Hervidor eléctrico · *MIL GERMANY* · 1.8L",
+ "nombreVisible": "Hervidor eléctrico *MIL GERMANY*",
+ "motivo": "Quemaduras, Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-06-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "1.8L",
+   "marcas": [
+    "*MIL GERMANY*"
+   ],
+   "modelos": [
+    "ZL-7771"
+   ],
+   "lotes": [
+    {
+     "numero": "All batches"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Hervidor eléctrico. Todos los lotes se ven afectados. Producto vendido en línea, en particular a través de eBay.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "El aislamiento del producto, así como las distancias de fuga entre los circuitos primario y secundario no son suficientes. Por lo tanto, el usuario puede tocar partes activas y recibir una descarga eléctrica. Además, el cable del producto podría sobrecalentarse y derretirse, lo que podría provocar quemaduras. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  },
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Bélgica",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11006203",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/21784/Interne",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01272/26",
+   "mm:mil-germany:zl-7771",
+   "ml:mil-germany:all-batches"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "215575908d90e775"
+ },
+ "slug": "hervidor-electrico-mil-germany-safety-gate-10098727"
+}

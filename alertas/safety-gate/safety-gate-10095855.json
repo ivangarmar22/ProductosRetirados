@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10095855",
+ "fuente": "safety-gate",
+ "idFuente": "10095855",
+ "referenciaOficial": "OR/00139/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095855",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Banco de energía solar · Impression · Solar Power Bank",
+ "nombreVisible": "Banco de energía solar Impression",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-09-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Solar Power Bank",
+   "marcas": [
+    "Impression"
+   ],
+   "modelos": [
+    "009333-05"
+   ],
+   "lotes": [
+    {
+     "numero": "4189862"
+    }
+   ],
+   "ean": [
+    "8719446056558"
+   ],
+   "descripcion": "Banco de energía solar ABS de goma con luces indicadoras verdes y linterna en el lateral y con dos puertos USB y un puerto micro USB. Carga solar 5V/200mA. Entrada DC 5V/1A. Salida DC 5V/2x1A. Capacidad: 4000 mAh. Incluyendo cable USB.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La batería del banco de energía puede sobrecalentarse, expandirse y explotar, causando riesgos de incendio y quemaduras a los usuarios. El producto no cumple con el Reglamento General de Seguridad de los Productos.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Países Bajos",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10975559",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10975560",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.flbv.eu/safety-alerts",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:OR/00139/25",
+   "ean:8719446056558",
+   "mm:impression:009333-05",
+   "ml:impression:4189862"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3b600531a833a964"
+ },
+ "slug": "banco-de-energia-solar-impression-safety-gate-10095855"
+}

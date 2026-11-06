@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10003759",
+ "fuente": "safety-gate",
+ "idFuente": "10003759",
+ "referenciaOficial": "INFO/00117/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003759",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Furgoneta de pasajeros/Vehículo comercial ligero · Mercedes-Benz · Sprinter",
+ "nombreVisible": "Furgoneta de pasajeros/Vehículo comercial ligero Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-25",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Sprinter",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Types: 906 AC 35",
+    "906BA50",
+    "906BB50",
+    "906BA35",
+    "906BB35",
+    "e1*2001/116*0354*22 - *25",
+    "e1*2007/46*0294*11 - *13",
+    "e1*2007/46*0296*11 - *13",
+    "e1*2007/46*0300*15 - *18",
+    "e1*2007/46*0301*17 - *20"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche/Vana",
+   "fechasTexto": "The affected vehicles were manufactured between 18 September 2018 and 18 November 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La configuración del fusible puede estar documentada incorrectamente en el manual del propietario y en la documentación del servicio. Como resultado, un fusible podría cambiarse incorrectamente y causar un mayor flujo de electricidad, lo que provoca que el cable se queme y aumente el riesgo de incendio o accidente.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00117/21",
+   "mm:mercedes-benz:types-906-ac-35",
+   "mm:mercedes-benz:906ba50",
+   "mm:mercedes-benz:906bb50",
+   "mm:mercedes-benz:906ba35",
+   "mm:mercedes-benz:906bb35",
+   "mm:mercedes-benz:e1-2001-116-0354-22-25",
+   "mm:mercedes-benz:e1-2007-46-0294-11-13",
+   "mm:mercedes-benz:e1-2007-46-0296-11-13",
+   "mm:mercedes-benz:e1-2007-46-0300-15-18",
+   "mm:mercedes-benz:e1-2007-46-0301-17-20"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ab2da16b2ef21e6f"
+ },
+ "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10003759"
+}

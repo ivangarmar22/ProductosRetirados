@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10004058",
+ "fuente": "safety-gate",
+ "idFuente": "10004058",
+ "referenciaOficial": "A12/01006/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004058",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · G-Class",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "G-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos con variantes de puertas traseras USA/CAN. Serie de modelos: BR 463.",
+   "fechasTexto": "The affected vehicles were manufactured between 22 June 2018 and 9 April 2021."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Dependiendo de las tolerancias del pestillo y la trampa de bloqueo, las puertas traseras pueden no estar completamente cerradas, aunque parezcan estar cerradas. Como consecuencia de ello, ciertas maniobras de conducción y las condiciones de la carretera podrían provocar que las puertas traseras se abran de forma inesperada durante la conducción, lo que aumenta el riesgo de accidente. Además, si la cerradura de seguridad para niños se activa en las puertas traseras y se utiliza una fuerza excesiva en la manija de la puerta interior para intentar abrirlas desde el interior del vehículo, la palanca de cierre del mecanismo de bloqueo puede deformarse y evitar que las puertas traseras se abran desde el interior, lo que aumenta el riesgo de lesiones en caso de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01006/21",
+   "mm:mercedes-benz:individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b110edf589634d6f"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10004058"
+}

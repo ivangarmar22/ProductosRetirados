@@ -1,0 +1,111 @@
+{
+ "id": "safety-gate-10097141",
+ "fuente": "safety-gate",
+ "idFuente": "10097141",
+ "referenciaOficial": "SR/04488/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097141",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Lámpara · GTV · TRAXX BIS",
+ "nombreVisible": "Lámpara GTV",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-12-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de alumbrado",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "TRAXX BIS",
+   "marcas": [
+    "GTV"
+   ],
+   "modelos": [
+    "XLT-Z3OP20SZ1B-00",
+    "XLT-Z3OP20SZ1B-10"
+   ],
+   "lotes": [],
+   "ean": [
+    "5902801345340",
+    "5902801345357"
+   ],
+   "descripcion": "Juego monofásico de lámparas, 3xGU10, máximo 3x20W, AC220-240V, 1 metro, en blanco y negro.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La protección del conductor de protección (PE) es insuficiente. El área de sección transversal de la puesta a tierra también es inadecuada. Por lo tanto, las partes activas son accesibles para el usuario, que puede recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10989673",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10989674",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://gtv.com.pl/wp-content/uploads/2025/11/Wycofanie_produktu_GPSR_3_PL.pdf",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/04488/25",
+   "ean:5902801345340",
+   "ean:5902801345357",
+   "mm:gtv:xlt-z3op20sz1b-00",
+   "mm:gtv:xlt-z3op20sz1b-10"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ae74efb52f6f98f9"
+ },
+ "slug": "lampara-gtv-safety-gate-10097141"
+}

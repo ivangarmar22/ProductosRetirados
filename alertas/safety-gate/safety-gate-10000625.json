@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10000625",
+ "fuente": "safety-gate",
+ "idFuente": "10000625",
+ "referenciaOficial": "A12/00204/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000625",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Crema de manos · Caicui · Hand Cream",
+ "nombreVisible": "Crema de manos Caicui",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Hand Cream",
+   "marcas": [
+    "Caicui"
+   ],
+   "modelos": [
+    "Raspberry"
+   ],
+   "lotes": [
+    {
+     "numero": "20200924T3"
+    }
+   ],
+   "ean": [
+    "6959192810666"
+   ],
+   "descripcion": "30 g de crema de manos. El producto también se vendió en línea, en particular a través de eBAY.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El producto contiene metilisotiazolinona (MI) (valor medido: 0,0006 %), cuyo uso está prohibido en los productos cosméticos abandonados. Mi es un sensibilizante fuerte y puede provocar dermatitis alérgica de contacto a personas sensibilizadas. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10004692",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00204/20",
+   "ean:6959192810666",
+   "mm:caicui:raspberry",
+   "ml:caicui:20200924t3"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "846e5a61786830c6"
+ },
+ "slug": "crema-de-manos-caicui-safety-gate-10000625"
+}

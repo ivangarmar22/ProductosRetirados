@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10006800",
+ "fuente": "safety-gate",
+ "idFuente": "10006800",
+ "referenciaOficial": "A12/01347/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006800",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · C-Class (C 300 e)",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-09-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class (C 300 e)",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "R2CS",
+    "e1*2018/858*00017*02-*04"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros, Mercedes-Benz, Clase C (modelo serie 206)",
+   "fechasTexto": "02.07.2021 - 12.11.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La etiqueta incorrecta de la presión de los neumáticos en la tapa del depósito puede hacer que la presión del neumático no se identifique en función de la carga del vehículo y, por lo tanto, el vehículo funcione con una presión insuficiente de los neumáticos. Como resultado, el neumático puede estar dañado, lo que aumenta el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/?emhsort=price-asc&emhvehicleAssortment=new-passenger-cars",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01347/22",
+   "mm:mercedes-benz:r2cs",
+   "mm:mercedes-benz:e1-2018-858-00017-02-04"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7d8aab7404297c0f"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006800"
+}

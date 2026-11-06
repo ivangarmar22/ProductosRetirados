@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10007203",
+ "fuente": "safety-gate",
+ "idFuente": "10007203",
+ "referenciaOficial": "INFO/00138/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10007203",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cama elástica · Energetics · Energetics 100cm",
+ "nombreVisible": "Cama elástica Energetics",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-11-23",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de ocio y deporte",
+  "normalizada": "ocio"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Energetics 100cm",
+   "marcas": [
+    "Energetics"
+   ],
+   "modelos": [
+    "1268119"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Mini trampolín con un diámetro de 100 cm, incluyendo muelles y acolchado de marco. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los muelles no son lo suficientemente resistentes y pueden romperse. El usuario puede deslizarse a través de la brecha entre los resortes restantes y lesionarse. Además, un resorte roto también puede golpear y herir a otros usuarios junto al trampolín. El producto no cumple los requisitos de la Directiva general sobre seguridad de los productos.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10064668",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.intersport.at/rueckruf-energetics-trampolin.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00138/22",
+   "mm:energetics:1268119"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "955a271a73f886ac"
+ },
+ "slug": "cama-elastica-energetics-safety-gate-10007203"
+}

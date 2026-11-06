@@ -1,0 +1,111 @@
+{
+ "id": "safety-gate-10000691",
+ "fuente": "safety-gate",
+ "idFuente": "10000691",
+ "referenciaOficial": "INFO/00034/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000691",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bota de esquí · Fischer · Travers CC",
+ "nombreVisible": "Bota de esquí Fischer",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de ocio y deporte",
+  "normalizada": "ocio"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Travers CC",
+   "marcas": [
+    "Fischer"
+   ],
+   "modelos": [
+    "Item Number: U18519",
+    "Travers series"
+   ],
+   "lotes": [
+    {
+     "numero": "All models delivered after October 2018Sizes 25.5 to 30.5"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Par de botas de esquí en tamaños 25.5 a 30.5. El producto también se vendió en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La fibra de carbono del manguito superior podría ser insuficientemente fuerte. En consecuencia, pequeñas grietas podrían generar después de un uso frecuente, lo que podría llevar al manguito a romperse. Esto podría hacer que el usuario pierda el control de los esquís y caiga, aumentando el riesgo de lesiones.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": "Austria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10005487",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10005488",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10005489",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.fischersports.com/at_de/recall-travers-cc",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00034/20",
+   "mm:fischer:item-number-u18519",
+   "mm:fischer:travers-series",
+   "ml:fischer:all-models-delivered-after-october-2018sizes-25-5-to-30-5"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ee94addf0dea764c"
+ },
+ "slug": "bota-de-esqui-fischer-safety-gate-10000691"
+}

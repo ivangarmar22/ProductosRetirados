@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10096801",
+ "fuente": "safety-gate",
+ "idFuente": "10096801",
+ "referenciaOficial": "SR/04158/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096801",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cable de extensión · ACAR · ACAR",
+ "nombreVisible": "Cable de extensión ACAR",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-11-26",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "ACAR",
+   "marcas": [
+    "ACAR"
+   ],
+   "modelos": [
+    "PS-2P"
+   ],
+   "lotes": [
+    {
+     "numero": "H05VV-F"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Cable de extensión de un solo zócalo en color naranja. Producto vendido en línea, en particular a través de www.varle.lt.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento eléctrico del cable de extensión flexible es insuficiente. El usuario podría recibir una descarga eléctrica de partes activas accesibles. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Lituania",
+  "paisOrigen": "Polonia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10986019",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10986020",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/04158/25",
+   "mm:acar:ps-2p",
+   "ml:acar:h05vv-f"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "12aba5c76289d2d8"
+ },
+ "slug": "cable-de-extension-acar-safety-gate-10096801"
+}

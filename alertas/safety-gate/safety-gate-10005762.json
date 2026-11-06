@@ -1,0 +1,115 @@
+{
+ "id": "safety-gate-10005762",
+ "fuente": "safety-gate",
+ "idFuente": "10005762",
+ "referenciaOficial": "A12/00433/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005762",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · Kruidvat · Wereldstekker / Prise de voyage globale",
+ "nombreVisible": "Cargador USB Kruidvat",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-03-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Wereldstekker / Prise de voyage globale",
+   "marcas": [
+    "Kruidvat"
+   ],
+   "modelos": [
+    "ISW.47.311"
+   ],
+   "lotes": [],
+   "ean": [
+    "8719179473110"
+   ],
+   "descripcion": "Adaptador de viaje con cargador USB. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "Es posible conectar un pin mientras que el otro pin es accesible. Como resultado, las partes accesibles pueden volverse activas y el usuario podría recibir una descarga eléctrica de ellas. El producto no cumple con los requisitos de la Directiva de baja tensión ni con la norma europea EN 62368-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Países Bajos",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10049486",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10049487",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10049488",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10049489",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "http://www.kruidvat.behttp//www.kruidvat.nl",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00433/22",
+   "ean:8719179473110",
+   "mm:kruidvat:isw-47-311"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3416470ea580558e"
+ },
+ "slug": "cargador-usb-kruidvat-safety-gate-10005762"
+}

@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10007592",
+ "fuente": "safety-gate",
+ "idFuente": "10007592",
+ "referenciaOficial": "A12/00095/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10007592",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · CITROEN · C3",
+ "nombreVisible": "Coche de pasajeros CITROEN",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-01-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C3",
+   "marcas": [
+    "CITROEN"
+   ],
+   "modelos": [
+    "e2*2007/46*0003*69"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "22.8.2022 - 23.8.2022"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a los pernos inadecuados de ciertos componentes (pinza de freno, soporte de eje trasero, rueda de trinquete, sensor ABS, manguera de freno, soporte de manguera de freno, brazo de control delantero, brazo de control delantero horizontal, barra anti-roll, dirección asistida), las partes afectadas pueden perderse o dañarse. Esto podría dar lugar a varios fallos de funcionamiento, como una pérdida de conexión entre la rueda trasera y la varilla de corbata del eje, o una ruptura de la línea de freno trasera mientras el vehículo está en movimiento, lo que aumenta el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Eslovaquia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.citroen.de/wartung-services/rueckrufaktion-pruefung.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00095/23",
+   "mm:citroen:e2-2007-46-0003-69"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "643d61a5a59f660b"
+ },
+ "slug": "coche-de-pasajeros-citroen-safety-gate-10007592"
+}

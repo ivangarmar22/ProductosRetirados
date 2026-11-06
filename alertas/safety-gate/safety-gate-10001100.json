@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10001100",
+ "fuente": "safety-gate",
+ "idFuente": "10001100",
+ "referenciaOficial": "A12/00625/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001100",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Seat · Ibiza",
+ "nombreVisible": "Coche de pasajeros Seat",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-04-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ibiza",
+   "marcas": [
+    "Seat"
+   ],
+   "modelos": [
+    "- Model year: 2019 ~ 2020",
+    "- Model: KJ1*",
+    "VIN's: from VSSZZZKJZKR213645 to 214086",
+    "from VSSZZZKJZLR013878 to 137063",
+    "e9*2007/46*3134*21",
+    "e9*2007/46*3134*22",
+    "e9*2007/46*3134*23"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "From 2019 to 2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La manguera de vacío entre el servo de freno y la bomba tándem puede estar defectuosa. En consecuencia, el aceite del motor puede fugas y dañar la asistencia servo del freno, disminuyendo la eficiencia del freno y aumentando el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00625/20",
+   "mm:seat:model-year-2019-2020",
+   "mm:seat:model-kj1",
+   "mm:seat:vin-s-from-vsszzzkjzkr213645-to-214086",
+   "mm:seat:from-vsszzzkjzlr013878-to-137063",
+   "mm:seat:e9-2007-46-3134-21",
+   "mm:seat:e9-2007-46-3134-22",
+   "mm:seat:e9-2007-46-3134-23"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "330174c97abb4e81"
+ },
+ "slug": "coche-de-pasajeros-seat-safety-gate-10001100"
+}

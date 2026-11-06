@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10092650",
+ "fuente": "safety-gate",
+ "idFuente": "10092650",
+ "referenciaOficial": "SR/00152/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10092650",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Plomo de extensión · IEK",
+ "nombreVisible": "Plomo de extensión IEK",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-01-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Plomo de extensión",
+   "marcas": [
+    "IEK"
+   ],
+   "modelos": [
+    "Y02K"
+   ],
+   "lotes": [],
+   "ean": [
+    "4606056358261"
+   ],
+   "descripcion": "Cable de extensión con interruptor.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El producto tiene un aislamiento inadecuado. El usuario podría tocar partes activas accesibles y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Lituania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10943602",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10943603",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00152/25",
+   "ean:4606056358261",
+   "mm:iek:y02k"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "fe167a46d72d2980"
+ },
+ "slug": "plomo-de-extension-iek-safety-gate-10092650"
+}

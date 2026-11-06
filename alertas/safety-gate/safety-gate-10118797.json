@@ -1,0 +1,124 @@
+{
+ "id": "safety-gate-10118797",
+ "fuente": "safety-gate",
+ "idFuente": "10118797",
+ "referenciaOficial": "SR/02655/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118797",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · KLGO · PD 25W SINGLE PORT ADAPTER",
+ "nombreVisible": "Cargador USB KLGO",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-09-24",
+  "publicacionWeb": null,
+  "modificacion": "2026-10-07"
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "PD 25W SINGLE PORT ADAPTER",
+   "marcas": [
+    "KLGO"
+   ],
+   "modelos": [
+    "PD-800",
+    "PD800"
+   ],
+   "lotes": [
+    {
+     "numero": "900754"
+    }
+   ],
+   "ean": [
+    "5996589007545",
+    "6972108923212"
+   ],
+   "descripcion": "Cargador USB blanco con un enchufe europeo integrado, con un puerto de salida USB tipo C.",
+   "fechasTexto": null,
+   "envase": "Caja de cartón con una ventana de plástico transparente y un lazo colgante de plástico negro."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. Los puertos USB secundarios y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Hungría",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236136",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236137",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236138",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236139",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02655/26",
+   "ean:5996589007545",
+   "ean:6972108923212",
+   "mm:klgo:pd-800",
+   "mm:klgo:pd800",
+   "ml:klgo:900754"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "be99639eb63586e6"
+ },
+ "slug": "cargador-usb-klgo-safety-gate-10118797"
+}

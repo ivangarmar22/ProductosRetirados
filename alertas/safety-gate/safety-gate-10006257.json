@@ -1,0 +1,125 @@
+{
+ "id": "safety-gate-10006257",
+ "fuente": "safety-gate",
+ "idFuente": "10006257",
+ "referenciaOficial": "A12/00860/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006257",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Crema facial · Vichy · Liftactiv Specialist Peptide-C Anti-Aging-Ampullen",
+ "nombreVisible": "Crema facial Vichy",
+ "motivo": "Cortes",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-06-09",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Liftactiv Specialist Peptide-C Anti-Aging-Ampullen",
+   "marcas": [
+    "Vichy"
+   ],
+   "modelos": [
+    "MB167200",
+    "MB180500",
+    "MB223800"
+   ],
+   "lotes": [],
+   "ean": [
+    "30157880",
+    "03016299",
+    "03337875670630",
+    "3433425339887"
+   ],
+   "descripcion": "Concentrado de tonificación e hidratación para la piel facial, en un vial de vidrio marrón que contiene 1,8 ml. El producto también se vende en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Cortes"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El vial de vidrio puede estallar al abrirlo, causando cortes al usuario. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Suspensión de la venta del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10055279",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10055280",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.vichy.de/gesicht/peptide-c-ampullen-liftactiv/p46288.aspx",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00860/22",
+   "ean:30157880",
+   "ean:03016299",
+   "ean:03337875670630",
+   "ean:3433425339887",
+   "mm:vichy:mb167200",
+   "mm:vichy:mb180500",
+   "mm:vichy:mb223800"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c99e73d3d226db19"
+ },
+ "slug": "crema-facial-vichy-safety-gate-10006257"
+}

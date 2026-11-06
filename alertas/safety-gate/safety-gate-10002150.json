@@ -1,0 +1,89 @@
+{
+ "id": "safety-gate-10002150",
+ "fuente": "safety-gate",
+ "idFuente": "10002150",
+ "referenciaOficial": "A12/01343/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002150",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mini · Countryman",
+ "nombreVisible": "Coche de pasajeros Mini",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-10-09",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Countryman",
+   "marcas": [
+    "Mini"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2007/46*1682",
+    "Type: FMX"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "The affected vehicles were manufactured between 4 June and 16 July 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "incendio"
+  ],
+  "descripcion": "Un cortocircuito en la batería de alto voltaje podría ocurrir durante la carga inicial debido a una partícula en forma de perla de soldadura. Esto puede desencadenar una reacción en cadena en la batería, aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Reino Unido",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01343/20",
+   "mm:mini:type-approval-number-e1-2007-46-1682",
+   "mm:mini:type-fmx"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "36bf1f45cbbeb298"
+ },
+ "slug": "coche-de-pasajeros-mini-safety-gate-10002150"
+}

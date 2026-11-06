@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10098028",
+ "fuente": "safety-gate",
+ "idFuente": "10098028",
+ "referenciaOficial": "SR/00789/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098028",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Máquina de corte por láser · LD Laser · Laser cutting machine",
+ "nombreVisible": "Máquina de corte por láser LD Laser",
+ "motivo": "Quemaduras, Daño a la vista",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-03-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Maquinaria",
+  "normalizada": "hogar"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Laser cutting machine",
+   "marcas": [
+    "LD Laser"
+   ],
+   "modelos": [
+    "LD-13025S"
+   ],
+   "lotes": [
+    {
+     "numero": "202508100504"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Cortadora láser oblicua (corte biselado, rango giratorio +- 55°) con una potencia nominal de 60 kW.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Daño a la vista"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": ", no tiene la protección requerida, lo que puede llevar a los usuarios a estar expuestos involuntariamente a la radiación y, en consecuencia, sufrir daños en su salud. El producto no cumple con los requisitos de la Directiva de Maquinaria ni con las normas europeas EN 60825-1 y EN 60825-4.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de la comercialización del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11000898",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11000899",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00789/26",
+   "mm:ld-laser:ld-13025s",
+   "ml:ld-laser:202508100504"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "11a037ea3efe47dd"
+ },
+ "slug": "maquina-de-corte-por-laser-ld-laser-safety-gate-10098028"
+}

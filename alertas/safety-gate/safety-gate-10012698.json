@@ -1,0 +1,134 @@
+{
+ "id": "safety-gate-10012698",
+ "fuente": "safety-gate",
+ "idFuente": "10012698",
+ "referenciaOficial": "A12/00940/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10012698",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · CLA, A-Class, EQA/EQB, B-Class/GLA/GLB right-hand drive",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-04-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CLA, A-Class, EQA/EQB, B-Class/GLA/GLB right-hand drive",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "F2CLA",
+    "F2A",
+    "F2B",
+    "e1*2007/46*1912*00-*22",
+    "e1*2007/46*1829*00-*22",
+    "e1*2007/46*1909*00-*25"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros con conducción a la derecha",
+   "fechasTexto": "08.03.2017 - 31.01.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que el software de dirección no active correctamente el nivel de reserva en caso de fallo de hardware. Esto podría afectar a la asistencia de dirección asistida y conducir a la pérdida de capacidad de dirección, aumentando el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Actualización del software de dirección eléctrica",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10118281",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10118282",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10118283",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10118284",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10118285",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10118286",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10118287",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00940/24",
+   "mm:mercedes-benz:f2cla",
+   "mm:mercedes-benz:f2a",
+   "mm:mercedes-benz:f2b",
+   "mm:mercedes-benz:e1-2007-46-1912-00-22",
+   "mm:mercedes-benz:e1-2007-46-1829-00-22",
+   "mm:mercedes-benz:e1-2007-46-1909-00-25"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0995efdc431e3106"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10012698"
+}

@@ -1,0 +1,92 @@
+{
+ "id": "safety-gate-10002762",
+ "fuente": "safety-gate",
+ "idFuente": "10002762",
+ "referenciaOficial": "A12/01870/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002762",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Honda · CR-V",
+ "nombreVisible": "Coche de pasajeros Honda",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-12-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CR-V",
+   "marcas": [
+    "Honda"
+   ],
+   "modelos": [
+    "e11*98/14*0190*00",
+    "e11*98/14*0190*01",
+    "e11*98/14*0190*02",
+    "e11*2001/116*0234*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Códigos de modelo: RD8, RD9; Años modelo: 2002 ~ 2009",
+   "fechasTexto": "The affected vehicles were manufactured between 7 November 2001 and 6 October 2006"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El líquido puede acumularse en un hueco en el caso del interruptor maestro de ventana eléctrica (PWMS). Como resultado, podría ocurrir un cortocircuito que puede generar calor y hacer que el PWMS y las partes adyacentes se sobrecalienten, aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Reino Unido",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01870/20",
+   "mm:honda:e11-98-14-0190-00",
+   "mm:honda:e11-98-14-0190-01",
+   "mm:honda:e11-98-14-0190-02",
+   "mm:honda:e11-2001-116-0234-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "365527aa8aa68afb"
+ },
+ "slug": "coche-de-pasajeros-honda-safety-gate-10002762"
+}

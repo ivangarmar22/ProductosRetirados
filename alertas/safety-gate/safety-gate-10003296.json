@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10003296",
+ "fuente": "safety-gate",
+ "idFuente": "10003296",
+ "referenciaOficial": "A12/00309/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003296",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · VW · Jetta, Tiguan Allspace",
+ "nombreVisible": "Coche de pasajeros VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Jetta, Tiguan Allspace",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type-approval numbers: e1*2007/46*0539*##",
+    "e1*2001/116*0450*##",
+    "Types: 16",
+    "5N"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "The affected vehicles were manufactured between 23 September and 21 October 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El marco tubular del asiento del conductor puede haber sido soldado incorrectamente. Esto podría perjudicar la estabilidad del asiento y su efecto de sujeción en caso de accidente, en particular en caso de colisión trasera.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "México",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00309/21",
+   "mm:vw:type-approval-numbers-e1-2007-46-0539",
+   "mm:vw:e1-2001-116-0450",
+   "mm:vw:types-16"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d672114fc7b00714"
+ },
+ "slug": "coche-de-pasajeros-vw-safety-gate-10003296"
+}

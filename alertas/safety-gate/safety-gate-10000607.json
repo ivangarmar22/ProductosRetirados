@@ -1,0 +1,89 @@
+{
+ "id": "safety-gate-10000607",
+ "fuente": "safety-gate",
+ "idFuente": "10000607",
+ "referenciaOficial": "A12/00211/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000607",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Toyota · Corolla",
+ "nombreVisible": "Coche de pasajeros Toyota",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Corolla",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "Type-approval number: e6*2007/46*0318*",
+    "Type: ZE1HE (EU",
+    "M)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación de Toyota: 19SMD-039.",
+   "fechasTexto": "The affected vehicles were manufactured between 17 December 2018 and 28 February 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El deflector de viento en el techo panorámico puede estar insuficientemente unido. Como resultado, puede romperse y caer en la carretera, lo que representa un riesgo para el siguiente tráfico.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00211/20",
+   "mm:toyota:type-approval-number-e6-2007-46-0318",
+   "mm:toyota:type-ze1he-eu"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "a9b7f1620fb041ec"
+ },
+ "slug": "coche-de-pasajeros-toyota-safety-gate-10000607"
+}

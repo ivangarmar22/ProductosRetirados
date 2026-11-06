@@ -1,0 +1,116 @@
+{
+ "id": "safety-gate-10011606",
+ "fuente": "safety-gate",
+ "idFuente": "10011606",
+ "referenciaOficial": "A12/00092/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011606",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Licuadora portátil · BlendJet2 · BlendJet2",
+ "nombreVisible": "Licuadora portátil BlendJet2",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Accesorios de cocina",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "BlendJet2",
+   "marcas": [
+    "BlendJet2"
+   ],
+   "modelos": [
+    "BlendJet2"
+   ],
+   "lotes": [
+    {
+     "numero": "5201000000 and 5542999999. Not all units are affected"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Una licuadora portátil con una batería compacta. La batería de iones de litio es recargable con un cable USB. Las unidades afectadas se vendieron desde octubre de 2020 hasta noviembre de 2023.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "El dispositivo puede sobrecalentarse causando un incendio. Una hoja licuadora puede romperse, liberando un fragmento, con el consiguiente riesgo de laceración de un órgano digestivo interno si se ingiere. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106992",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106993",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://blendjet.com/safetyandrecall",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00092/24",
+   "mm:blendjet2:blendjet2",
+   "ml:blendjet2:5201000000-and-5542999999-not-all-units-are-affected"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "61f58c76e50db850"
+ },
+ "slug": "licuadora-portatil-blendjet2-safety-gate-10011606"
+}

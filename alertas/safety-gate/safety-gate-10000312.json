@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10000312",
+ "fuente": "safety-gate",
+ "idFuente": "10000312",
+ "referenciaOficial": "A12/00031/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000312",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Bmw · Z4",
+ "nombreVisible": "Coche de pasajeros Bmw",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-01-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Z4",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "Model series: G29",
+    "Type-approval number: e1*2007/46*1949",
+    "Type: G4Z"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación de BMW: 0063660100.",
+   "fechasTexto": "The affected vehicles were manufactured between 17 and 25 July 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La unidad de control del faro puede haber sido dañada en el curso del proceso de producción del proveedor. Esto podría resultar en un cortocircuito en la unidad de control, haciendo que los faros, la iluminación de los faros o las señales de giro fallen, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Austria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00031/20",
+   "mm:bmw:model-series-g29",
+   "mm:bmw:type-approval-number-e1-2007-46-1949",
+   "mm:bmw:type-g4z"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0bb35891854a52e2"
+ },
+ "slug": "coche-de-pasajeros-bmw-safety-gate-10000312"
+}

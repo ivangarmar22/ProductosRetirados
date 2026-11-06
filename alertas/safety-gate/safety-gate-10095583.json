@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10095583",
+ "fuente": "safety-gate",
+ "idFuente": "10095583",
+ "referenciaOficial": "SR/02974/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095583",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Furgoneta de pasajeros / Vehículo comercial ligero · Ford · Tourneo Connect, Transit Connect",
+ "nombreVisible": "Furgoneta de pasajeros / Vehículo comercial ligero Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-08-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Tourneo Connect, Transit Connect",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e13*2018/858*00270*04 (SK)",
+    "e13*2018/858*00342*03 - *04 (SKN)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
+   "fechasTexto": "17.8.2023 - 27.3.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La cámara de marcha atrás puede congelarse dando la falsa impresión de que el área detrás del vehículo está despejada, a pesar de la presencia de personas u obstáculos allí. Esto puede aumentar el riesgo de accidentes y lesiones. Además, se pueden mostrar mensajes de advertencia como falla del sensor de estacionamiento y llamadas de emergencia en el cuadro de instrumentos durante el funcionamiento. Los sistemas controlados a través de la pantalla central, como la calefacción, la calefacción del asiento y la ventilación, también pueden ser inoperables. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Polonia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10972419",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10972420",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.com/support/recalls-details/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02974/25",
+   "mm:ford:e13-2018-858-00270-04-sk",
+   "mm:ford:e13-2018-858-00342-03-04-skn"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "20d4cb703ae640a5"
+ },
+ "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-ford-safety-gate-10095583"
+}

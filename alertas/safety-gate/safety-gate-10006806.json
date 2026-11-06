@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10006806",
+ "fuente": "safety-gate",
+ "idFuente": "10006806",
+ "referenciaOficial": "A12/01395/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006806",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · C-Class",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-10-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "R2CW",
+    "e1*2018/858*00016*00",
+    "e1*2018/858*00016*01",
+    "e1*2018/858*00016*02",
+    "e1*2018/858*00016*03",
+    "e1*2018/858*00016*04"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros, Mercedes-Benz, Clase C Sedan, modelo serie 206",
+   "fechasTexto": "12.10.2020 - 02.06.2022"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La humedad podría entrar en el módulo de adquisición y accionamiento de la señal. En este caso, puede ocurrir un cortocircuito y como resultado aumenta el riesgo de incendio. Además, esta humedad puede hacer que la iluminación exterior en la parte trasera del vehículo falle, el asiento trasero puede plegarse involuntariamente, y la cámara de visión trasera puede no estar disponible, lo que aumenta el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01395/22",
+   "mm:mercedes-benz:r2cw",
+   "mm:mercedes-benz:e1-2018-858-00016-00",
+   "mm:mercedes-benz:e1-2018-858-00016-01",
+   "mm:mercedes-benz:e1-2018-858-00016-02",
+   "mm:mercedes-benz:e1-2018-858-00016-03",
+   "mm:mercedes-benz:e1-2018-858-00016-04"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "76bee14309e1f88e"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006806"
+}

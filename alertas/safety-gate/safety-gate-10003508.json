@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10003508",
+ "fuente": "safety-gate",
+ "idFuente": "10003508",
+ "referenciaOficial": "A12/00512/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003508",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · A-Class, CLA",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-04-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A-Class, CLA",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2007/46*1912*08",
+    "e1*2007/46*1829*12",
+    "Types: F2CLA",
+    "F2A"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: CLA (BR 118), Clase A (BR 177)",
+   "fechasTexto": "The affected vehicles were manufactured between 30 July and 12 September 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Puede faltar el soporte derecho del asiento trasero derecho diseñado para fijar el asiento de niño al punto de anclaje ISOFIX. En consecuencia, el sistema de anclaje inferior ISOFIX no tendría ningún efecto de retención y el asiento para niños no estaría suficientemente asegurado, lo que aumentaría el riesgo de lesiones en caso de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00512/21",
+   "mm:mercedes-benz:e1-2007-46-1912-08",
+   "mm:mercedes-benz:e1-2007-46-1829-12",
+   "mm:mercedes-benz:types-f2cla",
+   "mm:mercedes-benz:f2a"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4cdfeadddd122337"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003508"
+}

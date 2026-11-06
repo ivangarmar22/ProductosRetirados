@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10096157",
+ "fuente": "safety-gate",
+ "idFuente": "10096157",
+ "referenciaOficial": "SR/03559/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096157",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motosierra · SEYVUM · Pole Chain Saw",
+ "nombreVisible": "Motosierra SEYVUM",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-10-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Maquinaria",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Pole Chain Saw",
+   "marcas": [
+    "SEYVUM"
+   ],
+   "modelos": [
+    "CYCPCS01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Una sierra de cadena con enchufe de pared y batería de iones de litio de 20v. Producto vendido en línea, en particular a través de Amazon.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "Debido a la mala calidad de la soldadura interna y a las distancias de deslizamiento y separación inadecuadas, así como a las dimensiones inadecuadas del enchufe, el usuario podría tener acceso a partes activas y recibir una descarga eléctrica. Además, el producto podría sobrecalentarse e incendiarse. El producto no cumple los requisitos de la Directiva sobre máquinas y de la Directiva sobre baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10979458",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10979459",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03559/25",
+   "mm:seyvum:cycpcs01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5900f23beba2ad97"
+ },
+ "slug": "motosierra-seyvum-safety-gate-10096157"
+}

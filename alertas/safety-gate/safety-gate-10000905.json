@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10000905",
+ "fuente": "safety-gate",
+ "idFuente": "10000905",
+ "referenciaOficial": "A12/00490/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000905",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Adaptador multi-socket · STARPOWER · Starpower",
+ "nombreVisible": "Adaptador multi-socket STARPOWER",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-03-25",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Starpower",
+   "marcas": [
+    "STARPOWER"
+   ],
+   "modelos": [
+    "42353"
+   ],
+   "lotes": [
+    {
+     "numero": "190925"
+    }
+   ],
+   "ean": [
+    "8021785423534"
+   ],
+   "descripcion": "Adaptador universal para viajeros.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "Es posible desbloquear todos los pines incluso cuando se inserta un pasador en un zócalo. En tal caso, los pines accesibles están vivos. El usuario podía tocar partes vivas y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10007442",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10007443",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.adtrend.it/ad-documenti/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00490/20",
+   "ean:8021785423534",
+   "mm:starpower:42353",
+   "ml:starpower:190925"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "daa183bc7d2d98fd"
+ },
+ "slug": "adaptador-multi-socket-starpower-safety-gate-10000905"
+}

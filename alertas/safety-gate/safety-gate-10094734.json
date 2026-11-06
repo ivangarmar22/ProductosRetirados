@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10094734",
+ "fuente": "safety-gate",
+ "idFuente": "10094734",
+ "referenciaOficial": "SR/02259/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10094734",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Luz de led · STASUN · LED Floodlight",
+ "nombreVisible": "Luz de led STASUN",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-06-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "LED Floodlight",
+   "marcas": [
+    "STASUN"
+   ],
+   "modelos": [
+    "110"
+   ],
+   "lotes": [
+    {
+     "numero": "20250101001"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Proyector led destinado a ser utilizado en paredes externas. Producto vendido en línea, en particular a través de Amazon.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Las instrucciones indican incorrectamente que el producto es adecuado para uso en exteriores. La sección transversal del cable de alimentación no es adecuada para una exposición prolongada al aire libre, lo que provoca un deterioro con el tiempo y la exposición de partes activas, creando un riesgo de incendio. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10964657",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02259/25",
+   "mm:stasun:110",
+   "ml:stasun:20250101001"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3ac3272da10c4d99"
+ },
+ "slug": "luz-de-led-stasun-safety-gate-10094734"
+}

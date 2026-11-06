@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003678",
+ "fuente": "safety-gate",
+ "idFuente": "10003678",
+ "referenciaOficial": "A12/00653/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003678",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Volvo · S90L, XC90",
+ "nombreVisible": "Turismos Volvo",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "S90L, XC90",
+   "marcas": [
+    "Volvo"
+   ],
+   "modelos": [
+    "Chassis code: S90L (from 0015022 to 0175391)",
+    "XC90 (from 0000700 to 0621884)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos equipados con un indicador de control del asiento trasero; Tipo de modelo: S90L (238), XC90 (256).",
+   "fechasTexto": "The affected vehicles were manufactured between 2016 and 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Cuando el líquido o las gotas están presentes en la pantalla de control del asiento trasero, existe el riesgo de que la señal a la pantalla sea mantenida y percibida por el sistema como un toque «constante». Como resultado, el asiento delantero podría ser movido inadvertidamente hasta su posición final, aumentando el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Suecia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00653/21",
+   "mm:volvo:chassis-code-s90l-from-0015022-to-0175391",
+   "mm:volvo:xc90-from-0000700-to-0621884"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e3268f31cb4c6d80"
+ },
+ "slug": "turismos-volvo-safety-gate-10003678"
+}

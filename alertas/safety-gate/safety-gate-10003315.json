@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10003315",
+ "fuente": "safety-gate",
+ "idFuente": "10003315",
+ "referenciaOficial": "A12/00310/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003315",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mitsubishi · Outlander, Outlander PHEV, Eclipse Cross",
+ "nombreVisible": "Turismos Mitsubishi",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Outlander, Outlander PHEV, Eclipse Cross",
+   "marcas": [
+    "Mitsubishi"
+   ],
+   "modelos": [
+    "Outlander: e1*2007/46*1218*xx",
+    "Outlander PHE: e1*2001/116*046*xx",
+    "Eclipse Cross: e1*2007/46*1769*xx"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Los vehículos con la parte genuina de la selección de valor reemplazaron el parabrisas calentado. Año de modelo: 2013-2020 (Outlander, Outlander PHEV); 2018-2020 (Eclipse Cross).",
+   "fechasTexto": "The affected vehicles were manufactured up to June 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a la soldadura inadecuada de una conexión eléctrica, el terminal eléctrico del parabrisas calentado puede sobrecalentarse excesivamente cuando se activa. Esto podría causar un incidente térmico (cracking del vidrio), aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00310/21",
+   "mm:mitsubishi:outlander-e1-2007-46-1218-xx",
+   "mm:mitsubishi:outlander-phe-e1-2001-116-046-xx",
+   "mm:mitsubishi:eclipse-cross-e1-2007-46-1769-xx"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e614c6fe773a3404"
+ },
+ "slug": "turismos-mitsubishi-safety-gate-10003315"
+}

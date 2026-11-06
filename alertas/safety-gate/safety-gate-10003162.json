@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10003162",
+ "fuente": "safety-gate",
+ "idFuente": "10003162",
+ "referenciaOficial": "A12/00269/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003162",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta · KTM · KTM 1290 SUPER DUKE R",
+ "nombreVisible": "Motocicleta KTM",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-02-23",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "KTM 1290 SUPER DUKE R",
+   "marcas": [
+    "KTM"
+   ],
+   "modelos": [
+    "e1*168/2013*00185*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta",
+   "fechasTexto": "Model year 2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El arnés de cableado en la parte inferior del extremo trasero puede estar dañado debido a errores en el proceso de montaje. Esto puede conducir a roturas del arnés de cableado, lo que conduce a un mayor riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": "Austria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.ktm.com/de-at/service/Safety.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00269/21",
+   "mm:ktm:e1-168-2013-00185-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c3994a62d5e90738"
+ },
+ "slug": "motocicleta-ktm-safety-gate-10003162"
+}

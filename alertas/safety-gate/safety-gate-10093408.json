@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10093408",
+ "fuente": "safety-gate",
+ "idFuente": "10093408",
+ "referenciaOficial": "SR/00833/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093408",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · BOROFONE",
+ "nombreVisible": "Cargador USB BOROFONE",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-02-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Cargador USB",
+   "marcas": [
+    "BOROFONE"
+   ],
+   "modelos": [
+    "BA20A"
+   ],
+   "lotes": [],
+   "ean": [
+    "6931474702135"
+   ],
+   "descripcion": "Cargador USB con entrada : CA 100-240V 50/60Hz, 0,3A y salida: DC 5V 2.1A (máximo).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento entre el circuito primario activo y el circuito secundario no es adecuado. Un usuario podría recibir una descarga eléctrica de las partes activas accesibles. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 62368-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10950134",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10950135",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10950136",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00833/25",
+   "ean:6931474702135",
+   "mm:borofone:ba20a"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c70e487fcbea16f8"
+ },
+ "slug": "cargador-usb-borofone-safety-gate-10093408"
+}

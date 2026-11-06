@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10095631",
+ "fuente": "safety-gate",
+ "idFuente": "10095631",
+ "referenciaOficial": "SR/02986/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095631",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Toallitas limpiadoras para la piel · ISANA · Klärende Reinigungstücher 5 in 1",
+ "nombreVisible": "Toallitas limpiadoras para la piel ISANA",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-08-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Klärende Reinigungstücher 5 in 1",
+   "marcas": [
+    "ISANA"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "51917235192723"
+    }
+   ],
+   "ean": [
+    "4305615416939"
+   ],
+   "descripcion": "Toallitas limpiadoras para piel normal y piel mixta. Producto vendido en línea, en particular a través de rossmann.de",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano"
+  ],
+  "descripcion": "El producto está contaminado microbiológicamente con la bacteria aeróbica mesófila Pluralibacter gergoviae. El microorganismo puede causar enfermedades en algunos consumidores, particularmente aquellos con un sistema inmunológico debilitado. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Suspensión de la venta del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Reino Unido",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10972558",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://unternehmen.rossmann.de/presse/pressemeldung/rueckruf-isana-klaerende-reinigungstuecher.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02986/25",
+   "ean:4305615416939",
+   "ml:isana:51917235192723"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "fce6cca191f08d43"
+ },
+ "slug": "toallitas-limpiadoras-para-la-piel-isana-safety-gate-10095631"
+}

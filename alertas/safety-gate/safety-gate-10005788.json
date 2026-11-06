@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10005788",
+ "fuente": "safety-gate",
+ "idFuente": "10005788",
+ "referenciaOficial": "INFO/00018/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005788",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Desmaquillador de maquillaje · BIODERMA · SENSIBIO H2O",
+ "nombreVisible": "Desmaquillador de maquillaje BIODERMA",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-03-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "SENSIBIO H2O",
+   "marcas": [
+    "BIODERMA"
+   ],
+   "modelos": [
+    "850 ml"
+   ],
+   "lotes": [
+    {
+     "numero": "22411H22413H22515H22915H23012H"
+    }
+   ],
+   "ean": [
+    "3701129801642"
+   ],
+   "descripcion": "Maquillaje eliminando loción micelánea, 850 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico"
+  ],
+  "descripcion": "El producto está contaminado biológicamente, con una biopelícula en una línea de llenado. Por consiguiente, no puede garantizarse un uso seguro. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Rumanía",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10049850",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.bioderma.com.ro/sensibio-h2o-850-ml-retragerea-produsului-si-rechemare-lot-22413h",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00018/22",
+   "ean:3701129801642",
+   "mm:bioderma:850-ml",
+   "ml:bioderma:22411h22413h22515h22915h23012h"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d12ef318221b9480"
+ },
+ "slug": "desmaquillador-de-maquillaje-bioderma-safety-gate-10005788"
+}

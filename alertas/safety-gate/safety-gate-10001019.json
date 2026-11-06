@@ -1,0 +1,115 @@
+{
+ "id": "safety-gate-10001019",
+ "fuente": "safety-gate",
+ "idFuente": "10001019",
+ "referenciaOficial": "A12/00693/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001019",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Batería del teléfono móvil · NX · Mobile Phone Battery",
+ "nombreVisible": "Batería del teléfono móvil NX",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-05-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Mobile Phone Battery",
+   "marcas": [
+    "NX"
+   ],
+   "modelos": [
+    "GML90252"
+   ],
+   "lotes": [
+    {
+     "numero": "C00317C190"
+    }
+   ],
+   "ean": [
+    "3660766429841"
+   ],
+   "descripcion": "Batería del teléfono móvil, se vende como batería de reemplazo. El producto también se vende en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El producto no es lo suficientemente resistente a los cambios de temperatura. En consecuencia, podría prender fuego. El producto no cumple con la norma europea pertinente EN 62133-2.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10009711",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10009712",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10009713",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10009714",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00693/20",
+   "ean:3660766429841",
+   "mm:nx:gml90252",
+   "ml:nx:c00317c190"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ec8f582b66bc771f"
+ },
+ "slug": "bateria-del-telefono-movil-nx-safety-gate-10001019"
+}

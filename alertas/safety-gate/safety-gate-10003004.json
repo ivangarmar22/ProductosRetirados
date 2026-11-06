@@ -1,0 +1,86 @@
+{
+ "id": "safety-gate-10003004",
+ "fuente": "safety-gate",
+ "idFuente": "10003004",
+ "referenciaOficial": "A12/00128/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003004",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión de recogida · Dodge · RAM",
+ "nombreVisible": "Camión de recogida Dodge",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "RAM",
+   "marcas": [
+    "Dodge"
+   ],
+   "modelos": [
+    "Type-approval number: Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camión de recogida",
+   "fechasTexto": "12 January 2019 and 2 March 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El paso de acceso a la zona de carga no es suficientemente fuerte. Como resultado, puede romper y herir al usuario.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00128/21",
+   "mm:dodge:type-approval-number-individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "2e419c49e279ec4f"
+ },
+ "slug": "camion-de-recogida-dodge-safety-gate-10003004"
+}

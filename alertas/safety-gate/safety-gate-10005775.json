@@ -1,0 +1,112 @@
+{
+ "id": "safety-gate-10005775",
+ "fuente": "safety-gate",
+ "idFuente": "10005775",
+ "referenciaOficial": "A12/00505/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005775",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Parte/alternador del vehículo · Valeo · 440665 - H900727C",
+ "nombreVisible": "Parte/alternador del vehículo Valeo",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-10-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "440665 - H900727C",
+   "marcas": [
+    "Valeo"
+   ],
+   "modelos": [
+    "C2321",
+    "C2521",
+    "C2621",
+    "C2921",
+    "C3421",
+    "C3521",
+    "C3821",
+    "C3921",
+    "C5121"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Recambio — alternador para turismos",
+   "fechasTexto": "07.06.2021 - 20.12.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El tornillo de puesta a tierra del alternador puede causar un cortocircuito. Esto podría aumentar el riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10050367",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.valeoservice.com/en-com/contact-valeo-service-customer-service-contact-us",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00505/22",
+   "mm:valeo:c2321",
+   "mm:valeo:c2521",
+   "mm:valeo:c2621",
+   "mm:valeo:c2921",
+   "mm:valeo:c3421",
+   "mm:valeo:c3521",
+   "mm:valeo:c3821",
+   "mm:valeo:c3921",
+   "mm:valeo:c5121"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d96fc117ce1bff7e"
+ },
+ "slug": "parte-alternador-del-vehiculo-valeo-safety-gate-10005775"
+}

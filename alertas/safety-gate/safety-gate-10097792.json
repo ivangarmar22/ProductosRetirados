@@ -1,0 +1,115 @@
+{
+ "id": "safety-gate-10097792",
+ "fuente": "safety-gate",
+ "idFuente": "10097792",
+ "referenciaOficial": "SR/00460/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097792",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Reductor de gas · BRADAS",
+ "nombreVisible": "Reductor de gas BRADAS",
+ "motivo": "Quemaduras, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-02-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos de gas y componentes",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Reductor de gas",
+   "marcas": [
+    "BRADAS"
+   ],
+   "modelos": [
+    "A300i-A310i",
+    "Index RG A310"
+   ],
+   "lotes": [
+    {
+     "numero": "PI002"
+    }
+   ],
+   "ean": [
+    "5904182440195"
+   ],
+   "descripcion": "Reductor de gas, 37mbar. vendido por separado o suministrado con el calentador de gas 3,0 kW - 4,5kW (índice PG-009C / EAN 5907544446583) y calentador de gas (índice PG-009G / EAN 59075446590). Producto vendido del 03.11.2025 al 22.01.2026.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El producto no reduce la presión del gas. Por lo tanto, puede aumentarse el flujo de gas al dispositivo conectado, lo que puede suponer un riesgo de incendio y quemaduras. El producto no cumple el Reglamento relativo a los aparatos que queman combustibles gaseosos (GAR).",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "India",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10996411",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10996412",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://bradas.pl/aktualnosci,pokaz,2037,wycofanie-z-rynku-produktow-ze-wzgledow-bezpieczenstwa",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00460/26",
+   "ean:5904182440195",
+   "mm:bradas:a300i-a310i",
+   "mm:bradas:index-rg-a310",
+   "ml:bradas:pi002"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7296ab9c4ba32205"
+ },
+ "slug": "reductor-de-gas-bradas-safety-gate-10097792"
+}

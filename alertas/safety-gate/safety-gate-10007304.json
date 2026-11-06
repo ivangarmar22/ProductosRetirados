@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10007304",
+ "fuente": "safety-gate",
+ "idFuente": "10007304",
+ "referenciaOficial": "A12/01752/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10007304",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Jabón · Ahrenshof Arztseife · Arztseife",
+ "nombreVisible": "Jabón Ahrenshof Arztseife",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-12-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Arztseife",
+   "marcas": [
+    "Ahrenshof Arztseife"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "158/IJ/U336/2020"
+    }
+   ],
+   "ean": [
+    "4029957008057"
+   ],
+   "descripcion": "Láctea, líquido nublado.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano"
+  ],
+  "descripcion": "El recuento microbiano total del producto es demasiado alto (valor medido hasta 340 000 cfu/g). El microorganismo puede potencialmente causar enfermedades en algunos consumidores, particularmente en aquellos con un sistema inmunológico debilitado. Si se usa en la piel dañada, el producto puede causar infección o irritación. El producto no cumple con el Reglamento sobre productos cosméticos ni con la norma europea EN 17516.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10066665",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01752/22",
+   "ean:4029957008057",
+   "ml:ahrenshof-arztseife:158-ij-u336-2020"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "de5159ad09a483f6"
+ },
+ "slug": "jabon-ahrenshof-arztseife-safety-gate-10007304"
+}

@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10002412",
+ "fuente": "safety-gate",
+ "idFuente": "10002412",
+ "referenciaOficial": "A12/01508/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002412",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Unidad de Suministro de DC · IPSXP",
+ "nombreVisible": "Unidad de Suministro de DC IPSXP",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-11-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Unidad de Suministro de DC",
+   "marcas": [
+    "IPSXP"
+   ],
+   "modelos": [
+    "KPS1202D"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Unidad de alimentación de CC gris con un enchufe de 3 pines.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La conexión a la tierra es inadecuada. El alambre de tierra y el aislamiento se funden cuando se aplica la corriente eléctrica. Un usuario puede tocar partes activas y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10019521",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01508/20",
+   "mm:ipsxp:kps1202d"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "2c1057f12fd1d3ab"
+ },
+ "slug": "unidad-de-suministro-de-dc-ipsxp-safety-gate-10002412"
+}

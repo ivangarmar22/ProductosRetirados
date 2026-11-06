@@ -1,0 +1,89 @@
+{
+ "id": "safety-gate-10002887",
+ "fuente": "safety-gate",
+ "idFuente": "10002887",
+ "referenciaOficial": "A12/00064/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002887",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · VW · UP",
+ "nombreVisible": "Turismos VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "UP",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type-approval number: e13*2007/46*1167*",
+    "Type: AA"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos con airbag de pasajeros fabricados por Takata.",
+   "fechasTexto": "The affected vehicles were manufactured between 1 August 2011 and 7 June 2012."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El propulsor utilizado en el inflador del airbag puede experimentar una alteración del material a lo largo del tiempo debido a la degradación que se produce después de una exposición prolongada a una humedad absoluta elevada, altas temperaturas y ciclos de alta temperatura. En caso de que se despliegue un airbag, la presión interna excesiva puede causar que el cuerpo del inflador se rompa y los fragmentos metálicos puedan pasar a través del material del cojín causando lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Eslovaquia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00064/21",
+   "mm:vw:type-approval-number-e13-2007-46-1167",
+   "mm:vw:type-aa"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c70dafad45599f68"
+ },
+ "slug": "turismos-vw-safety-gate-10002887"
+}

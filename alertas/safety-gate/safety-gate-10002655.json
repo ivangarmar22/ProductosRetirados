@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10002655",
+ "fuente": "safety-gate",
+ "idFuente": "10002655",
+ "referenciaOficial": "A12/01892/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002655",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · VW · Passat, Crafter, Fox, Polo",
+ "nombreVisible": "Turismos VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Passat, Crafter, Fox, Polo",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type-approval numbers: e1*2001/116*0307*",
+    "e1*2007/46*1619*",
+    "e1*2001/116*0301*",
+    "e1*2001/116*0510*",
+    "Types: 3C",
+    "SZ",
+    "5Z",
+    "6R"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos equipados con airbags Takata con generadores de gas de nitrato de amonio.",
+   "fechasTexto": "The affected vehicles were manufactured between October 2005 and August 2009."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los vehículos afectados pueden haber sido equipados con generadores de gas Takata que podrían permitir la entrada de humedad y provocar así la degradación del propulsor. Si el airbag se despliega, esto podría causar la explosión del generador de gas, causando que partes metálicas entren en el interior del vehículo, causando lesiones a los ocupantes del vehículo.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01892/20",
+   "mm:vw:type-approval-numbers-e1-2001-116-0307",
+   "mm:vw:e1-2007-46-1619",
+   "mm:vw:e1-2001-116-0301",
+   "mm:vw:e1-2001-116-0510",
+   "mm:vw:types-3c"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "a35f319c112eae94"
+ },
+ "slug": "turismos-vw-safety-gate-10002655"
+}

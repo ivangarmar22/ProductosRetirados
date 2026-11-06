@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003022",
+ "fuente": "safety-gate",
+ "idFuente": "10003022",
+ "referenciaOficial": "A12/00134/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003022",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Bmw · M2, M4",
+ "nombreVisible": "Turismos Bmw",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-02-02",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "M2, M4",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2007/46*0377",
+    "Type: M3"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 28 February and 14 October 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Los inyectores de combustible pueden no haber sido equipados con un elemento de disociación. Esto podría resultar en una fractura de vibración en el punto de soldadura del carril de combustible de alta presión. En consecuencia, el combustible podría filtrarse en el compartimento del motor, aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00134/21",
+   "mm:bmw:type-approval-number-e1-2007-46-0377",
+   "mm:bmw:type-m3"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9d1572a6ed1fb47c"
+ },
+ "slug": "turismos-bmw-safety-gate-10003022"
+}

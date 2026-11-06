@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10098076",
+ "fuente": "safety-gate",
+ "idFuente": "10098076",
+ "referenciaOficial": "SR/00997/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098076",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Máquina de trituración · YSN · Ice Crusher",
+ "nombreVisible": "Máquina de trituración YSN",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-04-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ice Crusher",
+   "marcas": [
+    "YSN"
+   ],
+   "modelos": [
+    "TZL-309",
+    "YM1-1"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Máquina trituradora de hielo con un enchufe de pared.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "El producto tiene un relleno granular insuficiente del fusible. En consecuencia, si se produce una falla durante el uso, el fusible puede no evitar el fuego y la explosión. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  },
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11003582",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00997/26",
+   "mm:ysn:tzl-309",
+   "mm:ysn:ym1-1"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "90f37a85f95e914d"
+ },
+ "slug": "maquina-de-trituracion-ysn-safety-gate-10098076"
+}

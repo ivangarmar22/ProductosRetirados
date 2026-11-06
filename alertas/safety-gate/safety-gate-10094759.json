@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10094759",
+ "fuente": "safety-gate",
+ "idFuente": "10094759",
+ "referenciaOficial": "SR/02283/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10094759",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Plomo de extensión · AOFO",
+ "nombreVisible": "Plomo de extensión AOFO",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-06-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Plomo de extensión",
+   "marcas": [
+    "AOFO"
+   ],
+   "modelos": [
+    "SE3631"
+   ],
+   "lotes": [
+    {
+     "numero": "20241015"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Cable de extensión multienchufe con tres enchufes Schuko y puertos USB y equipado con un interruptor y un cable de alimentación de aproximadamente 2 metros de longitud. Producto vendido en línea, en particular a través de Amazon (ASIN: B07NQQJSW4).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "Las distancias de separación y desprendimiento entre los circuitos primario y secundario son inadecuadas. No se cumplen los requisitos de diseño relativos a las conexiones de puesta a tierra, ya que solo se ha instalado una junta de soldadura. En consecuencia, el usuario puede recibir una descarga eléctrica al tocar partes activas accesibles. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 62368-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  },
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10964704",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10964705",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02283/25",
+   "mm:aofo:se3631",
+   "ml:aofo:20241015"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d778fc900aaa10f1"
+ },
+ "slug": "plomo-de-extension-aofo-safety-gate-10094759"
+}

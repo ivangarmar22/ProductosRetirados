@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10005336",
+ "fuente": "safety-gate",
+ "idFuente": "10005336",
+ "referenciaOficial": "A12/00124/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005336",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Bmw · i4",
+ "nombreVisible": "Turismos Bmw",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-01-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "i4",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "e1*2018/858*00122",
+    "Type: G4C"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "15.09.2021 - 30.11.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Es posible que las almohadillas de choque para la batería de alto voltaje no hayan sido montadas. Esto puede causar daños a la batería de alto voltaje en caso de un accidente lateral grave y puede causar un cortocircuito que aumenta el riesgo de incendio. El producto no cumple los requisitos establecidos en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00124/22",
+   "mm:bmw:e1-2018-858-00122",
+   "mm:bmw:type-g4c"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "bd23c37c47ffd94a"
+ },
+ "slug": "turismos-bmw-safety-gate-10005336"
+}

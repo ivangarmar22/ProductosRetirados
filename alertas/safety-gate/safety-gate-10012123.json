@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10012123",
+ "fuente": "safety-gate",
+ "idFuente": "10012123",
+ "referenciaOficial": "A12/01294/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10012123",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Perfume · Saphir parfums · Saphir siloé",
+ "nombreVisible": "Perfume Saphir parfums",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-05-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Saphir siloé",
+   "marcas": [
+    "Saphir parfums"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "13618"
+    }
+   ],
+   "ean": [
+    "8424730017053"
+   ],
+   "descripcion": "Eau de parfum, destinado a las mujeres.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene 2-(4-terc-butilbencil)propionaldehído (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización cutánea. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10122442",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10122443",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10122444",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01294/24",
+   "ean:8424730017053",
+   "ml:saphir-parfums:13618"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "20f3d1af8f2b1be8"
+ },
+ "slug": "perfume-saphir-parfums-safety-gate-10012123"
+}

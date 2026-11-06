@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001041",
+ "fuente": "safety-gate",
+ "idFuente": "10001041",
+ "referenciaOficial": "A12/00585/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001041",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Jeep · Wrangler",
+ "nombreVisible": "Coche de pasajeros Jeep",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-04-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Wrangler",
+   "marcas": [
+    "Jeep"
+   ],
+   "modelos": [
+    "Type-approval number: e4*2001/116*0116*34",
+    "Type: JK"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de retirada de Jeep: EN EL W01.",
+   "fechasTexto": "The affected vehicles were manufactured between 25 July and 5 December 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La soldadura en el soporte del hueso de deseo puede ser defectuosa y puede romperse. Esto perjudicará la funcionalidad de la dirección, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00585/20",
+   "mm:jeep:type-approval-number-e4-2001-116-0116-34",
+   "mm:jeep:type-jk"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4fdab1bb1239ed56"
+ },
+ "slug": "coche-de-pasajeros-jeep-safety-gate-10001041"
+}

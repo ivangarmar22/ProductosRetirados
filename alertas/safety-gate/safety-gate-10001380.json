@@ -1,0 +1,86 @@
+{
+ "id": "safety-gate-10001380",
+ "fuente": "safety-gate",
+ "idFuente": "10001380",
+ "referenciaOficial": "A12/00854/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001380",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · AMG GT",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-06-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "AMG GT",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2007/46*0233*15 to 17 Type: 197"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos BR190.",
+   "fechasTexto": "The affected vehicles were manufactured between 15 March 2018 and 22 October 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Puede faltar un cable de tierra en el arnés de cableado del módulo de comunicación, lo que hará que la conexión de tierra funcione a través del blindaje del micrófono. Esto perjudicará el correcto funcionamiento del módulo de comunicación, aumentando el riesgo de que no se pueda realizar una llamada de emergencia.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00854/20",
+   "mm:mercedes-benz:type-approval-number-e1-2007-46-0233-15-to-17-type-197"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "140c583826f0099b"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10001380"
+}

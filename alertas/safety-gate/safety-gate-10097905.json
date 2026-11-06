@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10097905",
+ "fuente": "safety-gate",
+ "idFuente": "10097905",
+ "referenciaOficial": "SR/00533/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097905",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador de batería · Cameron sino · Akkulaturi",
+ "nombreVisible": "Cargador de batería Cameron sino",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-02-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Akkulaturi",
+   "marcas": [
+    "Cameron sino"
+   ],
+   "modelos": [
+    "DF-DYC600EU"
+   ],
+   "lotes": [],
+   "ean": [
+    "4894128144847"
+   ],
+   "descripcion": "Cargador de batería de clase II con entrada: 100-240 VAC, salida: 26,1 VDC; 0,78 A, IPX0. Producto vendido en línea, en particular a través de www.akku-assa.fi.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento entre las partes activas y las partes accesibles del cargador es insuficiente y el conductor de protección es insuficiente, lo que puede provocar una interrupción protectora de la tierra. Por lo tanto, el usuario puede recibir una descarga eléctrica El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con las normas europeas EN 60598 y EN 60335.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10997249",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10997250",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10997251",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00533/26",
+   "ean:4894128144847",
+   "mm:cameron-sino:df-dyc600eu"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "bb7f836054337560"
+ },
+ "slug": "cargador-de-bateria-cameron-sino-safety-gate-10097905"
+}

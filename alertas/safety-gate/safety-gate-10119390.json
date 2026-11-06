@@ -1,0 +1,109 @@
+{
+ "id": "safety-gate-10119390",
+ "fuente": "safety-gate",
+ "idFuente": "10119390",
+ "referenciaOficial": "SR/03069/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119390",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador · vhbw · Power Supply",
+ "nombreVisible": "Cargador vhbw",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-27",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-05"
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Power Supply",
+   "marcas": [
+    "vhbw"
+   ],
+   "modelos": [
+    "BW800105700"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cargador para bicicleta eléctrica (para baterías de iones de litio con conexión XLR).",
+   "fechasTexto": null,
+   "envase": "Caja de cartón y plástico de burbujas."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La separación entre las partes activas en el lado primario y el lado secundario de tensión extrabaja de seguridad (SELV) es insuficiente. Si el condensador único que proporciona aislamiento falla, el alto voltaje podría alcanzar partes accesibles del producto. El usuario podría tocar estas partes activas y recibir una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con las normas europeas EN 60335-1 y EN 60335-2-29.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Dinamarca",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Other(Fruugo.com)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240048",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240057",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240066",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240072",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03069/26",
+   "mm:vhbw:bw800105700"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "130d15ccd17b793b"
+ },
+ "slug": "cargador-vhbw-safety-gate-10119390"
+}

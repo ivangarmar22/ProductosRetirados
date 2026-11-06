@@ -1,0 +1,117 @@
+{
+ "id": "safety-gate-10119424",
+ "fuente": "safety-gate",
+ "idFuente": "10119424",
+ "referenciaOficial": "SR/03041/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119424",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bicicleta eléctrica · Fafrees · E-Bike",
+ "nombreVisible": "Bicicleta eléctrica Fafrees",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-28",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-03"
+ },
+ "categoria": {
+  "literal": "Equipos de ocio y deporte",
+  "normalizada": "ocio"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "E-Bike",
+   "marcas": [
+    "Fafrees"
+   ],
+   "modelos": [
+    "BC010546030",
+    "FF20 CUV",
+    "XZ-480DXL-13-18"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Bicicleta eléctrica negra con batería y cargador.",
+   "fechasTexto": null,
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El enchufe del cargador del producto se suministra con un enchufe de dos pines que no incorpora un fusible. Si hay una falla en el producto, podría sobrecalentarse e incendiarse. No existe documentación técnica válida para el producto ni pruebas de control de la producción. A falta de pruebas que demuestren la conformidad del producto, podrá sobrecalentarse e incendiarse. El producto no cumple los requisitos de la Directiva sobre máquinas.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  },
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Amazon(ASIN B0H36CV39S)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240147",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240163",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240184",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03041/26",
+   "mm:fafrees:bc010546030",
+   "mm:fafrees:ff20-cuv",
+   "mm:fafrees:xz-480dxl-13-18"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "bc1b7d35a2b5ee29"
+ },
+ "slug": "bicicleta-electrica-fafrees-safety-gate-10119424"
+}

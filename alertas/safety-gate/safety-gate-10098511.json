@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10098511",
+ "fuente": "safety-gate",
+ "idFuente": "10098511",
+ "referenciaOficial": "SR/01053/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098511",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vapor de comida · AIGOSTAR · Food steamer",
+ "nombreVisible": "Vapor de comida AIGOSTAR",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-05-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Food steamer",
+   "marcas": [
+    "AIGOSTAR"
+   ],
+   "modelos": [
+    "300005INA"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vaporizador de alimentos con base de acero inoxidable y recipientes de plástico, 3 niveles, 800 W. Producto vendido en línea, en particular a través de Amazon y Shein (identificador único: sv25032073570565029).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El cable de alimentación del aparato puede dañarse por un borde afilado de la abertura del cable de alimentación de la carcasa metálica. El usuario podía tocar las partes activas accesibles y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11003806",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11003807",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://m.shein.com/fr/ark/5343?scene_type=recall&banner_delivery_id=4868912",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01053/26",
+   "mm:aigostar:300005ina"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "2b33c211bd350c1b"
+ },
+ "slug": "vapor-de-comida-aigostar-safety-gate-10098511"
+}

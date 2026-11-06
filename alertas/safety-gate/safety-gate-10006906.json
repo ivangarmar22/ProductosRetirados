@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10006906",
+ "fuente": "safety-gate",
+ "idFuente": "10006906",
+ "referenciaOficial": "A12/01485/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006906",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · VW · Fox, Polo, Passat, Crafter",
+ "nombreVisible": "Coche de pasajeros VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-03-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Fox, Polo, Passat, Crafter",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "e1*2001/116*0301* (Fox",
+    "Type 5Z)",
+    "e1*2001/116*0174* (e1*98/14*0174*00) (Polo",
+    "Type 9N)",
+    "e1*2001/116*0307* (Passat",
+    "Type 3C)",
+    "e1*2001/116*0301*##",
+    "e1*2001/116*0307*##"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Fox, Polo, Passat, Crafter (tipo: 5Z, 9N, 3C), Crafter (tipo 2E, 2F) equipado con bolsa de aire Takata",
+   "fechasTexto": "28.10.2005 - 05.11.2009"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El airbag propulsor puede deteriorarse con el tiempo. En caso de accidente, esto puede conducir a la liberación de fragmentos de la bolsa de aire frontal de la carcasa del generador, aumentando el riesgo de lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "Polonia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01485/22",
+   "mm:vw:e1-2001-116-0301-fox",
+   "mm:vw:type-5z",
+   "mm:vw:e1-2001-116-0174-e1-98-14-0174-00-polo",
+   "mm:vw:type-9n",
+   "mm:vw:e1-2001-116-0307-passat",
+   "mm:vw:type-3c",
+   "mm:vw:e1-2001-116-0301",
+   "mm:vw:e1-2001-116-0307"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c187cad5ebf10d56"
+ },
+ "slug": "coche-de-pasajeros-vw-safety-gate-10006906"
+}

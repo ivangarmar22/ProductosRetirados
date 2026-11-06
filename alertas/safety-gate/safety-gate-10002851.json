@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10002851",
+ "fuente": "safety-gate",
+ "idFuente": "10002851",
+ "referenciaOficial": "A12/00015/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002851",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Hyundai · SantaFe (TM), Tucson (NX4e)",
+ "nombreVisible": "Turismos Hyundai",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "SantaFe (TM), Tucson (NX4e)",
+   "marcas": [
+    "Hyundai"
+   ],
+   "modelos": [
+    "e4*2007/46*1318*02",
+    "e4*2007/46*1318*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos con opción avnt, modelo año: 2020; De VIN: KMHS5811DMU000200 ~ KMHS581HGMU355954, TMAJD81BAMJ000192 ~ TMAJE81BHMJ012785.",
+   "fechasTexto": "The affected vehicles were manufactured between August and November 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La información de VIN no está registrada en la unidad eCall. En consecuencia, esta información no puede transmitirse al sistema eCall en una situación en la que se implementa un airbag, lo que hace que funcione incorrectamente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "República de Corea",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00015/21",
+   "mm:hyundai:e4-2007-46-1318-02",
+   "mm:hyundai:e4-2007-46-1318-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c0a3b5deb67a13d2"
+ },
+ "slug": "turismos-hyundai-safety-gate-10002851"
+}

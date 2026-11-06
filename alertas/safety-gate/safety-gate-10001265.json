@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10001265",
+ "fuente": "safety-gate",
+ "idFuente": "10001265",
+ "referenciaOficial": "A12/00815/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001265",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Marco de espectáculo · Bvlgari",
+ "nombreVisible": "Marco de espectáculo Bvlgari",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-05-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Ropa, textiles y artículos de moda",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Marco de espectáculo",
+   "marcas": [
+    "Bvlgari"
+   ],
+   "modelos": [
+    "colour: 2033",
+    "Model: OBV2198B"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Marco de espectáculo en metal dorado con acabado en resina dura negra y elementos decorativos metálicos cercanos a las bisagras.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El metal del producto libera una cantidad excesiva de níquel (valor medido hasta: 185,7 µg/cm²/semana). El níquel es un sensibilizante fuerte y causa reacciones alérgicas si está presente en artículos que entran en contacto directo y prolongado con la piel. El producto no cumple con el Reglamento REACH y la norma europea pertinente EN 16128.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10010800",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://instruoptiikka.fi/uutiset/takaisinveto-pyydamme-palauttamaan-nama-silmalasikehykset-instrumentarium-tai-nissen-myymaloihin/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00815/20",
+   "mm:bvlgari:colour-2033",
+   "mm:bvlgari:model-obv2198b"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "190813bb49398bdd"
+ },
+ "slug": "marco-de-espectaculo-bvlgari-safety-gate-10001265"
+}

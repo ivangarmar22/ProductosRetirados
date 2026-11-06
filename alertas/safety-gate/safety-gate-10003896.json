@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10003896",
+ "fuente": "safety-gate",
+ "idFuente": "10003896",
+ "referenciaOficial": "A12/00872/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003896",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Peugot · 3008, 508",
+ "nombreVisible": "Turismos Peugot",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-06-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "3008, 508",
+   "marcas": [
+    "Peugot"
+   ],
+   "modelos": [
+    "Types: M",
+    "F",
+    "e2*2007/46*0534*12",
+    "e2*2007/46*0628*05 - *7"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 14 October 2019 and 11 February 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Un cortocircuito puede ocurrir en la batería. Esto podría llevar a un sobrecalentamiento, aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00872/21",
+   "mm:peugot:types-m",
+   "mm:peugot:e2-2007-46-0534-12",
+   "mm:peugot:e2-2007-46-0628-05-7"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "287fdce5c90d765c"
+ },
+ "slug": "turismos-peugot-safety-gate-10003896"
+}

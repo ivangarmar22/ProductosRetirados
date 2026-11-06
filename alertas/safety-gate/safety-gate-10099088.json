@@ -1,0 +1,113 @@
+{
+ "id": "safety-gate-10099088",
+ "fuente": "safety-gate",
+ "idFuente": "10099088",
+ "referenciaOficial": "OR/00080/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099088",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Televisión · NordMende · Smart LED Television",
+ "nombreVisible": "Televisión NordMende",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-06-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Smart LED Television",
+   "marcas": [
+    "NordMende"
+   ],
+   "modelos": [
+    "ARTV43UHD"
+   ],
+   "lotes": [
+    {
+     "numero": "29321771400001 - 2932177140000189"
+    }
+   ],
+   "ean": [
+    "5391528589074"
+   ],
+   "descripcion": "43” Smart LED TV.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Si se produce una falla durante el uso, el fusible dentro del enchufe de alimentación del producto suministrado en el Reino Unido puede no desconectar la fuente de alimentación, lo que permite que la electricidad continúe fluyendo hacia el televisor y provoque un incendio. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Componente/pieza de recambio",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Other(Product sold online, via various marketplaces.)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11012127",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://uploads.prod01.oregon.platform-os.com/instances/1731/assets/ARTV43UHD+NordMende+TV+Product+Safety+Notice+web+update.pdf?updated=1779093444902",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:OR/00080/26",
+   "ean:5391528589074",
+   "mm:nordmende:artv43uhd",
+   "ml:nordmende:29321771400001-2932177140000189"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "69ac7a201cbc980d"
+ },
+ "slug": "television-nordmende-safety-gate-10099088"
+}

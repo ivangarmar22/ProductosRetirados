@@ -1,0 +1,89 @@
+{
+ "id": "safety-gate-10004033",
+ "fuente": "safety-gate",
+ "idFuente": "10004033",
+ "referenciaOficial": "A12/00971/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004033",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · VW · Tiguan",
+ "nombreVisible": "Turismos VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Tiguan",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "e1*2001/116*0450*55",
+    "*56",
+    "Type: 5N"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo híbrido.",
+   "fechasTexto": "The affected vehicles were manufactured between 13 January and 11 March 2021."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los cables Bowden incorrectos se instalaron en el desbloqueo remoto del respaldo del asiento trasero asimétrico divisible de 2/3. Como consecuencia de ello, el bloqueo del respaldo del asiento trasero o su efecto de retención en caso de accidente podrían verse perjudicados, aumentando el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00971/21",
+   "mm:vw:e1-2001-116-0450-55",
+   "mm:vw:type-5n"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c132b13f14413543"
+ },
+ "slug": "turismos-vw-safety-gate-10004033"
+}

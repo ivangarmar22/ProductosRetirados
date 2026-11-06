@@ -1,0 +1,86 @@
+{
+ "id": "safety-gate-10002705",
+ "fuente": "safety-gate",
+ "idFuente": "10002705",
+ "referenciaOficial": "A12/01865/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002705",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Dodge · RAM",
+ "nombreVisible": "Turismos Dodge",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-12-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "RAM",
+   "marcas": [
+    "Dodge"
+   ],
+   "modelos": [
+    "Type-approval number: Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "The affected vehicles were manufactured between 30 November 2017 and 21 February 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La estera del piso en el lado del conductor podría coger en el pedal del acelerador. Esto hará que el vehículo mantenga su velocidad, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01865/20",
+   "mm:dodge:type-approval-number-individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "eac5a18958dbfbab"
+ },
+ "slug": "turismos-dodge-safety-gate-10002705"
+}

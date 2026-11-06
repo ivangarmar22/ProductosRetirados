@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10006933",
+ "fuente": "safety-gate",
+ "idFuente": "10006933",
+ "referenciaOficial": "A12/01426/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006933",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · GLB 200, GLB 200 d, GLB 200 d 4MATIC, GLB 220 d 4MATIC, GLB 250, GLB 250 4MATIC",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-10-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GLB 200, GLB 200 d, GLB 200 d 4MATIC, GLB 220 d 4MATIC, GLB 250, GLB 250 4MATIC",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "F2B",
+    "e1*2007/46*1909*08",
+    "e1*2007/46*1909*09"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Mercedes-Benz GLB (modelo serie 247)",
+   "fechasTexto": "19.10.2020 - 24.10.2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La unidad del Programa Electrónico de Estabilidad (ESP) puede estar dañada, la humedad puede llegar a los componentes internos que conducen a un cortocircuito, lo que aumenta el riesgo de incendio o hace que las funciones ESP (por ejemplo, control de estabilidad del vehículo, sistemas de frenado antibloqueo) se inhabiliten, aumentando el riesgo de accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01426/22",
+   "mm:mercedes-benz:f2b",
+   "mm:mercedes-benz:e1-2007-46-1909-08",
+   "mm:mercedes-benz:e1-2007-46-1909-09"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "bfd9ed64701e3c24"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006933"
+}

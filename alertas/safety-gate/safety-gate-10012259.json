@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10012259",
+ "fuente": "safety-gate",
+ "idFuente": "10012259",
+ "referenciaOficial": "A12/00784/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10012259",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Ford · Galaxy, Kuga, S-Max",
+ "nombreVisible": "Coche de pasajeros Ford",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-03-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Galaxy, Kuga, S-Max",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e13*2007/46*2188*00-*12",
+    "e13*2001/116*0185*43-*44"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "Galaxy / S-Max: 04.08.2020 - 01.03.2023Kuga: 23.07.2019 - 20.04.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El flujo de aire de enfriamiento es insuficiente, lo que hace que el canal de aceite se bloquee. Esto conduce al cojinete de la varilla de conexión a la incautación y al desgarro de la varilla de conexión, lo que puede deteriorar el motor de combustión, dando lugar a una ruptura en el tanque de aceite del motor o en el bloque del motor, creando una fuga del tanque de aceite. Esto aumenta el riesgo de incendio bajo el capó. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10115581",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10115582",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10115583",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.de/hilfe/r%C3%Bcckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00784/24",
+   "mm:ford:e13-2007-46-2188-00-12",
+   "mm:ford:e13-2001-116-0185-43-44"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "98fbbbc6ceefc8aa"
+ },
+ "slug": "coche-de-pasajeros-ford-safety-gate-10012259"
+}

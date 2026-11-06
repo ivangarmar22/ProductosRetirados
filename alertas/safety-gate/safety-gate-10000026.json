@@ -1,0 +1,123 @@
+{
+ "id": "safety-gate-10000026",
+ "fuente": "safety-gate",
+ "idFuente": "10000026",
+ "referenciaOficial": "A12/00041/19",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000026",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vela · DW · Candles with Wood Wicks",
+ "nombreVisible": "Vela DW",
+ "motivo": "Asfixia, Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2019-12-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Artículos de decoración",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Candles with Wood Wicks",
+   "marcas": [
+    "DW"
+   ],
+   "modelos": [
+    "138160",
+    "138666",
+    "138677",
+    "138723",
+    "All scents across the DW wood wick candle range"
+   ],
+   "lotes": [
+    {
+     "numero": "The affected products were sold between September and November 2019"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Velas con mechas de madera, vendidas con diferentes aromas.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Asfixia",
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico",
+   "asfixia"
+  ],
+  "descripcion": "La vela libera una cantidad excesiva de humo. Una persona podría inadvertidamente respirar el humo tóxico, lo que podría conducir a envenenamiento o asfixia a través de la exposición al monóxido de carbono.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10001966",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10001967",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10001968",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.tkmaxx.com/uk/en/product-recall-home-candle",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00041/19",
+   "mm:dw:138160",
+   "mm:dw:138666",
+   "mm:dw:138677",
+   "mm:dw:138723",
+   "mm:dw:all-scents-across-the-dw-wood-wick-candle-range",
+   "ml:dw:the-affected-products-were-sold-between-september-and-november-2019"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9c097fb9ed113166"
+ },
+ "slug": "vela-dw-safety-gate-10000026"
+}

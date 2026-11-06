@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10005257",
+ "fuente": "safety-gate",
+ "idFuente": "10005257",
+ "referenciaOficial": "A12/00101/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005257",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Suéter · UTERQÜE",
+ "nombreVisible": "Suéter UTERQÜE",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-01-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Ropa, textiles y artículos de moda",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Suéter",
+   "marcas": [
+    "UTERQÜE"
+   ],
+   "modelos": [
+    "reference 1060/401/600"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Suéter de cuello en V con adorno exterior de plumas.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El adorno de plumas del suéter contiene azodyes. Las aminas aromáticas liberadas por azodys pueden causar cáncer, mutaciones celulares y afectar la reproducción. El producto no cumple con el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10044690",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.uterque.com/pl/edits-info/zwrot-swetra-uterq%C3%BCe-c2050175.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00101/22",
+   "mm:uterque:reference-1060-401-600"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0b212ca065dd2b88"
+ },
+ "slug": "sueter-uterque-safety-gate-10005257"
+}

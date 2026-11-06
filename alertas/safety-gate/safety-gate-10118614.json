@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10118614",
+ "fuente": "safety-gate",
+ "idFuente": "10118614",
+ "referenciaOficial": "SR/02332/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118614",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Silla de oficina · Sedus · quarterback 2",
+ "nombreVisible": "Silla de oficina Sedus",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-08-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Mobiliario",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "quarterback 2",
+   "marcas": [
+    "Sedus"
+   ],
+   "modelos": [
+    "QB-105",
+    "QB-125"
+   ],
+   "lotes": [
+    {
+     "numero": "103/1114 103/1115Production period before 1 April 2026"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Silla giratoria de oficina de plástico negro con respaldo tapizado o de malla.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Cuando se utiliza la silla con ajuste dinámico del respaldo del asiento, el respaldo puede romperse cuando el usuario se inclina hacia atrás. Esto puede conducir a una caída y lesiones. El producto no cumple con el Reglamento General de Seguridad de los Productos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Other(shop.sedus.com)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230784",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230785",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02332/26",
+   "mm:sedus:qb-105",
+   "mm:sedus:qb-125",
+   "ml:sedus:103-1114-103-1115production-period-before-1-april-2026"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e9dd969963a1e84f"
+ },
+ "slug": "silla-de-oficina-sedus-safety-gate-10118614"
+}

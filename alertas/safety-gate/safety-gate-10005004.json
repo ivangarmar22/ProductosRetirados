@@ -1,0 +1,119 @@
+{
+ "id": "safety-gate-10005004",
+ "fuente": "safety-gate",
+ "idFuente": "10005004",
+ "referenciaOficial": "A12/01779/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005004",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Ropa de dormir para niños · Shein · Children's Sleepwear",
+ "nombreVisible": "Ropa de dormir para niños Shein",
+ "motivo": "Quemaduras",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-12-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Ropa, textiles y artículos de moda",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Children's Sleepwear",
+   "marcas": [
+    "Shein"
+   ],
+   "modelos": [
+    "Sknight10190731477",
+    "Sknight10191129405"
+   ],
+   "lotes": [
+    {
+     "numero": "Sizes 120"
+    },
+    {
+     "numero": "130"
+    },
+    {
+     "numero": "140"
+    },
+    {
+     "numero": "150 and 160"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Dos piezas, parte superior de manga corta y pantalón. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El producto es fácilmente inflamable y la propagación de la llama es demasiado alta. Si se incendia, el niño podría sufrir quemaduras. El producto no cumple los requisitos de la Directiva sobre seguridad general de los productos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10041840",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10041841",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://eur.shein.com/campaign/recallnotice-1?ici=campaign%3Drecallnotice%2F110612_CT%3D1_CN%3DBanner2_CI%3D5216227_HI%3D0_HN%3D0&scici=campaign_recallnotice_110612~~ON_1%252CCN_Banner2%252CHZ_0%252CHI_0~~1~~campaign_recallnotice-1",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01779/21",
+   "mm:shein:sknight10190731477",
+   "mm:shein:sknight10191129405",
+   "ml:shein:sizes-120",
+   "ml:shein:130",
+   "ml:shein:140",
+   "ml:shein:150-and-160"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e17f9942adcdb29e"
+ },
+ "slug": "ropa-de-dormir-para-ninos-shein-safety-gate-10005004"
+}

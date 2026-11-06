@@ -1,0 +1,95 @@
+{
+ "id": "safety-gate-10003647",
+ "fuente": "safety-gate",
+ "idFuente": "10003647",
+ "referenciaOficial": "A12/00745/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003647",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · GLE, GLS",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-06-02",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GLE, GLS",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type aproval number: e1*2007/46*1885*00-10",
+    "Type: H1GLE (BR 167)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured from 28/08/2018 to 18/07/2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La manguera de drenaje de agua condensada del sistema de aire acondicionado puede no estar instalada adecuadamente y puede desprenderse espontáneamente. En consecuencia, el agua de condensación podría entrar en el compartimento de pasajeros y corroer los componentes eléctricos, lo que podría dar lugar a cortocircuitos aumentando el riesgo de incendio. Además, esta corrosión puede causar un mal funcionamiento de diferentes sistemas eléctricos, lo que aumenta el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00745/21",
+   "mm:mercedes-benz:type-aproval-number-e1-2007-46-1885-00-10",
+   "mm:mercedes-benz:type-h1gle-br-167"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "80b1fc5f9b4c7d66"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003647"
+}

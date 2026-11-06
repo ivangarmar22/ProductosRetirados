@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10003675",
+ "fuente": "safety-gate",
+ "idFuente": "10003675",
+ "referenciaOficial": "A12/00652/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003675",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Bmw · i3",
+ "nombreVisible": "Turismos Bmw",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "i3",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "e1*2007/46*1213*01",
+    "e1*KS07/46*1213*00",
+    "Type: BMWi-1"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 19 February 2021 and 5 March 2021."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un defecto de fabricación, las placas de control del reclinador del respaldo en la segunda fila de asientos pueden romperse. En este caso, el respaldo no puede estar asegurado en caso de accidente, lo que aumenta el riesgo de lesiones para los pasajeros traseros.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00652/21",
+   "mm:bmw:e1-2007-46-1213-01",
+   "mm:bmw:e1-ks07-46-1213-00",
+   "mm:bmw:type-bmwi-1"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6b651a13234b62c8"
+ },
+ "slug": "turismos-bmw-safety-gate-10003675"
+}

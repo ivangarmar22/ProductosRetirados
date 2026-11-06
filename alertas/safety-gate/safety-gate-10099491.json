@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10099491",
+ "fuente": "safety-gate",
+ "idFuente": "10099491",
+ "referenciaOficial": "SR/01993/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099491",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Nissan · X-Trail",
+ "nombreVisible": "Coche de pasajeros Nissan",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-07-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "X-Trail",
+   "marcas": [
+    "Nissan"
+   ],
+   "modelos": [
+    "e13*2018/858*00293"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "01.12.2021 - 21.04.2026"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El controlador de batería de iones de litio (LBC) puede no proporcionar resultados de diagnóstico confiables debido a efectos parasitarios o fluctuaciones en la resistencia del circuito, lo que puede hacer que los circuitos integrados que monitorean el voltaje de la celda de la batería detecten anomalías incorrectamente. Como resultado, el sistema puede cambiar al modo a prueba de fallos mientras se conduce el vehículo, lo que limita la potencia del motor y evita la carga. Si se produce una carga regenerativa, el modo a prueba de fallos puede apagar el relé principal, causando una pérdida de potencia del motor y una pérdida de propulsión mientras el vehículo está en movimiento, lo que aumenta el riesgo de accidentes. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Luxemburgo",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11014333",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/01993/26",
+   "mm:nissan:e13-2018-858-00293"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ee99377e582a8e09"
+ },
+ "slug": "coche-de-pasajeros-nissan-safety-gate-10099491"
+}

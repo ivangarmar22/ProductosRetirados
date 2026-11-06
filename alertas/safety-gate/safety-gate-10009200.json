@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10009200",
+ "fuente": "safety-gate",
+ "idFuente": "10009200",
+ "referenciaOficial": "SR/01037/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009200",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Crema facial · Clinians · Antirughe repair",
+ "nombreVisible": "Crema facial Clinians",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-03-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Antirughe repair",
+   "marcas": [
+    "Clinians"
+   ],
+   "modelos": [
+    "159440"
+   ],
+   "lotes": [
+    {
+     "numero": "SAP1081"
+    }
+   ],
+   "ean": [
+    "8003510022236"
+   ],
+   "descripcion": "Crema facial, anunciada como antiarrugas, 50 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene 2-(4-terc-butilbencil)propionaldehído (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización cutánea. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10951793",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/01037/25",
+   "ean:8003510022236",
+   "mm:clinians:159440",
+   "ml:clinians:sap1081"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ec813bbf6e94ddd3"
+ },
+ "slug": "crema-facial-clinians-safety-gate-10009200"
+}

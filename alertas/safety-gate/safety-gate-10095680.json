@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10095680",
+ "fuente": "safety-gate",
+ "idFuente": "10095680",
+ "referenciaOficial": "SR/03104/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095680",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Procesador de alimentos · Bosfor",
+ "nombreVisible": "Procesador de alimentos Bosfor",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-08-26",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Maquinaria",
+  "normalizada": "hogar"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Procesador de alimentos",
+   "marcas": [
+    "Bosfor"
+   ],
+   "modelos": [
+    "USD-SWITHCLI"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cortador de cebolla/procesador de alimentos 220-240 V~ / 50-60 Hz ⁇ 0,37 kW, incluido un recipiente con tapa y doble cuchilla. La tapa está equipada con un imán que forma parte de un dispositivo de seguridad. No hay instrucciones de uso.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La vibración de la máquina hace que un cable se afloje, creando un defecto en el que el cable vivo entra en contacto con la carcasa metálica mientras el contactor no enciende la tierra protectora, lo que hace que el fusible se dispare. Cuando el fusible es reiniciado por un usuario desprevenido, la máquina parece estar operativa, pero su carcasa permanece activa. Como consecuencia, cuando el usuario toca la máquina para encenderla, se expone a la carcasa viva y sufre una descarga eléctrica fatal. El producto no cumple los requisitos de la Directiva sobre máquinas ni la norma EN 60204-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10973776",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10973777",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10973778",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10973779",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03104/25",
+   "mm:bosfor:usd-swithcli"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ffb5fc6a604f1be3"
+ },
+ "slug": "procesador-de-alimentos-bosfor-safety-gate-10095680"
+}

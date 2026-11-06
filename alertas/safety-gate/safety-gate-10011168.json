@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10011168",
+ "fuente": "safety-gate",
+ "idFuente": "10011168",
+ "referenciaOficial": "A12/03007/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011168",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Banco de energía · Lenovo · USB-C Laptop Power Bank",
+ "nombreVisible": "Banco de energía Lenovo",
+ "motivo": "Quemaduras, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "USB-C Laptop Power Bank",
+   "marcas": [
+    "Lenovo"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "40ALLG2WWW"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Banco de alimentación del ordenador portátil USB-C. Fechas de fabricación: 22/01, 22/02, 22/03, 22/04, 22/05, 22/06 y 21/12",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Los tornillos internos del banco de energía pueden soltarse, causando un cortocircuito y un sobrecalentamiento de la batería de iones de litio, lo que representa un peligro de incendio. El usuario puede sufrir quemaduras. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10103511",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10103512",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://support.lenovo.com/pl/pl/solutions/ht515669",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/03007/23",
+   "ml:lenovo:40allg2www"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5a6829aa1b262747"
+ },
+ "slug": "banco-de-energia-lenovo-safety-gate-10011168"
+}

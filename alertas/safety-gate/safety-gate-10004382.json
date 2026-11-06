@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10004382",
+ "fuente": "safety-gate",
+ "idFuente": "10004382",
+ "referenciaOficial": "A12/01322/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004382",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · VW · Arteon, Golf, ID.4",
+ "nombreVisible": "Coche de pasajeros VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-09-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Arteon, Golf, ID.4",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Types: CDV",
+    "3H",
+    "E2",
+    "e1*2007/46*2180",
+    "e1*2007/46*1725",
+    "e1*2018/858*00004"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "06/11/2019 - 06/05/2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La red de equipaje puede estar incorrectamente colocada. Como resultado, el equipaje podría terminar en el compartimiento de pasajeros, causando lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01322/21",
+   "mm:vw:types-cdv",
+   "mm:vw:e1-2007-46-2180",
+   "mm:vw:e1-2007-46-1725",
+   "mm:vw:e1-2018-858-00004"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c54238808e4bb5d7"
+ },
+ "slug": "coche-de-pasajeros-vw-safety-gate-10004382"
+}

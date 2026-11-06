@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10008884",
+ "fuente": "safety-gate",
+ "idFuente": "10008884",
+ "referenciaOficial": "A12/01016/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008884",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Excavadora de juguetes · Power Truck · WRK",
+ "nombreVisible": "Excavadora de juguetes Power Truck",
+ "motivo": "Medio ambiente",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-05-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Juguetes",
+  "normalizada": "juguetes"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "WRK",
+   "marcas": [
+    "Power Truck"
+   ],
+   "modelos": [
+    "100-46107805"
+   ],
+   "lotes": [],
+   "ean": [
+    "7340075117221"
+   ],
+   "descripcion": "Excavadora de juguetes eléctricos amarillos. El producto también se vende en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Medio ambiente"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El producto tiene una concentración excesiva de plomo en las soldaduras en las placas de circuito impreso USB (PCB) utilizados en el juguete (valor medido, hasta 78 % en peso). El plomo representa un riesgo para el medio ambiente. Además, las soldaduras del motor tienen una concentración excesiva de cadmio (valor medido hasta el 0,15 % en peso). El cadmio bioacumula y representa un riesgo para el medio ambiente. El producto no cumple los requisitos de la Directiva sobre restricciones al uso de determinadas sustancias peligrosas en aparatos eléctricos y electrónicos (Directiva ROHS 2).",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Suecia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10080410",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10080411",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10080412",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.lekia.se/press-media/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01016/23",
+   "ean:7340075117221",
+   "mm:power-truck:100-46107805"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5f502ca6ca902712"
+ },
+ "slug": "excavadora-de-juguetes-power-truck-safety-gate-10008884"
+}

@@ -1,0 +1,114 @@
+{
+ "id": "safety-gate-10010646",
+ "fuente": "safety-gate",
+ "idFuente": "10010646",
+ "referenciaOficial": "A12/02637/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10010646",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Toyota · Auris (TMUK), C-HR (TMMT) and Corolla (TMUK)",
+ "nombreVisible": "Coche de pasajeros Toyota",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-12-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Auris (TMUK), C-HR (TMMT) and Corolla (TMUK)",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "e11*2007/46*3641*01",
+    "e6*2007/46*0338*01",
+    "e11*2001/116*0305*21",
+    "e6*2007/46*0318*00",
+    "e6*2007/46*0318*04",
+    "e6*2007/46*0318*06",
+    "e6*2007/46*0111*06",
+    "e6*2007/46*0163*03"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos equipados con una bomba de combustible de alta presión. Auris (NRE185), C-HR (NGX10, NGX50) y Corolla (NRE210), Lexus: NX300 (AGZ10, AGZ15) y RX300 (AGL20, AGL25)",
+   "fechasTexto": "Auris: (6.11.2017 - 30.11.2018); - C-HR (27.11.2017 - 4.02.2022); - Corolla (18.06.2018 - 10.11.2022)."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "incendio"
+  ],
+  "descripcion": "El prensado insuficiente de las piezas de la bomba de combustible de alta presión puede causar el movimiento del cilindro en la bomba de combustible a través de la cual se mueve el pistón. Esto puede crear desgaste entre el cilindro y el cuerpo de la bomba, lo que resulta en un aumento de la tensión en las válvulas o el asiento de la válvula de movimiento dentro del cuerpo de la bomba. Este aumento del estrés puede causar una grieta en la soldadura de las válvulas afectadas, lo que podría conducir a una fuga de combustible, aumentando el riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10098675",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10098676",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10098677",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/02637/23",
+   "mm:toyota:e11-2007-46-3641-01",
+   "mm:toyota:e6-2007-46-0338-01",
+   "mm:toyota:e11-2001-116-0305-21",
+   "mm:toyota:e6-2007-46-0318-00",
+   "mm:toyota:e6-2007-46-0318-04",
+   "mm:toyota:e6-2007-46-0318-06",
+   "mm:toyota:e6-2007-46-0111-06",
+   "mm:toyota:e6-2007-46-0163-03"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c75eebb7d294dc48"
+ },
+ "slug": "coche-de-pasajeros-toyota-safety-gate-10010646"
+}

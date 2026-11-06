@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10011000",
+ "fuente": "safety-gate",
+ "idFuente": "10011000",
+ "referenciaOficial": "A12/02867/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011000",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Jaguar · I-Pace",
+ "nombreVisible": "Coche de pasajeros Jaguar",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-11-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "I-Pace",
+   "marcas": [
+    "Jaguar"
+   ],
+   "modelos": [
+    "e11*2007/46*4311*03",
+    "e11*2007/46*4311*03",
+    "e5*2007/46*1052*04",
+    "e5*2007/46*1052*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Jaguar I-Pace, año modelo: 2019-2024",
+   "fechasTexto": "2019 - 2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La sobrecarga térmica puede ocurrir en la batería de alto voltaje (HV), lo que crea un riesgo de incendio y lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "Reino Unido",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10101480",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/02867/23",
+   "mm:jaguar:e11-2007-46-4311-03",
+   "mm:jaguar:e5-2007-46-1052-04",
+   "mm:jaguar:e5-2007-46-1052-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "1f1a668a1a2a2069"
+ },
+ "slug": "coche-de-pasajeros-jaguar-safety-gate-10011000"
+}

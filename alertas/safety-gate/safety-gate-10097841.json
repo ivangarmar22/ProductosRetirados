@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10097841",
+ "fuente": "safety-gate",
+ "idFuente": "10097841",
+ "referenciaOficial": "SR/01077/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097841",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Scooter eléctrico · Acer",
+ "nombreVisible": "Scooter eléctrico Acer",
+ "motivo": "Quemaduras, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-05-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Maquinaria",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Scooter eléctrico",
+   "marcas": [
+    "Acer"
+   ],
+   "modelos": [
+    "AES025/PES025"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Scooter eléctrico negro de aleación de aluminio. Altura: 1250 mm. Ancho: 490 mm. Longitud: 1,2 m. Cuando se pliega: Altura: 550 mm. Ancho: 490 mm. Longitud: 1180 mm. Peso: 18,50 kg. Producto vendido en línea. Los productos afectados son los suministrados con las baterías Acer/Predator ES Series 5 (AES025/PES025) que se enviaron entre junio de 2024 y diciembre de 2025 a AT, DE, CH, UA, PL, CZ y SK.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "No se puede descartar que las baterías utilizadas puedan sobrecalentarse y, por lo tanto, ser un riesgo de incendio. El producto no cumple los requisitos de la Directiva sobre máquinas.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11004370",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.acer.com/de-de/support/alerts-recalls/recall-aes025-pes025",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01077/26",
+   "mm:acer:aes025-pes025"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0570930a39a808c9"
+ },
+ "slug": "scooter-electrico-acer-safety-gate-10097841"
+}

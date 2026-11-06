@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10118607",
+ "fuente": "safety-gate",
+ "idFuente": "10118607",
+ "referenciaOficial": "SR/02314/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118607",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Furgoneta de pasajeros · Ford · Transit Custom, Tourneo Custom",
+ "nombreVisible": "Furgoneta de pasajeros Ford",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-08-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Transit Custom, Tourneo Custom",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e5*2018/858*00191*00-*01 (NXN)",
+    "e5*2018/858*00192*00-*01 (NRN)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Furgoneta de pasajeros.",
+   "fechasTexto": "16.05.2023 - 12.09.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Las grietas en la línea de combustible podrían provocar una fuga de combustible por encima de los sistemas de postratamiento de los gases de escape. Si el combustible con fugas entra en contacto con componentes calientes, podría encenderse y causar un incendio en el vehículo. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230772",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.com/support/recalls-details/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02314/26",
+   "mm:ford:e5-2018-858-00191-00-01-nxn",
+   "mm:ford:e5-2018-858-00192-00-01-nrn"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "26089643743e7b47"
+ },
+ "slug": "furgoneta-de-pasajeros-ford-safety-gate-10118607"
+}

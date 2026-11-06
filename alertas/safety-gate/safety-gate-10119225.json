@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10119225",
+ "fuente": "safety-gate",
+ "idFuente": "10119225",
+ "referenciaOficial": "SR/02859/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119225",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador · ROMADA · New Energy EV Charger and Cable",
+ "nombreVisible": "Cargador ROMADA",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-13",
+  "publicacionWeb": null,
+  "modificacion": "2026-10-26"
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "New Energy EV Charger and Cable",
+   "marcas": [
+    "ROMADA"
+   ],
+   "modelos": [
+    "K02-1.8 13A 5"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cargador EV con enchufe de pared adjunto y estuche de transporte.",
+   "fechasTexto": null,
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El producto tiene conexiones internas de mala calidad y cables internos que tienen la misma longitud. Esto podría provocar que el producto perdiera la puesta a tierra protectora y se volviera vivo durante su uso, lo que presentaría un riesgo de descarga eléctrica. El producto no cumple los requisitos de la Directiva sobre baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "eBay(Unknown)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11238371",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11238372",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02859/26",
+   "mm:romada:k02-1-8-13a-5"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "3b1bb796be2cb2a2"
+ },
+ "slug": "cargador-romada-safety-gate-10119225"
+}

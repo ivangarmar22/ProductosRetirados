@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001723",
+ "fuente": "safety-gate",
+ "idFuente": "10001723",
+ "referenciaOficial": "A12/01114/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001723",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Skoda · Octavia",
+ "nombreVisible": "Coche de pasajeros Skoda",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-07-29",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Octavia",
+   "marcas": [
+    "Skoda"
+   ],
+   "modelos": [
+    "Type-approval number: e8*2007/46*0355*00 to 02",
+    "Type: NX"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "The affected vehicles were manufactured between 21 November 2019 and 11 May 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El servicio eCall puede no funcionar correctamente y el centro de llamadas/centro de coordinación de rescate no puede activarse debido a la falta de conexión de audio y transmisión de datos. Como resultado, el conductor no podrá obtener ayuda a través del sistema en caso de una falla o accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Chequia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01114/20",
+   "mm:skoda:type-approval-number-e8-2007-46-0355-00-to-02",
+   "mm:skoda:type-nx"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "59eaf4db4ce9ae10"
+ },
+ "slug": "coche-de-pasajeros-skoda-safety-gate-10001723"
+}

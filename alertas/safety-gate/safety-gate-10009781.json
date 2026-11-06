@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10009781",
+ "fuente": "safety-gate",
+ "idFuente": "10009781",
+ "referenciaOficial": "A12/01707/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009781",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Asesino de insectos UV · ACTO · GRILL'INSECTES Lampe UV",
+ "nombreVisible": "Asesino de insectos UV ACTO",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-07-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GRILL'INSECTES Lampe UV",
+   "marcas": [
+    "ACTO"
+   ],
+   "modelos": [
+    "LAMP1"
+   ],
+   "lotes": [
+    {
+     "numero": "2018-ZN"
+    }
+   ],
+   "ean": [
+    "3361670900302"
+   ],
+   "descripcion": "Lámpara UV antiinsecto que se conecta a la red; carcasa de plástico blanco con cara frontal a la parrilla. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "Las piezas en vivo son fácilmente accesibles. El voltaje de descarga es demasiado alto después de la desconexión de la red eléctrica. Un usuario puede recibir una descarga eléctrica. Además, el aislamiento eléctrico y las distancias de separación/creepage entre los circuitos secundarios primarios y accesibles no son suficientes, por lo que el producto podría sobrecalentarse e iniciar un incendio. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10089366",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/9462/Interne",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01707/23",
+   "ean:3361670900302",
+   "mm:acto:lamp1",
+   "ml:acto:2018-zn"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "fa4b5cabfa86ff39"
+ },
+ "slug": "asesino-de-insectos-uv-acto-safety-gate-10009781"
+}

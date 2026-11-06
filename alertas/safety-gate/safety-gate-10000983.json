@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10000983",
+ "fuente": "safety-gate",
+ "idFuente": "10000983",
+ "referenciaOficial": "A12/00551/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000983",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Fuente de alimentación USB",
+ "nombreVisible": "Fuente de alimentación USB",
+ "motivo": "Quemaduras, Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-04-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Fuente de alimentación USB",
+   "marcas": [],
+   "modelos": [
+    "AR-006"
+   ],
+   "lotes": [],
+   "ean": [
+    "5901737906236"
+   ],
+   "descripcion": "Cargador USB blanco.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "El dispositivo no tiene suficiente protección contra el flujo de corriente a la salida USB. Si la protección falla, el producto puede sobrecalentarse o las partes pueden volverse vivas. En consecuencia, un usuario puede sufrir quemaduras o recibir una descarga eléctrica y el dispositivo puede causar fuego. El producto no cumple los requisitos de la Directiva de baja tensión",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10008107",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://partnertele.com/en/productrecall/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00551/20",
+   "ean:5901737906236"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5d41b39752beed68"
+ },
+ "slug": "fuente-de-alimentacion-usb-safety-gate-10000983"
+}

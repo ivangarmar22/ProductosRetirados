@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10092360",
+ "fuente": "safety-gate",
+ "idFuente": "10092360",
+ "referenciaOficial": "A12/03598/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10092360",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · S-Class",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Medio ambiente, Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-12-09",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "S-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2007/46*2115*00 - *12 (R2S)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros con motor de gasolina de 8 cilindros.",
+   "fechasTexto": "30.06.2020 - 19.09.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Medio ambiente",
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "En el caso de una falla de hardware independiente, el control lambda en el software de la Unidad de Control del Motor (ECU) puede aumentar erróneamente la cantidad de combustible inyectado durante la desactivación del cilindro. Como resultado, las temperaturas de escape pueden aumentar y esto puede dañar los componentes circundantes (por ejemplo, arnés de cableado del motor, convertidor catalítico). Esto puede crear una pérdida inesperada de propulsión, aumentando el riesgo de accidentes y lesiones. Además, esto puede aumentar el riesgo de incendio. Además, podrían superarse los límites legales locales de emisiones de escape. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10939620",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/03598/24",
+   "mm:mercedes-benz:e1-2007-46-2115-00-12-r2s"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "8166cb5a9ef7799c"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10092360"
+}

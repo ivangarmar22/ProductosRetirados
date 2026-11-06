@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001215",
+ "fuente": "safety-gate",
+ "idFuente": "10001215",
+ "referenciaOficial": "A12/00746/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001215",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camioneta de recogida · Mercedes-Benz · X-Class",
+ "nombreVisible": "Camioneta de recogida Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-05-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "X-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval number: e9*2007/46*6531*",
+    "Type: 4701"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo de camioneta equipado con dosel retroadaptado en la plataforma de carga.",
+   "fechasTexto": "The affected vehicles were manufactured between August 2017 and 14 February 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un manual de funcionamiento defectuoso, la carga del techo puede superarse si un dosel se actualiza en la plataforma de carga. En consecuencia, el dosel puede romperse y la carga del techo puede desprenderse y caerse, poniendo en peligro el siguiente tráfico.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00746/20",
+   "mm:mercedes-benz:type-approval-number-e9-2007-46-6531",
+   "mm:mercedes-benz:type-4701"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b930bc3438eb6a51"
+ },
+ "slug": "camioneta-de-recogida-mercedes-benz-safety-gate-10001215"
+}

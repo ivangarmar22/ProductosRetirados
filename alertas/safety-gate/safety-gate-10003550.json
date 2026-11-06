@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003550",
+ "fuente": "safety-gate",
+ "idFuente": "10003550",
+ "referenciaOficial": "A12/00547/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003550",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · GLA",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-04-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GLA",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2007/46*1909*06",
+    "Type: F2B"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos BR 247.",
+   "fechasTexto": "The affected vehicles were manufactured between 19 February 2020 and 12 August 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La conexión a tierra del airbag del pasajero puede ser inadecuada y cualquier carga electrostática podría no llevarse a cabo a través de él. En consecuencia, el airbag del pasajero podría activarse innecesariamente incluso si se ha desactivado adecuadamente debido a que se está utilizando un asiento para niños en el asiento del pasajero. Esto podría dar lugar a un mayor riesgo de accidente o lesión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00547/21",
+   "mm:mercedes-benz:e1-2007-46-1909-06",
+   "mm:mercedes-benz:type-f2b"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b1cbd1d2df12681c"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003550"
+}

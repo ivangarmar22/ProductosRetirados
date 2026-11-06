@@ -1,0 +1,89 @@
+{
+ "id": "safety-gate-10002121",
+ "fuente": "safety-gate",
+ "idFuente": "10002121",
+ "referenciaOficial": "A12/01340/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002121",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Audi · Q5",
+ "nombreVisible": "Turismos Audi",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-10-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Q5",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "Type-approval number: e1 * 2007/46 * 1550",
+    "Type: FY"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "The affected vehicles were manufactured between 26 June and 15 July 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "lesiones"
+  ],
+  "descripcion": "Debido a un error de fabricación, el mecanismo de ajuste en el bastidor del respaldo del asiento delantero puede ser defectuoso o soldado incorrectamente. Como consecuencia de ello, la estabilidad del respaldo del asiento y su efecto de retención en caso de colisión por impacto trasero pueden verse alterados, lo que aumenta el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "México",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01340/20",
+   "mm:audi:type-approval-number-e1-2007-46-1550",
+   "mm:audi:type-fy"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c68c9ab3bcc9d84d"
+ },
+ "slug": "turismos-audi-safety-gate-10002121"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001832",
+ "fuente": "safety-gate",
+ "idFuente": "10001832",
+ "referenciaOficial": "A12/01198/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001832",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · DS · DS7",
+ "nombreVisible": "Turismos DS",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "DS7",
+   "marcas": [
+    "DS"
+   ],
+   "modelos": [
+    "Type-approval number: e2*2007/46*0601*07 to *09",
+    "Type: J"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 2 July and 22 October 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los pernos del eje trasero no podrán haberse ajustado al par necesario. Esto podría dar lugar a la rotura del eje trasero y a la pérdida de control sobre el vehículo, aumentando el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01198/20",
+   "mm:ds:type-approval-number-e2-2007-46-0601-07-to-09",
+   "mm:ds:type-j"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7fdafbecf0437aeb"
+ },
+ "slug": "turismos-ds-safety-gate-10001832"
+}

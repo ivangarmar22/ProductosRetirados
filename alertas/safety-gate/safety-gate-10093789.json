@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10093789",
+ "fuente": "safety-gate",
+ "idFuente": "10093789",
+ "referenciaOficial": "SR/01257/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093789",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vehículo de pasajeros / Vehículo comercial ligero · Ford · Transit Courier, Tourneo Courier",
+ "nombreVisible": "Vehículo de pasajeros / Vehículo comercial ligero Ford",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-04-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Transit Courier, Tourneo Courier",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "N1P",
+    "N3P",
+    "e13*2018/858*00648*00",
+    "e13*2018/858*00649*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero.",
+   "fechasTexto": "10.12.2023 - 06.02.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Un contacto entre la tuerca de acoplamiento de la línea de freno y el depósito de combustible puede causar una fuga en una de las líneas de freno. Esto puede hacer que el tanque de combustible se dañe y que el combustible se filtre, creando un riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Rumanía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10954096",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10954097",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.de/hilfe/r%C3%Bcckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01257/25",
+   "mm:ford:n1p",
+   "mm:ford:n3p",
+   "mm:ford:e13-2018-858-00648-00",
+   "mm:ford:e13-2018-858-00649-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "f63d6938b34736c7"
+ },
+ "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-ford-safety-gate-10093789"
+}

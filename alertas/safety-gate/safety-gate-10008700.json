@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10008700",
+ "fuente": "safety-gate",
+ "idFuente": "10008700",
+ "referenciaOficial": "A12/01042/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008700",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Plomo de extensión · POWER PAC · POWER SOCKET",
+ "nombreVisible": "Plomo de extensión POWER PAC",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-05-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "POWER SOCKET",
+   "marcas": [
+    "POWER PAC"
+   ],
+   "modelos": [
+    "RD-E195"
+   ],
+   "lotes": [],
+   "ean": [
+    "6202104401057"
+   ],
+   "descripcion": "Cable de extensión negro con 7 tomas de corriente y 2 tomas USB. Longitud del cable de extensión 2 metros. Características técnicas: voltaje máximo 250 V, corriente máxima 10 A, rango de voltaje 100-250 V, potencia máxima total 2500 W, protección IP20, clase I.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El producto tiene contactos de puesta a tierra en las tomas y el enchufe, pero carece de un circuito de puesta a tierra. Un usuario podría tocar partes vivas del equipo eléctrico enchufado, lo que conduce a una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Rumanía",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10081406",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10081407",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10081408",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10081409",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01042/23",
+   "ean:6202104401057",
+   "mm:power-pac:rd-e195"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c3e2ae8fe0edb149"
+ },
+ "slug": "plomo-de-extension-power-pac-safety-gate-10008700"
+}

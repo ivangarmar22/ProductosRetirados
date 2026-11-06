@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10097274",
+ "fuente": "safety-gate",
+ "idFuente": "10097274",
+ "referenciaOficial": "SR/00039/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097274",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Horno eléctrico · ROYALSTAR · Electric oven",
+ "nombreVisible": "Horno eléctrico ROYALSTAR",
+ "motivo": "Quemaduras, Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-01-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Electric oven",
+   "marcas": [
+    "ROYALSTAR"
+   ],
+   "modelos": [
+    "YX-11"
+   ],
+   "lotes": [
+    {
+     "numero": "210001762504180209"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Horno eléctrico portátil, 600W, 220V, 50Hz, 12L. Producto vendido en línea, en particular a través de AliExpress.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "El producto carece de las declaraciones de seguridad y las instrucciones de uso requeridas. Esto podría provocar un uso inadecuado del aparato y que el usuario reciba una descarga eléctrica. Además, el producto tiene un voltaje nominal inadecuado y una potencia de entrada nominal que puede llevarlo a una sobrecarga, y su aislamiento básico puede dañarse y causar aumentos de temperatura altos y una conexión a tierra no confiable. Esto puede llevar al usuario a recibir una descarga eléctrica o tocar las superficies accesibles sobrecalentadas y sufrir quemaduras. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con las normas europeas EN 60335-1 y EN 60335-2.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Eslovenia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10991365",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10991366",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10991367",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00039/26",
+   "mm:royalstar:yx-11",
+   "ml:royalstar:210001762504180209"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6f902a1db434e0d4"
+ },
+ "slug": "horno-electrico-royalstar-safety-gate-10097274"
+}

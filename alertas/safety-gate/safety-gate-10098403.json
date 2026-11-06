@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10098403",
+ "fuente": "safety-gate",
+ "idFuente": "10098403",
+ "referenciaOficial": "SR/00952/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098403",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · VIGUS B · Chargeur secteur 1 port USB-C - Universel- pour tout appareil IOS & Android- 3A - 20 W",
+ "nombreVisible": "Cargador USB VIGUS B",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-04-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Chargeur secteur 1 port USB-C - Universel- pour tout appareil IOS & Android- 3A - 20 W",
+   "marcas": [
+    "VIGUS B"
+   ],
+   "modelos": [
+    "WAL20W"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cargador USB blanco, modelo: WAL20W, voltaje de entrada: 100-240 V AC, salida: 5.0 V DC, 9.0 V DC, 12.0 V DC, entrada de corriente: 0.6 A, salida: 3.0 A, 2.22 A, 1.67 A, salida de potencia: 20 W máx., clase de protección II. Producto vendido en línea, en particular a través de Amazon.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La separación entre el circuito primario y el circuito secundario es insuficiente, lo que puede dar lugar a que el usuario del cargador sea sometido a 230 V en lugar de 5 V. La distancia de separación entre el circuito primario y el circuito secundario es insuficiente, lo que puede provocar una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 62368-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Hong Kong",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11002815",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11002816",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11002817",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00952/26",
+   "mm:vigus-b:wal20w"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "161b6c0887e52b52"
+ },
+ "slug": "cargador-usb-vigus-b-safety-gate-10098403"
+}

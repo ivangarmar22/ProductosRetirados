@@ -1,0 +1,95 @@
+{
+ "id": "safety-gate-10003256",
+ "fuente": "safety-gate",
+ "idFuente": "10003256",
+ "referenciaOficial": "A12/00304/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003256",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Furgoneta de pasajeros/Vehículo comercial ligero · Peugeot · Expert, Traveller",
+ "nombreVisible": "Furgoneta de pasajeros/Vehículo comercial ligero Peugeot",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Expert, Traveller",
+   "marcas": [
+    "Peugeot"
+   ],
+   "modelos": [
+    "Type-approval numbers: e2*2007/46*0532*14",
+    "e2*2007/46*0533*12",
+    "*13 Type: V"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
+   "fechasTexto": "The affected vehicles were manufactured between 24 September and 11 November 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El atornillado de las ruedas delanteras puede ser incorrecto. Como resultado, pueden separarse mientras se conduce el automóvil, lo que aumenta el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.peugeot.de/teile-und-zubehor/prufung-ihres-fahrzeugs-auf-ruckrufaktionen.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00304/21",
+   "mm:peugeot:type-approval-numbers-e2-2007-46-0532-14",
+   "mm:peugeot:e2-2007-46-0533-12",
+   "mm:peugeot:13-type-v"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6bfa6abf38c15648"
+ },
+ "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10003256"
+}

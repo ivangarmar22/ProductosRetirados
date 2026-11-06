@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10003346",
+ "fuente": "safety-gate",
+ "idFuente": "10003346",
+ "referenciaOficial": "A12/00345/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003346",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Audi · Q2, Q3",
+ "nombreVisible": "Turismos Audi",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Q2, Q3",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "e1*2007/46*1552*",
+    "Type: GA",
+    "- Audi Q2",
+    "e1*2007/46*1900*",
+    "Type: F3 - Audi Q3"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos con caja de cambios automática.",
+   "fechasTexto": "Q2: Production period from calendar week 28/2020 to calendar week 35/2020Q3: Production period from calendar week 29/2020 to calendar week 35/2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un error de fabricación, una junta de soldadura entre el pedal de freno y la placa de freno-pedal podría romperse cuando el pedal de freno se aplica repentinamente. Esto puede dar lugar a un desprendimiento completo de la placa de freno-pedal, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00345/21",
+   "mm:audi:e1-2007-46-1552",
+   "mm:audi:type-ga",
+   "mm:audi:audi-q2",
+   "mm:audi:e1-2007-46-1900",
+   "mm:audi:type-f3-audi-q3"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c2394a90ea248ce9"
+ },
+ "slug": "turismos-audi-safety-gate-10003346"
+}

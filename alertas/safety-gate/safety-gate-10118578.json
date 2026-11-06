@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10118578",
+ "fuente": "safety-gate",
+ "idFuente": "10118578",
+ "referenciaOficial": "SR/02289/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118578",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Nissan · QASHQAI",
+ "nombreVisible": "Coche de pasajeros Nissan",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-08-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "QASHQAI",
+   "marcas": [
+    "Nissan"
+   ],
+   "modelos": [
+    "e9*2018/858*11042"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "08.07.2025 - 20.05.2026"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a la calibración incorrecta del software, es posible que el controlador de la batería de iones de litio no detecte de manera confiable las anomalías de la celda de la batería. Puede identificar incorrectamente fallas debido a interferencias eléctricas o fluctuaciones en la resistencia del circuito. Como resultado, el sistema puede cambiar al modo a prueba de fallos mientras se conduce el vehículo, lo que limita la potencia del motor y evita la carga. Bajo ciertas condiciones, esto podría apagar el relé principal y causar una pérdida de propulsión, lo que significa que el vehículo puede detenerse mientras está en movimiento, lo que aumenta el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11230714",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02289/26",
+   "mm:nissan:e9-2018-858-11042"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "737ffc9c0c28e6c1"
+ },
+ "slug": "coche-de-pasajeros-nissan-safety-gate-10118578"
+}

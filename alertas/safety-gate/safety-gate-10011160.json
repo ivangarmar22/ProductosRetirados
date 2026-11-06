@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10011160",
+ "fuente": "safety-gate",
+ "idFuente": "10011160",
+ "referenciaOficial": "A12/00090/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011160",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bombilla de disco · Satzuma · Disco Bulb",
+ "nombreVisible": "Bombilla de disco Satzuma",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Artículos varios",
+  "normalizada": "otros"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Disco Bulb",
+   "marcas": [
+    "Satzuma"
+   ],
+   "modelos": [
+    "DB100"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Enchufe y vaya bombilla disco. El producto se vende en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La construcción de la bombilla y el adaptador permite el acceso a partes vivas que pueden causar descargas eléctricas. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106789",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.satzuma.com/disco-bulb-recallhttps://www.boots.ie/product-recallhttps://www.tkmaxx.com/uk/en/product-recall",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00090/24",
+   "mm:satzuma:db100"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0b1b05942150950f"
+ },
+ "slug": "bombilla-de-disco-satzuma-safety-gate-10011160"
+}

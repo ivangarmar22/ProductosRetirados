@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10095738",
+ "fuente": "safety-gate",
+ "idFuente": "10095738",
+ "referenciaOficial": "SR/03129/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095738",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Gel de ducha · Kneipp · Aroma-Pflegedusche Lebensfreude",
+ "nombreVisible": "Gel de ducha Kneipp",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-08-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Aroma-Pflegedusche Lebensfreude",
+   "marcas": [
+    "Kneipp"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "250691725069182506919"
+    }
+   ],
+   "ean": [
+    "4008233114781"
+   ],
+   "descripcion": "Gel de ducha, anunciado para higiene personal, 200 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano"
+  ],
+  "descripcion": "El producto está contaminado con la bacteria Burkholderia cepacia, que puede causar enfermedades en algunos consumidores, particularmente aquellos con un sistema inmunológico debilitado. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10974644",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.kneipp.com/de_de/produktrueckruf-lebensfreude-dusche-200ml/?srsltid=AfmBOoqhCedDOCXWAfxW63SGarTVh48M1EIFKwl9RetNNDX23a4EDJdz",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03129/25",
+   "ean:4008233114781",
+   "ml:kneipp:250691725069182506919"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "66750d1130a99dd8"
+ },
+ "slug": "gel-de-ducha-kneipp-safety-gate-10095738"
+}

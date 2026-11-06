@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10001874",
+ "fuente": "safety-gate",
+ "idFuente": "10001874",
+ "referenciaOficial": "A12/01240/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001874",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Ford · Mondeo, S-Max, Galaxy",
+ "nombreVisible": "Turismos Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-09-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Mondeo, S-Max, Galaxy",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "Mondeo: e13*2001/116*0249*27",
+    "SMAX: e13*2001/116*0185*27",
+    "Galaxy: e13*2001/116*0185*02"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "S-MAX: from 4 December 2014 to 28 February 2017Galaxy: from 5 January 2006 and 31 July 2009 Mondeo: from 6 February 2007 and 28 February 2017"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El propulsor de nitrato de amonio utilizado en el inflador de airbag puede experimentar una alteración del material a lo largo del tiempo debido a la degradación que se produce después de una exposición prolongada a una humedad absoluta elevada, altas temperaturas y ciclos de alta temperatura. En caso de que se despliegue un airbag, puede subinflar o la presión interna excesiva puede hacer que el cuerpo del inflador se rompa y los fragmentos metálicos puedan pasar a través del material del cojín causando lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido",
+  "paisOrigen": "Taiwán",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01240/20",
+   "mm:ford:mondeo-e13-2001-116-0249-27",
+   "mm:ford:smax-e13-2001-116-0185-27",
+   "mm:ford:galaxy-e13-2001-116-0185-02"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "da4f8bd25d49ca24"
+ },
+ "slug": "turismos-ford-safety-gate-10001874"
+}

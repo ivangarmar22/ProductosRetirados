@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10004077",
+ "fuente": "safety-gate",
+ "idFuente": "10004077",
+ "referenciaOficial": "INFO/00139/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004077",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · E-Class",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "E-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Types: 212",
+    "R1ES",
+    "R1EC",
+    "e1*2001/116*0501*44-46",
+    "e1*2007/46*1560*17-19",
+    "e1*2007/46*1666*14-17"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: BR 213",
+   "fechasTexto": "The affected vehicles were manufactured between 4 December 2019 and 7 July 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El software y el hardware del sistema de asistencia al estacionamiento pueden ser defectuosos. Esto podría llevar a que la vista trasera de la cámara se obstaculice o falle completamente. Además, los sensores de estacionamiento ultrasónicos podrían no detectar un obstáculo o no detectarlo correctamente, lo que conlleva un mayor riesgo de accidente.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00139/21",
+   "mm:mercedes-benz:types-212",
+   "mm:mercedes-benz:r1es",
+   "mm:mercedes-benz:r1ec",
+   "mm:mercedes-benz:e1-2001-116-0501-44-46",
+   "mm:mercedes-benz:e1-2007-46-1560-17-19",
+   "mm:mercedes-benz:e1-2007-46-1666-14-17"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "f430d88e59ffa7f2"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10004077"
+}

@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10012966",
+ "fuente": "safety-gate",
+ "idFuente": "10012966",
+ "referenciaOficial": "INFO/00077/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10012966",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cama de madera · Soho Home · Belsa Bed",
+ "nombreVisible": "Cama de madera Soho Home",
+ "motivo": "Asfixia, Quemaduras, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-05-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Mobiliario",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Belsa Bed",
+   "marcas": [
+    "Soho Home"
+   ],
+   "modelos": [
+    "King Steel",
+    "Super King Navy and King Sage"
+   ],
+   "lotes": [
+    {
+     "numero": "745045067450793474550770"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Marco de cama de madera con inserciones de terciopelo en los paneles superior e inferior. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Asfixia",
+   "Quemaduras",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "asfixia",
+   "incendio"
+  ],
+  "descripcion": "El producto puede incendiarse si se expone a una llama desnuda. Esto puede provocar incendios, quemaduras y asfixia. El producto no cumple los requisitos de la Directiva relativa a la seguridad general de los productos.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Reparación del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "Vietnam",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10122493",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.sohohome.com/inspiration/belsa-bed-faqs",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00077/24",
+   "mm:soho-home:king-steel",
+   "mm:soho-home:super-king-navy-and-king-sage",
+   "ml:soho-home:745045067450793474550770"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7704bdbc26e69cd6"
+ },
+ "slug": "cama-de-madera-soho-home-safety-gate-10012966"
+}

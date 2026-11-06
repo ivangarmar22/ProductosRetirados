@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10005738",
+ "fuente": "safety-gate",
+ "idFuente": "10005738",
+ "referenciaOficial": "A11/00058/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005738",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Reloj inteligente · Fitbit LLC · Fitbit Ionic Smartwatch",
+ "nombreVisible": "Reloj inteligente Fitbit LLC",
+ "motivo": "Quemaduras",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-04-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de ocio y deporte",
+  "normalizada": "ocio"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Fitbit Ionic Smartwatch",
+   "marcas": [
+    "Fitbit LLC"
+   ],
+   "modelos": [
+    "FB503"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "El Fitbit Ionic Smartwatch es un smartwatch con GPS, orientado al fitness. El producto está equipado con una batería de iones de litio y aproximadamente cuatro días de duración de la batería. El producto tiene una pantalla LCD a color de 1,4\" y estaba disponible con múltiples tamaños de banda para adaptarse a diferentes tamaños de muñeca de los consumidores.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La batería puede sobrecalentarse, lo que supone un riesgo de quemaduras para los usuarios. El producto no cumple con los requisitos de la Directiva sobre equipos radioeléctricos ni con la norma europea EN 60950-1.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "Taiwán",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10051506",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://help.fitbit.com/en/ionic.htm",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A11/00058/22",
+   "mm:fitbit-llc:fb503"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4d2f4f5a1b9dba5d"
+ },
+ "slug": "reloj-inteligente-fitbit-llc-safety-gate-10005738"
+}

@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10003523",
+ "fuente": "safety-gate",
+ "idFuente": "10003523",
+ "referenciaOficial": "A12/00735/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003523",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Mini horno · Andersson · Tabletop oven",
+ "nombreVisible": "Mini horno Andersson",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-25",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Tabletop oven",
+   "marcas": [
+    "Andersson"
+   ],
+   "modelos": [
+    "MIS 2.0"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Un mini horno con mesa, para uso en cocinas ordinarias.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "La protección contra la puesta a tierra es inadecuada y el aislamiento del producto es inapropiado, dejando las partes vivas accesibles. El usuario podría tocar las partes activas accesibles y recibir una descarga eléctrica. El producto podría sobrecalentarse llevando al fuego. El producto no cumple con la Directiva de baja tensión y la norma europea pertinente EN 60335-2-9.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "El operador económico es volunatry que retira el producto",
+   "fecha": null
+  },
+  {
+   "texto": "Suspensión de la venta del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Suecia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10030194",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10030195",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://support.netonnet.se/hc/sv/articles/360018921198",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00735/21",
+   "mm:andersson:mis-2-0"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "774eb40ed05e4ec6"
+ },
+ "slug": "mini-horno-andersson-safety-gate-10003523"
+}

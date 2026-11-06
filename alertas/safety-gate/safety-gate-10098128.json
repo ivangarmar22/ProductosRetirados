@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10098128",
+ "fuente": "safety-gate",
+ "idFuente": "10098128",
+ "referenciaOficial": "SR/00712/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098128",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta · Yamaha · RAYZR (LCG125)",
+ "nombreVisible": "Motocicleta Yamaha",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-03-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "RAYZR (LCG125)",
+   "marcas": [
+    "Yamaha"
+   ],
+   "modelos": [
+    "SEK8",
+    "e13*168/2013*01861*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta",
+   "fechasTexto": "01.01.2024 - 30.09.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El pistón de freno no vuelve completamente a la posición de reposo después de soltar la palanca de freno. Esto plantea un riesgo de accidentes y lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "India",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11000076",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11000077",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.yamaha-motor.eu/de/de/home/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00712/26",
+   "mm:yamaha:sek8",
+   "mm:yamaha:e13-168-2013-01861"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4a9ac1c0a7f725d5"
+ },
+ "slug": "motocicleta-yamaha-safety-gate-10098128"
+}

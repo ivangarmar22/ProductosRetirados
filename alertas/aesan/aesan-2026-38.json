@@ -1,0 +1,99 @@
+{
+ "id": "aesan-2026-38",
+ "fuente": "aesan",
+ "idFuente": "2026_38",
+ "referenciaOficial": "ES2026/271",
+ "urlOficial": "https://www.aesan.gob.es/alertas/2026_38",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Alerta por presencia de Listeria monocytogenes en queso fresco de vaca procedente de España (Ref. ES2026/271)",
+ "nombreVisible": "Queso Latino (Queso fresco de vaca) Goya",
+ "motivo": "Listeria monocytogenes",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-05-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Alertas alimentarias de interés para toda la población",
+  "normalizada": "alimentos"
+ },
+ "publico": null,
+ "productos": [
+  {
+   "nombre": "Queso Latino (Queso fresco de vaca)",
+   "marcas": [
+    "Goya"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "011056",
+     "caducidad": "2026-05-31",
+     "consumoPreferente": null
+    },
+    {
+     "numero": "021046",
+     "caducidad": "2026-05-31",
+     "consumoPreferente": null
+    }
+   ],
+   "ean": [],
+   "envase": "envase de plástico",
+   "peso": "300 g",
+   "temperatura": "refrigerado",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Listeria monocytogenes"
+  ],
+  "tipoNormalizado": [
+   "microbiologico"
+  ],
+  "descripcion": null,
+  "nivelLiteral": null,
+  "alergenos": []
+ },
+ "medidas": [],
+ "recomendacion": "Se recomienda a las personas que tengan en su domicilio el producto incluido en esta alerta se abstengan de consumirlos. Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos. En el caso de haber consumido alguno de los productos de los lotes afectados y presentar sintomatología compatible con la listeriosis —vómitos, diarrea o fiebre—, se recomienda acudir a un centro de salud.",
+ "hacer": [
+  "Si tienes este producto en casa, no lo consumas.",
+  "Si lo has consumido y tienes síntomas, acude a un centro de salud.",
+  "Si estás embarazada, consulta las recomendaciones de AESAN sobre alimentación durante el embarazo."
+ ],
+ "hacerOrigen": "fuente",
+ "distribucion": {
+  "ccaa": [],
+  "nacional": false,
+  "paisNotificante": null,
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": "Aragón",
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://www.aesan.gob.es/dam/jcr:0941c066-bec3-42d1-a02d-b84de60e7406/queso_latino_mayo_2026.jpg",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:ES2026/271",
+   "ml:goya:011056",
+   "ml:goya:021046"
+  ]
+ },
+ "procedencia": {
+  "formato": "html",
+  "extraccion": "texto-etiquetado",
+  "consultadoEn": "2026-11-06",
+  "hashContenido": "2524556d29325966"
+ },
+ "slug": "queso-latino-queso-fresco-de-vaca-goya-aesan-2026-38"
+}

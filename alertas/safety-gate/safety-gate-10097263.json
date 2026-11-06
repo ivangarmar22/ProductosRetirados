@@ -1,0 +1,113 @@
+{
+ "id": "safety-gate-10097263",
+ "fuente": "safety-gate",
+ "idFuente": "10097263",
+ "referenciaOficial": "SR/00120/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097263",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Manta eléctrica · GoodHome · Electric blanket 150W",
+ "nombreVisible": "Manta eléctrica GoodHome",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-01-23",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Electric blanket 150W",
+   "marcas": [
+    "GoodHome"
+   ],
+   "modelos": [
+    "Saturnia"
+   ],
+   "lotes": [],
+   "ean": [
+    "5059340980560"
+   ],
+   "descripcion": "Manta eléctrica de lana beige con control remoto blanco. Todos los lotes están afectados. Producto vendido en línea, en particular a través de www.diy.ie.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "Un condensador eléctrico es defectuoso y puede sobrecalentarse. Esto podría causar que el controlador de calor se deforme y se derrita, lo que aumenta el riesgo de incendio y la exposición de partes vivas al usuario. El usuario podía tocar las partes activas accesibles y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10992232",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10992233",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10992234",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.diy.ie/product-information/product-recall",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00120/26",
+   "ean:5059340980560",
+   "mm:goodhome:saturnia"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ec3cdb52499055d4"
+ },
+ "slug": "manta-electrica-goodhome-safety-gate-10097263"
+}

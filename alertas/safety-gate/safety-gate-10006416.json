@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10006416",
+ "fuente": "safety-gate",
+ "idFuente": "10006416",
+ "referenciaOficial": "A12/01020/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006416",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Pendientes · Tedi",
+ "nombreVisible": "Pendientes Tedi",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-07-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Joyería y bisutería",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Pendientes",
+   "marcas": [
+    "Tedi"
+   ],
+   "modelos": [
+    "99023001751000000100"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Dos pares de pendientes plateados con decoraciones en forma de estrella.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El producto libera una cantidad excesiva de níquel (valor medido 0,89 μg/cm²/semana). El níquel es un sensibilizador fuerte y puede causar reacciones alérgicas si está presente en artículos que entran en contacto directo y prolongado con la piel. El producto no cumple con el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Suspensión de la venta del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10056913",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10056914",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.tedi.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01020/22",
+   "mm:tedi:99023001751000000100"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "94afb6f39cbe510c"
+ },
+ "slug": "pendientes-tedi-safety-gate-10006416"
+}

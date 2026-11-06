@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10005013",
+ "fuente": "safety-gate",
+ "idFuente": "10005013",
+ "referenciaOficial": "A12/00219/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005013",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Líquido de pelado de la piel · MCCM · T50T35 Professional Use Peel",
+ "nombreVisible": "Líquido de pelado de la piel MCCM",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-02-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "T50T35 Professional Use Peel",
+   "marcas": [
+    "MCCM"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "R01"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Producto de pelado de piel que incluye el ácido tioglicólico como uno de sus ingredientes, y se vende con la intención de tratar enfermedades relacionadas con la piel por profesionales.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico",
+   "lesiones"
+  ],
+  "descripcion": "El producto no contiene las instrucciones de uso adecuadas ni las advertencias. Además, el producto se vende como pelador cutáneo, pero su lista de ingredientes menciona el ácido tioglicólico, que está autorizado como sustancia aclarada para su uso únicamente en el cabello. El ácido tioglicólico es un sensibilizante cutáneo y puede causar lesiones cuando se aplica directamente sobre la piel. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Suspensión de la venta del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "España",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10045584",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10045585",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00219/22",
+   "ml:mccm:r01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d35ce8b0e7e70a65"
+ },
+ "slug": "liquido-de-pelado-de-la-piel-mccm-safety-gate-10005013"
+}

@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10011030",
+ "fuente": "safety-gate",
+ "idFuente": "10011030",
+ "referenciaOficial": "A12/00012/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011030",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Elevador de escaleras · VIMEC · Stairlift",
+ "nombreVisible": "Elevador de escaleras VIMEC",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Maquinaria",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Stairlift",
+   "marcas": [
+    "VIMEC"
+   ],
+   "modelos": [
+    "S11",
+    "S10",
+    "V59",
+    "V64"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Elevador de escaleras y plataforma vertical con baterías de litio.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El kit de batería y cargador provisto con el producto puede sobrecalentarse, lo que representa un riesgo de incendio. El fuego también podría afectar objetos y áreas cercanas a la escalera elevadora. El producto no cumple los requisitos de la Directiva sobre máquinas.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10105957",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10105958",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00012/24",
+   "mm:vimec:s11",
+   "mm:vimec:s10",
+   "mm:vimec:v59",
+   "mm:vimec:v64"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "034c32f5bde1c4a4"
+ },
+ "slug": "elevador-de-escaleras-vimec-safety-gate-10011030"
+}

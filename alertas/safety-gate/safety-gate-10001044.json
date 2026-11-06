@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10001044",
+ "fuente": "safety-gate",
+ "idFuente": "10001044",
+ "referenciaOficial": "A12/00633/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001044",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Laca · Biltema · Lakmaling",
+ "nombreVisible": "Laca Biltema",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-04-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Productos químicos",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Lakmaling",
+   "marcas": [
+    "Biltema"
+   ],
+   "modelos": [
+    "Art. 36-713",
+    "Glossy",
+    "Blank"
+   ],
+   "lotes": [
+    {
+     "numero": "201810525-B-18-42"
+    }
+   ],
+   "ean": [],
+   "descripcion": "750 ml de laca brillante para superficies.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Las superficies recubiertas con este producto emanan ácido 2-etilhexanoico (valor medido: 200 µg/m³ después de 28 días), que podrían ser embriotóxicos si se inhalan o están en contacto con la piel, dañando al feto.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Dinamarca",
+  "paisOrigen": "Suecia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10009393",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00633/20",
+   "mm:biltema:art-36-713",
+   "mm:biltema:glossy",
+   "mm:biltema:blank",
+   "ml:biltema:201810525-b-18-42"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7ed6780317b28f5c"
+ },
+ "slug": "laca-biltema-safety-gate-10001044"
+}

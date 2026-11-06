@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10001814",
+ "fuente": "safety-gate",
+ "idFuente": "10001814",
+ "referenciaOficial": "A12/01178/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001814",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · AMG C-Class, AMG GLS, AMG GT",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-08-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "AMG C-Class, AMG GLS, AMG GT",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2001/116*0431*47 to *55",
+    "e1*2001/116*0480*26 to *35",
+    "e1*2007/46*1878*00 to *07",
+    "Type: 204",
+    "204 X",
+    "R1EAMG"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: Mercedes-AMG Clase C (BR 205), GLC (BR 253), AMG GT (BR 290).",
+   "fechasTexto": "The affected vehicles were manufactured between 24 April 2018 and 6 November 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El software de la unidad de control ESP no cumple las especificaciones y puede no ser capaz de adaptarse al tipo de frenos instalados. Esto puede hacer que el sistema ESP no pueda responder según lo previsto a una posible deriva del sensor de velocidad de guiñada o a un fallo del suministro de vacío del freno. Como resultado, la intervención ESP puede ser inadecuada para la situación de conducción, lo que aumenta el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01178/20",
+   "mm:mercedes-benz:type-approval-number-e1-2001-116-0431-47-to-55",
+   "mm:mercedes-benz:e1-2001-116-0480-26-to-35",
+   "mm:mercedes-benz:e1-2007-46-1878-00-to-07",
+   "mm:mercedes-benz:type-204",
+   "mm:mercedes-benz:204-x",
+   "mm:mercedes-benz:r1eamg"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c19aeeb4ed50db73"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10001814"
+}

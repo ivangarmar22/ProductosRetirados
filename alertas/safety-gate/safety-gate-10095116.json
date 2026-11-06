@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10095116",
+ "fuente": "safety-gate",
+ "idFuente": "10095116",
+ "referenciaOficial": "SR/02538/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095116",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión · Mitsubishi Fuso · Canter",
+ "nombreVisible": "Camión Mitsubishi Fuso",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-07-09",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Canter",
+   "marcas": [
+    "Mitsubishi Fuso"
+   ],
+   "modelos": [
+    "FE4P10TF1N2",
+    "NKSFE4P10N1SF",
+    "NKSFE4P10N1WF",
+    "e4*2007/46*0785*15",
+    "e4*KS18/858*00031*00",
+    "e4*KS18/858*00032*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camión",
+   "fechasTexto": "11.7.2024 - 9.12.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Un error de software en el módulo SSAM (unidad de control central) puede hacer que varios sistemas de iluminación y los limpiaparabrisas dejen de funcionar. Si las luces fallan por la noche o los limpiaparabrisas fallan durante la lluvia o en carreteras mojadas, la visibilidad del conductor podría verse gravemente reducida, lo que podría hacer imposible permanecer de forma segura en la carretera. Además, es posible que un vehículo estacionario no se vea siguiendo el tráfico. Estas situaciones aumentan el riesgo de accidentes, incluidos los vehículos que se desvían de la carretera o que son golpeados por detrás. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10968971",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "http://www.fuso-trucks.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02538/25",
+   "mm:mitsubishi-fuso:fe4p10tf1n2",
+   "mm:mitsubishi-fuso:nksfe4p10n1sf",
+   "mm:mitsubishi-fuso:nksfe4p10n1wf",
+   "mm:mitsubishi-fuso:e4-2007-46-0785-15",
+   "mm:mitsubishi-fuso:e4-ks18-858-00031-00",
+   "mm:mitsubishi-fuso:e4-ks18-858-00032-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "95f44ddd9c0e6344"
+ },
+ "slug": "camion-mitsubishi-fuso-safety-gate-10095116"
+}

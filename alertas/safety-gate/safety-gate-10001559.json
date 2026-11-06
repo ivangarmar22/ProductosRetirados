@@ -1,0 +1,109 @@
+{
+ "id": "safety-gate-10001559",
+ "fuente": "safety-gate",
+ "idFuente": "10001559",
+ "referenciaOficial": "A11/00068/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001559",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Computadora portátil · Apple · MacBook Pro",
+ "nombreVisible": "Computadora portátil Apple",
+ "motivo": "Quemaduras, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-07-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de comunicación e información",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "MacBook Pro",
+   "marcas": [
+    "Apple"
+   ],
+   "modelos": [
+    "Retina",
+    "15-inch",
+    "mid-2015 model"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Portátil con pantalla de 15,4 pulgadas (diagonal), procesadores de 2,2 a 2,5 GHz, almacenamiento en estado sólido de 256 GB-1 TB, dos puertos Thunderbolt 2, dos puertos USB 3 y un puerto HDMI. El producto también se vendió en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La batería puede sobrecalentarse y, en consecuencia, puede provocar quemaduras o incendios. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10013906",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10013907",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10013908",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://support.apple.com/en-ie/15-inch-macbook-pro-battery-recall",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A11/00068/20",
+   "mm:apple:retina",
+   "mm:apple:15-inch",
+   "mm:apple:mid-2015-model"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "88d6f579eccf8520"
+ },
+ "slug": "computadora-portatil-apple-safety-gate-10001559"
+}

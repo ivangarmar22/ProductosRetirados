@@ -1,0 +1,95 @@
+{
+ "id": "safety-gate-10099156",
+ "fuente": "safety-gate",
+ "idFuente": "10099156",
+ "referenciaOficial": "SR/01648/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099156",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta · Bmw · C evolution",
+ "nombreVisible": "Motocicleta Bmw",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-06-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C evolution",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "e1*2002/24*0627* (C1EV)",
+    "e1*168/2013*00041* (3CEV)",
+    "e1*168/2013*00042* (3CEV)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta.",
+   "fechasTexto": "25.03.2014 - 26.08.2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Los conectores de la batería de 12 V que suministra el convertidor DC/DC no están suficientemente sellados contra salpicaduras de agua. Esto puede permitir que el agua penetre en los conectores y cause un cortocircuito y conduzca a un incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11011271",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/01648/26",
+   "mm:bmw:e1-2002-24-0627-c1ev",
+   "mm:bmw:e1-168-2013-00041-3cev",
+   "mm:bmw:e1-168-2013-00042-3cev"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "36797bb60c90a3c1"
+ },
+ "slug": "motocicleta-bmw-safety-gate-10099156"
+}

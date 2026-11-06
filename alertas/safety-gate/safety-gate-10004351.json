@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10004351",
+ "fuente": "safety-gate",
+ "idFuente": "10004351",
+ "referenciaOficial": "A12/01261/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004351",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Bmw · X5, X6",
+ "nombreVisible": "Turismos Bmw",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-09-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "X5, X6",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "e1*2001/116*0420*",
+    "e1*2007/46*0421*",
+    "e1*2007/46*0412*",
+    "e1*2007/46*0454*",
+    "Types: X70",
+    "X5",
+    "X6",
+    "X-N1"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Modelo serie E70, E71.",
+   "fechasTexto": "The affected vehicles were manufactured between 21 August 2006 and 21 August 2011."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La corrosión por fricción en el conector desde el arnés de cableado hasta el regulador del ventilador puede causar fluctuaciones en la resistencia eléctrica, lo que puede provocar sobrecalentamiento y daño al aislamiento del arnés de cableado. Esto puede resultar en un cortocircuito, que conduce a un incendio del vehículo, incluso si el vehículo está estacionado.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01261/21",
+   "mm:bmw:e1-2001-116-0420",
+   "mm:bmw:e1-2007-46-0421",
+   "mm:bmw:e1-2007-46-0412",
+   "mm:bmw:e1-2007-46-0454",
+   "mm:bmw:types-x70",
+   "mm:bmw:x-n1"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e57f055687cd1f85"
+ },
+ "slug": "turismos-bmw-safety-gate-10004351"
+}

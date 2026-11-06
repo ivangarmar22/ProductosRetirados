@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10003828",
+ "fuente": "safety-gate",
+ "idFuente": "10003828",
+ "referenciaOficial": "A12/00805/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003828",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Hyundai · VELOSTER, I40, I20, IX35, AVANTE, ACCENT",
+ "nombreVisible": "Coche de pasajeros Hyundai",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-01-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "VELOSTER, I40, I20, IX35, AVANTE, ACCENT",
+   "marcas": [
+    "Hyundai"
+   ],
+   "modelos": [
+    "Types: FS",
+    "VF",
+    "PB",
+    "ELH",
+    "RB",
+    "MD",
+    "e11*2007/46*0194",
+    "e4*2007/46*0263",
+    "e11*2001/116*0333",
+    "e11*2007/46*0192",
+    "e4*2007/46*0251",
+    "e4*2007/46*0254"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "The affected vehicles were manufactured between 1 January 2008 and 31 December 2012."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La toma de 12V puede sobrecalentarse cuando se utiliza el compresor del kit de reparación de neumáticos. Esto podría aumentar el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República de Corea",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00805/21",
+   "mm:hyundai:types-fs",
+   "mm:hyundai:elh",
+   "mm:hyundai:e11-2007-46-0194",
+   "mm:hyundai:e4-2007-46-0263",
+   "mm:hyundai:e11-2001-116-0333",
+   "mm:hyundai:e11-2007-46-0192",
+   "mm:hyundai:e4-2007-46-0251",
+   "mm:hyundai:e4-2007-46-0254"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "457fef12fc8603a3"
+ },
+ "slug": "coche-de-pasajeros-hyundai-safety-gate-10003828"
+}

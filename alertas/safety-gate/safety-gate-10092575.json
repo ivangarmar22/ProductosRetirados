@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10092575",
+ "fuente": "safety-gate",
+ "idFuente": "10092575",
+ "referenciaOficial": "SR/03805/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10092575",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Kia · Sorento",
+ "nombreVisible": "Coche de pasajeros Kia",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-12-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Sorento",
+   "marcas": [
+    "Kia"
+   ],
+   "modelos": [
+    "e11*2007/46*0634*01",
+    "e11*2001/116*0358*04",
+    "e11*2007/46*0634*05",
+    "e11*2001/116*0358*06",
+    "e11*2007/46*0141*03",
+    "e11*2001/116*0358*05"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "01.07. 2010 - 21.08.2014"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La Unidad de Control Electrónico Hidráulico (HECU), responsable del Sistema de Frenado Antibloqueo, del Sistema Electrónico de Control de Estabilidad y del Sistema de Control de Tracción, puede permanecer activa incluso cuando el vehículo está apagado. Si entra humedad en la HECU, puede producirse un cortocircuito eléctrico. Si se produce un cortocircuito eléctrico, esto podría provocar un incendio en el compartimiento del motor. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República de Corea",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10941540",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03805/24",
+   "mm:kia:e11-2007-46-0634-01",
+   "mm:kia:e11-2001-116-0358-04",
+   "mm:kia:e11-2007-46-0634-05",
+   "mm:kia:e11-2001-116-0358-06",
+   "mm:kia:e11-2007-46-0141-03",
+   "mm:kia:e11-2001-116-0358-05"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "35d8fd0c0bb0b841"
+ },
+ "slug": "coche-de-pasajeros-kia-safety-gate-10092575"
+}

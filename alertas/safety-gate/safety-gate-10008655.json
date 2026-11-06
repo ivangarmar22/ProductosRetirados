@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10008655",
+ "fuente": "safety-gate",
+ "idFuente": "10008655",
+ "referenciaOficial": "A12/00960/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008655",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Kit de cosméticos · Pop · Girls Mini Beauty Case Set",
+ "nombreVisible": "Kit de cosméticos Pop",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-05-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Girls Mini Beauty Case Set",
+   "marcas": [
+    "Pop"
+   ],
+   "modelos": [
+    "1539011E"
+   ],
+   "lotes": [
+    {
+     "numero": "6210055 W6220008 W"
+    }
+   ],
+   "ean": [
+    "4038033390115"
+   ],
+   "descripcion": "Kit de cosméticos de 19 piezas para niños. Incluye productos como un lápiz labial, un brillo labial, un barniz de uñas, etc.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Las partes del producto (barniz rojo en forma de corazón y barniz de uñas amarillo en forma de corazón) contienen una mezcla de los conservantes metilcloroisotiazolinona (MCI) y metilisotiazolinona (MI) (valores medidos: hasta el 0,00070 % y el 0,00019 %, respectivamente), que están prohibidos en los cosméticos abandonados. El contacto dérmico con los productos que contienen MCI y MI puede provocar dermatitis alérgica de contacto a personas sensibilizadas. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10080240",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.mueller.de/aktuelles/rueckrufe/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00960/23",
+   "ean:4038033390115",
+   "mm:pop:1539011e",
+   "ml:pop:6210055-w6220008-w"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d537ca555bc9587d"
+ },
+ "slug": "kit-de-cosmeticos-pop-safety-gate-10008655"
+}

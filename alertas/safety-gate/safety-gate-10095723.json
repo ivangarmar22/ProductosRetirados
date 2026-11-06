@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10095723",
+ "fuente": "safety-gate",
+ "idFuente": "10095723",
+ "referenciaOficial": "SR/03119/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095723",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros / Furgoneta de pasajeros · Ford · Explorer, Transit Custom",
+ "nombreVisible": "Coche de pasajeros / Furgoneta de pasajeros Ford",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-09-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Explorer, Transit Custom",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e13*2007/46*2217*00-*02 (WUJ)",
+    "e1*2007/46*1005*17-*20 (FCC)",
+    "e5*2007/46*1034*05-*09 (FAC)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros / Furgoneta de pasajeros",
+   "fechasTexto": "30 September 2019 to 20 September 2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Una placa de ánodo doblada en las celdas de la batería de alto voltaje podría provocar un cortocircuito, lo que provocaría un fallo del motor y el apagado de la batería, lo que aumentaría el riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10974640",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10974641",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.com/support/recalls-details/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03119/25",
+   "mm:ford:e13-2007-46-2217-00-02-wuj",
+   "mm:ford:e1-2007-46-1005-17-20-fcc",
+   "mm:ford:e5-2007-46-1034-05-09-fac"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e4d0de46c377c237"
+ },
+ "slug": "coche-de-pasajeros-furgoneta-de-pasajeros-ford-safety-gate-10095723"
+}

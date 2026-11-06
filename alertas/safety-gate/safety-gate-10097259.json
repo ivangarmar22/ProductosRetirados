@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10097259",
+ "fuente": "safety-gate",
+ "idFuente": "10097259",
+ "referenciaOficial": "SR/00111/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097259",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Regulador de gas · CGAS",
+ "nombreVisible": "Regulador de gas CGAS",
+ "motivo": "Quemaduras",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-01-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos de gas y componentes",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Regulador de gas",
+   "marcas": [
+    "CGAS"
+   ],
+   "modelos": [
+    "C21"
+   ],
+   "lotes": [
+    {
+     "numero": "05/24"
+    },
+    {
+     "numero": "06/24"
+    },
+    {
+     "numero": "07/24"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Regulador de gas, 30 mbar.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El anillo inferior se puede levantar fácilmente mientras el interruptor no está completamente cerrado. El pasador de seguridad no bloqueará el eje, que podría caerse cuando abra la válvula, causando fugas de gas e incendios. El producto no cumple el Reglamento relativo a los aparatos que queman combustibles gaseosos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Chipre",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10992231",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00111/26",
+   "mm:cgas:c21",
+   "ml:cgas:05-24",
+   "ml:cgas:06-24",
+   "ml:cgas:07-24"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d7f5c6f0037d8c9b"
+ },
+ "slug": "regulador-de-gas-cgas-safety-gate-10097259"
+}

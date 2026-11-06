@@ -1,0 +1,112 @@
+{
+ "id": "safety-gate-10091962",
+ "fuente": "safety-gate",
+ "idFuente": "10091962",
+ "referenciaOficial": "A12/03252/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10091962",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Sombrero · Marimekko · Krästa Unikko Kioski",
+ "nombreVisible": "Sombrero Marimekko",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-11-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Ropa, textiles y artículos de moda",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Krästa Unikko Kioski",
+   "marcas": [
+    "Marimekko"
+   ],
+   "modelos": [
+    "093349"
+   ],
+   "lotes": [
+    {
+     "numero": "103880"
+    }
+   ],
+   "ean": [
+    "6411254922927"
+   ],
+   "descripcion": "Gorra roja-rosa (talla única) con estampado de flores. La flor rosa está bordada delante de la gorra y el texto \"Marimekko\" está bordado en el otro lado de la gorra. La tapa tiene una abrazadera metálica en la parte posterior para el ajuste.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "La tasa de liberación de níquel es demasiado alta (valores medidos de hasta 77,92 μg/cm2/semana). El níquel es un sensibilizante fuerte y puede causar reacciones alérgicas si está presente en artículos que entran en contacto directo y prolongado con la piel. El producto no cumple el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "Estonia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10937067",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10937068",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.marimekko.com/fi_fi/asiakaspalvelu/takaisinveto-krasta-lippalakki",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/03252/24",
+   "ean:6411254922927",
+   "mm:marimekko:093349",
+   "ml:marimekko:103880"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "890a2b33ea3ff34d"
+ },
+ "slug": "sombrero-marimekko-safety-gate-10091962"
+}

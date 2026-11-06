@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10009716",
+ "fuente": "safety-gate",
+ "idFuente": "10009716",
+ "referenciaOficial": "A12/01665/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009716",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Bmw · X3",
+ "nombreVisible": "Coche de pasajeros Bmw",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-07-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "X3",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "G3X",
+    "e1*2007/46*1797*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo de pasajeros equipado con un motor de combustión",
+   "fechasTexto": "05.01.2022 - 24.02.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "El cable del generador de arranque no está correctamente atornillado a la carrocería. Esto puede conducir al apagado del motor mientras el vehículo se mueve, creando un riesgo de lesiones. Además, un aumento en la resistencia de contacto puede causar el calentamiento local de la conexión del perno y conducir a un incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10088852",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.bmw.de/rueckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01665/23",
+   "mm:bmw:g3x",
+   "mm:bmw:e1-2007-46-1797"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "51ea38e301e03b4d"
+ },
+ "slug": "coche-de-pasajeros-bmw-safety-gate-10009716"
+}

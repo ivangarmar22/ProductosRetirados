@@ -1,0 +1,89 @@
+{
+ "id": "safety-gate-10002815",
+ "fuente": "safety-gate",
+ "idFuente": "10002815",
+ "referenciaOficial": "A12/00014/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002815",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta · Honda · CRF1000/1100A/D",
+ "nombreVisible": "Motocicleta Honda",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CRF1000/1100A/D",
+   "marcas": [
+    "Honda"
+   ],
+   "modelos": [
+    "e4*168/2013*00033*02",
+    "e4*168/2013*00115*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Modelo: CRF1000A2, CRF1000D2, CRF1100A2, CREF1100A4, CRF1100D2, CRF1100D4; Años de modelo: 2018-2021.",
+   "fechasTexto": "The affected vehicles were manufactured between 29 November 2017 and 19 October 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El filtro de combustible puede estar obstruido por partículas de óxido de zinc, generadas durante el proceso de soldadura del depósito de combustible. Esto podría hacer que la motocicleta pierda potencia o el motor se estanque, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00014/21",
+   "mm:honda:e4-168-2013-00033-02",
+   "mm:honda:e4-168-2013-00115-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "2ac9c04b7393115c"
+ },
+ "slug": "motocicleta-honda-safety-gate-10002815"
+}

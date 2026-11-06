@@ -1,0 +1,92 @@
+{
+ "id": "safety-gate-10004368",
+ "fuente": "safety-gate",
+ "idFuente": "10004368",
+ "referenciaOficial": "A12/01320/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004368",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Ford · Transit",
+ "nombreVisible": "Turismos Ford",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-09-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Transit",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e1*2007/46*1097*16",
+    "e1*2007/46*1096*19",
+    "Types: FFD",
+    "FED"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "8 June 2021 - 28 June 2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Las conexiones a la línea de retorno de combustible de la válvula de inyección pueden no estar completamente aseguradas y podrían perderse, lo que puede hacer que la línea de retorno de combustible se desprenda de la boquilla de inyección de combustible. Como resultado, el combustible puede fugarse y entrar en contacto con superficies calientes, lo que aumenta el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01320/21",
+   "mm:ford:e1-2007-46-1097-16",
+   "mm:ford:e1-2007-46-1096-19",
+   "mm:ford:types-ffd",
+   "mm:ford:fed"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d061aea8003ed769"
+ },
+ "slug": "turismos-ford-safety-gate-10004368"
+}

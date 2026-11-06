@@ -1,0 +1,95 @@
+{
+ "id": "safety-gate-10094561",
+ "fuente": "safety-gate",
+ "idFuente": "10094561",
+ "referenciaOficial": "SR/02390/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10094561",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Chaqueta calentada · iHEAT · Heated Jacket for Women",
+ "nombreVisible": "Chaqueta calentada iHEAT",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-06-25",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Ropa, textiles y artículos de moda",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Heated Jacket for Women",
+   "marcas": [
+    "iHEAT"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "202409"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Chaqueta negra calentada eléctricamente para mujeres, alimentada por una batería portátil. Producto vendido en línea, en particular a través de Amazon (ASIN: B08JGLLVCF).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "El paquete de baterías de iones de litio está mal construido y no proporciona suficiente protección para evitar fugas térmicas, lo que lleva al riesgo de incendio. Además, los pines del enchufe de la fuente de alimentación están demasiado cerca del borde de la cara del enchufe, exponiendo al usuario a partes activas, lo que lleva a una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10966181",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02390/25",
+   "ml:iheat:202409"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "1f1fb6e504012b25"
+ },
+ "slug": "chaqueta-calentada-iheat-safety-gate-10094561"
+}

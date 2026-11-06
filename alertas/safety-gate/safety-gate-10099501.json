@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10099501",
+ "fuente": "safety-gate",
+ "idFuente": "10099501",
+ "referenciaOficial": "SR/01987/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099501",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Proyector led · *BOSITE* · LED LIGHT",
+ "nombreVisible": "Proyector led *BOSITE*",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-07-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "LED LIGHT",
+   "marcas": [
+    "*BOSITE*"
+   ],
+   "modelos": [
+    "BST-TL100"
+   ],
+   "lotes": [
+    {
+     "numero": "W0025720JX"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Proyector del led para el uso al aire libre, 100W.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El producto tiene una protección insuficiente contra el agua y la humedad: el enchufe de red no es impermeable ni está protegido contra el polvo u objetos sólidos. Además, el aislamiento entre las partes activas y las partes accesibles del producto es insuficiente. Además, las distancias de arrastre entre las partes activas y la carcasa metálica accesible son insuficientes. Por lo tanto, el usuario puede tener acceso a partes activas y recibir una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 62031.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Amazon(ASIN - B0DJ6X7YPW)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11014345",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/01987/26",
+   "mm:bosite:bst-tl100",
+   "ml:bosite:w0025720jx"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "910e69d36f9d1d34"
+ },
+ "slug": "proyector-led-bosite-safety-gate-10099501"
+}

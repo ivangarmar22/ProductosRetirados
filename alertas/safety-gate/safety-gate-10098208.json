@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10098208",
+ "fuente": "safety-gate",
+ "idFuente": "10098208",
+ "referenciaOficial": "SR/00823/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098208",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Secador de pelo · *LAC LAICHY* · Hair Dryer",
+ "nombreVisible": "Secador de pelo *LAC LAICHY*",
+ "motivo": "Quemaduras, Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-04-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Hair Dryer",
+   "marcas": [
+    "*LAC LAICHY*"
+   ],
+   "modelos": [
+    "L-1100"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Secador de pelo. Producto vendido en línea, en particular a través de Shein (identificador único del producto: sv25022644154415497) y Amazon.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "Se puede acceder a las partes activas (cables y componentes eléctricos) a través de la entrada de aire del aparato, lo que podría provocar una descarga eléctrica. Además, la carcasa de plástico del aparato y uno de sus accesorios puede derretirse, lo que podría dar lugar a un riesgo de quemaduras. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11000988",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11000989",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://m.shein.com/fr/ark/5343?scene_type=recall&banner_delivery_id=4451143",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00823/26",
+   "mm:lac-laichy:l-1100"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "62a58941ab19de91"
+ },
+ "slug": "secador-de-pelo-lac-laichy-safety-gate-10098208"
+}

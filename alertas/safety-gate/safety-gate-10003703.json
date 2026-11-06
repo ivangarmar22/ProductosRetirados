@@ -1,0 +1,92 @@
+{
+ "id": "safety-gate-10003703",
+ "fuente": "safety-gate",
+ "idFuente": "10003703",
+ "referenciaOficial": "A12/00670/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003703",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mazda · CX-30",
+ "nombreVisible": "Turismos Mazda",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CX-30",
+   "marcas": [
+    "Mazda"
+   ],
+   "modelos": [
+    "e13*2007/46*2041*00",
+    "e13*2007/46*2041*01",
+    "e13*2007/46*2041*04",
+    "e13*2007/46*2041*06"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Mazda CX-30 (DM); Países de producción: Japón y México. De VIN: JMZDM**** 00 100068-159370 y 3MVDM**** 0E 100020-114559.",
+   "fechasTexto": "The affected vehicles were manufactured between 25 April 2019 and 15 October 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La fuerza de retención del motor de transmisión de la compuerta de elevación puede ser insuficiente y el soporte puede reducirse especialmente a altas temperaturas ambientales. Como resultado, la compuerta elevadora de potencia podría reducirse inesperadamente mientras una persona accede a la zona de almacenamiento posterior del vehículo, lo que aumenta el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00670/21",
+   "mm:mazda:e13-2007-46-2041-00",
+   "mm:mazda:e13-2007-46-2041-01",
+   "mm:mazda:e13-2007-46-2041-04",
+   "mm:mazda:e13-2007-46-2041-06"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "f0bdd0e025393c0c"
+ },
+ "slug": "turismos-mazda-safety-gate-10003703"
+}

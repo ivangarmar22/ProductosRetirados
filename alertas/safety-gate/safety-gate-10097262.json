@@ -1,0 +1,111 @@
+{
+ "id": "safety-gate-10097262",
+ "fuente": "safety-gate",
+ "idFuente": "10097262",
+ "referenciaOficial": "SR/00052/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097262",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Terminal de fuente de alimentación · GTV",
+ "nombreVisible": "Terminal de fuente de alimentación GTV",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-01-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Terminal de fuente de alimentación",
+   "marcas": [
+    "GTV"
+   ],
+   "modelos": [
+    "XLT-1FAC68-00",
+    "XLT-1FAC69-10"
+   ],
+   "lotes": [],
+   "ean": [
+    "5902801321337",
+    "5902801321405"
+   ],
+   "descripcion": "Terminales de suministro de energía para rieles de 1 fase.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La protección del conductor protector es insuficiente, lo que puede conducir a la interrupción de la tierra protectora. Por lo tanto, las partes activas son accesibles para el usuario, que puede recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10991360",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10991361",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://gtv.com.pl/wp-content/uploads/2025/11/Wycofanie_produktu_GPSR_2_PL.pdf",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00052/26",
+   "ean:5902801321337",
+   "ean:5902801321405",
+   "mm:gtv:xlt-1fac68-00",
+   "mm:gtv:xlt-1fac69-10"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "cb7561514ac8048a"
+ },
+ "slug": "terminal-de-fuente-de-alimentacion-gtv-safety-gate-10097262"
+}

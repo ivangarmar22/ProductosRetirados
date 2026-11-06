@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10005683",
+ "fuente": "safety-gate",
+ "idFuente": "10005683",
+ "referenciaOficial": "A12/00469/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005683",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Toyota · C-HR, GR Yaris, Yaris.",
+ "nombreVisible": "Turismos Toyota",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-03-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-HR, GR Yaris, Yaris.",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "e6*2007/46*0338*04",
+    "e6*2007/46*0454*00",
+    "e6*2007/46*0437*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Nombre del modelo (Código del modelo): C-HR (MAXH10, NGX10, ZGX10, ZYX11), GR Yaris (GXPA16) y Yaris (KSP211, MXPA11, MXPH11); Año de modelo: 2020-2021; Países de producción: Turquía (C-HR), Japón (GR Yaris) y Francia (Yaris).",
+   "fechasTexto": "C-HR (20.03.2020 - 26.07.2021) , GR Yaris (24.06.2020 - 02.08.2021), Yaris (06.07.2020 - 21.06.2021)."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "lesiones"
+  ],
+  "descripcion": "El sensor de radar puede funcionar mal debido a una instalación defectuosa. Esto puede dar lugar a un fallo en la detección de un vehículo delante a través del PCS (sistema de precolisión), que no proporcionará advertencias o asistencia al freno y el vehículo no mostrará al conductor un mensaje o indicador de que el PCS no está funcionando. Esto puede aumentar el riesgo de un accidente. El producto no cumple lo dispuesto en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00469/22",
+   "mm:toyota:e6-2007-46-0338-04",
+   "mm:toyota:e6-2007-46-0454-00",
+   "mm:toyota:e6-2007-46-0437-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c1314a20c656a6fe"
+ },
+ "slug": "turismos-toyota-safety-gate-10005683"
+}

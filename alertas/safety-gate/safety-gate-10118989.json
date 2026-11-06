@@ -1,0 +1,121 @@
+{
+ "id": "safety-gate-10118989",
+ "fuente": "safety-gate",
+ "idFuente": "10118989",
+ "referenciaOficial": "SR/02665/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118989",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicletas · BRP CAN-AM",
+ "nombreVisible": "Motocicletas BRP CAN-AM",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-09-24",
+  "publicacionWeb": null,
+  "modificacion": "2026-10-22"
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Motocicletas",
+   "marcas": [
+    "BRP CAN-AM"
+   ],
+   "modelos": [
+    "Canyon",
+    "Origin",
+    "Pulse",
+    "Spyder F3",
+    "Spyder RT"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicletas de 3 y 2 ruedas.",
+   "fechasTexto": null,
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Dependiendo del uso del controlador de las conexiones USB y Bluetooth, puede producirse un fallo de comunicación o una fuga de memoria. Esto puede causar que un grupo de instrumentos inoperativo o congelado no muestre información crítica de seguridad, incluida la velocidad del vehículo y los testigos de advertencia. Además, durante un restablecimiento del clúster, las señales de giro y las luces de peligro se desactivarán temporalmente o no responderán. Estas condiciones reducen la conciencia del conductor sobre el estado del vehículo y limitan la capacidad de los usuarios de la carretera circundantes para reconocer la intención del conductor, lo que aumenta el riesgo de accidente. El producto no cumple el Reglamento sobre la homologación de tipo y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bélgica",
+  "paisOrigen": "Canadá",
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HU",
+   "LU"
+  ],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236252",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236253",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236254",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236255",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11236256",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02665/26",
+   "mm:brp-can-am:canyon",
+   "mm:brp-can-am:origin",
+   "mm:brp-can-am:pulse",
+   "mm:brp-can-am:spyder-f3",
+   "mm:brp-can-am:spyder-rt"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "9fda2e06e241b6e3"
+ },
+ "slug": "motocicletas-brp-can-am-safety-gate-10118989"
+}

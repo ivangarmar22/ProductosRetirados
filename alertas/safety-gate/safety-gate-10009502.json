@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10009502",
+ "fuente": "safety-gate",
+ "idFuente": "10009502",
+ "referenciaOficial": "A12/01539/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009502",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Conjunto de productos cosméticos · Souza · Princess Cosmetics Box",
+ "nombreVisible": "Conjunto de productos cosméticos Souza",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-07-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Princess Cosmetics Box",
+   "marcas": [
+    "Souza"
+   ],
+   "modelos": [
+    "81.438.SK",
+    "Style 106345"
+   ],
+   "lotes": [
+    {
+     "numero": "6164"
+    }
+   ],
+   "ean": [
+    "8720143329616"
+   ],
+   "descripcion": "Caja de música con productos cosméticos que contienen dos esmaltes de uñas, tres piezas de sombra de ojos, tres piezas de brillo labial y un colorante.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El esmalte de uñas tiene una concentración excesiva de N-Metilpirrolidona (valor medido hasta 7,5 % en peso). Puede dañar a un niño por nacer. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Países Bajos",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10087543",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10087544",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01539/23",
+   "ean:8720143329616",
+   "mm:souza:81-438-sk",
+   "mm:souza:style-106345",
+   "ml:souza:6164"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e61a89c9521422eb"
+ },
+ "slug": "conjunto-de-productos-cosmeticos-souza-safety-gate-10009502"
+}

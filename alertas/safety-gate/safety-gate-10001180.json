@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10001180",
+ "fuente": "safety-gate",
+ "idFuente": "10001180",
+ "referenciaOficial": "A12/00689/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001180",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Audi · A4, A5, A6, A7, Q5",
+ "nombreVisible": "Coche de pasajeros Audi",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-05-25",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A4, A5, A6, A7, Q5",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "Type-approval number: e1 * 2007/46 * 1550 *",
+    "Type: FY (Audi Q5)",
+    "Type-approval number: e1 * 2007/46 * 1801 *",
+    "Type: F2",
+    "(Audi A6",
+    "A7)",
+    "Type-approval number: e1*2001/116*0430*",
+    "Type: B8",
+    "(Audi A4/A5)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos equipados con motor 2.0 TFSI & TDI y sistema híbrido suave.",
+   "fechasTexto": "The affected vehicles were manufactured between May 2017 and March 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La humedad puede penetrar en el generador de arranque de la correa. Esto puede resultar en un cortocircuito, lo que lleva a un sobrecalentamiento local y un mayor riesgo de incendio. Debido a la fuente de alimentación permanente del generador de arranque, esto puede ocurrir cuando el vehículo ya ha estado estacionado durante un tiempo.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00689/20",
+   "mm:audi:type-approval-number-e1-2007-46-1550",
+   "mm:audi:type-fy-audi-q5",
+   "mm:audi:type-approval-number-e1-2007-46-1801",
+   "mm:audi:type-f2",
+   "mm:audi:audi-a6",
+   "mm:audi:type-approval-number-e1-2001-116-0430",
+   "mm:audi:type-b8",
+   "mm:audi:audi-a4-a5"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "45e2a4c5da5d6cd0"
+ },
+ "slug": "coche-de-pasajeros-audi-safety-gate-10001180"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10093793",
+ "fuente": "safety-gate",
+ "idFuente": "10093793",
+ "referenciaOficial": "OR/00064/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093793",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Sistema de bomba de calor · Joule ModulAir · ModulAir",
+ "nombreVisible": "Sistema de bomba de calor Joule ModulAir",
+ "motivo": "Quemaduras, Incendio, Smoke inhalation",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-05-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos y recipientes de presión",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "ModulAir",
+   "marcas": [
+    "Joule ModulAir"
+   ],
+   "modelos": [
+    "HHH-AEHP-00001"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Sistema de bomba de calor blanco.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio",
+   "Smoke inhalation"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La capacidad de carga inadecuada del componente de placa de circuito impreso (PCB) del producto bajo ciertas condiciones y los cables DIN Rail mal ensamblados que carecen de férulas pueden causar sobrecalentamiento, fusión y avería. Esto puede generar humo y vapores. Esto también presenta un riesgo de quemaduras o fuego si se hace contacto con materiales inflamables dentro de la unidad. El producto no cumple los requisitos de la Directiva sobre equipos a presión.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Un ingeniero visitará los hogares de los consumidores para llevar a cabo trabajos correctivos",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "Países Bajos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10958510",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:OR/00064/25",
+   "mm:joule-modulair:hhh-aehp-00001"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "abb08945116b5263"
+ },
+ "slug": "sistema-de-bomba-de-calor-joule-modulair-safety-gate-10093793"
+}

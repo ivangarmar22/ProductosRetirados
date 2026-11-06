@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10000514",
+ "fuente": "safety-gate",
+ "idFuente": "10000514",
+ "referenciaOficial": "A12/00148/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000514",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Seat · Alhambra",
+ "nombreVisible": "Coche de pasajeros Seat",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-01-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Alhambra",
+   "marcas": [
+    "Seat"
+   ],
+   "modelos": [
+    "Model year: 2015 (710*)",
+    "2016 (711*)",
+    "e1*2007/46*0402*09",
+    "e1*2007/46*0402*11",
+    "e1*2007/46*0402*12"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de retirada del asiento 69Z6.",
+   "fechasTexto": "The affected vehicles were manufactured from 16/01/2015 to 10/12/2015.VIN's: - from VSSZZZ7NZFV515214 to 525502; - from VSSZZZ7NZGV500011 to 716689."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Un condensador de la unidad de control del airbag podría tener un tratamiento térmico insuficiente. En consecuencia, el condensador podría fallar, lo que podría llevar a la unidad de control del airbag a detectar una colisión frontal que no se produce y desencadenar los airbags y los tensores del asiento, lo que aumenta el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Portugal",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00148/20",
+   "mm:seat:model-year-2015-710",
+   "mm:seat:2016-711",
+   "mm:seat:e1-2007-46-0402-09",
+   "mm:seat:e1-2007-46-0402-11",
+   "mm:seat:e1-2007-46-0402-12"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3d341c71c64ade87"
+ },
+ "slug": "coche-de-pasajeros-seat-safety-gate-10000514"
+}

@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10003199",
+ "fuente": "safety-gate",
+ "idFuente": "10003199",
+ "referenciaOficial": "A12/00262/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003199",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · VW · Tiguan, Golf 8, Golf 7, e-Golf 7, Touran, Golf Sportsvan, T-Roc",
+ "nombreVisible": "Turismos VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-02-23",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Tiguan, Golf 8, Golf 7, e-Golf 7, Touran, Golf Sportsvan, T-Roc",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type-approval numbers: e1*2001/116*0450*",
+    "e1*2007/46*2014*",
+    "e1*2007/46*0623*",
+    "e1*2001/116*0211*",
+    "e13*2007/46*1845*",
+    "e1*2007/46*0627*",
+    "Types: 5N",
+    "CD",
+    "AU",
+    "1T",
+    "AUV",
+    "A1"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos con caja de cambios automática.",
+   "fechasTexto": "The affected vehicles were manufactured between 26 June and 31 August 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un error de fabricación, la placa de freno-pedal puede no haber sido soldada adecuadamente y podría ser completamente desprendida cuando el pedal de freno se aplica repentinamente. Como resultado, la aplicación de los frenos se verá afectada, aumentando el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00262/21",
+   "mm:vw:type-approval-numbers-e1-2001-116-0450",
+   "mm:vw:e1-2007-46-2014",
+   "mm:vw:e1-2007-46-0623",
+   "mm:vw:e1-2001-116-0211",
+   "mm:vw:e13-2007-46-1845",
+   "mm:vw:e1-2007-46-0627",
+   "mm:vw:types-5n",
+   "mm:vw:auv"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "af8ad1a00f925a68"
+ },
+ "slug": "turismos-vw-safety-gate-10003199"
+}

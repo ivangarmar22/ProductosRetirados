@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10004285",
+ "fuente": "safety-gate",
+ "idFuente": "10004285",
+ "referenciaOficial": "A11/00070/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004285",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Luz al aire libre · Zinc · Aaron Outdoor PIR Lantern",
+ "nombreVisible": "Luz al aire libre Zinc",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-03-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Aaron Outdoor PIR Lantern",
+   "marcas": [
+    "Zinc"
+   ],
+   "modelos": [
+    "817/1395",
+    "817/9531"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Luz exterior en forma de linterna. El producto también se vende en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El manual de instrucciones indica una clase de aislamiento que no corresponde a la clase del producto (aislamiento básico de clase 1 que necesita protección contra la tierra). Por lo tanto, si el producto se instala de acuerdo con las instrucciones, no tendrá protección contra la tierra. Como consecuencia, una persona puede tocar parte del producto que está en alto voltaje y recibir una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión y las normas europeas pertinentes EN 60598.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Provisión de un ingeniero para comprobar la instalación de la linterna y la tierra si es necesario",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado para reelaborar las existencias y proporcionar instrucciones actualizadas corregidas",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10035924",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.argos.ie/static/StaticDisplay/includeName/productRecalls.htm#Aaron-outdoor-PIR-lanterns",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A11/00070/21",
+   "mm:zinc:817-1395",
+   "mm:zinc:817-9531"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b1bd2777421ac802"
+ },
+ "slug": "luz-al-aire-libre-zinc-safety-gate-10004285"
+}

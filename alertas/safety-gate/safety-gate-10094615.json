@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10094615",
+ "fuente": "safety-gate",
+ "idFuente": "10094615",
+ "referenciaOficial": "SR/02081/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10094615",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Ver · My Time",
+ "nombreVisible": "Ver My Time",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-06-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Joyería y bisutería",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ver",
+   "marcas": [
+    "My Time"
+   ],
+   "modelos": [
+    "23-0150-07",
+    "2556630"
+   ],
+   "lotes": [
+    {
+     "numero": "23017"
+    }
+   ],
+   "ean": [
+    "8718969955058"
+   ],
+   "descripcion": "Reloj de pulsera con una correa de metal de acero inoxidable, destinado a los hombres.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "La tasa de liberación de níquel es demasiado alta (valor medido hasta 2,44 μg/cm2/semana). El níquel es un sensibilizante fuerte y causa reacciones alérgicas si está presente en artículos que entran en contacto directo y prolongado con la piel. El producto no cumple con el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Países Bajos",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10962546",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.action.com/nl-nl/klantenservice/belangrijke-productinformatie/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02081/25",
+   "ean:8718969955058",
+   "mm:my-time:23-0150-07",
+   "mm:my-time:2556630",
+   "ml:my-time:23017"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "cb87bca8514a15d8"
+ },
+ "slug": "ver-my-time-safety-gate-10094615"
+}

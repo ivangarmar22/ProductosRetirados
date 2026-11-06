@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10003804",
+ "fuente": "safety-gate",
+ "idFuente": "10003804",
+ "referenciaOficial": "A12/00733/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003804",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador de batería · Westrom · Westrom Battery charger",
+ "nombreVisible": "Cargador de batería Westrom",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-25",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Westrom Battery charger",
+   "marcas": [
+    "Westrom"
+   ],
+   "modelos": [
+    "PH03L2E/C812B"
+   ],
+   "lotes": [
+    {
+     "numero": "848345"
+    }
+   ],
+   "ean": [
+    "2000221312638"
+   ],
+   "descripcion": "Cargador para dos baterías. Entrada 100-240 VAC, 50/60 Hz; salida 1,2 VDC, 200 mA; 9 VDC, 20 mA, AAx1120mA, AAx2 120mA, AAAx1120mA, AAAx2 120mA.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento eléctrico y las distancias de arrastre y despegue son insuficientes. El usuario puede recibir una descarga eléctrica de partes activas. Las partes vivas pueden llegar a ser accesibles, una persona puede tocarlas y recibir una descarga eléctrica. El producto no cumple con la Directiva de baja tensión y la norma europea pertinente EN 60335-2-29.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Lituania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10030318",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10030319",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10030320",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00733/21",
+   "ean:2000221312638",
+   "mm:westrom:ph03l2e-c812b",
+   "ml:westrom:848345"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6b4a777fa26aaca7"
+ },
+ "slug": "cargador-de-bateria-westrom-safety-gate-10003804"
+}

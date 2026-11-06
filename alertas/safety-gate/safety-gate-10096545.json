@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10096545",
+ "fuente": "safety-gate",
+ "idFuente": "10096545",
+ "referenciaOficial": "SR/03935/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096545",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Aspirador · Henry · Quick Corded Vacuum",
+ "nombreVisible": "Aspirador Henry",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-11-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Quick Corded Vacuum",
+   "marcas": [
+    "Henry"
+   ],
+   "modelos": [
+    "HEC.100"
+   ],
+   "lotes": [],
+   "ean": [
+    "5028965881910"
+   ],
+   "descripcion": "Aspiradora roja y negra. Los números de serie afectados son los que comienzan con 7524 seguidos de: 00001 - 03998, y números de serie que comienzan con 7527 seguidos de 03751, 03793, 03795, 03799, 03801, 03804, 03805, 03809, 03812, 03819, 03826 y 03829. Producto vendido en línea, en particular a través de Argos.co.uk",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "Un tornillo externo puede estar en contacto con partes internas activas. Si un usuario accede al tornillo mientras el producto está en uso, puede recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10983170",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10983171",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.myhenry.com/recall",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03935/25",
+   "ean:5028965881910",
+   "mm:henry:hec-100"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5d1bba3ab4fc41b0"
+ },
+ "slug": "aspirador-henry-safety-gate-10096545"
+}

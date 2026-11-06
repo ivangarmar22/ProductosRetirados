@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10094460",
+ "fuente": "safety-gate",
+ "idFuente": "10094460",
+ "referenciaOficial": "SR/01978/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10094460",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Agua micelar · THALAC · EAU MICELLAIRE HYDRATANTE",
+ "nombreVisible": "Agua micelar THALAC",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-05-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "EAU MICELLAIRE HYDRATANTE",
+   "marcas": [
+    "THALAC"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "21H03"
+    }
+   ],
+   "ean": [
+    "3583262822513"
+   ],
+   "descripcion": "Agua micelar, producto limpiador de la piel, 400 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano"
+  ],
+  "descripcion": "El producto está contaminado microbiológicamente con la bacteria Gluconacetobacter liquefaciens. El microorganismo puede causar infecciones en algunos consumidores, particularmente aquellos con un sistema inmunológico debilitado. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10961176",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/2024-10-0218",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01978/25",
+   "ean:3583262822513",
+   "ml:thalac:21h03"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d73e205b654a6fce"
+ },
+ "slug": "agua-micelar-thalac-safety-gate-10094460"
+}

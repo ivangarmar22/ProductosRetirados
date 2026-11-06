@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10004691",
+ "fuente": "safety-gate",
+ "idFuente": "10004691",
+ "referenciaOficial": "A12/01527/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004691",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mazda · RX-8, 6",
+ "nombreVisible": "Turismos Mazda",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-11-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "RX-8, 6",
+   "marcas": [
+    "Mazda"
+   ],
+   "modelos": [
+    "Types: SE",
+    "GG1",
+    "e11*2001/116*0199*03",
+    "e11*2001/116*0203*03"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "28.07.2005 - 30.07.2010"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Las tapas de la bomba de combustible pueden agrietarse y la tapa del depósito de combustible puede aflojarse. Esto podría dar lugar a la pérdida de combustible, aumentando el riesgo de incendio. El producto no cumple los requisitos establecidos en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mazda.de/service-zubehoer/rueckrufaktionen/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01527/21",
+   "mm:mazda:types-se",
+   "mm:mazda:gg1",
+   "mm:mazda:e11-2001-116-0199-03",
+   "mm:mazda:e11-2001-116-0203-03"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e85fc0306936a9c5"
+ },
+ "slug": "turismos-mazda-safety-gate-10004691"
+}

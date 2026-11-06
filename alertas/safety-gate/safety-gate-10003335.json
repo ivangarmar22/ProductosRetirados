@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003335",
+ "fuente": "safety-gate",
+ "idFuente": "10003335",
+ "referenciaOficial": "A12/00343/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003335",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Autobús · Man · Lion`s CIty",
+ "nombreVisible": "Autobús Man",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-09",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Lion`s CIty",
+   "marcas": [
+    "Man"
+   ],
+   "modelos": [
+    "Model: B.2007.46.017",
+    "Type-approval number: e1*2007/46*1955*05 + *06"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Autobús",
+   "fechasTexto": "August 2020 to December 2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La protección contra el circuito de freno, diseñada para garantizar que la presión del freno se mantenga sobre el circuito intacto si falla un circuito de freno, no funciona. Si uno de los dos circuitos de freno falla, la presión en el otro circuito de freno también disminuye. En tal caso, el freno de servicio puede fallar completamente, lo que aumenta el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00343/21",
+   "mm:man:model-b-2007-46-017",
+   "mm:man:type-approval-number-e1-2007-46-1955-05-06"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5aab20fa9ff1be90"
+ },
+ "slug": "autobus-man-safety-gate-10003335"
+}

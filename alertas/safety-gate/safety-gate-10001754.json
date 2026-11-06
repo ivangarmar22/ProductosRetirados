@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001754",
+ "fuente": "safety-gate",
+ "idFuente": "10001754",
+ "referenciaOficial": "A12/01141/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001754",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mazda · CX-30",
+ "nombreVisible": "Coche de pasajeros Mazda",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-08-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CX-30",
+   "marcas": [
+    "Mazda"
+   ],
+   "modelos": [
+    "e13*2007/46*2041*04"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros equipado con tracción total.",
+   "fechasTexto": "The affected vehicles were manufactured between 10 December 2019 and 20 March 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Debido a un proceso de fabricación inadecuado del tanque de combustible, cuando reabastece completamente el vehículo, el combustible líquido eventualmente llenará el recipiente de carbón que resulta en una fuga. Una fuga del recipiente en presencia de una fuente de ignición puede aumentar el riesgo de incendio. Además, el motor puede detenerse mientras conduce, lo que aumenta el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Rumanía",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01141/20",
+   "mm:mazda:e13-2007-46-2041-04"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "27a43e2bad71c3c9"
+ },
+ "slug": "coche-de-pasajeros-mazda-safety-gate-10001754"
+}

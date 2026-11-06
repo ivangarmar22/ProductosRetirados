@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10119491",
+ "fuente": "safety-gate",
+ "idFuente": "10119491",
+ "referenciaOficial": "SR/03110/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119491",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bicicleta eléctrica · Allegro · E-bike",
+ "nombreVisible": "Bicicleta eléctrica Allegro",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-30",
+  "publicacionWeb": null,
+  "modificacion": "2026-10-30"
+ },
+ "categoria": {
+  "literal": "Equipos de ocio y deporte",
+  "normalizada": "ocio"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "E-bike",
+   "marcas": [
+    "Allegro"
+   ],
+   "modelos": [
+    "A1",
+    "KEYU / KYLC165V55"
+   ],
+   "lotes": [
+    {
+     "numero": "JFXC260400014"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Bicicleta eléctrica negra con fuente de carga y enchufe de pared.",
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "No es posible determinar, sobre la base de la documentación disponible, que existen suficientes sistemas de protección de la batería para evitar que se produzcan fugas térmicas. Si el producto se carga y se deja desatendido durante la noche, puede producirse un fallo que podría provocar la explosión de la batería y el inicio de un incendio. El producto no cumple los requisitos de la Directiva sobre máquinas.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240933",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240934",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240935",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03110/26",
+   "mm:allegro:keyu-kylc165v55",
+   "ml:allegro:jfxc260400014"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "a067709734bb5065"
+ },
+ "slug": "bicicleta-electrica-allegro-safety-gate-10119491"
+}

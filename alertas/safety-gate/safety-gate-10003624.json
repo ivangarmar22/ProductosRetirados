@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10003624",
+ "fuente": "safety-gate",
+ "idFuente": "10003624",
+ "referenciaOficial": "A12/00616/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003624",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Ford · Focus",
+ "nombreVisible": "Turismos Ford",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Focus",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e13*2007/46*1911*08",
+    "Type: DEH"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo eléctrico híbrido suave (mHEV)",
+   "fechasTexto": "The affected vehicles were manufactured between 25 June and 30 November 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Una tuerca que sujeta el terminal de batería del vehículo eléctrico híbrido suave (mHEV) puede no haberse apretado correctamente, lo que podría dar lugar a un fallo en la conexión eléctrica. Esto puede dar lugar a la pérdida de la función mHEV y al sobrecalentamiento local y a la posible fusión de los componentes circundantes durante la conducción, lo que aumenta el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00616/21",
+   "mm:ford:e13-2007-46-1911-08",
+   "mm:ford:type-deh"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "df9cf9a71f18df6b"
+ },
+ "slug": "turismos-ford-safety-gate-10003624"
+}

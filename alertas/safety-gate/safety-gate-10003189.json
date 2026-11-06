@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003189",
+ "fuente": "safety-gate",
+ "idFuente": "10003189",
+ "referenciaOficial": "A12/00247/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003189",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mazda · MX-30 (DR)",
+ "nombreVisible": "Turismos Mazda",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-02-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "MX-30 (DR)",
+   "marcas": [
+    "Mazda"
+   ],
+   "modelos": [
+    "e13*2007/46*2300*00",
+    "e13*2007/46*2300*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 19 May and 4 December 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un defecto en el Motor Hill Assist (MHA), cuando el vehículo está cruzando la superficie resbaladiza de la carretera (es decir, condición de hielo) a una superficie de alta fricción y el conductor aplica el freno inmediatamente, es posible que el vehículo pueda despegar repentinamente después de soltar el freno, lo que aumenta el riesgo de accidente. Además, las luces de frenado pueden iluminarse cuando se conduce hacia atrás, aunque el pedal de freno no esté deprimido, debido a una lógica de control de iluminación demasiado inadecuada en el módulo de control del grupo motopropulsor.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Rumanía",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00247/21",
+   "mm:mazda:e13-2007-46-2300-00",
+   "mm:mazda:e13-2007-46-2300-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0ffaf1415c1868bd"
+ },
+ "slug": "turismos-mazda-safety-gate-10003189"
+}

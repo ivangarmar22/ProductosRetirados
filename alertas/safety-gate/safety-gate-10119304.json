@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10119304",
+ "fuente": "safety-gate",
+ "idFuente": "10119304",
+ "referenciaOficial": "SR/03000/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119304",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Ford · Kuga",
+ "nombreVisible": "Coche de pasajeros Ford",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-20",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-04"
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Kuga",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e13*2007/46*2188*14-*18 (DFK)"
+   ],
+   "lotes": [
+    {
+     "numero": "20.12.2024 - 10.07.2026"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "20.12.2024 - 10.07.2026",
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Un tornillo y una tuerca de empuje pueden entrar en contacto con el arnés de cableado detrás del panel de instrumentos del lado del conductor y dañar los cables. Como resultado, esto podría causar una pérdida de potencia de conducción, lo que aumenta el riesgo de un accidente. Además, el arnés de cableado podría sobrecalentarse debido a un cortocircuito, lo que aumenta el riesgo de incendio. El producto incumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239170",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.de/hilfe/r%C3%Bcckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03000/26",
+   "mm:ford:e13-2007-46-2188-14-18-dfk",
+   "ml:ford:20-12-2024-10-07-2026"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "d2fae3502a3ba2a9"
+ },
+ "slug": "coche-de-pasajeros-ford-safety-gate-10119304"
+}

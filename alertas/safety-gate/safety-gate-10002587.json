@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10002587",
+ "fuente": "safety-gate",
+ "idFuente": "10002587",
+ "referenciaOficial": "A12/01725/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002587",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · GLB",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-12-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GLB",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval numbers: e1*2007/46*1909*04 to *06",
+    "Type: F2B"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos equipados con motor diesel. Serie de modelos: BR 247.",
+   "fechasTexto": "The affected vehicles were manufactured between 11 January and 2 March 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La tubería de ventilación del tanque de combustible puede tener una división, lo que puede permitir que el combustible diesel escape durante el reabastecimiento de combustible o la conducción. En consecuencia, el combustible filtrado puede entrar en contacto con el sistema de escape, aumentando el riesgo de incendio o fuga en la carretera, lo que representa un riesgo para el tráfico siguiente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01725/20",
+   "mm:mercedes-benz:type-approval-numbers-e1-2007-46-1909-04-to-06",
+   "mm:mercedes-benz:type-f2b"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "451637b7fc44b912"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10002587"
+}

@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10011201",
+ "fuente": "safety-gate",
+ "idFuente": "10011201",
+ "referenciaOficial": "A12/00641/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011201",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Mousse capilar · PANTENE · Pantene Pro-V Style",
+ "nombreVisible": "Mousse capilar PANTENE",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-03-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Pantene Pro-V Style",
+   "marcas": [
+    "PANTENE"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "95482247"
+    }
+   ],
+   "ean": [
+    "5000174608823"
+   ],
+   "descripcion": "Mousse para el cabello fuerte, 150 ml",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene propionaldehído de 2-(4-tert-butilbencil) (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización de la piel. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "Reino Unido",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10113734",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00641/24",
+   "ean:5000174608823",
+   "ml:pantene:95482247"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "cada3bdc5de71969"
+ },
+ "slug": "mousse-capilar-pantene-safety-gate-10011201"
+}

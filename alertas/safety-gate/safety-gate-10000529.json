@@ -1,0 +1,113 @@
+{
+ "id": "safety-gate-10000529",
+ "fuente": "safety-gate",
+ "idFuente": "10000529",
+ "referenciaOficial": "A12/00160/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000529",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Toyota · Celica, RAV4, Starlet and Yaris",
+ "nombreVisible": "Coche de pasajeros Toyota",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-01-29",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Celica, RAV4, Starlet and Yaris",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "- Model Year: 1997~1999",
+    "Celica: 199410002462 0006",
+    "Model code: AT200",
+    "ST202",
+    "ST204",
+    "RAV4: 199510002904 0019",
+    "Model code: SXA10",
+    "SXA11",
+    "SXA15",
+    "SXA16",
+    "Starlet: 199610000485 0010",
+    "Model code: EP91",
+    "Yaris: 199910000254 0001",
+    "Model code: SCP10"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros equipado con airbags Takata.",
+   "fechasTexto": "05/06/1997 - 31/08/1999 (RAV4)07/07/1997 - 19/07/1999 (Celica)15/10/1997 - 23/12/1998 (Starlet)18/09/1998 - 31/05/1999 (Yaris)"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El propulsor de nitrato de amonio utilizado en el inflador de airbag puede experimentar una alteración material a lo largo del tiempo debido a la degradación que ocurre después de una exposición prolongada a alta humedad absoluta, altas temperaturas y ciclos de alta temperatura. En el caso de que se despliegue una bolsa de aire, puede desplegarse demasiado lentamente o la presión interna excesiva puede hacer que el cuerpo del inflador se rompa y fragmentos de metal pueden pasar a través del material del cojín causando lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00160/20",
+   "mm:toyota:model-year-1997-1999",
+   "mm:toyota:celica-199410002462-0006",
+   "mm:toyota:model-code-at200",
+   "mm:toyota:st202",
+   "mm:toyota:st204",
+   "mm:toyota:rav4-199510002904-0019",
+   "mm:toyota:model-code-sxa10",
+   "mm:toyota:sxa11",
+   "mm:toyota:sxa15",
+   "mm:toyota:sxa16",
+   "mm:toyota:starlet-199610000485-0010",
+   "mm:toyota:model-code-ep91",
+   "mm:toyota:yaris-199910000254-0001",
+   "mm:toyota:model-code-scp10"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7f45e57e7561b40c"
+ },
+ "slug": "coche-de-pasajeros-toyota-safety-gate-10000529"
+}

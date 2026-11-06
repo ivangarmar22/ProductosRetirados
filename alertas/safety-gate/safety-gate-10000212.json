@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10000212",
+ "fuente": "safety-gate",
+ "idFuente": "10000212",
+ "referenciaOficial": "A12/00060/19",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000212",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB",
+ "nombreVisible": "Cargador USB",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2019-12-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Cargador USB",
+   "marcas": [],
+   "modelos": [
+    "DLM-01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Unidad de fuente de alimentación de la red de plástico blanco con dos puertos USB.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La resistencia eléctrica del producto y las distancias de separación/página en la placa de circuito impreso y entre los circuitos primario y secundario son insuficientes. En consecuencia, los puertos USB accesibles podrían volverse vivos, lo que aumenta el riesgo de que el usuario reciba una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión y la correspondiente norma europea 60950.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bélgica",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10001999",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00060/19"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3cbebbf41a22828f"
+ },
+ "slug": "cargador-usb-safety-gate-10000212"
+}

@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10009600",
+ "fuente": "safety-gate",
+ "idFuente": "10009600",
+ "referenciaOficial": "A12/01557/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009600",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Furgoneta de pasajeros/vehículo comercial ligero · Ford · Transit",
+ "nombreVisible": "Furgoneta de pasajeros/vehículo comercial ligero Ford",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-07-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Transit",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "FFD",
+    "e1*2007/46*1097*18-*19"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero equipado con motor híbrido enchufable",
+   "fechasTexto": "01.08.2022 - 01.03.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El coche no está equipado con un carril de protección para la batería de alto voltaje que puede llevar a que el paquete de baterías se dañe, lo que crea un riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10087598",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.fordtechservice.dealerconnection.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01557/23",
+   "mm:ford:ffd",
+   "mm:ford:e1-2007-46-1097-18-19"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "29d20e5b02dd31e8"
+ },
+ "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-ford-safety-gate-10009600"
+}

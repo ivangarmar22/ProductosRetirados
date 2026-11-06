@@ -1,0 +1,95 @@
+{
+ "id": "safety-gate-10006321",
+ "fuente": "safety-gate",
+ "idFuente": "10006321",
+ "referenciaOficial": "A12/00970/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006321",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camioneta de recogida · Ford · Ranger",
+ "nombreVisible": "Camioneta de recogida Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-07-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ranger",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e11*2007/46*0154*17",
+    "e5*2007/46*0080*00-*02",
+    "2AB"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camioneta de recogida",
+   "fechasTexto": "1.09. 2018 - 31.05.2019"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La carga pesada puede hacer que el diferencial trasero falle. El vehículo puede perder la conducción o las ruedas traseras pueden bloquearse, lo que aumenta el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Sudáfrica",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.etis.ford.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00970/22",
+   "mm:ford:e11-2007-46-0154-17",
+   "mm:ford:e5-2007-46-0080-00-02",
+   "mm:ford:2ab"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d3c41dab44e54e04"
+ },
+ "slug": "camioneta-de-recogida-ford-safety-gate-10006321"
+}

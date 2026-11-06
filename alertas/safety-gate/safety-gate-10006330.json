@@ -1,0 +1,95 @@
+{
+ "id": "safety-gate-10006330",
+ "fuente": "safety-gate",
+ "idFuente": "10006330",
+ "referenciaOficial": "A12/01007/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006330",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cafetera · Ikea, Metallisk",
+ "nombreVisible": "Cafetera Ikea, Metallisk",
+ "motivo": "Quemaduras, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-07-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Accesorios de cocina",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Cafetera",
+   "marcas": [
+    "Ikea, Metallisk"
+   ],
+   "modelos": [],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cafetera de robo inoxidable con una capacidad de 0,4L, con una válvula de seguridad de acero inoxidable plateado o gris. Todos los modelos de 2040 a 2204 son retirados. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "El material y la construcción de la válvula de seguridad de acero inoxidable no están adaptados para la fabricación de café. El producto puede explotar durante el uso, lo que puede provocar quemaduras y lesiones. El producto no cumple los requisitos de la Directiva general sobre seguridad de los productos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bulgaria",
+  "paisOrigen": "Suiza",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10056877",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www-ikea-bg.translate.goog/product-recall/?_x_tr_sl=bg&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=op,sc",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01007/22"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "8eb9397ff972b306"
+ },
+ "slug": "cafetera-ikea-metallisk-safety-gate-10006330"
+}

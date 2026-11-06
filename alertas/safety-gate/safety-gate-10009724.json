@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10009724",
+ "fuente": "safety-gate",
+ "idFuente": "10009724",
+ "referenciaOficial": "INFO/00102/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009724",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bicicleta de equilibrio · woom · woom ORIGINAL",
+ "nombreVisible": "Bicicleta de equilibrio woom",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-07-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Juguetes",
+  "normalizada": "juguetes"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "woom ORIGINAL",
+   "marcas": [
+    "woom"
+   ],
+   "modelos": [
+    "woom 1 (model year: 2018-2021)",
+    "woom 1PLUS (model year: 2018-2021)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Equilibre la bicicleta con un tornillo de color plateado en el vástago. Edad 18 a 54 meses.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El vástago de la bicicleta puede aflojarse o desprenderse, lo que puede causar una pérdida de capacidad de dirección. Esto puede conducir a caídas, lesiones. El producto no cumple los requisitos de la Directiva sobre seguridad general de los productos.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": "Polonia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10088862",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://hilfe.woombikes.com/article/1078-sicherheitshinweishttps://help.woombikes.com/article/1075-stem-safety-notice",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00102/23",
+   "mm:woom:woom-1-model-year-2018-2021",
+   "mm:woom:woom-1plus-model-year-2018-2021"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "70253e037f247875"
+ },
+ "slug": "bicicleta-de-equilibrio-woom-safety-gate-10009724"
+}

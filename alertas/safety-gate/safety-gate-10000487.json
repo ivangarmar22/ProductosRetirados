@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10000487",
+ "fuente": "safety-gate",
+ "idFuente": "10000487",
+ "referenciaOficial": "A11/00012/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000487",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Asiento de bicicleta para niños · Butchers & Bicycles · Child Seat for Two",
+ "nombreVisible": "Asiento de bicicleta para niños Butchers & Bicycles",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-01-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Artículos de puericultura y equipamiento infantil",
+  "normalizada": "infantil"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Child Seat for Two",
+   "marcas": [
+    "Butchers & Bicycles"
+   ],
+   "modelos": [
+    "Item N0. 0360"
+   ],
+   "lotes": [
+    {
+     "numero": "The affected units were sold between July 2018 and December 2019"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Asiento para niños para dos, para una bicicleta de carga MK1-E.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El asiento infantil puede romperse en la zona de montaje en caso de un frenado de emergencia o colisión. Esto puede hacer que el asiento se despegue parcial o totalmente de la caja de carga, lo que aumenta el riesgo de lesiones.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición temporal del suministro, ofrecimiento de suministro o exposición del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Dinamarca",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10004240",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10004241",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://butchersandbicycles.odoo.com/recall",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A11/00012/20",
+   "mm:butchers-bicycles:item-n0-0360",
+   "ml:butchers-bicycles:the-affected-units-were-sold-between-july-2018-and-december-2019"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3b750a59edccf87b"
+ },
+ "slug": "asiento-de-bicicleta-para-ninos-butchers-bicycles-safety-gate-10000487"
+}

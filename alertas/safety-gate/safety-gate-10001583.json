@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001583",
+ "fuente": "safety-gate",
+ "idFuente": "10001583",
+ "referenciaOficial": "A12/01007/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001583",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · VW · Golf",
+ "nombreVisible": "Coche de pasajeros VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-07-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Golf",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2007/46*2014*",
+    "Type: CD"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Golf 8 vehículos.",
+   "fechasTexto": "The affected vehicles were manufactured between 18 November and 11 May 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El servicio de llamadas de emergencia puede no estar funcionando. Como consecuencia de ello, el sistema no puede ayudar a los ocupantes del automóvil poniéndose en contacto con el centro de llamadas/centro de coordinación de rescate en caso de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01007/20",
+   "mm:vw:type-approval-number-e1-2007-46-2014",
+   "mm:vw:type-cd"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "2cc085698add8bb0"
+ },
+ "slug": "coche-de-pasajeros-vw-safety-gate-10001583"
+}

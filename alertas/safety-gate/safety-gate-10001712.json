@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10001712",
+ "fuente": "safety-gate",
+ "idFuente": "10001712",
+ "referenciaOficial": "A12/01105/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001712",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · C-Class, E-Class, GLC, AMG GT, EQC",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-07-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class, E-Class, GLC, AMG GT, EQC",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval numbers: e1*2001/116*0457*47-*49",
+    "e1*2007/46*1560*18-*19",
+    "e1*2001/116*0480*36-*37",
+    "e1*2007/46*1878*08-*09",
+    "Types: 204 K",
+    "R1ES",
+    "204 X",
+    "R1EAMG"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "The affected vehicles were manufactured between 24 January and 25 May 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El bloqueo del respaldo del asiento trasero del lado izquierdo no se ajusta a las especificaciones. Esto podría conducir a un fallo del sistema de bloqueo del respaldo del asiento en caso de accidente, aumentando el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01105/20",
+   "mm:mercedes-benz:type-approval-numbers-e1-2001-116-0457-47-49",
+   "mm:mercedes-benz:e1-2007-46-1560-18-19",
+   "mm:mercedes-benz:e1-2001-116-0480-36-37",
+   "mm:mercedes-benz:e1-2007-46-1878-08-09",
+   "mm:mercedes-benz:types-204-k",
+   "mm:mercedes-benz:r1es",
+   "mm:mercedes-benz:204-x",
+   "mm:mercedes-benz:r1eamg"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "f9f5b55a15008933"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10001712"
+}

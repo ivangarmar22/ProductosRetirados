@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10000508",
+ "fuente": "safety-gate",
+ "idFuente": "10000508",
+ "referenciaOficial": "A12/00140/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000508",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · VW · Tiguan, Touran",
+ "nombreVisible": "Coche de pasajeros VW",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-01-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Tiguan, Touran",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type approval number: e1*2001/116*0450*",
+    "e1*2001/116*0211*",
+    "Type: 5N",
+    "1T"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "10/10/2019 to 11/10/2019"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La pared del tanque de combustible no es lo suficientemente gruesa. En consecuencia, en caso de accidente, podría romperse y filtrar combustible aumentando el riesgo de incendio o explosión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00140/20",
+   "mm:vw:type-approval-number-e1-2001-116-0450",
+   "mm:vw:e1-2001-116-0211",
+   "mm:vw:type-5n"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "2844275ab5c148d8"
+ },
+ "slug": "coche-de-pasajeros-vw-safety-gate-10000508"
+}

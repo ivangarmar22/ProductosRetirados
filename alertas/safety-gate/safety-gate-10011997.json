@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10011997",
+ "fuente": "safety-gate",
+ "idFuente": "10011997",
+ "referenciaOficial": "A12/00735/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011997",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Arrancador de carga rápido · OSRAM · BATTERYstart 260",
+ "nombreVisible": "Arrancador de carga rápido OSRAM",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-03-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "BATTERYstart 260",
+   "marcas": [
+    "OSRAM"
+   ],
+   "modelos": [
+    "OBSL260",
+    "RPPL260"
+   ],
+   "lotes": [],
+   "ean": [
+    "4062172264341"
+   ],
+   "descripcion": "Ayuda inicial de la batería de litio 9000-mAh con una función de carga rápida para vehículos de 12V. Producto vendido en línea, en particular a través de eBay con el artículo número 256330022004.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El producto no podrá apagar el suministro eléctrico cuando esté en modo de espera. Cerca de una batería de iones de litio existe el riesgo de una avería térmica y un incendio. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10114600",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10114601",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10114602",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00735/24",
+   "ean:4062172264341",
+   "mm:osram:obsl260",
+   "mm:osram:rppl260"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "f8acc3ec975f45b1"
+ },
+ "slug": "arrancador-de-carga-rapido-osram-safety-gate-10011997"
+}

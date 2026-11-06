@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10010211",
+ "fuente": "safety-gate",
+ "idFuente": "10010211",
+ "referenciaOficial": "A12/02101/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10010211",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión de juguete · Sun Fun · Orange truck",
+ "nombreVisible": "Camión de juguete Sun Fun",
+ "motivo": "Atragantamiento",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-09-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Juguetes",
+  "normalizada": "juguetes"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Orange truck",
+   "marcas": [
+    "Sun Fun"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "41182"
+    }
+   ],
+   "ean": [
+    "4823037601752"
+   ],
+   "descripcion": "Camión grande de juguete de plástico naranja",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Atragantamiento"
+  ],
+  "tipoNormalizado": [
+   "asfixia"
+  ],
+  "descripcion": "El juguete tiene partes pequeñas (dos astillas de plástico) que pueden desprenderse fácilmente. Un niño pequeño puede ponerlos en la boca y ahogarse. El producto no cumple con los requisitos de la Directiva de seguridad de los juguetes ni con la norma europea EN 71-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Países Bajos",
+  "paisOrigen": "Ucrania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10093655",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10093656",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10093657",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10093658",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/02101/23",
+   "ean:4823037601752",
+   "ml:sun-fun:41182"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4d202a7550e41208"
+ },
+ "slug": "camion-de-juguete-sun-fun-safety-gate-10010211"
+}

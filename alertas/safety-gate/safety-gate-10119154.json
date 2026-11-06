@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10119154",
+ "fuente": "safety-gate",
+ "idFuente": "10119154",
+ "referenciaOficial": "SR/02779/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119154",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bolso de mano · Asda · ASDA Ladies’ Handbags",
+ "nombreVisible": "Bolso de mano Asda",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-01",
+  "publicacionWeb": null,
+  "modificacion": "2026-10-01"
+ },
+ "categoria": {
+  "literal": "Ropa, textiles y artículos de moda",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "ASDA Ladies’ Handbags",
+   "marcas": [
+    "Asda"
+   ],
+   "modelos": [
+    "Black Nylon Phone Bag - 1100258939001",
+    "Front Pocket Xbody Bag - 1100258937001",
+    "Opp Tote Bag - 1100260834001"
+   ],
+   "lotes": [],
+   "ean": [
+    "5059206286959",
+    "5059206491797"
+   ],
+   "descripcion": "Bolso negro, destinado a las mujeres.",
+   "fechasTexto": null,
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El material plástico del producto tiene una concentración excesiva de ftalato de bis(2-etilhexilo) (DEHP). Este ftalato puede dañar la salud al causar posibles daños al sistema reproductivo. El producto no cumple el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11237469",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://corporate.asda.com/product-recall-ladies-handbags",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02779/26",
+   "ean:5059206286959",
+   "ean:5059206491797",
+   "mm:asda:black-nylon-phone-bag-1100258939001",
+   "mm:asda:front-pocket-xbody-bag-1100258937001",
+   "mm:asda:opp-tote-bag-1100260834001"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "a7be2eb2e3f9b316"
+ },
+ "slug": "bolso-de-mano-asda-safety-gate-10119154"
+}

@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10005834",
+ "fuente": "safety-gate",
+ "idFuente": "10005834",
+ "referenciaOficial": "A12/00556/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005834",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta · Yamaha · MTN890, MTN890D, MTT890, MTT890D",
+ "nombreVisible": "Motocicleta Yamaha",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-04-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "MTN890, MTN890D, MTT890, MTT890D",
+   "marcas": [
+    "Yamaha"
+   ],
+   "modelos": [
+    "RN69",
+    "RN70",
+    "e13*168/2013*00867",
+    "e13*168/2013*00954"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "MTN890 = MT-09, MTN890D = MT-09SP, MTT890 = Tracer 9, MTT890D = Tracer9 GT",
+   "fechasTexto": "01.10.2020 - 31.01.2022"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Un error de programación en la unidad de control del motor puede provocar que la advertencia de mal funcionamiento del motor se encienda y el motor se apague. Como resultado, la respuesta del acelerador funcionará mal, aumentando el riesgo de accidente. El producto no cumple lo dispuesto en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.yamaha-motor.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00556/22",
+   "mm:yamaha:rn69",
+   "mm:yamaha:rn70",
+   "mm:yamaha:e13-168-2013-00867",
+   "mm:yamaha:e13-168-2013-00954"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "021693f97b7f5041"
+ },
+ "slug": "motocicleta-yamaha-safety-gate-10005834"
+}

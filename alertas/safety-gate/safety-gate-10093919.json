@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10093919",
+ "fuente": "safety-gate",
+ "idFuente": "10093919",
+ "referenciaOficial": "SR/01451/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093919",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Honda · CR-V E:HEV, CR-V E:PHEV",
+ "nombreVisible": "Coche de pasajeros Honda",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-04-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CR-V E:HEV, CR-V E:PHEV",
+   "marcas": [
+    "Honda"
+   ],
+   "modelos": [
+    "RS",
+    "e6*2018/858*00267*00-*02"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "01.04.2023 - 01.03.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "incendio"
+  ],
+  "descripcion": "Debido a una marca incorrecta, es posible que el sistema de conexión se haya instalado en el vehículo equivocado. En caso de colisión trasera, el sistema de conexión puede entrar en contacto con la unidad de potencia inteligente (UIP). Esto crea un riesgo de cortocircuito en la red de alto voltaje, lo que podría llevar al vehículo a incendiarse. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10956275",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10956276",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10956277",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/01451/25",
+   "mm:honda:e6-2018-858-00267-00-02"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "49eb1888f21e0911"
+ },
+ "slug": "coche-de-pasajeros-honda-safety-gate-10093919"
+}

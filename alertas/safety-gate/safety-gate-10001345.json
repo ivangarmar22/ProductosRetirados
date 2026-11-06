@@ -1,0 +1,87 @@
+{
+ "id": "safety-gate-10001345",
+ "fuente": "safety-gate",
+ "idFuente": "10001345",
+ "referenciaOficial": "A12/00824/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001345",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camioneta de recogida · Mazda · B-Series",
+ "nombreVisible": "Camioneta de recogida Mazda",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-05-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "B-Series",
+   "marcas": [
+    "Mazda"
+   ],
+   "modelos": [
+    "Type-approval number: Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos equipados con inflador de airbag Takata NADI. Serie modelo ONU; Gama de VIN: JMZ UN**** 0W 104841-121674.",
+   "fechasTexto": "The affected vehicles were manufactured between 1 February and 7 October 1999."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El propulsor de nitrato de amonio utilizado en el inflador de airbag puede experimentar una alteración material a lo largo del tiempo debido a la degradación que ocurre después de una exposición prolongada a alta humedad absoluta, altas temperaturas y ciclos de alta temperatura. En el caso de que se despliegue una bolsa de aire, puede subinflar o desplegar demasiado lentamente, o la presión interna excesiva puede hacer que el cuerpo del inflador se rompa y fragmentos de metal pueden pasar a través del material del cojín causando lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00824/20",
+   "mm:mazda:type-approval-number-individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5195cb629db6b187"
+ },
+ "slug": "camioneta-de-recogida-mazda-safety-gate-10001345"
+}

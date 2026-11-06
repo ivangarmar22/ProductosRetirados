@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10092843",
+ "fuente": "safety-gate",
+ "idFuente": "10092843",
+ "referenciaOficial": "SR/00461/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10092843",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Trituradora de hielo · Cashel Living",
+ "nombreVisible": "Trituradora de hielo Cashel Living",
+ "motivo": "Atragantamiento",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-01-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Accesorios de cocina",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Trituradora de hielo",
+   "marcas": [
+    "Cashel Living"
+   ],
+   "modelos": [
+    "600813A"
+   ],
+   "lotes": [
+    {
+     "numero": "PO00067691"
+    }
+   ],
+   "ean": [
+    "5397125188030"
+   ],
+   "descripcion": "Un dispositivo utilizado para triturar cubitos de hielo Producto vendido en línea a través de homestoreandmore.ie",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Atragantamiento"
+  ],
+  "tipoNormalizado": [
+   "asfixia"
+  ],
+  "descripcion": "El tornillo tiene una rosca débil que puede desprenderse del producto y caer en el hielo triturado. El tornillo entonces podría ser tragado por un usuario, que puede ahogarse en él. El producto no cumple el Reglamento sobre seguridad general de los productos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10945979",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.homestoreandmore.ie/useful-links/product-recalls.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00461/25",
+   "ean:5397125188030",
+   "mm:cashel-living:600813a",
+   "ml:cashel-living:po00067691"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c7922792dfecc08f"
+ },
+ "slug": "trituradora-de-hielo-cashel-living-safety-gate-10092843"
+}

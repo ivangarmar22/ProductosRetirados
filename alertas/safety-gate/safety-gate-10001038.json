@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10001038",
+ "fuente": "safety-gate",
+ "idFuente": "10001038",
+ "referenciaOficial": "A12/00684/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001038",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · O mee",
+ "nombreVisible": "Cargador USB O mee",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-04-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Cargador USB",
+   "marcas": [
+    "O mee"
+   ],
+   "modelos": [
+    "JJH-069"
+   ],
+   "lotes": [],
+   "ean": [
+    "3760264360698"
+   ],
+   "descripcion": "Cargador USB, 2 en 1, incluyendo un cargador de red y un cable de recarga/sincronización, -2A/10W.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento eléctrico es inadecuado en el circuito impreso y en el transformador. Las distancias entre los circuitos secundarios primarios y accesibles no son suficientes. El usuario podría recibir una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de baja tensión y la norma europea pertinente EN 60950-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10009715",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10009716",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00684/20",
+   "ean:3760264360698",
+   "mm:o-mee:jjh-069"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "1937c94ae0711df1"
+ },
+ "slug": "cargador-usb-o-mee-safety-gate-10001038"
+}

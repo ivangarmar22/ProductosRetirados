@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10000931",
+ "fuente": "safety-gate",
+ "idFuente": "10000931",
+ "referenciaOficial": "A12/00496/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000931",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Moto · Bmw · C 400 X, C 400 GT",
+ "nombreVisible": "Moto Bmw",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-03-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C 400 X, C 400 GT",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "- Model: C 400 X (K08)",
+    "C 400 GT (K09)",
+    "e1*168/2013*00062"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Moto",
+   "fechasTexto": "Between 08.03.2018 and 18.01.2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La posición de los cables Bowden en el agarre del acelerador permite que el agua se acumule en ellos. Al conducir a temperaturas por debajo del punto de congelación, los cables podrían volverse lentos o incluso congelarse, afectando el control del acelerador y aumentando el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00496/20",
+   "mm:bmw:model-c-400-x-k08",
+   "mm:bmw:c-400-gt-k09",
+   "mm:bmw:e1-168-2013-00062"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "572bc76fa0c4dec1"
+ },
+ "slug": "moto-bmw-safety-gate-10000931"
+}

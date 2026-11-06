@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10003305",
+ "fuente": "safety-gate",
+ "idFuente": "10003305",
+ "referenciaOficial": "A12/00323/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003305",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · C-Class",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval numbers: e1*2001/116*0431*31 to 46",
+    "e1*2001/116*0457*25 to 37",
+    "Types: 204",
+    "204 K"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos equipados con un motor de gasolina de cuatro cilindros. Serie de modelos: BR 205.",
+   "fechasTexto": "The affected vehicles were manufactured between 1 March 2014 and 28 February 2018."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La temperatura máxima de funcionamiento admisible de los diodos individuales en el puente rectificador del alternador podría superarse y los diodos podrían fallar posteriormente. En consecuencia, podría producirse un flujo incorrecto de corriente de la batería del sistema eléctrico a bordo a través del alternador a la tierra del vehículo. Como resultado, las bobinas en el estator alternador podrían calentarse de tal manera que no se pueda descartar un brote de fuego.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00323/21",
+   "mm:mercedes-benz:type-approval-numbers-e1-2001-116-0431-31-to-46",
+   "mm:mercedes-benz:e1-2001-116-0457-25-to-37",
+   "mm:mercedes-benz:types-204",
+   "mm:mercedes-benz:204-k"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "694b3234156b7070"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003305"
+}

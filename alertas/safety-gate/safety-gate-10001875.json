@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10001875",
+ "fuente": "safety-gate",
+ "idFuente": "10001875",
+ "referenciaOficial": "A12/01262/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001875",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Audi · A8, S8, S8+",
+ "nombreVisible": "Coche de pasajeros Audi",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-09-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A8, S8, S8+",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "Type-approval number: e1 * 2007/46 * 0284 *",
+    "e1*2007/46*0398*",
+    "Type: 4H"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "The affected vehicles were manufactured between June 2010 and July 2018."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El perfil de bobina de alambre utilizado en el sello del tanque del radiador puede deformarse debido a las temperaturas muy variables dentro del compartimiento del motor. Con el tiempo, y en condiciones desfavorables, esto podría hacer que el sello del radiador se suelte. Un sello del radiador suelto podría entrar en contacto con componentes calientes en el compartimiento del motor como resultado de las vibraciones durante la conducción. Esto podría llevar a que el sello y, potencialmente, los componentes vecinos comiencen a ahuyentarse, aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01262/20",
+   "mm:audi:type-approval-number-e1-2007-46-0284",
+   "mm:audi:e1-2007-46-0398",
+   "mm:audi:type-4h"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "2da95ac6500991de"
+ },
+ "slug": "coche-de-pasajeros-audi-safety-gate-10001875"
+}

@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10001433",
+ "fuente": "safety-gate",
+ "idFuente": "10001433",
+ "referenciaOficial": "A12/00958/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001433",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Almohadilla de luz · ART sensations · Light PAD LED",
+ "nombreVisible": "Almohadilla de luz ART sensations",
+ "motivo": "Quemaduras, Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-07-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Light PAD LED",
+   "marcas": [
+    "ART sensations"
+   ],
+   "modelos": [
+    "AR0904 (light pad)",
+    "DS6188EWE (power supply unit)"
+   ],
+   "lotes": [],
+   "ean": [
+    "8719747599754"
+   ],
+   "descripcion": "Luz PAD con tres niveles de brillo diferentes, suministrado con una fuente de alimentación separada.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "La distancia entre el circuito primario y secundario y el interior del transformador son inadecuadas, y el aislamiento no es suficiente. Por lo tanto, la unidad de alimentación suministrada con el producto plantea un riesgo de descarga eléctrica. El material de la carcasa del adaptador es inflamable, por lo que podría provocar quemaduras para el usuario o un incendio. El producto no cumple con los requisitos de la Directiva de baja tensión y la norma europea pertinente EN 60950-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10012659",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10012660",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10012661",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00958/20",
+   "ean:8719747599754",
+   "mm:art-sensations:ar0904-light-pad",
+   "mm:art-sensations:ds6188ewe-power-supply-unit"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b5c7512072b95689"
+ },
+ "slug": "almohadilla-de-luz-art-sensations-safety-gate-10001433"
+}

@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10001876",
+ "fuente": "safety-gate",
+ "idFuente": "10001876",
+ "referenciaOficial": "A12/01374/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001876",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador de batería · H · NiCd / NiMh Charger",
+ "nombreVisible": "Cargador de batería H",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-10-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "NiCd / NiMh Charger",
+   "marcas": [
+    "H"
+   ],
+   "modelos": [
+    "HW828D"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Entrada: 110-240VAC, 50/60Hz, IPX0, Clase II Salida 1: 4-5 celdas, 200mA Salida 2: 4-5 celdas, 200mA EAN: 4891088113121",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento eléctrico es inadecuado y las distancias entre los circuitos primarios y los circuitos secundarios accesibles no son suficientes. El usuario podría recibir una descarga eléctrica de piezas accesibles (en vivo). El producto no cumple con los requisitos de la Directiva de baja tensión y con la norma europea EN 60950-1 y con las normas SFS 5610 e IEC 60884-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10017184",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10017185",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10017186",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01374/20",
+   "mm:h:hw828d"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "01790ac8e73bb3f6"
+ },
+ "slug": "cargador-de-bateria-h-safety-gate-10001876"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10004269",
+ "fuente": "safety-gate",
+ "idFuente": "10004269",
+ "referenciaOficial": "A12/01198/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004269",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · C-Class",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-08-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2001/116*0457*52",
+    "Type: 204 K"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos híbridos enchufables de clase C, modelo serie 205.",
+   "fechasTexto": "The affected vehicles were manufactured between 1 and 22 December 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que la batería de alto voltaje no esté correctamente atornillada al cuerpo del vehículo en la zona de arranque. En consecuencia, podría separarse en caso de accidente, aumentando el riesgo de lesiones para los ocupantes del vehículo.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01198/21",
+   "mm:mercedes-benz:e1-2001-116-0457-52",
+   "mm:mercedes-benz:type-204-k"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "a4bd3f5a9443137c"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10004269"
+}

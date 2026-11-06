@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10097688",
+ "fuente": "safety-gate",
+ "idFuente": "10097688",
+ "referenciaOficial": "SR/00394/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097688",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bolsa de aseo · Cosmetic Club",
+ "nombreVisible": "Bolsa de aseo Cosmetic Club",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-02-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Ropa, textiles y artículos de moda",
+  "normalizada": "moda"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Bolsa de aseo",
+   "marcas": [
+    "Cosmetic Club"
+   ],
+   "modelos": [
+    "VO1234"
+   ],
+   "lotes": [],
+   "ean": [
+    "3561868912340"
+   ],
+   "descripcion": "Bolso de aseo de PVC, en varios colores. Todos los lotes se ven afectados.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El material plástico en la bolsa tiene una concentración excesiva de ftalato de bis(2-etilhexilo) (DEHP) (valor medido hasta el 11,8 % en peso). Este ftalato puede dañar la salud de los niños al causar posibles daños a su sistema reproductivo. El producto no cumple con el Reglamento REACH.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995444",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995445",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "http://rappel.conso.gouv.fr/fiche-rappel/2025-11-0064",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00394/26",
+   "ean:3561868912340",
+   "mm:cosmetic-club:vo1234"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5922695e72e4755f"
+ },
+ "slug": "bolsa-de-aseo-cosmetic-club-safety-gate-10097688"
+}

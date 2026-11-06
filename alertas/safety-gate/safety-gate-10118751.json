@@ -1,0 +1,117 @@
+{
+ "id": "safety-gate-10118751",
+ "fuente": "safety-gate",
+ "idFuente": "10118751",
+ "referenciaOficial": "SR/02547/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118751",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · SENZHEN · CHARGER",
+ "nombreVisible": "Cargador USB SENZHEN",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-09-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CHARGER",
+   "marcas": [
+    "SENZHEN"
+   ],
+   "modelos": [
+    "TC-41",
+    "TC41"
+   ],
+   "lotes": [
+    {
+     "numero": "19098"
+    }
+   ],
+   "ean": [
+    "5995858190988"
+   ],
+   "descripcion": "Juego de un cargador de batería blanco con un solo puerto USB-A, integrado con un enchufe de red, y un cable de carga Lightning blanco.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El producto carece de un aislamiento adecuado entre los circuitos primario y secundario. El puerto USB secundario y el cable conectado pueden activarse bajo tensión de red. En consecuencia, el usuario puede recibir una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Hungría",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11235133",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11235134",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11235135",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11235136",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02547/26",
+   "ean:5995858190988",
+   "mm:senzhen:tc-41",
+   "mm:senzhen:tc41",
+   "ml:senzhen:19098"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "8195c5ae2ddc9fcb"
+ },
+ "slug": "cargador-usb-senzhen-safety-gate-10118751"
+}

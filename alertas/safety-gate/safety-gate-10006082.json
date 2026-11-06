@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10006082",
+ "fuente": "safety-gate",
+ "idFuente": "10006082",
+ "referenciaOficial": "A12/00732/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006082",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · C-Class,",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-05-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class,",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "R2CS",
+    "R2CW",
+    "e1*2018/858*00016*01",
+    "e1*2018/858*00016*02",
+    "e1*2018/858*00017*01",
+    "e1*2018/858*00017*02"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "01.10.2021 - 30.11.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Una muesca errónea en el amortiguador de impacto puede provocar un fallo del sensor de tubo para el accionamiento de la campana activa. En caso de accidente, la campana activa para la protección de peatones puede levantarse demasiado tarde o no, lo que aumenta el riesgo de lesiones al peatón involucrado. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00732/22",
+   "mm:mercedes-benz:r2cs",
+   "mm:mercedes-benz:r2cw",
+   "mm:mercedes-benz:e1-2018-858-00016-01",
+   "mm:mercedes-benz:e1-2018-858-00016-02",
+   "mm:mercedes-benz:e1-2018-858-00017-01",
+   "mm:mercedes-benz:e1-2018-858-00017-02"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "cc667c735b4ab421"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006082"
+}

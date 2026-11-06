@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10096000",
+ "fuente": "safety-gate",
+ "idFuente": "10096000",
+ "referenciaOficial": "SR/03418/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096000",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Conjunto de lápices de colores · Primark · DTR Glow in the Dark Colouring Set",
+ "nombreVisible": "Conjunto de lápices de colores Primark",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-09-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Juguetes",
+  "normalizada": "juguetes"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "DTR Glow in the Dark Colouring Set",
+   "marcas": [
+    "Primark"
+   ],
+   "modelos": [
+    "0309401"
+   ],
+   "lotes": [],
+   "ean": [
+    "5397323864378"
+   ],
+   "descripcion": "Un juego de crayones que brilla en la oscuridad con un tema Nightmare Before Christmas, completo con hojas para colorear.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "La migración de estroncio y aluminio del juguete es demasiado alta (valores medidos: 5200 mg/kg y 3370 mg/kg, respectivamente). La ingestión o el contacto con una cantidad excesiva de estroncio puede dañar la salud de los niños al irritar su piel y afectar el desarrollo normal de su esqueleto. El aluminio es tóxico para los niños si se ingiere. El producto no cumple con los requisitos de la Directiva de Seguridad de Juguetes ni con la norma europea EN 71-3.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10977737",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.primark.com/help/s/article/Product-Safety-Recall---Glow-in-the-Dark-Pens?language=en",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03418/25",
+   "ean:5397323864378",
+   "mm:primark:0309401"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "391e163e378921e7"
+ },
+ "slug": "conjunto-de-lapices-de-colores-primark-safety-gate-10096000"
+}

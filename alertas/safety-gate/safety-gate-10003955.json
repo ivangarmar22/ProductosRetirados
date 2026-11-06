@@ -1,0 +1,108 @@
+{
+ "id": "safety-gate-10003955",
+ "fuente": "safety-gate",
+ "idFuente": "10003955",
+ "referenciaOficial": "A12/00897/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003955",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Pistola de masaje · HMS · Massage Gun",
+ "nombreVisible": "Pistola de masaje HMS",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-06-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Massage Gun",
+   "marcas": [
+    "HMS"
+   ],
+   "modelos": [
+    "PDM3125",
+    "Power charger : HC-122002"
+   ],
+   "lotes": [],
+   "ean": [
+    "5907695574234"
+   ],
+   "descripcion": "Pistola de masaje con un cargador de energía. Cargador de potencia Especificaciones eléctricas: entrada: 100-240VAC, 50/60 Hz de salida: 12VDC, 1A",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El cargador de potencia suministrado con la pistola de masaje presenta un riesgo de choque eléctrico porque el aislamiento no es suficiente y la distancia de arrastre entre el circuito primario y secundario no es suficiente. El producto no cumple los requisitos de la Directiva de baja tensión y de las normas europeas EN 60335-1 y EN 60335-2.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10031927",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10031928",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10031929",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10031930",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00897/21",
+   "ean:5907695574234",
+   "mm:hms:pdm3125",
+   "mm:hms:power-charger-hc-122002"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c7ba888a94e876c8"
+ },
+ "slug": "pistola-de-masaje-hms-safety-gate-10003955"
+}

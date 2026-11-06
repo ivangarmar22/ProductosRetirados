@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10003606",
+ "fuente": "safety-gate",
+ "idFuente": "10003606",
+ "referenciaOficial": "A12/00598/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003606",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · CLS, E-Class",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-26",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CLS, E-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2001/116*0501*35-*37",
+    "e1*2007/46*1560*09-*11",
+    "e1*2007/46*1818*01-*02",
+    "Types: 212",
+    "R1ES",
+    "R1ECLS"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos de clase e y CLS, modelos BR 213 y 257, equipados con un motor diésel de 4 cilindros OM654.",
+   "fechasTexto": "The affected vehicles were manufactured between 12 and 17 October 2018."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Las grietas podrían ocurrir en las líneas de alta presión entre el carril de combustible y los inyectores. Como resultado, el combustible diésel podría filtrarse en el compartimiento del motor, aumentando el riesgo de incendio. Además, debido a la fuga de combustible, el motor podría no arrancar, o podría activarse el modo de funcionamiento de emergencia.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00598/21",
+   "mm:mercedes-benz:e1-2001-116-0501-35-37",
+   "mm:mercedes-benz:e1-2007-46-1560-09-11",
+   "mm:mercedes-benz:e1-2007-46-1818-01-02",
+   "mm:mercedes-benz:types-212",
+   "mm:mercedes-benz:r1es",
+   "mm:mercedes-benz:r1ecls"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "54592550c7aa49d4"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003606"
+}

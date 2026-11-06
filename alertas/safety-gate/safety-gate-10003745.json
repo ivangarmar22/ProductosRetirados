@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10003745",
+ "fuente": "safety-gate",
+ "idFuente": "10003745",
+ "referenciaOficial": "A12/00773/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003745",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · E-Class, AMG GT",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-31",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "E-Class, AMG GT",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2001/116*0501*31 - *49",
+    "e1*2007/46*1560*04 - *22",
+    "e1*2007/46*1878*00 - *11",
+    "Types: 212",
+    "R1ES",
+    "R1EAMG"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos con motor de gasolina AMG y 4MATIC; Serie de modelos: Clase e (BR 213), AMG GT 4-Door Coupé (BR 290)",
+   "fechasTexto": "The affected vehicles were manufactured between 15 February 2017 and 27 November 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Debido a una conexión de tornillo defectuosa, el cable positivo del motor de arranque puede dañarse por los movimientos relativos del arrancador. En consecuencia, el cable podría entrar en contacto con la carcasa del arrancador y causar un cortocircuito, lo que podría conducir a un estancamiento del motor y un mayor riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00773/21",
+   "mm:mercedes-benz:e1-2001-116-0501-31-49",
+   "mm:mercedes-benz:e1-2007-46-1560-04-22",
+   "mm:mercedes-benz:e1-2007-46-1878-00-11",
+   "mm:mercedes-benz:types-212",
+   "mm:mercedes-benz:r1es",
+   "mm:mercedes-benz:r1eamg"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "04ba6dbfd4f50def"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003745"
+}

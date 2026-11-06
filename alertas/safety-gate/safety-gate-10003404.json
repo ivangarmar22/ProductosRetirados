@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10003404",
+ "fuente": "safety-gate",
+ "idFuente": "10003404",
+ "referenciaOficial": "A12/00490/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003404",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Neumático con clavos · Continental · IceContact 3",
+ "nombreVisible": "Neumático con clavos Continental",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-04-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "IceContact 3",
+   "marcas": [
+    "Continental"
+   ],
+   "modelos": [
+    "E4-30R-0287789"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Tipo: 205/60 R16 96 T; Números de serie: 1CP 03CWTP, 1720, 1CP 03CWTP 1820, 1CP 03CWTP 1920",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un error en el proceso de producción, los neumáticos podrían mostrar una pérdida de presión instantánea. Esto podría perjudicar el manejo del vehículo, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mynewsdesk.com/fi/continental-rengas-oy/pressreleases/continental-kaeynnistaeae-oma-aloitteisesti-vaihto-ohjelman-nastarenkaille-suomessa-ruotsissa-norjassa-ja-virossa-3070457",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00490/21",
+   "mm:continental:e4-30r-0287789"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0513c254ad2ff0cf"
+ },
+ "slug": "neumatico-con-clavos-continental-safety-gate-10003404"
+}

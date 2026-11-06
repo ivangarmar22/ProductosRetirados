@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10006784",
+ "fuente": "safety-gate",
+ "idFuente": "10006784",
+ "referenciaOficial": "INFO/00123/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006784",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Jarrón · Next · Blue Glass Vase",
+ "nombreVisible": "Jarrón Next",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-09-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Artículos de decoración",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Blue Glass Vase",
+   "marcas": [
+    "Next"
+   ],
+   "modelos": [
+    "351715"
+   ],
+   "lotes": [
+    {
+     "numero": "QE8606503QE8606516QE8608624"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Jarrón de vidrio azul",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El jarrón puede romperse espontáneamente, causando lesiones al usuario. El producto no cumple los requisitos de la Directiva general sobre seguridad de los productos.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10060616",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.next.ie/en/recall",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00123/22",
+   "mm:next:351715",
+   "ml:next:qe8606503qe8606516qe8608624"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "028a3e16b8f7f468"
+ },
+ "slug": "jarron-next-safety-gate-10006784"
+}

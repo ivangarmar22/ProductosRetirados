@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10097085",
+ "fuente": "safety-gate",
+ "idFuente": "10097085",
+ "referenciaOficial": "SR/04350/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097085",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Perfume · BI-ES · Viva La Vida",
+ "nombreVisible": "Perfume BI-ES",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-12-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Viva La Vida",
+   "marcas": [
+    "BI-ES"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "130620 742 13"
+    }
+   ],
+   "ean": [
+    "5907699488582"
+   ],
+   "descripcion": "Eau de parfum, destinado a mujeres, 100 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "De acuerdo con la lista de ingredientes, el producto contiene 2-(4-terc-butilbencil)propionaldehído (BMHCA), que está prohibido en los productos cosméticos. La BMHCA puede dañar el sistema reproductivo, dañar la salud del feto y causar sensibilización cutánea. El producto no cumple con el Reglamento de Productos Cosméticos",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Chequia",
+  "paisOrigen": "Polonia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10989008",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10989009",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/04350/25",
+   "ean:5907699488582",
+   "ml:bi-es:130620-742-13"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "db06d696a459c774"
+ },
+ "slug": "perfume-bi-es-safety-gate-10097085"
+}

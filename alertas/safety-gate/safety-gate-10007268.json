@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10007268",
+ "fuente": "safety-gate",
+ "idFuente": "10007268",
+ "referenciaOficial": "A12/01704/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10007268",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Scooter eléctrico · ZNEN / Modena · ZNEN e-Cruise",
+ "nombreVisible": "Scooter eléctrico ZNEN / Modena",
+ "motivo": "Quemaduras, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-12-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "ZNEN e-Cruise",
+   "marcas": [
+    "ZNEN / Modena"
+   ],
+   "modelos": [
+    "72V20AH"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Znen e-Cruise, scooter eléctrico con baterías de iones de litio ZM34.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Debido a la mala calidad de la celda de la batería, algunos grupos celulares entran en un estado de descarga profunda (muy bajo o cero voltios) durante un período de almacenamiento o uso. Esta descarga automática puede causar voltajes celulares asimétricos, aumentando el riesgo de quemaduras e incendios. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Hungría",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10065304",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10065305",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01704/22",
+   "mm:znen-modena:72v20ah"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "1dbdfec10703b8a6"
+ },
+ "slug": "scooter-electrico-znen-modena-safety-gate-10007268"
+}

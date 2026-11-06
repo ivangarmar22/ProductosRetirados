@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10010530",
+ "fuente": "safety-gate",
+ "idFuente": "10010530",
+ "referenciaOficial": "A12/03121/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10010530",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Calentador de agua eléctrico · TESY · TESY BILIGHT",
+ "nombreVisible": "Calentador de agua eléctrico TESY",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-12-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "TESY BILIGHT",
+   "marcas": [
+    "TESY"
+   ],
+   "modelos": [
+    "BILIGHT 120"
+   ],
+   "lotes": [
+    {
+     "numero": "2023070630"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Calentador de agua de almacenamiento eléctrico.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento básico del calentador de agua no tiene suficiente espacio libre. El usuario podría tocar partes en vivo accesibles, lo que puede causar una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con la norma europea EN 60335-2-21.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bulgaria",
+  "paisOrigen": "Bulgaria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10104527",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/03121/23",
+   "mm:tesy:bilight-120",
+   "ml:tesy:2023070630"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5bf37306f8f2c814"
+ },
+ "slug": "calentador-de-agua-electrico-tesy-safety-gate-10010530"
+}

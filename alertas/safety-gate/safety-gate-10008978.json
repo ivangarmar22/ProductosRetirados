@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10008978",
+ "fuente": "safety-gate",
+ "idFuente": "10008978",
+ "referenciaOficial": "A12/01525/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008978",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Perfume · REAL TIME",
+ "nombreVisible": "Perfume REAL TIME",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-06-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Perfume",
+   "marcas": [
+    "REAL TIME"
+   ],
+   "modelos": [
+    "Live surprise"
+   ],
+   "lotes": [
+    {
+     "numero": "B17091"
+    }
+   ],
+   "ean": [
+    "8715658360124"
+   ],
+   "descripcion": "EAU de perfum destinado a mujeres.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El producto contiene 2-(4-tert-butilbencil) propionaldehído (BMHCA), cuyo uso está prohibido en productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización de la piel. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10087502",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01525/23",
+   "ean:8715658360124",
+   "mm:real-time:live-surprise",
+   "ml:real-time:b17091"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "38ed6c0ad16266ed"
+ },
+ "slug": "perfume-real-time-safety-gate-10008978"
+}

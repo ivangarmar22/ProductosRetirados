@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001846",
+ "fuente": "safety-gate",
+ "idFuente": "10001846",
+ "referenciaOficial": "A12/01206/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001846",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · A-Class",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-09-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2007/46*1829*01-03",
+    "Type: F2A"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: BR 177",
+   "fechasTexto": "The affected vehicles were manufactured between 11 September 2017 and 10 February 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que la manguera de drenaje de agua condensada del sistema de aire acondicionado no esté correctamente instalada. En tal caso, el agua condensada del sistema de aire acondicionado podría entrar en el compartimiento de pasajeros del vehículo, terminando en los bastidores del lado del conductor y del pasajero y en el túnel central. Como resultado, cualquier componente eléctrico instalado allí podría ser corroído o sometido a cortocircuitos o corrientes de fuga. Como consecuencia, la unidad de control SRS podría dejar de funcionar, el vehículo puede no arrancar, el funcionamiento de emergencia del motor podría activarse durante la conducción y el funcionamiento de otros componentes (por ejemplo, la bomba de combustible, la llamada de emergencia automática/manual) podría verse afectado negativamente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01206/20",
+   "mm:mercedes-benz:type-approval-number-e1-2007-46-1829-01-03",
+   "mm:mercedes-benz:type-f2a"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e2179b11460c8ac4"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10001846"
+}

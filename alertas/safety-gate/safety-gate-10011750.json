@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10011750",
+ "fuente": "safety-gate",
+ "idFuente": "10011750",
+ "referenciaOficial": "A12/00218/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011750",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · GLE",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Medio ambiente, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-31",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "GLE",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "H1GLE",
+    "e1*2007/46*1885*12-*14"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "9.02.2021 – 29.12.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Medio ambiente",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Un perno en el cable de puesta a tierra de 12 voltios debajo del asiento del conductor puede aflojarse, lo que conduce a una mayor resistencia de contacto eléctrico en esa área. Las fuertes corrientes eléctricas que fluyen a través de ese punto podrían causar un aumento local de la temperatura, lo que lleva al fuego. Además, el aumento de la resistencia de contacto también puede desactivar la función de arranque/parada ECO, lo que da lugar a un aumento de las emisiones de escape. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10109501",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00218/24",
+   "mm:mercedes-benz:h1gle",
+   "mm:mercedes-benz:e1-2007-46-1885-12-14"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3b0226a99a909ac9"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10011750"
+}

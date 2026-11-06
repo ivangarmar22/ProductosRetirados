@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10009067",
+ "fuente": "safety-gate",
+ "idFuente": "10009067",
+ "referenciaOficial": "A12/01240/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009067",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camioneta de recogida · Dodge · RAM",
+ "nombreVisible": "Camioneta de recogida Dodge",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-05-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "RAM",
+   "marcas": [
+    "Dodge"
+   ],
+   "modelos": [
+    "DJ (2500)",
+    "D2 (3500)",
+    "Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camioneta de recogida",
+   "fechasTexto": "4.9.2019-19.11.2022"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Presión y calor que pueden acumularse dentro de la caja de cambios y causar fugas de aceite de transmisión. El aceite puede entrar en contacto con fuentes de encendido en el compartimiento del motor y causar un incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10083261",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10083262",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10083263",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01240/23",
+   "mm:dodge:dj-2500",
+   "mm:dodge:d2-3500",
+   "mm:dodge:individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e89090cbb995e03d"
+ },
+ "slug": "camioneta-de-recogida-dodge-safety-gate-10009067"
+}

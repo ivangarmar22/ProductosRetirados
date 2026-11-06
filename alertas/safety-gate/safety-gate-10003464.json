@@ -1,0 +1,92 @@
+{
+ "id": "safety-gate-10003464",
+ "fuente": "safety-gate",
+ "idFuente": "10003464",
+ "referenciaOficial": "A12/00444/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003464",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Toyota · Auris, Avensis, RAV4, Verso",
+ "nombreVisible": "Turismos Toyota",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Auris, Avensis, RAV4, Verso",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "e11*2001/116*0305*18 (Auris)",
+    "e11*2001/116*0331*08 (Avensis)",
+    "e6*2001/116*0105*14 (RAV4)",
+    "e11*2001/116*0350*09 (Verso)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Modelo (código de marco): Auris (WWE185), Avensis (WWT270, WWT271), RAV4 (WWA42), Verso (WAR20); Año de modelo: 2015~2018; Países de producción: Reino Unido (Auris, Avensis), Japón (RAV4), Turquía (Verso).",
+   "fechasTexto": "28/04/2015 - 04/05/2018 (Auris), 06/05/2015 - 04/05/2018 (Avensis), 12/06/2015 - 31/05/2018 (RAV4), 02/03/2015 - 09/11/2017 (Verso)."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Debido a una durabilidad insuficiente, el enfriador de recirculación de gases de escape (EGR) puede desarrollar una fuga de refrigerante interna que podría crear depósitos de moldeo dentro del refrigerador EGR y el colector de admisión. Esto puede dar lugar a daños térmicos localizados en el sistema de admisión, lo que podría conducir a la reducción de la potencia del motor y a un mayor riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00444/21",
+   "mm:toyota:e11-2001-116-0305-18-auris",
+   "mm:toyota:e11-2001-116-0331-08-avensis",
+   "mm:toyota:e6-2001-116-0105-14-rav4",
+   "mm:toyota:e11-2001-116-0350-09-verso"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3229105d1c47d732"
+ },
+ "slug": "turismos-toyota-safety-gate-10003464"
+}

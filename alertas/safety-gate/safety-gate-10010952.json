@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10010952",
+ "fuente": "safety-gate",
+ "idFuente": "10010952",
+ "referenciaOficial": "A12/02971/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10010952",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Mochila de airbag · Wedze · Airbag 30",
+ "nombreVisible": "Mochila de airbag Wedze",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-12-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de ocio y deporte",
+  "normalizada": "ocio"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Airbag 30",
+   "marcas": [
+    "Wedze"
+   ],
+   "modelos": [
+    "8603890",
+    "4144380"
+   ],
+   "lotes": [
+    {
+     "numero": "2022"
+    }
+   ],
+   "ean": [
+    "3608449812382"
+   ],
+   "descripcion": "Mochila de airbag. Vendido entre el 7 de diciembre de 2022 y el 16 de agosto de 2023. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El plegado incorrecto del producto puede aumentar el tiempo de inflación de la bolsa de aire, lo que provoca lesiones. El producto no cumple con el Reglamento sobre equipos de protección personal (EPP).",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Eslovaquia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10102863",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/12566/Interne",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/02971/23",
+   "ean:3608449812382",
+   "mm:wedze:8603890",
+   "mm:wedze:4144380",
+   "ml:wedze:2022"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "a2249d67e58e8a18"
+ },
+ "slug": "mochila-de-airbag-wedze-safety-gate-10010952"
+}

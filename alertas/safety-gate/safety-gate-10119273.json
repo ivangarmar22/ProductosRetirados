@@ -1,0 +1,113 @@
+{
+ "id": "safety-gate-10119273",
+ "fuente": "safety-gate",
+ "idFuente": "10119273",
+ "referenciaOficial": "SR/02897/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119273",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador · ROMADA · New Energy Charging Pile (EV Charger)",
+ "nombreVisible": "Cargador ROMADA",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-13",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-03"
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "New Energy Charging Pile (EV Charger)",
+   "marcas": [
+    "ROMADA"
+   ],
+   "modelos": [
+    "KQ02"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cable de carga con fuente de alimentación de montaje en pared.",
+   "fechasTexto": null,
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El conductor de puesta a tierra es más corto que los conductores portadores de corriente. Si el cable de alimentación se desliza fuera de su anclaje, la conexión a tierra podría, por lo tanto, desconectarse primero, mientras que los conductores vivos permanecen conectados. Esto podría dejar partes metálicas accesibles desenterradas y potencialmente vivas, aumentando el riesgo de descarga eléctrica. El producto no cumple los requisitos de la Directiva sobre equipos radioeléctricos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Destrucción del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "eBay(406785465955)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11238454",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11238455",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11238456",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02897/26",
+   "mm:romada:kq02"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "3bee314933d7811f"
+ },
+ "slug": "cargador-romada-safety-gate-10119273"
+}

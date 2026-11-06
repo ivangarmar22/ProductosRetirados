@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10003781",
+ "fuente": "safety-gate",
+ "idFuente": "10003781",
+ "referenciaOficial": "A12/00754/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003781",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · VW · Tiguan",
+ "nombreVisible": "Turismos VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Tiguan",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type: 5N",
+    "e1*2001/116*0450*00",
+    "*25 - *41",
+    "e1*2007/46*0487*00",
+    "*15 - *17"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 23 February 2016 and 14 March 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El mecanismo giratorio de la barra de remolque puede tener un perno de bloqueo defectuoso. Como resultado, el pin podría romperse mientras conduce, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00754/21",
+   "mm:vw:type-5n",
+   "mm:vw:e1-2001-116-0450-00",
+   "mm:vw:25-41",
+   "mm:vw:e1-2007-46-0487-00",
+   "mm:vw:15-17"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e1dec2f9a143ff0a"
+ },
+ "slug": "turismos-vw-safety-gate-10003781"
+}

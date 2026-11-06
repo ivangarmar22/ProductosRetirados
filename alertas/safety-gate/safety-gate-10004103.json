@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10004103",
+ "fuente": "safety-gate",
+ "idFuente": "10004103",
+ "referenciaOficial": "A12/01089/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004103",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Motocicleta · KTM · Super Adventure / Super Adventure S / Super Adventure R",
+ "nombreVisible": "Motocicleta KTM",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Super Adventure / Super Adventure S / Super Adventure R",
+   "marcas": [
+    "KTM"
+   ],
+   "modelos": [
+    "e1*168/2013*00274*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta",
+   "fechasTexto": "Model year: 2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El tapón de plástico de la manguera de drenaje del filtro de carbono puede fundirse por el calor que emana del escape y actuar como fuente de ignición. En consecuencia, pequeñas cantidades de combustible pueden escapar a través del tapón abierto o dañado y el plástico de fusión puede gotear sobre el colector de escape, aumentando el riesgo de incendio. El producto no cumple los requisitos de la Directiva sobre seguridad general de los productos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": "Austria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.ktm.com/de-de/service/Safety.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01089/21",
+   "mm:ktm:e1-168-2013-00274-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b381d9e2f07a4419"
+ },
+ "slug": "motocicleta-ktm-safety-gate-10004103"
+}

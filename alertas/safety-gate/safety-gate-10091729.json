@@ -1,0 +1,116 @@
+{
+ "id": "safety-gate-10091729",
+ "fuente": "safety-gate",
+ "idFuente": "10091729",
+ "referenciaOficial": "A12/03112/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10091729",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cortacésped · Honda · Miimo",
+ "nombreVisible": "Cortacésped Honda",
+ "motivo": "Cortes",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-11-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Maquinaria",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Miimo",
+   "marcas": [
+    "Honda"
+   ],
+   "modelos": [
+    "HRM1000",
+    "HRM1500",
+    "HRM2500",
+    "HRM4000"
+   ],
+   "lotes": [
+    {
+     "numero": "From MCJF-1000031 to MCJF-1005100 (HRM1000)From MCKF-1000010 to MCKF-1003129 (HRM1500)From MCLF-1000011 to MCLF-1003702 (HRM1500 Live)From MCMF-1000002 to MCMF-1001631 (HRM2500 )From MCMF-1001692 to MCMF-1002081 (HRM2500)From MCNF-1000046 to MCNF-1002691 (HRM2500 Live)From MCPF-1000050 to MCPF-1003289 (HRM4000 Live)"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Cortacésped robótico blanco.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Cortes"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "lesiones"
+  ],
+  "descripcion": "Un defecto de fabricación en el eje de montaje del sensor de obstrucción / elevación puede hacer que el sensor se atasque y no detecte obstáculos. Los usuarios o transeúntes, incluidos los niños, pueden cortarse mientras manejan el robot si el sensor de colisión / elevación deja de funcionar. El producto no cumple con los requisitos de la Directiva de Máquinas ni con las normas europeas EN 60335-1 y EN 50636-2-107.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10933276",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10933277",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10933278",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/03112/24",
+   "mm:honda:hrm1000",
+   "mm:honda:hrm1500",
+   "mm:honda:hrm2500",
+   "mm:honda:hrm4000",
+   "ml:honda:from-mcjf-1000031-to-mcjf-1005100-hrm1000-from-mckf-1000010-to-mckf-1003129-hrm1500-from-mclf-1000011-to-mclf-1003702-hrm1500-live-from-mcmf-1000002-to-mcmf-1001631-hrm2500-from-mcmf-1001692-to-mcmf-1002081-hrm2500-from-mcnf-1000046-to-mcnf-1002691-hrm2500-live-from-mcpf-1000050-to-mcpf-1003289-hrm4000-live"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "857a0d7b65bc7454"
+ },
+ "slug": "cortacesped-honda-safety-gate-10091729"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10002380",
+ "fuente": "safety-gate",
+ "idFuente": "10002380",
+ "referenciaOficial": "A12/01467/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002380",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mitsubishi · i-MiEV",
+ "nombreVisible": "Turismos Mitsubishi",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-11-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "i-MiEV",
+   "marcas": [
+    "Mitsubishi"
+   ],
+   "modelos": [
+    "e1*2007/46*0527*01",
+    "e1*2007/46*0527*00",
+    "e1*2007/46*0527*02"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Mitsubishi i-MiEV (HA3W, HA4W)",
+   "fechasTexto": "Model year: 2010-2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido al sellado inadecuado, el agua puede entrar en la bomba de vacío del freno, causando corrosión interna. Como resultado, la bomba de vacío de freno puede llegar a ser inoperable, lo que conduce a una menor asistencia de refuerzo de freno y una mayor distancia de parada.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01467/20",
+   "mm:mitsubishi:e1-2007-46-0527-01",
+   "mm:mitsubishi:e1-2007-46-0527-00",
+   "mm:mitsubishi:e1-2007-46-0527-02"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5a5278414ea16296"
+ },
+ "slug": "turismos-mitsubishi-safety-gate-10002380"
+}

@@ -1,0 +1,86 @@
+{
+ "id": "safety-gate-10005827",
+ "fuente": "safety-gate",
+ "idFuente": "10005827",
+ "referenciaOficial": "A12/00582/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005827",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Tesla · Model S",
+ "nombreVisible": "Turismos Tesla",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-04-26",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Model S",
+   "marcas": [
+    "Tesla"
+   ],
+   "modelos": [
+    "e4*2007/46*0667*##"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "2014 - 2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "En algunos vehículos Modelo S, el conjunto de cierre de la capucha delantera puede estar alineado demasiado hacia atrás. Si bien esta alineación no afecta el cierre del pestillo primario con el delantero de la campana, puede evitar el cierre del pestillo secundario. Si el cierre primario se suelta inadvertidamente y el cierre secundario no está activado, la campana puede abrirse sin previo aviso y obstruir la visibilidad del conductor, aumentando el riesgo de accidente. Si el cierre primario se libera inadvertidamente, el controlador recibirá una alerta en la interfaz de usuario. El producto no cumple lo dispuesto en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00582/22",
+   "mm:tesla:e4-2007-46-0667"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "faaee1a62668ca66"
+ },
+ "slug": "turismos-tesla-safety-gate-10005827"
+}

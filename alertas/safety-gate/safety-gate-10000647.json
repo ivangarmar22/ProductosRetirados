@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10000647",
+ "fuente": "safety-gate",
+ "idFuente": "10000647",
+ "referenciaOficial": "A12/00217/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000647",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Porsche · 911 Carrera",
+ "nombreVisible": "Coche de pasajeros Porsche",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "911 Carrera",
+   "marcas": [
+    "Porsche"
+   ],
+   "modelos": [
+    "Type-approval number: e13*2007/46*0992*",
+    "Type: 992"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación Porsche: AKC1.",
+   "fechasTexto": "The affected vehicles were manufactured between 26 February and 5 December 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un error de software en el dispositivo de control, es posible que las luces de advertencia de peligro no funcionen cuando se activan. Como resultado, el riesgo de un accidente aumentará.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00217/20",
+   "mm:porsche:type-approval-number-e13-2007-46-0992",
+   "mm:porsche:type-992"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "5ea5eb387d02c342"
+ },
+ "slug": "coche-de-pasajeros-porsche-safety-gate-10000647"
+}

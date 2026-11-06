@@ -1,0 +1,124 @@
+{
+ "id": "safety-gate-10097683",
+ "fuente": "safety-gate",
+ "idFuente": "10097683",
+ "referenciaOficial": "SR/00387/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097683",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador de batería · Jonköping",
+ "nombreVisible": "Cargador de batería Jonköping",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-02-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Cargador de batería",
+   "marcas": [
+    "Jonköping"
+   ],
+   "modelos": [
+    "DC18RD"
+   ],
+   "lotes": [
+    {
+     "numero": "11/2024"
+    }
+   ],
+   "ean": [
+    "6438168111568"
+   ],
+   "descripcion": "Cargador de batería enchufable de corriente alterna de clase II con salida DC accesible.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento entre las partes primarias activas y los conectores de salida DC accesibles no es adecuado. Por lo tanto, el usuario puede acceder a partes activas y recibir una descarga eléctrica. El producto no cumple con los requisitos de la Directiva de Baja Tensión ni con las normas europeas EN 60335-1 y 60335-2-29.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995426",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995427",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995428",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995429",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995430",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10995431",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.scandic.cc/site/pages/fi/tiedotteet.php",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00387/26",
+   "ean:6438168111568",
+   "mm:jonkoping:dc18rd",
+   "ml:jonkoping:11-2024"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "afec7306d1dd5aad"
+ },
+ "slug": "cargador-de-bateria-jonkoping-safety-gate-10097683"
+}

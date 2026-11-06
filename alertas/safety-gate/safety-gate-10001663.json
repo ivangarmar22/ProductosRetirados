@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10001663",
+ "fuente": "safety-gate",
+ "idFuente": "10001663",
+ "referenciaOficial": "A12/01038/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001663",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Moto · Kawasaki · NINJA ZX-10R, NINJA ZX-10RR",
+ "nombreVisible": "Moto Kawasaki",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-07-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "NINJA ZX-10R, NINJA ZX-10RR",
+   "marcas": [
+    "Kawasaki"
+   ],
+   "modelos": [
+    "e4*168/2013*00091",
+    "Type: ZXT02E"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Moto",
+   "fechasTexto": "Produced between 2019 and 2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Misprogamming de la unidad de control del motor (ECU) puede dar lugar a «tras-fuego» del motor a alta carga del motor y el uso simultáneo del Kawasaki Quick Shifter (KQS). Esto puede causar daños al motor y provocar incendios debido a la alta temperatura del gas de escape.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01038/20",
+   "mm:kawasaki:e4-168-2013-00091",
+   "mm:kawasaki:type-zxt02e"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3b61d19f3fde1517"
+ },
+ "slug": "moto-kawasaki-safety-gate-10001663"
+}

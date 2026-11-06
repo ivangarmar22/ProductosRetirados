@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10118453",
+ "fuente": "safety-gate",
+ "idFuente": "10118453",
+ "referenciaOficial": "SR/02181/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10118453",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión · Iveco · EUROCARGO",
+ "nombreVisible": "Camión Iveco",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-08-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "EUROCARGO",
+   "marcas": [
+    "Iveco"
+   ],
+   "modelos": [
+    "IG160EG2CA",
+    "IG150EW2CA",
+    "IG190EL2CA",
+    "e3*2007/46*0192*",
+    "e3*2007/46*0194*",
+    "e3*2007/46*0199*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Un camión.",
+   "fechasTexto": "04.09.2025 - 13.01.2026"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Las juntas esféricas de los tirantes pueden no haber sido tratadas térmicamente de acuerdo con las especificaciones, lo que perjudica el rendimiento de la dirección. Esto podría reducir el control del vehículo y aumentar el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11229243",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.iveco.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02181/26",
+   "mm:iveco:ig160eg2ca",
+   "mm:iveco:ig150ew2ca",
+   "mm:iveco:ig190el2ca",
+   "mm:iveco:e3-2007-46-0192",
+   "mm:iveco:e3-2007-46-0194",
+   "mm:iveco:e3-2007-46-0199"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "33ca93e148091dae"
+ },
+ "slug": "camion-iveco-safety-gate-10118453"
+}

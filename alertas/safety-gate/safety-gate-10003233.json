@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003233",
+ "fuente": "safety-gate",
+ "idFuente": "10003233",
+ "referenciaOficial": "A12/00273/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003233",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Ford · S-Max, Galaxy",
+ "nombreVisible": "Turismos Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-02-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "S-Max, Galaxy",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e13*2001/116*0185",
+    "Type: WA6"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 20 January 2015 and 18 February 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los pernos originales del brazo de control en la suspensión trasera son propensos a la corrosión, lo que puede causar que fallen. Como consecuencia de ello, el mando de dirección del vehículo se verá deteriorado, lo que aumentará el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00273/21",
+   "mm:ford:e13-2001-116-0185",
+   "mm:ford:type-wa6"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b1e486d19f055edc"
+ },
+ "slug": "turismos-ford-safety-gate-10003233"
+}

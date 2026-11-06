@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001267",
+ "fuente": "safety-gate",
+ "idFuente": "10001267",
+ "referenciaOficial": "A12/00760/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001267",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Tractor agrícola · CLAAS · Scorpion",
+ "nombreVisible": "Tractor agrícola CLAAS",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-05-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Scorpion",
+   "marcas": [
+    "CLAAS"
+   ],
+   "modelos": [
+    "Model: LT1",
+    "Type-approval number: e1*167/2013*00080"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Tractor agrícola",
+   "fechasTexto": "The vehicles concerned were manufactured between 13 July 2017 and 27 March 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Un ajuste defectuoso de la altura de la columna de dirección puede provocar un fallo de la función de dirección. Tal fracaso resultaría directamente en un mayor riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Austria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00760/20",
+   "mm:claas:model-lt1",
+   "mm:claas:type-approval-number-e1-167-2013-00080"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "21d7e7e5c7dc7d07"
+ },
+ "slug": "tractor-agricola-claas-safety-gate-10001267"
+}

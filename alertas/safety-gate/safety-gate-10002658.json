@@ -1,0 +1,86 @@
+{
+ "id": "safety-gate-10002658",
+ "fuente": "safety-gate",
+ "idFuente": "10002658",
+ "referenciaOficial": "A12/01792/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002658",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Seat · e-Mii",
+ "nombreVisible": "Coche de pasajeros Seat",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-12-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "e-Mii",
+   "marcas": [
+    "Seat"
+   ],
+   "modelos": [
+    "Chassis numbers: from VSS ZZZ AA Z L D 502721 to VSS ZZZ AA Z L D 503477"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros con motor eléctrico. Modelo del año 2020.",
+   "fechasTexto": "The affected vehicles were manufactured between 12 May and 18 June 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Las celdas de batería dañadas pueden causar un cortocircuito dentro de un módulo de batería debido a una fuga de electrolitos. Esto puede conducir a una sobrecarga térmica dentro de la batería, lo que aumenta el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "España",
+  "paisOrigen": "Eslovaquia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01792/20",
+   "mm:seat:chassis-numbers-from-vss-zzz-aa-z-l-d-502721-to-vss-zzz-aa-z-l-d-503477"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "abd3ea32fda71adf"
+ },
+ "slug": "coche-de-pasajeros-seat-safety-gate-10002658"
+}

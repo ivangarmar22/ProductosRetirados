@@ -1,0 +1,121 @@
+{
+ "id": "aemps-medicamentos-r-18-2025",
+ "fuente": "aemps-medicamentos",
+ "idFuente": "R_18/2025",
+ "referenciaOficial": "R_18/2025",
+ "urlOficial": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f817137ce&idFirma=3772525",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Retirada de LUDIOMIL 25 mg",
+ "nombreVisible": "LUDIOMIL 25 mg",
+ "motivo": "Detección de una impureza por encima de su límite establecido",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-06-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Medicamento registrado",
+  "normalizada": "medicamentos"
+ },
+ "publico": null,
+ "productos": [
+  {
+   "nombre": "LUDIOMIL 25 mg",
+   "marcas": [],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "F0016",
+     "caducidad": "2026-05-31",
+     "consumoPreferente": null,
+     "codigoNacional": "782409"
+    },
+    {
+     "numero": "F0017",
+     "caducidad": "2027-10-31",
+     "consumoPreferente": null,
+     "codigoNacional": "782409"
+    }
+   ],
+   "ean": [],
+   "registroAemps": "51648",
+   "descripcion": "MAPROTILINA HIDROCLORURO"
+  },
+  {
+   "nombre": "LUDIOMIL 75 mg",
+   "marcas": [],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "F0018",
+     "caducidad": "2026-03-31",
+     "consumoPreferente": null,
+     "codigoNacional": "991240"
+    }
+   ],
+   "ean": [],
+   "registroAemps": "55706",
+   "descripcion": "MAPROTILINA HIDROCLORURO"
+  }
+ ],
+ "riesgo": {
+  "tipos": [],
+  "tipoNormalizado": [
+   "calidad"
+  ],
+  "descripcion": "Detección de una impureza por encima de su límite establecido",
+  "nivelLiteral": "Clase 2",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba el número de lote de tu envase. Si no coincide, esta alerta no te afecta.",
+  "Si coincide, acude a tu farmacia para gestionar el cambio por un lote no afectado, o consulta con tu médico si es preciso."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": null,
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": "Cadena de distribución y dispensación"
+ },
+ "empresas": [
+  {
+   "rol": "titular",
+   "nombre": "AMDIPHARM LIMITED"
+  },
+  {
+   "rol": "fabricante",
+   "nombre": "CENEXI - 52 rue Marcel et Jacques Gaucher, Fontenay Souus Bois, 94120, Francia"
+  }
+ ],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f817137ce&idFirma=3772525",
+   "nombre": "Alerta oficial de la AEMPS"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:R_18/2025"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-incrustado",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "hashContenido": "285109117b7880d1"
+ },
+ "slug": "ludiomil-25-mg-aemps-medicamentos-r-18-2025"
+}

@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10003056",
+ "fuente": "safety-gate",
+ "idFuente": "10003056",
+ "referenciaOficial": "A12/00149/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003056",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · C-Class, EQC, GLC",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-02-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class, EQC, GLC",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type-approval numbers: e1*2001/116*0431*55-58",
+    "e1*2001/116*0457*46-49",
+    "e1*2001/116*0480*35-36",
+    "Types: 204",
+    "204 K",
+    "204 X"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: Clase C (BR 205), GLC (BR 253) y EQC (BR 293).",
+   "fechasTexto": "The affected vehicles were manufactured between 11 December 2019 and 18 May 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "El arnés de cableado para el dispositivo de control de dirección puede haber sido dañado durante el proceso de producción y puede permitir que la humedad entre en la unidad de control. Esto puede dar lugar a la pérdida de soporte de dirección eléctrico, lo que aumenta el riesgo de accidente. Además, puede ocurrir un cortocircuito del arnés de cableado dañado, lo que conlleva un mayor riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00149/21",
+   "mm:mercedes-benz:type-approval-numbers-e1-2001-116-0431-55-58",
+   "mm:mercedes-benz:e1-2001-116-0457-46-49",
+   "mm:mercedes-benz:e1-2001-116-0480-35-36",
+   "mm:mercedes-benz:types-204",
+   "mm:mercedes-benz:204-k",
+   "mm:mercedes-benz:204-x"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "36217c29505896c9"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003056"
+}

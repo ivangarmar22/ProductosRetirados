@@ -1,0 +1,116 @@
+{
+ "id": "safety-gate-10014176",
+ "fuente": "safety-gate",
+ "idFuente": "10014176",
+ "referenciaOficial": "A12/02404/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10014176",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Playmat · Taf toys · Foam mat",
+ "nombreVisible": "Playmat Taf toys",
+ "motivo": "Atragantamiento",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-09-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Juguetes",
+  "normalizada": "juguetes"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Foam mat",
+   "marcas": [
+    "Taf toys"
+   ],
+   "modelos": [
+    "12715 (Savannah)",
+    "13085 (Urban garden)"
+   ],
+   "lotes": [
+    {
+     "numero": "IN 0623IN 0723IN 0823IN 1023"
+    }
+   ],
+   "ean": [
+    "605566127156",
+    "605566130859"
+   ],
+   "descripcion": "Alfombra de espuma, destinada a niños pequeños, 150 x 200 cm, con una película impresa laminada sobre la espuma.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Atragantamiento"
+  ],
+  "tipoNormalizado": [
+   "asfixia"
+  ],
+  "descripcion": "La película de plástico que cubre la espuma puede desprenderse en trozos pequeños. Un niño pequeño puede ponerlos en la boca y asfixiarse. El producto no cumple los requisitos de la Directiva sobre la seguridad de los juguetes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Hong Kong",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10134720",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10134721",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/15448/Interne",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/02404/24",
+   "ean:605566127156",
+   "ean:605566130859",
+   "mm:taf-toys:12715-savannah",
+   "mm:taf-toys:13085-urban-garden",
+   "ml:taf-toys:in-0623in-0723in-0823in-1023"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7d6c000ac9dcdc8f"
+ },
+ "slug": "playmat-taf-toys-safety-gate-10014176"
+}

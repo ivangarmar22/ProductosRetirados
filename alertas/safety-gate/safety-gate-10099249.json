@@ -1,0 +1,106 @@
+{
+ "id": "safety-gate-10099249",
+ "fuente": "safety-gate",
+ "idFuente": "10099249",
+ "referenciaOficial": "SR/01745/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099249",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Enjuague bucal · Alodont Care · Gencives",
+ "nombreVisible": "Enjuague bucal Alodont Care",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-06-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Gencives",
+   "marcas": [
+    "Alodont Care"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "25218002"
+    }
+   ],
+   "ean": [
+    "3665490000250"
+   ],
+   "descripcion": "Enjuague bucal, 500 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano"
+  ],
+  "descripcion": "El producto está contaminado microbiológicamente con la bacteria Burkholderia, que puede causar enfermedades en algunos consumidores, particularmente aquellos con un sistema inmunológico debilitado. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11012175",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "http://rappel.conso.gouv.fr/fiche-rappel/2026-03-0018",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01745/26",
+   "ean:3665490000250",
+   "ml:alodont-care:25218002"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c60066a59f6fd157"
+ },
+ "slug": "enjuague-bucal-alodont-care-safety-gate-10099249"
+}

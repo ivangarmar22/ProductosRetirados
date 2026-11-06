@@ -1,0 +1,122 @@
+{
+ "id": "safety-gate-10119277",
+ "fuente": "safety-gate",
+ "idFuente": "10119277",
+ "referenciaOficial": "SR/02939/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119277",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión · Scania · G-SERIES, L-SERIES, P-SERIES, R-SERIES, S-SERIES",
+ "nombreVisible": "Camión Scania",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-15",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-05"
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "G-SERIES, L-SERIES, P-SERIES, R-SERIES, S-SERIES",
+   "marcas": [
+    "Scania"
+   ],
+   "modelos": [
+    "N323, N333",
+    "e4*2018/858*00098*07,* 09, *13",
+    "e4*2018/858*00100*13"
+   ],
+   "lotes": [
+    {
+     "numero": "03.01.2023 - 09.07.2025"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Camión.",
+   "fechasTexto": "03.01.2023 - 09.07.2025",
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Una grieta circunferencial puede desarrollarse en el flanco del neumático y extenderse durante el uso. Esto podría provocar una rápida pérdida de presión de los neumáticos, lo que afectaría a la estabilidad del vehículo y aumentaría el riesgo de accidente. El producto incumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Suecia",
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "SI"
+  ],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239136",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239137",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239138",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239139",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://til.scania.com/el/tmi",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02939/26",
+   "mm:scania:n323-n333",
+   "mm:scania:e4-2018-858-00098-07-09-13",
+   "mm:scania:e4-2018-858-00100-13",
+   "ml:scania:03-01-2023-09-07-2025"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "caf41b31b15bb9e8"
+ },
+ "slug": "camion-scania-safety-gate-10119277"
+}

@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10094001",
+ "fuente": "safety-gate",
+ "idFuente": "10094001",
+ "referenciaOficial": "SR/01461/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10094001",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Conjunto de cosméticos · IDC INSTITUTE · Secret Sories",
+ "nombreVisible": "Conjunto de cosméticos IDC INSTITUTE",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-04-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Secret Sories",
+   "marcas": [
+    "IDC INSTITUTE"
+   ],
+   "modelos": [
+    "88201"
+   ],
+   "lotes": [
+    {
+     "numero": "210530"
+    }
+   ],
+   "ean": [
+    "8436591921639"
+   ],
+   "descripcion": "Set de cosméticos compuesto por un gel de ducha de 50 ml y una loción corporal de 30 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene 2-(4-terc-butilbencil)propionaldehído (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización cutánea. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10956354",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10956355",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/01461/25",
+   "ean:8436591921639",
+   "mm:idc-institute:88201",
+   "ml:idc-institute:210530"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b5c5c3c6a602a022"
+ },
+ "slug": "conjunto-de-cosmeticos-idc-institute-safety-gate-10094001"
+}

@@ -1,0 +1,118 @@
+{
+ "id": "safety-gate-10099510",
+ "fuente": "safety-gate",
+ "idFuente": "10099510",
+ "referenciaOficial": "SR/02075/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099510",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Plomo de extensión · LIPWEL · Extension Lead",
+ "nombreVisible": "Plomo de extensión LIPWEL",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-07-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Extension Lead",
+   "marcas": [
+    "LIPWEL"
+   ],
+   "modelos": [
+    "DES-116"
+   ],
+   "lotes": [
+    {
+     "numero": "ZH-EU2025PC0001"
+    }
+   ],
+   "ean": [
+    "6978073614087"
+   ],
+   "descripcion": "Tira eléctrica blanca con seis tomas de corriente y un interruptor.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "El área de sección transversal del cable es insuficiente y los cables que se sueldan dentro del cable de alimentación pueden deteriorarse fácilmente, lo que conlleva el riesgo de un cortocircuito, lo que resulta en una descarga eléctrica y un riesgo de incendio. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Other(Temu: XU3531330)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11227550",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11227551",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11227552",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02075/26",
+   "ean:6978073614087",
+   "mm:lipwel:des-116",
+   "ml:lipwel:zh-eu2025pc0001"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "92593c893ef80795"
+ },
+ "slug": "plomo-de-extension-lipwel-safety-gate-10099510"
+}

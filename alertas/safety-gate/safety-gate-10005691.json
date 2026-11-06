@@ -1,0 +1,92 @@
+{
+ "id": "safety-gate-10005691",
+ "fuente": "safety-gate",
+ "idFuente": "10005691",
+ "referenciaOficial": "A12/00532/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005691",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Peugeot · 208",
+ "nombreVisible": "Turismos Peugeot",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-03-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "208",
+   "marcas": [
+    "Peugeot"
+   ],
+   "modelos": [
+    "U",
+    "e2*2007/46*0639*17"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "09.12.2021 - 10.12.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Las fijaciones en el eje trasero se aprietan con pares incorrectos. Esto puede provocar el aflojamiento de las conexiones, el deterioro del rendimiento de frenado, la pérdida de control sobre el vehículo e incluso la pérdida de una rueda, lo que pone en peligro el tráfico circundante. El producto no cumple lo dispuesto en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.peugeot.de/tools/pruefung-ihres-fahrzeugs-auf-rueckrufaktionen.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00532/22",
+   "mm:peugeot:e2-2007-46-0639-17"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "364e95e8c97d1500"
+ },
+ "slug": "turismos-peugeot-safety-gate-10005691"
+}

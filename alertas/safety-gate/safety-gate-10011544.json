@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10011544",
+ "fuente": "safety-gate",
+ "idFuente": "10011544",
+ "referenciaOficial": "A12/00030/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011544",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mazda · 3, CX-30, CX-90",
+ "nombreVisible": "Coche de pasajeros Mazda",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-09",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "3, CX-30, CX-90",
+   "marcas": [
+    "Mazda"
+   ],
+   "modelos": [
+    "e13*2007/46*2249*18",
+    "e13*2007/46*2249*19",
+    "e13*2007/46*2041*21",
+    "e13*2007/46*2041*22"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos Mazda 3 (BP), CX-30 (DM), CX-90 (KK) equipados con el monitor de visión trasera sujeto (con líneas de guía dinámicas)/360.º monitor de visión.",
+   "fechasTexto": "3 - 6.04.2023 - 23.08.2023CX-30 - 06.06.2023 - 2.09.2023CX-90 - 26.04.2023 - 23.08.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que las imágenes de las cámaras de visión delantera, lateral y trasera no aparezcan en el monitor central debido a una lógica de procesamiento inadecuada en el módulo de control de la cámara del monitor de visión. La pérdida de imágenes de la cámara cuando está en reversa o usando el monitor 360.º puede aumentar el riesgo de un accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106103",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106104",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106105",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00030/24",
+   "mm:mazda:e13-2007-46-2249-18",
+   "mm:mazda:e13-2007-46-2249-19",
+   "mm:mazda:e13-2007-46-2041-21",
+   "mm:mazda:e13-2007-46-2041-22"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ea9ad9c096b2b03e"
+ },
+ "slug": "coche-de-pasajeros-mazda-safety-gate-10011544"
+}

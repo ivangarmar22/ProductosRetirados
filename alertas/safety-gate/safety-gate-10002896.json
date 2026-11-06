@@ -1,0 +1,95 @@
+{
+ "id": "safety-gate-10002896",
+ "fuente": "safety-gate",
+ "idFuente": "10002896",
+ "referenciaOficial": "A12/00067/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002896",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · CITROEN · C-Zero",
+ "nombreVisible": "Turismos CITROEN",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Zero",
+   "marcas": [
+    "CITROEN"
+   ],
+   "modelos": [
+    "Type-approval numbers: e2*2007/46*0068*00 - *07",
+    "e2*2007/46*0157*00",
+    "Type: 1"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 11 October 2010 and 26 June 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Un componente interno de la bomba de vacío en el sistema de asistencia a la potencia de frenado podría estar defectuoso. Con el tiempo, esto podría dar lugar a una pérdida de asistencia de frenado, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Japón",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.citroen.de/zubehoer-service/instandhaltung-und-reparatur/pruefen-ihres-fahrzeuges-auf-rueckrufaktion.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00067/21",
+   "mm:citroen:type-approval-numbers-e2-2007-46-0068-00-07",
+   "mm:citroen:e2-2007-46-0157-00",
+   "mm:citroen:type-1"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b816d926ae3a78a0"
+ },
+ "slug": "turismos-citroen-safety-gate-10002896"
+}

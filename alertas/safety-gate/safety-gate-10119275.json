@@ -1,0 +1,111 @@
+{
+ "id": "safety-gate-10119275",
+ "fuente": "safety-gate",
+ "idFuente": "10119275",
+ "referenciaOficial": "SR/02963/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119275",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bicicleta eléctrica · URLIFE · Electric Bike",
+ "nombreVisible": "Bicicleta eléctrica URLIFE",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-16",
+  "publicacionWeb": null,
+  "modificacion": "2026-10-26"
+ },
+ "categoria": {
+  "literal": "Equipos de ocio y deporte",
+  "normalizada": "ocio"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Electric Bike",
+   "marcas": [
+    "URLIFE"
+   ],
+   "modelos": [
+    "T2"
+   ],
+   "lotes": [
+    {
+     "numero": "T2-BLACK-U, 179/196"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Bicicleta eléctrica con enchufe de pared y cargador.",
+   "fechasTexto": null,
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "No hay documentación técnica suficiente para el producto ni pruebas de control de la producción. A falta de pruebas que demuestren la conformidad del producto, podrá sobrecalentarse e incendiarse. Además, el producto se suministró con un tapón adicional de dos clavijas no conforme, lo que podría provocar sobrecalentamiento e incendio. El producto no cumple los requisitos de la Directiva sobre máquinas.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [
+   "SI"
+  ],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Other(Urlife-Office) / Amazon(B0H1Q21LGG)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239133",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239134",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02963/26",
+   "ml:urlife:t2-black-u-179-196"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "a894ad7b672c71c4"
+ },
+ "slug": "bicicleta-electrica-urlife-safety-gate-10119275"
+}

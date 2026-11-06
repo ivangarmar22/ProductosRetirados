@@ -1,0 +1,99 @@
+{
+ "id": "aemps-medicamentos-r-09-2022",
+ "fuente": "aemps-medicamentos",
+ "idFuente": "R_09/2022",
+ "referenciaOficial": "R_09/2022",
+ "urlOficial": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f810a7970&idFirma=2549647",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Retirada de SPIKEVAX, DISPERSION INYECTABLE",
+ "nombreVisible": "Spikevax, dispersion inyectable",
+ "motivo": "Presencia de un cuerpo extraño en el interior de un vial",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-04-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Medicamento registrado",
+  "normalizada": "medicamentos"
+ },
+ "publico": null,
+ "productos": [
+  {
+   "nombre": "SPIKEVAX, DISPERSION INYECTABLE",
+   "marcas": [],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "000190A",
+     "caducidad": "2022-07-01",
+     "consumoPreferente": null,
+     "codigoNacional": "730000"
+    }
+   ],
+   "ean": [],
+   "registroAemps": "1201507001",
+   "descripcion": "VACUNA DE ARNM FRENTE A COVID-19 (MODERNA) (PROVISIONAL)"
+  }
+ ],
+ "riesgo": {
+  "tipos": [],
+  "tipoNormalizado": [
+   "calidad"
+  ],
+  "descripcion": "Presencia de un cuerpo extraño en el interior de un vial",
+  "nivelLiteral": "Clase 1",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del mercado de todas las unidades distribuidas del lote afectado y devolución al laboratorio por los cauces habituales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba el número de lote de tu envase. Si no coincide, esta alerta no te afecta.",
+  "Si coincide, acude a tu farmacia para gestionar el cambio por un lote no afectado, o consulta con tu médico si es preciso."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": null,
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": "Cadena de distribución y dispensación"
+ },
+ "empresas": [
+  {
+   "rol": "titular",
+   "nombre": "MODERNA BIOTECH SPAIN, S.L."
+  },
+  {
+   "rol": "fabricante",
+   "nombre": "ROVI PHARMA INDUSTRIAL SERVICES S.A. - Paseo de Europa, 50, San Sebastian de los Reyes (Madrid), 28703, España"
+  }
+ ],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f810a7970&idFirma=2549647",
+   "nombre": "Alerta oficial de la AEMPS"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:R_09/2022"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-incrustado",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "hashContenido": "9165aa6d962316d0"
+ },
+ "slug": "spikevax-dispersion-inyectable-aemps-medicamentos-r-09-2022"
+}

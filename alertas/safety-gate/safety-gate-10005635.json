@@ -1,0 +1,113 @@
+{
+ "id": "safety-gate-10005635",
+ "fuente": "safety-gate",
+ "idFuente": "10005635",
+ "referenciaOficial": "INFO/00012/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005635",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vehículo comercial ligero · Toyota · Proace",
+ "nombreVisible": "Vehículo comercial ligero Toyota",
+ "motivo": "Medio ambiente",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-02-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Proace",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "VDS - VEAHK#",
+    "VEAHX#",
+    "VEEHZ#",
+    "VFAHK#",
+    "VFAHX#",
+    "VFEHZ#",
+    "VGAHK#",
+    "VGAHX#",
+    "from e2*2007/46*0537*06 to e2*2007/46*0537*14",
+    "from e2*2007/46*0538*10 to e2*2007/46*0538*16"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo comercial ligero",
+   "fechasTexto": "Production period from 09.07.2018 to 18.06.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Medio ambiente"
+  ],
+  "tipoNormalizado": [
+   "otros"
+  ],
+  "descripcion": "Debido a un error en el software específico para la calibración de la unidad electrónica de control del motor (ECU), se proporciona un valor incorrecto cuando los datos son procesados por el vehículo. El producto no cumple el Reglamento sobre la homologación de vehículos en lo que respecta a las emisiones de contaminantes con arreglo a los requisitos de combustible del motor y el Reglamento sobre la homologación de tipo de los vehículos de motor con respecto a las emisiones procedentes de turismos y vehículos comerciales ligeros (Euro 5 y Euro 6) y sobre el acceso a la información relativa a la reparación y el mantenimiento de los vehículos.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bulgaria",
+  "paisOrigen": "Bélgica",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10048083",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10048084",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00012/22",
+   "mm:toyota:vds-veahk",
+   "mm:toyota:veahx",
+   "mm:toyota:veehz",
+   "mm:toyota:vfahk",
+   "mm:toyota:vfahx",
+   "mm:toyota:vfehz",
+   "mm:toyota:vgahk",
+   "mm:toyota:vgahx",
+   "mm:toyota:from-e2-2007-46-0537-06-to-e2-2007-46-0537-14",
+   "mm:toyota:from-e2-2007-46-0538-10-to-e2-2007-46-0538-16"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "d43ae2f79aa46e0f"
+ },
+ "slug": "vehiculo-comercial-ligero-toyota-safety-gate-10005635"
+}

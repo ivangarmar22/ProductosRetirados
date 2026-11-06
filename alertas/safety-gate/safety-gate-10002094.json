@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10002094",
+ "fuente": "safety-gate",
+ "idFuente": "10002094",
+ "referenciaOficial": "A12/01334/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002094",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camioneta de recogida · VW · Amarok",
+ "nombreVisible": "Camioneta de recogida VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-10-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Amarok",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2007/46*0356*",
+    "Type: 2H"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "The affected vehicles were manufactured between 1 August 2016 and 1 June 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La cuerda de cabrestante que se utiliza para sujetar la rueda de repuesto debajo del vehículo y la correa adicional instalada como dispositivo de seguridad secundario pueden romperse. Esto puede hacer que la rueda de repuesto caiga sobre la carretera, lo que representa un riesgo para el siguiente tráfico.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01334/20",
+   "mm:vw:type-approval-number-e1-2007-46-0356",
+   "mm:vw:type-2h"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "64e32652c9248b94"
+ },
+ "slug": "camioneta-de-recogida-vw-safety-gate-10002094"
+}

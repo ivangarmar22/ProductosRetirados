@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10003059",
+ "fuente": "safety-gate",
+ "idFuente": "10003059",
+ "referenciaOficial": "A12/00152/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003059",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · S-Class",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-02-04",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "S-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2007/46*2115*01",
+    "Type: R2S"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos BR 223.",
+   "fechasTexto": "The affected vehicles were manufactured between 22 July and 21 December 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Las varillas internas utilizadas para la dirección del eje delantero pueden no estar destinadas al tipo de vehículo, por lo que podrían ser demasiado cortas. En tal caso, las varillas podrían ser dobladas o arrancadas en caso de una fuerza adicional y repentina. Esto perjudicaría la conducción del vehículo, lo que aumentaría el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00152/21",
+   "mm:mercedes-benz:e1-2007-46-2115-01",
+   "mm:mercedes-benz:type-r2s"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "06b18ffbcbc088d1"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003059"
+}

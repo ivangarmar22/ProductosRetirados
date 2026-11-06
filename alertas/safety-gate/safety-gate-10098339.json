@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10098339",
+ "fuente": "safety-gate",
+ "idFuente": "10098339",
+ "referenciaOficial": "SR/00941/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098339",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Arnés de escalada · Petzl · Canyon guide. Product sold online, in particular via https://www.petzl.com",
+ "nombreVisible": "Arnés de escalada Petzl",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-03-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de protección",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Canyon guide. Product sold online, in particular via https://www.petzl.com",
+   "marcas": [
+    "Petzl"
+   ],
+   "modelos": [
+    "C086BA00",
+    "C086BA01"
+   ],
+   "lotes": [
+    {
+     "numero": "23J9999999 999"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Arnés de barranquismo. Todos los números de lote anteriores a 23J9999999 999 se ven afectados. Producto vendido en línea, en particular a través de petzl.com",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El desgaste prematuro del tornillo en el punto de fijación ventral cerrado podría hacer que el punto de fijación se abra accidentalmente durante el uso. Esto podría llevar al usuario a caerse y sufrir lesiones graves o fatales. El producto no cumple con el Reglamento sobre equipos de protección individual (EPI).",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11002754",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.petzl.com/FR/fr/Professionnel/alertes-securite/2026-02-23/Alerte-securite-harnais-ASTRO-et-CANYON-GUIDE---remplacement-du-D-ventral",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00941/26",
+   "mm:petzl:c086ba00",
+   "mm:petzl:c086ba01",
+   "ml:petzl:23j9999999-999"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "850b63ff0617d9cd"
+ },
+ "slug": "arnes-de-escalada-petzl-safety-gate-10098339"
+}

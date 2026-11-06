@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10093070",
+ "fuente": "safety-gate",
+ "idFuente": "10093070",
+ "referenciaOficial": "SR/00569/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10093070",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Furgoneta de pasajeros / Vehículo comercial ligero · Ford · Transit",
+ "nombreVisible": "Furgoneta de pasajeros / Vehículo comercial ligero Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-02-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Transit",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e1*2007/46*1096*23 (FED)",
+    "e1*2007/46*1100*23 (FCD)",
+    "e5*2007/46*1033*07 (FBD)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
+   "fechasTexto": "26.09.2023 - 29.04.2024"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El eje trasero puede no estar suficientemente lubricado, dando lugar a un mal funcionamiento de los rodamientos de las ruedas que puede causar que las ruedas traseras se bloqueen. Esto puede provocar una pérdida de control del vehículo, aumentando el riesgo de accidentes y lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10946810",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.de/hilfe/r%C3%Bcckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/00569/25",
+   "mm:ford:e1-2007-46-1096-23-fed",
+   "mm:ford:e1-2007-46-1100-23-fcd",
+   "mm:ford:e5-2007-46-1033-07-fbd"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "63b93d4c83a7304c"
+ },
+ "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-ford-safety-gate-10093070"
+}

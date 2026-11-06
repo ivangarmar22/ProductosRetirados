@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10004385",
+ "fuente": "safety-gate",
+ "idFuente": "10004385",
+ "referenciaOficial": "A12/01281/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004385",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador · Hoco · hoco.accessory",
+ "nombreVisible": "Cargador Hoco",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-09-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "hoco.accessory",
+   "marcas": [
+    "Hoco"
+   ],
+   "modelos": [
+    "C11"
+   ],
+   "lotes": [],
+   "ean": [
+    "6957531047728"
+   ],
+   "descripcion": "Cargador de teléfono blanco; tensión nominal 100-240 VAC; frecuencia nominal 50/60 Hz; salida 5 VDC (corriente directa); corriente nominal (salida) 1,0 A; protección contra descargas eléctricas — clase II.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento del producto es inadecuado. El usuario podría recibir una descarga eléctrica de partes activas accesibles. El producto no cumple los requisitos de la Directiva de baja tensión y de la norma EN IEC 62368.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Lituania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10035938",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10035939",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10035940",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01281/21",
+   "ean:6957531047728",
+   "mm:hoco:c11"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c8757d8b76a4642c"
+ },
+ "slug": "cargador-hoco-safety-gate-10004385"
+}

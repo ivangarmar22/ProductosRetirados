@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10011868",
+ "fuente": "safety-gate",
+ "idFuente": "10011868",
+ "referenciaOficial": "A12/00413/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011868",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Crema para la cara · La canopé · Crème universelle",
+ "nombreVisible": "Crema para la cara La canopé",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-02-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Crème universelle",
+   "marcas": [
+    "La canopé"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "G132"
+    }
+   ],
+   "ean": [
+    "3770008236196"
+   ],
+   "descripcion": "Crema facial, 50 ml. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico"
+  ],
+  "descripcion": "El producto está microbiológicamente contaminado con bacterias mesófilas aeróbicas (valor medido del moho hasta 24 UFC/g y de levaduras > 120000 UFC/g). Si se usa en la piel dañada, o si entra en contacto con los ojos, el producto puede causar infección o irritación. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10110835",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/2023-10-0122",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00413/24",
+   "ean:3770008236196",
+   "ml:la-canope:g132"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "691bc8ddc92b4031"
+ },
+ "slug": "crema-para-la-cara-la-canope-safety-gate-10011868"
+}

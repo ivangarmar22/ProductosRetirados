@@ -1,0 +1,124 @@
+{
+ "id": "safety-gate-10005064",
+ "fuente": "safety-gate",
+ "idFuente": "10005064",
+ "referenciaOficial": "A12/01887/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005064",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Aspiradora de robot · TESVOR · S6 Robotic Vacuum",
+ "nombreVisible": "Aspiradora de robot TESVOR",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-12-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "S6 Robotic Vacuum",
+   "marcas": [
+    "TESVOR"
+   ],
+   "modelos": [
+    "S6 US-Variante (Netzteil mit US-Stecker",
+    "Typ A",
+    "NEMA-1)"
+   ],
+   "lotes": [
+    {
+     "numero": "SN TYxxUSTSS6xxxxxxxxxxxxxxxx where ‘x’ stands for alphanumeric characters (A-Z"
+    },
+    {
+     "numero": "0-9)"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Aspiradora robot. El producto se vende en línea, en particular a través de Amazon.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El producto se suministra con un conector no perteneciente a la UE (EE.UU.) con un adaptador peligroso; cuando se enchufa, las partes activas de alto voltaje son accesibles. Los pines del adaptador de la fuente de alimentación no están aislados. Los extremos del pasador no están correctamente redondeados ni cónicos. Como consecuencia, el usuario podría tocar partes activas y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10042647",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10042648",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10042649",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10042650",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10042651",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01887/21",
+   "mm:tesvor:s6-us-variante-netzteil-mit-us-stecker",
+   "mm:tesvor:typ-a",
+   "mm:tesvor:nema-1",
+   "ml:tesvor:sn-tyxxustss6xxxxxxxxxxxxxxxx-where-x-stands-for-alphanumeric-characters-a-z",
+   "ml:tesvor:0-9"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "bcd5db39830938d2"
+ },
+ "slug": "aspiradora-de-robot-tesvor-safety-gate-10005064"
+}

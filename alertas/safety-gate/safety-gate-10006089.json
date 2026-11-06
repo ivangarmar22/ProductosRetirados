@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10006089",
+ "fuente": "safety-gate",
+ "idFuente": "10006089",
+ "referenciaOficial": "A12/00901/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006089",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · CLS-Class, E-Class",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-06-29",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CLS-Class, E-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "R1ECLS",
+    "212",
+    "R1ES",
+    "R1EC",
+    "e1*2007/46*1818*15-*16",
+    "e1*2001/116*0501*52-*54",
+    "e1*2007/46*1560*25-*27",
+    "e1*2007/46*1666*22-*23"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros: Mercedes-Benz, Clase CLS (CLS 300 d 4MATIC) y Clase E (E 300 d 4MATIC)",
+   "fechasTexto": "15.09.2021 - 09.11.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La conexión de tornillo del conector de tierra de 48 V del compresor eléctrico refrigerante puede soltarse y conducir a una fijación incorrecta del cabezal del cable de la línea de tierra. Esto aumenta la resistencia al contacto eléctrico y puede hacer que la temperatura en el punto de conexión aumente, aumentando el riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00901/22",
+   "mm:mercedes-benz:r1ecls",
+   "mm:mercedes-benz:212",
+   "mm:mercedes-benz:r1es",
+   "mm:mercedes-benz:r1ec",
+   "mm:mercedes-benz:e1-2007-46-1818-15-16",
+   "mm:mercedes-benz:e1-2001-116-0501-52-54",
+   "mm:mercedes-benz:e1-2007-46-1560-25-27",
+   "mm:mercedes-benz:e1-2007-46-1666-22-23"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7377a579db5503ac"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006089"
+}

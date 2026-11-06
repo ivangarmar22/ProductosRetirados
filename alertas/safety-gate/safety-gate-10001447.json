@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10001447",
+ "fuente": "safety-gate",
+ "idFuente": "10001447",
+ "referenciaOficial": "INFO/00074/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001447",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Perfume · Chanel (counterfeit) · CHANCE (counterfeit)",
+ "nombreVisible": "Perfume Chanel (counterfeit)",
+ "motivo": "Otros riesgos para la salud",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-06-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CHANCE (counterfeit)",
+   "marcas": [
+    "Chanel (counterfeit)"
+   ],
+   "modelos": [
+    "Demonstration - Tester",
+    "Eau de tendre",
+    "Eau de Toilette",
+    "Vaporisateur - Spray"
+   ],
+   "lotes": [
+    {
+     "numero": "026323"
+    }
+   ],
+   "ean": [],
+   "descripcion": "100 ml de eau de toilette rosa, para ser utilizado como probador en tiendas y no para la venta.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Otros riesgos para la salud"
+  ],
+  "tipoNormalizado": [
+   "otros"
+  ],
+  "descripcion": "El producto es falsificado y carece de la evaluación obligatoria de la seguridad de la salud humana. En consecuencia, cuando se utiliza como licencia en el producto, podría conducir a efectos adversos para la salud. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Suspensión de la venta del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Chequia",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10011895",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10011896",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10011897",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00074/20",
+   "mm:chanel-counterfeit:demonstration-tester",
+   "mm:chanel-counterfeit:eau-de-tendre",
+   "mm:chanel-counterfeit:eau-de-toilette",
+   "mm:chanel-counterfeit:vaporisateur-spray",
+   "ml:chanel-counterfeit:026323"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "982330ce80746af2"
+ },
+ "slug": "perfume-chanel-counterfeit-safety-gate-10001447"
+}

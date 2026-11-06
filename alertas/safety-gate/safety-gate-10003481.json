@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10003481",
+ "fuente": "safety-gate",
+ "idFuente": "10003481",
+ "referenciaOficial": "INFO/00089/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003481",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Audi · A6, A7, A8, Q7, Q8",
+ "nombreVisible": "Turismos Audi",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-04-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A6, A7, A8, Q7, Q8",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "Types: F2",
+    "F8",
+    "4L",
+    "e1 * 2007/46 * 1801",
+    "e1 * 2007/46 * 1751",
+    "e1 * 2001/116 * 0350"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between July and September 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que se hayan instalado sensores de choque defectuosos para los sistemas de retención de bolsas de aire en ambas puertas delanteras. Esto podría perjudicar el efecto protector de los airbags laterales, los airbags de cabeza o los tensores de correa, aumentando el riesgo de lesiones en caso de accidente.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00089/21",
+   "mm:audi:types-f2",
+   "mm:audi:e1-2007-46-1801",
+   "mm:audi:e1-2007-46-1751",
+   "mm:audi:e1-2001-116-0350"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3aad7d534316cf33"
+ },
+ "slug": "turismos-audi-safety-gate-10003481"
+}

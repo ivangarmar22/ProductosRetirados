@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10000396",
+ "fuente": "safety-gate",
+ "idFuente": "10000396",
+ "referenciaOficial": "A12/00038/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000396",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador USB · Makant · Universal AC Adapter",
+ "nombreVisible": "Cargador USB Makant",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-01-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Universal AC Adapter",
+   "marcas": [
+    "Makant"
+   ],
+   "modelos": [
+    "Product Nr. 1154"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cargador USB en color gris y negro. Entrada: CA 100-230 V, 50/60 Hz; ¿qué es lo que dices? DC 5V, 10000 mA.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "Las distancias entre los circuitos secundarios primarios y accesibles no son suficientes. En consecuencia, los puertos USB accesibles podrían convertirse en activos, lo que podría provocar una descarga eléctrica si el usuario lo tocaba. El producto no cumple con los requisitos de la Directiva de Baja Tensión y la correspondiente norma europea EN 60950.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10002857",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10002858",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10002859",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00038/20",
+   "mm:makant:product-nr-1154"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ce55063525747e30"
+ },
+ "slug": "cargador-usb-makant-safety-gate-10000396"
+}

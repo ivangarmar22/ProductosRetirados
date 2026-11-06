@@ -1,0 +1,111 @@
+{
+ "id": "safety-gate-10119104",
+ "fuente": "safety-gate",
+ "idFuente": "10119104",
+ "referenciaOficial": "SR/02777/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119104",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Juguete magnético · JUST23 · Magnetic Sticks 61 pcs",
+ "nombreVisible": "Juguete magnético JUST23",
+ "motivo": "Atragantamiento, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-01",
+  "publicacionWeb": null,
+  "modificacion": "2026-10-09"
+ },
+ "categoria": {
+  "literal": "Juguetes",
+  "normalizada": "juguetes"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Magnetic Sticks 61 pcs",
+   "marcas": [
+    "JUST23"
+   ],
+   "modelos": [
+    "KBB-61"
+   ],
+   "lotes": [
+    {
+     "numero": "K20240A1"
+    }
+   ],
+   "ean": [
+    "5404037400836"
+   ],
+   "descripcion": "Juguete de palos magnéticos.",
+   "fechasTexto": null,
+   "envase": "Caja de plástico."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Atragantamiento",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "asfixia",
+   "lesiones"
+  ],
+  "descripcion": "El juguete tiene partes pequeñas (pequeños imanes en los palos) que pueden desprenderse fácilmente. Un niño pequeño puede ponerlos en la boca y ahogarse. Además, los imanes pequeños tienen un alto flujo magnético (valor medido de hasta 308 Kg2mm). Si un niño traga los imanes, podrían atraerse entre sí causando obstrucción intestinal o perforación. El producto no cumple los requisitos de la Directiva sobre seguridad de los juguetes ni la norma europea EN 71-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Países Bajos",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Bol.com()"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11237364",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11237365",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02777/26",
+   "ean:5404037400836",
+   "mm:just23:kbb-61",
+   "ml:just23:k20240a1"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "db8f95e2430f838c"
+ },
+ "slug": "juguete-magnetico-just23-safety-gate-10119104"
+}

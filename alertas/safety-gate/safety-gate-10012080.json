@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10012080",
+ "fuente": "safety-gate",
+ "idFuente": "10012080",
+ "referenciaOficial": "A12/00713/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10012080",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Secador de pelo · OOOOO · OOOOO Hairdryer",
+ "nombreVisible": "Secador de pelo OOOOO",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-03-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "OOOOO Hairdryer",
+   "marcas": [
+    "OOOOO"
+   ],
+   "modelos": [
+    "OO15HD"
+   ],
+   "lotes": [
+    {
+     "numero": "220221"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Secador de pelo negro.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "Las dimensiones del enchufe de red son demasiado pequeñas y el eslabón de fusibles es inadecuado. El usuario podría tocar partes vivas y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10114609",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.tkmaxx.ie/product-recalls",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00713/24",
+   "mm:ooooo:oo15hd",
+   "ml:ooooo:220221"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "989a2efee4f77fb0"
+ },
+ "slug": "secador-de-pelo-ooooo-safety-gate-10012080"
+}

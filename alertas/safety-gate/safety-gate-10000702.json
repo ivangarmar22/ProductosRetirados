@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10000702",
+ "fuente": "safety-gate",
+ "idFuente": "10000702",
+ "referenciaOficial": "A12/00346/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000702",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Mercedes-Benz · A-Class, B-Class, CLA",
+ "nombreVisible": "Coche de pasajeros Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-26",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A-Class, B-Class, CLA",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Model series: BR 176",
+    "BR 246",
+    "BR 117",
+    "Type-approval number: e1*2001/116*0470*15-*18",
+    "Type: 245 G"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Automóvil de pasajeros bajo el código de recuperación de Mercedes-Benz: 9190204.",
+   "fechasTexto": "The affected vehicles were manufactured between 28 August 2014 and 2 November 2017."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El sistema de clasificación de ocupantes del asiento delantero del pasajero no podrá calibrarse de acuerdo con las especificaciones. En consecuencia, un asiento para niños instalado puede identificarse como una persona o una persona pequeña y ligera como un asiento para niños. Como resultado, el airbag de pasajeros podría activarse a pesar de la presencia de un asiento para niños o el airbag de pasajero podría no activarse a pesar de la presencia de una persona en el asiento del pasajero, lo que aumenta el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00346/20",
+   "mm:mercedes-benz:model-series-br-176",
+   "mm:mercedes-benz:br-246",
+   "mm:mercedes-benz:br-117",
+   "mm:mercedes-benz:type-approval-number-e1-2001-116-0470-15-18",
+   "mm:mercedes-benz:type-245-g"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "a562535c4d76763f"
+ },
+ "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10000702"
+}

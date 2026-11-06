@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003634",
+ "fuente": "safety-gate",
+ "idFuente": "10003634",
+ "referenciaOficial": "A12/00649/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003634",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Fiat · 500",
+ "nombreVisible": "Turismos Fiat",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-10",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "500",
+   "marcas": [
+    "Fiat"
+   ],
+   "modelos": [
+    "e3*2018/858*00001*04",
+    "Type: FA1"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 25 February and 6 April 2021."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Se utiliza un material inadecuado para el bastidor de dirección del aparato de dirección. Esto podría dar lugar a una función de dirección restringida, aumentando el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00649/21",
+   "mm:fiat:e3-2018-858-00001-04",
+   "mm:fiat:type-fa1"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "a668f8200ca986e3"
+ },
+ "slug": "turismos-fiat-safety-gate-10003634"
+}

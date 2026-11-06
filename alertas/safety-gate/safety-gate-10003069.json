@@ -1,0 +1,86 @@
+{
+ "id": "safety-gate-10003069",
+ "fuente": "safety-gate",
+ "idFuente": "10003069",
+ "referenciaOficial": "A12/00165/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003069",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Kia · Sorento (MQ4), Sorento Hybrid (MQ4 HEV)",
+ "nombreVisible": "Turismos Kia",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-02-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Sorento (MQ4), Sorento Hybrid (MQ4 HEV)",
+   "marcas": [
+    "Kia"
+   ],
+   "modelos": [
+    "e4*2007/46*1530*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 19 June and 14 December 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El sistema eCall (transmitiendo el número de identificación del vehículo al centro de llamadas de emergencia) podría funcionar mal y no transmitir el número VIN del vehículo afectado cuando se haya desplegado un airbag. Esto puede causar un retraso en la intervención de rescate, dando lugar a un mayor riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bélgica",
+  "paisOrigen": "República de Corea",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00165/21",
+   "mm:kia:e4-2007-46-1530-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c08fefed083099bb"
+ },
+ "slug": "turismos-kia-safety-gate-10003069"
+}

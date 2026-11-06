@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10008371",
+ "fuente": "safety-gate",
+ "idFuente": "10008371",
+ "referenciaOficial": "A12/00659/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008371",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Spray de desodorante · BOROTALCO · Active",
+ "nombreVisible": "Spray de desodorante BOROTALCO",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-03-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Active",
+   "marcas": [
+    "BOROTALCO"
+   ],
+   "modelos": [
+    "R303897"
+   ],
+   "lotes": [
+    {
+     "numero": "0351-11:17 0351-11:18"
+    }
+   ],
+   "ean": [
+    "8002410043525"
+   ],
+   "descripcion": "Spray desodorante, 150 ml.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene butilfenilo metilpropional (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo y la salud del feto, así como causar sensibilización cutánea. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Rumanía",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076328",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076329",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076330",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00659/23",
+   "ean:8002410043525",
+   "mm:borotalco:r303897",
+   "ml:borotalco:0351-11-17-0351-11-18"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "48c64b7fd9173585"
+ },
+ "slug": "spray-de-desodorante-borotalco-safety-gate-10008371"
+}

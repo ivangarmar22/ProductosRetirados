@@ -1,0 +1,111 @@
+{
+ "id": "aemps-medicamentos-r-32-2023",
+ "fuente": "aemps-medicamentos",
+ "idFuente": "R_32/2023",
+ "referenciaOficial": "R_32/2023",
+ "urlOficial": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f813eb0de&idFirma=3134430",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Retirada de CO-BUCAL",
+ "nombreVisible": "Co-bucal",
+ "motivo": "Resultado fuera de especificaciones en el contenido de timol",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-11-14",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Medicamento registrado",
+  "normalizada": "medicamentos"
+ },
+ "publico": null,
+ "productos": [
+  {
+   "nombre": "CO-BUCAL",
+   "marcas": [],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "220001",
+     "caducidad": "2027-03-31",
+     "consumoPreferente": null,
+     "codigoNacional": "732453"
+    },
+    {
+     "numero": "220002",
+     "caducidad": "2027-03-31",
+     "consumoPreferente": null,
+     "codigoNacional": "732453"
+    },
+    {
+     "numero": "220003",
+     "caducidad": "2027-03-31",
+     "consumoPreferente": null,
+     "codigoNacional": "732453"
+    }
+   ],
+   "ean": [],
+   "registroAemps": "51383",
+   "descripcion": "ALUMINIO POTASIO SULFATO, LAUREL CEREZO AGUA, POTASIO CLORATO, PROCAINA HIDROCLORURO, SALICILICO ACIDO, TIMOL"
+  }
+ ],
+ "riesgo": {
+  "tipos": [],
+  "tipoNormalizado": [
+   "calidad"
+  ],
+  "descripcion": "Resultado fuera de especificaciones en el contenido de timol",
+  "nivelLiteral": "Clase 2",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba el número de lote de tu envase. Si no coincide, esta alerta no te afecta.",
+  "Si coincide, acude a tu farmacia para gestionar el cambio por un lote no afectado, o consulta con tu médico si es preciso."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": null,
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": "Cadena de distribución y dispensación"
+ },
+ "empresas": [
+  {
+   "rol": "titular",
+   "nombre": "BIOWISE PHARMACEUTICALS, S.L."
+  },
+  {
+   "rol": "fabricante",
+   "nombre": "LABORATORIUM SANITATIS, S.L. - Leonardo Da Vinci, 11. Parque Tecnologico de Alava, Miñano (Alava), 01510, España"
+  }
+ ],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f813eb0de&idFirma=3134430",
+   "nombre": "Alerta oficial de la AEMPS"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:R_32/2023"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-incrustado",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "hashContenido": "0f723650f6d1c213"
+ },
+ "slug": "co-bucal-aemps-medicamentos-r-32-2023"
+}

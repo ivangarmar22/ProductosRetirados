@@ -1,0 +1,93 @@
+{
+ "id": "safety-gate-10003628",
+ "fuente": "safety-gate",
+ "idFuente": "10003628",
+ "referenciaOficial": "A12/00620/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003628",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Neumático de coche · General Tire · LT 265/70 R 17 121Q TL GRABBER X³",
+ "nombreVisible": "Neumático de coche General Tire",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "LT 265/70 R 17 121Q TL GRABBER X³",
+   "marcas": [
+    "General Tire"
+   ],
+   "modelos": [
+    "E4- 0034499",
+    "Type: LT 265/70 R 17 121Q TL"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Neumático de automóvil, número de artículo: 04506200000",
+   "fechasTexto": "Calendar week 15/18"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los neumáticos no han sido fabricados de acuerdo con las especificaciones y pueden ser defectuosos. Esto podría dar lugar a una pérdida repentina de la presión del aire, dando lugar a una pérdida de control sobre el vehículo.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.generaltire.de/autoreifen/service/freiwillige-austauschprogramme/continental",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00620/21",
+   "mm:general-tire:e4-0034499",
+   "mm:general-tire:type-lt-265-70-r-17-121q-tl"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0fa46b6f69754fa5"
+ },
+ "slug": "neumatico-de-coche-general-tire-safety-gate-10003628"
+}

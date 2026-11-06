@@ -1,0 +1,92 @@
+{
+ "id": "safety-gate-10008071",
+ "fuente": "safety-gate",
+ "idFuente": "10008071",
+ "referenciaOficial": "A12/00486/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008071",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Automóvil de pasajeros, vehículo eléctrico de pila de combustible de hidrógeno · Hyundai · Nexo",
+ "nombreVisible": "Automóvil de pasajeros, vehículo eléctrico de pila de combustible de hidrógeno Hyundai",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-03-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Nexo",
+   "marcas": [
+    "Hyundai"
+   ],
+   "modelos": [
+    "FE",
+    "e9*2007/46*6592*"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "18.12.2017 - 5.10.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Los detectores de hidrógeno pueden funcionar mal y con el tiempo pueden no ser capaces de detectar fugas de hidrógeno, lo que aumenta el riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "República de Corea",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.hyundai.de/service-zubehoer/rueckrufaktionen/#/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00486/23",
+   "mm:hyundai:e9-2007-46-6592"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "e51c121c9fa8f39b"
+ },
+ "slug": "automovil-de-pasajeros-vehiculo-electrico-de-pila-de-combustible-de-hi-safety-gate-10008071"
+}

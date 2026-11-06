@@ -1,0 +1,114 @@
+{
+ "id": "safety-gate-10119443",
+ "fuente": "safety-gate",
+ "idFuente": "10119443",
+ "referenciaOficial": "SR/03072/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119443",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Alpina · BMW / ALPINA B3",
+ "nombreVisible": "Coche de pasajeros Alpina",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-27",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-05"
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "BMW / ALPINA B3",
+   "marcas": [
+    "Alpina"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "03.11.1998 - 24.08.2006"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "03.11.1998 - 24.08.2006",
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El propulsor de los airbags del conductor y del acompañante puede deteriorarse con el tiempo. Si los airbags se despliegan, podría resultar en fragmentos del inflador que lesionen a los ocupantes del vehículo. El producto incumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [
+   "FR"
+  ],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239998",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240009",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240014",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11240022",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.alpina-classic.com/rueckrufe/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03072/26",
+   "ml:alpina:03-11-1998-24-08-2006"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "8c9a3b0f3b4ff59c"
+ },
+ "slug": "coche-de-pasajeros-alpina-safety-gate-10119443"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "safety-gate-10001306",
+ "fuente": "safety-gate",
+ "idFuente": "10001306",
+ "referenciaOficial": "A12/00832/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001306",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Ford · Ranger, Everest",
+ "nombreVisible": "Coche de pasajeros Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-05-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ranger, Everest",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "Type-approval number: Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos equipados con inflador de airbag Takata NADI (Non-Azide Driver Inflator).",
+   "fechasTexto": "The affected vehicles were manufactured between 13 November 1998 and 30 September 1999."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El propulsor de nitrato de amonio utilizado en el inflador de airbag puede experimentar una alteración material a lo largo del tiempo debido a la degradación que ocurre después de una exposición prolongada a alta humedad absoluta, altas temperaturas y ciclos de alta temperatura. En el caso de que se despliegue una bolsa de aire, puede subinflar o desplegar demasiado lentamente, o la presión interna excesiva puede hacer que el cuerpo del inflador se rompa y fragmentos de metal pueden pasar a través del material del cojín causando lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido",
+  "paisOrigen": "Tailandia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00832/20",
+   "mm:ford:type-approval-number-individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9e104a1e127aa6d4"
+ },
+ "slug": "coche-de-pasajeros-ford-safety-gate-10001306"
+}

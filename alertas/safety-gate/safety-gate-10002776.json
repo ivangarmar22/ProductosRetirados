@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10002776",
+ "fuente": "safety-gate",
+ "idFuente": "10002776",
+ "referenciaOficial": "INFO/00001/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002776",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Autobús · Solaris · URBINO",
+ "nombreVisible": "Autobús Solaris",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-01-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "URBINO",
+   "marcas": [
+    "Solaris"
+   ],
+   "modelos": [
+    "e8*2007/46*0007",
+    "e8*2007/46*0008"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Autobús",
+   "fechasTexto": "2016 - 2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Es posible ver que la parte del techo que cubre los contenedores de GNC (gas natural comprimido) se pone en contacto con ellos durante el funcionamiento de los vehículos. Esto causa marcas en la parte de GNC que son claramente visibles.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Mejora de la cubierta del techo y sustitución del contenedor de GNC o cubierto con pintura de poliuretano",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Chequia",
+  "paisOrigen": "Polonia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00001/21",
+   "mm:solaris:e8-2007-46-0007",
+   "mm:solaris:e8-2007-46-0008"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "953b0330dd7a60c4"
+ },
+ "slug": "autobus-solaris-safety-gate-10002776"
+}

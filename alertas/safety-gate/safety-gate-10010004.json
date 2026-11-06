@@ -1,0 +1,110 @@
+{
+ "id": "safety-gate-10010004",
+ "fuente": "safety-gate",
+ "idFuente": "10010004",
+ "referenciaOficial": "A12/01813/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10010004",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Caldera, intercambiador de calor · Ferroli · BlueSense and BlueHelix gasboiler / heat exchanger",
+ "nombreVisible": "Caldera, intercambiador de calor Ferroli",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-02-29",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos de gas y componentes",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "BlueSense and BlueHelix gasboiler / heat exchanger",
+   "marcas": [
+    "Ferroli"
+   ],
+   "modelos": [
+    "BlueHelix",
+    "BlueSense"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Caldera de calefacción central, número de serie que comienza con 22 o 23 (año de producción 2022 y 2023).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico"
+  ],
+  "descripcion": "El agua que queda en la caldera de la fábrica puede hacer que la bacteria Legionella prolifere y produzca una biopelícula en el intercambiador de calor y tuberías. Esto puede conducir a la infección por Legionella de una ducha, por ejemplo, causando enfermedades graves o incluso la muerte. El producto no cumple el Reglamento sobre los aparatos que queman combustibles gaseosos (GAR).",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Países Bajos",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10090934",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10090935",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10090936",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10090937",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ferroli.com/nl/news/publiekswaarschuwing-vermoedelijke-legionella-besmetting#",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01813/23",
+   "mm:ferroli:bluehelix",
+   "mm:ferroli:bluesense"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9b4204929c43f5ca"
+ },
+ "slug": "caldera-intercambiador-de-calor-ferroli-safety-gate-10010004"
+}

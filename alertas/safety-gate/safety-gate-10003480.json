@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10003480",
+ "fuente": "safety-gate",
+ "idFuente": "10003480",
+ "referenciaOficial": "A12/00491/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003480",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Ford · Fiesta mHEV, Puma",
+ "nombreVisible": "Turismos Ford",
+ "motivo": "Quemaduras, Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-04-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Fiesta mHEV, Puma",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "Type: JHH",
+    "e9*2007/46*3142*14+*16"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "Puma: between 18 June 2020 and 4 November 2021; Fiesta: between 15 June 2020 and 3 November 2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La conexión a tierra de la batería de tracción no puede apretarse con el par correcto. Como resultado, podría perderse, dando lugar a un mayor riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00491/21",
+   "mm:ford:type-jhh",
+   "mm:ford:e9-2007-46-3142-14-16"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "b63b0d448788cc9a"
+ },
+ "slug": "turismos-ford-safety-gate-10003480"
+}

@@ -1,0 +1,124 @@
+{
+ "id": "safety-gate-10091877",
+ "fuente": "safety-gate",
+ "idFuente": "10091877",
+ "referenciaOficial": "A12/03159/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10091877",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Banco de energía · Ikea · VARMFRONT",
+ "nombreVisible": "Banco de energía Ikea",
+ "motivo": "Quemaduras, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-11-12",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "VARMFRONT",
+   "marcas": [
+    "Ikea"
+   ],
+   "modelos": [
+    "E2037 (705.556.47)",
+    "E20382 (105.556.45)"
+   ],
+   "lotes": [
+    {
+     "numero": "E2037: 2318"
+    },
+    {
+     "numero": "2319 and 2322E20382: 2313"
+    },
+    {
+     "numero": "2316"
+    },
+    {
+     "numero": "2318 and 2319"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Banco de energía USB azul y azul oscuro. Carga eléctrica de 10400 mAh y 5200 mAh. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Debido a las celdas de batería defectuosas utilizadas durante la producción, los bancos de energía pueden sobrecalentarse durante el uso, causando fusión y presentando un peligro de incendio. El usuario puede sufrir quemaduras. El producto no cumple los requisitos de la Directiva relativa a la seguridad general de los productos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "España",
+  "paisOrigen": "Suecia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10933985",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10933986",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ikea.com/es/es/customer-service/product-support/recalls/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/03159/24",
+   "mm:ikea:e2037-705-556-47",
+   "mm:ikea:e20382-105-556-45",
+   "ml:ikea:e2037-2318",
+   "ml:ikea:2319-and-2322e20382-2313",
+   "ml:ikea:2316",
+   "ml:ikea:2318-and-2319"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4dee2ca4ae849274"
+ },
+ "slug": "banco-de-energia-ikea-safety-gate-10091877"
+}

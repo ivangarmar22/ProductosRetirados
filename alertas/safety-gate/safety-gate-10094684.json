@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10094684",
+ "fuente": "safety-gate",
+ "idFuente": "10094684",
+ "referenciaOficial": "SR/02144/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10094684",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vehículo todo terreno · Polaris · Ranger",
+ "nombreVisible": "Vehículo todo terreno Polaris",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-09-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ranger",
+   "marcas": [
+    "Polaris"
+   ],
+   "modelos": [
+    "TP30",
+    "e8*167/2013*00003*13"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Quad (lado a lado).",
+   "fechasTexto": "03.08.2022 - 03.03.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Puede producirse una grieta en un componente del sistema de carga del vehículo, lo que permite que el agua entre en contacto con los componentes de alta tensión del arnés de cables del cargador. En este caso, puede ocurrir un cortocircuito durante el proceso de carga que causaría un incendio y crearía el riesgo de lesiones graves. El producto no cumple los requisitos establecidos en el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos agrícolas y forestales.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Polonia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10963722",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.polaris.com/en-us/recalls/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02144/25",
+   "mm:polaris:tp30",
+   "mm:polaris:e8-167-2013-00003-13"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7c53b90cf66ac15d"
+ },
+ "slug": "vehiculo-todo-terreno-polaris-safety-gate-10094684"
+}

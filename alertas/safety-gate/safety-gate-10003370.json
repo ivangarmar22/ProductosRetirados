@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003370",
+ "fuente": "safety-gate",
+ "idFuente": "10003370",
+ "referenciaOficial": "A12/00389/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003370",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Jeep · Wrangler",
+ "nombreVisible": "Coche de pasajeros Jeep",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Wrangler",
+   "marcas": [
+    "Jeep"
+   ],
+   "modelos": [
+    "Type-approval number: e4*2001/116*0116*30",
+    "Type: ACE"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "The affected vehicles were manufactured between 1 February 2019 and 11 September 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El arnés de cableado del bloqueo electrónico de columna de dirección (ESL) puede entrar en contacto con el eje de la columna de dirección durante los movimientos de dirección. Esto puede resultar en abrasión del cable y, con el tiempo, daños en los cables. Como consecuencia, puede perderse la potencia de propulsión o la dirección asistida, lo que aumenta el riesgo de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00389/21",
+   "mm:jeep:type-approval-number-e4-2001-116-0116-30",
+   "mm:jeep:type-ace"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "2b2b6a4d901f2521"
+ },
+ "slug": "coche-de-pasajeros-jeep-safety-gate-10003370"
+}

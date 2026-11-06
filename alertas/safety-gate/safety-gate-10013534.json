@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10013534",
+ "fuente": "safety-gate",
+ "idFuente": "10013534",
+ "referenciaOficial": "A12/01705/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10013534",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Peugeot · 508, 3008",
+ "nombreVisible": "Coche de pasajeros Peugeot",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-07-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "508, 3008",
+   "marcas": [
+    "Peugeot"
+   ],
+   "modelos": [
+    "e2*2007/46*0534*04",
+    "*11-*16 (M)",
+    "e2*2007/46*0628*05-*11 (F)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "12.03.2019 - 28.04.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El software de la unidad de control de gestión de la batería no puede detectar ciertos modos de fallo en la batería En los vehículos afectados puede haber un defecto en la batería de alto voltaje, lo que podría provocar un sobrecalentamiento. Esto aumenta el riesgo de incendio en el vehículo. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10127417",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10127418",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.peugeot.de/tools/pruefung-ihres-fahrzeugs-auf-rueckrufaktionen.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01705/24",
+   "mm:peugeot:e2-2007-46-0534-04",
+   "mm:peugeot:11-16-m",
+   "mm:peugeot:e2-2007-46-0628-05-11-f"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "f56f4e7af0b937f8"
+ },
+ "slug": "coche-de-pasajeros-peugeot-safety-gate-10013534"
+}

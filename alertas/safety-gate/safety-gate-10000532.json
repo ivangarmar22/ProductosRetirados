@@ -1,0 +1,114 @@
+{
+ "id": "safety-gate-10000532",
+ "fuente": "safety-gate",
+ "idFuente": "10000532",
+ "referenciaOficial": "A12/00159/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000532",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Amoladora de ángulo · SIPLEC · SPILEC S1M – KZ22 – 115W",
+ "nombreVisible": "Amoladora de ángulo SIPLEC",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-01-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Maquinaria",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "SPILEC S1M – KZ22 – 115W",
+   "marcas": [
+    "SIPLEC"
+   ],
+   "modelos": [
+    "S1M-KZ2-115W"
+   ],
+   "lotes": [
+    {
+     "numero": "42501660"
+    },
+    {
+     "numero": "Year of production 2018"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Amoladora angular eléctrica.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El protector de disco no proporciona suficiente protección contra las partículas voladoras en caso de rotura del disco de molienda. Como resultado, las piezas voladoras descontroladas pueden causar lesiones al usuario. El producto no cumple con los requisitos de la Directiva de Maquinaria y de la correspondiente norma europea EN 60745.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Eslovenia",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10004252",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10004253",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10004254",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.e-leclerc.si/novice/27730",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00159/20",
+   "mm:siplec:s1m-kz2-115w",
+   "ml:siplec:42501660",
+   "ml:siplec:year-of-production-2018"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9354586264064ace"
+ },
+ "slug": "amoladora-de-angulo-siplec-safety-gate-10000532"
+}

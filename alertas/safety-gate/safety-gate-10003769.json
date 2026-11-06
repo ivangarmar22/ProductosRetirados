@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10003769",
+ "fuente": "safety-gate",
+ "idFuente": "10003769",
+ "referenciaOficial": "A12/01112/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003769",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vehículo comercial ligero · Iveco · Daily",
+ "nombreVisible": "Vehículo comercial ligero Iveco",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-07-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Daily",
+   "marcas": [
+    "Iveco"
+   ],
+   "modelos": [
+    "Models: IS35CC2AA IS35CI2AA IS35SC2AA IS35SI2AA IS36SC2AA IS52CC2AA IS52CI2AA IS52CI2BA IS56AC2DA IS56CC2BA IS70CC2BA IS70CI2BA",
+    "Type-approval numbers: e3*2007/46*0168*13 e3*2007/46*0115*12 e3*2007/46*0120*15 e3*2007/46*0120*14 e3*2007/46*0120*17 e3*2007/46*0119*15 e3*2007/46*0123*12 e3*2007/46*0119*17 e3*2007/46*0118*15",
+    "e3*2007/46*0116*14 e3*2007/46*0117*14 e3*2007/46*0118*17",
+    "e3*2007/46*0118*14 e3*2007/46*0122*14 e3*2007/46*0122*15 e3*2007/46*0117*13 e3*2007/46*0115*13 e3*2007/46*0152*13 e3*2007/46*0151*13 e3*2007/46*0151*12"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo comercial ligero",
+   "fechasTexto": "19/04/2019 to 30/10/2019"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un software defectuoso, es posible que el estado del airbag del pasajero no se muestre correctamente. Como resultado, la función airbag puede ser desactivada sin el conocimiento de los ocupantes, aumentando el riesgo de lesiones en caso de accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.iveco.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01112/21",
+   "mm:iveco:models-is35cc2aa-is35ci2aa-is35sc2aa-is35si2aa-is36sc2aa-is52cc2aa-is52ci2aa-is52ci2ba-is56ac2da-is56cc2ba-is70cc2ba-is70ci2ba",
+   "mm:iveco:type-approval-numbers-e3-2007-46-0168-13-e3-2007-46-0115-12-e3-2007-46-0120-15-e3-2007-46-0120-14-e3-2007-46-0120-17-e3-2007-46-0119-15-e3-2007-46-0123-12-e3-2007-46-0119-17-e3-2007-46-0118-15",
+   "mm:iveco:e3-2007-46-0116-14-e3-2007-46-0117-14-e3-2007-46-0118-17",
+   "mm:iveco:e3-2007-46-0118-14-e3-2007-46-0122-14-e3-2007-46-0122-15-e3-2007-46-0117-13-e3-2007-46-0115-13-e3-2007-46-0152-13-e3-2007-46-0151-13-e3-2007-46-0151-12"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "49d8d3c5fedf0d16"
+ },
+ "slug": "vehiculo-comercial-ligero-iveco-safety-gate-10003769"
+}

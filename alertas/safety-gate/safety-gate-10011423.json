@@ -1,0 +1,122 @@
+{
+ "id": "safety-gate-10011423",
+ "fuente": "safety-gate",
+ "idFuente": "10011423",
+ "referenciaOficial": "A12/00074/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011423",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Aspiradora inalámbrica · Beldray, Salter · Salter/Beldray Cordless Vacuum",
+ "nombreVisible": "Aspiradora inalámbrica Beldray, Salter",
+ "motivo": "Quemaduras, Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Salter/Beldray Cordless Vacuum",
+   "marcas": [
+    "Beldray, Salter"
+   ],
+   "modelos": [
+    "TYBSDC1400500"
+   ],
+   "lotes": [
+    {
+     "numero": "All batches"
+    }
+   ],
+   "ean": [
+    "5054061103700",
+    "5054061104523",
+    "5054061104868",
+    "5054061105377",
+    "5054061105896",
+    "5054061106442",
+    "5054061210453"
+   ],
+   "descripcion": "Aspiradora inalámbrica. Este producto se vende en línea, en particular a través de Amazon (sin ASIN incluido).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "Debido a un defecto de fabricación, la parte posterior del adaptador puede desprenderse, lo que puede exponer partes vivas y podría provocar descargas eléctricas o quemaduras. Este producto no cumple con la Directiva de Baja Tensión (LVD).",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106814",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10106815",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://upplc.com/product-recall/dc-adaptor-supplied-with-the-beldray-revo-cordless-vacuums-salter-hand-vacuum-cordless-uk-ireland-only/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00074/24",
+   "ean:5054061103700",
+   "ean:5054061104523",
+   "ean:5054061104868",
+   "ean:5054061105377",
+   "ean:5054061105896",
+   "ean:5054061106442",
+   "ean:5054061210453",
+   "mm:beldray-salter:tybsdc1400500",
+   "ml:beldray-salter:all-batches"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "cb5c1cbcad1094e1"
+ },
+ "slug": "aspiradora-inalambrica-beldray-salter-safety-gate-10011423"
+}

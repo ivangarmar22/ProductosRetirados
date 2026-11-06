@@ -1,0 +1,121 @@
+{
+ "id": "safety-gate-10001618",
+ "fuente": "safety-gate",
+ "idFuente": "10001618",
+ "referenciaOficial": "A12/01227/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001618",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cilindro de agua caliente · Dimplex · A Class/A Class Solar",
+ "nombreVisible": "Cilindro de agua caliente Dimplex",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-09-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "A Class/A Class Solar",
+   "marcas": [
+    "Dimplex"
+   ],
+   "modelos": [
+    "ECS210HP40A-580 (UK and Ireland)",
+    "ECS150HP40A-580 (UK only)",
+    "ECS180HP40A-480 (UK only)",
+    "ECS250HP40A-580 (UK and Ireland)",
+    "ECS250HPST40A-580 (UK only)"
+   ],
+   "lotes": [
+    {
+     "numero": "H"
+    },
+    {
+     "numero": "I"
+    },
+    {
+     "numero": "J"
+    },
+    {
+     "numero": "K"
+    },
+    {
+     "numero": "and L series"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Cilindro de agua caliente «Clase A» y «A Clase Solar». Los productos afectados se distribuyeron entre el 1 de septiembre de 2016 y el 30 de abril de 2019.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Un relé situado en la parte delantera del cilindro, utilizado para encender y apagar el calentador de inmersión, puede ser defectuoso. Como resultado, el relé podría sobrecalentarse conduciendo a un mayor riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "Irlanda",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10015317",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.dimplex.co.uk/sites/default/files/product_safety_notice_a_class_water_cylinder_1.pdfhttps://www.glendimplexireland.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01227/20",
+   "mm:dimplex:ecs210hp40a-580-uk-and-ireland",
+   "mm:dimplex:ecs150hp40a-580-uk-only",
+   "mm:dimplex:ecs180hp40a-480-uk-only",
+   "mm:dimplex:ecs250hp40a-580-uk-and-ireland",
+   "mm:dimplex:ecs250hpst40a-580-uk-only",
+   "ml:dimplex:and-l-series"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "dc19de2941a5531c"
+ },
+ "slug": "cilindro-de-agua-caliente-dimplex-safety-gate-10001618"
+}

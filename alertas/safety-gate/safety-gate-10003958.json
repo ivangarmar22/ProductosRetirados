@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10003958",
+ "fuente": "safety-gate",
+ "idFuente": "10003958",
+ "referenciaOficial": "A12/00954/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003958",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Bmw · iX3",
+ "nombreVisible": "Turismos Bmw",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-06-28",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "iX3",
+   "marcas": [
+    "Bmw"
+   ],
+   "modelos": [
+    "Type: G3XE",
+    "e1*2007/46*2130"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Turismos",
+   "fechasTexto": "The affected vehicles were manufactured between 22 July 2019 and 6 May 2021."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "En caso de accidente muy grave que implique daños en el sistema eléctrico del vehículo de alta tensión, el sistema eléctrico de 12 voltios y sus componentes pueden verse dañados por la transmisión de alta tensión debido a un defecto de software en el sistema de gestión de baterías. En caso de accidente, esto puede dar lugar al fallo de las funciones posteriores al choque (por ejemplo, eCall, sistema de alerta de peligro, etc.).",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00954/21",
+   "mm:bmw:type-g3xe",
+   "mm:bmw:e1-2007-46-2130"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3c262b2e6d515cd3"
+ },
+ "slug": "turismos-bmw-safety-gate-10003958"
+}

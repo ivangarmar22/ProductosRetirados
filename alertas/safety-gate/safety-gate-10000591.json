@@ -1,0 +1,92 @@
+{
+ "id": "safety-gate-10000591",
+ "fuente": "safety-gate",
+ "idFuente": "10000591",
+ "referenciaOficial": "A12/00194/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000591",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Toyota · Yaris GRMN",
+ "nombreVisible": "Coche de pasajeros Toyota",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Yaris GRMN",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "Model code: NSP131",
+    "Model year: 2017~2018",
+    "Vehicles equipped with supercharged 2ZR engines",
+    "e11*KS07/46*4079"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "18/07/2017 through 12/04/2018"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El espaciador de resina de suministro de combustible entre el inyector de combustible y la culata del motor no tiene la resistencia térmica adecuada. En consecuencia, podría deformarse, reduciendo el sellado de la cabeza del inyector, resultando en fugas de combustible y aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00194/20",
+   "mm:toyota:model-code-nsp131",
+   "mm:toyota:model-year-2017-2018",
+   "mm:toyota:vehicles-equipped-with-supercharged-2zr-engines",
+   "mm:toyota:e11-ks07-46-4079"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "948aeedea42f4b7b"
+ },
+ "slug": "coche-de-pasajeros-toyota-safety-gate-10000591"
+}

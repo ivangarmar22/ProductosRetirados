@@ -1,0 +1,117 @@
+{
+ "id": "safety-gate-10005511",
+ "fuente": "safety-gate",
+ "idFuente": "10005511",
+ "referenciaOficial": "A12/00245/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005511",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Luz de la tira del led · EUROLAMP · Valonauha, LED",
+ "nombreVisible": "Luz de la tira del led EUROLAMP",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-02-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Equipos de alumbrado",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Valonauha, LED",
+   "marcas": [
+    "EUROLAMP"
+   ],
+   "modelos": [
+    "147-70251",
+    "Control gear: 147-70564"
+   ],
+   "lotes": [],
+   "ean": [
+    "6430014521880"
+   ],
+   "descripcion": "Tira de led: DS-10 W, 12VDC, clase III, IP20. Mecanismo de control: 220V, 50/60 Hz, 12VDC/5A/60 W",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El aislamiento de la unidad de control led no es adecuado y las distancias entre los circuitos primarios y los circuitos secundarios accesibles no son suficientes. Al tocarlo, un usuario puede recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión y las normas europeas EN 61347-2-13 y EN 61347-1.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Suspensión de la venta del producto",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Finlandia",
+  "paisOrigen": "Grecia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10046528",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10046529",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10046530",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10046531",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://nakoislehti.media.fi/uutisvuoksi/2459ebd2-9a41-4998-9331-5fc3978b2983/10?cd_browse-mode=browser&user=61f2434022e0bc4fbe534955&cd_user-id=61f2434022e0bc4fbe534955&cd_user-products=22uuvud1,uv_digi",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00245/22",
+   "ean:6430014521880",
+   "mm:eurolamp:147-70251",
+   "mm:eurolamp:control-gear-147-70564"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "05c7bda8337c7e76"
+ },
+ "slug": "luz-de-la-tira-del-led-eurolamp-safety-gate-10005511"
+}

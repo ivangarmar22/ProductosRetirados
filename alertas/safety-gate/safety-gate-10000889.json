@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10000889",
+ "fuente": "safety-gate",
+ "idFuente": "10000889",
+ "referenciaOficial": "A12/00448/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000889",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vehículo ligero de pasajeros · Toyota · Proace",
+ "nombreVisible": "Vehículo ligero de pasajeros Toyota",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-03-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Proace",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "e21*NKS*0101*01",
+    "e2*2007/46*0538*08",
+    "e2*2007/46*0537*10"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Modelo (código de modelo): Proace (Yar).",
+   "fechasTexto": "20/08/2019 through 15/10/2019"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Es posible que varias fijaciones en el componente del eje trasero no se hayan apretado correctamente y puedan desprenderse. Si esto ocurre, el vehículo puede llegar a ser difícil de controlar o el líquido de frenos puede fugarse, lo que lleva a la reducción del rendimiento de frenado. ¿POR QUÉ?",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00448/20",
+   "mm:toyota:e21-nks-0101-01",
+   "mm:toyota:e2-2007-46-0538-08",
+   "mm:toyota:e2-2007-46-0537-10"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "89096fc9cc712c64"
+ },
+ "slug": "vehiculo-ligero-de-pasajeros-toyota-safety-gate-10000889"
+}

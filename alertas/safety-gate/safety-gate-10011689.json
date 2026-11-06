@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10011689",
+ "fuente": "safety-gate",
+ "idFuente": "10011689",
+ "referenciaOficial": "A12/00194/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10011689",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Vehículo comercial ligero · Opel · Movano",
+ "nombreVisible": "Vehículo comercial ligero Opel",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-01-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Movano",
+   "marcas": [
+    "Opel"
+   ],
+   "modelos": [
+    "H",
+    "Y",
+    "e2*2007/46*0735*04",
+    "e3*2007/46*0045*27",
+    "e3*2007/46*0050*28"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículo comercial ligero",
+   "fechasTexto": "20.3.2023 - 5.6.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El aceite hidráulico puede salir de la línea de alta presión. Esto podría conducir a una reducción de la asistencia de dirección, lo que requiere una mayor fuerza para girar el volante mientras se conduce. Además, la fuga de aceite hidráulico podría salpicar en el sistema de escape, aumentando el riesgo de incendio. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10108433",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://opel.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00194/24",
+   "mm:opel:e2-2007-46-0735-04",
+   "mm:opel:e3-2007-46-0045-27",
+   "mm:opel:e3-2007-46-0050-28"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7e385376e75f0e7a"
+ },
+ "slug": "vehiculo-comercial-ligero-opel-safety-gate-10011689"
+}

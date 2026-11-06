@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10009083",
+ "fuente": "safety-gate",
+ "idFuente": "10009083",
+ "referenciaOficial": "A12/02400/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10009083",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Desodorante enrollable · BOROTALCO · Active",
+ "nombreVisible": "Desodorante enrollable BOROTALCO",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-10-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Active",
+   "marcas": [
+    "BOROTALCO"
+   ],
+   "modelos": [
+    "R446403"
+   ],
+   "lotes": [
+    {
+     "numero": "33901"
+    }
+   ],
+   "ean": [
+    "80945819"
+   ],
+   "descripcion": "Desodorante enrollable",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene propionaldehído de 2-(4-tert-butilbencil) (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización de la piel. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10096184",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/02400/23",
+   "ean:80945819",
+   "mm:borotalco:r446403",
+   "ml:borotalco:33901"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ca1c9a22e28dd706"
+ },
+ "slug": "desodorante-enrollable-borotalco-safety-gate-10009083"
+}

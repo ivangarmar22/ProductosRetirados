@@ -1,0 +1,99 @@
+{
+ "id": "aemps-medicamentos-r-13-2026",
+ "fuente": "aemps-medicamentos",
+ "idFuente": "R_13/2026",
+ "referenciaOficial": "R_13/2026",
+ "urlOficial": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f8185fb55&idFirma=4056881",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Retirada de CUROSURF 240",
+ "nombreVisible": "Curosurf 240",
+ "motivo": "Riesgo de contaminación microbiológica",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-03-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Medicamento registrado",
+  "normalizada": "medicamentos"
+ },
+ "publico": null,
+ "productos": [
+  {
+   "nombre": "CUROSURF 240",
+   "marcas": [],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "1211842",
+     "caducidad": "2026-07-31",
+     "consumoPreferente": null,
+     "codigoNacional": "778191"
+    }
+   ],
+   "ean": [],
+   "registroAemps": "59600",
+   "descripcion": "TENSIOACTIVO PULMONAR PORCINO"
+  }
+ ],
+ "riesgo": {
+  "tipos": [],
+  "tipoNormalizado": [
+   "calidad"
+  ],
+  "descripcion": "Riesgo de contaminación microbiológica",
+  "nivelLiteral": "Clase 2",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del mercado de todas las unidades distribuidas de los lotes afectados y devolución al laboratorio por los cauces habituales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba el número de lote de tu envase. Si no coincide, esta alerta no te afecta.",
+  "Si coincide, acude a tu farmacia para gestionar el cambio por un lote no afectado, o consulta con tu médico si es preciso."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": null,
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": "Cadena de distribución y dispensación/hospitales"
+ },
+ "empresas": [
+  {
+   "rol": "titular",
+   "nombre": "CHIESI ESPAÑA, S.A.U."
+  },
+  {
+   "rol": "fabricante",
+   "nombre": "CHIESI FARMACEUTICI S.P.A. - Via Palermo 26/A, Parma, 43122, Italia"
+  }
+ ],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://localizador.aemps.es/localizador/localizador.do?metodo=detalleDocumento&idDoc=0900e77f8185fb55&idFirma=4056881",
+   "nombre": "Alerta oficial de la AEMPS"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:R_13/2026"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-incrustado",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "hashContenido": "484319ec85262f67"
+ },
+ "slug": "curosurf-240-aemps-medicamentos-r-13-2026"
+}

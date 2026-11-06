@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10004447",
+ "fuente": "safety-gate",
+ "idFuente": "10004447",
+ "referenciaOficial": "INFO/00153/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004447",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión de recogida · Mercedes-Benz · X-Class",
+ "nombreVisible": "Camión de recogida Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-09-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "X-Class",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type: 4701",
+    "e9*2007/46*6531*00",
+    "*01",
+    "*03",
+    "*04",
+    "*05",
+    "*07",
+    "*08"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camioneta.",
+   "fechasTexto": "20.8.2017 - 6.5.2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La ventana trasera del dosel podría romperse.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00153/21",
+   "mm:mercedes-benz:type-4701",
+   "mm:mercedes-benz:e9-2007-46-6531-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9caa1b2b27b77019"
+ },
+ "slug": "camion-de-recogida-mercedes-benz-safety-gate-10004447"
+}

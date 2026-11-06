@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10013412",
+ "fuente": "safety-gate",
+ "idFuente": "10013412",
+ "referenciaOficial": "A12/01963/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10013412",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión · Mercedes-Benz · eActros 983",
+ "nombreVisible": "Camión Mercedes-Benz",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-07-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "eActros 983",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "e1*2018/858*00045*00-*07 (963-0-C)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camión",
+   "fechasTexto": "25/06/23 - 14/02/24"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Algunos vehículos pueden no bajar automáticamente en las operaciones de vuelco / rodadura. Si el conductor no nota que la bajada ha fallado, es posible que no se garantice la estabilidad de los volquetes rodantes durante el funcionamiento. Esto puede aumentar el riesgo de accidentes y lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10129764",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://service-info.mercedes-benz-trucks.com/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/01963/24",
+   "mm:mercedes-benz:e1-2018-858-00045-00-07-963-0-c"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "48643b2875f35e78"
+ },
+ "slug": "camion-mercedes-benz-safety-gate-10013412"
+}

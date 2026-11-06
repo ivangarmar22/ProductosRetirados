@@ -1,0 +1,103 @@
+{
+ "id": "safety-gate-10008154",
+ "fuente": "safety-gate",
+ "idFuente": "10008154",
+ "referenciaOficial": "A12/00676/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10008154",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Ventilador de escape · EUNEWR",
+ "nombreVisible": "Ventilador de escape EUNEWR",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-04-05",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ventilador de escape",
+   "marcas": [
+    "EUNEWR"
+   ],
+   "modelos": [
+    "FD-150-2"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Ventilador para uso en cocinas, baños, garajes para ventilación. El producto se vende en línea, en particular a través de Amazon. ASIN B09G2ZKCMY",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "La tierra protectora no está conectada al aparato. El voltaje se puede tocar en la carcasa de metal y en el motor, lo que podría causar descargas eléctricas a un usuario. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076214",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076215",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076216",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10076217",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00676/23",
+   "mm:eunewr:fd-150-2"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "3061a552550c0e35"
+ },
+ "slug": "ventilador-de-escape-eunewr-safety-gate-10008154"
+}

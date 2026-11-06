@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10010831",
+ "fuente": "safety-gate",
+ "idFuente": "10010831",
+ "referenciaOficial": "A12/02725/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10010831",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Moto · HARLEY-DAVIDSON · CVO STREET GLIDE, CVO ROAD GLIDE",
+ "nombreVisible": "Moto HARLEY-DAVIDSON",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-11-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "CVO STREET GLIDE, CVO ROAD GLIDE",
+   "marcas": [
+    "HARLEY-DAVIDSON"
+   ],
+   "modelos": [
+    "e4*168/2013*00016*11 (FL3)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Moto",
+   "fechasTexto": "11.04.2023 - 6.09.2023"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "La línea de frenos trasera puede entrar en contacto con el sistema de escape y dañarse, reduciendo el rendimiento de frenado y aumentando el riesgo de accidente. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10100516",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10100517",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://serviceinfo.harley-davidson.com/sip/index",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/02725/23",
+   "mm:harley-davidson:e4-168-2013-00016-11-fl3"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ba02cd3f2e1bde4e"
+ },
+ "slug": "moto-harley-davidson-safety-gate-10010831"
+}

@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10119301",
+ "fuente": "safety-gate",
+ "idFuente": "10119301",
+ "referenciaOficial": "SR/02999/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119301",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Ford · Ranger",
+ "nombreVisible": "Coche de pasajeros Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-10-28",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-04"
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ranger",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e52007/460080*10-*12,*16"
+   ],
+   "lotes": [
+    {
+     "numero": "13.01.2023 - 24.06.2026"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "13.01.2023 - 24.06.2026",
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "lesiones"
+  ],
+  "descripcion": "Es posible que el airbag lateral no se despliegue correctamente y que los paneles del pilar B se desprendan durante el despliegue. Además, el airbag de la cabeza puede no proteger adecuadamente a los ocupantes en ciertas posiciones de asiento delanteras. Esto podría reducir la protección de los ocupantes en caso de colisión y aumentar el riesgo de lesiones. El producto incumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Sudáfrica",
+  "paisesDetectado": [
+   "FR",
+   "SK"
+  ],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11239169",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02999/26",
+   "mm:ford:e52007-460080-10-12-16",
+   "ml:ford:13-01-2023-24-06-2026"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": true,
+  "hashContenido": "58946e2934e5adae"
+ },
+ "slug": "coche-de-pasajeros-ford-safety-gate-10119301"
+}

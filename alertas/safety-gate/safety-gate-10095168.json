@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10095168",
+ "fuente": "safety-gate",
+ "idFuente": "10095168",
+ "referenciaOficial": "SR/02574/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095168",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Furgoneta de pasajeros / Vehículo comercial ligero · Ford · Transit Custom",
+ "nombreVisible": "Furgoneta de pasajeros / Vehículo comercial ligero Ford",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-07-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Transit Custom",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "NRN",
+    "NXN",
+    "e5*2018/858*00191*02-*03",
+    "e5*2018/858*00192*02-*03"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
+   "fechasTexto": "15.02.2025 - 22.02.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Uno o más pernos en la cubierta inferior de la placa de distribución de energía pueden romperse y pueden conducir a varios fallos eléctricos. Esto puede provocar que el vehículo se incendie debido a una mayor resistencia. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10969019",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.de/hilfe/r%C3%Bcckrufe",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/02574/25",
+   "mm:ford:nrn",
+   "mm:ford:nxn",
+   "mm:ford:e5-2018-858-00191-02-03",
+   "mm:ford:e5-2018-858-00192-02-03"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ae96790626559c61"
+ },
+ "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-ford-safety-gate-10095168"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10002722",
+ "fuente": "safety-gate",
+ "idFuente": "10002722",
+ "referenciaOficial": "A12/01822/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10002722",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Toyota · PROACE",
+ "nombreVisible": "Turismos Toyota",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-12-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "PROACE",
+   "marcas": [
+    "Toyota"
+   ],
+   "modelos": [
+    "e2*2007/46*0537*10",
+    "e2*2007/46*0537*11"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "PROACE — WMI: Yar, Rango por número de marco: VDS — VAYHV# — GZ167169-GZ168226, VEAHK#-GZ167261-GZ168469, VEAHX#-GZ167129-GZ168486, VEEHZ#-GZ167075-GZ168506;",
+   "fechasTexto": "Production period from 19 November and 5 December 2019."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El mecanismo de bloqueo del asiento trasero puede no funcionar correctamente. Como resultado, el asiento puede deslizarse inadvertidamente en caso de accidente, lo que aumenta el riesgo de lesiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bulgaria",
+  "paisOrigen": "Bélgica",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01822/20",
+   "mm:toyota:e2-2007-46-0537-10",
+   "mm:toyota:e2-2007-46-0537-11"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "907938834f5f6489"
+ },
+ "slug": "turismos-toyota-safety-gate-10002722"
+}

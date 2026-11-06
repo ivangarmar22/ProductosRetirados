@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10003161",
+ "fuente": "safety-gate",
+ "idFuente": "10003161",
+ "referenciaOficial": "A12/00210/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003161",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Biocida · VADES · VADESEPT 110",
+ "nombreVisible": "Biocida VADES",
+ "motivo": "Otros riesgos para la salud",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-02-19",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Productos químicos",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "VADESEPT 110",
+   "marcas": [
+    "VADES"
+   ],
+   "modelos": [
+    "VADESEPT 110",
+    "750 ml"
+   ],
+   "lotes": [
+    {
+     "numero": "batch with exp. date 12/2022"
+    }
+   ],
+   "ean": [
+    "5060422940259"
+   ],
+   "descripcion": "Biocida en un frasco de 750 ml con dispensador de pulverización.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Otros riesgos para la salud"
+  ],
+  "tipoNormalizado": [
+   "otros"
+  ],
+  "descripcion": "El producto no tiene sustancia activa biocida, por lo que no puede actuar como desinfectante. Por lo tanto, no mata bacterias o virus, que podrían llegar entonces al usuario, aumentando el riesgo de infección. El producto no cumple el Reglamento sobre biocidas.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Eslovenia",
+  "paisOrigen": "Croacia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10024887",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00210/21",
+   "ean:5060422940259",
+   "mm:vades:vadesept-110",
+   "mm:vades:750-ml",
+   "ml:vades:batch-with-exp-date-12-2022"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9124bb60de1b2344"
+ },
+ "slug": "biocida-vades-safety-gate-10003161"
+}

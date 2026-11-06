@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10095553",
+ "fuente": "safety-gate",
+ "idFuente": "10095553",
+ "referenciaOficial": "SR/03197/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095553",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Almacenamiento de la batería · Lionic solar · BENNING SOLAR",
+ "nombreVisible": "Almacenamiento de la batería Lionic solar",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-09-11",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "BENNING SOLAR",
+   "marcas": [
+    "Lionic solar"
+   ],
+   "modelos": [
+    "Energiespeicher-System (ESS)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Carcasa de almacenamiento de energía con módulos modulares de baterías de iones de litio tipo REM4 de 4,0 kWh cada uno.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Se encontró una desviación en los dispositivos de almacenamiento de energía, que puede conducir a la formación de fuego y / o gas a concentración explosiva, lo que resulta en daños a la propiedad y las personas. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10975393",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.benning.de/service-de/sicherheitshinweise.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03197/25",
+   "mm:lionic-solar:energiespeicher-system-ess"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4e6517d90a6a07b0"
+ },
+ "slug": "almacenamiento-de-la-bateria-lionic-solar-safety-gate-10095553"
+}

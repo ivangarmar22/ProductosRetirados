@@ -1,0 +1,109 @@
+{
+ "id": "safety-gate-10004198",
+ "fuente": "safety-gate",
+ "idFuente": "10004198",
+ "referenciaOficial": "A12/01325/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10004198",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Toallitas húmedas · OTPIMAL · Wet Wipes Chamomile",
+ "nombreVisible": "Toallitas húmedas OTPIMAL",
+ "motivo": "Riesgos químicos, Otros riesgos para la salud",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-09-24",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Wet Wipes Chamomile",
+   "marcas": [
+    "OTPIMAL"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "Lot 009 Manufacturing Date 9/1/2021"
+    },
+    {
+     "numero": "Expiry Date 9/1/2024 (3Months after opening)"
+    }
+   ],
+   "ean": [
+    "5304000204396"
+   ],
+   "descripcion": "Toallitas húmedas para piel delicada y normal.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos",
+   "Otros riesgos para la salud"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El producto contiene una mezcla de los conservantes metilcloroisotiazolinona (MCI) y metilisotiazolinona (MI). Valores medidos: MCI 0,0,0007 % y MI 0,0,0004 %, que están prohibidos en los cosméticos sin dejar de fumar. El contacto dérmico con los productos que contienen MCI y MI puede provocar dermatitis alérgica de contacto a personas sensibilizadas. El producto no cumple con el Reglamento sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Chipre",
+  "paisOrigen": "Albania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10036536",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10036537",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10036538",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/01325/21",
+   "ean:5304000204396",
+   "ml:otpimal:lot-009-manufacturing-date-9-1-2021",
+   "ml:otpimal:expiry-date-9-1-2024-3months-after-opening"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "56dc71ff8ddd757a"
+ },
+ "slug": "toallitas-humedas-otpimal-safety-gate-10004198"
+}

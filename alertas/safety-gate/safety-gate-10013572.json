@@ -1,0 +1,126 @@
+{
+ "id": "safety-gate-10013572",
+ "fuente": "safety-gate",
+ "idFuente": "10013572",
+ "referenciaOficial": "INFO/00091/24",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10013572",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Encendedor eléctrico · Unbranded · Electric Lighter",
+ "nombreVisible": "Encendedor eléctrico Unbranded",
+ "motivo": "Quemaduras, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2024-07-17",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Otros - Encendedores de cigarrillos",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Electric Lighter",
+   "marcas": [
+    "Unbranded"
+   ],
+   "modelos": [
+    "HB 020"
+   ],
+   "lotes": [
+    {
+     "numero": "1hhnjuuw-black"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Encendedor eléctrico que se carga con un cable USB estándar. Disponible en varios colores, incluyendo negro, gris y azul. Producto vendido en línea.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "No se cumplen los requisitos de seguridad y resistencia infantil para encendedores. Un niño puede operar el encendedor y quemarse a sí mismo o crear un fuego. El producto no cumple los requisitos de la Directiva relativa a la seguridad general de los productos.",
+  "nivelLiteral": "Otros tipos de alertas",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10129016",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10129017",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10129018",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10129019",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10129020",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10129021",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10129022",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://dublintrends.com/pages/electric-lighter-product-recall",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:INFO/00091/24",
+   "mm:unbranded:hb-020",
+   "ml:unbranded:1hhnjuuw-black"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "ff04c39188e5f8b2"
+ },
+ "slug": "encendedor-electrico-unbranded-safety-gate-10013572"
+}

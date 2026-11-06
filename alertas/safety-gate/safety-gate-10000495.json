@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10000495",
+ "fuente": "safety-gate",
+ "idFuente": "10000495",
+ "referenciaOficial": "A12/00115/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000495",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Honda · HR-V, CR-V, Civic",
+ "nombreVisible": "Coche de pasajeros Honda",
+ "motivo": "Medio ambiente",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-01-21",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "HR-V, CR-V, Civic",
+   "marcas": [
+    "Honda"
+   ],
+   "modelos": [
+    "e11*2001/116*0302*11",
+    "e11*2001/116*0302*12",
+    "e11*2001/116*0302*13",
+    "e11*2001/116*0257*12",
+    "e11*2001/116*0257*13",
+    "e11*2001/116*0257*14",
+    "e6*2007/46*0158*00",
+    "e6*2007/46*0158*01",
+    "e6*2007/46*0158*02"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "The affected vehicles were manufactured between 2 February 2015 and 23 May 2018."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Medio ambiente"
+  ],
+  "tipoNormalizado": [
+   "otros"
+  ],
+  "descripcion": "Durante la aceleración/desaceleración repetida, el sistema de control de emisiones de la unidad de control del motor diésel (ECU) no puede evitar la acumulación de azufre dentro del catalizador debido a la falta de robustez del software de control del motor. Esto reduce el rendimiento de purificación de óxidos de nitrógeno (NOx). Por lo tanto, no cumple el requisito reglamentario para el nivel de emisiones.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Portugal",
+  "paisOrigen": "México",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00115/20",
+   "mm:honda:e11-2001-116-0302-11",
+   "mm:honda:e11-2001-116-0302-12",
+   "mm:honda:e11-2001-116-0302-13",
+   "mm:honda:e11-2001-116-0257-12",
+   "mm:honda:e11-2001-116-0257-13",
+   "mm:honda:e11-2001-116-0257-14",
+   "mm:honda:e6-2007-46-0158-00",
+   "mm:honda:e6-2007-46-0158-01",
+   "mm:honda:e6-2007-46-0158-02"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "bf374bdc28965a99"
+ },
+ "slug": "coche-de-pasajeros-honda-safety-gate-10000495"
+}

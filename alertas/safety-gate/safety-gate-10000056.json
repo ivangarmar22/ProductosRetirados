@@ -1,0 +1,100 @@
+{
+ "id": "safety-gate-10000056",
+ "fuente": "safety-gate",
+ "idFuente": "10000056",
+ "referenciaOficial": "A12/00910/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000056",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Batería para cigarrillos electrónicos · VTC6",
+ "nombreVisible": "Batería para cigarrillos electrónicos VTC6",
+ "motivo": "Quemaduras, Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-06-22",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "VTC6",
+   "marcas": [],
+   "modelos": [
+    "VTC6 IMR 18650 3000mAh 3",
+    "7V"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Batería para cigarrillos electrónicos (tipo 18650).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras",
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Un cortocircuito externo puede ocurrir en la batería, lo que lleva a un aumento de la temperatura interna y la presión. La batería y el dispositivo para el que se utiliza pueden explotar, liberando metralla o/conduciendo a un incendio. El producto no cumple con la norma europea pertinente EN 62133-2.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Suspensión de la venta del producto",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Bélgica",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10012188",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10012189",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10012190",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00910/20"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c97c0aa3737393db"
+ },
+ "slug": "bateria-para-cigarrillos-electronicos-vtc6-safety-gate-10000056"
+}

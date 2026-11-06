@@ -1,0 +1,98 @@
+{
+ "id": "safety-gate-10095546",
+ "fuente": "safety-gate",
+ "idFuente": "10095546",
+ "referenciaOficial": "SR/02899/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10095546",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Adaptador de corriente USB-C · Apple (counterfeit) · USB-C 20W Power Adapter",
+ "nombreVisible": "Adaptador de corriente USB-C Apple (counterfeit)",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-08-07",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "USB-C 20W Power Adapter",
+   "marcas": [
+    "Apple (counterfeit)"
+   ],
+   "modelos": [
+    "A1696",
+    "C3D0375A0ZVPDYNAR02"
+   ],
+   "lotes": [],
+   "ean": [
+    "194252157053"
+   ],
+   "descripcion": "Adaptador de alimentación USB-C blanco de tres pines.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "Los pines del enchufe no se conectan de forma segura cuando están en uso. Esto podría causar que el producto se sobrecaliente y cause un incendio. Además, el usuario puede recibir una descarga eléctrica al insertar o quitar el enchufe del enchufe, ya que existe una protección inadecuada contra las partes activas. Este producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Importación rechazada en la frontera",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10971642",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/02899/25",
+   "ean:194252157053",
+   "mm:apple-counterfeit:a1696",
+   "mm:apple-counterfeit:c3d0375a0zvpdynar02"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "12caf321aba434a7"
+ },
+ "slug": "adaptador-de-corriente-usb-c-apple-counterfeit-safety-gate-10095546"
+}

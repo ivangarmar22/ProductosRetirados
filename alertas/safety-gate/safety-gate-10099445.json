@@ -1,0 +1,113 @@
+{
+ "id": "safety-gate-10099445",
+ "fuente": "safety-gate",
+ "idFuente": "10099445",
+ "referenciaOficial": "SR/01966/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10099445",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Medidor de tensión · BENNING® · MM 12",
+ "nombreVisible": "Medidor de tensión BENNING®",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-07-08",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "MM 12",
+   "marcas": [
+    "BENNING®"
+   ],
+   "modelos": [
+    "MM 12"
+   ],
+   "lotes": [
+    {
+     "numero": "38601273-137238601373-147238601473-157238601673-177248600446-54548600996-109548601096-119558600206-505"
+    }
+   ],
+   "ean": [
+    "4014651440883"
+   ],
+   "descripcion": "Multímetro digital Root Mean Square con función de registro e interfaz Bluetooth®.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "electrico"
+  ],
+  "descripcion": "Debido a un error en el selector de rango automático de voltaje de CC, la pantalla del multímetro muestra un voltaje demasiado bajo. El usuario puede asumir un bajo voltaje y tocar piezas de alto voltaje, lo que podría conducir a una descarga eléctrica. El producto no cumple los requisitos de la Directiva sobre equipos radioeléctricos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "España",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11014259",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11014260",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11014261",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.benning.de/service-de/sicherheitshinweise.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01966/26",
+   "ean:4014651440883",
+   "mm:benning:mm-12",
+   "ml:benning:38601273-137238601373-147238601473-157238601673-177248600446-54548600996-109548601096-119558600206-505"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "612e8a2c61d7fe1d"
+ },
+ "slug": "medidor-de-tension-benning-safety-gate-10099445"
+}

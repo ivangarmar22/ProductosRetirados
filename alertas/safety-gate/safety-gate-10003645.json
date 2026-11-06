@@ -1,0 +1,92 @@
+{
+ "id": "safety-gate-10003645",
+ "fuente": "safety-gate",
+ "idFuente": "10003645",
+ "referenciaOficial": "A12/00632/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003645",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión · Mercedes-Benz · Unimog",
+ "nombreVisible": "Camión Mercedes-Benz",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-27",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "profesionales",
+ "productos": [
+  {
+   "nombre": "Unimog",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Type approval number: e1*2007/46*1215",
+    "e1*2007/46*1216",
+    "Type: UGE-232",
+    "UGE-453"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camión",
+   "fechasTexto": "From 30/04/2019 to 01/08/2019"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El fluido hidráulico puede fugarse de una manguera hidráulica mal prensada en el sistema de ventilador hidráulico. Esto podría crear un riesgo de incendio. No especificado",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00632/21",
+   "mm:mercedes-benz:type-approval-number-e1-2007-46-1215",
+   "mm:mercedes-benz:e1-2007-46-1216",
+   "mm:mercedes-benz:type-uge-232",
+   "mm:mercedes-benz:uge-453"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "031c6a0c2adb3bee"
+ },
+ "slug": "camion-mercedes-benz-safety-gate-10003645"
+}

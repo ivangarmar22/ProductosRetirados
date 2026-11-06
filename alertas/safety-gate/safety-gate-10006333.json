@@ -1,0 +1,97 @@
+{
+ "id": "safety-gate-10006333",
+ "fuente": "safety-gate",
+ "idFuente": "10006333",
+ "referenciaOficial": "A12/00969/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10006333",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Moto · Yamaha · MWD300 (Tricity 300)",
+ "nombreVisible": "Moto Yamaha",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-08-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "MWD300 (Tricity 300)",
+   "marcas": [
+    "Yamaha"
+   ],
+   "modelos": [
+    "SH16",
+    "SH20",
+    "e13*168/2013*00673",
+    "e13*168/2013*00907"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta, modelo de scooter de tres ruedas",
+   "fechasTexto": "1.02.2020 - 28.02.2022"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "El sistema de asistencia permanente (freno de estacionamiento) no se libera inmediatamente después de la desactivación y continúa bloqueando la suspensión delantera, lo que provoca el riesgo de que el usuario se caiga y sufra lesiones. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de dos o tres ruedas y los cuatriciclos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Tailandia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "http://www.yamaha-motor.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00969/22",
+   "mm:yamaha:sh16",
+   "mm:yamaha:sh20",
+   "mm:yamaha:e13-168-2013-00673",
+   "mm:yamaha:e13-168-2013-00907"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "4dbda8077a2c2992"
+ },
+ "slug": "moto-yamaha-safety-gate-10006333"
+}

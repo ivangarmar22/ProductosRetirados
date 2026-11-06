@@ -1,0 +1,101 @@
+{
+ "id": "safety-gate-10096838",
+ "fuente": "safety-gate",
+ "idFuente": "10096838",
+ "referenciaOficial": "SR/04138/25",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10096838",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Cargador · THISS (SZYDZS) Technology Co Ltd",
+ "nombreVisible": "Cargador THISS (SZYDZS) Technology Co Ltd",
+ "motivo": "Choque eléctrico, Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2025-11-20",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Cargador",
+   "marcas": [
+    "THISS (SZYDZS) Technology Co Ltd"
+   ],
+   "modelos": [
+    "MTC2003"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Cargador con baterías de iones de litio. Aportación: 100-240V, 50-60Hz, 70W. Resultado: 14.4-18V, DC, 3A. Producto vendido en línea, en particular a través de eBay (identificador único: 376062550930).",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico",
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "electrico",
+   "incendio"
+  ],
+  "descripcion": "La calidad del transformador y de la soldadura del producto es inadecuada, las dimensiones del enchufe entre el borde exterior y el pasador neutro son demasiado estrechas. Además, el fusible no está conectado a tierra adecuadamente. Si se produce una falla durante el uso, el fusible puede no evitar descargas eléctricas, incendios y explosiones. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado online",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10986055",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10986056",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10986057",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/04138/25",
+   "mm:thiss-szydzs-technology-co:mtc2003"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9da62b47b607a528"
+ },
+ "slug": "cargador-thiss-szydzs-technology-co-ltd-safety-gate-10096838"
+}

@@ -1,0 +1,94 @@
+{
+ "id": "safety-gate-10005693",
+ "fuente": "safety-gate",
+ "idFuente": "10005693",
+ "referenciaOficial": "A12/00511/22",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10005693",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · CITROEN · C3",
+ "nombreVisible": "Coche de pasajeros CITROEN",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-03-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C3",
+   "marcas": [
+    "CITROEN"
+   ],
+   "modelos": [
+    "S",
+    "e2*2007/46*0003*66",
+    "e2*2007/46*0060*32"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros",
+   "fechasTexto": "09.12.2021 - 09.12.2021"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Los torques de ajuste incorrectos de algunas fijaciones en el eje trasero pueden conducir a un aflojamiento de las conexiones. Esto puede provocar el deterioro del rendimiento de frenado, la pérdida de control sobre el vehículo e incluso la pérdida de una rueda, poniendo así en peligro el tráfico circundante. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Francia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.citroen.de/wartung-services/rueckrufaktion-pruefung.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00511/22",
+   "mm:citroen:e2-2007-46-0003-66",
+   "mm:citroen:e2-2007-46-0060-32"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "f6bdd06e28d6f410"
+ },
+ "slug": "coche-de-pasajeros-citroen-safety-gate-10005693"
+}

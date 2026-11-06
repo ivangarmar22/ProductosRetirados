@@ -1,0 +1,128 @@
+{
+ "id": "safety-gate-10007854",
+ "fuente": "safety-gate",
+ "idFuente": "10007854",
+ "referenciaOficial": "A12/00452/23",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10007854",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Velas · EDCO · Bougies AT",
+ "nombreVisible": "Velas EDCO",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2023-03-01",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Artículos de decoración",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Bougies AT",
+   "marcas": [
+    "EDCO"
+   ],
+   "modelos": [
+    "26374",
+    "26379",
+    "42810",
+    "42811"
+   ],
+   "lotes": [
+    {
+     "numero": "2081512081751"
+    }
+   ],
+   "ean": [
+    "8711252263748",
+    "8711252263793"
+   ],
+   "descripcion": "Vela cilíndrica con un diámetro de 5 cm y una altura de 7 cm. La vela tiene un aspecto brillante, ya sea con una superficie anillada o con una superficie en forma de rombo, y está disponible en colores rojo, dorado y plateado.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El brillo decorativo de la vela puede incendiarse fácilmente, y la vela produce una llama que es demasiado alta, lo que crea un riesgo de incendio. El producto no cumple con los requisitos de la Directiva general de seguridad de los productos ni con la norma europea EN 15493.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Francia",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10073052",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10073053",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10073054",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10073055",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://rappel.conso.gouv.fr/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00452/23",
+   "ean:8711252263748",
+   "ean:8711252263793",
+   "mm:edco:26374",
+   "mm:edco:26379",
+   "mm:edco:42810",
+   "mm:edco:42811",
+   "ml:edco:2081512081751"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "18a8ff0fc979027b"
+ },
+ "slug": "velas-edco-safety-gate-10007854"
+}

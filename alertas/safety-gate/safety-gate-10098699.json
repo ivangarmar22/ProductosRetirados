@@ -1,0 +1,96 @@
+{
+ "id": "safety-gate-10098699",
+ "fuente": "safety-gate",
+ "idFuente": "10098699",
+ "referenciaOficial": "SR/01312/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10098699",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Camión pick-up · Ford · Ranger",
+ "nombreVisible": "Camión pick-up Ford",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-04-29",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ranger",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e5*2007/46*0080*14 (2AB)"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Camión",
+   "fechasTexto": "7.05.2025 to 8.05.2025"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Un soporte de pinza de freno insuficientemente atornillado puede provocar fallas en el freno. La pinza de freno puede desprenderse del eje debido al par de apriete insuficiente de los tornillos de montaje de la pinza de freno trasera. Esto podría provocar daños o roturas en la manguera del freno, lo que provocaría una fuga repentina de líquido de frenos y reduciría el rendimiento de frenado. El indicador de advertencia de bajo nivel de líquido de frenos se ilumina, acompañado de una indicación correspondiente en el cuadro de instrumentos. Esto puede conducir a accidentes. El producto no cumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Sudáfrica",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11006154",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.com/support/recalls-details/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/01312/26",
+   "mm:ford:e5-2007-46-0080-14-2ab"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "0b032b4b17a5f484"
+ },
+ "slug": "camion-pick-up-ford-safety-gate-10098699"
+}

@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10000518",
+ "fuente": "safety-gate",
+ "idFuente": "10000518",
+ "referenciaOficial": "A12/00243/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000518",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Espuma de afeitar · BODY X FUZE · Pulse Shaving Foam",
+ "nombreVisible": "Espuma de afeitar BODY X FUZE",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-02-15",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Pulse Shaving Foam",
+   "marcas": [
+    "BODY X FUZE"
+   ],
+   "modelos": [
+    "Normal Skin"
+   ],
+   "lotes": [
+    {
+     "numero": "EXP: 25/08/2020LOT: 25836"
+    }
+   ],
+   "ean": [
+    "8718692414099"
+   ],
+   "descripcion": "200 ml de espuma de afeitar.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "El producto contiene n-nitrosodietanolamina (NDELA) (valor medido 615 mg/kg). NDELA es una nitrosamina, que puede causar cáncer a través de la ingestión o la exposición cutánea. El producto no cumple con la normativa sobre productos cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Turquía",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10005054",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10005055",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10005056",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00243/20",
+   "ean:8718692414099",
+   "mm:body-x-fuze:normal-skin",
+   "ml:body-x-fuze:exp-25-08-2020lot-25836"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "8952633df7dac8db"
+ },
+ "slug": "espuma-de-afeitar-body-x-fuze-safety-gate-10000518"
+}

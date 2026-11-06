@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10000520",
+ "fuente": "safety-gate",
+ "idFuente": "10000520",
+ "referenciaOficial": "A12/00154/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10000520",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Kia · Sorento",
+ "nombreVisible": "Coche de pasajeros Kia",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2022-11-16",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Sorento",
+   "marcas": [
+    "Kia"
+   ],
+   "modelos": [
+    "Type-approval numbers: e4*2007/46*0894*10",
+    "e4*2007/46*0894*08"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "The affected vehicles are from model year: 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido a un error en el software Frontal Collision-Avoidance Assist (FCA), la función de asistencia de frenado puede fallar cuando el vehículo se acerca a un vehículo estacionario o a un peatón. En consecuencia, la asistencia de frenado no puede activarse durante una colisión frontal, lo que aumenta el riesgo de lesiones a los ocupantes del vehículo y a otros usuarios de la carretera.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Polonia",
+  "paisOrigen": "República de Corea",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00154/20",
+   "mm:kia:type-approval-numbers-e4-2007-46-0894-10",
+   "mm:kia:e4-2007-46-0894-08"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6679f623015a579c"
+ },
+ "slug": "coche-de-pasajeros-kia-safety-gate-10000520"
+}

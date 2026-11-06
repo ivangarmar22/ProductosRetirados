@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10001227",
+ "fuente": "safety-gate",
+ "idFuente": "10001227",
+ "referenciaOficial": "A12/00749/20",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10001227",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Furgoneta de pasajeros/Vehículo comercial ligero · VW · T6",
+ "nombreVisible": "Furgoneta de pasajeros/Vehículo comercial ligero VW",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2020-05-13",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "T6",
+   "marcas": [
+    "VW"
+   ],
+   "modelos": [
+    "Type-approval number: e1*2001/116*0220*",
+    "Type: 7HC"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": null,
+   "fechasTexto": "The affected vehicles were manufactured between 1 July 2019 and 25 February 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "lesiones"
+  ],
+  "descripcion": "Debido al sellado inadecuado, el agua puede penetrar en los cables Bowden en la puerta del conductor o del pasajero delantero y afectar el movimiento del alambre interior del cable a temperaturas por debajo del punto de congelación. Como resultado, las puertas pueden abrirse inadvertidamente, aumentando el riesgo de un accidente.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00749/20",
+   "mm:vw:type-approval-number-e1-2001-116-0220",
+   "mm:vw:type-7hc"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "7b8ecbe5200134bf"
+ },
+ "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-vw-safety-gate-10001227"
+}

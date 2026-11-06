@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10003588",
+ "fuente": "safety-gate",
+ "idFuente": "10003588",
+ "referenciaOficial": "A12/00628/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003588",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "701 enduro lr · Husqvarna",
+ "nombreVisible": "701 enduro lr Husqvarna",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-06",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "701 ENDURO LR",
+   "marcas": [
+    "Husqvarna"
+   ],
+   "modelos": [
+    "e1*168/2013*00032*01"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Motocicleta",
+   "fechasTexto": "Model year: 2020"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Debido a la forma y la posición de montaje de los tanques de combustible delanteros de las motocicletas, puede producirse una abrasión ocasional en ambas líneas de combustible. Esto podría dar lugar a una fuga de combustible, aumentando el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Austria",
+  "paisOrigen": "Austria",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.husqvarna-motorcycles.com/de-de/service/safety-information.html",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00628/21",
+   "mm:husqvarna:e1-168-2013-00032-01"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "683e4a03f533c775"
+ },
+ "slug": "701-enduro-lr-husqvarna-safety-gate-10003588"
+}

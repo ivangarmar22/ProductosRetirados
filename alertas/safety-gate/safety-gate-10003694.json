@@ -1,0 +1,115 @@
+{
+ "id": "safety-gate-10003694",
+ "fuente": "safety-gate",
+ "idFuente": "10003694",
+ "referenciaOficial": "A12/00669/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003694",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Mercedes-Benz · C-Class, GLC",
+ "nombreVisible": "Turismos Mercedes-Benz",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-18",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "C-Class, GLC",
+   "marcas": [
+    "Mercedes-Benz"
+   ],
+   "modelos": [
+    "Types: 204",
+    "204 AMG",
+    "204 K",
+    "204 K AMG",
+    "204 X",
+    "204 X AMG",
+    "e1*2001/116*0431*38 to *62",
+    "e1*2001/116*0464*18 to *22",
+    "e1*2001/116*0463*17 bis *20",
+    "e1*2001/116*0457*37 to *52",
+    "e1*2001/116*0480*18 to *41",
+    "e1*2007/46*1884*00"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Serie de modelos: Clase C (BR 205), GLC (BR 253)",
+   "fechasTexto": "The affected vehicles were manufactured between 5 February 2016 and 3 November 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "La conexión defectuosa de las tuberías de gas del sistema de inerción podría perjudicar la distribución prevista del gas de protección del argón a los puntos en los que podría haber contacto entre el refrigerante fugante R1234yf y los componentes del motor en caliente en caso de accidente. Esto reduciría el efecto de enfriamiento del gas de inercia, lo que aumentaría el riesgo de incendio.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [
+  {
+   "url": "https://www.mercedes-benz.de/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:A12/00669/21",
+   "mm:mercedes-benz:types-204",
+   "mm:mercedes-benz:204-amg",
+   "mm:mercedes-benz:204-k",
+   "mm:mercedes-benz:204-k-amg",
+   "mm:mercedes-benz:204-x",
+   "mm:mercedes-benz:204-x-amg",
+   "mm:mercedes-benz:e1-2001-116-0431-38-to-62",
+   "mm:mercedes-benz:e1-2001-116-0464-18-to-22",
+   "mm:mercedes-benz:e1-2001-116-0463-17-bis-20",
+   "mm:mercedes-benz:e1-2001-116-0457-37-to-52",
+   "mm:mercedes-benz:e1-2001-116-0480-18-to-41",
+   "mm:mercedes-benz:e1-2007-46-1884-00"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "c1634f8037265d7f"
+ },
+ "slug": "turismos-mercedes-benz-safety-gate-10003694"
+}

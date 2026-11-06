@@ -1,0 +1,88 @@
+{
+ "id": "safety-gate-10097972",
+ "fuente": "safety-gate",
+ "idFuente": "10097972",
+ "referenciaOficial": "SR/00685/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10097972",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Bomba de circulación · GBP-FLO · 6M Head Circulating Pump",
+ "nombreVisible": "Bomba de circulación GBP-FLO",
+ "motivo": "Choque eléctrico",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-03-03",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Aparatos y equipos eléctricos",
+  "normalizada": "electricos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "6M Head Circulating Pump",
+   "marcas": [
+    "GBP-FLO"
+   ],
+   "modelos": [],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Bomba circulante fabricada entre 2017 y noviembre de 2024. Los números de serie que comienzan con S/N D32 11233b o anterior se ven afectados, así como los números de lote con prefijos que comienzan con S/N D32* o S/N C*.",
+   "fechasTexto": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Choque eléctrico"
+  ],
+  "tipoNormalizado": [
+   "electrico"
+  ],
+  "descripcion": "El cable de red se puede conectar a la bomba en reversa, lo que permite que el pasador activo se conecte al pasador de tierra, lo que hace que las partes activas sean accesibles. El usuario podría tocar estas partes activas accesibles y recibir una descarga eléctrica. El producto no cumple los requisitos de la Directiva de baja tensión.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Programa de modificación",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/10999961",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/00685/26"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "9b98ae01c2ff3d10"
+ },
+ "slug": "bomba-de-circulacion-gbp-flo-safety-gate-10097972"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "safety-gate-10003738",
+ "fuente": "safety-gate",
+ "idFuente": "10003738",
+ "referenciaOficial": "A12/00736/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003738",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Kia · Sportage",
+ "nombreVisible": "Turismos Kia",
+ "motivo": "Incendio, Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-05-25",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Sportage",
+   "marcas": [
+    "Kia"
+   ],
+   "modelos": [
+    "e5*2007/46*1081",
+    "Type: QLE"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos que no están equipados con control de crucero inteligente (SCC).",
+   "fechasTexto": "The affected vehicles were manufactured between 19 March 2015 and 23 October 2020."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio",
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "incendio",
+   "lesiones"
+  ],
+  "descripcion": "Un cortocircuito puede ocurrir en el módulo del Sistema de Frenado Antibloqueo (ABS)/Programa Electrónico de Estabilidad (ESP). Esto podría dar lugar a un flujo de corriente excesivo que puede aumentar el riesgo de incendio en el compartimento del motor.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Eslovaquia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00736/21",
+   "mm:kia:e5-2007-46-1081",
+   "mm:kia:type-qle"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "6edd803e7d2483b8"
+ },
+ "slug": "turismos-kia-safety-gate-10003738"
+}

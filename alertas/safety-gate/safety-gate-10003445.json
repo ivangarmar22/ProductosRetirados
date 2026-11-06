@@ -1,0 +1,91 @@
+{
+ "id": "safety-gate-10003445",
+ "fuente": "safety-gate",
+ "idFuente": "10003445",
+ "referenciaOficial": "A12/00441/21",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10003445",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Turismos · Cadillac, Chevrolet, GMC · Cadillac: Escalade; Chevrolet: Avalanche, Silverado, Suburban, Tahoe; GMC: Sierra, Yukon",
+ "nombreVisible": "Turismos Cadillac, Chevrolet, GMC",
+ "motivo": "Lesiones",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2021-03-30",
+  "publicacionWeb": null,
+  "modificacion": null
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Cadillac: Escalade; Chevrolet: Avalanche, Silverado, Suburban, Tahoe; GMC: Sierra, Yukon",
+   "marcas": [
+    "Cadillac, Chevrolet, GMC"
+   ],
+   "modelos": [
+    "Cadillac: e13*2001/116*0191*00-*04 and *09",
+    "e13*2001/116*1011*00-*06",
+    "Chevrolet and GMV: Individual approval"
+   ],
+   "lotes": [],
+   "ean": [],
+   "descripcion": "Vehículos equipados con airbags fabricados por Takata.",
+   "fechasTexto": "2007-2013"
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Lesiones"
+  ],
+  "tipoNormalizado": [
+   "cuerpo-extrano",
+   "lesiones"
+  ],
+  "descripcion": "El propulsor utilizado en el inflador frontal de airbag del lado del pasajero puede experimentar una alteración del material a lo largo del tiempo debido a la degradación que se produce después de una exposición prolongada a una humedad absoluta elevada, altas temperaturas y ciclos de alta temperatura. En caso de que se despliegue un airbag, la presión interna excesiva puede causar que el cuerpo del inflador se rompa y los fragmentos metálicos puedan pasar a través del material del cojín causando lesiones a los ocupantes.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:A12/00441/21",
+   "mm:cadillac-chevrolet-gmc:cadillac-e13-2001-116-0191-00-04-and-09",
+   "mm:cadillac-chevrolet-gmc:e13-2001-116-1011-00-06",
+   "mm:cadillac-chevrolet-gmc:chevrolet-and-gmv-individual-approval"
+  ]
+ },
+ "procedencia": {
+  "formato": "xml",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-06",
+  "enriquecido": false,
+  "hashContenido": "8aa4d38e008095cd"
+ },
+ "slug": "turismos-cadillac-chevrolet-gmc-safety-gate-10003445"
+}
