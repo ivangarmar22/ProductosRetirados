@@ -6,9 +6,9 @@ const bizum = DONATIVOS.bizum.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');
 
 <section class="bloque donar" aria-labelledby="h-donar" data-ver>
   <div class="tit sin-m">
-    <p class="ante">Apoya el proyecto</p>
+    <p class="ante">Colabora</p>
     <h2 id="h-donar">Gratis, sin publicidad y sin cuentas</h2>
-    <p>Si te ha servido, un donativo ayuda a pagar el dominio y las horas de mantenimiento. La web funciona igual sin él.</p>
+    <p>Si te ha servido, con tu ayuda iremos mejorando la web e investigando mejores formas de encontrar avisos.</p>
   </div>
   <div class="donar-b">
     <p class="bizum">
@@ -16,6 +16,6 @@ const bizum = DONATIVOS.bizum.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');
       <button class="copiar" type="button" data-copiar={DONATIVOS.bizum} hidden><Icono n="copy" /><span>Copiar</span></button>
     </p>
     <a class="btn" href={DONATIVOS.paypal} rel="noopener noreferrer"><Icono n="heart" />Donar con PayPal</a>
-    <a class="mas" href={ruta('/apoya/')}>Más formas de ayudar <Icono n="arrow-right" /></a>
+    <a class="mas" href={ruta('/colabora/')}>Más formas de colaborar <Icono n="arrow-right" /></a>
   </div>
 </section>

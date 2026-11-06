@@ -32,7 +32,7 @@ export const relaciones = (): Record<string, Relacion> => {
   return existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : {};
 };
 
-export interface EstadoFuente { ok: boolean; ultimoIntento?: string; ultimoOk?: string; total?: number; errores?: string[] }
+interface EstadoFuente { ok: boolean; ultimoIntento?: string; ultimoOk?: string; total?: number; errores?: string[] }
 export const estadoFuentes = (): Record<string, EstadoFuente> => {
   const f = join(raiz, 'estado/fuentes.json');
   return existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : {};

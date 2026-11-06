@@ -1,15 +1,13 @@
 ---
-import { ruta } from '../lib/sitio';
-import Migas from './Migas.astro';
-interface Props { titulo: string; migas: { texto: string; href?: string }[]; ilustracion?: string; color?: 'rosa' | 'agua' | 'crema' | 'cielo' }
-const { titulo, migas, ilustracion, color } = Astro.props;
+import Icono from './Icono.astro';
+interface Props { titulo: string; icono?: string; color?: 'rosa' | 'agua' | 'crema' | 'cielo' }
+const { titulo, icono, color } = Astro.props;
 ---
 
 <header class:list={['cabecera', color && `c-${color}`]}>
   <div>
-    <Migas items={migas} />
     <h1>{titulo}</h1>
     <slot />
   </div>
-  {ilustracion && <img class="cabecera-i" src={ruta(`/ilustraciones/${ilustracion}.svg`)} alt="" width="208" height="208" />}
+  {icono && <span class="cabecera-i"><Icono n={icono} /></span>}
 </header>

@@ -1,5 +1,6 @@
 ---
 import Buscador from '../componentes/Buscador.astro';
+import Icono from '../componentes/Icono.astro';
 import Base from '../layouts/Base.astro';
 import { ruta } from '../lib/sitio';
 ---
@@ -13,7 +14,7 @@ import { ruta } from '../lib/sitio';
         <Buscador />
         <p><a href={ruta('/')}>Volver al inicio</a></p>
       </div>
-      <img class="cabecera-i" src={ruta('/ilustraciones/estante-hueco.svg')} alt="" width="208" height="208" />
+      <span class="cabecera-i"><Icono n="shopping-cart" /></span>
     </div>
   </div>
 </Base>

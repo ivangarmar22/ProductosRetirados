@@ -1,5 +1,6 @@
 /** Buscador y filtros del listado. Todo el estado vive en la query string. */
 import { tarjetaHtml } from '../lib/tarjeta';
+import { mejorarDesplegables, sincronizarDesplegables } from './desplegable';
 import { aTarjeta, base, buscarVerificado, plano, type Hallazgo } from './motor';
 
 const FILTROS = ['ambito', 'fuente', 'categoria', 'riesgo', 'alergeno', 'ccaa', 'anio'] as const;
@@ -45,6 +46,7 @@ function escribirUrl() {
 }
 
 function pintarActivos() {
+  sincronizarDesplegables();
   if (!activos) return;
   activos.replaceChildren();
   for (const f of FILTROS) {
@@ -121,7 +123,13 @@ async function buscar() {
   const opciones: Record<string, unknown> = { filters: filtros };
   if (orden === 'recientes') opciones.sort = { fecha: 'desc' };
   if (orden === 'antiguas') opciones.sort = { fecha: 'asc' };
-  const verificados = await buscarVerificado(termino || null, opciones);
+  let verificados: Hallazgo[];
+  try {
+    verificados = await buscarVerificado(termino || null, opciones);
+  } catch {
+    if (yo === turno && resumen) resumen.textContent = 'No se ha podido cargar el buscador. Comprueba tu conexión e inténtalo de nuevo.';
+    return;
+  }
   if (yo !== turno) return;
   hallazgos = verificados;
   mostrados = 0;
@@ -149,6 +157,7 @@ async function buscar() {
 if (form) {
   if (panel && matchMedia('(min-width: 48rem)').matches) panel.open = true;
   aplicarUrlAlFormulario();
+  mejorarDesplegables(form);
   form.addEventListener('submit', (e) => { e.preventDefault(); if (panel && !matchMedia('(min-width: 48rem)').matches) panel.open = false; buscar(); });
   form.addEventListener('change', () => buscar());
   mas?.addEventListener('click', cargarMas);

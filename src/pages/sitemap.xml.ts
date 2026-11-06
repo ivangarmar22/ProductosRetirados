@@ -5,7 +5,7 @@ import { CATEGORIAS, nombresAlergenos, slug } from '../../pipeline/normalizar.ts
 
 export const GET: APIRoute = ({ site }) => {
   const url = (r: string) => new URL(ruta(r), site).toString();
-  const fijas = ['/', '/alertas/', '/categorias/', '/alergenos/', '/marcas/', '/avisos/', '/guias/que-hacer-producto-retirado/', '/guias/donde-esta-el-lote/', '/fuentes/', '/estado/', '/estadisticas/', '/sobre/', '/apoya/', '/comprobar/', '/mi-despensa/', '/mis-alergias/', '/aviso-legal/', '/privacidad/', '/cookies/', '/accesibilidad/'];
+  const fijas = ['/', '/alertas/', '/categorias/', '/alergenos/', '/marcas/', '/avisos/', '/guias/que-hacer-producto-retirado/', '/guias/donde-esta-el-lote/', '/fuentes/', '/estado/', '/estadisticas/', '/sobre/', '/colabora/', '/contacto/', '/comprobar/', '/aviso-legal/', '/privacidad/', '/cookies/', '/accesibilidad/'];
   const lineas = [
     ...fijas.map((r) => `<url><loc>${url(r)}</loc></url>`),
     ...Object.keys(CATEGORIAS).filter((k) => alertas().some((a) => a.categoria.normalizada === k)).map((k) => `<url><loc>${url(`/categoria/${k}/`)}</loc></url>`),

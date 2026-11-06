@@ -28,7 +28,7 @@ document.querySelectorAll<HTMLElement>('[data-buscador]').forEach((raiz) => {
     const yo = ++turno;
     const q = input.value.trim();
     if (q.length < 3) { cerrar(); return; }
-    const buenos = await buscarVerificado(q, {}, 12);
+    const buenos = await buscarVerificado(q, {}, 12).catch(() => []);
     const datos = await Promise.all(buenos.slice(0, MAX).map((h) => h.data()));
     if (yo !== turno) return;
     if (!datos.length) { cerrar(); return; }
@@ -40,7 +40,7 @@ document.querySelectorAll<HTMLElement>('[data-buscador]').forEach((raiz) => {
     input.setAttribute('aria-expanded', 'true');
   }
 
-  input.addEventListener('focus', () => { pagefind(); }, { once: true });
+  input.addEventListener('focus', () => { pagefind().catch(() => {}); }, { once: true });
   input.addEventListener('input', () => { clearTimeout(espera); espera = window.setTimeout(pintar, 160); });
   input.addEventListener('keydown', (e) => {
     const filas = [...lista.children] as HTMLElement[];

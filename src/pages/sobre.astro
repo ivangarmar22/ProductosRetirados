@@ -1,12 +1,12 @@
 ---
 import Cabecera from '../componentes/Cabecera.astro';
 import Base from '../layouts/Base.astro';
-import { NOMBRE, REPOSITORIO, ruta } from '../lib/sitio';
+import { NOMBRE, ruta } from '../lib/sitio';
 ---
 
 <Base titulo="Sobre el proyecto" descripcion="Por qué existe Productos Retirados, quién puede usarlo y cómo funciona." ruta="/sobre/">
   <div class="pagina texto">
-    <Cabecera titulo="Sobre el proyecto" migas={[{ texto: 'Sobre el proyecto' }]} color="agua">
+    <Cabecera titulo="Sobre el proyecto" color="agua">
       <p class="entradilla">En España, las alertas de productos están repartidas entre varios organismos. {NOMBRE} las reúne en un solo buscador para que cualquiera pueda comprobar si algo que tiene en casa está retirado.</p>
     </Cabecera>
     <h2>Por qué existe</h2>
@@ -14,13 +14,13 @@ import { NOMBRE, REPOSITORIO, ruta } from '../lib/sitio';
     <h2>Qué es y qué no es</h2>
     <ul>
       <li>Es un proyecto independiente, gratuito y sin ánimo de lucro.</li>
-      <li>No es un organismo oficial ni está vinculado a ninguna administración.</li>
+      <li>No está vinculado a ninguna administración.</li>
       <li>No evalúa productos: reúne lo que publican las autoridades.</li>
       <li>No sustituye a la fuente oficial, que se enlaza siempre.</li>
     </ul>
-    <h2>Abierto</h2>
-    <p>El <a href={REPOSITORIO}>código es abierto</a> y el proceso de actualización se puede revisar. En <a href={ruta('/fuentes/')}>fuentes y metodología</a> explicamos cómo tratamos los datos y qué no cubrimos.</p>
+    <h2>Cómo funciona</h2>
+    <p>En <a href={ruta('/fuentes/')}>fuentes y metodología</a> explicamos cómo tratamos los datos y qué no cubrimos.</p>
     <h2>Ayuda a mantenerlo</h2>
-    <p>Si te resulta útil, puedes <a href={ruta('/apoya/')}>apoyar el proyecto</a> o compartirlo con quien pueda necesitarlo.</p>
+    <p>Si te resulta útil, puedes <a href={ruta('/colabora/')}>colaborar con el proyecto</a> o compartirlo con quien pueda necesitarlo.</p>
   </div>
 </Base>

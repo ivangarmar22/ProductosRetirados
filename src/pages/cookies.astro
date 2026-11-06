@@ -1,19 +1,19 @@
 ---
 import Cabecera from '../componentes/Cabecera.astro';
 import Base from '../layouts/Base.astro';
-import { LEGAL_ACTUALIZADO, NOMBRE, ruta } from '../lib/sitio';
+import { LEGAL_ACTUALIZADO, NOMBRE } from '../lib/sitio';
 ---
 
 <Base titulo="Política de cookies" descripcion="Productos Retirados no usa cookies." ruta="/cookies/">
   <div class="pagina texto">
-    <Cabecera titulo="Cookies" migas={[{ texto: 'Cookies' }]} color="crema">
+    <Cabecera titulo="Cookies" color="crema">
       <p class="nota">Última actualización: {LEGAL_ACTUALIZADO}.</p>
     </Cabecera>
     <p class="entradilla">{NOMBRE} no usa cookies, ni propias ni de terceros. Por eso no ves ningún aviso de cookies.</p>
     <h2>Almacenamiento local</h2>
-    <p>Si usas <a href={ruta('/mis-alergias/')}>Mis alergias</a> o <a href={ruta('/mi-despensa/')}>Mi despensa</a>, tu elección y la fecha de tu última visita a esa página se guardan en el almacenamiento local de tu navegador. Es una función que pides tú, no sale de tu dispositivo y puedes borrarla quitando lo que hayas añadido o limpiando los datos del sitio.</p>
+    <p>Tampoco guardamos datos en tu navegador.</p>
     <h2>Sitios externos</h2>
-    <p>Al seguir enlaces a otras webs, como las fuentes oficiales, PayPal, Telegram o MailerLite, se aplican sus propias políticas.</p>
+    <p>Al seguir enlaces a otras webs, como las fuentes oficiales, PayPal, Telegram o MailerLite, se aplican sus propias políticas. Las fotos de las fichas solo se cargan si pulsas «Ver fotos»: entonces conectas con la web oficial de la fuente, que puede usar sus propias cookies.</p>
     <h2>Cambios</h2>
     <p>Si en el futuro se añade analítica u otras cookies, esta página se actualizará y se pedirá tu consentimiento antes de usarlas.</p>
   </div>

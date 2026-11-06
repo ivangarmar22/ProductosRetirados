@@ -19,6 +19,10 @@ export function pagefind(): Promise<Pagefind> {
     await m.options({ baseUrl: base() });
     await m.init();
     return m;
+  }).catch((e) => {
+    // Sin esto, un fallo de red dejaría el buscador roto hasta recargar.
+    pf = null;
+    throw e;
   });
   return pf;
 }

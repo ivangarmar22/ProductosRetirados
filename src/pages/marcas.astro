@@ -9,7 +9,7 @@ const lista = marcas();
 
 <Base titulo="Marcas con alertas" descripcion="Marcas con dos o más alertas de productos retirados en España y Europa." ruta="/marcas/">
   <div class="pagina">
-    <Cabecera titulo="Marcas" migas={[{ texto: 'Marcas' }]}>
+    <Cabecera titulo="Marcas">
       <p class="entradilla">{numero(lista.length)} marcas con dos o más alertas. Para el resto, usa el <a href={ruta('/alertas/')}>buscador</a>.</p>
     </Cabecera>
     <ul class="rejilla-enlaces">{lista.map((m) => <li><a href={ruta(`/marca/${m.slug}/`)}>{m.nombre} <small>{m.total}</small></a></li>)}</ul>

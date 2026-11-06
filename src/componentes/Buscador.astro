@@ -7,7 +7,7 @@ const atributos = Astro.props.interno ? {} : { role: 'search', action: ruta('/al
 ---
 
 <Caja class="busca" data-buscador {...atributos}>
-  <Icono n="search" />
+  <Icono n="magnifying-glass" />
   <label for="q" class="oculto">Buscar por marca, producto, lote o código de barras</label>
   <input id="q" name="q" type="search" placeholder="Marca, producto, lote o EAN" autocomplete="off" enterkeyhint="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sug" />
   <button type="submit">Buscar</button>

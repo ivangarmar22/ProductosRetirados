@@ -1,0 +1,78 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Icono from '../componentes/Icono.astro';
+import Base from '../layouts/Base.astro';
+import { DONATIVOS, EMAIL, NOMBRE, ruta } from '../lib/sitio';
+
+const bizum = DONATIVOS.bizum.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');
+const usuario = DONATIVOS.paypal.split('/').at(-1);
+const inicio = new URL(ruta('/'), Astro.site).toString();
+const correo = (asunto: string) => `mailto:${EMAIL}?subject=${encodeURIComponent(asunto)}`;
+
+const DESTINOS = [
+  ['binoculars', 'Más fuentes de avisos', 'Investigar nuevas fuentes oficiales y sumar las que aún faltan, para que menos alertas se queden fuera.'],
+  ['list-magnifying-glass', 'Mejores formas de encontrarlos', 'Leer mejor cada aviso: lotes, marcas, códigos de barras y zonas de venta, aunque cada organismo los publique de una manera.'],
+  ['bell-ringing', 'Avisos más útiles', 'Mejorar los canales de aviso para que te enteres antes y solo de lo que te afecta.'],
+  ['sparkle', 'Una web cada vez mejor', 'Pagar el dominio y dedicar horas a mantenerla, corregir errores y añadir funciones.'],
+];
+---
+
+<Base titulo="Colabora" descripcion="Productos Retirados es gratuito y sin publicidad. Con tu ayuda seguiremos mejorando la web e investigando mejores formas de encontrar avisos." ruta="/colabora/">
+  <div class="pagina">
+    <Cabecera titulo="Ayúdanos a que ningún aviso pase desapercibido" icono="heart" color="rosa">
+      <p class="entradilla">{NOMBRE} es gratuito, sin publicidad y sin cuentas, y lo seguirá siendo. Con tu ayuda iremos mejorando la web e investigando mejores formas de encontrar avisos.</p>
+    </Cabecera>
+
+    <div class="dos">
+      <section class="caja pago" aria-labelledby="h-bizum">
+        <h2 id="h-bizum"><Icono n="device-mobile" />Bizum</h2>
+        <p>Desde la app de tu banco, entra en Bizum, elige «Enviar dinero» y usa este número:</p>
+        <p class="bizum">
+          <b aria-label={`Número de Bizum: ${bizum}`}>{bizum}</b>
+          <button class="copiar" type="button" data-copiar={DONATIVOS.bizum} hidden><Icono n="copy" /><span>Copiar número</span></button>
+        </p>
+        <small>Si quieres, pon «Productos Retirados» en el concepto. Cualquier cantidad ayuda.</small>
+      </section>
+      <section class="caja pago" aria-labelledby="h-paypal">
+        <h2 id="h-paypal"><Icono n="credit-card" />PayPal</h2>
+        <p>Con tarjeta o con tu cuenta de PayPal, desde el enlace o escaneando el código con el móvil.</p>
+        <div class="pago-q">
+          <img src={ruta('/colabora/paypal-qr.svg')} alt={`Código QR que abre paypal.me/${usuario}`} width="132" height="132" loading="lazy" class="qr" />
+          <div class="pago">
+            <a class="btn btn-coral btn-ancho" href={DONATIVOS.paypal} rel="noopener noreferrer"><Icono n="heart" />Donar con PayPal</a>
+            <small>paypal.me/{usuario}</small>
+          </div>
+        </div>
+      </section>
+    </div>
+    <p class="nota nota-pago">Los donativos son voluntarios, no dan derecho a contraprestación y no son deducibles.</p>
+
+    <section class="seccion-c" aria-labelledby="h-destino">
+      <div class="tit"><p class="ante">A qué va tu ayuda</p><h2 id="h-destino">Lo que podremos hacer gracias a ti</h2></div>
+      <ul class="destinos">
+        {DESTINOS.map(([i, t, d]) => <li><span class="cat"><Icono n={i} /></span><h3>{t}</h3><p>{d}</p></li>)}
+      </ul>
+    </section>
+
+    <section class="seccion-c" aria-labelledby="h-otras">
+      <div class="tit"><p class="ante">Sin gastar nada</p><h2 id="h-otras">También ayudas si…</h2></div>
+      <div class="otras">
+        <div>
+          <h3>Compartes la web</h3>
+          <p>Un aviso solo sirve si llega a tiempo. Pásasela a tu familia o a quien tenga alergias.</p>
+          <button class="copiar" type="button" data-copiar={inicio} hidden><Icono n="link" /><span>Copiar enlace</span></button>
+        </div>
+        <div>
+          <h3>Nos avisas de un error</h3>
+          <p>Si un dato no cuadra con la fuente oficial, cuéntanoslo y lo revisamos.</p>
+          <a class="mas" href={correo('Error en Productos Retirados')}>Escribir un correo <Icono n="arrow-right" /></a>
+        </div>
+        <div>
+          <h3>Nos propones una fuente</h3>
+          <p>¿Conoces un organismo o un listado oficial que no tengamos? Lo estudiaremos.</p>
+          <a class="mas" href={correo('Propuesta de fuente para Productos Retirados')}>Proponer una fuente <Icono n="arrow-right" /></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>

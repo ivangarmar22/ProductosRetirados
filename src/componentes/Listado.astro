@@ -5,6 +5,7 @@ import { alertas as todas } from '../lib/datos';
 import { numero } from '../lib/formato';
 import { ruta } from '../lib/sitio';
 import Buscador from './Buscador.astro';
+import Icono from './Icono.astro';
 import Lista from './Lista.astro';
 
 interface Props { alertas: Alerta[]; pagina: number; paginas: number }
@@ -20,17 +21,17 @@ const url = (n: number) => (n === 1 ? '/alertas/' : `/alertas/pagina/${n}/`);
     <form id="filtros" class="busqueda" role="search" action={ruta('/alertas/')} method="get">
       <Buscador interno />
       <details class="filtros">
-        <summary>Filtros</summary>
+        <summary><Icono n="sliders-horizontal" />Filtros</summary>
         <div class="filtros-in">
-          <label>Ámbito<select id="f-ambito" name="ambito"><option value="">Todos</option><option value="espana">Alertas de España</option><option value="europa">Alertas europeas</option></select></label>
-          <label>Fuente<select id="f-fuente" name="fuente"><option value="">Todas</option><option>AESAN</option><option>AEMPS</option><option>Safety Gate</option></select></label>
-          <label>Categoría<select id="f-categoria" name="categoria"><option value="">Todas</option>{Object.values(CATEGORIAS).map((c) => <option>{c}</option>)}</select></label>
-          <label>Tipo de riesgo<select id="f-riesgo" name="riesgo"><option value="">Todos</option>{Object.entries(TIPOS_RIESGO).map(([v, t]) => <option value={v}>{t}</option>)}</select></label>
-          <label>Alérgeno<select id="f-alergeno" name="alergeno"><option value="">Todos</option>{nombresAlergenos.map((c) => <option>{c}</option>)}</select></label>
-          <label>Comunidad autónoma<select id="f-ccaa" name="ccaa"><option value="">Todas</option>{nombresCcaa.map((c) => <option>{c}</option>)}</select></label>
-          <label>Año<select id="f-anio" name="anio"><option value="">Todos</option>{anios.map((c) => <option>{c}</option>)}</select></label>
-          <label>Marca<input id="f-marca" name="marca" type="text" autocomplete="off" /></label>
-          <label>Orden<select id="f-orden" name="orden"><option value="">Automático</option><option value="recientes">Más recientes</option><option value="antiguas">Más antiguas</option><option value="relevancia">Relevancia</option></select></label>
+          <div class="campo"><label for="f-ambito">Ámbito</label><select id="f-ambito" name="ambito"><option value="">Todos</option><option value="espana">Alertas de España</option><option value="europa">Alertas europeas</option></select></div>
+          <div class="campo"><label for="f-fuente">Fuente</label><select id="f-fuente" name="fuente"><option value="">Todas</option><option>AESAN</option><option>AEMPS</option><option>Safety Gate</option></select></div>
+          <div class="campo"><label for="f-categoria">Categoría</label><select id="f-categoria" name="categoria"><option value="">Todas</option>{Object.values(CATEGORIAS).map((c) => <option>{c}</option>)}</select></div>
+          <div class="campo"><label for="f-riesgo">Tipo de riesgo</label><select id="f-riesgo" name="riesgo"><option value="">Todos</option>{Object.entries(TIPOS_RIESGO).map(([v, t]) => <option value={v}>{t}</option>)}</select></div>
+          <div class="campo"><label for="f-alergeno">Alérgeno</label><select id="f-alergeno" name="alergeno"><option value="">Todos</option>{nombresAlergenos.map((c) => <option>{c}</option>)}</select></div>
+          <div class="campo"><label for="f-ccaa">Comunidad autónoma</label><select id="f-ccaa" name="ccaa"><option value="">Todas</option>{nombresCcaa.map((c) => <option>{c}</option>)}</select></div>
+          <div class="campo"><label for="f-anio">Año</label><select id="f-anio" name="anio"><option value="">Todos</option>{anios.map((c) => <option>{c}</option>)}</select></div>
+          <div class="campo"><label for="f-marca">Marca</label><input id="f-marca" name="marca" type="text" autocomplete="off" /></div>
+          <div class="campo"><label for="f-orden">Orden</label><select id="f-orden" name="orden"><option value="">Automático</option><option value="recientes">Más recientes</option><option value="antiguas">Más antiguas</option><option value="relevancia">Relevancia</option></select></div>
           <button class="btn ver-resultados" type="submit">Ver resultados</button>
         </div>
       </details>
@@ -56,7 +57,7 @@ const url = (n: number) => (n === 1 ? '/alertas/' : `/alertas/pagina/${n}/`);
         <li>No cubrimos todo: consulta <a href={ruta('/fuentes/')}>qué fuentes y fechas incluimos</a>.</li>
       </ul>
     </div>
-    <img src={ruta('/ilustraciones/estante-hueco.svg')} alt="" width="300" height="300" loading="lazy" />
+    <span class="cabecera-i"><Icono n="magnifying-glass" /></span>
   </div>
 </div>
 

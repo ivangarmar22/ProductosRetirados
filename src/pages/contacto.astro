@@ -1,0 +1,48 @@
+---
+import Cabecera from '../componentes/Cabecera.astro';
+import Icono from '../componentes/Icono.astro';
+import Base from '../layouts/Base.astro';
+import { EMAIL, NOMBRE, ruta, WEB3FORMS_KEY } from '../lib/sitio';
+
+const MOTIVOS = ['Error en una alerta', 'Proponer una fuente', 'Colaborar con el proyecto', 'Otro motivo'];
+---
+
+<Base titulo="Contacto" descripcion={`Escribe a ${NOMBRE} por correo o con el formulario: errores en una alerta, propuestas de fuentes o cualquier otra consulta.`} ruta="/contacto/">
+  <div class="pagina">
+    <Cabecera titulo="Contacto" icono="envelope-simple" color="agua">
+      <p class="entradilla">¿Has visto un error, conoces una fuente que falta o quieres contarnos algo? Elige cómo prefieres escribirnos.</p>
+    </Cabecera>
+
+    <div class="contacto">
+      <section class="caja pago" aria-labelledby="h-correo">
+        <h2 id="h-correo"><Icono n="envelope-simple" />Escríbenos un correo</h2>
+        <p>Se abrirá tu programa de correo con nuestra dirección ya puesta.</p>
+        <a class="correo" href={`mailto:${EMAIL}`}>{EMAIL}</a>
+        <a class="btn btn-ancho" href={`mailto:${EMAIL}`}><Icono n="paper-plane-tilt" />Escribir un correo</a>
+        <button class="copiar" type="button" data-copiar={EMAIL} hidden><Icono n="copy" /><span>Copiar dirección</span></button>
+        <p class="nota">Para una urgencia de salud, llama al 112.</p>
+      </section>
+
+      <section class="caja pago" aria-labelledby="h-form">
+        <h2 id="h-form"><Icono n="chat-circle-text" />Rellena el formulario</h2>
+        <form id="contacto" class="form" data-clave={WEB3FORMS_KEY} novalidate>
+          <div class="dos-c">
+            <div class="campo"><label for="c-nombre">Nombre <span>(opcional)</span></label><input id="c-nombre" name="nombre" autocomplete="name" /></div>
+            <div class="campo"><label for="c-correo">Tu correo</label><input id="c-correo" name="correo" type="email" autocomplete="email" inputmode="email" required aria-describedby="c-correo-e" /><p class="error" id="c-correo-e" hidden>Escribe un correo válido para poder responderte.</p></div>
+          </div>
+          <div class="campo"><label for="c-motivo">Motivo</label><select id="c-motivo" name="motivo">{MOTIVOS.map((m) => <option>{m}</option>)}</select></div>
+          <div class="campo"><label for="c-mensaje">Mensaje</label><textarea id="c-mensaje" name="mensaje" rows="5" required aria-describedby="c-mensaje-e"></textarea><p class="error" id="c-mensaje-e" hidden>Cuéntanos en qué podemos ayudarte.</p></div>
+          <input class="trampa" type="text" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <button class="btn btn-coral btn-ancho" type="submit"><Icono n="paper-plane-tilt" /><span>Enviar mensaje</span></button>
+          <p class="salida" role="status"></p>
+          <p class="nota">Usamos tus datos solo para responderte. Más información en <a href={ruta('/privacidad/')}>privacidad</a>.</p>
+        </form>
+        <noscript><p class="nota">El formulario necesita JavaScript. Puedes escribirnos directamente al correo.</p></noscript>
+      </section>
+    </div>
+  </div>
+</Base>
+
+<script>
+  import '../scripts/contacto';
+</script>

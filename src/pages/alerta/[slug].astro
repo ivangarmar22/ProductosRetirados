@@ -1,12 +1,11 @@
 ---
 import Icono from '../../componentes/Icono.astro';
 import MapaCcaa from '../../componentes/MapaCcaa.astro';
-import Migas from '../../componentes/Migas.astro';
 import Nivel from '../../componentes/Nivel.astro';
 import Base from '../../layouts/Base.astro';
 import { alertas, comunidadesDe, FUENTES, identificacion, nivelDe, porId, relaciones, tarjetaDe } from '../../lib/datos';
 import { fecha, recortar } from '../../lib/formato';
-import { ILUSTRACION_CATEGORIA } from '../../lib/iconos';
+import { ICONO_CATEGORIA } from '../../lib/iconos';
 import { NOMBRE, ruta } from '../../lib/sitio';
 import { CATEGORIAS } from '../../../pipeline/normalizar.ts';
 import type { Alerta } from '../../../pipeline/tipos.ts';
@@ -33,6 +32,7 @@ const hacer = a.hacer?.length ? a.hacer : ['Consulta las recomendaciones en la f
 const historial = (rel.historial ?? []).map(porId).filter((x): x is Alerta => Boolean(x));
 const relacionadas = (rel.relacionadas ?? []).map(porId).filter((x): x is Alerta => Boolean(x)).slice(0, 5);
 const ident = identificacion(a);
+const fotos = [...new Set(a.imagenes.map((i) => i.urlOrigen).filter((u): u is string => Boolean(u)))];
 const descripcion = recortar(`${a.nombreVisible}: ${a.motivo ?? 'alerta'}. ${ident ? `${ident}. ` : ''}Publicada por ${f.corto} el ${fecha(a.fechas.publicacion)}.`, 158);
 const anio = a.fechas.publicacion.slice(0, 4);
 const url = new URL(ruta(`/alerta/${a.slug}/`), Astro.site).toString();
@@ -40,16 +40,10 @@ const inicio = new URL(ruta('/'), Astro.site).toString();
 // El comprobador solo tiene sentido si todos los lotes publicados están separados.
 const lotes = productos.flatMap((p) => p.lotes.map((l) => l.numero)).filter(Boolean);
 const comprobarLote = productos.every((p) => p.lotes.length > 0 && !p.lotesTexto);
-const marca = productos.find((p) => p.marcas[0])?.marcas[0];
 const whatsapp = `https://wa.me/?text=${encodeURIComponent(`${recortar(a.nombreVisible, 80)}: ${url}`)}`;
 // schema.org no tiene un tipo para retiradas de producto.
 const jsonld = [
   { '@context': 'https://schema.org', '@type': 'Article', headline: recortar(a.titulo, 110), datePublished: a.fechas.publicacion, dateModified: a.fechas.modificacion ?? a.fechas.publicacion, inLanguage: 'es-ES', mainEntityOfPage: url, author: { '@type': 'Organization', name: NOMBRE, url: inicio }, isBasedOn: a.urlOficial },
-  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Inicio', item: inicio },
-    { '@type': 'ListItem', position: 2, name: nombreCat, item: new URL(ruta(`/categoria/${cat}/`), Astro.site).toString() },
-    { '@type': 'ListItem', position: 3, name: recortar(a.nombreVisible, 60) },
-  ] },
 ];
 const etiquetasAviso = { alerta: 'Alerta inicial', ampliacion: 'Ampliación', correccion: 'Corrección' };
 ---
@@ -69,7 +63,6 @@ const etiquetasAviso = { alerta: 'Alerta inicial', ampliacion: 'Ampliación', co
 
       <header class="f-hero">
         <div class="f-in">
-          <Migas items={[{ texto: nombreCat, href: `/categoria/${cat}/` }, { texto: recortar(a.nombreVisible, 40) }]} />
           <p class="f-niv"><Nivel texto={n.texto} tipo={n.tipo} /> {f.corto}</p>
           <h1 data-pagefind-weight="10">{a.nombreVisible}</h1>
           {a.motivo && <p class="f-mot">{a.motivo}</p>}
@@ -77,17 +70,34 @@ const etiquetasAviso = { alerta: 'Alerta inicial', ampliacion: 'Ampliación', co
             <p class="f-esp">{enEspana ? `Consta relación con España: ${a.distribucion.paisNotificante === 'España' ? 'alerta notificada por España.' : 'detectada en España.'}` : 'Alerta europea. No consta si se ha vendido en España.'}</p>
           )}
         </div>
-        <img src={ruta(`/ilustraciones/${ILUSTRACION_CATEGORIA[cat] ?? 'caja'}.svg`)} alt="" width="240" height="240" />
+        <span class="cabecera-i"><Icono n={ICONO_CATEGORIA[cat] ?? 'package'} /></span>
       </header>
 
       <div class="f-rej">
         <div class="f-col">
           {comprobarLote && (
             <section class="f-sec lote" aria-labelledby="h-lote" data-lotes={JSON.stringify(lotes.slice(0, 300))} data-pagefind-ignore>
-              <h2 id="h-lote"><Icono n="scan-barcode" />¿Es tu lote?</h2>
+              <h2 id="h-lote"><Icono n="barcode" />¿Es tu lote?</h2>
               <label for="lote">Escribe el lote que aparece en tu envase.</label>
               <input id="lote" autocomplete="off" autocapitalize="characters" placeholder={`Por ejemplo: ${lotes[0].slice(0, 20)}`} />
               <p class="lote-res" role="status"></p>
+            </section>
+          )}
+
+          {fotos.length > 0 && (
+            <section class="f-sec f-fotos" aria-labelledby="h-fotos" data-fotos={JSON.stringify(fotos)} data-nombre={a.nombreVisible} data-pagefind-ignore>
+              <div>
+                <h2 id="h-fotos">Fotos del producto</h2>
+                <p class="ref">{f.corto} publica {fotos.length === 1 ? '1 foto' : `${fotos.length} fotos`}. Se cargan desde su web oficial al pulsar.</p>
+              </div>
+              <a class="btn" href={fotos[0]} rel="noopener noreferrer"><Icono n="images" />Ver fotos</a>
+              <dialog class="visor" aria-label="Fotos del producto">
+                <img alt="" referrerpolicy="no-referrer" />
+                <button class="visor-b visor-x" type="button" aria-label="Cerrar" data-cerrar><Icono n="x" /></button>
+                <button class="visor-b visor-a" type="button" aria-label="Foto anterior" data-paso="-1"><Icono n="caret-left" /></button>
+                <button class="visor-b visor-s" type="button" aria-label="Foto siguiente" data-paso="1"><Icono n="caret-right" /></button>
+                <p class="visor-n" aria-live="polite"></p>
+              </dialog>
             </section>
           )}
 
@@ -163,11 +173,10 @@ const etiquetasAviso = { alerta: 'Alerta inicial', ampliacion: 'Ampliación', co
               {a.empresas.map((e) => <><dt>{{ titular: 'Titular', fabricante: 'Fabricante', 'vendedor-online': 'Venta online' }[e.rol]}</dt><dd>{recortar(e.nombre, 70)}</dd></>)}
             </dl>
           </div>
-          <a class="btn btn-coral btn-ancho" href={a.urlOficial} rel="noopener"><Icono n="external-link" />Ver fuente oficial</a>
+          <a class="btn btn-coral btn-ancho" href={a.urlOficial} rel="noopener"><Icono n="arrow-square-out" />Ver fuente oficial</a>
           <div class="comparte" data-pagefind-ignore>
-            <a href={whatsapp} rel="noopener noreferrer"><Icono n="message-circle" />WhatsApp</a>
+            <a href={whatsapp} rel="noopener noreferrer"><Icono n="whatsapp-logo" />Compartir en WhatsApp</a>
             <button type="button" data-copiar={url} hidden><Icono n="link" /><span>Copiar enlace</span></button>
-            {marca && <button class="vigilar" type="button" data-vigilar={marca} hidden><Icono n="shopping-basket" /><span>Vigilar {marca}</span></button>}
           </div>
           <p class="ref">
             {f.corto}{a.referenciaOficial ? ` · ${a.referenciaOficial}` : ''}<br />

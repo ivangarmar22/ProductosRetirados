@@ -1,6 +1,5 @@
 /** Efectos comunes. Todos respetan prefers-reduced-motion. */
 const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const raiz = document.documentElement;
 
 const aparicion = new IntersectionObserver((entradas) => entradas.forEach((e) => {
   if (e.isIntersecting) { e.target.classList.add('visto'); aparicion.unobserve(e.target); }
@@ -39,24 +38,24 @@ if (!quieto && matchMedia('(hover: hover)').matches) {
   }, { passive: true });
 }
 
+// Los ejemplos ocupan una sola fila: los que bajarían a la segunda dejan de verse y de recibir el foco.
+const ejemplos = document.querySelector<HTMLElement>('.rap');
+if (ejemplos) {
+  const filas = [...ejemplos.children] as HTMLElement[];
+  new ResizeObserver(() => filas.forEach((f) => { f.style.visibility = f.offsetTop > filas[0].offsetTop ? 'hidden' : ''; })).observe(ejemplos);
+}
+
 const rotar = document.querySelector<HTMLElement>('[data-rotar]');
 if (rotar && !quieto) {
   const palabras = rotar.dataset.rotar!.split('|');
   let n = 0;
   setInterval(() => {
-    if (raiz.classList.contains('quieto') || document.hidden) return;
+    if (document.hidden) return;
     rotar.classList.add('sale');
     setTimeout(() => { n = (n + 1) % palabras.length; rotar.textContent = palabras[n]; rotar.classList.remove('sale'); }, 260);
   }, 2600);
 }
 
-const pausa = document.querySelector<HTMLButtonElement>('[data-pausa]');
-pausa?.addEventListener('click', () => {
-  const parado = raiz.classList.toggle('quieto');
-  const uso = pausa.querySelector('use')!;
-  pausa.setAttribute('aria-pressed', String(parado));
-  uso.setAttribute('href', uso.getAttribute('href')!.replace(/#.*/, parado ? '#play' : '#pause'));
-});
 
 document.querySelectorAll<HTMLButtonElement>('[data-copiar]').forEach((b) => {
   if (!navigator.clipboard) return;

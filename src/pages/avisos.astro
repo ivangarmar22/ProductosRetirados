@@ -10,17 +10,17 @@ const categorias = Object.entries(CATEGORIAS).filter(([k]) => alertas().some((a)
 
 <Base titulo="Recibe los avisos" descripcion="Recibe las alertas de productos retirados por Telegram, newsletter o RSS, por categoría y por alérgeno." ruta="/avisos/">
   <div class="pagina">
-    <Cabecera titulo="Recibe los avisos" migas={[{ texto: 'Avisos' }]} ilustracion="buzon" color="agua">
+    <Cabecera titulo="Recibe los avisos" icono="bell-ringing" color="agua">
       <p class="entradilla">Elige cómo quieres enterarte. Todos los canales son gratuitos.</p>
     </Cabecera>
     <div class="dos">
       <section class="caja">
-        <h2><Icono n="send" />Telegram</h2>
+        <h2><Icono n="paper-plane-tilt" />Telegram</h2>
         <p>Un mensaje por cada alerta nueva de España, en cuanto la publicamos.</p>
         {TELEGRAM_URL ? <a class="btn" href={TELEGRAM_URL} rel="noopener">Unirme al canal</a> : <p class="nota">El canal estará disponible muy pronto.</p>}
       </section>
       <section class="caja">
-        <h2><Icono n="mail" />Newsletter</h2>
+        <h2><Icono n="envelope-simple" />Newsletter</h2>
         <p>Un resumen semanal con las alertas de España, en tu correo. Puedes darte de baja cuando quieras.</p>
         {NEWSLETTER_URL ? <a class="btn" href={NEWSLETTER_URL} rel="noopener">Apuntarme</a> : <p class="nota">La newsletter estará disponible muy pronto.</p>}
       </section>

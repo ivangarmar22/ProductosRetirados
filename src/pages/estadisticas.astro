@@ -30,7 +30,7 @@ const mes = (k: string) => { const [a, m] = k.split('-'); return `${m}/${a}`; };
 
 <Base titulo="Estadísticas" descripcion="Alertas de productos retirados por mes, categoría, tipo de riesgo y país de origen." ruta="/estadisticas/">
   <div class="pagina texto">
-    <Cabecera titulo="Estadísticas" migas={[{ texto: 'Estadísticas' }]} color="cielo">
+    <Cabecera titulo="Estadísticas" color="cielo">
       <p class="entradilla">{numero(todas.length)} alertas publicadas. El periodo cubierto cambia según la fuente: consulta <a href={ruta('/fuentes/')}>fuentes y metodología</a>.</p>
     </Cabecera>
 

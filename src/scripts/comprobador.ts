@@ -1,6 +1,6 @@
 /** Comprobador guiado: tipo de producto, marca o lote, resultado. */
 import { esc } from '../lib/tarjeta';
-import { aTarjeta, base, buscarVerificado } from './motor';
+import { aTarjeta, base, buscarVerificado, type Hallazgo } from './motor';
 
 const raiz = document.querySelector<HTMLElement>('[data-comprobador]');
 if (raiz) {
@@ -31,10 +31,18 @@ if (raiz) {
     e.preventDefault();
     const q = input.value.trim();
     if (!q) return;
-    let hallazgos = await buscarVerificado(q, { filters: categoria ? { categoria } : {} });
-    // Si se eligió mal la categoría, no debe parecer que no hay alertas.
-    const fuera = categoria !== '' && !hallazgos.length;
-    if (fuera) hallazgos = await buscarVerificado(q);
+    let hallazgos: Hallazgo[];
+    let fuera = false;
+    try {
+      hallazgos = await buscarVerificado(q, { filters: categoria ? { categoria } : {} });
+      // Si se eligió mal la categoría, no debe parecer que no hay alertas.
+      fuera = categoria !== '' && !hallazgos.length;
+      if (fuera) hallazgos = await buscarVerificado(q);
+    } catch {
+      salida.innerHTML = '<p class="res mal"><b>No se ha podido comprobar.</b> Revisa tu conexión e inténtalo de nuevo.</p>';
+      ir(2);
+      return;
+    }
     const n = hallazgos.length;
     if (n) {
       const todas = `${base()}alertas/?q=${encodeURIComponent(q)}${categoria && !fuera ? `&categoria=${encodeURIComponent(categoria)}` : ''}`;

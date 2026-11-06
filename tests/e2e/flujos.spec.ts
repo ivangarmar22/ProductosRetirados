@@ -6,14 +6,18 @@ const sinDesborde = async (page: import('@playwright/test').Page) => {
   expect(d).toBeLessThanOrEqual(0);
 };
 
+// Las fotos vienen de las webs oficiales: los tests no deben pedirles nada.
+test.beforeEach(async ({ page }) => {
+  await page.route(/^https:\/\/(www\.aesan\.gob\.es|ec\.europa\.eu)\//, (r) => r.abort());
+});
+
 const FICHA = '/alerta/jamon-cocido-urkabe-aesan-2026-80/';
 const RANGO = '/alerta/col-rizada-boerenkool-espinacas-spinazie-y-espinacas-a-la-crema-spinaz-aesan-2025-23/';
 
-test('inicio: buscador, alertas de España y aviso de no oficial', async ({ page }) => {
+test('inicio: buscador y alertas de España', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('h1')).toContainText('retirado');
   await expect(page.getByRole('combobox').first()).toBeVisible();
-  await expect(page.getByText('No es un organismo oficial')).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Últimas alertas' })).toBeVisible();
   await sinDesborde(page);
   await page.screenshot({ path: `test-results/capturas/inicio-${test.info().project.name}.png`, fullPage: true });
@@ -103,19 +107,12 @@ test('en móvil, los filtros tienen salida a los resultados', async ({ page }, i
   test.skip(info.project.name !== 'movil');
   await page.goto('/alertas/');
   await page.locator('.filtros summary').click();
-  await page.locator('#f-categoria').selectOption('Alimentos');
+  await page.getByRole('combobox', { name: /Categoría/ }).click();
+  await page.getByRole('option', { name: 'Alimentos' }).click();
   await page.getByRole('button', { name: 'Ver resultados' }).click();
   await expect(page.locator('.filtros-in')).toBeHidden();
   await expect(page.locator('#resultados .tar').first()).toBeVisible();
   expect(page.url()).toContain('categoria=Alimentos');
-});
-
-test('Mis alergias se guarda en el dispositivo', async ({ page }) => {
-  await page.goto('/mis-alergias/');
-  await page.getByLabel('Huevo').check();
-  await expect(page.locator('#resultados .tar').first()).toBeVisible();
-  await page.reload();
-  await expect(page.getByLabel('Huevo')).toBeChecked();
 });
 
 test('404 propio', async ({ page }) => {
@@ -124,7 +121,7 @@ test('404 propio', async ({ page }) => {
   await expect(page.locator('h1')).toContainText('nada');
 });
 
-for (const ruta of ['/', '/alertas/', '/alertas/pagina/2/', '/apoya/', '/fuentes/', '/estadisticas/', '/avisos/', '/categorias/', '/comprobar/', '/mi-despensa/', '/mis-alergias/', '/aviso-legal/']) {
+for (const ruta of ['/', '/alertas/', '/alertas/pagina/2/', '/colabora/', '/contacto/', '/fuentes/', '/estadisticas/', '/avisos/', '/categorias/', '/comprobar/', '/aviso-legal/']) {
   test(`axe sin incidencias: ${ruta}`, async ({ page }) => {
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.goto(ruta);
@@ -210,20 +207,6 @@ test('compartir por WhatsApp lleva la URL de la ficha', async ({ page }) => {
   await expect(page.getByRole('link', { name: 'WhatsApp' })).toHaveAttribute('href', /wa\.me.*jamon-cocido-urkabe/);
 });
 
-test('Mi despensa: vigilar desde la ficha, ver y quitar', async ({ page }) => {
-  await page.goto(FICHA);
-  await page.getByRole('button', { name: 'Vigilar URKABE' }).click();
-  await expect(page.getByRole('button', { name: 'Vigilando URKABE' })).toBeVisible();
-  await page.goto('/mi-despensa/');
-  await expect(page.locator('#resultados .tar').first()).toContainText(/urkabe/i);
-  await page.getByLabel('Marca o producto').fill('xqzjwv');
-  await page.getByRole('button', { name: 'Añadir' }).click();
-  await expect(page.getByRole('button', { name: 'Dejar de vigilar xqzjwv' })).toBeVisible();
-  await page.reload();
-  await page.getByRole('button', { name: 'Dejar de vigilar URKABE' }).click();
-  await expect(page.locator('#resumen')).toContainText('no significa que tus productos sean seguros');
-});
-
 test('el mapa lleva a las alertas de la comunidad', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('link', { name: /^Madrid: / }).click();
@@ -231,12 +214,228 @@ test('el mapa lleva a las alertas de la comunidad', async ({ page }) => {
   await expect(page.locator('#resultados .tar').first()).toBeVisible();
 });
 
-test('la animación de portada se puede pausar', async ({ page }) => {
+test('la portada no tiene botón de pausa y la cinta cabe en su panel', async ({ page }) => {
   await page.goto('/');
-  const b = page.getByRole('button', { name: 'Pausar animación' });
-  await b.click();
-  await expect(b).toHaveAttribute('aria-pressed', 'true');
-  expect(await page.locator('.ticker > div').evaluate((e) => getComputedStyle(e).animationPlayState)).toBe('paused');
+  await expect(page.getByRole('button', { name: /pausar/i })).toHaveCount(0);
+  const panel = (await page.locator('.panel').boundingBox())!;
+  const cinta = (await page.locator('.escena').boundingBox())!;
+  expect(cinta.x).toBeGreaterThanOrEqual(panel.x);
+  expect(cinta.x + cinta.width).toBeLessThanOrEqual(panel.x + panel.width);
+  expect(cinta.y + cinta.height).toBeLessThanOrEqual(panel.y + panel.height);
+  await expect(page.locator('.escena .item')).toHaveCount(6);
+});
+
+test('la cabecera no parte palabras en ninguna sección', async ({ page }, info) => {
+  test.skip(info.project.name === 'movil');
+  for (const ruta of ['/', '/alertas/', '/categorias/', '/alergenos/', '/avisos/', '/comprobar/', '/colabora/', '/contacto/']) {
+    for (const ancho of [768, 800, 960, 1024]) {
+      await page.setViewportSize({ width: ancho, height: 800 });
+      await page.goto(ruta);
+      expect((await page.locator('.cab').boundingBox())!.height).toBeLessThanOrEqual(64);
+      const fuera = await page.locator('.cab-in').evaluate((e) => e.scrollWidth - e.clientWidth);
+      expect(fuera).toBeLessThanOrEqual(0);
+    }
+  }
+});
+
+test('el contador de alertas va debajo de los ejemplos', async ({ page }) => {
+  await page.goto('/');
+  const ejemplos = (await page.locator('.rap').boundingBox())!;
+  const chip = (await page.locator('.hero .chip').boundingBox())!;
+  expect(chip.y).toBeGreaterThanOrEqual(ejemplos.y + ejemplos.height + 12);
+});
+
+test('contacto: correo directo y validación del formulario', async ({ page }) => {
+  await page.goto('/contacto/');
+  await expect(page.getByRole('link', { name: 'Escribir un correo' })).toHaveAttribute('href', 'mailto:estaretirado@gmail.com');
+  await page.getByRole('button', { name: 'Enviar mensaje' }).click();
+  await expect(page.getByText('Escribe un correo válido')).toBeVisible();
+  await expect(page.getByText('Cuéntanos en qué podemos ayudarte')).toBeVisible();
+  await expect(page.getByLabel('Tu correo')).toBeFocused();
+  await sinDesborde(page);
+});
+
+test('contacto: envía desde la web y avisa si falla', async ({ page }) => {
+  let cuerpo = '';
+  let estado = 200;
+  await page.route('https://api.web3forms.com/submit', (r) => { cuerpo = r.request().postData() ?? ''; return r.fulfill({ status: estado, json: { success: estado === 200 } }); });
+  await page.goto('/contacto/');
+  const rellenar = async () => {
+    await page.getByLabel('Tu correo').fill('ana@example.com');
+    await page.getByLabel('Mensaje').fill('Hola');
+    await page.locator('#contacto button[type="submit"]').click();
+  };
+  await page.getByRole('combobox', { name: /Motivo/ }).click();
+  await page.getByRole('option', { name: 'Proponer una fuente' }).click();
+  await rellenar();
+  await expect(page.locator('.salida')).toHaveText('Mensaje enviado. Gracias por escribirnos.');
+  await expect(page.getByRole('combobox', { name: /Motivo/ })).toContainText('Error en una alerta');
+  expect(JSON.parse(cuerpo)).toMatchObject({ access_key: expect.stringMatching(/^[0-9a-f-]{36}$/), email: 'ana@example.com', message: 'Hola' });
+  await expect(page.getByLabel('Mensaje')).toHaveValue('');
+  estado = 500;
+  await rellenar();
+  await expect(page.locator('.salida')).toContainText('No se ha podido enviar');
+  await expect(page.getByLabel('Mensaje')).toHaveValue('Hola');
+});
+
+test('las fotos no se piden hasta pulsar y se abren en un visor', async ({ page }) => {
+  const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==', 'base64');
+  let pedidas = 0;
+  await page.route(/^https:\/\/www\.aesan\.gob\.es\//, (r) => { pedidas++; return r.fulfill({ contentType: 'image/png', body: png }); });
+  await page.goto(FICHA);
+  await page.waitForLoadState('networkidle');
+  expect(pedidas).toBe(0);
+  const abrir = page.getByRole('link', { name: 'Ver fotos' });
+  const visor = page.getByRole('dialog', { name: 'Fotos del producto' });
+  await abrir.click();
+  await expect(visor).toBeVisible();
+  expect(page.url()).toContain(FICHA);
+  await expect(visor.locator('.visor-n')).toHaveText('1 de 3');
+  await expect.poll(() => visor.locator('img').evaluate((i: HTMLImageElement) => i.naturalWidth)).toBeGreaterThan(0);
+  await expect(visor.locator('img')).toHaveAttribute('referrerpolicy', 'no-referrer');
+  const axe = await new AxeBuilder({ page }).include('.visor').withTags(['wcag2a', 'wcag2aa', 'wcag22aa']).analyze();
+  expect(axe.violations.map((v) => v.id)).toEqual([]);
+  await visor.getByRole('button', { name: 'Foto siguiente' }).click();
+  await expect(visor.locator('.visor-n')).toHaveText('2 de 3');
+  await page.keyboard.press('ArrowLeft');
+  await page.keyboard.press('ArrowLeft');
+  await expect(visor.locator('.visor-n')).toHaveText('3 de 3');
+  await page.keyboard.press('Escape');
+  await expect(visor).toBeHidden();
+  await expect(abrir).toBeFocused();
+  await abrir.click();
+  await visor.getByRole('button', { name: 'Cerrar' }).click();
+  await expect(visor).toBeHidden();
+  await abrir.click();
+  await page.mouse.click(4, 4);
+  await expect(visor).toBeHidden();
+  await sinDesborde(page);
+});
+
+test('si las fotos no cargan, lo dice y remite a la fuente', async ({ page }) => {
+  await page.goto(FICHA);
+  await page.getByRole('link', { name: 'Ver fotos' }).click();
+  await expect(page.locator('.f-fotos .ref')).toContainText('No se han podido cargar');
+  await expect(page.getByRole('dialog')).toBeHidden();
+  await expect(page.getByRole('link', { name: 'Ver fotos' })).toHaveCount(0);
+});
+
+test('si el buscador no carga lo dice, y se recupera al reintentar', async ({ page }) => {
+  let caido = true;
+  await page.route('**/pagefind/pagefind.js', (r) => (caido ? r.abort() : r.continue()));
+  await page.goto('/alertas/?q=urkabe');
+  await expect(page.locator('#resumen')).toContainText('No se ha podido cargar el buscador');
+  caido = false;
+  await page.locator('#q').press('Enter');
+  await expect(page.locator('#resultados .tar').first()).toContainText(/urkabe/i);
+});
+
+test('el filtro de una comunidad con ñ devuelve resultados', async ({ page }) => {
+  await page.goto('/alertas/?ccaa=' + encodeURIComponent('Cataluña'));
+  await expect(page.locator('#resultados .tar').first()).toBeVisible();
+  await expect(page.locator('#resumen')).toContainText('alertas');
+});
+
+test('la cinta queda centrada en móvil y tablet', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  for (const ancho of [360, 390, 600, 768, 900]) {
+    await page.setViewportSize({ width: ancho, height: 900 });
+    await page.goto('/');
+    const desvio = await page.evaluate(() => {
+      const panel = document.querySelector('.panel')!.getBoundingClientRect();
+      const q = [...document.querySelectorAll('.escena > polygon')].map((e) => e.getBoundingClientRect());
+      return (Math.min(...q.map((r) => r.left)) + Math.max(...q.map((r) => r.right))) / 2 - (panel.left + panel.right) / 2;
+    });
+    expect(Math.abs(desvio)).toBeLessThanOrEqual(3);
+  }
+});
+
+test('los ejemplos de búsqueda ocupan una sola fila', async ({ page }) => {
+  for (const ancho of [360, 390, 768, 1024, 1280]) {
+    await page.setViewportSize({ width: ancho, height: 900 });
+    await page.goto('/');
+    const visibles = page.locator('.rap li:visible');
+    await expect(visibles.first()).toBeVisible();
+    const alturas = await page.locator('.rap li').evaluateAll((l) => l.filter((e) => getComputedStyle(e).visibility === 'visible').map((e) => e.getBoundingClientRect().top));
+    expect(new Set(alturas).size).toBe(1);
+  }
+});
+
+test('sin migas, sin aviso superior y sin enlace al repositorio', async ({ page }) => {
+  for (const ruta of ['/', '/colabora/', '/fuentes/', '/sobre/', '/aviso-legal/', FICHA]) {
+    await page.goto(ruta);
+    await expect(page.getByText('Web independiente')).toHaveCount(0);
+    await expect(page.locator('nav[aria-label="Migas de pan"]')).toHaveCount(0);
+    await expect(page.locator('a[href*="github.com"]')).toHaveCount(0);
+  }
+});
+
+test('Mi despensa y Mis alergias ya no existen', async ({ page }) => {
+  for (const ruta of ['/mi-despensa/', '/mis-alergias/']) expect((await page.goto(ruta))?.status()).toBe(404);
+  await page.goto(FICHA);
+  await expect(page.locator('a[href*="mi-despensa"]')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: /Vigilar/ })).toHaveCount(0);
+});
+
+test('navegación: Contacto en el menú y Colaborar destacado', async ({ page }, info) => {
+  await page.goto('/');
+  if (info.project.name === 'movil') {
+    await expect(page.locator('.tabbar a').nth(3)).toHaveText('Avisos');
+    await expect(page.locator('.tabbar a').nth(4)).toHaveText('Contacto');
+    await expect(page.locator('.menu')).toBeHidden();
+    await expect(page.locator('.cta')).toHaveText('Colaborar');
+    await sinDesborde(page);
+    return;
+  }
+  await expect(page.locator('.tabbar')).toBeHidden();
+  await expect(page.locator('.menu a')).toHaveText(['Alertas', 'Comprobar', 'Categorías', 'Alérgenos', 'Avisos', 'Contacto']);
+  await page.locator('.cta').click();
+  await page.waitForURL(/colabora/);
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Ayúdanos');
+});
+
+test('desplegable: ratón, teclado y etiqueta activa', async ({ page }, info) => {
+  await page.goto('/alertas/');
+  if (info.project.name === 'movil') await page.locator('.filtros summary').click();
+  const fuente = page.getByRole('combobox', { name: /Fuente/ });
+  await fuente.click();
+  await expect(page.getByRole('option', { name: 'AEMPS' })).toBeVisible();
+  await page.getByRole('option', { name: 'AEMPS' }).click();
+  await expect(page.getByRole('listbox')).toBeHidden();
+  await expect(fuente).toContainText('AEMPS');
+  await page.waitForURL(/fuente=AEMPS/);
+  await expect(page.locator('#resultados .tar').first()).toBeVisible();
+
+  const ccaa = page.getByRole('combobox', { name: /Comunidad/ });
+  await ccaa.focus();
+  await page.keyboard.press('Enter');
+  await page.keyboard.type('mad');
+  await page.keyboard.press('Enter');
+  await expect(ccaa).toContainText('Madrid');
+  await page.waitForURL(/ccaa=Madrid/);
+
+  await ccaa.focus();
+  await page.keyboard.press('ArrowDown');
+  await page.keyboard.press('Escape');
+  await expect(ccaa).toHaveAttribute('aria-expanded', 'false');
+
+  await page.getByRole('button', { name: 'Quitar filtro: AEMPS' }).click();
+  await expect(fuente).toContainText('Todas');
+  expect(page.url()).not.toContain('fuente=');
+  await sinDesborde(page);
+});
+
+test('los filtros de la URL se ven en los desplegables', async ({ page }, info) => {
+  await page.goto('/alertas/?categoria=Juguetes&anio=2026');
+  if (info.project.name === 'movil') await page.locator('.filtros summary').click();
+  await expect(page.getByRole('combobox', { name: /Categoría/ })).toContainText('Juguetes');
+  await expect(page.getByRole('combobox', { name: /Año/ })).toContainText('2026');
+});
+
+test('la ficha con distribución muestra el mapa con su comunidad', async ({ page }) => {
+  await page.goto(FICHA);
+  const mapa = page.locator('.mapa-f');
+  if (await mapa.count()) await expect(mapa.locator('.ca.on').first()).toBeVisible();
 });
 
 test('sin movimiento no hay animaciones y el contenido se ve', async ({ page }) => {
@@ -247,7 +446,7 @@ test('sin movimiento no hay animaciones y el contenido se ve', async ({ page }) 
   await expect(page.locator('.cifras b').first()).not.toHaveText('0');
 });
 
-for (const ruta of ['/', '/apoya/']) {
+for (const ruta of ['/', '/colabora/']) {
   test(`donativos en ${ruta}`, async ({ page }) => {
     await page.goto(ruta);
     await expect(page.getByText('652 308 536').first()).toBeVisible();

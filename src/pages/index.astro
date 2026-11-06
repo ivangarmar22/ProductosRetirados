@@ -31,14 +31,13 @@ const jsonld = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: NO
   <section class="hero">
     <div class="panel">
       <div class="hero-t">
-        <p class="chip"><i></i>{nuevas === 1 ? '1 alerta nueva' : `${numero(nuevas)} alertas nuevas`} esta semana</p>
         <h1><span class="oculto">¿Está retirado?</span><span aria-hidden="true">¿Está <em data-rotar="retirado?|en alerta?|afectado?">retirado?</em></span></h1>
         <p class="entradilla">Alimentos, medicamentos, cosméticos y juguetes. Todas las alertas oficiales de España, en un solo buscador.</p>
         <Buscador />
         <ul class="rap">
           {[['Listeria', '/alertas/?q=listeria'], ['Salmonella', '/alertas/?q=salmonella'], ['Gluten', '/alergeno/gluten/'], ['Juguetes', '/categoria/juguetes/']].map(([t, h]) => <li><a href={ruta(h)}>{t}</a></li>)}
         </ul>
-        <button class="pausa" type="button" data-pausa aria-pressed="false"><Icono n="pause" /><span>Pausar animación</span></button>
+        <p class="chip"><i></i>{nuevas === 1 ? '1 alerta nueva' : `${numero(nuevas)} alertas nuevas`} esta semana</p>
       </div>
       <div class="hero-e" set:html={cinta} />
     </div>
@@ -46,7 +45,7 @@ const jsonld = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: NO
 
   <div class="ticker" aria-hidden="true">
     <div>
-      {[0, 1].map(() => recientes.map((a) => <span><Icono n="triangle-alert" /><b>{recortar(a.nombreVisible, 44)}</b> {recortar(a.motivo ?? '', 40)}</span>))}
+      {[0, 1].map(() => recientes.map((a) => <span><Icono n="warning" /><b>{recortar(a.nombreVisible, 44)}</b> {recortar(a.motivo ?? '', 40)}</span>))}
     </div>
   </div>
 
@@ -82,13 +81,13 @@ const jsonld = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: NO
     <a class="mas" href={ruta('/alertas/?ambito=europa')}>Ver todas las alertas europeas <Icono n="arrow-right" /></a>
   </section>
 
-  <section class="seccion sec-mapa" aria-labelledby="h-mapa" data-ver>
-    <div class="tit"><p class="ante">Dónde</p><h2 id="h-mapa">Alertas alimentarias por comunidad</h2><p>Según la distribución que publica AESAN desde 2025, incluidas las alertas de todo o casi todo el país. El color más intenso indica más alertas. Pulsa tu comunidad.</p></div>
+  <section class="seccion" aria-labelledby="h-mapa" data-ver>
+    <div class="tit"><p class="ante">Dónde</p><h2 id="h-mapa">Alertas alimentarias por comunidad</h2><p>Según la distribución que publica AESAN desde 2025, incluidas las alertas de todo o casi todo el país. Cuanto más oscuro, más alertas. Pulsa tu comunidad.</p></div>
     <MapaCcaa cuentas={porCcaa} />
   </section>
 
   <section class="seccion" aria-labelledby="h-alerg" data-ver>
-    <div class="tit"><p class="ante">Alergias</p><h2 id="h-alerg">Por alérgeno</h2><p>Guarda los tuyos en <a href={ruta('/mis-alergias/')}>Mis alergias</a> y vigila tus marcas en <a href={ruta('/mi-despensa/')}>Mi despensa</a>.</p></div>
+    <div class="tit"><p class="ante">Alergias</p><h2 id="h-alerg">Por alérgeno</h2><p>Consulta las alertas de cada uno de los 14 alérgenos de declaración obligatoria.</p></div>
     <ul class="chips">{nombresAlergenos.map((n) => <li><a href={ruta(`/alergeno/${slug(n)}/`)}>{n}</a></li>)}</ul>
   </section>
 
@@ -103,3 +102,7 @@ const jsonld = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: NO
 
   <Donar />
 </Base>
+
+<script>
+  import '../scripts/mapa';
+</script>

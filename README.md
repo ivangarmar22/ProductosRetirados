@@ -25,11 +25,11 @@
   <a href="https://ivangarmar22.github.io/ProductosRetirados/"><b>Abrir la web</b></a> ·
   <a href="https://ivangarmar22.github.io/ProductosRetirados/comprobar/">Comprobar un producto</a> ·
   <a href="https://ivangarmar22.github.io/ProductosRetirados/avisos/">Recibir avisos</a> ·
-  <a href="#apoya-el-proyecto">Donar</a>
+  <a href="#colabora">Colabora</a>
 </p>
 
 <p align="center">
-  <img src="docs/assets/portada.webp" alt="Portada de Productos Retirados: panel amarillo con el titular ¿Está retirado?, el buscador y una cinta de supermercado animada" width="900">
+  <img src="docs/assets/portada.webp" alt="Portada de Productos Retirados: titular ¿Está retirado?, el buscador y una cinta de supermercado animada" width="900">
 </p>
 
 ## Qué es
@@ -47,9 +47,9 @@ En España, las alertas de productos están repartidas entre varios organismos. 
 |---|---|---|
 | 🔎 | **Buscador con sugerencias** | Marca, producto, lote o EAN, con resultados mientras escribes y corrección de erratas |
 | ✅ | **Comprobador en tres pasos** | Tipo de producto, marca o lote, y resultado. Sin registros |
+| 📷 | **Fotos del producto** | Las que publican AESAN y Safety Gate, en un visor dentro de la ficha |
 | 🏷️ | **¿Es tu lote?** | Escribe tu lote en la ficha y comprueba al momento si coincide |
-| 🧺 | **Mi despensa** | Vigila tus marcas y mira qué hay de nuevo. Se guarda solo en tu dispositivo |
-| 🥜 | **Mis alergias** | Los 14 alérgenos de declaración obligatoria, con su RSS |
+| 🥜 | **Por alérgeno** | Los 14 alérgenos de declaración obligatoria, con su RSS |
 | 🗺️ | **Mapa por comunidad** | Alertas alimentarias por comunidad autónoma y distribución de cada alerta |
 | 🔔 | **Avisos** | Telegram, newsletter y RSS general, por categoría y por alérgeno |
 | 📊 | **Estadísticas** | Evolución mensual, categorías, riesgos y países de origen |
@@ -122,7 +122,7 @@ flowchart LR
 | Datos | Node 24+ con TypeScript nativo, [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser), [node-html-parser](https://github.com/taoqf/node-html-parser) y [Ajv](https://ajv.js.org) |
 | Pruebas | [Vitest](https://vitest.dev), [Playwright](https://playwright.dev) y [axe](https://github.com/dequelabs/axe-core) |
 | Publicación | GitHub Actions y GitHub Pages |
-| Diseño | CSS propio, [Unbounded](https://github.com/googlefonts/unbounded), [Figtree](https://github.com/erikdkennedy/figtree), iconos de [Lucide](https://lucide.dev) e ilustraciones isométricas propias en SVG |
+| Diseño | CSS propio, [Figtree](https://github.com/erikdkennedy/figtree), iconos de [Phosphor](https://phosphoricons.com) y mapa de [Natural Earth](https://www.naturalearthdata.com) |
 
 Calidad medida en local el 06/11/2026: Lighthouse móvil 100 en las cuatro categorías en inicio, listado, categoría, apoyo y tres tipos de ficha; 44 tests de parsers; 41 flujos e2e en móvil, tablet y escritorio; axe sin incidencias, y sin desbordes a 360, 390, 768, 1024, 1280 y 1440 px.
 
@@ -183,9 +183,9 @@ src/
   layouts/       Cabecera, pie y navegación
   lib/           Datos, formato y configuración del sitio
   pages/         Rutas, RSS y sitemap
-  scripts/       Buscador, comprobador, despensa y efectos
+  scripts/       Buscador, comprobador, desplegables, mapa y efectos
   estilos/       Un único CSS con los tokens de diseño
-public/          Marca, iconos e ilustraciones
+public/          Marca e iconos
 tests/           Parsers y flujos e2e
 fixtures/        Páginas reales para los tests
 docs/            Investigación, decisiones y lanzamiento
@@ -216,9 +216,9 @@ Para pasar a un dominio propio, apunta el DNS a GitHub Pages y define la variabl
 - ¿Conoces otra fuente oficial con condiciones de reutilización claras? Cuéntalo en una incidencia.
 - Para cambiar código, abre una pull request. `npm run verificar` y `npm run e2e` deben pasar.
 
-## Apoya el proyecto
+## Colabora
 
-Productos Retirados es gratuito y lo seguirá siendo. Un donativo ayuda a pagar el dominio y las horas de mantenimiento, pero la web funciona igual sin él.
+Productos Retirados es gratuito y lo seguirá siendo. Con tu ayuda iremos mejorando la web e investigando mejores formas de encontrar avisos.
 
 <table>
   <tr>
@@ -228,7 +228,7 @@ Productos Retirados es gratuito y lo seguirá siendo. Un donativo ayuda a pagar 
       <sub>Con el concepto «Productos Retirados»</sub>
     </td>
     <td align="center" width="50%">
-      <a href="https://www.paypal.me/ivangarmar22"><img src="https://img.shields.io/badge/Donar%20con-PayPal-16213a?style=for-the-badge&logo=paypal&logoColor=white" alt="Donar con PayPal"></a><br><br>
+      <a href="https://www.paypal.me/ivangarmar22"><img src="https://img.shields.io/badge/Donar%20con-PayPal-1d2533?style=for-the-badge&logo=paypal&logoColor=white" alt="Donar con PayPal"></a><br><br>
       <a href="https://www.paypal.me/ivangarmar22">paypal.me/ivangarmar22</a>
     </td>
   </tr>
@@ -244,11 +244,12 @@ Compartir la web con tu familia y avisar de errores ayuda tanto como un donativo
 | Datos de AESAN | Reutilización autorizada citando la fuente y la fecha de actualización |
 | Datos de la AEMPS | Reproducción autorizada citando su origen y la fecha de actualización |
 | Datos de Safety Gate | © Unión Europea. Informes semanales CC0; el resto, CC BY 4.0 |
-| Unbounded y Figtree | [SIL Open Font License](docs/licencias/) |
-| Iconos de Lucide | [ISC](docs/licencias/lucide-ISC.txt) |
-| Logo e ilustraciones | Propios del proyecto |
+| Figtree | [SIL Open Font License](docs/licencias/) |
+| Iconos de Phosphor | [MIT](docs/licencias/phosphor-MIT.txt) |
+| Cartografía de Natural Earth | Dominio público |
+| Logotipo | Propio del proyecto |
 
-Las marcas citadas pertenecen a sus titulares. No se muestran fotografías de productos para no reutilizar imágenes con derechos de terceros.
+Las marcas citadas pertenecen a sus titulares. Las fotos de producto no se copian: se cargan desde la web oficial de cada fuente solo si se pulsa «Ver fotos».
 
 ---
 

@@ -4,7 +4,7 @@ import Cabecera from '../../componentes/Cabecera.astro';
 import Base from '../../layouts/Base.astro';
 import { alertas } from '../../lib/datos';
 import { numero } from '../../lib/formato';
-import { ILUSTRACION_CATEGORIA } from '../../lib/iconos';
+import { ICONO_CATEGORIA } from '../../lib/iconos';
 import { ruta } from '../../lib/sitio';
 import { CATEGORIAS } from '../../../pipeline/normalizar.ts';
 
@@ -14,12 +14,11 @@ export function getStaticPaths() {
 const slug = Astro.params.slug!;
 const nombre = CATEGORIAS[slug];
 const lista = alertas().filter((a) => a.categoria.normalizada === slug);
-const ilustracion = ILUSTRACION_CATEGORIA[slug] ?? 'caja';
 ---
 
 <Base titulo={`${nombre}: alertas y retiradas`} descripcion={`${numero(lista.length)} alertas de ${nombre.toLowerCase()} en España y Europa, con lote, motivo y qué hacer.`} ruta={`/categoria/${slug}/`} rss={{ titulo: `Alertas de ${nombre}`, href: `/rss/categoria/${slug}.xml` }}>
   <div class="pagina">
-    <Cabecera titulo={nombre} migas={[{ texto: 'Categorías', href: '/categorias/' }, { texto: nombre }]} ilustracion={ilustracion}>
+    <Cabecera titulo={nombre} icono={ICONO_CATEGORIA[slug] ?? 'package'}>
       <p class="entradilla">{numero(lista.length)} alertas. <a href={ruta(`/alertas/?categoria=${encodeURIComponent(nombre)}`)}>Buscar y filtrar en esta categoría</a> · <a href={ruta(`/rss/categoria/${slug}.xml`)}>RSS</a></p>
     </Cabecera>
     <Lista alertas={lista.slice(0, 60)} />

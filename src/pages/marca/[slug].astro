@@ -14,7 +14,7 @@ const lista = alertasDeMarca(Astro.params.slug!);
 
 <Base titulo={`${nombre}: alertas y retiradas`} descripcion={`${numero(lista.length)} alertas de la marca ${nombre}, con lote, motivo y enlace a la fuente oficial.`} ruta={`/marca/${Astro.params.slug}/`}>
   <div class="pagina">
-    <Cabecera titulo={nombre} migas={[{ texto: 'Marcas', href: '/marcas/' }, { texto: nombre }]}>
+    <Cabecera titulo={nombre}>
       <p class="entradilla">{numero(lista.length)} alertas publicadas. Una alerta afecta a productos y lotes concretos, no a toda la marca.</p>
     </Cabecera>
     <Lista alertas={lista.slice(0, 60)} />

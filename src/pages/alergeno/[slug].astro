@@ -17,7 +17,7 @@ const lista = alertas().filter((a) => a.riesgo.alergenos?.includes(nombre));
 
 <Base titulo={`Alertas por ${nombre.toLowerCase()} no declarado`} descripcion={`Productos con alerta por ${nombre.toLowerCase()} no declarado en la etiqueta, según AESAN.`} ruta={`/alergeno/${s}/`} rss={{ titulo: `Alertas de ${nombre}`, href: `/rss/alergeno/${s}.xml` }}>
   <div class="pagina">
-    <Cabecera titulo={nombre} migas={[{ texto: 'Alérgenos', href: '/alergenos/' }, { texto: nombre }]} ilustracion="alergenos" color="crema">
+    <Cabecera titulo={nombre} icono="grains-slash" color="crema">
       <p class="entradilla">{numero(lista.length)} alertas publicadas por AESAN desde 2025. <a href={ruta(`/rss/alergeno/${s}.xml`)}>RSS de este alérgeno</a></p>
     </Cabecera>
     {lista.length ? <Lista alertas={lista.slice(0, 60)} /> : <div class="sin-resultados"><p>No hay alertas publicadas por este alérgeno en el periodo que cubrimos. Eso no significa que un producto sea seguro: lee siempre la etiqueta.</p></div>}

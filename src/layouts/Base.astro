@@ -3,8 +3,7 @@ import '../estilos/global.css';
 import Icono from '../componentes/Icono.astro';
 import { estadoFuentes } from '../lib/datos';
 import { fechaHora } from '../lib/formato';
-import { MENU, NOMBRE, PIE, REPOSITORIO, ruta, TABS } from '../lib/sitio';
-import unbounded from '../fuentes/unbounded.woff2?url';
+import { LEGAL, MENU, NOMBRE, PIE, ruta, TABS } from '../lib/sitio';
 import figtree from '../fuentes/figtree.woff2?url';
 
 interface Props { titulo: string; descripcion: string; ruta: string; jsonld?: unknown[]; tipo?: 'website' | 'article'; rss?: { titulo: string; href: string } }
@@ -25,13 +24,12 @@ const actual = (href: string) => ((href === '/' ? rutaPagina === '/' : rutaPagin
     <meta name="description" content={descripcion} />
     <link rel="canonical" href={canonica} />
     <script is:inline>document.documentElement.classList.add('js')</script>
-    <link rel="preload" href={unbounded} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={figtree} as="font" type="font/woff2" crossorigin />
-    <link rel="icon" href={ruta('/favicon.ico')} sizes="48x48" />
+    <link rel="icon" href={ruta('/favicon.ico')} sizes="32x32" />
     <link rel="icon" href={ruta('/favicon.svg')} type="image/svg+xml" />
     <link rel="apple-touch-icon" href={ruta('/apple-touch-icon.png')} />
     <link rel="manifest" href={ruta('/site.webmanifest')} />
-    <meta name="theme-color" content="#ffbe2e" />
+    <meta name="theme-color" content="#f7f6f2" />
     <meta property="og:site_name" content={NOMBRE} />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:type" content={tipo} />
@@ -51,32 +49,44 @@ const actual = (href: string) => ((href === '/' ? rutaPagina === '/' : rutaPagin
     <header class="cab">
       <div class="cab-in">
         <a class="logo" href={ruta('/')} aria-label={`${NOMBRE}, inicio`}>
-          <img src={ruta('/marca/isotipo.svg')} alt="" width="44" height="44" />
+          <img src={ruta('/marca/isotipo.svg')} alt="" width="42" height="42" />
           <span>Productos<br /><i>Retirados</i></span>
         </a>
         <nav class="menu" aria-label="Principal">
           {MENU.map((m) => <a href={ruta(m.href)} aria-current={actual(m.href)}>{m.texto}</a>)}
         </nav>
-        <a class="cta" href={ruta('/comprobar/')}><Icono n="circle-check-big" />Comprobar</a>
+        <a class="cta" href={ruta('/colabora/')} aria-current={actual('/colabora/')}><Icono n="heart" />Colaborar</a>
       </div>
     </header>
-    <p class="aviso-oficial">Web independiente. No es un organismo oficial: comprueba siempre la fuente.</p>
     <main id="contenido">
       <slot />
     </main>
     <footer class="pie oscuro">
-      <div>
-        <img src={ruta('/marca/logo-oscuro.svg')} alt={NOMBRE} width="167" height="60" loading="lazy" />
-        <p class="legal">{NOMBRE} es un proyecto independiente y sin ánimo de lucro: no está vinculado a AESAN, AEMPS, el Ministerio de Consumo ni la Comisión Europea. La información puede contener errores o no estar actualizada. Que un producto no aparezca aquí no significa que sea seguro.</p>
-        <p class="legal">Última actualización: {fechaHora(ultimo)}. <a href={REPOSITORIO}>Código abierto</a>.</p>
-      </div>
-      <div class="pie-col">
-        {PIE.map((b) => (
-          <section>
-            <h2>{b.titulo}</h2>
-            <ul>{b.enlaces.map(([h, t]) => <li><a href={ruta(h)}>{t}</a></li>)}</ul>
-          </section>
-        ))}
+      <div class="pie-in">
+        <div class="pie-arriba">
+          <div class="pie-marca">
+            <img src={ruta('/marca/logo-oscuro.svg')} alt={NOMBRE} width="160" height="47" loading="lazy" />
+            <p>Las alertas oficiales de alimentos, medicamentos, cosméticos y juguetes en España, en un solo buscador.</p>
+            <div class="pie-cta">
+              <a class="btn btn-claro" href={ruta('/avisos/')}><Icono n="bell" />Recibir avisos</a>
+              <a class="btn btn-linea" href={ruta('/colabora/')}><Icono n="heart" />Colaborar</a>
+            </div>
+          </div>
+          <nav class="pie-col" aria-label="Pie de página">
+            {PIE.map((b) => (
+              <section>
+                <h2>{b.titulo}</h2>
+                <ul>{b.enlaces.map(([h, t]) => <li><a href={ruta(h)}>{t}</a></li>)}</ul>
+              </section>
+            ))}
+          </nav>
+        </div>
+        <p class="pie-aviso">{NOMBRE} es un proyecto independiente y sin ánimo de lucro: no está vinculado a AESAN, AEMPS, el Ministerio de Consumo ni la Comisión Europea. La información puede contener errores o no estar actualizada. Que un producto no aparezca aquí no significa que sea seguro.</p>
+        <div class="pie-abajo">
+          <p class="pie-estado"><i></i>Actualizado {fechaHora(ultimo)}</p>
+          <ul>{LEGAL.map(([h, t]) => <li><a href={ruta(h)}>{t}</a></li>)}</ul>
+          <p>© {new Date().getFullYear()} {NOMBRE}</p>
+        </div>
       </div>
     </footer>
     <nav class="tabbar" aria-label="Navegación móvil">

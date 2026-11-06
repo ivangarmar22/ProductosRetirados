@@ -1,7 +1,8 @@
 /** Configuración del sitio en un único lugar. */
 export const NOMBRE = 'Productos Retirados';
 export const EMAIL = 'estaretirado@gmail.com';
-export const REPOSITORIO = 'https://github.com/ivangarmar22/ProductosRetirados';
+/** Formulario de contacto (web3forms.com). La clave es pública por diseño: solo envía al correo con el que se registró. */
+export const WEB3FORMS_KEY = '6f8f2f83-2366-43cc-9e9a-a32727516e4f';
 export const LEGAL_ACTUALIZADO = '06/11/2026';
 
 /** Igual que en LeyAnimal. La web es gratuita y lo sigue siendo sin donativos. */
@@ -17,22 +18,25 @@ export const ruta = (r: string) => `${base}${r}`;
 
 export const MENU = [
   { href: '/alertas/', texto: 'Alertas' },
+  { href: '/comprobar/', texto: 'Comprobar' },
   { href: '/categorias/', texto: 'Categorías' },
   { href: '/alergenos/', texto: 'Alérgenos' },
-  { href: '/mi-despensa/', texto: 'Mi despensa' },
   { href: '/avisos/', texto: 'Avisos' },
+  { href: '/contacto/', texto: 'Contacto' },
 ];
 
 export const TABS = [
   { href: '/', texto: 'Inicio', icono: 'house' },
-  { href: '/alertas/', texto: 'Buscar', icono: 'search' },
-  { href: '/comprobar/', texto: 'Comprobar', icono: 'circle-check-big' },
-  { href: '/mi-despensa/', texto: 'Despensa', icono: 'shopping-basket' },
+  { href: '/alertas/', texto: 'Buscar', icono: 'magnifying-glass' },
+  { href: '/comprobar/', texto: 'Comprobar', icono: 'check-circle' },
   { href: '/avisos/', texto: 'Avisos', icono: 'bell' },
+  { href: '/contacto/', texto: 'Contacto', icono: 'envelope-simple' },
 ];
 
 export const PIE = [
-  { titulo: 'Consulta', enlaces: [['/alertas/', 'Todas las alertas'], ['/categorias/', 'Categorías'], ['/alergenos/', 'Alérgenos'], ['/marcas/', 'Marcas'], ['/mi-despensa/', 'Mi despensa'], ['/mis-alergias/', 'Mis alergias'], ['/estadisticas/', 'Estadísticas']] },
-  { titulo: 'Ayuda', enlaces: [['/comprobar/', 'Comprobar un producto'], ['/guias/que-hacer-producto-retirado/', 'Qué hacer si tienes un producto retirado'], ['/guias/donde-esta-el-lote/', 'Dónde está el lote'], ['/avisos/', 'Recibir avisos'], ['/fuentes/', 'Fuentes y metodología'], ['/estado/', 'Estado de las fuentes']] },
-  { titulo: 'Proyecto', enlaces: [['/sobre/', 'Sobre el proyecto'], ['/apoya/', 'Donar'], ['/aviso-legal/', 'Aviso legal'], ['/privacidad/', 'Privacidad'], ['/cookies/', 'Cookies'], ['/accesibilidad/', 'Accesibilidad']] },
+  { titulo: 'Consulta', enlaces: [['/alertas/', 'Todas las alertas'], ['/categorias/', 'Categorías'], ['/alergenos/', 'Alérgenos'], ['/marcas/', 'Marcas'], ['/estadisticas/', 'Estadísticas']] },
+  { titulo: 'Ayuda', enlaces: [['/comprobar/', 'Comprobar un producto'], ['/guias/que-hacer-producto-retirado/', 'Qué hacer con un producto retirado'], ['/guias/donde-esta-el-lote/', 'Dónde está el lote'], ['/avisos/', 'Recibir avisos']] },
+  { titulo: 'Proyecto', enlaces: [['/sobre/', 'Sobre el proyecto'], ['/colabora/', 'Colabora'], ['/contacto/', 'Contacto'], ['/fuentes/', 'Fuentes y metodología'], ['/estado/', 'Estado de las fuentes']] },
 ] as const;
+
+export const LEGAL = [['/aviso-legal/', 'Aviso legal'], ['/privacidad/', 'Privacidad'], ['/cookies/', 'Cookies'], ['/accesibilidad/', 'Accesibilidad']] as const;
