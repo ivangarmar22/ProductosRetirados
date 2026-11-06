@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "TP30",
     "e8*167/2013*00003*13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.08.2022 - 03.03.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Quad (lado a lado).",
-   "fechasTexto": "03.08.2022 - 03.03.2025"
+   "fechasTexto": "03.08.2022 - 03.03.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +97,16 @@
   "claves": [
    "ref:SR/02144/25",
    "mm:polaris:tp30",
-   "mm:polaris:e8-167-2013-00003-13"
+   "mm:polaris:e8-167-2013-00003-13",
+   "ml:polaris:03-08-2022-03-03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7c53b90cf66ac15d"
+  "enriquecido": true,
+  "hashContenido": "090a329e01b650ea"
  },
  "slug": "vehiculo-todo-terreno-polaris-safety-gate-10094684"
 }

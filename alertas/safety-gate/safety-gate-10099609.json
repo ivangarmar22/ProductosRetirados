@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-02"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Collar con un encanto en forma de cereza.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bf3658a1af5a4b66"
+  "enriquecido": true,
+  "hashContenido": "32776136f52c7a60"
  },
  "slug": "collar-safety-gate-10099609"
 }

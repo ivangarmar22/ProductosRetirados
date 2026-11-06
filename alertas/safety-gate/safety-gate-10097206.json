@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-04"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Collar con colgante redondo y pedrería.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "24cab701df8cddee"
+  "enriquecido": true,
+  "hashContenido": "c0e53fa1727124ff"
  },
  "slug": "collar-safety-gate-10097206"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-07"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Guantes largos de brazo negros y naranjas, anunciados como resistentes a los ácidos o a los productos químicos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón y bolsa de plástico.."
   }
  ],
  "riesgo": {
@@ -58,7 +59,10 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "43e431ffeca6e8ab"
+  "enriquecido": true,
+  "hashContenido": "365cc6dc8367c749"
  },
  "slug": "guantes-de-proteccion-handschuhe-saurefest-chemikalien-schutz-safety-gate-10118609"
 }

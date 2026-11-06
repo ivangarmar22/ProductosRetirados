@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Guirnaldas luminosas",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cadena de iluminación, 10 m, con 100 luces led.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente."
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5fdc53ea0c41da38"
+  "enriquecido": true,
+  "hashContenido": "b290d2b2f7168aa8"
  },
  "slug": "cadena-de-iluminacion-string-lights-safety-gate-10099515"
 }

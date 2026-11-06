@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,29 +27,18 @@
     "Ford"
    ],
    "modelos": [
-    "FCC",
-    "FED",
-    "FFD",
-    "FDD",
-    "FCD",
-    "FAD",
-    "FBD",
-    "FAC",
-    "e1*2007/46*1005*22-*24",
-    "e1*2007/46*1096*21-*26",
-    "e1*2007/46*1097*18-*23",
-    "e1*2007/46*1098*20-*25",
-    "e1*2007/46*1100*21-*26",
-    "e5*2007/46*1032*09-*11",
-    "*13",
-    "*14",
-    "e5*2007/46*1033*05-*10",
-    "e5*2007/46*1034*10-*11"
+    "FCC, FED, FFD, FDD, FCD, FAD, FBD, FAC",
+    "e1*2007/46*1005*22-*24, e1*2007/46*1096*21-*26, e1*2007/46*1097*18-*23, e1*2007/46*1098*20-*25, e1*2007/46*1100*21-*26, e5*2007/46*1032*09-*11,*13,*14, e5*2007/46*1033*05-*10, e5*2007/46*1034*10-*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2021 - 08.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero.",
-   "fechasTexto": "01.08.2021 - 08.12.2025"
+   "fechasTexto": "01.08.2021 - 08.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "NO",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,30 +99,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00932/26",
-   "mm:ford:fcc",
-   "mm:ford:fed",
-   "mm:ford:ffd",
-   "mm:ford:fdd",
-   "mm:ford:fcd",
-   "mm:ford:fad",
-   "mm:ford:fbd",
-   "mm:ford:fac",
-   "mm:ford:e1-2007-46-1005-22-24",
-   "mm:ford:e1-2007-46-1096-21-26",
-   "mm:ford:e1-2007-46-1097-18-23",
-   "mm:ford:e1-2007-46-1098-20-25",
-   "mm:ford:e1-2007-46-1100-21-26",
-   "mm:ford:e5-2007-46-1032-09-11",
-   "mm:ford:e5-2007-46-1033-05-10",
-   "mm:ford:e5-2007-46-1034-10-11"
+   "mm:ford:fcc-fed-ffd-fdd-fcd-fad-fbd-fac",
+   "mm:ford:e1-2007-46-1005-22-24-e1-2007-46-1096-21-26-e1-2007-46-1097-18-23-e1-2007-46-1098-20-25-e1-2007-46-1100-21-26-e5-2007-46-1032-09-11-13-14-e5-2007-46-1033-05-10-e5-2007-46-1034-10-11",
+   "ml:ford:01-08-2021-08-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "58d774d8cc0d07c2"
+  "enriquecido": true,
+  "hashContenido": "b74a4eea0fccc4b2"
  },
  "slug": "vehiculo-comercial-ligero-ford-safety-gate-10098371"
 }

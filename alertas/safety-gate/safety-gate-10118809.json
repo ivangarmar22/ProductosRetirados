@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2001/116*0109*00-*08 (YSCF)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.10.2007 - 27.05.2008"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "16.10.2007 - 27.05.2008"
+   "fechasTexto": "16.10.2007 - 27.05.2008",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02524/26",
-   "mm:cadillac:e4-2001-116-0109-00-08-yscf"
+   "mm:cadillac:e4-2001-116-0109-00-08-yscf",
+   "ml:cadillac:16-10-2007-27-05-2008"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fabfa00be757d5a2"
+  "enriquecido": true,
+  "hashContenido": "d7784be7f1c40ed1"
  },
  "slug": "coche-de-pasajeros-cadillac-safety-gate-10118809"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -34,12 +34,22 @@
    ],
    "lotes": [
     {
-     "numero": "2004206200420720362446046100"
+     "numero": "2004206"
+    },
+    {
+     "numero": "2004207"
+    },
+    {
+     "numero": "2036244"
+    },
+    {
+     "numero": "6046100"
     }
    ],
    "ean": [],
    "descripcion": "Colectores solares en el techo con marco de madera, usando un fluido de transferencia de calor.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -93,15 +103,18 @@
    "mm:hoval:idkm-200g",
    "mm:hoval:idkm-250",
    "mm:hoval:idkm-251",
-   "ml:hoval:2004206200420720362446046100"
+   "ml:hoval:2004206",
+   "ml:hoval:2004207",
+   "ml:hoval:2036244",
+   "ml:hoval:6046100"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "421ce7bbf216711c"
+  "enriquecido": true,
+  "hashContenido": "c092600a7e26134c"
  },
  "slug": "colector-solar-hoval-safety-gate-10118538"
 }

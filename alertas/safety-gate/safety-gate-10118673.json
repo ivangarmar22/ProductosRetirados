@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8713219521298"
    ],
    "descripcion": "Figura de lobo de plástico de estiramiento turquesa llena de arena",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "04563bd98360873b"
+  "enriquecido": true,
+  "hashContenido": "d5d874b9d3b3f63d"
  },
  "slug": "juguete-de-estiramiento-brainboom-stretchmonster-safety-gate-10118673"
 }

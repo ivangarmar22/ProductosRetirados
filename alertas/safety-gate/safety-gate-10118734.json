@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Pack de 25 globos de fiesta en colores azul y rojo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "569bd3ed715e96b0"
+  "enriquecido": true,
+  "hashContenido": "c82ede8d20ad8d3d"
  },
  "slug": "globos-eurowrap-safety-gate-10118734"
 }

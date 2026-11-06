@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-04"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -45,7 +45,8 @@
    ],
    "ean": [],
    "descripcion": "Bicicleta eléctrica, varios modelos OPTIMA, fabricada en 2019 y 2020. El número de lote «19A» puede identificarse mediante un código estampado situado en el marco, en la parte inferior del tubo vertical, debajo del código de barras.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +80,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -112,11 +115,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "91413ccf6f03a7da"
+  "enriquecido": true,
+  "hashContenido": "98129656d057ad57"
  },
  "slug": "bicicleta-electrica-orbea-safety-gate-10118681"
 }

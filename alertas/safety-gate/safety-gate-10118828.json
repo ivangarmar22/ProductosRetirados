@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5905995540393"
    ],
    "descripcion": "Juguete inflable en forma de juguete de jirafa, destinado a saltar, hecho de material de PVC.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -76,7 +77,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "049db33d46476ef7"
+  "enriquecido": true,
+  "hashContenido": "92d7fed6a7f0550c"
  },
  "slug": "juguete-inflable-sinsay-safety-gate-10118828"
 }

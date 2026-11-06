@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "5060622242153"
    ],
    "descripcion": "Juguete de varita con una estrella en el extremo, alimentado por pilas de botón y capaz de emitir luces rojas, verdes y azules.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -78,7 +79,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,11 +120,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6b95731d8c96fac2"
+  "enriquecido": true,
+  "hashContenido": "dfea01eeb7012bef"
  },
  "slug": "varita-de-juguete-the-glowhouse-safety-gate-10118649"
 }

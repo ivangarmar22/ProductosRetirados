@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,13 @@
     "Iveco"
    ],
    "modelos": [
-    "S-WAY",
-    "X-WAY",
-    "T-WAY",
-    "MY24"
+    "S-WAY, X-WAY, T-WAY, MY24"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Un camión.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +63,15 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FR",
+   "HR",
+   "IE",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +86,15 @@
  "dedup": {
   "claves": [
    "ref:SR/02346/26",
-   "mm:iveco:s-way",
-   "mm:iveco:x-way",
-   "mm:iveco:t-way",
-   "mm:iveco:my24"
+   "mm:iveco:s-way-x-way-t-way-my24"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "086b9b0134ea6a6a"
+  "enriquecido": true,
+  "hashContenido": "4645bd7f45fe740b"
  },
  "slug": "camion-iveco-safety-gate-10118575"
 }

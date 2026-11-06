@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Equipos de comunicación e información",
@@ -27,15 +27,15 @@
     "KOSS"
    ],
    "modelos": [
-    "215501",
-    "KPH7k"
+    "215501 / KPH7k"
    ],
    "lotes": [],
    "ean": [
     "021299181003"
    ],
    "descripcion": "Auriculares negros en la oreja.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco/rojo."
   }
  ],
  "riesgo": {
@@ -102,16 +102,15 @@
   "claves": [
    "ref:SR/02377/26",
    "ean:021299181003",
-   "mm:koss:215501",
-   "mm:koss:kph7k"
+   "mm:koss:215501-kph7k"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2df207f9fc1cbbe2"
+  "enriquecido": true,
+  "hashContenido": "da0d611b2e5aa134"
  },
  "slug": "auriculares-koss-safety-gate-10118627"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,15 +31,13 @@
    ],
    "lotes": [
     {
-     "numero": "Batch of products"
-    },
-    {
-     "numero": "serial No JVM9"
+     "numero": "Batch of products, serial No JVM9"
     }
    ],
    "ean": [],
    "descripcion": "Disyuntor térmico-magnético.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -69,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,16 +102,15 @@
   "claves": [
    "ref:SR/02333/26",
    "mm:cilia:jvm9",
-   "ml:cilia:batch-of-products",
-   "ml:cilia:serial-no-jvm9"
+   "ml:cilia:batch-of-products-serial-no-jvm9"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c5ee10b10219a381"
+  "enriquecido": true,
+  "hashContenido": "9b472f4a48edafa1"
  },
  "slug": "interruptor-de-circuito-cilia-safety-gate-10118507"
 }

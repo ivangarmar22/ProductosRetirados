@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "8901371090015"
    ],
    "descripcion": "Tinte para el cabello a base de hierbas en polvo (henna negra), en sobres de 10 g cada uno.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje exterior de cartón impreso negro con seis productos de plástico impresos negros."
   }
  ],
  "riesgo": {
@@ -82,7 +83,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dcc1b9225829ca26"
+  "enriquecido": true,
+  "hashContenido": "a6fa14befdcaa854"
  },
  "slug": "tinte-para-el-cabello-topline-safety-gate-10118713"
 }

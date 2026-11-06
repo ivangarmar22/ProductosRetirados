@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2018/858*00453*01-03 (Model type: 628 02)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.07.2025 - 10.03.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "El autobús.",
-   "fechasTexto": "05.07.2025 - 10.03.2026"
+   "fechasTexto": "05.07.2025 - 10.03.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02567/26",
-   "mm:mercedes-benz:e1-2018-858-00453-01-03-model-type-628-02"
+   "mm:mercedes-benz:e1-2018-858-00453-01-03-model-type-628-02",
+   "ml:mercedes-benz:05-07-2025-10-03-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3ad8ef5d169405ed"
+  "enriquecido": true,
+  "hashContenido": "345750330ba796ed"
  },
  "slug": "autobus-mercedes-benz-safety-gate-10118925"
 }

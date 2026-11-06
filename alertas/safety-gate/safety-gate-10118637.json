@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -38,7 +38,8 @@
     "5907708641625"
    ],
    "descripcion": "Lámpara led de acuario impermeable en forma de tubo con cable negro, interruptor en línea y accesorios de montaje.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón larga, azul y blanca con una imagen de la lámpara del acuario."
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8911189545f6752b"
+  "enriquecido": true,
+  "hashContenido": "fd4d51f482b512d1"
  },
  "slug": "lampara-de-acuario-happet-safety-gate-10118637"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Skoda"
    ],
    "modelos": [
-    "e13*2007/46*1169*00-22",
-    "e11*2001/116*0291*43-55",
-    "e11*2007/46*0250*00-20",
-    "e11*2007/46*0243*00-26",
-    "e11*2001/116*0326*32-45",
-    "e11*2007/46*0010*00-27"
+    "e13*2007/46*1169*00-22, e11*2001/116*0291*43-55, e11*2007/46*0250*00-20, e11*2007/46*0243*00-26, e11*2001/116*0326*32-45, e11*2007/46*0010*00-27"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.05.2016 - 07.12.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con airbags Takata.",
-   "fechasTexto": "23.05.2016 - 07.12.2017"
+   "fechasTexto": "23.05.2016 - 07.12.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +72,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "IS",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,20 +116,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01853/26",
-   "mm:skoda:e13-2007-46-1169-00-22",
-   "mm:skoda:e11-2001-116-0291-43-55",
-   "mm:skoda:e11-2007-46-0250-00-20",
-   "mm:skoda:e11-2007-46-0243-00-26",
-   "mm:skoda:e11-2001-116-0326-32-45",
-   "mm:skoda:e11-2007-46-0010-00-27"
+   "mm:skoda:e13-2007-46-1169-00-22-e11-2001-116-0291-43-55-e11-2007-46-0250-00-20-e11-2007-46-0243-00-26-e11-2001-116-0326-32-45-e11-2007-46-0010-00-27",
+   "ml:skoda:23-05-2016-07-12-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "15be61a06d73251b"
+  "enriquecido": true,
+  "hashContenido": "f7491d402f35acbb"
  },
  "slug": "coche-de-pasajeros-skoda-safety-gate-10099330"
 }

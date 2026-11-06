@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-19"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -38,7 +38,8 @@
     "5414729218038"
    ],
    "descripcion": "Zapatos de seguridad, fabricados en noviembre de 2023.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Croacia",
   "paisOrigen": "Albania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "726736c0664539b0"
+  "enriquecido": true,
+  "hashContenido": "5fb2bf1f5f8543db"
  },
  "slug": "zapatos-de-seguridad-dassy-safety-gate-10098983"
 }

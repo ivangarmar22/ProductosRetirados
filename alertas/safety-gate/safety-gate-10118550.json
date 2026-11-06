@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-13"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -24,7 +24,8 @@
   {
    "nombre": "Chaqueta de lluvia para niños",
    "marcas": [
-    "Fish&Chips, JBC"
+    "Fish&Chips",
+    "JBC"
    ],
    "modelos": [
     "ZWM KoraS25Rain01"
@@ -34,7 +35,8 @@
     "5400525270318"
    ],
    "descripcion": "Chaqueta de lluvia negra, destinada a niños, talla 152.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,15 +86,16 @@
   "claves": [
    "ref:SR/02296/26",
    "ean:5400525270318",
-   "mm:fish-chips-jbc:zwm-koras25rain01"
+   "mm:fish-chips:zwm-koras25rain01",
+   "mm:jbc:zwm-koras25rain01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "05400a78b832104f"
+  "enriquecido": true,
+  "hashContenido": "a05916311b57e156"
  },
  "slug": "chaqueta-de-lluvia-para-ninos-fish-chips-jbc-safety-gate-10118550"
 }

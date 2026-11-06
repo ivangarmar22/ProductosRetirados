@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete sensorial en forma de volante de coche, que se fijará al asiento delantero. El volante hace ruidos y se enciende.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sobre de burbujas."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "522e11d41bcaf87b"
+  "enriquecido": true,
+  "hashContenido": "feaf57eb5536c4de"
  },
  "slug": "juguete-sensorial-simuler-la-conduite-de-voiture-copilote-volant-elect-safety-gate-10118684"
 }

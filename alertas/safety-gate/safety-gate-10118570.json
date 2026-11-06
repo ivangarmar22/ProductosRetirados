@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-20"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -34,15 +34,34 @@
    ],
    "lotes": [
     {
-     "numero": "25005xx"
+     "numero": "25005xx,"
     },
     {
-     "numero": "24003xx 24004xx24010xx24023xx24024xx24025xx25006xx"
+     "numero": "24003xx"
+    },
+    {
+     "numero": "24004xx"
+    },
+    {
+     "numero": "24010xx"
+    },
+    {
+     "numero": "24023xx"
+    },
+    {
+     "numero": "24024xx"
+    },
+    {
+     "numero": "24025xx"
+    },
+    {
+     "numero": "25006xx"
     }
    ],
    "ean": [],
    "descripcion": "Mosquetón para escalada y montañismo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +91,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,15 +127,21 @@
    "mm:ocun:04716",
    "mm:ocun:04717",
    "ml:ocun:25005xx",
-   "ml:ocun:24003xx-24004xx24010xx24023xx24024xx24025xx25006xx"
+   "ml:ocun:24003xx",
+   "ml:ocun:24004xx",
+   "ml:ocun:24010xx",
+   "ml:ocun:24023xx",
+   "ml:ocun:24024xx",
+   "ml:ocun:24025xx",
+   "ml:ocun:25006xx"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1836de04506b3f16"
+  "enriquecido": true,
+  "hashContenido": "5378094dc4158299"
  },
  "slug": "mosqueton-ocun-safety-gate-10118570"
 }

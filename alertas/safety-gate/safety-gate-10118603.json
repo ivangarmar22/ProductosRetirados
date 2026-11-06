@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-30"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Silla con marco metálico, asiento acolchado y respaldo cubierto de cuero artificial. Marco de la pierna hecho de tubos metálicos de 25 mm de diámetro, patas de plástico de 19 mm de diámetro en la parte inferior. El asiento está unido con M6, el respaldo con tornillos M8. Dimensiones: 450 × 445 × 1010 mm, altura del asiento 475 mm. Peso 6,9 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "87eb8e36a4b85ba9"
+  "enriquecido": true,
+  "hashContenido": "8508590412f5c9dc"
  },
  "slug": "catedra-safety-gate-10118603"
 }

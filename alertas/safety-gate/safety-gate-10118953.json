@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-05"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,7 +24,8 @@
   {
    "nombre": "USB-TRAVELCHARGER",
    "marcas": [
-    "IBHDME, TPSTER"
+    "IBHDME",
+    "TPSTER"
    ],
    "modelos": [
     "J10"
@@ -38,7 +39,8 @@
     "8588588656427"
    ],
    "descripcion": "Juego de un cargador de batería blanco con un solo puerto USB-A, integrado con un enchufe de red, y un cable de carga blanco USB-A a USB-C.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con una ventana de plástico transparente en la parte delantera y un gancho colgante de plástico."
   }
  ],
  "riesgo": {
@@ -108,16 +110,18 @@
   "claves": [
    "ref:SR/02510/26",
    "ean:8588588656427",
-   "mm:ibhdme-tpster:j10",
-   "ml:ibhdme-tpster:65642"
+   "mm:ibhdme:j10",
+   "ml:ibhdme:65642",
+   "mm:tpster:j10",
+   "ml:tpster:65642"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ced83cd13760e423"
+  "enriquecido": true,
+  "hashContenido": "77d177426f2b166c"
  },
  "slug": "cargador-usb-ibhdme-tpster-safety-gate-10118953"
 }

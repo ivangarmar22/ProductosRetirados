@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-10"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Adaptador.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "81893c08899dad67"
+  "enriquecido": true,
+  "hashContenido": "7e4b1f642a4c1ce4"
  },
  "slug": "adaptador-de-corriente-ac-dc-adaptor-switching-adapter-safety-gate-10099527"
 }

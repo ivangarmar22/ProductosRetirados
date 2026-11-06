@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,9 +28,14 @@
    ],
    "modelos": [],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "6911421957368",
+    "6972785547497",
+    "6972785547572"
+   ],
    "descripcion": "Gato de peluche (blanco y azul) con ropa roja y azul extraíble; cinturón extraíble con malla y mascarilla para la cabeza de zorro; mosquetón en la cabeza; cierre con colgante fijado por aguja a la oreja//gato de felpa blanco con falda con cuentas; llavero con mosquetón en la cabeza; con borde y cadenas hechas de gemas falsas y cuentas y malla en la oreja.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje; una etiqueta pegada, tres etiquetas cosidas."
   }
  ],
  "riesgo": {
@@ -115,15 +120,18 @@
  ],
  "dedup": {
   "claves": [
-   "ref:SR/02319/26"
+   "ref:SR/02319/26",
+   "ean:6911421957368",
+   "ean:6972785547497",
+   "ean:6972785547572"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "43f93c8ee001ee9b"
+  "enriquecido": true,
+  "hashContenido": "292e5fc324dc9c58"
  },
  "slug": "llavero-con-juguete-suave-hello-kitty-safety-gate-10118663"
 }

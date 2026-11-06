@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-22"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Orejeras negras y rosas con embalaje que indica Orejeras Pasivas Delgadas SNR 28 dB.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -58,7 +59,11 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "66a26335d6a4547f"
+  "enriquecido": true,
+  "hashContenido": "d9a93d86755c3f6f"
  },
  "slug": "orejeras-green-devil-armor-passive-safety-gate-10105893"
 }

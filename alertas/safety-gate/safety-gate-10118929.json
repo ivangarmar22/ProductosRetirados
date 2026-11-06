@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval (Type WD)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.06.2018 - 12.07.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.06.2018 - 12.07.2019"
+   "fechasTexto": "12.06.2018 - 12.07.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02568/26",
-   "mm:dodge:individual-approval-type-wd"
+   "mm:dodge:individual-approval-type-wd",
+   "ml:dodge:12-06-2018-12-07-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c38620f00f7de14b"
+  "enriquecido": true,
+  "hashContenido": "d194c8516255eac7"
  },
  "slug": "coche-de-pasajeros-dodge-safety-gate-10118929"
 }

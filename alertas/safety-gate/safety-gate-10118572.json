@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,20 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B/11-141/J"
-    },
-    {
-     "numero": "Mg 09/2023"
-    },
-    {
-     "numero": "Best Before 08/2028"
+     "numero": "B/11-141/J, Mg 09/2023, Best Before 08/2028"
     }
    ],
    "ean": [
     "8961100314003"
    ],
    "descripcion": "Delineador de ojos en un tubo de 4,5 g de pasta negra firme.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de burbujas de cartón y plástico."
   }
  ],
  "riesgo": {
@@ -88,17 +83,15 @@
   "claves": [
    "ref:SR/02531/26",
    "ean:8961100314003",
-   "ml:hashmi:b-11-141-j",
-   "ml:hashmi:mg-09-2023",
-   "ml:hashmi:best-before-08-2028"
+   "ml:hashmi:b-11-141-j-mg-09-2023-best-before-08-2028"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "26cf82ac0ed0c6b1"
+  "enriquecido": true,
+  "hashContenido": "f7394258aac3ebf2"
  },
  "slug": "delineador-de-ojos-hashmi-safety-gate-10118572"
 }

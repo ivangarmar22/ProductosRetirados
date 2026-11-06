@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-20"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
     "1645701897017"
    ],
    "descripcion": "Crema para aclarar la piel, 40 g. Todos los lotes están relacionados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tarro redondo con tapa y caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Pakistán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "052b1abe6f629f31"
+  "enriquecido": true,
+  "hashContenido": "627710884b6b557c"
  },
  "slug": "crema-para-aclarar-la-piel-parley-safety-gate-10118917"
 }

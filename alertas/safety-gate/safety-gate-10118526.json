@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-15"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "4718755092220"
    ],
    "descripcion": "Proyector led compacto con una carcasa giratoria de 135 grados que permite la proyección sobre paredes o techos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "003ce801dcf169cf"
+  "enriquecido": true,
+  "hashContenido": "0b19b6b2dab88712"
  },
  "slug": "proyector-led-benq-safety-gate-10118526"
 }

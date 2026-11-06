@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-15"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Paquete de cinco pilas de botón, 3 V.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de cartón y plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c8287f51926d25f0"
+  "enriquecido": true,
+  "hashContenido": "e62f7e2e4500e50e"
  },
  "slug": "baterias-de-boton-da-vinci-safety-gate-10118760"
 }

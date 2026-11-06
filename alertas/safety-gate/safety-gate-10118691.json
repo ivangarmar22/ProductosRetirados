@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,12 +27,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "EXP.DATE:2029.03PRO.DATE:2026.03"
+     "numero": "EXP.DATE:2029.03"
+    },
+    {
+     "numero": "PRO.DATE:2026.03"
     }
    ],
    "ean": [],
    "descripcion": "Producto cosmético para proteger la piel de la radiación UV dañina",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -89,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "89d4740a71d34e3e"
+  "enriquecido": true,
+  "hashContenido": "6c61878b2ef8d3b5"
  },
  "slug": "pantalla-de-sol-innovation-anthelios-uvmune-400-fluide-oil-control-safety-gate-10118691"
 }

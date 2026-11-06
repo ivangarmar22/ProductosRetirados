@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6851451218421"
    ],
    "descripcion": "Amoladora eléctrica (20 cm de altura). La parte inferior del producto está hecha de plástico cromado y el contenedor de molienda está hecho de acero inoxidable. La máquina se enciende con un pulsador no bloqueable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón negro y púrpura."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -131,11 +134,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ea156107beb38a44"
+  "enriquecido": true,
+  "hashContenido": "e378fef8af8ec7fc"
  },
  "slug": "amoladora-electrica-yearninglife-safety-gate-10118484"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-17"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -27,18 +27,9 @@
     "VapSolo ®"
    ],
    "modelos": [
-    "CHERRY COLA",
-    "STRAWBERRY WATERMELON",
-    "GRAPEFRUIT REFRESHER",
-    "JUICY PEACH ICE",
-    "MIXED BERRY",
-    "CHERRY LEMON",
-    "STRAWBERRY WATERMELON BUBBLEGUM",
-    "STRAWBERRY KIWI",
-    "WATERMELON ICE",
-    "STRAWBERRY MANGO",
-    "BLUEBERRY ICE",
-    "FIZZY CHERRY"
+    "CHERRY COLA, STRAWBERRY WATERMELON, GRAPEFRUIT REFRESHER, JUICY PEACH ICE",
+    "MIXED BERRY, CHERRY LEMON, STRAWBERRY WATERMELON BUBBLEGUM, STRAWBERRY KIWI",
+    "WATERMELON ICE, STRAWBERRY MANGO, BLUEBERRY ICE, FIZZY CHERRY"
    ],
    "lotes": [],
    "ean": [
@@ -47,7 +38,8 @@
     "6975932943203"
    ],
    "descripcion": "Cigarrillo electrónico desechable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico dentro de la caja de cartón."
   }
  ],
  "riesgo": {
@@ -115,26 +107,17 @@
    "ean:6975932943050",
    "ean:6975932943074",
    "ean:6975932943203",
-   "mm:vapsolo:cherry-cola",
-   "mm:vapsolo:strawberry-watermelon",
-   "mm:vapsolo:grapefruit-refresher",
-   "mm:vapsolo:juicy-peach-ice",
-   "mm:vapsolo:mixed-berry",
-   "mm:vapsolo:cherry-lemon",
-   "mm:vapsolo:strawberry-watermelon-bubblegum",
-   "mm:vapsolo:strawberry-kiwi",
-   "mm:vapsolo:watermelon-ice",
-   "mm:vapsolo:strawberry-mango",
-   "mm:vapsolo:blueberry-ice",
-   "mm:vapsolo:fizzy-cherry"
+   "mm:vapsolo:cherry-cola-strawberry-watermelon-grapefruit-refresher-juicy-peach-ice",
+   "mm:vapsolo:mixed-berry-cherry-lemon-strawberry-watermelon-bubblegum-strawberry-kiwi",
+   "mm:vapsolo:watermelon-ice-strawberry-mango-blueberry-ice-fizzy-cherry"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e217e41435191be"
+  "enriquecido": true,
+  "hashContenido": "2033e1a115658a3e"
  },
  "slug": "cigarrillo-electronico-desechable-vapsolo-safety-gate-10118955"
 }

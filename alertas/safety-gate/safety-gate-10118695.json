@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Conejo de juguete suave beige parcialmente relleno, accionado por batería, que se mueve por sí solo. Incluye un soporte de plástico rosa y varios accesorios de plástico (cuenco rojo, secador de pelo, peine, espejo y zanahoria).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico interior y exterior, así como caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ad329862ced2ce13"
+  "enriquecido": true,
+  "hashContenido": "9eae5fb140080856"
  },
  "slug": "juguete-suave-poupee-en-peluche-animal-de-compagnie-electronique-inter-safety-gate-10118695"
 }

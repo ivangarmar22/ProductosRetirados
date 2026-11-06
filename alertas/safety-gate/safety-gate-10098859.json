@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5949040800179"
    ],
    "descripcion": "Bomba de circulación de agua eléctrica roja y negra. Producto vendido en línea, en particular a través de www.atria-europe.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "460bdf6dc760323d"
+  "enriquecido": true,
+  "hashContenido": "7fc5ed82adfa644d"
  },
  "slug": "bomba-de-agua-avansa-safety-gate-10098859"
 }

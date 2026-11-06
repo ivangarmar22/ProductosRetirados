@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,20 +27,18 @@
     "Mitsubishi Fuso"
    ],
    "modelos": [
-    "FEEVN2",
-    "FE4P10TF1N1",
-    "NKSFE4P10N1SF",
-    "NKSFE4P10N1WF",
-    "e6*2007/46*0486*09-*10",
-    "*12-*13",
-    "e4*2007/46*0784*14",
-    "e4*KS18/858*00031*00",
-    "e4*KS18/858*00032*00"
+    "FEEVN2, FE4P10TF1N1, NKSFE4P10N1SF, NKSFE4P10N1WF",
+    "e6*2007/46*0486*09-*10, *12-*13, e4*2007/46*0784*14, e4*KS18/858*00031*00, e4*KS18/858*00032*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.03.2024 - 28.11.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Un camión.",
-   "fechasTexto": "04.03.2024 - 28.11.2025"
+   "fechasTexto": "04.03.2024 - 28.11.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HR",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,23 +93,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02465/26",
-   "mm:mitsubishi-fuso:feevn2",
-   "mm:mitsubishi-fuso:fe4p10tf1n1",
-   "mm:mitsubishi-fuso:nksfe4p10n1sf",
-   "mm:mitsubishi-fuso:nksfe4p10n1wf",
-   "mm:mitsubishi-fuso:e6-2007-46-0486-09-10",
-   "mm:mitsubishi-fuso:12-13",
-   "mm:mitsubishi-fuso:e4-2007-46-0784-14",
-   "mm:mitsubishi-fuso:e4-ks18-858-00031-00",
-   "mm:mitsubishi-fuso:e4-ks18-858-00032-00"
+   "mm:mitsubishi-fuso:feevn2-fe4p10tf1n1-nksfe4p10n1sf-nksfe4p10n1wf",
+   "mm:mitsubishi-fuso:e6-2007-46-0486-09-10-12-13-e4-2007-46-0784-14-e4-ks18-858-00031-00-e4-ks18-858-00032-00",
+   "ml:mitsubishi-fuso:04-03-2024-28-11-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f4a993fbb7463c08"
+  "enriquecido": true,
+  "hashContenido": "bd568b82d13105ba"
  },
  "slug": "camion-mitsubishi-fuso-safety-gate-10118860"
 }

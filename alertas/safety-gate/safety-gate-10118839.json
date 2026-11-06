@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "3700092649626"
    ],
    "descripcion": "Scooter eléctrico, tensión: 48 V DC , potencia o corriente: 720 Wh, grado de protección: IPX5. Todos los lotes se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b90c0879f86236ff"
+  "enriquecido": true,
+  "hashContenido": "ea7a1f5da45186c1"
  },
  "slug": "scooter-electrico-urban-glide-safety-gate-10118839"
 }

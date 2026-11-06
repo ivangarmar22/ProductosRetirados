@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-08"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -33,7 +33,10 @@
    ],
    "lotes": [
     {
-     "numero": "QD2023 06QD2022 07"
+     "numero": "QD2023 06"
+    },
+    {
+     "numero": "QD2022 07"
     }
    ],
    "ean": [
@@ -43,7 +46,8 @@
     "5063003294383"
    ],
    "descripcion": "Manta eléctrica (tamaño individual, doble y king).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -111,15 +115,16 @@
    "mm:dunelm:jc-01q",
    "mm:dunelm:jc-03q",
    "mm:dunelm:jc-05q",
-   "ml:dunelm:qd2023-06qd2022-07"
+   "ml:dunelm:qd2023-06",
+   "ml:dunelm:qd2022-07"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "59e92f52e6d099ed"
+  "enriquecido": true,
+  "hashContenido": "203f15851e548964"
  },
  "slug": "manta-electrica-dunelm-safety-gate-10118625"
 }

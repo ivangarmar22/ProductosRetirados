@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-01"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6972047911929"
    ],
    "descripcion": "Cargador de batería blanco y gris con dos puertos USB-A y un puerto USB-C, integrado con un enchufe de red. Aportación: AC 100-240V, 50/60Hz, 0.5A. Resultado: 5V/5.4A (máx.) o 5V/3A (máx.) o 9V/2.4A (máx.) o 12V/2.1A (máx.).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco con una ventana de plástico en la parte delantera y un gancho colgante de plástico en la parte superior."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e42ed49214b0dd8e"
+  "enriquecido": true,
+  "hashContenido": "d88317a7aa306ff9"
  },
  "slug": "cargador-usb-treqa-safety-gate-10118902"
 }

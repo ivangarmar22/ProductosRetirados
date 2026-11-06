@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-17"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -27,19 +27,14 @@
     "RAMdM TORNADO"
    ],
    "modelos": [
-    "ENERGY DRINK",
-    "BLUEBERRY WATERMELON",
-    "SOUR APPLE RASPBERRY",
-    "GUMMY BEAR",
-    "STRAWBERRY MANGO",
-    "STRAWBERRY KIWI",
-    "APLE GRACE",
-    "WATERMELON DRAGON FRUIT"
+    "ENERGY DRINK, BLUEBERRY WATERMELON, SOUR APPLE RASPBERRY, GUMMY BEAR",
+    "STRAWBERRY MANGO, STRAWBERRY KIWI, APLE GRACE, WATERMELON DRAGON FRUIT"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Cigarrillo electrónico desechable. Fecha de fabricación: 12/01/2026.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico dentro de la caja de cartón."
   }
  ],
  "riesgo": {
@@ -92,22 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02555/26",
-   "mm:ramdm-tornado:energy-drink",
-   "mm:ramdm-tornado:blueberry-watermelon",
-   "mm:ramdm-tornado:sour-apple-raspberry",
-   "mm:ramdm-tornado:gummy-bear",
-   "mm:ramdm-tornado:strawberry-mango",
-   "mm:ramdm-tornado:strawberry-kiwi",
-   "mm:ramdm-tornado:aple-grace",
-   "mm:ramdm-tornado:watermelon-dragon-fruit"
+   "mm:ramdm-tornado:energy-drink-blueberry-watermelon-sour-apple-raspberry-gummy-bear",
+   "mm:ramdm-tornado:strawberry-mango-strawberry-kiwi-aple-grace-watermelon-dragon-fruit"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f8d5d143e1870305"
+  "enriquecido": true,
+  "hashContenido": "34224009cce5fda2"
  },
  "slug": "cigarrillo-electronico-desechable-ramdm-tornado-safety-gate-10118933"
 }

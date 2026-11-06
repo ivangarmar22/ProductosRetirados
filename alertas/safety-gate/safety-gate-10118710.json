@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "TE 150/250/300",
     "TX 300 MY22-24"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "2022"
+   "fechasTexto": "2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,14 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "HR",
+   "HU",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,15 +108,16 @@
    "mm:husqvarna:fx350-450",
    "mm:husqvarna:fe-250-350-450-501",
    "mm:husqvarna:te-150-250-300",
-   "mm:husqvarna:tx-300-my22-24"
+   "mm:husqvarna:tx-300-my22-24",
+   "ml:husqvarna:2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cca2609af1b430b4"
+  "enriquecido": true,
+  "hashContenido": "2a5b9d20c129682f"
  },
  "slug": "motocicleta-husqvarna-safety-gate-10118710"
 }

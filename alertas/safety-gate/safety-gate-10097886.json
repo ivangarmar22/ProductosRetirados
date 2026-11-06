@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e3*2007/46*0046*30 - e3*2007/46*0046*32",
     "e3*2007/46*0051*32 - e3*2007/46*0051*33"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.01.2025 - 22.07.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero. VIN: VF7YCF6F0RMB44590 - VF7YET6F8TMB73805",
-   "fechasTexto": "07.01.2025 - 22.07.2025"
+   "fechasTexto": "07.01.2025 - 22.07.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "IE",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +93,16 @@
   "claves": [
    "ref:SR/00557/26",
    "mm:citroen:e3-2007-46-0046-30-e3-2007-46-0046-32",
-   "mm:citroen:e3-2007-46-0051-32-e3-2007-46-0051-33"
+   "mm:citroen:e3-2007-46-0051-32-e3-2007-46-0051-33",
+   "ml:citroen:07-01-2025-22-07-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9101f8243c383a96"
+  "enriquecido": true,
+  "hashContenido": "de09646d540579a9"
  },
  "slug": "vehiculo-comercial-ligero-citroen-safety-gate-10097886"
 }

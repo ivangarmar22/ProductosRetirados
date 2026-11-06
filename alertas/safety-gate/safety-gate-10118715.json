@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Juego de juguetes de baño, que incluye una pista de construcción, una bola, una forma de frijol, un pato amarillo con un chirridor y tres ventosas sueltas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bb26a6bf16a857ff"
+  "enriquecido": true,
+  "hashContenido": "bba4f5002fa49f21"
  },
  "slug": "juego-de-juguetes-de-bano-aleenfoon-safety-gate-10118715"
 }

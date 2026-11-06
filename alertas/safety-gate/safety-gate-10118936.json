@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-17"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -27,12 +27,9 @@
     "WASPE AIVIOU"
    ],
    "modelos": [
-    "BLUE RAZZ LEMONADE",
-    "WATERMELON BUBBLEGUM",
-    "PEACH BERRY",
-    "WATERMELON MANGO PEACH",
-    "STRAWBERRY WATERMELON BUBBLEGUM",
-    "MIXED FRUIT"
+    "BLUE RAZZ LEMONADE, WATERMELON BUBBLEGUM",
+    "PEACH BERRY, WATERMELON MANGO PEACH",
+    "STRAWBERRY WATERMELON BUBBLEGUM, MIXED FRUIT"
    ],
    "lotes": [
     {
@@ -45,7 +42,8 @@
     "1940400092436"
    ],
    "descripcion": "Cigarrillo electrónico desechable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico dentro de la caja de cartón."
   }
  ],
  "riesgo": {
@@ -109,21 +107,18 @@
    "ean:1940400092313",
    "ean:1940400092375",
    "ean:1940400092436",
-   "mm:waspe-aiviou:blue-razz-lemonade",
-   "mm:waspe-aiviou:watermelon-bubblegum",
-   "mm:waspe-aiviou:peach-berry",
-   "mm:waspe-aiviou:watermelon-mango-peach",
-   "mm:waspe-aiviou:strawberry-watermelon-bubblegum",
-   "mm:waspe-aiviou:mixed-fruit",
+   "mm:waspe-aiviou:blue-razz-lemonade-watermelon-bubblegum",
+   "mm:waspe-aiviou:peach-berry-watermelon-mango-peach",
+   "mm:waspe-aiviou:strawberry-watermelon-bubblegum-mixed-fruit",
    "ml:waspe-aiviou:c260402002"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ff3af6bf01fa8cd8"
+  "enriquecido": true,
+  "hashContenido": "36878939b8a0662e"
  },
  "slug": "cigarrillo-electronico-desechable-waspe-aiviou-safety-gate-10118936"
 }

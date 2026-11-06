@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "4032037865822"
    ],
    "descripcion": "Juguete de baño hecho de plástico amarillo, con un ala extendida y ojos azules pintados y un pico rojo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "95cddeacabd4d73a"
+  "enriquecido": true,
+  "hashContenido": "8571919d2175e923"
  },
  "slug": "juguete-de-bano-cepewa-gmbh-safety-gate-10118983"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "8435761346302"
    ],
    "descripcion": "Apriete el juguete en forma de bollo vendido en conjuntos de 3 artículos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico."
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fb2df7505c372e52"
+  "enriquecido": true,
+  "hashContenido": "6863ba954ead3d35"
  },
  "slug": "juguete-de-apretar-squishy-fidget-fun-safety-gate-10118876"
 }

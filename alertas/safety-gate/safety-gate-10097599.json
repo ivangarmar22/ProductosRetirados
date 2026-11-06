@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*168/2013*00480* (ST5)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.08.2018 - 02.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Bicicleta eléctrica.",
-   "fechasTexto": "08.08.2018 - 02.12.2025"
+   "fechasTexto": "08.08.2018 - 02.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -94,15 +99,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00265/26",
-   "mm:stromer:e13-168-2013-00480-st5"
+   "mm:stromer:e13-168-2013-00480-st5",
+   "ml:stromer:08-08-2018-02-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4112e68f39b45c73"
+  "enriquecido": true,
+  "hashContenido": "3c0c8741ed4a749a"
  },
  "slug": "bicicleta-electrica-stromer-safety-gate-10097599"
 }

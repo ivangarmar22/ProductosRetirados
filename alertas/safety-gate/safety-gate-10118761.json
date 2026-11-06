@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,25 +27,18 @@
     "Weinsberg"
    ],
    "modelos": [
-    "e1*2007/46*0769*06-*19",
-    "e1*2007/46*0725*11",
-    "*13",
-    "*15-*16",
-    "e1*2007/46*0804*08-*17",
-    "e1*2007/46*0771*13",
-    "*16-*23",
-    "*25-*26",
-    "e1*2018/858*00185*01-*04",
-    "e1*2018/858*00285*00-*03",
-    "e1*2018/858*00184*00-*05",
-    "e1*2007/46*0946*07",
-    "*10-*11",
-    "e1*2007/46*2023*00-*04"
+    "e1*2007/46*0769*06-*19, e1*2007/46*0725*11,*13,*15-*16, e1*2007/46*0804*08-*17, e1*2007/46*0771*13,*16-*23,*25-*26, e1*2018/858*00185*01-*04, e1*2018/858*00285*00-*03, e1*2018/858*00184*00-*05,",
+    "e1*2007/46*0946*07,*10-*11, e1*2007/46*2023*00-*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.07.2017 - 27.04.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "07.07.2017 - 27.04.2026"
+   "fechasTexto": "07.07.2017 - 27.04.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -126,27 +121,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02413/26",
-   "mm:weinsberg:e1-2007-46-0769-06-19",
-   "mm:weinsberg:e1-2007-46-0725-11",
-   "mm:weinsberg:15-16",
-   "mm:weinsberg:e1-2007-46-0804-08-17",
-   "mm:weinsberg:e1-2007-46-0771-13",
-   "mm:weinsberg:16-23",
-   "mm:weinsberg:25-26",
-   "mm:weinsberg:e1-2018-858-00185-01-04",
-   "mm:weinsberg:e1-2018-858-00285-00-03",
-   "mm:weinsberg:e1-2018-858-00184-00-05",
-   "mm:weinsberg:e1-2007-46-0946-07",
-   "mm:weinsberg:10-11",
-   "mm:weinsberg:e1-2007-46-2023-00-04"
+   "mm:weinsberg:e1-2007-46-0769-06-19-e1-2007-46-0725-11-13-15-16-e1-2007-46-0804-08-17-e1-2007-46-0771-13-16-23-25-26-e1-2018-858-00185-01-04-e1-2018-858-00285-00-03-e1-2018-858-00184-00-05",
+   "mm:weinsberg:e1-2007-46-0946-07-10-11-e1-2007-46-2023-00-04",
+   "ml:weinsberg:07-07-2017-27-04-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c241f37679b1434f"
+  "enriquecido": true,
+  "hashContenido": "dd3b32ebda46a882"
  },
  "slug": "camioneta-de-camper-weinsberg-safety-gate-10118761"
 }

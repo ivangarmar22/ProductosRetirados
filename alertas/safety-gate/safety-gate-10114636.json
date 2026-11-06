@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-15"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "3056565234258"
    ],
    "descripcion": "Juego de juguetes de baño que se puede montar y desmontar sin herramientas. Comprende una pequeña lata de riego, válvulas que se pueden abrir y cerrar, un molino de agua, un cubo con ventosas y un medidor de plástico transparente.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -80,7 +81,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "CY",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -115,11 +120,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "811f78b4c956b3c9"
+  "enriquecido": true,
+  "hashContenido": "97bb13680eef7cd3"
  },
  "slug": "juego-de-juguetes-de-bano-sophie-la-girafe-safety-gate-10114636"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-08"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -38,7 +38,8 @@
     "810132830594"
    ],
    "descripcion": "Tinta de tatuaje de color azul, 30 ml. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "33259ac72bcba078"
+  "enriquecido": true,
+  "hashContenido": "11a9a1640561e07e"
  },
  "slug": "tinta-de-tatuaje-dynamic-safety-gate-10097461"
 }

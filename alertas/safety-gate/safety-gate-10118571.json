@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -37,7 +37,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Auriculares de protección auditiva y comunicaciones por encima del oído diseñados para personal militar y de defensa civil. La retirada es aplicable a los auriculares fabricados entre el 27 de noviembre de 2025 y el 6 de febrero de 2026, con los números de ensamblaje de modelo / tipo y placa de circuito impreso.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b3cf2a2004301e85"
+  "enriquecido": true,
+  "hashContenido": "44e7cbe29990d5eb"
  },
  "slug": "proteccion-auditiva-auriculares-3m-safety-gate-10118571"
 }

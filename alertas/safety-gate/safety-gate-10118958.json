@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-17"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -27,12 +27,9 @@
     "RENdM TORNADO"
    ],
    "modelos": [
-    "BLUEBERRY ICE",
-    "TWO APPLE",
-    "PEACH ICE",
-    "ICE POP",
-    "WATERMELON ICE",
-    "COLA ICE"
+    "BLUEBERRY ICE, TWO APPLE",
+    "PEACH ICE, ICE POP",
+    "WATERMELON ICE, COLA ICE"
    ],
    "lotes": [],
    "ean": [
@@ -41,7 +38,8 @@
     "675817511546"
    ],
    "descripcion": "Cigarrillo electrónico desechable. Fecha de fabricación: 15/09/2026.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico dentro de la caja de cartón."
   }
  ],
  "riesgo": {
@@ -101,20 +99,17 @@
    "ean:675817511256",
    "ean:675817511386",
    "ean:675817511546",
-   "mm:rendm-tornado:blueberry-ice",
-   "mm:rendm-tornado:two-apple",
-   "mm:rendm-tornado:peach-ice",
-   "mm:rendm-tornado:ice-pop",
-   "mm:rendm-tornado:watermelon-ice",
-   "mm:rendm-tornado:cola-ice"
+   "mm:rendm-tornado:blueberry-ice-two-apple",
+   "mm:rendm-tornado:peach-ice-ice-pop",
+   "mm:rendm-tornado:watermelon-ice-cola-ice"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ac2f605b0ae3d0f2"
+  "enriquecido": true,
+  "hashContenido": "841c18a22c451717"
  },
  "slug": "cigarrillo-electronico-desechable-rendm-tornado-safety-gate-10118958"
 }

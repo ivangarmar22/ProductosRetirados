@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-22"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Guantes protectores de nitrilo verde, anunciados como resistentes a los productos químicos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón y bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +116,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "099d88b52815f933"
+  "enriquecido": true,
+  "hashContenido": "e69ac023174135f8"
  },
  "slug": "guantes-de-proteccion-thxtomx-heacy-duty-gloves-industrial-gloves-safety-gate-10118631"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-12"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -42,7 +42,8 @@
     "3608392720574"
    ],
    "descripcion": "Alpinismo Quickdraw (Quickdraw para alpinismo) compuesto por dos mosquetones y una correa. Todos los lotes se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "IE",
+   "PL",
+   "SI",
+   "SK",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +123,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b79d06c5eff0b092"
+  "enriquecido": true,
+  "hashContenido": "dec739e20df18b34"
  },
  "slug": "mosqueton-simond-safety-gate-10118708"
 }

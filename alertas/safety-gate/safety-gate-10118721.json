@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    ],
    "ean": [],
    "descripcion": "Excavadora amarilla y negra controlada a distancia con un controlador de radio.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "40bac0490bf72aa2"
+  "enriquecido": true,
+  "hashContenido": "dd65e14884e573d0"
  },
  "slug": "juguete-de-plastico-engineering-die-cast-car-safety-gate-10118721"
 }

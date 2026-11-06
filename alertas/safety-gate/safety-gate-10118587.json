@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,13 +27,14 @@
     "UOUOROSE"
    ],
    "modelos": [
-    "YS541 \"Schaf mit Halskette\"",
-    "YS386 \"Toast\"",
-    "YS540 \"Hund mit Halskette\""
+    "YS541 \"Schaf mit Halskette\", YS386 \"Toast\", YS540 \"Hund mit Halskette\""
    ],
    "lotes": [
     {
-     "numero": "115250923115250923"
+     "numero": "115250923"
+    },
+    {
+     "numero": "115250923"
     }
    ],
    "ean": [
@@ -42,7 +43,8 @@
     "2506600705416"
    ],
    "descripcion": "Juguete suave con un llavero en forma de oveja con un collar de perlas extraíble y colgante en forma de corazón alrededor de su cuello, con mosquetones unidos a la parte superior de la cabeza.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -119,18 +123,16 @@
    "ean:2406000703862",
    "ean:2505900705409",
    "ean:2506600705416",
-   "mm:uouorose:ys541-schaf-mit-halskette",
-   "mm:uouorose:ys386-toast",
-   "mm:uouorose:ys540-hund-mit-halskette",
-   "ml:uouorose:115250923115250923"
+   "mm:uouorose:ys541-schaf-mit-halskette-ys386-toast-ys540-hund-mit-halskette",
+   "ml:uouorose:115250923"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "069090bc3640971f"
+  "enriquecido": true,
+  "hashContenido": "4ee10f2ff7235eec"
  },
  "slug": "juguete-suave-con-llavero-uouorose-safety-gate-10118587"
 }

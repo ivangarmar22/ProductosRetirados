@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-02"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Collar con un colgante verde en forma de flor.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c912c45fcaadb2e7"
+  "enriquecido": true,
+  "hashContenido": "a2f7b2c54f0fbd55"
  },
  "slug": "collar-safety-gate-10099608"
 }

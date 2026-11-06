@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "WS"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.02.2021 - 29.02.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "24.02.2021 - 29.02.2024"
+   "fechasTexto": "24.02.2021 - 29.02.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,15 +81,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/02469/26"
+   "ref:SR/02469/26",
+   "ml:jeep:24-02-2021-29-02-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "af99494b06803811"
+  "enriquecido": true,
+  "hashContenido": "072bf59ed6db1fb4"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10118808"
 }

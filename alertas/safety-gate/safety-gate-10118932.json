@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Land Rover"
    ],
    "modelos": [
-    "L1",
-    "LK",
-    "e9*2018/858*11229*01-*06",
-    "e9*2018/858*11120*00-*07"
+    "L1, LK",
+    "e9*2018/858*11229*01-*06, e9*2018/858*11120*00-*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.12.2021 - 10.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "14.12.2021 - 10.12.2025"
+   "fechasTexto": "14.12.2021 - 10.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,16 +91,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02570/26",
-   "mm:land-rover:e9-2018-858-11229-01-06",
-   "mm:land-rover:e9-2018-858-11120-00-07"
+   "mm:land-rover:l1-lk",
+   "mm:land-rover:e9-2018-858-11229-01-06-e9-2018-858-11120-00-07",
+   "ml:land-rover:14-12-2021-10-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "846cbdce76d8ca77"
+  "enriquecido": true,
+  "hashContenido": "548a86aadfa27e50"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10118932"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -32,12 +32,19 @@
    ],
    "lotes": [
     {
-     "numero": "103/1114 103/1115Production period before 1 April 2026"
+     "numero": "103/1114"
+    },
+    {
+     "numero": "103/1115"
+    },
+    {
+     "numero": "Production period before 1 April 2026"
     }
    ],
    "ean": [],
    "descripcion": "Silla giratoria de oficina de plástico negro con respaldo tapizado o de malla.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +74,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +103,17 @@
    "ref:SR/02332/26",
    "mm:sedus:qb-105",
    "mm:sedus:qb-125",
-   "ml:sedus:103-1114-103-1115production-period-before-1-april-2026"
+   "ml:sedus:103-1114",
+   "ml:sedus:103-1115",
+   "ml:sedus:production-period-before-1-april-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e9dd969963a1e84f"
+  "enriquecido": true,
+  "hashContenido": "0af59b582c863717"
  },
  "slug": "silla-de-oficina-sedus-safety-gate-10118614"
 }

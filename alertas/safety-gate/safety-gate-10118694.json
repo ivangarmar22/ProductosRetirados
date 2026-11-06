@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,15 @@
     "g11*2018/858*00524*07*00",
     "g11*2018/858*00524*08*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.03.2026 - 27.03.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Gama de VIN: ¡ ; VYEPJ5B79TPU14878 - VYEPJ5B79TPU18428 VYEPJ5B8XTPU04157 - VYEPJ5B80TPU18715.",
-   "fechasTexto": "04.03.2026 - 27.03.2026"
+   "fechasTexto": "04.03.2026 - 27.03.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +94,16 @@
    "mm:jeep:e2-2018-858-00064-13-00",
    "mm:jeep:e2-2018-858-00064-14-00",
    "mm:jeep:g11-2018-858-00524-07-00",
-   "mm:jeep:g11-2018-858-00524-08-00"
+   "mm:jeep:g11-2018-858-00524-08-00",
+   "ml:jeep:04-03-2026-27-03-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c37aa9e3bba1563c"
+  "enriquecido": true,
+  "hashContenido": "da0e7c5accff7fff"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10118694"
 }

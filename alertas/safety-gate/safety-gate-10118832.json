@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "3L",
-    "7L",
-    "G5L",
-    "e1*2007/46*0314*",
-    "e1*2007/46*0276*",
-    "e1*2007/46*1688*"
+    "3L, 7L, G5L",
+    "e1*2007/46*0314*, e1*2007/46*0276*, e1*2007/46*1688*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.07.2014 - 12.11.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "29.07.2014 - 12.11.2020"
+   "fechasTexto": "29.07.2014 - 12.11.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FR",
+   "HR",
+   "HU",
+   "IS",
+   "LU",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,18 +108,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02525/26",
-   "mm:bmw:g5l",
-   "mm:bmw:e1-2007-46-0314",
-   "mm:bmw:e1-2007-46-0276",
-   "mm:bmw:e1-2007-46-1688"
+   "mm:bmw:3l-7l-g5l",
+   "mm:bmw:e1-2007-46-0314-e1-2007-46-0276-e1-2007-46-1688",
+   "ml:bmw:29-07-2014-12-11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d5747e71016f09ec"
+  "enriquecido": true,
+  "hashContenido": "d1156ba74ba6fd42"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10118832"
 }

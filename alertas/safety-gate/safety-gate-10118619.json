@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-08"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Conector de tijera, carga máxima 2000 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "25807c2a6c884623"
+  "enriquecido": true,
+  "hashContenido": "cd54266ac8371e88"
  },
  "slug": "gato-de-tijera-safety-gate-10118619"
 }

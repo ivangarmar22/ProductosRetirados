@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,12 +31,25 @@
    ],
    "lotes": [
     {
-     "numero": "ORD01605735_01ORD01605736_01ORD01605737_01ORD01605738_01ORD01605739_01"
+     "numero": "ORD01605735_01"
+    },
+    {
+     "numero": "ORD01605736_01"
+    },
+    {
+     "numero": "ORD01605737_01"
+    },
+    {
+     "numero": "ORD01605738_01"
+    },
+    {
+     "numero": "ORD01605739_01"
     }
    ],
    "ean": [],
    "descripcion": "Juguete de plástico que consiste en una jaula de pájaros con figuras de plástico.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +83,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +107,19 @@
   "claves": [
    "ref:SR/02556/26",
    "mm:pepco:632235",
-   "ml:pepco:ord01605735-01ord01605736-01ord01605737-01ord01605738-01ord01605739-01"
+   "ml:pepco:ord01605735-01",
+   "ml:pepco:ord01605736-01",
+   "ml:pepco:ord01605737-01",
+   "ml:pepco:ord01605738-01",
+   "ml:pepco:ord01605739-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "17e96ec1e08fdbea"
+  "enriquecido": true,
+  "hashContenido": "185c9ac21975b0ca"
  },
  "slug": "juguete-de-plastico-pepco-safety-gate-10118912"
 }
