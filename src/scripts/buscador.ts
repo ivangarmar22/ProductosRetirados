@@ -1,7 +1,7 @@
 /** Buscador y filtros del listado. Todo el estado vive en la query string. */
 import { tarjetaHtml } from '../lib/tarjeta';
 import { mejorarDesplegables, sincronizarDesplegables } from './desplegable';
-import { aTarjeta, base, buscarVerificado, plano, type Hallazgo } from './motor';
+import { aTarjeta, base, buscarVerificado, pagefind, plano, type Hallazgo } from './motor';
 
 const FILTROS = ['ambito', 'fuente', 'categoria', 'riesgo', 'alergeno', 'ccaa', 'anio'] as const;
 const LOTE = 20;
@@ -158,6 +158,8 @@ if (form) {
   if (panel && matchMedia('(min-width: 48rem)').matches) panel.open = true;
   aplicarUrlAlFormulario();
   mejorarDesplegables(form);
+  // El índice empieza a cargar al acercarse a los filtros, antes de elegir nada.
+  for (const evento of ['pointerover', 'focusin', 'touchstart']) form.addEventListener(evento, () => { pagefind().catch(() => {}); }, { once: true, passive: true });
   form.addEventListener('submit', (e) => { e.preventDefault(); if (panel && !matchMedia('(min-width: 48rem)').matches) panel.open = false; buscar(); });
   form.addEventListener('change', () => buscar());
   mas?.addEventListener('click', cargarMas);

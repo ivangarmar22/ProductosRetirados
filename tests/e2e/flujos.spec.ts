@@ -278,46 +278,42 @@ test('contacto: envía desde la web y avisa si falla', async ({ page }) => {
   await expect(page.getByLabel('Mensaje')).toHaveValue('Hola');
 });
 
-test('las fotos no se piden hasta pulsar y se abren en un visor', async ({ page }) => {
+test('las miniaturas cargan al llegar y se amplían en un visor', async ({ page }) => {
   const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==', 'base64');
-  let pedidas = 0;
-  await page.route(/^https:\/\/www\.aesan\.gob\.es\//, (r) => { pedidas++; return r.fulfill({ contentType: 'image/png', body: png }); });
+  await page.route(/^https:\/\/www\.aesan\.gob\.es\//, (r) => r.fulfill({ contentType: 'image/png', body: png }));
   await page.goto(FICHA);
-  await page.waitForLoadState('networkidle');
-  expect(pedidas).toBe(0);
-  const abrir = page.getByRole('link', { name: 'Ver fotos' });
+  const primera = page.locator('.fotos a').first();
+  await primera.scrollIntoViewIfNeeded();
+  await expect.poll(() => primera.locator('img').evaluate((i: HTMLImageElement) => i.naturalWidth)).toBeGreaterThan(0);
+  await expect(primera.locator('img')).toHaveAttribute('referrerpolicy', 'no-referrer');
+  await expect(page.getByText('Imágenes de AESAN')).toBeVisible();
   const visor = page.getByRole('dialog', { name: 'Fotos del producto' });
-  await abrir.click();
+  await page.locator('.fotos a').nth(1).click();
   await expect(visor).toBeVisible();
   expect(page.url()).toContain(FICHA);
-  await expect(visor.locator('.visor-n')).toHaveText('1 de 3');
+  await expect(visor.locator('.visor-n')).toHaveText('2 de 3');
   await expect.poll(() => visor.locator('img').evaluate((i: HTMLImageElement) => i.naturalWidth)).toBeGreaterThan(0);
-  await expect(visor.locator('img')).toHaveAttribute('referrerpolicy', 'no-referrer');
   const axe = await new AxeBuilder({ page }).include('.visor').withTags(['wcag2a', 'wcag2aa', 'wcag22aa']).analyze();
   expect(axe.violations.map((v) => v.id)).toEqual([]);
   await visor.getByRole('button', { name: 'Foto siguiente' }).click();
-  await expect(visor.locator('.visor-n')).toHaveText('2 de 3');
-  await page.keyboard.press('ArrowLeft');
-  await page.keyboard.press('ArrowLeft');
   await expect(visor.locator('.visor-n')).toHaveText('3 de 3');
+  await page.keyboard.press('ArrowRight');
+  await expect(visor.locator('.visor-n')).toHaveText('1 de 3');
   await page.keyboard.press('Escape');
   await expect(visor).toBeHidden();
-  await expect(abrir).toBeFocused();
-  await abrir.click();
+  await primera.click();
   await visor.getByRole('button', { name: 'Cerrar' }).click();
   await expect(visor).toBeHidden();
-  await abrir.click();
+  await primera.click();
   await page.mouse.click(4, 4);
   await expect(visor).toBeHidden();
   await sinDesborde(page);
 });
 
-test('si las fotos no cargan, lo dice y remite a la fuente', async ({ page }) => {
+test('si las fotos no cargan, la sección desaparece sin dejar hueco', async ({ page }) => {
   await page.goto(FICHA);
-  await page.getByRole('link', { name: 'Ver fotos' }).click();
-  await expect(page.locator('.f-fotos .ref')).toContainText('No se han podido cargar');
-  await expect(page.getByRole('dialog')).toBeHidden();
-  await expect(page.getByRole('link', { name: 'Ver fotos' })).toHaveCount(0);
+  await page.evaluate(() => document.querySelector('[data-fotos]')?.scrollIntoView({ block: 'center', behavior: 'instant' }));
+  await expect(page.getByRole('heading', { name: 'Fotos del producto' })).toHaveCount(0);
 });
 
 test('si el buscador no carga lo dice, y se recupera al reintentar', async ({ page }) => {
@@ -334,6 +330,21 @@ test('el filtro de una comunidad con ñ devuelve resultados', async ({ page }) =
   await page.goto('/alertas/?ccaa=' + encodeURIComponent('Cataluña'));
   await expect(page.locator('#resultados .tar').first()).toBeVisible();
   await expect(page.locator('#resumen')).toContainText('alertas');
+});
+
+test('iconos y favicon van versionados y todos existen en el sprite', async ({ page, request }) => {
+  await page.goto('/');
+  const fav = await page.locator('link[rel="icon"][type="image/svg+xml"]').getAttribute('href');
+  expect(fav).toMatch(/favicon\.svg\?v=[0-9a-f]{8}$/);
+  const sprite = await (await request.get('/iconos.svg')).text();
+  for (const ruta of ['/', '/alertas/', '/comprobar/', '/contacto/', '/colabora/', FICHA]) {
+    await page.goto(ruta);
+    const usados = await page.locator('use').evaluateAll((l) => l.map((u) => u.getAttribute('href')!));
+    for (const h of usados) {
+      expect(h).toMatch(/iconos\.svg\?v=[0-9a-f]{8}#/);
+      expect(sprite).toContain(`id="${h.split('#')[1]}"`);
+    }
+  }
 });
 
 test('la cinta queda centrada en móvil y tablet', async ({ page }) => {

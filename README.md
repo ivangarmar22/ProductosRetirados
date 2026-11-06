@@ -67,7 +67,7 @@ En España, las alertas de productos están repartidas entre varios organismos. 
 | **52** | de cosméticos de la AEMPS, desde 2020 |
 | **24.798** | páginas estáticas generadas |
 | **8** | comprobaciones de las fuentes al día |
-| **0** | cookies, cuentas, anuncios y servidores propios |
+| **0** | cookies propias, cuentas, anuncios y servidores propios |
 
 <sub>Datos del 06/11/2026. Las cifras actualizadas están en la página de <a href="https://ivangarmar22.github.io/ProductosRetirados/estado/">estado de las fuentes</a>.</sub>
 
@@ -249,7 +249,7 @@ Compartir la web con tu familia y avisar de errores ayuda tanto como un donativo
 | Cartografía de Natural Earth | Dominio público |
 | Logotipo | Propio del proyecto |
 
-Las marcas citadas pertenecen a sus titulares. Las fotos de producto no se copian: se cargan desde la web oficial de cada fuente solo si se pulsa «Ver fotos».
+Las marcas citadas pertenecen a sus titulares. Las fotos de producto no se copian: se cargan desde la web oficial de cada fuente.
 
 ---
 

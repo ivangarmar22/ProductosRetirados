@@ -1,6 +1,6 @@
 /** Comprobador guiado: tipo de producto, marca o lote, resultado. */
 import { esc } from '../lib/tarjeta';
-import { aTarjeta, base, buscarVerificado, type Hallazgo } from './motor';
+import { aTarjeta, base, buscarVerificado, pagefind, type Hallazgo } from './motor';
 
 const raiz = document.querySelector<HTMLElement>('[data-comprobador]');
 if (raiz) {
@@ -22,6 +22,7 @@ if (raiz) {
 
   raiz.querySelectorAll<HTMLButtonElement>('[data-tipo]').forEach((b) => b.addEventListener('click', () => {
     categoria = b.dataset.tipo!;
+    pagefind().catch(() => {});
     elegido.textContent = b.textContent!.trim();
     ir(1, false);
     input.focus();

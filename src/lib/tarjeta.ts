@@ -6,7 +6,7 @@ export interface Tarjeta { url: string; nombre?: string; motivo?: string; ident?
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 export const esc = (t = '') => t.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
 
-export const icono = (n: string) => `<svg class="i" aria-hidden="true"><use href="${base}iconos.svg#${n}"/></svg>`;
+export const icono = (n: string) => `<svg class="i" aria-hidden="true"><use href="${base}iconos.svg?v=${import.meta.env.PUBLIC_VERSION}#${n}"/></svg>`;
 
 export function tarjetaHtml(t: Tarjeta, nueva = false): string {
   const tipo = t.tipoNivel ?? 'sin';

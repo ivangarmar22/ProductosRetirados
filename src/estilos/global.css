@@ -11,7 +11,6 @@
   --ancho: 85rem;
 }
 @media (prefers-reduced-motion: no-preference) {
-  @view-transition { navigation: auto; }
   html { scroll-behavior: smooth; }
 }
 
@@ -135,7 +134,7 @@ fieldset { margin: 0; padding: 0; border: 0; }
 .nueva { width: fit-content; padding: .05rem .5rem; border-radius: 999px; background: var(--agua); color: var(--menta); font-size: .76rem; font-weight: 700; }
 
 /* Aparición al hacer scroll: solo si hay JavaScript */
-.js [data-ver] { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s cubic-bezier(.2, .8, .2, 1); }
+.js [data-ver] { opacity: 0; transform: translateY(8px); transition: opacity .25s ease, transform .25s ease; }
 .js [data-ver].visto { opacity: 1; transform: none; }
 
 /* Categorías en arco */
@@ -355,9 +354,11 @@ fieldset { margin: 0; padding: 0; border: 0; }
 .f-sec > ul { padding-left: 1.25rem; list-style: disc; }
 .f-sec li + li { margin-top: .4rem; }
 .f-sec > p + p { margin-top: .6rem; }
-.f-fotos { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 1.25rem; }
-.f-fotos h2 { margin-bottom: .15rem; }
-.f-fotos > div { flex: 1 1 14rem; }
+.f-sec > .fotos { display: grid; grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr)); gap: .5rem; margin-bottom: .6rem; padding: 0; list-style: none; }
+.f-sec .fotos li + li { margin-top: 0; }
+.fotos a { display: block; overflow: hidden; border: 1px solid var(--linea); border-radius: .75rem; background: var(--fondo); cursor: zoom-in; }
+.fotos img { width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; transition: transform .2s; }
+.fotos a:hover img { transform: scale(1.04); }
 html:has(.visor[open]) { overflow: hidden; }
 .visor { position: fixed; width: min(94vw, 62rem); max-width: none; max-height: none; padding: 0; overflow: hidden; border: 0; border-radius: var(--r-g); background: var(--blanco); box-shadow: var(--sombra-g); }
 .visor[open] { animation: abre .16s ease-out; }

@@ -1,10 +1,14 @@
 import { defineConfig } from 'astro/config';
-import { createReadStream, existsSync, statSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
 // La URL pública decide el dominio y la subcarpeta. Sin dominio propio el sitio
 // vive en https://ivangarmar22.github.io/ProductosRetirados.
 const url = new URL(process.env.PUBLIC_SITE_URL ?? 'http://localhost:4321');
+
+/** Cambia con los ficheros: sin esto, quien ya visitó la web sigue viendo los iconos antiguos. */
+const version = createHash('md5').update(readFileSync('public/iconos.svg')).update(readFileSync('public/favicon.svg')).digest('hex').slice(0, 8);
 
 /** En desarrollo no hay índice de búsqueda: se sirve el de la última compilación. */
 const pagefindEnDesarrollo = {
@@ -26,5 +30,5 @@ export default defineConfig({
   build: { format: 'directory', concurrency: 4 },
   compressHTML: true,
   devToolbar: { enabled: false },
-  vite: { plugins: [pagefindEnDesarrollo] },
+  vite: { plugins: [pagefindEnDesarrollo], define: { 'import.meta.env.PUBLIC_VERSION': JSON.stringify(version) } },
 });

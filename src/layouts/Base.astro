@@ -12,6 +12,7 @@ const canonica = new URL(ruta(rutaPagina), Astro.site).toString();
 const imagen = new URL(ruta('/og.png'), Astro.site).toString();
 const tituloCompleto = rutaPagina === '/' ? `${NOMBRE}: comprueba si un producto está retirado en España` : `${titulo} · ${NOMBRE}`;
 const ultimo = Object.values(estadoFuentes()).map((e) => e.ultimoOk ?? '').sort().at(-1);
+const v = `?v=${import.meta.env.PUBLIC_VERSION}`;
 const actual = (href: string) => ((href === '/' ? rutaPagina === '/' : rutaPagina.startsWith(href)) ? 'page' : undefined);
 ---
 
@@ -25,9 +26,9 @@ const actual = (href: string) => ((href === '/' ? rutaPagina === '/' : rutaPagin
     <link rel="canonical" href={canonica} />
     <script is:inline>document.documentElement.classList.add('js')</script>
     <link rel="preload" href={figtree} as="font" type="font/woff2" crossorigin />
-    <link rel="icon" href={ruta('/favicon.ico')} sizes="32x32" />
-    <link rel="icon" href={ruta('/favicon.svg')} type="image/svg+xml" />
-    <link rel="apple-touch-icon" href={ruta('/apple-touch-icon.png')} />
+    <link rel="icon" href={ruta(`/favicon.ico${v}`)} sizes="32x32" />
+    <link rel="icon" href={ruta(`/favicon.svg${v}`)} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={ruta(`/apple-touch-icon.png${v}`)} />
     <link rel="manifest" href={ruta('/site.webmanifest')} />
     <meta name="theme-color" content="#f7f6f2" />
     <meta property="og:site_name" content={NOMBRE} />

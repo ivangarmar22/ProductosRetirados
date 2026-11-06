@@ -3,7 +3,7 @@ const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 const aparicion = new IntersectionObserver((entradas) => entradas.forEach((e) => {
   if (e.isIntersecting) { e.target.classList.add('visto'); aparicion.unobserve(e.target); }
-}), { threshold: 0.08 });
+}), { rootMargin: '0px 0px 30% 0px' });
 document.querySelectorAll('[data-ver]').forEach((el) => aparicion.observe(el));
 
 const formato = new Intl.NumberFormat('es-ES');
@@ -13,7 +13,7 @@ const contador = new IntersectionObserver((entradas) => entradas.forEach((e) => 
   const fin = Number((e.target as HTMLElement).dataset.cuenta);
   const inicio = performance.now();
   const paso = (t: number) => {
-    const k = Math.min(1, (t - inicio) / 1400);
+    const k = Math.min(1, (t - inicio) / 600);
     e.target.textContent = formato.format(Math.round(fin * (1 - (1 - k) ** 3)));
     if (k < 1) requestAnimationFrame(paso);
   };

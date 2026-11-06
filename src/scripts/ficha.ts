@@ -17,16 +17,34 @@ if (caja) {
   });
 }
 
-// Las fotos solo se piden al pulsar: hasta entonces, ninguna web externa recibe la visita.
 const fotos = document.querySelector<HTMLElement>('[data-fotos]');
 if (fotos) {
-  const urls: string[] = JSON.parse(fotos.dataset.fotos!);
-  const abrir = fotos.querySelector<HTMLAnchorElement>('a.btn')!;
+  let urls: string[] = JSON.parse(fotos.dataset.fotos!);
   const visor = fotos.querySelector('dialog')!;
   const grande = visor.querySelector('img')!;
   const cuenta = visor.querySelector<HTMLElement>('.visor-n')!;
   const pasos = visor.querySelectorAll<HTMLElement>('[data-paso]');
+  const miniaturas = [...fotos.querySelectorAll<HTMLImageElement>('.fotos img')];
   let actual = 0;
+
+  const quitar = (url: string) => {
+    urls = urls.filter((u) => u !== url);
+    miniaturas.find((m) => m.dataset.src === url)?.closest('li')?.remove();
+    if (urls.length) return;
+    visor.close();
+    fotos.remove();
+  };
+
+  // Esperan a estar en pantalla: así no compiten con la carga de la ficha.
+  const carga = new IntersectionObserver((entradas) => {
+    if (!entradas.some((e) => e.isIntersecting)) return;
+    carga.disconnect();
+    miniaturas.forEach((m) => {
+      m.addEventListener('error', () => quitar(m.dataset.src!));
+      m.src = m.dataset.src!;
+    });
+  }, { rootMargin: '0px 0px -15% 0px' });
+  carga.observe(fotos);
 
   const mostrar = (n: number) => {
     actual = (n + urls.length) % urls.length;
@@ -40,15 +58,14 @@ if (fotos) {
 
   grande.addEventListener('load', () => visor.classList.remove('cargando'));
   grande.addEventListener('error', () => {
-    urls.splice(actual, 1);
-    if (urls.length) { mostrar(actual); return; }
-    visor.close();
-    abrir.remove();
-    fotos.querySelector('.ref')!.textContent = 'No se han podido cargar las fotos. Puedes verlas en la fuente oficial.';
+    quitar(urls[actual]);
+    if (urls.length) mostrar(actual);
   });
-  abrir.addEventListener('click', (e) => {
+  fotos.querySelector('.fotos')!.addEventListener('click', (e) => {
+    const enlace = (e.target as Element).closest('a');
+    if (!enlace) return;
     e.preventDefault();
-    mostrar(0);
+    mostrar(urls.indexOf(enlace.href));
     visor.showModal();
   });
   visor.addEventListener('click', (e) => {
