@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Ford"
    ],
    "modelos": [
-    "e13*2018/858*00648*04-*05",
-    "e13*2018/858*00649*04-*05 (N1P",
-    "N3P)"
+    "e13*2018/858*00648*04-*05, e13*2018/858*00649*04-*05 (N1P, N3P)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.09.2025 - 24.11.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "01.09.2025 - 24.11.2025"
+   "fechasTexto": "01.09.2025 - 24.11.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Rumanía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,17 +102,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01577/26",
-   "mm:ford:e13-2018-858-00648-04-05",
-   "mm:ford:e13-2018-858-00649-04-05-n1p",
-   "mm:ford:n3p"
+   "mm:ford:e13-2018-858-00648-04-05-e13-2018-858-00649-04-05-n1p-n3p",
+   "ml:ford:01-09-2025-24-11-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7325e37b856aace5"
+  "enriquecido": true,
+  "hashContenido": "6a132510e247aaa7"
  },
  "slug": "furgoneta-de-pasajeros-ford-safety-gate-10099109"
 }

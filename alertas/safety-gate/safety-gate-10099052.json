@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete suave rojo, azul, amarillo y verde en forma de pollo. Producto vendido en línea, en particular a través de TEMU (identificador único: 601103044348341).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico"
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "136f86110c8cce52"
+  "enriquecido": true,
+  "hashContenido": "df4d1f686245b1d3"
  },
  "slug": "juguete-suave-peluche-de-poulet-douce-safety-gate-10099052"
 }

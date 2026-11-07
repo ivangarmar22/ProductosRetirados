@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-12"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,17 +27,23 @@
     "Krpan"
    ],
    "modelos": [
-    "ED",
-    "DH"
+    "ED, DH"
    ],
    "lotes": [
     {
-     "numero": "300025584 300025589 300025590"
+     "numero": "300025584"
+    },
+    {
+     "numero": "300025589"
+    },
+    {
+     "numero": "300025590"
     }
    ],
    "ean": [],
    "descripcion": "Caja de control del juego del cable para el cabrestante.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje"
   }
  ],
  "riesgo": {
@@ -67,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": "Eslovenia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +95,18 @@
  "dedup": {
   "claves": [
    "ref:SR/01609/26",
-   "ml:krpan:300025584-300025589-300025590"
+   "mm:krpan:ed-dh",
+   "ml:krpan:300025584",
+   "ml:krpan:300025589",
+   "ml:krpan:300025590"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9dd30d5a83341171"
+  "enriquecido": true,
+  "hashContenido": "892a46448df06e78"
  },
  "slug": "consola-de-control-para-tornos-krpan-safety-gate-10099111"
 }

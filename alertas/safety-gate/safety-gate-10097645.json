@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-04"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Secador de pelo plegable. Producto vendido en línea, en particular a través de AliExpress (identificador único: 1005007970750858).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -65,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5f090de6e2d6f448"
+  "enriquecido": true,
+  "hashContenido": "1ffc54162388ad85"
  },
  "slug": "secador-de-pelo-small-caring-hair-dryer-safety-gate-10097645"
 }

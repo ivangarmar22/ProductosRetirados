@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "30654193065573"
+     "numero": "3065419"
+    },
+    {
+     "numero": "3065573"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "0200030654192"
    ],
    "descripcion": "Juguete suave en forma de conejo en colores rosa y azul. Producto vendido en línea, en particular a través de flyingtiger.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +77,10 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,15 +112,16 @@
    "ean:00200030655731",
    "ean:0200030654192",
    "mm:flying-tiger-copenhagen:3065419-3065573",
-   "ml:flying-tiger-copenhagen:30654193065573"
+   "ml:flying-tiger-copenhagen:3065419",
+   "ml:flying-tiger-copenhagen:3065573"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ffa9a6490fdc6725"
+  "enriquecido": true,
+  "hashContenido": "7db1a9d9883d2585"
  },
  "slug": "juguete-suave-flying-tiger-copenhagen-safety-gate-10098923"
 }

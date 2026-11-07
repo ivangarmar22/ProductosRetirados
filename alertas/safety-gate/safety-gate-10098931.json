@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-17"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "200030729067"
    ],
    "descripcion": "Juguete de plástico de cuerda.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -110,11 +113,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5667ec07e45a1755"
+  "enriquecido": true,
+  "hashContenido": "efcfe1fcf71597be"
  },
  "slug": "juguete-de-plastico-flying-tiger-copenhagen-safety-gate-10098931"
 }

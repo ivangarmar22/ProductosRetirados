@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0530*24 e2*2007/46*0531*31"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.06.2025 – 22.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero. // VIN: VF7VNFC17RU361062 – VF7VPFC34TU392489.",
-   "fechasTexto": "06.06.2025 – 22.01.2026"
+   "fechasTexto": "06.06.2025 – 22.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "HR",
+   "HU",
+   "LU",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01581/26",
-   "mm:citroen:e2-2007-46-0530-24-e2-2007-46-0531-31"
+   "mm:citroen:e2-2007-46-0530-24-e2-2007-46-0531-31",
+   "ml:citroen:06-06-2025-22-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "009db3164d903be9"
+  "enriquecido": true,
+  "hashContenido": "ad37fa2ad052490e"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-citroen-safety-gate-10099160"
 }

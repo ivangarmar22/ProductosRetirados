@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-16"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -31,9 +31,12 @@
     "S018"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "8595614928861"
+   ],
    "descripcion": "Destornillador inalámbrico que funciona con una batería de iones de litio incorporada de 3.6V, que se puede cargar con el adaptador de fuente de alimentación proporcionado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -106,16 +109,17 @@
  "dedup": {
   "claves": [
    "ref:OR/00074/26",
+   "ean:8595614928861",
    "mm:hecht:1240",
    "mm:hecht:s018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f56927b1ae7cbff7"
+  "enriquecido": true,
+  "hashContenido": "a303cfa3fa85ecf8"
  },
  "slug": "destornillador-inalambrico-hecht-safety-gate-10099221"
 }

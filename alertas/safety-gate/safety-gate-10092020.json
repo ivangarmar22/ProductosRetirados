@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -40,10 +40,15 @@
     "YF8",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.06.2020 - 01.03.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.06.2020 - 01.03.2021"
+   "fechasTexto": "01.06.2020 - 01.03.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +78,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -127,15 +134,16 @@
    "mm:honda:rw2",
    "mm:honda:yf6",
    "mm:honda:yf8",
-   "mm:honda:individual-approval"
+   "mm:honda:individual-approval",
+   "ml:honda:01-06-2020-01-03-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9461ea09931278c4"
+  "enriquecido": true,
+  "hashContenido": "813540b568c48718"
  },
  "slug": "coche-de-pasajeros-honda-safety-gate-10092020"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,30 @@
    ],
    "lotes": [
     {
-     "numero": "45000693314500077527450008745445000989084500105820AF018493"
+     "numero": "4500069331"
+    },
+    {
+     "numero": "4500077527"
+    },
+    {
+     "numero": "4500087454"
+    },
+    {
+     "numero": "4500098908"
+    },
+    {
+     "numero": "4500105820"
+    },
+    {
+     "numero": "AF018493"
     }
    ],
    "ean": [
     "8422971870345"
    ],
    "descripcion": "Vestido elegante en forma de extraterrestre verde con partes rellenas, destinado a niños pequeños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Percha de cartón."
   }
  ],
  "riesgo": {
@@ -86,7 +102,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -125,15 +144,20 @@
    "ref:SR/01513/26",
    "ean:8422971870345",
    "mm:rubies:s8703",
-   "ml:rubies:45000693314500077527450008745445000989084500105820af018493"
+   "ml:rubies:4500069331",
+   "ml:rubies:4500077527",
+   "ml:rubies:4500087454",
+   "ml:rubies:4500098908",
+   "ml:rubies:4500105820",
+   "ml:rubies:af018493"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fbe2ed6323b5b27d"
+  "enriquecido": true,
+  "hashContenido": "4189428bb8d13692"
  },
  "slug": "vestido-de-fantasia-rubies-safety-gate-10098978"
 }

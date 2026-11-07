@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-04"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete de baño eléctrico. El juguete se puede usar para extraer agua del baño y rociarla sobre el niño a través de un cabezal de ducha en forma de jirafa. Las tres ventosas se suministran desmontadas y sueltas. Productos vendidos en línea, en particular a través de AliExpress (identificador único del producto: 1005007202020136) y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0804f3ff0c9f4644"
+  "enriquecido": true,
+  "hashContenido": "8bbfbc9b723be81e"
  },
  "slug": "juguete-de-bano-jouets-de-bain-pour-enfants-artefact-de-jeu-d-eau-elec-safety-gate-10098461"
 }

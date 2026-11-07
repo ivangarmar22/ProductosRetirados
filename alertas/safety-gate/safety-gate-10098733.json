@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6972802455613"
    ],
    "descripcion": "Alisador de cabello. Producto vendido en línea, en particular a través de Temu (identificador del producto: 601099519143476), Amazon y eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -74,7 +75,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d2a04503d69fda72"
+  "enriquecido": true,
+  "hashContenido": "94cbc7c7f6448af7"
  },
  "slug": "alisador-de-cabello-crast-safety-gate-10098733"
 }

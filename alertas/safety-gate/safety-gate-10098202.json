@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-01"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Proyector de luz led, potencia de 36 W, con 12 luces led UV 8. Producto vendido en línea, en particular a través de Shein y Ebay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dbe0a3be1f37a576"
+  "enriquecido": true,
+  "hashContenido": "9a102c3ac63936c8"
  },
  "slug": "proyector-de-luz-led-sebruanc-safety-gate-10098202"
 }

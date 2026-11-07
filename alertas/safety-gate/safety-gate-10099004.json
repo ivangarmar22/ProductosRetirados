@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2001/116*0413*48 (451)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.11.2022 - 04.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "17.11.2022 - 04.12.2025"
+   "fechasTexto": "17.11.2022 - 04.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01579/26",
-   "mm:smart:e1-2001-116-0413-48-451"
+   "mm:smart:e1-2001-116-0413-48-451",
+   "ml:smart:17-11-2022-04-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb14d9fa911ce21a"
+  "enriquecido": true,
+  "hashContenido": "d106693923294a10"
  },
  "slug": "coche-de-pasajeros-smart-safety-gate-10099004"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-15"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete de plástico accionado por batería en forma de pato. El juguete baila, emite música e ilumina con ledes multicolores.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "82c7ad71ed238d3f"
+  "enriquecido": true,
+  "hashContenido": "6c6011c2cca9b59b"
  },
  "slug": "juguete-de-plastico-dancing-duck-canard-jouet-dansanr-avec-lumieres-cl-safety-gate-10099246"
 }

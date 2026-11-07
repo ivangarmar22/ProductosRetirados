@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "6941848255204"
    ],
    "descripcion": "Juguete suave en forma de monstruo parecido a Labubu.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -76,7 +77,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -121,11 +125,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "554f444484805862"
+  "enriquecido": true,
+  "hashContenido": "c178381e13ed7743"
  },
  "slug": "juguete-suave-pop-mart-counterfeit-safety-gate-10099056"
 }

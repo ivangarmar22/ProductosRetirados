@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "VIN: ZLA31200005236762 - ZLA31200005424015",
     "e3*2007/46*0064*24*00 e3*2007/46*0064*25*00 e3*2007/46*0064*32*00 e3*2007/46*0064*33*00 e3*2007/46*0064*36*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.7.2015 - 26.7.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "21.7.2015 - 26.7.2018"
+   "fechasTexto": "21.7.2015 - 26.7.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +87,16 @@
   "claves": [
    "ref:SR/01571/26",
    "mm:lancia:vin-zla31200005236762-zla31200005424015",
-   "mm:lancia:e3-2007-46-0064-24-00-e3-2007-46-0064-25-00-e3-2007-46-0064-32-00-e3-2007-46-0064-33-00-e3-2007-46-0064-36-00"
+   "mm:lancia:e3-2007-46-0064-24-00-e3-2007-46-0064-25-00-e3-2007-46-0064-32-00-e3-2007-46-0064-33-00-e3-2007-46-0064-36-00",
+   "ml:lancia:21-7-2015-26-7-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3941d92e34057a4b"
+  "enriquecido": true,
+  "hashContenido": "36844377e24c1009"
  },
  "slug": "coche-de-pasajeros-lancia-safety-gate-10099068"
 }

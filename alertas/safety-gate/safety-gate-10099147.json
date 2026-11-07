@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Sonajero de juguete de madera con campanas metálicas, pintado en varios colores y barnizado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "98f7541cb1dd6a81"
+  "enriquecido": true,
+  "hashContenido": "5ca4c890546bac8d"
  },
  "slug": "sonajero-de-juguete-wooden-toy-safety-gate-10099147"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete de baño rojo y amarillo en forma de cangrejo, con una abertura para soplar burbujas. Producto vendido en línea, en particular a través de Shein (identificador único: sl25050839197368833).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón y bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -65,7 +66,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d35dd14862343e2b"
+  "enriquecido": true,
+  "hashContenido": "64d8d0682b042e26"
  },
  "slug": "juguete-de-bano-jouet-de-bain-machine-a-bulle-crabe-safety-gate-10099020"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Vestido de bruja negro y púrpura con brillo en el busto, con un sombrero de bruja negro decorado con una cinta de encaje púrpura. Producto vendido en línea, en particular a través de TEMU.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico"
   }
  ],
  "riesgo": {
@@ -77,7 +78,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bb4730bdcaa77243"
+  "enriquecido": true,
+  "hashContenido": "c4d3bb110bc7c876"
  },
  "slug": "disfraz-de-vestir-de-lujo-robe-de-sorciere-a-capuche-violette-avec-man-safety-gate-10097435"
 }

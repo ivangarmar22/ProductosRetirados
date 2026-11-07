@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Adaptador de fuente de alimentación.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón marrón."
   }
  ],
  "riesgo": {
@@ -61,7 +62,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6f01a80bfc7f4584"
+  "enriquecido": true,
+  "hashContenido": "c4c4d90f2e7dc7cd"
  },
  "slug": "adaptador-de-corriente-safety-gate-10099145"
 }

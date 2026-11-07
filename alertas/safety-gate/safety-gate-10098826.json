@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-06"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -36,7 +36,8 @@
     "2006201685242"
    ],
    "descripcion": "Chaqueta de cuello redondo de color blanco con cuatro botones en la parte delantera y un bolsillo en la parte inferior.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd6f71b48bb20a2d"
+  "enriquecido": true,
+  "hashContenido": "20ae2ae11fcf458a"
  },
  "slug": "chaqueta-de-los-ninos-zeeman-safety-gate-10098826"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Linterna de juguete rosa en la que se pueden insertar discos perforados (suministrados con el juguete) para proyectar una imagen (10 discos).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "31f2f7efab4534f0"
+  "enriquecido": true,
+  "hashContenido": "49f3eaabe03fb209"
  },
  "slug": "linterna-de-juguete-cartoon-flashlight-lampe-de-poche-de-projection-de-safety-gate-10099243"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Honda Motorrad"
    ],
    "modelos": [
-    "MC57",
-    "MC58",
-    "PC67",
-    "PC74",
-    "PC56",
-    "PC73",
-    "e13*168/2013*01558*00",
-    "e13*168/2013*02448*00",
-    "e13*168/2013*01526*00",
-    "e13*168/2013*02309*00",
-    "e13*168/2013*00086*03",
-    "e13*168/2013*02266*00"
+    "MC57, MC58, PC67, PC74, PC56, PC73",
+    "e13*168/2013*01558*00, e13*168/2013*02448*00, e13*168/2013*01526*00, e13*168/2013*02309*00, e13*168/2013*00086*03, e13*168/2013*02266*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.12.2022 - 31.03.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "01.12.2022 - 31.03.2025"
+   "fechasTexto": "01.12.2022 - 31.03.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,26 +108,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01580/26",
-   "mm:honda-motorrad:mc57",
-   "mm:honda-motorrad:mc58",
-   "mm:honda-motorrad:pc67",
-   "mm:honda-motorrad:pc74",
-   "mm:honda-motorrad:pc56",
-   "mm:honda-motorrad:pc73",
-   "mm:honda-motorrad:e13-168-2013-01558-00",
-   "mm:honda-motorrad:e13-168-2013-02448-00",
-   "mm:honda-motorrad:e13-168-2013-01526-00",
-   "mm:honda-motorrad:e13-168-2013-02309-00",
-   "mm:honda-motorrad:e13-168-2013-00086-03",
-   "mm:honda-motorrad:e13-168-2013-02266-00"
+   "mm:honda-motorrad:mc57-mc58-pc67-pc74-pc56-pc73",
+   "mm:honda-motorrad:e13-168-2013-01558-00-e13-168-2013-02448-00-e13-168-2013-01526-00-e13-168-2013-02309-00-e13-168-2013-00086-03-e13-168-2013-02266-00",
+   "ml:honda-motorrad:01-12-2022-31-03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "86e1efe8d18fd0fd"
+  "enriquecido": true,
+  "hashContenido": "6aecee4f972dcb8b"
  },
  "slug": "motocicleta-honda-motorrad-safety-gate-10099118"
 }

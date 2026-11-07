@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-10"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -31,13 +31,13 @@
     "LBC039420020",
     "TLE0718E2507114",
     "TLE500HYF25100225",
-    "UBILL",
-    "UBL 8008/ MS589/A"
+    "UBILL / UBL 8008/ MS589/A"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica con cargador de enchufe de pared.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -86,16 +86,15 @@
    "mm:amped:lbc039420020",
    "mm:amped:tle0718e2507114",
    "mm:amped:tle500hyf25100225",
-   "mm:amped:ubill",
-   "mm:amped:ubl-8008-ms589-a"
+   "mm:amped:ubill-ubl-8008-ms589-a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3737095b32c8d755"
+  "enriquecido": true,
+  "hashContenido": "0f8d50b61ed8bba6"
  },
  "slug": "bicicleta-electrica-amped-safety-gate-10099058"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-16"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -27,28 +27,29 @@
     "CUBE ACID"
    ],
    "modelos": [
-    "102700",
-    "102800",
-    "102810",
-    "103400",
-    "103500",
-    "103510",
-    "104020",
-    "104050",
-    "104100",
-    "104200",
-    "105200",
-    "108700",
-    "108710",
-    "112950",
-    "112951",
-    "117300",
+    "102700;",
+    "102800;",
+    "102810;",
+    "103400;",
+    "103500;",
+    "103510;",
+    "104020;",
+    "104050;",
+    "104100;",
+    "104200;",
+    "105200;",
+    "108700;",
+    "108710;",
+    "112950;",
+    "112951;",
+    "117300;",
     "177350"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Brazo de manivela (longitudes: 160 mm, 165 mm, 170 mm y 175 mm) para bicicletas híbridas CUBE del año modelo 2026",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,7 +79,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,11 +122,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0f34de4cab7d414b"
+  "enriquecido": true,
+  "hashContenido": "1ce29193f0603bb7"
  },
  "slug": "brazo-de-manivela-cube-acid-safety-gate-10098951"
 }

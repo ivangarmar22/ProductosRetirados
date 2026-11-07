@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0628*37 e2*2007/46*0628*38 e2*2007/46*0628*39 g11*2018/858*00753*02 g11*2018/858*00753*03 g11*2018/858*00753*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.10.2025 - 22.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN: VXKF4DGN2S1050500 - VXKF4DGM5T1006922.",
-   "fechasTexto": "17.10.2025 - 22.01.2026"
+   "fechasTexto": "17.10.2025 - 22.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "HU",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01683/26",
-   "mm:opel:e2-2007-46-0628-37-e2-2007-46-0628-38-e2-2007-46-0628-39-g11-2018-858-00753-02-g11-2018-858-00753-03-g11-2018-858-00753-04"
+   "mm:opel:e2-2007-46-0628-37-e2-2007-46-0628-38-e2-2007-46-0628-39-g11-2018-858-00753-02-g11-2018-858-00753-03-g11-2018-858-00753-04",
+   "ml:opel:17-10-2025-22-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bef8a60d3bf5b36b"
+  "enriquecido": true,
+  "hashContenido": "f7fbecd46d1f2e1b"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10099245"
 }

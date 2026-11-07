@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -27,20 +27,65 @@
     "Cube"
    ],
    "modelos": [
-    "Agree C:62 ONE",
-    "PRO",
-    "RACE",
-    "SLX",
-    "SLT"
+    "Agree C:62 ONE / PRO / RACE / SLX / SLT"
    ],
    "lotes": [
     {
-     "numero": "126100126150126200126210126300126400126410126500126510826100826200826210826300826400826410826500894201"
+     "numero": "126100"
+    },
+    {
+     "numero": "126150"
+    },
+    {
+     "numero": "126200"
+    },
+    {
+     "numero": "126210"
+    },
+    {
+     "numero": "126300"
+    },
+    {
+     "numero": "126400"
+    },
+    {
+     "numero": "126410"
+    },
+    {
+     "numero": "126500"
+    },
+    {
+     "numero": "126510"
+    },
+    {
+     "numero": "826100"
+    },
+    {
+     "numero": "826200"
+    },
+    {
+     "numero": "826210"
+    },
+    {
+     "numero": "826300"
+    },
+    {
+     "numero": "826400"
+    },
+    {
+     "numero": "826410"
+    },
+    {
+     "numero": "826500"
+    },
+    {
+     "numero": "894201"
     }
    ],
    "ean": [],
    "descripcion": "Bicicleta de carretera de fibra de carbono. Años modelo: 2025 y 2026, todos los tamaños y colores. Producto vendido en línea, en particular a través de Ebay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,7 +127,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IS",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,20 +150,32 @@
  "dedup": {
   "claves": [
    "ref:SR/00651/26",
-   "mm:cube:agree-c-62-one",
-   "mm:cube:pro",
-   "mm:cube:race",
-   "mm:cube:slx",
-   "mm:cube:slt",
-   "ml:cube:126100126150126200126210126300126400126410126500126510826100826200826210826300826400826410826500894201"
+   "mm:cube:agree-c-62-one-pro-race-slx-slt",
+   "ml:cube:126100",
+   "ml:cube:126150",
+   "ml:cube:126200",
+   "ml:cube:126210",
+   "ml:cube:126300",
+   "ml:cube:126400",
+   "ml:cube:126410",
+   "ml:cube:126500",
+   "ml:cube:126510",
+   "ml:cube:826100",
+   "ml:cube:826200",
+   "ml:cube:826210",
+   "ml:cube:826300",
+   "ml:cube:826400",
+   "ml:cube:826410",
+   "ml:cube:826500",
+   "ml:cube:894201"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c7aff45e37fac6fd"
+  "enriquecido": true,
+  "hashContenido": "80a87ce2470f7269"
  },
  "slug": "bicicleta-cube-safety-gate-10098030"
 }

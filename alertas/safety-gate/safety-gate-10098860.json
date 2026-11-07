@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-15"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje, 30 ml. Fecha de máxima durabilidad: 14 de mayo de 2027. Producto vendido en línea, en particular a través de Amazon y killerinktattoo.de.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con tapa transparente."
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "DE",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "114aca8eb8419608"
+  "enriquecido": true,
+  "hashContenido": "49d9d24a25bbafe1"
  },
  "slug": "tinta-de-tatuaje-world-famous-tattoo-ink-safety-gate-10098860"
 }

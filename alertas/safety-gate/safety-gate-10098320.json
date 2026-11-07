@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Picadora eléctrica. Producto vendido en línea, en particular a través de Shein (identificador único del producto: sv5020521285019646) y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "81439c1051ebb276"
+  "enriquecido": true,
+  "hashContenido": "ef03d541d77885f8"
  },
  "slug": "mincer-electrico-pancerka-safety-gate-10098320"
 }

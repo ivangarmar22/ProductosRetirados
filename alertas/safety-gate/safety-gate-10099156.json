@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Bmw"
    ],
    "modelos": [
-    "e1*2002/24*0627* (C1EV)",
-    "e1*168/2013*00041* (3CEV)",
-    "e1*168/2013*00042* (3CEV)"
+    "e1*2002/24*0627* (C1EV), e1*168/2013*00041* (3CEV), e1*168/2013*00042* (3CEV)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.03.2014 - 26.08.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "25.03.2014 - 26.08.2020"
+   "fechasTexto": "25.03.2014 - 26.08.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,17 +90,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01648/26",
-   "mm:bmw:e1-2002-24-0627-c1ev",
-   "mm:bmw:e1-168-2013-00041-3cev",
-   "mm:bmw:e1-168-2013-00042-3cev"
+   "mm:bmw:e1-2002-24-0627-c1ev-e1-168-2013-00041-3cev-e1-168-2013-00042-3cev",
+   "ml:bmw:25-03-2014-26-08-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "36797bb60c90a3c1"
+  "enriquecido": true,
+  "hashContenido": "1803748ba733dc20"
  },
  "slug": "motocicleta-bmw-safety-gate-10099156"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete suave beige en forma de perro sentado con un lazo rojo alrededor del cuello.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2995dd47368c411b"
+  "enriquecido": true,
+  "hashContenido": "0c2ef0dfbe21a7f1"
  },
  "slug": "juguete-suave-peluche-de-beagle-safety-gate-10099085"
 }

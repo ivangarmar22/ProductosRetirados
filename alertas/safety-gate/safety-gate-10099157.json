@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5908231301222"
    ],
    "descripcion": "Cable de extensión, 5 m de largo con 4 tomas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0a03d8b9ecd2d442"
+  "enriquecido": true,
+  "hashContenido": "ebd690a8d820d3cc"
  },
  "slug": "plomo-de-extension-gtv-safety-gate-10099157"
 }

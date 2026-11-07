@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-11"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,9 +34,12 @@
      "numero": "ELP039055"
     }
    ],
-   "ean": [],
+   "ean": [
+    "4895261107072"
+   ],
    "descripcion": "Cartucho de repuesto para cigarrillos electrónicos, 10 ml. Fecha de consumo preferente: 2027/02/14.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con una imagen del producto y una etiqueta con un código QR."
   }
  ],
  "riesgo": {
@@ -85,16 +88,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01662/26",
+   "ean:4895261107072",
    "mm:elfliq:blueberry-raspberry-pomegranate",
    "ml:elfliq:elp039055"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3ba219dede767702"
+  "enriquecido": true,
+  "hashContenido": "abf154dd8115a48d"
  },
  "slug": "cartucho-de-cigarrillo-electronico-elfliq-safety-gate-10099192"
 }

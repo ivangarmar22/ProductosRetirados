@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-12"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Portabebés de tela. Producto vendido en línea, en particular a través de Amazon (ASIN: B0CPHNZDDX).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -74,7 +75,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c4e6588d850944bc"
+  "enriquecido": true,
+  "hashContenido": "03d3190a52287135"
  },
  "slug": "portabebes-aolso-safety-gate-10098765"
 }

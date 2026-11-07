@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "LOT2447TPC4258"
+     "numero": "LOT2447"
+    },
+    {
+     "numero": "TPC4258"
     }
    ],
    "ean": [
     "8053735018170"
    ],
    "descripcion": "Juguete de madera en forma de tren con una locomotora, 2 vagones y una figura de conejo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +77,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,15 +107,16 @@
    "ref:SR/01639/26",
    "ean:8053735018170",
    "mm:wood-n-play:942112",
-   "ml:wood-n-play:lot2447tpc4258"
+   "ml:wood-n-play:lot2447",
+   "ml:wood-n-play:tpc4258"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bc2b9f4de2cd8dce"
+  "enriquecido": true,
+  "hashContenido": "ea3ff9e523aaea16"
  },
  "slug": "juguete-de-madera-wood-n-play-safety-gate-10099122"
 }

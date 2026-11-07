@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Enchufe plegable con tres tomas de corriente",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00acd952581063eb"
+  "enriquecido": true,
+  "hashContenido": "81d2fd49067b01bf"
  },
  "slug": "zocalo-plegable-vriduttag-safety-gate-10099099"
 }

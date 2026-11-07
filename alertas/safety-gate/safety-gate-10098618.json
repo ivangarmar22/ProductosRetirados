@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-29"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "2509260589471"
    ],
    "descripcion": "Rociar juguetes de baño en forma de animales (raza, jirafa y elefante), que se fijarán a la pared de la bañera. Tres ventosas se suministran sin montar y sueltas. Producto vendido en línea, en particular a través de Shein (identificador único: sa25062793757238553) y eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "18be41b9a7d22f5c"
+  "enriquecido": true,
+  "hashContenido": "611c690d27cba88a"
  },
  "slug": "juguete-de-bano-jouet-de-baignoire-a-pulverisation-interactive-pour-no-safety-gate-10098618"
 }

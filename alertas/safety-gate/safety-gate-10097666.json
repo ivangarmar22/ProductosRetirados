@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-01"
  },
  "categoria": {
   "literal": "Guirnaldas luminosas",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cadena de iluminación con 40 luces led. Producto vendido en línea, en particular a través de Shein (identificador único: sj25032132433374416), Ebay y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "554bd6f19960325d"
+  "enriquecido": true,
+  "hashContenido": "49c8351d15013cbf"
  },
  "slug": "cadena-de-iluminacion-safety-gate-10097666"
 }

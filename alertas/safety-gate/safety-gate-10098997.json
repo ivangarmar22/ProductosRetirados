@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-08"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5905316141421"
    ],
    "descripcion": "Auriculares inalámbricos, con chasis de polímero negro y batería recargable integrada. Producto vendido en línea, en particular a través de www.bestmarkt.hu.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f55c3ec1c713a507"
+  "enriquecido": true,
+  "hashContenido": "130f729ff1071342"
  },
  "slug": "auriculares-inalambricos-blitzwolf-safety-gate-10098997"
 }

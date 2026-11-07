@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,49 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "EY26KIDEY27KIDEY28KIDEY29KIDEY30KIDEY32KIDEY33KIDEY34KIDPY29KIDPY30KIDPY31KIDY515KIDY516KID"
+     "numero": "EY26KID"
+    },
+    {
+     "numero": "EY27KID"
+    },
+    {
+     "numero": "EY28KID"
+    },
+    {
+     "numero": "EY29KID"
+    },
+    {
+     "numero": "EY30KID"
+    },
+    {
+     "numero": "EY32KID"
+    },
+    {
+     "numero": "EY33KID"
+    },
+    {
+     "numero": "EY34KID"
+    },
+    {
+     "numero": "PY29KID"
+    },
+    {
+     "numero": "PY30KID"
+    },
+    {
+     "numero": "PY31KID"
+    },
+    {
+     "numero": "Y515KID"
+    },
+    {
+     "numero": "Y516KID"
     }
    ],
    "ean": [],
    "descripcion": "Agua de toilette, 15 ml y 125 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor blanco o transparente con tapa azul o gris en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +105,10 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +137,27 @@
  "dedup": {
   "claves": [
    "ref:SR/01635/26",
-   "ml:yodeyma:ey26kidey27kidey28kidey29kidey30kidey32kidey33kidey34kidpy29kidpy30kidpy31kidy515kidy516kid"
+   "ml:yodeyma:ey26kid",
+   "ml:yodeyma:ey27kid",
+   "ml:yodeyma:ey28kid",
+   "ml:yodeyma:ey29kid",
+   "ml:yodeyma:ey30kid",
+   "ml:yodeyma:ey32kid",
+   "ml:yodeyma:ey33kid",
+   "ml:yodeyma:ey34kid",
+   "ml:yodeyma:py29kid",
+   "ml:yodeyma:py30kid",
+   "ml:yodeyma:py31kid",
+   "ml:yodeyma:y515kid",
+   "ml:yodeyma:y516kid"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "71121c619a369f04"
+  "enriquecido": true,
+  "hashContenido": "a27d9caac4b7abc5"
  },
  "slug": "agua-de-toilette-yodeyma-safety-gate-10099119"
 }

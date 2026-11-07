@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*KS07/46*0005*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.1.2006-30.6.2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2.1.2006-30.6.2015"
+   "fechasTexto": "2.1.2006-30.6.2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FR",
+   "HR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +101,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01725/26",
-   "mm:alpina:e1-ks07-46-0005"
+   "mm:alpina:e1-ks07-46-0005",
+   "ml:alpina:2-1-2006-30-6-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30d85104d13344b6"
+  "enriquecido": true,
+  "hashContenido": "c15916dee47c7a8e"
  },
  "slug": "coche-de-pasajeros-alpina-safety-gate-10099219"
 }

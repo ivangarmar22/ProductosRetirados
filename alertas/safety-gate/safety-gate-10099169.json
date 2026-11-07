@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2018/858*00075*01 e2*2018/858*00075*02 e2*2018/858*00075*03 e2*2018/858*00075*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.02.2025 - 09.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "El camión.",
-   "fechasTexto": "10.02.2025 - 09.01.2026"
+   "fechasTexto": "10.02.2025 - 09.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01647/26",
-   "mm:renault:e2-2018-858-00075-01-e2-2018-858-00075-02-e2-2018-858-00075-03-e2-2018-858-00075-04"
+   "mm:renault:e2-2018-858-00075-01-e2-2018-858-00075-02-e2-2018-858-00075-03-e2-2018-858-00075-04",
+   "ml:renault:10-02-2025-09-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2400ede35d9b79eb"
+  "enriquecido": true,
+  "hashContenido": "363475f336719c69"
  },
  "slug": "camion-renault-safety-gate-10099169"
 }

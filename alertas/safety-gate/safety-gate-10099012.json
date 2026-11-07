@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0597*27 e2*2007/46*0597*28"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.05.2023 - 08.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN: W0VZCYHZ5P6018524 - W0VZ45GY8R6001157.",
-   "fechasTexto": "15.05.2023 - 08.09.2023"
+   "fechasTexto": "15.05.2023 - 08.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01575/26",
-   "mm:opel-vauxhall:e2-2007-46-0597-27-e2-2007-46-0597-28"
+   "mm:opel-vauxhall:e2-2007-46-0597-27-e2-2007-46-0597-28",
+   "ml:opel-vauxhall:15-05-2023-08-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0f242b60f04bad4b"
+  "enriquecido": true,
+  "hashContenido": "8a413323ea31b94a"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10099012"
 }

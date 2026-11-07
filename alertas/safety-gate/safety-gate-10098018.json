@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Vestido de fantasía de Caperucita Roja que consta de una diadema roja, una bolsa en forma de calabaza, un delantal blanco, un vestido blanco, negro y rojo y una capa con capucha roja. Producto vendido en línea, en particular a través de TikTok y eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a3bcb1c78bc4affd"
+  "enriquecido": true,
+  "hashContenido": "a6d58f3bc8e9d37c"
  },
  "slug": "vestido-de-fantasia-halloween-costume-for-girls-children-s-party-dress-safety-gate-10098018"
 }

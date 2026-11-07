@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
     "7897042012312"
    ],
    "descripcion": "Producto para el cuidado del cabello, 1000 g. Todos los lotes están afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Olla de plástico opaco azul con una tapa de tornillo negro."
   }
  ],
  "riesgo": {
@@ -75,7 +76,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Brasil",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2df665d7b381a1c9"
+  "enriquecido": true,
+  "hashContenido": "4f724e3419396585"
  },
  "slug": "producto-para-el-cuidado-del-cabello-skala-safety-gate-10096307"
 }

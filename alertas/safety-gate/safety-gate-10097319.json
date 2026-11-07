@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,7 +35,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete suave luminoso accionado por batería en forma de perro rosa. Producto vendido en línea, en particular a través de Amazon y https://vm.tiktok.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -73,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "545d71ca59cc3afc"
+  "enriquecido": true,
+  "hashContenido": "b617d699bf97b952"
  },
  "slug": "juguete-suave-safety-gate-10097319"
 }

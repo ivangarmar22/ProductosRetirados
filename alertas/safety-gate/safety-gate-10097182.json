@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-01"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
     "5063019786919"
    ],
    "descripcion": "Anorak, azul marino / rojo / azul cielo, sujetado en la parte delantera con un cierre de cremallera rojo y blanco, una capucha no desmontable, dos bolsillos laterales con cierres de cremallera azul cielo, mangas con puños elásticos y dos bolsillos internos. La prenda está hecha de tela acolchada. Fecha de fabricación: 12/2023. Producto vendido en línea, en particular a través de www.laredoute.fr",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +78,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Bangladés",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "124b7e4669f27874"
+  "enriquecido": true,
+  "hashContenido": "09b851ce4666b281"
  },
  "slug": "anorak-regatta-great-outdoor-safety-gate-10097182"
 }
