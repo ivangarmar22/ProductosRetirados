@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-27"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    ],
    "ean": [],
    "descripcion": "Libro de juguetes de tela de 14 páginas, portada con cuatro nubes, un sol y un arco iris. Producto vendido en línea, en particular a través de Amazon (ASIN: B0F28VYHBV, B0CSFYS7M2).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -116,11 +119,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0f00896151d9fb27"
+  "enriquecido": true,
+  "hashContenido": "43b69f4758a4c67f"
  },
  "slug": "libro-de-juguete-de-tela-gagatoy-quiet-book-safety-gate-10098654"
 }

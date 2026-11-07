@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2018/858*00522* (H-2018-858)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2018 - 01.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "01.01.2018 - 01.05.2026"
+   "fechasTexto": "01.01.2018 - 01.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02120/26",
-   "mm:lmc:e13-2018-858-00522-h-2018-858"
+   "mm:lmc:e13-2018-858-00522-h-2018-858",
+   "ml:lmc:01-01-2018-01-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4df4570722072374"
+  "enriquecido": true,
+  "hashContenido": "0912dcb4df8a0e0c"
  },
  "slug": "camioneta-de-camper-lmc-safety-gate-10118315"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
     "6970392320311"
    ],
    "descripcion": "Pegamento, anunciado como fuerte, 50g.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Dos cajas de cartón embaladas en una bolsa de plástico, cada una conteniendo una botella de pegamento."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "846be2da7b6905de"
+  "enriquecido": true,
+  "hashContenido": "cf43bd43081aa659"
  },
  "slug": "pegamento-ao-de-gu-safety-gate-10118414"
 }

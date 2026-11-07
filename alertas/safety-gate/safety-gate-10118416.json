@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Corigon"
    ],
    "modelos": [
-    "CA",
-    "WF",
-    "e13*2007/46*1574*",
-    "e13*2018/858*00269*10"
+    "CA, WF",
+    "e13*2007/46*1574*, e13*2018/858*00269*10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2018 - 01.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "01.01.2018 - 01.05.2026"
+   "fechasTexto": "01.01.2018 - 01.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,16 +92,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02128/26",
-   "mm:corigon:e13-2007-46-1574",
-   "mm:corigon:e13-2018-858-00269-10"
+   "mm:corigon:ca-wf",
+   "mm:corigon:e13-2007-46-1574-e13-2018-858-00269-10",
+   "ml:corigon:01-01-2018-01-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2d472dfb1444096d"
+  "enriquecido": true,
+  "hashContenido": "05a14103684d915e"
  },
  "slug": "camioneta-de-camper-corigon-safety-gate-10118416"
 }

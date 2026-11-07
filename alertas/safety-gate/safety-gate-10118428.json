@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Adria"
    ],
    "modelos": [
-    "e1*2007/46*0767*15-17",
-    "e1*2007/46*1610*05",
-    "e1*2007/46*1694*05",
-    "e13*2007/46*1201*10-32",
-    "e13*2007/46*2159*00-07",
-    "e13*2007/46*2183*00-07",
-    "e13*2007/46*2184*00-14",
-    "e13*2018/858*00508*00-14",
-    "e13*2018/858*00688*00",
-    "e13*2018/858*00916*00-04"
+    "e1*2007/46*0767*15-17, e1*2007/46*1610*05, e1*2007/46*1694*05, e13*2007/46*1201*10-32, e13*2007/46*2159*00-07, e13*2007/46*2183*00-07, e13*2007/46*2184*00-14, e13*2018/858*00508*00-14,",
+    "e13*2018/858*00688*00, e13*2018/858*00916*00-04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.07.2018 - 28.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "31.07.2018 - 28.05.2026"
+   "fechasTexto": "31.07.2018 - 28.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Eslovenia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "NO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,24 +103,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02145/26",
-   "mm:adria:e1-2007-46-0767-15-17",
-   "mm:adria:e1-2007-46-1610-05",
-   "mm:adria:e1-2007-46-1694-05",
-   "mm:adria:e13-2007-46-1201-10-32",
-   "mm:adria:e13-2007-46-2159-00-07",
-   "mm:adria:e13-2007-46-2183-00-07",
-   "mm:adria:e13-2007-46-2184-00-14",
-   "mm:adria:e13-2018-858-00508-00-14",
-   "mm:adria:e13-2018-858-00688-00",
-   "mm:adria:e13-2018-858-00916-00-04"
+   "mm:adria:e1-2007-46-0767-15-17-e1-2007-46-1610-05-e1-2007-46-1694-05-e13-2007-46-1201-10-32-e13-2007-46-2159-00-07-e13-2007-46-2183-00-07-e13-2007-46-2184-00-14-e13-2018-858-00508-00-14",
+   "mm:adria:e13-2018-858-00688-00-e13-2018-858-00916-00-04",
+   "ml:adria:31-07-2018-28-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ca1b2d46b53c350b"
+  "enriquecido": true,
+  "hashContenido": "1e9f534bd4c26db2"
  },
  "slug": "camioneta-de-camper-adria-safety-gate-10118428"
 }

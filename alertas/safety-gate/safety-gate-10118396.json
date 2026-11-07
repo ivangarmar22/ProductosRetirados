@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-13"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5907451317969"
    ],
    "descripcion": "Adaptador de viaje, con dimensiones: aproximadamente 5,1 x 4 x 7,5 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón: aproximadamente 7 x 5 x 8 cm."
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +113,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b1da7a7fbc1b4c77"
+  "enriquecido": true,
+  "hashContenido": "1d39926937e2e91e"
  },
  "slug": "adaptador-de-viaje-racel-safety-gate-10118396"
 }

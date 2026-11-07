@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete de bebé con cuerdas de silicona.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d3af63e28d584daa"
+  "enriquecido": true,
+  "hashContenido": "5da8f32c704de528"
  },
  "slug": "juguete-de-bebe-safety-gate-10099516"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*2033* (E1)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.03.2026 - 29.04.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "19.03.2026 - 29.04.2026"
+   "fechasTexto": "19.03.2026 - 29.04.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02178/26",
-   "mm:vw:e1-2007-46-2033-e1"
+   "mm:vw:e1-2007-46-2033-e1",
+   "ml:vw:19-03-2026-29-04-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bf807622484fc2f0"
+  "enriquecido": true,
+  "hashContenido": "210239d84c3e59c7"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10118450"
 }

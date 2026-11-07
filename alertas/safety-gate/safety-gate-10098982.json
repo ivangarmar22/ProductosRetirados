@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "4053743392488"
    ],
    "descripcion": "Henna en polvo permanente colorante para el cabello negro, 60g.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,11 +115,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bdca89af0dec0c98"
+  "enriquecido": true,
+  "hashContenido": "e1bc0375b4ebf8b8"
  },
  "slug": "tinte-para-el-cabello-profixorganics-safety-gate-10098982"
 }

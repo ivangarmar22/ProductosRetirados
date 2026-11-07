@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -28,24 +28,25 @@
    ],
    "modelos": [
     "CRAFTY CARBON RR S",
-    "CRAFTY CARBON RR SL",
-    "CRAFTY CARBON UNLIMITED GULF",
-    "CRAFTY CARBON UNLIMITED ICON",
-    "CRAFTY CARBON XR",
-    "DUNE CARBON XR",
-    "FOXY CARBON RR",
-    "LEVEL XR",
+    "CRAFTY CARBON RR SL,",
+    "CRAFTY CARBON UNLIMITED GULF,",
+    "CRAFTY CARBON UNLIMITED ICON,",
+    "CRAFTY CARBON XR,",
+    "DUNE CARBON XR,",
+    "FOXY CARBON RR,",
+    "LEVEL XR,",
     "NEAT RR",
-    "NEAT RR SL",
-    "RAZE CARBON RR",
-    "ZENDIT RR S",
-    "ZENDIT RR",
-    "ZENDIT XR"
+    "NEAT RR SL,",
+    "RAZE CARBON RR.",
+    "ZENDIT RR S,",
+    "ZENDIT RR,",
+    "ZENDIT XR,"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicletas equipadas con manillar Onoff de carbono, modelo S9",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +76,11 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "Taiwán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -120,11 +125,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "88cde70e496c9249"
+  "enriquecido": true,
+  "hashContenido": "efbfda2fe1ce5725"
  },
  "slug": "bicicleta-mondraker-safety-gate-10118423"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -30,7 +30,8 @@
     "3393503737021"
    ],
    "descripcion": "Asiento de natación con aberturas para las piernas compuesto por un fideo de natación y una red, destinado a niños pequeños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4fe643c6bc382ee8"
+  "enriquecido": true,
+  "hashContenido": "510a8cba63cb1515"
  },
  "slug": "asiento-de-natacion-safety-gate-10099542"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Bürstner"
    ],
    "modelos": [
-    "6020",
-    "5020",
-    "4020",
-    "e1*2018/858*00193*",
-    "e1*2007/46*1742*",
-    "e1*2007/46*1021*"
+    "6020, 5020, 4020",
+    "e1*2018/858*00193*, e1*2007/46*1742*, e1*2007/46*1021*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2018 - 01.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "01.01.2018 - 01.05.2026"
+   "fechasTexto": "01.01.2018 - 01.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,20 +98,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02124/26",
-   "mm:burstner:6020",
-   "mm:burstner:5020",
-   "mm:burstner:4020",
-   "mm:burstner:e1-2018-858-00193",
-   "mm:burstner:e1-2007-46-1742",
-   "mm:burstner:e1-2007-46-1021"
+   "mm:burstner:6020-5020-4020",
+   "mm:burstner:e1-2018-858-00193-e1-2007-46-1742-e1-2007-46-1021",
+   "ml:burstner:01-01-2018-01-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b7c3b41428112473"
+  "enriquecido": true,
+  "hashContenido": "a45b7f8e10d3cc05"
  },
  "slug": "camioneta-de-camper-burstner-safety-gate-10118400"
 }

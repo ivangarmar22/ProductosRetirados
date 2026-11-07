@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "8713219473733"
    ],
    "descripcion": "Juguete de plástico elástico en forma de ratón, relleno de arena.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente."
   }
  ],
  "riesgo": {
@@ -70,7 +71,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "NL",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +120,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7c1cb280a1a5182f"
+  "enriquecido": true,
+  "hashContenido": "27a3b8f411643bd1"
  },
  "slug": "juguete-relleno-de-arena-safety-gate-10118593"
 }

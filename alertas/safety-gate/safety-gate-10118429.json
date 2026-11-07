@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Sun Living"
    ],
    "modelos": [
-    "e13*2007/46*1201*25-*30",
-    "e13*2007/46*2159*03-*07",
-    "e13*2007/46*2183*02-*07",
-    "e13*2018/858*00660*00-*05"
+    "e13*2007/46*1201*25-*30, e13*2007/46*2159*03-*07, e13*2007/46*2183*02-*07, e13*2018/858*00660*00-*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.07.2018 - 28.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "31.07.2018 - 28.05.2026"
+   "fechasTexto": "31.07.2018 - 28.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Eslovenia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,18 +97,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02146/26",
-   "mm:sun-living:e13-2007-46-1201-25-30",
-   "mm:sun-living:e13-2007-46-2159-03-07",
-   "mm:sun-living:e13-2007-46-2183-02-07",
-   "mm:sun-living:e13-2018-858-00660-00-05"
+   "mm:sun-living:e13-2007-46-1201-25-30-e13-2007-46-2159-03-07-e13-2007-46-2183-02-07-e13-2018-858-00660-00-05",
+   "ml:sun-living:31-07-2018-28-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1c6315102e026e51"
+  "enriquecido": true,
+  "hashContenido": "352e749f4ff4f851"
  },
  "slug": "camioneta-de-camper-sun-living-safety-gate-10118429"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Iveco"
    ],
    "modelos": [
-    "IG160EG2CA",
-    "IG150EW2CA",
-    "IG190EL2CA",
-    "e3*2007/46*0192*",
-    "e3*2007/46*0194*",
-    "e3*2007/46*0199*"
+    "IG160EG2CA, IG150EW2CA, IG190EL2CA",
+    "e3*2007/46*0192*, e3*2007/46*0194*, e3*2007/46*0199*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.09.2025 - 13.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Un camión.",
-   "fechasTexto": "04.09.2025 - 13.01.2026"
+   "fechasTexto": "04.09.2025 - 13.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HR",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,20 +93,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02181/26",
-   "mm:iveco:ig160eg2ca",
-   "mm:iveco:ig150ew2ca",
-   "mm:iveco:ig190el2ca",
-   "mm:iveco:e3-2007-46-0192",
-   "mm:iveco:e3-2007-46-0194",
-   "mm:iveco:e3-2007-46-0199"
+   "mm:iveco:ig160eg2ca-ig150ew2ca-ig190el2ca",
+   "mm:iveco:e3-2007-46-0192-e3-2007-46-0194-e3-2007-46-0199",
+   "ml:iveco:04-09-2025-13-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "33ca93e148091dae"
+  "enriquecido": true,
+  "hashContenido": "c434625f32762b1a"
  },
  "slug": "camion-iveco-safety-gate-10118453"
 }

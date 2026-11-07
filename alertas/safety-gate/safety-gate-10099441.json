@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "2025 = CH335012026 = CH34194"
+     "numero": "2025 = CH33501"
+    },
+    {
+     "numero": "2026 = CH34194"
     }
    ],
    "ean": [
     "4032722964700"
    ],
    "descripcion": "Figura de juguete de dos caras con dos caras diferentes (feliz y triste), adecuada para estirar y apretar. Disponible en cuatro colores (amarillo, verde, rojo y azul). Tamaño: aproximadamente 6,5 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +91,16 @@
    "ref:SR/02108/26",
    "ean:4032722964700",
    "mm:trendhaus:964700",
-   "ml:trendhaus:2025-ch335012026-ch34194"
+   "ml:trendhaus:2025-ch33501",
+   "ml:trendhaus:2026-ch34194"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "57f03594cf6c024f"
+  "enriquecido": true,
+  "hashContenido": "ec33f5514bb466de"
  },
  "slug": "juguete-de-estatuilla-relleno-de-arena-trendhaus-safety-gate-10099441"
 }

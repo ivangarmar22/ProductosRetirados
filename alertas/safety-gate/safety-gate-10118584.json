@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "8714627012248"
    ],
    "descripcion": "Juguete de arena de plástico elástico, en forma de figura.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente y fondo de cartón impreso."
   }
  ],
  "riesgo": {
@@ -72,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "NL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e1a60ae78653747d"
+  "enriquecido": true,
+  "hashContenido": "49175345d1e72d4a"
  },
  "slug": "juguete-de-estatuilla-relleno-de-arena-toi-toys-safety-gate-10118584"
 }

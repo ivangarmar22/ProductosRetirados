@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-27"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -30,7 +30,8 @@
     "769869449343"
    ],
    "descripcion": "Fijación de corte tipo aleta con dos cadenas metálicas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "26322dfd44f5bef4"
+  "enriquecido": true,
+  "hashContenido": "f9d452446603fd9d"
  },
  "slug": "accesorio-para-cortador-de-cepillos-safety-gate-10099620"
 }

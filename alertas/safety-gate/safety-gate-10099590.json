@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,39 +27,19 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "963-0-A",
-    "963-4-A",
-    "963-2-A",
-    "963-0-C",
-    "963-4-D",
-    "963-4-C",
-    "963-0-D",
-    "963-7-E",
-    "963-4-E",
-    "963-2-E",
-    "963-8-G",
-    "963-8-H",
-    "967PKX3",
-    "967FWU3",
-    "e1*2018/858*00039*00-*10",
-    "e1*2018/858*00040*00-*10",
-    "e1*2018/858*00041*00-*10",
-    "e1*2018/858*00045*00-*11",
-    "e1*2018/858*00046*00-*10",
-    "e1*2018/858*00047*00-*10",
-    "e1*2018/858*00048*00-*10",
-    "e1*2018/858*00049*00*10",
-    "e1*2018/858*00050*00*10",
-    "e1*2018/858*00051*00-*10",
-    "e1*2018/858*00055*00-*10",
-    "e1*2018/858*00056*00-*10",
-    "e1*2018/858*00058*00*11",
-    "e1*2018/858*00062*00*10"
+    "963-0-A, 963-4-A, 963-2-A, 963-0-C, 963-4-D, 963-4-C, 963-0-D, 963-7-E, 963-4-E, 963-2-E, 963-8-G, 963-8-H, 967PKX3, 967FWU3",
+    "e1*2018/858*00039*00-*10, e1*2018/858*00040*00-*10, e1*2018/858*00041*00-*10, e1*2018/858*00045*00-*11, e1*2018/858*00046*00-*10, e1*2018/858*00047*00-*10, e1*2018/858*00048*00-*10",
+    "e1*2018/858*00049*00*10, e1*2018/858*00050*00*10, e1*2018/858*00051*00-*10, e1*2018/858*00055*00-*10, e1*2018/858*00056*00-*10, e1*2018/858*00058*00*11, e1*2018/858*00062*00*10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22/08/2025 to 28/01/2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "22/08/2025 to 28/01/2026"
+   "fechasTexto": "22/08/2025 to 28/01/2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,7 +69,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -121,42 +110,18 @@
  "dedup": {
   "claves": [
    "ref:SR/02067/26",
-   "mm:mercedes-benz:963-0-a",
-   "mm:mercedes-benz:963-4-a",
-   "mm:mercedes-benz:963-2-a",
-   "mm:mercedes-benz:963-0-c",
-   "mm:mercedes-benz:963-4-d",
-   "mm:mercedes-benz:963-4-c",
-   "mm:mercedes-benz:963-0-d",
-   "mm:mercedes-benz:963-7-e",
-   "mm:mercedes-benz:963-4-e",
-   "mm:mercedes-benz:963-2-e",
-   "mm:mercedes-benz:963-8-g",
-   "mm:mercedes-benz:963-8-h",
-   "mm:mercedes-benz:967pkx3",
-   "mm:mercedes-benz:967fwu3",
-   "mm:mercedes-benz:e1-2018-858-00039-00-10",
-   "mm:mercedes-benz:e1-2018-858-00040-00-10",
-   "mm:mercedes-benz:e1-2018-858-00041-00-10",
-   "mm:mercedes-benz:e1-2018-858-00045-00-11",
-   "mm:mercedes-benz:e1-2018-858-00046-00-10",
-   "mm:mercedes-benz:e1-2018-858-00047-00-10",
-   "mm:mercedes-benz:e1-2018-858-00048-00-10",
-   "mm:mercedes-benz:e1-2018-858-00049-00-10",
-   "mm:mercedes-benz:e1-2018-858-00050-00-10",
-   "mm:mercedes-benz:e1-2018-858-00051-00-10",
-   "mm:mercedes-benz:e1-2018-858-00055-00-10",
-   "mm:mercedes-benz:e1-2018-858-00056-00-10",
-   "mm:mercedes-benz:e1-2018-858-00058-00-11",
-   "mm:mercedes-benz:e1-2018-858-00062-00-10"
+   "mm:mercedes-benz:963-0-a-963-4-a-963-2-a-963-0-c-963-4-d-963-4-c-963-0-d-963-7-e-963-4-e-963-2-e-963-8-g-963-8-h-967pkx3-967fwu3",
+   "mm:mercedes-benz:e1-2018-858-00039-00-10-e1-2018-858-00040-00-10-e1-2018-858-00041-00-10-e1-2018-858-00045-00-11-e1-2018-858-00046-00-10-e1-2018-858-00047-00-10-e1-2018-858-00048-00-10",
+   "mm:mercedes-benz:e1-2018-858-00049-00-10-e1-2018-858-00050-00-10-e1-2018-858-00051-00-10-e1-2018-858-00055-00-10-e1-2018-858-00056-00-10-e1-2018-858-00058-00-11-e1-2018-858-00062-00-10",
+   "ml:mercedes-benz:22-08-2025-to-28-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8378059dce6cfda8"
+  "enriquecido": true,
+  "hashContenido": "92d9a73a68a8e44e"
  },
  "slug": "camion-mercedes-benz-safety-gate-10099590"
 }

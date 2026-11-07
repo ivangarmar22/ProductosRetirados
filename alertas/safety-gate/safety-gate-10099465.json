@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Punteros láser",
@@ -24,7 +24,8 @@
   {
    "nombre": "Laser Stage Lighting",
    "marcas": [
-    "(Gerimport), G"
+    "(Gerimport)",
+    "G"
    ],
    "modelos": [
     "MXS-001 (798419)"
@@ -38,7 +39,8 @@
     "8430540798419"
    ],
    "descripcion": "Proyector láser azul de aluminio.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón rojo."
   }
  ],
  "riesgo": {
@@ -120,16 +122,18 @@
   "claves": [
    "ref:SR/02049/26",
    "ean:8430540798419",
-   "mm:gerimport-g:mxs-001-798419",
-   "ml:gerimport-g:01-2022"
+   "mm:gerimport:mxs-001-798419",
+   "ml:gerimport:01-2022",
+   "mm:g:mxs-001-798419",
+   "ml:g:01-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6c6d9ff2023bcb87"
+  "enriquecido": true,
+  "hashContenido": "d20b2c80e8d0c302"
  },
  "slug": "proyector-laser-gerimport-g-safety-gate-10099465"
 }

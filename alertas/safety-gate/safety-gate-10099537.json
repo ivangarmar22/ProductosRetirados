@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -59,7 +59,8 @@
     "3608393897114"
    ],
    "descripcion": "Casco de montar para adultos y niños. Todos los modelos, todos los tamaños y colores se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -93,7 +94,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "IE",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -148,11 +156,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cf0ef92900367840"
+  "enriquecido": true,
+  "hashContenido": "2b0d1eb209ad3c64"
  },
  "slug": "casco-ecuestre-fouganza-safety-gate-10099537"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -25,13 +25,13 @@
    "nombre": "Lámpara de techo",
    "marcas": [],
    "modelos": [
-    "Ubill",
-    "UBL8008"
+    "Ubill, UBL8008"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Lámpara led montada en el techo con enchufe de pared adjunto, destinada a uso en exteriores.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -65,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2a5c203da4a40974"
+  "enriquecido": true,
+  "hashContenido": "efbdf3e7e3411fb7"
  },
  "slug": "lampara-de-techo-safety-gate-10099571"
 }

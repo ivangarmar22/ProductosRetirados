@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2018/858*00083"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.09.2025 - 07.03.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero.",
-   "fechasTexto": "29.09.2025 - 07.03.2026"
+   "fechasTexto": "29.09.2025 - 07.03.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02253/26",
-   "mm:nissan:e2-2018-858-00083"
+   "mm:nissan:e2-2018-858-00083",
+   "ml:nissan:29-09-2025-07-03-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "98772fe93610a6eb"
+  "enriquecido": true,
+  "hashContenido": "349104fe7c264560"
  },
  "slug": "vehiculo-comercial-ligero-nissan-safety-gate-10118561"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-04"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -37,9 +37,13 @@
      "numero": "ELP048166"
     }
    ],
-   "ean": [],
+   "ean": [
+    "4895242406057",
+    "4895242406071"
+   ],
    "descripcion": "Cartucho de repuesto para cigarrillos electrónicos, 30 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -100,6 +104,8 @@
  "dedup": {
   "claves": [
    "ref:SR/02173/26",
+   "ean:4895242406057",
+   "ean:4895242406071",
    "mm:elfliq:blackberry-ice",
    "mm:elfliq:blueberry",
    "mm:elfliq:blueberry-sour-raspberry",
@@ -108,11 +114,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9cc0903a5949109f"
+  "enriquecido": true,
+  "hashContenido": "9786ed48ea71d635"
  },
  "slug": "cartucho-de-cigarrillo-electronico-elfliq-safety-gate-10118497"
 }

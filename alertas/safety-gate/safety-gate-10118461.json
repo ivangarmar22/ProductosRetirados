@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-17"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,16 +27,15 @@
     "PLASTROL"
    ],
    "modelos": [
-    "PS-460_1",
-    "5 E",
-    "W-97477"
+    "PS-460_1,5 E / W-97477"
    ],
    "lotes": [],
    "ean": [
     "5902273403265"
    ],
    "descripcion": "Un cable de extensión blanco de 1,5 metros con cuatro tomas y sin interruptor de alimentación. La parte inferior de la tira del zócalo muestra el nombre comercial y la dirección del fabricante, los detalles de identificación, el marcado CE, las especificaciones técnicas y los pictogramas obligatorios.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente con una etiqueta de papel adjunta. El producto incluye un manual de usuario escrito, que incluye instrucciones de seguridad en eslovaco."
   }
  ],
  "riesgo": {
@@ -74,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,17 +110,15 @@
   "claves": [
    "ref:SR/02259/26",
    "ean:5902273403265",
-   "mm:plastrol:ps-460-1",
-   "mm:plastrol:5-e",
-   "mm:plastrol:w-97477"
+   "mm:plastrol:ps-460-1-5-e-w-97477"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c78b0a2297b50512"
+  "enriquecido": true,
+  "hashContenido": "b2b317b96bf3a993"
  },
  "slug": "plomo-de-extension-plastrol-safety-gate-10118461"
 }

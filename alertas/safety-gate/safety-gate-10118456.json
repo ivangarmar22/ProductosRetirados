@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5904326467934"
    ],
    "descripcion": "Limo de juguete.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "790c434ac6cdf689"
+  "enriquecido": true,
+  "hashContenido": "48eec5df4cd10c70"
  },
  "slug": "baba-de-juguete-bigtoys-safety-gate-10118456"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e27*2007/46*0397*01 (E2)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.04.2022 - 30.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Remolque frigorífico.",
-   "fechasTexto": "28.04.2022 - 30.01.2026"
+   "fechasTexto": "28.04.2022 - 30.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02119/26",
-   "mm:esselmann:e27-2007-46-0397-01-e2"
+   "mm:esselmann:e27-2007-46-0397-01-e2",
+   "ml:esselmann:28-04-2022-30-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35a57917ac1a60ef"
+  "enriquecido": true,
+  "hashContenido": "79a7dd940023b5b2"
  },
  "slug": "remolque-frigorifico-esselmann-safety-gate-10117984"
 }

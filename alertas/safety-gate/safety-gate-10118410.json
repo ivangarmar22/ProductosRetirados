@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,27 +27,18 @@
     "Dethleffs"
    ],
    "modelos": [
-    "EG/DI 001",
-    "MFC003",
-    "EG/DF 004",
-    "EG/DD 002",
-    "DFO001",
-    "MIV001",
-    "MOP001",
-    "MVW001",
-    "e1*2001/116*0250*",
-    "e1*2001/116*0416*",
-    "e1*2001/116*0442*",
-    "e1*2007/46*2011*",
-    "e1*2018/858*00238*",
-    "e1*2018/858*00329*",
-    "e1*2018/858*00391*",
-    "e1*2018/858*00485*"
+    "EG/DI 001, MFC003, EG/DF 004, EG/DD 002, DFO001, MIV001, MOP001, MVW001",
+    "e1*2001/116*0250*, e1*2001/116*0416*, e1*2001/116*0442*, e1*2007/46*2011*, e1*2018/858*00238*, e1*2018/858*00329*, e1*2018/858*00391*, e1*2018/858*00485*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2018 - 01.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "01.01.2018 - 01.05.2026"
+   "fechasTexto": "01.01.2018 - 01.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -133,30 +126,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02122/26",
-   "mm:dethleffs:eg-di-001",
-   "mm:dethleffs:mfc003",
-   "mm:dethleffs:eg-df-004",
-   "mm:dethleffs:eg-dd-002",
-   "mm:dethleffs:dfo001",
-   "mm:dethleffs:miv001",
-   "mm:dethleffs:mop001",
-   "mm:dethleffs:mvw001",
-   "mm:dethleffs:e1-2001-116-0250",
-   "mm:dethleffs:e1-2001-116-0416",
-   "mm:dethleffs:e1-2001-116-0442",
-   "mm:dethleffs:e1-2007-46-2011",
-   "mm:dethleffs:e1-2018-858-00238",
-   "mm:dethleffs:e1-2018-858-00329",
-   "mm:dethleffs:e1-2018-858-00391",
-   "mm:dethleffs:e1-2018-858-00485"
+   "mm:dethleffs:eg-di-001-mfc003-eg-df-004-eg-dd-002-dfo001-miv001-mop001-mvw001",
+   "mm:dethleffs:e1-2001-116-0250-e1-2001-116-0416-e1-2001-116-0442-e1-2007-46-2011-e1-2018-858-00238-e1-2018-858-00329-e1-2018-858-00391-e1-2018-858-00485",
+   "ml:dethleffs:01-01-2018-01-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "121265234b4f8107"
+  "enriquecido": true,
+  "hashContenido": "a8a09683f59268cc"
  },
  "slug": "camioneta-de-camper-dethleffs-safety-gate-10118410"
 }

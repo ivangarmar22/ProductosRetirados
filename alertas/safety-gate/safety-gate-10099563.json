@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Land Rover"
    ],
    "modelos": [
-    "e5*2007/46*0092*01-99*",
-    "e5*2007/46*0125*01-99*",
-    "e5*2007/46*1055*01-99*",
-    "e9*2018/858*11120*01-99*"
+    "e5*2007/46*0092*01-99*, e5*2007/46*0125*01-99*, e5*2007/46*1055*01-99*, e9*2018/858*11120*01-99*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.04.2019 - 26.06.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero.",
-   "fechasTexto": "04.04.2019 - 26.06.2026"
+   "fechasTexto": "04.04.2019 - 26.06.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,18 +100,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02032/26",
-   "mm:land-rover:e5-2007-46-0092-01-99",
-   "mm:land-rover:e5-2007-46-0125-01-99",
-   "mm:land-rover:e5-2007-46-1055-01-99",
-   "mm:land-rover:e9-2018-858-11120-01-99"
+   "mm:land-rover:e5-2007-46-0092-01-99-e5-2007-46-0125-01-99-e5-2007-46-1055-01-99-e9-2018-858-11120-01-99",
+   "ml:land-rover:04-04-2019-26-06-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "78e217477599d42b"
+  "enriquecido": true,
+  "hashContenido": "625e8952f6957689"
  },
  "slug": "vehiculo-comercial-ligero-land-rover-safety-gate-10099563"
 }

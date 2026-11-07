@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,17 @@
     "Elios"
    ],
    "modelos": [
-    "e1*2007/46*1610*04",
-    "e13*2007/46*1201*26-*28",
-    "e13*2007/46*2159*05",
-    "e13*2007/46*2183*00-*07",
-    "e13*2007/46*2184*12-*14"
+    "e1*2007/46*1610*04, e13*2007/46*1201*26-*28, e13*2007/46*2159*05, e13*2007/46*2183*00-*07, e13*2007/46*2184*12-*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.07.2018 - 28.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "31.07.2018 - 28.05.2026"
+   "fechasTexto": "31.07.2018 - 28.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Eslovenia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,19 +84,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02144/26",
-   "mm:elios:e1-2007-46-1610-04",
-   "mm:elios:e13-2007-46-1201-26-28",
-   "mm:elios:e13-2007-46-2159-05",
-   "mm:elios:e13-2007-46-2183-00-07",
-   "mm:elios:e13-2007-46-2184-12-14"
+   "mm:elios:e1-2007-46-1610-04-e13-2007-46-1201-26-28-e13-2007-46-2159-05-e13-2007-46-2183-00-07-e13-2007-46-2184-12-14",
+   "ml:elios:31-07-2018-28-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7e041c60bef32289"
+  "enriquecido": true,
+  "hashContenido": "3bf6fb705a7a9e99"
  },
  "slug": "camioneta-de-camper-elios-safety-gate-10118430"
 }

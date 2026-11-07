@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,13 +24,15 @@
   {
    "nombre": "Televisión",
    "marcas": [
-    "Finlux, Toshiba"
+    "Finlux",
+    "Toshiba"
    ],
    "modelos": [],
    "lotes": [],
    "ean": [],
    "descripcion": "Televisión suministrada con un cable desmontable del Reino Unido.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón impresa"
   }
  ],
  "riesgo": {
@@ -100,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8d72bc513032c85a"
+  "enriquecido": true,
+  "hashContenido": "526fc133b6629f1c"
  },
  "slug": "television-finlux-toshiba-safety-gate-10118397"
 }

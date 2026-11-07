@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e3*2018/858*00001*15*00",
     "e3*2018/858*00001*17*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.11.2025 - 09.07.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN: ZFAEFA265TX256620 -ZFAEFA268TX298828",
-   "fechasTexto": "25.11.2025 - 09.07.2026"
+   "fechasTexto": "25.11.2025 - 09.07.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,15 +88,16 @@
    "ref:SR/02288/26",
    "mm:abarth:e11-2018-858-01005-01-00",
    "mm:abarth:e3-2018-858-00001-15-00",
-   "mm:abarth:e3-2018-858-00001-17-00"
+   "mm:abarth:e3-2018-858-00001-17-00",
+   "ml:abarth:25-11-2025-09-07-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e807772adf434fa0"
+  "enriquecido": true,
+  "hashContenido": "a721a0f0c23a5efd"
  },
  "slug": "coche-de-pasajeros-abarth-safety-gate-10118585"
 }

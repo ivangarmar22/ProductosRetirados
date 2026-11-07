@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "e3*2007/46*0064*79*00 (Fiat 500e)",
     "e3*2018/858*00001*15*00 e3*2018/858*00001*16*00 e3*2018/858*00001*17*00 g11*2018/858*01005*01*00 (Panda MHEV)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.12.2025 - 09.07.2026 (Fiat 500e)"
+    },
+    {
+     "numero": "28.05.2026 - 09.07.2026 (Panda MHEV)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Gama de VIN (Fiat 500e, Panda MHEV): 40TX258457–ZFAEFAB43TX298959 ; ZFAEF5BJ6V3N42627–ZFAEF5HJ9V3N51958.",
-   "fechasTexto": "04.12.2025 - 09.07.2026 (Fiat 500e)28.05.2026 - 09.07.2026 (Panda MHEV)"
+   "fechasTexto": "04.12.2025 - 09.07.2026 (Fiat 500e)28.05.2026 - 09.07.2026 (Panda MHEV)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +73,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "LU",
+   "NO",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +99,17 @@
   "claves": [
    "ref:SR/02286/26",
    "mm:fiat:e3-2007-46-0064-79-00-fiat-500e",
-   "mm:fiat:e3-2018-858-00001-15-00-e3-2018-858-00001-16-00-e3-2018-858-00001-17-00-g11-2018-858-01005-01-00-panda-mhev"
+   "mm:fiat:e3-2018-858-00001-15-00-e3-2018-858-00001-16-00-e3-2018-858-00001-17-00-g11-2018-858-01005-01-00-panda-mhev",
+   "ml:fiat:04-12-2025-09-07-2026-fiat-500e",
+   "ml:fiat:28-05-2026-09-07-2026-panda-mhev"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f3d77da3123bb715"
+  "enriquecido": true,
+  "hashContenido": "4f378f907ae437a7"
  },
  "slug": "coche-de-pasajeros-fiat-safety-gate-10118586"
 }

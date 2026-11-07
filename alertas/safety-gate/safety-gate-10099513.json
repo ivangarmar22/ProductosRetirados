@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-27"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "DSN2017-11-15DSN20210325DSN20210415"
+     "numero": "DSN2017-11-15"
+    },
+    {
+     "numero": "DSN20210325"
+    },
+    {
+     "numero": "DSN20210415"
     }
    ],
    "ean": [
     "5902308590021"
    ],
    "descripcion": "Casco de bicicleta azul para niños, con motivo Mickey Mouse, con una circunferencia de la cabeza de 52-56 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +79,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -110,15 +120,17 @@
    "ref:SR/02025/26",
    "ean:5902308590021",
    "mm:seven:9002",
-   "ml:seven:dsn2017-11-15dsn20210325dsn20210415"
+   "ml:seven:dsn2017-11-15",
+   "ml:seven:dsn20210325",
+   "ml:seven:dsn20210415"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3568165347eac84c"
+  "enriquecido": true,
+  "hashContenido": "f934c9c23c9c0723"
  },
  "slug": "casco-de-bicicleta-seven-safety-gate-10099513"
 }

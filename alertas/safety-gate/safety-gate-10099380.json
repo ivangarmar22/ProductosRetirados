@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Fabricante de sándwiches.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,7 +77,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +114,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "459c48f8bc9d5365"
+  "enriquecido": true,
+  "hashContenido": "468804b63022fa15"
  },
  "slug": "fabricante-de-sandwiches-pancerka-safety-gate-10099380"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*168/2013*02205* (S04)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.10.2025 - 31.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Cuatriciclo eléctrico.",
-   "fechasTexto": "01.10.2025 - 31.12.2025"
+   "fechasTexto": "01.10.2025 - 31.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02086/26",
-   "mm:silence:e13-168-2013-02205-s04"
+   "mm:silence:e13-168-2013-02205-s04",
+   "ml:silence:01-10-2025-31-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "85ef21f026394016"
+  "enriquecido": true,
+  "hashContenido": "e9ddc4d006b6f393"
  },
  "slug": "cuatriciclo-silence-safety-gate-10099626"
 }

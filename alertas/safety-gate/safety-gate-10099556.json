@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e3*2007/46*0044*48 e3*2007/46*0044*49 e3*2007/46*0044*50 e3*2007/46*0049*39 e3*2007/46*0049*40 e3*2007/46*0049*41 e3*2007/46*0049*42"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.01.2024 - 10.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero. VIN: ZFA250EDENG033401 - ZFA250003SG024143.",
-   "fechasTexto": "16.01.2024 - 10.04.2025"
+   "fechasTexto": "16.01.2024 - 10.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +92,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02029/26",
-   "mm:fiat:e3-2007-46-0044-48-e3-2007-46-0044-49-e3-2007-46-0044-50-e3-2007-46-0049-39-e3-2007-46-0049-40-e3-2007-46-0049-41-e3-2007-46-0049-42"
+   "mm:fiat:e3-2007-46-0044-48-e3-2007-46-0044-49-e3-2007-46-0044-50-e3-2007-46-0049-39-e3-2007-46-0049-40-e3-2007-46-0049-41-e3-2007-46-0049-42",
+   "ml:fiat:16-01-2024-10-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "09bb350866959709"
+  "enriquecido": true,
+  "hashContenido": "e06ddbb871cc7f9c"
  },
  "slug": "vehiculo-comercial-ligero-fiat-safety-gate-10099556"
 }

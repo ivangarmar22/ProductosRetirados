@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-07"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Silla plegable al aire libre para uso de camping.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e784ca2eed7e6c2f"
+  "enriquecido": true,
+  "hashContenido": "8d708228c4a2129e"
  },
  "slug": "silla-de-camping-biltema-safety-gate-10099512"
 }

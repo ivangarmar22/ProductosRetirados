@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "PV5 Passenger & Cargo"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.09.2025 - 02.02.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "08.09.2025 - 02.02.2026"
+   "fechasTexto": "08.09.2025 - 02.02.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +99,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02091/26",
-   "mm:kia:pv5-passenger-cargo"
+   "mm:kia:pv5-passenger-cargo",
+   "ml:kia:08-09-2025-02-02-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c76c73e14782e94e"
+  "enriquecido": true,
+  "hashContenido": "488a8d6e0082f075"
  },
  "slug": "furgoneta-de-pasajeros-kia-safety-gate-10099642"
 }

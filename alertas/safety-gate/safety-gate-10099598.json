@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "K4"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.08.2025 - 19.02.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "08.08.2025 - 19.02.2026"
+   "fechasTexto": "08.08.2025 - 19.02.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +85,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/02058/26"
+   "ref:SR/02058/26",
+   "ml:kia:08-08-2025-19-02-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c6add283fae6ea6b"
+  "enriquecido": true,
+  "hashContenido": "a6a7ec39662b2144"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10099598"
 }

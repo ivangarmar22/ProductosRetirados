@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Setra"
    ],
    "modelos": [
-    "410 02",
-    "410 03",
-    "e1*2007/46*1133*24-*27",
-    "e1*2018/858*00434*00-*03",
-    "e1*2007/46*1160*25-*28",
-    "e1*2018/858*00436*00-*03"
+    "410 02, 410 03",
+    "e1*2007/46*1133*24-*27, e1*2018/858*00434*00-*03, e1*2007/46*1160*25-*28, e1*2018/858*00436*00-*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.11.2022 - 19.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "El autobús.",
-   "fechasTexto": "23.11.2022 - 19.05.2026"
+   "fechasTexto": "23.11.2022 - 19.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,20 +102,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02285/26",
-   "mm:setra:410-02",
-   "mm:setra:410-03",
-   "mm:setra:e1-2007-46-1133-24-27",
-   "mm:setra:e1-2018-858-00434-00-03",
-   "mm:setra:e1-2007-46-1160-25-28",
-   "mm:setra:e1-2018-858-00436-00-03"
+   "mm:setra:410-02-410-03",
+   "mm:setra:e1-2007-46-1133-24-27-e1-2018-858-00434-00-03-e1-2007-46-1160-25-28-e1-2018-858-00436-00-03",
+   "ml:setra:23-11-2022-19-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "951882edc3c5f697"
+  "enriquecido": true,
+  "hashContenido": "ac6cbc0947836c95"
  },
  "slug": "autobus-setra-safety-gate-10118583"
 }

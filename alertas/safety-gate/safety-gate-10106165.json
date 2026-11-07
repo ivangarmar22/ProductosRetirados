@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Niro EV"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.05.2020 - 18.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "19.05.2020 - 18.03.2022"
+   "fechasTexto": "19.05.2020 - 18.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02118/26",
-   "mm:kia:niro-ev"
+   "mm:kia:niro-ev",
+   "ml:kia:19-05-2020-18-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64f0bd796abcdc06"
+  "enriquecido": true,
+  "hashContenido": "1daecb77ed5e10fe"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10106165"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica blanca y negra.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b7e53791f44ac7ff"
+  "enriquecido": true,
+  "hashContenido": "256a15ce5ba474bc"
  },
  "slug": "bicicleta-electrica-one-sport-safety-gate-10099573"
 }

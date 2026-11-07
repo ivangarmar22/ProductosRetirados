@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    ],
    "ean": [],
    "descripcion": "Juego de juguetes compuesto por 4 piezas de plástico duro y cada una en forma de teléfono celular, coche, locomotora y cerdo. Las piezas miden aproximadamente 78 mm. El juguete se vendió con la revista infantil \"Peppa Pig\" (3/2025), ISSN 1899-4083, código de barras: 9771899408550.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de plástico con fondo de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1b210ab037bfe12e"
+  "enriquecido": true,
+  "hashContenido": "f96774114b2f964d"
  },
  "slug": "juguete-de-plastico-peppa-pig-safety-gate-10118468"
 }

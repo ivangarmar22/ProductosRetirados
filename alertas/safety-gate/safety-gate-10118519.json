@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -25,13 +25,13 @@
    "nombre": "Squishy Fidjet Fun !",
    "marcas": [],
    "modelos": [
-    "Rainbow Mystery",
-    "One Set Sugar Edition"
+    "Rainbow Mystery, One Set Sugar Edition"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Apriete el juguete en forma de una bola de masa china en un recipiente de plástico hecho para parecerse a un vaporizador de bambú.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -61,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "042a07e7fb527782"
+  "enriquecido": true,
+  "hashContenido": "b070b1fa3718105e"
  },
  "slug": "juguete-de-apretar-squishy-fidjet-fun-safety-gate-10118519"
 }

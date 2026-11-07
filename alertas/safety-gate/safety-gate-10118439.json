@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave, en forma de conejo rosa con largas orejas verdes y rosas, con un vestido rosa.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -65,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b774f91c3e064826"
+  "enriquecido": true,
+  "hashContenido": "6234e4858dd243fa"
  },
  "slug": "juguete-suave-lapin-en-peluche-de-ballet-pour-bebe-jouets-en-peluche-p-safety-gate-10118439"
 }

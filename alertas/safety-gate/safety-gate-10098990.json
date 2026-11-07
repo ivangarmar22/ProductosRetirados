@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,7 +24,9 @@
   {
    "nombre": "Televisions",
    "marcas": [
-    "TECHNIKA, Toshiba, Walker"
+    "TECHNIKA",
+    "Toshiba",
+    "Walker"
    ],
    "modelos": [
     "Technika TEC-50UHDSM2",
@@ -39,7 +41,43 @@
    ],
    "lotes": [
     {
-     "numero": "29324549 29333803 29429831 29448017 29449439 2945882029437500294390122944389729443898294565092945651029456511"
+     "numero": "29324549"
+    },
+    {
+     "numero": "29333803"
+    },
+    {
+     "numero": "29429831"
+    },
+    {
+     "numero": "29448017"
+    },
+    {
+     "numero": "29449439"
+    },
+    {
+     "numero": "29458820"
+    },
+    {
+     "numero": "29437500"
+    },
+    {
+     "numero": "29439012"
+    },
+    {
+     "numero": "29443897"
+    },
+    {
+     "numero": "29443898"
+    },
+    {
+     "numero": "29456509"
+    },
+    {
+     "numero": "29456510"
+    },
+    {
+     "numero": "29456511"
     }
    ],
    "ean": [
@@ -54,7 +92,8 @@
     "5391542732517"
    ],
    "descripcion": "Televisión suministrada con un juego de cables desmontables del Reino Unido.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -88,7 +127,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -122,24 +163,80 @@
    "ean:5391542731909",
    "ean:5391542731916",
    "ean:5391542732517",
-   "mm:technika-toshiba-walker:technika-tec-50uhdsm2",
-   "mm:technika-toshiba-walker:toshiba-43lv2553db",
-   "mm:technika-toshiba-walker:toshiba-65uv1563db",
-   "mm:technika-toshiba-walker:walker-p4k50251brd",
-   "mm:technika-toshiba-walker:walker-ps2k32241bk",
-   "mm:technika-toshiba-walker:walker-wp4k43241brd",
-   "mm:technika-toshiba-walker:walker-wp4k43251brd",
-   "mm:technika-toshiba-walker:walker-wp4k50241brd",
-   "mm:technika-toshiba-walker:walker-wps32241hdbk",
-   "ml:technika-toshiba-walker:29324549-29333803-29429831-29448017-29449439-2945882029437500294390122944389729443898294565092945651029456511"
+   "mm:technika:technika-tec-50uhdsm2",
+   "mm:technika:toshiba-43lv2553db",
+   "mm:technika:toshiba-65uv1563db",
+   "mm:technika:walker-p4k50251brd",
+   "mm:technika:walker-ps2k32241bk",
+   "mm:technika:walker-wp4k43241brd",
+   "mm:technika:walker-wp4k43251brd",
+   "mm:technika:walker-wp4k50241brd",
+   "mm:technika:walker-wps32241hdbk",
+   "ml:technika:29324549",
+   "ml:technika:29333803",
+   "ml:technika:29429831",
+   "ml:technika:29448017",
+   "ml:technika:29449439",
+   "ml:technika:29458820",
+   "ml:technika:29437500",
+   "ml:technika:29439012",
+   "ml:technika:29443897",
+   "ml:technika:29443898",
+   "ml:technika:29456509",
+   "ml:technika:29456510",
+   "ml:technika:29456511",
+   "mm:toshiba:technika-tec-50uhdsm2",
+   "mm:toshiba:toshiba-43lv2553db",
+   "mm:toshiba:toshiba-65uv1563db",
+   "mm:toshiba:walker-p4k50251brd",
+   "mm:toshiba:walker-ps2k32241bk",
+   "mm:toshiba:walker-wp4k43241brd",
+   "mm:toshiba:walker-wp4k43251brd",
+   "mm:toshiba:walker-wp4k50241brd",
+   "mm:toshiba:walker-wps32241hdbk",
+   "ml:toshiba:29324549",
+   "ml:toshiba:29333803",
+   "ml:toshiba:29429831",
+   "ml:toshiba:29448017",
+   "ml:toshiba:29449439",
+   "ml:toshiba:29458820",
+   "ml:toshiba:29437500",
+   "ml:toshiba:29439012",
+   "ml:toshiba:29443897",
+   "ml:toshiba:29443898",
+   "ml:toshiba:29456509",
+   "ml:toshiba:29456510",
+   "ml:toshiba:29456511",
+   "mm:walker:technika-tec-50uhdsm2",
+   "mm:walker:toshiba-43lv2553db",
+   "mm:walker:toshiba-65uv1563db",
+   "mm:walker:walker-p4k50251brd",
+   "mm:walker:walker-ps2k32241bk",
+   "mm:walker:walker-wp4k43241brd",
+   "mm:walker:walker-wp4k43251brd",
+   "mm:walker:walker-wp4k50241brd",
+   "mm:walker:walker-wps32241hdbk",
+   "ml:walker:29324549",
+   "ml:walker:29333803",
+   "ml:walker:29429831",
+   "ml:walker:29448017",
+   "ml:walker:29449439",
+   "ml:walker:29458820",
+   "ml:walker:29437500",
+   "ml:walker:29439012",
+   "ml:walker:29443897",
+   "ml:walker:29443898",
+   "ml:walker:29456509",
+   "ml:walker:29456510",
+   "ml:walker:29456511"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c419d786b8f3ff06"
+  "enriquecido": true,
+  "hashContenido": "440dff2f90f8fa0a"
  },
  "slug": "television-technika-toshiba-walker-safety-gate-10098990"
 }

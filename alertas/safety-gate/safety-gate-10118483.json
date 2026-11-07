@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cable de extensión con tres tomas de corriente con interruptores individuales.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente, parcialmente impresa."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9f5eace797ddb0d8"
+  "enriquecido": true,
+  "hashContenido": "ae7dc19df701f5f6"
  },
  "slug": "plomo-de-extension-lehotpia-safety-gate-10118483"
 }

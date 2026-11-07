@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-04"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Vestido de buceo de un hombro en rosa y azul, skort de crepé blanco y top de crepé blanco con detalles de broche en forma de lazo / corazón. Todos los tamaños de ropa infantil se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +116,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e29a4b1bb0abe61a"
+  "enriquecido": true,
+  "hashContenido": "8fc4ec726ce4aa46"
  },
  "slug": "ropa-infantil-river-island-safety-gate-10099641"
 }

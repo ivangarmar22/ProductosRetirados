@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-14"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,12 +32,22 @@
    ],
    "lotes": [
     {
-     "numero": "3608391173227360839166141036083916711813608392200106"
+     "numero": "3608391173227"
+    },
+    {
+     "numero": "3608391661410"
+    },
+    {
+     "numero": "3608391671181"
+    },
+    {
+     "numero": "3608392200106"
     }
    ],
    "ean": [],
    "descripcion": "Vespa eléctrica.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +81,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +118,18 @@
    "ref:SR/02201/26",
    "mm:btwin:md500e",
    "mm:btwin:sd500e",
-   "ml:btwin:3608391173227360839166141036083916711813608392200106"
+   "ml:btwin:3608391173227",
+   "ml:btwin:3608391661410",
+   "ml:btwin:3608391671181",
+   "ml:btwin:3608392200106"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2a4913716b5ea7ec"
+  "enriquecido": true,
+  "hashContenido": "6bef71efa99a27f5"
  },
  "slug": "scooter-electrico-btwin-safety-gate-10099582"
 }

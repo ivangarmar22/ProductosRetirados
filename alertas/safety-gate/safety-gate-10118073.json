@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Hymer"
    ],
    "modelos": [
-    "EG/S 003",
-    "EG/HF001",
-    "HKS1",
-    "HRS2",
-    "HRS1",
-    "e1*2001/116*0419*",
-    "e1*2007/46*1102*",
-    "e1*2007/46*2107*",
-    "e1*2007/46*1944*",
-    "e1*2007/46*1958*"
+    "EG/S 003, EG/HF001, HKS1, HRS2, HRS1",
+    "e1*2001/116*0419*, e1*2007/46*1102*, e1*2007/46*2107*, e1*2007/46*1944*, e1*2007/46*1958*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2018 - 01.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "01.01.2018 - 01.05.2026"
+   "fechasTexto": "01.01.2018 - 01.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -127,24 +128,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02125/26",
-   "mm:hymer:eg-s-003",
-   "mm:hymer:eg-hf001",
-   "mm:hymer:hks1",
-   "mm:hymer:hrs2",
-   "mm:hymer:hrs1",
-   "mm:hymer:e1-2001-116-0419",
-   "mm:hymer:e1-2007-46-1102",
-   "mm:hymer:e1-2007-46-2107",
-   "mm:hymer:e1-2007-46-1944",
-   "mm:hymer:e1-2007-46-1958"
+   "mm:hymer:eg-s-003-eg-hf001-hks1-hrs2-hrs1",
+   "mm:hymer:e1-2001-116-0419-e1-2007-46-1102-e1-2007-46-2107-e1-2007-46-1944-e1-2007-46-1958",
+   "ml:hymer:01-01-2018-01-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d4559df4f26c0588"
+  "enriquecido": true,
+  "hashContenido": "c14ebb1890c0b24b"
  },
  "slug": "camioneta-de-camper-hymer-safety-gate-10118073"
 }

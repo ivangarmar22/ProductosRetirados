@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Laika"
    ],
    "modelos": [
-    "A5",
-    "FV",
-    "FX",
-    "AA",
-    "e13*2018/858*00770*01",
-    "e13*2007/46*2030*",
-    "e13*2007/46*1932*",
-    "e13*2007/46*1243*"
+    "A5, FV, FX, AA",
+    "e13*2018/858*00770*01, e13*2007/46*2030*, e13*2007/46*1932*, e13*2007/46*1243*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2018 - 01.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "01.01.2018 - 01.05.2026"
+   "fechasTexto": "01.01.2018 - 01.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -105,18 +104,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02121/26",
-   "mm:laika:e13-2018-858-00770-01",
-   "mm:laika:e13-2007-46-2030",
-   "mm:laika:e13-2007-46-1932",
-   "mm:laika:e13-2007-46-1243"
+   "mm:laika:a5-fv-fx-aa",
+   "mm:laika:e13-2018-858-00770-01-e13-2007-46-2030-e13-2007-46-1932-e13-2007-46-1243",
+   "ml:laika:01-01-2018-01-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e91da71b0de391e7"
+  "enriquecido": true,
+  "hashContenido": "f155585287c51349"
  },
  "slug": "camioneta-de-camper-laika-safety-gate-10118409"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -36,10 +36,15 @@
     "e13*2018/858*00916*00-02 (Supertwin)",
     "e13*2018/858*00916*04 (Supertwin)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022 - 2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "2022 - 2026"
+   "fechasTexto": "2022 - 2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Eslovenia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +98,16 @@
    "mm:adria:e13-2018-858-00508-00-03-twin-supreme-and-twin-max",
    "mm:adria:e13-2018-858-00688-00-twin-max",
    "mm:adria:e13-2018-858-00916-00-02-supertwin",
-   "mm:adria:e13-2018-858-00916-04-supertwin"
+   "mm:adria:e13-2018-858-00916-04-supertwin",
+   "ml:adria:2022-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5e725201984cc4c8"
+  "enriquecido": true,
+  "hashContenido": "2f7c8db395380252"
  },
  "slug": "camioneta-de-camper-adria-safety-gate-10118498"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Apriete el juguete en forma de una bola de masa china en un recipiente de plástico hecho para parecerse a un vaporizador de bambú.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "72dbd46ee3f74cd3"
+  "enriquecido": true,
+  "hashContenido": "0136cf4e46ed5f41"
  },
  "slug": "juguete-de-apretar-happy-buns-safety-gate-10118504"
 }

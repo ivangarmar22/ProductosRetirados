@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "25212532"
+     "numero": "2521"
+    },
+    {
+     "numero": "2532"
     }
    ],
    "ean": [
     "4067796183429"
    ],
    "descripcion": "Juego de cubiertos de cuchara para niños de dos cucharas de aprendizaje, en silicona azul/beige, destinado a niños a partir de los 6 meses de edad, 11,3 × 2,3 × 1,8 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,15 +99,16 @@
   "claves": [
    "ref:SR/02018/26",
    "ean:4067796183429",
-   "ml:babylove:25212532"
+   "ml:babylove:2521",
+   "ml:babylove:2532"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cafd54c6fc0232c5"
+  "enriquecido": true,
+  "hashContenido": "eb0fdf1586cfdbfa"
  },
  "slug": "juego-de-cubiertos-para-ninos-babylove-safety-gate-10099511"
 }

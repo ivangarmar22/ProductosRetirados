@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e2*2007/46*0533*19",
     "e2*2007/46*0533*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.01.2022 - 30.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero. Gama de VIN: VXFVFEHTMNZ004982 - VXFVFEHS7NZ055188; VXFV1ZKXZNZ004984 - VXFV1ZKXZNZ055169.",
-   "fechasTexto": "11.01.2022 - 30.06.2022"
+   "fechasTexto": "11.01.2022 - 30.06.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +94,16 @@
    "mm:fiat:e2-2007-46-0533-21",
    "mm:fiat:e2-2007-46-0532-18",
    "mm:fiat:e2-2007-46-0533-19",
-   "mm:fiat:e2-2007-46-0533-20"
+   "mm:fiat:e2-2007-46-0533-20",
+   "ml:fiat:11-01-2022-30-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "848e7e38d45f0168"
+  "enriquecido": true,
+  "hashContenido": "08ac6cfa98e2fd4d"
  },
  "slug": "vehiculo-comercial-ligero-fiat-safety-gate-10118564"
 }

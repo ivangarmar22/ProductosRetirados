@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-20"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "5905108472627"
    ],
    "descripcion": "Mini motosierra de batería con 6 pulgadas de longitud de corte, para pequeños trabajos de jardinería.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con pegatina."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "571c143cda1cd189"
+  "enriquecido": true,
+  "hashContenido": "a1fc7669ff7e38ca"
  },
  "slug": "motosierra-xtool-safety-gate-10098221"
 }

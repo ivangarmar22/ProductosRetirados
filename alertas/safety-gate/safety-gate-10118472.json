@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete de dentición con extremo de cepillo de dientes.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "19d50bd7e16e428c"
+  "enriquecido": true,
+  "hashContenido": "7b7f7ab9d1c1d5ed"
  },
  "slug": "juguete-de-denticion-cldy-safety-gate-10118472"
 }

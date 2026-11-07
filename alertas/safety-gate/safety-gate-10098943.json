@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Scania"
    ],
    "modelos": [
-    "N323",
-    "N324",
-    "N333",
-    "N334",
-    "N343",
-    "e4*2018/858*00098*",
-    "e4*2018/858*00099*",
-    "e4*2018/858*00100*",
-    "e4*2018/858*00101*",
-    "e4*2018/858*00102*"
+    "N323, N324, N333, N334, N343",
+    "e4*2018/858*00098*, e4*2018/858*00099*, e4*2018/858*00100*, e4*2018/858*00101*, e4*2018/858*00102*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.8.2024 - 27.2.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "15.8.2024 - 27.2.2026"
+   "fechasTexto": "15.8.2024 - 27.2.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,24 +106,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01445/26",
-   "mm:scania:n323",
-   "mm:scania:n324",
-   "mm:scania:n333",
-   "mm:scania:n334",
-   "mm:scania:n343",
-   "mm:scania:e4-2018-858-00098",
-   "mm:scania:e4-2018-858-00099",
-   "mm:scania:e4-2018-858-00100",
-   "mm:scania:e4-2018-858-00101",
-   "mm:scania:e4-2018-858-00102"
+   "mm:scania:n323-n324-n333-n334-n343",
+   "mm:scania:e4-2018-858-00098-e4-2018-858-00099-e4-2018-858-00100-e4-2018-858-00101-e4-2018-858-00102",
+   "ml:scania:15-8-2024-27-2-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50784b6101539a73"
+  "enriquecido": true,
+  "hashContenido": "4754cb6cb8d652af"
  },
  "slug": "camion-scania-safety-gate-10098943"
 }

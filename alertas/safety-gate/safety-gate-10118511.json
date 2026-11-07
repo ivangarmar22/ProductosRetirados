@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-08-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Ventilador de cuello portátil recargable con una carcasa de plástico rosa y una correa de silicona para el cuello, que se vende junto con un cable de carga USB.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón 10 x 6,5 x 6 cm."
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "83d138c39941551e"
+  "enriquecido": true,
+  "hashContenido": "fc23b742170076c2"
  },
  "slug": "ventilador-portatil-safety-gate-10118511"
 }

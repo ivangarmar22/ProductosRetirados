@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete suave en forma de perro con compartimiento de batería.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5fa6de5fcf821951"
+  "enriquecido": true,
+  "hashContenido": "0595d9bf2ddaaa57"
  },
  "slug": "juguete-suave-puppy-doll-safety-gate-10099588"
 }

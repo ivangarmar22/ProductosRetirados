@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-31"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,9 +31,16 @@
     "Gouache Set"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "3013643019152",
+    "3013648073128",
+    "3013648075610",
+    "3013648075641",
+    "3013648075658"
+   ],
    "descripcion": "Juegos de Gouache y pintura acrílica.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,16 +85,21 @@
  "dedup": {
   "claves": [
    "ref:SR/02051/26",
+   "ean:3013643019152",
+   "ean:3013648073128",
+   "ean:3013648075610",
+   "ean:3013648075641",
+   "ean:3013648075658",
    "mm:lefranc-bourgeois:acrylic-set",
    "mm:lefranc-bourgeois:gouache-set"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "37b0dff4239e9480"
+  "enriquecido": true,
+  "hashContenido": "209d1e397b9020db"
  },
  "slug": "conjunto-de-pintura-lefranc-bourgeois-safety-gate-10099570"
 }

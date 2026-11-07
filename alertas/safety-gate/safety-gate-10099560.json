@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e3*2007/46*0045*28 e3*2007/46*0045*29 e3*2007/46*0045*30 e3*2007/46*0045*31 e3*2007/46*0045*33 e3*2007/46*0050*31 e3*2007/46*0050*32 e3*2007/46*0051*32"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.02.2024 - 09.07.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero. VIN: VXEYCG6FCPG053144 - VXEYDG6F6SG026530.",
-   "fechasTexto": "01.02.2024 - 09.07.2025"
+   "fechasTexto": "01.02.2024 - 09.07.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +96,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02031/26",
-   "mm:opel-vauxhall:e3-2007-46-0045-28-e3-2007-46-0045-29-e3-2007-46-0045-30-e3-2007-46-0045-31-e3-2007-46-0045-33-e3-2007-46-0050-31-e3-2007-46-0050-32-e3-2007-46-0051-32"
+   "mm:opel-vauxhall:e3-2007-46-0045-28-e3-2007-46-0045-29-e3-2007-46-0045-30-e3-2007-46-0045-31-e3-2007-46-0045-33-e3-2007-46-0050-31-e3-2007-46-0050-32-e3-2007-46-0051-32",
+   "ml:opel-vauxhall:01-02-2024-09-07-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "309e9631dbca5b07"
+  "enriquecido": true,
+  "hashContenido": "34e433c37aca7e62"
  },
  "slug": "vehiculo-comercial-ligero-opel-vauxhall-safety-gate-10099560"
 }

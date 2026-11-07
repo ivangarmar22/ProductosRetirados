@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-11"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
     "810132832130"
    ],
    "descripcion": "Tinta de tatuaje para uso profesional, 240 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella"
   }
  ],
  "riesgo": {
@@ -67,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d758eadf4bde85f7"
+  "enriquecido": true,
+  "hashContenido": "6185d4d2f6e54360"
  },
  "slug": "tinta-de-tatuaje-dynamic-color-co-safety-gate-10099328"
 }

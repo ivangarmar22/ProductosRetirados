@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-15"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -34,7 +34,8 @@
     "5901890020787"
    ],
    "descripcion": "Licuadora diseñada para mezclar y mezclar alimentos, alimentada a través de un cable de alimentación permanentemente conectado. El cuerpo de la licuadora está hecho de una combinación de metal y plástico gris y negro",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "92dfb07c904993e1"
+  "enriquecido": true,
+  "hashContenido": "eacde41c2d5bd007"
  },
  "slug": "licuadora-de-batidos-teesa-safety-gate-10118292"
 }

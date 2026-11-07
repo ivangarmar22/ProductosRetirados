@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Etrusco"
    ],
    "modelos": [
-    "CA",
-    "CC",
-    "CV",
-    "WF",
-    "e13*2007/46*1574*",
-    "e13*2007/46*1875*",
-    "e13*2007/46*2255*",
-    "e13*2018/858*00269*"
+    "CA, CC, CV, WF",
+    "e13*2007/46*1574*, e13*2007/46*1875*, e13*2007/46*2255*, e13*2018/858*00269*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2018 - 01.05.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "01.01.2018 - 01.05.2026"
+   "fechasTexto": "01.01.2018 - 01.05.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,18 +114,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02127/26",
-   "mm:etrusco:e13-2007-46-1574",
-   "mm:etrusco:e13-2007-46-1875",
-   "mm:etrusco:e13-2007-46-2255",
-   "mm:etrusco:e13-2018-858-00269"
+   "mm:etrusco:ca-cc-cv-wf",
+   "mm:etrusco:e13-2007-46-1574-e13-2007-46-1875-e13-2007-46-2255-e13-2018-858-00269",
+   "ml:etrusco:01-01-2018-01-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a85ca6aaec76e870"
+  "enriquecido": true,
+  "hashContenido": "67ee940aadcfe03c"
  },
  "slug": "camioneta-de-camper-etrusco-safety-gate-10118417"
 }
