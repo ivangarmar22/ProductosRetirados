@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*168/2013*00037*01 e2*168/2013*00037*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.2023 - 06.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Cuatriciclo eléctrico.",
-   "fechasTexto": "10.2023 - 06.2026"
+   "fechasTexto": "10.2023 - 06.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01925/26",
-   "mm:ligier:e2-168-2013-00037-01-e2-168-2013-00037-03"
+   "mm:ligier:e2-168-2013-00037-01-e2-168-2013-00037-03",
+   "ml:ligier:10-2023-06-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1b9291396a22f768"
+  "enriquecido": true,
+  "hashContenido": "2896e9b9d6088105"
  },
  "slug": "cuatriciclo-ligier-safety-gate-10099408"
 }

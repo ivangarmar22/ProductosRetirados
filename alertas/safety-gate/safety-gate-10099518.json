@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "KL",
     "e4*2007/46*0783*08-*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.10.2016 - 20.02.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros, permisos de operación de homologación de tipo individual.",
-   "fechasTexto": "10.10.2016 - 20.02.2019"
+   "fechasTexto": "10.10.2016 - 20.02.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HU",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01992/26",
-   "mm:jeep:e4-2007-46-0783-08-11"
+   "mm:jeep:e4-2007-46-0783-08-11",
+   "ml:jeep:10-10-2016-20-02-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "46bb14bd4f4309c2"
+  "enriquecido": true,
+  "hashContenido": "648b28d2ea206173"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10099518"
 }

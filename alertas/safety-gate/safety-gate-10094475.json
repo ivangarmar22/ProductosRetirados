@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,18 +28,20 @@
    ],
    "modelos": [
     "e13*2018/858*00649*00-*01",
-    "JHH",
-    "J2K",
-    "N1P",
-    "N3P",
+    "JHH, J2K, N1P, N3P",
     "e13*2018/858*00648*00-*01",
     "e9*2007/46*3142*22-*25",
     "e9*2007/46*3165*08-*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.11.2021 - 24.9.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "19.11.2021 - 24.9.2024"
+   "fechasTexto": "19.11.2021 - 24.9.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +71,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,21 +117,19 @@
   "claves": [
    "ref:SR/01962/25",
    "mm:ford:e13-2018-858-00649-00-01",
-   "mm:ford:jhh",
-   "mm:ford:j2k",
-   "mm:ford:n1p",
-   "mm:ford:n3p",
+   "mm:ford:jhh-j2k-n1p-n3p",
    "mm:ford:e13-2018-858-00648-00-01",
    "mm:ford:e9-2007-46-3142-22-25",
-   "mm:ford:e9-2007-46-3165-08-16"
+   "mm:ford:e9-2007-46-3165-08-16",
+   "ml:ford:19-11-2021-24-9-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f9a6ac8407175af7"
+  "enriquecido": true,
+  "hashContenido": "a80dcd2c6e17ba1f"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10094475"
 }

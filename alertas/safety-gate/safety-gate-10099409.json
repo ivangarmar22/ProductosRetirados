@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,17 @@
     "Cadillac, Chevrolet, GMC"
    ],
    "modelos": [
-    "Escalade",
-    "Escalade ESV",
-    "Silverado 1500",
-    "Silverado 2500",
-    "Silverado 3500",
-    "Tahoe",
-    "Suburban",
-    "Sierra 1500",
-    "Sierra 2500",
-    "Sierra 3500",
-    "Yukon",
-    "Yukon X"
+    "Escalade, Escalade ESV, Silverado 1500, Silverado 2500, Silverado 3500, Tahoe, Suburban, Sierra 1500, Sierra 2500, Sierra 3500, Yukon, Yukon X"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.01.2019 - 25.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "18.01.2019 - 25.08.2021"
+   "fechasTexto": "18.01.2019 - 25.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -121,26 +115,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01871/26",
-   "mm:cadillac-chevrolet-gmc:escalade",
-   "mm:cadillac-chevrolet-gmc:escalade-esv",
-   "mm:cadillac-chevrolet-gmc:silverado-1500",
-   "mm:cadillac-chevrolet-gmc:silverado-2500",
-   "mm:cadillac-chevrolet-gmc:silverado-3500",
-   "mm:cadillac-chevrolet-gmc:tahoe",
-   "mm:cadillac-chevrolet-gmc:suburban",
-   "mm:cadillac-chevrolet-gmc:sierra-1500",
-   "mm:cadillac-chevrolet-gmc:sierra-2500",
-   "mm:cadillac-chevrolet-gmc:sierra-3500",
-   "mm:cadillac-chevrolet-gmc:yukon",
-   "mm:cadillac-chevrolet-gmc:yukon-x"
+   "mm:cadillac-chevrolet-gmc:escalade-escalade-esv-silverado-1500-silverado-2500-silverado-3500-tahoe-suburban-sierra-1500-sierra-2500-sierra-3500-yukon-yukon-x",
+   "ml:cadillac-chevrolet-gmc:18-01-2019-25-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "89c07a917f70aab5"
+  "enriquecido": true,
+  "hashContenido": "79fb7d0eab5e05ea"
  },
  "slug": "coche-de-pasajeros-cadillac-chevrolet-gmc-safety-gate-10099409"
 }

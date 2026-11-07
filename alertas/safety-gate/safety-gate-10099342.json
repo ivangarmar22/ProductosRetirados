@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-03"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -29,12 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "DE-S GL4845BC480704"
+     "numero": "DE-S"
+    },
+    {
+     "numero": "GL4845"
+    },
+    {
+     "numero": "BC480704"
     }
    ],
    "ean": [],
    "descripcion": "Bicicleta eléctrica negra con cargador de batería incluido y enchufe de pared.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +96,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01777/26",
-   "ml:g-force:de-s-gl4845bc480704"
+   "ml:g-force:de-s",
+   "ml:g-force:gl4845",
+   "ml:g-force:bc480704"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fd5395e3d7112526"
+  "enriquecido": true,
+  "hashContenido": "408b26ba52825470"
  },
  "slug": "bicicleta-electrica-g-force-safety-gate-10099342"
 }

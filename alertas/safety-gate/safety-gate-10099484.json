@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "XC40",
-    "E9*2007/46*3146"
+    "XC40 / E9*2007/46*3146"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2020-2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "2020-2022"
+   "fechasTexto": "2020-2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "FR",
+   "GR",
+   "HR",
+   "IS",
+   "LU",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01964/26",
-   "mm:volvo:xc40",
-   "mm:volvo:e9-2007-46-3146"
+   "mm:volvo:xc40-e9-2007-46-3146",
+   "ml:volvo:2020-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7f253d1d869b5ae9"
+  "enriquecido": true,
+  "hashContenido": "2fd8ce1823f84680"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10099484"
 }

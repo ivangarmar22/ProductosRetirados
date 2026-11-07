@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-04"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica negra con enchufe de pared y fuente de alimentación.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a08a1c79631af162"
+  "enriquecido": true,
+  "hashContenido": "e2faba6c98190f66"
  },
  "slug": "bicicleta-electrica-duotts-safety-gate-10099549"
 }

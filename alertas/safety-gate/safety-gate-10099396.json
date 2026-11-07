@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,8 +27,7 @@
     "ZWILLING"
    ],
    "modelos": [
-    "53113-000-0|1030051",
-    "ENFINIGY"
+    "53113-000-0|1030051; ENFINIGY"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "4009839681981"
    ],
    "descripcion": "Parrilla de contacto eléctrica negra; Peso neto: 8,16 kg. Dimensiones: longitud: 39,80 cm, anchura: 32,10 cm, altura: 18,00 cm",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,17 +101,16 @@
   "claves": [
    "ref:SR/01942/26",
    "ean:4009839681981",
-   "mm:zwilling:53113-000-0-1030051",
-   "mm:zwilling:enfinigy",
+   "mm:zwilling:53113-000-0-1030051-enfinigy",
    "ml:zwilling:42bz92"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "debbbc767f232d80"
+  "enriquecido": true,
+  "hashContenido": "370f5c29919beb24"
  },
  "slug": "parrilla-de-contacto-zwilling-safety-gate-10099396"
 }

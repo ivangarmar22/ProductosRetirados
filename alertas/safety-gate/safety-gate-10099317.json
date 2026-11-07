@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.04.2017 - 30.04.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.04.2017 - 30.04.2022"
+   "fechasTexto": "01.04.2017 - 30.04.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01854/26",
-   "mm:honda:individual-approval"
+   "mm:honda:individual-approval",
+   "ml:honda:01-04-2017-30-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2d8831367b160e41"
+  "enriquecido": true,
+  "hashContenido": "14eb0f7f3311ccc6"
  },
  "slug": "coche-de-pasajeros-honda-safety-gate-10099317"
 }

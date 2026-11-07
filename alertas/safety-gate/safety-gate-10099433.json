@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Jaguar"
    ],
    "modelos": [
-    "e5*2007/46*1050*00-*99",
-    "e5*2007/46*1047*00-*99"
+    "e5*2007/46*1050*00-*99, e5*2007/46*1047*00-*99"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.11.2020 - 10.07.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "09.11.2020 - 10.07.2024"
+   "fechasTexto": "09.11.2020 - 10.07.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +89,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01969/26",
-   "mm:jaguar:e5-2007-46-1050-00-99",
-   "mm:jaguar:e5-2007-46-1047-00-99"
+   "mm:jaguar:e5-2007-46-1050-00-99-e5-2007-46-1047-00-99",
+   "ml:jaguar:09-11-2020-10-07-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "afeaab4eb6936020"
+  "enriquecido": true,
+  "hashContenido": "29d177476974718e"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10099433"
 }

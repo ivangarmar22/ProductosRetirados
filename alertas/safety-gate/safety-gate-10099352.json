@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-03"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,9 +29,12 @@
     "cn1073306665cepae"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "6972934081353"
+   ],
    "descripcion": "Juguete musical eléctrico con forma de conejo. Las orejas del juguete tienen ledes rojos que parpadean.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -65,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +94,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/01844/26"
+   "ref:SR/01844/26",
+   "ean:6972934081353"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c06c2f5f01837fdd"
+  "enriquecido": true,
+  "hashContenido": "ffa4c94bb2fffd1d"
  },
  "slug": "juguete-de-plastico-lapin-musical-pour-enfants-instruments-de-musique-safety-gate-10099352"
 }

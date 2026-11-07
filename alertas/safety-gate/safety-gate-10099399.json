@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -31,9 +31,12 @@
     "TQ-LDJ-DW12C"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "921670593794"
+   ],
    "descripcion": "Minisierra eléctrica amarilla y negra, en tamaños de 6\" y 12\".",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +87,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01842/26",
+   "ean:921670593794",
    "mm:autojare:ldj-dw6c",
    "mm:autojare:tq-ldj-dw12c"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "73f93164f4f5b953"
+  "enriquecido": true,
+  "hashContenido": "9503003475171ab7"
  },
  "slug": "motosierra-autojare-safety-gate-10099399"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-31"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Conjunto de joyas, incluyendo orejas de color plateado y collar en forma de pata. Producto vendido en línea, en particular a través de AliExpress.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Noruega",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f560eaa5f88dd5ce"
+  "enriquecido": true,
+  "hashContenido": "1205f7781e5b9cd4"
  },
  "slug": "conjunto-de-joyeria-safety-gate-10097232"
 }

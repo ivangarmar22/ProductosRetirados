@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Land Rover"
    ],
    "modelos": [
-    "e5*2007/46*1058*00-*99",
-    "e5*2007/46*0076*00-*99. e5*2007/46*1057*00-*99",
-    "e5*2007/46*0092*00-*99"
+    "e5*2007/46*1058*00-*99, e5*2007/46*0076*00-*99. e5*2007/46*1057*00-*99, e5*2007/46*0092*00-*99"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.07.2020 - 01.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "07.07.2020 - 01.05.2025"
+   "fechasTexto": "07.07.2020 - 01.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "HR",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,17 +100,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01970/26",
-   "mm:land-rover:e5-2007-46-1058-00-99",
-   "mm:land-rover:e5-2007-46-0076-00-99-e5-2007-46-1057-00-99",
-   "mm:land-rover:e5-2007-46-0092-00-99"
+   "mm:land-rover:e5-2007-46-1058-00-99-e5-2007-46-0076-00-99-e5-2007-46-1057-00-99-e5-2007-46-0092-00-99",
+   "ml:land-rover:07-07-2020-01-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9071f0a80d2c94ae"
+  "enriquecido": true,
+  "hashContenido": "65d387cbeb90d8e4"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10099434"
 }

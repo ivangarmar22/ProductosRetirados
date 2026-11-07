@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "72287276"
+     "numero": "7228"
+    },
+    {
+     "numero": "7276"
     }
    ],
    "ean": [
     "3414202011820"
    ],
    "descripcion": "Eau de toilette, destinado a mujeres, 30 ml. Solo las fragancias recordadas por Savers Health and Beauty se ven afectadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -87,15 +91,16 @@
   "claves": [
    "ref:SR/01698/26",
    "ean:3414202011820",
-   "ml:davidoff:72287276"
+   "ml:davidoff:7228",
+   "ml:davidoff:7276"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9dd8a13e15a02f96"
+  "enriquecido": true,
+  "hashContenido": "d4c46edb3f3ec335"
  },
  "slug": "agua-de-toilette-davidoff-safety-gate-10099180"
 }

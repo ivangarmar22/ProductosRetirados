@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-08"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Licuadora roja y negra.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ee869f89ff37e922"
+  "enriquecido": true,
+  "hashContenido": "d95e85aa332b8366"
  },
  "slug": "licuadora-silver-crest-safety-gate-10099401"
 }

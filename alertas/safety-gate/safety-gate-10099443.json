@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "ohne"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.08.2017 - 27.04.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Componente del vehículo, sistema de fijación ISOFIX para asientos traseros de autocaravana.",
-   "fechasTexto": "29.08.2017 - 27.04.2026"
+   "fechasTexto": "29.08.2017 - 27.04.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -90,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01936/26",
-   "mm:aguti:ohne"
+   "mm:aguti:ohne",
+   "ml:aguti:29-08-2017-27-04-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8503aaaca627145a"
+  "enriquecido": true,
+  "hashContenido": "4135c207f666060f"
  },
  "slug": "pieza-del-vehiculo-sistema-de-fijacion-isofix-aguti-safety-gate-10099443"
 }

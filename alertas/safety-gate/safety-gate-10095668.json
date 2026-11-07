@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,16 +28,18 @@
    ],
    "modelos": [
     "e2*2007/46*0684*28 CAPTUR II",
-    "e2*2018/858*00018*09 e2*2018/858*00018*11 MEGANE E-TECH",
-    "SCENIC E-TECH",
-    "e9*2018/858*30002*13 e9*2018/858*30002*16 AUSTRAL",
-    "ESPACE VI",
-    "RAFALE :"
+    "e2*2018/858*00018*09 e2*2018/858*00018*11 MEGANE E-TECH, SCENIC E-TECH",
+    "e9*2018/858*30002*13 e9*2018/858*30002*16 AUSTRAL, ESPACE VI, RAFALE :"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10/04/2024 - 16/01/2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "10/04/2024 - 16/01/2025"
+   "fechasTexto": "10/04/2024 - 16/01/2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,19 +109,17 @@
   "claves": [
    "ref:SR/03262/25",
    "mm:renault:e2-2007-46-0684-28-captur-ii",
-   "mm:renault:e2-2018-858-00018-09-e2-2018-858-00018-11-megane-e-tech",
-   "mm:renault:scenic-e-tech",
-   "mm:renault:e9-2018-858-30002-13-e9-2018-858-30002-16-austral",
-   "mm:renault:espace-vi",
-   "mm:renault:rafale"
+   "mm:renault:e2-2018-858-00018-09-e2-2018-858-00018-11-megane-e-tech-scenic-e-tech",
+   "mm:renault:e9-2018-858-30002-13-e9-2018-858-30002-16-austral-espace-vi-rafale",
+   "ml:renault:10-04-2024-16-01-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "678aefeed2a0152d"
+  "enriquecido": true,
+  "hashContenido": "1fd539f17174e881"
  },
  "slug": "coche-de-pasajeros-renault-safety-gate-10095668"
 }

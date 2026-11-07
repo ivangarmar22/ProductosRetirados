@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-14"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -38,7 +38,8 @@
     "8712930022312"
    ],
    "descripcion": "Base para un asiento de coche",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "HR",
+   "IE",
+   "IS",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "96598fba972f20aa"
+  "enriquecido": true,
+  "hashContenido": "632e3c56880c8792"
  },
  "slug": "base-para-el-asiento-del-coche-maxi-cosi-safety-gate-10099211"
 }

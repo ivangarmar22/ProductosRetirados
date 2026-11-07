@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -37,10 +37,15 @@
     "SCENIC E-Tech : e2*2018/858*00018*09 - e2*2018/858*00018*10 - e2*2018/858*00018*11",
     "SYMBIOZ : e2*2007/46*0684*27 - e2*2007/46*0684*28 - e2*2007/46*0684*29 - e2*2007/46*0684*30"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12/04/2024 - 07/05/2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12/04/2024 - 07/05/2025"
+   "fechasTexto": "12/04/2024 - 07/05/2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +75,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "IE",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -125,15 +134,16 @@
    "mm:renault:megane-e-tech-e2-2018-858-00018-09-e2-2018-858-00018-10-e2-2018-858-00018-01",
    "mm:renault:rafale-e2-2018-858-00018-12-e2-2018-858-00018-13-e2-2018-858-00018-14-e2-2018-858-00018-15-e2-2018-858-00018-16",
    "mm:renault:scenic-e-tech-e2-2018-858-00018-09-e2-2018-858-00018-10-e2-2018-858-00018-11",
-   "mm:renault:symbioz-e2-2007-46-0684-27-e2-2007-46-0684-28-e2-2007-46-0684-29-e2-2007-46-0684-30"
+   "mm:renault:symbioz-e2-2007-46-0684-27-e2-2007-46-0684-28-e2-2007-46-0684-29-e2-2007-46-0684-30",
+   "ml:renault:12-04-2024-07-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "62acd6cf1a38c166"
+  "enriquecido": true,
+  "hashContenido": "43d804869fd45a8b"
  },
  "slug": "coche-de-pasajeros-renault-safety-gate-10095876"
 }

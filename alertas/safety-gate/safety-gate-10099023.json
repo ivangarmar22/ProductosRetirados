@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    ],
    "ean": [],
    "descripcion": "Juego de juguetes compuesto por figuras y objetos relacionados con el espacio.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "93c2e73f25f90356"
+  "enriquecido": true,
+  "hashContenido": "ed4f30a9214c9f9c"
  },
  "slug": "juego-de-juguetes-1set-simulation-satellite-rocket-space-capsule-unive-safety-gate-10099023"
 }

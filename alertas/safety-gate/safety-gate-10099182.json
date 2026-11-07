@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "1627416286"
+     "numero": "16274"
+    },
+    {
+     "numero": "16286"
     }
    ],
    "ean": [],
    "descripcion": "Eau de toilette, destinado a mujeres, 100 ml. Solo las fragancias recordadas por Savers Health and Beauty se ven afectadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -84,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01700/26",
-   "ml:fcuk:1627416286"
+   "ml:fcuk:16274",
+   "ml:fcuk:16286"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5edca1352da0eb18"
+  "enriquecido": true,
+  "hashContenido": "0507299bd36e91e3"
  },
  "slug": "agua-de-toilette-fcuk-safety-gate-10099182"
 }

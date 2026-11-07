@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8437026061708"
    ],
    "descripcion": "Estera de juego de puzles de espuma con 16 piezas de esterilla con piezas de borde. Cada pieza tiene un motivo de safari, como un león, un elefante o una jirafa. Dimensiones 30 x 30 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de película"
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +118,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0a25e31ed28954f8"
+  "enriquecido": true,
+  "hashContenido": "6ae39f2d75da5dfc"
  },
  "slug": "alfombra-de-juego-de-rompecabezas-asenme-safety-gate-10099438"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-02"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -24,7 +24,8 @@
   {
    "nombre": "E-Bike SUV Trekkingrad 28 Zoll E-ACTV 900 LF Automatik Owuru ( und E-ACTV 900 HF)",
    "marcas": [
-    "Riverside, Rockrider"
+    "Riverside",
+    "Rockrider"
    ],
    "modelos": [
     "8751865",
@@ -33,7 +34,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,16 +97,18 @@
  "dedup": {
   "claves": [
    "ref:SR/01989/26",
-   "mm:riverside-rockrider:8751865",
-   "mm:riverside-rockrider:8774848"
+   "mm:riverside:8751865",
+   "mm:riverside:8774848",
+   "mm:rockrider:8751865",
+   "mm:rockrider:8774848"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4f66264d49eed150"
+  "enriquecido": true,
+  "hashContenido": "d55292290a16a142"
  },
  "slug": "bicicleta-electrica-riverside-rockrider-safety-gate-10098870"
 }

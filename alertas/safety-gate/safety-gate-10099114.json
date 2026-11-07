@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-08"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,12 +30,16 @@
    ],
    "lotes": [
     {
-     "numero": "BF-202410-001BO874521"
+     "numero": "BF-202410-001"
+    },
+    {
+     "numero": "BO874521"
     }
    ],
    "ean": [],
    "descripcion": "Juguete suave en forma de conejo marrón con nariz rosa, ojos de plástico negro y cintas en las orejas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "88940c21d6e5c8ed"
+  "enriquecido": true,
+  "hashContenido": "1a24f45a07fe29f1"
  },
  "slug": "juguete-suave-peluche-lapin-magnon-safety-gate-10099114"
 }

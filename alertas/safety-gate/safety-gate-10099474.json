@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,7 +24,8 @@
   {
    "nombre": "CHARGER",
    "marcas": [
-    "PREDATOR, PREPHONE"
+    "PREDATOR",
+    "PREPHONE"
    ],
    "modelos": [
     "GQ-162",
@@ -35,7 +36,8 @@
     "8007623001386"
    ],
    "descripcion": "Adaptador de cargador USB de plástico blanco con tres puertos de salida USB-A, 3.5A.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón verde y blanco con una lengüeta colgante, con una imagen del producto en la parte delantera."
   }
  ],
  "riesgo": {
@@ -97,16 +99,18 @@
   "claves": [
    "ref:SR/01985/26",
    "ean:8007623001386",
-   "mm:predator-prephone:gq-162",
-   "mm:predator-prephone:hc175"
+   "mm:predator:gq-162",
+   "mm:predator:hc175",
+   "mm:prephone:gq-162",
+   "mm:prephone:hc175"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e21ec5b27bd56067"
+  "enriquecido": true,
+  "hashContenido": "096cd8b8a07e7acd"
  },
  "slug": "cargador-usb-predator-prephone-safety-gate-10099474"
 }

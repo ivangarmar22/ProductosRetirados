@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-29"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "09/251092090"
+     "numero": "09/25"
+    },
+    {
+     "numero": "1092090"
     }
    ],
    "ean": [],
    "descripcion": "Oso de felpa de gran peso, destinado a niños de más de 3 años, con una bolsa con cremallera que contiene un corazón lleno de perlas de cerámica que se pueden calentar y enfriar.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje."
   }
  ],
  "riesgo": {
@@ -104,15 +108,16 @@
   "claves": [
    "ref:SR/01876/26",
    "mm:build-a-bear-workshop:434464",
-   "ml:build-a-bear-workshop:09-251092090"
+   "ml:build-a-bear-workshop:09-25",
+   "ml:build-a-bear-workshop:1092090"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32b2de0d20e4ef77"
+  "enriquecido": true,
+  "hashContenido": "c021c97bfdcb1f1d"
  },
  "slug": "juguete-de-peluche-build-a-bear-workshop-safety-gate-10099225"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juego imprimible en 3D con horca de plástico y «hombre colgado».",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón azul marino."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cc3b88c09453f3df"
+  "enriquecido": true,
+  "hashContenido": "638ef2e690fdf621"
  },
  "slug": "juego-de-mesa-playbook-d-safety-gate-10099369"
 }

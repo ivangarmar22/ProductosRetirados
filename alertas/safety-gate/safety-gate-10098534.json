@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-12"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Grava y bicicletas de carreras destinadas a uso deportivo en carreteras pavimentadas y sin pavimentar. Estas bicicletas tienen un marco ligero (por ejemplo, aluminio o carbono), frenos de disco y una cadena de engranajes múltiples.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6e2a831beb1d06f5"
+  "enriquecido": true,
+  "hashContenido": "0c7415660ab22731"
  },
  "slug": "bicicleta-ktm-fahrrad-safety-gate-10098534"
 }

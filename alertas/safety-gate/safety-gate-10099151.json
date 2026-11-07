@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-08"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -27,13 +27,13 @@
     "JIADUN"
    ],
    "modelos": [
-    "AA-3-07b",
-    "GT068-CadetBlue"
+    "AA-3-07b ; GT068-CadetBlue"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Portabebés de tela.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -99,16 +99,15 @@
  "dedup": {
   "claves": [
    "ref:SR/01618/26",
-   "mm:jiadun:aa-3-07b",
-   "mm:jiadun:gt068-cadetblue"
+   "mm:jiadun:aa-3-07b-gt068-cadetblue"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "27c64b560ddde9fc"
+  "enriquecido": true,
+  "hashContenido": "763daba9cf93994c"
  },
  "slug": "portabebes-jiadun-safety-gate-10099151"
 }

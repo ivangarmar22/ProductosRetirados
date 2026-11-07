@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Fijación de corte con eje y dos cadenas metálicas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9c5745e929f88f22"
+  "enriquecido": true,
+  "hashContenido": "62ba6df75e1e7c7d"
  },
  "slug": "accesorio-para-cortador-de-cepillos-tete-de-tondeuse-a-gazon-bobine-ch-safety-gate-10099254"
 }

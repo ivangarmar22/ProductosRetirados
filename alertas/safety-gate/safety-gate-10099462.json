@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "UGE-453",
-    "UHE-452",
-    "UHE-53",
-    "e1*2018/858*00111*09",
-    "e1*2018/858*00089*10",
-    "e1*2018/858*00088*09"
+    "UGE-453, UHE-452, UHE-53",
+    "e1*2018/858*00111*09, e1*2018/858*00089*10, e1*2018/858*00088*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.10.2025 - 18.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Un camión.",
-   "fechasTexto": "31.10.2025 - 18.12.2025"
+   "fechasTexto": "31.10.2025 - 18.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -91,20 +92,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01938/26",
-   "mm:mercedes-benz:uge-453",
-   "mm:mercedes-benz:uhe-452",
-   "mm:mercedes-benz:uhe-53",
-   "mm:mercedes-benz:e1-2018-858-00111-09",
-   "mm:mercedes-benz:e1-2018-858-00089-10",
-   "mm:mercedes-benz:e1-2018-858-00088-09"
+   "mm:mercedes-benz:uge-453-uhe-452-uhe-53",
+   "mm:mercedes-benz:e1-2018-858-00111-09-e1-2018-858-00089-10-e1-2018-858-00088-09",
+   "ml:mercedes-benz:31-10-2025-18-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ab8cda7fbe8874ee"
+  "enriquecido": true,
+  "hashContenido": "d292b37676c127b3"
  },
  "slug": "camion-mercedes-benz-safety-gate-10099462"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "08J06J00708K45K20508K46K205"
+     "numero": "08J06J007"
+    },
+    {
+     "numero": "08K45K205"
+    },
+    {
+     "numero": "08K46K205"
     }
    ],
    "ean": [
     "3386469215535"
    ],
    "descripcion": "Agua de toilette, 100 ml. Solo las fragancias recordadas por Savers Health and Beauty se ven afectadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -87,15 +94,17 @@
   "claves": [
    "ref:SR/01705/26",
    "ean:3386469215535",
-   "ml:paul-smith:08j06j00708k45k20508k46k205"
+   "ml:paul-smith:08j06j007",
+   "ml:paul-smith:08k45k205",
+   "ml:paul-smith:08k46k205"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5c0987da1d7d3efb"
+  "enriquecido": true,
+  "hashContenido": "7068f0d280771c89"
  },
  "slug": "agua-de-toilette-paul-smith-safety-gate-10099187"
 }

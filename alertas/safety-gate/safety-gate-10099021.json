@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Conjunto de 75 figuras de juguete en diferentes formas, vendidas como Regalos de Apreciación del Empleado a granel para compañeros de trabajo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b71a796525c0106d"
+  "enriquecido": true,
+  "hashContenido": "3af5ccca5b403137"
  },
  "slug": "figuras-de-juguete-tulikemg-safety-gate-10099021"
 }

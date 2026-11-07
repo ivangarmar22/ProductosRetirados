@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Schnierle"
    ],
    "modelos": [
-    "2000",
-    "10B",
-    "1000",
-    "1352",
-    "E8*16R08*16842*",
-    "E1*16R09/00*2428*",
-    "E1*16R09/00*2429*",
-    "E1*16R09/00*2445*"
+    "2000, 10B, 1000, 1352",
+    "E8*16R08*16842*, E1*16R09/00*2428*, E1*16R09/00*2429*, E1*16R09/00*2445*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08. 2024 - 22.05. 2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo (sistema de cinturón de seguridad; cinturón de regazo), 185 mm / 220 mm / 260 mm / 300 mm.",
-   "fechasTexto": "01.08. 2024 - 22.05. 2026"
+   "fechasTexto": "01.08. 2024 - 22.05. 2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -88,22 +87,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01982/26",
-   "mm:schnierle:2000",
-   "mm:schnierle:10b",
-   "mm:schnierle:1000",
-   "mm:schnierle:1352",
-   "mm:schnierle:e8-16r08-16842",
-   "mm:schnierle:e1-16r09-00-2428",
-   "mm:schnierle:e1-16r09-00-2429",
-   "mm:schnierle:e1-16r09-00-2445"
+   "mm:schnierle:2000-10b-1000-1352",
+   "mm:schnierle:e8-16r08-16842-e1-16r09-00-2428-e1-16r09-00-2429-e1-16r09-00-2445",
+   "ml:schnierle:01-08-2024-22-05-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "79ae1fff7dbe03cf"
+  "enriquecido": true,
+  "hashContenido": "e0b6bda6c0da177d"
  },
  "slug": "parte-del-vehiculo-schnierle-safety-gate-10099524"
 }

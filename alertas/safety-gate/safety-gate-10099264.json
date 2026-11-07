@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-08"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Adaptador AC/DC.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e5116642e00435aa"
+  "enriquecido": true,
+  "hashContenido": "ccb327310d43dc52"
  },
  "slug": "adaptador-switching-power-supply-lighting-transformer-ac-dc-adapter-safety-gate-10099264"
 }

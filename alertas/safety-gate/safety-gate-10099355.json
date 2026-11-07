@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E4*54R00/23*44429*00 (C3)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2023 - 01.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumáticos para camiones.",
-   "fechasTexto": "01.01.2023 - 01.10.2025"
+   "fechasTexto": "01.01.2023 - 01.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01855/26",
-   "mm:yokohama:e4-54r00-23-44429-00-c3"
+   "mm:yokohama:e4-54r00-23-44429-00-c3",
+   "ml:yokohama:01-01-2023-01-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "85b60f69716705fa"
+  "enriquecido": true,
+  "hashContenido": "c05dd4ec6f53df31"
  },
  "slug": "pieza-del-vehiculo-neumatico-yokohama-safety-gate-10099355"
 }

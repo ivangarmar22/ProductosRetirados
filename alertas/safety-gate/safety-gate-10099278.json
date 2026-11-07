@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-03"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Adaptador con enchufe de pared.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1c00ec0bacfe7564"
+  "enriquecido": true,
+  "hashContenido": "c2fd01c5e07cef16"
  },
  "slug": "adaptador-ac-dc-adapter-safety-gate-10099278"
 }

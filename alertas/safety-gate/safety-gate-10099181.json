@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,13 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "C006045742830065K90603810491L60776931240"
+     "numero": "C006045742830065"
+    },
+    {
+     "numero": "K90603810491"
+    },
+    {
+     "numero": "L60776931240"
     }
    ],
    "ean": [
@@ -37,7 +43,8 @@
     "3607344163773"
    ],
    "descripcion": "Agua de toilette, 60 ml y 110 ml. Solo las fragancias recordadas por Savers Health and Beauty se ven afectadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón rojo."
   }
  ],
  "riesgo": {
@@ -93,15 +100,17 @@
    "ref:SR/01699/26",
    "ean:3414200908559",
    "ean:3607344163773",
-   "ml:davidoff:c006045742830065k90603810491l60776931240"
+   "ml:davidoff:c006045742830065",
+   "ml:davidoff:k90603810491",
+   "ml:davidoff:l60776931240"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4c622f493cf8ef8f"
+  "enriquecido": true,
+  "hashContenido": "a2c35271e03646b7"
  },
  "slug": "agua-de-toilette-davidoff-safety-gate-10099181"
 }

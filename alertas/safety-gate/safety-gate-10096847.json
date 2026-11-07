@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-31"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Collar de babero de metal dorado con diamantes de imitación y perlas no metálicas. Producto vendido en línea, en particular a través de eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico"
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f450e7dacedb8e9"
+  "enriquecido": true,
+  "hashContenido": "808d7e18fd65a1ae"
  },
  "slug": "collar-ppg-pgg-safety-gate-10096847"
 }

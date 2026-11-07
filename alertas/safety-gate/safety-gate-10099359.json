@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Desodorante, 60 g.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lata con una tapa de tornillo."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5b8f24760a9b0432"
+  "enriquecido": true,
+  "hashContenido": "c58dafa3a3ae8461"
  },
  "slug": "desodorante-plangger-naturwaren-safety-gate-10099359"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Jaguar"
    ],
    "modelos": [
-    "e11*2007/46*3324*",
-    "e11*2007/46*2150*",
-    "e11*2007/46*2981*"
+    "e11*2007/46*3324*, e11*2007/46*2150*, e11*2007/46*2981*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.01.2015 - 29.04.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con airbags Takata.",
-   "fechasTexto": "07.01.2015 - 29.04.2017"
+   "fechasTexto": "07.01.2015 - 29.04.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -92,17 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01783/26",
-   "mm:jaguar:e11-2007-46-3324",
-   "mm:jaguar:e11-2007-46-2150",
-   "mm:jaguar:e11-2007-46-2981"
+   "mm:jaguar:e11-2007-46-3324-e11-2007-46-2150-e11-2007-46-2981",
+   "ml:jaguar:07-01-2015-29-04-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5434753bbd484d2b"
+  "enriquecido": true,
+  "hashContenido": "e204bd026b364ab6"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10099260"
 }

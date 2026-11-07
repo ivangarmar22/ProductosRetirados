@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Herramienta de corte para cortador de cepillos, que consta de un eje y dos cadenas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f59d41840e3a2082"
+  "enriquecido": true,
+  "hashContenido": "0de87ded5b8b3b15"
  },
  "slug": "accesorio-para-cortador-de-cepillos-tete-de-coupe-universelle-avec-cha-safety-gate-10099253"
 }

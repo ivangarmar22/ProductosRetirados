@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Jaguar Land Rover"
    ],
    "modelos": [
-    "e5*2007/46*1047*00-*99",
-    "e5*2007/46*0125*00-*99",
-    "e5*2007/46*0092*??",
-    "e9*2018/858*11120*00-*99",
-    "e9*2018/858*11229*00-*99",
-    "e5*2007/46*1057*00-*99"
+    "e5*2007/46*1047*00-*99, e5*2007/46*0125*00-*99, e5*2007/46*0092*??, e9*2018/858*11120*00-*99, e9*2018/858*11229*00-*99, e5*2007/46*1057*00-*99"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.03.2024 - 18.04.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con un motor diésel Ingenium I6 3.0 L.",
-   "fechasTexto": "01.03.2024 - 18.04.2026"
+   "fechasTexto": "01.03.2024 - 18.04.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "HU",
+   "IS",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,20 +109,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01971/26",
-   "mm:jaguar-land-rover:e5-2007-46-1047-00-99",
-   "mm:jaguar-land-rover:e5-2007-46-0125-00-99",
-   "mm:jaguar-land-rover:e5-2007-46-0092",
-   "mm:jaguar-land-rover:e9-2018-858-11120-00-99",
-   "mm:jaguar-land-rover:e9-2018-858-11229-00-99",
-   "mm:jaguar-land-rover:e5-2007-46-1057-00-99"
+   "mm:jaguar-land-rover:e5-2007-46-1047-00-99-e5-2007-46-0125-00-99-e5-2007-46-0092-e9-2018-858-11120-00-99-e9-2018-858-11229-00-99-e5-2007-46-1057-00-99",
+   "ml:jaguar-land-rover:01-03-2024-18-04-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eea8964ce56b5acc"
+  "enriquecido": true,
+  "hashContenido": "f7820eadf0ab6491"
  },
  "slug": "coche-de-pasajeros-jaguar-land-rover-safety-gate-10099444"
 }

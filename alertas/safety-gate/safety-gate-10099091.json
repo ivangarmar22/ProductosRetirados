@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-06-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,27 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "C5 035243245C5 0358243115C5 0358243122D6 0360154033D6 0360154735"
+     "numero": "C5 035243245"
+    },
+    {
+     "numero": "C5 0358243115"
+    },
+    {
+     "numero": "C5 0358243122"
+    },
+    {
+     "numero": "D6 0360154033"
+    },
+    {
+     "numero": "D6 0360154735"
     }
    ],
    "ean": [
     "3607348541812"
    ],
    "descripcion": "Agua de toilette, 30ml. Solo las fragancias recordadas por Savers Health and Beauty se ven afectadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -87,15 +100,19 @@
   "claves": [
    "ref:SR/01548/26",
    "ean:3607348541812",
-   "ml:calvin-klein:c5-035243245c5-0358243115c5-0358243122d6-0360154033d6-0360154735"
+   "ml:calvin-klein:c5-035243245",
+   "ml:calvin-klein:c5-0358243115",
+   "ml:calvin-klein:c5-0358243122",
+   "ml:calvin-klein:d6-0360154033",
+   "ml:calvin-klein:d6-0360154735"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ae80a514704763cc"
+  "enriquecido": true,
+  "hashContenido": "f09ac0874ea2a6f4"
  },
  "slug": "agua-de-toilette-calvin-klein-safety-gate-10099091"
 }

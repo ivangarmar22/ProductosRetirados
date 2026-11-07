@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-07-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-03"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -74,7 +74,8 @@
     "5050837662419"
    ],
    "descripcion": "Figuras de juguete elásticas que se asemejan a personajes monstruosos. Todos los lotes se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -108,7 +109,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -188,11 +192,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0cb447bc04b46510"
+  "enriquecido": true,
+  "hashContenido": "ef9cc30c62650d67"
  },
  "slug": "juguete-de-estatuilla-relleno-de-arena-hti-group-safety-gate-10099300"
 }
