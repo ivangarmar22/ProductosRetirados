@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-16"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -35,7 +35,8 @@
     "2200134834962"
    ],
    "descripcion": "Auriculares inalámbricos blancos con cable de carga USB.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana de plástico."
   }
  ],
  "riesgo": {
@@ -69,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,11 +123,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e0349884ca2a7aa8"
+  "enriquecido": true,
+  "hashContenido": "f95817af9d7c627a"
  },
  "slug": "auriculares-inalambricos-dasounds-safety-gate-10098362"
 }

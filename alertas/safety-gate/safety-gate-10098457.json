@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Llave de trinquete recargable con un enchufe de pared y baterías de 12v.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a53134d89a7d4deb"
+  "enriquecido": true,
+  "hashContenido": "300cd5e97b1153d6"
  },
  "slug": "llave-electrica-feytory-safety-gate-10098457"
 }

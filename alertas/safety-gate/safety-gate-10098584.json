@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0625*28-*32",
-    "e2*2007/46*0624*26 (E)"
+    "e2*2007/46*0625*28-*32, e2*2007/46*0624*26 (E)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.03.2024 - 21.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "06.03.2024 - 21.05.2025"
+   "fechasTexto": "06.03.2024 - 21.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HR",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,16 +89,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01174/26",
-   "mm:peugeot:e2-2007-46-0625-28-32",
-   "mm:peugeot:e2-2007-46-0624-26-e"
+   "mm:peugeot:e2-2007-46-0625-28-32-e2-2007-46-0624-26-e",
+   "ml:peugeot:06-03-2024-21-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c4d4554d5154c675"
+  "enriquecido": true,
+  "hashContenido": "4d4c1454c78f48b9"
  },
  "slug": "furgoneta-de-pasajeros-peugeot-safety-gate-10098584"
 }

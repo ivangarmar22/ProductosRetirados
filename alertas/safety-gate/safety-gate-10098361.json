@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-17"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Hervidor de agua plegable portátil de 600 ml con un calentador de agua de silicona de 600 W. Producto vendido en línea, en particular a través de SHEIN (identificador único del producto: sv25041052903832322) y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0077386ebe36f1c9"
+  "enriquecido": true,
+  "hashContenido": "279a05bb9a745bed"
  },
  "slug": "hervidor-electrico-travel-electric-kettle-safety-gate-10098361"
 }

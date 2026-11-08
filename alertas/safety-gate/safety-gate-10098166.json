@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-17"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Calentador diesel portátil de color naranja y negro con asa.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2d9e37cfa8e06b60"
+  "enriquecido": true,
+  "hashContenido": "e5644db1ed1356bb"
  },
  "slug": "calentador-diesel-vevor-safety-gate-10098166"
 }

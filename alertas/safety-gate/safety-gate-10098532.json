@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "8123"
-    },
-    {
-     "numero": "17963"
+     "numero": "8123, 17963"
     }
    ],
    "ean": [
     "817338026899"
    ],
    "descripcion": "Conjunto de construcción magnético que consta de varias baldosas geométricas, incluidas baldosas cuadradas y triangulares con imanes incrustados en los bordes. Lotes afectados: noviembre de 2025 y abril de 2025.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -111,16 +109,15 @@
    "ref:SR/01119/26",
    "ean:817338026899",
    "mm:everplay:ep66",
-   "ml:everplay:8123",
-   "ml:everplay:17963"
+   "ml:everplay:8123-17963"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50051656794777fc"
+  "enriquecido": true,
+  "hashContenido": "706c7338d6578a36"
  },
  "slug": "juguete-magnetico-everplay-safety-gate-10098532"
 }

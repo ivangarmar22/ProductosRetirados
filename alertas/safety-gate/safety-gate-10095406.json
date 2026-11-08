@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "KJ",
     "e9*2007/46*3134*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.9.2022 - 7.4.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "21.9.2022 - 7.4.2025"
+   "fechasTexto": "21.9.2022 - 7.4.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "CY",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +98,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02845/25",
-   "mm:seat:e9-2007-46-3134"
+   "mm:seat:e9-2007-46-3134",
+   "ml:seat:21-9-2022-7-4-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "47949f3f0ec942e0"
+  "enriquecido": true,
+  "hashContenido": "868c5ed582f085a9"
  },
  "slug": "coche-de-pasajeros-seat-safety-gate-10095406"
 }

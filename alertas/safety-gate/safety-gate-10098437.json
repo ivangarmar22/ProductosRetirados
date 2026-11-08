@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,28 @@
     "Peugeot"
    ],
    "modelos": [
-    "208 V2",
-    "308 V3 : e2*2007/46*0628*36 e2*2007/46*0628*38 e2*2007/46*0628*39",
+    "208 V2, 308 V3 : e2*2007/46*0628*36 e2*2007/46*0628*38 e2*2007/46*0628*39",
     "EXPERT 4 : e2*2007/46*0533*29 e2*2007/46*0533*30 e2*2007/46*0533*31 e2*2007/46*0533*32 g11*2018/858*00687*01 g11*2018/858*00687*02 g11*2018/858*00687*03",
-    "RIFTER",
-    "PARTNER : e2*2007/46*0624*31 e2*2007/46*0624*32 e2*2007/46*0624*33 e2*2007/46*0625*34 e2*2007/46*0625*35 e2*2007/46*0625*36 g11*2018/858*00948*00 g11*2018/858*00949*00 g11*2018/858*00949*01"
+    "RIFTER / PARTNER : e2*2007/46*0624*31 e2*2007/46*0624*32 e2*2007/46*0624*33 e2*2007/46*0625*34 e2*2007/46*0625*35 e2*2007/46*0625*36 g11*2018/858*00948*00 g11*2018/858*00949*00 g11*2018/858*00949*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "208 V2: 02.11.2025 - 24.02.2026"
+    },
+    {
+     "numero": "308 V3: 19.10.2025 - 05.02.2026"
+    },
+    {
+     "numero": "EXPERT 4: 15.10.2025 - 28.02.2026"
+    },
+    {
+     "numero": "RIFTER / PARTNER: 15.10.2025 - 26.02.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros / Furgoneta de pasajeros. 308 V3: VIN: VR3FCYHZ3SY602929 - VR3FCYHZ5TY519195 208 V2: VIN: VR3UBYHT2S5111548 - VR3UBYHTXT5044554 RIFTER / PARTNER: VIN: VR3EBYHT6SJ893476 - VR3EDYHT7VN001551 EXPERT 4: VIN: VF3VJYHVXRU368327 - VF3VJYHV5TZ019649",
-   "fechasTexto": "208 V2: 02.11.2025 - 24.02.2026308 V3: 19.10.2025 - 05.02.2026EXPERT 4: 15.10.2025 - 28.02.2026RIFTER / PARTNER: 15.10.2025 - 26.02.2026"
+   "fechasTexto": "208 V2: 02.11.2025 - 24.02.2026308 V3: 19.10.2025 - 05.02.2026EXPERT 4: 15.10.2025 - 28.02.2026RIFTER / PARTNER: 15.10.2025 - 26.02.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +78,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "MT",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,19 +123,21 @@
  "dedup": {
   "claves": [
    "ref:SR/00970/26",
-   "mm:peugeot:208-v2",
-   "mm:peugeot:308-v3-e2-2007-46-0628-36-e2-2007-46-0628-38-e2-2007-46-0628-39",
+   "mm:peugeot:208-v2-308-v3-e2-2007-46-0628-36-e2-2007-46-0628-38-e2-2007-46-0628-39",
    "mm:peugeot:expert-4-e2-2007-46-0533-29-e2-2007-46-0533-30-e2-2007-46-0533-31-e2-2007-46-0533-32-g11-2018-858-00687-01-g11-2018-858-00687-02-g11-2018-858-00687-03",
-   "mm:peugeot:rifter",
-   "mm:peugeot:partner-e2-2007-46-0624-31-e2-2007-46-0624-32-e2-2007-46-0624-33-e2-2007-46-0625-34-e2-2007-46-0625-35-e2-2007-46-0625-36-g11-2018-858-00948-00-g11-2018-858-00949-00-g11-2018-858-00949-01"
+   "mm:peugeot:rifter-partner-e2-2007-46-0624-31-e2-2007-46-0624-32-e2-2007-46-0624-33-e2-2007-46-0625-34-e2-2007-46-0625-35-e2-2007-46-0625-36-g11-2018-858-00948-00-g11-2018-858-00949-00-g11-2018-858-00949-01",
+   "ml:peugeot:208-v2-02-11-2025-24-02-2026",
+   "ml:peugeot:308-v3-19-10-2025-05-02-2026",
+   "ml:peugeot:expert-4-15-10-2025-28-02-2026",
+   "ml:peugeot:rifter-partner-15-10-2025-26-02-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3fdd7a44e89739b2"
+  "enriquecido": true,
+  "hashContenido": "b462f5ce0ad47d71"
  },
  "slug": "coche-de-pasajeros-furgoneta-de-pasajeros-peugeot-safety-gate-10098437"
 }

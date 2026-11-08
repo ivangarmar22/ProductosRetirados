@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Adaptador de viaje negro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fd1ab73fbe4c3b55"
+  "enriquecido": true,
+  "hashContenido": "b59d84136a13da52"
  },
  "slug": "adaptador-de-viaje-decqle-safety-gate-10098418"
 }

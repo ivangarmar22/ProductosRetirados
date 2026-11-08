@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-01"
  },
  "categoria": {
   "literal": "Equipos de comunicación e información",
@@ -36,7 +36,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Sistema de alarma por voz para edificios. El sistema de alarma por voz se utiliza para informar a las personas mediante un altavoz (por ejemplo, anuncios) y en situaciones de emergencia (por ejemplo, instrucciones de evacuación en caso de incendio). Producto vendido en línea, en particular a través de www.esser-systems.com",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "82bcfbf515abde57"
+  "enriquecido": true,
+  "hashContenido": "f452839b94b0ac8a"
  },
  "slug": "sistema-de-alarma-por-voz-variodyn-one-safety-gate-10098203"
 }

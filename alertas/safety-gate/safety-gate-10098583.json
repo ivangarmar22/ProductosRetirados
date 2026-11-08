@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0625*28-*32 (E)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.03.2024 - 21.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "01.03.2024 - 21.05.2025"
+   "fechasTexto": "01.03.2024 - 21.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01176/26",
-   "mm:citroen:e2-2007-46-0625-28-32-e"
+   "mm:citroen:e2-2007-46-0625-28-32-e",
+   "ml:citroen:01-03-2024-21-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f31f2fa64771cf02"
+  "enriquecido": true,
+  "hashContenido": "0d80bff29f37f389"
  },
  "slug": "furgoneta-de-pasajeros-citroen-safety-gate-10098583"
 }

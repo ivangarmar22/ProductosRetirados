@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "DS4 V2 e2*2007/46*0628*38 e2*2007/46*0628*39 g11*2018/858*00753*04",
     "DS7 CROSSBACK e2*2007/46*0601*29"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "DS4 V2 : 05.12.2025 - 27.02.2026"
+    },
+    {
+     "numero": "DS7 CROSSBACK: 19.10.2025 - 05.02.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. DS4 V2 : VIN: VR1FCYHZ1S1061302 - VR1FCYHZ9T1011328 DS7 CROSSBACK: VIN: VR1JCYHZ7SY603827 - VR1JCYHZXTY518899",
-   "fechasTexto": "DS4 V2 : 05.12.2025 - 27.02.2026DS7 CROSSBACK: 19.10.2025 - 05.02.2026"
+   "fechasTexto": "DS4 V2 : 05.12.2025 - 27.02.2026DS7 CROSSBACK: 19.10.2025 - 05.02.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +98,17 @@
   "claves": [
    "ref:SR/00971/26",
    "mm:ds-automobiles:ds4-v2-e2-2007-46-0628-38-e2-2007-46-0628-39-g11-2018-858-00753-04",
-   "mm:ds-automobiles:ds7-crossback-e2-2007-46-0601-29"
+   "mm:ds-automobiles:ds7-crossback-e2-2007-46-0601-29",
+   "ml:ds-automobiles:ds4-v2-05-12-2025-27-02-2026",
+   "ml:ds-automobiles:ds7-crossback-19-10-2025-05-02-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ee22f5e8f9ac2db2"
+  "enriquecido": true,
+  "hashContenido": "87f63810bfcc2d37"
  },
  "slug": "coche-de-pasajeros-ds-automobiles-safety-gate-10098441"
 }

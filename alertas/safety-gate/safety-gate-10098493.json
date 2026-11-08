@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-20"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -25,20 +25,17 @@
    "nombre": "Juguete suave con llavero",
    "marcas": [],
    "modelos": [
-    "11002230005-02",
-    "22005-2P2"
+    "11002230005-02, 22005-2P2"
    ],
    "lotes": [
     {
-     "numero": "11002230005-02"
-    },
-    {
-     "numero": "22005-2P2"
+     "numero": "11002230005-02, 22005-2P2"
     }
    ],
    "ean": [],
    "descripcion": "Juguete suave con un llavero en forma de monstruo parecido a Labubu. El producto es falso.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,11 +116,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4b79fa97db6acb27"
+  "enriquecido": true,
+  "hashContenido": "dc81a5036e89ebfb"
  },
  "slug": "juguete-suave-con-llavero-safety-gate-10098493"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-28"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -35,7 +35,8 @@
     "3616037424947"
    ],
    "descripcion": "Bolsos de mano, en negro y marrón, destinados a las mujeres. Producto vendido en línea, en particular a través de www.kiabi.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2239b3674c2ecfff"
+  "enriquecido": true,
+  "hashContenido": "a19a12f323246416"
  },
  "slug": "bolso-de-mano-kiabi-safety-gate-10098568"
 }

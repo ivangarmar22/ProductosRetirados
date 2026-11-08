@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-13"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje, 30 ml. Producto vendido en línea, en particular a través de ptitrock.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella con gorra negra."
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "DE",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0fd24c08e6829f66"
+  "enriquecido": true,
+  "hashContenido": "21f0d10f153e319c"
  },
  "slug": "tinta-de-tatuaje-eternal-link-safety-gate-10098308"
 }

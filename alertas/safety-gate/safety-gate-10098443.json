@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,18 @@
    "modelos": [
     "e2*2007/46*0531*30 e2*2007/46*0531*31 e2*2007/46*0531*32 g11*2018/858*00685*01 g11*2018/858*00685*02 g11*2018/858*00685*03 g11*2018/858*00685*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Berlingo: 15.10.2025 - 02.03.2026"
+    },
+    {
+     "numero": "Jumpy: 15.10.2025 - 28.02.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros / Vehículo comercial ligero. Berlingo: VIN: VR7EBYHT0RJ088341 - VR7EDYHT5VN001563 Jumpy: VIN: VF7VJYHV1RU357781 - VF7VJYHV8TZ022141",
-   "fechasTexto": "Berlingo: 15.10.2025 - 02.03.2026Jumpy: 15.10.2025 - 28.02.2026"
+   "fechasTexto": "Berlingo: 15.10.2025 - 02.03.2026Jumpy: 15.10.2025 - 28.02.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +70,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +102,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00969/26",
-   "mm:citroen:e2-2007-46-0531-30-e2-2007-46-0531-31-e2-2007-46-0531-32-g11-2018-858-00685-01-g11-2018-858-00685-02-g11-2018-858-00685-03-g11-2018-858-00685-04"
+   "mm:citroen:e2-2007-46-0531-30-e2-2007-46-0531-31-e2-2007-46-0531-32-g11-2018-858-00685-01-g11-2018-858-00685-02-g11-2018-858-00685-03-g11-2018-858-00685-04",
+   "ml:citroen:berlingo-15-10-2025-02-03-2026",
+   "ml:citroen:jumpy-15-10-2025-28-02-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3dc89cdfd48ae23f"
+  "enriquecido": true,
+  "hashContenido": "1740eef623c812d4"
  },
  "slug": "coche-de-pasajeros-vehiculo-comercial-ligero-citroen-safety-gate-10098443"
 }

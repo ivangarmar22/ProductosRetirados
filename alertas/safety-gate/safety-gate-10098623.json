@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "CITROEN"
    ],
    "modelos": [
-    "e2*2007/46*0624*31",
-    "e2*2007/46*0624*32",
-    "e2*2007/46*0625*34",
-    "e2*2007/46*0625*35"
+    "e2*2007/46*0624*31, e2*2007/46*0624*32, e2*2007/46*0625*34, e2*2007/46*0625*35"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.10.2025 - 10.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros. VIN: VR7EBYHTXRN591139 - VR7EDYHP1TN514776",
-   "fechasTexto": "01.10.2025 - 10.12.2025"
+   "fechasTexto": "01.10.2025 - 10.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "LU",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,18 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01175/26",
-   "mm:citroen:e2-2007-46-0624-31",
-   "mm:citroen:e2-2007-46-0624-32",
-   "mm:citroen:e2-2007-46-0625-34",
-   "mm:citroen:e2-2007-46-0625-35"
+   "mm:citroen:e2-2007-46-0624-31-e2-2007-46-0624-32-e2-2007-46-0625-34-e2-2007-46-0625-35",
+   "ml:citroen:01-10-2025-10-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fd172404893e1cf8"
+  "enriquecido": true,
+  "hashContenido": "167e0b9d88ee0463"
  },
  "slug": "furgoneta-de-pasajeros-citroen-safety-gate-10098623"
 }

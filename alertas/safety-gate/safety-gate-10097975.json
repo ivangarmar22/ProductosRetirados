@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-06"
  },
  "categoria": {
   "literal": "Artículos de decoración",
@@ -63,7 +63,8 @@
     "6411923688208"
    ],
    "descripcion": "Velas en diferentes colores y tamaños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -93,7 +94,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "Dinamarca",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -147,11 +150,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7159f734664c3d65"
+  "enriquecido": true,
+  "hashContenido": "84c03942885c1e33"
  },
  "slug": "velas-iittala-glow-safety-gate-10097975"
 }

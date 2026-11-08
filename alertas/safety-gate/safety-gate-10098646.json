@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "006992129255"
+     "numero": "0069"
+    },
+    {
+     "numero": "9212"
+    },
+    {
+     "numero": "9255"
     }
    ],
    "ean": [
     "3607349796402"
    ],
    "descripcion": "Fragancia corporal, destinada a mujeres, con tapón de plástico rojo, 75 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -110,15 +117,17 @@
   "claves": [
    "ref:SR/01216/26",
    "ean:3607349796402",
-   "ml:adidas:006992129255"
+   "ml:adidas:0069",
+   "ml:adidas:9212",
+   "ml:adidas:9255"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "377266db254e5cee"
+  "enriquecido": true,
+  "hashContenido": "aae58b5e2fff1189"
  },
  "slug": "fragancia-corporal-adidas-safety-gate-10098646"
 }

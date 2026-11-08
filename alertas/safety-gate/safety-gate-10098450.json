@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-12"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -27,25 +27,19 @@
     "puffmi"
    ],
    "modelos": [
-    "BANANA EDITION",
-    "BANANA ICE",
-    "STRAWBERRY BANANA",
-    "BLUEBERRY BANANA",
-    "TRIPLE MANGO BANANA",
-    "BLUEBERRY EDITION",
-    "BLUEBERRY RASPERRY BON BON",
-    "BLUEBERRY RASPBERRY CHERRY",
-    "BLUEBERRY SOUR RASPBERRY APPLE",
-    "BLUEBERRY CHERRY CRANBERRY",
-    "LIME EDITION",
-    "GUAVA LIME",
-    "RED APPLE LIME",
-    "LEMON & LIME",
-    "COLA LIME"
+    "BANANA EDITION, BANANA ICE, STRAWBERRY BANANA, BLUEBERRY BANANA, TRIPLE MANGO BANANA",
+    "BLUEBERRY EDITION, BLUEBERRY RASPERRY BON BON, BLUEBERRY RASPBERRY CHERRY, BLUEBERRY SOUR RASPBERRY APPLE, BLUEBERRY CHERRY CRANBERRY",
+    "LIME EDITION, GUAVA LIME, RED APPLE LIME, LEMON & LIME, COLA LIME"
    ],
    "lotes": [
     {
-     "numero": "PMB2L20 A PMB2L20 IPMB2L20 J"
+     "numero": "PMB2L20 A"
+    },
+    {
+     "numero": "PMB2L20 I"
+    },
+    {
+     "numero": "PMB2L20 J"
     }
    ],
    "ean": [
@@ -54,7 +48,8 @@
     "6941829252574"
    ],
    "descripcion": "Cigarrillo electrónico que permite al usuario vapear desde dos cartuchos de 2 ml simultáneamente. Fecha de producción: 21/12/2024.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -130,30 +125,20 @@
    "ean:6941829252475",
    "ean:6941829252550",
    "ean:6941829252574",
-   "mm:puffmi:banana-edition",
-   "mm:puffmi:banana-ice",
-   "mm:puffmi:strawberry-banana",
-   "mm:puffmi:blueberry-banana",
-   "mm:puffmi:triple-mango-banana",
-   "mm:puffmi:blueberry-edition",
-   "mm:puffmi:blueberry-rasperry-bon-bon",
-   "mm:puffmi:blueberry-raspberry-cherry",
-   "mm:puffmi:blueberry-sour-raspberry-apple",
-   "mm:puffmi:blueberry-cherry-cranberry",
-   "mm:puffmi:lime-edition",
-   "mm:puffmi:guava-lime",
-   "mm:puffmi:red-apple-lime",
-   "mm:puffmi:lemon-lime",
-   "mm:puffmi:cola-lime",
-   "ml:puffmi:pmb2l20-a-pmb2l20-ipmb2l20-j"
+   "mm:puffmi:banana-edition-banana-ice-strawberry-banana-blueberry-banana-triple-mango-banana",
+   "mm:puffmi:blueberry-edition-blueberry-rasperry-bon-bon-blueberry-raspberry-cherry-blueberry-sour-raspberry-apple-blueberry-cherry-cranberry",
+   "mm:puffmi:lime-edition-guava-lime-red-apple-lime-lemon-lime-cola-lime",
+   "ml:puffmi:pmb2l20-a",
+   "ml:puffmi:pmb2l20-i",
+   "ml:puffmi:pmb2l20-j"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76ee4070e751a5b0"
+  "enriquecido": true,
+  "hashContenido": "93e122a3e61980f0"
  },
  "slug": "cigarrillo-electronico-puffmi-safety-gate-10098450"
 }

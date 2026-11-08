@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Accesorio para cortadoras de cepillos para recortar y cortar bordes de césped u otra vegetación. El accesorio de corte consta de seis cuchillos móviles que se pueden utilizar para cortar cuando giran a alta velocidad. Producto vendido en línea, en particular a través de Alibaba (identificador único: 1601726063565).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f05a46e266690831"
+  "enriquecido": true,
+  "hashContenido": "0a640bd4bb195d9d"
  },
  "slug": "accesorio-para-cortador-de-cepillos-mr-drill-safety-gate-10098542"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Fiat"
    ],
    "modelos": [
-    "e2*2007/46*0624*31",
-    "e2*2007/46*0624*32",
-    "e2*2007/46*0625*34",
-    "e2*2007/46*0625*35"
+    "e2*2007/46*0624*31, e2*2007/46*0624*32, e2*2007/46*0625*34, e2*2007/46*0625*35"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.10.2025 - 10.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN: VYFEDYHZ2TN508021 - VYFEDYHZ2TN514577.",
-   "fechasTexto": "1.10.2025 - 10.12.2025"
+   "fechasTexto": "1.10.2025 - 10.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "HU",
+   "LU",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,18 +89,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01171/26",
-   "mm:fiat:e2-2007-46-0624-31",
-   "mm:fiat:e2-2007-46-0624-32",
-   "mm:fiat:e2-2007-46-0625-34",
-   "mm:fiat:e2-2007-46-0625-35"
+   "mm:fiat:e2-2007-46-0624-31-e2-2007-46-0624-32-e2-2007-46-0625-34-e2-2007-46-0625-35",
+   "ml:fiat:1-10-2025-10-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bafee5747f8245d7"
+  "enriquecido": true,
+  "hashContenido": "65f5e9e7b182bc86"
  },
  "slug": "coche-de-pasajeros-fiat-safety-gate-10098625"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "10071514232815"
+     "numero": "100715"
+    },
+    {
+     "numero": "14232815"
     }
    ],
    "ean": [
     "5201314006916"
    ],
    "descripcion": "Desodorante, 75 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -82,15 +86,16 @@
   "claves": [
    "ref:SR/01144/26",
    "ean:5201314006916",
-   "ml:c-thru:10071514232815"
+   "ml:c-thru:100715",
+   "ml:c-thru:14232815"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dc0bec7bcb140279"
+  "enriquecido": true,
+  "hashContenido": "abde31327ed07fd3"
  },
  "slug": "desodorante-c-thru-safety-gate-10098635"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-29"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,22 +27,19 @@
     "POP MART"
    ],
    "modelos": [
-    "12402230008-06",
-    "46006-2P1"
+    "12402230008-06; 46006-2P1"
    ],
    "lotes": [
     {
-     "numero": "12402230008-06"
-    },
-    {
-     "numero": "46006-2P1"
+     "numero": "12402230008-06; 46006-2P1"
     }
    ],
    "ean": [
     "6805780454753"
    ],
    "descripcion": "Juguete suave, en forma de un monstruo parecido a Labubu con un llavero.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -78,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -123,18 +122,16 @@
   "claves": [
    "ref:SR/01138/26",
    "ean:6805780454753",
-   "mm:pop-mart:12402230008-06",
-   "mm:pop-mart:46006-2p1",
-   "ml:pop-mart:12402230008-06",
-   "ml:pop-mart:46006-2p1"
+   "mm:pop-mart:12402230008-06-46006-2p1",
+   "ml:pop-mart:12402230008-06-46006-2p1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5aefa43060393530"
+  "enriquecido": true,
+  "hashContenido": "d2a7f4954076742b"
  },
  "slug": "juguete-suave-con-llavero-pop-mart-safety-gate-10098572"
 }

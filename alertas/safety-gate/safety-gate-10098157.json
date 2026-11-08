@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-29"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -31,12 +31,37 @@
    ],
    "lotes": [
     {
-     "numero": "420791014207910242079801420799014296460143067701430677024306770343179901"
+     "numero": "42079101"
+    },
+    {
+     "numero": "42079102"
+    },
+    {
+     "numero": "42079801"
+    },
+    {
+     "numero": "42079901"
+    },
+    {
+     "numero": "42964601"
+    },
+    {
+     "numero": "43067701"
+    },
+    {
+     "numero": "43067702"
+    },
+    {
+     "numero": "43067703"
+    },
+    {
+     "numero": "43179901"
     }
    ],
    "ean": [],
    "descripcion": "Chubasquero de manga larga en color verde caqui, rojo o azul, destinado a niños. El abrigo contiene una capucha no extraíble, y una abertura completa en la parte delantera cerrada por un cierre de cremallera y pernos de presión, con un bolsillo colocado a cada lado con un perno de presión y una roncha en la muñeca. Producto vendido en línea, en particular a través de okaidi.fr y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +104,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -112,15 +140,23 @@
   "claves": [
    "ref:SR/00743/26",
    "mm:okaidi:0712003-gocire",
-   "ml:okaidi:420791014207910242079801420799014296460143067701430677024306770343179901"
+   "ml:okaidi:42079101",
+   "ml:okaidi:42079102",
+   "ml:okaidi:42079801",
+   "ml:okaidi:42079901",
+   "ml:okaidi:42964601",
+   "ml:okaidi:43067701",
+   "ml:okaidi:43067702",
+   "ml:okaidi:43067703",
+   "ml:okaidi:43179901"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9bfcb03bd1426552"
+  "enriquecido": true,
+  "hashContenido": "ca57fefd842628dc"
  },
  "slug": "chaqueta-de-lluvia-para-ninos-okaidi-safety-gate-10098157"
 }

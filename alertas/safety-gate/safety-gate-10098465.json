@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Audi"
    ],
    "modelos": [
-    "F2",
-    "GH",
-    "FZ",
-    "e1*2007/46*1801*",
-    "e1*2018/858*00393*",
-    "e1*2018/858*00006*"
+    "F2, GH, FZ",
+    "e1*2007/46*1801*, e1*2018/858*00393*, e1*2018/858*00006*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.06.2025 - 10.09.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "17.06.2025 - 10.09.2025"
+   "fechasTexto": "17.06.2025 - 10.09.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FR",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,17 +96,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01052/26",
-   "mm:audi:e1-2007-46-1801",
-   "mm:audi:e1-2018-858-00393",
-   "mm:audi:e1-2018-858-00006"
+   "mm:audi:f2-gh-fz",
+   "mm:audi:e1-2007-46-1801-e1-2018-858-00393-e1-2018-858-00006",
+   "ml:audi:17-06-2025-10-09-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e413c0ad31712cf1"
+  "enriquecido": true,
+  "hashContenido": "f221fdce20a3a6dc"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10098465"
 }

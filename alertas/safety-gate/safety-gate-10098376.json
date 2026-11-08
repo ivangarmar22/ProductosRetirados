@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "6931571071929"
    ],
    "descripcion": "Juguete suave que reproduce música, en la forma de un monstruo parecido a Labubu con ojos y dientes de color arco iris.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -110,11 +114,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1a335dc9e9ada0ac"
+  "enriquecido": true,
+  "hashContenido": "56fb2d0bda152ac3"
  },
  "slug": "juguete-suave-pop-mart-counterfeit-safety-gate-10098376"
 }

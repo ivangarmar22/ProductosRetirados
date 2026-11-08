@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Una pistola de calafateo inalámbrica con baterías de litio recargables de 20v y enchufe de pared.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +62,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,11 +82,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "44b00845aeca8f7d"
+  "enriquecido": true,
+  "hashContenido": "3d92500b398566ed"
  },
  "slug": "arma-de-calafateo-cordless-caulking-gun-safety-gate-10098337"
 }

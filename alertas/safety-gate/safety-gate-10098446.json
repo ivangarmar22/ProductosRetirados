@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "EB",
-    "EBN",
-    "E1",
-    "E2",
-    "e1*2018/858*00164*",
-    "e1*2018/858*00165*",
-    "e1*2007/46*2033*",
-    "e1*2018/858*00004*"
+    "EB, EBN, E1, E2",
+    "e1*2018/858*00164*, e1*2018/858*00165*, e1*2007/46*2033*, e1*2018/858*00004*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.02.2022 - 23.08.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Lata de pasajeros / Furgoneta de pasajeros.",
-   "fechasTexto": "17.02.2022 - 23.08.2024"
+   "fechasTexto": "17.02.2022 - 23.08.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "IE",
+   "IS",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,19 +109,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00953/26",
-   "mm:vw:ebn",
-   "mm:vw:e1-2018-858-00164",
-   "mm:vw:e1-2018-858-00165",
-   "mm:vw:e1-2007-46-2033",
-   "mm:vw:e1-2018-858-00004"
+   "mm:vw:eb-ebn-e1-e2",
+   "mm:vw:e1-2018-858-00164-e1-2018-858-00165-e1-2007-46-2033-e1-2018-858-00004",
+   "ml:vw:17-02-2022-23-08-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5019ab9e2509ca4c"
+  "enriquecido": true,
+  "hashContenido": "c4dc38e24a970236"
  },
  "slug": "coche-de-pasajeros-furgoneta-de-pasajeros-vw-safety-gate-10098446"
 }

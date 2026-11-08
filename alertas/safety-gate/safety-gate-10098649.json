@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "Playboy"
    ],
    "modelos": [
-    "FOR HIM",
-    "POUR LUI"
+    "FOR HIM, POUR LUI"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "5050456521517"
    ],
    "descripcion": "Desodorante, spray natural, destinado a hombres, 75 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio con tapa de plástico negro."
   }
  ],
  "riesgo": {
@@ -105,17 +105,16 @@
   "claves": [
    "ref:SR/01214/26",
    "ean:5050456521517",
-   "mm:playboy:for-him",
-   "mm:playboy:pour-lui",
+   "mm:playboy:for-him-pour-lui",
    "ml:playboy:9289"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f5e32941419439cc"
+  "enriquecido": true,
+  "hashContenido": "21d0bcc52408f880"
  },
  "slug": "desodorante-playboy-safety-gate-10098649"
 }

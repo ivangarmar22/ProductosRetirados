@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-18"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -37,7 +37,8 @@
     "4059562486391"
    ],
    "descripcion": "Mochila en varios colores. Producto vendido en línea, en particular a través de jako.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,7 +84,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE",
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c929af12aec0f813"
+  "enriquecido": true,
+  "hashContenido": "4dde47565457a578"
  },
  "slug": "mochila-jako-safety-gate-10098301"
 }

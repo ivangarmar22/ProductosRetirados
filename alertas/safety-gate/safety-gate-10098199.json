@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-28"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Montar en la cortadora de césped para cortar el césped grande.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "HR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7e8da9ace3b95820"
+  "enriquecido": true,
+  "hashContenido": "91075c99f2a58e09"
  },
  "slug": "cortacesped-stihl-safety-gate-10098199"
 }

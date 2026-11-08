@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-20"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "051040510505299"
+     "numero": "05104"
+    },
+    {
+     "numero": "05105"
+    },
+    {
+     "numero": "05299"
     }
    ],
    "ean": [
     "4020972126238"
    ],
    "descripcion": "Montessori tablero ocupado usando luces de colores e interruptores para promover las habilidades motoras finas. Colorida tabla de madera de forma ergonómica con llave, dos interruptores giratorios, un botón, cable con enchufe DC, dos interruptores de palanca y un botón deslizante. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -86,15 +93,17 @@
   "claves": [
    "ref:SR/01120/26",
    "ean:4020972126238",
-   "ml:small-foot:051040510505299"
+   "ml:small-foot:05104",
+   "ml:small-foot:05105",
+   "ml:small-foot:05299"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7fee6c5849310bba"
+  "enriquecido": true,
+  "hashContenido": "b866d3c46e2c9092"
  },
  "slug": "tablero-de-juguete-de-actividad-small-foot-safety-gate-10098484"
 }

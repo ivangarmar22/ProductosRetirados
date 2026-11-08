@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2018/858*00110*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.12.2025"
+   "fechasTexto": "12.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00954/26",
-   "mm:nissan:e2-2018-858-00110"
+   "mm:nissan:e2-2018-858-00110",
+   "ml:nissan:12-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db2872d1621bd2ed"
+  "enriquecido": true,
+  "hashContenido": "77bda7a2417da3f6"
  },
  "slug": "coche-de-pasajeros-nissan-safety-gate-10098389"
 }

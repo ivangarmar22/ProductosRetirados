@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0069281"
+     "numero": "0069"
+    },
+    {
+     "numero": "281"
     }
    ],
    "ean": [
     "3607347420064"
    ],
    "descripcion": "Desodorante, destinado a mujeres, 75 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio con tapa de plástico rojo."
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ref:SR/01209/26",
    "ean:3607347420064",
    "mm:adidas:fun-sensation",
-   "ml:adidas:0069281"
+   "ml:adidas:0069",
+   "ml:adidas:281"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "da67e1589ae7e254"
+  "enriquecido": true,
+  "hashContenido": "c9068cc487f60d8a"
  },
  "slug": "desodorante-adidas-safety-gate-10098647"
 }

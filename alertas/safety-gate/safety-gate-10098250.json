@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "4011905458243"
    ],
    "descripcion": "Juguete blando accionado por batería, destinado a gatos, en forma de pez.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "13050d2edea03766"
+  "enriquecido": true,
+  "hashContenido": "21f860f22887652b"
  },
  "slug": "juguete-suave-trixie-safety-gate-10098250"
 }

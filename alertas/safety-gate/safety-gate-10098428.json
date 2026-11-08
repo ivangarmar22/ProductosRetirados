@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,27 @@
     "Opel/Vauxhall"
    ],
    "modelos": [
-    "ASTRA-L",
-    "CORSA : e2*2007/46*0628*38 e2*2007/46*0628*39",
-    "COMBO",
-    "VIVARO : e2*2007/46*0622*31 e2*2007/46*0622*32 e2*2007/46*0623*34 e2*2007/46*0623*35 e2*2007/46*0623*36 g11*2018/858*00950*00 g11*2018/858*00950*01 g11*2018/858*00951*00 g11*2018/858*00951*01"
+    "ASTRA-L, CORSA : e2*2007/46*0628*38 e2*2007/46*0628*39",
+    "COMBO, VIVARO : e2*2007/46*0622*31 e2*2007/46*0622*32 e2*2007/46*0623*34 e2*2007/46*0623*35 e2*2007/46*0623*36 g11*2018/858*00950*00 g11*2018/858*00950*01 g11*2018/858*00951*00 g11*2018/858*00951*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Astra L: 04.12.2025 - 27.02.2026"
+    },
+    {
+     "numero": "Combo: 15.10.2025 - 18.02.2026"
+    },
+    {
+     "numero": "Corsa: 06.11.2025 - 08.02.2026"
+    },
+    {
+     "numero": "Vivaro: 15.10.2025 - 28.02.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros / Furgoneta de pasajeros. Astra L: VIN: VXKFBYHZ5S1059822 - VXKFCYHZ2T1012326 Corsa: VIN: VXKUBYHT4S4255283 - VXKUBYHT8T4047926 Combo: VIN: W0VEDYHT4SJ893235 - W0VEDYHT9TN526051 Vivaro: VIN: VXEVJYHV4SU352138 - VXEVJYHV9TZ021950",
-   "fechasTexto": "Astra L: 04.12.2025 - 27.02.2026Combo: 15.10.2025 - 18.02.2026Corsa: 06.11.2025 - 08.02.2026Vivaro: 15.10.2025 - 28.02.2026"
+   "fechasTexto": "Astra L: 04.12.2025 - 27.02.2026Combo: 15.10.2025 - 18.02.2026Corsa: 06.11.2025 - 08.02.2026Vivaro: 15.10.2025 - 28.02.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +77,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "MT",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,18 +118,20 @@
  "dedup": {
   "claves": [
    "ref:SR/01050/26",
-   "mm:opel-vauxhall:astra-l",
-   "mm:opel-vauxhall:corsa-e2-2007-46-0628-38-e2-2007-46-0628-39",
-   "mm:opel-vauxhall:combo",
-   "mm:opel-vauxhall:vivaro-e2-2007-46-0622-31-e2-2007-46-0622-32-e2-2007-46-0623-34-e2-2007-46-0623-35-e2-2007-46-0623-36-g11-2018-858-00950-00-g11-2018-858-00950-01-g11-2018-858-00951-00-g11-2018-858-00951-01"
+   "mm:opel-vauxhall:astra-l-corsa-e2-2007-46-0628-38-e2-2007-46-0628-39",
+   "mm:opel-vauxhall:combo-vivaro-e2-2007-46-0622-31-e2-2007-46-0622-32-e2-2007-46-0623-34-e2-2007-46-0623-35-e2-2007-46-0623-36-g11-2018-858-00950-00-g11-2018-858-00950-01-g11-2018-858-00951-00-g11-2018-858-00951-01",
+   "ml:opel-vauxhall:astra-l-04-12-2025-27-02-2026",
+   "ml:opel-vauxhall:combo-15-10-2025-18-02-2026",
+   "ml:opel-vauxhall:corsa-06-11-2025-08-02-2026",
+   "ml:opel-vauxhall:vivaro-15-10-2025-28-02-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5da74b5690ba246c"
+  "enriquecido": true,
+  "hashContenido": "f8895847c626110b"
  },
  "slug": "coche-de-pasajeros-furgoneta-de-pasajeros-opel-vauxhall-safety-gate-10098428"
 }

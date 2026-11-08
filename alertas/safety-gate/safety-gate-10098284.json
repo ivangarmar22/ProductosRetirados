@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,25 +27,18 @@
     "Triumph"
    ],
    "modelos": [
-    "e13*168/2013*01050*",
-    "e13*168/2013*01051*",
-    "e5*168/2013*00003*",
-    "e5*168/2013*00004*",
-    "e9*168/2013*11259*",
-    "e13*168/2013*01049*",
-    "e5*168/2013*00009*",
-    "e5*168/2013*00010*",
-    "e9*168/2013*11597*",
-    "e9*168/2013*11596",
-    "e5*168/2013*00011*",
-    "e5*168/2013*00012*",
-    "e9*168/2013*11595*",
-    "e9*168/2013*11594*"
+    "e13*168/2013*01050*, e13*168/2013*01051*, e5*168/2013*00003*, e5*168/2013*00004*, e9*168/2013*11259*, e13*168/2013*01049*, e5*168/2013*00009*, e5*168/2013*00010*, e9*168/2013*11597*, e9*168/2013*11596",
+    "e5*168/2013*00011*, e5*168/2013*00012*, e9*168/2013*11595*, e9*168/2013*11594*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.11.2020 - 04.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "23.11.2020 - 04.12.2023"
+   "fechasTexto": "23.11.2020 - 04.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +70,14 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FR",
+   "IE",
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -133,28 +133,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00848/26",
-   "mm:triumph:e13-168-2013-01050",
-   "mm:triumph:e13-168-2013-01051",
-   "mm:triumph:e5-168-2013-00003",
-   "mm:triumph:e5-168-2013-00004",
-   "mm:triumph:e9-168-2013-11259",
-   "mm:triumph:e13-168-2013-01049",
-   "mm:triumph:e5-168-2013-00009",
-   "mm:triumph:e5-168-2013-00010",
-   "mm:triumph:e9-168-2013-11597",
-   "mm:triumph:e9-168-2013-11596",
-   "mm:triumph:e5-168-2013-00011",
-   "mm:triumph:e5-168-2013-00012",
-   "mm:triumph:e9-168-2013-11595",
-   "mm:triumph:e9-168-2013-11594"
+   "mm:triumph:e13-168-2013-01050-e13-168-2013-01051-e5-168-2013-00003-e5-168-2013-00004-e9-168-2013-11259-e13-168-2013-01049-e5-168-2013-00009-e5-168-2013-00010-e9-168-2013-11597-e9-168-2013-11596",
+   "mm:triumph:e5-168-2013-00011-e5-168-2013-00012-e9-168-2013-11595-e9-168-2013-11594",
+   "ml:triumph:23-11-2020-04-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "62c6dc93cdd24deb"
+  "enriquecido": true,
+  "hashContenido": "fdc966a506218092"
  },
  "slug": "motocicleta-triumph-safety-gate-10098284"
 }

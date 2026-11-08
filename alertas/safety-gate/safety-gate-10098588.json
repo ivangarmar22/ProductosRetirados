@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-06"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6974824282239"
    ],
    "descripcion": "Una parrilla electrónica con un enchufe de pared.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ce2ac595a76f089a"
+  "enriquecido": true,
+  "hashContenido": "57073b2a6cb73df1"
  },
  "slug": "parrilla-electrica-sokany-safety-gate-10098588"
 }

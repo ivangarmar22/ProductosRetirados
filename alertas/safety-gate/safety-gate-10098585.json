@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0623*29-*32 (E)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.04.2024 - 06.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "01.04.2024 - 06.05.2025"
+   "fechasTexto": "01.04.2024 - 06.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "LU",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01177/26",
-   "mm:opel:e2-2007-46-0623-29-32-e"
+   "mm:opel:e2-2007-46-0623-29-32-e",
+   "ml:opel:01-04-2024-06-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "898037dc8813de43"
+  "enriquecido": true,
+  "hashContenido": "e64ee63ac2778526"
  },
  "slug": "furgoneta-de-pasajeros-opel-safety-gate-10098585"
 }

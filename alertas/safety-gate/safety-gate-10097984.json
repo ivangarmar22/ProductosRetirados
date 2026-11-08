@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "4028667183771"
    ],
    "descripcion": "Juguete suave gris y blanco en forma de perro con nariz negra.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c3091173111e292b"
+  "enriquecido": true,
+  "hashContenido": "c64df3cede8cc442"
  },
  "slug": "juguete-suave-unitoys-safety-gate-10097984"
 }

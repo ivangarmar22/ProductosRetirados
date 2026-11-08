@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,14 +27,13 @@
     "THT"
    ],
    "modelos": [
-    "02",
-    "36",
-    "37"
+    "02, 36, 37"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Gel de revestimiento",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella cuadrada"
   }
  ],
  "riesgo": {
@@ -86,15 +85,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/00140/26"
+   "ref:SR/00140/26",
+   "mm:tht:02-36-37"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "763bb4c45614de8f"
+  "enriquecido": true,
+  "hashContenido": "03598e2a89c3db6c"
  },
  "slug": "esmalte-de-unas-de-gel-tht-safety-gate-10097095"
 }

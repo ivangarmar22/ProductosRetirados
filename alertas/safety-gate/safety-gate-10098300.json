@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-24"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -41,7 +41,8 @@
     "4059562486575"
    ],
    "descripcion": "Bolso deportivo con compartimento inferior en diferentes colores. Producto vendido en línea, en particular a través de jako.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -87,7 +88,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -119,11 +123,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f049916fca8dc83"
+  "enriquecido": true,
+  "hashContenido": "8139b3d6de3b438c"
  },
  "slug": "bolsa-de-deporte-jako-safety-gate-10098300"
 }

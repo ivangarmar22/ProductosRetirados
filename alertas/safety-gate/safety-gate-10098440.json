@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-29"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Arnés con hebillas para las piernas diseñado para proteger contra caídas de altura que pueden causar lesiones graves.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "Túnez",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "107056ea47b349f0"
+  "enriquecido": true,
+  "hashContenido": "94b7dc161a8d3229"
  },
  "slug": "arnes-de-seguridad-honeywell-miller-safety-gate-10098440"
 }

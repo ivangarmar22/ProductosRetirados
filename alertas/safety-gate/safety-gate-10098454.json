@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Secador de pelo de color plateado y rosa con cable blanco y enchufe. Producto vendido en línea, en particular a través de Amazon (ASIN: B0DRCWZNHH).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b3466c59840ba172"
+  "enriquecido": true,
+  "hashContenido": "c148e18b2353341e"
  },
  "slug": "secador-de-pelo-aiunaom-safety-gate-10098454"
 }

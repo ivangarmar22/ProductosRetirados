@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cuentas de agua multicolores, que crecen cuando se sumergen en agua. Producto vendido en línea, en particular a través de Amazon (ASIN: B0CHQVHH4L).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tarro de plástico transparente con una tapa blanca."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "459788d514b649ad"
+  "enriquecido": true,
+  "hashContenido": "80f732fd77cc6526"
  },
  "slug": "juguete-expandible-a4r-safety-gate-10097971"
 }

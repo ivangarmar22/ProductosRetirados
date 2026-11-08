@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,39 @@
    ],
    "lotes": [
     {
-     "numero": "447951449852461271464023468702469430472451474460475172"
+     "numero": "447951"
+    },
+    {
+     "numero": "449852"
+    },
+    {
+     "numero": "461271"
+    },
+    {
+     "numero": "464023"
+    },
+    {
+     "numero": "468702"
+    },
+    {
+     "numero": "469430"
+    },
+    {
+     "numero": "472451"
+    },
+    {
+     "numero": "474460"
+    },
+    {
+     "numero": "475172"
     }
    ],
    "ean": [
     "3611871504602"
    ],
    "descripcion": "Juguete suave gris en forma de conejo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,7 +101,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,15 +135,23 @@
    "ref:SR/01192/26",
    "ean:3611871504602",
    "mm:maisons-du-monde:150460",
-   "ml:maisons-du-monde:447951449852461271464023468702469430472451474460475172"
+   "ml:maisons-du-monde:447951",
+   "ml:maisons-du-monde:449852",
+   "ml:maisons-du-monde:461271",
+   "ml:maisons-du-monde:464023",
+   "ml:maisons-du-monde:468702",
+   "ml:maisons-du-monde:469430",
+   "ml:maisons-du-monde:472451",
+   "ml:maisons-du-monde:474460",
+   "ml:maisons-du-monde:475172"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "66f0f5a5e9548d63"
+  "enriquecido": true,
+  "hashContenido": "f650822d7f8d5f92"
  },
  "slug": "juguete-suave-maisons-du-monde-safety-gate-10098577"
 }

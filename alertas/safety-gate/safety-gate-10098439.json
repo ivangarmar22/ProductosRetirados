@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "Doblo e2*2007/46*0624*31 e2*2007/46*0624*32 e2*2007/46*0625*34 e2*2007/46*0625*35 g11*2018/858*00949*01",
     "Scudo e2*2007/46*0533 e2*2007/46*0533*27 e2*2007/46*0533*31 g11*2018/858*00687*01 g11*2018/858*00687*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Doblo: 15.10.2025 - 24.02.2026"
+    },
+    {
+     "numero": "Scudo: 15.10.2025 - 28.02.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Doblo: VIN: VYFEBYHZ3SJ904941 - VYFEDYHT5TN523950 Escudo: VIN: VXFVJYHV9SU355774 - VXFVJYHV4VZ000003",
-   "fechasTexto": "Doblo: 15.10.2025 - 24.02.2026Scudo: 15.10.2025 - 28.02.2026"
+   "fechasTexto": "Doblo: 15.10.2025 - 24.02.2026Scudo: 15.10.2025 - 28.02.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +102,17 @@
   "claves": [
    "ref:SR/00965/26",
    "mm:fiat:doblo-e2-2007-46-0624-31-e2-2007-46-0624-32-e2-2007-46-0625-34-e2-2007-46-0625-35-g11-2018-858-00949-01",
-   "mm:fiat:scudo-e2-2007-46-0533-e2-2007-46-0533-27-e2-2007-46-0533-31-g11-2018-858-00687-01-g11-2018-858-00687-02"
+   "mm:fiat:scudo-e2-2007-46-0533-e2-2007-46-0533-27-e2-2007-46-0533-31-g11-2018-858-00687-01-g11-2018-858-00687-02",
+   "ml:fiat:doblo-15-10-2025-24-02-2026",
+   "ml:fiat:scudo-15-10-2025-28-02-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9ce5aec2e4a1d92f"
+  "enriquecido": true,
+  "hashContenido": "b7d7a8d1c181931d"
  },
  "slug": "coche-de-pasajeros-fiat-safety-gate-10098439"
 }

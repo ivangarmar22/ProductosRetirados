@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0624*31",
-    "e2*2007/46*0624*32",
-    "e2*2007/46*0625*34",
-    "e2*2007/46*0625*35"
+    "e2*2007/46*0624*31, e2*2007/46*0624*32, e2*2007/46*0625*34, e2*2007/46*0625*35"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.10.2025 - 10.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN: VR3EDYHZ4SN565559 - VR3EDYHT2TN514607.",
-   "fechasTexto": "1.10.2025 - 10.12.2025"
+   "fechasTexto": "1.10.2025 - 10.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "LU",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,18 +97,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01169/26",
-   "mm:peugeot:e2-2007-46-0624-31",
-   "mm:peugeot:e2-2007-46-0624-32",
-   "mm:peugeot:e2-2007-46-0625-34",
-   "mm:peugeot:e2-2007-46-0625-35"
+   "mm:peugeot:e2-2007-46-0624-31-e2-2007-46-0624-32-e2-2007-46-0625-34-e2-2007-46-0625-35",
+   "ml:peugeot:1-10-2025-10-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cc6a564c472e2edc"
+  "enriquecido": true,
+  "hashContenido": "08023adf2b905126"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10098626"
 }

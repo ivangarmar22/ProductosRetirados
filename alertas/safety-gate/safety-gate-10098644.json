@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Can-am"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2025 - 2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "2025 - 2026"
+   "fechasTexto": "2025 - 2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +89,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/01231/26"
+   "ref:SR/01231/26",
+   "ml:can-am:2025-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b173a2b2c8c220cf"
+  "enriquecido": true,
+  "hashContenido": "cefca8c2b0d9b269"
  },
  "slug": "motocicleta-can-am-safety-gate-10098644"
 }

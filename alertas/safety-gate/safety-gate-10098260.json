@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R117: E2 0423206 S2W2R3B",
     "R30: E2 0270154"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.01.2026 - 30.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumáticos. DOT0326 y DOT0426.",
-   "fechasTexto": "19.01.2026 - 30.01.2026"
+   "fechasTexto": "19.01.2026 - 30.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,15 +84,16 @@
   "claves": [
    "ref:OR/00029/26",
    "mm:michelin:r117-e2-0423206-s2w2r3b",
-   "mm:michelin:r30-e2-0270154"
+   "mm:michelin:r30-e2-0270154",
+   "ml:michelin:19-01-2026-30-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e035fb12589cb386"
+  "enriquecido": true,
+  "hashContenido": "4128b3ec9aa85812"
  },
  "slug": "parte-del-vehiculo-neumatico-michelin-safety-gate-10098260"
 }

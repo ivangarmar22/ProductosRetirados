@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-13"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje azul, 30 ml. Referencia: C.I. 77891 - C.I. 42090 La fecha de fabricación es marzo de 2024 y la fecha de caducidad es septiembre de 2026.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "21b45256b9c37b1f"
+  "enriquecido": true,
+  "hashContenido": "ef0d041528cd4a5b"
  },
  "slug": "tinta-de-tatuaje-dynamic-safety-gate-10098171"
 }

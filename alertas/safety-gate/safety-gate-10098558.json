@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-21"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -34,7 +34,25 @@
    ],
    "lotes": [
     {
-     "numero": "L2409/37L2511/46L2512/50M2410/40M2411/45M2510/44M2511/46"
+     "numero": "L2409/37"
+    },
+    {
+     "numero": "L2511/46"
+    },
+    {
+     "numero": "L2512/50"
+    },
+    {
+     "numero": "M2410/40"
+    },
+    {
+     "numero": "M2411/45"
+    },
+    {
+     "numero": "M2510/44"
+    },
+    {
+     "numero": "M2511/46"
     }
    ],
    "ean": [
@@ -44,7 +62,8 @@
     "5056281401345"
    ],
    "descripcion": "Máscara respiradora reutilizable disponible con una gama de filtros, que proporciona protección en lugares de trabajo con altos niveles de polvo fino, plomo, sílice, partículas de MDF u otras formas de contaminantes industriales en el aire.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón amarillo y negro."
   }
  ],
  "riesgo": {
@@ -101,15 +120,21 @@
    "mm:dewalt:1600-dxir1ffmla2p3",
    "mm:dewalt:1600-dxir1ffmlp3",
    "mm:dewalt:1600-dxir1ffmmp3",
-   "ml:dewalt:l2409-37l2511-46l2512-50m2410-40m2411-45m2510-44m2511-46"
+   "ml:dewalt:l2409-37",
+   "ml:dewalt:l2511-46",
+   "ml:dewalt:l2512-50",
+   "ml:dewalt:m2410-40",
+   "ml:dewalt:m2411-45",
+   "ml:dewalt:m2510-44",
+   "ml:dewalt:m2511-46"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "75bc15b87258bffc"
+  "enriquecido": true,
+  "hashContenido": "a1d1bb3cd5cba2d0"
  },
  "slug": "mascara-del-respirador-dewalt-safety-gate-10098558"
 }

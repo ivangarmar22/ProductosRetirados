@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "011122507001"
    ],
    "descripcion": "Juguete suave alimentado por batería con accesorios. Producto vendido en línea, en particular a través de Amazon (ASIN: B0DYTXDTRB).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30daf59938d6eb3e"
+  "enriquecido": true,
+  "hashContenido": "e4f547743bc6c193"
  },
  "slug": "juego-de-juguetes-topbright-safety-gate-10098491"
 }

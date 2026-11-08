@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,16 @@
    ],
    "lotes": [
     {
-     "numero": "83653836548365583656"
+     "numero": "83653"
+    },
+    {
+     "numero": "83654"
+    },
+    {
+     "numero": "83655"
+    },
+    {
+     "numero": "83656"
     }
    ],
    "ean": [
@@ -43,7 +52,8 @@
     "8434077836569"
    ],
    "descripcion": "Disfraz vikingo con diadema, cinturón, túnica y polainas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico y caja de cartón con una etiqueta con marcas."
   }
  ],
  "riesgo": {
@@ -81,7 +91,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,15 +120,18 @@
    "mm:fiestas-guirca:taille-3-4-ans",
    "mm:fiestas-guirca:taille-5-6-ans",
    "mm:fiestas-guirca:taille-7-9-ans",
-   "ml:fiestas-guirca:83653836548365583656"
+   "ml:fiestas-guirca:83653",
+   "ml:fiestas-guirca:83654",
+   "ml:fiestas-guirca:83655",
+   "ml:fiestas-guirca:83656"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f7e0294c6e2afb66"
+  "enriquecido": true,
+  "hashContenido": "707bbcd37d4d75b9"
  },
  "slug": "vestido-de-fantasia-fiestas-guirca-safety-gate-10010034"
 }

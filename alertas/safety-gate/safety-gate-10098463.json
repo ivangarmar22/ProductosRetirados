@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "27938220 C2"
-    },
-    {
-     "numero": "082018"
+     "numero": "27938220 C2, 082018"
     }
    ],
    "ean": [
     "5201314069140"
    ],
    "descripcion": "Loción para después del afeitado 50 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio con una tapa en una caja de lata"
   }
  ],
  "riesgo": {
@@ -112,16 +110,15 @@
    "ref:SR/01064/26",
    "ean:5201314069140",
    "mm:str8:8571020663",
-   "ml:str8:27938220-c2",
-   "ml:str8:082018"
+   "ml:str8:27938220-c2-082018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "be2390622271bce5"
+  "enriquecido": true,
+  "hashContenido": "c229a7f63408e139"
  },
  "slug": "aftershave-str8-safety-gate-10098463"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-18"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica con cargador de batería incluido y enchufe de pared.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "627459cff107cd3f"
+  "enriquecido": true,
+  "hashContenido": "cba2e52053681eda"
  },
  "slug": "bicicleta-electrica-plegable-engwe-safety-gate-10098325"
 }

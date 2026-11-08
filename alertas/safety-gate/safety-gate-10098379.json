@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-06"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -28,24 +28,14 @@
    ],
    "modelos": [
     "GP S2 : YHSUG4",
-    "ASPHALT : YESUG0",
-    "YESUG3",
-    "YFSUG0",
-    "YFSUG1",
-    "YFSUG2",
-    "YFSUG3",
-    "YGSUG0",
-    "YGSUG1",
-    "YGSUG2",
-    "YGSUG3",
-    "VENTURE : YHSUI1",
-    "YHSUI2",
-    "YHSUI3"
+    "ASPHALT : YESUG0 / YESUG3 / YFSUG0 / YFSUG1 / YFSUG2 / YFSUG3 / YGSUG0 / YGSUG1 / YGSUG2 / YGSUG3",
+    "VENTURE : YHSUI1 / YHSUI2 / YHSUI3"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta de carreras y grava. Varios modelos se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Taiwán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,27 +92,16 @@
   "claves": [
    "ref:SR/00943/26",
    "mm:sunn:gp-s2-yhsug4",
-   "mm:sunn:asphalt-yesug0",
-   "mm:sunn:yesug3",
-   "mm:sunn:yfsug0",
-   "mm:sunn:yfsug1",
-   "mm:sunn:yfsug2",
-   "mm:sunn:yfsug3",
-   "mm:sunn:ygsug0",
-   "mm:sunn:ygsug1",
-   "mm:sunn:ygsug2",
-   "mm:sunn:ygsug3",
-   "mm:sunn:venture-yhsui1",
-   "mm:sunn:yhsui2",
-   "mm:sunn:yhsui3"
+   "mm:sunn:asphalt-yesug0-yesug3-yfsug0-yfsug1-yfsug2-yfsug3-ygsug0-ygsug1-ygsug2-ygsug3",
+   "mm:sunn:venture-yhsui1-yhsui2-yhsui3"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1c52bccee7f1d714"
+  "enriquecido": true,
+  "hashContenido": "3fd3f6ead9b85a9e"
  },
  "slug": "bicicleta-de-carreras-sunn-safety-gate-10098379"
 }
