@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Honda"
    ],
    "modelos": [
-    "FC",
-    "FK",
-    "RU",
-    "e11*2007/46*3633*01-*07",
-    "e6*2007/46*0256*01-*04",
-    "*06-*07",
-    "e6*2007/46*0158*00-*04",
-    "*06"
+    "FC, FK, RU",
+    "e11*2007/46*3633*01-*07, e6*2007/46*0256*01-*04, *06-*07, e6*2007/46*0158*00-*04, *06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.11.2014 - 01.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.11.2014 - 01.07.2021"
+   "fechasTexto": "01.11.2014 - 01.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,18 +105,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00471/26",
-   "mm:honda:e11-2007-46-3633-01-07",
-   "mm:honda:e6-2007-46-0256-01-04",
-   "mm:honda:06-07",
-   "mm:honda:e6-2007-46-0158-00-04"
+   "mm:honda:fc-fk-ru",
+   "mm:honda:e11-2007-46-3633-01-07-e6-2007-46-0256-01-04-06-07-e6-2007-46-0158-00-04-06",
+   "ml:honda:01-11-2014-01-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "483ff45035fe312d"
+  "enriquecido": true,
+  "hashContenido": "1b9950d5e992c6ad"
  },
  "slug": "coche-de-pasajeros-honda-safety-gate-10097737"
 }

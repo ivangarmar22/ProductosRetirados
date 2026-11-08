@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-27"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -39,7 +39,8 @@
     "5904182440195"
    ],
    "descripcion": "Reductor de gas, 37mbar. vendido por separado o suministrado con el calentador de gas 3,0 kW - 4,5kW (índice PG-009C / EAN 5907544446583) y calentador de gas (índice PG-009G / EAN 59075446590). Producto vendido del 03.11.2025 al 22.01.2026.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +75,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7296ab9c4ba32205"
+  "enriquecido": true,
+  "hashContenido": "2fcaeaf7e7c2a40b"
  },
  "slug": "reductor-de-gas-bradas-safety-gate-10097792"
 }

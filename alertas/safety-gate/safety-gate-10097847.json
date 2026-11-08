@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-27"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "79208N KID79209"
+     "numero": "79208N KID"
+    },
+    {
+     "numero": "79209"
     }
    ],
    "ean": [],
    "descripcion": "Casco de bicicleta, disponible en diferentes colores y tamaños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -110,15 +114,16 @@
   "claves": [
    "ref:SR/00490/26",
    "mm:bottari:caschi-per-bici-kid-taglia-s-e-taglia-m",
-   "ml:bottari:79208n-kid79209"
+   "ml:bottari:79208n-kid",
+   "ml:bottari:79209"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2b0ce5d1a88b4077"
+  "enriquecido": true,
+  "hashContenido": "a5f9f896bef17f89"
  },
  "slug": "casco-de-bicicleta-bottari-safety-gate-10097847"
 }

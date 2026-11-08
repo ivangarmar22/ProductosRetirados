@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pulsera con encantos. Producto vendido en línea, en particular a través de www.lightinthebox.com",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Noruega",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f571a1c0e02a7315"
+  "enriquecido": true,
+  "hashContenido": "02ec0b8d90f3a59b"
  },
  "slug": "pulsera-safety-gate-10097211"
 }

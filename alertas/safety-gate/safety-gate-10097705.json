@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-26"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "VOOMY"
    ],
    "modelos": [
-    "VS0611",
-    "SN 2252350"
+    "VS0611, SN 2252350"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Cable de extensión con 5 tomas, 3 puertos USB-A y 1 puerto USB-C. Producto vendido en línea, en particular a través de Amazon (ASIN: B0BSH2L3J9).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -65,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,16 +103,15 @@
  "dedup": {
   "claves": [
    "ref:SR/00401/26",
-   "mm:voomy:vs0611",
-   "mm:voomy:sn-2252350"
+   "mm:voomy:vs0611-sn-2252350"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c24f135160b3572b"
+  "enriquecido": true,
+  "hashContenido": "8e490fa1b724bc68"
  },
  "slug": "plomo-de-extension-voomy-safety-gate-10097705"
 }

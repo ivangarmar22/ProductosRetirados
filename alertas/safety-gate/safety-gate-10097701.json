@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-01"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Limpiador a vapor manual, 2500 W con 6 velocidades y 3 cabezales de cepillado diferentes. Producto vendido en línea, en particular a través de AliExpress (identificador único: 0123456789012).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2484640bfdf00e8b"
+  "enriquecido": true,
+  "hashContenido": "83bf01046d839b26"
  },
  "slug": "limpiador-de-vapor-balashov-safety-gate-10097701"
 }

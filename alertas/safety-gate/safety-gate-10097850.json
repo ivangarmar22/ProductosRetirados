@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-27"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -29,12 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "792057920679207"
+     "numero": "79205"
+    },
+    {
+     "numero": "79206"
+    },
+    {
+     "numero": "79207"
     }
    ],
    "ean": [],
    "descripcion": "Cascos de bicicleta, patineta y patinaje, tamaños grandes, medianos y pequeños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -99,15 +106,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00487/26",
-   "ml:bottari:792057920679207"
+   "ml:bottari:79205",
+   "ml:bottari:79206",
+   "ml:bottari:79207"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3e0cea25d476e034"
+  "enriquecido": true,
+  "hashContenido": "49f32803d3892244"
  },
  "slug": "casco-de-bicicleta-bottari-safety-gate-10097850"
 }

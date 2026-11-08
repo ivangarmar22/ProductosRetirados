@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,25 +27,25 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0533*30",
-    "e2*2007/46*0533*31",
-    "g11*2018/858*00687*01 Expert",
-    "e2*2007/46*0624*30",
-    "e2*2007/46*0624*31",
-    "e2*2007/46*0625*32",
-    "e2*2007/46*0625*33",
-    "e2*2007/46*0625*34",
-    "g11*2018/858*00948*00",
-    "g11*2018/858*00949*00 Rifter",
-    "Partner",
-    "e2*2007/46*0628*36",
-    "e2*2007/46*0628*37",
-    "g11*2018/858*00753*01 308 V3"
+    "e2*2007/46*0533*30, e2*2007/46*0533*31, g11*2018/858*00687*01 Expert",
+    "e2*2007/46*0624*30, e2*2007/46*0624*31, e2*2007/46*0625*32, e2*2007/46*0625*33, e2*2007/46*0625*34, g11*2018/858*00948*00, g11*2018/858*00949*00 Rifter, Partner",
+    "e2*2007/46*0628*36, e2*2007/46*0628*37, g11*2018/858*00753*01 308 V3"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "308 V3: 28.08.2025 - 07.10.2025 // VIN: VR3FCYHZ7RY654817 - VR3FCYHZ4SY600574"
+    },
+    {
+     "numero": "Expert: 29.07.2025 - 10.10.2025 // VIN: VF3VJYHV5RU339107 - VF3VJYHV1SZ088031"
+    },
+    {
+     "numero": "Rifter, Partner: 26.07.2025 - 08.10.2025 // VIN: VR3EDYHT9PJ947774 - VR3EDYHT2TN508595"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "308 V3: 28.08.2025 - 07.10.2025 // VIN: VR3FCYHZ7RY654817 - VR3FCYHZ4SY600574Expert: 29.07.2025 - 10.10.2025 // VIN: VF3VJYHV5RU339107 - VF3VJYHV1SZ088031Rifter, Partner: 26.07.2025 - 08.10.2025 // VIN: VR3EDYHT9PJ947774 - VR3EDYHT2TN508595"
+   "fechasTexto": "308 V3: 28.08.2025 - 07.10.2025 // VIN: VR3FCYHZ7RY654817 - VR3FCYHZ4SY600574Expert: 29.07.2025 - 10.10.2025 // VIN: VF3VJYHV5RU339107 - VF3VJYHV1SZ088031Rifter, Partner: 26.07.2025 - 08.10.2025 // VIN: VR3EDYHT9PJ947774 - VR3EDYHT2TN508595",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +75,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,28 +116,20 @@
  "dedup": {
   "claves": [
    "ref:SR/00360/26",
-   "mm:peugeot:e2-2007-46-0533-30",
-   "mm:peugeot:e2-2007-46-0533-31",
-   "mm:peugeot:g11-2018-858-00687-01-expert",
-   "mm:peugeot:e2-2007-46-0624-30",
-   "mm:peugeot:e2-2007-46-0624-31",
-   "mm:peugeot:e2-2007-46-0625-32",
-   "mm:peugeot:e2-2007-46-0625-33",
-   "mm:peugeot:e2-2007-46-0625-34",
-   "mm:peugeot:g11-2018-858-00948-00",
-   "mm:peugeot:g11-2018-858-00949-00-rifter",
-   "mm:peugeot:partner",
-   "mm:peugeot:e2-2007-46-0628-36",
-   "mm:peugeot:e2-2007-46-0628-37",
-   "mm:peugeot:g11-2018-858-00753-01-308-v3"
+   "mm:peugeot:e2-2007-46-0533-30-e2-2007-46-0533-31-g11-2018-858-00687-01-expert",
+   "mm:peugeot:e2-2007-46-0624-30-e2-2007-46-0624-31-e2-2007-46-0625-32-e2-2007-46-0625-33-e2-2007-46-0625-34-g11-2018-858-00948-00-g11-2018-858-00949-00-rifter-partner",
+   "mm:peugeot:e2-2007-46-0628-36-e2-2007-46-0628-37-g11-2018-858-00753-01-308-v3",
+   "ml:peugeot:308-v3-28-08-2025-07-10-2025-vin-vr3fcyhz7ry654817-vr3fcyhz4sy600574",
+   "ml:peugeot:expert-29-07-2025-10-10-2025-vin-vf3vjyhv5ru339107-vf3vjyhv1sz088031",
+   "ml:peugeot:rifter-partner-26-07-2025-08-10-2025-vin-vr3edyht9pj947774-vr3edyht2tn508595"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fdb14c568e9fb48a"
+  "enriquecido": true,
+  "hashContenido": "44e41a7b831f0426"
  },
  "slug": "coche-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10097689"
 }

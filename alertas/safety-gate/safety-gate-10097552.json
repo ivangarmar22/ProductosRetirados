@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-12"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -25,8 +25,7 @@
    "nombre": "Plush Toy",
    "marcas": [],
    "modelos": [
-    "BCD25042800033399",
-    "S25032200012100F01"
+    "BCD25042800033399 / S25032200012100F01"
    ],
    "lotes": [
     {
@@ -35,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete suave en forma de axolotl, con ojos de plástico negro. Producto vendido en línea, en particular a través de TikTok.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -73,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4a57b88a6abca563"
+  "enriquecido": true,
+  "hashContenido": "6a809ed0006ba727"
  },
  "slug": "juguete-suave-plush-toy-safety-gate-10097552"
 }

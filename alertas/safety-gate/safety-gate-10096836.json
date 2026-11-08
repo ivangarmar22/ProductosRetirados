@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0532*20 - e2*2007/46*0532*21",
     "e2*2007/46*0533*22 - e2*2007/46*0533*25"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.9.2022 - 29.1.2024 // VIN: VXFVFEHZ7JZ139171 - VXFVFEHS7PZ107280"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros, equipada con motor DW10F Euro 6.4.",
-   "fechasTexto": "29.9.2022 - 29.1.2024 // VIN: VXFVFEHZ7JZ139171 - VXFVFEHS7PZ107280"
+   "fechasTexto": "29.9.2022 - 29.1.2024 // VIN: VXFVFEHZ7JZ139171 - VXFVFEHS7PZ107280",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +102,16 @@
   "claves": [
    "ref:SR/04166/25",
    "mm:fiat:e2-2007-46-0532-20-e2-2007-46-0532-21",
-   "mm:fiat:e2-2007-46-0533-22-e2-2007-46-0533-25"
+   "mm:fiat:e2-2007-46-0533-22-e2-2007-46-0533-25",
+   "ml:fiat:29-9-2022-29-1-2024-vin-vxfvfehz7jz139171-vxfvfehs7pz107280"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8ee8bf31788b4a43"
+  "enriquecido": true,
+  "hashContenido": "2546c5f1562b2228"
  },
  "slug": "furgoneta-de-pasajeros-fiat-safety-gate-10096836"
 }

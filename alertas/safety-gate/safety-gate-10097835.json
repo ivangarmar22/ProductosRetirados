@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Anillo metálico de color plateado con estampado en relieve. Producto vendido en línea, en particular a través de AliExpress (identificación del producto: 1005008383577001)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsillo transparente"
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e6fb7786f0e64ce5"
+  "enriquecido": true,
+  "hashContenido": "402aa29a21c26005"
  },
  "slug": "anillo-s925-safety-gate-10097835"
 }

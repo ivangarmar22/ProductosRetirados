@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e3*2007/46*0045*33 - e3*2007/46*0045*34",
     "e3*2007/46*0050*32 - e3*2007/46*0050*33"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.02.2025 - 21.07.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero. VIN: VF3YDG6F8RG086843 - VF3YDT6F5TMB73894",
-   "fechasTexto": "04.02.2025 - 21.07.2025"
+   "fechasTexto": "04.02.2025 - 21.07.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,22 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +101,16 @@
    "ref:SR/00548/26",
    "mm:peugeot:e3-2007-46-0045-31",
    "mm:peugeot:e3-2007-46-0045-33-e3-2007-46-0045-34",
-   "mm:peugeot:e3-2007-46-0050-32-e3-2007-46-0050-33"
+   "mm:peugeot:e3-2007-46-0050-32-e3-2007-46-0050-33",
+   "ml:peugeot:04-02-2025-21-07-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a2ca17213cbda196"
+  "enriquecido": true,
+  "hashContenido": "438b27ddc0b3d703"
  },
  "slug": "vehiculo-comercial-ligero-peugeot-safety-gate-10097888"
 }

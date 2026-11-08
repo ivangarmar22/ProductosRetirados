@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Mezcla para maquillaje permanente en botella de plástico con tapón negro, 15 ml. Producto vendido en línea, en particular a través de www.kwadron.pl",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón rosa claro."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "52f1f23a87c54762"
+  "enriquecido": true,
+  "hashContenido": "b28c00a2183a5068"
  },
  "slug": "maquillaje-permanente-nuva-colors-safety-gate-10097881"
 }

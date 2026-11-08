@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Zero Motorcycles"
    ],
    "modelos": [
-    "ZX",
-    "Z8",
-    "Z6",
-    "e9*168/2013*16102*01",
-    "e9*168/2013*16100*00",
-    "e9*168/2013*11904*02"
+    "ZX, Z8, Z6",
+    "e9*168/2013*16102*01, e9*168/2013*16100*00, e9*168/2013*11904*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.09.2023 - 29.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "04.09.2023 - 29.05.2025"
+   "fechasTexto": "04.09.2023 - 29.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Filipinas",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,17 +92,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00422/26",
-   "mm:zero-motorcycles:e9-168-2013-16102-01",
-   "mm:zero-motorcycles:e9-168-2013-16100-00",
-   "mm:zero-motorcycles:e9-168-2013-11904-02"
+   "mm:zero-motorcycles:zx-z8-z6",
+   "mm:zero-motorcycles:e9-168-2013-16102-01-e9-168-2013-16100-00-e9-168-2013-11904-02",
+   "ml:zero-motorcycles:04-09-2023-29-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0b51578e2c21bcf3"
+  "enriquecido": true,
+  "hashContenido": "dce296ea3c6c1ba9"
  },
  "slug": "motocicleta-zero-motorcycles-safety-gate-10097700"
 }

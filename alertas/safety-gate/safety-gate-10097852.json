@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-16"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "230280600YS1378-A7"
+     "numero": "230280600"
+    },
+    {
+     "numero": "YS1378-A7"
     }
    ],
    "ean": [
     "8412842457799"
    ],
    "descripcion": "Juguete de baño en forma de delfín.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Ampolla de plástico."
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ref:SR/00489/26",
    "ean:8412842457799",
    "mm:colorbaby:45-779",
-   "ml:colorbaby:230280600ys1378-a7"
+   "ml:colorbaby:230280600",
+   "ml:colorbaby:ys1378-a7"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c3095f79c47d4fde"
+  "enriquecido": true,
+  "hashContenido": "eb5c9f911fad3ec9"
  },
  "slug": "juguete-de-bano-colorbaby-safety-gate-10097852"
 }

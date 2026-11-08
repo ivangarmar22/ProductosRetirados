@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "6931571047290"
    ],
    "descripcion": "Juguete blanco suave, hecho de plástico y fieltro, con tapa roja y botella parecida a \"coca cola\", cara de plástico, manos y pies.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "HU",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bfcc7a3d377a26fe"
+  "enriquecido": true,
+  "hashContenido": "3a7ea360844d0629"
  },
  "slug": "juguete-suave-pop-mart-counterfeit-safety-gate-10097134"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Conjunto de 15 anillos plateados - coloreados con diferentes decoraciones. Producto vendido en línea, en particular a través de AliExpress.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Noruega",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "337ec80f1474dedd"
+  "enriquecido": true,
+  "hashContenido": "38e7ef2ef6586b76"
  },
  "slug": "anillo-safety-gate-10097208"
 }

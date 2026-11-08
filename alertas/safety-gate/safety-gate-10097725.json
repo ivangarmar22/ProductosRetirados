@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,27 @@
     "Dodge"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Challenger: 1.7.2009 - 5.11.2013"
+    },
+    {
+     "numero": "Charger: 9.12.2008 - 8.9.2015"
+    },
+    {
+     "numero": "Dakota: 13.5.2005 - 28.7.2011"
+    },
+    {
+     "numero": "Durango: 28.2.2004 - 18.12.2008"
+    },
+    {
+     "numero": "RAM: 10.3.2003 - 21.1.2009"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN del cargador: 2B3LA53T89H586373 - 2C3CDXEJ0FH914785; VIN del Challenger: 2B3LJ74W89H617061 - 2C3CDYCJ9EH166917; VIN de Durango: 1D4HB58D24F163384 - 1D8HB58T49F716985; VIN de RAM: 3D3KU28C53G804423 - 3D7MX387X9G531849; Dakota VIN: 1D3HW52K35S346141 - 1D7RW5GPXBS709263.",
-   "fechasTexto": "Challenger: 1.7.2009 - 5.11.2013 Charger: 9.12.2008 - 8.9.2015 Dakota: 13.5.2005 - 28.7.2011 Durango: 28.2.2004 - 18.12.2008 RAM: 10.3.2003 - 21.1.2009"
+   "fechasTexto": "Challenger: 1.7.2009 - 5.11.2013 Charger: 9.12.2008 - 8.9.2015 Dakota: 13.5.2005 - 28.7.2011 Durango: 28.2.2004 - 18.12.2008 RAM: 10.3.2003 - 21.1.2009",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -94,15 +111,20 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/00457/26"
+   "ref:SR/00457/26",
+   "ml:dodge:challenger-1-7-2009-5-11-2013",
+   "ml:dodge:charger-9-12-2008-8-9-2015",
+   "ml:dodge:dakota-13-5-2005-28-7-2011",
+   "ml:dodge:durango-28-2-2004-18-12-2008",
+   "ml:dodge:ram-10-3-2003-21-1-2009"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "80bd06f5a24beea2"
+  "enriquecido": true,
+  "hashContenido": "b9014750fe883ac9"
  },
  "slug": "coche-de-pasajeros-dodge-safety-gate-10097725"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0530*19 - e2*2007/46*0530*21",
     "e2*2007/46*0531*22 - e2*2007/46*0531*26"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11/7/2022 - 29/1/2024 // VIN: VF7VFEHS7N7037663 - VF7VFEHZ7RZ007165"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "11/7/2022 - 29/1/2024 // VIN: VF7VFEHS7N7037663 - VF7VFEHZ7RZ007165"
+   "fechasTexto": "11/7/2022 - 29/1/2024 // VIN: VF7VFEHS7N7037663 - VF7VFEHZ7RZ007165",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +103,16 @@
   "claves": [
    "ref:SR/04142/25",
    "mm:citroen:e2-2007-46-0530-19-e2-2007-46-0530-21",
-   "mm:citroen:e2-2007-46-0531-22-e2-2007-46-0531-26"
+   "mm:citroen:e2-2007-46-0531-22-e2-2007-46-0531-26",
+   "ml:citroen:11-7-2022-29-1-2024-vin-vf7vfehs7n7037663-vf7vfehz7rz007165"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "867acb3441507525"
+  "enriquecido": true,
+  "hashContenido": "ffc3ba065d8c2ef1"
  },
  "slug": "furgoneta-de-pasajeros-citroen-safety-gate-10096825"
 }

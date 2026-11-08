@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,21 @@
     "DS automobiles"
    ],
    "modelos": [
-    "e2*2007/46*0601*28",
-    "e2*2007/46*0601*29 DS7 CROSSBACK",
-    "e2*2007/46*0628*36",
-    "e2*2007/46*0628*37 DS4 V2"
+    "e2*2007/46*0601*28, e2*2007/46*0601*29 DS7 CROSSBACK",
+    "e2*2007/46*0628*36, e2*2007/46*0628*37 DS4 V2"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "DS4 V2: 18.8.2025 - 7.10.2025"
+    },
+    {
+     "numero": "DS7 CROSSBACK: 29.8.2025 - 7.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de motor. DS7 CROSSBACK VIN: VR1JCYHZ3SY586217 - VR1JCYHZ5TY503193; DS4 VIN: VR1FCYHZ8S1039605 - VR1FCYHZ8S1050538.",
-   "fechasTexto": "DS4 V2: 18.8.2025 - 7.10.2025 DS7 CROSSBACK: 29.8.2025 - 7.10.2025"
+   "fechasTexto": "DS4 V2: 18.8.2025 - 7.10.2025 DS7 CROSSBACK: 29.8.2025 - 7.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +71,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "HR",
+   "HU",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,18 +97,18 @@
  "dedup": {
   "claves": [
    "ref:SR/00370/26",
-   "mm:ds-automobiles:e2-2007-46-0601-28",
-   "mm:ds-automobiles:e2-2007-46-0601-29-ds7-crossback",
-   "mm:ds-automobiles:e2-2007-46-0628-36",
-   "mm:ds-automobiles:e2-2007-46-0628-37-ds4-v2"
+   "mm:ds-automobiles:e2-2007-46-0601-28-e2-2007-46-0601-29-ds7-crossback",
+   "mm:ds-automobiles:e2-2007-46-0628-36-e2-2007-46-0628-37-ds4-v2",
+   "ml:ds-automobiles:ds4-v2-18-8-2025-7-10-2025",
+   "ml:ds-automobiles:ds7-crossback-29-8-2025-7-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "36f3faebbe66213a"
+  "enriquecido": true,
+  "hashContenido": "43681a17acfeb6c3"
  },
  "slug": "coche-de-pasajeros-ds-automobiles-safety-gate-10097685"
 }

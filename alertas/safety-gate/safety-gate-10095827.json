@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e11*2001/116*0141*14",
     "e11*2001/116*0141*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05/07/2011 - 20/05/2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN : 2C3CLAAM1CH107669 - 2C3CLADMXEH293078.",
-   "fechasTexto": "05/07/2011 - 20/05/2014"
+   "fechasTexto": "05/07/2011 - 20/05/2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,15 +84,16 @@
   "claves": [
    "ref:SR/03173/25",
    "mm:lancia:e11-2001-116-0141-14",
-   "mm:lancia:e11-2001-116-0141-15"
+   "mm:lancia:e11-2001-116-0141-15",
+   "ml:lancia:05-07-2011-20-05-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f5740a233e93c98"
+  "enriquecido": true,
+  "hashContenido": "837e12312bcb6312"
  },
  "slug": "coche-de-pasajeros-lancia-safety-gate-10095827"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Opel"
    ],
    "modelos": [
-    "e2*2007/46*0622*26-*30 (E)",
-    "e2*2007/46*0623*27-*29 (E)"
+    "e2*2007/46*0622*26-*30 (E), e2*2007/46*0623*27-*29 (E)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.09.2023 - 23.09.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "29.09.2023 - 23.09.2025"
+   "fechasTexto": "29.09.2023 - 23.09.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,16 +94,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00359/26",
-   "mm:opel:e2-2007-46-0622-26-30-e",
-   "mm:opel:e2-2007-46-0623-27-29-e"
+   "mm:opel:e2-2007-46-0622-26-30-e-e2-2007-46-0623-27-29-e",
+   "ml:opel:29-09-2023-23-09-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e1e80269aacf8e2"
+  "enriquecido": true,
+  "hashContenido": "8f5edb15a64cdfa9"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-opel-safety-gate-10097706"
 }

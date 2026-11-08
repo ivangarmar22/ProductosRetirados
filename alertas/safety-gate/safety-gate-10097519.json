@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-16"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Disfraz de pirata, destinado a los niños, que consta de pantalones negros, rojos y amarillos, una chaqueta negra y amarilla con botones falsos en forma de joya amarilla translúcida, un babero blanco con encaje, un cinturón, un sombrero con una imagen de una calavera en él, y un parche de fieltro negro en el ojo sostenido en su lugar por una banda elástica. Producto vendido en línea, en particular a través de Amazon y Temu (identificador único: 601102693958226).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "121419e7e591b945"
+  "enriquecido": true,
+  "hashContenido": "df3faefa7e06ea8d"
  },
  "slug": "vestido-de-fantasia-children-s-cosplay-costumes-safety-gate-10097519"
 }

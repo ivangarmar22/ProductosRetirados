@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*1982*03 - e1*2007/46*1982*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.09.2020 - 31.08.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros equipado con un motor de 4 cilindros. VIN: YBCDB21000W039683 - YBCDB260X0W054653",
-   "fechasTexto": "04.09.2020 - 31.08.2022"
+   "fechasTexto": "04.09.2020 - 31.08.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "HU",
+   "NO",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00473/26",
-   "mm:toyota:e1-2007-46-1982-03-e1-2007-46-1982-06"
+   "mm:toyota:e1-2007-46-1982-03-e1-2007-46-1982-06",
+   "ml:toyota:04-09-2020-31-08-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dd39c08f0ebac191"
+  "enriquecido": true,
+  "hashContenido": "a05b9d9d4e0a2bb3"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10097824"
 }

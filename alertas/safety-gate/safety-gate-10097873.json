@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2018/858*00192*03 (NRN)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.07.2025-08.09.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "08.07.2025-08.09.2025"
+   "fechasTexto": "08.07.2025-08.09.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00540/26",
-   "mm:ford:e5-2018-858-00192-03-nrn"
+   "mm:ford:e5-2018-858-00192-03-nrn",
+   "ml:ford:08-07-2025-08-09-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f4a65bdd6f95b3b"
+  "enriquecido": true,
+  "hashContenido": "fa42033a4057d401"
  },
  "slug": "furgoneta-de-pasajeros-ford-safety-gate-10097873"
 }

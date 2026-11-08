@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0532*19 - e2*2007/46*0532*21",
     "e2*2007/46*0533*21 - e2*2007/46*0533*26"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2/5/2022 - 29/1/2024 // VIN: VXEVFEHS7N7037665 - VXEVFEHS7RZ007096"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "2/5/2022 - 29/1/2024 // VIN: VXEVFEHS7N7037665 - VXEVFEHS7RZ007096"
+   "fechasTexto": "2/5/2022 - 29/1/2024 // VIN: VXEVFEHS7N7037665 - VXEVFEHS7RZ007096",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +102,16 @@
   "claves": [
    "ref:SR/04141/25",
    "mm:opel-vauxhall:e2-2007-46-0532-19-e2-2007-46-0532-21",
-   "mm:opel-vauxhall:e2-2007-46-0533-21-e2-2007-46-0533-26"
+   "mm:opel-vauxhall:e2-2007-46-0533-21-e2-2007-46-0533-26",
+   "ml:opel-vauxhall:2-5-2022-29-1-2024-vin-vxevfehs7n7037665-vxevfehs7rz007096"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "58f71e21493c2703"
+  "enriquecido": true,
+  "hashContenido": "1bbac151d4642dab"
  },
  "slug": "furgoneta-de-pasajeros-opel-vauxhall-safety-gate-10096822"
 }

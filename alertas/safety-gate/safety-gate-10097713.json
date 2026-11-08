@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-11"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cable de extensión con 3 tomas, 3 puertos USB y un botón de conmutación. Producto vendido en línea, en particular a través de Amazon (ASIN: B07FY2LPH4).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0c740b1a572ea519"
+  "enriquecido": true,
+  "hashContenido": "d1fe79d2a73c4c5a"
  },
  "slug": "plomo-de-extension-jsver-safety-gate-10097713"
 }

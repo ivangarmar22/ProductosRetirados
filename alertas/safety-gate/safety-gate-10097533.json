@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Motor de bomberos de juguete eléctrico rojo con sirenas encendidas y una tubería de plástico para expulsar agua. Producto vendido en línea, en particular a través de eBay (identificador único: 356769469852) y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana de plástico transparente."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -126,11 +129,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "17de04952e22d824"
+  "enriquecido": true,
+  "hashContenido": "069ef116bec72ea0"
  },
  "slug": "coche-de-juguete-camion-de-pompiers-avec-echelle-pompier-grand-modele-safety-gate-10097533"
 }

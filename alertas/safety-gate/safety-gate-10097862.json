@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "3385533625584"
    ],
    "descripcion": "Muñeca de tela roja y blanca en forma de elfo con cara de plástico.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Soporte de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0f9dc37972849cb2"
+  "enriquecido": true,
+  "hashContenido": "381e135b118cc463"
  },
  "slug": "muneca-jourdain-safety-gate-10097862"
 }

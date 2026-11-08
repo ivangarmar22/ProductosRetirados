@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e3*2007/46*0049*41*01",
     "e3*2007/46*0049*42*00 - e3*2007/46*0049*42*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.03.2025 - 04.07.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero. VIN: ZFA250003SG030394 - ZFA250005TMB73806, ZFCKFFCF0TMB65104",
-   "fechasTexto": "19.03.2025 - 04.07.2025"
+   "fechasTexto": "19.03.2025 - 04.07.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +100,16 @@
    "mm:fiat-professional:e3-2007-46-0044-50-01",
    "mm:fiat-professional:e3-2007-46-0044-52-00-e3-2007-46-0044-52-01",
    "mm:fiat-professional:e3-2007-46-0049-41-01",
-   "mm:fiat-professional:e3-2007-46-0049-42-00-e3-2007-46-0049-42-01"
+   "mm:fiat-professional:e3-2007-46-0049-42-00-e3-2007-46-0049-42-01",
+   "ml:fiat-professional:19-03-2025-04-07-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aa2199c893c538b7"
+  "enriquecido": true,
+  "hashContenido": "f43fb5204e7e3630"
  },
  "slug": "vehiculo-comercial-ligero-fiat-professional-safety-gate-10097891"
 }

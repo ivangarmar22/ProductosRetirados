@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2001/116*0116*01 - *13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15/09/2006 - 14/09/2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN : 1J4FAB4107L120745 - 1C4HJWFGXGL337033.",
-   "fechasTexto": "15/09/2006 - 14/09/2016"
+   "fechasTexto": "15/09/2006 - 14/09/2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03171/25",
-   "mm:jeep:e4-2001-116-0116-01-13"
+   "mm:jeep:e4-2001-116-0116-01-13",
+   "ml:jeep:15-09-2006-14-09-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2be7b25fff4a7132"
+  "enriquecido": true,
+  "hashContenido": "6d97e380a93f902c"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10095826"
 }

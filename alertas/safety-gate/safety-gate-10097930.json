@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-10"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Máquina de grabado láser de escritorio equipada con un láser de diodo. Producto vendido en línea, en particular a través de TEMU y www.atomstack.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6a031d7e45ccba4c"
+  "enriquecido": true,
+  "hashContenido": "a2bcf1a8ec9b801f"
  },
  "slug": "grabador-laser-atomstack-safety-gate-10097930"
 }

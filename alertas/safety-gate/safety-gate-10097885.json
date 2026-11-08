@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e3*2007/46*0045*31 - e3*2007/46*0045*33",
     "e3*2007/46*0050*32 - e3*2007/46*0050*33"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.11.2024 - 23.07.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero. VIN: VXEYCF6F7RMB44579 - VXEYDG6A4SMB72840",
-   "fechasTexto": "06.11.2024 - 23.07.2025"
+   "fechasTexto": "06.11.2024 - 23.07.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +97,16 @@
   "claves": [
    "ref:SR/00528/26",
    "mm:opel-vauxhall:e3-2007-46-0045-31-e3-2007-46-0045-33",
-   "mm:opel-vauxhall:e3-2007-46-0050-32-e3-2007-46-0050-33"
+   "mm:opel-vauxhall:e3-2007-46-0050-32-e3-2007-46-0050-33",
+   "ml:opel-vauxhall:06-11-2024-23-07-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1fc5682ffbc87beb"
+  "enriquecido": true,
+  "hashContenido": "aaaf3ed28b154160"
  },
  "slug": "vehiculo-comercial-ligero-opel-vauxhall-safety-gate-10097885"
 }

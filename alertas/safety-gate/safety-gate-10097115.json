@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -30,12 +30,16 @@
    ],
    "lotes": [
     {
-     "numero": "1023281024"
+     "numero": "1023"
+    },
+    {
+     "numero": "281024"
     }
    ],
    "ean": [],
    "descripcion": "Dos tipos de geles de ducha, 25 kg, y Bagnoschiuma Mosto Divino, 10 kg, en bote a granel.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envase de plástico blanco con etiqueta y tapón de rosca."
   }
  ],
  "riesgo": {
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c1d8df0ad7d89f71"
+  "enriquecido": true,
+  "hashContenido": "f4192b535bfb72c0"
  },
  "slug": "gel-de-ducha-safety-gate-10097115"
 }

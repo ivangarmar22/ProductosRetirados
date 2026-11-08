@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*1918*10 - e1*2007/46*1918*11 - e1*2007/46*1918*12 - e1*2007/46*1918*13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.05.2020 - 04.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "28.05.2020 - 04.10.2024"
+   "fechasTexto": "28.05.2020 - 04.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,15 +135,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00551/26",
-   "mm:bmw:e1-2007-46-1918-10-e1-2007-46-1918-11-e1-2007-46-1918-12-e1-2007-46-1918-13"
+   "mm:bmw:e1-2007-46-1918-10-e1-2007-46-1918-11-e1-2007-46-1918-12-e1-2007-46-1918-13",
+   "ml:bmw:28-05-2020-04-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "80c6589669d1cbc0"
+  "enriquecido": true,
+  "hashContenido": "1c6e4d61db9033b5"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10097927"
 }

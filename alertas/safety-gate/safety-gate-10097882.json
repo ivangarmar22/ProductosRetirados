@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -38,7 +38,8 @@
     "840058826807"
    ],
    "descripcion": "Mezcla para maquillaje permanente en frasco de plástico opaco con tapón rosa, 15 ml. Producto vendido en línea, en particular a través de www.kwadron.pl, www.killerinktattoo.com y www.killerbeauty.co.uk/",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "132177e0cb97b030"
+  "enriquecido": true,
+  "hashContenido": "b3041b2912bf14ff"
  },
  "slug": "maquillaje-permanente-perma-blend-safety-gate-10097882"
 }

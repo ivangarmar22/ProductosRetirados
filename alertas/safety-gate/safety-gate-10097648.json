@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -45,9 +45,21 @@
      "numero": "CGDD0123"
     }
    ],
-   "ean": [],
+   "ean": [
+    "4895261106891",
+    "4895261106914",
+    "4897133871227",
+    "4897133871234",
+    "4897133871265",
+    "4897133871289",
+    "4897133871388",
+    "4897133871425",
+    "4897133872378",
+    "4897133872613"
+   ],
    "descripcion": "Recarga para cigarrillos electrónicos, 30ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico en una caja de cartón de colores."
   }
  ],
  "riesgo": {
@@ -77,7 +89,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "Hong Kong",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -116,6 +130,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00404/26",
+   "ean:4895261106891",
+   "ean:4895261106914",
+   "ean:4897133871227",
+   "ean:4897133871234",
+   "ean:4897133871265",
+   "ean:4897133871289",
+   "ean:4897133871388",
+   "ean:4897133871425",
+   "ean:4897133872378",
+   "ean:4897133872613",
    "mm:elfliq:apple-peach",
    "mm:elfliq:blackberry-lemon",
    "mm:elfliq:blue-razz-lemonade",
@@ -131,11 +155,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8c6361db3114027a"
+  "enriquecido": true,
+  "hashContenido": "de5bbdac8687c6ea"
  },
  "slug": "recarga-para-cigarrillos-electronicos-elfliq-safety-gate-10097648"
 }

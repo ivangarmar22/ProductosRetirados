@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "636",
     "e3*2007/46*0616*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.10.2024 - 10.09.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "23.10.2024 - 10.09.2025"
+   "fechasTexto": "23.10.2024 - 10.09.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,15 +89,16 @@
   "claves": [
    "ref:SR/00299/26",
    "mm:lamborghini:636",
-   "mm:lamborghini:e3-2007-46-0616"
+   "mm:lamborghini:e3-2007-46-0616",
+   "ml:lamborghini:23-10-2024-10-09-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5f2e023cdc63fa5a"
+  "enriquecido": true,
+  "hashContenido": "215bdbdcf6186c1f"
  },
  "slug": "coche-de-pasajeros-lamborghini-safety-gate-10097566"
 }

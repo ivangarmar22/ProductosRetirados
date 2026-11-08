@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-07"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5903657800977"
    ],
    "descripcion": "Lámpara led UV 12W con fuente de alimentación externa (no se indica fabricante, con número de modelo XH-CE241000-A1) e instrucciones, dimensiones: 215 × 168 × 90 mm. Producto vendido en línea, en particular a través de www.rossmann.de, www.dm.de, www.douglas.de, lyko.com, neonail.de y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -125,11 +129,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "090509dc6f376aea"
+  "enriquecido": true,
+  "hashContenido": "ab4c83d036ffb4c7"
  },
  "slug": "lampara-neonail-safety-gate-10097809"
 }

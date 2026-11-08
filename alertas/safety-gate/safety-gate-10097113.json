@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,12 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "250624MT211024MT250624SMMEL"
+     "numero": "250624MT"
+    },
+    {
+     "numero": "211024MT"
+    },
+    {
+     "numero": "250624SMMEL"
     }
    ],
    "ean": [],
    "descripcion": "Varios tipos de jabones líquidos para manos suministrados en botes a granel de 25 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanco con una etiqueta y una tapa de plástico."
   }
  ],
  "riesgo": {
@@ -105,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64b5ba53341b0f8a"
+  "enriquecido": true,
+  "hashContenido": "d98015e15c1b16b4"
  },
  "slug": "jabon-de-manos-safety-gate-10097113"
 }

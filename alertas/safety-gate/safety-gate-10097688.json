@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
     "3561868912340"
    ],
    "descripcion": "Bolso de aseo de PVC, en varios colores. Todos los lotes se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5922695e72e4755f"
+  "enriquecido": true,
+  "hashContenido": "c716594e1433938a"
  },
  "slug": "bolsa-de-aseo-cosmetic-club-safety-gate-10097688"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-16"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Mini plancha eléctrica. Producto vendido en línea, en particular a través de AliExpress (identificador del producto: 1005008618773935).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8c60715b726f90e4"
+  "enriquecido": true,
+  "hashContenido": "6e85a1c784465315"
  },
  "slug": "mini-hierro-electric-iron-safety-gate-10097626"
 }

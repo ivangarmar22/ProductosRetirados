@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*1827* (CR)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.07.2020 - 21.09.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "27.07.2020 - 21.09.2024"
+   "fechasTexto": "27.07.2020 - 21.09.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Eslovaquia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04112/25",
-   "mm:vw:e1-2007-46-1827-cr"
+   "mm:vw:e1-2007-46-1827-cr",
+   "ml:vw:27-07-2020-21-09-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f250d81ad4af82e2"
+  "enriquecido": true,
+  "hashContenido": "14165d63256fb804"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10096738"
 }

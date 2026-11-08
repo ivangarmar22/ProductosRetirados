@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-15"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Piscina sobre el suelo con una altura mínima de 122 cm, con correas de compresión que corren en el exterior y sobre las patas de soporte verticales.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,14 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "EE",
+   "FR",
+   "LU",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f5e0951fb02dc87d"
+  "enriquecido": true,
+  "hashContenido": "c5807fa4feb8a6fa"
  },
  "slug": "piscina-intex-safety-gate-10096047"
 }

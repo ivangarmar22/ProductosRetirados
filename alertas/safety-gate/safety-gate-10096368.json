@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,19 @@
     "Zero Motorcycles"
    ],
    "modelos": [
-    "e9*168/2013*11904*01",
-    "*02",
-    "*03 (Z6)",
-    "e9*168/2013*16100*00",
-    "*01 (Z8)",
-    "e9*168/2013*16102*01",
-    "*02 (ZX)"
+    "e9*168/2013*11904*01,*02,*03 (Z6)",
+    "e9*168/2013*16100*00,*01 (Z8)",
+    "e9*168/2013*16102*01,*02 (ZX)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.04.2022 - 24.07.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "04.04.2022 - 24.07.2025"
+   "fechasTexto": "04.04.2022 - 24.07.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Filipinas",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,20 +90,18 @@
  "dedup": {
   "claves": [
    "ref:SR/03733/25",
-   "mm:zero-motorcycles:e9-168-2013-11904-01",
-   "mm:zero-motorcycles:03-z6",
-   "mm:zero-motorcycles:e9-168-2013-16100-00",
-   "mm:zero-motorcycles:01-z8",
-   "mm:zero-motorcycles:e9-168-2013-16102-01",
-   "mm:zero-motorcycles:02-zx"
+   "mm:zero-motorcycles:e9-168-2013-11904-01-02-03-z6",
+   "mm:zero-motorcycles:e9-168-2013-16100-00-01-z8",
+   "mm:zero-motorcycles:e9-168-2013-16102-01-02-zx",
+   "ml:zero-motorcycles:04-04-2022-24-07-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b5c64e4fce51c2c2"
+  "enriquecido": true,
+  "hashContenido": "e39b9abe3f932272"
  },
  "slug": "motocicleta-zero-motorcycles-safety-gate-10096368"
 }

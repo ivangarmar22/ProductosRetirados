@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,22 +27,21 @@
     "Fiat Professional"
    ],
    "modelos": [
-    "e2*2007/46*0533*30",
-    "e2*2007/46*0533*30*00",
-    "e2*2007/46*0533*31",
-    "e2*2007/46*0533*31*00",
-    "g11*2018/858*00687*01 Scudo",
-    "e2*2007/46*0624*30",
-    "e2*2007/46*0624*31",
-    "e2*2007/46*0625*32",
-    "e2*2007/46*0625*33",
-    "e2*2007/46*0625*34",
-    "g11*2018/858*00949*00 Doblo"
+    "e2*2007/46*0533*30, e2*2007/46*0533*30*00, e2*2007/46*0533*31, e2*2007/46*0533*31*00, g11*2018/858*00687*01 Scudo",
+    "e2*2007/46*0624*30, e2*2007/46*0624*31, e2*2007/46*0625*32, e2*2007/46*0625*33, e2*2007/46*0625*34, g11*2018/858*00949*00 Doblo"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Doblo: 26.7.2025 - 8.10.2025"
+    },
+    {
+     "numero": "Scudo: 25.7.2025 - 10.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de motor. VIN de Scudo: VXFVJYHV1RU346562 - VXFVJYHV9TZ004609; Doblo VIN: VYFEDYHP5SJ793074 - VYFEDYHP2TN508891.",
-   "fechasTexto": "Doblo: 26.7.2025 - 8.10.2025 Scudo: 25.7.2025 - 10.10.2025"
+   "fechasTexto": "Doblo: 26.7.2025 - 8.10.2025 Scudo: 25.7.2025 - 10.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +71,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,25 +104,18 @@
  "dedup": {
   "claves": [
    "ref:SR/00374/26",
-   "mm:fiat-professional:e2-2007-46-0533-30",
-   "mm:fiat-professional:e2-2007-46-0533-30-00",
-   "mm:fiat-professional:e2-2007-46-0533-31",
-   "mm:fiat-professional:e2-2007-46-0533-31-00",
-   "mm:fiat-professional:g11-2018-858-00687-01-scudo",
-   "mm:fiat-professional:e2-2007-46-0624-30",
-   "mm:fiat-professional:e2-2007-46-0624-31",
-   "mm:fiat-professional:e2-2007-46-0625-32",
-   "mm:fiat-professional:e2-2007-46-0625-33",
-   "mm:fiat-professional:e2-2007-46-0625-34",
-   "mm:fiat-professional:g11-2018-858-00949-00-doblo"
+   "mm:fiat-professional:e2-2007-46-0533-30-e2-2007-46-0533-30-00-e2-2007-46-0533-31-e2-2007-46-0533-31-00-g11-2018-858-00687-01-scudo",
+   "mm:fiat-professional:e2-2007-46-0624-30-e2-2007-46-0624-31-e2-2007-46-0625-32-e2-2007-46-0625-33-e2-2007-46-0625-34-g11-2018-858-00949-00-doblo",
+   "ml:fiat-professional:doblo-26-7-2025-8-10-2025",
+   "ml:fiat-professional:scudo-25-7-2025-10-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bfb216b14ffef19f"
+  "enriquecido": true,
+  "hashContenido": "bd495214e6a86561"
  },
  "slug": "coche-de-pasajeros-fiat-professional-safety-gate-10097686"
 }

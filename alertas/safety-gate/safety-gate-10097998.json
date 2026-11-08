@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "EX30"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "2025"
+   "fechasTexto": "2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "FR",
+   "GR",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00619/26",
-   "mm:volvo:ex30"
+   "mm:volvo:ex30",
+   "ml:volvo:2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f5357d67538ca3c2"
+  "enriquecido": true,
+  "hashContenido": "887ed9d3e95c295c"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10097998"
 }

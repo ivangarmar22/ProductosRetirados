@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2018/858*00042* (T1)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.01.2025 - 12.06.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "10.01.2025 - 12.06.2025"
+   "fechasTexto": "10.01.2025 - 12.06.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00355/26",
-   "mm:volkswagen:e5-2018-858-00042-t1"
+   "mm:volkswagen:e5-2018-858-00042-t1",
+   "ml:volkswagen:10-01-2025-12-06-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "33f200930b1a130b"
+  "enriquecido": true,
+  "hashContenido": "6d8f0d0044217158"
  },
  "slug": "coche-de-pasajeros-volkswagen-safety-gate-10097591"
 }

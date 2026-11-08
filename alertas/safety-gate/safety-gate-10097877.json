@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-27"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
     "810132830648"
    ],
    "descripcion": "Tinta de tatuaje.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con tapón de rosca y gotero"
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a247fd720ac6d8e1"
+  "enriquecido": true,
+  "hashContenido": "823701700d2a09e3"
  },
  "slug": "tinta-de-tatuaje-miami-paint-s-l-safety-gate-10097877"
 }

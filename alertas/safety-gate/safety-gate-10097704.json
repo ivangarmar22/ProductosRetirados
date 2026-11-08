@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -31,7 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "CE23AC00190CE23AC00526CE24AC00101CE24AC00490CE25AC00245"
+     "numero": "CE23AC00190"
+    },
+    {
+     "numero": "CE23AC00526"
+    },
+    {
+     "numero": "CE24AC00101"
+    },
+    {
+     "numero": "CE24AC00490"
+    },
+    {
+     "numero": "CE25AC00245"
     }
    ],
    "ean": [
@@ -46,7 +58,8 @@
     "8412497835553"
    ],
    "descripcion": "Una botella de agua destinada a niños con un diseño de personaje Paw Patrol.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -110,15 +123,19 @@
    "ean:8412497812554",
    "ean:8412497835553",
    "mm:stor:44422",
-   "ml:stor:ce23ac00190ce23ac00526ce24ac00101ce24ac00490ce25ac00245"
+   "ml:stor:ce23ac00190",
+   "ml:stor:ce23ac00526",
+   "ml:stor:ce24ac00101",
+   "ml:stor:ce24ac00490",
+   "ml:stor:ce25ac00245"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "13ddce80811d7480"
+  "enriquecido": true,
+  "hashContenido": "d5bf234cdbb96314"
  },
  "slug": "botella-de-agua-para-ninos-stor-safety-gate-10097704"
 }

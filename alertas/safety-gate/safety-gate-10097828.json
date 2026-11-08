@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete suave marrón. Producto vendido en línea, en particular a través de Shein.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1be3b3d8abe912a5"
+  "enriquecido": true,
+  "hashContenido": "e3f8662ce9ba184d"
  },
  "slug": "juguete-suave-pop-mart-safety-gate-10097828"
 }

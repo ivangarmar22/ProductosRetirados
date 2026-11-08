@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,25 +24,29 @@
   {
    "nombre": "Astra L, Combo, Vivaro",
    "marcas": [
-    "Opel, Opel/Vauxhall"
+    "Opel",
+    "Opel/Vauxhall"
    ],
    "modelos": [
-    "e2*2007/46*0533*30",
-    "e2*2007/46*0533*31",
-    "g11*2018/858*00687*01",
-    "e2*2007/46*0622*30",
-    "e2*2007/46*0622*3",
-    "1 e2*2007/46*0623*32",
-    "e2*2007/46*0623*33",
-    "e2*2007/46*0623*34",
-    "g11*2018/858*00950*00",
-    "g11*2018/858*00951*00",
+    "e2*2007/46*0533*30, e2*2007/46*0533*31, g11*2018/858*00687*01",
+    "e2*2007/46*0622*30, e2*2007/46*0622*3,1 e2*2007/46*0623*32, e2*2007/46*0623*33, e2*2007/46*0623*34, g11*2018/858*00950*00, g11*2018/858*00951*00",
     "e2*2007/46*0628*36"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Astra L: 18.08.2025 - 06.10.2025 // VIN: VXKFCYHZ2S1040108 - VXKFCYHZ4T1000131"
+    },
+    {
+     "numero": "Combo: 26.07.2025 - 08.10.2025 // VIN: W0VEDYHZ9RJ072176 - W0VEDYHZ2TN508804"
+    },
+    {
+     "numero": "Vivaro: 25.07.2025 - 10.10.2025 // VIN: VXEVJYHV8RU345428 - VXEVJYHV3TZ004027"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "Astra L: 18.08.2025 - 06.10.2025 // VIN: VXKFCYHZ2S1040108 - VXKFCYHZ4T1000131Combo: 26.07.2025 - 08.10.2025 // VIN: W0VEDYHZ9RJ072176 - W0VEDYHZ2TN508804Vivaro: 25.07.2025 - 10.10.2025 // VIN: VXEVJYHV8RU345428 - VXEVJYHV3TZ004027"
+   "fechasTexto": "Astra L: 18.08.2025 - 06.10.2025 // VIN: VXKFCYHZ2S1040108 - VXKFCYHZ4T1000131Combo: 26.07.2025 - 08.10.2025 // VIN: W0VEDYHZ9RJ072176 - W0VEDYHZ2TN508804Vivaro: 25.07.2025 - 10.10.2025 // VIN: VXEVJYHV8RU345428 - VXEVJYHV3TZ004027",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +76,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,25 +113,26 @@
  "dedup": {
   "claves": [
    "ref:SR/00365/26",
-   "mm:opel-opel-vauxhall:e2-2007-46-0533-30",
-   "mm:opel-opel-vauxhall:e2-2007-46-0533-31",
-   "mm:opel-opel-vauxhall:g11-2018-858-00687-01",
-   "mm:opel-opel-vauxhall:e2-2007-46-0622-30",
-   "mm:opel-opel-vauxhall:e2-2007-46-0622-3",
-   "mm:opel-opel-vauxhall:1-e2-2007-46-0623-32",
-   "mm:opel-opel-vauxhall:e2-2007-46-0623-33",
-   "mm:opel-opel-vauxhall:e2-2007-46-0623-34",
-   "mm:opel-opel-vauxhall:g11-2018-858-00950-00",
-   "mm:opel-opel-vauxhall:g11-2018-858-00951-00",
-   "mm:opel-opel-vauxhall:e2-2007-46-0628-36"
+   "mm:opel:e2-2007-46-0533-30-e2-2007-46-0533-31-g11-2018-858-00687-01",
+   "mm:opel:e2-2007-46-0622-30-e2-2007-46-0622-3-1-e2-2007-46-0623-32-e2-2007-46-0623-33-e2-2007-46-0623-34-g11-2018-858-00950-00-g11-2018-858-00951-00",
+   "mm:opel:e2-2007-46-0628-36",
+   "ml:opel:astra-l-18-08-2025-06-10-2025-vin-vxkfcyhz2s1040108-vxkfcyhz4t1000131",
+   "ml:opel:combo-26-07-2025-08-10-2025-vin-w0vedyhz9rj072176-w0vedyhz2tn508804",
+   "ml:opel:vivaro-25-07-2025-10-10-2025-vin-vxevjyhv8ru345428-vxevjyhv3tz004027",
+   "mm:opel-vauxhall:e2-2007-46-0533-30-e2-2007-46-0533-31-g11-2018-858-00687-01",
+   "mm:opel-vauxhall:e2-2007-46-0622-30-e2-2007-46-0622-3-1-e2-2007-46-0623-32-e2-2007-46-0623-33-e2-2007-46-0623-34-g11-2018-858-00950-00-g11-2018-858-00951-00",
+   "mm:opel-vauxhall:e2-2007-46-0628-36",
+   "ml:opel-vauxhall:astra-l-18-08-2025-06-10-2025-vin-vxkfcyhz2s1040108-vxkfcyhz4t1000131",
+   "ml:opel-vauxhall:combo-26-07-2025-08-10-2025-vin-w0vedyhz9rj072176-w0vedyhz2tn508804",
+   "ml:opel-vauxhall:vivaro-25-07-2025-10-10-2025-vin-vxevjyhv8ru345428-vxevjyhv3tz004027"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "20280e0e0ad015e4"
+  "enriquecido": true,
+  "hashContenido": "ffb7fe76f970e546"
  },
  "slug": "coche-de-pasajeros-vehiculo-comercial-ligero-opel-opel-vauxhall-safety-gate-10097692"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -60,10 +60,36 @@
     "e4*2007/46*0537*04 - e4*2007/46*0537*20 Mokka 12",
     "e50*2001/116*0007*01 - e50*2001/116*0007*05 Astra 04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Astra H : 03.01.2005 - 14.03.2014 // VIN : W0L0AHL4858055910 - W0L0AHL48E2065632"
+    },
+    {
+     "numero": "Astra J : 24.09.2009 - 23.08.2018 // VIN : W0LPD6ED1A8006828 - W0VPD5ED8JG125855"
+    },
+    {
+     "numero": "Cadacada A : 21.01.2013 - 16.07.2018 // VIN : W0LWT3DN5DG055631 - W0VWT3D94KG300751"
+    },
+    {
+     "numero": "Meriva B : 10.12.2009 - 15.02.2017 // VIN : W0LSD9EE6A4061609 - W0LSH9ER1H4146701"
+    },
+    {
+     "numero": "Mokka A : 22.05.2012 - 23.05.2018 // VIN : W0LJB7EE9DB000566 - W0VJD7EC0J4329477"
+    },
+    {
+     "numero": "Signum A : 27.06.2005 - 18.06.2008 // VIN : W0L0ZCF4861000120 - W0L0ZCF4881115840"
+    },
+    {
+     "numero": "Vectra C : 22.06.2005 - 10.10.2008 // VIN : W0L0ZCF6861000115 - W0L0ZCF3581145526"
+    },
+    {
+     "numero": "Zafira C : 22.08.2011 - 08.07.2016 // VIN : W0LPE9EN5C2000348 - W0LPD9E7XG1138497"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "Astra H : 03.01.2005 - 14.03.2014 // VIN : W0L0AHL4858055910 - W0L0AHL48E2065632Astra J : 24.09.2009 - 23.08.2018 // VIN : W0LPD6ED1A8006828 - W0VPD5ED8JG125855Cadacada A : 21.01.2013 - 16.07.2018 // VIN : W0LWT3DN5DG055631 - W0VWT3D94KG300751Meriva B : 10.12.2009 - 15.02.2017 // VIN : W0LSD9EE6A4061609 - W0LSH9ER1H4146701Mokka A : 22.05.2012 - 23.05.2018 // VIN : W0LJB7EE9DB000566 - W0VJD7EC0J4329477Signum A : 27.06.2005 - 18.06.2008 // VIN : W0L0ZCF4861000120 - W0L0ZCF4881115840Vectra C : 22.06.2005 - 10.10.2008 // VIN : W0L0ZCF6861000115 - W0L0ZCF3581145526Zafira C : 22.08.2011 - 08.07.2016 // VIN : W0LPE9EN5C2000348 - W0LPD9E7XG1138497"
+   "fechasTexto": "Astra H : 03.01.2005 - 14.03.2014 // VIN : W0L0AHL4858055910 - W0L0AHL48E2065632Astra J : 24.09.2009 - 23.08.2018 // VIN : W0LPD6ED1A8006828 - W0VPD5ED8JG125855Cadacada A : 21.01.2013 - 16.07.2018 // VIN : W0LWT3DN5DG055631 - W0VWT3D94KG300751Meriva B : 10.12.2009 - 15.02.2017 // VIN : W0LSD9EE6A4061609 - W0LSH9ER1H4146701Mokka A : 22.05.2012 - 23.05.2018 // VIN : W0LJB7EE9DB000566 - W0VJD7EC0J4329477Signum A : 27.06.2005 - 18.06.2008 // VIN : W0L0ZCF4861000120 - W0L0ZCF4881115840Vectra C : 22.06.2005 - 10.10.2008 // VIN : W0L0ZCF6861000115 - W0L0ZCF3581145526Zafira C : 22.08.2011 - 08.07.2016 // VIN : W0LPE9EN5C2000348 - W0LPD9E7XG1138497",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -98,7 +124,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -168,15 +203,23 @@
    "mm:opel:e4-2007-46-0309-01-e4-2007-46-0309-06-astra-10",
    "mm:opel:e4-2007-46-0537-01-e4-2007-46-0537-02-mokka-12",
    "mm:opel:e4-2007-46-0537-04-e4-2007-46-0537-20-mokka-12",
-   "mm:opel:e50-2001-116-0007-01-e50-2001-116-0007-05-astra-04"
+   "mm:opel:e50-2001-116-0007-01-e50-2001-116-0007-05-astra-04",
+   "ml:opel:astra-h-03-01-2005-14-03-2014-vin-w0l0ahl4858055910-w0l0ahl48e2065632",
+   "ml:opel:astra-j-24-09-2009-23-08-2018-vin-w0lpd6ed1a8006828-w0vpd5ed8jg125855",
+   "ml:opel:cadacada-a-21-01-2013-16-07-2018-vin-w0lwt3dn5dg055631-w0vwt3d94kg300751",
+   "ml:opel:meriva-b-10-12-2009-15-02-2017-vin-w0lsd9ee6a4061609-w0lsh9er1h4146701",
+   "ml:opel:mokka-a-22-05-2012-23-05-2018-vin-w0ljb7ee9db000566-w0vjd7ec0j4329477",
+   "ml:opel:signum-a-27-06-2005-18-06-2008-vin-w0l0zcf4861000120-w0l0zcf4881115840",
+   "ml:opel:vectra-c-22-06-2005-10-10-2008-vin-w0l0zcf6861000115-w0l0zcf3581145526",
+   "ml:opel:zafira-c-22-08-2011-08-07-2016-vin-w0lpe9en5c2000348-w0lpd9e7xg1138497"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22be881b54715b7d"
+  "enriquecido": true,
+  "hashContenido": "23644ab7c65dfbec"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10095639"
 }
