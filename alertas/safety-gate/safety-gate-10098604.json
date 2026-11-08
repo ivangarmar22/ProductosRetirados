@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-20"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Traje de vestir elegante, que representa un traje romano, destinado a los niños, que comprende una túnica y tocado. Producto vendido en línea, en particular a través de Temu (identificador único: 601100924994658).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d8eb053f7e18d72a"
+  "enriquecido": true,
+  "hashContenido": "484a06994e5f59ae"
  },
  "slug": "vestido-de-fantasia-ensemble-pour-garcons-imprime-court-pour-un-garcon-safety-gate-10098604"
 }

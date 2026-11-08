@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,25 @@
    ],
    "lotes": [
     {
-     "numero": "BN14321WBN232/21BN280/21 WBN425/19BN71/21 WBN86/20ED86/20"
+     "numero": "BN14321W"
+    },
+    {
+     "numero": "BN232/21"
+    },
+    {
+     "numero": "BN280/21 W"
+    },
+    {
+     "numero": "BN425/19"
+    },
+    {
+     "numero": "BN71/21 W"
+    },
+    {
+     "numero": "BN86/20"
+    },
+    {
+     "numero": "ED86/20"
     }
    ],
    "ean": [
@@ -40,7 +58,8 @@
     "6281101821334"
    ],
    "descripcion": "Eau de parfum, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Una botella."
   }
  ],
  "riesgo": {
@@ -74,7 +93,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Arabia Saudí",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +123,21 @@
    "ean:6281101821334",
    "mm:arabian-oud:elegant-black",
    "mm:arabian-oud:solid-black",
-   "ml:arabian-oud:bn14321wbn232-21bn280-21-wbn425-19bn71-21-wbn86-20ed86-20"
+   "ml:arabian-oud:bn14321w",
+   "ml:arabian-oud:bn232-21",
+   "ml:arabian-oud:bn280-21-w",
+   "ml:arabian-oud:bn425-19",
+   "ml:arabian-oud:bn71-21-w",
+   "ml:arabian-oud:bn86-20",
+   "ml:arabian-oud:ed86-20"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4a3edba03cebeca6"
+  "enriquecido": true,
+  "hashContenido": "97cafac513125a0b"
  },
  "slug": "perfume-arabian-oud-safety-gate-10010728"
 }

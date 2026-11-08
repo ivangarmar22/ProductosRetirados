@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "0428 M394441 0428 M394442"
+     "numero": "0428 M394441"
+    },
+    {
+     "numero": "0428 M394442"
     }
    ],
    "ean": [
     "5900516422387"
    ],
    "descripcion": "Toallitas limpiadoras para la piel, destinadas a ser utilizadas en niños. Fecha de fabricación: 27-28.10.2025, fecha de expiración: 04-2028.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -96,15 +100,16 @@
   "claves": [
    "ref:SR/01292/26",
    "ean:5900516422387",
-   "ml:bella-baby-happy:0428-m394441-0428-m394442"
+   "ml:bella-baby-happy:0428-m394441",
+   "ml:bella-baby-happy:0428-m394442"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "21f3b1c00168e8fa"
+  "enriquecido": true,
+  "hashContenido": "8f2e381ce073215b"
  },
  "slug": "toallitas-para-bebes-bella-baby-happy-safety-gate-10098779"
 }

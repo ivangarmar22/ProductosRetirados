@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-05"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Un sofá cama gris de tres plazas con material de terciopelo y cuatro patas de madera.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6286dc947239f9c0"
+  "enriquecido": true,
+  "hashContenido": "74228a3fbb0c0432"
  },
  "slug": "sofa-yaheetech-safety-gate-10098989"
 }

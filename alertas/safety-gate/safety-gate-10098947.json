@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "TFDD",
     "e13*2007/46*1858*12-*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10/07/2025 - 05/02/2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper",
-   "fechasTexto": "10/07/2025 - 05/02/2026"
+   "fechasTexto": "10/07/2025 - 05/02/2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +91,16 @@
   "claves": [
    "ref:SR/01485/26",
    "mm:roller-team:tfdd",
-   "mm:roller-team:e13-2007-46-1858-12-14"
+   "mm:roller-team:e13-2007-46-1858-12-14",
+   "ml:roller-team:10-07-2025-05-02-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ee96f78a95242e4f"
+  "enriquecido": true,
+  "hashContenido": "ec59e4839af99e6b"
  },
  "slug": "camioneta-de-camper-roller-team-safety-gate-10098947"
 }

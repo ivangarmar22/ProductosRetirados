@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-20"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "FA"
    ],
    "modelos": [
-    "BALI kiss",
-    "MANGO – VANILLA BLOSSOM SCENT"
+    "BALI kiss, MANGO – VANILLA BLOSSOM SCENT"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "9000101092202"
    ],
    "descripcion": "Desodorante antitranspirante, 150 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lata de metal."
   }
  ],
  "riesgo": {
@@ -93,17 +93,16 @@
   "claves": [
    "ref:SR/01458/26",
    "ean:9000101092202",
-   "mm:fa:bali-kiss",
-   "mm:fa:mango-vanilla-blossom-scent",
+   "mm:fa:bali-kiss-mango-vanilla-blossom-scent",
    "ml:fa:0925995238"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dec7dc4e73622ca0"
+  "enriquecido": true,
+  "hashContenido": "f7377bfe59bbb83c"
  },
  "slug": "desodorante-fa-safety-gate-10098940"
 }

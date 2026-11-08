@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,27 @@
     "e2*2018/858*00064*13 g11*2018/858*00524*07",
     "e2*2018/858*00064*13 g11*2018/858*00524*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2008 V2: 20.3.2026"
+    },
+    {
+     "numero": "3008 V3: 19.3.2026 - 20.3.2026"
+    },
+    {
+     "numero": "308 V3: 20.3.2026"
+    },
+    {
+     "numero": "408: 19.3.2026 - 20.3.2026"
+    },
+    {
+     "numero": "5008 V3: 18.3.2026 - 20.3.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Automóviles de pasajeros. VIN: VR3USHPY8TJ655218V, R3KAHPY4TS068793- VR3KAHPY6TS069881, VR3FRHPY5TY533492 - VR3FRHPY1TY533795, VR3FPHPY7TY532317 - VR3FPHPY6TY533720, VR3KAHPY9TS067770 - VR3KAHPY5TS070567.",
-   "fechasTexto": "2008 V2: 20.3.2026 3008 V3: 19.3.2026 - 20.3.2026308 V3: 20.3.2026 408: 19.3.2026 - 20.3.2026 5008 V3: 18.3.2026 - 20.3.2026"
+   "fechasTexto": "2008 V2: 20.3.2026 3008 V3: 19.3.2026 - 20.3.2026308 V3: 20.3.2026 408: 19.3.2026 - 20.3.2026 5008 V3: 18.3.2026 - 20.3.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +84,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "IE",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,15 +124,20 @@
    "mm:peugeot:e2-2007-46-0628-39",
    "mm:peugeot:e2-2007-46-0628-39-g11-2018-858-00753-04",
    "mm:peugeot:e2-2007-46-0639-40",
-   "mm:peugeot:e2-2018-858-00064-13-g11-2018-858-00524-07"
+   "mm:peugeot:e2-2018-858-00064-13-g11-2018-858-00524-07",
+   "ml:peugeot:2008-v2-20-3-2026",
+   "ml:peugeot:3008-v3-19-3-2026-20-3-2026",
+   "ml:peugeot:308-v3-20-3-2026",
+   "ml:peugeot:408-19-3-2026-20-3-2026",
+   "ml:peugeot:5008-v3-18-3-2026-20-3-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d94f1de9bf505e81"
+  "enriquecido": true,
+  "hashContenido": "90e9f9a93d4a3c3d"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10098823"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "963-0-A",
-    "963-4-A",
-    "963-0-C",
-    "963-4-D",
-    "963-4-C",
-    "e1*2018/858*00039*00-*10",
-    "e1*2018/858*00040*00-*10",
-    "e1*2018/858*00045*00-*11",
-    "e1*2018/858*00046*00-*10",
-    "e1*2018/858*00047*00-*10"
+    "963-0-A, 963-4-A, 963-0-C, 963-4-D, 963-4-C",
+    "e1*2018/858*00039*00-*10, e1*2018/858*00040*00-*10, e1*2018/858*00045*00-*11, e1*2018/858*00046*00-*10, e1*2018/858*00047*00-*10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.1.2023 to 23.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "13.1.2023 to 23.12.2025"
+   "fechasTexto": "13.1.2023 to 23.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,24 +92,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01320/26",
-   "mm:mercedes-benz:963-0-a",
-   "mm:mercedes-benz:963-4-a",
-   "mm:mercedes-benz:963-0-c",
-   "mm:mercedes-benz:963-4-d",
-   "mm:mercedes-benz:963-4-c",
-   "mm:mercedes-benz:e1-2018-858-00039-00-10",
-   "mm:mercedes-benz:e1-2018-858-00040-00-10",
-   "mm:mercedes-benz:e1-2018-858-00045-00-11",
-   "mm:mercedes-benz:e1-2018-858-00046-00-10",
-   "mm:mercedes-benz:e1-2018-858-00047-00-10"
+   "mm:mercedes-benz:963-0-a-963-4-a-963-0-c-963-4-d-963-4-c",
+   "mm:mercedes-benz:e1-2018-858-00039-00-10-e1-2018-858-00040-00-10-e1-2018-858-00045-00-11-e1-2018-858-00046-00-10-e1-2018-858-00047-00-10",
+   "ml:mercedes-benz:13-1-2023-to-23-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3bcdf7cb147240d2"
+  "enriquecido": true,
+  "hashContenido": "c20c02b9c27526e2"
  },
  "slug": "camion-mercedes-benz-safety-gate-10098793"
 }

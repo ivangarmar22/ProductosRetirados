@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e3*2018/858*00061*00*00 e3*2018/858*00061*01*00 e3*2018/858*00061*02*00 e3*2018/858*00061*04*00 e3*2018/858*00061*06*00 e3*2018/858*00061*07*00 e3*2018/858*00061*09*00 e3*2018/858*00061*10*00",
     "e3*2018/858*00061*11*00 e3*2018/858*00061*12*00 e3*2018/858*00061*13*00 g11*2018/858*01322*00*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.2.2022 - 12.2.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN: ZARNASDA8N3000423 - ZARNASAA7T3112289",
-   "fechasTexto": "15.2.2022 - 12.2.2026"
+   "fechasTexto": "15.2.2022 - 12.2.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +92,16 @@
   "claves": [
    "ref:SR/01375/26",
    "mm:alfa-romeo:e3-2018-858-00061-00-00-e3-2018-858-00061-01-00-e3-2018-858-00061-02-00-e3-2018-858-00061-04-00-e3-2018-858-00061-06-00-e3-2018-858-00061-07-00-e3-2018-858-00061-09-00-e3-2018-858-00061-10-00",
-   "mm:alfa-romeo:e3-2018-858-00061-11-00-e3-2018-858-00061-12-00-e3-2018-858-00061-13-00-g11-2018-858-01322-00-00"
+   "mm:alfa-romeo:e3-2018-858-00061-11-00-e3-2018-858-00061-12-00-e3-2018-858-00061-13-00-g11-2018-858-01322-00-00",
+   "ml:alfa-romeo:15-2-2022-12-2-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "19c5e549b287adb1"
+  "enriquecido": true,
+  "hashContenido": "8b85d70a3ca8c0fc"
  },
  "slug": "coche-de-pasajeros-alfa-romeo-safety-gate-10098824"
 }

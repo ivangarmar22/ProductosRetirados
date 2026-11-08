@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,27 @@
     "Goodyear"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "8913418446 (0426)"
+    },
+    {
+     "numero": "8913990284 (0426)"
+    },
+    {
+     "numero": "8914435256 (0326)"
+    },
+    {
+     "numero": "8916218127 (0526)"
+    },
+    {
+     "numero": "8916633353 (1126)"
+    }
+   ],
    "ean": [],
    "descripcion": "Los neumáticos afectados son neumáticos comerciales de recauchutado producidos en 2026. Números de serie afectados: 8914435256 (semana 0326), 8916633353 (semana 1126), 8916218127 (semana 0526), 8913990284 y 8913418446 (ambas semanas 0426).",
-   "fechasTexto": "8913418446 (0426)8913990284 (0426)8914435256 (0326)8916218127 (0526)8916633353 (1126)"
+   "fechasTexto": "8913418446 (0426)8913990284 (0426)8914435256 (0326)8916218127 (0526)8916633353 (1126)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +97,20 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/01396/26"
+   "ref:SR/01396/26",
+   "ml:goodyear:8913418446-0426",
+   "ml:goodyear:8913990284-0426",
+   "ml:goodyear:8914435256-0326",
+   "ml:goodyear:8916218127-0526",
+   "ml:goodyear:8916633353-1126"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8b94966fc9529a70"
+  "enriquecido": true,
+  "hashContenido": "b3aff20d3e82a4c2"
  },
  "slug": "pieza-del-vehiculo-neumatico-de-camion-goodyear-safety-gate-10098848"
 }

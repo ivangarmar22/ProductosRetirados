@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e11*2007/46*0223*",
     "e11*2007/46*0909*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.1.2011 - 5.4.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.1.2011 - 5.4.2017"
+   "fechasTexto": "12.1.2011 - 5.4.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -88,15 +93,16 @@
   "claves": [
    "ref:SR/01233/26",
    "mm:1-land-rover-2-range-rover:e11-2007-46-0223",
-   "mm:1-land-rover-2-range-rover:e11-2007-46-0909"
+   "mm:1-land-rover-2-range-rover:e11-2007-46-0909",
+   "ml:1-land-rover-2-range-rover:12-1-2011-5-4-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "38fce6e7f77efe0c"
+  "enriquecido": true,
+  "hashContenido": "2405eef0b79795da"
  },
  "slug": "coche-de-pasajeros-1-land-rover-2-range-rover-safety-gate-10098687"
 }

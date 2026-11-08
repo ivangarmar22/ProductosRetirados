@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "3008 V3 e2*2018/858*00064*10",
     "5008 V3 e2*2018/858*00064*10 g11*2018/858*00524*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3008 V3: 25.11.2025 - 27.11.2025"
+    },
+    {
+     "numero": "5008 V3: 25.11.2025 - 27.11.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. 3008 V3 VIN: VR3KAHPY1SS195242 - VR3KAHPY2TS014375; 5008 V3 VIN: VR3KAHPY5SS196572 - VR3KAHPY4TS014488",
-   "fechasTexto": "3008 V3: 25.11.2025 - 27.11.20255008 V3: 25.11.2025 - 27.11.2025"
+   "fechasTexto": "3008 V3: 25.11.2025 - 27.11.20255008 V3: 25.11.2025 - 27.11.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +73,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +98,17 @@
   "claves": [
    "ref:SR/01314/26",
    "mm:peugeot:3008-v3-e2-2018-858-00064-10",
-   "mm:peugeot:5008-v3-e2-2018-858-00064-10-g11-2018-858-00524-06"
+   "mm:peugeot:5008-v3-e2-2018-858-00064-10-g11-2018-858-00524-06",
+   "ml:peugeot:3008-v3-25-11-2025-27-11-2025",
+   "ml:peugeot:5008-v3-25-11-2025-27-11-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "93812510f5f9dca4"
+  "enriquecido": true,
+  "hashContenido": "4413e6cfba92535b"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10098696"
 }

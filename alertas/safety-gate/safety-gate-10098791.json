@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-27"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -65,7 +65,8 @@
     "4048336445030"
    ],
    "descripcion": "Bolsillos de peso monorraíl vendidos como un accesorio para conectar a los dispositivos compensadores de flotabilidad de buceo. El bolsillo de peso se vendió en dos tamaños, estándar y mini, y ocho colores, incluyendo negro, azul, verde, naranja, rosa, azul, blanco y amarillo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -95,7 +96,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "Sudáfrica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -155,11 +159,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "43e80549ae2b1425"
+  "enriquecido": true,
+  "hashContenido": "47d717d73a3d7255"
  },
  "slug": "bolsillos-de-peso-de-monorrail-scubapro-safety-gate-10098791"
 }

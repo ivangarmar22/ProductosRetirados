@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
    "modelos": [
     "e4*2018/858*00175*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.6.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "19.6.2024"
+   "fechasTexto": "19.6.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "403e939642b903dd"
+  "enriquecido": true,
+  "hashContenido": "42a45658add4ce0e"
  },
  "slug": "coche-de-pasajeros-vehiculo-comercial-ligero-maxus-edeliver7-safety-gate-10098721"
 }

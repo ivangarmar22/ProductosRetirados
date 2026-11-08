@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,8 +27,7 @@
     "Renault Trucks"
    ],
    "modelos": [
-    "D NARROW",
-    "D ZE MDA3C N3 e2*2007/46*0033",
+    "D NARROW / D ZE MDA3C N3 e2*2007/46*0033",
     "D NARROW MDA2C N2 e2*2007/46*0135",
     "D NARROW MDB2 M3 e2*2007/46*0186",
     "D NARROW MDB2 N2 e1*2007/46*0610",
@@ -36,10 +35,15 @@
     "D NARROW MDG3 N3 e2*2007/46*0529",
     "D NARROW MDG3C N3 e2*2007/46*0189"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.08.2025 - 24.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Un camión.",
-   "fechasTexto": "18.08.2025 - 24.10.2025"
+   "fechasTexto": "18.08.2025 - 24.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -88,22 +92,22 @@
  "dedup": {
   "claves": [
    "ref:SR/01306/26",
-   "mm:renault-trucks:d-narrow",
-   "mm:renault-trucks:d-ze-mda3c-n3-e2-2007-46-0033",
+   "mm:renault-trucks:d-narrow-d-ze-mda3c-n3-e2-2007-46-0033",
    "mm:renault-trucks:d-narrow-mda2c-n2-e2-2007-46-0135",
    "mm:renault-trucks:d-narrow-mdb2-m3-e2-2007-46-0186",
    "mm:renault-trucks:d-narrow-mdb2-n2-e1-2007-46-0610",
    "mm:renault-trucks:d-narrow-mdb3-n3-e1-2007-46-0611",
    "mm:renault-trucks:d-narrow-mdg3-n3-e2-2007-46-0529",
-   "mm:renault-trucks:d-narrow-mdg3c-n3-e2-2007-46-0189"
+   "mm:renault-trucks:d-narrow-mdg3c-n3-e2-2007-46-0189",
+   "ml:renault-trucks:18-08-2025-24-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f315b9b55c37c09e"
+  "enriquecido": true,
+  "hashContenido": "4a93da703a303b0d"
  },
  "slug": "camion-renault-trucks-safety-gate-10098724"
 }

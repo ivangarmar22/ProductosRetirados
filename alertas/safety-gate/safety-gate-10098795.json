@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "9008289000101"
    ],
    "descripcion": "Acondicionador capilar, 150 ml. Producto vendido en línea, en particular a través de hairdreams.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella blanca."
   }
  ],
  "riesgo": {
@@ -67,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "799d1a01ed63e1d5"
+  "enriquecido": true,
+  "hashContenido": "2d41b91ff67618c2"
  },
  "slug": "acondicionador-de-cabello-hairdreams-safety-gate-10098795"
 }

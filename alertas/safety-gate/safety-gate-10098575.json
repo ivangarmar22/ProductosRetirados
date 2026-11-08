@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-27"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
     "3616034798508"
    ],
    "descripcion": "Bolso flexible de efecto tejido con correa corta para el hombro. Producto vendido en línea, en particular a través de kiabi.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6e82a3816c7a9265"
+  "enriquecido": true,
+  "hashContenido": "e490bd695d7ec762"
  },
  "slug": "bolso-de-mano-kiabi-safety-gate-10098575"
 }

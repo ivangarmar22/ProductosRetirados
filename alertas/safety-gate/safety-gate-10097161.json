@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,18 @@
    "modelos": [
     "e4*168/2013*00131*01-*04 (RA1)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.12.2020 - 09.01.2026"
+    },
+    {
+     "numero": "8.12.2020 - 21.08.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "08.12.2020 - 09.01.20268.12.2020 - 21.08.2025"
+   "fechasTexto": "08.12.2020 - 09.01.20268.12.2020 - 21.08.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +70,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "IE",
+   "LV",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +104,17 @@
  "dedup": {
   "claves": [
    "ref:SR/04510/25",
-   "mm:harley-davidson:e4-168-2013-00131-01-04-ra1"
+   "mm:harley-davidson:e4-168-2013-00131-01-04-ra1",
+   "ml:harley-davidson:08-12-2020-09-01-2026",
+   "ml:harley-davidson:8-12-2020-21-08-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dde311749666a35b"
+  "enriquecido": true,
+  "hashContenido": "f58022d68fd35413"
  },
  "slug": "motocicleta-harley-davidson-safety-gate-10097161"
 }

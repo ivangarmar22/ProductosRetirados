@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave en forma de monstruo parecido a Labubu.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "HR",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "07d37ec2cd7cc6a8"
+  "enriquecido": true,
+  "hashContenido": "c84aef8475a747bd"
  },
  "slug": "juguete-suave-themonsters-safety-gate-10098560"
 }

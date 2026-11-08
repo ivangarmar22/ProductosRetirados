@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "3048700021021"
    ],
    "descripcion": "Bloques musicales de colores. Producto vendido en línea, en particular a través de www.ilovespeelgoed.nl.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón verde."
   }
  ],
  "riesgo": {
@@ -72,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4d15ab3ccf92524f"
+  "enriquecido": true,
+  "hashContenido": "d2ab136e85618a81"
  },
  "slug": "juguete-musical-vilac-safety-gate-10098846"
 }

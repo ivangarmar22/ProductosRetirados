@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8422971871748"
    ],
    "descripcion": "Disfraz de vestir elegante en forma de tigre destinado a bebés de uno a dos años. Incluye un sombrero y una cola.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CY",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fcbc76e9f7243df0"
+  "enriquecido": true,
+  "hashContenido": "4e8c06dc06934a43"
  },
  "slug": "vestido-de-fantasia-rubie-s-safety-gate-10098829"
 }

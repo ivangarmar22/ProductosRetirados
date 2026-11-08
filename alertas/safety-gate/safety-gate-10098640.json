@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6931474798589"
    ],
    "descripcion": "Auriculares inalámbricos morados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -68,7 +69,12 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8ea4914514e6724c"
+  "enriquecido": true,
+  "hashContenido": "ad05bf30c55166ff"
  },
  "slug": "auriculares-inalambricos-hoco-safety-gate-10098640"
 }

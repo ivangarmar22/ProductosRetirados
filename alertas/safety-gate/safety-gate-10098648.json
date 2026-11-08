@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,7 +35,8 @@
     "5904326465664"
    ],
    "descripcion": "Juguete magnético compuesto por 20 imanes de piedra y un cordón textil, destinado a niños mayores de 9 años.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -73,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6fc898af948d1702"
+  "enriquecido": true,
+  "hashContenido": "7af57b7018c666b3"
  },
  "slug": "juguete-magnetico-bigtoys-safety-gate-10098648"
 }

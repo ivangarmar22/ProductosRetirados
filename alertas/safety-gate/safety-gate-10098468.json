@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Disfraz de disfraz de color amarillo, destinado a los niños. Producto vendido en línea, en particular a través de Temu (identificador único: 601100965063769)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8b228da036010c2d"
+  "enriquecido": true,
+  "hashContenido": "f809bd9175d230b1"
  },
  "slug": "vestido-de-fantasia-robe-de-princesse-jaune-safety-gate-10098468"
 }

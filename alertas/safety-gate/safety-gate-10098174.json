@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -34,7 +34,8 @@
     "5213004420797"
    ],
    "descripcion": "Aislamientos de poliestireno extruido (XPS) montados en 7 unidades de aislamiento XPS dimensiones . 1250mm x 600mm x 20mm",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Malta",
   "paisOrigen": "Grecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1f11e16eb638b67a"
+  "enriquecido": true,
+  "hashContenido": "83bde245c51ce7cb"
  },
  "slug": "material-de-aislamiento-styropan-safety-gate-10098174"
 }

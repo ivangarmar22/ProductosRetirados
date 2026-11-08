@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-07"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -45,12 +45,55 @@
    ],
    "lotes": [
     {
-     "numero": "601113601150602113602124602127605040606041606616607056607311607335607337608033608113609060"
+     "numero": "601113"
+    },
+    {
+     "numero": "601150"
+    },
+    {
+     "numero": "602113"
+    },
+    {
+     "numero": "602124"
+    },
+    {
+     "numero": "602127"
+    },
+    {
+     "numero": "605040"
+    },
+    {
+     "numero": "606041"
+    },
+    {
+     "numero": "606616"
+    },
+    {
+     "numero": "607056"
+    },
+    {
+     "numero": "607311"
+    },
+    {
+     "numero": "607335"
+    },
+    {
+     "numero": "607337"
+    },
+    {
+     "numero": "608033"
+    },
+    {
+     "numero": "608113"
+    },
+    {
+     "numero": "609060"
     }
    ],
    "ean": [],
    "descripcion": "Botas de esquí en todos los tamaños. Lotes afectados fabricados entre 2016 y 2022.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -80,7 +123,13 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "ES",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,15 +166,29 @@
    "mm:head:vector-evo-st",
    "mm:head:vector-110-x",
    "mm:head:vector-evo-xr",
-   "ml:head:601113601150602113602124602127605040606041606616607056607311607335607337608033608113609060"
+   "ml:head:601113",
+   "ml:head:601150",
+   "ml:head:602113",
+   "ml:head:602124",
+   "ml:head:602127",
+   "ml:head:605040",
+   "ml:head:606041",
+   "ml:head:606616",
+   "ml:head:607056",
+   "ml:head:607311",
+   "ml:head:607335",
+   "ml:head:607337",
+   "ml:head:608033",
+   "ml:head:608113",
+   "ml:head:609060"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e72c83d4090ad46b"
+  "enriquecido": true,
+  "hashContenido": "0b675c66a6943c05"
  },
  "slug": "botas-de-esqui-head-safety-gate-10097508"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-27"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -35,7 +35,8 @@
     "3616030106321"
    ],
    "descripcion": "Bolso de mano negro y borgoña con correa para el hombro, destinado a las mujeres. Producto vendido en línea, en particular a través de kiabi.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db3cbf51802d933a"
+  "enriquecido": true,
+  "hashContenido": "fbaba6889b099dc9"
  },
  "slug": "bolso-de-mano-kiabi-safety-gate-10098569"
 }

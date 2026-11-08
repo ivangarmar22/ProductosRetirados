@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,15 +27,15 @@
     "Dong Cheng"
    ],
    "modelos": [
-    "DC015-5",
-    "CJ-0756858"
+    "DC015-5, CJ-0756858"
    ],
    "lotes": [],
    "ean": [
     "1000007568588"
    ],
    "descripcion": "Un juguete de bebé giratorio con coloridas figuras de mariposa y felpa en forma de flor y una casa musical de plástico y cuerda.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -101,16 +101,15 @@
   "claves": [
    "ref:SR/01310/26",
    "ean:1000007568588",
-   "mm:dong-cheng:dc015-5",
-   "mm:dong-cheng:cj-0756858"
+   "mm:dong-cheng:dc015-5-cj-0756858"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c1ef6b4f3c4174f3"
+  "enriquecido": true,
+  "hashContenido": "a6a94e617213af83"
  },
  "slug": "juguete-musical-dong-cheng-safety-gate-10098759"
 }

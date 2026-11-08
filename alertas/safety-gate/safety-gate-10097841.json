@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-13"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Scooter eléctrico negro de aleación de aluminio. Altura: 1250 mm. Ancho: 490 mm. Longitud: 1,2 m. Cuando se pliega: Altura: 550 mm. Ancho: 490 mm. Longitud: 1180 mm. Peso: 18,50 kg. Producto vendido en línea. Los productos afectados son los suministrados con las baterías Acer/Predator ES Series 5 (AES025/PES025) que se enviaron entre junio de 2024 y diciembre de 2025 a AT, DE, CH, UA, PL, CZ y SK.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0570930a39a808c9"
+  "enriquecido": true,
+  "hashContenido": "507398babe8caef4"
  },
  "slug": "scooter-electrico-acer-safety-gate-10097841"
 }

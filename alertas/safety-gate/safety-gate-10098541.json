@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-12"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -37,7 +37,25 @@
    ],
    "lotes": [
     {
-     "numero": "A045935A002226A009993A032293A035547A038177A052304"
+     "numero": "A045935"
+    },
+    {
+     "numero": "A002226"
+    },
+    {
+     "numero": "A009993"
+    },
+    {
+     "numero": "A032293"
+    },
+    {
+     "numero": "A035547"
+    },
+    {
+     "numero": "A038177"
+    },
+    {
+     "numero": "A052304"
     }
    ],
    "ean": [
@@ -50,7 +68,8 @@
     "6932467666908"
    ],
    "descripcion": "Cigarrillo electrónico desechable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -137,15 +156,21 @@
    "mm:oxbar:pina-colada",
    "mm:oxbar:sour-fruit-drops",
    "mm:oxbar:watermelon-raspberry",
-   "ml:oxbar:a045935a002226a009993a032293a035547a038177a052304"
+   "ml:oxbar:a045935",
+   "ml:oxbar:a002226",
+   "ml:oxbar:a009993",
+   "ml:oxbar:a032293",
+   "ml:oxbar:a035547",
+   "ml:oxbar:a038177",
+   "ml:oxbar:a052304"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6ba17aecc014f0b7"
+  "enriquecido": true,
+  "hashContenido": "1a290f26fb50643f"
  },
  "slug": "cigarrillo-electronico-desechable-oxbar-safety-gate-10098541"
 }

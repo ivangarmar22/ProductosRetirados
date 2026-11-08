@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-27"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -38,7 +38,8 @@
     "6410412307132"
    ],
    "descripcion": "Conjunto de bádminton, que incluye dos raquetas azules y dos rojas y negras con empuñadura negra, tres lanzaderas, una bolsa de transporte negra con asa y una ventana de plástico transparente en un lado, una red y tubos grises.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c7c3eff9a4383cc6"
+  "enriquecido": true,
+  "hashContenido": "f966e853ec22bf08"
  },
  "slug": "conjunto-de-badminton-atom-safety-gate-10098652"
 }

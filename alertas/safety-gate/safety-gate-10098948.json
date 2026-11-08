@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "TFDD",
     "e13*2007/46*1858*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10/07/2025 - 05/02/2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper",
-   "fechasTexto": "10/07/2025 - 05/02/2026"
+   "fechasTexto": "10/07/2025 - 05/02/2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,15 +84,16 @@
   "claves": [
    "ref:SR/01484/26",
    "mm:nobel-art:tfdd",
-   "mm:nobel-art:e13-2007-46-1858-14"
+   "mm:nobel-art:e13-2007-46-1858-14",
+   "ml:nobel-art:10-07-2025-05-02-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1ddb875407e74299"
+  "enriquecido": true,
+  "hashContenido": "a06a671390dba62c"
  },
  "slug": "camioneta-de-camper-nobel-art-safety-gate-10098948"
 }

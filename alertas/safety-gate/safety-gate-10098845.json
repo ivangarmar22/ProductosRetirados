@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Aston Martin"
    ],
    "modelos": [
-    "AM8",
-    "AM8SS",
-    "e9*2007/46*6804*00-*03",
-    "e9*KS18/858*11438*00-*04"
+    "AM8, AM8SS",
+    "e9*2007/46*6804*00-*03, e9*KS18/858*11438*00-*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.02.2020 - 05.11.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "27.02.2020 - 05.11.2025"
+   "fechasTexto": "27.02.2020 - 05.11.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +86,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01388/26",
-   "mm:aston-martin:am8",
-   "mm:aston-martin:am8ss",
-   "mm:aston-martin:e9-2007-46-6804-00-03",
-   "mm:aston-martin:e9-ks18-858-11438-00-04"
+   "mm:aston-martin:am8-am8ss",
+   "mm:aston-martin:e9-2007-46-6804-00-03-e9-ks18-858-11438-00-04",
+   "ml:aston-martin:27-02-2020-05-11-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6c2cab5495bf54b8"
+  "enriquecido": true,
+  "hashContenido": "7506893ba0e2f23c"
  },
  "slug": "coche-de-pasajeros-aston-martin-safety-gate-10098845"
 }

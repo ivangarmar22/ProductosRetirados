@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-28"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -38,7 +38,8 @@
     "5907558455830"
    ],
    "descripcion": "Guantes de trabajo, destinados a la soldadura.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE",
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aa7845242c2c76b3"
+  "enriquecido": true,
+  "hashContenido": "7bd4e8d114143e3b"
  },
  "slug": "guantes-de-trabajo-neo-tools-safety-gate-10098402"
 }

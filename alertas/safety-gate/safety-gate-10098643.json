@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Can-Am Outlander 500/700 Pro"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2023 - 2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo todoterreno / Quad.",
-   "fechasTexto": "2023 - 2026"
+   "fechasTexto": "2023 - 2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01236/26",
-   "mm:can-am:can-am-outlander-500-700-pro"
+   "mm:can-am:can-am-outlander-500-700-pro",
+   "ml:can-am:2023-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f43f8f07eb2b5d3d"
+  "enriquecido": true,
+  "hashContenido": "7df45928b9619370"
  },
  "slug": "vehiculo-todo-terreno-can-am-safety-gate-10098643"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "Goodyear 255/35ZR20 (97Y) Eagle F1 SUPERSPORT XL E13*30R02/25*25780*00 // E13 0225780",
     "Goodyear 305/30ZR21 (104Y) Eagle F1 SUPERSPORT XL E13*30R02/25*23074*00 // E13 0223074"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.06.2024-09.06.2024; 25.08.2025-14.09.2025; (305/30ZR21 (104Y) Goodyear Eagle F1 SUPERSPORT XL)"
+    },
+    {
+     "numero": "27.05.2024-02.06.2024; 01.09.2025-14.09.2025 (255/35ZR20 (97Y) Goodyear Eagle F1 SUPERSPORT XL)"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumáticos. Neumático 1: 255/35ZR20 (97Y) Goodyear Eagle F1 SUPERSPORT XL; Código DOT: 1DM5V JACR 2224 , 1DM5V JACR 3625, 1DM5V JACR 3725 Neumático 2: 305/30ZR21 (104Y) Goodyear Eagle F1 SUPERSPORT XL; Código DOT: 1DMKX JD1R 2324, 1DMKX JD1R 3525, 1DMKX JD1R 3625, 1DMKX JD1R 3725. Producto vendido en línea.",
-   "fechasTexto": "03.06.2024-09.06.2024; 25.08.2025-14.09.2025; (305/30ZR21 (104Y) Goodyear Eagle F1 SUPERSPORT XL)27.05.2024-02.06.2024; 01.09.2025-14.09.2025 (255/35ZR20 (97Y) Goodyear Eagle F1 SUPERSPORT XL)"
+   "fechasTexto": "03.06.2024-09.06.2024; 25.08.2025-14.09.2025; (305/30ZR21 (104Y) Goodyear Eagle F1 SUPERSPORT XL)27.05.2024-02.06.2024; 01.09.2025-14.09.2025 (255/35ZR20 (97Y) Goodyear Eagle F1 SUPERSPORT XL)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +91,17 @@
   "claves": [
    "ref:SR/01315/26",
    "mm:goodyear:goodyear-255-35zr20-97y-eagle-f1-supersport-xl-e13-30r02-25-25780-00-e13-0225780",
-   "mm:goodyear:goodyear-305-30zr21-104y-eagle-f1-supersport-xl-e13-30r02-25-23074-00-e13-0223074"
+   "mm:goodyear:goodyear-305-30zr21-104y-eagle-f1-supersport-xl-e13-30r02-25-23074-00-e13-0223074",
+   "ml:goodyear:03-06-2024-09-06-2024-25-08-2025-14-09-2025-305-30zr21-104y-goodyear-eagle-f1-supersport-xl",
+   "ml:goodyear:27-05-2024-02-06-2024-01-09-2025-14-09-2025-255-35zr20-97y-goodyear-eagle-f1-supersport-xl"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0728d59047dbfc29"
+  "enriquecido": true,
+  "hashContenido": "fef691071b22660b"
  },
  "slug": "pieza-del-vehiculo-neumatico-goodyear-safety-gate-10098726"
 }

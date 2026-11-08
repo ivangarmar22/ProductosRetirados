@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2007/46*1052*00-*01 (DH)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.06. 2017 to 18.08. 2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "23.06. 2017 to 18.08. 2020"
+   "fechasTexto": "23.06. 2017 to 18.08. 2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01468/26",
-   "mm:jaguar:e5-2007-46-1052-00-01-dh"
+   "mm:jaguar:e5-2007-46-1052-00-01-dh",
+   "ml:jaguar:23-06-2017-to-18-08-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "45adfc412a48b486"
+  "enriquecido": true,
+  "hashContenido": "0a45fa38c8d534e2"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10098960"
 }

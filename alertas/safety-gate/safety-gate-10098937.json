@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,12 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "107970012100004047800121000050224001210000"
+     "numero": "10797001210000"
+    },
+    {
+     "numero": "40478001210000"
+    },
+    {
+     "numero": "50224001210000"
     }
    ],
    "ean": [],
    "descripcion": "Conjunto de piezas de plástico que imitan alimentos de juguete (pizza, pasta, etc.).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico con una parte posterior de cartón."
   }
  ],
  "riesgo": {
@@ -69,7 +76,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +101,17 @@
  "dedup": {
   "claves": [
    "ref:SR/01454/26",
-   "ml:tedi-gmbh-co-kg:107970012100004047800121000050224001210000"
+   "ml:tedi-gmbh-co-kg:10797001210000",
+   "ml:tedi-gmbh-co-kg:40478001210000",
+   "ml:tedi-gmbh-co-kg:50224001210000"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0453059205672750"
+  "enriquecido": true,
+  "hashContenido": "c644fb52bb54da5e"
  },
  "slug": "juego-de-juguetes-tedi-gmbh-co-kg-safety-gate-10098937"
 }

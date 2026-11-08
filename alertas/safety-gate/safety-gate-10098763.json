@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-12"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -44,7 +44,13 @@
    ],
    "lotes": [
     {
-     "numero": "SLB251201FSLB251201F SLB251201Z"
+     "numero": "SLB251201F"
+    },
+    {
+     "numero": "SLB251201F"
+    },
+    {
+     "numero": "SLB251201Z"
     }
    ],
    "ean": [
@@ -64,7 +70,8 @@
     "6979193541666"
    ],
    "descripcion": "Cartucho de repuesto para cigarrillos electrónicos, 35ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -145,15 +152,16 @@
    "mm:solo-bar-nic-salts:strawberry-ice",
    "mm:solo-bar-nic-salts:strawberry-kiwi",
    "mm:solo-bar-nic-salts:strawberry-rasberry-cherry-ice",
-   "ml:solo-bar-nic-salts:slb251201fslb251201f-slb251201z"
+   "ml:solo-bar-nic-salts:slb251201f",
+   "ml:solo-bar-nic-salts:slb251201z"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "28ddb0233e9cd402"
+  "enriquecido": true,
+  "hashContenido": "f01130b2a95363c8"
  },
  "slug": "cartucho-de-cigarrillo-electronico-solo-bar-nic-salts-safety-gate-10098763"
 }

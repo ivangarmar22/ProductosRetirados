@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "e2*2018/858*00035*11",
     "e2*2018/858*00064*13 g11*2018/858*00524*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "C3 AIRCROSS V3: 19/03/2026 - 20/03/2026"
+    },
+    {
+     "numero": "C5 AIRCROSS V2: 20/03/2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN: VR7KAHPY8TL023431 - VR7KAHPY8TL023896, VR7CGHPY5TT083038 - VR7CGHPY6TT083646.",
-   "fechasTexto": "C3 AIRCROSS V3: 19/03/2026 - 20/03/2026C5 AIRCROSS V2: 20/03/2026"
+   "fechasTexto": "C3 AIRCROSS V3: 19/03/2026 - 20/03/2026C5 AIRCROSS V2: 20/03/2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +94,17 @@
   "claves": [
    "ref:SR/01382/26",
    "mm:citroen:e2-2018-858-00035-11",
-   "mm:citroen:e2-2018-858-00064-13-g11-2018-858-00524-07"
+   "mm:citroen:e2-2018-858-00064-13-g11-2018-858-00524-07",
+   "ml:citroen:c3-aircross-v3-19-03-2026-20-03-2026",
+   "ml:citroen:c5-aircross-v2-20-03-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30cb006648159402"
+  "enriquecido": true,
+  "hashContenido": "62397358f0c2044c"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10098820"
 }

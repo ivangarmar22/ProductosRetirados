@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2007/46*1059"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.10.2008 - 25.9.2010"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "10.10.2008 - 25.9.2010"
+   "fechasTexto": "10.10.2008 - 25.9.2010",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Luxemburgo",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01308/26",
-   "mm:nissan:e13-2007-46-1059"
+   "mm:nissan:e13-2007-46-1059",
+   "ml:nissan:10-10-2008-25-9-2010"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "782010f494f6f5cf"
+  "enriquecido": true,
+  "hashContenido": "3635464d9b6fcaae"
  },
  "slug": "coche-de-pasajeros-nissan-safety-gate-10098703"
 }
