@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-15"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "3616959381496"
    ],
    "descripcion": "Freidora de aire. Todos los lotes están afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32480a0b8368c137"
+  "enriquecido": true,
+  "hashContenido": "d072360f5baecb16"
  },
  "slug": "freidora-de-aire-carrefour-home-safety-gate-10097899"
 }

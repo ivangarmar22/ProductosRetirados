@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*2018*858*11593*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.04.2025 - 08.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.04.2025 - 08.12.2025"
+   "fechasTexto": "01.04.2025 - 08.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00683/26",
-   "mm:jaecoo:e9-2018-858-11593-00"
+   "mm:jaecoo:e9-2018-858-11593-00",
+   "ml:jaecoo:01-04-2025-08-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fed8839c07d009fd"
+  "enriquecido": true,
+  "hashContenido": "aa2e181a7ffa2c03"
  },
  "slug": "coche-de-pasajeros-jaecoo-safety-gate-10098034"
 }

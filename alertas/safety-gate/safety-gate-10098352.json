@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-08"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Lámpara de pared blanca con dos fuentes de luz, 8.5W.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "Rumanía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fdbece4d9411250e"
+  "enriquecido": true,
+  "hashContenido": "0aedae1ed080b59b"
  },
  "slug": "lampara-de-pared-ikea-safety-gate-10098352"
 }

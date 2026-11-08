@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juego de té de juguete en una caja de almacenamiento de metal. El juego de té está decorado con flores azules y púrpuras. Producto vendido en línea, en particular a través de flyingtiger.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,14 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "EE",
+   "IE",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "54c038bf6a8fe507"
+  "enriquecido": true,
+  "hashContenido": "561624ade594b60c"
  },
  "slug": "juego-de-te-de-juguete-flying-tiger-copenhagen-safety-gate-10097963"
 }

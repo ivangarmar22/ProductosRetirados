@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -24,7 +24,9 @@
   {
    "nombre": "Brightening Body Lotion",
    "marcas": [
-    "Carotone, Gandour, Nouvelle Parfumerie Gandour"
+    "Carotone",
+    "Gandour",
+    "Nouvelle Parfumerie Gandour"
    ],
    "modelos": [
     "A2-0284"
@@ -38,7 +40,8 @@
     "6182000105382"
    ],
    "descripcion": "Loción para aclarar la piel",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envase amarillo-naranja de 550 ml."
   }
  ],
  "riesgo": {
@@ -92,16 +95,20 @@
   "claves": [
    "ref:A12/00446/22",
    "ean:6182000105382",
-   "mm:carotone-gandour-nouvelle-parfumerie-gandour:a2-0284",
-   "ml:carotone-gandour-nouvelle-parfumerie-gandour:1034550"
+   "mm:carotone:a2-0284",
+   "ml:carotone:1034550",
+   "mm:gandour:a2-0284",
+   "ml:gandour:1034550",
+   "mm:nouvelle-parfumerie-gandour:a2-0284",
+   "ml:nouvelle-parfumerie-gandour:1034550"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3d647eac01636ae0"
+  "enriquecido": true,
+  "hashContenido": "36a38fe0e3c2e89c"
  },
  "slug": "locion-para-aclarar-la-piel-carotone-gandour-nouvelle-parfumerie-gando-safety-gate-10005750"
 }

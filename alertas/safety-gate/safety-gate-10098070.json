@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Hyundai"
    ],
    "modelos": [
-    "e5*2007/46*0090*02",
-    "e5*2007/46*0090*03",
-    "e5*2007/46*0090*06"
+    "e5*2007/46*0090*02, e5*2007/46*0090*03, e5*2007/46*0090*06."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.11.2021 - 25.04.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Año del modelo: 2021 - 2023. VIN: NLHDN51AJMZ102614 - NLHDN51EYPZ215999.",
-   "fechasTexto": "01.11.2021 - 25.04.2023"
+   "fechasTexto": "01.11.2021 - 25.04.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "HU",
+   "IS",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,17 +92,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00684/26",
-   "mm:hyundai:e5-2007-46-0090-02",
-   "mm:hyundai:e5-2007-46-0090-03",
-   "mm:hyundai:e5-2007-46-0090-06"
+   "mm:hyundai:e5-2007-46-0090-02-e5-2007-46-0090-03-e5-2007-46-0090-06",
+   "ml:hyundai:01-11-2021-25-04-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2b822739ee18da13"
+  "enriquecido": true,
+  "hashContenido": "9c903b839ae8ce35"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10098070"
 }

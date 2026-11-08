@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "SEK8",
     "e13*168/2013*01861*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2024 - 30.09.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "01.01.2024 - 30.09.2025"
+   "fechasTexto": "01.01.2024 - 30.09.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +101,16 @@
   "claves": [
    "ref:SR/00712/26",
    "mm:yamaha:sek8",
-   "mm:yamaha:e13-168-2013-01861"
+   "mm:yamaha:e13-168-2013-01861",
+   "ml:yamaha:01-01-2024-30-09-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4a9ac1c0a7f725d5"
+  "enriquecido": true,
+  "hashContenido": "05602ab08162a398"
  },
  "slug": "motocicleta-yamaha-safety-gate-10098128"
 }

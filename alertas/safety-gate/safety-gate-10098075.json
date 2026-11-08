@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8714627012316"
    ],
    "descripcion": "Juguete Yoyo Puffer con figura de arena, elástico 33 cm, 264 g, surtido en seis colores. Producto vendido en línea, en particular a través de www.toi-toys.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Etiqueta de cartón con el nombre del producto."
   }
  ],
  "riesgo": {
@@ -64,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BG",
+   "FR",
+   "MT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5d4ed58973f037b7"
+  "enriquecido": true,
+  "hashContenido": "c04208f3aeb4220c"
  },
  "slug": "juguete-de-yoyo-puffer-toi-toys-safety-gate-10098075"
 }

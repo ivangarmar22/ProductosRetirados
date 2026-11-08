@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,20 +27,18 @@
     "Audi"
    ],
    "modelos": [
-    "8P",
-    "8H",
-    "8T",
-    "8R",
-    "e1*2001/116*0217*",
-    "e1*2001/116*0456*",
-    "e1*2001/116*0177*",
-    "e1*2001/116*0430*",
-    "e1*2001/116*0473*"
+    "8P, 8H, 8T, 8R",
+    "e1*2001/116*0217*, e1*2001/116*0456*, e1*2001/116*0177*, e1*2001/116*0430*, e1*2001/116*0473*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.10.2004-22.04.2013"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "15.10.2004-22.04.2013"
+   "fechasTexto": "15.10.2004-22.04.2013",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,19 +107,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00790/26",
-   "mm:audi:e1-2001-116-0217",
-   "mm:audi:e1-2001-116-0456",
-   "mm:audi:e1-2001-116-0177",
-   "mm:audi:e1-2001-116-0430",
-   "mm:audi:e1-2001-116-0473"
+   "mm:audi:8p-8h-8t-8r",
+   "mm:audi:e1-2001-116-0217-e1-2001-116-0456-e1-2001-116-0177-e1-2001-116-0430-e1-2001-116-0473",
+   "ml:audi:15-10-2004-22-04-2013"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2b656ee74e0eb83f"
+  "enriquecido": true,
+  "hashContenido": "fa27ca48ddfaf909"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10098159"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave en forma de unicornio con una estructura de madera, adecuado para su uso como caballo mecedor, equipado con un sistema de sonido a batería. Producto vendido en línea, en particular a través de AliExpress (identificador único del producto: 1005007463472571), Amazon y Maisons du Monde.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón y bolsas de plástico."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a029ed42012521d"
+  "enriquecido": true,
+  "hashContenido": "f0377825c74095a4"
  },
  "slug": "juguete-de-rock-homcom-safety-gate-10097909"
 }

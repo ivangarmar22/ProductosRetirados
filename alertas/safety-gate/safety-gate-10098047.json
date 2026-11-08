@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-06"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -34,7 +34,8 @@
     "3560232860058"
    ],
    "descripcion": "Juego de seis piezas de sartenes de acero inoxidable con asa extraíble. Todos los lotes se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e90ebd5a0a2fd263"
+  "enriquecido": true,
+  "hashContenido": "725a0e8f3f776623"
  },
  "slug": "juego-de-utensilios-de-cocina-5-five-safety-gate-10098047"
 }

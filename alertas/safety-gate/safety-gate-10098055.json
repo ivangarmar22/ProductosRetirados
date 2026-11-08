@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Skoda"
    ],
    "modelos": [
-    "AA",
-    "5J",
-    "NH",
-    "5L",
-    "5E",
-    "3T",
-    "e13*2007/46*1169*00-*22",
-    "e11*2001/116*0291*00-*55",
-    "e11*2007/46*0250*00-*20",
-    "e11*2007/46*0010*00-*27",
-    "e11*2007/46*0243*00-*26",
-    "e11*2001/116*0326*00-*45"
+    "AA, 5J, NH, 5L, 5E, 3T",
+    "e13*2007/46*1169*00-*22, e11*2001/116*0291*00-*55, e11*2007/46*0250*00-*20, e11*2007/46*0010*00-*27, e11*2007/46*0243*00-*26, e11*2001/116*0326*00-*45"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.5.2014 - 18.8.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "14.5.2014 - 18.8.2016"
+   "fechasTexto": "14.5.2014 - 18.8.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +69,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -126,20 +134,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00680/26",
-   "mm:skoda:e13-2007-46-1169-00-22",
-   "mm:skoda:e11-2001-116-0291-00-55",
-   "mm:skoda:e11-2007-46-0250-00-20",
-   "mm:skoda:e11-2007-46-0010-00-27",
-   "mm:skoda:e11-2007-46-0243-00-26",
-   "mm:skoda:e11-2001-116-0326-00-45"
+   "mm:skoda:aa-5j-nh-5l-5e-3t",
+   "mm:skoda:e13-2007-46-1169-00-22-e11-2001-116-0291-00-55-e11-2007-46-0250-00-20-e11-2007-46-0010-00-27-e11-2007-46-0243-00-26-e11-2001-116-0326-00-45",
+   "ml:skoda:14-5-2014-18-8-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1eb868c759813eab"
+  "enriquecido": true,
+  "hashContenido": "854c2e4273fff57a"
  },
  "slug": "coche-de-pasajeros-skoda-safety-gate-10098055"
 }

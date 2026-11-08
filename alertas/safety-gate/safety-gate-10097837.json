@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-05"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "E-scooter de aluminio negro. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "HU",
+   "PL",
+   "SI",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d31ac68cece79665"
+  "enriquecido": true,
+  "hashContenido": "bb7d0bc55ca92b2f"
  },
  "slug": "scooter-electrico-acer-safety-gate-10097837"
 }

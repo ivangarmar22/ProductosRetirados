@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,15 +27,15 @@
     "Pop Mart (COUNTERFEIT)"
    ],
    "modelos": [
-    "Loyalty",
-    "01202810162"
+    "Loyalty, 01202810162"
    ],
    "lotes": [],
    "ean": [
     "6931571071929"
    ],
    "descripcion": "Juguete suave, en forma de un monstruo parecido a Labubu con un llavero. La cara del monstruo está hecha de plástico. Producto vendido en línea, en particular a través de partyhallen.se.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -93,16 +93,15 @@
   "claves": [
    "ref:SR/00833/26",
    "ean:6931571071929",
-   "mm:pop-mart-counterfeit:loyalty",
-   "mm:pop-mart-counterfeit:01202810162"
+   "mm:pop-mart-counterfeit:loyalty-01202810162"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d00c8a7ce79c85e7"
+  "enriquecido": true,
+  "hashContenido": "2b2ec1cd2bd9ee2f"
  },
  "slug": "juguete-suave-pop-mart-counterfeit-safety-gate-10098032"
 }

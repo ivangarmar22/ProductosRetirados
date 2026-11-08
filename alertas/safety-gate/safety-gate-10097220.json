@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-27"
  },
  "categoria": {
   "literal": "Papelería",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Caja de lápices de plástico con un patrón de flores. Producto vendido en línea, en particular a través de AliExpress.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente."
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Noruega",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "15ffabd388eae940"
+  "enriquecido": true,
+  "hashContenido": "b68a8f10c740a434"
  },
  "slug": "caja-de-lapiz-safety-gate-10097220"
 }

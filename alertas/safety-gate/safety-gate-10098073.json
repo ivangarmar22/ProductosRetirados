@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-29"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,7 +35,19 @@
    ],
    "lotes": [
     {
-     "numero": "PO-202400161PO-240519PO-242561 & PO-251115PO-250436PO-251358"
+     "numero": "PO-202400161"
+    },
+    {
+     "numero": "PO-240519"
+    },
+    {
+     "numero": "PO-242561 & PO-251115"
+    },
+    {
+     "numero": "PO-250436"
+    },
+    {
+     "numero": "PO-251358"
     }
    ],
    "ean": [
@@ -47,7 +59,8 @@
     "8715427170442"
    ],
    "descripcion": "Producto de pintura de arena, que contiene varias bolsas de arena de colores con las que los niños pueden jugar. Producto vendido en línea, en particular a través de bol.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón impresa en color."
   }
  ],
  "riesgo": {
@@ -77,7 +90,14 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "FR",
+   "HR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -128,15 +148,19 @@
    "mm:moxy:163000",
    "mm:moxy:bt360402",
    "mm:moxy:tt723276",
-   "ml:moxy:po-202400161po-240519po-242561-po-251115po-250436po-251358"
+   "ml:moxy:po-202400161",
+   "ml:moxy:po-240519",
+   "ml:moxy:po-242561-po-251115",
+   "ml:moxy:po-250436",
+   "ml:moxy:po-251358"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cbe5176a08d1551a"
+  "enriquecido": true,
+  "hashContenido": "f64224307ec9e817"
  },
  "slug": "juguete-de-actividad-de-arte-de-arena-moxy-safety-gate-10098073"
 }

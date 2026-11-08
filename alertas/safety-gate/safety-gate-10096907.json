@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete suave en forma de dragón. Producto vendido en línea, en particular a través de AliExpress (identificador único: 1005008351226279).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -69,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e75ed134f60d8333"
+  "enriquecido": true,
+  "hashContenido": "8970cef1f34d5726"
  },
  "slug": "juguete-suave-jouet-en-peluche-dessin-anime-petit-dragon-volant-kawaii-safety-gate-10096907"
 }

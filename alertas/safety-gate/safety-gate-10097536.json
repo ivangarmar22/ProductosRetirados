@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-08"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Polvo de bomba de baño dentro de una botella de plástico, 70 g, vendido con un dinosaurio de juguete de jabón.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64a79342f33ff294"
+  "enriquecido": true,
+  "hashContenido": "68ddbc025c33f22c"
  },
  "slug": "bomba-de-bano-outpicker-safety-gate-10097536"
 }

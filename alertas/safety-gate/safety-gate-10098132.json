@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-28"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,14 +29,24 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "01110118 AF 3781 07/5901112121 AF8534 13/3302110118 AF3014 11/4816209224 EA263813\\33"
+     "numero": "01110118 AF 3781 07/59"
+    },
+    {
+     "numero": "01112121 AF8534 13/33"
+    },
+    {
+     "numero": "02110118 AF3014 11/48"
+    },
+    {
+     "numero": "16209224 EA263813\\33"
     }
    ],
    "ean": [
     "5907579205445"
    ],
    "descripcion": "Líquido azul anticongelante, 5 litros.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor de plástico."
   }
  ],
  "riesgo": {
@@ -86,15 +96,18 @@
   "claves": [
    "ref:SR/00786/26",
    "ean:5907579205445",
-   "ml:ice-flower:01110118-af-3781-07-5901112121-af8534-13-3302110118-af3014-11-4816209224-ea263813-33"
+   "ml:ice-flower:01110118-af-3781-07-59",
+   "ml:ice-flower:01112121-af8534-13-33",
+   "ml:ice-flower:02110118-af3014-11-48",
+   "ml:ice-flower:16209224-ea263813-33"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "85ce0bf3ef1382ec"
+  "enriquecido": true,
+  "hashContenido": "401d3e1b286cd40b"
  },
  "slug": "anticongelante-ice-flower-safety-gate-10098132"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0639*31 e2*2007/46*0639*32 e2*2007/46*0639*33 e2*2007/46*0639*34 e2*2007/46*0639*35 e2*2007/46*0639*36 e2*2007/46*0639*37 e2*2007/46*0639*38 e2*2007/46*0639*39"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.03.2024 - 13.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN: VYCUPHPX6R4083420 - VYCUPHPX6T4011057.",
-   "fechasTexto": "18.03.2024 - 13.01.2026"
+   "fechasTexto": "18.03.2024 - 13.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00840/26",
-   "mm:lancia:e2-2007-46-0639-31-e2-2007-46-0639-32-e2-2007-46-0639-33-e2-2007-46-0639-34-e2-2007-46-0639-35-e2-2007-46-0639-36-e2-2007-46-0639-37-e2-2007-46-0639-38-e2-2007-46-0639-39"
+   "mm:lancia:e2-2007-46-0639-31-e2-2007-46-0639-32-e2-2007-46-0639-33-e2-2007-46-0639-34-e2-2007-46-0639-35-e2-2007-46-0639-36-e2-2007-46-0639-37-e2-2007-46-0639-38-e2-2007-46-0639-39",
+   "ml:lancia:18-03-2024-13-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0175b676a556fef2"
+  "enriquecido": true,
+  "hashContenido": "b961c21f7e0c79ad"
  },
  "slug": "coche-de-pasajeros-lancia-safety-gate-10098236"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "E",
     "e2*2007/46*0624*30-*33"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.07.2025 - 08.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "26.07.2025 - 08.10.2025"
+   "fechasTexto": "26.07.2025 - 08.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "IE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00713/26",
-   "mm:fiat:e2-2007-46-0624-30-33"
+   "mm:fiat:e2-2007-46-0624-30-33",
+   "ml:fiat:26-07-2025-08-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "371b4abad76183c6"
+  "enriquecido": true,
+  "hashContenido": "8828ad9293beda25"
  },
  "slug": "coche-de-pasajeros-fiat-safety-gate-10098085"
 }

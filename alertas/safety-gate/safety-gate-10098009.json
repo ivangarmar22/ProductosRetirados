@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "6931571071929"
    ],
    "descripcion": "Juguete suave en forma de monstruo marrón parecido a Labubu en tres colores. Producto vendido en línea, en particular a través de Allegro y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "37307feb083c76be"
+  "enriquecido": true,
+  "hashContenido": "9fcb91fe4f3be6bb"
  },
  "slug": "juguete-suave-con-llavero-pop-mart-safety-gate-10098009"
 }

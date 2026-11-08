@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Ford"
    ],
    "modelos": [
-    "FED",
-    "FCD",
-    "FDD",
-    "FBD",
-    "FFD",
-    "e1*2007/46*1096*24-*26",
-    "e1*2007/46*1100*24-*26",
-    "e1*2007/46*1098*23-*25",
-    "e5*2007/46*1033*08-*10",
-    "e1*2007/46*1097*21-*23"
+    "FED, FCD, FDD, FBD, FFD",
+    "e1*2007/46*1096*24-*26, e1*2007/46*1100*24-*26, e1*2007/46*1098*23-*25, e5*2007/46*1033*08-*10, e1*2007/46*1097*21-*23"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.05.2024 - 11.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero.",
-   "fechasTexto": "10.05.2024 - 11.10.2025"
+   "fechasTexto": "10.05.2024 - 11.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +70,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,24 +102,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00715/26",
-   "mm:ford:fed",
-   "mm:ford:fcd",
-   "mm:ford:fdd",
-   "mm:ford:fbd",
-   "mm:ford:ffd",
-   "mm:ford:e1-2007-46-1096-24-26",
-   "mm:ford:e1-2007-46-1100-24-26",
-   "mm:ford:e1-2007-46-1098-23-25",
-   "mm:ford:e5-2007-46-1033-08-10",
-   "mm:ford:e1-2007-46-1097-21-23"
+   "mm:ford:fed-fcd-fdd-fbd-ffd",
+   "mm:ford:e1-2007-46-1096-24-26-e1-2007-46-1100-24-26-e1-2007-46-1098-23-25-e5-2007-46-1033-08-10-e1-2007-46-1097-21-23",
+   "ml:ford:10-05-2024-11-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bfaf6387665628a0"
+  "enriquecido": true,
+  "hashContenido": "8ff547fd22cbc277"
  },
  "slug": "vehiculo-comercial-ligero-ford-safety-gate-10098127"
 }

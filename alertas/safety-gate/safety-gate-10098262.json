@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-07"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Calcetines antideslizantes para bebés (tamaños del 15/17 al 24/26) en diferentes colores y se venden en conjuntos de dos pares. Producto vendido en línea, en particular a través de www.carrefour.fr.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "ES",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b1a0af83294db2ca"
+  "enriquecido": true,
+  "hashContenido": "4efb2a12b3a18999"
  },
  "slug": "calcetines-tex-basic-safety-gate-10098262"
 }

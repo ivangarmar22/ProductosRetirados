@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "202410182025108 2025/10/08"
+     "numero": "20241018"
+    },
+    {
+     "numero": "2025108 2025/10/08"
     }
    ],
    "ean": [],
    "descripcion": "Conjunto de doce paquetes de arena de juguete en diferentes colores. Producto vendido en línea, en particular a través de Amazon (ASIN: B0876MGT17).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Macetas de plástico."
   }
  ],
  "riesgo": {
@@ -74,7 +78,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,15 +104,16 @@
   "claves": [
    "ref:SR/00784/26",
    "mm:xiaohong:4lbs",
-   "ml:xiaohong:202410182025108-2025-10-08"
+   "ml:xiaohong:20241018",
+   "ml:xiaohong:2025108-2025-10-08"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f293c44c8ebeda6a"
+  "enriquecido": true,
+  "hashContenido": "2d6ed2f8aa6e094f"
  },
  "slug": "juguete-de-actividad-de-arena-xiaohong-safety-gate-10098197"
 }

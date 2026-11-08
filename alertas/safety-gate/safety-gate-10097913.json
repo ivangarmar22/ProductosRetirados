@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pistola de aire de juguete de plástico en blanco, azul y negro, con un par de gafas, un objetivo de cartón, cuatro proyectiles y diez balas de espuma gris con ventosas azules. Producto vendido en línea, en particular a través de AliExpress (identificador único del producto: 1005009914110938) y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón y envoltura de burbujas."
   }
  ],
  "riesgo": {
@@ -73,7 +74,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e4f91a8b341a678"
+  "enriquecido": true,
+  "hashContenido": "5f6b133236b24199"
  },
  "slug": "juego-de-pistolas-de-juguete-soft-bullet-launcher-safety-gate-10097913"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-20"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Eslinga de cadena de cuatro hilos que consta de un eslabón colgante, dos eslabones intermedios, cuatro eslabones mecánicos, cuatro cadenas y cuatro ganchos de agarre con pestillos. Cadenas de grado 8 con un diámetro nominal de 8 mm. Longitud de la cadena: 2 m. Capacidad de carga anunciada: 11 000 libras. Producto vendido en línea, en particular a través de Amazon (ASIN: B07QNN2BFP), www.kaufland.de y www.vevor.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,11 +120,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7bbda084effece23"
+  "enriquecido": true,
+  "hashContenido": "c9f0c4d8b3ba694b"
  },
  "slug": "eslinga-de-cadena-vevor-safety-gate-10097938"
 }

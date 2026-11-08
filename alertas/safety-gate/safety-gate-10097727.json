@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Un rompecabezas de madera multicolor, que consta de 16 piezas diferentes. Producto vendido en línea, en particular a través de Shein.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "23e2417a2aae4b69"
+  "enriquecido": true,
+  "hashContenido": "b4f3aebee09b46da"
  },
  "slug": "juguete-de-rompecabezas-safety-gate-10097727"
 }

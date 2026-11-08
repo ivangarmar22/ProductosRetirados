@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-20"
  },
  "categoria": {
   "literal": "Equipos de comunicación e información",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "CT250202"
-    },
-    {
-     "numero": "CT241001"
+     "numero": "CT250202, CT241001"
     }
    ],
    "ean": [
     "5060353228556"
    ],
    "descripcion": "Auriculares disponibles en negro, plata, azul claro y melocotón. Todos los colores tienen el mismo número de modelo y número de lote.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,16 +87,15 @@
    "ref:SR/00748/26",
    "ean:5060353228556",
    "mm:jinhua-jiebo-electronics-co:ap092",
-   "ml:jinhua-jiebo-electronics-co:ct250202",
-   "ml:jinhua-jiebo-electronics-co:ct241001"
+   "ml:jinhua-jiebo-electronics-co:ct250202-ct241001"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a0b09ece314b5f54"
+  "enriquecido": true,
+  "hashContenido": "10aee36f3e1aa6e1"
  },
  "slug": "auriculares-jinhua-jiebo-electronics-co-ltd-safety-gate-10097980"
 }

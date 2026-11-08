@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-15"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -27,13 +27,13 @@
     "Bestway"
    ],
    "modelos": [
-    "Power Steel",
-    "Steel Pro"
+    "Power Steel, Steel Pro"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Piscinas sobre el suelo, con una altura mínima de 48 pulgadas (122 cm), con correas de compresión que funcionan en el exterior y sobre las patas de soporte vertical. Esto no se aplica a los productos fabricados después de agosto de 2025, que no cuentan con dichas correas de compresión.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +63,14 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "EE",
+   "FR",
+   "LU",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +85,15 @@
  "dedup": {
   "claves": [
    "ref:SR/03405/25",
-   "mm:bestway:power-steel",
-   "mm:bestway:steel-pro"
+   "mm:bestway:power-steel-steel-pro"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "38b85c81a65266f2"
+  "enriquecido": true,
+  "hashContenido": "187076b6a690009e"
  },
  "slug": "piscina-bestway-safety-gate-10096046"
 }

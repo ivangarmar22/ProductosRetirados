@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Guirnaldas luminosas",
@@ -27,15 +27,15 @@
     "Merry Christmas"
    ],
    "modelos": [
-    "Cold White",
-    "50M-9A"
+    "Cold White, 50M-9A"
    ],
    "lotes": [],
    "ean": [
     "6902504579287"
    ],
    "descripcion": "Cadena de iluminación con 240 luces led blancas frías y una longitud de 50 m. Producto vendido en línea, en particular a través de www.szezonrafel.hu",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón de colores."
   }
  ],
  "riesgo": {
@@ -73,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,16 +108,15 @@
   "claves": [
    "ref:SR/00891/26",
    "ean:6902504579287",
-   "mm:merry-christmas:cold-white",
-   "mm:merry-christmas:50m-9a"
+   "mm:merry-christmas:cold-white-50m-9a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4f843a5c40dc8f73"
+  "enriquecido": true,
+  "hashContenido": "295d002a7fb9d3c4"
  },
  "slug": "cadena-de-iluminacion-merry-christmas-safety-gate-10098365"
 }

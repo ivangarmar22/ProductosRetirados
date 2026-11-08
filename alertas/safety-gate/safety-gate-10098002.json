@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-07"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5907769307492"
    ],
    "descripcion": "Cargador USB.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BG",
+   "DE",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0da4f4ca3250f978"
+  "enriquecido": true,
+  "hashContenido": "b411169e148960ba"
  },
  "slug": "cargador-usb-wozinsky-safety-gate-10098002"
 }

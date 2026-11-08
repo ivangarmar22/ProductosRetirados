@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2018/858*00035*07 e2*2018/858*00035*08 e2*2018/858*00035*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.03.2025 - 21.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN : VXKCMZYA8RT198239 - VXKCSHPY9ST090653",
-   "fechasTexto": "11.03.2025 - 21.05.2025"
+   "fechasTexto": "11.03.2025 - 21.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "LU",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00907/26",
-   "mm:opel:e2-2018-858-00035-07-e2-2018-858-00035-08-e2-2018-858-00035-09"
+   "mm:opel:e2-2018-858-00035-07-e2-2018-858-00035-08-e2-2018-858-00035-09",
+   "ml:opel:11-03-2025-21-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b9906aa1b01556a5"
+  "enriquecido": true,
+  "hashContenido": "89e6a645f162f674"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10098294"
 }

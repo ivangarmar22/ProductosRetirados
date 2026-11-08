@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0181/240719/24"
+     "numero": "0181/24"
+    },
+    {
+     "numero": "0719/24"
     }
    ],
    "ean": [
     "3575676781128"
    ],
    "descripcion": "Juguete de actividad compuesto por cuatro vagones, uno en forma de caracol, unidos por un cordón que tira del niño, con otras partes en forma de conejo y zanahoria que encajan entre sí en los vagones.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +76,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "DK",
+   "EE",
+   "ES",
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,15 +118,16 @@
    "ref:SR/00608/26",
    "ean:3575676781128",
    "mm:moulin-roty:678112",
-   "ml:moulin-roty:0181-240719-24"
+   "ml:moulin-roty:0181-24",
+   "ml:moulin-roty:0719-24"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "03d300a8868d2c79"
+  "enriquecido": true,
+  "hashContenido": "08b871aaa177ceaf"
  },
  "slug": "juguete-de-actividad-moulin-roty-safety-gate-10097964"
 }

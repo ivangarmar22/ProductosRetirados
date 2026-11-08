@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2018/858*00028*01 e13*2018/858*00028*02 e13*2018/858*00028*03 e13*2018/858*00028*04 e6*2018/858*00001*00 e6*2018/858*00001*01 e6*2018/858*00001*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2021 - 2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "2021 - 2023"
+   "fechasTexto": "2021 - 2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Luxemburgo",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "HU",
+   "IE",
+   "IS",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00847/26",
-   "mm:toyota:e13-2018-858-00028-01-e13-2018-858-00028-02-e13-2018-858-00028-03-e13-2018-858-00028-04-e6-2018-858-00001-00-e6-2018-858-00001-01-e6-2018-858-00001-02"
+   "mm:toyota:e13-2018-858-00028-01-e13-2018-858-00028-02-e13-2018-858-00028-03-e13-2018-858-00028-04-e6-2018-858-00001-00-e6-2018-858-00001-01-e6-2018-858-00001-02",
+   "ml:toyota:2021-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "308e610f8095b461"
+  "enriquecido": true,
+  "hashContenido": "6eeb0addcfc30c74"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10098198"
 }

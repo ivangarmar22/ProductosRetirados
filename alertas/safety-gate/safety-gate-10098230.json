@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "600: e3*2018/858*00078 e3*2018/858*00078*05*00 e3*2018/858*00078*06*00 e3*2018/858*00078*12*00 e3*2018/858*00078*13*00 e3*2018/858*00078*14*00 g11*2018/858*01117*00*00 g11*2018/858*01117*01*00",
     "Grande Panda: e2*2018/858*00035 e2*2018/858*00035*08*00 e2*2018/858*00035*09*00 e2*2018/858*00035*10*00 e2*2018/858*00035*11*00 g11*2018/858*00523*03*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "600: 28.07.2023 - 19.12.2025"
+    },
+    {
+     "numero": "Grande Panda: 25.02.2025 - 23.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. 600: VIN: ZFA5FBVP6PJ000425 - ZFA5FBAT7TJ105598. Grande Panda: VIN : VYFCTHPX1SZA01311 - VYFCTHPX7TZA53902.",
-   "fechasTexto": "600: 28.07.2023 - 19.12.2025Grande Panda: 25.02.2025 - 23.01.2026"
+   "fechasTexto": "600: 28.07.2023 - 19.12.2025Grande Panda: 25.02.2025 - 23.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +72,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +103,17 @@
   "claves": [
    "ref:SR/00842/26",
    "mm:fiat-professional:600-e3-2018-858-00078-e3-2018-858-00078-05-00-e3-2018-858-00078-06-00-e3-2018-858-00078-12-00-e3-2018-858-00078-13-00-e3-2018-858-00078-14-00-g11-2018-858-01117-00-00-g11-2018-858-01117-01-00",
-   "mm:fiat-professional:grande-panda-e2-2018-858-00035-e2-2018-858-00035-08-00-e2-2018-858-00035-09-00-e2-2018-858-00035-10-00-e2-2018-858-00035-11-00-g11-2018-858-00523-03-00"
+   "mm:fiat-professional:grande-panda-e2-2018-858-00035-e2-2018-858-00035-08-00-e2-2018-858-00035-09-00-e2-2018-858-00035-10-00-e2-2018-858-00035-11-00-g11-2018-858-00523-03-00",
+   "ml:fiat-professional:600-28-07-2023-19-12-2025",
+   "ml:fiat-professional:grande-panda-25-02-2025-23-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fc03f14ca178cf17"
+  "enriquecido": true,
+  "hashContenido": "5017a48a8db277d6"
  },
  "slug": "coche-de-pasajeros-fiat-professional-safety-gate-10098230"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Humectante coloidal dorado, 200 ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón dorada y azul."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Hungría",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5cf90349b1b76d49"
+  "enriquecido": true,
+  "hashContenido": "4f04e800022cdd10"
  },
  "slug": "hidratante-dr-juice-safety-gate-10097948"
 }

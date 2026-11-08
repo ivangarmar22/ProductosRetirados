@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,18 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9954778257a1a341"
+  "enriquecido": true,
+  "hashContenido": "4697da15092a578c"
  },
  "slug": "motocicleta-honda-safety-gate-10098263"
 }

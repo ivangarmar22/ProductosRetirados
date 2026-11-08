@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-04"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "179034179035"
+     "numero": "179034"
+    },
+    {
+     "numero": "179035"
     }
    ],
    "ean": [
@@ -41,7 +44,8 @@
     "8719407110725"
    ],
    "descripcion": "Guantes de fitness sin dedos negros y grises con relleno de neopreno.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje exterior. Etiqueta colocada en el producto."
   }
  ],
  "riesgo": {
@@ -80,7 +84,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,15 +112,16 @@
    "ean:8719407110718",
    "ean:8719407110725",
    "mm:q4life:2558553",
-   "ml:q4life:179034179035"
+   "ml:q4life:179034",
+   "ml:q4life:179035"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4485bc185416ffaa"
+  "enriquecido": true,
+  "hashContenido": "3cc793e9cad5f919"
  },
  "slug": "guantes-q4life-safety-gate-10098038"
 }

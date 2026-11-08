@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e3*2018/858*00078*04*00 e3*2018/858*00078*06*00 e3*2018/858*00078*07*00 e3*2018/858*00078*09*00 e3*2018/858*00078*11*00 e3*2018/858*00078*12*00 e3*2018/858*00078*13*00 e3*2018/858*00078*14*00",
     "g11*2018/858*01117*00*00 g11*2018/858*01117*01*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.03.2023 - 18.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN: ZAC5JAVP9PJK03276 - ZAC5JAVP3VJM49625",
-   "fechasTexto": "09.03.2023 - 18.12.2025"
+   "fechasTexto": "09.03.2023 - 18.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +95,16 @@
   "claves": [
    "ref:SR/00844/26",
    "mm:jeep:e3-2018-858-00078-04-00-e3-2018-858-00078-06-00-e3-2018-858-00078-07-00-e3-2018-858-00078-09-00-e3-2018-858-00078-11-00-e3-2018-858-00078-12-00-e3-2018-858-00078-13-00-e3-2018-858-00078-14-00",
-   "mm:jeep:g11-2018-858-01117-00-00-g11-2018-858-01117-01-00"
+   "mm:jeep:g11-2018-858-01117-00-00-g11-2018-858-01117-01-00",
+   "ml:jeep:09-03-2023-18-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "27e49354cfe4fb6a"
+  "enriquecido": true,
+  "hashContenido": "63f4380aa9db2777"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10098234"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,21 @@
     "MOKKA : e2*2007/46*0639*31 e2*2007/46*0639*32 e2*2007/46*0639*33 e2*2007/46*0639*34 e2*2007/46*0639*35 e2*2007/46*0639*36 e2*2007/46*0639*37 e2*2007/46*0639*38 e2*2007/46*0639*39",
     "MOKKA : g11*2018/858*00660*02 g11*2018/858*00660*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "CORSA: 1.06.2023 – 13.01.2026"
+    },
+    {
+     "numero": "FRONTERA: 30.07.2024 – 22.12.2025"
+    },
+    {
+     "numero": "MOKKA: 5.02.2024 – 13.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. CORSA VIN: VXKUPHPX5P4056885 - VXKUPHPYXT4032715; MOKKA VIN: VXKUSHPY5RW004326 - VXKUSHPY9TW004570; FRONTERA: VIN: VXKCSHPYXRT125999 - VXKCSHPY3TT018543",
-   "fechasTexto": "CORSA: 1.06.2023 – 13.01.2026 FRONTERA: 30.07.2024 – 22.12.2025MOKKA: 5.02.2024 – 13.01.2026"
+   "fechasTexto": "CORSA: 1.06.2023 – 13.01.2026 FRONTERA: 30.07.2024 – 22.12.2025MOKKA: 5.02.2024 – 13.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +78,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,15 +117,18 @@
    "mm:opel-vauxhall:corsa-e2-2007-46-0639-35-e2-2007-46-0639-36-e2-2007-46-0639-37-e2-2007-46-0639-38-e2-2007-46-0639-39-g11-2018-858-00660-02-g11-2018-858-00660-03",
    "mm:opel-vauxhall:frontera-e2-2018-858-00035-06-e2-2018-858-00035-07-e2-2018-858-00035-08-e2-2018-858-00035-09-e2-2018-858-00035-10-e2-2018-858-00035-11-g11-2018-858-00523-03-g11-2018-858-00523-04",
    "mm:opel-vauxhall:mokka-e2-2007-46-0639-31-e2-2007-46-0639-32-e2-2007-46-0639-33-e2-2007-46-0639-34-e2-2007-46-0639-35-e2-2007-46-0639-36-e2-2007-46-0639-37-e2-2007-46-0639-38-e2-2007-46-0639-39",
-   "mm:opel-vauxhall:mokka-g11-2018-858-00660-02-g11-2018-858-00660-03"
+   "mm:opel-vauxhall:mokka-g11-2018-858-00660-02-g11-2018-858-00660-03",
+   "ml:opel-vauxhall:corsa-1-06-2023-13-01-2026",
+   "ml:opel-vauxhall:frontera-30-07-2024-22-12-2025",
+   "ml:opel-vauxhall:mokka-5-02-2024-13-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5a038da8856896e0"
+  "enriquecido": true,
+  "hashContenido": "e1b7a4ccc4b8d1f4"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10098237"
 }

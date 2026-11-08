@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
     "3616039212153"
    ],
    "descripcion": "Chaqueta dorada brillante, de manga larga, capucha no desmontable, abertura completa en la parte delantera cerrada con cierre de cremallera, bolsillo a cada lado, puños elásticos y dobladillo. La chaqueta está forrada con tela negra. Producto vendido en línea, en particular a través de Amazon y KIABI.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Camboya",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "588ce2d0d4477bf0"
+  "enriquecido": true,
+  "hashContenido": "753c82951f8e5ecb"
  },
  "slug": "chaqueta-kiabi-safety-gate-10097874"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,21 @@
     "Renault Trucks"
    ],
    "modelos": [
-    "D Wide ZE : e2*2007/46*0031*31",
-    "e2*2007/46*0031*32",
-    "e2*2007/46*0031*33",
-    "e2*2007/46*0031*34",
-    "e2*2007/46*0031*35",
-    "e2*2007/46*0031*36",
-    "D ZE : e2*2007/46*0033*39",
-    "e2*2007/46*0033*40",
-    "e2*2007/46*0033*41",
-    "e2*2007/46*0033*42",
-    "e2*2007/46*0033*43",
-    "e2*2007/46*0033*19"
+    "D Wide ZE : e2*2007/46*0031*31; e2*2007/46*0031*32; e2*2007/46*0031*33; e2*2007/46*0031*34; e2*2007/46*0031*35; e2*2007/46*0031*36",
+    "D ZE : e2*2007/46*0033*39; e2*2007/46*0033*40; e2*2007/46*0033*41; e2*2007/46*0033*42; e2*2007/46*0033*43; e2*2007/46*0033*19"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "D Wide ZE: 14.6.2021 - 18.10.2021"
+    },
+    {
+     "numero": "D ZE: 9.11.2020 - 25.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Un camión.",
-   "fechasTexto": "D Wide ZE: 14.6.2021 - 18.10.2021D ZE: 9.11.2020 - 25.10.2021"
+   "fechasTexto": "D Wide ZE: 14.6.2021 - 18.10.2021D ZE: 9.11.2020 - 25.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -93,26 +91,18 @@
  "dedup": {
   "claves": [
    "ref:SR/00672/26",
-   "mm:renault-trucks:d-wide-ze-e2-2007-46-0031-31",
-   "mm:renault-trucks:e2-2007-46-0031-32",
-   "mm:renault-trucks:e2-2007-46-0031-33",
-   "mm:renault-trucks:e2-2007-46-0031-34",
-   "mm:renault-trucks:e2-2007-46-0031-35",
-   "mm:renault-trucks:e2-2007-46-0031-36",
-   "mm:renault-trucks:d-ze-e2-2007-46-0033-39",
-   "mm:renault-trucks:e2-2007-46-0033-40",
-   "mm:renault-trucks:e2-2007-46-0033-41",
-   "mm:renault-trucks:e2-2007-46-0033-42",
-   "mm:renault-trucks:e2-2007-46-0033-43",
-   "mm:renault-trucks:e2-2007-46-0033-19"
+   "mm:renault-trucks:d-wide-ze-e2-2007-46-0031-31-e2-2007-46-0031-32-e2-2007-46-0031-33-e2-2007-46-0031-34-e2-2007-46-0031-35-e2-2007-46-0031-36",
+   "mm:renault-trucks:d-ze-e2-2007-46-0033-39-e2-2007-46-0033-40-e2-2007-46-0033-41-e2-2007-46-0033-42-e2-2007-46-0033-43-e2-2007-46-0033-19",
+   "ml:renault-trucks:d-wide-ze-14-6-2021-18-10-2021",
+   "ml:renault-trucks:d-ze-9-11-2020-25-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d24d28dcac403b50"
+  "enriquecido": true,
+  "hashContenido": "8f7cae1a360f5206"
  },
  "slug": "camion-renault-trucks-safety-gate-10098021"
 }

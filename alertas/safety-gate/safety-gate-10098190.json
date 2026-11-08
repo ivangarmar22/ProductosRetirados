@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5051174116108"
    ],
    "descripcion": "Conjunto de siete bolsas de arena destinadas a la artesanía, en siete colores diferentes. Producto vendido en línea, en particular a través de Amazon (ASIN: B093PWRQZ6).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsas de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5137d29eb403d761"
+  "enriquecido": true,
+  "hashContenido": "6874d6fc711eae1b"
  },
  "slug": "juguete-de-actividad-de-arena-baker-ross-safety-gate-10098190"
 }

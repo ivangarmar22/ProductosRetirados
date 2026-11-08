@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-04"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -34,7 +34,8 @@
     "6914505026745"
    ],
    "descripcion": "Lámpara de acuario sumergible negra con 12 luces led.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "38a72554cc02dfc3"
+  "enriquecido": true,
+  "hashContenido": "d9413598012e1ffb"
  },
  "slug": "lampara-de-acuario-x3-aquarium-light-safety-gate-10098245"
 }

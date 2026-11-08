@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete inquieto azul en forma de jirafa con patas telescópicas con ventosas en los extremos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje."
   }
  ],
  "riesgo": {
@@ -60,7 +61,11 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b5393a7f22c82f39"
+  "enriquecido": true,
+  "hashContenido": "2a329c6927c1357c"
  },
  "slug": "juguete-de-fidget-tedi-safety-gate-10097908"
 }

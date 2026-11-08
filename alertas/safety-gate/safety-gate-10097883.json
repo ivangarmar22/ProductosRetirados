@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-16"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "9791039515269"
    ],
    "descripcion": "Juguete suave en forma de lobo con ropa y mochila.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Hong Kong",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1cbf33136baea7fc"
+  "enriquecido": true,
+  "hashContenido": "baadf70574c4a2bb"
  },
  "slug": "juguete-suave-auzou-safety-gate-10097883"
 }

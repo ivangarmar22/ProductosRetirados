@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-26"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
     "8436037793370"
    ],
    "descripcion": "Crema anunciada con factor de protección solar (SPF) 50 destinada al uso alrededor de los ojos. Todos los lotes se ven afectados. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella verde con letras rosas y blancas"
   }
  ],
  "riesgo": {
@@ -62,7 +63,12 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "IE",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ca423de0be17a819"
+  "enriquecido": true,
+  "hashContenido": "ad5df0e47af25243"
  },
  "slug": "crema-de-proteccion-solar-hello-sunday-safety-gate-10098004"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "HS5130HS5162"
+     "numero": "HS5130"
+    },
+    {
+     "numero": "HS5162"
     }
    ],
    "ean": [],
    "descripcion": "Set compuesto por un champú y un acondicionador. Producto vendido en línea, en particular a través de Amazon (ASIN: B0D5DBM7G7 (champú), B0D5D9BF3Q (acondicionador)).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00893/26",
-   "ml:pilgrim:hs5130hs5162"
+   "ml:pilgrim:hs5130",
+   "ml:pilgrim:hs5162"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3543396399d779e8"
+  "enriquecido": true,
+  "hashContenido": "92323bb01ab82cc2"
  },
  "slug": "conjunto-de-cosmeticos-pilgrim-safety-gate-10098209"
 }

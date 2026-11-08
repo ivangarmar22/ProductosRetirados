@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E24*10R06/02*5055*01 (ESA)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.04.2023 - 10.09.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Enchufe de carga USB para autocaravana.",
-   "fechasTexto": "01.04.2023 - 10.09.2025"
+   "fechasTexto": "01.04.2023 - 10.09.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00749/26",
-   "mm:tigerexped:e24-10r06-02-5055-01-esa"
+   "mm:tigerexped:e24-10r06-02-5055-01-esa",
+   "ml:tigerexped:01-04-2023-10-09-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9ee3e2f7efdd9ede"
+  "enriquecido": true,
+  "hashContenido": "76f631d1d35dfbb3"
  },
  "slug": "accesorios-de-coche-tigerexped-safety-gate-10098152"
 }

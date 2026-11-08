@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "6952478331657"
    ],
    "descripcion": "Juguete suave multicolor con cara, pies y manos de plástico, que representa a un monstruo con dientes puntiagudos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,11 +120,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aeae4497110ab47a"
+  "enriquecido": true,
+  "hashContenido": "97049d7c02c5dfd1"
  },
  "slug": "juguete-suave-popmart-counterfeit-safety-gate-10097787"
 }

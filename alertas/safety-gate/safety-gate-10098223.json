@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,24 @@
     "C4X : e9*2007/46*6816*20 e9*2007/46*6816*21 e9*2007/46*6816*22 e9*2007/46*6816*23 e9*2007/46*6816*24 e9*2007/46*6816*25 e9*2007/46*6816*26 e9*2007/46*6816*27 e9*2007/46*6816*28",
     "C4X : g11*2018/858*00754*00 g11*2018/858*00754*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "C3 AIRCROSS V3: 22.02.2024 – 22.12.2025"
+    },
+    {
+     "numero": "C3 V5: 22.11.2024 - 22.12.2025"
+    },
+    {
+     "numero": "C4 V3: 04.10.2023 – 12.01.2026"
+    },
+    {
+     "numero": "C4X: 25.10.2023 – 12.01.2026"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. C3 V5: VIN: VR7CCHPX8RT150260 - VR7CCHPXXTT018589. C3 AIRCROSS V3: VIN: VR7CGHPY9PT754846 - VR7CGHPYXTT018637. C4 V3: VIN: VR7BAHPYHPE060675 - VR7BAHPY9TE005217. C4X: VIN: VR7BDHPYHPE060725 - VR7BDHPY3TE005267.",
-   "fechasTexto": "C3 AIRCROSS V3: 22.02.2024 – 22.12.2025C3 V5: 22.11.2024 - 22.12.2025C4 V3: 04.10.2023 – 12.01.2026C4X: 25.10.2023 – 12.01.2026"
+   "fechasTexto": "C3 AIRCROSS V3: 22.02.2024 – 22.12.2025C3 V5: 22.11.2024 - 22.12.2025C4 V3: 04.10.2023 – 12.01.2026C4X: 25.10.2023 – 12.01.2026",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +82,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,15 +126,19 @@
    "mm:citroen:c4-v3-e9-2007-46-6816-20-e9-2007-46-6816-21-e9-2007-46-6816-22-e9-2007-46-6816-23-e9-2007-46-6816-24-e9-2007-46-6816-25-e9-2007-46-6816-26-e9-2007-46-6816-27-e9-2007-46-6816-28",
    "mm:citroen:c4-v3-g11-2018-858-00754-00-g11-2018-858-00754-01",
    "mm:citroen:c4x-e9-2007-46-6816-20-e9-2007-46-6816-21-e9-2007-46-6816-22-e9-2007-46-6816-23-e9-2007-46-6816-24-e9-2007-46-6816-25-e9-2007-46-6816-26-e9-2007-46-6816-27-e9-2007-46-6816-28",
-   "mm:citroen:c4x-g11-2018-858-00754-00-g11-2018-858-00754-01"
+   "mm:citroen:c4x-g11-2018-858-00754-00-g11-2018-858-00754-01",
+   "ml:citroen:c3-aircross-v3-22-02-2024-22-12-2025",
+   "ml:citroen:c3-v5-22-11-2024-22-12-2025",
+   "ml:citroen:c4-v3-04-10-2023-12-01-2026",
+   "ml:citroen:c4x-25-10-2023-12-01-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "87cdd4f2e18632da"
+  "enriquecido": true,
+  "hashContenido": "9eb9075e1b1821ad"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10098223"
 }

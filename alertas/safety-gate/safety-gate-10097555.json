@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "EA5721429NAT5721433"
+     "numero": "EA5721429"
+    },
+    {
+     "numero": "NAT5721433"
     }
    ],
    "ean": [
     "4335619208438"
    ],
    "descripcion": "Desodorante, anunciado como antitranspirante, 50 ml. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanca con tapón de rosca azul."
   }
  ],
  "riesgo": {
@@ -98,15 +102,16 @@
   "claves": [
    "ref:SR/00390/26",
    "ean:4335619208438",
-   "ml:cien:ea5721429nat5721433"
+   "ml:cien:ea5721429",
+   "ml:cien:nat5721433"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b018f059d3feeb9a"
+  "enriquecido": true,
+  "hashContenido": "d2ee80b35cc57748"
  },
  "slug": "desodorante-cien-safety-gate-10097555"
 }

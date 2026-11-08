@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "G6L",
-    "G6K",
-    "G6E",
-    "G7L",
-    "G9M",
-    "e1*2018/858*00316*",
-    "e1*2018/858*00360*",
-    "e1*2018/858*00317*",
-    "e1*2018/858*00154*",
-    "e1*2018/858*00451*"
+    "G6L, G6K, G6E, G7L, G9M",
+    "e1*2018/858*00316*, e1*2018/858*00360*, e1*2018/858*00317*, e1*2018/858*00154*, e1*2018/858*00451*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.06.2022 - 05.12.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "09.06.2022 - 05.12.2025"
+   "fechasTexto": "09.06.2022 - 05.12.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -119,24 +127,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00898/26",
-   "mm:bmw:g6l",
-   "mm:bmw:g6k",
-   "mm:bmw:g6e",
-   "mm:bmw:g7l",
-   "mm:bmw:g9m",
-   "mm:bmw:e1-2018-858-00316",
-   "mm:bmw:e1-2018-858-00360",
-   "mm:bmw:e1-2018-858-00317",
-   "mm:bmw:e1-2018-858-00154",
-   "mm:bmw:e1-2018-858-00451"
+   "mm:bmw:g6l-g6k-g6e-g7l-g9m",
+   "mm:bmw:e1-2018-858-00316-e1-2018-858-00360-e1-2018-858-00317-e1-2018-858-00154-e1-2018-858-00451",
+   "ml:bmw:09-06-2022-05-12-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f1c62d0feebd5455"
+  "enriquecido": true,
+  "hashContenido": "f36bbdb790e7f600"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10098305"
 }

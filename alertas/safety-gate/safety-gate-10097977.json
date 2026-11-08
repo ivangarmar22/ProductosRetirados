@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-07"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -32,12 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "S26/2025S28/2025"
+     "numero": "S26/2025"
+    },
+    {
+     "numero": "S28/2025"
     }
    ],
    "ean": [],
    "descripcion": "Sonda de avalancha.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +75,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "ES",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +106,16 @@
    "ref:SR/00614/26",
    "mm:simond:3608393669889",
    "mm:simond:3608393758781",
-   "ml:simond:s26-2025s28-2025"
+   "ml:simond:s26-2025",
+   "ml:simond:s28-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c2967bd11496273d"
+  "enriquecido": true,
+  "hashContenido": "7c95a539bf0d185e"
  },
  "slug": "sonda-de-avalancha-simond-safety-gate-10097977"
 }

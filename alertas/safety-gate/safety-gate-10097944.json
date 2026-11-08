@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "20240110tsX1866snim"
+     "numero": "20240110"
+    },
+    {
+     "numero": "tsX1866snim"
     }
    ],
    "ean": [],
    "descripcion": "Juego de juguetes de 11 000 cuentas de colores para niños de al menos 6 años, con un tubo de pegamento de 3 ml. Producto vendido en línea, en particular a través de Amazon (ASIN: B0CH2HGLNM).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico."
   }
  ],
  "riesgo": {
@@ -99,15 +103,16 @@
  "dedup": {
   "claves": [
    "ref:OR/00022/26",
-   "ml:zlpbao:20240110tsx1866snim"
+   "ml:zlpbao:20240110",
+   "ml:zlpbao:tsx1866snim"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7407d781d9118e1e"
+  "enriquecido": true,
+  "hashContenido": "4fb26b5b80c2a582"
  },
  "slug": "kit-de-artesania-zlpbao-safety-gate-10097944"
 }

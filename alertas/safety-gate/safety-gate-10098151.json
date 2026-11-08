@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "9120071370206"
    ],
    "descripcion": "Protector solar, anunciado como con un factor de protección solar (SFP) de 50, destinado a niños, 75 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo de plástico blanco opaco"
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "283bc69607f11f63"
+  "enriquecido": true,
+  "hashContenido": "1ea09e2336c83ea6"
  },
  "slug": "protector-solar-alma-safety-gate-10098151"
 }

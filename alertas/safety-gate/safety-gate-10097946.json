@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Bmw"
    ],
    "modelos": [
-    "e1*98/14*0028*",
-    "e9*98/14*0022*",
-    "e1*98/14*0153*",
-    "e1*2001/116*0153*"
+    "e1*98/14*0028*, e9*98/14*0022*, e1*98/14*0153*, e1*2001/116*0153*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.11.1998 - 19.12.2003"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con airbags Takata.",
-   "fechasTexto": "09.11.1998 - 19.12.2003"
+   "fechasTexto": "09.11.1998 - 19.12.2003",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +72,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,18 +103,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00581/26",
-   "mm:bmw:e1-98-14-0028",
-   "mm:bmw:e9-98-14-0022",
-   "mm:bmw:e1-98-14-0153",
-   "mm:bmw:e1-2001-116-0153"
+   "mm:bmw:e1-98-14-0028-e9-98-14-0022-e1-98-14-0153-e1-2001-116-0153",
+   "ml:bmw:09-11-1998-19-12-2003"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bc301b0a923028d2"
+  "enriquecido": true,
+  "hashContenido": "d8bd6f5ec2bca8a1"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10097946"
 }

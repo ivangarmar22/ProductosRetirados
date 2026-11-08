@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E13*54R00/22*21933*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.09.2025 - 12.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumático para camión, identificado por un número DOT en el flanco del neumático con la lectura 1DN87 AFBW 3925, 1DN87 AFBW 4025, 1DN87 AFBW 4125",
-   "fechasTexto": "22.09.2025 - 12.10.2025"
+   "fechasTexto": "22.09.2025 - 12.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03996/25",
-   "mm:goodyear:e13-54r00-22-21933-00"
+   "mm:goodyear:e13-54r00-22-21933-00",
+   "ml:goodyear:22-09-2025-12-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "93a599da97b99634"
+  "enriquecido": true,
+  "hashContenido": "c9a55566af6e6b91"
  },
  "slug": "neumatico-de-camion-goodyear-safety-gate-10096751"
 }

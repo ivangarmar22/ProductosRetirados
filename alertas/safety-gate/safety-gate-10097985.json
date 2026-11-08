@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual type approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.05.2022 - 03.11.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "10.05.2022 - 03.11.2024"
+   "fechasTexto": "10.05.2022 - 03.11.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00620/26",
-   "mm:chrysler:individual-type-approval"
+   "mm:chrysler:individual-type-approval",
+   "ml:chrysler:10-05-2022-03-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7ed7a03b7a8da468"
+  "enriquecido": true,
+  "hashContenido": "a12b7ed000269e8a"
  },
  "slug": "coche-de-pasajeros-chrysler-safety-gate-10097985"
 }

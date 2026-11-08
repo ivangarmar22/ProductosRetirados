@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,28 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "346L",
-    "346X",
-    "346K",
-    "346C",
-    "346R",
-    "M346",
-    "e1*98/14*0097*",
-    "e1*98/14*0144*",
-    "e1*2001/116*0144*",
-    "e1*98/14*0167*",
-    "e1*2001/116*0167*",
-    "e1*98/14*0112*",
-    "e1*2001/116*0112*",
-    "e1*98/14*0146*",
-    "e1*2001/116*0146*",
-    "e1*98/14*0150*",
-    "e1*2001/116*0150*"
+    "346L, 346X, 346K, 346C, 346R, M346",
+    "e1*98/14*0097*, e1*98/14*0144*, e1*2001/116*0144*, e1*98/14*0167*, e1*2001/116*0167*, e1*98/14*0112*, e1*2001/116*0112*, e1*98/14*0146*, e1*2001/116*0146*, e1*98/14*0150*, e1*2001/116*0150*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.11.1998 - 24.08.2006"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "03.11.1998 - 24.08.2006"
+   "fechasTexto": "03.11.1998 - 24.08.2006",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +69,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "MT",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -119,31 +123,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00583/26",
-   "mm:bmw:346l",
-   "mm:bmw:346x",
-   "mm:bmw:346k",
-   "mm:bmw:346c",
-   "mm:bmw:346r",
-   "mm:bmw:m346",
-   "mm:bmw:e1-98-14-0097",
-   "mm:bmw:e1-98-14-0144",
-   "mm:bmw:e1-2001-116-0144",
-   "mm:bmw:e1-98-14-0167",
-   "mm:bmw:e1-2001-116-0167",
-   "mm:bmw:e1-98-14-0112",
-   "mm:bmw:e1-2001-116-0112",
-   "mm:bmw:e1-98-14-0146",
-   "mm:bmw:e1-2001-116-0146",
-   "mm:bmw:e1-98-14-0150",
-   "mm:bmw:e1-2001-116-0150"
+   "mm:bmw:346l-346x-346k-346c-346r-m346",
+   "mm:bmw:e1-98-14-0097-e1-98-14-0144-e1-2001-116-0144-e1-98-14-0167-e1-2001-116-0167-e1-98-14-0112-e1-2001-116-0112-e1-98-14-0146-e1-2001-116-0146-e1-98-14-0150-e1-2001-116-0150",
+   "ml:bmw:03-11-1998-24-08-2006"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0844fddeb1301afe"
+  "enriquecido": true,
+  "hashContenido": "41690bad1ff7fd56"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10097943"
 }

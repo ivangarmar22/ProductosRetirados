@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "6931571071929"
    ],
    "descripcion": "Juguete suave en forma de un monstruo parecido a Labubu con un anillo de metal. Parte de la colección \"Have A Seat\". La cara, los brazos y las piernas del juguete están hechos de material polimérico duro, el resto del cuerpo es suave.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -129,11 +132,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db256c9a1f233ced"
+  "enriquecido": true,
+  "hashContenido": "ed452e95addc5086"
  },
  "slug": "juguete-suave-pop-mart-safety-gate-10097959"
 }

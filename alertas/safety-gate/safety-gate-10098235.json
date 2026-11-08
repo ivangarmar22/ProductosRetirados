@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,18 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2d6b43400423b1e5"
+  "enriquecido": true,
+  "hashContenido": "7d3f29fb07eb5aee"
  },
  "slug": "coche-de-pasajeros-mg3-safety-gate-10098235"
 }

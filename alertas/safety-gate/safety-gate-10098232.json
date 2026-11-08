@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -34,7 +34,8 @@
     "5907708641687"
    ],
    "descripcion": "Lámpara de acuario led marcada con el código b/n: 20210701.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "49d7c655a19ab5e2"
+  "enriquecido": true,
+  "hashContenido": "70e40cdd4a4f03ab"
  },
  "slug": "lampara-de-acuario-happet-safety-gate-10098232"
 }

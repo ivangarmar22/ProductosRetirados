@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2018/858*00035*05*00 e2*2018/858*00035*06*00 e2*2018/858*00035*07*00 e2*2018/858*00035*08*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.08.2024 - 14.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN : VYFCRZYA5SZA00225 - VYFCTHPX8SZA04268.",
-   "fechasTexto": "14.08.2024 - 14.04.2025"
+   "fechasTexto": "14.08.2024 - 14.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00906/26",
-   "mm:fiat:e2-2018-858-00035-05-00-e2-2018-858-00035-06-00-e2-2018-858-00035-07-00-e2-2018-858-00035-08-00"
+   "mm:fiat:e2-2018-858-00035-05-00-e2-2018-858-00035-06-00-e2-2018-858-00035-07-00-e2-2018-858-00035-08-00",
+   "ml:fiat:14-08-2024-14-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "90f1ce8b37e6cd2e"
+  "enriquecido": true,
+  "hashContenido": "682cf8d07828592b"
  },
  "slug": "coche-de-pasajeros-fiat-safety-gate-10098302"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-02-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-26"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "80969150"
+     "numero": "8096"
+    },
+    {
+     "numero": "9150"
     }
    ],
    "ean": [
     "3607342734470"
    ],
    "descripcion": "Fragancia corporal, destinada a hombres, anunciada como refrescante, 75 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio transparente."
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
    "ref:SR/00634/26",
    "ean:3607342734470",
    "mm:adidas:get-ready",
-   "ml:adidas:80969150"
+   "ml:adidas:8096",
+   "ml:adidas:9150"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35222bb1e7555c5f"
+  "enriquecido": true,
+  "hashContenido": "dea0ee72bf3b160d"
  },
  "slug": "fragancia-corporal-adidas-safety-gate-10098042"
 }
