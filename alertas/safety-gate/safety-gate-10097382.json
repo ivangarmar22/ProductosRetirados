@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-05"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -32,24 +32,15 @@
    ],
    "lotes": [
     {
-     "numero": "FL4j"
-    },
-    {
-     "numero": "FL4E"
-    },
-    {
-     "numero": "FL4H"
-    },
-    {
-     "numero": "FL4O"
-    },
-    {
-     "numero": "FL4R"
+     "numero": "FL4j, FL4E, FL4H, FL4O, FL4R"
     }
    ],
-   "ean": [],
+   "ean": [
+    "4058075433441"
+   ],
    "descripcion": "Bombilla 4.9W 470lm 2700K. Producto vendido en línea, en particular a través de Amazon (ASIN: B09QGV15NS)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -87,7 +78,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -115,21 +109,18 @@
  "dedup": {
   "claves": [
    "ref:SR/00179/26",
+   "ean:4058075433441",
    "mm:osram:ac45702",
    "mm:osram:ac45703",
-   "ml:osram:fl4j",
-   "ml:osram:fl4e",
-   "ml:osram:fl4h",
-   "ml:osram:fl4o",
-   "ml:osram:fl4r"
+   "ml:osram:fl4j-fl4e-fl4h-fl4o-fl4r"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e19d1b9e5006c66e"
+  "enriquecido": true,
+  "hashContenido": "7b602b30f7846fcc"
  },
  "slug": "bombilla-osram-safety-gate-10097382"
 }

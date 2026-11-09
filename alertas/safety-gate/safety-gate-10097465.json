@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "KIRCHHOFF ECOTEC"
    ],
    "modelos": [
-    "e1*2018/858*00240* (BP27E)",
-    "e1*2018/858*00241* (BP19E)"
+    "e1*2018/858*00240* (BP27E), e1*2018/858*00241* (BP19E)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.02.2021 - 29.08.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "01.02.2021 - 29.08.2025"
+   "fechasTexto": "01.02.2021 - 29.08.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -90,16 +94,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00146/26",
-   "mm:kirchhoff-ecotec:e1-2018-858-00240-bp27e",
-   "mm:kirchhoff-ecotec:e1-2018-858-00241-bp19e"
+   "mm:kirchhoff-ecotec:e1-2018-858-00240-bp27e-e1-2018-858-00241-bp19e",
+   "ml:kirchhoff-ecotec:01-02-2021-29-08-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "55befc9d0851417f"
+  "enriquecido": true,
+  "hashContenido": "764b56f95ca93df0"
  },
  "slug": "camion-kirchhoff-ecotec-safety-gate-10097465"
 }

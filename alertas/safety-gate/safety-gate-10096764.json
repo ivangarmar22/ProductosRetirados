@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-19"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,13 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "ITP-HBDP"
+     "numero": "ITP-HBDP, NRS.324.UK"
     },
     {
-     "numero": "NRS.324.UKITP-HBLP"
-    },
-    {
-     "numero": "NRS.365.UL"
+     "numero": "ITP-HBLP, NRS.365.UL"
     }
    ],
    "ean": [
@@ -46,7 +43,8 @@
     "5902560524406"
    ],
    "descripcion": "Cubierta base híbrida para extensión y reconstrucción de placas de uñas, 6g.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella negra con aplicador de tapa roscada."
   }
  ],
  "riesgo": {
@@ -76,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,17 +95,16 @@
    "ean:5902560524406",
    "mm:silcare:dark-pink",
    "mm:silcare:light-pink",
-   "ml:silcare:itp-hbdp",
-   "ml:silcare:nrs-324-ukitp-hblp",
-   "ml:silcare:nrs-365-ul"
+   "ml:silcare:itp-hbdp-nrs-324-uk",
+   "ml:silcare:itp-hblp-nrs-365-ul"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "efb49e8b4c6a552f"
+  "enriquecido": true,
+  "hashContenido": "ad73fdf6168f4df1"
  },
  "slug": "esmalte-de-unas-de-gel-silcare-safety-gate-10096764"
 }

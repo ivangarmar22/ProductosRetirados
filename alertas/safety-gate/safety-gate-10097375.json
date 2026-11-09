@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e2*2007/46*0625*26 - e2*2007/46*0625*29",
     "e2*2007/46*0625*32"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.09.2023 - 16.07.2025 // VIN: VR3EAZKXZP8501048 - VR3ENZKU5S8508382"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "27.09.2023 - 16.07.2025 // VIN: VR3EAZKXZP8501048 - VR3ENZKU5S8508382"
+   "fechasTexto": "27.09.2023 - 16.07.2025 // VIN: VR3EAZKXZP8501048 - VR3ENZKU5S8508382",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "LU",
+   "MT",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +99,16 @@
    "ref:SR/00176/26",
    "mm:peugeot:e2-2007-46-0624-26-e2-2007-46-0624-29",
    "mm:peugeot:e2-2007-46-0625-26-e2-2007-46-0625-29",
-   "mm:peugeot:e2-2007-46-0625-32"
+   "mm:peugeot:e2-2007-46-0625-32",
+   "ml:peugeot:27-09-2023-16-07-2025-vin-vr3eazkxzp8501048-vr3enzku5s8508382"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "284521ad6477910b"
+  "enriquecido": true,
+  "hashContenido": "4c7178a09e28fd68"
  },
  "slug": "coche-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10097375"
 }

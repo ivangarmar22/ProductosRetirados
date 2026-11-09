@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2018/858*00162*00-*02 (EAM1S(M))"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.3.2022 - 11.6.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "28.3.2022 - 11.6.2025"
+   "fechasTexto": "28.3.2022 - 11.6.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HU",
+   "IS",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00011/26",
-   "mm:subaru:e6-2018-858-00162-00-02-eam1s-m"
+   "mm:subaru:e6-2018-858-00162-00-02-eam1s-m",
+   "ml:subaru:28-3-2022-11-6-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4f86441c77c2afc8"
+  "enriquecido": true,
+  "hashContenido": "88b6fa198c61074c"
  },
  "slug": "coche-de-pasajeros-subaru-safety-gate-10097207"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,22 +27,18 @@
     "Ford"
    ],
    "modelos": [
-    "FED",
-    "FFD",
-    "FDD",
-    "FCD",
-    "e1*2007/46*1096*23",
-    "*24",
-    "e1*2007/46*1097*19-*21",
-    "e1*2007/46*1098*21",
-    "*22",
-    "*24",
-    "e1*2007/46*1100*21-*23"
+    "FED, FFD, FDD, FCD",
+    "e1*2007/46*1096*23,*24, e1*2007/46*1097*19-*21, e1*2007/46*1098*21,*22,*24, e1*2007/46*1100*21-*23"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.8.2021 - 24.9.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "25.8.2021 - 24.9.2025"
+   "fechasTexto": "25.8.2021 - 24.9.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,22 +101,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00145/26",
-   "mm:ford:fed",
-   "mm:ford:ffd",
-   "mm:ford:fdd",
-   "mm:ford:fcd",
-   "mm:ford:e1-2007-46-1096-23",
-   "mm:ford:e1-2007-46-1097-19-21",
-   "mm:ford:e1-2007-46-1098-21",
-   "mm:ford:e1-2007-46-1100-21-23"
+   "mm:ford:fed-ffd-fdd-fcd",
+   "mm:ford:e1-2007-46-1096-23-24-e1-2007-46-1097-19-21-e1-2007-46-1098-21-22-24-e1-2007-46-1100-21-23",
+   "ml:ford:25-8-2021-24-9-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5cbecc045bb5998e"
+  "enriquecido": true,
+  "hashContenido": "bdf75f10e7aba55a"
  },
  "slug": "vehiculo-comercial-ligero-ford-safety-gate-10097477"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -35,7 +35,8 @@
     "5904507668952"
    ],
    "descripcion": "Máquina de soldadura inversora, equipada con un conjunto de cables de soldadura.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "da10ed798401c5e9"
+  "enriquecido": true,
+  "hashContenido": "dced1cef16d4399e"
  },
  "slug": "soldador-de-inversores-heckermann-safety-gate-10097254"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-29"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -31,12 +31,13 @@
    ],
    "lotes": [
     {
-     "numero": "EG31YFJA070.."
+     "numero": "EG31YFJA070..."
     }
    ],
    "ean": [],
    "descripcion": "E-scooter con una velocidad máxima de hasta 20 km/h. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -86,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ccd2833f12e18891"
+  "enriquecido": true,
+  "hashContenido": "ba8d2a1129805a1e"
  },
  "slug": "scooter-electrico-trekstor-safety-gate-10097145"
 }

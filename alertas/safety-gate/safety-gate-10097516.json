@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Teléfono de juguete con pilas, destinado a niños menores de 36 meses. Producto vendido en línea, en particular a través de Temu.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -60,7 +61,11 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a7e77f6a16999e85"
+  "enriquecido": true,
+  "hashContenido": "a3663ff6defa3317"
  },
  "slug": "telefono-de-juguete-cartoon-toy-series-safety-gate-10097516"
 }

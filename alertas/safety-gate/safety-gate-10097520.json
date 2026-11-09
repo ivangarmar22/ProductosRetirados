@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "E2 0014812 (UN R54) - CAI 928196",
     "E2 0019624 (UN R54) - CAI 124164"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01/01/2023 - 28/02/2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Un neumático.",
-   "fechasTexto": "01/01/2023 - 28/02/2025"
+   "fechasTexto": "01/01/2023 - 28/02/2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +94,16 @@
   "claves": [
    "ref:SR/00248/26",
    "mm:michelin:e2-0014812-un-r54-cai-928196",
-   "mm:michelin:e2-0019624-un-r54-cai-124164"
+   "mm:michelin:e2-0019624-un-r54-cai-124164",
+   "ml:michelin:01-01-2023-28-02-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "20dce5e46a7650ef"
+  "enriquecido": true,
+  "hashContenido": "cd6e76bd8926e9ff"
  },
  "slug": "pieza-del-vehiculo-neumatico-michelin-safety-gate-10097520"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,25 +27,18 @@
     "Ducati"
    ],
    "modelos": [
-    "30",
-    "31",
-    "32",
-    "3H",
-    "4H",
-    "5H",
-    "e49*168/2013*00135*",
-    "e49*168/2013*00137*",
-    "e49*168/2013*00138*",
-    "e49*168/2013*00129*",
-    "e49*168/2013*00131*",
-    "e49*168/2013*00132*",
-    "e49*168/2013*00136*",
-    "e49*168/2013*00130*"
+    "30, 31, 32, 3H, 4H, 5H",
+    "e49*168/2013*00135*, e49*168/2013*00137*, e49*168/2013*00138*, e49*168/2013*00129*, e49*168/2013*00131*, e49*168/2013*00132*, e49*168/2013*00136*, e49*168/2013*00130*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.10.2024 - 13.06.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "24.10.2024 - 13.06.2025"
+   "fechasTexto": "24.10.2024 - 13.06.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HR",
+   "IE",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,22 +99,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00115/26",
-   "mm:ducati:e49-168-2013-00135",
-   "mm:ducati:e49-168-2013-00137",
-   "mm:ducati:e49-168-2013-00138",
-   "mm:ducati:e49-168-2013-00129",
-   "mm:ducati:e49-168-2013-00131",
-   "mm:ducati:e49-168-2013-00132",
-   "mm:ducati:e49-168-2013-00136",
-   "mm:ducati:e49-168-2013-00130"
+   "mm:ducati:30-31-32-3h-4h-5h",
+   "mm:ducati:e49-168-2013-00135-e49-168-2013-00137-e49-168-2013-00138-e49-168-2013-00129-e49-168-2013-00131-e49-168-2013-00132-e49-168-2013-00136-e49-168-2013-00130",
+   "ml:ducati:24-10-2024-13-06-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d14f1c9b4544f016"
+  "enriquecido": true,
+  "hashContenido": "14bb4648cb2018e9"
  },
  "slug": "motocicleta-ducati-safety-gate-10097314"
 }

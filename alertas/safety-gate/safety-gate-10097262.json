@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-03"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -36,7 +36,8 @@
     "5902801321405"
    ],
    "descripcion": "Terminales de suministro de energía para rieles de 1 fase.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb7561514ac8048a"
+  "enriquecido": true,
+  "hashContenido": "076be88e26aa5456"
  },
  "slug": "terminal-de-fuente-de-alimentacion-gtv-safety-gate-10097262"
 }

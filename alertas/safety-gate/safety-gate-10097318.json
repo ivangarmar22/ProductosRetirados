@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,13 @@
     "Honda"
    ],
    "modelos": [
-    "CBR650RAR and CBR650RACR",
-    "e13*168/2013*01838*02",
-    "e13*168/2013*01838*01",
-    "e13*168/2013*01838*00",
-    "e13*168/2013*01837*02",
-    "e13*168/2013*01837*00",
-    "e13*168/2013*01837*01"
+    "CBR650RAR and CBR650RACR / e13*168/2013*01838*02, e13*168/2013*01838*01, e13*168/2013*01838*00, e13*168/2013*01837*02, e13*168/2013*01837*00, e13*168/2013*01837*01,"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +63,20 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,21 +95,15 @@
  "dedup": {
   "claves": [
    "ref:SR/00133/26",
-   "mm:honda:cbr650rar-and-cbr650racr",
-   "mm:honda:e13-168-2013-01838-02",
-   "mm:honda:e13-168-2013-01838-01",
-   "mm:honda:e13-168-2013-01838-00",
-   "mm:honda:e13-168-2013-01837-02",
-   "mm:honda:e13-168-2013-01837-00",
-   "mm:honda:e13-168-2013-01837-01"
+   "mm:honda:cbr650rar-and-cbr650racr-e13-168-2013-01838-02-e13-168-2013-01838-01-e13-168-2013-01838-00-e13-168-2013-01837-02-e13-168-2013-01837-00-e13-168-2013-01837-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eef07b0c4b20114d"
+  "enriquecido": true,
+  "hashContenido": "0020a2eb1bc54005"
  },
  "slug": "motocicleta-honda-safety-gate-10097318"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-20"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,12 +29,31 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "GB/T5296.1-2012GB/T5296.5-2006GB/T9832-2007GB6675.1-2014GB6675.2-2014GB6675.3-2014GB6675.4-2014"
+     "numero": "GB/T5296.1-2012"
+    },
+    {
+     "numero": "GB/T5296.5-2006"
+    },
+    {
+     "numero": "GB/T9832-2007"
+    },
+    {
+     "numero": "GB6675.1-2014"
+    },
+    {
+     "numero": "GB6675.2-2014"
+    },
+    {
+     "numero": "GB6675.3-2014"
+    },
+    {
+     "numero": "GB6675.4-2014"
     }
    ],
    "ean": [],
    "descripcion": "Juguete azul suave que representa al personaje «Stitch» con un patito en los brazos. Producto vendido en línea, en particular a través de eBay (identificador único: 156544624028) y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -95,15 +114,21 @@
  "dedup": {
   "claves": [
    "ref:OR/00166/25",
-   "ml:lissipuppe-lissidoll:gb-t5296-1-2012gb-t5296-5-2006gb-t9832-2007gb6675-1-2014gb6675-2-2014gb6675-3-2014gb6675-4-2014"
+   "ml:lissipuppe-lissidoll:gb-t5296-1-2012",
+   "ml:lissipuppe-lissidoll:gb-t5296-5-2006",
+   "ml:lissipuppe-lissidoll:gb-t9832-2007",
+   "ml:lissipuppe-lissidoll:gb6675-1-2014",
+   "ml:lissipuppe-lissidoll:gb6675-2-2014",
+   "ml:lissipuppe-lissidoll:gb6675-3-2014",
+   "ml:lissipuppe-lissidoll:gb6675-4-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22d02265bef53382"
+  "enriquecido": true,
+  "hashContenido": "e44365c70aff2a75"
  },
  "slug": "juguete-de-peluche-lissipuppe-lissidoll-safety-gate-10096906"
 }

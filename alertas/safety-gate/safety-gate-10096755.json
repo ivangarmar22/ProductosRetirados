@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "NEW HOLLAND"
    ],
    "modelos": [
-    "e13*167/2013*00217* (D4)",
-    "e8*167/2013*00070* (DG)",
-    "e8*167/2013*00057* (D1)"
+    "e13*167/2013*00217* (D4), e8*167/2013*00070* (DG), e8*167/2013*00057* (D1)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.03.2025 - 30.09.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor agrícola.",
-   "fechasTexto": "06.03.2025 - 30.09.2025"
+   "fechasTexto": "06.03.2025 - 30.09.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "HR",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,17 +96,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04117/25",
-   "mm:new-holland:e13-167-2013-00217-d4",
-   "mm:new-holland:e8-167-2013-00070-dg",
-   "mm:new-holland:e8-167-2013-00057-d1"
+   "mm:new-holland:e13-167-2013-00217-d4-e8-167-2013-00070-dg-e8-167-2013-00057-d1",
+   "ml:new-holland:06-03-2025-30-09-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d17724bf974a078b"
+  "enriquecido": true,
+  "hashContenido": "3812e0733b32474f"
  },
  "slug": "tractor-new-holland-safety-gate-10096755"
 }

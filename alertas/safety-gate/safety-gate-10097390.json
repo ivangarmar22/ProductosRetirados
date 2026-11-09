@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Nissan"
    ],
    "modelos": [
-    "e2*2018/858*00082",
-    "e2*2018/858*00083"
+    "e2*2018/858*00082, e2*2018/858*00083"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.02.2021 - 16.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "05.02.2021 - 16.05.2025"
+   "fechasTexto": "05.02.2021 - 16.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00172/26",
-   "mm:nissan:e2-2018-858-00082",
-   "mm:nissan:e2-2018-858-00083"
+   "mm:nissan:e2-2018-858-00082-e2-2018-858-00083",
+   "ml:nissan:05-02-2021-16-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b523b43b18906495"
+  "enriquecido": true,
+  "hashContenido": "7eb82a3f12d0de9e"
  },
  "slug": "coche-de-pasajeros-nissan-safety-gate-10097390"
 }

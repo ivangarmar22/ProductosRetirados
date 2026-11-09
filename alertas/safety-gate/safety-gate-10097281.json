@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -34,7 +34,8 @@
     "5907451337547"
    ],
    "descripcion": "Kit de emergencia instalado en una caja negra de ABS que contiene, entre otras herramientas y baratijas, un cortafuegos, una manta de emergencia, una linterna y un silbato. Producto vendido en línea, en particular a través de prepphjalpen.se.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente."
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35ff651c450dcc3c"
+  "enriquecido": true,
+  "hashContenido": "ce858e5972370bb7"
  },
  "slug": "kit-de-emergencia-verk-group-safety-gate-10097281"
 }

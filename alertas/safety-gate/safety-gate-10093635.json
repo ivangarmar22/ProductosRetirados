@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,30 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "243510282435202824352029243520312435303024353031"
+     "numero": "24351028"
+    },
+    {
+     "numero": "24352028"
+    },
+    {
+     "numero": "24352029"
+    },
+    {
+     "numero": "24352031"
+    },
+    {
+     "numero": "24353030"
+    },
+    {
+     "numero": "24353031"
     }
    ],
    "ean": [
     "3273816860152"
    ],
    "descripcion": "Gel de ducha 1L.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con bomba."
   }
  ],
  "riesgo": {
@@ -104,15 +120,20 @@
   "claves": [
    "ref:SR/01019/25",
    "ean:3273816860152",
-   "ml:neutraderm:243510282435202824352029243520312435303024353031"
+   "ml:neutraderm:24351028",
+   "ml:neutraderm:24352028",
+   "ml:neutraderm:24352029",
+   "ml:neutraderm:24352031",
+   "ml:neutraderm:24353030",
+   "ml:neutraderm:24353031"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e3905b293812633f"
+  "enriquecido": true,
+  "hashContenido": "2db9faa41a03d3e7"
  },
  "slug": "gel-de-ducha-neutraderm-safety-gate-10093635"
 }

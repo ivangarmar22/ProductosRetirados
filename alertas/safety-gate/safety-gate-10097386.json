@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Bürstner"
    ],
    "modelos": [
-    "4020",
-    "4030",
-    "5020",
-    "3090",
-    "6020",
-    "e1*2007/46*1021*00-*52",
-    "e1*2007/46*1032*00-*25",
-    "e1*2007/46*1742*00-*20",
-    "e1*2007/46*2120*00-*08",
-    "e1*2018/858*00193*00-*05"
+    "4020, 4030, 5020, 3090, 6020",
+    "e1*2007/46*1021*00-*52, e1*2007/46*1032*00-*25, e1*2007/46*1742*00-*20, e1*2007/46*2120*00-*08, e1*2018/858*00193*00-*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.04.2024 - 06.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper",
-   "fechasTexto": "19.04.2024 - 06.10.2025"
+   "fechasTexto": "19.04.2024 - 06.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,24 +113,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00136/26",
-   "mm:burstner:4020",
-   "mm:burstner:4030",
-   "mm:burstner:5020",
-   "mm:burstner:3090",
-   "mm:burstner:6020",
-   "mm:burstner:e1-2007-46-1021-00-52",
-   "mm:burstner:e1-2007-46-1032-00-25",
-   "mm:burstner:e1-2007-46-1742-00-20",
-   "mm:burstner:e1-2007-46-2120-00-08",
-   "mm:burstner:e1-2018-858-00193-00-05"
+   "mm:burstner:4020-4030-5020-3090-6020",
+   "mm:burstner:e1-2007-46-1021-00-52-e1-2007-46-1032-00-25-e1-2007-46-1742-00-20-e1-2007-46-2120-00-08-e1-2018-858-00193-00-05",
+   "ml:burstner:19-04-2024-06-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cc8ec834035d526f"
+  "enriquecido": true,
+  "hashContenido": "e02ef04c4951f881"
  },
  "slug": "camioneta-de-camper-burstner-safety-gate-10097386"
 }

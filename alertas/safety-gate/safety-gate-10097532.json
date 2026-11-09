@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "8590393320721"
    ],
    "descripcion": "Cortapelos eléctricos destinados a cortar el cabello, alimentados por un cable de alimentación permanentemente conectado. El cuerpo de la cortadora está hecho de plástico gris-negro. En la parte delantera de la cortadora hay un cabezal de corte de metal adecuado para el uso de accesorios de plástico reemplazables de varias longitudes. Producto vendido en línea, en particular a través de www.eta.sk.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón. El producto va acompañado de un manual de instrucciones escrito en eslovaco."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4ac2199ce9aee19c"
+  "enriquecido": true,
+  "hashContenido": "9b1e0c078e114f6d"
  },
  "slug": "cortapelos-eta-safety-gate-10097532"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "202507 202508"
+     "numero": "202507"
+    },
+    {
+     "numero": "202508"
     }
    ],
    "ean": [],
    "descripcion": "Sillón reclinable tapizado en tela negro con asiento acolchado, respaldo, reposabrazos y función reclinable manual. Producto vendido en línea, en particular a través de Amazon (ASIN: B0BDKX966B).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,15 +86,16 @@
   "claves": [
    "ref:SR/00005/26",
    "mm:yaheetech:610887-black",
-   "ml:yaheetech:202507-202508"
+   "ml:yaheetech:202507",
+   "ml:yaheetech:202508"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "140d858807bf13c9"
+  "enriquecido": true,
+  "hashContenido": "4e9d1a7fef9b117d"
  },
  "slug": "sillon-yaheetech-safety-gate-10097236"
 }

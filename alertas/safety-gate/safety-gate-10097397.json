@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-29"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Accesorio para cortadoras de cepillos para recortar y cortar bordes de césped u otra vegetación. El accesorio de corte consta de seis cuchillos móviles que se pueden utilizar para cortar cuando giran a alta velocidad. Producto vendido en línea, en particular a través de Alibaba (identificador único: 1601661549273).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de plástico con fondo de cartón."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "063106e751385ed2"
+  "enriquecido": true,
+  "hashContenido": "0d3d498f204881d1"
  },
  "slug": "accesorio-para-cortador-de-cepillos-sword-rising-safety-gate-10097397"
 }

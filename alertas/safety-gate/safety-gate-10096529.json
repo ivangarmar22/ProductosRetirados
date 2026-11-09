@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Llanta de aluminio para turismos. Producto vendido en línea, en particular a través de www.alcar.at.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Indonesia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7c8aa34b17637ade"
+  "enriquecido": true,
+  "hashContenido": "0c69360233e8d670"
  },
  "slug": "parte-del-vehiculo-llanta-de-aluminio-alcar-safety-gate-10096529"
 }

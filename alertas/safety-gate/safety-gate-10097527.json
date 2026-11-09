@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bomba sumergible, sumergible, destinada a bombear agua limpia y sucia.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -65,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "389c3355ccf283fc"
+  "enriquecido": true,
+  "hashContenido": "761bb77119e34a6d"
  },
  "slug": "bomba-de-agua-malish-safety-gate-10097527"
 }

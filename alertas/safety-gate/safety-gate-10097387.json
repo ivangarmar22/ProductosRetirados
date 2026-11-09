@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -43,7 +43,8 @@
     "6931604349094"
    ],
    "descripcion": "Juego de seis llaveros con juguetes blandos que representan los caracteres de «Stitch», equipados con un bucle textil y un anillo metálico extraíble. Producto vendido en línea, en particular a través de Allegro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -87,7 +88,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "LV",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -130,11 +136,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c83403278712bb72"
+  "enriquecido": true,
+  "hashContenido": "869a95a59bb74c1a"
  },
  "slug": "llavero-con-juguete-suave-disney-miniso-safety-gate-10097387"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,25 +29,25 @@
    "modelos": [
     "220424001 (385)",
     "220914005 (242)",
-    "230306002 (16",
-    "005",
-    "007",
-    "010",
-    "011",
-    "019",
-    "048",
-    "232)"
+    "230306002 (16, 005, 007, 010, 011, 019, 048, 232)"
    ],
    "lotes": [
     {
-     "numero": "220424001220914005230306002"
+     "numero": "220424001"
+    },
+    {
+     "numero": "220914005"
+    },
+    {
+     "numero": "230306002"
     }
    ],
    "ean": [
     "0745114153548"
    ],
    "descripcion": "Esmalte de gel UV/LED para uñas, 15 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella blanca con aplicador de tapa roscada."
   }
  ],
  "riesgo": {
@@ -95,23 +95,18 @@
    "ean:0745114153548",
    "mm:m:220424001-385",
    "mm:m:220914005-242",
-   "mm:m:230306002-16",
-   "mm:m:005",
-   "mm:m:007",
-   "mm:m:010",
-   "mm:m:011",
-   "mm:m:019",
-   "mm:m:048",
-   "mm:m:232",
-   "ml:m:220424001220914005230306002"
+   "mm:m:230306002-16-005-007-010-011-019-048-232",
+   "ml:m:220424001",
+   "ml:m:220914005",
+   "ml:m:230306002"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "97a4e1386830acea"
+  "enriquecido": true,
+  "hashContenido": "4dd60447b08e41fb"
  },
  "slug": "gel-de-unas-m-safety-gate-10096243"
 }

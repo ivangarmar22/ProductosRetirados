@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,14 +32,18 @@
    ],
    "lotes": [
     {
-     "numero": "44006-2P251006-2P1"
+     "numero": "44006-2P2"
+    },
+    {
+     "numero": "51006-2P1"
     }
    ],
    "ean": [
     "6941848277442"
    ],
    "descripcion": "Juguete suave, hecho de plástico y fieltro, en forma de muñeca similar a Labubu.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +83,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,15 +112,16 @@
    "ean:6941848277442",
    "mm:pop-mart-counterfeit:12402230008-06",
    "mm:pop-mart-counterfeit:12309220182",
-   "ml:pop-mart-counterfeit:44006-2p251006-2p1"
+   "ml:pop-mart-counterfeit:44006-2p2",
+   "ml:pop-mart-counterfeit:51006-2p1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "207d0b5b424f3e24"
+  "enriquecido": true,
+  "hashContenido": "5933bccde5d76213"
  },
  "slug": "juguete-suave-pop-mart-counterfeit-safety-gate-10097391"
 }

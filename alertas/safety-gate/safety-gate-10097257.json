@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Hyundai"
    ],
    "modelos": [
-    "e4*2018/858*00145*00",
-    "e4*2018/858*00145*01"
+    "e4*2018/858*00145*00, e4*2018/858*00145*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.08.2022 - 03.01.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Año modelo: 2022 - 2025. VIN: KMHM241A0PA000526 - KMHM541CXPA027841.",
-   "fechasTexto": "29.08.2022 - 03.01.2025"
+   "fechasTexto": "29.08.2022 - 03.01.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +96,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00020/26",
-   "mm:hyundai:e4-2018-858-00145-00",
-   "mm:hyundai:e4-2018-858-00145-01"
+   "mm:hyundai:e4-2018-858-00145-00-e4-2018-858-00145-01",
+   "ml:hyundai:29-08-2022-03-01-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "338985594a9137d1"
+  "enriquecido": true,
+  "hashContenido": "9abe031545c20d17"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10097257"
 }

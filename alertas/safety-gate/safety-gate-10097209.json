@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -49,7 +49,28 @@
    ],
    "lotes": [
     {
-     "numero": "ELP035956ELP035983ELP036983ELP036987ELP044205ELP044207ELP047233ELP047242"
+     "numero": "ELP035956"
+    },
+    {
+     "numero": "ELP035983"
+    },
+    {
+     "numero": "ELP036983"
+    },
+    {
+     "numero": "ELP036987"
+    },
+    {
+     "numero": "ELP044205"
+    },
+    {
+     "numero": "ELP044207"
+    },
+    {
+     "numero": "ELP047233"
+    },
+    {
+     "numero": "ELP047242"
     }
    ],
    "ean": [
@@ -74,7 +95,8 @@
     "4897133872460"
    ],
    "descripcion": "Cartucho con líquido para cigarrillos electrónicos con una concentración de nicotina de 50 mg/ml y un volumen de 30 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -169,15 +191,22 @@
    "mm:elfliq:strawberry-kiwi",
    "mm:elfliq:strawberry-raspberry-chery-ice",
    "mm:elfliq:watermelon",
-   "ml:elfliq:elp035956elp035983elp036983elp036987elp044205elp044207elp047233elp047242"
+   "ml:elfliq:elp035956",
+   "ml:elfliq:elp035983",
+   "ml:elfliq:elp036983",
+   "ml:elfliq:elp036987",
+   "ml:elfliq:elp044205",
+   "ml:elfliq:elp044207",
+   "ml:elfliq:elp047233",
+   "ml:elfliq:elp047242"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "604b5190caa1ea80"
+  "enriquecido": true,
+  "hashContenido": "a83c3d4720fdede3"
  },
  "slug": "cartucho-de-cigarrillo-electronico-elfliq-safety-gate-10097209"
 }

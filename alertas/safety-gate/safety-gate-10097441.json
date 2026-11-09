@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "e9*2007/46*6816*14 (C4 V3)",
     "e9*2007/46*6816*14 - e9*2007/46*6816*15 (C4X)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.01.2023 - 24.02.2023 // VIN: VR7BAHNEANE084474 - VR7BAHNSAPE013291"
+    },
+    {
+     "numero": "27.01.2023 - 24.02.2023 // VIN: VR7BEYHZBNE085170 - VR7BEYHZBPE013015"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "26.01.2023 - 24.02.2023 // VIN: VR7BAHNEANE084474 - VR7BAHNSAPE01329127.01.2023 - 24.02.2023 // VIN: VR7BEYHZBNE085170 - VR7BEYHZBPE013015"
+   "fechasTexto": "26.01.2023 - 24.02.2023 // VIN: VR7BAHNEANE084474 - VR7BAHNSAPE01329127.01.2023 - 24.02.2023 // VIN: VR7BEYHZBNE085170 - VR7BEYHZBPE013015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "HU",
+   "IE",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +94,17 @@
   "claves": [
    "ref:SR/00174/26",
    "mm:citroen:e9-2007-46-6816-14-c4-v3",
-   "mm:citroen:e9-2007-46-6816-14-e9-2007-46-6816-15-c4x"
+   "mm:citroen:e9-2007-46-6816-14-e9-2007-46-6816-15-c4x",
+   "ml:citroen:26-01-2023-24-02-2023-vin-vr7bahneane084474-vr7bahnsape013291",
+   "ml:citroen:27-01-2023-24-02-2023-vin-vr7beyhzbne085170-vr7beyhzbpe013015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7b0ecfd1487437dd"
+  "enriquecido": true,
+  "hashContenido": "7c7c41131c0ac3ca"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10097441"
 }

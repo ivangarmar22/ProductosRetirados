@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -27,20 +27,15 @@
     "Marks and Spencer"
    ],
    "modelos": [
-    "T34/1332B",
-    "Taupe",
-    "5310845",
-    "T34/1332B",
-    "Black",
-    "5312375",
-    "T34/1332B",
-    "White",
-    "5242504"
+    "T34/1332B / Taupe / 5310845",
+    "T34/1332B / Black / 5312375",
+    "T34/1332B / White / 5242504"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Taza de cerámica vendida en los colores blanco, taupe y negro. Producto vendido en línea, en particular a través de www.marksandspencer.com/ie.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,21 +95,17 @@
  "dedup": {
   "claves": [
    "ref:OR/00004/26",
-   "mm:marks-and-spencer:t34-1332b",
-   "mm:marks-and-spencer:taupe",
-   "mm:marks-and-spencer:5310845",
-   "mm:marks-and-spencer:black",
-   "mm:marks-and-spencer:5312375",
-   "mm:marks-and-spencer:white",
-   "mm:marks-and-spencer:5242504"
+   "mm:marks-and-spencer:t34-1332b-taupe-5310845",
+   "mm:marks-and-spencer:t34-1332b-black-5312375",
+   "mm:marks-and-spencer:t34-1332b-white-5242504"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d61ae02e965e8c4a"
+  "enriquecido": true,
+  "hashContenido": "0ad23f160b61908a"
  },
  "slug": "taza-marks-and-spencer-safety-gate-10097309"
 }

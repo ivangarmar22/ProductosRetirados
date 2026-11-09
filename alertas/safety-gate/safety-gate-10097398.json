@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -31,12 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "YUB80 YTB84YUB81"
+     "numero": "YUB80"
+    },
+    {
+     "numero": "YTB84"
+    },
+    {
+     "numero": "YUB81"
     }
    ],
    "ean": [],
    "descripcion": "Bicicleta de grava equipada con manillar de carbono integrado con códigos RC C2306238 o C2306226. Producto vendido en línea, en particular a través de www.bianchi.com/it/bikes/bikes-it/",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +78,13 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "EE",
+   "HR",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,15 +113,17 @@
   "claves": [
    "ref:SR/00178/26",
    "mm:bianchi:no-16-impulso-rc",
-   "ml:bianchi:yub80-ytb84yub81"
+   "ml:bianchi:yub80",
+   "ml:bianchi:ytb84",
+   "ml:bianchi:yub81"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "facf83e7b04807af"
+  "enriquecido": true,
+  "hashContenido": "fc5be09cd1e52f0f"
  },
  "slug": "bicicleta-bianchi-safety-gate-10097398"
 }

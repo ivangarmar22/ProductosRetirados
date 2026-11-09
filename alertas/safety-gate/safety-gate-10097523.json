@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*168/2013*00172*00 (WER0)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13/02/2025 - 14/10/2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "13/02/2025 - 14/10/2025"
+   "fechasTexto": "13/02/2025 - 14/10/2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +102,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00247/26",
-   "mm:suzuki:e6-168-2013-00172-00-wer0"
+   "mm:suzuki:e6-168-2013-00172-00-wer0",
+   "ml:suzuki:13-02-2025-14-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "de5ac800d1983519"
+  "enriquecido": true,
+  "hashContenido": "31deb6dabfe8c5de"
  },
  "slug": "motocicleta-suzuki-safety-gate-10097523"
 }

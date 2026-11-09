@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-03"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -40,7 +40,8 @@
     "5902801321597"
    ],
    "descripcion": "Conectores de alimentación para rieles de 1 fase, en colores blanco y negro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +75,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,11 +121,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9ae5b080e1fabc12"
+  "enriquecido": true,
+  "hashContenido": "85e3ca63f257cc7f"
  },
  "slug": "conector-de-fuente-de-alimentacion-gtv-safety-gate-10097261"
 }

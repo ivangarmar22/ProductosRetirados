@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
     "4057962264151"
    ],
    "descripcion": "Abrigo de invierno azul profundo, destinado a los niños. Producto vendido en línea, en particular a través de www.hobukeskus.ee",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9537e3104c94bb4b"
+  "enriquecido": true,
+  "hashContenido": "2575912651fa7e83"
  },
  "slug": "abrigo-de-los-ninos-elt-safety-gate-10097283"
 }

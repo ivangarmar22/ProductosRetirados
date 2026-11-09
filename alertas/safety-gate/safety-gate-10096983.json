@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-19"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,12 +36,26 @@
    ],
    "lotes": [
     {
-     "numero": "2-1 13.02.20242-7 22.06.202330-1 13.11.2023 9-1 31.01.2023"
+     "numero": "2-1 13.02.2024"
+    },
+    {
+     "numero": "2-7 22.06.2023"
+    },
+    {
+     "numero": "30-1 13.11.2023"
+    },
+    {
+     "numero": "9-1 31.01.2023"
     }
    ],
-   "ean": [],
+   "ean": [
+    "0076995198671",
+    "0076995202965",
+    "0076995202972"
+   ],
    "descripcion": "Esmalte de uñas en gel UV/LED, 8 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella negra con tapa de plástico."
   }
  ],
  "riesgo": {
@@ -71,7 +85,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Ucrania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,21 +122,27 @@
  "dedup": {
   "claves": [
    "ref:SR/04506/25",
+   "ean:0076995198671",
+   "ean:0076995202965",
+   "ean:0076995202972",
    "mm:pnb:candy",
    "mm:pnb:confetti",
    "mm:pnb:fairy-charms",
    "mm:pnb:legend",
    "mm:pnb:lucky-amulet",
    "mm:pnb:white-diamond",
-   "ml:pnb:2-1-13-02-20242-7-22-06-202330-1-13-11-2023-9-1-31-01-2023"
+   "ml:pnb:2-1-13-02-2024",
+   "ml:pnb:2-7-22-06-2023",
+   "ml:pnb:30-1-13-11-2023",
+   "ml:pnb:9-1-31-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bed3b1d57273384b"
+  "enriquecido": true,
+  "hashContenido": "c66c6f2acdad22a7"
  },
  "slug": "esmalte-de-unas-de-gel-pnb-safety-gate-10096983"
 }

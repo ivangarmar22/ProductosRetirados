@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-19"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,7 +34,16 @@
    ],
    "lotes": [
     {
-     "numero": "042026 VV31T/2 082027 VV49T/2 102025 VV33T 102027 W41"
+     "numero": "042026 VV31T/2"
+    },
+    {
+     "numero": "082027 VV49T/2"
+    },
+    {
+     "numero": "102025 VV33T"
+    },
+    {
+     "numero": "102027 W41"
     }
    ],
    "ean": [
@@ -44,7 +53,8 @@
     "5902533300150"
    ],
    "descripcion": "Esmalte de uñas en gel, 8ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella negra con aplicador de tapa roscada."
   }
  ],
  "riesgo": {
@@ -74,7 +84,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -133,15 +145,18 @@
    "mm:victoria-vynn-tm:hybrid-no-002-true-to-life",
    "mm:victoria-vynn-tm:hybrid-no-005-wedding-pink",
    "mm:victoria-vynn-tm:hybrid-no-013-always-princess",
-   "ml:victoria-vynn-tm:042026-vv31t-2-082027-vv49t-2-102025-vv33t-102027-w41"
+   "ml:victoria-vynn-tm:042026-vv31t-2",
+   "ml:victoria-vynn-tm:082027-vv49t-2",
+   "ml:victoria-vynn-tm:102025-vv33t",
+   "ml:victoria-vynn-tm:102027-w41"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7ab9808dbc7e7b68"
+  "enriquecido": true,
+  "hashContenido": "4ed8c819dc65467c"
  },
  "slug": "esmalte-de-unas-de-gel-victoria-vynn-tm-safety-gate-10096180"
 }

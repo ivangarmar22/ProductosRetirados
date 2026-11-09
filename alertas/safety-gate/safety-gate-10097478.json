@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Ford Otosan"
    ],
    "modelos": [
-    "CHK1",
-    "CHL1",
-    "e9*2007/46*0089*29-*32",
-    "e9*2007/46*0090*30"
+    "CHK1, CHL1",
+    "e9*2007/46*0089*29-*32, e9*2007/46*0090*30"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.8.2022 - 20.2.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "20.8.2022 - 20.2.2024"
+   "fechasTexto": "20.8.2022 - 20.2.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,18 +99,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00189/26",
-   "mm:ford-otosan:chk1",
-   "mm:ford-otosan:chl1",
-   "mm:ford-otosan:e9-2007-46-0089-29-32",
-   "mm:ford-otosan:e9-2007-46-0090-30"
+   "mm:ford-otosan:chk1-chl1",
+   "mm:ford-otosan:e9-2007-46-0089-29-32-e9-2007-46-0090-30",
+   "ml:ford-otosan:20-8-2022-20-2-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ecaa1b4bd987b25b"
+  "enriquecido": true,
+  "hashContenido": "169fb8b8af05e404"
  },
  "slug": "camion-ford-otosan-safety-gate-10097478"
 }

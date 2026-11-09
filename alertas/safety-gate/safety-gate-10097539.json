@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Iveco"
    ],
    "modelos": [
-    "BA3C",
-    "2Y3C",
-    "1A3C",
-    "e3*2007/46*0135*",
-    "e3*2007/46*0136*",
-    "e3*2007/46*0143*"
+    "BA3C, 2Y3C, 1A3C",
+    "e3*2007/46*0135*, e3*2007/46*0136*, e3*2007/46*0143*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.06.2025 - 1.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "1.06.2025 - 1.10.2025"
+   "fechasTexto": "1.06.2025 - 1.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -91,20 +92,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00263/26",
-   "mm:iveco:ba3c",
-   "mm:iveco:2y3c",
-   "mm:iveco:1a3c",
-   "mm:iveco:e3-2007-46-0135",
-   "mm:iveco:e3-2007-46-0136",
-   "mm:iveco:e3-2007-46-0143"
+   "mm:iveco:ba3c-2y3c-1a3c",
+   "mm:iveco:e3-2007-46-0135-e3-2007-46-0136-e3-2007-46-0143",
+   "ml:iveco:1-06-2025-1-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a28e72b75d8a164b"
+  "enriquecido": true,
+  "hashContenido": "bcb6a51a7cea7c2f"
  },
  "slug": "camion-iveco-safety-gate-10097539"
 }

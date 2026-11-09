@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "100% ácido bórico,100 g, Producto vendido en línea, en particular a través de vitateka.ee/en/boric-acid-h-bo-100-g-vitateka.html",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e782137cd7315932"
+  "enriquecido": true,
+  "hashContenido": "ab5cb706036a9089"
  },
  "slug": "acido-borico-vitateka-safety-gate-10097065"
 }

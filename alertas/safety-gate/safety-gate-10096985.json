@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-19"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,19 +27,21 @@
     "ReformA"
    ],
    "modelos": [
-    "Cover Base",
-    "Gold Shimmer",
-    "Cover Base",
-    "Seduce"
+    "Cover Base, Gold Shimmer",
+    "Cover Base, Seduce"
    ],
    "lotes": [
     {
-     "numero": "941017943873"
+     "numero": "941017"
+    },
+    {
+     "numero": "943873"
     }
    ],
    "ean": [],
    "descripcion": "Esmalte de uñas en gel, 10 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella cuadrada negra con tapa de plástico."
   }
  ],
  "riesgo": {
@@ -116,18 +118,18 @@
  "dedup": {
   "claves": [
    "ref:SR/04477/25",
-   "mm:reforma:cover-base",
-   "mm:reforma:gold-shimmer",
-   "mm:reforma:seduce",
-   "ml:reforma:941017943873"
+   "mm:reforma:cover-base-gold-shimmer",
+   "mm:reforma:cover-base-seduce",
+   "ml:reforma:941017",
+   "ml:reforma:943873"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "956313a8b39bf5a4"
+  "enriquecido": true,
+  "hashContenido": "0fb64b61edb8f451"
  },
  "slug": "esmalte-de-unas-de-gel-reforma-safety-gate-10096985"
 }

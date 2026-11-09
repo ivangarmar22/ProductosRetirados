@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Ford"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1998 - 2002"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con airbags Takata.",
-   "fechasTexto": "1998 - 2002"
+   "fechasTexto": "1998 - 2002",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,15 +89,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/00084/26"
+   "ref:SR/00084/26",
+   "ml:ford:1998-2002"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c13d1b430999ef7c"
+  "enriquecido": true,
+  "hashContenido": "f6c4858bf66116a1"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10097264"
 }

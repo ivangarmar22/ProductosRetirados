@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -35,12 +35,25 @@
    ],
    "lotes": [
     {
-     "numero": "15M17e2614a 15M17e2715a 20M17e2615a 23M17e2616a 4M17e2712a"
+     "numero": "15M17e2614a"
+    },
+    {
+     "numero": "15M17e2715a"
+    },
+    {
+     "numero": "20M17e2615a"
+    },
+    {
+     "numero": "23M17e2616a"
+    },
+    {
+     "numero": "4M17e2712a"
     }
    ],
    "ean": [],
    "descripcion": "Esmalte de uñas en gel. UV/LED, 15ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella negra con tapa de plástico."
   }
  ],
  "riesgo": {
@@ -126,15 +139,19 @@
    "mm:nsn:039",
    "mm:nsn:050",
    "mm:nsn:082",
-   "ml:nsn:15m17e2614a-15m17e2715a-20m17e2615a-23m17e2616a-4m17e2712a"
+   "ml:nsn:15m17e2614a",
+   "ml:nsn:15m17e2715a",
+   "ml:nsn:20m17e2615a",
+   "ml:nsn:23m17e2616a",
+   "ml:nsn:4m17e2712a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f3f7137fba721093"
+  "enriquecido": true,
+  "hashContenido": "27eddf2cb99f65d3"
  },
  "slug": "esmalte-de-unas-de-gel-nsn-safety-gate-10096768"
 }

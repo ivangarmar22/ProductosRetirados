@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-26"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Calentador diesel naranja y negro portátil con asa de transporte. Otros identificadores: ZCJRQWS12V8KW52EEV9, RVG3355-250711-0076-2019",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "82861954ca9e14a6"
+  "enriquecido": true,
+  "hashContenido": "ad21e114e4ff1a07"
  },
  "slug": "calentador-diesel-vevor-safety-gate-10097238"
 }

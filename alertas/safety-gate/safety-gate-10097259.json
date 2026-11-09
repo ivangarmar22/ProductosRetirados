@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-26"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -31,18 +31,13 @@
    ],
    "lotes": [
     {
-     "numero": "05/24"
-    },
-    {
-     "numero": "06/24"
-    },
-    {
-     "numero": "07/24"
+     "numero": "05/24, 06/24, 07/24"
     }
    ],
    "ean": [],
    "descripcion": "Regulador de gas, 30 mbar.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -88,17 +83,15 @@
   "claves": [
    "ref:SR/00111/26",
    "mm:cgas:c21",
-   "ml:cgas:05-24",
-   "ml:cgas:06-24",
-   "ml:cgas:07-24"
+   "ml:cgas:05-24-06-24-07-24"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d7f5c6f0037d8c9b"
+  "enriquecido": true,
+  "hashContenido": "152aa680117c9485"
  },
  "slug": "regulador-de-gas-cgas-safety-gate-10097259"
 }

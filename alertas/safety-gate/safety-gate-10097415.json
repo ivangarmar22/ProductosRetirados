@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "KTM"
    ],
    "modelos": [
-    "e1*168/2013*00416*00",
-    "e1*168/2013*00411*00 (KTM IS ADV",
-    "KTM IS ENDSM)"
+    "e1*168/2013*00416*00, e1*168/2013*00411*00 (KTM IS ADV, KTM IS ENDSM)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.4.2025 - 20.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "16.4.2025 - 20.10.2025"
+   "fechasTexto": "16.4.2025 - 20.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BG",
+   "HR",
+   "HU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,17 +107,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00165/26",
-   "mm:ktm:e1-168-2013-00416-00",
-   "mm:ktm:e1-168-2013-00411-00-ktm-is-adv",
-   "mm:ktm:ktm-is-endsm"
+   "mm:ktm:e1-168-2013-00416-00-e1-168-2013-00411-00-ktm-is-adv-ktm-is-endsm",
+   "ml:ktm:16-4-2025-20-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ab9b50e6e55c0478"
+  "enriquecido": true,
+  "hashContenido": "2de1d526d91b750f"
  },
  "slug": "motocicleta-ktm-safety-gate-10097415"
 }

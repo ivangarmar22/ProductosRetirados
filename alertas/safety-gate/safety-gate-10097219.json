@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-10"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -34,7 +34,8 @@
     "5900779938816"
    ],
    "descripcion": "Luz portátil con soporte de abrazadera. Producto vendido en línea, en particular a través de CDON.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d556c8b6499c4d9d"
+  "enriquecido": true,
+  "hashContenido": "66ffbf4137e8deab"
  },
  "slug": "lampara-portatil-gardlov-safety-gate-10097219"
 }

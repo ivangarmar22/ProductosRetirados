@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-16"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Pack de cinco pilas de botón de litio. Producto vendido en línea, en particular a través de Temu.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envase blister de cartón y plástico."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bf7c89a7d8521b09"
+  "enriquecido": true,
+  "hashContenido": "c0482ac3add636de"
  },
  "slug": "baterias-de-boton-lithium-safety-gate-10096623"
 }

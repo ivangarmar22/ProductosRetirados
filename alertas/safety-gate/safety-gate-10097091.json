@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,20 +27,13 @@
     "LNS"
    ],
    "modelos": [
-    "01",
-    "03",
-    "04",
-    "05",
-    "14",
-    "15",
-    "16",
-    "18",
-    "19"
+    "01, 03, 04, 05, 14, 15, 16, 18, 19"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Gel delineador de uñas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella cuadrada de vidrio con tapón de plástico dorado brillante."
   }
  ],
  "riesgo": {
@@ -96,15 +89,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/00139/26"
+   "ref:SR/00139/26",
+   "mm:lns:01-03-04-05-14-15-16-18-19"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "49e33d9a18b45da5"
+  "enriquecido": true,
+  "hashContenido": "f13dc8347f351983"
  },
  "slug": "esmalte-de-unas-de-gel-lns-safety-gate-10097091"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,24 @@
     "e3*2018/858*00061*05*00 Tonale PHEV",
     "e3*2018/858*00061*06*00 Tonale PHEV"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.1.2023 – 19.7.2023 // VIN: ZARNASSA6N3020513 - ZARNASDA3R3043346 Tonale MHEV"
+    },
+    {
+     "numero": "31.1.2023 – 19.7.2023 // VIN: ZARPATDW7N3020558 - ZARPATDW1N3046766 Tonale PHEV"
+    },
+    {
+     "numero": "31.1.2023 – 19.7.2023 // VIN: ZASPATCW2R3025592 - ZASPATCW0R3046764 Tonale PHEV"
+    },
+    {
+     "numero": "7.2.2023 – 8.3.2023 // VIN: ZARPATDW1R3021288 - ZARPATDW9R3025296 Tonale PHEV"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "31.1.2023 – 19.7.2023 // VIN: ZARNASSA6N3020513 - ZARNASDA3R3043346 Tonale MHEV31.1.2023 – 19.7.2023 // VIN: ZARPATDW7N3020558 - ZARPATDW1N3046766 Tonale PHEV31.1.2023 – 19.7.2023 // VIN: ZASPATCW2R3025592 - ZASPATCW0R3046764 Tonale PHEV7.2.2023 – 8.3.2023 // VIN: ZARPATDW1R3021288 - ZARPATDW9R3025296 Tonale PHEV"
+   "fechasTexto": "31.1.2023 – 19.7.2023 // VIN: ZARNASSA6N3020513 - ZARNASDA3R3043346 Tonale MHEV31.1.2023 – 19.7.2023 // VIN: ZARPATDW7N3020558 - ZARPATDW1N3046766 Tonale PHEV31.1.2023 – 19.7.2023 // VIN: ZASPATCW2R3025592 - ZASPATCW0R3046764 Tonale PHEV7.2.2023 – 8.3.2023 // VIN: ZARPATDW1R3021288 - ZARPATDW9R3025296 Tonale PHEV",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +81,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +112,19 @@
    "mm:alfa-romeo:e3-2018-858-00061-03-00-tonale-mhev",
    "mm:alfa-romeo:e3-2018-858-00061-04-00-tonale-mhev",
    "mm:alfa-romeo:e3-2018-858-00061-05-00-tonale-phev",
-   "mm:alfa-romeo:e3-2018-858-00061-06-00-tonale-phev"
+   "mm:alfa-romeo:e3-2018-858-00061-06-00-tonale-phev",
+   "ml:alfa-romeo:31-1-2023-19-7-2023-vin-zarnassa6n3020513-zarnasda3r3043346-tonale-mhev",
+   "ml:alfa-romeo:31-1-2023-19-7-2023-vin-zarpatdw7n3020558-zarpatdw1n3046766-tonale-phev",
+   "ml:alfa-romeo:31-1-2023-19-7-2023-vin-zaspatcw2r3025592-zaspatcw0r3046764-tonale-phev",
+   "ml:alfa-romeo:7-2-2023-8-3-2023-vin-zarpatdw1r3021288-zarpatdw9r3025296-tonale-phev"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4e1aa9a4a7b9317b"
+  "enriquecido": true,
+  "hashContenido": "0de7c26d6b2d532c"
  },
  "slug": "coche-de-pasajeros-alfa-romeo-safety-gate-10097265"
 }

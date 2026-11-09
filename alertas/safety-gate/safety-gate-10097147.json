@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "2024/07/022029/07/01"
+     "numero": "2024/07/02"
+    },
+    {
+     "numero": "2029/07/01"
     }
    ],
    "ean": [
     "6936664323923"
    ],
    "descripcion": "Eau de parfum, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -101,15 +105,16 @@
    "ref:SR/00062/26",
    "ean:6936664323923",
    "mm:girl:b922-2",
-   "ml:girl:2024-07-022029-07-01"
+   "ml:girl:2024-07-02",
+   "ml:girl:2029-07-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8d3b24d0a0618f9a"
+  "enriquecido": true,
+  "hashContenido": "80bfd92759dd7e4a"
  },
  "slug": "perfume-girl-safety-gate-10097147"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pulsera de cadena de color plateado con cerradura. Producto vendido en línea, en particular a través de AliExpress.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,10 @@
   "ccaa": [],
   "paisNotificante": "Noruega",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3060b3edf0d1a91d"
+  "enriquecido": true,
+  "hashContenido": "24d2a8471ecee8fb"
  },
  "slug": "pulsera-safety-gate-10097225"
 }

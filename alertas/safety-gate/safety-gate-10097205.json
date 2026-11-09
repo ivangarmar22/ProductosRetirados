@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e2*2007/46*0162",
     "e2*2007/46*0031"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14/08/2023 - 17/02/2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "14/08/2023 - 17/02/2025"
+   "fechasTexto": "14/08/2023 - 17/02/2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,15 +86,16 @@
    "ref:SR/00097/26",
    "mm:renault-trucks:e2-2007-46-0033",
    "mm:renault-trucks:e2-2007-46-0162",
-   "mm:renault-trucks:e2-2007-46-0031"
+   "mm:renault-trucks:e2-2007-46-0031",
+   "ml:renault-trucks:14-08-2023-17-02-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b1d2d3a608f35dfb"
+  "enriquecido": true,
+  "hashContenido": "27036a447e1340be"
  },
  "slug": "camion-renault-trucks-safety-gate-10097205"
 }

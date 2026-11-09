@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-29"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "5904888149422"
    ],
    "descripcion": "Un juguete suave en forma de conejo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2eb00550027907ca"
+  "enriquecido": true,
+  "hashContenido": "162a9c4c0380fcf8"
  },
  "slug": "juguete-suave-maskotka-safety-gate-10097287"
 }

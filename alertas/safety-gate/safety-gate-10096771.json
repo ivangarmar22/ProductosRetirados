@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -33,7 +33,13 @@
    ],
    "lotes": [
     {
-     "numero": "012025 VV10/1 (Burnt Pink)042025 VV02 (Violet Mandala)092024 VV01 (Rose Empire)"
+     "numero": "012025 VV10/1 (Burnt Pink)"
+    },
+    {
+     "numero": "042025 VV02 (Violet Mandala)"
+    },
+    {
+     "numero": "092024 VV01 (Rose Empire)"
     }
    ],
    "ean": [
@@ -42,7 +48,8 @@
     "5902533314850"
    ],
    "descripcion": "Esmalte de uñas de gel híbrido, 8 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella blanca con aplicador de tapa roscada."
   }
  ],
  "riesgo": {
@@ -105,15 +112,17 @@
    "mm:victoria-vynn-tm:126-burnt-pink",
    "mm:victoria-vynn-tm:207-rose-empire",
    "mm:victoria-vynn-tm:226-violet-mandala",
-   "ml:victoria-vynn-tm:012025-vv10-1-burnt-pink-042025-vv02-violet-mandala-092024-vv01-rose-empire"
+   "ml:victoria-vynn-tm:012025-vv10-1-burnt-pink",
+   "ml:victoria-vynn-tm:042025-vv02-violet-mandala",
+   "ml:victoria-vynn-tm:092024-vv01-rose-empire"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b80595b3be91eae2"
+  "enriquecido": true,
+  "hashContenido": "e00145980b932f4a"
  },
  "slug": "esmalte-de-unas-de-gel-victoria-vynn-tm-safety-gate-10096771"
 }

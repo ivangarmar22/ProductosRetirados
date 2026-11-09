@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "10191 LED/UV"
-    },
-    {
-     "numero": "SELL BY 07/17/26"
+     "numero": "10191 LED/UV, SELL BY 07/17/26"
     }
    ],
    "ean": [
     "847811003604"
    ],
    "descripcion": "Gel para uñas, 237 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -92,16 +90,15 @@
    "ref:SR/00112/26",
    "ean:847811003604",
    "mm:christrio:led-uv",
-   "ml:christrio:10191-led-uv",
-   "ml:christrio:sell-by-07-17-26"
+   "ml:christrio:10191-led-uv-sell-by-07-17-26"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c7f13c5c70072638"
+  "enriquecido": true,
+  "hashContenido": "bf0acdc6efe64219"
  },
  "slug": "esmalte-de-unas-de-gel-christrio-safety-gate-10097106"
 }

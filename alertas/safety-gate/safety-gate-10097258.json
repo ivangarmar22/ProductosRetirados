@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Hyundai"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.12.2008 - 24.02.2009"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Año modelo: 2008 - 2009. VIN: KMHDB51CP9U141959 - KMHDU41DR9U696729.",
-   "fechasTexto": "07.12.2008 - 24.02.2009"
+   "fechasTexto": "07.12.2008 - 24.02.2009",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +66,16 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "IE",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,15 +89,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/00017/26"
+   "ref:SR/00017/26",
+   "ml:hyundai:07-12-2008-24-02-2009"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "33f26115ef9a54f1"
+  "enriquecido": true,
+  "hashContenido": "dd0bcd8c57303bc6"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10097258"
 }

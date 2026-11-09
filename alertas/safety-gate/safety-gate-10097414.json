@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,18 @@
     "e2*2007/46*0033*59",
     "e2*2007/46*0162*50"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "D WIDE ZE: 11/12/2023-29/07/2024"
+    },
+    {
+     "numero": "D WIDE ZE: 26/02/2024-11/11/2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "D WIDE ZE: 11/12/2023-29/07/2024D WIDE ZE: 26/02/2024-11/11/2024"
+   "fechasTexto": "D WIDE ZE: 11/12/2023-29/07/2024D WIDE ZE: 26/02/2024-11/11/2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -85,15 +93,17 @@
    "ref:SR/00188/26",
    "mm:renault-trucks:e2-2007-46-0031-51",
    "mm:renault-trucks:e2-2007-46-0033-59",
-   "mm:renault-trucks:e2-2007-46-0162-50"
+   "mm:renault-trucks:e2-2007-46-0162-50",
+   "ml:renault-trucks:d-wide-ze-11-12-2023-29-07-2024",
+   "ml:renault-trucks:d-wide-ze-26-02-2024-11-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a5dc90d8416df47"
+  "enriquecido": true,
+  "hashContenido": "ed89bef31dcf9863"
  },
  "slug": "camion-renault-trucks-safety-gate-10097414"
 }

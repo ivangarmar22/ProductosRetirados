@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "061124TCO47273MK200225"
+     "numero": "061124TCO47273MK"
+    },
+    {
+     "numero": "200225"
     }
    ],
    "ean": [],
    "descripcion": "Esmalte de uñas en gel, 11 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella negra con aplicador de tapa roscada."
   }
  ],
  "riesgo": {
@@ -79,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04492/25",
-   "ml:expanails:061124tco47273mk200225"
+   "ml:expanails:061124tco47273mk",
+   "ml:expanails:200225"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ab757ac3dd27741d"
+  "enriquecido": true,
+  "hashContenido": "e88747ef5bc3413f"
  },
  "slug": "esmalte-de-unas-de-gel-expanails-safety-gate-10096323"
 }

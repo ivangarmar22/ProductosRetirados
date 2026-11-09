@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2026-01-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "MY2025MY2026"
+     "numero": "MY2025"
+    },
+    {
+     "numero": "MY2026"
     }
    ],
    "ean": [],
    "descripcion": "Bicicleta de carretera, varios modelos, en diferentes colores, tamaños y con varios números de código.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +70,15 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "HR",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +98,16 @@
   "claves": [
    "ref:SR/00130/26",
    "mm:orbea:avant",
-   "ml:orbea:my2025my2026"
+   "ml:orbea:my2025",
+   "ml:orbea:my2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "85ca4cdbd6c71577"
+  "enriquecido": true,
+  "hashContenido": "3ca8f9ad817db576"
  },
  "slug": "bicicleta-orbea-safety-gate-10097245"
 }
