@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-07"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "3701335308591"
    ],
    "descripcion": "Cocina de arroz con números de lote: 3270510001 – 3270511800; 4240800001-4240802472; 4210810001 - 4210811800; 4221020001-4221021800 y 4221020001-4221021800. Producto vendido en línea, en particular a través de ww.hkoenig.com, prixtoutcompris.com y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -78,7 +79,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -119,11 +123,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7119d5442dfbdc5e"
+  "enriquecido": true,
+  "hashContenido": "7a5f68cb53e8367d"
  },
  "slug": "cocina-de-arroz-hkoenig-safety-gate-10096864"
 }

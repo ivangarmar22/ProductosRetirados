@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Audi"
    ],
    "modelos": [
-    "F2",
-    "4L",
-    "e1*2007/46*1801*",
-    "e1*2001/116*0350*"
+    "F2, 4L",
+    "e1*2007/46*1801*, e1*2001/116*0350*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.03.2025 - 30.07.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "17.03.2025 - 30.07.2025"
+   "fechasTexto": "17.03.2025 - 30.07.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +69,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,16 +106,17 @@
  "dedup": {
   "claves": [
    "ref:SR/04382/25",
-   "mm:audi:e1-2007-46-1801",
-   "mm:audi:e1-2001-116-0350"
+   "mm:audi:f2-4l",
+   "mm:audi:e1-2007-46-1801-e1-2001-116-0350",
+   "ml:audi:17-03-2025-30-07-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "80ee01737db03493"
+  "enriquecido": true,
+  "hashContenido": "f1de580014842776"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10096994"
 }

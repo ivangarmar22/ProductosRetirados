@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0639*31- *37"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.3.2024 - 22.4.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "18.3.2024 - 22.4.2025"
+   "fechasTexto": "18.3.2024 - 22.4.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02929/25",
-   "mm:lancia:e2-2007-46-0639-31-37"
+   "mm:lancia:e2-2007-46-0639-31-37",
+   "ml:lancia:18-3-2024-22-4-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb9f8f50fab0e90e"
+  "enriquecido": true,
+  "hashContenido": "01d12ee47d05b65f"
  },
  "slug": "coche-de-pasajeros-lancia-safety-gate-10095429"
 }

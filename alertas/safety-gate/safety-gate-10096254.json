@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "5907644003532"
    ],
    "descripcion": "Sonajero de cochecito de plástico hecho de coloridas figuras de rana y bolas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana."
   }
  ],
  "riesgo": {
@@ -72,7 +73,13 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +116,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "60d26f1fe963b3c2"
+  "enriquecido": true,
+  "hashContenido": "0f2ac3debf560aed"
  },
  "slug": "sonajero-de-juguete-akuku-safety-gate-10096254"
 }

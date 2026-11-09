@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-20"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -38,7 +38,8 @@
     "3830042566137"
    ],
    "descripcion": "Sierra circular eléctrica de mano con motor eléctrico P=1200W, 220-240V, 50/60Hz, cable eléctrico no desmontable, disco de sierra de 185 mm de diámetro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50326b371e4d9c9f"
+  "enriquecido": true,
+  "hashContenido": "f6b7815a12c2b67f"
  },
  "slug": "sierra-electrica-iskra-safety-gate-10097168"
 }

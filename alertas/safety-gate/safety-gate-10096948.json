@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-09"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "41414212"
+     "numero": "4141"
+    },
+    {
+     "numero": "4212"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "3607340667992"
    ],
    "descripcion": "Crema de ducha, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico transparente con tapa rosa."
   }
  ],
  "riesgo": {
@@ -95,15 +99,16 @@
    "ean:3607340667978",
    "ean:3607340667992",
    "mm:playboy:tender-peach",
-   "ml:playboy:41414212"
+   "ml:playboy:4141",
+   "ml:playboy:4212"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b66ab4a9b7e0f3fe"
+  "enriquecido": true,
+  "hashContenido": "c52745af905f1fd1"
  },
  "slug": "crema-de-ducha-playboy-safety-gate-10096948"
 }

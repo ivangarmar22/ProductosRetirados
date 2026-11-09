@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -35,10 +35,18 @@
     "g11*2018/858*00523*03 C3 AIRCROSS V3",
     "g11*2018/858*00813*00 C3 V5"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.06.2025 - 02.11.2025 // VIN: VR7CPZYA9ST069259 - VR7CGHPY7TT005473 C3 AIRCROSS V3"
+    },
+    {
+     "numero": "15.05.2025 - 01.11.2025 // VIN: VR7CBZYAXRT213054 - VR7CCHPV4TT005609 C3 V5"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "10.06.2025 - 02.11.2025 // VIN: VR7CPZYA9ST069259 - VR7CGHPY7TT005473 C3 AIRCROSS V315.05.2025 - 01.11.2025 // VIN: VR7CBZYAXRT213054 - VR7CCHPV4TT005609 C3 V5"
+   "fechasTexto": "10.06.2025 - 02.11.2025 // VIN: VR7CPZYA9ST069259 - VR7CGHPY7TT005473 C3 AIRCROSS V315.05.2025 - 01.11.2025 // VIN: VR7CBZYAXRT213054 - VR7CCHPV4TT005609 C3 V5",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +76,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "MT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +104,17 @@
    "mm:citroen:e2-2018-858-00096-02-c3-v5",
    "mm:citroen:g11-2018-858-00523-02-a-g11-2018-858-00523-04-c3-v5",
    "mm:citroen:g11-2018-858-00523-03-c3-aircross-v3",
-   "mm:citroen:g11-2018-858-00813-00-c3-v5"
+   "mm:citroen:g11-2018-858-00813-00-c3-v5",
+   "ml:citroen:10-06-2025-02-11-2025-vin-vr7cpzya9st069259-vr7cghpy7tt005473-c3-aircross-v3",
+   "ml:citroen:15-05-2025-01-11-2025-vin-vr7cbzyaxrt213054-vr7cchpv4tt005609-c3-v5"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c92ec44f6f295067"
+  "enriquecido": true,
+  "hashContenido": "b5120e7a9248febe"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10096920"
 }

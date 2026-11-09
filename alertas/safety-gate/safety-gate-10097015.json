@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-12"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica con cargador de pared y batería extraíble. Producto vendido en línea, en particular a través de Amazon (ASIN: B0FV3BL4K8).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c9e94fe0f4f3afbe"
+  "enriquecido": true,
+  "hashContenido": "6565d9f412f321f9"
  },
  "slug": "bicicleta-electrica-evercross-safety-gate-10097015"
 }

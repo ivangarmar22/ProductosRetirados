@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5904888103011"
    ],
    "descripcion": "Juguete suave lleno de arena en forma de pollo, destinado a aliviar el estrés. Producto vendido en línea, en particular a través de www.hurt77.pl y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -76,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "40af64a453946065"
+  "enriquecido": true,
+  "hashContenido": "34b76f718a080902"
  },
  "slug": "pollo-de-juguete-animal-word-safety-gate-10093808"
 }

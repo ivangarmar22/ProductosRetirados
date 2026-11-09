@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-19"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "052829052830058063058064058078"
+     "numero": "052829"
+    },
+    {
+     "numero": "052830"
+    },
+    {
+     "numero": "058063"
+    },
+    {
+     "numero": "058064"
+    },
+    {
+     "numero": "058078"
     }
    ],
    "ean": [
@@ -37,7 +49,8 @@
     "8595683803229"
    ],
    "descripcion": "Loción corporal líquida, 400 ml y 75 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con dispensador de bomba."
   }
  ],
  "riesgo": {
@@ -101,15 +114,19 @@
    "ref:SR/04466/25",
    "ean:8595683802840",
    "ean:8595683803229",
-   "ml:isolda:052829052830058063058064058078"
+   "ml:isolda:052829",
+   "ml:isolda:052830",
+   "ml:isolda:058063",
+   "ml:isolda:058064",
+   "ml:isolda:058078"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c41914ebd59a45e9"
+  "enriquecido": true,
+  "hashContenido": "b30e274d3e77e5c1"
  },
  "slug": "locion-corporal-isolda-safety-gate-10097082"
 }

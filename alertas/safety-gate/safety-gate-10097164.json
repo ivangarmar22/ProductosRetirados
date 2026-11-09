@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-12"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Conjunto de 100 globos en diez colores diferentes. Producto vendido en línea, en particular a través de Amazon (ASIN: B0F28MHDST).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c88bc336bcddbe5b"
+  "enriquecido": true,
+  "hashContenido": "3a18b6be53426a25"
  },
  "slug": "globos-ahfulife-safety-gate-10097164"
 }

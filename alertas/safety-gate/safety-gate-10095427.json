@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,18 @@
     "e3*2018/858*00078*05- *06 (600)",
     "e3*2018/858*00078*12 (600)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.2.2025 - 28.4.2025 (Grande Panda)"
+    },
+    {
+     "numero": "9.2.2024 - 17.5.2025 (600)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "28.2.2025 - 28.4.2025 (Grande Panda)9.2.2024 - 17.5.2025 (600)"
+   "fechasTexto": "28.2.2025 - 28.4.2025 (Grande Panda)9.2.2024 - 17.5.2025 (600)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +72,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +106,17 @@
    "ref:SR/02934/25",
    "mm:fiat:e2-2018-858-00035-08-grande-panda",
    "mm:fiat:e3-2018-858-00078-05-06-600",
-   "mm:fiat:e3-2018-858-00078-12-600"
+   "mm:fiat:e3-2018-858-00078-12-600",
+   "ml:fiat:28-2-2025-28-4-2025-grande-panda",
+   "ml:fiat:9-2-2024-17-5-2025-600"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a1dd15e68b296e08"
+  "enriquecido": true,
+  "hashContenido": "2761a56d0c6cb4a6"
  },
  "slug": "coche-de-pasajeros-fiat-safety-gate-10095427"
 }

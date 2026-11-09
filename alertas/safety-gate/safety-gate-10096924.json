@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-12"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Conjunto de 40 globos en diferentes colores con un diámetro de 27 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BG",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a88c1464e52081a3"
+  "enriquecido": true,
+  "hashContenido": "829936d7be44ca45"
  },
  "slug": "globos-let-s-party-safety-gate-10096924"
 }

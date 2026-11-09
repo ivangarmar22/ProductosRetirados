@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,14 +31,24 @@
    ],
    "lotes": [
     {
-     "numero": "D50B14000000- D50B14009999D11B14000000-D11B14009999D45B14000000-D45B14009999E25B14000000-E25B14009999"
+     "numero": "D50B14000000- D50B14009999"
+    },
+    {
+     "numero": "D11B14000000-D11B14009999"
+    },
+    {
+     "numero": "D45B14000000-D45B14009999"
+    },
+    {
+     "numero": "E25B14000000-E25B14009999"
     }
    ],
    "ean": [
     "5901720130303"
    ],
    "descripcion": "Fuente de alimentación para ordenadores de sobremesa, alimentación eléctrica clase I enchufable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +78,11 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LV",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -126,15 +140,18 @@
    "ref:SR/04233/25",
    "ean:5901720130303",
    "mm:akyga:ak-b1-400",
-   "ml:akyga:d50b14000000-d50b14009999d11b14000000-d11b14009999d45b14000000-d45b14009999e25b14000000-e25b14009999"
+   "ml:akyga:d50b14000000-d50b14009999",
+   "ml:akyga:d11b14000000-d11b14009999",
+   "ml:akyga:d45b14000000-d45b14009999",
+   "ml:akyga:e25b14000000-e25b14009999"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "032a3468501bd42f"
+  "enriquecido": true,
+  "hashContenido": "ff4397b3183ff46e"
  },
  "slug": "unidad-de-fuente-de-alimentacion-akyga-safety-gate-10096787"
 }

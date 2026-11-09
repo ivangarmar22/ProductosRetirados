@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-12"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,14 +32,36 @@
    ],
    "lotes": [
     {
-     "numero": "SM17774P1SM17874P1SM21374P1SM24874P1SM35974P3SM35974P5SM36774P3SM36774P5"
+     "numero": "SM17774P1"
+    },
+    {
+     "numero": "SM17874P1"
+    },
+    {
+     "numero": "SM21374P1"
+    },
+    {
+     "numero": "SM24874P1"
+    },
+    {
+     "numero": "SM35974P3"
+    },
+    {
+     "numero": "SM35974P5"
+    },
+    {
+     "numero": "SM36774P3"
+    },
+    {
+     "numero": "SM36774P5"
     }
    ],
    "ean": [
     "4005556048687"
    ],
    "descripcion": "Spinners de juguete para niños a partir de los seis meses de edad, que se pueden fijar a las superficies mediante una ventosa en la espalda. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +91,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,15 +117,22 @@
    "ean:4005556048687",
    "mm:ravensburger:04867-affe",
    "mm:ravensburger:04868-leopard",
-   "ml:ravensburger:sm17774p1sm17874p1sm21374p1sm24874p1sm35974p3sm35974p5sm36774p3sm36774p5"
+   "ml:ravensburger:sm17774p1",
+   "ml:ravensburger:sm17874p1",
+   "ml:ravensburger:sm21374p1",
+   "ml:ravensburger:sm24874p1",
+   "ml:ravensburger:sm35974p3",
+   "ml:ravensburger:sm35974p5",
+   "ml:ravensburger:sm36774p3",
+   "ml:ravensburger:sm36774p5"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b2ea283c86d20d47"
+  "enriquecido": true,
+  "hashContenido": "80da15c1f03c1c67"
  },
  "slug": "juguete-de-spinner-ravensburger-safety-gate-10096971"
 }

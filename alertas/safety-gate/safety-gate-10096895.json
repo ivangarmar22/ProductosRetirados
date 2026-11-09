@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,22 +27,24 @@
     "Renault Trucks"
    ],
    "modelos": [
-    "e2*2007/46*0023*43",
-    "e2*2007/46*0023*50 - e2*2007/46*0023*55",
+    "e2*2007/46*0023*43, e2*2007/46*0023*50 - e2*2007/46*0023*55",
     "e2*2007/46*0024*33 - e2*2007/46*0024*35",
-    "e2*2007/46*0028*28",
-    "e2*2007/46*0028*29",
+    "e2*2007/46*0028*28, e2*2007/46*0028*29",
     "e2*2007/46*0029*38",
     "e2*2007/46*0051*44 - e2*2007/46*0051*47",
     "e2*2007/46*0052*26 - e2*2007/46*0052*27",
     "e2*2007/46*0053*48 - e2*2007/46*0053*50",
-    "e2*2007/46*0054*39",
-    "e2*2007/46*0054*40"
+    "e2*2007/46*0054*39, e2*2007/46*0054*40"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11/2022 - 07/2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "11/2022 - 07/2024"
+   "fechasTexto": "11/2022 - 07/2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +74,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "HU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,25 +98,23 @@
  "dedup": {
   "claves": [
    "ref:SR/04236/25",
-   "mm:renault-trucks:e2-2007-46-0023-43",
-   "mm:renault-trucks:e2-2007-46-0023-50-e2-2007-46-0023-55",
+   "mm:renault-trucks:e2-2007-46-0023-43-e2-2007-46-0023-50-e2-2007-46-0023-55",
    "mm:renault-trucks:e2-2007-46-0024-33-e2-2007-46-0024-35",
-   "mm:renault-trucks:e2-2007-46-0028-28",
-   "mm:renault-trucks:e2-2007-46-0028-29",
+   "mm:renault-trucks:e2-2007-46-0028-28-e2-2007-46-0028-29",
    "mm:renault-trucks:e2-2007-46-0029-38",
    "mm:renault-trucks:e2-2007-46-0051-44-e2-2007-46-0051-47",
    "mm:renault-trucks:e2-2007-46-0052-26-e2-2007-46-0052-27",
    "mm:renault-trucks:e2-2007-46-0053-48-e2-2007-46-0053-50",
-   "mm:renault-trucks:e2-2007-46-0054-39",
-   "mm:renault-trucks:e2-2007-46-0054-40"
+   "mm:renault-trucks:e2-2007-46-0054-39-e2-2007-46-0054-40",
+   "ml:renault-trucks:11-2022-07-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "11e67315f0bad170"
+  "enriquecido": true,
+  "hashContenido": "c9e94a30359c6db3"
  },
  "slug": "furgoneta-de-pasajeros-renault-trucks-safety-gate-10096895"
 }

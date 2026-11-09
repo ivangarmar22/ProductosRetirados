@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -39,10 +39,36 @@
     "g11*2018/858*00524*00- *03 3008 V3",
     "g11*2018/858*00524*00- *03 5008 V3"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.4.2023 - 22.4.2025 208 V2"
+    },
+    {
+     "numero": "2.4.2024 - 17.4.2025 308 V3"
+    },
+    {
+     "numero": "2.4.2024 - 17.4.2025 408"
+    },
+    {
+     "numero": "26.10.2022 - 23.5.2024 3008 V2"
+    },
+    {
+     "numero": "26.7.2023 - 22.4.2025 3008 V3"
+    },
+    {
+     "numero": "4.4.2024 - 22.4.2025 2008 V2"
+    },
+    {
+     "numero": "5.12.2023 - 22.4.2025 5008 V3"
+    },
+    {
+     "numero": "7.11.2022 - 9.10.2024 5008 V2"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "11.4.2023 - 22.4.2025 208 V22.4.2024 - 17.4.2025 308 V32.4.2024 - 17.4.2025 40826.10.2022 - 23.5.2024 3008 V226.7.2023 - 22.4.2025 3008 V34.4.2024 - 22.4.2025 2008 V25.12.2023 - 22.4.2025 5008 V37.11.2022 - 9.10.2024 5008 V2"
+   "fechasTexto": "11.4.2023 - 22.4.2025 208 V22.4.2024 - 17.4.2025 308 V32.4.2024 - 17.4.2025 40826.10.2022 - 23.5.2024 3008 V226.7.2023 - 22.4.2025 3008 V34.4.2024 - 22.4.2025 2008 V25.12.2023 - 22.4.2025 5008 V37.11.2022 - 9.10.2024 5008 V2",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +98,22 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "MT",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,15 +150,23 @@
    "mm:peugeot:e2-2018-858-00064-00-08-3008-v3",
    "mm:peugeot:e2-2018-858-00064-02-07-5008-v3",
    "mm:peugeot:g11-2018-858-00524-00-03-3008-v3",
-   "mm:peugeot:g11-2018-858-00524-00-03-5008-v3"
+   "mm:peugeot:g11-2018-858-00524-00-03-5008-v3",
+   "ml:peugeot:11-4-2023-22-4-2025-208-v2",
+   "ml:peugeot:2-4-2024-17-4-2025-308-v3",
+   "ml:peugeot:2-4-2024-17-4-2025-408",
+   "ml:peugeot:26-10-2022-23-5-2024-3008-v2",
+   "ml:peugeot:26-7-2023-22-4-2025-3008-v3",
+   "ml:peugeot:4-4-2024-22-4-2025-2008-v2",
+   "ml:peugeot:5-12-2023-22-4-2025-5008-v3",
+   "ml:peugeot:7-11-2022-9-10-2024-5008-v2"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "737d7b6e0bd608d2"
+  "enriquecido": true,
+  "hashContenido": "bd8b1d8510588056"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10095424"
 }

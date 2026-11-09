@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-04"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -27,27 +27,35 @@
     "Curaprox"
    ],
    "modelos": [
-    "7612412 427172",
-    "7612412 427189",
-    "7612412 427196",
-    "7612412 427219",
-    "7612412 427202",
-    "7612412 427226",
-    "7612412 427233",
-    "7612412 427240",
-    "7612412 427257",
-    "7612412 429992",
-    "7612412 430004",
-    "7612412"
+    "7612412 427172, 7612412 427189, 7612412 427196",
+    "7612412 427219, 7612412 427202, 7612412 427226",
+    "7612412 427233, 7612412 427240, 7612412 427257",
+    "7612412 429992, 7612412 430004, 7612412"
    ],
    "lotes": [
     {
-     "numero": "008006007009010011"
+     "numero": "008"
+    },
+    {
+     "numero": "006"
+    },
+    {
+     "numero": "007"
+    },
+    {
+     "numero": "009"
+    },
+    {
+     "numero": "010"
+    },
+    {
+     "numero": "011"
     }
    ],
    "ean": [],
    "descripcion": "Chupete para bebé disponible en azul, rosa, coral y turquesa.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,7 +89,13 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "HR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,27 +119,24 @@
  "dedup": {
   "claves": [
    "ref:SR/04376/25",
-   "mm:curaprox:7612412-427172",
-   "mm:curaprox:7612412-427189",
-   "mm:curaprox:7612412-427196",
-   "mm:curaprox:7612412-427219",
-   "mm:curaprox:7612412-427202",
-   "mm:curaprox:7612412-427226",
-   "mm:curaprox:7612412-427233",
-   "mm:curaprox:7612412-427240",
-   "mm:curaprox:7612412-427257",
-   "mm:curaprox:7612412-429992",
-   "mm:curaprox:7612412-430004",
-   "mm:curaprox:7612412",
-   "ml:curaprox:008006007009010011"
+   "mm:curaprox:7612412-427172-7612412-427189-7612412-427196",
+   "mm:curaprox:7612412-427219-7612412-427202-7612412-427226",
+   "mm:curaprox:7612412-427233-7612412-427240-7612412-427257",
+   "mm:curaprox:7612412-429992-7612412-430004-7612412",
+   "ml:curaprox:008",
+   "ml:curaprox:006",
+   "ml:curaprox:007",
+   "ml:curaprox:009",
+   "ml:curaprox:010",
+   "ml:curaprox:011"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9d1771ada1222503"
+  "enriquecido": true,
+  "hashContenido": "740b7c7327e6075b"
  },
  "slug": "chupete-curaprox-safety-gate-10096549"
 }

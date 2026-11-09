@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-12"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Ruedas de bicicleta vendidas con bicicletas Decathlon HADRON2 Classic 500 y HADRON2 Ultimate 500. Producto vendido en línea, en particular a través de Decathlon.com",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,11 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "faaba8a0698fe88f"
+  "enriquecido": true,
+  "hashContenido": "ee1a8579da2fdaa9"
  },
  "slug": "ruedas-de-bicicleta-rcr-pro-safety-gate-10096434"
 }

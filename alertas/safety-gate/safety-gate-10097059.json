@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2018/858*00064*04 - e2*2018/858*00064*08",
     "g11*2018/858*00524*01 - g11*2018/858*00524*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08/05/2024 - 27/02/2025 // VIN: VXKKAHPY8R6015952 - VXKKBDGH1T6000111"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "08/05/2024 - 27/02/2025 // VIN: VXKKAHPY8R6015952 - VXKKBDGH1T6000111"
+   "fechasTexto": "08/05/2024 - 27/02/2025 // VIN: VXKKAHPY8R6015952 - VXKKBDGH1T6000111",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +95,16 @@
   "claves": [
    "ref:SR/04370/25",
    "mm:opel-vauxhall:e2-2018-858-00064-04-e2-2018-858-00064-08",
-   "mm:opel-vauxhall:g11-2018-858-00524-01-g11-2018-858-00524-03"
+   "mm:opel-vauxhall:g11-2018-858-00524-01-g11-2018-858-00524-03",
+   "ml:opel-vauxhall:08-05-2024-27-02-2025-vin-vxkkahpy8r6015952-vxkkbdgh1t6000111"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6851bfb951720096"
+  "enriquecido": true,
+  "hashContenido": "4ca322d32542b80a"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10097059"
 }

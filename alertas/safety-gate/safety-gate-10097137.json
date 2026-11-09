@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "6931571047320"
    ],
    "descripcion": "Juguete blanco suave con tapa naranja y botella Fanta, y manos, pies y cara de plástico",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "91bffbd5a1fd3792"
+  "enriquecido": true,
+  "hashContenido": "4cdb465a9900d251"
  },
  "slug": "juguete-suave-pop-mart-safety-gate-10097137"
 }

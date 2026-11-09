@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-07"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
     "8435527815486"
    ],
    "descripcion": "Pequeña máquina de coser de mano verde. Producto vendido en línea, en particular a través de www.partyhallen.se",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco con una imagen del producto."
   }
  ],
  "riesgo": {
@@ -63,7 +64,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e9f167ea77a70efc"
+  "enriquecido": true,
+  "hashContenido": "8175402afe451c42"
  },
  "slug": "maquina-de-coser-de-mano-innova-goods-safety-gate-10097131"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -28,80 +28,22 @@
    ],
    "modelos": [
     "DARK TOP NO WIPE - COVER TOP",
-    "Dark Pro Base - PRO (06",
-    "14",
-    "15",
-    "16",
-    "27",
-    "28",
-    "30",
-    "31",
-    "36)",
-    "Dark Pro Base - PRO BASE (03",
-    "04)",
-    "Dark Pro Base - SHINE (08",
-    "09)"
+    "Dark Pro Base - PRO (06, 14, 15, 16, 27, 28, 30, 31, 36)",
+    "Dark Pro Base - PRO BASE (03, 04)",
+    "Dark Pro Base - SHINE (08, 09)"
    ],
    "lotes": [
     {
-     "numero": "002063 EXP 07/2027"
+     "numero": "002063 EXP 07/2027; 002063 EXP 07/2027 (Shine 08,09)"
     },
     {
-     "numero": "002063 EXP 07/2027 (Shine 08"
+     "numero": "057007 EXP 10/2026; 000007 EXP 08/2026 (PRO BASE 03, 04)"
     },
     {
-     "numero": "09)057007 EXP 10/2026"
+     "numero": "057012 EXP 10/2026 (COVER TOP)"
     },
     {
-     "numero": "000007 EXP 08/2026 (PRO BASE 03"
-    },
-    {
-     "numero": "04)057012 EXP 10/2026 (COVER TOP)057014 EXP 10/2026"
-    },
-    {
-     "numero": "083058 EXP 03/2027"
-    },
-    {
-     "numero": "083058 EXP 04/2027"
-    },
-    {
-     "numero": "053014 EXP 06/2026"
-    },
-    {
-     "numero": "053019 EXP 12/2026"
-    },
-    {
-     "numero": "083066 EXP 04/2027"
-    },
-    {
-     "numero": "067038 EXP 02/2027"
-    },
-    {
-     "numero": "032019 EXP 01/2027 (PRO 06"
-    },
-    {
-     "numero": "14"
-    },
-    {
-     "numero": "15"
-    },
-    {
-     "numero": "16"
-    },
-    {
-     "numero": "27"
-    },
-    {
-     "numero": "28"
-    },
-    {
-     "numero": "30"
-    },
-    {
-     "numero": "31"
-    },
-    {
-     "numero": "36)"
+     "numero": "057014 EXP 10/2026; 083058 EXP 03/2027; 083058 EXP 04/2027; 053014 EXP 06/2026; 053019 EXP 12/2026; 083066 EXP 04/2027; 067038 EXP 02/2027; 032019 EXP 01/2027 (PRO 06, 14, 15, 16, 27, 28, 30, 31, 36)"
     }
    ],
    "ean": [
@@ -111,7 +53,8 @@
     "2000995111857"
    ],
    "descripcion": "Esmalte de uñas en gel, 10 y 15 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella marrón con aplicador de tapa roscada."
   }
  ],
  "riesgo": {
@@ -185,29 +128,21 @@
    "ean:2000994786339",
    "ean:2000995111857",
    "mm:dark-by-rior:dark-top-no-wipe-cover-top",
-   "mm:dark-by-rior:dark-pro-base-pro-06",
-   "mm:dark-by-rior:dark-pro-base-pro-base-03",
-   "mm:dark-by-rior:dark-pro-base-shine-08",
-   "ml:dark-by-rior:002063-exp-07-2027",
-   "ml:dark-by-rior:002063-exp-07-2027-shine-08",
-   "ml:dark-by-rior:09-057007-exp-10-2026",
-   "ml:dark-by-rior:000007-exp-08-2026-pro-base-03",
-   "ml:dark-by-rior:04-057012-exp-10-2026-cover-top-057014-exp-10-2026",
-   "ml:dark-by-rior:083058-exp-03-2027",
-   "ml:dark-by-rior:083058-exp-04-2027",
-   "ml:dark-by-rior:053014-exp-06-2026",
-   "ml:dark-by-rior:053019-exp-12-2026",
-   "ml:dark-by-rior:083066-exp-04-2027",
-   "ml:dark-by-rior:067038-exp-02-2027",
-   "ml:dark-by-rior:032019-exp-01-2027-pro-06"
+   "mm:dark-by-rior:dark-pro-base-pro-06-14-15-16-27-28-30-31-36",
+   "mm:dark-by-rior:dark-pro-base-pro-base-03-04",
+   "mm:dark-by-rior:dark-pro-base-shine-08-09",
+   "ml:dark-by-rior:002063-exp-07-2027-002063-exp-07-2027-shine-08-09",
+   "ml:dark-by-rior:057007-exp-10-2026-000007-exp-08-2026-pro-base-03-04",
+   "ml:dark-by-rior:057012-exp-10-2026-cover-top",
+   "ml:dark-by-rior:057014-exp-10-2026-083058-exp-03-2027-083058-exp-04-2027-053014-exp-06-2026-053019-exp-12-2026-083066-exp-04-2027-067038-exp-02-2027-032019-exp-01-2027-pro-06-14-15-16-27-28-30-31-36"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "83bafcd2cd83fcec"
+  "enriquecido": true,
+  "hashContenido": "bcba6bd3243c184e"
  },
  "slug": "esmalte-de-unas-de-gel-dark-by-rior-safety-gate-10097077"
 }

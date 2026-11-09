@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-07"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Fabricante de gofres blancos, 1200 W, 220-240 V, 50 Hz",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -74,7 +75,10 @@
   "ccaa": [],
   "paisNotificante": "Croacia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8969aa34d52c2355"
+  "enriquecido": true,
+  "hashContenido": "9cad9a8f4f203144"
  },
  "slug": "fabricante-de-gofres-elta-safety-gate-10096982"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-06"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,14 +31,27 @@
    ],
    "lotes": [
     {
-     "numero": "00176627 404744349859500176655 404744352462100176656 4047443524652 00176657 4047443524683 00176938 4047443525901"
+     "numero": "00176627 4047443498595"
+    },
+    {
+     "numero": "00176655 4047443524621"
+    },
+    {
+     "numero": "00176656 4047443524652"
+    },
+    {
+     "numero": "00176657 4047443524683"
+    },
+    {
+     "numero": "00176938 4047443525901"
     }
    ],
    "ean": [
     "4047443498595"
    ],
    "descripcion": "Enchufe WLAN para uso en exteriores con un interruptor manual de encendido/apagado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja blanca con una raya azul, una imagen del producto."
   }
  ],
  "riesgo": {
@@ -72,7 +85,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,15 +109,19 @@
    "ref:SR/04340/25",
    "ean:4047443498595",
    "mm:hama:00176627",
-   "ml:hama:00176627-404744349859500176655-404744352462100176656-4047443524652-00176657-4047443524683-00176938-4047443525901"
+   "ml:hama:00176627-4047443498595",
+   "ml:hama:00176655-4047443524621",
+   "ml:hama:00176656-4047443524652",
+   "ml:hama:00176657-4047443524683",
+   "ml:hama:00176938-4047443525901"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1ada253e413501ed"
+  "enriquecido": true,
+  "hashContenido": "b821b26e47d2c68c"
  },
  "slug": "enchufe-al-aire-libre-wifi-hama-safety-gate-10096903"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
     "4049775587527"
    ],
    "descripcion": "Delineador de ojos líquido. Todos los lotes están afectados, 0,5 g",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,12 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL",
+   "SI",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b2850170a0c779c3"
+  "enriquecido": true,
+  "hashContenido": "f5c4daa510000aeb"
  },
  "slug": "delineador-de-ojos-wet-n-wild-proline-felt-tip-eyeliner-safety-gate-10097006"
 }

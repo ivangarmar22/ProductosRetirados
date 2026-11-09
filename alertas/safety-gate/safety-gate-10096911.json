@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-25"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,7 +38,8 @@
     "3800223410986"
    ],
    "descripcion": "Loción de manos/cuerpo con aceites esenciales. Producto vendido en línea, en particular a través de www.bioherba.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio marrón con una etiqueta y una tapa de plástico negro."
   }
  ],
  "riesgo": {
@@ -84,7 +85,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Bulgaria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1a80b630a8397ff3"
+  "enriquecido": true,
+  "hashContenido": "e0978c288bbd58cd"
  },
  "slug": "locion-para-manos-bioherba-safety-gate-10096911"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2018/858*00500*00-*01 (MMCLAE)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.03.2025 - 8.09.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "19.03.2025 - 8.09.2025"
+   "fechasTexto": "19.03.2025 - 8.09.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "HU",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04483/25",
-   "mm:mercedes-benz:e1-2018-858-00500-00-01-mmclae"
+   "mm:mercedes-benz:e1-2018-858-00500-00-01-mmclae",
+   "ml:mercedes-benz:19-03-2025-8-09-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5d87e04df048eeab"
+  "enriquecido": true,
+  "hashContenido": "ae226fe11095f177"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10097192"
 }

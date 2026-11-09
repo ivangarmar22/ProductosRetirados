@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2018/858*00079* (NQ5e)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.05.2025 - 27.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.05.2025 - 27.05.2025"
+   "fechasTexto": "12.05.2025 - 27.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Eslovaquia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04280/25",
-   "mm:kia:e4-2018-858-00079-nq5e"
+   "mm:kia:e4-2018-858-00079-nq5e",
+   "ml:kia:12-05-2025-27-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "912e39da9bcabaf5"
+  "enriquecido": true,
+  "hashContenido": "507bd05e9c24139f"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10096937"
 }

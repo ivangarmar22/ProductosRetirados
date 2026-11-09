@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Man"
    ],
    "modelos": [
-    "e1*2018/858*00073*12-*16 (L.2018.858.001)",
-    "e1*2018/858*00075*12-*15 (L.2018.858.003)"
+    "e1*2018/858*00073*12-*16 (L.2018.858.001), e1*2018/858*00075*12-*15 (L.2018.858.003)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.12.2023 - 20.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "19.12.2023 - 20.10.2025"
+   "fechasTexto": "19.12.2023 - 20.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +90,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04306/25",
-   "mm:man:e1-2018-858-00073-12-16-l-2018-858-001",
-   "mm:man:e1-2018-858-00075-12-15-l-2018-858-003"
+   "mm:man:e1-2018-858-00073-12-16-l-2018-858-001-e1-2018-858-00075-12-15-l-2018-858-003",
+   "ml:man:19-12-2023-20-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f376122303054970"
+  "enriquecido": true,
+  "hashContenido": "4b794fe20162d80a"
  },
  "slug": "camion-man-safety-gate-10096996"
 }

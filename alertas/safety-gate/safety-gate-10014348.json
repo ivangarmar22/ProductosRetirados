@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -68,28 +68,30 @@
     "e1*2007/46*0371*19",
     "e1*2007/46*0412*08",
     "e1*2007/46*0421*10",
-    "e1*2007/46*0454*05",
-    "*13",
+    "e1*2007/46*0454*05, *13",
     "e1*2007/46*0454*11",
     "e1*2007/46*0455*",
     "e1*2007/46*0508*02",
-    "e1*2007/46*0512*00",
-    "*13",
+    "e1*2007/46*0512*00, *13",
     "e1*2007/46*0559*",
     "e1*2007/46*0562*",
     "e1*2007/46*1675*00",
     "e1*2007/46*1676*00",
     "e1*2007/46*1677*00",
     "e24*2007/46*0022*",
-    "e24*2007/46*0022*03",
-    "*05",
+    "e24*2007/46*0022*03, *05",
     "e24*2007/46*0024*",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.03.2003 - 20.06.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos de pasajeros, adaptados con Takata Airbag mediante la conversión del volante en «Sport» o «M Sport».",
-   "fechasTexto": "13.03.2003 - 20.06.2018"
+   "fechasTexto": "13.03.2003 - 20.06.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -120,7 +122,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -205,28 +222,29 @@
    "mm:bmw:e1-2007-46-0371-19",
    "mm:bmw:e1-2007-46-0412-08",
    "mm:bmw:e1-2007-46-0421-10",
-   "mm:bmw:e1-2007-46-0454-05",
+   "mm:bmw:e1-2007-46-0454-05-13",
    "mm:bmw:e1-2007-46-0454-11",
    "mm:bmw:e1-2007-46-0455",
    "mm:bmw:e1-2007-46-0508-02",
-   "mm:bmw:e1-2007-46-0512-00",
+   "mm:bmw:e1-2007-46-0512-00-13",
    "mm:bmw:e1-2007-46-0559",
    "mm:bmw:e1-2007-46-0562",
    "mm:bmw:e1-2007-46-1675-00",
    "mm:bmw:e1-2007-46-1676-00",
    "mm:bmw:e1-2007-46-1677-00",
    "mm:bmw:e24-2007-46-0022",
-   "mm:bmw:e24-2007-46-0022-03",
+   "mm:bmw:e24-2007-46-0022-03-05",
    "mm:bmw:e24-2007-46-0024",
-   "mm:bmw:individual-approval"
+   "mm:bmw:individual-approval",
+   "ml:bmw:13-03-2003-20-06-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "366119d795b835d2"
+  "enriquecido": true,
+  "hashContenido": "88edaf1bb98f3e14"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10014348"
 }

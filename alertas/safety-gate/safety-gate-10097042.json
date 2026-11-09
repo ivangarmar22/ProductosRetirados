@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "KTM"
    ],
    "modelos": [
-    "KTM IS Dk",
-    "KTM IS Dk",
-    "KTM R2 Dk",
-    "e1*168/2013*00360*00",
-    "e1*168/2013*00359*00",
-    "e1*168/2013*00369*00"
+    "KTM IS Dk, KTM IS Dk, KTM R2 Dk",
+    "e1*168/2013*00360*00, e1*168/2013*00359*00, e1*168/2013*00369*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.3.2023 - 3.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "28.3.2023 - 3.10.2025"
+   "fechasTexto": "28.3.2023 - 3.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,19 +103,17 @@
  "dedup": {
   "claves": [
    "ref:SR/04345/25",
-   "mm:ktm:ktm-is-dk",
-   "mm:ktm:ktm-r2-dk",
-   "mm:ktm:e1-168-2013-00360-00",
-   "mm:ktm:e1-168-2013-00359-00",
-   "mm:ktm:e1-168-2013-00369-00"
+   "mm:ktm:ktm-is-dk-ktm-is-dk-ktm-r2-dk",
+   "mm:ktm:e1-168-2013-00360-00-e1-168-2013-00359-00-e1-168-2013-00369-00",
+   "ml:ktm:28-3-2023-3-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5a2cd3435af0f935"
+  "enriquecido": true,
+  "hashContenido": "485197ee83ff8888"
  },
  "slug": "motocicleta-ktm-safety-gate-10097042"
 }

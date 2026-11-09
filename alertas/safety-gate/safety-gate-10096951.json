@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-01"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -34,7 +34,8 @@
     "5060006140600"
    ],
    "descripcion": "Estufa de gas plana con cartucho de gas en el lateral. Producto vendido en línea, en particular a través de www.nisbets.de, www.metro.de, www.profishop.de, www.idealo.de, www.kaufland.de.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico negro, medida aprox. 10 x 31 x 35 cm."
   }
  ],
  "riesgo": {
@@ -65,7 +66,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dd6601d0281d76ad"
+  "enriquecido": true,
+  "hashContenido": "cf79405940f57e78"
  },
  "slug": "estufa-de-gas-portatil-bright-spark-safety-gate-10096951"
 }

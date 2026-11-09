@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-04"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,15 +27,14 @@
     "Talaria"
    ],
    "modelos": [
-    "DB4000DY",
-    "TL4000YE",
-    "TL2500L1e",
-    "DB4000DY-A"
+    "DB4000DY / TL4000YE",
+    "TL2500L1e / DB4000DY-A"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Motocicleta eléctrica con enchufes de pared y cargador.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -88,18 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04438/25",
-   "mm:talaria:db4000dy",
-   "mm:talaria:tl4000ye",
-   "mm:talaria:tl2500l1e",
-   "mm:talaria:db4000dy-a"
+   "mm:talaria:db4000dy-tl4000ye",
+   "mm:talaria:tl2500l1e-db4000dy-a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f3df7c9398f3d0d"
+  "enriquecido": true,
+  "hashContenido": "6906f46657c88c33"
  },
  "slug": "motocicleta-electrica-talaria-safety-gate-10095163"
 }

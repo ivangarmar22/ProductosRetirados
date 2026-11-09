@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-26"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -36,7 +36,8 @@
     "5902801345357"
    ],
    "descripcion": "Juego monofásico de lámparas, 3xGU10, máximo 3x20W, AC220-240V, 1 metro, en blanco y negro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ae74efb52f6f98f9"
+  "enriquecido": true,
+  "hashContenido": "2f34fafb77dc70fb"
  },
  "slug": "lampara-gtv-safety-gate-10097141"
 }

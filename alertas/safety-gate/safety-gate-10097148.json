@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "JW",
     "e4*2018/858*00060*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.12.2021 - 29.6.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "16.12.2021 - 29.6.2024"
+   "fechasTexto": "16.12.2021 - 29.6.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04459/25",
-   "mm:genesis:e4-2018-858-00060"
+   "mm:genesis:e4-2018-858-00060",
+   "ml:genesis:16-12-2021-29-6-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "09233f9bd074af59"
+  "enriquecido": true,
+  "hashContenido": "145023579db7cbd6"
  },
  "slug": "coche-de-pasajeros-genesis-safety-gate-10097148"
 }

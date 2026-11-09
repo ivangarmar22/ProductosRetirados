@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Husqvarna"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "2024"
+   "fechasTexto": "2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +66,16 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +94,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:SR/04339/25"
+   "ref:SR/04339/25",
+   "ml:husqvarna:2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3d32a3c0391c7aaa"
+  "enriquecido": true,
+  "hashContenido": "1537b27e37296512"
  },
  "slug": "motocicleta-husqvarna-safety-gate-10096905"
 }

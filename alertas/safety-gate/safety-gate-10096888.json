@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-08"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "Not specified"
    ],
    "modelos": [
-    "20132303",
-    "03711"
+    "20132303, 03711"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Juego de esterilla de baile eléctrico. Producto vendido en línea, en particular a través de Amazon (ASIN: B0DNQX13R7).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -87,16 +87,15 @@
  "dedup": {
   "claves": [
    "ref:SR/04444/25",
-   "mm:not-specified:20132303",
-   "mm:not-specified:03711"
+   "mm:not-specified:20132303-03711"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32cc15b6712f5eef"
+  "enriquecido": true,
+  "hashContenido": "1a7f598671c61618"
  },
  "slug": "alfombra-de-baile-not-specified-safety-gate-10096888"
 }

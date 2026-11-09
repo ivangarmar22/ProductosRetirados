@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Opel"
    ],
    "modelos": [
-    "e1*2001/116*0379*09",
-    "e50*2001/116*0001*01"
+    "e1*2001/116*0379*09, e50*2001/116*0001*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.04.2009-19.05.2009"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "28.04.2009-19.05.2009"
+   "fechasTexto": "28.04.2009-19.05.2009",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HU",
+   "MT",
+   "NO",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,16 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04255/25",
-   "mm:opel:e1-2001-116-0379-09",
-   "mm:opel:e50-2001-116-0001-01"
+   "mm:opel:e1-2001-116-0379-09-e50-2001-116-0001-01",
+   "ml:opel:28-04-2009-19-05-2009"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2342190ccee96090"
+  "enriquecido": true,
+  "hashContenido": "33b25e942ae03736"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10096910"
 }

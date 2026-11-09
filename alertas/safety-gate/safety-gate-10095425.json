@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -36,10 +36,30 @@
     "e2*2018/858*00064*04- *07 Grandland V2",
     "g11*2018/858*00524*01- *03 Grandland V2"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.1.2024 - 23.4.2025 Astra L"
+    },
+    {
+     "numero": "21.2.2023 - 22.4.2025 Corsa"
+    },
+    {
+     "numero": "21.3.2024 - 24.4.2025 Grandland V2"
+    },
+    {
+     "numero": "30.7.2024 - 23.4.2025 Frontera"
+    },
+    {
+     "numero": "4.11.2022 - 17.4.2025 Mokka"
+    },
+    {
+     "numero": "4.2.2023 - 8.11.2024 Grandland X"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "2.1.2024 - 23.4.2025 Astra L21.2.2023 - 22.4.2025 Corsa21.3.2024 - 24.4.2025 Grandland V230.7.2024 - 23.4.2025 Frontera4.11.2022 - 17.4.2025 Mokka4.2.2023 - 8.11.2024 Grandland X"
+   "fechasTexto": "2.1.2024 - 23.4.2025 Astra L21.2.2023 - 22.4.2025 Corsa21.3.2024 - 24.4.2025 Grandland V230.7.2024 - 23.4.2025 Frontera4.11.2022 - 17.4.2025 Mokka4.2.2023 - 8.11.2024 Grandland X",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +89,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "MT",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,15 +141,21 @@
    "mm:opel-vauxhall:e2-2007-46-0639-28-37-mokka",
    "mm:opel-vauxhall:e2-2018-858-00035-06-09-frontera",
    "mm:opel-vauxhall:e2-2018-858-00064-04-07-grandland-v2",
-   "mm:opel-vauxhall:g11-2018-858-00524-01-03-grandland-v2"
+   "mm:opel-vauxhall:g11-2018-858-00524-01-03-grandland-v2",
+   "ml:opel-vauxhall:2-1-2024-23-4-2025-astra-l",
+   "ml:opel-vauxhall:21-2-2023-22-4-2025-corsa",
+   "ml:opel-vauxhall:21-3-2024-24-4-2025-grandland-v2",
+   "ml:opel-vauxhall:30-7-2024-23-4-2025-frontera",
+   "ml:opel-vauxhall:4-11-2022-17-4-2025-mokka",
+   "ml:opel-vauxhall:4-2-2023-8-11-2024-grandland-x"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "767c6b0a27e63125"
+  "enriquecido": true,
+  "hashContenido": "865f4fb0a00664d8"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10095425"
 }

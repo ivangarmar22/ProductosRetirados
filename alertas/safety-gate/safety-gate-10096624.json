@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-08"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juego de seis pilas de botón de litio, 3V. Producto vendido en línea, en particular a través de Temu y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Etiqueta de cartón y blister de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c552600cf79ea60c"
+  "enriquecido": true,
+  "hashContenido": "efeaf677736b5a2d"
  },
  "slug": "baterias-de-boton-supacell-safety-gate-10096624"
 }

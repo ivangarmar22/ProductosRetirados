@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-08"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "4046032091025"
    ],
    "descripcion": "Cargador de batería. Especificaciones eléctricas: Aportación: 100 – 240 VAC / 11 – 18 VDC Salida: 0,1 – 7,0A; 80W Clase II, IP20",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón roja con imagen del producto en la tapa."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5f10dc0dc0cfab63"
+  "enriquecido": true,
+  "hashContenido": "be44623c5e07564c"
  },
  "slug": "cargador-de-bateria-robitronic-safety-gate-10097102"
 }
