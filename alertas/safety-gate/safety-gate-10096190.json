@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-10"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
     "8529457184382"
    ],
    "descripcion": "Cigarrillo electrónico desechable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d226fafec7468925"
+  "enriquecido": true,
+  "hashContenido": "d250fd20c2186f5b"
  },
  "slug": "cigarrillo-electronico-desechable-fumot-safety-gate-10096190"
 }

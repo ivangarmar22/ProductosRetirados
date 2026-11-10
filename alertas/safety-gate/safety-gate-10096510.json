@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e3*2018/858*00078*10*00",
     "e3*2018/858*00078*13*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.11.2024 - 24.06.2024 // VIN: ZAC5JABL8RJL28550 - ZAC5JABL4SJM02133"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "05.11.2024 - 24.06.2024 // VIN: ZAC5JABL8RJL28550 - ZAC5JABL4SJM02133"
+   "fechasTexto": "05.11.2024 - 24.06.2024 // VIN: ZAC5JABL8RJL28550 - ZAC5JABL4SJM02133",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +95,16 @@
    "ref:SR/03880/25",
    "mm:jeep:e3-2018-858-00078-09-00",
    "mm:jeep:e3-2018-858-00078-10-00",
-   "mm:jeep:e3-2018-858-00078-13-00"
+   "mm:jeep:e3-2018-858-00078-13-00",
+   "ml:jeep:05-11-2024-24-06-2024-vin-zac5jabl8rjl28550-zac5jabl4sjm02133"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "608151e99de7d0b2"
+  "enriquecido": true,
+  "hashContenido": "105e0ed227d6607d"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10096510"
 }

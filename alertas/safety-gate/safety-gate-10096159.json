@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-12"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Una bicicleta de montaña con batería, cargador y cable. Producto vendido en línea, en particular a través de Alibaba.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "92cb05a9c23170fc"
+  "enriquecido": true,
+  "hashContenido": "7a9b8c7b3d50e501"
  },
  "slug": "bicicleta-electrica-frike-safety-gate-10096159"
 }

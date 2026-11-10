@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "3457010950011"
    ],
    "descripcion": "Juguete de caja musical azul con una gallina bailarina y canarios. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Hong Kong",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb1ebac6f3620d3c"
+  "enriquecido": true,
+  "hashContenido": "9156793252291bfe"
  },
  "slug": "juguete-musical-trousselier-safety-gate-10095877"
 }

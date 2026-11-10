@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave, en forma de ballena. Todos los lotes se ven afectados. Producto vendido en línea, en particular a través de Petit-bateau.fr y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e098173bca7c40f7"
+  "enriquecido": true,
+  "hashContenido": "1647ec88c03051c2"
  },
  "slug": "juguete-suave-petit-bateau-safety-gate-10095992"
 }

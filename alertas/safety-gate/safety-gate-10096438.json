@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e1*2007/46*2126*",
     "e1*2018/858*00003*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.07.2025 - 28.08.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "18.07.2025 - 28.08.2025"
+   "fechasTexto": "18.07.2025 - 28.08.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -90,15 +95,16 @@
   "claves": [
    "ref:SR/03825/25",
    "mm:bmw:e1-2007-46-2126",
-   "mm:bmw:e1-2018-858-00003"
+   "mm:bmw:e1-2018-858-00003",
+   "ml:bmw:18-07-2025-28-08-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "820fba36bed37d00"
+  "enriquecido": true,
+  "hashContenido": "70e05422ac2daf78"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10096438"
 }

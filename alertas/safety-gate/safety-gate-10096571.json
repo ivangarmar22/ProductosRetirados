@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*KS18/858*00004*00",
     "e2*KS18/858*00004*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.06.2022 - 29.08.2023 // VIN: VF7V8ZKXZNZ046138 - VF7V8ZKXZPZ065717"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "03.06.2022 - 29.08.2023 // VIN: VF7V8ZKXZNZ046138 - VF7V8ZKXZPZ065717"
+   "fechasTexto": "03.06.2022 - 29.08.2023 // VIN: VF7V8ZKXZNZ046138 - VF7V8ZKXZPZ065717",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,15 +84,16 @@
   "claves": [
    "ref:SR/03914/25",
    "mm:citroen:e2-ks18-858-00004-00",
-   "mm:citroen:e2-ks18-858-00004-01"
+   "mm:citroen:e2-ks18-858-00004-01",
+   "ml:citroen:03-06-2022-29-08-2023-vin-vf7v8zkxznz046138-vf7v8zkxzpz065717"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5c5c5c7654bb8c18"
+  "enriquecido": true,
+  "hashContenido": "cba94504785ead3b"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-citroen-safety-gate-10096571"
 }

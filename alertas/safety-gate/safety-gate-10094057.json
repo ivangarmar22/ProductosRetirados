@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -39,7 +39,8 @@
     "5902802908650"
    ],
    "descripcion": "Lámpara UV endurecedora de uñas. Fuente de alimentación: 230.0 VAC, 50.0 Hz. El producto se vende en línea, en particular a través de eBay (identificador único: 35537988512), Rakuten France (identificador único: 853762646/943582150), Allegro, amplidestock.com y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +78,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LV",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aa1f0aeb25c1bfca"
+  "enriquecido": true,
+  "hashContenido": "df3fdbbfb1fa485d"
  },
  "slug": "lampara-de-unas-uv-beautylushh-safety-gate-10094057"
 }

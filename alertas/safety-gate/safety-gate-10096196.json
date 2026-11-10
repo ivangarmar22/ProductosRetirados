@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-20"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "29BC6B2 N"
-    },
-    {
-     "numero": "2024/12/06"
+     "numero": "29BC6B2 N, 2024/12/06"
     }
    ],
    "ean": [
     "805350001055"
    ],
    "descripcion": "Cigarrillo electrónico desechable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -92,16 +90,15 @@
    "ref:SR/03670/25",
    "ean:805350001055",
    "mm:oxbar:jolly-pink-strawberry",
-   "ml:oxbar:29bc6b2-n",
-   "ml:oxbar:2024-12-06"
+   "ml:oxbar:29bc6b2-n-2024-12-06"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6625011d8a6bc4cb"
+  "enriquecido": true,
+  "hashContenido": "1bf0d3b7e9d5a854"
  },
  "slug": "cigarrillo-electronico-desechable-oxbar-safety-gate-10096196"
 }

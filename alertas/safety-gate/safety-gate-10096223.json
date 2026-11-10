@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-19"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -27,13 +27,13 @@
     "LEMAX"
    ],
    "modelos": [
-    "F20119#",
-    "S2"
+    "F20119#, S2"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Zapatos de seguridad de tobillo negros con puntera, costuras de hilo naranja y forro naranja.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón amarillo."
   }
  ],
  "riesgo": {
@@ -90,15 +90,15 @@
  "dedup": {
   "claves": [
    "ref:SR/03630/25",
-   "mm:lemax:f20119"
+   "mm:lemax:f20119-s2"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ae0de55b12c60738"
+  "enriquecido": true,
+  "hashContenido": "56e8b838f7e0f17a"
  },
  "slug": "zapatos-de-seguridad-lemax-safety-gate-10096223"
 }

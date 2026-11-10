@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "3760301402374"
    ],
    "descripcion": "Caja de nueve bolígrafos con punta de fieltro. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón y plástico."
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fa2df64607d824be"
+  "enriquecido": true,
+  "hashContenido": "4b4f987f5b085172"
  },
  "slug": "boligrafos-de-punta-de-fieltro-omy-safety-gate-10095916"
 }

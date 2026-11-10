@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-04"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "4523251929006"
    ],
    "descripcion": "Juguete suave gris en forma de hipopótamo. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Etiqueta de cartón."
   }
  ],
  "riesgo": {
@@ -76,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -134,11 +137,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "79d147b28749d18e"
+  "enriquecido": true,
+  "hashContenido": "102b9056d3654701"
  },
  "slug": "juguete-suave-nemu-nemu-animals-safety-gate-10095952"
 }

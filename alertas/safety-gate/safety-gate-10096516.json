@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e1*2001/116*0350* (4L)",
     "e1*2007/46*1751* (F8)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.08.2019 - 31.07.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "22.08.2019 - 31.07.2024"
+   "fechasTexto": "22.08.2019 - 31.07.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "MT",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +107,16 @@
   "claves": [
    "ref:SR/03859/25",
    "mm:audi:e1-2001-116-0350-4l",
-   "mm:audi:e1-2007-46-1751-f8"
+   "mm:audi:e1-2007-46-1751-f8",
+   "ml:audi:22-08-2019-31-07-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "de49a7e4a20b8ac2"
+  "enriquecido": true,
+  "hashContenido": "9a5c0bf7a845527e"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10096516"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B.69079E. 09/2020P. 09/2019"
+     "numero": "B.69079"
+    },
+    {
+     "numero": "E. 09/2020"
+    },
+    {
+     "numero": "P. 09/2019"
     }
    ],
    "ean": [
     "5414666000291"
    ],
    "descripcion": "Eau de parfum, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -90,15 +97,17 @@
   "claves": [
    "ref:SR/03775/25",
    "ean:5414666000291",
-   "ml:dorall-collection:b-69079e-09-2020p-09-2019"
+   "ml:dorall-collection:b-69079",
+   "ml:dorall-collection:e-09-2020",
+   "ml:dorall-collection:p-09-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fe951d30c5e66773"
+  "enriquecido": true,
+  "hashContenido": "2606adc9d4666c9e"
  },
  "slug": "perfume-dorall-collection-safety-gate-10096147"
 }

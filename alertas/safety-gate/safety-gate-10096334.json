@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-04"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,20 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "XE311APF"
-    },
-    {
-     "numero": "XG012APF"
-    },
-    {
-     "numero": "XG013APF"
+     "numero": "XE311APF, XG012APF, XG013APF"
     }
    ],
    "ean": [
     "5060868652976"
    ],
    "descripcion": "Protector solar, anunciado como Factor de Protección Solar (SPF) 50 en un tubo de compresión de 50 ml con una tapa de rosca, unido con boquilla de precisión y sello de manipulación. Producto vendido en línea, en particular a través de refybeauty.com",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -91,17 +86,15 @@
    "ref:SR/03816/25",
    "ean:5060868652976",
    "mm:refy-beauty:re24spfm01",
-   "ml:refy-beauty:xe311apf",
-   "ml:refy-beauty:xg012apf",
-   "ml:refy-beauty:xg013apf"
+   "ml:refy-beauty:xe311apf-xg012apf-xg013apf"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4666c0173afcb55e"
+  "enriquecido": true,
+  "hashContenido": "4b0b2ff9728b30cb"
  },
  "slug": "protector-solar-refy-beauty-ltd-safety-gate-10096334"
 }

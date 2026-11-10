@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,21 @@
     "Opel"
    ],
    "modelos": [
-    "e2*2007/46*0597*30",
-    "e2*2007/46*0597*31 Grandland X",
+    "e2*2007/46*0597*30, e2*2007/46*0597*31 Grandland X",
     "e2*2007/46*0639*33 - e2*2007/46*0639*35 Mokka"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05/02/2024 - 13/11/2024 // VIN: W0VZRHNS4P6063427 - W0VZCYHZSS6000451 Grandland X"
+    },
+    {
+     "numero": "11/09/2024 - 07/05/2025 // VIN: VXKUSHPW5RW058746 - VXKUSHNS0SW035784 Mokka"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "05/02/2024 - 13/11/2024 // VIN: W0VZRHNS4P6063427 - W0VZCYHZSS6000451 Grandland X11/09/2024 - 07/05/2025 // VIN: VXKUSHPW5RW058746 - VXKUSHNS0SW035784 Mokka"
+   "fechasTexto": "05/02/2024 - 13/11/2024 // VIN: W0VZRHNS4P6063427 - W0VZCYHZSS6000451 Grandland X11/09/2024 - 07/05/2025 // VIN: VXKUSHPW5RW058746 - VXKUSHNS0SW035784 Mokka",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,17 +94,18 @@
  "dedup": {
   "claves": [
    "ref:SR/03584/25",
-   "mm:opel:e2-2007-46-0597-30",
-   "mm:opel:e2-2007-46-0597-31-grandland-x",
-   "mm:opel:e2-2007-46-0639-33-e2-2007-46-0639-35-mokka"
+   "mm:opel:e2-2007-46-0597-30-e2-2007-46-0597-31-grandland-x",
+   "mm:opel:e2-2007-46-0639-33-e2-2007-46-0639-35-mokka",
+   "ml:opel:05-02-2024-13-11-2024-vin-w0vzrhns4p6063427-w0vzcyhzss6000451-grandland-x",
+   "ml:opel:11-09-2024-07-05-2025-vin-vxkushpw5rw058746-vxkushns0sw035784-mokka"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4ed12bcd2ed7ec5b"
+  "enriquecido": true,
+  "hashContenido": "7b052b32654ba3ec"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10096232"
 }

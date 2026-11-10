@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0642*21 - e2*2007/46*0642*24"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20/09/2023 – 30/04/2025 // VIN: VR7ACYHZSPL055173 - VR7ACYHZ6SL021964"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "20/09/2023 – 30/04/2025 // VIN: VR7ACYHZSPL055173 - VR7ACYHZ6SL021964"
+   "fechasTexto": "20/09/2023 – 30/04/2025 // VIN: VR7ACYHZSPL055173 - VR7ACYHZ6SL021964",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "IE",
+   "MT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03583/25",
-   "mm:citroen:e2-2007-46-0642-21-e2-2007-46-0642-24"
+   "mm:citroen:e2-2007-46-0642-21-e2-2007-46-0642-24",
+   "ml:citroen:20-09-2023-30-04-2025-vin-vr7acyhzspl055173-vr7acyhz6sl021964"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a58dcafec12d353a"
+  "enriquecido": true,
+  "hashContenido": "0bf1850480bd2d7f"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10096245"
 }

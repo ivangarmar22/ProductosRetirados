@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-20"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "006267398760360006 06310"
+     "numero": "006267398760360006"
+    },
+    {
+     "numero": "06310"
     }
    ],
    "ean": [
     "8004830284779"
    ],
    "descripcion": "Agua de toilette, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella en caja de cartón."
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
   "claves": [
    "ref:SR/03656/25",
    "ean:8004830284779",
-   "ml:comin-parfum:006267398760360006-06310"
+   "ml:comin-parfum:006267398760360006",
+   "ml:comin-parfum:06310"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0a49c0e1b7820b43"
+  "enriquecido": true,
+  "hashContenido": "762e9aec679eace2"
  },
  "slug": "agua-de-toilette-comin-parfum-safety-gate-10096301"
 }

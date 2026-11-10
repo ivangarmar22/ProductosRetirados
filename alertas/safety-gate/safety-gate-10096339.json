@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-06"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica con enchufe de pared y cargador.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "43a02af70a891b4a"
+  "enriquecido": true,
+  "hashContenido": "11976fd6dedd51b8"
  },
  "slug": "motocicleta-electrica-ekxbike-safety-gate-10096339"
 }

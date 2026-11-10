@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-28"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -27,19 +27,21 @@
     "Semler"
    ],
    "modelos": [
-    "5 25393 1 H",
-    "827",
-    "100 Semler",
+    "5 25393 1 H; 827; 100 Semler",
     "H3015-086-070"
    ],
    "lotes": [
     {
-     "numero": "827FA 132539"
+     "numero": "827"
+    },
+    {
+     "numero": "FA 132539"
     }
    ],
    "ean": [],
    "descripcion": "Sandalias de cuero azul oscuro con suela de plástico en blanco y negro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -92,19 +94,18 @@
  "dedup": {
   "claves": [
    "ref:SR/03801/25",
-   "mm:semler:5-25393-1-h",
-   "mm:semler:827",
-   "mm:semler:100-semler",
+   "mm:semler:5-25393-1-h-827-100-semler",
    "mm:semler:h3015-086-070",
-   "ml:semler:827fa-132539"
+   "ml:semler:827",
+   "ml:semler:fa-132539"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "961cabe7d3b9b9d8"
+  "enriquecido": true,
+  "hashContenido": "63407daae5f569ba"
  },
  "slug": "sandalias-de-cuero-semler-safety-gate-10096417"
 }

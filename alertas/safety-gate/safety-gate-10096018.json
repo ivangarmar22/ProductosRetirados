@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-04"
  },
  "categoria": {
   "literal": "Equipos y recipientes de presión",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Montaje pivotante de un cañón de agua/monitor de un camión de bomberos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7343d7b5b115bac9"
+  "enriquecido": true,
+  "hashContenido": "1101d27fefdacde3"
  },
  "slug": "canon-de-agua-monitor-rosenbauer-safety-gate-10096018"
 }

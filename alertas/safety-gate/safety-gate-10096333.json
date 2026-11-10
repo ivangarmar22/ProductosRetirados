@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-07"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Uniciclo eléctrico con batería, cargador y enchufe de pared.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e96fae6eb23876ae"
+  "enriquecido": true,
+  "hashContenido": "f8b079ff5d653159"
  },
  "slug": "uniciclo-nosfet-safety-gate-10096333"
 }

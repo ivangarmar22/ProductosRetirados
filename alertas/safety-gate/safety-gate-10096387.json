@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-07"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "5903140633921"
    ],
    "descripcion": "Conector de tijera, carga máxima: 2000 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3c94d2054e565d6d"
+  "enriquecido": true,
+  "hashContenido": "ad417dd89f4517e2"
  },
  "slug": "gato-de-tijera-carmotion-safety-gate-10096387"
 }

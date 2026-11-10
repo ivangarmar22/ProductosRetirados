@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,13 @@
     "Honda"
    ],
    "modelos": [
-    "e4*168/2013*00184*00",
-    "CB1000S/SPS"
+    "e4*168/2013*00184*00 / CB1000S/SPS"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +63,22 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +93,15 @@
  "dedup": {
   "claves": [
    "ref:SR/03916/25",
-   "mm:honda:e4-168-2013-00184-00",
-   "mm:honda:cb1000s-sps"
+   "mm:honda:e4-168-2013-00184-00-cb1000s-sps"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fc6008f7cb97835c"
+  "enriquecido": true,
+  "hashContenido": "17fb980b90e74a77"
  },
  "slug": "motocicleta-honda-safety-gate-10096509"
 }

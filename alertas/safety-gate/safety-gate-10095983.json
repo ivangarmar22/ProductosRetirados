@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-27"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "47614052098994"
    ],
    "descripcion": "Juguete espiral suave que se puede fijar a las barras de una cuna. Cuenta con un pato, una estrella (con un espejo de plástico) y una nube chirriante hecha de tela. Todos los lotes se ven afectados. Producto vendido en línea, en particular a través de Zara.com y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "20d6aa533ec27f45"
+  "enriquecido": true,
+  "hashContenido": "dee994295917c8af"
  },
  "slug": "juguete-suave-zara-home-safety-gate-10095983"
 }

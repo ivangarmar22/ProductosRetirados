@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0686*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.12.2023 - 14.03.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero. Código modelo (rango VIS): BPZMD# (GJ077661 - GJ088523), BPZMA# (GJ078337 - GJ086977), BPZNN# (GJ077653 - GJ077653).",
-   "fechasTexto": "23.12.2023 - 14.03.2024"
+   "fechasTexto": "23.12.2023 - 14.03.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03912/25",
-   "mm:toyota:e2-2007-46-0686-20"
+   "mm:toyota:e2-2007-46-0686-20",
+   "ml:toyota:23-12-2023-14-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "42732d4371eb1ad1"
+  "enriquecido": true,
+  "hashContenido": "cc11445f63ac683b"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10096586"
 }

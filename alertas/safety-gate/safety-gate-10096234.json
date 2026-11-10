@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0601*26",
     "e2*2007/46*0601*27"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10/11/2023 - 05/05/2025 // VIN: VR1JCYHZUPY599453 - VR1JCYHZ5SY550416"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "10/11/2023 - 05/05/2025 // VIN: VR1JCYHZUPY599453 - VR1JCYHZ5SY550416"
+   "fechasTexto": "10/11/2023 - 05/05/2025 // VIN: VR1JCYHZUPY599453 - VR1JCYHZ5SY550416",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +94,16 @@
   "claves": [
    "ref:SR/03587/25",
    "mm:ds:e2-2007-46-0601-26",
-   "mm:ds:e2-2007-46-0601-27"
+   "mm:ds:e2-2007-46-0601-27",
+   "ml:ds:10-11-2023-05-05-2025-vin-vr1jcyhzupy599453-vr1jcyhz5sy550416"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6603418dd36df5be"
+  "enriquecido": true,
+  "hashContenido": "f6a03bc63693e6f6"
  },
  "slug": "coche-de-pasajeros-ds-safety-gate-10096234"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,17 @@
     "Bmw"
    ],
    "modelos": [
-    "G05",
-    "G06",
-    "G07",
-    "G12",
-    "G14",
-    "G15",
-    "G16",
-    "G20 (US version) equipped with B58 engine"
+    "G05, G06, G07, G12, G14, G15, G16, G20 (US version) equipped with B58 engine"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.03.2018 to 11.02.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "20.03.2018 to 11.02.2025"
+   "fechasTexto": "20.03.2018 to 11.02.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FR",
+   "HR",
+   "HU",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,22 +127,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03823/25",
-   "mm:bmw:g05",
-   "mm:bmw:g06",
-   "mm:bmw:g07",
-   "mm:bmw:g12",
-   "mm:bmw:g14",
-   "mm:bmw:g15",
-   "mm:bmw:g16",
-   "mm:bmw:g20-us-version-equipped-with-b58-engine"
+   "mm:bmw:g05-g06-g07-g12-g14-g15-g16-g20-us-version-equipped-with-b58-engine",
+   "ml:bmw:20-03-2018-to-11-02-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f50df574b43648da"
+  "enriquecido": true,
+  "hashContenido": "56a5dd0caee27a9a"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10096440"
 }

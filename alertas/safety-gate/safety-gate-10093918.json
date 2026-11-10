@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-22"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Conjunto de equipo de protección, anunciado como adecuado para muñecas, codos y rodillas. Producto vendido en línea, en particular a través de https://www.intersport.fr/ y Amazon",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "FI",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9802a7ae813cf96f"
+  "enriquecido": true,
+  "hashContenido": "aa17bc4ff196c1f1"
  },
  "slug": "conjunto-de-artes-de-proteccion-firefly-safety-gate-10093918"
 }

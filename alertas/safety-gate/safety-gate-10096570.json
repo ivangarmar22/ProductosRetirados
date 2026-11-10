@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*KS18/858*00004*00 - e2*KS18/858*00004*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.05.2022 - 08.03.2024 // VIN: VF3V9ZKX4NZ042657 - VF3V9ZKX3RZ012085"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "21.05.2022 - 08.03.2024 // VIN: VF3V9ZKX4NZ042657 - VF3V9ZKX3RZ012085"
+   "fechasTexto": "21.05.2022 - 08.03.2024 // VIN: VF3V9ZKX4NZ042657 - VF3V9ZKX3RZ012085",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03915/25",
-   "mm:peugeot:e2-ks18-858-00004-00-e2-ks18-858-00004-02"
+   "mm:peugeot:e2-ks18-858-00004-00-e2-ks18-858-00004-02",
+   "ml:peugeot:21-05-2022-08-03-2024-vin-vf3v9zkx4nz042657-vf3v9zkx3rz012085"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eaa0c312358a5f46"
+  "enriquecido": true,
+  "hashContenido": "d0d7b573aaaf86e5"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10096570"
 }

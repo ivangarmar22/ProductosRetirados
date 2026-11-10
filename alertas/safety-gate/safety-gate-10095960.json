@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-22"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "211X223X"
+     "numero": "211X"
+    },
+    {
+     "numero": "223X"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "5057901828382"
    ],
    "descripcion": "Asiento de coche para niños en color negro y gris. Producto vendido en línea, en particular a través de Halfords.ie y Halfords.co.uk.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +78,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +108,16 @@
    "ean:5057901828382",
    "mm:halfords:819222",
    "mm:halfords:828382",
-   "ml:halfords:211x223x"
+   "ml:halfords:211x",
+   "ml:halfords:223x"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76d061799a70753f"
+  "enriquecido": true,
+  "hashContenido": "c6da784efa9e9481"
  },
  "slug": "asiento-de-coche-para-ninos-halfords-safety-gate-10095960"
 }
