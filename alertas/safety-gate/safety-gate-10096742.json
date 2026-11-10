@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -25,15 +25,14 @@
    "nombre": "Adaptador de viaje",
    "marcas": [],
    "modelos": [
-    "BX-9120",
-    "SIN1642",
-    "BX-9120",
-    "SIN1643"
+    "BX-9120 / SIN1642",
+    "BX-9120 / SIN1643"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Adaptador de viaje en blanco o negro con enchufe EURO clase II y toma de corriente para enchufes US clase II tipo A y schuko.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -63,7 +62,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +116,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2c826c76814bb714"
+  "enriquecido": true,
+  "hashContenido": "70c800ac97727a5d"
  },
  "slug": "adaptador-de-viaje-safety-gate-10096742"
 }

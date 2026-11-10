@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-27"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "20231201SHX20231201XHS"
+     "numero": "20231201SHX"
+    },
+    {
+     "numero": "20231201XHS"
     }
    ],
    "ean": [],
    "descripcion": "Chaleco de baño de neopreno. Producto vendido en línea, en particular a través de Amazon (ASIN: B0DS25FC1T, B0DS258PPF, B0CRL1GWXP, B0DS23Q9FK, B0CRL3FN5B).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:SR/03951/25",
    "mm:petiyark:fly01",
-   "ml:petiyark:20231201shx20231201xhs"
+   "ml:petiyark:20231201shx",
+   "ml:petiyark:20231201xhs"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a1f7d55384dc0228"
+  "enriquecido": true,
+  "hashContenido": "b9eb4cee6ed2c952"
  },
  "slug": "chaleco-de-bano-petiyark-safety-gate-10096552"
 }

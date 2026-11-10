@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete suave en forma de pata de gato. Producto vendido en línea, en particular a través de Temu.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje transparente con pegatinas - identificación e información del fabricante."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Letonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00c45eb5239b97c5"
+  "enriquecido": true,
+  "hashContenido": "6b92696224196c28"
  },
  "slug": "juguete-de-apretar-safety-gate-10096014"
 }

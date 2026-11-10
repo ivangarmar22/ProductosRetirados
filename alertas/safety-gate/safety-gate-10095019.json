@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juego de juguetes de playa hecho de plástico, que contiene un camión, una pala, un rastrillo y moldes de arena.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Red de plástico y etiqueta."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "36e2a687423c048c"
+  "enriquecido": true,
+  "hashContenido": "2628397a16495527"
  },
  "slug": "juego-de-juguetes-de-playa-beach-toys-safety-gate-10095019"
 }

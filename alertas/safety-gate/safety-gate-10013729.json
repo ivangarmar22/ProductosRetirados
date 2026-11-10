@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,18 @@
    ],
    "modelos": [
     "e5*2007/46*0076*04-*12",
-    "e5*2007/46*1057*04-*10",
-    "e5*2007/46*1058*03-*11"
+    "e5*2007/46*1057*04-*10,",
+    "e5*2007/46*1058*03-*11,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.01.2020 - 01.11.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "08.01.2020 - 01.11.2024"
+   "fechasTexto": "08.01.2020 - 01.11.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +98,16 @@
    "ref:A12/01920/24",
    "mm:land-rover-range-rover:e5-2007-46-0076-04-12",
    "mm:land-rover-range-rover:e5-2007-46-1057-04-10",
-   "mm:land-rover-range-rover:e5-2007-46-1058-03-11"
+   "mm:land-rover-range-rover:e5-2007-46-1058-03-11",
+   "ml:land-rover-range-rover:08-01-2020-01-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f207f3d7dcaab317"
+  "enriquecido": true,
+  "hashContenido": "ce512255772925c8"
  },
  "slug": "coche-de-pasajeros-land-rover-range-rover-safety-gate-10013729"
 }

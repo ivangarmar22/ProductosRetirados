@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "2023081720250816"
+     "numero": "20230817"
+    },
+    {
+     "numero": "20250816"
     }
    ],
    "ean": [],
    "descripcion": "Esmalte de uñas, pensado como una capa base. Producto vendido en línea, en particular a través de www.nailsup.de.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio con aplicador de tapa roscada."
   }
  ],
  "riesgo": {
@@ -87,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03907/25",
-   "ml:nailsup:2023081720250816"
+   "ml:nailsup:20230817",
+   "ml:nailsup:20250816"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3ba29737187f563e"
+  "enriquecido": true,
+  "hashContenido": "78748f06bb17d4c1"
  },
  "slug": "esmalte-de-unas-nailsup-safety-gate-10096452"
 }

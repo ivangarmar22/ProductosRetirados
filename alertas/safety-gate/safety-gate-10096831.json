@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-20"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,13 +27,13 @@
     "Pop Mart (COUNTERFEIT)"
    ],
    "modelos": [
-    "PJ2508270212883",
-    "sl25080968416249949"
+    "PJ2508270212883, sl25080968416249949"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave en forma de un monstruo Labubu con un llavero. Producto vendido en línea, en particular a través de Shein.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -86,16 +86,15 @@
  "dedup": {
   "claves": [
    "ref:SR/04147/25",
-   "mm:pop-mart-counterfeit:pj2508270212883",
-   "mm:pop-mart-counterfeit:sl25080968416249949"
+   "mm:pop-mart-counterfeit:pj2508270212883-sl25080968416249949"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "539f162d8da9249f"
+  "enriquecido": true,
+  "hashContenido": "7ffd8bcfec029a81"
  },
  "slug": "juguete-de-peluche-pop-mart-counterfeit-safety-gate-10096831"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0226803289"
+     "numero": "02268"
+    },
+    {
+     "numero": "03289"
     }
    ],
    "ean": [
     "5907813185786"
    ],
    "descripcion": "Mousse de coloración capilar, 75 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Recipiente metálico con tapa de plástico en una caja de cartón"
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ref:SR/03522/25",
    "ean:5907813185786",
    "mm:wats-elysee:78-turquoise",
-   "ml:wats-elysee:0226803289"
+   "ml:wats-elysee:02268",
+   "ml:wats-elysee:03289"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7513ff1f24dddc7a"
+  "enriquecido": true,
+  "hashContenido": "b8ce12399f82960f"
  },
  "slug": "mousse-de-coloracion-capilar-wats-elysee-safety-gate-10096219"
 }

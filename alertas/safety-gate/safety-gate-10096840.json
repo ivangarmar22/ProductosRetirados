@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2016 - 11.06.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión mezclador de hormigón.",
-   "fechasTexto": "01.01.2016 - 11.06.2025"
+   "fechasTexto": "01.01.2016 - 11.06.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "NO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,15 +123,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04163/25",
-   "mm:liebherr:individual-approval"
+   "mm:liebherr:individual-approval",
+   "ml:liebherr:01-01-2016-11-06-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f29266d0461e1a4e"
+  "enriquecido": true,
+  "hashContenido": "4c33f1c83f1623a6"
  },
  "slug": "camion-liebherr-safety-gate-10096840"
 }

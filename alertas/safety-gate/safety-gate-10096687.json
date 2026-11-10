@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-25"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,14 +27,14 @@
     "Gicinu"
    ],
    "modelos": [
-    "Okound",
-    "48V12AH",
+    "Okound, 48V12AH",
     "SK8"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica plegable con baterías reemplazables. El producto también incluye un enchufe de pared y una fuente de alimentación.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,17 +89,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03991/25",
-   "mm:gicinu:okound",
-   "mm:gicinu:48v12ah",
+   "mm:gicinu:okound-48v12ah",
    "mm:gicinu:sk8"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8e2f6b378f173558"
+  "enriquecido": true,
+  "hashContenido": "3bd2b67497fc948d"
  },
  "slug": "bicicleta-electrica-gicinu-safety-gate-10096687"
 }

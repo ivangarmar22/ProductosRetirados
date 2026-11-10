@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-03"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8718964249626"
    ],
    "descripcion": "Juguete de madera con caja registradora principal, cajón, helados de madera y accesorios.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FR",
+   "LU",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b54cc53f47933266"
+  "enriquecido": true,
+  "hashContenido": "bf51361f2db7fcd0"
  },
  "slug": "juguete-de-madera-mini-matters-safety-gate-10096854"
 }

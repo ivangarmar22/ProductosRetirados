@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-07"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -28,14 +28,14 @@
    ],
    "modelos": [
     "ATX-88E0",
-    "Hyleton",
-    "HLT-180-4202000",
+    "Hyleton, HLT-180-4202000",
     "TSHL10S5P"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica de montaña con enchufe de pared y fuente de alimentación.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,17 +91,16 @@
   "claves": [
    "ref:SR/03989/25",
    "mm:frike:atx-88e0",
-   "mm:frike:hyleton",
-   "mm:frike:hlt-180-4202000",
+   "mm:frike:hyleton-hlt-180-4202000",
    "mm:frike:tshl10s5p"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "afb70d1de6c2f855"
+  "enriquecido": true,
+  "hashContenido": "5333a3e651ef5757"
  },
  "slug": "bicicleta-electrica-frike-safety-gate-10096717"
 }

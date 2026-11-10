@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete sonajero musical en color verde con campanas. Producto vendido en línea, en particular a través de TEMU.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico transparente."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Letonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a270b58ea3c11bc2"
+  "enriquecido": true,
+  "hashContenido": "4c7317daf5941c4e"
  },
  "slug": "juguete-sonajero-musical-handbell-safety-gate-10096351"
 }

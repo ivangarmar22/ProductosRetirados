@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Vestido de cordón de ratón de hadas con cuerpo, destinado a niños. Producto vendido en línea, en particular a través de Zalando, www.jojomamanbebe.com y www.next.co.uk.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico y una etiqueta."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "89219f01a1212cff"
+  "enriquecido": true,
+  "hashContenido": "e0d62c6c4cdcc22f"
  },
  "slug": "vestido-de-los-ninos-jojo-maman-bebe-safety-gate-10096456"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-08"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -34,7 +34,8 @@
     "3608390327027"
    ],
    "descripcion": "Arnés de chaleco salvavidas en gris y negro. Productos afectados vendidos entre el 1 de marzo de 2025 y el 10 de junio de 2025. Producto vendido en línea, en particular a través de Decathlon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "IE",
+   "PL",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "721a6cd555437a96"
+  "enriquecido": true,
+  "hashContenido": "8265655b4bd459e7"
  },
  "slug": "chaleco-salvavidas-tribord-safety-gate-10095359"
 }

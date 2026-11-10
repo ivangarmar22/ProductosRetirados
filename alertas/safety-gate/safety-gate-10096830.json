@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,31 +27,18 @@
     "Volvo"
    ],
    "modelos": [
-    "VTC3T",
-    "VTC3R",
-    "VTL3R",
-    "VTL3T",
-    "VTT3R",
-    "VTJ3T",
-    "VTJ3R",
-    "VTV3R",
-    "VTS3R",
-    "VTS3R",
-    "e1*2007/46*0967*",
-    "e1*2007/46*0968*",
-    "e1*2007/46*1443*",
-    "e1*2007/46*1444*",
-    "e5*2007/46*1015*",
-    "e5*2007/46*1017*",
-    "e5*2007/46*1018*",
-    "e5*2007/46*1020*",
-    "e5*2007/46*1021*",
-    "e5*2007/46*1023*"
+    "VTC3T, VTC3R, VTL3R, VTL3T, VTT3R, VTJ3T, VTJ3R, VTV3R, VTS3R, VTS3R",
+    "e1*2007/46*0967*, e1*2007/46*0968*, e1*2007/46*1443*, e1*2007/46*1444*, e5*2007/46*1015*, e5*2007/46*1017*, e5*2007/46*1018*, e5*2007/46*1020*, e5*2007/46*1021*, e5*2007/46*1023*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.09.2022 - 29.08.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Un camión.",
-   "fechasTexto": "12.09.2022 - 29.08.2025"
+   "fechasTexto": "12.09.2022 - 29.08.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HU",
+   "IE",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,33 +100,17 @@
  "dedup": {
   "claves": [
    "ref:SR/04143/25",
-   "mm:volvo:vtc3t",
-   "mm:volvo:vtc3r",
-   "mm:volvo:vtl3r",
-   "mm:volvo:vtl3t",
-   "mm:volvo:vtt3r",
-   "mm:volvo:vtj3t",
-   "mm:volvo:vtj3r",
-   "mm:volvo:vtv3r",
-   "mm:volvo:vts3r",
-   "mm:volvo:e1-2007-46-0967",
-   "mm:volvo:e1-2007-46-0968",
-   "mm:volvo:e1-2007-46-1443",
-   "mm:volvo:e1-2007-46-1444",
-   "mm:volvo:e5-2007-46-1015",
-   "mm:volvo:e5-2007-46-1017",
-   "mm:volvo:e5-2007-46-1018",
-   "mm:volvo:e5-2007-46-1020",
-   "mm:volvo:e5-2007-46-1021",
-   "mm:volvo:e5-2007-46-1023"
+   "mm:volvo:vtc3t-vtc3r-vtl3r-vtl3t-vtt3r-vtj3t-vtj3r-vtv3r-vts3r-vts3r",
+   "mm:volvo:e1-2007-46-0967-e1-2007-46-0968-e1-2007-46-1443-e1-2007-46-1444-e5-2007-46-1015-e5-2007-46-1017-e5-2007-46-1018-e5-2007-46-1020-e5-2007-46-1021-e5-2007-46-1023",
+   "ml:volvo:12-09-2022-29-08-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "98535902012ab9a6"
+  "enriquecido": true,
+  "hashContenido": "7cac4807f507b5ce"
  },
  "slug": "camion-volvo-safety-gate-10096830"
 }

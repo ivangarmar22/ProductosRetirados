@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e2*2007/46*0639*25 to e2*2007/46*0639*31 (Corsa)",
     "e4*2007/46*1194*18 (Crossland X)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.10.2022 - 09.11.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "08.10.2022 - 09.11.2022"
+   "fechasTexto": "08.10.2022 - 09.11.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +104,16 @@
    "ref:SR/00881/25",
    "mm:opel-vauxhall:e2-2007-46-0639-20-to-e2-2007-46-0639-23-corsa",
    "mm:opel-vauxhall:e2-2007-46-0639-25-to-e2-2007-46-0639-31-corsa",
-   "mm:opel-vauxhall:e4-2007-46-1194-18-crossland-x"
+   "mm:opel-vauxhall:e4-2007-46-1194-18-crossland-x",
+   "ml:opel-vauxhall:08-10-2022-09-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1b7bd6912a73b122"
+  "enriquecido": true,
+  "hashContenido": "cd06be4d8e865524"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10093497"
 }

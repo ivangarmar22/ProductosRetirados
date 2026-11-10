@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete de peluche, en forma de cachorro marrón con gafas negras y collar con campana. Producto vendido en línea, en particular a través de Shein.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa transparente."
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Letonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "83b114d24b93bba4"
+  "enriquecido": true,
+  "hashContenido": "a263c4145503a8bf"
  },
  "slug": "juguete-de-peluche-safety-gate-10096610"
 }

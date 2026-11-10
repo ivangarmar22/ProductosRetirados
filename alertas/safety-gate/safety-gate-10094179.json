@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,17 @@
     "Honda"
    ],
    "modelos": [
-    "e13*168/2013*00315*00",
-    "e13*168/2013*00363*00",
-    "e13*168/2013*00363*01",
-    "e13*168/2013*00363*02",
-    "e13*168/2013*00368*00",
-    "e13*168/2013*00929*00",
-    "e13*168/2013*00929*01"
+    "e13*168/2013*00315*00, e13*168/2013*00363*00, e13*168/2013*00363*01, e13*168/2013*00363*02, e13*168/2013*00368*00, e13*168/2013*00929*00, e13*168/2013*00929*01."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24/11/2017 - 25/7/2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "24/11/2017 - 25/7/2024"
+   "fechasTexto": "24/11/2017 - 25/7/2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +67,22 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,21 +101,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01754/25",
-   "mm:honda:e13-168-2013-00315-00",
-   "mm:honda:e13-168-2013-00363-00",
-   "mm:honda:e13-168-2013-00363-01",
-   "mm:honda:e13-168-2013-00363-02",
-   "mm:honda:e13-168-2013-00368-00",
-   "mm:honda:e13-168-2013-00929-00",
-   "mm:honda:e13-168-2013-00929-01"
+   "mm:honda:e13-168-2013-00315-00-e13-168-2013-00363-00-e13-168-2013-00363-01-e13-168-2013-00363-02-e13-168-2013-00368-00-e13-168-2013-00929-00-e13-168-2013-00929-01",
+   "ml:honda:24-11-2017-25-7-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a0701643c5de33d8"
+  "enriquecido": true,
+  "hashContenido": "2fefc5383f69e2dd"
  },
  "slug": "motocicleta-honda-safety-gate-10094179"
 }

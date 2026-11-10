@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,14 +29,18 @@
    ],
    "lotes": [
     {
-     "numero": "MH001-2023Q/337105"
+     "numero": "MH001-2023"
+    },
+    {
+     "numero": "Q/337105"
     }
    ],
    "ean": [
     "8412131607829"
    ],
    "descripcion": "Juguete suave, hecho de plástico y fieltro, en forma de muñeca similar a Labubu. El juguete incluye una correa. Fecha de producción: junio de 2025.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico y caja de cartón."
   }
  ],
  "riesgo": {
@@ -118,11 +122,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "429b7b22db8a4fd0"
+  "enriquecido": true,
+  "hashContenido": "3bce60f2d8112e1b"
  },
  "slug": "juguete-suave-labubu-halloween-cartoon-doll-blind-box-safety-gate-10096865"
 }

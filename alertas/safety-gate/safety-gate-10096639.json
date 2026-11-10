@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-26"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5901180818766"
    ],
    "descripcion": "Una bomba sumergible, destinada a bombear agua limpia. Alimentado por la red. Fabricado en 2021.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8d11d5c7b5bd9f0a"
+  "enriquecido": true,
+  "hashContenido": "b4a57b801e07f4e4"
  },
  "slug": "bomba-de-agua-rexxer-safety-gate-10096639"
 }

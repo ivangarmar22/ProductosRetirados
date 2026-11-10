@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2007/46*0486*05-*07 (FEEVN2)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.06.2023 - 30.04.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "23.06.2023 - 30.04.2024"
+   "fechasTexto": "23.06.2023 - 30.04.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "GR",
+   "IE",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04121/25",
-   "mm:mitsubishi-fuso:e6-2007-46-0486-05-07-feevn2"
+   "mm:mitsubishi-fuso:e6-2007-46-0486-05-07-feevn2",
+   "ml:mitsubishi-fuso:23-06-2023-30-04-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7db50f5ee13981a8"
+  "enriquecido": true,
+  "hashContenido": "e1655cb70e393b3d"
  },
  "slug": "camion-mitsubishi-fuso-safety-gate-10096763"
 }

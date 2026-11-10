@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,28 +27,18 @@
     "Toyota"
    ],
    "modelos": [
-    "MDZ542",
-    "MDZ543",
-    "MDZ561",
-    "MDZ562",
-    "MDZ563",
-    "MDZA42",
-    "MDZA43",
-    "MDZA44",
-    "MDZA61",
-    "MDZA62",
-    "MDZA63",
-    "MPYA41",
-    "MPYA61",
-    "MPY541",
-    "MPY561",
-    "e2*2007/46*0538*21 ~ e2*2007/46*0538*27",
-    "e2*2007/46*0537*19 ~ e2*2007/46*0537*20"
+    "MDZ542, MDZ543, MDZ561, MDZ562, MDZ563, MDZA42, MDZA43, MDZA44, MDZA61, MDZA62, MDZA63, MPYA41, MPYA61, MPY541, MPY561",
+    "e2*2007/46*0538*21 ~ e2*2007/46*0538*27, e2*2007/46*0537*19 ~ e2*2007/46*0537*20."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022 - 2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero",
-   "fechasTexto": "2022 - 2025"
+   "fechasTexto": "2022 - 2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "IS",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,31 +100,17 @@
  "dedup": {
   "claves": [
    "ref:SR/04074/25",
-   "mm:toyota:mdz542",
-   "mm:toyota:mdz543",
-   "mm:toyota:mdz561",
-   "mm:toyota:mdz562",
-   "mm:toyota:mdz563",
-   "mm:toyota:mdza42",
-   "mm:toyota:mdza43",
-   "mm:toyota:mdza44",
-   "mm:toyota:mdza61",
-   "mm:toyota:mdza62",
-   "mm:toyota:mdza63",
-   "mm:toyota:mpya41",
-   "mm:toyota:mpya61",
-   "mm:toyota:mpy541",
-   "mm:toyota:mpy561",
-   "mm:toyota:e2-2007-46-0538-21-e2-2007-46-0538-27",
-   "mm:toyota:e2-2007-46-0537-19-e2-2007-46-0537-20"
+   "mm:toyota:mdz542-mdz543-mdz561-mdz562-mdz563-mdza42-mdza43-mdza44-mdza61-mdza62-mdza63-mpya41-mpya61-mpy541-mpy561",
+   "mm:toyota:e2-2007-46-0538-21-e2-2007-46-0538-27-e2-2007-46-0537-19-e2-2007-46-0537-20",
+   "ml:toyota:2022-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6dc2fc01df079bc8"
+  "enriquecido": true,
+  "hashContenido": "4ab33ec4ad2a8629"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10096761"
 }

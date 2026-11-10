@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-27"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,14 +27,14 @@
     "Lovely Pet"
    ],
    "modelos": [
-    "2323014439",
-    "2852585368",
+    "2323014439, 2852585368",
     "JH-009"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Juego operado por batería con botones de pop it. Producto vendido en línea, en particular a través de Temu.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -95,17 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04161/25",
-   "mm:lovely-pet:2323014439",
-   "mm:lovely-pet:2852585368",
+   "mm:lovely-pet:2323014439-2852585368",
    "mm:lovely-pet:jh-009"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e34845af25d2564"
+  "enriquecido": true,
+  "hashContenido": "2cb1b1db4c8eeedb"
  },
  "slug": "juguete-de-juego-de-empuje-lovely-pet-safety-gate-10096894"
 }

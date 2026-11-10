@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0532*19 - e2*2007/46*0532*21",
     "e2*2007/46*0533*22 - e2*2007/46*0533*25"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.5.2022 - 29.1.2024 // VIN: VF3VFEHZ7N7037667 - VF3VFEHZ7RZ007139"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros, equipada con motor DW10F Euro 6.4.",
-   "fechasTexto": "17.5.2022 - 29.1.2024 // VIN: VF3VFEHZ7N7037667 - VF3VFEHZ7RZ007139"
+   "fechasTexto": "17.5.2022 - 29.1.2024 // VIN: VF3VFEHZ7N7037667 - VF3VFEHZ7RZ007139",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +103,16 @@
   "claves": [
    "ref:SR/04162/25",
    "mm:peugeot:e2-2007-46-0532-19-e2-2007-46-0532-21",
-   "mm:peugeot:e2-2007-46-0533-22-e2-2007-46-0533-25"
+   "mm:peugeot:e2-2007-46-0533-22-e2-2007-46-0533-25",
+   "ml:peugeot:17-5-2022-29-1-2024-vin-vf3vfehz7n7037667-vf3vfehz7rz007139"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "42f06c251cb8c574"
+  "enriquecido": true,
+  "hashContenido": "0264d8f5034514f8"
  },
  "slug": "furgoneta-de-pasajeros-peugeot-safety-gate-10096835"
 }

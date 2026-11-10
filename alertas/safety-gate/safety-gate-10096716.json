@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-07"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -28,14 +28,14 @@
    ],
    "modelos": [
     "ATX88E3",
-    "Hope",
-    "HP-22",
+    "Hope, HP-22",
     "LK150-5460200"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta eléctrica de montaña con batería desmontable, enchufe de pared y fuente de alimentación.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,17 +89,16 @@
   "claves": [
    "ref:SR/03990/25",
    "mm:frike:atx88e3",
-   "mm:frike:hope",
-   "mm:frike:hp-22",
+   "mm:frike:hope-hp-22",
    "mm:frike:lk150-5460200"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "24a89cca2861996e"
+  "enriquecido": true,
+  "hashContenido": "0ba040b1128aaf49"
  },
  "slug": "bicicleta-electrica-frike-safety-gate-10096716"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-04"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
     "4899888115052"
    ],
    "descripcion": "Botella de agua caliente eléctrica azul. Producto vendido en línea, en particular a través de www.mymall.se.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco."
   }
  ],
  "riesgo": {
@@ -63,7 +64,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0239723bcd43ad04"
+  "enriquecido": true,
+  "hashContenido": "8565a13c7b67a151"
  },
  "slug": "botella-de-agua-caliente-innova-goods-safety-gate-10096665"
 }

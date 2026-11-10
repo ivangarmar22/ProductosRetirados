@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "CASE IH"
    ],
    "modelos": [
-    "e8*167/2013*00071* (DH)",
-    "e8*167/2013*00058* (D2)"
+    "e8*167/2013*00071* (DH), e8*167/2013*00058* (D2)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.03.2025 - 30.09.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor agrícola.",
-   "fechasTexto": "06.03.2025 - 30.09.2025"
+   "fechasTexto": "06.03.2025 - 30.09.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/04120/25",
-   "mm:case-ih:e8-167-2013-00071-dh",
-   "mm:case-ih:e8-167-2013-00058-d2"
+   "mm:case-ih:e8-167-2013-00071-dh-e8-167-2013-00058-d2",
+   "ml:case-ih:06-03-2025-30-09-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4bb649d1fef1281f"
+  "enriquecido": true,
+  "hashContenido": "a63f4e21660ec1ff"
  },
  "slug": "tractor-case-ih-safety-gate-10096740"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Cable de extensión de un solo zócalo en color naranja. Producto vendido en línea, en particular a través de www.varle.lt.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico. Pegatina blanca con información en el paquete."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "12aba5c76289d2d8"
+  "enriquecido": true,
+  "hashContenido": "2f91502d607069b3"
  },
  "slug": "cable-de-extension-acar-safety-gate-10096801"
 }

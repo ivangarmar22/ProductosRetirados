@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,15 @@
     "g11*2018/858*00648*00 - g11*2018/858*00648*02",
     "g11*2018/858*00649*00 - g11*2018/858*00649*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.09.2024 - 29.08.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero con volante a la derecha.",
-   "fechasTexto": "18.09.2024 - 29.08.2025"
+   "fechasTexto": "18.09.2024 - 29.08.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +72,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +95,16 @@
    "mm:renault:e2-2018-858-00076-04",
    "mm:renault:g11-2018-858-00646-00-g11-2018-858-00646-03",
    "mm:renault:g11-2018-858-00648-00-g11-2018-858-00648-02",
-   "mm:renault:g11-2018-858-00649-00-g11-2018-858-00649-02"
+   "mm:renault:g11-2018-858-00649-00-g11-2018-858-00649-02",
+   "ml:renault:18-09-2024-29-08-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cbd93648b7e4c45a"
+  "enriquecido": true,
+  "hashContenido": "9668ab79effc59f5"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-renault-safety-gate-10096842"
 }

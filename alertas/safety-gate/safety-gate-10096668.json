@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "F2A",
-    "F2CLA",
-    "F2B",
-    "e1*2007/46*1829*24",
-    "e1*2007/46*1912*24",
-    "e1*2007/46*1909*29"
+    "F2A, F2CLA, F2B",
+    "e1*2007/46*1829*24, e1*2007/46*1912*24, e1*2007/46*1909*29"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.06.2025 - 03.07.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "03.06.2025 - 03.07.2025"
+   "fechasTexto": "03.06.2025 - 03.07.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,20 +100,17 @@
  "dedup": {
   "claves": [
    "ref:SR/03986/25",
-   "mm:mercedes-benz:f2a",
-   "mm:mercedes-benz:f2cla",
-   "mm:mercedes-benz:f2b",
-   "mm:mercedes-benz:e1-2007-46-1829-24",
-   "mm:mercedes-benz:e1-2007-46-1912-24",
-   "mm:mercedes-benz:e1-2007-46-1909-29"
+   "mm:mercedes-benz:f2a-f2cla-f2b",
+   "mm:mercedes-benz:e1-2007-46-1829-24-e1-2007-46-1912-24-e1-2007-46-1909-29",
+   "ml:mercedes-benz:03-06-2025-03-07-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "36e1f963dbce836a"
+  "enriquecido": true,
+  "hashContenido": "771d8022c0610886"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10096668"
 }

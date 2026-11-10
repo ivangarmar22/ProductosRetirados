@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-03"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Limo de juguete rosa. Producto vendido en línea, en particular a través de Amazon (ASIN: B0D72SQSY3).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64aa80e0af057b6f"
+  "enriquecido": true,
+  "hashContenido": "752aaacaf4b3f65a"
  },
  "slug": "baba-de-juguete-okaybee-safety-gate-10096534"
 }

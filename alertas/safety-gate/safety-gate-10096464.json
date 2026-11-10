@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-18"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "4546850677-165446"
+     "numero": "45468"
+    },
+    {
+     "numero": "50677-1"
+    },
+    {
+     "numero": "65446"
     }
    ],
    "ean": [
     "3760170210391"
    ],
    "descripcion": "Gránulos de tratamiento de recuperación de agua de piscina verde, 5 kg. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cubo de plástico blanco."
   }
  ],
  "riesgo": {
@@ -115,15 +122,17 @@
   "claves": [
    "ref:SR/03799/25",
    "ean:3760170210391",
-   "ml:age-de-l-eau:4546850677-165446"
+   "ml:age-de-l-eau:45468",
+   "ml:age-de-l-eau:50677-1",
+   "ml:age-de-l-eau:65446"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e3d9b41c9478d298"
+  "enriquecido": true,
+  "hashContenido": "6cbc77ffdca01fdd"
  },
  "slug": "tratamiento-de-aguas-de-piscinas-age-de-l-eau-safety-gate-10096464"
 }

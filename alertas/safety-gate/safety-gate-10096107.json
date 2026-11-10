@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-26"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -38,7 +38,8 @@
     "630148856896"
    ],
    "descripcion": "Tinta de tatuaje azul, 30 ml. Producto vendido en línea, en particular a través de eBay, Amazon y Allegro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con boquilla."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "618356f5cf6a918d"
+  "enriquecido": true,
+  "hashContenido": "340fe06fb67eabc1"
  },
  "slug": "tinta-de-tatuaje-eternal-ink-safety-gate-10096107"
 }

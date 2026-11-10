@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-11-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-06"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -37,7 +37,8 @@
     "3276007782820"
    ],
    "descripcion": "Sellador para baños y cocinas, 60 ml. Todos los lotes se ven afectados. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo de plástico azul claro con tapón."
   }
  ],
  "riesgo": {
@@ -71,7 +72,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fb13aa888c0bbe18"
+  "enriquecido": true,
+  "hashContenido": "b9befdecbf55ae79"
  },
  "slug": "sellador-para-banos-y-cocinas-axton-safety-gate-10095967"
 }
