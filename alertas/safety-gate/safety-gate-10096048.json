@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,13 @@
    ],
    "modelos": [
     "CMX1100A2P/CMX1100A2R/CMX1100AM/CMX1100AN/CMX1100A P/CMX1100AR/CMX1100D2P/CMX1100D2R/CMX1100DM/CMX110 0DN/CMX1100DP/CMX1100DR",
-    "e6*168/2013*00063*01",
-    "e6*168/2013*00063*00"
+    "e6*168/2013*00063*01; e6*168/2013*00063*00"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +64,20 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,16 +93,15 @@
   "claves": [
    "ref:OR/00149/25",
    "mm:honda:cmx1100a2p-cmx1100a2r-cmx1100am-cmx1100an-cmx1100a-p-cmx1100ar-cmx1100d2p-cmx1100d2r-cmx1100dm-cmx110-0dn-cmx1100dp-cmx1100dr",
-   "mm:honda:e6-168-2013-00063-01",
-   "mm:honda:e6-168-2013-00063-00"
+   "mm:honda:e6-168-2013-00063-01-e6-168-2013-00063-00"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "70fb48954f9690d9"
+  "enriquecido": true,
+  "hashContenido": "dd3042f01aba2196"
  },
  "slug": "motocicleta-honda-safety-gate-10096048"
 }

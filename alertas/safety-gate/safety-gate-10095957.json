@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-17"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Silla de oficina negra con brazos ajustables, un asiento textil y un reposacabezas cubierto de cuero negro. El marco de la silla está hecho de plástico negro combinado con accesorios de cromo. Producto vendido en línea, en particular a través de merkurymarket.sk.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f341333a8724c267"
+  "enriquecido": true,
+  "hashContenido": "1931a1301ff517d9"
  },
  "slug": "silla-de-oficina-office-chair-kaitos-2501-safety-gate-10095957"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,18 @@
     "e5*2007/46*0121*00",
     "e5*2007/46*0121*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "i20/BAYON: 01.04.2021 - 03.12.2022 // VIN: NLHBN51GAMZ053804 - NLHBR81HANZ251607"
+    },
+    {
+     "numero": "i20N: 01.06.2021 - 04.01.2023 // VIN: NLHBU51FANZ000227 - NLHBU51FAPZ008503."
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "i20/BAYON: 01.04.2021 - 03.12.2022 // VIN: NLHBN51GAMZ053804 - NLHBR81HANZ251607 i20N: 01.06.2021 - 04.01.2023 // VIN: NLHBU51FANZ000227 - NLHBU51FAPZ008503."
+   "fechasTexto": "i20/BAYON: 01.04.2021 - 03.12.2022 // VIN: NLHBN51GAMZ053804 - NLHBR81HANZ251607 i20N: 01.06.2021 - 04.01.2023 // VIN: NLHBU51FANZ000227 - NLHBU51FAPZ008503.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +72,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +109,17 @@
    "ref:SR/03401/25",
    "mm:hyundai:e5-2007-46-0121-01",
    "mm:hyundai:e5-2007-46-0121-00",
-   "mm:hyundai:e5-2007-46-0121-03"
+   "mm:hyundai:e5-2007-46-0121-03",
+   "ml:hyundai:i20-bayon-01-04-2021-03-12-2022-vin-nlhbn51gamz053804-nlhbr81hanz251607",
+   "ml:hyundai:i20n-01-06-2021-04-01-2023-vin-nlhbu51fanz000227-nlhbu51fapz008503"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c6dc00e9bd22a9d7"
+  "enriquecido": true,
+  "hashContenido": "610d2b7fc6526923"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10096118"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-29"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
     "8716618495443"
    ],
    "descripcion": "Pegamento. Identificador único de fórmula (UFI): 6WX0-90YF-V00X-1J5J",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico opaca blanca con tapón de rosca"
   }
  ],
  "riesgo": {
@@ -76,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +116,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "46090092e8712f8b"
+  "enriquecido": true,
+  "hashContenido": "784c818c0f51c742"
  },
  "slug": "pegamento-hema-safety-gate-10095055"
 }

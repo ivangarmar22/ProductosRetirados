@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0530*21",
     "e2*2007/46*0531*28"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.01.2025 // VF7VKEHZ2RZ100498 - VF7VLEHT8SZ009914"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "24.01.2025 // VF7VKEHZ2RZ100498 - VF7VLEHT8SZ009914"
+   "fechasTexto": "24.01.2025 // VF7VKEHZ2RZ100498 - VF7VLEHT8SZ009914",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +90,16 @@
   "claves": [
    "ref:SR/03549/25",
    "mm:citroen:e2-2007-46-0530-21",
-   "mm:citroen:e2-2007-46-0531-28"
+   "mm:citroen:e2-2007-46-0531-28",
+   "ml:citroen:24-01-2025-vf7vkehz2rz100498-vf7vleht8sz009914"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "518b31bd1dd6165c"
+  "enriquecido": true,
+  "hashContenido": "8b6404988ae78184"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-citroen-safety-gate-10096226"
 }

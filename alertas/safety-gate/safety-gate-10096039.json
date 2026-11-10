@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-23"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -27,8 +27,7 @@
     "Via Chassé B.V."
    ],
    "modelos": [
-    "3217083",
-    "16018-01"
+    "3217083 / 16018-01"
    ],
    "lotes": [
     {
@@ -41,7 +40,8 @@
     "8714333018268"
    ],
    "descripcion": "Kettlebell suave en diferentes colores, 10 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +71,12 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "PL",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,17 +99,16 @@
    "ean:8714333018244",
    "ean:8714333018251",
    "ean:8714333018268",
-   "mm:via-chasse-b-v:3217083",
-   "mm:via-chasse-b-v:16018-01",
+   "mm:via-chasse-b-v:3217083-16018-01",
    "ml:via-chasse-b-v:24-0687"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a230fcdc7cb677b9"
+  "enriquecido": true,
+  "hashContenido": "bd6d1ce2aabdad60"
  },
  "slug": "kettlebell-via-chasse-b-v-safety-gate-10096039"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "e2*2018/858*00064*08",
     "e2*2018/858*00064*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23/6/2025 – 20/8/2025 // VIN: VR3KAHPY1RS173932 - VR3KAHPY0SS141186 5008 V3"
+    },
+    {
+     "numero": "23/6/2025 – 20/8/2025 // VIN: VR3KAHPY3RS173785 - VR3KAHPY7SS140942 3008 V3"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "23/6/2025 – 20/8/2025 // VIN: VR3KAHPY1RS173932 - VR3KAHPY0SS141186 5008 V323/6/2025 – 20/8/2025 // VIN: VR3KAHPY3RS173785 - VR3KAHPY7SS140942 3008 V3"
+   "fechasTexto": "23/6/2025 – 20/8/2025 // VIN: VR3KAHPY1RS173932 - VR3KAHPY0SS141186 5008 V323/6/2025 – 20/8/2025 // VIN: VR3KAHPY3RS173785 - VR3KAHPY7SS140942 3008 V3",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +101,17 @@
   "claves": [
    "ref:SR/03373/25",
    "mm:peugeot:e2-2018-858-00064-08",
-   "mm:peugeot:e2-2018-858-00064-09"
+   "mm:peugeot:e2-2018-858-00064-09",
+   "ml:peugeot:23-6-2025-20-8-2025-vin-vr3kahpy1rs173932-vr3kahpy0ss141186-5008-v3",
+   "ml:peugeot:23-6-2025-20-8-2025-vin-vr3kahpy3rs173785-vr3kahpy7ss140942-3008-v3"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "325d29bfac29d635"
+  "enriquecido": true,
+  "hashContenido": "04934e6cb498b1d7"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10096016"
 }

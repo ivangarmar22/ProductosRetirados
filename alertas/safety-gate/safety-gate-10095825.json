@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete de felpa hecho a mano con vellón de alpaca. Se vende en tamaños mini, pequeño, mediano y grande.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "Perú",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7d7e80e2b2b21c1a"
+  "enriquecido": true,
+  "hashContenido": "20f819f0d8b7ddd9"
  },
  "slug": "juguete-suave-inkari-safety-gate-10095825"
 }

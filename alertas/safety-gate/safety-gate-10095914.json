@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-17"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete de actividad, hecho de tela. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c45dde71dc22fe37"
+  "enriquecido": true,
+  "hashContenido": "413dd6250b7300ec"
  },
  "slug": "juguete-de-actividad-esjay-safety-gate-10095914"
 }

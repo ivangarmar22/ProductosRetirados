@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0533*28"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.01.2025 // VIN: VXFVLEHTXSZ008903 - VXFVLEHT2SZ009883"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "24.01.2025 // VIN: VXFVLEHTXSZ008903 - VXFVLEHT2SZ009883"
+   "fechasTexto": "24.01.2025 // VIN: VXFVLEHTXSZ008903 - VXFVLEHT2SZ009883",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03550/25",
-   "mm:fiat:e2-2007-46-0533-28"
+   "mm:fiat:e2-2007-46-0533-28",
+   "ml:fiat:24-01-2025-vin-vxfvlehtxsz008903-vxfvleht2sz009883"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b739b872940f0cd1"
+  "enriquecido": true,
+  "hashContenido": "92c8d8302462a80d"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-fiat-safety-gate-10096228"
 }

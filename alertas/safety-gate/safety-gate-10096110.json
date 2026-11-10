@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,8 +27,7 @@
     "Suosikkisarjat"
    ],
    "modelos": [
-    "25003",
-    "600692-2503"
+    "25003, 600692-2503"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "6414886006928"
    ],
    "descripcion": "Revista infantil con guitarra, maracas/rattle y micrófono de juguete.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -102,17 +102,16 @@
   "claves": [
    "ref:SR/03463/25",
    "ean:6414886006928",
-   "mm:suosikkisarjat:25003",
-   "mm:suosikkisarjat:600692-2503",
+   "mm:suosikkisarjat:25003-600692-2503",
    "ml:suosikkisarjat:03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "11b1fbf49136c2d3"
+  "enriquecido": true,
+  "hashContenido": "32b358f9f8050cce"
  },
  "slug": "sonajero-de-juguete-suosikkisarjat-safety-gate-10096110"
 }

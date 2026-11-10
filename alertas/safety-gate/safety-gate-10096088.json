@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-12"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -41,7 +41,37 @@
    ],
    "lotes": [
     {
-     "numero": "A001968 (WATERMELON MINT)A003621 (PASSION GAGA)A006026 (KIWI LIME)A006026 (MR.BULL)A008677 (WATERMELON GUMDROP)A008717 (STRAWBERRY FUDGE)A020506 (STRAWBERRY WATERMELON DRAGONFRUIT)A027233 (WHITE GRAPE)A033416 (WATERMELON RASPBERRY)A042857 (VITALITY GRAPE)A046031 (COLA ICE)"
+     "numero": "A001968 (WATERMELON MINT)"
+    },
+    {
+     "numero": "A003621 (PASSION GAGA)"
+    },
+    {
+     "numero": "A006026 (KIWI LIME)"
+    },
+    {
+     "numero": "A006026 (MR.BULL)"
+    },
+    {
+     "numero": "A008677 (WATERMELON GUMDROP)"
+    },
+    {
+     "numero": "A008717 (STRAWBERRY FUDGE)"
+    },
+    {
+     "numero": "A020506 (STRAWBERRY WATERMELON DRAGONFRUIT)"
+    },
+    {
+     "numero": "A027233 (WHITE GRAPE)"
+    },
+    {
+     "numero": "A033416 (WATERMELON RASPBERRY)"
+    },
+    {
+     "numero": "A042857 (VITALITY GRAPE)"
+    },
+    {
+     "numero": "A046031 (COLA ICE)"
     }
    ],
    "ean": [
@@ -58,7 +88,8 @@
     "6941770059079"
    ],
    "descripcion": "Cigarrillo electrónico desechable, con un volumen de 20 ml, una concentración de nicotina del 5 % y 30000 bocanadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -88,7 +119,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -129,15 +162,25 @@
    "mm:oxbar:watermelon-mint",
    "mm:oxbar:watermelon-raspberry",
    "mm:oxbar:white-grape",
-   "ml:oxbar:a001968-watermelon-mint-a003621-passion-gaga-a006026-kiwi-lime-a006026-mr-bull-a008677-watermelon-gumdrop-a008717-strawberry-fudge-a020506-strawberry-watermelon-dragonfruit-a027233-white-grape-a033416-watermelon-raspberry-a042857-vitality-grape-a046031-cola-ice"
+   "ml:oxbar:a001968-watermelon-mint",
+   "ml:oxbar:a003621-passion-gaga",
+   "ml:oxbar:a006026-kiwi-lime",
+   "ml:oxbar:a006026-mr-bull",
+   "ml:oxbar:a008677-watermelon-gumdrop",
+   "ml:oxbar:a008717-strawberry-fudge",
+   "ml:oxbar:a020506-strawberry-watermelon-dragonfruit",
+   "ml:oxbar:a027233-white-grape",
+   "ml:oxbar:a033416-watermelon-raspberry",
+   "ml:oxbar:a042857-vitality-grape",
+   "ml:oxbar:a046031-cola-ice"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eb886365f8608cae"
+  "enriquecido": true,
+  "hashContenido": "604a388744dc1e89"
  },
  "slug": "cigarrillo-electronico-desechable-oxbar-safety-gate-10096088"
 }

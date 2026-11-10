@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0532*21",
     "e2*2007/46*0533*28"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.01.2025 // VIN: VF3VKEHZ2RZ100485 - VF3VLEHZ5SZ009858"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "24.01.2025 // VIN: VF3VKEHZ2RZ100485 - VF3VLEHZ5SZ009858"
+   "fechasTexto": "24.01.2025 // VIN: VF3VKEHZ2RZ100485 - VF3VLEHZ5SZ009858",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "HU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +92,16 @@
   "claves": [
    "ref:SR/03546/25",
    "mm:peugeot:e2-2007-46-0532-21",
-   "mm:peugeot:e2-2007-46-0533-28"
+   "mm:peugeot:e2-2007-46-0533-28",
+   "ml:peugeot:24-01-2025-vin-vf3vkehz2rz100485-vf3vlehz5sz009858"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "007fe3da249964f2"
+  "enriquecido": true,
+  "hashContenido": "9ec8787baa971f90"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10096225"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-29"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Máquina de sellado al vacío con un enchufe de pared.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +62,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e674b562c4f57321"
+  "enriquecido": true,
+  "hashContenido": "ab4fdac14c799dbb"
  },
  "slug": "maquina-de-sellado-al-vacio-vacuum-sealing-machine-safety-gate-10096259"
 }

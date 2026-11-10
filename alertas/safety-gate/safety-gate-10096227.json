@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0532*21",
     "e2*2007/46*0533*28"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.01.2025 // VIN: VXEVKEHZ6RZ100158 - VXEVSZKU7SZ009619"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "24.01.2025 // VIN: VXEVKEHZ6RZ100158 - VXEVSZKU7SZ009619"
+   "fechasTexto": "24.01.2025 // VIN: VXEVKEHZ6RZ100158 - VXEVSZKU7SZ009619",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +91,16 @@
   "claves": [
    "ref:SR/03548/25",
    "mm:opel:e2-2007-46-0532-21",
-   "mm:opel:e2-2007-46-0533-28"
+   "mm:opel:e2-2007-46-0533-28",
+   "ml:opel:24-01-2025-vin-vxevkehz6rz100158-vxevszku7sz009619"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "13874436b96ad12b"
+  "enriquecido": true,
+  "hashContenido": "29bc75514df66914"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-opel-safety-gate-10096227"
 }

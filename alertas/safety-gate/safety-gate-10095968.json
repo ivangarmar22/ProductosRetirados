@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e19*2007/46*0026*22 à e19*2007/46*0026*26"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13/03/2024-26/02/2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "13/03/2024-26/02/2025"
+   "fechasTexto": "13/03/2024-26/02/2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Rumanía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:OR/00152/25",
-   "mm:dacia:e19-2007-46-0026-22-a-e19-2007-46-0026-26"
+   "mm:dacia:e19-2007-46-0026-22-a-e19-2007-46-0026-26",
+   "ml:dacia:13-03-2024-26-02-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e73457ac7dee9120"
+  "enriquecido": true,
+  "hashContenido": "eca6fdfb5a363073"
  },
  "slug": "coche-de-pasajeros-dacia-safety-gate-10095968"
 }

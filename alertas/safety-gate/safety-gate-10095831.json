@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*KS07/46*6655*09-*11 (AM7)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14/08/2024-26/06/2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "14/08/2024-26/06/2025"
+   "fechasTexto": "14/08/2024-26/06/2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03315/25",
-   "mm:aston-martin:e9-ks07-46-6655-09-11-am7"
+   "mm:aston-martin:e9-ks07-46-6655-09-11-am7",
+   "ml:aston-martin:14-08-2024-26-06-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "67277c2faa9cdc33"
+  "enriquecido": true,
+  "hashContenido": "e4c64607988e5220"
  },
  "slug": "coche-de-pasajeros-aston-martin-safety-gate-10095831"
 }

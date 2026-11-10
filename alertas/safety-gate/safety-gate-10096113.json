@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-02"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -34,9 +34,14 @@
      "numero": "2401361"
     }
    ],
-   "ean": [],
+   "ean": [
+    "3666154666089",
+    "3700810360826",
+    "3700810360833"
+   ],
    "descripcion": "Bolsa de almuerzo con una caja de almuerzo y una botella de plástico para niños, varios colores (azul / rosa)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -90,16 +95,19 @@
  "dedup": {
   "claves": [
    "ref:SR/03460/25",
+   "ean:3666154666089",
+   "ean:3700810360826",
+   "ean:3700810360833",
    "mm:apoint:st07020-kt21006",
    "ml:apoint:2401361"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50cd2e48a9ed4ac6"
+  "enriquecido": true,
+  "hashContenido": "9aef4cf26f6f9617"
  },
  "slug": "caja-de-almuerzo-apoint-safety-gate-10096113"
 }

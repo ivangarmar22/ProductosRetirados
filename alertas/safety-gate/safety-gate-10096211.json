@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "S200106 S200126"
+     "numero": "S200106"
+    },
+    {
+     "numero": "S200126"
     }
    ],
    "ean": [
     "3045621624522"
    ],
    "descripcion": "Producto para aclarar la piel, 500 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico impresa en blanco."
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:SR/03597/25",
    "ean:3045621624522",
-   "ml:pr-francoise-bedon-paris:s200106-s200126"
+   "ml:pr-francoise-bedon-paris:s200106",
+   "ml:pr-francoise-bedon-paris:s200126"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7659755152ccfcd1"
+  "enriquecido": true,
+  "hashContenido": "4e9398b6709cdab7"
  },
  "slug": "leche-para-aclarar-la-piel-pr-francoise-bedon-paris-safety-gate-10096211"
 }

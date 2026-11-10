@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-17"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "03181124"
+     "numero": "0318"
+    },
+    {
+     "numero": "1124"
     }
    ],
    "ean": [
     "3607342734470"
    ],
    "descripcion": "Desodorante, destinado a hombres, 75 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio con tapa de plástico negro."
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
   "claves": [
    "ref:SR/03619/25",
    "ean:3607342734470",
-   "ml:adidas:03181124"
+   "ml:adidas:0318",
+   "ml:adidas:1124"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cf8cbacc94bed8bc"
+  "enriquecido": true,
+  "hashContenido": "695a910d2fed3a0c"
  },
  "slug": "desodorante-adidas-safety-gate-10096352"
 }

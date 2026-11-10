@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,12 +27,17 @@
     "Lexus"
    ],
    "modelos": [
-    "e6*2007/46*0448*01 - e6*2007/46*0448*03"
+    "e6*2007/46*0448*01 - e6*2007/46*0448*03."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2021 - 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "2021 - 2022"
+   "fechasTexto": "2021 - 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "CY",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IS",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03307/25",
-   "mm:lexus:e6-2007-46-0448-01-e6-2007-46-0448-03"
+   "mm:lexus:e6-2007-46-0448-01-e6-2007-46-0448-03",
+   "ml:lexus:2021-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eb23e2aa9f81dfa4"
+  "enriquecido": true,
+  "hashContenido": "86cc25907460d6be"
  },
  "slug": "coche-de-pasajeros-lexus-safety-gate-10095986"
 }

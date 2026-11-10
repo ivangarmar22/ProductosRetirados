@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-29"
  },
  "categoria": {
   "literal": "Encendedores",
@@ -27,15 +27,13 @@
     "Zhong Long"
    ],
    "modelos": [
-    "FUZE M217",
-    "ME175B",
-    "008-803",
-    "M26A2"
+    "FUZE M217 / ME175B / 008-803 / M26A2"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Más ligero en forma de una pequeña granada verde. La parte superior de la granada es el botón de operación.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón con 24 encendedores."
   }
  ],
  "riesgo": {
@@ -66,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Chipre",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,18 +97,15 @@
  "dedup": {
   "claves": [
    "ref:SR/03380/25",
-   "mm:zhong-long:fuze-m217",
-   "mm:zhong-long:me175b",
-   "mm:zhong-long:008-803",
-   "mm:zhong-long:m26a2"
+   "mm:zhong-long:fuze-m217-me175b-008-803-m26a2"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1fd8146ad93497e4"
+  "enriquecido": true,
+  "hashContenido": "c96895a987435599"
  },
  "slug": "encendedor-de-la-novedad-zhong-long-safety-gate-10095996"
 }

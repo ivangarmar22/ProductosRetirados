@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,20 @@
     "Renault Trucks"
    ],
    "modelos": [
-    "e2*2007/46*0323*48",
-    "e2*2007/46*3022*44",
-    "e2*2007/46*0230*44",
-    "e2*2007/46*0229*43",
-    "e1*2007/46*1326*37",
-    "e1*2007/46*1059*40"
+    "e2*2007/46*0323*48 ; e2*2007/46*3022*44 ; e2*2007/46*0230*44 ; e2*2007/46*0229*43 ; e1*2007/46*1326*37 ; e1*2007/46*1059*40"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.10.2023 - 08.09.2025 C-BEV"
+    },
+    {
+     "numero": "28.11.2022 - 08.09.2025 T-BEV"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "16.10.2023 - 08.09.2025 C-BEV28.11.2022 - 08.09.2025 T-BEV"
+   "fechasTexto": "16.10.2023 - 08.09.2025 C-BEV28.11.2022 - 08.09.2025 T-BEV",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,20 +92,17 @@
  "dedup": {
   "claves": [
    "ref:SR/03366/25",
-   "mm:renault-trucks:e2-2007-46-0323-48",
-   "mm:renault-trucks:e2-2007-46-3022-44",
-   "mm:renault-trucks:e2-2007-46-0230-44",
-   "mm:renault-trucks:e2-2007-46-0229-43",
-   "mm:renault-trucks:e1-2007-46-1326-37",
-   "mm:renault-trucks:e1-2007-46-1059-40"
+   "mm:renault-trucks:e2-2007-46-0323-48-e2-2007-46-3022-44-e2-2007-46-0230-44-e2-2007-46-0229-43-e1-2007-46-1326-37-e1-2007-46-1059-40",
+   "ml:renault-trucks:16-10-2023-08-09-2025-c-bev",
+   "ml:renault-trucks:28-11-2022-08-09-2025-t-bev"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c343e8bb8ab005b8"
+  "enriquecido": true,
+  "hashContenido": "a6b08d8e20c2d592"
  },
  "slug": "camion-renault-trucks-safety-gate-10095976"
 }

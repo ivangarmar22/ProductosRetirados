@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,12 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "140514741476"
+     "numero": "1405"
+    },
+    {
+     "numero": "1474"
+    },
+    {
+     "numero": "1476"
     }
    ],
    "ean": [],
    "descripcion": "Revólver de juguete, negro con bozal rojo, hecho de plástico duro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana transparente."
   }
  ],
  "riesgo": {
@@ -83,15 +90,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02556/25",
-   "ml:sohni-wicke:140514741476"
+   "ml:sohni-wicke:1405",
+   "ml:sohni-wicke:1474",
+   "ml:sohni-wicke:1476"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cfe9e59498495c79"
+  "enriquecido": true,
+  "hashContenido": "73c16df52ca662e1"
  },
  "slug": "revolver-de-juguete-sohni-wicke-safety-gate-10095092"
 }

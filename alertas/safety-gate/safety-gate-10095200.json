@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-24"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -37,7 +37,8 @@
    ],
    "ean": [],
    "descripcion": "Cargador vendido con quad eléctrico azul con motor de 36V y 3 x 12V 12Ah.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "72f2cd66147d93a3"
+  "enriquecido": true,
+  "hashContenido": "860d2b348380cfb5"
  },
  "slug": "cargador-cuadruple-electrico-kxd-moto-safety-gate-10095200"
 }

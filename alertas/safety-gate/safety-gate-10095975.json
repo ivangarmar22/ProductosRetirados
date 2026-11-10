@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
     "5904326432284"
    ],
    "descripcion": "Silla de juguete.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "181eb8e1cdd36b6b"
+  "enriquecido": true,
+  "hashContenido": "b5ef310673aa497c"
  },
  "slug": "silla-de-juguete-baby-trolley-safety-gate-10095975"
 }

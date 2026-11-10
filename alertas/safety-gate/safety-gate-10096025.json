@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-22"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Rodilleras de patinaje. Producto vendido en línea, en particular a través de intersport.fr.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3ddeed8523b285b3"
+  "enriquecido": true,
+  "hashContenido": "8b1dabe845075407"
  },
  "slug": "protector-de-rodilla-oze-safety-gate-10096025"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juego de juguetes de doce cápsulas coloreadas (rosa, azul, amarilla y verde). Dentro de cada cápsula hay una figura de espuma suave comprimida en forma de un unicornio de varias formas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalajes de cartón y plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b72814f4d1ce5e94"
+  "enriquecido": true,
+  "hashContenido": "6a5d80b3ae9b8e94"
  },
  "slug": "figuras-expandibles-de-juguete-growing-unicorn-animals-safety-gate-10096376"
 }

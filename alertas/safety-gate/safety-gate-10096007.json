@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "UMB001",
     "e1*2018/858*00321*00-*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.06.2022 - 25.07.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "23.06.2022 - 25.07.2024"
+   "fechasTexto": "23.06.2022 - 25.07.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
   "claves": [
    "ref:SR/03400/25",
    "mm:crosscamp:umb001",
-   "mm:crosscamp:e1-2018-858-00321-00-01"
+   "mm:crosscamp:e1-2018-858-00321-00-01",
+   "ml:crosscamp:23-06-2022-25-07-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1e07a3b4b1996ef2"
+  "enriquecido": true,
+  "hashContenido": "82a4578a9880ea0a"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-crosscamp-safety-gate-10096007"
 }

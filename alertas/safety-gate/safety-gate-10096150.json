@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Plancha de viaje con tapón de pared conectado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5d4449fb56114ec4"
+  "enriquecido": true,
+  "hashContenido": "5aebd37dca7b8aef"
  },
  "slug": "hierro-de-viaje-travel-iron-safety-gate-10096150"
 }

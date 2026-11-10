@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,13 @@
     "Volvo"
    ],
    "modelos": [
-    "e4*2007/46*1315",
-    "e9*2007/46*3146"
+    "e4*2007/46*1315, e9*2007/46*3146."
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Vehículo de pasajeros, modelo (tipo): V60 (225), V60 Cross Country (227), V90 Cross Country (236), S90L (238), XC60 (246), XC90 (256), XC40 (536), EX4 (536) y EC40 (539). Chasis: de 0679362 a 0681750 // de 0170825 a 0170997 // de 0206278 a 0206467 // de 0493633 a 0494337 // de 0330054 a 0",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +63,17 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "IE",
+   "NO",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,16 +124,15 @@
  "dedup": {
   "claves": [
    "ref:SR/03370/25",
-   "mm:volvo:e4-2007-46-1315",
-   "mm:volvo:e9-2007-46-3146"
+   "mm:volvo:e4-2007-46-1315-e9-2007-46-3146"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "503ff832b5416019"
+  "enriquecido": true,
+  "hashContenido": "f529829716a746d7"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10096062"
 }

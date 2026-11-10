@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-05"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Guantes de protección.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "513cbbe768e7cfcf"
+  "enriquecido": true,
+  "hashContenido": "c5dd6f8a89cc839e"
  },
  "slug": "guantes-de-proteccion-urgent-safety-gate-10095965"
 }

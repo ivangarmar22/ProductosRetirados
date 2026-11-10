@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-21"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Poncho de lluvia negro en paquete de plástico no conforme.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,11 +79,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d671aca019c33cef"
+  "enriquecido": true,
+  "hashContenido": "66db00852d0c9750"
  },
  "slug": "poncho-de-lluvia-safety-gate-10096108"
 }

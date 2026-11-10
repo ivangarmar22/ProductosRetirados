@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,18 @@
     "e2*2018/858*00085",
     "g11*2018/858*00698"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02/09/2024 - 05/05/2025 MASTER 4"
+    },
+    {
+     "numero": "24/03/2025 - 12/05/2025 MASTER 4E"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de motor para el transporte de mercancías",
-   "fechasTexto": "02/09/2024 - 05/05/2025 MASTER 424/03/2025 - 12/05/2025 MASTER 4E"
+   "fechasTexto": "02/09/2024 - 05/05/2025 MASTER 424/03/2025 - 12/05/2025 MASTER 4E",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -85,15 +93,17 @@
    "ref:SR/03456/25",
    "mm:renault-trucks:e2-2018-858-00084",
    "mm:renault-trucks:e2-2018-858-00085",
-   "mm:renault-trucks:g11-2018-858-00698"
+   "mm:renault-trucks:g11-2018-858-00698",
+   "ml:renault-trucks:02-09-2024-05-05-2025-master-4",
+   "ml:renault-trucks:24-03-2025-12-05-2025-master-4e"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "886528ed07343233"
+  "enriquecido": true,
+  "hashContenido": "03d8781ea47bc46f"
  },
  "slug": "vehiculo-comercial-ligero-renault-trucks-safety-gate-10096055"
 }

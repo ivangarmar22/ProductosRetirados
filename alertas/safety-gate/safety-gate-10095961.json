@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,28 +27,21 @@
     "Ducati"
    ],
    "modelos": [
-    "e3*168/2013*00038",
-    "e3*168/2013*00039",
-    "e49*168/2013*00026",
-    "e49*168/2013*00037",
-    "e49*168/2013*00038",
-    "e49*168/2013*00080",
-    "e49*168/2013*00103",
-    "e5*168/2013*00029",
-    "e5*168/2013*00066",
-    "e9*168/2013*11506",
-    "e9*168/2013*11507",
-    "e3*168/2013*00045",
-    "e3*168/2013*00046",
-    "e49*168/2013*00042",
-    "e49*168/2013*00081",
-    "e49*168/2013*00104",
-    "e9*168/2013*11552"
+    "e3*168/2013*00038; e3*168/2013*00039; e49*168/2013*00026; e49*168/2013*00037; e49*168/2013*00038; e49*168/2013*00080; e49*168/2013*00103; e5*168/2013*00029;",
+    "e5*168/2013*00066; e9*168/2013*11506; e9*168/2013*11507; e3*168/2013*00045; e3*168/2013*00046; e49*168/2013*00042; e49*168/2013*00081; e49*168/2013*00104; e9*168/2013*11552."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2018-2024 (PANIGALE)"
+    },
+    {
+     "numero": "2020-2025 (Streetfighter)"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "2018-2024 (PANIGALE) 2020-2025 (Streetfighter)"
+   "fechasTexto": "2018-2024 (PANIGALE) 2020-2025 (Streetfighter)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,7 +71,17 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,31 +100,18 @@
  "dedup": {
   "claves": [
    "ref:SR/03438/25",
-   "mm:ducati:e3-168-2013-00038",
-   "mm:ducati:e3-168-2013-00039",
-   "mm:ducati:e49-168-2013-00026",
-   "mm:ducati:e49-168-2013-00037",
-   "mm:ducati:e49-168-2013-00038",
-   "mm:ducati:e49-168-2013-00080",
-   "mm:ducati:e49-168-2013-00103",
-   "mm:ducati:e5-168-2013-00029",
-   "mm:ducati:e5-168-2013-00066",
-   "mm:ducati:e9-168-2013-11506",
-   "mm:ducati:e9-168-2013-11507",
-   "mm:ducati:e3-168-2013-00045",
-   "mm:ducati:e3-168-2013-00046",
-   "mm:ducati:e49-168-2013-00042",
-   "mm:ducati:e49-168-2013-00081",
-   "mm:ducati:e49-168-2013-00104",
-   "mm:ducati:e9-168-2013-11552"
+   "mm:ducati:e3-168-2013-00038-e3-168-2013-00039-e49-168-2013-00026-e49-168-2013-00037-e49-168-2013-00038-e49-168-2013-00080-e49-168-2013-00103-e5-168-2013-00029",
+   "mm:ducati:e5-168-2013-00066-e9-168-2013-11506-e9-168-2013-11507-e3-168-2013-00045-e3-168-2013-00046-e49-168-2013-00042-e49-168-2013-00081-e49-168-2013-00104-e9-168-2013-11552",
+   "ml:ducati:2018-2024-panigale",
+   "ml:ducati:2020-2025-streetfighter"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0e0090f19dbf181f"
+  "enriquecido": true,
+  "hashContenido": "6c3d694280ebdbeb"
  },
  "slug": "motocicleta-ducati-safety-gate-10095961"
 }

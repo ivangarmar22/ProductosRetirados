@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2018/858*00005* (FW)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.06.2024 - 31.03.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "25.06.2024 - 31.03.2025"
+   "fechasTexto": "25.06.2024 - 31.03.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03351/25",
-   "mm:audi:e1-2018-858-00005-fw"
+   "mm:audi:e1-2018-858-00005-fw",
+   "ml:audi:25-06-2024-31-03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8bc2c0cd660bd2f7"
+  "enriquecido": true,
+  "hashContenido": "fde3a0bac7aacfe1"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10095962"
 }

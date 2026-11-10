@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-26"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "BRANDT"
    ],
    "modelos": [
-    "DRC-7",
-    "SUP515"
+    "DRC-7 / SUP515"
    ],
    "lotes": [],
    "ean": [
     "3660767953314"
    ],
    "descripcion": "Cocina de arroz y accesorios para hacer sushi. Todos los lotes se ven afectados. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,16 +98,15 @@
   "claves": [
    "ref:SR/02993/25",
    "ean:3660767953314",
-   "mm:brandt:drc-7",
-   "mm:brandt:sup515"
+   "mm:brandt:drc-7-sup515"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e1fb0dd0a356c6b8"
+  "enriquecido": true,
+  "hashContenido": "48440e44431f2b07"
  },
  "slug": "cocina-de-arroz-brandt-safety-gate-10095261"
 }

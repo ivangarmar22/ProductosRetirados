@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -38,7 +38,8 @@
     "8713016009906"
    ],
    "descripcion": "Cocina de arroz eléctrica",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje exterior de cartón con bolsa de plástico interior."
   }
  ],
  "riesgo": {
@@ -78,7 +79,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "HU",
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -112,11 +118,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "daa223508bd6c164"
+  "enriquecido": true,
+  "hashContenido": "51743912d67f3697"
  },
  "slug": "cocina-de-arroz-tristar-safety-gate-10007591"
 }

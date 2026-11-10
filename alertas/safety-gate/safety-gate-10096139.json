@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-10-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "K",
-    "e2*2018/858*00064*08",
-    "*09"
+    "e2*2018/858*00064*08,*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.06.2025 - 13.08.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "26.06.2025 - 13.08.2025"
+   "fechasTexto": "26.06.2025 - 13.08.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "HR",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03574/25",
-   "mm:opel:e2-2018-858-00064-08"
+   "mm:opel:e2-2018-858-00064-08-09",
+   "ml:opel:26-06-2025-13-08-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "68d171f40e11b3c2"
+  "enriquecido": true,
+  "hashContenido": "e5006a6a1fa4a406"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10096139"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-18"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "8624BSAN5144"
+     "numero": "8624BS"
+    },
+    {
+     "numero": "AN5144"
     }
    ],
    "ean": [
     "6933495830163"
    ],
    "descripcion": "Set de maquillaje.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
   "claves": [
    "ref:SR/03355/25",
    "ean:6933495830163",
-   "ml:anylady:8624bsan5144"
+   "ml:anylady:8624bs",
+   "ml:anylady:an5144"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c778343dbc286d8c"
+  "enriquecido": true,
+  "hashContenido": "0ecbd5c69f60f0a8"
  },
  "slug": "set-de-maquillaje-anylady-safety-gate-10096017"
 }
