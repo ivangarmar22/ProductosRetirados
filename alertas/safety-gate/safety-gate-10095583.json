@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,12 +28,17 @@
    ],
    "modelos": [
     "e13*2018/858*00270*04 (SK)",
-    "e13*2018/858*00342*03 - *04 (SKN)"
+    "e13*2018/858*00342*03 - *04 (SKN),"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.8.2023 - 27.3.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "17.8.2023 - 27.3.2024"
+   "fechasTexto": "17.8.2023 - 27.3.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "IE",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +102,16 @@
   "claves": [
    "ref:SR/02974/25",
    "mm:ford:e13-2018-858-00270-04-sk",
-   "mm:ford:e13-2018-858-00342-03-04-skn"
+   "mm:ford:e13-2018-858-00342-03-04-skn",
+   "ml:ford:17-8-2023-27-3-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "20d4cb703ae640a5"
+  "enriquecido": true,
+  "hashContenido": "6298dfb0150800fa"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-ford-safety-gate-10095583"
 }

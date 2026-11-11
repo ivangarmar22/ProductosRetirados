@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta a batería de iones de litio con cargador de enchufe de pared.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d5286bed10d61b2b"
+  "enriquecido": true,
+  "hashContenido": "efa4fbcbd21ead85"
  },
  "slug": "bicicleta-electrica-ridstar-safety-gate-10095063"
 }

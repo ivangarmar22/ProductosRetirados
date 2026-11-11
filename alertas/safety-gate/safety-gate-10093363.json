@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,13 +29,17 @@
    "modelos": [
     "e4*2007/46*0251* (RB)",
     "e9*KS07/46*0010* (BK38)",
-    "individual approval (LM",
-    "HG)"
+    "individual approval (LM, HG)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.05.2009 - 31.10.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "26.05.2009 - 31.10.2014"
+   "fechasTexto": "26.05.2009 - 31.10.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +71,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,15 +115,16 @@
    "ref:SR/00813/25",
    "mm:hyundai:e4-2007-46-0251-rb",
    "mm:hyundai:e9-ks07-46-0010-bk38",
-   "mm:hyundai:individual-approval-lm"
+   "mm:hyundai:individual-approval-lm-hg",
+   "ml:hyundai:26-05-2009-31-10-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "20673ba0a9166efa"
+  "enriquecido": true,
+  "hashContenido": "554a31768e907f14"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10093363"
 }

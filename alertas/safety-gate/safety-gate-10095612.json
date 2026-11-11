@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0537*01 - *18",
     "e2*2007/46*0538*01 - *20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.03.2016 - 08.07.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "03.03.2016 - 08.07.2022"
+   "fechasTexto": "03.03.2016 - 08.07.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "CY",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IS",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +101,16 @@
   "claves": [
    "ref:SR/02942/25",
    "mm:toyota:e2-2007-46-0537-01-18",
-   "mm:toyota:e2-2007-46-0538-01-20"
+   "mm:toyota:e2-2007-46-0538-01-20",
+   "ml:toyota:03-03-2016-08-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c768a60717d2e92d"
+  "enriquecido": true,
+  "hashContenido": "529cb4956635b6ce"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10095612"
 }

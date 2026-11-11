@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,19 +27,28 @@
     "SOULET"
    ],
    "modelos": [
-    "S06768 H190/ ECHELLE S06751 H222 S06757",
-    "S06758"
+    "S06768 H190/ ECHELLE S06751 H222 S06757 / S06758"
    ],
    "lotes": [
     {
-     "numero": "S0675105102024S00751S0675716122024S00751S0675815102024S00751S0676824092024S00751"
+     "numero": "S0675105102024S00751"
+    },
+    {
+     "numero": "S0675716122024S00751"
+    },
+    {
+     "numero": "S0675815102024S00751"
+    },
+    {
+     "numero": "S0676824092024S00751"
     }
    ],
    "ean": [
     "3598740046428"
    ],
    "descripcion": "Escalera de cuerda de juguete de 5 cuerdas para niños, con una cuerda verde oscuro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -95,17 +104,19 @@
   "claves": [
    "ref:SR/02910/25",
    "ean:3598740046428",
-   "mm:soulet:s06768-h190-echelle-s06751-h222-s06757",
-   "mm:soulet:s06758",
-   "ml:soulet:s0675105102024s00751s0675716122024s00751s0675815102024s00751s0676824092024s00751"
+   "mm:soulet:s06768-h190-echelle-s06751-h222-s06757-s06758",
+   "ml:soulet:s0675105102024s00751",
+   "ml:soulet:s0675716122024s00751",
+   "ml:soulet:s0675815102024s00751",
+   "ml:soulet:s0676824092024s00751"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "92245c799d7d6bfd"
+  "enriquecido": true,
+  "hashContenido": "4219dcbca20f4ed4"
  },
  "slug": "escalera-de-juguete-soulet-safety-gate-10095534"
 }

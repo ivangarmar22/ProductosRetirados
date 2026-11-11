@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -37,7 +37,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Ruedas de bicicleta. Los lotes afectados se fabrican y entregan a partir del 1 de agosto de 2024 y con un número de identificación DT Swiss de 2740000 o superior.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "IE",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -116,11 +122,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9805ffb6c8dbd296"
+  "enriquecido": true,
+  "hashContenido": "7ac79867f424e2b1"
  },
  "slug": "ruedas-de-bicicleta-swiss-side-safety-gate-10095625"
 }

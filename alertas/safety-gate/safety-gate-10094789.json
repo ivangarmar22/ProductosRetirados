@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "11c2c9bff286624c"
+  "enriquecido": true,
+  "hashContenido": "5b35a46996d92071"
  },
  "slug": "camioneta-de-camper-carado-safety-gate-10094789"
 }

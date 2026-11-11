@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "51917235192723"
+     "numero": "5191723"
+    },
+    {
+     "numero": "5192723"
     }
    ],
    "ean": [
     "4305615416939"
    ],
    "descripcion": "Toallitas limpiadoras para piel normal y piel mixta. Producto vendido en línea, en particular a través de rossmann.de",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete suave rectangular de color verde pálido con una abertura re-cerrable (colgajo de cierre)"
   }
  ],
  "riesgo": {
@@ -96,15 +100,16 @@
   "claves": [
    "ref:SR/02986/25",
    "ean:4305615416939",
-   "ml:isana:51917235192723"
+   "ml:isana:5191723",
+   "ml:isana:5192723"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fce6cca191f08d43"
+  "enriquecido": true,
+  "hashContenido": "e992a93a2cc559ea"
  },
  "slug": "toallitas-limpiadoras-para-la-piel-isana-safety-gate-10095631"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-18"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "H20216953790J30217633740"
+     "numero": "H20216953790"
+    },
+    {
+     "numero": "J30217633740"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "3607349363918"
    ],
    "descripcion": "Eau de parfum, 50 ml y 90 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -104,15 +108,16 @@
    "ref:SR/02725/25",
    "ean:3607349363833",
    "ean:3607349363918",
-   "ml:calvin-klein:h20216953790j30217633740"
+   "ml:calvin-klein:h20216953790",
+   "ml:calvin-klein:j30217633740"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0a76d79718722eb8"
+  "enriquecido": true,
+  "hashContenido": "c840be4fd4c1efce"
  },
  "slug": "parfum-calvin-klein-safety-gate-10095296"
 }

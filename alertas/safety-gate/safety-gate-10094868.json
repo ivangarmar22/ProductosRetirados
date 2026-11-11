@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Freidoras de aire en capacidad de varios litros. Producto vendido en línea, en particular a través de Amazon (ASIN: B077BXFQWM, B08NX6LHSG, B09B7TYSL4).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -71,7 +72,10 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e808054c3fb0a3f4"
+  "enriquecido": true,
+  "hashContenido": "27ed62b5af68b7fd"
  },
  "slug": "freidora-de-aire-tower-safety-gate-10094868"
 }

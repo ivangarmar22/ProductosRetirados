@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "1025500314093001"
+     "numero": "10255003"
+    },
+    {
+     "numero": "14093001"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "8002135089624"
    ],
    "descripcion": "Agua de toilette, 50 ml y 400 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -105,15 +109,16 @@
    "ean:8002135089624",
    "mm:jenny:10016538",
    "mm:jenny:10016542",
-   "ml:jenny:1025500314093001"
+   "ml:jenny:10255003",
+   "ml:jenny:14093001"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7e21a2fc381e9973"
+  "enriquecido": true,
+  "hashContenido": "8f155a2ed6d9817d"
  },
  "slug": "agua-de-toilette-jenny-safety-gate-10095365"
 }

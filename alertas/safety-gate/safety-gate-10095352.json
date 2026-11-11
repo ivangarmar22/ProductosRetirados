@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "01160126"
+     "numero": "0116"
+    },
+    {
+     "numero": "0126"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "737052034522"
    ],
    "descripcion": "Agua de toilette, 50 ml y 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -109,15 +113,16 @@
    "ean:737052034522",
    "mm:gucci:82401063",
    "mm:gucci:82401064",
-   "ml:gucci:01160126"
+   "ml:gucci:0116",
+   "ml:gucci:0126"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50736699dfb8fae6"
+  "enriquecido": true,
+  "hashContenido": "d6b31f7111650b45"
  },
  "slug": "agua-de-toilette-gucci-safety-gate-10095352"
 }

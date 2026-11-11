@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e5*2018/858*00262*00 (NVN)",
     "e5*2018/858*00263*00 (N5N)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.03.2025 - 09.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "31.03.2025 - 09.04.2025"
+   "fechasTexto": "31.03.2025 - 09.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,15 +110,16 @@
    "mm:vw:e1-2018-858-00164-eb",
    "mm:vw:e1-2018-858-00306-ed",
    "mm:vw:e5-2018-858-00262-00-nvn",
-   "mm:vw:e5-2018-858-00263-00-n5n"
+   "mm:vw:e5-2018-858-00263-00-n5n",
+   "ml:vw:31-03-2025-09-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b1712fbfed9b853e"
+  "enriquecido": true,
+  "hashContenido": "44d3d42e287b3b36"
  },
  "slug": "coche-de-pasajeros-vehiculo-comercial-ligero-vw-safety-gate-10095346"
 }

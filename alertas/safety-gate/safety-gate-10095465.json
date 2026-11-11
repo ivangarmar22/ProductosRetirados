@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "STEYR"
    ],
    "modelos": [
-    "DJ",
-    "LG",
-    "L3",
-    "A3",
-    "e8*167/2013*00072*",
-    "e13*167/2013*00012*",
-    "e24*167/2013*00321*",
-    "e13*167/2013*00275*"
+    "DJ, LG, L3, A3",
+    "e8*167/2013*00072*, e13*167/2013*00012*, e24*167/2013*00321*, e13*167/2013*00275*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.04.2021 - 31.07.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo agrícola y forestal",
-   "fechasTexto": "01.04.2021 - 31.07.2022"
+   "fechasTexto": "01.04.2021 - 31.07.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,18 +99,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02968/25",
-   "mm:steyr:e8-167-2013-00072",
-   "mm:steyr:e13-167-2013-00012",
-   "mm:steyr:e24-167-2013-00321",
-   "mm:steyr:e13-167-2013-00275"
+   "mm:steyr:dj-lg-l3-a3",
+   "mm:steyr:e8-167-2013-00072-e13-167-2013-00012-e24-167-2013-00321-e13-167-2013-00275",
+   "ml:steyr:01-04-2021-31-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d70bb75af0e0f878"
+  "enriquecido": true,
+  "hashContenido": "6b75982eb9361991"
  },
  "slug": "tractor-steyr-safety-gate-10095465"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-11"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Mezclador de leche de color plateado con tapón de pared negro. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón marrón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4a8525990ab2afac"
+  "enriquecido": true,
+  "hashContenido": "6abe2d251ba99189"
  },
  "slug": "mezclador-de-leche-jjingrui-safety-gate-10095115"
 }

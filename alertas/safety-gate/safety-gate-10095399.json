@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,19 @@
     "VW"
    ],
    "modelos": [
-    "CD",
-    "CDV",
+    "CD, CDV",
     "e1*2007/46*2014*",
     "e1*2007/46*2180*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.02.2024 - 24.05.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "09.02.2024 - 24.05.2024"
+   "fechasTexto": "09.02.2024 - 24.05.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,17 +99,18 @@
  "dedup": {
   "claves": [
    "ref:SR/02758/25",
-   "mm:vw:cdv",
+   "mm:vw:cd-cdv",
    "mm:vw:e1-2007-46-2014",
-   "mm:vw:e1-2007-46-2180"
+   "mm:vw:e1-2007-46-2180",
+   "ml:vw:09-02-2024-24-05-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a274b7f7a4a464fc"
+  "enriquecido": true,
+  "hashContenido": "6dcf7adbc27dc23f"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10095399"
 }

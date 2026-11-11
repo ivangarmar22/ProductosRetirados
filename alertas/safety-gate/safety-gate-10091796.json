@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,15 @@
     "e11*2007/46*0633*",
     "e9*KS07/46*0071*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.11.2010 - 31.10.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "04.11.2010 - 31.10.2014"
+   "fechasTexto": "04.11.2010 - 31.10.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +74,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,15 +118,16 @@
    "mm:hyundai:lmfc",
    "mm:hyundai:e11-2007-46-0194",
    "mm:hyundai:e11-2007-46-0633",
-   "mm:hyundai:e9-ks07-46-0071"
+   "mm:hyundai:e9-ks07-46-0071",
+   "ml:hyundai:04-11-2010-31-10-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a4698d9a8ea17bd5"
+  "enriquecido": true,
+  "hashContenido": "47461028c3000797"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10091796"
 }

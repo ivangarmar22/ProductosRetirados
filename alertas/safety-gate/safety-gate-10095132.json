@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-29"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,19 +24,54 @@
   {
    "nombre": "8L Dual Basket Air Fryer",
    "marcas": [
-    "Tower, Vortx"
+    "Tower",
+    "Vortx"
    ],
    "modelos": [
     "T17129L"
    ],
    "lotes": [
     {
-     "numero": "PO264626PO264628PO264630PO264632PO264634PO264638PO271391PO271393PO271395PO271397PO271399PO271401"
+     "numero": "PO264626"
+    },
+    {
+     "numero": "PO264628"
+    },
+    {
+     "numero": "PO264630"
+    },
+    {
+     "numero": "PO264632"
+    },
+    {
+     "numero": "PO264634"
+    },
+    {
+     "numero": "PO264638"
+    },
+    {
+     "numero": "PO271391"
+    },
+    {
+     "numero": "PO271393"
+    },
+    {
+     "numero": "PO271395"
+    },
+    {
+     "numero": "PO271397"
+    },
+    {
+     "numero": "PO271399"
+    },
+    {
+     "numero": "PO271401"
     }
    ],
    "ean": [],
    "descripcion": "Freidora de aire negra.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -95,16 +130,40 @@
  "dedup": {
   "claves": [
    "ref:OR/00117/25",
-   "mm:tower-vortx:t17129l",
-   "ml:tower-vortx:po264626po264628po264630po264632po264634po264638po271391po271393po271395po271397po271399po271401"
+   "mm:tower:t17129l",
+   "ml:tower:po264626",
+   "ml:tower:po264628",
+   "ml:tower:po264630",
+   "ml:tower:po264632",
+   "ml:tower:po264634",
+   "ml:tower:po264638",
+   "ml:tower:po271391",
+   "ml:tower:po271393",
+   "ml:tower:po271395",
+   "ml:tower:po271397",
+   "ml:tower:po271399",
+   "ml:tower:po271401",
+   "mm:vortx:t17129l",
+   "ml:vortx:po264626",
+   "ml:vortx:po264628",
+   "ml:vortx:po264630",
+   "ml:vortx:po264632",
+   "ml:vortx:po264634",
+   "ml:vortx:po264638",
+   "ml:vortx:po271391",
+   "ml:vortx:po271393",
+   "ml:vortx:po271395",
+   "ml:vortx:po271397",
+   "ml:vortx:po271399",
+   "ml:vortx:po271401"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1e62db477265418a"
+  "enriquecido": true,
+  "hashContenido": "8ffb3c4e951800e3"
  },
  "slug": "freidora-de-aire-tower-vortx-safety-gate-10095132"
 }

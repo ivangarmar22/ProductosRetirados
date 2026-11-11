@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "CBF125NAR",
     "e13*168/2013*01990*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27/03/2024 – 10/03/2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "27/03/2024 – 10/03/2025"
+   "fechasTexto": "27/03/2024 – 10/03/2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,17 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "MT",
+   "NO",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +96,16 @@
    "ref:SR/02839/25",
    "mm:honda:e13-168-2013-01990-00",
    "mm:honda:cbf125nar",
-   "mm:honda:e13-168-2013-01990-01"
+   "mm:honda:e13-168-2013-01990-01",
+   "ml:honda:27-03-2024-10-03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e093f896eade5705"
+  "enriquecido": true,
+  "hashContenido": "2842b2ba6e9456c9"
  },
  "slug": "motocicleta-honda-safety-gate-10095408"
 }

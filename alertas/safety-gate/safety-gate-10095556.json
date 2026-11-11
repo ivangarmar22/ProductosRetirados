@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,9 +27,7 @@
     "Schwarzkopf Palette"
    ],
    "modelos": [
-    "8-0",
-    "3x CARE",
-    "N 7 light fawn"
+    "8-0, 3x CARE, N 7 light fawn"
    ],
    "lotes": [
     {
@@ -40,7 +38,8 @@
     "3838824159652"
    ],
    "descripcion": "Tinte para el cabello de color rubio, que contiene un tubo de 50 ml de crema colorante, una botella de 50 ml de revelador, un sobre de 10 ml de mascarilla de cuidado y un par de guantes.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -102,18 +101,16 @@
   "claves": [
    "ref:SR/02905/25",
    "ean:3838824159652",
-   "mm:schwarzkopf-palette:8-0",
-   "mm:schwarzkopf-palette:3x-care",
-   "mm:schwarzkopf-palette:n-7-light-fawn",
+   "mm:schwarzkopf-palette:8-0-3x-care-n-7-light-fawn",
    "ml:schwarzkopf-palette:0806087177"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c8cf0fcd1df6caad"
+  "enriquecido": true,
+  "hashContenido": "5fc1c2f375c56942"
  },
  "slug": "tinte-para-el-cabello-schwarzkopf-palette-safety-gate-10095556"
 }

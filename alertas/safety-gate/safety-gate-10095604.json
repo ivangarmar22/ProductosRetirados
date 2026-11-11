@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,12 +32,22 @@
    ],
    "lotes": [
     {
-     "numero": "KM05363KM06343KM06363KM07343"
+     "numero": "KM05363"
+    },
+    {
+     "numero": "KM06343"
+    },
+    {
+     "numero": "KM06363"
+    },
+    {
+     "numero": "KM07343"
     }
    ],
    "ean": [],
    "descripcion": "Crema facial, tubo de 50 ml y 20 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +82,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "PL",
+   "PT",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,15 +113,18 @@
    "ref:SR/02996/25",
    "mm:erborian:6aa20067",
    "mm:erborian:6aa20068",
-   "ml:erborian:km05363km06343km06363km07343"
+   "ml:erborian:km05363",
+   "ml:erborian:km06343",
+   "ml:erborian:km06363",
+   "ml:erborian:km07343"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "332b6eb2d58da79d"
+  "enriquecido": true,
+  "hashContenido": "de8105a40ddc7bf4"
  },
  "slug": "crema-para-la-cara-erborian-safety-gate-10095604"
 }

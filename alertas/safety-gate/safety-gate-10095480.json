@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e4*168/2013*00121*04 (L)",
     "e4*168/2013*00013*10 (T)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.2.2024 - 7.11.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "22.2.2024 - 7.11.2024"
+   "fechasTexto": "22.2.2024 - 7.11.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,15 +108,16 @@
   "claves": [
    "ref:SR/02878/25",
    "mm:indian-motorcycle:e4-168-2013-00121-04-l",
-   "mm:indian-motorcycle:e4-168-2013-00013-10-t"
+   "mm:indian-motorcycle:e4-168-2013-00013-10-t",
+   "ml:indian-motorcycle:22-2-2024-7-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b7d552446fd68ea3"
+  "enriquecido": true,
+  "hashContenido": "42e0b3a7db6ea5c7"
  },
  "slug": "motocicleta-indian-motorcycle-safety-gate-10095480"
 }

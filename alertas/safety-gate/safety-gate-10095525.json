@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "TFDD",
-    "e13*2007/46*1858*11",
-    "*12"
+    "e13*2007/46*1858*11, *12"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.04.2024 - 28.02.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "19.04.2024 - 28.02.2025"
+   "fechasTexto": "19.04.2024 - 28.02.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +94,16 @@
   "claves": [
    "ref:SR/02907/25",
    "mm:forster:tfdd",
-   "mm:forster:e13-2007-46-1858-11"
+   "mm:forster:e13-2007-46-1858-11-12",
+   "ml:forster:19-04-2024-28-02-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8384927acb8abffa"
+  "enriquecido": true,
+  "hashContenido": "258059e80683f0ab"
  },
  "slug": "camioneta-de-camper-forster-safety-gate-10095525"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5413050048123"
    ],
    "descripcion": "Columpio de plástico. Producto vendido en línea, en particular a través de Bol.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "EE",
+   "IE",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "12b53cb84a26eeb3"
+  "enriquecido": true,
+  "hashContenido": "2d898eb393f93860"
  },
  "slug": "columpio-de-plastico-trix-safety-gate-10094023"
 }

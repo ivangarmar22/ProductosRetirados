@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-11"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "20085240408"
+     "numero": "200852"
+    },
+    {
+     "numero": "40408"
     }
    ],
    "ean": [
     "5905378200852"
    ],
    "descripcion": "Lámpara fija con voltaje de 170-260V, frecuencia de 50-60Hz y consumo de energía de 12W.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,15 +100,16 @@
   "claves": [
    "ref:SR/02794/25",
    "ean:5905378200852",
-   "ml:led-line-lite:20085240408"
+   "ml:led-line-lite:200852",
+   "ml:led-line-lite:40408"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8dfeba42ae08d8f6"
+  "enriquecido": true,
+  "hashContenido": "7873ca3ef29e455d"
  },
  "slug": "lampara-fija-led-line-lite-safety-gate-10095434"
 }

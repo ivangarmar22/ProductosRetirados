@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "BJ230 A",
     "e1*168/2013*00379*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.07.2024 - 16.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "16.07.2024 - 16.05.2025"
+   "fechasTexto": "16.07.2024 - 16.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +98,16 @@
   "claves": [
    "ref:SR/02761/25",
    "mm:kawasaki:bj230-a",
-   "mm:kawasaki:e1-168-2013-00379-00"
+   "mm:kawasaki:e1-168-2013-00379-00",
+   "ml:kawasaki:16-07-2024-16-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b67c802c7f24d162"
+  "enriquecido": true,
+  "hashContenido": "fbb38cf35dc444be"
  },
  "slug": "motocicleta-kawasaki-safety-gate-10095398"
 }

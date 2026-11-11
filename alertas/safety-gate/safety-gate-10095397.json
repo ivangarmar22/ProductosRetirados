@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,19 @@
     "VW"
    ],
    "modelos": [
-    "CD",
-    "CDV",
+    "CD, CDV",
     "e1*2007/46*2014*",
     "e1*2007/46*2180*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.02.2024 - 24.05.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "09.02.2024 - 24.05.2024"
+   "fechasTexto": "09.02.2024 - 24.05.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,17 +88,18 @@
  "dedup": {
   "claves": [
    "ref:SR/02762/25",
-   "mm:vw:cdv",
+   "mm:vw:cd-cdv",
    "mm:vw:e1-2007-46-2014",
-   "mm:vw:e1-2007-46-2180"
+   "mm:vw:e1-2007-46-2180",
+   "ml:vw:09-02-2024-24-05-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dfadc0778eb1a454"
+  "enriquecido": true,
+  "hashContenido": "f5b24d4bf905abce"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10095397"
 }

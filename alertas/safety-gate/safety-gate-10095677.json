@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-08"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "5930115020080"
    ],
    "descripcion": "Juego de juguete de baño de pato de plástico, que consta de un pato silbador más grande y tres patitos más pequeños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Red de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3416da28a36b1289"
+  "enriquecido": true,
+  "hashContenido": "4b63cdc81640f61d"
  },
  "slug": "juguete-de-bano-jatek-safety-gate-10095677"
 }

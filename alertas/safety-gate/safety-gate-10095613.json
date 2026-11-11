@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,47 +27,19 @@
     "Toyota"
    ],
    "modelos": [
-    "MDZ36#",
-    "MDZ34#",
-    "MDZ32#",
-    "MDZ14#",
-    "MDZ12#",
-    "MDZ82#",
-    "MDZ86#",
-    "MDZ84#",
-    "MDZ56#",
-    "MDZ54#",
-    "MDZ44#",
-    "MDZ46#",
-    "MDZ42#",
-    "MDZ34#",
-    "MDZ44#",
-    "MPY82#",
-    "MPY84#",
-    "MPY46#",
-    "MPY42#",
-    "MPY44#",
-    "MPY12#",
-    "MPY14#",
-    "MPY16#",
-    "MPY36#",
-    "MPY34#",
-    "MPY32#",
-    "MPY56#",
-    "MPY54#",
-    "MPY52#",
-    "MPY12#",
-    "MPY14#",
-    "MPY16#",
-    "e2*2007/46*0538*07 - e2*2007/46*0538*17",
-    "e2*2007/46*0686*01 - e2*2007/46*0686*07",
-    "e2*2007/46*0685*00 - e2*2007/46*0685*01",
-    "e2*2007/46*0537*06 - e2*2007/46*0537*14"
+    "MDZ36#, MDZ34#, MDZ32#, MDZ14#, MDZ12#, MDZ82#, MDZ86#, MDZ84#, MDZ56#, MDZ54#, MDZ44#, MDZ46#, MDZ42#, MDZ34#, MDZ44#, MPY82#, MPY84#, MPY46#, MPY42#, MPY44#, MPY12#, MPY14#, MPY16#, MPY36#, MPY34#",
+    "MPY32#, MPY56#, MPY54#, MPY52#, MPY12#, MPY14#, MPY16#",
+    "e2*2007/46*0538*07 - e2*2007/46*0538*17, e2*2007/46*0686*01 - e2*2007/46*0686*07, e2*2007/46*0685*00 - e2*2007/46*0685*01, e2*2007/46*0537*06 - e2*2007/46*0537*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.07.2017 - 16.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "07.07.2017 - 16.12.2021"
+   "fechasTexto": "07.07.2017 - 16.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -97,7 +69,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "CY",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IS",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -124,45 +109,18 @@
  "dedup": {
   "claves": [
    "ref:SR/02983/25",
-   "mm:toyota:mdz36",
-   "mm:toyota:mdz34",
-   "mm:toyota:mdz32",
-   "mm:toyota:mdz14",
-   "mm:toyota:mdz12",
-   "mm:toyota:mdz82",
-   "mm:toyota:mdz86",
-   "mm:toyota:mdz84",
-   "mm:toyota:mdz56",
-   "mm:toyota:mdz54",
-   "mm:toyota:mdz44",
-   "mm:toyota:mdz46",
-   "mm:toyota:mdz42",
-   "mm:toyota:mpy82",
-   "mm:toyota:mpy84",
-   "mm:toyota:mpy46",
-   "mm:toyota:mpy42",
-   "mm:toyota:mpy44",
-   "mm:toyota:mpy12",
-   "mm:toyota:mpy14",
-   "mm:toyota:mpy16",
-   "mm:toyota:mpy36",
-   "mm:toyota:mpy34",
-   "mm:toyota:mpy32",
-   "mm:toyota:mpy56",
-   "mm:toyota:mpy54",
-   "mm:toyota:mpy52",
-   "mm:toyota:e2-2007-46-0538-07-e2-2007-46-0538-17",
-   "mm:toyota:e2-2007-46-0686-01-e2-2007-46-0686-07",
-   "mm:toyota:e2-2007-46-0685-00-e2-2007-46-0685-01",
-   "mm:toyota:e2-2007-46-0537-06-e2-2007-46-0537-14"
+   "mm:toyota:mdz36-mdz34-mdz32-mdz14-mdz12-mdz82-mdz86-mdz84-mdz56-mdz54-mdz44-mdz46-mdz42-mdz34-mdz44-mpy82-mpy84-mpy46-mpy42-mpy44-mpy12-mpy14-mpy16-mpy36-mpy34",
+   "mm:toyota:mpy32-mpy56-mpy54-mpy52-mpy12-mpy14-mpy16",
+   "mm:toyota:e2-2007-46-0538-07-e2-2007-46-0538-17-e2-2007-46-0686-01-e2-2007-46-0686-07-e2-2007-46-0685-00-e2-2007-46-0685-01-e2-2007-46-0537-06-e2-2007-46-0537-14",
+   "ml:toyota:07-07-2017-16-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ca2f10ff4037a1f1"
+  "enriquecido": true,
+  "hashContenido": "4b26db53a2b7efbb"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10095613"
 }

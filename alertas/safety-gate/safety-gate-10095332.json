@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-18"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "J11539093159J11539201769"
+     "numero": "J11539093159"
+    },
+    {
+     "numero": "J11539201769"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "3607342402065"
    ],
    "descripcion": "Agua de toilette, 50 ml y 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -104,15 +108,16 @@
    "ref:SR/02736/25",
    "ean:3607342401945",
    "ean:3607342402065",
-   "ml:calvin-klein:j11539093159j11539201769"
+   "ml:calvin-klein:j11539093159",
+   "ml:calvin-klein:j11539201769"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "af42d52b09b26396"
+  "enriquecido": true,
+  "hashContenido": "ef0bcd1855e7fe47"
  },
  "slug": "agua-de-toilette-calvin-klein-safety-gate-10095332"
 }

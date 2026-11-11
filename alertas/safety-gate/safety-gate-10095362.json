@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-27"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -27,17 +27,10 @@
     "DT SWISS"
    ],
    "modelos": [
-    "ARC 1100 DICUT 50",
-    "55",
-    "65",
-    "ARC 1400 DICUT 50",
-    "55",
-    "65",
-    "ARC 1600 DICUT 50",
-    "55",
-    "65",
-    "ARC 1600 SPLINE 50",
-    "55 /65",
+    "ARC 1100 DICUT 50 / 55 / 65;",
+    "ARC 1400 DICUT 50 / 55 / 65",
+    "ARC 1600 DICUT 50 / 55 / 65",
+    "ARC 1600 SPLINE 50 / 55 /65",
     "ARC 50/55/65",
     "CRC 1100 DICUT 45",
     "CRC1400 SPLINE 35/45",
@@ -45,8 +38,7 @@
     "ERC 1100 DICUT 35/45",
     "ERC 1400 DICUT 35/45",
     "ERC 1600 DICUT 35/45",
-    "ERC 1600 SPLINE 35",
-    "45",
+    "ERC 1600 SPLINE 35 / 45",
     "ERC LOG CLASSIC 45",
     "ERC/CRC/HEC 35/45",
     "HEC1400 SPLINE 45"
@@ -54,7 +46,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Ruedas de bicicleta. Los lotes afectados se fabrican y entregan a partir del 01.09.2024 en adelante. Afecta a ERC / CRC / HEC con alturas de llanta de 35 y 45 mm y ARC con alturas de llanta de las series de modelos de 50, 55 y 65 mm y DT Swiss ID superiores a 2750000.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -84,7 +77,12 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +106,10 @@
  "dedup": {
   "claves": [
    "ref:SR/02701/25",
-   "mm:dt-swiss:arc-1100-dicut-50",
-   "mm:dt-swiss:arc-1400-dicut-50",
-   "mm:dt-swiss:arc-1600-dicut-50",
-   "mm:dt-swiss:arc-1600-spline-50",
-   "mm:dt-swiss:55-65",
+   "mm:dt-swiss:arc-1100-dicut-50-55-65",
+   "mm:dt-swiss:arc-1400-dicut-50-55-65",
+   "mm:dt-swiss:arc-1600-dicut-50-55-65",
+   "mm:dt-swiss:arc-1600-spline-50-55-65",
    "mm:dt-swiss:arc-50-55-65",
    "mm:dt-swiss:crc-1100-dicut-45",
    "mm:dt-swiss:crc1400-spline-35-45",
@@ -120,18 +117,18 @@
    "mm:dt-swiss:erc-1100-dicut-35-45",
    "mm:dt-swiss:erc-1400-dicut-35-45",
    "mm:dt-swiss:erc-1600-dicut-35-45",
-   "mm:dt-swiss:erc-1600-spline-35",
+   "mm:dt-swiss:erc-1600-spline-35-45",
    "mm:dt-swiss:erc-log-classic-45",
    "mm:dt-swiss:erc-crc-hec-35-45",
    "mm:dt-swiss:hec1400-spline-45"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e6e1272e8f1ba41"
+  "enriquecido": true,
+  "hashContenido": "c5eb0f00e49e40d8"
  },
  "slug": "ruedas-de-bicicleta-dt-swiss-safety-gate-10095362"
 }

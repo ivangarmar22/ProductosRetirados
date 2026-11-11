@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-03"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,14 +29,21 @@
    ],
    "lotes": [
     {
-     "numero": "143031024143170125143310125"
+     "numero": "143031024"
+    },
+    {
+     "numero": "143170125"
+    },
+    {
+     "numero": "143310125"
     }
    ],
    "ean": [
     "4742124008123"
    ],
    "descripcion": "Detergente antiséptico para el lavado de manos en la sala, lavado de manos quirúrgico preoperatorio y antisepsia preoperatoria de la piel del paciente",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -68,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Croacia",
   "paisOrigen": "Estonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e1065c7c46aaf569"
+  "enriquecido": true,
+  "hashContenido": "96dddbf029530851"
  },
  "slug": "antiseptico-deso-scrub-safety-gate-10095562"
 }

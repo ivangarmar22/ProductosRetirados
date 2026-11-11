@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5881800227195"
    ],
    "descripcion": "Juguete blanco suave en forma de ganso con pico y patas naranjas, y una cremallera en el vientre.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -116,11 +119,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9661361f7b08cb73"
+  "enriquecido": true,
+  "hashContenido": "b6f84022dd1967a0"
  },
  "slug": "juguete-suave-torch-safety-gate-10095628"
 }

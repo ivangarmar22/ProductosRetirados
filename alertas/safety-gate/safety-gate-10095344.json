@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "GKN Automotive"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2022 - 01.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Pieza del vehículo / ejes laterales del mercado de accesorios y conjunto de juntas de velocidad constante (CV).",
-   "fechasTexto": "01.08.2022 - 01.08.2023"
+   "fechasTexto": "01.08.2022 - 01.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +93,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/02776/25"
+   "ref:SR/02776/25",
+   "ml:gkn-automotive:01-08-2022-01-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b81fc0e97c1a6195"
+  "enriquecido": true,
+  "hashContenido": "cd6ff39b8f28422c"
  },
  "slug": "parte-del-vehiculo-eje-lateral-junta-de-velocidad-constante-gkn-automo-safety-gate-10095344"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "DM20",
     "e13*168/2013*02437*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.03.2025 - 30.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta. Año modelo: 2025.",
-   "fechasTexto": "01.03.2025 - 30.04.2025"
+   "fechasTexto": "01.03.2025 - 30.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +93,16 @@
   "claves": [
    "ref:SR/02660/25",
    "mm:yamaha:dm20",
-   "mm:yamaha:e13-168-2013-02437-00"
+   "mm:yamaha:e13-168-2013-02437-00",
+   "ml:yamaha:01-03-2025-30-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3fcd011c9aa0645e"
+  "enriquecido": true,
+  "hashContenido": "a4ea5cbc39980c53"
  },
  "slug": "motocicleta-yamaha-safety-gate-10095219"
 }

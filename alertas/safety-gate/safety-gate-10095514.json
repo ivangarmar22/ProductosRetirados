@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Man"
    ],
    "modelos": [
-    "e1*2018/858*00065*11-*14 (B.2018.858.003)",
-    "e1*2018/858*00066*11-*14 (B.2018.858.004)"
+    "e1*2018/858*00065*11-*14 (B.2018.858.003), e1*2018/858*00066*11-*14 (B.2018.858.004)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.08.2024 - 13.06.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús",
-   "fechasTexto": "21.08.2024 - 13.06.2025"
+   "fechasTexto": "21.08.2024 - 13.06.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02970/25",
-   "mm:man:e1-2018-858-00065-11-14-b-2018-858-003",
-   "mm:man:e1-2018-858-00066-11-14-b-2018-858-004"
+   "mm:man:e1-2018-858-00065-11-14-b-2018-858-003-e1-2018-858-00066-11-14-b-2018-858-004",
+   "ml:man:21-08-2024-13-06-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a839d24860db420"
+  "enriquecido": true,
+  "hashContenido": "cc18dd19abed2c62"
  },
  "slug": "autobus-man-safety-gate-10095514"
 }

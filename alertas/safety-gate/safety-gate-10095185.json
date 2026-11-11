@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-05"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Equipo de escalada automática, múltiples modelos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "291d9af7a67b56d2"
+  "enriquecido": true,
+  "hashContenido": "8e24963b64564bda"
  },
  "slug": "auto-belay-head-rush-technologies-safety-gate-10095185"
 }

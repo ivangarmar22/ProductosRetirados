@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -35,12 +35,16 @@
    ],
    "lotes": [
     {
-     "numero": "180113-3201118-3"
+     "numero": "180113-3"
+    },
+    {
+     "numero": "201118-3"
     }
    ],
    "ean": [],
    "descripcion": "Niebla corporal.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
    "mm:soul-cal:coco-plum-jacaranda",
    "mm:soul-cal:mango-passion-fruit",
    "mm:soul-cal:raspberry-lotus-blossom",
-   "ml:soul-cal:180113-3201118-3"
+   "ml:soul-cal:180113-3",
+   "ml:soul-cal:201118-3"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0e45a7711f16918f"
+  "enriquecido": true,
+  "hashContenido": "64aa97368d31fb4f"
  },
  "slug": "niebla-corporal-perfumada-soul-cal-co-safety-gate-10095160"
 }

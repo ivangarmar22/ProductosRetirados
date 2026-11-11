@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "01F01AH320F99AH1"
+     "numero": "01F01AH3"
+    },
+    {
+     "numero": "20F99AH1"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "8011530040079"
    ],
    "descripcion": "Eau de parfum, 30 ml y 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -109,15 +113,16 @@
    "ean:8011530040079",
    "mm:gianfranco-ferre:39g000",
    "mm:gianfranco-ferre:39g003",
-   "ml:gianfranco-ferre:01f01ah320f99ah1"
+   "ml:gianfranco-ferre:01f01ah3",
+   "ml:gianfranco-ferre:20f99ah1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8ae3ab3d7c100aea"
+  "enriquecido": true,
+  "hashContenido": "9923662bf350903b"
  },
  "slug": "perfume-gianfranco-ferre-safety-gate-10095366"
 }

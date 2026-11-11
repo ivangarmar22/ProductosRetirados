@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "08014643040809860238"
+     "numero": "0801464304"
+    },
+    {
+     "numero": "0809860238"
     }
    ],
    "ean": [
     "9000100809108"
    ],
    "descripcion": "Tinte para el cabello de color rojo, que contiene un tubo de 50 ml de crema colorante, una botella de 50 ml de revelador, un sobre de 10 ml de mascarilla de cuidado y un par de guantes.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ref:SR/02961/25",
    "ean:9000100809108",
    "mm:schwarzkopf-palette:k16-medeny-rez",
-   "ml:schwarzkopf-palette:08014643040809860238"
+   "ml:schwarzkopf-palette:0801464304",
+   "ml:schwarzkopf-palette:0809860238"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "47f6413367552ec0"
+  "enriquecido": true,
+  "hashContenido": "02844f9b0f6bd5b6"
  },
  "slug": "tinte-para-el-cabello-schwarzkopf-palette-safety-gate-10095596"
 }

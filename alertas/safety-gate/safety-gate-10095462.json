@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,31 +27,19 @@
     "CASE IH"
    ],
    "modelos": [
-    "D2",
-    "D5",
-    "DH",
-    "LF",
-    "L2",
-    "LU",
-    "J4",
-    "A2",
-    "A8",
-    "A6",
-    "e24*167/2013*00458*",
-    "e24*167/2013*00442*",
-    "e8*167/2013*00058*",
-    "e13*167/2013*00218*",
-    "e8*167/2013*00071*",
-    "e13*167/2013*00011*",
-    "e24*167/2013*00320*",
-    "e13*167/2013*00017*",
-    "e24*167/2013*00371*",
-    "e13*167/2013*00274*"
+    "D2, D5, DH, LF, L2, LU, J4, A2, A8, A6",
+    "e24*167/2013*00458*, e24*167/2013*00442*",
+    "e8*167/2013*00058*, e13*167/2013*00218*, e8*167/2013*00071*, e13*167/2013*00011*, e24*167/2013*00320*, e13*167/2013*00017*, e24*167/2013*00371*, e13*167/2013*00274*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1/04/2021 - 31/07/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo agrícola y forestal",
-   "fechasTexto": "1/04/2021 - 31/07/2022"
+   "fechasTexto": "1/04/2021 - 31/07/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -132,24 +124,18 @@
  "dedup": {
   "claves": [
    "ref:SR/02969/25",
-   "mm:case-ih:e24-167-2013-00458",
-   "mm:case-ih:e24-167-2013-00442",
-   "mm:case-ih:e8-167-2013-00058",
-   "mm:case-ih:e13-167-2013-00218",
-   "mm:case-ih:e8-167-2013-00071",
-   "mm:case-ih:e13-167-2013-00011",
-   "mm:case-ih:e24-167-2013-00320",
-   "mm:case-ih:e13-167-2013-00017",
-   "mm:case-ih:e24-167-2013-00371",
-   "mm:case-ih:e13-167-2013-00274"
+   "mm:case-ih:d2-d5-dh-lf-l2-lu-j4-a2-a8-a6",
+   "mm:case-ih:e24-167-2013-00458-e24-167-2013-00442",
+   "mm:case-ih:e8-167-2013-00058-e13-167-2013-00218-e8-167-2013-00071-e13-167-2013-00011-e24-167-2013-00320-e13-167-2013-00017-e24-167-2013-00371-e13-167-2013-00274",
+   "ml:case-ih:1-04-2021-31-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "57f8d68feb465b59"
+  "enriquecido": true,
+  "hashContenido": "c9d59acd7df586d9"
  },
  "slug": "tractor-case-ih-safety-gate-10095462"
 }
