@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e2*2007/46*0597*18 - e2*2007/46*0597*19",
     "e2*2007/46*0597*21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.07.2019 – 19.08.2021 // VIN: W0VZ45GB1L6001861 - W0VZ45GBXMS055183"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "02.07.2019 – 19.08.2021 // VIN: W0VZ45GB1L6001861 - W0VZ45GBXMS055183"
+   "fechasTexto": "02.07.2019 – 19.08.2021 // VIN: W0VZ45GB1L6001861 - W0VZ45GBXMS055183",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +102,16 @@
    "mm:opel-vauxhall:e2-2007-46-0597-11-e2-2007-46-0597-12",
    "mm:opel-vauxhall:e2-2007-46-0597-15-e2-2007-46-0597-16",
    "mm:opel-vauxhall:e2-2007-46-0597-18-e2-2007-46-0597-19",
-   "mm:opel-vauxhall:e2-2007-46-0597-21"
+   "mm:opel-vauxhall:e2-2007-46-0597-21",
+   "ml:opel-vauxhall:02-07-2019-19-08-2021-vin-w0vz45gb1l6001861-w0vz45gbxms055183"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aba9fa348ab6ab39"
+  "enriquecido": true,
+  "hashContenido": "15f16d9d729a508b"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10095956"
 }

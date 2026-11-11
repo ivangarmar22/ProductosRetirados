@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,13 @@
    ],
    "modelos": [
     "SH125ADR/SH125AD2R & SH150ADR/SH125AD2R",
-    "e4*168/2013*00127*02",
-    "e4*168/2013*00128*01"
+    "e4*168/2013*00127*02, e4*168/2013*00128*01"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +64,11 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "GR",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,16 +84,15 @@
   "claves": [
    "ref:SR/03131/25",
    "mm:honda:sh125adr-sh125ad2r-sh150adr-sh125ad2r",
-   "mm:honda:e4-168-2013-00127-02",
-   "mm:honda:e4-168-2013-00128-01"
+   "mm:honda:e4-168-2013-00127-02-e4-168-2013-00128-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f56713545e1d6a59"
+  "enriquecido": true,
+  "hashContenido": "ea013a7b68b978f5"
  },
  "slug": "motocicleta-honda-safety-gate-10095776"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2018/858*00074*00 e2*2018/858*00074*01 e2*2018/858*00074*02 e2*2018/858*00074*03 e2*2018/858*00075*00 e2*2018/858*00075*01 e2*2018/858*00075*02 e2*2018/858*00076*03 e2*2018/858*00077*02",
     "g11*2018/858*00646*00 g11*2018/858*00646*01 g11*2018/858*00646*02 g11*2018/858*00648*01 g11*2018/858*00649*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.04.2024 - 16.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "30.04.2024 - 16.05.2025"
+   "fechasTexto": "30.04.2024 - 16.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "HU",
+   "IE",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +91,16 @@
   "claves": [
    "ref:SR/03065/25",
    "mm:renault:e2-2018-858-00074-00-e2-2018-858-00074-01-e2-2018-858-00074-02-e2-2018-858-00074-03-e2-2018-858-00075-00-e2-2018-858-00075-01-e2-2018-858-00075-02-e2-2018-858-00076-03-e2-2018-858-00077-02",
-   "mm:renault:g11-2018-858-00646-00-g11-2018-858-00646-01-g11-2018-858-00646-02-g11-2018-858-00648-01-g11-2018-858-00649-02"
+   "mm:renault:g11-2018-858-00646-00-g11-2018-858-00646-01-g11-2018-858-00646-02-g11-2018-858-00648-01-g11-2018-858-00649-02",
+   "ml:renault:30-04-2024-16-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "792b2c0f95b4cfbe"
+  "enriquecido": true,
+  "hashContenido": "d678a5ed1e6c1315"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-renault-safety-gate-10095659"
 }

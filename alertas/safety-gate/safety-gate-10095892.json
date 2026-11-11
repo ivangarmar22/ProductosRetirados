@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,17 +28,13 @@
    ],
    "modelos": [
     "CRF1100A/D/A2/A4/D2/D4/A3/D3/A4/D4",
-    "e4*168/2013*00118*00",
-    "e4*168/2013*00115*00",
-    "e4*168/2013*00118*01",
-    "e4*168/2013*00115*01",
-    "e4*168/2013*00174*00",
-    "e4*168/2013*00172*00"
+    "e4*168/2013*00118*00, e4*168/2013*00115*00, e4*168/2013*00118*01, e4*168/2013*00115*01, e4*168/2013*00174*00, e4*168/2013*00172*00"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +64,19 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,20 +92,15 @@
   "claves": [
    "ref:SR/03290/25",
    "mm:honda:crf1100a-d-a2-a4-d2-d4-a3-d3-a4-d4",
-   "mm:honda:e4-168-2013-00118-00",
-   "mm:honda:e4-168-2013-00115-00",
-   "mm:honda:e4-168-2013-00118-01",
-   "mm:honda:e4-168-2013-00115-01",
-   "mm:honda:e4-168-2013-00174-00",
-   "mm:honda:e4-168-2013-00172-00"
+   "mm:honda:e4-168-2013-00118-00-e4-168-2013-00115-00-e4-168-2013-00118-01-e4-168-2013-00115-01-e4-168-2013-00174-00-e4-168-2013-00172-00"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8131be5691da4163"
+  "enriquecido": true,
+  "hashContenido": "e9c46e0ee7c1de81"
  },
  "slug": "motocicleta-honda-safety-gate-10095892"
 }

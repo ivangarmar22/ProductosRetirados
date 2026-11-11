@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -38,10 +38,24 @@
     "e4*2007/46*0270*13 - e4*2007/46*0270*14 AVEO T300",
     "e4*2007/46*0696*00 - e4*2007/46*0696*04 TRAX"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.12.2008 - 25.7.2013 CRUZE"
+    },
+    {
+     "numero": "27.2.2013 - 21.2.2014 TRAX"
+    },
+    {
+     "numero": "27.9.2010 - 26.11.2013 ORLANDO"
+    },
+    {
+     "numero": "9.2.2011 - 15.2.2014 AVEO T300"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "2.12.2008 - 25.7.2013 CRUZE27.2.2013 - 21.2.2014 TRAX27.9.2010 - 26.11.2013 ORLANDO9.2.2011 - 15.2.2014 AVEO T300"
+   "fechasTexto": "2.12.2008 - 25.7.2013 CRUZE27.2.2013 - 21.2.2014 TRAX27.9.2010 - 26.11.2013 ORLANDO9.2.2011 - 15.2.2014 AVEO T300",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +86,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,15 +124,19 @@
    "mm:chevrolet:e4-2007-46-0224-10-orlando",
    "mm:chevrolet:e4-2007-46-0270-02-e4-2007-46-0270-11-aveo-t300",
    "mm:chevrolet:e4-2007-46-0270-13-e4-2007-46-0270-14-aveo-t300",
-   "mm:chevrolet:e4-2007-46-0696-00-e4-2007-46-0696-04-trax"
+   "mm:chevrolet:e4-2007-46-0696-00-e4-2007-46-0696-04-trax",
+   "ml:chevrolet:2-12-2008-25-7-2013-cruze",
+   "ml:chevrolet:27-2-2013-21-2-2014-trax",
+   "ml:chevrolet:27-9-2010-26-11-2013-orlando",
+   "ml:chevrolet:9-2-2011-15-2-2014-aveo-t300"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2640637888a74a10"
+  "enriquecido": true,
+  "hashContenido": "b40ac73506388968"
  },
  "slug": "coche-de-pasajeros-chevrolet-safety-gate-10095656"
 }

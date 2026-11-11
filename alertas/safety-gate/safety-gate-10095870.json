@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cable de extensión con enchufes Schuko de 3 x 230 V, 6 x USB tipo A, un interruptor de encendido/apagado, con un máximo de 2 500 W, dimensiones del producto aproximadas de 14 x 10 x 4 cm. Producto vendido en línea, en particular a través de Amazon (ASIN: B0CHPXL5HS)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5e116fc4fab22038"
+  "enriquecido": true,
+  "hashContenido": "567b74853c46e0bf"
  },
  "slug": "plomo-de-extension-usb-socket-trademark-safety-gate-10095870"
 }

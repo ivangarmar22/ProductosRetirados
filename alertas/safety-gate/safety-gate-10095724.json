@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2018/858*00040*00-*08 (963-4-A)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.02.2023 - 16.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "15.02.2023 - 16.06.2023"
+   "fechasTexto": "15.02.2023 - 16.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "HR",
+   "HU",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03204/25",
-   "mm:mercedes-benz:e1-2018-858-00040-00-08-963-4-a"
+   "mm:mercedes-benz:e1-2018-858-00040-00-08-963-4-a",
+   "ml:mercedes-benz:15-02-2023-16-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ed730c88bd8e1629"
+  "enriquecido": true,
+  "hashContenido": "efc2c9060bf47854"
  },
  "slug": "camion-mercedes-benz-safety-gate-10095724"
 }

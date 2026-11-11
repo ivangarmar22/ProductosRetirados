@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-18"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "5022112 5022121"
+     "numero": "5022112"
+    },
+    {
+     "numero": "5022121"
     }
    ],
    "ean": [
     "3560071324988"
    ],
    "descripcion": "Desmaquillante.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanca, 250ml."
   }
  ],
  "riesgo": {
@@ -96,15 +100,16 @@
   "claves": [
    "ref:SR/03037/25",
    "ean:3560071324988",
-   "ml:carrefour-soft:5022112-5022121"
+   "ml:carrefour-soft:5022112",
+   "ml:carrefour-soft:5022121"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b88747d3e3713698"
+  "enriquecido": true,
+  "hashContenido": "596f37ff96f0e941"
  },
  "slug": "desmaquillante-carrefour-soft-safety-gate-10095597"
 }

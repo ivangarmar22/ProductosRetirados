@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-08"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -34,7 +34,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bolsa de plástico impermeable que se puede cerrar con una correa negra. La bolsa puede contener mercancías de hasta cinco litros y está disponible en blanco, azul y negro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "734d109ce9e6298f"
+  "enriquecido": true,
+  "hashContenido": "4fd139b8f6a3026f"
  },
  "slug": "bolsa-impermeable-cgi-safety-gate-10095805"
 }

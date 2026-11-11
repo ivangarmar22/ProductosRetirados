@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0642*07",
     "e2*2007/46*0642*09 - e2*2007/46*0642*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.01.2020 – 18.02.2021 // VIN: VR7A4DGZSKL148688 - VR7A4DGZSML014971"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "20.01.2020 – 18.02.2021 // VIN: VR7A4DGZSKL148688 - VR7A4DGZSML014971"
+   "fechasTexto": "20.01.2020 – 18.02.2021 // VIN: VR7A4DGZSKL148688 - VR7A4DGZSML014971",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +97,16 @@
   "claves": [
    "ref:SR/03303/25",
    "mm:citroen:e2-2007-46-0642-07",
-   "mm:citroen:e2-2007-46-0642-09-e2-2007-46-0642-11"
+   "mm:citroen:e2-2007-46-0642-09-e2-2007-46-0642-11",
+   "ml:citroen:20-01-2020-18-02-2021-vin-vr7a4dgzskl148688-vr7a4dgzsml014971"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "339aac471e64dbff"
+  "enriquecido": true,
+  "hashContenido": "2aa71b4e5aa8218f"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10095944"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*168/2013*00330*00 (ZX636J)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.7.2023 - 28.5.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "31.7.2023 - 28.5.2025"
+   "fechasTexto": "31.7.2023 - 28.5.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HR",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +94,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03056/25",
-   "mm:kawasaki:e1-168-2013-00330-00-zx636j"
+   "mm:kawasaki:e1-168-2013-00330-00-zx636j",
+   "ml:kawasaki:31-7-2023-28-5-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dcbc2162b8f8de7b"
+  "enriquecido": true,
+  "hashContenido": "134c55cd9c278b1f"
  },
  "slug": "motocicleta-kawasaki-safety-gate-10095568"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2007/46*0090*09 (AC3)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.10.2024 - 25.10.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "02.10.2024 - 25.10.2025"
+   "fechasTexto": "02.10.2024 - 25.10.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CY",
+   "FI",
+   "FR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +92,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03149/25",
-   "mm:hyundai:e5-2007-46-0090-09-ac3"
+   "mm:hyundai:e5-2007-46-0090-09-ac3",
+   "ml:hyundai:02-10-2024-25-10-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e2f38da7f731c4a6"
+  "enriquecido": true,
+  "hashContenido": "b6e47a2d7078299c"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10095772"
 }

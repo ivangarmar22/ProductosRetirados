@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,16 +24,22 @@
   {
    "nombre": "bZ4X, RZ300e, RZ450e",
    "marcas": [
-    "Lexus, Toyota"
+    "Lexus",
+    "Toyota"
    ],
    "modelos": [
     "e6*2018/858*00144*00 - e6*2018/858*00144*04",
     "e6*2018/858*00264*00 - e6*2018/858*00264*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022 - 2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Modelo: bZ4X (XEAM10, YEAM15), RZ300e (XEBM10) y RZ450e (XEBM15).",
-   "fechasTexto": "2022 - 2025"
+   "fechasTexto": "2022 - 2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +69,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "CY",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +101,20 @@
  "dedup": {
   "claves": [
    "ref:SR/03306/25",
-   "mm:lexus-toyota:e6-2018-858-00144-00-e6-2018-858-00144-04",
-   "mm:lexus-toyota:e6-2018-858-00264-00-e6-2018-858-00264-02"
+   "mm:lexus:e6-2018-858-00144-00-e6-2018-858-00144-04",
+   "mm:lexus:e6-2018-858-00264-00-e6-2018-858-00264-02",
+   "ml:lexus:2022-2025",
+   "mm:toyota:e6-2018-858-00144-00-e6-2018-858-00144-04",
+   "mm:toyota:e6-2018-858-00264-00-e6-2018-858-00264-02",
+   "ml:toyota:2022-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1903ec64a185cc72"
+  "enriquecido": true,
+  "hashContenido": "fd661b7cc4095315"
  },
  "slug": "coche-de-pasajeros-lexus-toyota-safety-gate-10095984"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e3*KS18/858*00109* (744)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.12.2023 - 24.06.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "21.12.2023 - 24.06.2025"
+   "fechasTexto": "21.12.2023 - 24.06.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03021/25",
-   "mm:lamborghini:e3-ks18-858-00109-744"
+   "mm:lamborghini:e3-ks18-858-00109-744",
+   "ml:lamborghini:21-12-2023-24-06-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "78c9a5f958599af7"
+  "enriquecido": true,
+  "hashContenido": "4716be7c84173ab3"
  },
  "slug": "coche-de-pasajeros-lamborghini-safety-gate-10095635"
 }

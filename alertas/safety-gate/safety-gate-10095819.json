@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,18 @@
     "e2*2007/46*0601*15 DS7 Crossback",
     "e2*2007/46*0639*01 - e2*2007/46*0639*11 DS3 Crossback"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.6.2018 - 15.12.2020 // VIN: VR1UCYHYJJW072566 to VR1UCYHYJMW000564 // DS3 Crossback"
+    },
+    {
+     "numero": "27.3.2017 - 15.11.2022 // VIN: VR1JCYHZJHY038919 to VR1JCYHZRLY051231 and VR1JJMUTEEY167643 to VR1JJEHZRPY501418 // DS7 Crossback"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "26.6.2018 - 15.12.2020 // VIN: VR1UCYHYJJW072566 to VR1UCYHYJMW000564 // DS3 Crossback27.3.2017 - 15.11.2022 // VIN: VR1JCYHZJHY038919 to VR1JCYHZRLY051231 and VR1JJMUTEEY167643 to VR1JJEHZRPY501418 // DS7 Crossback"
+   "fechasTexto": "26.6.2018 - 15.12.2020 // VIN: VR1UCYHYJJW072566 to VR1UCYHYJMW000564 // DS3 Crossback27.3.2017 - 15.11.2022 // VIN: VR1JCYHZJHY038919 to VR1JCYHZRLY051231 and VR1JJMUTEEY167643 to VR1JJEHZRPY501418 // DS7 Crossback",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +73,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "HU",
+   "IE",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +106,17 @@
    "mm:ds-automobiles:e2-2007-46-0601-00-e2-2007-46-0601-02-ds7-crossback",
    "mm:ds-automobiles:e2-2007-46-0601-04-e2-2007-46-0601-13-ds7-crossback",
    "mm:ds-automobiles:e2-2007-46-0601-15-ds7-crossback",
-   "mm:ds-automobiles:e2-2007-46-0639-01-e2-2007-46-0639-11-ds3-crossback"
+   "mm:ds-automobiles:e2-2007-46-0639-01-e2-2007-46-0639-11-ds3-crossback",
+   "ml:ds-automobiles:26-6-2018-15-12-2020-vin-vr1ucyhyjjw072566-to-vr1ucyhyjmw000564-ds3-crossback",
+   "ml:ds-automobiles:27-3-2017-15-11-2022-vin-vr1jcyhzjhy038919-to-vr1jcyhzrly051231-and-vr1jjmuteey167643-to-vr1jjehzrpy501418-ds7-crossback"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d0a2a8333ccbbc4d"
+  "enriquecido": true,
+  "hashContenido": "782c7d7be3500865"
  },
  "slug": "coche-de-pasajeros-ds-automobiles-safety-gate-10095819"
 }

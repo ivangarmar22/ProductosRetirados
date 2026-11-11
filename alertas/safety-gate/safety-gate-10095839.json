@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-18"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,82 +27,17 @@
     "Gorenje"
    ],
    "modelos": [
-    "DHNA93",
-    "DHNA93/DE",
-    "DHNA93/PL",
-    "DHNE93/DE"
+    "DHNA93, DHNA93/DE, DHNA93/PL, DHNE93/DE"
    ],
    "lotes": [
     {
-     "numero": "D709S"
-    },
-    {
-     "numero": "D709T"
-    },
-    {
-     "numero": "D70J7"
-    },
-    {
-     "numero": "D70JB"
-    },
-    {
-     "numero": "D70MQ"
-    },
-    {
-     "numero": "D70N6"
-    },
-    {
-     "numero": "D70SF"
-    },
-    {
-     "numero": "D70TK"
-    },
-    {
-     "numero": "D70U1"
-    },
-    {
-     "numero": "D70UF"
-    },
-    {
-     "numero": "D70Z7"
-    },
-    {
-     "numero": "D712T"
-    },
-    {
-     "numero": "D712V"
-    },
-    {
-     "numero": "D712W"
-    },
-    {
-     "numero": "D712X"
-    },
-    {
-     "numero": "D71C1"
-    },
-    {
-     "numero": "D71HG"
-    },
-    {
-     "numero": "D813M"
-    },
-    {
-     "numero": "D81HA"
-    },
-    {
-     "numero": "D81N8"
-    },
-    {
-     "numero": "D81QW"
-    },
-    {
-     "numero": "D81TZ"
+     "numero": "D709S, D709T, D70J7, D70JB, D70MQ, D70N6, D70SF, D70TK, D70U1, D70UF, D70Z7, D712T, D712V, D712W, D712X, D71C1, D71HG, D813M, D81HA, D81N8, D81QW, D81TZ"
     }
    ],
    "ean": [],
    "descripcion": "Secadora de tambor en carcasa blanca con puerta negra y unidad de control negra. Producido entre noviembre de 2024 y marzo de 2025.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -140,7 +75,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -168,40 +106,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03168/25",
-   "mm:gorenje:dhna93",
-   "mm:gorenje:dhna93-de",
-   "mm:gorenje:dhna93-pl",
-   "mm:gorenje:dhne93-de",
-   "ml:gorenje:d709s",
-   "ml:gorenje:d709t",
-   "ml:gorenje:d70j7",
-   "ml:gorenje:d70jb",
-   "ml:gorenje:d70mq",
-   "ml:gorenje:d70n6",
-   "ml:gorenje:d70sf",
-   "ml:gorenje:d70tk",
-   "ml:gorenje:d70u1",
-   "ml:gorenje:d70uf",
-   "ml:gorenje:d70z7",
-   "ml:gorenje:d712t",
-   "ml:gorenje:d712v",
-   "ml:gorenje:d712w",
-   "ml:gorenje:d712x",
-   "ml:gorenje:d71c1",
-   "ml:gorenje:d71hg",
-   "ml:gorenje:d813m",
-   "ml:gorenje:d81ha",
-   "ml:gorenje:d81n8",
-   "ml:gorenje:d81qw",
-   "ml:gorenje:d81tz"
+   "mm:gorenje:dhna93-dhna93-de-dhna93-pl-dhne93-de",
+   "ml:gorenje:d709s-d709t-d70j7-d70jb-d70mq-d70n6-d70sf-d70tk-d70u1-d70uf-d70z7-d712t-d712v-d712w-d712x-d71c1-d71hg-d813m-d81ha-d81n8-d81qw-d81tz"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c42679b000981b4c"
+  "enriquecido": true,
+  "hashContenido": "45546f7e6c313af0"
  },
  "slug": "secadora-de-tambor-gorenje-safety-gate-10095839"
 }

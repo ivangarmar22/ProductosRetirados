@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*2018/858*11452"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Año modelo: 2025. VIN: YSMYKEJE0SG028612.",
-   "fechasTexto": "2025"
+   "fechasTexto": "2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03195/25",
-   "mm:polestar:e9-2018-858-11452"
+   "mm:polestar:e9-2018-858-11452",
+   "ml:polestar:2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f34ad510ba35bc17"
+  "enriquecido": true,
+  "hashContenido": "c454fd04e154dcb0"
  },
  "slug": "coche-de-pasajeros-polestar-safety-gate-10095848"
 }

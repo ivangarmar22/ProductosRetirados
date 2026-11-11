@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -45,10 +45,15 @@
     "e1*2018/858*00409*",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.09.2023 - 24.03.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.09.2023 - 24.03.2025"
+   "fechasTexto": "01.09.2023 - 24.03.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,7 +83,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -142,15 +158,16 @@
    "mm:bmw:e1-2018-858-00316",
    "mm:bmw:e1-2018-858-00360",
    "mm:bmw:e1-2018-858-00409",
-   "mm:bmw:individual-approval"
+   "mm:bmw:individual-approval",
+   "ml:bmw:01-09-2023-24-03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3f6c397d2df35fb0"
+  "enriquecido": true,
+  "hashContenido": "eeaf44d846dc348f"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10094286"
 }

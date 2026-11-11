@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-04"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,12 +34,26 @@
    ],
    "lotes": [
     {
-     "numero": "CT63672CT64719CT66609ZX63831"
+     "numero": "CT63672"
+    },
+    {
+     "numero": "CT64719"
+    },
+    {
+     "numero": "CT66609"
+    },
+    {
+     "numero": "ZX63831"
     }
    ],
-   "ean": [],
+   "ean": [
+    "8475402638311",
+    "8475402647191",
+    "8475402666093"
+   ],
    "descripcion": "Resbalón en sandalias, destinado a los niños con un tema de dibujos animados. Todos los lotes están afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Etiqueta de cartón."
   }
  ],
  "riesgo": {
@@ -100,19 +114,25 @@
  "dedup": {
   "claves": [
    "ref:SR/03203/25",
+   "ean:8475402638311",
+   "ean:8475402647191",
+   "ean:8475402666093",
    "mm:s7star:calzature-acquatiche-unisex",
    "mm:s7star:calzature-unisex",
    "mm:s7star:calzature-da-bambina",
    "mm:s7star:calzature-da-bambino",
-   "ml:s7star:ct63672ct64719ct66609zx63831"
+   "ml:s7star:ct63672",
+   "ml:s7star:ct64719",
+   "ml:s7star:ct66609",
+   "ml:s7star:zx63831"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7b6ab68eb7204968"
+  "enriquecido": true,
+  "hashContenido": "68cb9f0ae1d3144d"
  },
  "slug": "sandalias-para-ninos-s7star-safety-gate-10095707"
 }

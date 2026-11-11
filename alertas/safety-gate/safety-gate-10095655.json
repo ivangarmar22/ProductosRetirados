@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,15 @@
     "e2*2007/46*0068*03",
     "e2*2007/46*0068*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.10.2010 - 19.07.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Rango de VIN: VF71NZKZZBU900208 - VF71NZKYZFU903021.",
-   "fechasTexto": "11.10.2010 - 19.07.2016"
+   "fechasTexto": "11.10.2010 - 19.07.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +72,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "NO",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +98,16 @@
    "mm:citroen:e2-2007-46-0068-01",
    "mm:citroen:e2-2007-46-0068-02",
    "mm:citroen:e2-2007-46-0068-03",
-   "mm:citroen:e2-2007-46-0068-04"
+   "mm:citroen:e2-2007-46-0068-04",
+   "ml:citroen:11-10-2010-19-07-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a89b8c2d9a2439ce"
+  "enriquecido": true,
+  "hashContenido": "a7414a7b6fbc48e2"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10095655"
 }

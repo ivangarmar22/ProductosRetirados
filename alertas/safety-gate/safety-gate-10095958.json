@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,18 @@
     "e2*2007/46*0628*13 508 V2",
     "e2*2007/46*0628*18 508 V2"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.07.2019 – 12.10.2022 // VIN: VF3M45GBUKS294549 - VF3M4DGZUNS150417 3008 V2"
+    },
+    {
+     "numero": "10.07.2019 – 19.04.2022 // VIN: VR3F3DGZTKY140598 - VR3F4DGZTNY538760 508 V2"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "02.07.2019 – 12.10.2022 // VIN: VF3M45GBUKS294549 - VF3M4DGZUNS150417 3008 V210.07.2019 – 19.04.2022 // VIN: VR3F3DGZTKY140598 - VR3F4DGZTNY538760 508 V2"
+   "fechasTexto": "02.07.2019 – 12.10.2022 // VIN: VF3M45GBUKS294549 - VF3M4DGZUNS150417 3008 V210.07.2019 – 19.04.2022 // VIN: VR3F3DGZTKY140598 - VR3F4DGZTNY538760 508 V2",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +75,23 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "MT",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +115,17 @@
    "mm:peugeot:e2-2007-46-0534-23-3008-v2",
    "mm:peugeot:e2-2007-46-0628-05-e2-2007-46-0628-11-508-v2",
    "mm:peugeot:e2-2007-46-0628-13-508-v2",
-   "mm:peugeot:e2-2007-46-0628-18-508-v2"
+   "mm:peugeot:e2-2007-46-0628-18-508-v2",
+   "ml:peugeot:02-07-2019-12-10-2022-vin-vf3m45gbuks294549-vf3m4dgzuns150417-3008-v2",
+   "ml:peugeot:10-07-2019-19-04-2022-vin-vr3f3dgztky140598-vr3f4dgztny538760-508-v2"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3f64f70fd7049266"
+  "enriquecido": true,
+  "hashContenido": "df9a543c08a6a134"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10095958"
 }

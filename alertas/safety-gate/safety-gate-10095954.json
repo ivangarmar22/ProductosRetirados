@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0601*07 - e2*2007/46*0601*09",
     "e2*2007/46*0601*11 - e2*2007/46*0601*17"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.03.2019 – 27.09.2021 // VIN: VR1J45GBUKY035270 - VR1J45GBUMY523962"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "07.03.2019 – 27.09.2021 // VIN: VR1J45GBUKY035270 - VR1J45GBUMY523962"
+   "fechasTexto": "07.03.2019 – 27.09.2021 // VIN: VR1J45GBUKY035270 - VR1J45GBUMY523962",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +97,16 @@
   "claves": [
    "ref:SR/03302/25",
    "mm:ds-automobiles:e2-2007-46-0601-07-e2-2007-46-0601-09",
-   "mm:ds-automobiles:e2-2007-46-0601-11-e2-2007-46-0601-17"
+   "mm:ds-automobiles:e2-2007-46-0601-11-e2-2007-46-0601-17",
+   "ml:ds-automobiles:07-03-2019-27-09-2021-vin-vr1j45gbuky035270-vr1j45gbumy523962"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2bea3795cccc6ec8"
+  "enriquecido": true,
+  "hashContenido": "f1df0af87f63785d"
  },
  "slug": "coche-de-pasajeros-ds-automobiles-safety-gate-10095954"
 }

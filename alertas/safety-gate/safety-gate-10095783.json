@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-10"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -35,7 +35,8 @@
     "5903957006963"
    ],
    "descripcion": "Soldador de inversores.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "879a291ac378e73a"
+  "enriquecido": true,
+  "hashContenido": "c4de3b0d54ad4f54"
  },
  "slug": "soldador-de-inversores-kraft-dele-safety-gate-10095783"
 }

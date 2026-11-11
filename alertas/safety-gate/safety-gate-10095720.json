@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-30"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Máquina de grabado láser. Producto vendido en línea, en particular a través de Amazon (ASIN: B0DNW1Q1W6).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón marrón."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "de98699a172bd932"
+  "enriquecido": true,
+  "hashContenido": "444629b5ba7f58fa"
  },
  "slug": "maquina-de-grabado-laser-homdmarket-safety-gate-10095720"
 }

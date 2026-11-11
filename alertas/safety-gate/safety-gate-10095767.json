@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -25,16 +25,15 @@
    "nombre": "P02",
    "marcas": [],
    "modelos": [
-    "P02",
-    "CWQ-431-Default Title",
-    "C04-03-03"
+    "P02, CWQ-431-Default Title, C04-03-03"
    ],
    "lotes": [],
    "ean": [
     "6978945626286"
    ],
    "descripcion": "Juguete de gato eléctrico con cable de carga. Producto vendido en línea, en particular a través de tassarna.se.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -91,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "51e18b2d93b02867"
+  "enriquecido": true,
+  "hashContenido": "538d070c2fa8a409"
  },
  "slug": "juguete-de-gato-p02-safety-gate-10095767"
 }

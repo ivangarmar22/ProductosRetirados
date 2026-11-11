@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e13*2018/858*00735*01",
     "e13*2018/858*00812*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.11.2024 - 24.03.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "12.11.2024 - 24.03.2025"
+   "fechasTexto": "12.11.2024 - 24.03.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -105,15 +110,16 @@
    "ref:SR/03232/25",
    "mm:lucas-s-a-s-fleurette:e13-2018-858-00472-03",
    "mm:lucas-s-a-s-fleurette:e13-2018-858-00735-01",
-   "mm:lucas-s-a-s-fleurette:e13-2018-858-00812-01"
+   "mm:lucas-s-a-s-fleurette:e13-2018-858-00812-01",
+   "ml:lucas-s-a-s-fleurette:12-11-2024-24-03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f8e10552f099b6db"
+  "enriquecido": true,
+  "hashContenido": "65b6899f4da0c2c6"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-lucas-s-a-s-fleurette-safety-gate-10095779"
 }

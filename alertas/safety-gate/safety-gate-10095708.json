@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-04"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,13 @@
    ],
    "lotes": [
     {
-     "numero": "1020-2225-02620-03"
+     "numero": "1020-2"
+    },
+    {
+     "numero": "225-02"
+    },
+    {
+     "numero": "620-03"
     }
    ],
    "ean": [
@@ -41,7 +47,8 @@
     "8230100620033"
    ],
    "descripcion": "Resbalón en sandalias, destinado a los niños con un tema de dibujos animados. Todos los lotes están afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Etiqueta de cartón."
   }
  ],
  "riesgo": {
@@ -95,15 +102,17 @@
    "ean:8230100620033",
    "mm:sesamall:calzature-da-bambino",
    "mm:sesamall:calzature-da-donna",
-   "ml:sesamall:1020-2225-02620-03"
+   "ml:sesamall:1020-2",
+   "ml:sesamall:225-02",
+   "ml:sesamall:620-03"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c22fa6d31a38d6d6"
+  "enriquecido": true,
+  "hashContenido": "f9a5b1535f13405a"
  },
  "slug": "sandalias-para-ninos-sesamall-safety-gate-10095708"
 }

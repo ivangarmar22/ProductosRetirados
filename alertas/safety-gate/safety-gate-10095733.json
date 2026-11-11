@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "225/50R18 99W"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "DOT 1H378 JAFR 4524"
+    }
+   ],
    "ean": [],
    "descripcion": "Piezas del vehículo / Neumático de coche. Producto vendido en línea. Fabricado en la semana 45 de 2024.",
-   "fechasTexto": "DOT 1H378 JAFR 4524"
+   "fechasTexto": "DOT 1H378 JAFR 4524",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Eslovenia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03146/25",
-   "mm:fulda:225-50r18-99w"
+   "mm:fulda:225-50r18-99w",
+   "ml:fulda:dot-1h378-jafr-4524"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "645ca27528c55d9e"
+  "enriquecido": true,
+  "hashContenido": "09933f006e5f6047"
  },
  "slug": "pieza-del-vehiculo-neumatico-de-coche-fulda-safety-gate-10095733"
 }

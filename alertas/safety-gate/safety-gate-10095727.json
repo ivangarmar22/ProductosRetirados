@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,17 +27,15 @@
     "YRB"
    ],
    "modelos": [
-    "ALA6-4",
-    "116-37",
-    "ALA6-5",
-    "116-41",
-    "ALA6-6",
-    "116-30"
+    "ALA6-4 / 116-37",
+    "ALA6-5 / 116-41",
+    "ALA6-6 / 116-30"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete para piano y playmat que reproduce sonidos electrónicos cuando se presionan los botones.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +82,17 @@
  "dedup": {
   "claves": [
    "ref:SR/03289/25",
-   "mm:yrb:ala6-4",
-   "mm:yrb:116-37",
-   "mm:yrb:ala6-5",
-   "mm:yrb:116-41",
-   "mm:yrb:ala6-6",
-   "mm:yrb:116-30"
+   "mm:yrb:ala6-4-116-37",
+   "mm:yrb:ala6-5-116-41",
+   "mm:yrb:ala6-6-116-30"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f57b2294de7257ca"
+  "enriquecido": true,
+  "hashContenido": "1310498b6bdd0b0f"
  },
  "slug": "juguete-musical-yrb-safety-gate-10095727"
 }

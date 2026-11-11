@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Papelería",
@@ -38,7 +38,8 @@
     "3700217391737"
    ],
    "descripcion": "Cuaderno y bolígrafo con encanto de mariposa.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fb98ecaf944e5683"
+  "enriquecido": true,
+  "hashContenido": "cbfb7e091a72880b"
  },
  "slug": "cuaderno-con-pluma-hachette-janod-safety-gate-10094577"
 }

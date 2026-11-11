@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,12 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "417414218142271"
+     "numero": "41741"
+    },
+    {
+     "numero": "42181"
+    },
+    {
+     "numero": "42271"
     }
    ],
    "ean": [],
    "descripcion": "Eau de Parfum (en inglés). Producto vendido en línea, en particular a través de stradivarius.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +95,17 @@
   "claves": [
    "ref:SR/03118/25",
    "mm:stradivarius:n-129-fleur-saline",
-   "ml:stradivarius:417414218142271"
+   "ml:stradivarius:41741",
+   "ml:stradivarius:42181",
+   "ml:stradivarius:42271"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dfd05a418bac4d39"
+  "enriquecido": true,
+  "hashContenido": "70ab157a061dd2a0"
  },
  "slug": "perfume-stradivarius-safety-gate-10095529"
 }

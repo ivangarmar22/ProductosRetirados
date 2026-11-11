@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "G3XN",
     "e1*2018/858*00409*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11/07/2024-15/07/2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "11/07/2024-15/07/2025"
+   "fechasTexto": "11/07/2024-15/07/2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +101,16 @@
   "claves": [
    "ref:SR/03316/25",
    "mm:bmw:g3xn",
-   "mm:bmw:e1-2018-858-00409-00"
+   "mm:bmw:e1-2018-858-00409-00",
+   "ml:bmw:11-07-2024-15-07-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd170a13f0f45fe4"
+  "enriquecido": true,
+  "hashContenido": "e2665d67cc1e066a"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10095938"
 }

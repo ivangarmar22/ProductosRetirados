@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,43 +27,19 @@
     "NEW HOLLAND"
    ],
    "modelos": [
-    "D1",
-    "D4",
-    "EG",
-    "DG",
-    "DD",
-    "LV",
-    "LE",
-    "L1",
-    "LO",
-    "LY",
-    "LT",
-    "J1",
-    "J3",
-    "A1",
-    "A7",
-    "A5",
-    "e24*167/2013*00325*",
-    "e13*167/2013*00016*",
-    "e24*167/2013*00373*",
-    "e24*167/2013*00370*",
-    "e13*167/2013*00273*",
-    "e24*167/2013*00457*",
-    "e24*167/2013*00441*",
-    "e8*167/2013*00057*",
-    "e13*167/2013*00217*",
-    "e8*167/2013*00013*",
-    "e8*167/2013*00070*",
-    "e8*167/2013*00120*",
-    "e13*167/2013*00247*",
-    "e13*167/2013*00010*",
-    "e24*167/2013*00319*",
-    "e13*167/2013*00069*"
+    "D1, D4, EG, DG, DD, LV, LE, L1, LO, LY, LT, J1, J3, A1, A7, A5",
+    "e24*167/2013*00325*, e13*167/2013*00016*, e24*167/2013*00373*, e24*167/2013*00370*, e13*167/2013*00273*, e24*167/2013*00457*, e24*167/2013*00441*",
+    "e8*167/2013*00057*, e13*167/2013*00217*, e8*167/2013*00013*, e8*167/2013*00070*, e8*167/2013*00120*, e13*167/2013*00247*, e13*167/2013*00010*, e24*167/2013*00319*, e13*167/2013*00069*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.4.2021 - 31.7.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo agrícola y forestal",
-   "fechasTexto": "1.4.2021 - 31.7.2022"
+   "fechasTexto": "1.4.2021 - 31.7.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -93,7 +69,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -144,30 +125,18 @@
  "dedup": {
   "claves": [
    "ref:SR/02973/25",
-   "mm:new-holland:e24-167-2013-00325",
-   "mm:new-holland:e13-167-2013-00016",
-   "mm:new-holland:e24-167-2013-00373",
-   "mm:new-holland:e24-167-2013-00370",
-   "mm:new-holland:e13-167-2013-00273",
-   "mm:new-holland:e24-167-2013-00457",
-   "mm:new-holland:e24-167-2013-00441",
-   "mm:new-holland:e8-167-2013-00057",
-   "mm:new-holland:e13-167-2013-00217",
-   "mm:new-holland:e8-167-2013-00013",
-   "mm:new-holland:e8-167-2013-00070",
-   "mm:new-holland:e8-167-2013-00120",
-   "mm:new-holland:e13-167-2013-00247",
-   "mm:new-holland:e13-167-2013-00010",
-   "mm:new-holland:e24-167-2013-00319",
-   "mm:new-holland:e13-167-2013-00069"
+   "mm:new-holland:d1-d4-eg-dg-dd-lv-le-l1-lo-ly-lt-j1-j3-a1-a7-a5",
+   "mm:new-holland:e24-167-2013-00325-e13-167-2013-00016-e24-167-2013-00373-e24-167-2013-00370-e13-167-2013-00273-e24-167-2013-00457-e24-167-2013-00441",
+   "mm:new-holland:e8-167-2013-00057-e13-167-2013-00217-e8-167-2013-00013-e8-167-2013-00070-e8-167-2013-00120-e13-167-2013-00247-e13-167-2013-00010-e24-167-2013-00319-e13-167-2013-00069",
+   "ml:new-holland:1-4-2021-31-7-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9495e6be0841d071"
+  "enriquecido": true,
+  "hashContenido": "9f3cbe1f0fe350e7"
  },
  "slug": "tractor-new-holland-safety-gate-10095464"
 }

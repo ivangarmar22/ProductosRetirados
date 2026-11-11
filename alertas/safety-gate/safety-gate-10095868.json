@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-21"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Aros de baloncesto.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Portugal",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "EE",
+   "HR",
+   "IE",
+   "PL",
+   "PT",
+   "SI",
+   "SK",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22d78d6651ac58db"
+  "enriquecido": true,
+  "hashContenido": "529bb3b4ee6c368d"
  },
  "slug": "aro-de-baloncesto-tarmak-safety-gate-10095868"
 }

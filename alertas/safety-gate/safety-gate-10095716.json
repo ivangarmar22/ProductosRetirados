@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e3*2018/858*00082*01-*04 (F175)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.12.2021 - 28.02.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.12.2021 - 28.02.2025"
+   "fechasTexto": "01.12.2021 - 28.02.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HU",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03064/25",
-   "mm:ferrari:e3-2018-858-00082-01-04-f175"
+   "mm:ferrari:e3-2018-858-00082-01-04-f175",
+   "ml:ferrari:01-12-2021-28-02-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "147d1e1dbe0ebdc3"
+  "enriquecido": true,
+  "hashContenido": "0c9c67fadd4d602b"
  },
  "slug": "coche-de-pasajeros-ferrari-safety-gate-10095716"
 }

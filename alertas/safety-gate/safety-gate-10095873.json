@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-18"
  },
  "categoria": {
   "literal": "Herramientas manuales",
@@ -34,7 +34,8 @@
     "4006274222953"
    ],
    "descripcion": "Destornillador inalámbrico, longitud: 180 mm, peso: 200 g.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico con fondo de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b2737323733f8e0d"
+  "enriquecido": true,
+  "hashContenido": "ba5c3fe64329beb5"
  },
  "slug": "destornillador-proxxon-safety-gate-10095873"
 }

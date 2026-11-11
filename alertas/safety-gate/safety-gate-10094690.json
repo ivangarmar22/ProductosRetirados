@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-20"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -27,13 +27,13 @@
     "Luminae"
    ],
    "modelos": [
-    "premium",
-    "dimmbar"
+    "premium / dimmbar"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Lámpara led regulable con motivos retroiluminados intercambiables. Fuente de alimentación de la fuente de alimentación USB. Dimensiones de la lámpara (h x w x d): 24 x 24 x 9 cm. Producto vendido en línea, en particular a través de https://luminaelights.com/, https://www.hethoutlokael.nl/ y https://buntnaturfamily.de/",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -98,16 +98,15 @@
  "dedup": {
   "claves": [
    "ref:SR/02202/25",
-   "mm:luminae:premium",
-   "mm:luminae:dimmbar"
+   "mm:luminae:premium-dimmbar"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5fc036de2ed5a577"
+  "enriquecido": true,
+  "hashContenido": "e503e011fc380d2f"
  },
  "slug": "lampara-luminae-safety-gate-10094690"
 }

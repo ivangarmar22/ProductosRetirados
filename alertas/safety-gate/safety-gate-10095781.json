@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-19"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,16 @@
    ],
    "lotes": [
     {
-     "numero": "2208 2309 24022408"
+     "numero": "2208"
+    },
+    {
+     "numero": "2309"
+    },
+    {
+     "numero": "2402"
+    },
+    {
+     "numero": "2408"
     }
    ],
    "ean": [
@@ -42,7 +51,8 @@
     "8711577262006"
    ],
    "descripcion": "Removedor de moldes, 500 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de spray de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +82,10 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +110,18 @@
    "mm:hg:0563203105030",
    "mm:hg:632050127",
    "mm:hg:632050130",
-   "ml:hg:2208-2309-24022408"
+   "ml:hg:2208",
+   "ml:hg:2309",
+   "ml:hg:2402",
+   "ml:hg:2408"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f1bdc04c9586c379"
+  "enriquecido": true,
+  "hashContenido": "314fd9f49a46364e"
  },
  "slug": "removedor-de-moldes-hg-safety-gate-10095781"
 }

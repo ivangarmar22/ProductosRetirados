@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-02"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -36,7 +36,8 @@
     "4792249054628"
    ],
    "descripcion": "Guantes de protección.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cartón adherido al producto."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Sri Lanka",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb2751ac9d202859"
+  "enriquecido": true,
+  "hashContenido": "edd654d14d452bde"
  },
  "slug": "guantes-de-proteccion-atg-safety-gate-10095607"
 }

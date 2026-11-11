@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-18"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -31,10 +31,6 @@
    ],
    "lotes": [],
    "ean": [
-    "3616958666587",
-    "3616958666594",
-    "3616958666600",
-    "3616958666617",
     "3616958666624",
     "3616958666631",
     "3616958666648",
@@ -58,10 +54,15 @@
     "3616958666822",
     "3616958666839",
     "3616958666846",
-    "3616958666853"
+    "3616958666853",
+    "3616958666587",
+    "3616958666594",
+    "3616958666600",
+    "3616958666617"
    ],
    "descripcion": "Chaleco de lana en cuatro colores (rosa, blanca, azul y taupe). Tamaños: 6 meses, 9 meses, 12 meses, 18 meses, 23 meses, 36 meses, 4 años.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -101,7 +102,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -121,10 +124,6 @@
  "dedup": {
   "claves": [
    "ref:SR/02543/25",
-   "ean:3616958666587",
-   "ean:3616958666594",
-   "ean:3616958666600",
-   "ean:3616958666617",
    "ean:3616958666624",
    "ean:3616958666631",
    "ean:3616958666648",
@@ -149,15 +148,19 @@
    "ean:3616958666839",
    "ean:3616958666846",
    "ean:3616958666853",
+   "ean:3616958666587",
+   "ean:3616958666594",
+   "ean:3616958666600",
+   "ean:3616958666617",
    "mm:tex-baby:i967959"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "12641cfce95d400c"
+  "enriquecido": true,
+  "hashContenido": "5972670839e9ebfa"
  },
  "slug": "chaqueta-para-ninos-tex-baby-safety-gate-10095162"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-09"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,10 +27,7 @@
     "Schwarzkopf Palette"
    ],
    "modelos": [
-    "LONG-LASTING INTENSITY",
-    "PERMANENT",
-    "6-79",
-    "3x CARE"
+    "LONG-LASTING INTENSITY, PERMANENT, 6-79, 3x CARE"
    ],
    "lotes": [
     {
@@ -41,7 +38,8 @@
     "9000101214024"
    ],
    "descripcion": "Tinte para el cabello, que contiene un tubo de 50 ml de crema colorante, un frasco de 50 ml de revelador, un sobre de 10 ml de mascarilla protectora y un par de guantes.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -103,19 +101,16 @@
   "claves": [
    "ref:SR/03260/25",
    "ean:9000101214024",
-   "mm:schwarzkopf-palette:long-lasting-intensity",
-   "mm:schwarzkopf-palette:permanent",
-   "mm:schwarzkopf-palette:6-79",
-   "mm:schwarzkopf-palette:3x-care",
+   "mm:schwarzkopf-palette:long-lasting-intensity-permanent-6-79-3x-care",
    "ml:schwarzkopf-palette:0827885432"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "65eeee3d4cfb32c1"
+  "enriquecido": true,
+  "hashContenido": "27318d1da02d3d40"
  },
  "slug": "tinte-para-el-cabello-schwarzkopf-palette-safety-gate-10095900"
 }

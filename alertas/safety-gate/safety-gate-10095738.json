@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "250691725069182506919"
+     "numero": "2506917"
+    },
+    {
+     "numero": "2506918"
+    },
+    {
+     "numero": "2506919"
     }
    ],
    "ean": [
     "4008233114781"
    ],
    "descripcion": "Gel de ducha, anunciado para higiene personal, 200 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo de plástico."
   }
  ],
  "riesgo": {
@@ -71,7 +78,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,15 +101,17 @@
   "claves": [
    "ref:SR/03129/25",
    "ean:4008233114781",
-   "ml:kneipp:250691725069182506919"
+   "ml:kneipp:2506917",
+   "ml:kneipp:2506918",
+   "ml:kneipp:2506919"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "66750d1130a99dd8"
+  "enriquecido": true,
+  "hashContenido": "5b5d158f23684ef8"
  },
  "slug": "gel-de-ducha-kneipp-safety-gate-10095738"
 }

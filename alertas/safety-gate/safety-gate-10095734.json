@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-08-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Otros - Neumáticos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Neumáticos para motocicletas, fabricados del 30.12.2024 al 06.07.2025. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00fb48637abe9d91"
+  "enriquecido": true,
+  "hashContenido": "65720ce746364d79"
  },
  "slug": "neumatico-de-motocicleta-dunlop-safety-gate-10095734"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*1783* (AW)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.04.2025 - 11.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "10.04.2025 - 11.04.2025"
+   "fechasTexto": "10.04.2025 - 11.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Sudáfrica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03282/25",
-   "mm:volkswagen:e1-2007-46-1783-aw"
+   "mm:volkswagen:e1-2007-46-1783-aw",
+   "ml:volkswagen:10-04-2025-11-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1072cae64033e530"
+  "enriquecido": true,
+  "hashContenido": "161a5a40fd0f6cae"
  },
  "slug": "coche-de-pasajeros-volkswagen-safety-gate-10095896"
 }

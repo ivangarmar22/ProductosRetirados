@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete de plástico turquesa en forma de unicornio, de unos 10 cm de longitud. Este producto es un artículo vintage.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico ziplock."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Hong Kong",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "075625032a553b50"
+  "enriquecido": true,
+  "hashContenido": "9a5c8b82362b558d"
  },
  "slug": "juguete-de-plastico-hasbro-bradley-safety-gate-10095752"
 }

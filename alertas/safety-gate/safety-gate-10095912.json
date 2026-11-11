@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-09"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "GARNIER Fructis"
    ],
    "modelos": [
-    "Dry",
-    "Damaged Hair"
+    "Dry, Damaged Hair"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "3600540366337"
    ],
    "descripcion": "Acondicionador capilar, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -89,17 +89,16 @@
   "claves": [
    "ref:SR/03252/25",
    "ean:3600540366337",
-   "mm:garnier-fructis:dry",
-   "mm:garnier-fructis:damaged-hair",
+   "mm:garnier-fructis:dry-damaged-hair",
    "ml:garnier-fructis:26nn00"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bbb516136c65da65"
+  "enriquecido": true,
+  "hashContenido": "8cf8ec35d22e8695"
  },
  "slug": "acondicionador-de-cabello-garnier-fructis-safety-gate-10095912"
 }
