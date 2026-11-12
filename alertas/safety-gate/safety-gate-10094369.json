@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,13 @@
     "Iveco"
    ],
    "modelos": [
-    "e3*2007/46*0187*15",
-    "e3*2007/46*0187*16",
-    "e3*2007/46*0188*14",
-    "e3*2007/46*0188*15",
-    "e3*2007/46*0202*15",
-    "e3*2007/46*0202*16"
+    "e3*2007/46*0187*15 ; e3*2007/46*0187*16 ; e3*2007/46*0188*14 ; e3*2007/46*0188*15 ; e3*2007/46*0202*15 ; e3*2007/46*0202*16"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Vehículo comercial con peso bruto del vehículo GVW entre 7,5 y 10 toneladas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +81,15 @@
  "dedup": {
   "claves": [
    "ref:SR/01918/25",
-   "mm:iveco:e3-2007-46-0187-15",
-   "mm:iveco:e3-2007-46-0187-16",
-   "mm:iveco:e3-2007-46-0188-14",
-   "mm:iveco:e3-2007-46-0188-15",
-   "mm:iveco:e3-2007-46-0202-15",
-   "mm:iveco:e3-2007-46-0202-16"
+   "mm:iveco:e3-2007-46-0187-15-e3-2007-46-0187-16-e3-2007-46-0188-14-e3-2007-46-0188-15-e3-2007-46-0202-15-e3-2007-46-0202-16"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb5cf7d4060cc6df"
+  "enriquecido": true,
+  "hashContenido": "29fd2f0fc980a8e8"
  },
  "slug": "camion-iveco-safety-gate-10094369"
 }

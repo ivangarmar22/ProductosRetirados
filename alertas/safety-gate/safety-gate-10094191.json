@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "VALKAI"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.02.2022 - 23.12.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Remolque de plataforma plana de un eje, categoría de vehículo: O1.",
-   "fechasTexto": "08.02.2022 - 23.12.2024"
+   "fechasTexto": "08.02.2022 - 23.12.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -90,15 +95,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/01905/25"
+   "ref:SR/01905/25",
+   "ml:valkai:08-02-2022-23-12-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c7a678e84cf1c93f"
+  "enriquecido": true,
+  "hashContenido": "e7ab32502faa6231"
  },
  "slug": "trailer-valkai-safety-gate-10094191"
 }

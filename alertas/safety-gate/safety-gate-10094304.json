@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "3700217391478"
    ],
    "descripcion": "Set de coloración compuesto por cuatro cuadros de doble cara y un rotulador con punta de fieltro a base de agua.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "BG",
+   "IE",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9b8d78cdd1aa52be"
+  "enriquecido": true,
+  "hashContenido": "8f34a8fae0bd998e"
  },
  "slug": "conjunto-de-coloracion-hachette-janod-safety-gate-10094304"
 }

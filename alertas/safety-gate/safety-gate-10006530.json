@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-04"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -31,14 +31,24 @@
    ],
    "lotes": [
     {
-     "numero": "12000977120009781210030712101768"
+     "numero": "12000977"
+    },
+    {
+     "numero": "12000978"
+    },
+    {
+     "numero": "12100307"
+    },
+    {
+     "numero": "12101768"
     }
    ],
    "ean": [
     "5902628709202"
    ],
    "descripcion": "Recortador de setos inalámbrico con una tensión de 18V y una longitud de corte de barra de 510 mm. Los productos cubiertos por la notificación estaban disponibles para su compra hasta 2022.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +83,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,15 +107,18 @@
    "ref:A12/01114/22",
    "ean:5902628709202",
    "mm:dedra:ded7092",
-   "ml:dedra:12000977120009781210030712101768"
+   "ml:dedra:12000977",
+   "ml:dedra:12000978",
+   "ml:dedra:12100307",
+   "ml:dedra:12101768"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6e797b8525ed7d87"
+  "enriquecido": true,
+  "hashContenido": "4a811923291de478"
  },
  "slug": "recortadora-de-setos-dedra-safety-gate-10006530"
 }

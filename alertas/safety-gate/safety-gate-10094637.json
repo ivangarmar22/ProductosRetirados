@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "1/1306/201/0715/20"
+     "numero": "1/1306/20"
+    },
+    {
+     "numero": "1/0715/20"
     }
    ],
    "ean": [
     "8595030069261"
    ],
    "descripcion": "Ungüento a base de hierbas, 150 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Recipiente de plástico transparente con tapa de plástico blanco."
   }
  ],
  "riesgo": {
@@ -98,15 +102,16 @@
   "claves": [
    "ref:SR/02076/25",
    "ean:8595030069261",
-   "ml:svizel:1-1306-201-0715-20"
+   "ml:svizel:1-1306-20",
+   "ml:svizel:1-0715-20"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ba96771a40251eff"
+  "enriquecido": true,
+  "hashContenido": "b5385eb7e333a506"
  },
  "slug": "unguento-de-hierbas-svizel-safety-gate-10094637"
 }

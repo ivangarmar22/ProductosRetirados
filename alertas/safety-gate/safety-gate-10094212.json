@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-22"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -33,9 +33,12 @@
     "STRAWBERRY MANGO"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "6975819831005"
+   ],
    "descripcion": "Cigarrillo electrónico desechable, con un volumen de 30 ml, una concentración de nicotina del 5 % y un número de bocanadas: 40000. Fecha de fabricación: 2024/11/30 y fecha de expiración: 2027/11/30.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -80,6 +83,7 @@
  "dedup": {
   "claves": [
    "ref:SR/01742/25",
+   "ean:6975819831005",
    "mm:rendm:blue-razz-ice",
    "mm:rendm:cherry",
    "mm:rendm:mix-berries",
@@ -87,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35144c4d926628e4"
+  "enriquecido": true,
+  "hashContenido": "907b8d572545d2fa"
  },
  "slug": "cigarrillo-electronico-desechable-rendm-safety-gate-10094212"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-24"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "3276007453294"
    ],
    "descripcion": "Cortacésped autopropulsado de gasolina XP200A, 196 cc, 56 cm, con motor EURO V Todos los lotes del producto están afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "PL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "199cbb258b66230a"
+  "enriquecido": true,
+  "hashContenido": "348468bca05342d7"
  },
  "slug": "cortacesped-sterwins-safety-gate-10093641"
 }

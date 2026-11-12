@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "ZF Friedrichshafen AG"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.06.2024 - 05.03.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo: brazo de control de la pista.",
-   "fechasTexto": "07.06.2024 - 05.03.2025"
+   "fechasTexto": "07.06.2024 - 05.03.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,15 +79,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/01911/25"
+   "ref:SR/01911/25",
+   "ml:zf-friedrichshafen-ag:07-06-2024-05-03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6d17d3cb0a0b2b85"
+  "enriquecido": true,
+  "hashContenido": "037b30766f5b3c88"
  },
  "slug": "parte-del-vehiculo-brazo-de-control-zf-friedrichshafen-ag-safety-gate-10094381"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E2*54R00/23*18900*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2018 - 03/2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumático para grúa.",
-   "fechasTexto": "2018 - 03/2024"
+   "fechasTexto": "2018 - 03/2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01676/25",
-   "mm:bf-goodrich:e2-54r00-23-18900-01"
+   "mm:bf-goodrich:e2-54r00-23-18900-01",
+   "ml:bf-goodrich:2018-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "49f3d42976284546"
+  "enriquecido": true,
+  "hashContenido": "c3ce18538c71b2c3"
  },
  "slug": "neumatico-bf-goodrich-safety-gate-10094005"
 }

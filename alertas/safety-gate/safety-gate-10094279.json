@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,18 @@
     "e2*2007/46*0639*32 Corsa",
     "e2*2007/46*0639*34 Corsa"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24/05/2024 - 07/06/2024 Mokka"
+    },
+    {
+     "numero": "24/05/2024 - 27/08/2024 Corsa"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "24/05/2024 - 07/06/2024 Mokka24/05/2024 - 27/08/2024 Corsa"
+   "fechasTexto": "24/05/2024 - 07/06/2024 Mokka24/05/2024 - 27/08/2024 Corsa",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +73,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HR",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +100,17 @@
    "mm:opel-vauxhall:e2-2007-46-0639-31-corsa",
    "mm:opel-vauxhall:e2-2007-46-0639-31-mokka",
    "mm:opel-vauxhall:e2-2007-46-0639-32-corsa",
-   "mm:opel-vauxhall:e2-2007-46-0639-34-corsa"
+   "mm:opel-vauxhall:e2-2007-46-0639-34-corsa",
+   "ml:opel-vauxhall:24-05-2024-07-06-2024-mokka",
+   "ml:opel-vauxhall:24-05-2024-27-08-2024-corsa"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6d40d9d23a671eef"
+  "enriquecido": true,
+  "hashContenido": "df519e8dfb925554"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10094279"
 }

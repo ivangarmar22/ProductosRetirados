@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -35,10 +35,15 @@
     "e13*2018/858*00255*10",
     "e13*2018/858*00255*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.09.2022 - 23.07.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con T3 M Hybrid Boost.",
-   "fechasTexto": "28.09.2022 - 23.07.2024"
+   "fechasTexto": "28.09.2022 - 23.07.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +73,17 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "HU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +104,16 @@
    "mm:mazda:e13-2018-858-00255-08",
    "mm:mazda:e13-2018-858-00255-09",
    "mm:mazda:e13-2018-858-00255-10",
-   "mm:mazda:e13-2018-858-00255-11"
+   "mm:mazda:e13-2018-858-00255-11",
+   "ml:mazda:28-09-2022-23-07-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "15f1a8d4a4b52ec9"
+  "enriquecido": true,
+  "hashContenido": "74fc3c86a39cbeb0"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10094391"
 }

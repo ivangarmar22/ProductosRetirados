@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,18 @@
    "modelos": [
     "e2*2007/46*0639*31"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26/5/2024 - 6/6/2024 2008 II"
+    },
+    {
+     "numero": "27/5/2024 - 6/6/2024 208 II"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "26/5/2024 - 6/6/2024 2008 II27/5/2024 - 6/6/2024 208 II"
+   "fechasTexto": "26/5/2024 - 6/6/2024 2008 II27/5/2024 - 6/6/2024 208 II",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +70,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +100,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02104/25",
-   "mm:peugeot:e2-2007-46-0639-31"
+   "mm:peugeot:e2-2007-46-0639-31",
+   "ml:peugeot:26-5-2024-6-6-2024-2008-ii",
+   "ml:peugeot:27-5-2024-6-6-2024-208-ii"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c4f00c5560c672ce"
+  "enriquecido": true,
+  "hashContenido": "069561a45a2a370d"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10094283"
 }

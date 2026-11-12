@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*168/2013*01732*00 (CA70)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.06.2023 - 27.12.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "20.06.2023 - 27.12.2024"
+   "fechasTexto": "20.06.2023 - 27.12.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01901/25",
-   "mm:fantic-motor:e13-168-2013-01732-00-ca70"
+   "mm:fantic-motor:e13-168-2013-01732-00-ca70",
+   "ml:fantic-motor:20-06-2023-27-12-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8ba96de794bca0ef"
+  "enriquecido": true,
+  "hashContenido": "cbb968cf7caa5087"
  },
  "slug": "motocicleta-fantic-motor-safety-gate-10094397"
 }

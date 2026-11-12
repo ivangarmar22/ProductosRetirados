@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-16"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Arneses de escalada grises y naranjas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df4ac19168a3be4c"
+  "enriquecido": true,
+  "hashContenido": "b7c64c3063d615f0"
  },
  "slug": "arnes-de-escalada-petzl-safety-gate-10093969"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-15"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "10/2022758/2022"
+     "numero": "10/2022"
+    },
+    {
+     "numero": "758/2022"
     }
    ],
    "ean": [
     "5908274506004"
    ],
    "descripcion": "Guantes protectores recubiertos de látex, talla 8.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +76,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,15 +111,16 @@
    "ref:SR/02138/25",
    "ean:5908274506004",
    "mm:procera:neon",
-   "ml:procera:10-2022758-2022"
+   "ml:procera:10-2022",
+   "ml:procera:758-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "62a83ba0510d00b2"
+  "enriquecido": true,
+  "hashContenido": "5ccdf763cbd7aac7"
  },
  "slug": "guantes-de-proteccion-procera-safety-gate-10094687"
 }

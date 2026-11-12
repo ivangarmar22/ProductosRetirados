@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "VDF170VDI170"
+     "numero": "VDF170"
+    },
+    {
+     "numero": "VDI170"
     }
    ],
    "ean": [
     "8002140062018"
    ],
    "descripcion": "Tónico facial 200 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:SR/02073/25",
    "ean:8002140062018",
-   "ml:cera-di-cupra:vdf170vdi170"
+   "ml:cera-di-cupra:vdf170",
+   "ml:cera-di-cupra:vdi170"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ff1f607ec355a3d9"
+  "enriquecido": true,
+  "hashContenido": "fb567c3f66f2170b"
  },
  "slug": "tonico-facial-cera-di-cupra-safety-gate-10094571"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "91429"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2023 - 27.06.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo: Amortiguador de choque.",
-   "fechasTexto": "01.01.2023 - 27.06.2024"
+   "fechasTexto": "01.01.2023 - 27.06.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Taiwán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +98,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02000/25",
-   "mm:scooter-center:91429"
+   "mm:scooter-center:91429",
+   "ml:scooter-center:01-01-2023-27-06-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a072b2028ab8828a"
+  "enriquecido": true,
+  "hashContenido": "4c1d89571d92cad6"
  },
  "slug": "parte-del-vehiculo-amortiguador-de-choque-scooter-center-gmbh-safety-gate-10094498"
 }

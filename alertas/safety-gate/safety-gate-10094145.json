@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "M00123M00223"
+     "numero": "M00123"
+    },
+    {
+     "numero": "M00223"
     }
    ],
    "ean": [
     "7908433413547"
    ],
    "descripcion": "Crema para el cabello, 1000 ml. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -107,15 +111,16 @@
   "claves": [
    "ref:SR/01663/25",
    "ean:7908433413547",
-   "ml:mood-cosmetics:m00123m00223"
+   "ml:mood-cosmetics:m00123",
+   "ml:mood-cosmetics:m00223"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ae1833ee80106150"
+  "enriquecido": true,
+  "hashContenido": "b197100faa97a0c4"
  },
  "slug": "crema-para-el-cabello-mood-cosmetics-safety-gate-10094145"
 }

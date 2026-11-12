@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "8004761069193"
    ],
    "descripcion": "Espada de juguete de plástico.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Etiqueta de cartón."
   }
  ],
  "riesgo": {
@@ -76,7 +77,10 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "78f0ce21e34b79a1"
+  "enriquecido": true,
+  "hashContenido": "45d8ea05f330176a"
  },
  "slug": "espada-de-juguete-carnival-toys-safety-gate-10094423"
 }

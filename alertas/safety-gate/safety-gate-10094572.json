@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "116065116066"
+     "numero": "116065"
+    },
+    {
+     "numero": "116066"
     }
    ],
    "ean": [
     "8009740804888"
    ],
    "descripcion": "Espuma de baño, 500 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -82,15 +86,16 @@
   "claves": [
    "ref:SR/02052/25",
    "ean:8009740804888",
-   "ml:perlier:116065116066"
+   "ml:perlier:116065",
+   "ml:perlier:116066"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "daa2bae924ce9422"
+  "enriquecido": true,
+  "hashContenido": "128eec761ab3921f"
  },
  "slug": "espuma-de-bano-perlier-safety-gate-10094572"
 }

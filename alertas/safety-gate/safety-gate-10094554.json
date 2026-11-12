@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-07"
  },
  "categoria": {
   "literal": "Artículos varios",
@@ -34,7 +34,8 @@
     "4011905013428"
    ],
    "descripcion": "Luz intermitente para collar de perro. Producto vendido en línea, en particular a través de www.hund.se y www.djurmaxi.se.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de ampollas."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "72d80275ba80e58c"
+  "enriquecido": true,
+  "hashContenido": "e5a0432520e6c8cc"
  },
  "slug": "luz-de-collar-de-perro-trixie-safety-gate-10094554"
 }

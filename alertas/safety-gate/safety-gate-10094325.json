@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-19"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "2027051924002"
+     "numero": "20270519"
+    },
+    {
+     "numero": "24002"
     }
    ],
    "ean": [
     "8806135244911"
    ],
    "descripcion": "Crema de ojos, 30 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo de plástico blanco en una caja de cartón con una figura de hoja beige."
   }
  ],
  "riesgo": {
@@ -98,15 +102,16 @@
   "claves": [
    "ref:SR/01793/25",
    "ean:8806135244911",
-   "ml:isntree:2027051924002"
+   "ml:isntree:20270519",
+   "ml:isntree:24002"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "012d96fdc9e93dd6"
+  "enriquecido": true,
+  "hashContenido": "caedf9b6cdf27857"
  },
  "slug": "crema-para-los-ojos-isntree-safety-gate-10094325"
 }

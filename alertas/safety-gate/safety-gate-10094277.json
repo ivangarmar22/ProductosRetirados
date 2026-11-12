@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0639*31"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25/5/2024 - 6/6/2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "25/5/2024 - 6/6/2024"
+   "fechasTexto": "25/5/2024 - 6/6/2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02106/25",
-   "mm:ds-automobiles:e2-2007-46-0639-31"
+   "mm:ds-automobiles:e2-2007-46-0639-31",
+   "ml:ds-automobiles:25-5-2024-6-6-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "82faa67e6b75a423"
+  "enriquecido": true,
+  "hashContenido": "2c0f7fcda5ba3615"
  },
  "slug": "coche-de-pasajeros-ds-automobiles-safety-gate-10094277"
 }

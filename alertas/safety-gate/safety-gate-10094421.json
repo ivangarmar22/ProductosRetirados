@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -37,9 +37,14 @@
      "numero": "F1292207"
     }
    ],
-   "ean": [],
+   "ean": [
+    "8051361059192",
+    "8051361059222",
+    "8051361059666"
+   ],
    "descripcion": "Barniz de gel coloreado para uñas, 10 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -104,6 +109,9 @@
  "dedup": {
   "claves": [
    "ref:SR/01932/25",
+   "ean:8051361059192",
+   "ean:8051361059222",
+   "ean:8051361059666",
    "mm:em-milano:1019",
    "mm:em-milano:1023",
    "mm:em-milano:1066",
@@ -112,11 +120,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "135042c156c32d60"
+  "enriquecido": true,
+  "hashContenido": "166064caa4e68174"
  },
  "slug": "barniz-de-unas-em-milano-safety-gate-10094421"
 }

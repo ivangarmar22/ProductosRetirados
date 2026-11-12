@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2018/858*00795*00 (137)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.12.2023 - 08.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": "12.12.2023 - 08.04.2025"
+   "fechasTexto": "12.12.2023 - 08.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01914/25",
-   "mm:eura-mobil:e13-2018-858-00795-00-137"
+   "mm:eura-mobil:e13-2018-858-00795-00-137",
+   "ml:eura-mobil:12-12-2023-08-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c33d551cc7e1ac22"
+  "enriquecido": true,
+  "hashContenido": "5ca0de58c2355b3f"
  },
  "slug": "camioneta-de-camper-eura-mobil-safety-gate-10094336"
 }

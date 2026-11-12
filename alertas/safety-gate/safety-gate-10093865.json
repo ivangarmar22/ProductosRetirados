@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-10"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Lámpara de uñas UV. Entrada de voltaje: 100-240 V CA, salida: 24 V DC. Salida actual: 2 A. Producto vendido en línea, en particular a través de AliExpress (identificador único: 1005006072000368) y Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +62,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "912d57ff1f7e4f77"
+  "enriquecido": true,
+  "hashContenido": "8ee3bea2c2bbbe27"
  },
  "slug": "lampara-de-unas-uv-linmanda-lampe-led-uv-professionnelle-pour-n64-mach-safety-gate-10093865"
 }

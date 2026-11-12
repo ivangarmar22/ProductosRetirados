@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "UMX",
     "e1*2018/858*00370*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.05.2023 - 28.06.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "19.05.2023 - 28.06.2024"
+   "fechasTexto": "19.05.2023 - 28.06.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +92,16 @@
   "claves": [
    "ref:SR/01910/25",
    "mm:mini:umx",
-   "mm:mini:e1-2018-858-00370"
+   "mm:mini:e1-2018-858-00370",
+   "ml:mini:19-05-2023-28-06-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64a8e49cc2a7d61e"
+  "enriquecido": true,
+  "hashContenido": "7143ba82c76e9bdf"
  },
  "slug": "coche-de-pasajeros-mini-safety-gate-10094395"
 }

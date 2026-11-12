@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-19"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -25,8 +25,7 @@
    "nombre": "Dining chair \"Gadstrup\"",
    "marcas": [],
    "modelos": [
-    "oak",
-    "black"
+    "oak, black"
    ],
    "lotes": [
     {
@@ -35,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Silla con patas, laterales del respaldo, respaldo hecho de tubos de metal negro (22 y 28 mm de diámetro respectivamente) y un asiento hecho de tablero de fibra de madera (MDF) de 15 mm de espesor, color roble. Dimensiones: W46 x H77 x D50 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6ab4adec924a9114"
+  "enriquecido": true,
+  "hashContenido": "a25a83c5b002db21"
  },
  "slug": "catedra-dining-chair-gadstrup-safety-gate-10094604"
 }

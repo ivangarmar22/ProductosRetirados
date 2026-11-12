@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-10"
  },
  "categoria": {
   "literal": "Equipos para atmósferas explosivas",
@@ -27,16 +27,13 @@
     "Unicorn"
    ],
    "modelos": [
-    "TB020",
-    "TB040ME2",
-    "TB060",
-    "TB075",
-    "TB080"
+    "TB020, TB040ME2, TB060, TB075, TB080"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Luminaria lineal led, amarilla, de unos 60 cm de largo anunciada para su uso en atmósferas potencialmente explosivas. Producto vendido en línea, en particular a través de Alibaba.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,19 +105,15 @@
  "dedup": {
   "claves": [
    "ref:SR/01986/25",
-   "mm:unicorn:tb020",
-   "mm:unicorn:tb040me2",
-   "mm:unicorn:tb060",
-   "mm:unicorn:tb075",
-   "mm:unicorn:tb080"
+   "mm:unicorn:tb020-tb040me2-tb060-tb075-tb080"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9444dd7176b61fc1"
+  "enriquecido": true,
+  "hashContenido": "a2ba4f7cd74ea083"
  },
  "slug": "luz-de-led-unicorn-safety-gate-10094458"
 }

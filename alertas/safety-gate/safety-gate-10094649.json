@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "10KD0110L400"
+     "numero": "10KD01"
+    },
+    {
+     "numero": "10L400"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "8024417564032"
    ],
    "descripcion": "Tinte para el cabello.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -109,15 +113,16 @@
    "ean:8024417564032",
    "mm:loreal-paris:p46-intense-deep-red",
    "mm:loreal-paris:p76-bright-light-red",
-   "ml:loreal-paris:10kd0110l400"
+   "ml:loreal-paris:10kd01",
+   "ml:loreal-paris:10l400"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f35e6cb5709a0e8c"
+  "enriquecido": true,
+  "hashContenido": "0a8115ea572ebcca"
  },
  "slug": "tinte-para-el-cabello-loreal-paris-safety-gate-10094649"
 }

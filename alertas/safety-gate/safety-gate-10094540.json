@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e5*2007/46*0069*07",
     "e5*2007/46*0069*08"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.11.2023 - 20.09.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Gama de VIN: JMZND **** 00 700004 - 705927.",
-   "fechasTexto": "28.11.2023 - 20.09.2024"
+   "fechasTexto": "28.11.2023 - 20.09.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +98,16 @@
    "ref:SR/01996/25",
    "mm:mazda:e5-2007-46-0069-06",
    "mm:mazda:e5-2007-46-0069-07",
-   "mm:mazda:e5-2007-46-0069-08"
+   "mm:mazda:e5-2007-46-0069-08",
+   "ml:mazda:28-11-2023-20-09-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4ffaf3d6a51fce36"
+  "enriquecido": true,
+  "hashContenido": "edfc4a7d0db6579d"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10094540"
 }

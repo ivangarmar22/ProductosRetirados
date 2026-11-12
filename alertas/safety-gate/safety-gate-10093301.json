@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-02"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -24,12 +24,18 @@
   {
    "nombre": "Magic patron / Booster sniff / Energy boost / Boost your day",
    "marcas": [
-    "40sniffys, Narcos, Pipps, Sniffy"
+    "40sniffys",
+    "Narcos",
+    "Pipps",
+    "Sniffy"
    ],
    "modelos": [],
    "lotes": [
     {
-     "numero": "B07G2VR4SK B0CVY27429"
+     "numero": "B07G2VR4SK"
+    },
+    {
+     "numero": "B0CVY27429"
     }
    ],
    "ean": [
@@ -37,7 +43,8 @@
     "04270004471304"
    ],
    "descripcion": "Polvo energizante, destinado a ser inhalado, 15 g. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Viales de plástico."
   }
  ],
  "riesgo": {
@@ -96,15 +103,22 @@
    "ref:SR/02042/25",
    "ean:04270004125696",
    "ean:04270004471304",
-   "ml:40sniffys-narcos-pipps-sniffy:b07g2vr4sk-b0cvy27429"
+   "ml:40sniffys:b07g2vr4sk",
+   "ml:40sniffys:b0cvy27429",
+   "ml:narcos:b07g2vr4sk",
+   "ml:narcos:b0cvy27429",
+   "ml:pipps:b07g2vr4sk",
+   "ml:pipps:b0cvy27429",
+   "ml:sniffy:b07g2vr4sk",
+   "ml:sniffy:b0cvy27429"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "78dd05c62531ea15"
+  "enriquecido": true,
+  "hashContenido": "81022b6ec615120f"
  },
  "slug": "polvo-de-olfateo-de-energia-40sniffys-narcos-pipps-sniffy-safety-gate-10093301"
 }

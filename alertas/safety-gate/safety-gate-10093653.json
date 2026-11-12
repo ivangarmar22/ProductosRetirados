@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-16"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "4019427796010"
    ],
    "descripcion": "Un juego de botellas de pintura de cuatro dedos de 150 g. Incluye los colores azul, rojo, amarillo y verde. Producto vendido en línea, en particular a través de Allegro, Amazon y youdoit.fr",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -80,7 +81,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +118,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "99f5732e4100cbee"
+  "enriquecido": true,
+  "hashContenido": "26ec1cb10a0421e8"
  },
  "slug": "pintura-para-dedos-okonorm-safety-gate-10093653"
 }
