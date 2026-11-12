@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -86,10 +86,21 @@
     "e2*2007/46*0639*22",
     "e2*2007/46*0639*23"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.07.2020 - 31.01.2023 (DS4 V2)"
+    },
+    {
+     "numero": "26.06.2018 - 31.01.2023 (DS3 Crossback)"
+    },
+    {
+     "numero": "4.10.2017 - 31.01.2023 (DS7 Crossback)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "20.07.2020 - 31.01.2023 (DS4 V2)26.06.2018 - 31.01.2023 (DS3 Crossback)4.10.2017 - 31.01.2023 (DS7 Crossback)"
+   "fechasTexto": "20.07.2020 - 31.01.2023 (DS4 V2)26.06.2018 - 31.01.2023 (DS3 Crossback)4.10.2017 - 31.01.2023 (DS7 Crossback)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -119,7 +130,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "GR",
+   "LU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -199,15 +215,18 @@
    "mm:ds-automobiles:e2-2007-46-0639-20",
    "mm:ds-automobiles:e2-2007-46-0639-21",
    "mm:ds-automobiles:e2-2007-46-0639-22",
-   "mm:ds-automobiles:e2-2007-46-0639-23"
+   "mm:ds-automobiles:e2-2007-46-0639-23",
+   "ml:ds-automobiles:20-07-2020-31-01-2023-ds4-v2",
+   "ml:ds-automobiles:26-06-2018-31-01-2023-ds3-crossback",
+   "ml:ds-automobiles:4-10-2017-31-01-2023-ds7-crossback"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ed401f0330638d22"
+  "enriquecido": true,
+  "hashContenido": "3f0fd6fa3cfccd3d"
  },
  "slug": "coche-de-pasajeros-ds-automobiles-safety-gate-10095194"
 }

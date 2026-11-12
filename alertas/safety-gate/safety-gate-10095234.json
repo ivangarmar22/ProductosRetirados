@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Canyon"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.03.2024 - 20.03.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta de 3 ruedas. Año modelo: 2025.",
-   "fechasTexto": "22.03.2024 - 20.03.2025"
+   "fechasTexto": "22.03.2024 - 20.03.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Canadá",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02651/25",
-   "mm:can-am:canyon"
+   "mm:can-am:canyon",
+   "ml:can-am:22-03-2024-20-03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4fbe74d50a746334"
+  "enriquecido": true,
+  "hashContenido": "179181c31f80110b"
  },
  "slug": "motocicleta-de-3-ruedas-can-am-safety-gate-10095234"
 }

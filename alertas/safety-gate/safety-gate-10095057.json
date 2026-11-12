@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-19"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Accesorio para cortadoras de cepillos para recortar y cortar bordes de césped u otra vegetación. El accesorio de corte consta de seis cuchillos móviles que se pueden utilizar para cortar cuando giran a alta velocidad.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,11 +80,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e6330b5993757369"
+  "enriquecido": true,
+  "hashContenido": "fbc583cc946a93a1"
  },
  "slug": "accesorio-para-cortador-de-cepillos-safety-gate-10095057"
 }

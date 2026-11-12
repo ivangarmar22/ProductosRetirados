@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-04"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "CH 325250PSL20170026R"
+     "numero": "CH 325250"
+    },
+    {
+     "numero": "PSL20170026R"
     }
    ],
    "ean": [
     "42305194"
    ],
    "descripcion": "Suero transparente para cejas y pestañas, 3 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella redonda de plástico plateada con tapón de rosca plateado y pincel de pestañas negro en una caja de cartón blanco."
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
   "claves": [
    "ref:SR/02506/25",
    "ean:42305194",
-   "ml:wonderstripes:ch-325250psl20170026r"
+   "ml:wonderstripes:ch-325250",
+   "ml:wonderstripes:psl20170026r"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dfc364bd864226cb"
+  "enriquecido": true,
+  "hashContenido": "3def196293d2aff5"
  },
  "slug": "suero-para-cejas-y-pestanas-wonderstripes-safety-gate-10095110"
 }

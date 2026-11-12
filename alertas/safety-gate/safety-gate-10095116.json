@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Mitsubishi Fuso"
    ],
    "modelos": [
-    "FE4P10TF1N2",
-    "NKSFE4P10N1SF",
-    "NKSFE4P10N1WF",
-    "e4*2007/46*0785*15",
-    "e4*KS18/858*00031*00",
-    "e4*KS18/858*00032*00"
+    "FE4P10TF1N2, NKSFE4P10N1SF, NKSFE4P10N1WF",
+    "e4*2007/46*0785*15, e4*KS18/858*00031*00, e4*KS18/858*00032*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.7.2024 - 9.12.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "11.7.2024 - 9.12.2024"
+   "fechasTexto": "11.7.2024 - 9.12.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,20 +95,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02538/25",
-   "mm:mitsubishi-fuso:fe4p10tf1n2",
-   "mm:mitsubishi-fuso:nksfe4p10n1sf",
-   "mm:mitsubishi-fuso:nksfe4p10n1wf",
-   "mm:mitsubishi-fuso:e4-2007-46-0785-15",
-   "mm:mitsubishi-fuso:e4-ks18-858-00031-00",
-   "mm:mitsubishi-fuso:e4-ks18-858-00032-00"
+   "mm:mitsubishi-fuso:fe4p10tf1n2-nksfe4p10n1sf-nksfe4p10n1wf",
+   "mm:mitsubishi-fuso:e4-2007-46-0785-15-e4-ks18-858-00031-00-e4-ks18-858-00032-00",
+   "ml:mitsubishi-fuso:11-7-2024-9-12-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "95f44ddd9c0e6344"
+  "enriquecido": true,
+  "hashContenido": "fc09e21d88c2f537"
  },
  "slug": "camion-mitsubishi-fuso-safety-gate-10095116"
 }

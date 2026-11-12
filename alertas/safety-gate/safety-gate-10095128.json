@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e1*2007/46*0294*20",
     "e1*2007/46*0300*26"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.08.2023 - 13.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "25.08.2023 - 13.09.2023"
+   "fechasTexto": "25.08.2023 - 13.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +95,16 @@
    "mm:mercedes-benz:906ba35",
    "mm:mercedes-benz:906ba50",
    "mm:mercedes-benz:e1-2007-46-0294-20",
-   "mm:mercedes-benz:e1-2007-46-0300-26"
+   "mm:mercedes-benz:e1-2007-46-0300-26",
+   "ml:mercedes-benz:25-08-2023-13-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0697c40c7990584d"
+  "enriquecido": true,
+  "hashContenido": "dca7a5677bfc9d48"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10095128"
 }

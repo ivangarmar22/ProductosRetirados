@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-31"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5904067441750"
    ],
    "descripcion": "Máquina de soldadura semiautomática.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e4eb649bf164edc4"
+  "enriquecido": true,
+  "hashContenido": "1921ffbc3fdf2591"
  },
  "slug": "maquina-de-soldadura-red-technic-safety-gate-10095222"
 }

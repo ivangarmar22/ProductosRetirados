@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -40,10 +40,33 @@
     "e4*2007/46*1194 (Crossland X)",
     "e4*2007/46*1194*10-*18 (Crossland X)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.02.2021 - 30.01.2023 (Mokka)"
+    },
+    {
+     "numero": "07.02.2019 - 09.11.2022 (Crossland X)"
+    },
+    {
+     "numero": "13.10.2017 - 31.01.2023 (Grandland X)"
+    },
+    {
+     "numero": "14.05.2019 - 09.05.2022 (Zafira)"
+    },
+    {
+     "numero": "14.11.2017 - 31.01.2023 (Combo)"
+    },
+    {
+     "numero": "16.07.2019 - 31.01.2023 (Corsa)"
+    },
+    {
+     "numero": "29.07.2021 - 31.01.2023 (Astra L)"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero equipado con el motor DV5R.",
-   "fechasTexto": "03.02.2021 - 30.01.2023 (Mokka)07.02.2019 - 09.11.2022 (Crossland X)13.10.2017 - 31.01.2023 (Grandland X)14.05.2019 - 09.05.2022 (Zafira)14.11.2017 - 31.01.2023 (Combo)16.07.2019 - 31.01.2023 (Corsa)29.07.2021 - 31.01.2023 (Astra L)"
+   "fechasTexto": "03.02.2021 - 30.01.2023 (Mokka)07.02.2019 - 09.11.2022 (Crossland X)13.10.2017 - 31.01.2023 (Grandland X)14.05.2019 - 09.05.2022 (Zafira)14.11.2017 - 31.01.2023 (Combo)16.07.2019 - 31.01.2023 (Corsa)29.07.2021 - 31.01.2023 (Astra L)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +96,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "LU",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -123,15 +152,22 @@
    "mm:opel-vauxhall:e2-2007-46-0639-06-23-corsa",
    "mm:opel-vauxhall:e2-2007-46-0639-12-22-mokka",
    "mm:opel-vauxhall:e4-2007-46-1194-crossland-x",
-   "mm:opel-vauxhall:e4-2007-46-1194-10-18-crossland-x"
+   "mm:opel-vauxhall:e4-2007-46-1194-10-18-crossland-x",
+   "ml:opel-vauxhall:03-02-2021-30-01-2023-mokka",
+   "ml:opel-vauxhall:07-02-2019-09-11-2022-crossland-x",
+   "ml:opel-vauxhall:13-10-2017-31-01-2023-grandland-x",
+   "ml:opel-vauxhall:14-05-2019-09-05-2022-zafira",
+   "ml:opel-vauxhall:14-11-2017-31-01-2023-combo",
+   "ml:opel-vauxhall:16-07-2019-31-01-2023-corsa",
+   "ml:opel-vauxhall:29-07-2021-31-01-2023-astra-l"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "88edad408bd6c843"
+  "enriquecido": true,
+  "hashContenido": "6e4301316e3696d7"
  },
  "slug": "coche-de-pasajeros-vehiculo-comercial-ligero-opel-vauxhall-safety-gate-10095212"
 }

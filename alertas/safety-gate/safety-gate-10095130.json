@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-24"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Décapant",
    "marcas": [
-    "LIVOS, Taketi"
+    "LIVOS",
+    "Taketi"
    ],
    "modelos": [
     "1824",
@@ -34,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Tirador de pintura, 1 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,17 +96,20 @@
  "dedup": {
   "claves": [
    "ref:SR/02513/25",
-   "mm:livos-taketi:1824",
-   "mm:livos-taketi:1kh1-k04x-u002-9cn6",
-   "mm:livos-taketi:554"
+   "mm:livos:1824",
+   "mm:livos:1kh1-k04x-u002-9cn6",
+   "mm:livos:554",
+   "mm:taketi:1824",
+   "mm:taketi:1kh1-k04x-u002-9cn6",
+   "mm:taketi:554"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "57dc26348da38fa1"
+  "enriquecido": true,
+  "hashContenido": "274b22fa115a825a"
  },
  "slug": "tirador-de-pintura-livos-taketi-safety-gate-10095130"
 }

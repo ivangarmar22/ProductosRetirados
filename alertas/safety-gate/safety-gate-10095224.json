@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -35,10 +35,15 @@
     "e2*2007/46*0686*00-*10",
     "e2*2007/46*0686*12-*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.09.2018 - 01.02.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero equipado con un motor diésel de 1,5 litros.",
-   "fechasTexto": "05.09.2018 - 01.02.2023"
+   "fechasTexto": "05.09.2018 - 01.02.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +73,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "IE",
+   "IS",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +108,16 @@
    "mm:toyota:e2-2007-46-0685-03-09",
    "mm:toyota:e2-2007-46-0685-11-13",
    "mm:toyota:e2-2007-46-0686-00-10",
-   "mm:toyota:e2-2007-46-0686-12-14"
+   "mm:toyota:e2-2007-46-0686-12-14",
+   "ml:toyota:05-09-2018-01-02-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5a667498b76d8e29"
+  "enriquecido": true,
+  "hashContenido": "262a43fa93f626f1"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10095224"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,14 +29,30 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "197019198467208690213463216944230866"
+     "numero": "197019"
+    },
+    {
+     "numero": "198467"
+    },
+    {
+     "numero": "208690"
+    },
+    {
+     "numero": "213463"
+    },
+    {
+     "numero": "216944"
+    },
+    {
+     "numero": "230866"
     }
    ],
    "ean": [
     "5711812887851"
    ],
    "descripcion": "Caja de plástico con doce pinturas de acuarela y un pincel.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Película de plástico."
   }
  ],
  "riesgo": {
@@ -70,7 +86,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IE",
+   "IS"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,15 +119,20 @@
   "claves": [
    "ref:SR/02464/25",
    "ean:5711812887851",
-   "ml:sostrene-grene:197019198467208690213463216944230866"
+   "ml:sostrene-grene:197019",
+   "ml:sostrene-grene:198467",
+   "ml:sostrene-grene:208690",
+   "ml:sostrene-grene:213463",
+   "ml:sostrene-grene:216944",
+   "ml:sostrene-grene:230866"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50fc364820fa35db"
+  "enriquecido": true,
+  "hashContenido": "98c22616fde51174"
  },
  "slug": "acuarelas-sostrene-grene-safety-gate-10094966"
 }

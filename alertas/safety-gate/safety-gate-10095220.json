@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "298",
     "e9*KS18/858*11440*00-*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.12.2022 - 09.05.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.12.2022 - 09.05.2025"
+   "fechasTexto": "12.12.2022 - 09.05.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +92,16 @@
   "claves": [
    "ref:SR/02672/25",
    "mm:mercedes-amg:298",
-   "mm:mercedes-amg:e9-ks18-858-11440-00-05"
+   "mm:mercedes-amg:e9-ks18-858-11440-00-05",
+   "ml:mercedes-amg:12-12-2022-09-05-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c6bfc948be181275"
+  "enriquecido": true,
+  "hashContenido": "0d34c56abefa4bf8"
  },
  "slug": "coche-de-pasajeros-mercedes-amg-safety-gate-10095220"
 }

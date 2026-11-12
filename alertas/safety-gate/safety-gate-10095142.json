@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "TD",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.04.2010 - 22.03.2013"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "06.04.2010 - 22.03.2013"
+   "fechasTexto": "06.04.2010 - 22.03.2013",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02510/25",
-   "mm:kia:individual-approval"
+   "mm:kia:individual-approval",
+   "ml:kia:06-04-2010-22-03-2013"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "775d7a3ca3f2bbf1"
+  "enriquecido": true,
+  "hashContenido": "41d4354b98eefa06"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10095142"
 }

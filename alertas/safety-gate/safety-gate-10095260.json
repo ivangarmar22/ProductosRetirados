@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "I2400127I2400233"
+     "numero": "I2400127"
+    },
+    {
+     "numero": "I2400233"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "8719668024236"
    ],
    "descripcion": "Tablero de dibujo de 11 pulgadas y con tecnología Liquid Crystal Display (LCD). Producto vendido en línea, en particular a través de kruidvat.nl y trekpleister.nl.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +76,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,15 +114,16 @@
    "ean:8719668024236",
    "mm:canenco-b-v:gd24380",
    "mm:canenco-b-v:st24380",
-   "ml:canenco-b-v:i2400127i2400233"
+   "ml:canenco-b-v:i2400127",
+   "ml:canenco-b-v:i2400233"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b79ce00639cbb058"
+  "enriquecido": true,
+  "hashContenido": "faadac58eb93ef0a"
  },
  "slug": "tablero-de-dibujo-canenco-b-v-safety-gate-10095260"
 }

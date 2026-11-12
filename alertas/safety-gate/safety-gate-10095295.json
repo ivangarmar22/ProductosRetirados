@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-17"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "P007575E1P107428E1"
+     "numero": "P007575E1"
+    },
+    {
+     "numero": "P107428E1"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "8011530220020"
    ],
    "descripcion": "Agua de toilette, 25 ml y 75 ml. Ambos lotes están afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -107,15 +111,16 @@
    "ean:8011530220006",
    "ean:8011530220020",
    "mm:j-s-exte-pop:22002",
-   "ml:j-s-exte-pop:p007575e1p107428e1"
+   "ml:j-s-exte-pop:p007575e1",
+   "ml:j-s-exte-pop:p107428e1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9f925d06dcdf259b"
+  "enriquecido": true,
+  "hashContenido": "6de85d9075ce0061"
  },
  "slug": "agua-de-toilette-j-s-exte-pop-safety-gate-10095295"
 }

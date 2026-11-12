@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -45,7 +45,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Vehículos comerciales ligeros eléctricos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +76,12 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4efd28614afe030a"
+  "enriquecido": true,
+  "hashContenido": "bbc32d2a95f3ab3e"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-iveco-safety-gate-10094960"
 }

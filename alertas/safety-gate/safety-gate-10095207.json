@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-09"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "3112201819-310224-C"
+     "numero": "31122018"
+    },
+    {
+     "numero": "19-310224-C"
     }
    ],
    "ean": [
     "5907709921313"
    ],
    "descripcion": "Eau de parfum, 100 ml. Fecha de caducidad: 02.2018.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón naranja."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
   "claves": [
    "ref:SR/02534/25",
    "ean:5907709921313",
-   "ml:luxure-parfumes:3112201819-310224-c"
+   "ml:luxure-parfumes:31122018",
+   "ml:luxure-parfumes:19-310224-c"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6532f95b304da077"
+  "enriquecido": true,
+  "hashContenido": "161d482b82ec7b7c"
  },
  "slug": "perfume-luxure-parfumes-safety-gate-10095207"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,12 +31,22 @@
    ],
    "lotes": [
     {
-     "numero": "CF23267-L-042885CF24057-C-042885CF24243-H-042885CF24439-L-042885"
+     "numero": "CF23267-L-042885"
+    },
+    {
+     "numero": "CF24057-C-042885"
+    },
+    {
+     "numero": "CF24243-H-042885"
+    },
+    {
+     "numero": "CF24439-L-042885"
     }
    ],
    "ean": [],
    "descripcion": "Pistola de burbujas de plástico azul y amarillo accionada por batería con cuarenta agujeros, suministrada con un contenedor y una botella de solución de burbujas. Tamaño: 23 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -74,7 +84,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,15 +112,18 @@
   "claves": [
    "ref:SR/02525/25",
    "mm:blue-sky:042885",
-   "ml:blue-sky:cf23267-l-042885cf24057-c-042885cf24243-h-042885cf24439-l-042885"
+   "ml:blue-sky:cf23267-l-042885",
+   "ml:blue-sky:cf24057-c-042885",
+   "ml:blue-sky:cf24243-h-042885",
+   "ml:blue-sky:cf24439-l-042885"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a4c7d365b0ff9e0"
+  "enriquecido": true,
+  "hashContenido": "09a577128d1877e5"
  },
  "slug": "pistola-de-burbujas-de-juguete-blue-sky-safety-gate-10095126"
 }

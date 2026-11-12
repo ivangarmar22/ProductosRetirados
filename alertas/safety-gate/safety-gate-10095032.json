@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -36,7 +36,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Coche de pasajeros. Años modelo: 2020 - 2026. Modelo (tipo): determinadas variantes híbridas enchufables S60 (224), V60 (225), XC60 (246), S90 (234), S90L (238), V90 (235), XC90 (256) y vehículos eléctricos puros EC40 (539) y XC/EX40 (536).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Chasis: del 0125085 al 0178982 // del 0137773 al 0237484 // del 0045855 al 0997637 // del 0530236 al 0821348 // del 0078082 al 0101247 // del 0347329 al 0423531 // del 0030031 al 0172788."
   }
  ],
  "riesgo": {
@@ -66,7 +67,22 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "MT",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +129,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d1e0875106d34880"
+  "enriquecido": true,
+  "hashContenido": "6cea74b2d250964d"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10095032"
 }

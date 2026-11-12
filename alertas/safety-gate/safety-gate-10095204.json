@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-31"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Soldador inversor equipado con un conjunto de cables de soldadura. Producto fabricado en 2023.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ef7f7cd2406db1a9"
+  "enriquecido": true,
+  "hashContenido": "d2cd94bea70a2d09"
  },
  "slug": "soldador-de-inversores-red-technic-safety-gate-10095204"
 }

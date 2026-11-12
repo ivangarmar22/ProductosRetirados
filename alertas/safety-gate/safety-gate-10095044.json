@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "000071200AK"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.04.2023 - 06.11.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Caja de techo de coche.",
-   "fechasTexto": "28.04.2023 - 06.11.2024"
+   "fechasTexto": "28.04.2023 - 06.11.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02480/25",
-   "mm:cupra:000071200ak"
+   "mm:cupra:000071200ak",
+   "ml:cupra:28-04-2023-06-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "255edd790bc91019"
+  "enriquecido": true,
+  "hashContenido": "b0aad10b46bfd592"
  },
  "slug": "caja-del-techo-del-coche-cupra-safety-gate-10095044"
 }

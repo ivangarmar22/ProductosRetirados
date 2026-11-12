@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-01"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -33,7 +33,13 @@
    ],
    "lotes": [
     {
-     "numero": "A004490A028669B000957"
+     "numero": "A004490"
+    },
+    {
+     "numero": "A028669"
+    },
+    {
+     "numero": "B000957"
     }
    ],
    "ean": [
@@ -42,7 +48,8 @@
     "6941770059000"
    ],
    "descripcion": "Cigarrillo electrónico desechable con un volumen de 20 ml, un contenido de nicotina del 5 % y una capacidad de 30 000 bocanadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -105,15 +112,17 @@
    "mm:oxbar:blueberry-raspberry-lemon",
    "mm:oxbar:peach-mango",
    "mm:oxbar:vitality-grape",
-   "ml:oxbar:a004490a028669b000957"
+   "ml:oxbar:a004490",
+   "ml:oxbar:a028669",
+   "ml:oxbar:b000957"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ec8ece6953c43373"
+  "enriquecido": true,
+  "hashContenido": "83b78657a0ffca78"
  },
  "slug": "cigarrillo-electronico-desechable-oxbar-safety-gate-10095056"
 }

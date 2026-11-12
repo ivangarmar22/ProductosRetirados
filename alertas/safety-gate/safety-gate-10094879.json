@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-16"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "20240901001"
+     "numero": "202"
+    },
+    {
+     "numero": "40901001"
     }
    ],
    "ean": [],
    "descripcion": "Ilumina el juguete de trenzas para el cabello en un paquete múltiple de 64 juguetes iluminados. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje rosa."
   }
  ],
  "riesgo": {
@@ -83,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02679/25",
-   "ml:mikulala:20240901001"
+   "ml:mikulala:202",
+   "ml:mikulala:40901001"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "90511fc2f6879292"
+  "enriquecido": true,
+  "hashContenido": "89c3eaec7772d52e"
  },
  "slug": "juguete-de-iluminacion-mikulala-safety-gate-10094879"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -47,10 +47,48 @@
     "e2*2007/46*0639*03-*23 (208 V2)",
     "e2*2007/46*0639*05-*22 (2008 V2)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.10.2017 - 31.01.2023 (Partner Rifter)"
+    },
+    {
+     "numero": "03.10.2017 - 07.09.2021 (308 V2)"
+    },
+    {
+     "numero": "04.10.2017 - 02.10.2020 (208)"
+    },
+    {
+     "numero": "06.12.2017 - 07.11.2019 (2008)"
+    },
+    {
+     "numero": "08.07.2019 - 31.01.2023 (2008 V2)"
+    },
+    {
+     "numero": "11.01.2018 - 31.01.2023 (508 V2)"
+    },
+    {
+     "numero": "11.10.2017 - 31.01.2023 (3008 V2)"
+    },
+    {
+     "numero": "11.10.2017 - 31.01.2023 (5008 V2)"
+    },
+    {
+     "numero": "13.01.2021 - 31.01.2023 (308 V3)"
+    },
+    {
+     "numero": "16.04.2019 - 31.01.2023 (208 V2)"
+    },
+    {
+     "numero": "18.01.2018 - 21.10.2020 (Traveller)"
+    },
+    {
+     "numero": "20.02.2018 - 01.01.2022 (301)"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero equipado con el motor DV5R.",
-   "fechasTexto": "02.10.2017 - 31.01.2023 (Partner Rifter)03.10.2017 - 07.09.2021 (308 V2)04.10.2017 - 02.10.2020 (208)06.12.2017 - 07.11.2019 (2008)08.07.2019 - 31.01.2023 (2008 V2)11.01.2018 - 31.01.2023 (508 V2)11.10.2017 - 31.01.2023 (3008 V2)11.10.2017 - 31.01.2023 (5008 V2)13.01.2021 - 31.01.2023 (308 V3)16.04.2019 - 31.01.2023 (208 V2)18.01.2018 - 21.10.2020 (Traveller)20.02.2018 - 01.01.2022 (301)"
+   "fechasTexto": "02.10.2017 - 31.01.2023 (Partner Rifter)03.10.2017 - 07.09.2021 (308 V2)04.10.2017 - 02.10.2020 (208)06.12.2017 - 07.11.2019 (2008)08.07.2019 - 31.01.2023 (2008 V2)11.01.2018 - 31.01.2023 (508 V2)11.10.2017 - 31.01.2023 (3008 V2)11.10.2017 - 31.01.2023 (5008 V2)13.01.2021 - 31.01.2023 (308 V3)16.04.2019 - 31.01.2023 (208 V2)18.01.2018 - 21.10.2020 (Traveller)20.02.2018 - 01.01.2022 (301)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -80,7 +118,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "IE",
+   "LU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -145,15 +190,27 @@
    "mm:peugeot:e2-2007-46-0628-00-24-508-v2",
    "mm:peugeot:e2-2007-46-0628-13-23-308-v3",
    "mm:peugeot:e2-2007-46-0639-03-23-208-v2",
-   "mm:peugeot:e2-2007-46-0639-05-22-2008-v2"
+   "mm:peugeot:e2-2007-46-0639-05-22-2008-v2",
+   "ml:peugeot:02-10-2017-31-01-2023-partner-rifter",
+   "ml:peugeot:03-10-2017-07-09-2021-308-v2",
+   "ml:peugeot:04-10-2017-02-10-2020-208",
+   "ml:peugeot:06-12-2017-07-11-2019-2008",
+   "ml:peugeot:08-07-2019-31-01-2023-2008-v2",
+   "ml:peugeot:11-01-2018-31-01-2023-508-v2",
+   "ml:peugeot:11-10-2017-31-01-2023-3008-v2",
+   "ml:peugeot:11-10-2017-31-01-2023-5008-v2",
+   "ml:peugeot:13-01-2021-31-01-2023-308-v3",
+   "ml:peugeot:16-04-2019-31-01-2023-208-v2",
+   "ml:peugeot:18-01-2018-21-10-2020-traveller",
+   "ml:peugeot:20-02-2018-01-01-2022-301"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2cc8bdd0d5f3b01c"
+  "enriquecido": true,
+  "hashContenido": "24a402301a119cfd"
  },
  "slug": "coche-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10095211"
 }

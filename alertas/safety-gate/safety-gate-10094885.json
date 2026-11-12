@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-09"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "HD-5955HY8215"
+     "numero": "HD-5955"
+    },
+    {
+     "numero": "HY8215"
     }
    ],
    "ean": [
     "8591280000009"
    ],
    "descripcion": "Muñeca de plástico, con pelo suelto en varios colores, vestidos en varios colores y gorras en varios colores, de unos 10 cm de altura.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana de plástico."
   }
  ],
  "riesgo": {
@@ -98,15 +102,16 @@
   "claves": [
    "ref:SR/02355/25",
    "ean:8591280000009",
-   "ml:na-na-na-surprise:hd-5955hy8215"
+   "ml:na-na-na-surprise:hd-5955",
+   "ml:na-na-na-surprise:hy8215"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd49a0c8755e0dbd"
+  "enriquecido": true,
+  "hashContenido": "cc4e25ebd07ecb54"
  },
  "slug": "muneca-de-plastico-na-na-na-surprise-safety-gate-10094885"
 }

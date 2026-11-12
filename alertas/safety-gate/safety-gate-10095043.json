@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*167/2013*00502*00 (LX1000AU)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.02.2025 - 24.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo todoterreno / Quad.",
-   "fechasTexto": "19.02.2025 - 24.04.2025"
+   "fechasTexto": "19.02.2025 - 24.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "HR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02505/25",
-   "mm:loncin-voge:e13-167-2013-00502-00-lx1000au"
+   "mm:loncin-voge:e13-167-2013-00502-00-lx1000au",
+   "ml:loncin-voge:19-02-2025-24-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f00b76c89e462d38"
+  "enriquecido": true,
+  "hashContenido": "d4f1e1207e0e88e5"
  },
  "slug": "vehiculo-todo-terreno-loncin-voge-safety-gate-10095043"
 }

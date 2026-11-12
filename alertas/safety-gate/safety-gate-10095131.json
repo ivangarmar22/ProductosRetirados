@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Ellio"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.08.2023 - 03.06.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Speed pedelec con una horquilla hecha de un tubo de aluminio. Números VIN que terminan en \"001\" hasta \"926\".",
-   "fechasTexto": "28.08.2023 - 03.06.2025"
+   "fechasTexto": "28.08.2023 - 03.06.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,15 +79,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/02536/25"
+   "ref:SR/02536/25",
+   "ml:ellio:28-08-2023-03-06-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00deb8b332bbde4c"
+  "enriquecido": true,
+  "hashContenido": "d41193c5c94b2c9b"
  },
  "slug": "velocidad-pedelec-ellio-safety-gate-10095131"
 }

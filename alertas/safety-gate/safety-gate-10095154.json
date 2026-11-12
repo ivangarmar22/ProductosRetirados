@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "DT",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.10.2023 - 11.08.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Una camioneta.",
-   "fechasTexto": "13.10.2023 - 11.08.2024"
+   "fechasTexto": "13.10.2023 - 11.08.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02580/25",
-   "mm:dodge:individual-approval"
+   "mm:dodge:individual-approval",
+   "ml:dodge:13-10-2023-11-08-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "522db28f5587eacb"
+  "enriquecido": true,
+  "hashContenido": "6c5de124effbea43"
  },
  "slug": "camion-de-recogida-dodge-safety-gate-10095154"
 }

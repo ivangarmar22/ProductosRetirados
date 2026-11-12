@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "18/194194085"
+     "numero": "18/194"
+    },
+    {
+     "numero": "194085"
     }
    ],
    "ean": [
     "8428390044893"
    ],
    "descripcion": "Perfume, destinado a mujeres, 18 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio en caja de cartón."
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ref:SR/02668/25",
    "ean:8428390044893",
    "mm:flor-de-mayo:bouque",
-   "ml:flor-de-mayo:18-194194085"
+   "ml:flor-de-mayo:18-194",
+   "ml:flor-de-mayo:194085"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bfe98ffb95f878d1"
+  "enriquecido": true,
+  "hashContenido": "545c11245b5c2fd5"
  },
  "slug": "perfume-flor-de-mayo-safety-gate-10095257"
 }
