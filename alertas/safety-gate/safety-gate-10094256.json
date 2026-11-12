@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -29,8 +29,7 @@
    "modelos": [
     "Chenoa Bosch CX B2",
     "Chenoa Bosch CX B3",
-    "Chenoa Bosch CX B3",
-    "DA",
+    "Chenoa Bosch CX B3; DA",
     "Chenoa MAX B2",
     "Chenoa MAX B3",
     "Chenoa Uni",
@@ -38,8 +37,7 @@
     "Kagu Bosch CX 26 BES2",
     "Kagu Bosch CX 275 B2",
     "Kagu Bosch CX 275 B3",
-    "Kagu Bosch Uni 26\"",
-    "Uni",
+    "Kagu Bosch Uni 26\"; Uni",
     "Kagu Bosch Uni 275",
     "Kagu Carbon Pinion",
     "Kiaro Pmax",
@@ -50,7 +48,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pedelec (en inglés).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -137,6 +136,7 @@
    "ref:SR/02133/25",
    "mm:simplon:chenoa-bosch-cx-b2",
    "mm:simplon:chenoa-bosch-cx-b3",
+   "mm:simplon:chenoa-bosch-cx-b3-da",
    "mm:simplon:chenoa-max-b2",
    "mm:simplon:chenoa-max-b3",
    "mm:simplon:chenoa-uni",
@@ -144,8 +144,7 @@
    "mm:simplon:kagu-bosch-cx-26-bes2",
    "mm:simplon:kagu-bosch-cx-275-b2",
    "mm:simplon:kagu-bosch-cx-275-b3",
-   "mm:simplon:kagu-bosch-uni-26",
-   "mm:simplon:uni",
+   "mm:simplon:kagu-bosch-uni-26-uni",
    "mm:simplon:kagu-bosch-uni-275",
    "mm:simplon:kagu-carbon-pinion",
    "mm:simplon:kiaro-pmax",
@@ -155,11 +154,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cf405ba93ab53a7e"
+  "enriquecido": true,
+  "hashContenido": "e17606ff4c524fa4"
  },
  "slug": "pedelec-simplon-safety-gate-10094256"
 }

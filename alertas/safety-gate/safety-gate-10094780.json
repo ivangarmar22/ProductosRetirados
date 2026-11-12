@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-10"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "252846L02272346L01"
+     "numero": "252846L02"
+    },
+    {
+     "numero": "272346L01"
     }
    ],
    "ean": [
     "8590273632241"
    ],
    "descripcion": "Protector solar, anunciado con FPS 20, 75 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo de plástico blanco con etiquetas azules."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
   "claves": [
    "ref:SR/02153/25",
    "ean:8590273632241",
-   "ml:helios-herb:252846l02272346l01"
+   "ml:helios-herb:252846l02",
+   "ml:helios-herb:272346l01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b2e9bee82ee6975a"
+  "enriquecido": true,
+  "hashContenido": "be6f6e199d7f1996"
  },
  "slug": "protector-solar-helios-herb-safety-gate-10094780"
 }

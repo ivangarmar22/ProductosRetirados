@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -41,10 +41,15 @@
     "e6*168/2013*00166*00 (L3e-A3)",
     "e6*168/2013*00168*00 (L3e-A2)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.10.2024 - 27.03.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "25.10.2024 - 27.03.2025"
+   "fechasTexto": "25.10.2024 - 27.03.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +79,22 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "MT",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -121,15 +141,16 @@
    "mm:honda:e6-168-2013-00161-00-l3e-a3",
    "mm:honda:e6-168-2013-00162-00-l3e-a2",
    "mm:honda:e6-168-2013-00166-00-l3e-a3",
-   "mm:honda:e6-168-2013-00168-00-l3e-a2"
+   "mm:honda:e6-168-2013-00168-00-l3e-a2",
+   "ml:honda:25-10-2024-27-03-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "86a32328315c15cd"
+  "enriquecido": true,
+  "hashContenido": "e3ab6aee49a77335"
  },
  "slug": "motocicleta-honda-safety-gate-10094714"
 }

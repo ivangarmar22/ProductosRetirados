@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,23 @@
     "Renault Trucks"
    ],
    "modelos": [
-    "e2*2018/858*00084 (MASTER 4",
-    "MASTER 4E)",
-    "e2*2018/858*00085 (MASTER 4",
-    "MASTER 4E)",
-    "e2*2018/858*00086 (MASTER 4",
-    "MASTER 4E)",
-    "e2*2018/858*00087 (MASTER 4",
-    "MASTER 4E)",
-    "e2*2018/858*00088 (MASTER 4",
-    "MASTER 4E)",
+    "e2*2018/858*00084 (MASTER 4, MASTER 4E)",
+    "e2*2018/858*00085 (MASTER 4, MASTER 4E)",
+    "e2*2018/858*00086 (MASTER 4, MASTER 4E)",
+    "e2*2018/858*00087 (MASTER 4, MASTER 4E)",
+    "e2*2018/858*00088 (MASTER 4, MASTER 4E)",
     "e2*2018/858*0027 (TRAFIC 3)",
     "e2*2018/858*0028 (TRAFIC 3)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.03.2025 - 04.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "24.03.2025 - 04.04.2025"
+   "fechasTexto": "24.03.2025 - 04.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,22 +95,22 @@
  "dedup": {
   "claves": [
    "ref:SR/02095/25",
-   "mm:renault-trucks:e2-2018-858-00084-master-4",
-   "mm:renault-trucks:master-4e",
-   "mm:renault-trucks:e2-2018-858-00085-master-4",
-   "mm:renault-trucks:e2-2018-858-00086-master-4",
-   "mm:renault-trucks:e2-2018-858-00087-master-4",
-   "mm:renault-trucks:e2-2018-858-00088-master-4",
+   "mm:renault-trucks:e2-2018-858-00084-master-4-master-4e",
+   "mm:renault-trucks:e2-2018-858-00085-master-4-master-4e",
+   "mm:renault-trucks:e2-2018-858-00086-master-4-master-4e",
+   "mm:renault-trucks:e2-2018-858-00087-master-4-master-4e",
+   "mm:renault-trucks:e2-2018-858-00088-master-4-master-4e",
    "mm:renault-trucks:e2-2018-858-0027-trafic-3",
-   "mm:renault-trucks:e2-2018-858-0028-trafic-3"
+   "mm:renault-trucks:e2-2018-858-0028-trafic-3",
+   "ml:renault-trucks:24-03-2025-04-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "888572b4f0f94aaf"
+  "enriquecido": true,
+  "hashContenido": "9ffed8a7db1c1587"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-renault-trucks-safety-gate-10094485"
 }

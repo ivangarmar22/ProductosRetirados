@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,18 @@
    "modelos": [
     "e9*2007/46*6816*21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29/5/2024 - 3/6/2024 C4X"
+    },
+    {
+     "numero": "29/5/2024 - 5/6/2024 C4 III"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "29/5/2024 - 3/6/2024 C4X29/5/2024 - 5/6/2024 C4 III"
+   "fechasTexto": "29/5/2024 - 3/6/2024 C4X29/5/2024 - 5/6/2024 C4 III",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +92,17 @@
  "dedup": {
   "claves": [
    "ref:SR/02103/25",
-   "mm:citroen:e9-2007-46-6816-21"
+   "mm:citroen:e9-2007-46-6816-21",
+   "ml:citroen:29-5-2024-3-6-2024-c4x",
+   "ml:citroen:29-5-2024-5-6-2024-c4-iii"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ad5a4a770c13519e"
+  "enriquecido": true,
+  "hashContenido": "21a7cd4b7eec37e8"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10094288"
 }

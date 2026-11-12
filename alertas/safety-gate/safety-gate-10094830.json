@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-25"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "1301323A1301325A"
+     "numero": "1301323A"
+    },
+    {
+     "numero": "1301325A"
     }
    ],
    "ean": [
@@ -38,7 +41,8 @@
     "8002747052085"
    ],
    "descripcion": "Eau de parfum, destinado a mujeres, 50 y 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
    "ean:8002747052061",
    "ean:8002747052078",
    "ean:8002747052085",
-   "ml:the-first:1301323a1301325a"
+   "ml:the-first:1301323a",
+   "ml:the-first:1301325a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a6ec423170c401e5"
+  "enriquecido": true,
+  "hashContenido": "8f0700eefff14acf"
  },
  "slug": "perfume-the-first-safety-gate-10094830"
 }

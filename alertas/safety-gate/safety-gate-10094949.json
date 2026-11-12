@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e2*2018/858*00085",
     "g11*2018/858*00697"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.04.2025 - 02.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero.",
-   "fechasTexto": "01.04.2025 - 02.04.2025"
+   "fechasTexto": "01.04.2025 - 02.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,15 +87,16 @@
    "ref:SR/02419/25",
    "mm:renault-trucks:e2-2018-858-00084",
    "mm:renault-trucks:e2-2018-858-00085",
-   "mm:renault-trucks:g11-2018-858-00697"
+   "mm:renault-trucks:g11-2018-858-00697",
+   "ml:renault-trucks:01-04-2025-02-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "643598dbc010a250"
+  "enriquecido": true,
+  "hashContenido": "c0ba6d3f1d20bf31"
  },
  "slug": "vehiculo-comercial-ligero-renault-trucks-safety-gate-10094949"
 }

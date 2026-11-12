@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -38,7 +38,8 @@
     "5045731150858"
    ],
    "descripcion": "Gorra azul para niños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,13 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "PL",
+   "SI",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "38b7adfb6c313289"
+  "enriquecido": true,
+  "hashContenido": "c9b1456b9fa6675f"
  },
  "slug": "gorra-para-ninos-pepco-baby-safety-gate-10094836"
 }

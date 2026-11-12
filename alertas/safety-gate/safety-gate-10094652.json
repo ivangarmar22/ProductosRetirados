@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "General type-approval (ABE) 54001*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.09.2023 - 29.02.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo: Llanta de aluminio y metal ligero para turismos.",
-   "fechasTexto": "16.09.2023 - 29.02.2024"
+   "fechasTexto": "16.09.2023 - 29.02.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +92,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02179/25",
-   "mm:itwheels:general-type-approval-abe-54001"
+   "mm:itwheels:general-type-approval-abe-54001",
+   "ml:itwheels:16-09-2023-29-02-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d2382959e48e49bf"
+  "enriquecido": true,
+  "hashContenido": "80fb422ce5189976"
  },
  "slug": "parte-del-vehiculo-llanta-de-aluminio-itwheels-safety-gate-10094652"
 }

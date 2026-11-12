@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,7 +34,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Camioneta de Camper.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "41081b5f9627489e"
+  "enriquecido": true,
+  "hashContenido": "6264757b62330e29"
  },
  "slug": "camioneta-de-camper-sunlight-safety-gate-10094786"
 }

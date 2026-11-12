@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Vehículo eléctrico utilitario.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3fd5fb4b056ac548"
+  "enriquecido": true,
+  "hashContenido": "e2647fe75313c589"
  },
  "slug": "vehiculos-utilitarios-addax-safety-gate-10094642"
 }

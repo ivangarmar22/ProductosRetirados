@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-17"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "4008233162614"
    ],
    "descripcion": "Jabón líquido, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con dispensador."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Croacia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cc83732afe7e4c2e"
+  "enriquecido": true,
+  "hashContenido": "842ee4a5ac23ff7c"
  },
  "slug": "jabon-liquido-kneipp-safety-gate-10094962"
 }

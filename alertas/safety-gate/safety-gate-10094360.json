@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-23"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -24,7 +24,8 @@
   {
    "nombre": "Winglight",
    "marcas": [
-    "WOUNDWO Sunlight Design, WOundWO"
+    "WOUNDWO Sunlight Design",
+    "WOundWO"
    ],
    "modelos": [
     "WLGT"
@@ -32,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Toldo de gran superficie para patios.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -85,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02112/25",
-   "mm:woundwo-sunlight-design-woundwo:wlgt"
+   "mm:woundwo-sunlight-design:wlgt",
+   "mm:woundwo:wlgt"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df1992aa03e77308"
+  "enriquecido": true,
+  "hashContenido": "c1bbd03cf6279346"
  },
  "slug": "toldo-de-gran-superficie-woundwo-sunlight-design-woundwo-safety-gate-10094360"
 }

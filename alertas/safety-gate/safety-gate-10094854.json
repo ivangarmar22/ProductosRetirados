@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "178095178100"
+     "numero": "178095"
+    },
+    {
+     "numero": "178100"
     }
    ],
    "ean": [
     "5052089358256"
    ],
    "descripcion": "Botella con bomba y tapa usada para llenar globos. Producto vendido en línea, en particular a través de theworks.co.uk.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Pegatina adherida alrededor de la sección «botella» de la bomba."
   }
  ],
  "riesgo": {
@@ -68,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +96,16 @@
    "ref:OR/00102/25",
    "ean:5052089358256",
    "mm:the-works-get-set-play:5052089331761",
-   "ml:the-works-get-set-play:178095178100"
+   "ml:the-works-get-set-play:178095",
+   "ml:the-works-get-set-play:178100"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7f4029774876df7e"
+  "enriquecido": true,
+  "hashContenido": "583f6ddaa6662539"
  },
  "slug": "bomba-de-globo-the-works-get-set-play-safety-gate-10094854"
 }

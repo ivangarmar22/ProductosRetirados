@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "EX500G",
     "e1*168/2013*00366*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.01.2024 - 24.01.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "22.01.2024 - 24.01.2024"
+   "fechasTexto": "22.01.2024 - 24.01.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +92,16 @@
   "claves": [
    "ref:SR/02159/25",
    "mm:kawasaki:ex500g",
-   "mm:kawasaki:e1-168-2013-00366-00"
+   "mm:kawasaki:e1-168-2013-00366-00",
+   "ml:kawasaki:22-01-2024-24-01-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "02cf71b54486690e"
+  "enriquecido": true,
+  "hashContenido": "f292289fcebf274d"
  },
  "slug": "motocicleta-kawasaki-safety-gate-10094534"
 }

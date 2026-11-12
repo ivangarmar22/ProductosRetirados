@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-17"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "80649100"
+     "numero": "8064"
+    },
+    {
+     "numero": "9100"
     }
    ],
    "ean": [
     "3607347420132"
    ],
    "descripcion": "Agua de toilette, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio en caja de cartón naranja."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
   "claves": [
    "ref:SR/02251/25",
    "ean:3607347420132",
-   "ml:adidas:80649100"
+   "ml:adidas:8064",
+   "ml:adidas:9100"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0de32e1442fb6ca1"
+  "enriquecido": true,
+  "hashContenido": "7caa9bfdda40419e"
  },
  "slug": "agua-de-toilette-adidas-safety-gate-10094856"
 }

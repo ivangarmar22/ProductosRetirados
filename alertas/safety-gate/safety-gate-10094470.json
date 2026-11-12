@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -33,40 +33,13 @@
    ],
    "lotes": [
     {
-     "numero": "6AA30386: KM01153"
+     "numero": "6AA30386: KM01153, KM08143, KM16283, KM07143, KM15283"
     },
     {
-     "numero": "KM08143"
+     "numero": "6AA30387: KH05143, KM09183, HM05143, KH01353"
     },
     {
-     "numero": "KM16283"
-    },
-    {
-     "numero": "KM07143"
-    },
-    {
-     "numero": "KM152836AA30387: KH05143"
-    },
-    {
-     "numero": "KM09183"
-    },
-    {
-     "numero": "HM05143"
-    },
-    {
-     "numero": "KH013536AA30389: KM08143"
-    },
-    {
-     "numero": "T293143"
-    },
-    {
-     "numero": "T214283"
-    },
-    {
-     "numero": "T344143"
-    },
-    {
-     "numero": "T444143"
+     "numero": "6AA30389: KM08143, T293143, T214283, T344143, T444143"
     }
    ],
    "ean": [
@@ -75,7 +48,8 @@
     "8809255787504"
    ],
    "descripcion": "Crema facial líquida.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de bomba con etiqueta verde y caja de cartón."
   }
  ],
  "riesgo": {
@@ -105,7 +79,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -134,26 +110,17 @@
    "mm:erborian:6aa30386-centella-acne-care-30-ml",
    "mm:erborian:6aa30387-centella-acne-care-1-ml-25",
    "mm:erborian:6aa30389-centella-acne-care-30-ml-test-format",
-   "ml:erborian:6aa30386-km01153",
-   "ml:erborian:km08143",
-   "ml:erborian:km16283",
-   "ml:erborian:km07143",
-   "ml:erborian:km152836aa30387-kh05143",
-   "ml:erborian:km09183",
-   "ml:erborian:hm05143",
-   "ml:erborian:kh013536aa30389-km08143",
-   "ml:erborian:t293143",
-   "ml:erborian:t214283",
-   "ml:erborian:t344143",
-   "ml:erborian:t444143"
+   "ml:erborian:6aa30386-km01153-km08143-km16283-km07143-km15283",
+   "ml:erborian:6aa30387-kh05143-km09183-hm05143-kh01353",
+   "ml:erborian:6aa30389-km08143-t293143-t214283-t344143-t444143"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e44f273439a2881f"
+  "enriquecido": true,
+  "hashContenido": "696c9fca77f94334"
  },
  "slug": "crema-para-la-cara-erborian-safety-gate-10094470"
 }

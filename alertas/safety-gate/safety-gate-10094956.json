@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-11"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Auriculares negros. Producto vendido en línea, en particular a través de Amazon (ASIN: B09JW6RQT3)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -61,7 +62,11 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "LU",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2f6e9f25e475b762"
+  "enriquecido": true,
+  "hashContenido": "cc86506c9d7fc3ab"
  },
  "slug": "auriculares-muarron-safety-gate-10094956"
 }

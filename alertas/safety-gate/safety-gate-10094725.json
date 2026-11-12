@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-26"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
     "8432074020196"
    ],
    "descripcion": "Diluyente de pintura, 35 ml y 100 ml. Se trata de todos los lotes del producto.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "DE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a4e0f9ccf6e5cb06"
+  "enriquecido": true,
+  "hashContenido": "b8fc19d509da90ff"
  },
  "slug": "diluyente-de-pintura-ammo-of-mig-jimenez-safety-gate-10094725"
 }

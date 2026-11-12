@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "82259065"
+     "numero": "8225"
+    },
+    {
+     "numero": "9065"
     }
    ],
    "ean": [
     "3661163403601"
    ],
    "descripcion": "Agua de toilette, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón púrpura."
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
   "claves": [
    "ref:SR/02187/25",
    "ean:3661163403601",
-   "ml:adidas:82259065"
+   "ml:adidas:8225",
+   "ml:adidas:9065"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "581e0008bcf5cc0c"
+  "enriquecido": true,
+  "hashContenido": "ced9e1b6dd743410"
  },
  "slug": "agua-de-toilette-adidas-safety-gate-10094857"
 }

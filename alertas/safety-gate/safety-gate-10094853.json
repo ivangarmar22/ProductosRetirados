@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,7 +35,8 @@
    ],
    "ean": [],
    "descripcion": "Oso de peluche rosa vendido en dos versiones diferentes: uno con ojos bordados y el otro con ojos de plástico. Producto vendido en línea, en particular a través de TEMU.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico"
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bef36111078dd758"
+  "enriquecido": true,
+  "hashContenido": "135401d593c9838b"
  },
  "slug": "juguete-suave-safety-gate-10094853"
 }

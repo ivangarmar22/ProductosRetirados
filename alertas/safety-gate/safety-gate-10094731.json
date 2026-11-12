@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-17"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "103202108503110406"
+     "numero": "103202"
+    },
+    {
+     "numero": "108503"
+    },
+    {
+     "numero": "110406"
     }
    ],
    "ean": [
     "8017331060896"
    ],
    "descripcion": "Loción corporal, 300 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo de plástico."
   }
  ],
  "riesgo": {
@@ -90,15 +97,17 @@
   "claves": [
    "ref:SR/02254/25",
    "ean:8017331060896",
-   "ml:l-angelica:103202108503110406"
+   "ml:l-angelica:103202",
+   "ml:l-angelica:108503",
+   "ml:l-angelica:110406"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "852c89abf30cd0c2"
+  "enriquecido": true,
+  "hashContenido": "c05d9ede1b933517"
  },
  "slug": "locion-corporal-l-angelica-safety-gate-10094731"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-18"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Chaqueta negra calentada eléctricamente para mujeres, alimentada por una batería portátil. Producto vendido en línea, en particular a través de Amazon (ASIN: B08JGLLVCF).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1f1fb6e504012b25"
+  "enriquecido": true,
+  "hashContenido": "db620ea67e70c945"
  },
  "slug": "chaqueta-calentada-iheat-safety-gate-10094561"
 }

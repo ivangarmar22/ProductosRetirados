@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e24*167/2013*00316"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.06.2024 - 30.04.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor agrícola.",
-   "fechasTexto": "27.06.2024 - 30.04.2025"
+   "fechasTexto": "27.06.2024 - 30.04.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/02399/25",
-   "mm:new-holland:e24-167-2013-00316"
+   "mm:new-holland:e24-167-2013-00316",
+   "ml:new-holland:27-06-2024-30-04-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f2ba3bf7509758a0"
+  "enriquecido": true,
+  "hashContenido": "e9a2f92a47deec47"
  },
  "slug": "tractor-new-holland-safety-gate-10094667"
 }

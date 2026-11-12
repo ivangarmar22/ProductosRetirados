@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-12"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Estantería para bicicletas con capacidad para dos o tres bicicletas. Todos los lotes se ven afectados. Producto vendido en línea, en particular a través de Decathlon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +72,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SI",
+   "SK",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f8c79d7a55cc5e6"
+  "enriquecido": true,
+  "hashContenido": "dbef1f25f6cfbec4"
  },
  "slug": "portabicicletas-menabo-safety-gate-10094605"
 }

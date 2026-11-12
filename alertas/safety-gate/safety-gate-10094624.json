@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-07"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -24,13 +24,15 @@
   {
    "nombre": "Grand Touring & Expedition (Ski-Doo), Adventure (Lynx)",
    "marcas": [
-    "Lynx, Ski-doo"
+    "Lynx",
+    "Ski-doo"
    ],
    "modelos": [],
    "lotes": [],
    "ean": [],
    "descripcion": "Motos de nieve eléctricas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Finlandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6b3c52a8d232cd1c"
+  "enriquecido": true,
+  "hashContenido": "383fb3493d44bf6b"
  },
  "slug": "motos-de-nieve-lynx-ski-doo-safety-gate-10094624"
 }

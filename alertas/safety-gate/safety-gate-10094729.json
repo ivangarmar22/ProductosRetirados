@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-06-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-24"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
     "8432074020219"
    ],
    "descripcion": "Líquido pulidor de vía metálica, 100 ml. Todos los lotes están afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "DE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +114,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2f21538ac06e30a2"
+  "enriquecido": true,
+  "hashContenido": "2593abb9b1d70954"
  },
  "slug": "liquido-de-brunido-ammo-of-mig-jimenez-safety-gate-10094729"
 }
