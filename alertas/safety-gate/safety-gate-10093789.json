@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e13*2018/858*00648*00",
     "e13*2018/858*00649*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.12.2023 - 06.02.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "10.12.2023 - 06.02.2024"
+   "fechasTexto": "10.12.2023 - 06.02.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Rumanía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "IE",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,15 +101,16 @@
    "mm:ford:n1p",
    "mm:ford:n3p",
    "mm:ford:e13-2018-858-00648-00",
-   "mm:ford:e13-2018-858-00649-00"
+   "mm:ford:e13-2018-858-00649-00",
+   "ml:ford:10-12-2023-06-02-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f63d6938b34736c7"
+  "enriquecido": true,
+  "hashContenido": "5b3beb788bf950c7"
  },
  "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-ford-safety-gate-10093789"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-03"
  },
  "categoria": {
   "literal": "Embarcaciones de recreo",
@@ -36,12 +36,28 @@
    ],
    "lotes": [
     {
-     "numero": "091521740625406351073540435406"
+     "numero": "09152"
+    },
+    {
+     "numero": "17406"
+    },
+    {
+     "numero": "25406"
+    },
+    {
+     "numero": "35107"
+    },
+    {
+     "numero": "35404"
+    },
+    {
+     "numero": "35406"
     }
    ],
    "ean": [],
    "descripcion": "Juego de juntas destinado a ser utilizado como recambio en vehículos radiocontrolados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lámina de plástico."
   }
  ],
  "riesgo": {
@@ -112,15 +128,20 @@
    "mm:ngh:ngh-gt35-exhaust-gasket",
    "mm:ngh:ngh-gt35-gt35r-exhaust-gasket",
    "mm:ngh:ngh-gt9-sensing-head-gasket",
-   "ml:ngh:091521740625406351073540435406"
+   "ml:ngh:09152",
+   "ml:ngh:17406",
+   "ml:ngh:25406",
+   "ml:ngh:35107",
+   "ml:ngh:35404",
+   "ml:ngh:35406"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "45827f4007a08c8c"
+  "enriquecido": true,
+  "hashContenido": "b8de2bda5bc8a073"
  },
  "slug": "junta-ngh-safety-gate-10092612"
 }

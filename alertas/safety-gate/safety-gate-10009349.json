@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "Vidal"
    ],
    "modelos": [
-    "Ginseng & Guarana",
-    "Pino & Mentolo"
+    "Ginseng & Guarana, Pino & Mentolo"
    ],
    "lotes": [],
    "ean": [
@@ -36,7 +35,8 @@
     "8008970002682"
    ],
    "descripcion": "Espuma de afeitar.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lata de aluminio."
   }
  ],
  "riesgo": {
@@ -103,16 +103,15 @@
    "ref:SR/01196/25",
    "ean:8008970002675",
    "ean:8008970002682",
-   "mm:vidal:ginseng-guarana",
-   "mm:vidal:pino-mentolo"
+   "mm:vidal:ginseng-guarana-pino-mentolo"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0888c43a4a87ecc0"
+  "enriquecido": true,
+  "hashContenido": "e1dab3aabe5b7673"
  },
  "slug": "y-el-vidal-safety-gate-10009349"
 }

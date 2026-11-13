@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,9 +32,12 @@
      "numero": "A310"
     }
    ],
-   "ean": [],
+   "ean": [
+    "8009518363548"
+   ],
    "descripcion": "Eau de toilette, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio en caja de cartón."
   }
  ],
  "riesgo": {
@@ -87,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01215/25",
+   "ean:8009518363548",
    "ml:bioetyc-uomo:a310"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a93aed7eca0e18f7"
+  "enriquecido": true,
+  "hashContenido": "4545faa96aa49896"
  },
  "slug": "agua-de-toilette-bioetyc-uomo-safety-gate-10009301"
 }

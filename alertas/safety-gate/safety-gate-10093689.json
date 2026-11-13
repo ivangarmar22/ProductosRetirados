@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-02"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "0315/22678156"
+     "numero": "0315/22"
+    },
+    {
+     "numero": "678156"
     }
    ],
    "ean": [
     "3575676781562"
    ],
    "descripcion": "Soporte para chupetes. fabricado en madera y silicona, incluyendo abalorios de colores y un elemento decorativo en forma de tortuga.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Hoja de cartón."
   }
  ],
  "riesgo": {
@@ -74,7 +78,10 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +109,16 @@
   "claves": [
    "ref:SR/01072/25",
    "ean:3575676781562",
-   "ml:moulin-roty:0315-22678156"
+   "ml:moulin-roty:0315-22",
+   "ml:moulin-roty:678156"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6083a161e74498ac"
+  "enriquecido": true,
+  "hashContenido": "2d0b1702c7890d10"
  },
  "slug": "tenedor-del-chupete-moulin-roty-safety-gate-10093689"
 }

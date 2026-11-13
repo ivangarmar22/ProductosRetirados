@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-28"
  },
  "categoria": {
   "literal": "Guirnaldas luminosas",
@@ -34,7 +34,10 @@
    ],
    "lotes": [
     {
-     "numero": "23/N239/N"
+     "numero": "23/N"
+    },
+    {
+     "numero": "239/N"
     }
    ],
    "ean": [
@@ -44,7 +47,8 @@
     "8015361435554"
    ],
    "descripcion": "Cadena led multicolor con 300 microluces.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico cilíndrico transparente."
   }
  ],
  "riesgo": {
@@ -75,7 +79,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +108,16 @@
    "mm:dictrolux:405869",
    "mm:dictrolux:405870",
    "mm:dictrolux:40587or",
-   "ml:dictrolux:23-n239-n"
+   "ml:dictrolux:23-n",
+   "ml:dictrolux:239-n"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3aa005c06613003e"
+  "enriquecido": true,
+  "hashContenido": "945aae6e610af49d"
  },
  "slug": "excursion-de-nivel-p2-al-museo-alfareria-agost-dictrolux-safety-gate-10093739"
 }

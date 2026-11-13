@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "22732596"
+     "numero": "2273"
+    },
+    {
+     "numero": "2596"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "8054956593170"
    ],
    "descripcion": "Conjunto cosmético, compuesto por una espuma de ducha y un desodorante.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -96,15 +100,16 @@
    "ref:SR/01219/25",
    "ean:8033433732370",
    "ean:8054956593170",
-   "ml:diadora:22732596"
+   "ml:diadora:2273",
+   "ml:diadora:2596"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eb655e6a2dc7ca03"
+  "enriquecido": true,
+  "hashContenido": "6a97302bec69a4a9"
  },
  "slug": "espuma-de-ducha-y-desodorante-diadora-safety-gate-10009311"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Individual approval (RZR XP4 1000)",
     "e8*167/2013*00002*15 (RZR XP 1000)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.04.2021 - 20.12.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo todo terreno / Quad.",
-   "fechasTexto": "28.04.2021 - 20.12.2024"
+   "fechasTexto": "28.04.2021 - 20.12.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "HR",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +99,16 @@
   "claves": [
    "ref:SR/01064/25",
    "mm:polaris:individual-approval-rzr-xp4-1000",
-   "mm:polaris:e8-167-2013-00002-15-rzr-xp-1000"
+   "mm:polaris:e8-167-2013-00002-15-rzr-xp-1000",
+   "ml:polaris:28-04-2021-20-12-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a426c76393299e30"
+  "enriquecido": true,
+  "hashContenido": "ce83b80dbc6e0e55"
  },
  "slug": "vehiculo-todo-terreno-polaris-safety-gate-10093629"
 }

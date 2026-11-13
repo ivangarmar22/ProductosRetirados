@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "20001 20021820002 280818"
+     "numero": "20001 200218"
+    },
+    {
+     "numero": "20002 280818"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "8054633837429"
    ],
    "descripcion": "Set cosmético, compuesto por un champú y una espuma de ducha, de 400 ml cada uno.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -96,15 +100,16 @@
    "ref:SR/01218/25",
    "ean:8054633832646",
    "ean:8054633837429",
-   "ml:fit-you-soul:20001-20021820002-280818"
+   "ml:fit-you-soul:20001-200218",
+   "ml:fit-you-soul:20002-280818"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bf0291506dbabd7a"
+  "enriquecido": true,
+  "hashContenido": "db52871a98b5d1be"
  },
  "slug": "champu-y-espuma-de-ducha-fit-you-soul-safety-gate-10009341"
 }

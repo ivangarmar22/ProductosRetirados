@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e11*2001/116*0323*00-*15 (CC9)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.11.2007 - 18.05.2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con bolsas de aire Takata.",
-   "fechasTexto": "08.11.2007 - 18.05.2015"
+   "fechasTexto": "08.11.2007 - 18.05.2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HR",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01076/25",
-   "mm:jaguar:e11-2001-116-0323-00-15-cc9"
+   "mm:jaguar:e11-2001-116-0323-00-15-cc9",
+   "ml:jaguar:08-11-2007-18-05-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1e4fcb7828240d35"
+  "enriquecido": true,
+  "hashContenido": "fd438b7d1401360a"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10093676"
 }

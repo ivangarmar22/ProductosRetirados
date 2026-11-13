@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e3*2007/46*0122 (est. 22 to 26)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.2023 - 11.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / camioneta.",
-   "fechasTexto": "07.2023 - 11.2024"
+   "fechasTexto": "07.2023 - 11.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01189/25",
-   "mm:iveco:e3-2007-46-0122-est-22-to-26"
+   "mm:iveco:e3-2007-46-0122-est-22-to-26",
+   "ml:iveco:07-2023-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dcdc98f961b283ed"
+  "enriquecido": true,
+  "hashContenido": "1e677b53207a47f5"
  },
  "slug": "o-sucesor-directo-con-una-configuracion-similar-iveco-safety-gate-10093716"
 }

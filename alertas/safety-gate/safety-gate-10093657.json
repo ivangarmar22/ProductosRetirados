@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Meyle"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.07.2024 - 31.07.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo: brazo de control / horquilla de suspensión.",
-   "fechasTexto": "01.07.2024 - 31.07.2024"
+   "fechasTexto": "01.07.2024 - 31.07.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Taiwán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:SR/01078/25"
+   "ref:SR/01078/25",
+   "ml:meyle:01-07-2024-31-07-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "57bccb9b8f76d17b"
+  "enriquecido": true,
+  "hashContenido": "35706b19aab31b36"
  },
  "slug": "parte-del-vehiculo-brazo-de-control-meyle-safety-gate-10093657"
 }

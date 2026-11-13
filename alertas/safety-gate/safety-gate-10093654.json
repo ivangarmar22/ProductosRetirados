@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-20"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "44638190 09:18 464632790"
+     "numero": "44638190 09:18 4"
+    },
+    {
+     "numero": "64632790"
     }
    ],
    "ean": [
     "9005800222981"
    ],
    "descripcion": "Gel de ducha, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanca."
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:SR/01071/25",
    "ean:9005800222981",
-   "ml:nivea:44638190-09-18-464632790"
+   "ml:nivea:44638190-09-18-4",
+   "ml:nivea:64632790"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a9ead6d697b8c087"
+  "enriquecido": true,
+  "hashContenido": "646bfebce9059b4c"
  },
  "slug": "gel-de-ducha-nivea-safety-gate-10093654"
 }

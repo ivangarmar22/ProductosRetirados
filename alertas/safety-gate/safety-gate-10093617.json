@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -33,7 +33,8 @@
     "6430042123957"
    ],
    "descripcion": "Fuente de alimentación. Producto vendido en línea, en particular a través de aigroup.fi.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón impresa."
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Finlandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "983e0570bc72f77f"
+  "enriquecido": true,
+  "hashContenido": "5fa89e6551c8d4fd"
  },
  "slug": "fuente-de-alimentacion-ai-sonic-safety-gate-10093617"
 }

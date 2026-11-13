@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-24"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "3617170292349"
    ],
    "descripcion": "Cocina de arroz de tamaño normal. Producto vendido en línea a través de los sitios web de Gifi y Trafic.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "98ba00dea99ae4f1"
+  "enriquecido": true,
+  "hashContenido": "0f9e3043845db9fa"
  },
  "slug": "cocina-de-arroz-homday-safety-gate-10093741"
 }

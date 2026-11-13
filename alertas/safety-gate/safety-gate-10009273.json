@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-02"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "AG0289AG1193"
+     "numero": "AG0289"
+    },
+    {
+     "numero": "AG1193"
     }
    ],
    "ean": [
     "8003510017843"
    ],
    "descripcion": "Desodorante, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor de plástico."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
   "claves": [
    "ref:SR/01194/25",
    "ean:8003510017843",
-   "ml:breeze:ag0289ag1193"
+   "ml:breeze:ag0289",
+   "ml:breeze:ag1193"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd03f2d6c2ba0779"
+  "enriquecido": true,
+  "hashContenido": "467423dce0b8dad3"
  },
  "slug": "desodorante-breeze-safety-gate-10009273"
 }

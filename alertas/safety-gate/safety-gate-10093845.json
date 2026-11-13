@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "TQ",
     "e4*2001/116*0129*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.08.2010 - 22.11.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "18.08.2010 - 22.11.2016"
+   "fechasTexto": "18.08.2010 - 22.11.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +99,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01297/25",
-   "mm:hyundai:e4-2001-116-0129"
+   "mm:hyundai:e4-2001-116-0129",
+   "ml:hyundai:18-08-2010-22-11-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d579a5887ab4665f"
+  "enriquecido": true,
+  "hashContenido": "aa5567a61489629e"
  },
  "slug": "furgoneta-de-pasajeros-hyundai-safety-gate-10093845"
 }

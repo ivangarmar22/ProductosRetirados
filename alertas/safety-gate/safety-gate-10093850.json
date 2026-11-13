@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Teléfono de juguete en forma de autobús. Producto vendido en línea, en particular a través de eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8e2419b1c4c82e4c"
+  "enriquecido": true,
+  "hashContenido": "3e5f26cfae81cf30"
  },
  "slug": "telefono-de-juguete-children-s-simulation-bus-phone-toy-safety-gate-10093850"
 }

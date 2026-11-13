@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "P425",
     "e5*2007/46*0092*10 - *11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.07.2024 - 24.01.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros equipado con un motor V8 de 5,0 litros. Años modelo: 2025 y 2026.",
-   "fechasTexto": "01.07.2024 - 24.01.2025"
+   "fechasTexto": "01.07.2024 - 24.01.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "HU",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +91,16 @@
   "claves": [
    "ref:SR/01295/25",
    "mm:land-rover:p425",
-   "mm:land-rover:e5-2007-46-0092-10-11"
+   "mm:land-rover:e5-2007-46-0092-10-11",
+   "ml:land-rover:01-07-2024-24-01-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "28de8113ee913c61"
+  "enriquecido": true,
+  "hashContenido": "a8fffe6fbbb8e09e"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10093827"
 }

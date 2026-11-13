@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -44,10 +44,15 @@
     "e13*168/2013*01624*",
     "e13*168/2013*01625*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.12.2022 - 26.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "01.12.2022 - 26.10.2024"
+   "fechasTexto": "01.12.2022 - 26.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +82,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "IE",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -124,15 +137,16 @@
    "mm:yamaha:e13-168-2013-00987",
    "mm:yamaha:e13-168-2013-01555",
    "mm:yamaha:e13-168-2013-01624",
-   "mm:yamaha:e13-168-2013-01625"
+   "mm:yamaha:e13-168-2013-01625",
+   "ml:yamaha:01-12-2022-26-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "517626cbf4ef2f02"
+  "enriquecido": true,
+  "hashContenido": "bd07018400a8cee7"
  },
  "slug": "motocicleta-yamaha-safety-gate-10093749"
 }

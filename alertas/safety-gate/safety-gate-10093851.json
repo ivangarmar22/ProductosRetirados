@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -35,10 +35,15 @@
     "e2*2007/46*0686*13",
     "e2*2007/46*0686*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.07.2022 - 21.02.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero. Modelo (código del modelo): Proace City BEV (BPZS22, BPZS42, BPZS43), Proace City Verso BEV (BKYS41, BKYS21), Proace BEV (MDZS42, MDZS62), Proace Verso BEV (MPYS61, MPYS41). Año del modelo: 2022 y 2023.",
-   "fechasTexto": "11.07.2022 - 21.02.2023"
+   "fechasTexto": "11.07.2022 - 21.02.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +73,17 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "NO",
+   "PL",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,15 +116,16 @@
    "mm:toyota:e2-2007-46-0685-13",
    "mm:toyota:e2-2007-46-0686-12",
    "mm:toyota:e2-2007-46-0686-13",
-   "mm:toyota:e2-2007-46-0686-14"
+   "mm:toyota:e2-2007-46-0686-14",
+   "ml:toyota:11-07-2022-21-02-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "344ada0ef678876a"
+  "enriquecido": true,
+  "hashContenido": "4f6d026cac3d8eb4"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10093851"
 }

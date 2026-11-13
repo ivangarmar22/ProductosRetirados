@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8005125526871"
    ],
    "descripcion": "Kit de tatuaje de plástico compuesto por tres pinturas corporales, pegamento corporal, purpurina, transferencias de tatuajes, lápiz, cuatro colores, plantillas y pegatinas, un soporte de plástico rosa para herramientas y accesorios, un folleto con instrucciones para tatuar, tres pinceles, un contenedor, esponjas y almohadillas. Se trata de todos los lotes.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con película de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "EE",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b5a980a042043f53"
+  "enriquecido": true,
+  "hashContenido": "dc3953ed4c67f373"
  },
  "slug": "kit-de-tatuaje-de-juguete-clementoni-safety-gate-10093823"
 }

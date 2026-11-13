@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-26"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "17413103773181251011321947310503321053100476"
+     "numero": "17413103773"
+    },
+    {
+     "numero": "18125101132"
+    },
+    {
+     "numero": "19473105033"
+    },
+    {
+     "numero": "21053100476"
     }
    ],
    "ean": [
@@ -41,7 +50,8 @@
     "8008970050799"
    ],
    "descripcion": "Espuma de baño, 500 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -127,15 +137,18 @@
    "ean:8008970045481",
    "ean:8008970050799",
    "mm:tesori-d-oriente:bagno-schiuma",
-   "ml:tesori-d-oriente:17413103773181251011321947310503321053100476"
+   "ml:tesori-d-oriente:17413103773",
+   "ml:tesori-d-oriente:18125101132",
+   "ml:tesori-d-oriente:19473105033",
+   "ml:tesori-d-oriente:21053100476"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5ef2d4e564617b0a"
+  "enriquecido": true,
+  "hashContenido": "01f73be2e883c265"
  },
  "slug": "espuma-de-bano-tesori-d-oriente-safety-gate-10009314"
 }

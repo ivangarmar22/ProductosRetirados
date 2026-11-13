@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0442805469"
+     "numero": "04428"
+    },
+    {
+     "numero": "05469"
     }
    ],
    "ean": [
     "5907813184468"
    ],
    "descripcion": "Mousse colorante del cabello, 75ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con la imagen de una mujer y el nombre de la sombra."
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
    "ref:SR/01087/25",
    "ean:5907813184468",
    "mm:wats-elysee:46-mahagony",
-   "ml:wats-elysee:0442805469"
+   "ml:wats-elysee:04428",
+   "ml:wats-elysee:05469"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4a093a13d5d7a6a7"
+  "enriquecido": true,
+  "hashContenido": "8aac09650d2fd109"
  },
  "slug": "mousse-colorante-del-cabello-wats-elysee-safety-gate-10093656"
 }

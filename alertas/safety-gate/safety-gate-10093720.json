@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-25"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "89023115226400"
+     "numero": "8902311"
+    },
+    {
+     "numero": "5226400"
     }
    ],
    "ean": [
     "8717644242285"
    ],
    "descripcion": "Champú, anunciado como el control de la caída del cabello, 250ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
   "claves": [
    "ref:SR/01122/25",
    "ean:8717644242285",
-   "ml:dove:89023115226400"
+   "ml:dove:8902311",
+   "ml:dove:5226400"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3b62ff904db4b66d"
+  "enriquecido": true,
+  "hashContenido": "4eac8c637ad97ec1"
  },
  "slug": "champu-dove-safety-gate-10093720"
 }

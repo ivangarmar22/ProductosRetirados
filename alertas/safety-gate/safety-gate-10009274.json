@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "0281226002"
+     "numero": "02812"
+    },
+    {
+     "numero": "26002"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "80936251"
    ],
    "descripcion": "Desodorante activo, anunciado como que tiene una fragancia de sales marinas, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor de plástico."
   }
  ],
  "riesgo": {
@@ -107,15 +111,16 @@
    "ean:80859840",
    "ean:80936251",
    "mm:borotalco:deo-roll-on-0-alcool",
-   "ml:borotalco:0281226002"
+   "ml:borotalco:02812",
+   "ml:borotalco:26002"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7b9489d3b4f38f68"
+  "enriquecido": true,
+  "hashContenido": "f2204aa3bca5e7ac"
  },
  "slug": "desodorante-borotalco-safety-gate-10009274"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-03"
  },
  "categoria": {
   "literal": "Embarcaciones de recreo",
@@ -27,15 +27,15 @@
     "Carisma"
    ],
    "modelos": [
-    "CIS14993",
-    "14993"
+    "CIS14993 / 14993"
    ],
    "lotes": [],
    "ean": [
     "4892793149938"
    ],
    "descripcion": "Junta, parte de un juego de piñón deslizante.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lámina de plástico."
   }
  ],
  "riesgo": {
@@ -81,16 +81,15 @@
   "claves": [
    "ref:SR/01346/25",
    "ean:4892793149938",
-   "mm:carisma:cis14993",
-   "mm:carisma:14993"
+   "mm:carisma:cis14993-14993"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8a4fa97f93e64baa"
+  "enriquecido": true,
+  "hashContenido": "d33fe301c1ce5cb8"
  },
  "slug": "junta-carisma-safety-gate-10092614"
 }

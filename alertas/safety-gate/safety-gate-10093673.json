@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2007/46*1058* (LC)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.09.2014 - 17.10.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con bolsas de aire Takata.",
-   "fechasTexto": "11.09.2014 - 17.10.2016"
+   "fechasTexto": "11.09.2014 - 17.10.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01074/25",
-   "mm:land-rover:e5-2007-46-1058-lc"
+   "mm:land-rover:e5-2007-46-1058-lc",
+   "ml:land-rover:11-09-2014-17-10-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5667849202a8815f"
+  "enriquecido": true,
+  "hashContenido": "a3e4e0220ba0b024"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10093673"
 }
