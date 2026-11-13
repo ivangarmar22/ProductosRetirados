@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "011912032101"
+     "numero": "011912"
+    },
+    {
+     "numero": "032101"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "8302131015833"
    ],
    "descripcion": "Barniz de gel coloreado para uñas, 10 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ean:8302131015833",
    "mm:yes-j-y:y01-041",
    "mm:yes-j-y:y03",
-   "ml:yes-j-y:011912032101"
+   "ml:yes-j-y:011912",
+   "ml:yes-j-y:032101"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0bdb14c54e69bbe2"
+  "enriquecido": true,
+  "hashContenido": "55f4308ea28d9448"
  },
  "slug": "barniz-de-unas-yes-j-y-safety-gate-10094365"
 }

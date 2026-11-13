@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "RU",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.08.2016 - 07.08.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.08.2016 - 07.08.2018"
+   "fechasTexto": "12.08.2016 - 07.08.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01854/25",
-   "mm:chrysler:individual-approval"
+   "mm:chrysler:individual-approval",
+   "ml:chrysler:12-08-2016-07-08-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0021c92bcd22e568"
+  "enriquecido": true,
+  "hashContenido": "397aba73b50bd9eb"
  },
  "slug": "coche-de-pasajeros-chrysler-safety-gate-10094073"
 }

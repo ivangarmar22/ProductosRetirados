@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,24 @@
     "e2*2018/858*00064*03",
     "g11*2018/858*00524*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.3.2024 - 27.11. 2024: 5008 III"
+    },
+    {
+     "numero": "18.1.2024 - 28.11. 2024: 3008 III"
+    },
+    {
+     "numero": "4.5.2023 - 22.1.2025: 308 III"
+    },
+    {
+     "numero": "7.10.2024 - 16.1. 2025: 408"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de motor para el transporte de pasajeros.",
-   "fechasTexto": "11.3.2024 - 27.11. 2024: 5008 III18.1.2024 - 28.11. 2024: 3008 III4.5.2023 - 22.1.2025: 308 III7.10.2024 - 16.1. 2025: 408"
+   "fechasTexto": "11.3.2024 - 27.11. 2024: 5008 III18.1.2024 - 28.11. 2024: 3008 III4.5.2023 - 22.1.2025: 308 III7.10.2024 - 16.1. 2025: 408",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +81,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,15 +115,19 @@
    "mm:peugeot:e2-2007-46-0628-33",
    "mm:peugeot:e2-2007-46-0628-36",
    "mm:peugeot:e2-2018-858-00064-03",
-   "mm:peugeot:g11-2018-858-00524-01"
+   "mm:peugeot:g11-2018-858-00524-01",
+   "ml:peugeot:11-3-2024-27-11-2024-5008-iii",
+   "ml:peugeot:18-1-2024-28-11-2024-3008-iii",
+   "ml:peugeot:4-5-2023-22-1-2025-308-iii",
+   "ml:peugeot:7-10-2024-16-1-2025-408"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2c710b78e626910d"
+  "enriquecido": true,
+  "hashContenido": "af5768d1efc16827"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10094016"
 }

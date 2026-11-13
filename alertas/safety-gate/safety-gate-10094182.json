@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-29"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "Cavo"
    ],
    "modelos": [
-    "15-241",
-    "DY-0421000"
+    "15-241 / DY-0421000"
    ],
    "lotes": [],
    "ean": [
     "7332440766929"
    ],
    "descripcion": "Luz de bicicleta con cargador.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -90,16 +90,15 @@
   "claves": [
    "ref:SR/01716/25",
    "ean:7332440766929",
-   "mm:cavo:15-241",
-   "mm:cavo:dy-0421000"
+   "mm:cavo:15-241-dy-0421000"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6f7e50d93229604b"
+  "enriquecido": true,
+  "hashContenido": "92c4359b8b4cd5f7"
  },
  "slug": "luz-de-bicicleta-cavo-safety-gate-10094182"
 }

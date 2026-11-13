@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,22 +27,22 @@
     "Schwarzkopf Palette"
    ],
    "modelos": [
-    "LIGHTENER",
-    "PERMANENT",
-    "A10",
-    "10-2",
-    "3x CARE"
+    "LIGHTENER, PERMANENT, A10, 10-2, 3x CARE"
    ],
    "lotes": [
     {
-     "numero": "08235040800827301731"
+     "numero": "0823504080"
+    },
+    {
+     "numero": "0827301731,"
     }
    ],
    "ean": [
     "3838824159133"
    ],
    "descripcion": "Kit de tinte para el cabello que incluye un tubo de crema colorante, una botella de desarrollador, un sobre de máscara de cuidado, un par de guantes e instrucciones de uso.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón púrpura de aproximadamente 15 cm de altura, con, en frente, una imagen de una mujer."
   }
  ],
  "riesgo": {
@@ -100,20 +100,17 @@
   "claves": [
    "ref:SR/01736/25",
    "ean:3838824159133",
-   "mm:schwarzkopf-palette:lightener",
-   "mm:schwarzkopf-palette:permanent",
-   "mm:schwarzkopf-palette:a10",
-   "mm:schwarzkopf-palette:10-2",
-   "mm:schwarzkopf-palette:3x-care",
-   "ml:schwarzkopf-palette:08235040800827301731"
+   "mm:schwarzkopf-palette:lightener-permanent-a10-10-2-3x-care",
+   "ml:schwarzkopf-palette:0823504080",
+   "ml:schwarzkopf-palette:0827301731"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "85689b65529f4dad"
+  "enriquecido": true,
+  "hashContenido": "755867a55739394d"
  },
  "slug": "tinte-para-el-cabello-schwarzkopf-palette-safety-gate-10093894"
 }

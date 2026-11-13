@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E13 0222993"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2025 - 05.01.2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Piezas de vehículos / Neumáticos para automóviles. Número DOT: 1DM7R JJTR 0125. Códigos de barras: 7168948215, 7168948213, 7168948210 y 7168948203. Producto vendido en tiendas online de neumáticos.",
-   "fechasTexto": "01.01.2025 - 05.01.2025"
+   "fechasTexto": "01.01.2025 - 05.01.2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:OR/00060/25",
-   "mm:goodyear:e13-0222993"
+   "mm:goodyear:e13-0222993",
+   "ml:goodyear:01-01-2025-05-01-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30b20ee6f8a424db"
+  "enriquecido": true,
+  "hashContenido": "842fa5b6e5e825b8"
  },
  "slug": "parte-del-vehiculo-neumatico-del-coche-goodyear-safety-gate-10093780"
 }

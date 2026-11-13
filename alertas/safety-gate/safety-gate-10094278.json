@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,12 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "KiK3551KiK3552"
+     "numero": "KiK3551"
+    },
+    {
+     "numero": "KiK3552"
     }
    ],
    "ean": [],
    "descripcion": "Juguete suave con anillo de madera. Producto vendido en línea, en particular a través de kik.de.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,15 +108,16 @@
    "ref:SR/01731/25",
    "mm:ergee:1191248",
    "mm:ergee:wgr-884",
-   "ml:ergee:kik3551kik3552"
+   "ml:ergee:kik3551",
+   "ml:ergee:kik3552"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "88a7454abaa2f190"
+  "enriquecido": true,
+  "hashContenido": "fe2234e67b186e20"
  },
  "slug": "juguete-de-anillo-de-madera-ergee-safety-gate-10094278"
 }

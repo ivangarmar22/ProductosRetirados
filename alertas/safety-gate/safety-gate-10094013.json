@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,18 @@
     "e2*2018/858*00064*05",
     "e2*2018/858*00064*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.3.2024 to 12.11. 2024: Astra L"
+    },
+    {
+     "numero": "7.10. 2024 to 10.12.2024: Grandland"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de motor para el transporte de pasajeros.",
-   "fechasTexto": "13.3.2024 to 12.11. 2024: Astra L7.10. 2024 to 10.12.2024: Grandland"
+   "fechasTexto": "13.3.2024 to 12.11. 2024: Astra L7.10. 2024 to 10.12.2024: Grandland",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +95,17 @@
    "ref:SR/01779/25",
    "mm:opel-vauxhall:e2-2007-46-0628-30",
    "mm:opel-vauxhall:e2-2018-858-00064-05",
-   "mm:opel-vauxhall:e2-2018-858-00064-06"
+   "mm:opel-vauxhall:e2-2018-858-00064-06",
+   "ml:opel-vauxhall:13-3-2024-to-12-11-2024-astra-l",
+   "ml:opel-vauxhall:7-10-2024-to-10-12-2024-grandland"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "851d86246e399c52"
+  "enriquecido": true,
+  "hashContenido": "33f63ca5158fe3a7"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10094013"
 }

@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10119573",
+ "fuente": "safety-gate",
+ "idFuente": "10119573",
+ "referenciaOficial": "SR/03203/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119573",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Audi",
+ "nombreVisible": "Coche de pasajeros Audi",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-11-10",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-10"
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Coche de pasajeros",
+   "marcas": [
+    "Audi"
+   ],
+   "modelos": [
+    "Q4 e-tron",
+    "e1*2018/858*00006* (FZ)"
+   ],
+   "lotes": [
+    {
+     "numero": "30.11.2023 - 26.06.2025"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Coche de pasajeros equipado con batería de alto voltaje.",
+   "fechasTexto": "30.11.2023 - 26.06.2025",
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Con un alto estado de carga, el sobrecalentamiento puede ocurrir dentro de la batería de alto voltaje y aumentar el riesgo de incendio. El producto incumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Alemania",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11242087",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03203/26",
+   "mm:audi:q4-e-tron",
+   "mm:audi:e1-2018-858-00006-fz",
+   "ml:audi:30-11-2023-26-06-2025"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-13",
+  "enriquecido": true,
+  "hashContenido": "e2b999204aec6703"
+ },
+ "slug": "coche-de-pasajeros-audi-safety-gate-10119573"
+}

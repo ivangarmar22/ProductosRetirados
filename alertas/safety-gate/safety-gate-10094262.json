@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave, en forma de elefante. Tamaño: 20 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bb8c285df7963162"
+  "enriquecido": true,
+  "hashContenido": "c854596ee12a8dba"
  },
  "slug": "juguete-suave-tedi-safety-gate-10094262"
 }

@@ -1,0 +1,102 @@
+{
+ "id": "safety-gate-10119537",
+ "fuente": "safety-gate",
+ "idFuente": "10119537",
+ "referenciaOficial": "SR/03159/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119537",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Ford · Ranger",
+ "nombreVisible": "Coche de pasajeros Ford",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-11-05",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-10"
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Ranger",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e5*2007/46*0080*15 (2AB)"
+   ],
+   "lotes": [
+    {
+     "numero": "25.08.2025 - 23.10.2025"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "25.08.2025 - 23.10.2025",
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "Los dos brazos del soporte de montaje delantero de la carcasa de la batería de alto voltaje pueden fracturarse. Esto puede hacer que la carcasa de la batería de alto voltaje entre en contacto con el tanque de combustible, causando fugas de combustible y aumentando el riesgo de incendio. El producto incumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Sudáfrica",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11242037",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.com/support/recalls-details/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03159/26",
+   "mm:ford:e5-2007-46-0080-15-2ab",
+   "ml:ford:25-08-2025-23-10-2025"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-13",
+  "enriquecido": true,
+  "hashContenido": "30051db6ff2b4027"
+ },
+ "slug": "coche-de-pasajeros-ford-safety-gate-10119537"
+}

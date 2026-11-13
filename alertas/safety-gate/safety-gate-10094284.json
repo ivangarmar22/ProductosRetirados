@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-09"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -27,13 +27,13 @@
     "„Cherry love“"
    ],
    "modelos": [
-    "1003",
-    "CL-0031003"
+    "1003, CL-0031003"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Sudadera marrón claro, destinada a los niños. Tamaño: 128. Producto vendido en línea, en particular a través de amadeo.ee.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje."
   }
  ],
  "riesgo": {
@@ -82,16 +82,15 @@
  "dedup": {
   "claves": [
    "ref:SR/01751/25",
-   "mm:cherry-love:1003",
-   "mm:cherry-love:cl-0031003"
+   "mm:cherry-love:1003-cl-0031003"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "827d846035fddbb4"
+  "enriquecido": true,
+  "hashContenido": "f7361d28b7913932"
  },
  "slug": "sudadera-de-los-ninos-cherry-love-safety-gate-10094284"
 }

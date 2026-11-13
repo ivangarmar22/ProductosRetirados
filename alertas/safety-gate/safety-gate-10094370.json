@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,9 +32,12 @@
      "numero": "B17248"
     }
    ],
-   "ean": [],
+   "ean": [
+    "8715658360902"
+   ],
    "descripcion": "Set de cosméticos, compuesto por un perfume (100 ml) y un atomizador de viaje (10 ml).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón púrpura con ventana de plástico."
   }
  ],
  "riesgo": {
@@ -91,15 +94,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01828/25",
+   "ean:8715658360902",
    "ml:real-time:b17248"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a68f248ec4d5bc1"
+  "enriquecido": true,
+  "hashContenido": "debf638524bda349"
  },
  "slug": "conjunto-de-cosmeticos-real-time-safety-gate-10094370"
 }

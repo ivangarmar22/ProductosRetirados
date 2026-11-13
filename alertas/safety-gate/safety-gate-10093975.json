@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-06"
  },
  "categoria": {
   "literal": "Equipos y recipientes de presión",
@@ -27,21 +27,13 @@
     "TRANS MEDIKAL - GETINGE"
    ],
    "modelos": [
-    "20 kW",
-    "22",
-    "5 kW",
-    "30 kW",
-    "37",
-    "5 kW",
-    "40 kW",
-    "45 kW",
-    "50 kW",
-    "60 kW"
+    "20 kW ; 22,5 kW ; 30 kW ; 37,5 kW ; 40 kW ; 45 kW ; 50 kW ; 60 kW"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Generador de vapor integrado en el esterilizador.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -95,21 +87,15 @@
  "dedup": {
   "claves": [
    "ref:OR/00067/25",
-   "mm:trans-medikal-getinge:20-kw",
-   "mm:trans-medikal-getinge:5-kw",
-   "mm:trans-medikal-getinge:30-kw",
-   "mm:trans-medikal-getinge:40-kw",
-   "mm:trans-medikal-getinge:45-kw",
-   "mm:trans-medikal-getinge:50-kw",
-   "mm:trans-medikal-getinge:60-kw"
+   "mm:trans-medikal-getinge:20-kw-22-5-kw-30-kw-37-5-kw-40-kw-45-kw-50-kw-60-kw"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f5dea304cd114c58"
+  "enriquecido": true,
+  "hashContenido": "f6a0ec50893912a7"
  },
  "slug": "generador-de-vapor-trans-medikal-getinge-safety-gate-10093975"
 }

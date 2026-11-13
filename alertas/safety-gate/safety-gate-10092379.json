@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,27 @@
     "E4-75R -0015919 (Tourance Next II)",
     "E4-75R -0017481 (Tourance Next II)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2017 - 30.09.2024 (Scorpio Trail II 150/70R18 M/C 70V), (TIN): (1)EB 2M X032"
+    },
+    {
+     "numero": "28.11.2016 - 10.06.2024 (Tourance Next 150/70R18 M/C 70V), (TIN) : (1)EB 0M X033"
+    },
+    {
+     "numero": "29.08.2022 - 26.08.2024 (Tourance Next II 150/70R18 M/C 70W), (TIN): (1)EB 0M 410P"
+    },
+    {
+     "numero": "30.08.2021 - 24.06.2024 (Tourance Next II 150/70R18 M/C 70V), (TIN): (1)EB 0M 614L"
+    },
+    {
+     "numero": "30.11.2016 - 30.09.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumático de motocicleta.",
-   "fechasTexto": "01.01.2017 - 30.09.2024 (Scorpio Trail II 150/70R18 M/C 70V), (TIN): (1)EB 2M X03228.11.2016 - 10.06.2024 (Tourance Next 150/70R18 M/C 70V), (TIN) : (1)EB 0M X03329.08.2022 - 26.08.2024 (Tourance Next II 150/70R18 M/C 70W), (TIN): (1)EB 0M 410P30.08.2021 - 24.06.2024 (Tourance Next II 150/70R18 M/C 70V), (TIN): (1)EB 0M 614L30.11.2016 - 30.09.2024"
+   "fechasTexto": "01.01.2017 - 30.09.2024 (Scorpio Trail II 150/70R18 M/C 70V), (TIN): (1)EB 2M X03228.11.2016 - 10.06.2024 (Tourance Next 150/70R18 M/C 70V), (TIN) : (1)EB 0M X03329.08.2022 - 26.08.2024 (Tourance Next II 150/70R18 M/C 70W), (TIN): (1)EB 0M 410P30.08.2021 - 24.06.2024 (Tourance Next II 150/70R18 M/C 70V), (TIN): (1)EB 0M 614L30.11.2016 - 30.09.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +82,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,15 +123,20 @@
    "mm:pirelli-metzeler:e3-75r-002028-ext-2-tourance-next",
    "mm:pirelli-metzeler:e3-75r-002028-ext-3-scorpion-trail-ii",
    "mm:pirelli-metzeler:e4-75r-0015919-tourance-next-ii",
-   "mm:pirelli-metzeler:e4-75r-0017481-tourance-next-ii"
+   "mm:pirelli-metzeler:e4-75r-0017481-tourance-next-ii",
+   "ml:pirelli-metzeler:01-01-2017-30-09-2024-scorpio-trail-ii-150-70r18-m-c-70v-tin-1-eb-2m-x032",
+   "ml:pirelli-metzeler:28-11-2016-10-06-2024-tourance-next-150-70r18-m-c-70v-tin-1-eb-0m-x033",
+   "ml:pirelli-metzeler:29-08-2022-26-08-2024-tourance-next-ii-150-70r18-m-c-70w-tin-1-eb-0m-410p",
+   "ml:pirelli-metzeler:30-08-2021-24-06-2024-tourance-next-ii-150-70r18-m-c-70v-tin-1-eb-0m-614l",
+   "ml:pirelli-metzeler:30-11-2016-30-09-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "54860cf131a88fb2"
+  "enriquecido": true,
+  "hashContenido": "d03cd12e27dd3bdb"
  },
  "slug": "neumatico-de-motocicleta-pirelli-metzeler-safety-gate-10092379"
 }

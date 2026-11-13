@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "MA3",
     "e5*2007/46*1205*05-*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3.8.2020 - 17.2.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "3.8.2020 - 17.2.2022"
+   "fechasTexto": "3.8.2020 - 17.2.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
   "claves": [
    "ref:SR/01785/25",
    "mm:mclaren:ma3",
-   "mm:mclaren:e5-2007-46-1205-05-07"
+   "mm:mclaren:e5-2007-46-1205-05-07",
+   "ml:mclaren:3-8-2020-17-2-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35dddae35d4f4949"
+  "enriquecido": true,
+  "hashContenido": "ad320322c5f50ec4"
  },
  "slug": "coche-de-pasajeros-mclaren-safety-gate-10094269"
 }

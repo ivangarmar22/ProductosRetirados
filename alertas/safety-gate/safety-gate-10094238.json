@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-05-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval (Type: LA)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.7.2023 - 16.8.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "29.7.2023 - 16.8.2023"
+   "fechasTexto": "29.7.2023 - 16.8.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01741/25",
-   "mm:dodge:individual-approval-type-la"
+   "mm:dodge:individual-approval-type-la",
+   "ml:dodge:29-7-2023-16-8-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1797ee17edf1ff25"
+  "enriquecido": true,
+  "hashContenido": "9b3f6acf0f618d2c"
  },
  "slug": "coche-de-pasajeros-dodge-safety-gate-10094238"
 }
