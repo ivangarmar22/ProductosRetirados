@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,12 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "01/2406/23"
+     "numero": "01/24"
+    },
+    {
+     "numero": "06/23"
     }
    ],
    "ean": [],
    "descripcion": "Juguete de corredor de bolas de madera con un conejo o dinosaurio en el centro. Producto vendido en línea, en particular a través de my1styears.com",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
    "ref:SR/01649/25",
    "mm:my-1st-years:50112095",
    "mm:my-1st-years:50112096",
-   "ml:my-1st-years:01-2406-23"
+   "ml:my-1st-years:01-24",
+   "ml:my-1st-years:06-23"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6141be282b34358c"
+  "enriquecido": true,
+  "hashContenido": "fd906c3f3f4b7262"
  },
  "slug": "juguete-de-corredor-de-bolas-my-1st-years-safety-gate-10094072"
 }

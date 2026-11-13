@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,18 @@
     "e2*2007/46*0625*21 (Doblo)",
     "e2*2007/46*0625*22 (Doblo)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.01.2023 - 22.02.2023 (Scudo)"
+    },
+    {
+     "numero": "11.11.2022 - 16.02.2023 (Doblo)"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "10.01.2023 - 22.02.2023 (Scudo)11.11.2022 - 16.02.2023 (Doblo)"
+   "fechasTexto": "10.01.2023 - 22.02.2023 (Scudo)11.11.2022 - 16.02.2023 (Doblo)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +74,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HU",
+   "LU",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +104,17 @@
    "mm:fiat:e2-2007-46-0624-19-doblo",
    "mm:fiat:e2-2007-46-0624-20-doblo",
    "mm:fiat:e2-2007-46-0625-21-doblo",
-   "mm:fiat:e2-2007-46-0625-22-doblo"
+   "mm:fiat:e2-2007-46-0625-22-doblo",
+   "ml:fiat:10-01-2023-22-02-2023-scudo",
+   "ml:fiat:11-11-2022-16-02-2023-doblo"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "67205dcb47bb6b1b"
+  "enriquecido": true,
+  "hashContenido": "a202c70619836fa7"
  },
  "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-fiat-safety-gate-10093859"
 }

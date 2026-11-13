@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Loción para aclarar la piel, 100 ml. Producto vendido en línea, en particular a través de eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella amarilla con tapa amarilla."
   }
  ],
  "riesgo": {
@@ -59,7 +60,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Camerún",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76063b6a61a173b2"
+  "enriquecido": true,
+  "hashContenido": "61bb4174869fdbd5"
  },
  "slug": "locion-para-aclarar-la-piel-gluta-banana-gef-safety-gate-10094062"
 }

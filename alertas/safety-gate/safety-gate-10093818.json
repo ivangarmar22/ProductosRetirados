@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-14"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje, 30ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00034b1a6235add2"
+  "enriquecido": true,
+  "hashContenido": "5b223213ec5093f4"
  },
  "slug": "tinta-de-tatuaje-radiant-safety-gate-10093818"
 }

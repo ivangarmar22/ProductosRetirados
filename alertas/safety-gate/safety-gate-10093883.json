@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Volvo"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2020 - 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "2020 - 2022"
+   "fechasTexto": "2020 - 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,24 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,15 +116,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/01422/25"
+   "ref:SR/01422/25",
+   "ml:volvo:2020-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3ccc2b318c22f481"
+  "enriquecido": true,
+  "hashContenido": "235671f4b65f8a6c"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10093883"
 }

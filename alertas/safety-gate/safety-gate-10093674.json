@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e19*2018/858*00001*12 (DUSTER III)",
     "e2*2007/46*0684*27 to 29 (CAPTUR II)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.06.2024 - 23.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.06.2024 - 23.10.2024"
+   "fechasTexto": "12.06.2024 - 23.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "GR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +88,16 @@
   "claves": [
    "ref:SR/01507/25",
    "mm:renault:e19-2018-858-00001-12-duster-iii",
-   "mm:renault:e2-2007-46-0684-27-to-29-captur-ii"
+   "mm:renault:e2-2007-46-0684-27-to-29-captur-ii",
+   "ml:renault:12-06-2024-23-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8d15580402f425da"
+  "enriquecido": true,
+  "hashContenido": "8e816127f9b12eb5"
  },
  "slug": "coche-de-pasajeros-renault-safety-gate-10093674"
 }

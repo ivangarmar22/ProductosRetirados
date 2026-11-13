@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-22"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,16 @@
    ],
    "lotes": [
     {
-     "numero": "A009157 A024950 A043951A045219"
+     "numero": "A009157"
+    },
+    {
+     "numero": "A024950"
+    },
+    {
+     "numero": "A043951"
+    },
+    {
+     "numero": "A045219"
     }
    ],
    "ean": [
@@ -44,7 +53,8 @@
     "6941770059024"
    ],
    "descripcion": "Cigarrillo electrónico desechable, volumen del e-líquido: 20 ml, concentración de nicotina: 5 % (50 mg/ml), número de bocanadas: 30000.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -74,7 +84,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -121,15 +133,18 @@
    "mm:oxbar:peach-mango",
    "mm:oxbar:strawberry-watermelon-peach",
    "mm:oxbar:vitality-grape",
-   "ml:oxbar:a009157-a024950-a043951a045219"
+   "ml:oxbar:a009157",
+   "ml:oxbar:a024950",
+   "ml:oxbar:a043951",
+   "ml:oxbar:a045219"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5eab7701f3530fee"
+  "enriquecido": true,
+  "hashContenido": "282d2ade55e4316b"
  },
  "slug": "cigarrillo-electronico-desechable-oxbar-safety-gate-10093986"
 }

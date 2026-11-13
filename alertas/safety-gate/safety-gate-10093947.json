@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "114629013379219218"
+     "numero": "114629013"
+    },
+    {
+     "numero": "379219218"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "8057007400809"
    ],
    "descripcion": "Crema colorante para el cabello.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -96,15 +100,16 @@
    "ref:SR/01364/25",
    "ean:1040708000604",
    "ean:8057007400809",
-   "ml:ekre:114629013379219218"
+   "ml:ekre:114629013",
+   "ml:ekre:379219218"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5a12b6929ed0bc67"
+  "enriquecido": true,
+  "hashContenido": "e6bf86c471a2a4c4"
  },
  "slug": "crema-colorante-para-el-cabello-ekre-safety-gate-10093947"
 }

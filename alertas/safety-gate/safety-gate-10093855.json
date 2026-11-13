@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,12 +27,9 @@
     "CITROEN"
    ],
    "modelos": [
-    "e2*2007/46*0530*19 (SPACETOURER",
-    "JUMPY 4)",
-    "e2*2007/46*0530*20 (SPACETOURER",
-    "JUMPY 4)",
-    "e2*2007/46*0531*22 (SPACETOURER",
-    "JUMPY 4)",
+    "e2*2007/46*0530*19 (SPACETOURER / JUMPY 4)",
+    "e2*2007/46*0530*20 (SPACETOURER / JUMPY 4)",
+    "e2*2007/46*0531*22 (SPACETOURER / JUMPY 4)",
     "e2*2007/46*0624*16 to e2*2007/46*0624*20 (BERLINGO)",
     "e2*2007/46*0625*20 to e2*2007/46*0625*24 (BERLINGO)",
     "e2*2007/46*0625*27 (BERLINGO)",
@@ -40,16 +37,28 @@
     "e9*2007/46*6816*11 (C4 V3)",
     "e9*2007/46*6816*12 (C4 V3)",
     "e9*2007/46*6816*13 (C4X)",
-    "e9*2007/46*6816*14 (C4 V3",
-    "C4X)",
-    "e9*2007/46*6816*15 (C4 V3",
-    "C4X)",
+    "e9*2007/46*6816*14 (C4 V3 / C4X)",
+    "e9*2007/46*6816*15 (C4 V3 / C4X)",
     "e9*2007/46*6816*16 (C4 V3)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.05.2022 - 15.03.2023 (C4 V3)"
+    },
+    {
+     "numero": "06.05.2022 - 03.04.2023 (BERLINGO)"
+    },
+    {
+     "numero": "14.12.2022 - 02.03.2023 (SPACETOURER / JUMPY 4)"
+    },
+    {
+     "numero": "18.08.2022 - 02.03.2023 (C4X)"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero equipado con baterías de alto voltaje.",
-   "fechasTexto": "03.05.2022 - 15.03.2023 (C4 V3)06.05.2022 - 03.04.2023 (BERLINGO)14.12.2022 - 02.03.2023 (SPACETOURER / JUMPY 4)18.08.2022 - 02.03.2023 (C4X)"
+   "fechasTexto": "03.05.2022 - 15.03.2023 (C4 V3)06.05.2022 - 03.04.2023 (BERLINGO)14.12.2022 - 02.03.2023 (SPACETOURER / JUMPY 4)18.08.2022 - 02.03.2023 (C4X)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +88,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,10 +129,9 @@
  "dedup": {
   "claves": [
    "ref:SR/01423/25",
-   "mm:citroen:e2-2007-46-0530-19-spacetourer",
-   "mm:citroen:jumpy-4",
-   "mm:citroen:e2-2007-46-0530-20-spacetourer",
-   "mm:citroen:e2-2007-46-0531-22-spacetourer",
+   "mm:citroen:e2-2007-46-0530-19-spacetourer-jumpy-4",
+   "mm:citroen:e2-2007-46-0530-20-spacetourer-jumpy-4",
+   "mm:citroen:e2-2007-46-0531-22-spacetourer-jumpy-4",
    "mm:citroen:e2-2007-46-0624-16-to-e2-2007-46-0624-20-berlingo",
    "mm:citroen:e2-2007-46-0625-20-to-e2-2007-46-0625-24-berlingo",
    "mm:citroen:e2-2007-46-0625-27-berlingo",
@@ -117,18 +139,21 @@
    "mm:citroen:e9-2007-46-6816-11-c4-v3",
    "mm:citroen:e9-2007-46-6816-12-c4-v3",
    "mm:citroen:e9-2007-46-6816-13-c4x",
-   "mm:citroen:e9-2007-46-6816-14-c4-v3",
-   "mm:citroen:c4x",
-   "mm:citroen:e9-2007-46-6816-15-c4-v3",
-   "mm:citroen:e9-2007-46-6816-16-c4-v3"
+   "mm:citroen:e9-2007-46-6816-14-c4-v3-c4x",
+   "mm:citroen:e9-2007-46-6816-15-c4-v3-c4x",
+   "mm:citroen:e9-2007-46-6816-16-c4-v3",
+   "ml:citroen:03-05-2022-15-03-2023-c4-v3",
+   "ml:citroen:06-05-2022-03-04-2023-berlingo",
+   "ml:citroen:14-12-2022-02-03-2023-spacetourer-jumpy-4",
+   "ml:citroen:18-08-2022-02-03-2023-c4x"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c09ee2c6a19f72de"
+  "enriquecido": true,
+  "hashContenido": "b8b014811c58b0e3"
  },
  "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-citroen-safety-gate-10093855"
 }

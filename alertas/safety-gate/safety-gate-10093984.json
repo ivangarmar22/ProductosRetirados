@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-10"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -44,9 +44,13 @@
     "WATERMELON ICE"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "6975819831005",
+    "6975819831012"
+   ],
    "descripcion": "Cigarrillo electrónico desechable, con un volumen de 30 ml, contenido de nicotina del 5% (50 mg/ml), y una capacidad de 50000 bocanadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -115,6 +119,8 @@
  "dedup": {
   "claves": [
    "ref:SR/01478/25",
+   "ean:6975819831005",
+   "ean:6975819831012",
    "mm:rendm:blueberry-cherry-cranberry",
    "mm:rendm:blueberry-sour-raspberry",
    "mm:rendm:cherry",
@@ -133,11 +139,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3c4cf3f39d4a8b16"
+  "enriquecido": true,
+  "hashContenido": "112040e1ff84fcac"
  },
  "slug": "cigarrillo-electronico-desechable-rendm-safety-gate-10093984"
 }

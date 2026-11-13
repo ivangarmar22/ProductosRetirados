@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -33,10 +33,12 @@
    ],
    "lotes": [],
    "ean": [
-    "28003922"
+    "28003922",
+    "28003939"
    ],
    "descripcion": "Chubasquero con capucha para niños, al estilo pescador. Diseñado para niños de hasta seis meses de edad. Producto vendido en línea, en particular a través de markandspencer.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,17 +95,18 @@
   "claves": [
    "ref:OR/00056/25",
    "ean:28003922",
+   "ean:28003939",
    "mm:marks-and-spencer:t78-2032y-ditsy-print-fisherman-coat",
    "mm:marks-and-spencer:t78-4039y-printed-fisherman-coat",
    "mm:marks-and-spencer:t78-4045y-hooded-fisherman-jacket"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5eb9f8e01e6c6e78"
+  "enriquecido": true,
+  "hashContenido": "a620236eae590fe2"
  },
  "slug": "abrigo-de-los-ninos-marks-and-spencer-safety-gate-10093933"
 }

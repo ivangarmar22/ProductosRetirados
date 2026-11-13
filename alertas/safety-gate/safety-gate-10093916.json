@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2018/858*00001*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.09.2022 - 07.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Modelo (tipo): Tucson (NX4e). Año del modelo: 2022 - 2023. NIV: desde TMAJA81BVNJ254096 a TMAJC81BGPJ401001.",
-   "fechasTexto": "12.09.2022 - 07.09.2023"
+   "fechasTexto": "12.09.2022 - 07.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +92,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01460/25",
-   "mm:hyundai:e5-2018-858-00001-06"
+   "mm:hyundai:e5-2018-858-00001-06",
+   "ml:hyundai:12-09-2022-07-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0daf0045c311b382"
+  "enriquecido": true,
+  "hashContenido": "6bed9044acbf5b50"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10093916"
 }

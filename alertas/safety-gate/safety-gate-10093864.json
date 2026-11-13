@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,20 +27,32 @@
     "Opel/Vauxhall"
    ],
    "modelos": [
-    "e2*2007/46*0532*18 to e2*2007/46*0532*20 (Zafira",
-    "Vivaro)",
-    "e2*2007/46*0533*21 and e2*2007/46*0533*22 (Zafira",
-    "Vivaro)",
+    "e2*2007/46*0532*18 to e2*2007/46*0532*20 (Zafira, Vivaro)",
+    "e2*2007/46*0533*21 and e2*2007/46*0533*22 (Zafira, Vivaro)",
     "e2*2007/46*0622*18 to e2*2007/46*0622*21 (Combo)",
     "e2*2007/46*0623*20 to e2*2007/46*0623*24 (Combo)",
     "e2*2007/46*0623*27 (Combo)",
     "e2*2007/46*0639*18 to e2*2007/46*0639*22 (Mokka)",
     "e2*2007/46*0639*18 to e2*2007/46*0639*23 (Corsa)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.05.2022 - 03.02.2023 (Mokka)"
+    },
+    {
+     "numero": "13.07.2022 - 02.03.2023 (Zafira, Vivaro)"
+    },
+    {
+     "numero": "14.05.2022 - 01.03.2023 (Corsa)"
+    },
+    {
+     "numero": "16.09.2022 - 31.03.2023 (Combo)"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero equipado con baterías de alto voltaje.",
-   "fechasTexto": "12.05.2022 - 03.02.2023 (Mokka)13.07.2022 - 02.03.2023 (Zafira, Vivaro)14.05.2022 - 01.03.2023 (Corsa)16.09.2022 - 31.03.2023 (Combo)"
+   "fechasTexto": "12.05.2022 - 03.02.2023 (Mokka)13.07.2022 - 02.03.2023 (Zafira, Vivaro)14.05.2022 - 01.03.2023 (Corsa)16.09.2022 - 31.03.2023 (Combo)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +82,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,22 +126,25 @@
  "dedup": {
   "claves": [
    "ref:SR/01465/25",
-   "mm:opel-vauxhall:e2-2007-46-0532-18-to-e2-2007-46-0532-20-zafira",
-   "mm:opel-vauxhall:vivaro",
-   "mm:opel-vauxhall:e2-2007-46-0533-21-and-e2-2007-46-0533-22-zafira",
+   "mm:opel-vauxhall:e2-2007-46-0532-18-to-e2-2007-46-0532-20-zafira-vivaro",
+   "mm:opel-vauxhall:e2-2007-46-0533-21-and-e2-2007-46-0533-22-zafira-vivaro",
    "mm:opel-vauxhall:e2-2007-46-0622-18-to-e2-2007-46-0622-21-combo",
    "mm:opel-vauxhall:e2-2007-46-0623-20-to-e2-2007-46-0623-24-combo",
    "mm:opel-vauxhall:e2-2007-46-0623-27-combo",
    "mm:opel-vauxhall:e2-2007-46-0639-18-to-e2-2007-46-0639-22-mokka",
-   "mm:opel-vauxhall:e2-2007-46-0639-18-to-e2-2007-46-0639-23-corsa"
+   "mm:opel-vauxhall:e2-2007-46-0639-18-to-e2-2007-46-0639-23-corsa",
+   "ml:opel-vauxhall:12-05-2022-03-02-2023-mokka",
+   "ml:opel-vauxhall:13-07-2022-02-03-2023-zafira-vivaro",
+   "ml:opel-vauxhall:14-05-2022-01-03-2023-corsa",
+   "ml:opel-vauxhall:16-09-2022-31-03-2023-combo"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "46178ce1bed5b69e"
+  "enriquecido": true,
+  "hashContenido": "d43c9b218ebc3aa1"
  },
  "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-opel-vauxhall-safety-gate-10093864"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*0368*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.06.2010 - 25.06.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros con motor 4A92 equipado con tubo de escape con punta de silenciador. Año del modelo: 2011 - 2019.",
-   "fechasTexto": "04.06.2010 - 25.06.2019"
+   "fechasTexto": "04.06.2010 - 25.06.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:SR/01583/25",
-   "mm:mitsubishi:e1-2007-46-0368-20"
+   "mm:mitsubishi:e1-2007-46-0368-20",
+   "ml:mitsubishi:04-06-2010-25-06-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9cc461c112c11c75"
+  "enriquecido": true,
+  "hashContenido": "2973cd79886efc3f"
  },
  "slug": "coche-de-pasajeros-mitsubishi-safety-gate-10094060"
 }

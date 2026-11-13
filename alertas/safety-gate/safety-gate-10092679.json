@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e1*2007/46*1550*",
     "e1*2007/46*1801*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.01.2021 - 21.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "21.01.2021 - 21.08.2023"
+   "fechasTexto": "21.01.2021 - 21.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +71,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +109,16 @@
   "claves": [
    "ref:SR/00268/25",
    "mm:audi:e1-2007-46-1550",
-   "mm:audi:e1-2007-46-1801"
+   "mm:audi:e1-2007-46-1801",
+   "ml:audi:21-01-2021-21-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e055bf55dd852f84"
+  "enriquecido": true,
+  "hashContenido": "df9199670527a862"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10092679"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,29 +27,34 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0532*19 (Traveller",
-    "Expert 4)",
-    "e2*2007/46*0532*20 (Traveller",
-    "Expert 4)",
-    "e2*2007/46*0533*21 (Traveller",
-    "Expert 4)",
-    "e2*2007/46*0533*22 (Traveller",
-    "Expert 4)",
-    "e2*2007/46*0624*16 (Rifter",
-    "Partner)",
-    "e2*2007/46*0624*18 to e2*2007/46*0624*20 (Rifter",
-    "Partner)",
-    "e2*2007/46*0625*19 to e2*2007/46*0625*22 (Rifter",
-    "Partner)",
-    "e2*2007/46*0625*27 (Rifter",
-    "Partner)",
-    "e2*2007/46*0639*18 to e2*2007/46*0639*23 (208",
-    "2008)"
+    "e2*2007/46*0532*19 (Traveller, Expert 4)",
+    "e2*2007/46*0532*20 (Traveller, Expert 4)",
+    "e2*2007/46*0533*21 (Traveller, Expert 4)",
+    "e2*2007/46*0533*22 (Traveller, Expert 4)",
+    "e2*2007/46*0624*16 (Rifter, Partner)",
+    "e2*2007/46*0624*18 to e2*2007/46*0624*20 (Rifter, Partner)",
+    "e2*2007/46*0625*19 to e2*2007/46*0625*22 (Rifter, Partner)",
+    "e2*2007/46*0625*27 (Rifter, Partner)",
+    "e2*2007/46*0639*18 to e2*2007/46*0639*23 (208, 2008)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.05.2022 - 31.03.2023 (Rifter, Partner)"
+    },
+    {
+     "numero": "11.07.2022 - 02.03.2023 (Traveller, Expert 4)"
+    },
+    {
+     "numero": "17.05.2022 - 13.03.2023 (208)"
+    },
+    {
+     "numero": "28.05.2022 - 07.02.2023 (2008)"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero equipado con baterías de alto voltaje.",
-   "fechasTexto": "10.05.2022 - 31.03.2023 (Rifter, Partner)11.07.2022 - 02.03.2023 (Traveller, Expert 4)17.05.2022 - 13.03.2023 (208)28.05.2022 - 07.02.2023 (2008)"
+   "fechasTexto": "10.05.2022 - 31.03.2023 (Rifter, Partner)11.07.2022 - 02.03.2023 (Traveller, Expert 4)17.05.2022 - 13.03.2023 (208)28.05.2022 - 07.02.2023 (2008)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +84,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,26 +133,27 @@
  "dedup": {
   "claves": [
    "ref:SR/01450/25",
-   "mm:peugeot:e2-2007-46-0532-19-traveller",
-   "mm:peugeot:expert-4",
-   "mm:peugeot:e2-2007-46-0532-20-traveller",
-   "mm:peugeot:e2-2007-46-0533-21-traveller",
-   "mm:peugeot:e2-2007-46-0533-22-traveller",
-   "mm:peugeot:e2-2007-46-0624-16-rifter",
-   "mm:peugeot:partner",
-   "mm:peugeot:e2-2007-46-0624-18-to-e2-2007-46-0624-20-rifter",
-   "mm:peugeot:e2-2007-46-0625-19-to-e2-2007-46-0625-22-rifter",
-   "mm:peugeot:e2-2007-46-0625-27-rifter",
-   "mm:peugeot:e2-2007-46-0639-18-to-e2-2007-46-0639-23-208",
-   "mm:peugeot:2008"
+   "mm:peugeot:e2-2007-46-0532-19-traveller-expert-4",
+   "mm:peugeot:e2-2007-46-0532-20-traveller-expert-4",
+   "mm:peugeot:e2-2007-46-0533-21-traveller-expert-4",
+   "mm:peugeot:e2-2007-46-0533-22-traveller-expert-4",
+   "mm:peugeot:e2-2007-46-0624-16-rifter-partner",
+   "mm:peugeot:e2-2007-46-0624-18-to-e2-2007-46-0624-20-rifter-partner",
+   "mm:peugeot:e2-2007-46-0625-19-to-e2-2007-46-0625-22-rifter-partner",
+   "mm:peugeot:e2-2007-46-0625-27-rifter-partner",
+   "mm:peugeot:e2-2007-46-0639-18-to-e2-2007-46-0639-23-208-2008",
+   "ml:peugeot:10-05-2022-31-03-2023-rifter-partner",
+   "ml:peugeot:11-07-2022-02-03-2023-traveller-expert-4",
+   "ml:peugeot:17-05-2022-13-03-2023-208",
+   "ml:peugeot:28-05-2022-07-02-2023-2008"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8b511779f1cc87a8"
+  "enriquecido": true,
+  "hashContenido": "e753c37a775d195f"
  },
  "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10093861"
 }

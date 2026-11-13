@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-10"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "8319E9126E"
+     "numero": "8319E"
+    },
+    {
+     "numero": "9126E"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "8034041520984"
    ],
    "descripcion": "Eau de parfum, 30 ml y 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -105,15 +109,16 @@
    "ean:8034041520984",
    "mm:costume-national:63111302",
    "mm:costume-national:c111201",
-   "ml:costume-national:8319e9126e"
+   "ml:costume-national:8319e",
+   "ml:costume-national:9126e"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e46f9329cc4fd290"
+  "enriquecido": true,
+  "hashContenido": "630b4a56540f65e0"
  },
  "slug": "perfume-costume-national-safety-gate-10093895"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "4006160716726"
    ],
    "descripcion": "Calentador de ventilador de plástico blanco.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón, con marcas impresas y una imagen del producto."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Letonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6788c6d76de95389"
+  "enriquecido": true,
+  "hashContenido": "5b566a88eb76b6cc"
  },
  "slug": "calentador-de-ventilador-clatronic-safety-gate-10093760"
 }

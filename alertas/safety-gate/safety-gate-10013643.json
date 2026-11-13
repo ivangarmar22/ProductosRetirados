@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-09"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje verde oscuro, 30ml. Fecha de caducidad: 27.07.2025.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1481c22c1db4d8f4"
+  "enriquecido": true,
+  "hashContenido": "f4506a5bfd88e002"
  },
  "slug": "tinta-de-tatuaje-world-famous-limitless-safety-gate-10013643"
 }

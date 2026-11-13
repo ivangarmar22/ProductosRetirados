@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-22"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -35,7 +35,10 @@
    ],
    "lotes": [
     {
-     "numero": "AFFXES8000/24CB02-AU"
+     "numero": "AFFXES8000/24"
+    },
+    {
+     "numero": "CB02-AU"
     }
    ],
    "ean": [
@@ -45,7 +48,8 @@
     "5061016929773"
    ],
    "descripcion": "Cigarrillo electrónico desechable, con un volumen de 18 ml, contenido de nicotina del 5% y líquido aromatizado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Producto sellado en una bolsa de plástico dentro de una caja de cartón."
   }
  ],
  "riesgo": {
@@ -75,7 +79,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "Emiratos Árabes Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,15 +117,16 @@
    "mm:al-fakher:blackcurrant-ice",
    "mm:al-fakher:grape-mint",
    "mm:al-fakher:magic-love",
-   "ml:al-fakher:affxes8000-24cb02-au"
+   "ml:al-fakher:affxes8000-24",
+   "ml:al-fakher:cb02-au"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b50443bc6557aeaa"
+  "enriquecido": true,
+  "hashContenido": "9ff565d134b52f27"
  },
  "slug": "cigarrillo-electronico-desechable-al-fakher-safety-gate-10094052"
 }

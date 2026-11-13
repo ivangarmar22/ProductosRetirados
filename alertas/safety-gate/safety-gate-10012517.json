@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,32 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "1F",
-    "AU",
-    "AUV",
-    "1E",
-    "7N",
-    "3CC",
-    "6R",
-    "5Z",
-    "SY",
-    "7J",
-    "e1*2001/116*0349*",
-    "e1*2007/46*0623*",
-    "e1*2007/46*0627*",
-    "e1*98/14*0070*",
-    "e1*2007/46*0401*",
-    "e1*2001/116*0468*",
-    "e1*2001/116*0510*",
-    "e1*2001/116*0301*",
-    "e1*2007/46*1614*",
-    "e1*2007/46*0130*",
-    "e1*2001/116*0468*"
+    "1F, AU, AUV, 1E, 7N, 3CC, 6R, 5Z, SY, 7J",
+    "e1*2001/116*0349*, e1*2007/46*0623*, e1*2007/46*0627*, e1*98/14*0070*, e1*2007/46*0401*, e1*2001/116*0468*, e1*2001/116*0510*, e1*2001/116*0301*, e1*2007/46*1614*, e1*2007/46*0130*, e1*2001/116*0468*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2007 - 21.05.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche/furgoneta de pasajeros",
-   "fechasTexto": "01.08.2007 - 21.05.2014"
+   "fechasTexto": "01.08.2007 - 21.05.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,7 +69,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -126,26 +126,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00923/24",
-   "mm:vw:auv",
-   "mm:vw:3cc",
-   "mm:vw:e1-2001-116-0349",
-   "mm:vw:e1-2007-46-0623",
-   "mm:vw:e1-2007-46-0627",
-   "mm:vw:e1-98-14-0070",
-   "mm:vw:e1-2007-46-0401",
-   "mm:vw:e1-2001-116-0468",
-   "mm:vw:e1-2001-116-0510",
-   "mm:vw:e1-2001-116-0301",
-   "mm:vw:e1-2007-46-1614",
-   "mm:vw:e1-2007-46-0130"
+   "mm:vw:1f-au-auv-1e-7n-3cc-6r-5z-sy-7j",
+   "mm:vw:e1-2001-116-0349-e1-2007-46-0623-e1-2007-46-0627-e1-98-14-0070-e1-2007-46-0401-e1-2001-116-0468-e1-2001-116-0510-e1-2001-116-0301-e1-2007-46-1614-e1-2007-46-0130-e1-2001-116-0468",
+   "ml:vw:01-08-2007-21-05-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "deff83a152d7c586"
+  "enriquecido": true,
+  "hashContenido": "6c260bb9fd72710d"
  },
  "slug": "coche-furgoneta-de-pasajeros-vw-safety-gate-10012517"
 }

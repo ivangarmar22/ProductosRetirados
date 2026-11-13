@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "A16034B16283"
+     "numero": "A16034"
+    },
+    {
+     "numero": "B16283"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "8026247603011"
    ],
    "descripcion": "Eau de toilette, 50 ml y 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -101,15 +105,16 @@
    "ean:8026247603011",
    "mm:etro-profumi:201",
    "mm:etro-profumi:301",
-   "ml:etro-profumi:a16034b16283"
+   "ml:etro-profumi:a16034",
+   "ml:etro-profumi:b16283"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dd32d413a72504f1"
+  "enriquecido": true,
+  "hashContenido": "ca2eb1f45275c6fb"
  },
  "slug": "agua-de-toilette-etro-profumi-safety-gate-10093890"
 }

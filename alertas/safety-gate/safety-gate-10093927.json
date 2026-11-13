@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R10",
     "e13*167/2013*00107*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.10.2023 - 28.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo utilitario",
-   "fechasTexto": "01.10.2023 - 28.10.2024"
+   "fechasTexto": "01.10.2023 - 28.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "HU",
+   "NO",
+   "SE",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +91,16 @@
   "claves": [
    "ref:SR/01517/25",
    "mm:kubota:r10",
-   "mm:kubota:e13-167-2013-00107-03"
+   "mm:kubota:e13-167-2013-00107-03",
+   "ml:kubota:01-10-2023-28-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "65e2f5489130b568"
+  "enriquecido": true,
+  "hashContenido": "f29ac568898573ff"
  },
  "slug": "vehiculo-utilitario-kubota-safety-gate-10093927"
 }

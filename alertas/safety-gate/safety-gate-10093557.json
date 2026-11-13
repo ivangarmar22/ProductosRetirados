@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -42,7 +42,8 @@
     "793661518532"
    ],
    "descripcion": "Transceptor de avalancha de plástico negro y azul con pantalla LCD.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,13 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Bosnia y Herzegovina",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL",
+   "PT",
+   "SK",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2aa6349044846c5e"
+  "enriquecido": true,
+  "hashContenido": "d37ff8d90a21914c"
  },
  "slug": "transceptor-de-avalancha-black-diamond-safety-gate-10093557"
 }

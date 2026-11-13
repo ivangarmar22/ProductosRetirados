@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-10"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -39,6 +39,7 @@
    ],
    "lotes": [],
    "ean": [
+    "5060654464264",
     "5060654461706",
     "5060654461720",
     "5060654461737",
@@ -46,11 +47,11 @@
     "5060654464103",
     "5060654464110",
     "5060654464233",
-    "5060654464257",
-    "5060654464264"
+    "5060654464257"
    ],
    "descripcion": "Unidades de conexión fusionadas 230v con temporizadores. Todos los lotes se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Una caja blanca con una imagen del producto."
   }
  ],
  "riesgo": {
@@ -107,6 +108,7 @@
  "dedup": {
   "claves": [
    "ref:OR/00050/25",
+   "ean:5060654464264",
    "ean:5060654461706",
    "ean:5060654461720",
    "ean:5060654461737",
@@ -115,7 +117,6 @@
    "ean:5060654464110",
    "ean:5060654464233",
    "ean:5060654464257",
-   "ean:5060654464264",
    "mm:sangamo:pspbf",
    "mm:sangamo:pspbfb",
    "mm:sangamo:pspbfs",
@@ -128,11 +129,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "23226aa5dfb52446"
+  "enriquecido": true,
+  "hashContenido": "3509ef6585e70769"
  },
  "slug": "unidades-de-conexion-sangamo-safety-gate-10093369"
 }

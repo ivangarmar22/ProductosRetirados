@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "M156",
     "e3*2007/46*0224*21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.11.2020 - 08.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "01.11.2020 - 08.10.2021"
+   "fechasTexto": "01.11.2020 - 08.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +95,16 @@
   "claves": [
    "ref:A12/01270/24",
    "mm:maserati:m156",
-   "mm:maserati:e3-2007-46-0224-21"
+   "mm:maserati:e3-2007-46-0224-21",
+   "ml:maserati:01-11-2020-08-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8455d9f7aaf1ff7a"
+  "enriquecido": true,
+  "hashContenido": "32b0f63042b1b5d9"
  },
  "slug": "coche-de-pasajeros-maserati-safety-gate-10012905"
 }

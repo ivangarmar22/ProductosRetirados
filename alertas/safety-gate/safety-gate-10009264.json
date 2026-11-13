@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "0086AC00010087AC00030280ac00019274AC0001"
+     "numero": "0086AC0001"
+    },
+    {
+     "numero": "0087AC0003"
+    },
+    {
+     "numero": "0280ac0001"
+    },
+    {
+     "numero": "9274AC0001"
     }
    ],
    "ean": [
@@ -37,7 +46,8 @@
     "8000036024485"
    ],
    "descripcion": "Desodorante en barra, 40 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor de plástico."
   }
  ],
  "riesgo": {
@@ -92,15 +102,18 @@
    "ref:SR/01442/25",
    "ean:8000036021736",
    "ean:8000036024485",
-   "ml:infasil:0086ac00010087ac00030280ac00019274ac0001"
+   "ml:infasil:0086ac0001",
+   "ml:infasil:0087ac0003",
+   "ml:infasil:0280ac0001",
+   "ml:infasil:9274ac0001"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0b9fa291b8765672"
+  "enriquecido": true,
+  "hashContenido": "d5bf688640348858"
  },
  "slug": "desodorante-infasil-safety-gate-10009264"
 }
