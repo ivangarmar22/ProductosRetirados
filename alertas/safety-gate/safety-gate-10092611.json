@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e2*KS18/858*00023",
     "g11*2018/858*00643*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.04.2024 - 06.09.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "03.04.2024 - 06.09.2024"
+   "fechasTexto": "03.04.2024 - 06.09.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,15 +88,16 @@
    "mm:alpine:e2-2007-46-0612-21",
    "mm:alpine:e2-2007-46-0612-20",
    "mm:alpine:e2-ks18-858-00023",
-   "mm:alpine:g11-2018-858-00643-00"
+   "mm:alpine:g11-2018-858-00643-00",
+   "ml:alpine:03-04-2024-06-09-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "afed7f6b3d416ad5"
+  "enriquecido": true,
+  "hashContenido": "086d2909f5464da7"
  },
  "slug": "coche-de-pasajeros-alpine-safety-gate-10092611"
 }

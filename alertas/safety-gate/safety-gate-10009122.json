@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "7154091672021016"
+     "numero": "71540916"
+    },
+    {
+     "numero": "72021016"
     }
    ],
    "ean": [
     "4005900367891"
    ],
    "descripcion": "Spray protector solar, anunciado como refrescante, 200 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
   "claves": [
    "ref:SR/00381/25",
    "ean:4005900367891",
-   "ml:nivea:7154091672021016"
+   "ml:nivea:71540916",
+   "ml:nivea:72021016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9c3da688bc34e866"
+  "enriquecido": true,
+  "hashContenido": "3613207fd3288c9f"
  },
  "slug": "spray-de-proteccion-solar-nivea-safety-gate-10009122"
 }

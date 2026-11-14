@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "2099910431309"
    ],
    "descripcion": "Surtido de frutas y verduras de plástico en una variedad de colores en una caja de plástico marrón. Producto vendido en línea, en particular a través de www.zeeman.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Película de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "59bb284c851ceb39"
+  "enriquecido": true,
+  "hashContenido": "7d286e85a21339c9"
  },
  "slug": "juego-de-juguetes-de-plastico-zeeman-safety-gate-10092980"
 }

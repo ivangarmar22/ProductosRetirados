@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-27"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,12 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "101713E210001RX36IMX40SS143"
+     "numero": "101713E210001"
+    },
+    {
+     "numero": "RX36IMX40"
+    },
+    {
+     "numero": "SS143"
     }
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje. Producto vendido en línea, en particular a través de Temu.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanca con etiqueta de color."
   }
  ],
  "riesgo": {
@@ -94,15 +101,17 @@
   "claves": [
    "ref:SR/00419/25",
    "mm:intenze:st1017db",
-   "ml:intenze:101713e210001rx36imx40ss143"
+   "ml:intenze:101713e210001",
+   "ml:intenze:rx36imx40",
+   "ml:intenze:ss143"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "319d70b7826e04c3"
+  "enriquecido": true,
+  "hashContenido": "0f271c74061ce96b"
  },
  "slug": "tinta-de-tatuaje-intenze-safety-gate-10092832"
 }

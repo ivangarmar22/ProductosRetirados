@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-15"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pequeña muñeca de plástico en forma de niña con elementos unidos dependiendo de la variante del producto: delfín, raqueta de tenis o skateboard.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Film-sellado en un soporte de cartón rosa."
   }
  ],
  "riesgo": {
@@ -62,7 +63,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "CZ",
+   "HR",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a10b0f0cba31e756"
+  "enriquecido": true,
+  "hashContenido": "f127eed65f224c39"
  },
  "slug": "muneca-de-plastico-fashion-amy-safety-gate-10092649"
 }

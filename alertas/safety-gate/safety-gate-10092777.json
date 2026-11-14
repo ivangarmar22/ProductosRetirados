@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-26"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -24,7 +24,8 @@
   {
    "nombre": "Mini bouillotte de massage",
    "marcas": [
-    "CANDIDE, TINEO"
+    "CANDIDE",
+    "TINEO"
    ],
    "modelos": [
     "404130",
@@ -46,7 +47,8 @@
     "3275054060219"
    ],
    "descripcion": "Almohadilla de calefacción con fines de masaje, en forma de cinturón, anunciada como para niños. Incluye una bolsa llena de hueso de cereza.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -80,7 +82,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Túnez",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,21 +116,28 @@
    "ean:3275054060011",
    "ean:3275054060028",
    "ean:3275054060219",
-   "mm:candide-tineo:404130",
-   "mm:candide-tineo:404860",
-   "mm:candide-tineo:405342",
-   "mm:candide-tineo:406000",
-   "mm:candide-tineo:406001",
-   "mm:candide-tineo:406002",
-   "mm:candide-tineo:406021"
+   "mm:candide:404130",
+   "mm:candide:404860",
+   "mm:candide:405342",
+   "mm:candide:406000",
+   "mm:candide:406001",
+   "mm:candide:406002",
+   "mm:candide:406021",
+   "mm:tineo:404130",
+   "mm:tineo:404860",
+   "mm:tineo:405342",
+   "mm:tineo:406000",
+   "mm:tineo:406001",
+   "mm:tineo:406002",
+   "mm:tineo:406021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "387e12ffe1c1be4b"
+  "enriquecido": true,
+  "hashContenido": "0d8109ba2251312f"
  },
  "slug": "pack-de-masaje-termico-candide-tineo-safety-gate-10092777"
 }

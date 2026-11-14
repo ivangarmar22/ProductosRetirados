@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "3830042565970"
    ],
    "descripcion": "Caja de cartón.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Croacia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f2c037c6814e1372"
+  "enriquecido": true,
+  "hashContenido": "b3e78f7faded0b2d"
  },
  "slug": "secador-de-pelo-iskra-safety-gate-10092631"
 }

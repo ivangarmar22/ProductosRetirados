@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6920075777413"
    ],
    "descripcion": "Cámara de seguridad inalámbrica blanca.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "028004da72460f5f"
+  "enriquecido": true,
+  "hashContenido": "4a99f17c239e39c6"
  },
  "slug": "camara-sonoff-safety-gate-10093035"
 }

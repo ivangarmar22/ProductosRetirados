@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-02"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Motosierra térmica de 435 mm y 2.0 KW",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "58acab9334751ada"
+  "enriquecido": true,
+  "hashContenido": "3fb0937715a7bbfa"
  },
  "slug": "motosierra-termica-powertech-safety-gate-10092465"
 }

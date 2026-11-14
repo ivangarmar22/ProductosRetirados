@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Setra"
    ],
    "modelos": [
-    "410 03",
-    "410 02",
-    "e1*2007/46*1160*",
-    "e1*2007/46*1133*"
+    "410 03, 410 02",
+    "e1*2007/46*1160*, e1*2007/46*1133*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.07.2024 - 29.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús",
-   "fechasTexto": "10.07.2024 - 29.10.2024"
+   "fechasTexto": "10.07.2024 - 29.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,18 +91,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00238/25",
-   "mm:setra:410-03",
-   "mm:setra:410-02",
-   "mm:setra:e1-2007-46-1160",
-   "mm:setra:e1-2007-46-1133"
+   "mm:setra:410-03-410-02",
+   "mm:setra:e1-2007-46-1160-e1-2007-46-1133",
+   "ml:setra:10-07-2024-29-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4ce0705a6c62af93"
+  "enriquecido": true,
+  "hashContenido": "9679a40cd16c8dff"
  },
  "slug": "autobus-setra-safety-gate-10092771"
 }

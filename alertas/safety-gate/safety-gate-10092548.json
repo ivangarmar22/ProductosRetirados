@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*167/2013*00458*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.07.2023 - 16.06.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo todo terreno / Quad.",
-   "fechasTexto": "06.07.2023 - 16.06.2024"
+   "fechasTexto": "06.07.2023 - 16.06.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Luxemburgo",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "HU",
+   "NO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00415/25",
-   "mm:cf-moto:e13-167-2013-00458-01"
+   "mm:cf-moto:e13-167-2013-00458-01",
+   "ml:cf-moto:06-07-2023-16-06-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1238d6da3e0f0a48"
+  "enriquecido": true,
+  "hashContenido": "c496a04ce0117ff8"
  },
  "slug": "vehiculo-todo-terreno-cf-moto-safety-gate-10092548"
 }

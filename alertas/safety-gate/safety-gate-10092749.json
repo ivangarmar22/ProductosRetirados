@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-02"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -36,7 +36,8 @@
     "2000011411091"
    ],
    "descripcion": "Tocado de vestir elegante que se parece al interior del cerebro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Película de plástico transparente, con etiqueta adjunta"
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6a8aaafe88d9d446"
+  "enriquecido": true,
+  "hashContenido": "d0c1a1e5151d160c"
  },
  "slug": "tocado-de-vestir-de-lujo-kopfbedeckung-safety-gate-10092749"
 }

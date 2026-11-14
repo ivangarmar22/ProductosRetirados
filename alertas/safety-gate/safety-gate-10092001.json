@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Ferrari"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.2023 - 12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "04.2023 - 12.2023"
+   "fechasTexto": "04.2023 - 12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,15 +83,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/00011/25"
+   "ref:SR/00011/25",
+   "ml:ferrari:04-2023-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c33596544f0d3d17"
+  "enriquecido": true,
+  "hashContenido": "0520742cbf8d1a64"
  },
  "slug": "coche-de-pasajeros-ferrari-safety-gate-10092001"
 }

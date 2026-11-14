@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Variant A/S"
    ],
    "modelos": [
-    "e1*2007/46*0578*15 (1AMB-O2)",
-    "e1*2018/858*00494*00 (1AMB-O2)",
-    "e1*2007/46*0699*06 (2AMB-2)",
-    "e1*2007/46*0675*11 (2AMB-4)",
-    "e1*2007/46*0717*10 (2AMB-5)",
-    "e1*2018/858*00495*00 (2AMB-5)"
+    "e1*2007/46*0578*15 (1AMB-O2), e1*2018/858*00494*00 (1AMB-O2), e1*2007/46*0699*06 (2AMB-2), e1*2007/46*0675*11 (2AMB-4), e1*2007/46*0717*10 (2AMB-5), e1*2018/858*00495*00 (2AMB-5)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.4.2024 - 8.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Remolque con eje rígido, con una carga por eje de 1 800 kg, freno de 250 mm de diámetro y suspensión parabólica",
-   "fechasTexto": "1.4.2024 - 8.10.2024"
+   "fechasTexto": "1.4.2024 - 8.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Dinamarca",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -123,20 +125,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00087/25",
-   "mm:variant-a-s:e1-2007-46-0578-15-1amb-o2",
-   "mm:variant-a-s:e1-2018-858-00494-00-1amb-o2",
-   "mm:variant-a-s:e1-2007-46-0699-06-2amb-2",
-   "mm:variant-a-s:e1-2007-46-0675-11-2amb-4",
-   "mm:variant-a-s:e1-2007-46-0717-10-2amb-5",
-   "mm:variant-a-s:e1-2018-858-00495-00-2amb-5"
+   "mm:variant-a-s:e1-2007-46-0578-15-1amb-o2-e1-2018-858-00494-00-1amb-o2-e1-2007-46-0699-06-2amb-2-e1-2007-46-0675-11-2amb-4-e1-2007-46-0717-10-2amb-5-e1-2018-858-00495-00-2amb-5",
+   "ml:variant-a-s:1-4-2024-8-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9f88dd02400fa150"
+  "enriquecido": true,
+  "hashContenido": "cf07ba9f7646303b"
  },
  "slug": "trailer-variant-a-s-safety-gate-10092624"
 }

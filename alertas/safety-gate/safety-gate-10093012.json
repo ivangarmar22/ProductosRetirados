@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-02"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -38,7 +38,8 @@
     "810132830747"
    ],
    "descripcion": "Tinta de tatuaje, 30ml. Producto vendido en línea, en particular a través de dynamiccolor.eu y www.tattooland.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico transparente con tapa negra."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3f5e53a0a3e8af6f"
+  "enriquecido": true,
+  "hashContenido": "f82ba17315049b3b"
  },
  "slug": "tinta-de-tatuaje-dynamic-safety-gate-10093012"
 }

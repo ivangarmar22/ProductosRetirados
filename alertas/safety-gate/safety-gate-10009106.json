@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,13 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "622218748101247481012574"
+     "numero": "62221874"
+    },
+    {
+     "numero": "81012474"
+    },
+    {
+     "numero": "81012574"
     }
    ],
    "ean": [
@@ -37,7 +43,8 @@
     "4005900132260"
    ],
    "descripcion": "Protección solar y crema bronceadora, con dos niveles diferentes de protección solar, SPF 10 y 30, 200 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -92,15 +99,17 @@
    "ref:SR/00380/25",
    "ean:4005900132222",
    "ean:4005900132260",
-   "ml:nivea:622218748101247481012574"
+   "ml:nivea:62221874",
+   "ml:nivea:81012474",
+   "ml:nivea:81012574"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f31b450b4fbad90b"
+  "enriquecido": true,
+  "hashContenido": "5dc41e93eaa2be08"
  },
  "slug": "leche-de-proteccion-solar-nivea-safety-gate-10009106"
 }

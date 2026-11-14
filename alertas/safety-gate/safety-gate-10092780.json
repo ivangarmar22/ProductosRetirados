@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e1*2007/46*2106*00-*03 (KSYN1EM)",
     "e1*2018/858*00151*00-*04 (KSYN1EV)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.05.2022 - 24.07.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Autocaravana.",
-   "fechasTexto": "17.05.2022 - 24.07.2024"
+   "fechasTexto": "17.05.2022 - 24.07.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +101,16 @@
    "ref:SR/00309/25",
    "mm:knaus:e1-2007-46-1835-02-06-ksyn1e",
    "mm:knaus:e1-2007-46-2106-00-03-ksyn1em",
-   "mm:knaus:e1-2018-858-00151-00-04-ksyn1ev"
+   "mm:knaus:e1-2018-858-00151-00-04-ksyn1ev",
+   "ml:knaus:17-05-2022-24-07-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35487f712c8d2985"
+  "enriquecido": true,
+  "hashContenido": "ae4f2915df00fe06"
  },
  "slug": "autocaravana-knaus-safety-gate-10092780"
 }

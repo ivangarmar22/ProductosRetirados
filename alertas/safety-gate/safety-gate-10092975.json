@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,18 @@
     "e2*2007/46*0639*18 - e2*2007/46*0639*23 2008",
     "e2*2007/46*0639*25 and e2*2007/46*0639*26 2008"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20/6/2022 - 15/11/2023 (508)"
+    },
+    {
+     "numero": "7/2/2022 - 2/10/2023 (2008)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "20/6/2022 - 15/11/2023 (508)7/2/2022 - 2/10/2023 (2008)"
+   "fechasTexto": "20/6/2022 - 15/11/2023 (508)7/2/2022 - 2/10/2023 (2008)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +72,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +105,17 @@
    "ref:SR/00434/25",
    "mm:peugeot:e2-2007-46-0628-21-e2-2007-46-0628-27-508",
    "mm:peugeot:e2-2007-46-0639-18-e2-2007-46-0639-23-2008",
-   "mm:peugeot:e2-2007-46-0639-25-and-e2-2007-46-0639-26-2008"
+   "mm:peugeot:e2-2007-46-0639-25-and-e2-2007-46-0639-26-2008",
+   "ml:peugeot:20-6-2022-15-11-2023-508",
+   "ml:peugeot:7-2-2022-2-10-2023-2008"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d35b0f9b038d73f7"
+  "enriquecido": true,
+  "hashContenido": "b352db647e06d809"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10092975"
 }

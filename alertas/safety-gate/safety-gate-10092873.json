@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,21 @@
     "e2*2018/858*00064*04 to e2*2018/858*00064*05 (Grandland)",
     "g11*2018/858*00524*00 to g11*2018/858*00524*01 (Grandland)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.01.2024 - 13.09.2024 (Astra L)"
+    },
+    {
+     "numero": "04.02.2024 - 13.09.2024 (Grandland X)"
+    },
+    {
+     "numero": "21.03.2024 - 13.09.2024 (Grandland)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "02.01.2024 - 13.09.2024 (Astra L)04.02.2024 - 13.09.2024 (Grandland X)21.03.2024 - 13.09.2024 (Grandland)"
+   "fechasTexto": "02.01.2024 - 13.09.2024 (Astra L)04.02.2024 - 13.09.2024 (Grandland X)21.03.2024 - 13.09.2024 (Grandland)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +76,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "HU",
+   "PL",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +107,18 @@
    "mm:opel-vauxhall:e2-2007-46-0597-28-to-e2-2007-46-0597-31-grandland-x",
    "mm:opel-vauxhall:e2-2007-46-0628-28-to-e2-2007-46-0628-32-astra-l",
    "mm:opel-vauxhall:e2-2018-858-00064-04-to-e2-2018-858-00064-05-grandland",
-   "mm:opel-vauxhall:g11-2018-858-00524-00-to-g11-2018-858-00524-01-grandland"
+   "mm:opel-vauxhall:g11-2018-858-00524-00-to-g11-2018-858-00524-01-grandland",
+   "ml:opel-vauxhall:02-01-2024-13-09-2024-astra-l",
+   "ml:opel-vauxhall:04-02-2024-13-09-2024-grandland-x",
+   "ml:opel-vauxhall:21-03-2024-13-09-2024-grandland"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b63a647a808be8b9"
+  "enriquecido": true,
+  "hashContenido": "7311f62a1f056d21"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10092873"
 }

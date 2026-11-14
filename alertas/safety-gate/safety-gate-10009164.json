@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "22N80022P401"
+     "numero": "22N800"
+    },
+    {
+     "numero": "22P401"
     }
    ],
    "ean": [
     "8001980110736"
    ],
    "descripcion": "Gel para el cabello.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:SR/00400/25",
    "ean:8001980110736",
-   "ml:l-oreal:22n80022p401"
+   "ml:l-oreal:22n800",
+   "ml:l-oreal:22p401"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "771b290ee77d1e4f"
+  "enriquecido": true,
+  "hashContenido": "749d5ed11fc11a4a"
  },
  "slug": "gel-para-el-cabello-l-oreal-safety-gate-10009164"
 }

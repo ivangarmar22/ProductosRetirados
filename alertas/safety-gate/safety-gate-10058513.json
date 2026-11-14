@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-10"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
     "9050012000018"
    ],
    "descripcion": "Polvo energético comercializado para ser inhalado por la nariz. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9248f9eccbf98162"
+  "enriquecido": true,
+  "hashContenido": "ce5074667aebd71c"
  },
  "slug": "polvo-energetico-wildkraut-energy-sniff-safety-gate-10058513"
 }

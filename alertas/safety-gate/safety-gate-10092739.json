@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Una lámpara portátil recargable blanca con tres modos de color. Producto vendido en línea, en particular a través de BlockBlueLight.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a0e9ca16256c524d"
+  "enriquecido": true,
+  "hashContenido": "6074b719d653fa7c"
  },
  "slug": "lampara-block-blue-light-safety-gate-10092739"
 }

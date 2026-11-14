@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -38,7 +38,8 @@
     "7333229156580"
    ],
    "descripcion": "Bicicleta infantil.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Malta",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e8804878f4ee3175"
+  "enriquecido": true,
+  "hashContenido": "bf0f772b9b4e0e34"
  },
  "slug": "bicicleta-para-ninos-stoy-safety-gate-10092607"
 }

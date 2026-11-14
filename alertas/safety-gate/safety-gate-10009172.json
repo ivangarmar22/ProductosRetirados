@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B10ED061130B10ED210629"
+     "numero": "B10ED061130"
+    },
+    {
+     "numero": "B10ED210629"
     }
    ],
    "ean": [
     "8004120908484"
    ],
    "descripcion": "Gel de fijación capilar a base de agua.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -82,15 +86,16 @@
   "claves": [
    "ref:SR/00347/25",
    "ean:8004120908484",
-   "ml:milmil:b10ed061130b10ed210629"
+   "ml:milmil:b10ed061130",
+   "ml:milmil:b10ed210629"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2f68d755da238798"
+  "enriquecido": true,
+  "hashContenido": "b2833048d7e10f4e"
  },
  "slug": "gel-para-el-cabello-milmil-safety-gate-10009172"
 }

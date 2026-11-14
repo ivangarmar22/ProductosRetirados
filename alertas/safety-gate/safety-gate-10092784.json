@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-10"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "Otvo"
    ],
    "modelos": [
-    "ps2-usb-b",
-    "IV-P4S001"
+    "ps2-usb-b, IV-P4S001"
    ],
    "lotes": [],
    "ean": [
     "6934043941188"
    ],
    "descripcion": "Cable USB para el host y el mango de PS.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -89,16 +89,15 @@
   "claves": [
    "ref:SR/00227/25",
    "ean:6934043941188",
-   "mm:otvo:ps2-usb-b",
-   "mm:otvo:iv-p4s001"
+   "mm:otvo:ps2-usb-b-iv-p4s001"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9df12b27cd7be255"
+  "enriquecido": true,
+  "hashContenido": "cbd5bb491cf99b06"
  },
  "slug": "cable-usb-otvo-safety-gate-10092784"
 }

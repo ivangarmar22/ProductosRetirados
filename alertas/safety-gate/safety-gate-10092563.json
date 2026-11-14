@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-02"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Mezcla de tatuajes.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "55b3b737acbe94d0"
+  "enriquecido": true,
+  "hashContenido": "79cb2319a242a489"
  },
  "slug": "tinta-de-tatuaje-dinamic-safety-gate-10092563"
 }

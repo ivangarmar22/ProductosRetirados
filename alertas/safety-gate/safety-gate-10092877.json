@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0033 - e2*2007/46*0031"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07/09/2020 - 19/11/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "07/09/2020 - 19/11/2021"
+   "fechasTexto": "07/09/2020 - 19/11/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00301/25",
-   "mm:renault-trucks:e2-2007-46-0033-e2-2007-46-0031"
+   "mm:renault-trucks:e2-2007-46-0033-e2-2007-46-0031",
+   "ml:renault-trucks:07-09-2020-19-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aa33b79af3fdf360"
+  "enriquecido": true,
+  "hashContenido": "9a47df582b1928a0"
  },
  "slug": "camion-renault-trucks-safety-gate-10092877"
 }

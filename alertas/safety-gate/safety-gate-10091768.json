@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-16"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "EU01GK-24E27EU01GK-24E29"
+     "numero": "EU01GK-24E27"
+    },
+    {
+     "numero": "EU01GK-24E29"
     }
    ],
    "ean": [],
    "descripcion": "Mezcla de tatuaje para maquillaje permanente, 12 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalajes de plástico."
   }
  ],
  "riesgo": {
@@ -79,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00282/25",
-   "ml:biotek:eu01gk-24e27eu01gk-24e29"
+   "ml:biotek:eu01gk-24e27",
+   "ml:biotek:eu01gk-24e29"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ac7134d080c6bf77"
+  "enriquecido": true,
+  "hashContenido": "d0941718ee643a47"
  },
  "slug": "tinta-de-maquillaje-permanente-biotek-safety-gate-10091768"
 }

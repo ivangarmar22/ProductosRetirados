@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -35,10 +35,15 @@
     "e2*2007/46*0601*25",
     "e2*2007/46*0601*26"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.04.2022 - 30.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.04.2022 - 30.06.2023"
+   "fechasTexto": "01.04.2022 - 30.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +73,22 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +109,16 @@
    "mm:ds-automobiles:e2-2007-46-0601-23",
    "mm:ds-automobiles:e2-2007-46-0601-24",
    "mm:ds-automobiles:e2-2007-46-0601-25",
-   "mm:ds-automobiles:e2-2007-46-0601-26"
+   "mm:ds-automobiles:e2-2007-46-0601-26",
+   "ml:ds-automobiles:01-04-2022-30-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ef526274ffe342b0"
+  "enriquecido": true,
+  "hashContenido": "3e1d8934960ef1aa"
  },
  "slug": "coche-de-pasajeros-ds-automobiles-safety-gate-10092544"
 }

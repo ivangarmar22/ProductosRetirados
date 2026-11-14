@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*1909*25 (F2B)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.06.2024 - 07.08.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "17.06.2024 - 07.08.2024"
+   "fechasTexto": "17.06.2024 - 07.08.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "HR",
+   "HU",
+   "LU",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +97,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00219/25",
-   "mm:mercedes-benz-mercedes-amg:e1-2007-46-1909-25-f2b"
+   "mm:mercedes-benz-mercedes-amg:e1-2007-46-1909-25-f2b",
+   "ml:mercedes-benz-mercedes-amg:17-06-2024-07-08-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6444f275c25dd116"
+  "enriquecido": true,
+  "hashContenido": "86ecedef4db72e1c"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-mercedes-amg-safety-gate-10092647"
 }

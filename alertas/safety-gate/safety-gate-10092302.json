@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "22/113123/0815"
+     "numero": "22/1131"
+    },
+    {
+     "numero": "23/0815"
     }
    ],
    "ean": [
     "8051773070501"
    ],
    "descripcion": "Eau de toilette, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
   "claves": [
    "ref:SR/00252/25",
    "ean:8051773070501",
-   "ml:arcobaleno-parfumes:22-113123-0815"
+   "ml:arcobaleno-parfumes:22-1131",
+   "ml:arcobaleno-parfumes:23-0815"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b5829a386b6b388b"
+  "enriquecido": true,
+  "hashContenido": "b6fb6d800513a43a"
  },
  "slug": "agua-de-toilette-arcobaleno-parfumes-safety-gate-10092302"
 }

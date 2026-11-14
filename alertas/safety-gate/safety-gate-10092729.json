@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -37,7 +37,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Taza aislada.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +76,13 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "IE",
+   "SI",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "884d09e01ee7b7e9"
+  "enriquecido": true,
+  "hashContenido": "f29453cdd7375862"
  },
  "slug": "taza-de-viaje-stanley-safety-gate-10092729"
 }

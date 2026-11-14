@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pequeña báscula accionada por batería.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -61,7 +62,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "820dd01aba8f0668"
+  "enriquecido": true,
+  "hashContenido": "8f365c00ebabc32d"
  },
  "slug": "escala-pocket-scale-safety-gate-10093030"
 }
