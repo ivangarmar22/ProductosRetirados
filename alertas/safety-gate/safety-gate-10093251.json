@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e6*2018/858*00266*00-*01 (RZ)",
     "e6*2018/858*00267*01-*02 (RS)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2021 - 01.08.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.08.2021 - 01.08.2024"
+   "fechasTexto": "01.08.2021 - 01.08.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +109,16 @@
    "ref:SR/00641/25",
    "mm:honda:e6-2018-858-00064-00-05-fe",
    "mm:honda:e6-2018-858-00266-00-01-rz",
-   "mm:honda:e6-2018-858-00267-01-02-rs"
+   "mm:honda:e6-2018-858-00267-01-02-rs",
+   "ml:honda:01-08-2021-01-08-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "215fd99dbedafe69"
+  "enriquecido": true,
+  "hashContenido": "9f491ea40099d957"
  },
  "slug": "coche-de-pasajeros-honda-safety-gate-10093251"
 }

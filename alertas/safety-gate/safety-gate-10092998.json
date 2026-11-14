@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-10"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -34,7 +34,8 @@
     "6430016903776"
    ],
    "descripcion": "Mancuernas rojas (3 kg) con revestimiento de vinilo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d3849913989deba0"
+  "enriquecido": true,
+  "hashContenido": "2debeb0773073f47"
  },
  "slug": "mancuerna-gymstick-safety-gate-10092998"
 }

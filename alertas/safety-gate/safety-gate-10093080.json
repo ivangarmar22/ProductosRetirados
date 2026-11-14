@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-23"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Lámpara de secado UV para manicura profesional con 42 luces led. Potencia: 168 W. Producto vendido en línea, en particular a través de Wish (identificador único: 617387dd5392f98d7ba441fa y 661e4e15a2c234c3918ac342)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -58,7 +59,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64d1ca1e0809d72c"
+  "enriquecido": true,
+  "hashContenido": "6ae0bc9a9acc6f9e"
  },
  "slug": "lampara-de-unas-led-uv-bq-v3-safety-gate-10093080"
 }

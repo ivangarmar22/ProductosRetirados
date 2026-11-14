@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "e1*KS07/46*0005*00-*05 (ALPINA 3)",
-    "individual approval (BMW ALPINA B3",
-    "BMW ALPINA D3)"
+    "individual approval (BMW ALPINA B3, BMW ALPINA D3)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2008 - 30.12.2010"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con bolsas de aire Takata.",
-   "fechasTexto": "01.01.2008 - 30.12.2010"
+   "fechasTexto": "01.01.2008 - 30.12.2010",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +69,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,16 +102,16 @@
   "claves": [
    "ref:SR/00662/25",
    "mm:bmw-alpina:e1-ks07-46-0005-00-05-alpina-3",
-   "mm:bmw-alpina:individual-approval-bmw-alpina-b3",
-   "mm:bmw-alpina:bmw-alpina-d3"
+   "mm:bmw-alpina:individual-approval-bmw-alpina-b3-bmw-alpina-d3",
+   "ml:bmw-alpina:01-01-2008-30-12-2010"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "387c0ff3896d37ee"
+  "enriquecido": true,
+  "hashContenido": "08ae8418a77cce57"
  },
  "slug": "coche-de-pasajeros-bmw-alpina-safety-gate-10093260"
 }

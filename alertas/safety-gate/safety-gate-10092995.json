@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-20"
  },
  "categoria": {
   "literal": "Artículos varios",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cojín inflable rectangular de plástico con ranura para el cuello y revestimiento textil gris",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja rectangular de cartón gris con imagen del producto y etiquetado, dentro de una bolsa de plástico transparente con solapa adhesiva"
   }
  ],
  "riesgo": {
@@ -60,7 +61,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "93c85b75e67bdef0"
+  "enriquecido": true,
+  "hashContenido": "0d047e7f51aa35c0"
  },
  "slug": "cojin-de-cuello-travel-the-world-safety-gate-10092995"
 }

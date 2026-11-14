@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-05"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -33,7 +33,13 @@
    ],
    "lotes": [
     {
-     "numero": "A002S263S265"
+     "numero": "A002"
+    },
+    {
+     "numero": "S263"
+    },
+    {
+     "numero": "S265"
     }
    ],
    "ean": [
@@ -46,7 +52,8 @@
     "3414904440089"
    ],
    "descripcion": "Guante de jardinería. Producto vendido en línea, en particular a través de blackfox-shop.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -80,7 +87,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,15 +128,17 @@
    "mm:blackfox:bleu",
    "mm:blackfox:framboise",
    "mm:blackfox:kaki",
-   "ml:blackfox:a002s263s265"
+   "ml:blackfox:a002",
+   "ml:blackfox:s263",
+   "ml:blackfox:s265"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "55d7a1849503a263"
+  "enriquecido": true,
+  "hashContenido": "5c6840427a6b5393"
  },
  "slug": "guante-de-jardineria-para-ninos-blackfox-safety-gate-10093267"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "3520071936581"
    ],
    "descripcion": "Juguete suave gris en forma de elefante y juguete suave amarillo en forma de automóvil.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d42debef872e5580"
+  "enriquecido": true,
+  "hashContenido": "15343ec5b0b547a4"
  },
  "slug": "juguete-blando-amadeus-les-petits-safety-gate-10093213"
 }

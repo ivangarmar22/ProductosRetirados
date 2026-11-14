@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-16"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0152/23427/23"
+     "numero": "0152/23"
+    },
+    {
+     "numero": "427/23"
     }
    ],
    "ean": [
     "3575677153689"
    ],
    "descripcion": "Tetera de juguete de actividad.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +76,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "EE",
+   "IE",
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,15 +108,16 @@
    "ref:SR/00532/25",
    "ean:3575677153689",
    "mm:moulin-roty:715368",
-   "ml:moulin-roty:0152-23427-23"
+   "ml:moulin-roty:0152-23",
+   "ml:moulin-roty:427-23"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9302846258385b17"
+  "enriquecido": true,
+  "hashContenido": "b3a9868b17f496d0"
  },
  "slug": "juguete-de-madera-moulin-roty-safety-gate-10093078"
 }

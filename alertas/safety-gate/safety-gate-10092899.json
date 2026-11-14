@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -44,10 +44,15 @@
     "e1*168/2013*00352*00",
     "e1*2002/24*0421*00-*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.08.2009 - 17.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "31.08.2009 - 17.10.2024"
+   "fechasTexto": "31.08.2009 - 17.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +82,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -135,15 +151,16 @@
    "mm:bmw-motorrad:e1-168-2013-00233-00-03",
    "mm:bmw-motorrad:e1-168-2013-00351-00",
    "mm:bmw-motorrad:e1-168-2013-00352-00",
-   "mm:bmw-motorrad:e1-2002-24-0421-00-09"
+   "mm:bmw-motorrad:e1-2002-24-0421-00-09",
+   "ml:bmw-motorrad:31-08-2009-17-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6106b446f09923f7"
+  "enriquecido": true,
+  "hashContenido": "ecb9b4725a0201ca"
  },
  "slug": "motocicleta-bmw-motorrad-safety-gate-10092899"
 }

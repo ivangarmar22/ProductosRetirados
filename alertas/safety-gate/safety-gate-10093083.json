@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-10"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cigarrillo electrónico desechable, que contiene 2% de nicotina, con una capacidad de 30000 bocanadas y un volumen del tanque de 30 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3a9245c8fceb9c0c"
+  "enriquecido": true,
+  "hashContenido": "ad74b1f3533f7d85"
  },
  "slug": "cigarrillo-electronico-desechable-rahdm-safety-gate-10093083"
 }

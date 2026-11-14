@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-25"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -24,7 +24,8 @@
   {
    "nombre": "ANDES 7,5KW",
    "marcas": [
-    "Hijo de Miguel Panadero, Panadero"
+    "Hijo de Miguel Panadero",
+    "Panadero"
    ],
    "modelos": [
     "1228618"
@@ -38,7 +39,8 @@
     "8426964185003"
    ],
    "descripcion": "Estufa de leña independiente alimentada con combustible sólido. Producto vendido en línea, en particular a través de byggshop.se, golvshop.se y bygghemma.se.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,16 +94,18 @@
   "claves": [
    "ref:SR/00214/25",
    "ean:8426964185003",
-   "mm:hijo-de-miguel-panadero-panadero:1228618",
-   "ml:hijo-de-miguel-panadero-panadero:219065-to-219098"
+   "mm:hijo-de-miguel-panadero:1228618",
+   "ml:hijo-de-miguel-panadero:219065-to-219098",
+   "mm:panadero:1228618",
+   "ml:panadero:219065-to-219098"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "419dcdc84ebb62eb"
+  "enriquecido": true,
+  "hashContenido": "d560d41630caf761"
  },
  "slug": "estufa-de-lena-hijo-de-miguel-panadero-panadero-safety-gate-10092666"
 }

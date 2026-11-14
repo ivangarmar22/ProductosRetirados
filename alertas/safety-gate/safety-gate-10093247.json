@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,18 @@
     "Mitsubishi Fuso"
    ],
    "modelos": [
-    "FE4P10TF1N2",
-    "FEEVN2",
-    "e4*2007/46*0785*02-*03",
-    "*05-*08",
-    "e6*2007/46*0486*00"
+    "FE4P10TF1N2, FEEVN2",
+    "e4*2007/46*0785*02-*03, *05-*08, e6*2007/46*0486*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.01.2015 - 31.10.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "08.01.2015 - 31.10.2019"
+   "fechasTexto": "08.01.2015 - 31.10.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Portugal",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "IE",
+   "LU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,19 +108,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00617/25",
-   "mm:mitsubishi-fuso:fe4p10tf1n2",
-   "mm:mitsubishi-fuso:feevn2",
-   "mm:mitsubishi-fuso:e4-2007-46-0785-02-03",
-   "mm:mitsubishi-fuso:05-08",
-   "mm:mitsubishi-fuso:e6-2007-46-0486-00"
+   "mm:mitsubishi-fuso:fe4p10tf1n2-feevn2",
+   "mm:mitsubishi-fuso:e4-2007-46-0785-02-03-05-08-e6-2007-46-0486-00",
+   "ml:mitsubishi-fuso:08-01-2015-31-10-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "06402ae1fcbb8353"
+  "enriquecido": true,
+  "hashContenido": "37abf966f81f4130"
  },
  "slug": "camion-mitsubishi-fuso-safety-gate-10093247"
 }

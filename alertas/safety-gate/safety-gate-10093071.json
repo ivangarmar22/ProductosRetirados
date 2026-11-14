@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-02"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
     "8435274980000"
    ],
    "descripcion": "Guantes de bicicleta, negro con una línea blanca, y un logotipo GES blanco en los cierres de velcro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Etiqueta adherida al producto."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Pakistán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "577cfd7c38fa941c"
+  "enriquecido": true,
+  "hashContenido": "c03f28379cde1703"
  },
  "slug": "guantes-de-bicicleta-ges-safety-gate-10093071"
 }

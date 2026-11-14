@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-20"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0803X938560814395448"
+     "numero": "0803X93856"
+    },
+    {
+     "numero": "0814395448"
     }
    ],
    "ean": [
     "9000101024135"
    ],
    "descripcion": "Tinte para el cabello, que contiene un tubo de crema de tinte, una botella de revelador, un sobre de máscara de cuidado, un par de guantes e instrucciones de uso.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
    "ref:SR/00755/25",
    "ean:9000101024135",
    "mm:schwarzkopf-palette:smoke-dark-blue",
-   "ml:schwarzkopf-palette:0803x938560814395448"
+   "ml:schwarzkopf-palette:0803x93856",
+   "ml:schwarzkopf-palette:0814395448"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aafbccabac1f7fb5"
+  "enriquecido": true,
+  "hashContenido": "3717945605b7937e"
  },
  "slug": "tinte-para-el-cabello-schwarzkopf-palette-safety-gate-10093372"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Ventilador de escritorio, 35 cm, blanco. Producto vendido en línea, en particular a través de pulsat.fr.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -74,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c3e77701c544d3f9"
+  "enriquecido": true,
+  "hashContenido": "b5b94d121104d4b1"
  },
  "slug": "desk-fan-bestron-safety-gate-10093242"
 }

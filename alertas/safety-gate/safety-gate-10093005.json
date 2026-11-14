@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Un trampolín destinado a niños menores de 14 años, con un límite máximo de peso de 80 kg. Producto vendido en línea, en particular a través de cdon.se y eStore.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón rectangular marrón."
   }
  ],
  "riesgo": {
@@ -63,7 +64,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "648390a9b628506e"
+  "enriquecido": true,
+  "hashContenido": "9409c8901f05ca77"
  },
  "slug": "trampolin-innova-goods-safety-gate-10093005"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "SLS",
     "e11*2007/46*0136*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.03.2010 - 24.01.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.03.2010 - 24.01.2014"
+   "fechasTexto": "12.03.2010 - 24.01.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Eslovaquia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +99,16 @@
   "claves": [
    "ref:SR/00588/25",
    "mm:kia:sls",
-   "mm:kia:e11-2007-46-0136"
+   "mm:kia:e11-2007-46-0136",
+   "ml:kia:12-03-2010-24-01-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3611c6d6f139bbbc"
+  "enriquecido": true,
+  "hashContenido": "632fde254e330421"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10093112"
 }

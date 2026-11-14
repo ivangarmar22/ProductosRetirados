@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,12 +27,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "P035 2101325P209 23 2307159"
+     "numero": "P035 2101325"
+    },
+    {
+     "numero": "P209 23 2307159"
     }
    ],
    "ean": [],
    "descripcion": "Mousse de pie, 75 ml y 125 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2909325536a1a953"
+  "enriquecido": true,
+  "hashContenido": "6ea213e0e492babe"
  },
  "slug": "mousse-de-pie-feetcalm-daily-hydration-mousse-safety-gate-10093328"
 }

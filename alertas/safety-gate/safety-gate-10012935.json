@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-28"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Un calentador de agua de gas doméstico de flujo abierto blanco.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4e61928b08b8e311"
+  "enriquecido": true,
+  "hashContenido": "f362776e517cf714"
  },
  "slug": "calentador-de-agua-a-gas-morco-safety-gate-10012935"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "0200030512775"
    ],
    "descripcion": "Juguete vegetal de madera en una caja. Todos los lotes se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Una caja."
   }
  ],
  "riesgo": {
@@ -69,7 +70,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DK",
+   "EE",
+   "IE",
+   "IS",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e529206bd31457c8"
+  "enriquecido": true,
+  "hashContenido": "7905d0b5f2f9ef5b"
  },
  "slug": "juego-de-juguetes-de-madera-flying-tiger-copenhagen-safety-gate-10093202"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-25"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
     "2446052193501"
    ],
    "descripcion": "Chaqueta de lluvia azul con capucha, destinada a las mujeres. Producto vendido en línea, en particular a través de sportsdirect.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd2bcc293890917d"
+  "enriquecido": true,
+  "hashContenido": "fa323bfb8b536673"
  },
  "slug": "chaqueta-con-capucha-karrimor-safety-gate-10092891"
 }
