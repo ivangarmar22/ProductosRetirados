@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "7343DBX 01:518078DBX 13:18"
+     "numero": "7343DBX 01:51"
+    },
+    {
+     "numero": "8078DBX 13:18"
     }
    ],
    "ean": [
     "8712561645256"
    ],
    "descripcion": "Gel de ducha, 250ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanca."
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:SR/00993/25",
    "ean:8712561645256",
-   "ml:dove:7343dbx-01-518078dbx-13-18"
+   "ml:dove:7343dbx-01-51",
+   "ml:dove:8078dbx-13-18"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4872697c00328dc9"
+  "enriquecido": true,
+  "hashContenido": "0822a911ceb305fa"
  },
  "slug": "gel-de-ducha-dove-safety-gate-10093650"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-25"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,9 +32,13 @@
     "ARPACKV3PRO"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "3700507913434",
+    "3700507915810"
+   ],
    "descripcion": "Detector de víctimas de avalanchas. Producto vendido en línea, en particular a través de arva-equipment.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,17 +100,19 @@
  "dedup": {
   "claves": [
    "ref:SR/00782/25",
+   "ean:3700507913434",
+   "ean:3700507915810",
    "mm:arva:arnineobtprov1",
    "mm:arva:arpackv2pro",
    "mm:arva:arpackv3pro"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f6cd226344670d40"
+  "enriquecido": true,
+  "hashContenido": "c72958ef2018d88a"
  },
  "slug": "equipo-de-seguridad-para-avalanchas-arva-safety-gate-10093371"
 }

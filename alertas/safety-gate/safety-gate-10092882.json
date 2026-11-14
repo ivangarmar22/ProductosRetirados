@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-11-03"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,12 +32,19 @@
    ],
    "lotes": [
     {
-     "numero": "80563791626818056379162704GRE3289"
+     "numero": "8056379162681"
+    },
+    {
+     "numero": "8056379162704"
+    },
+    {
+     "numero": "GRE3289"
     }
    ],
    "ean": [],
    "descripcion": "Blaster básico con tres proyectiles. Producto vendido en línea, en particular a través de Amazon (ASIN: B0CNB6MLSC)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Pack de ampollas."
   }
  ],
  "riesgo": {
@@ -71,7 +78,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,15 +114,17 @@
    "ref:SR/00790/25",
    "mm:slugterra:luu03",
    "mm:slugterra:luu05",
-   "ml:slugterra:80563791626818056379162704gre3289"
+   "ml:slugterra:8056379162681",
+   "ml:slugterra:8056379162704",
+   "ml:slugterra:gre3289"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b9052ef93fcd8a81"
+  "enriquecido": true,
+  "hashContenido": "016f2aff3d5efbac"
  },
  "slug": "pistola-de-juguete-slugterra-safety-gate-10092882"
 }

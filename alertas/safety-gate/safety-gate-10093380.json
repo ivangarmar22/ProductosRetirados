@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "1838118390"
+     "numero": "18381"
+    },
+    {
+     "numero": "18390"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "5420071703955"
    ],
    "descripcion": "Juego de juguetes de baño, con cinco juguetes de plástico en forma de animales (cerdo, caballo, pato, vaca y rana) dentro de una red.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Expositor de cartón y red de tela."
   }
  ],
  "riesgo": {
@@ -78,7 +82,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,15 +114,16 @@
    "ean:5420071703955",
    "mm:isabelle-laurier:18381-jouet-de-bain-grenouille",
    "mm:isabelle-laurier:18390-filet-de-5-jouets-de-bain",
-   "ml:isabelle-laurier:1838118390"
+   "ml:isabelle-laurier:18381",
+   "ml:isabelle-laurier:18390"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fc561d2e87ad732f"
+  "enriquecido": true,
+  "hashContenido": "435aa15d5aba615f"
  },
  "slug": "juguete-de-bano-isabelle-laurier-safety-gate-10093380"
 }

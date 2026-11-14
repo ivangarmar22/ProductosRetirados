@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e2*2018/858*00064*05",
     "g11*2018/858*00524*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.03.2024 - 19.11.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "21.03.2024 - 19.11.2024"
+   "fechasTexto": "21.03.2024 - 19.11.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +71,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +100,16 @@
    "ref:SR/00804/25",
    "mm:opel-vauxhall:e2-2018-858-00064-04",
    "mm:opel-vauxhall:e2-2018-858-00064-05",
-   "mm:opel-vauxhall:g11-2018-858-00524-01"
+   "mm:opel-vauxhall:g11-2018-858-00524-01",
+   "ml:opel-vauxhall:21-03-2024-19-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "decf39d8430d3c28"
+  "enriquecido": true,
+  "hashContenido": "735e17dc36db21d4"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10093330"
 }

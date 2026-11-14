@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,6 +27,7 @@
     "Volkswagen"
    ],
    "modelos": [
+    "e13*2007/46*1182* (Up Fahrzeugklasse N1)",
     "L148* (T5 Transporter Kasten N1)",
     "L225* (T5 Transporter)",
     "L767* (Crafter)",
@@ -78,13 +79,17 @@
     "e1*98/14*0174* (Polo (A04))",
     "e1*KS07/46*0031* (XL1)",
     "e13*2007/46*1167* (Up!)",
-    "e13*2007/46*1170* (e-Up!)",
-    "e13*2007/46*1182* (Up Fahrzeugklasse N1)"
+    "e13*2007/46*1170* (e-Up!)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.09.2004 - 15.09.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero, equipado con bolsas de aire Takata.",
-   "fechasTexto": "09.09.2004 - 15.09.2018"
+   "fechasTexto": "09.09.2004 - 15.09.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -115,7 +120,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -158,6 +176,7 @@
  "dedup": {
   "claves": [
    "ref:SR/00793/25",
+   "mm:volkswagen:e13-2007-46-1182-up-fahrzeugklasse-n1",
    "mm:volkswagen:l148-t5-transporter-kasten-n1",
    "mm:volkswagen:l225-t5-transporter",
    "mm:volkswagen:l767-crafter",
@@ -210,15 +229,15 @@
    "mm:volkswagen:e1-ks07-46-0031-xl1",
    "mm:volkswagen:e13-2007-46-1167-up",
    "mm:volkswagen:e13-2007-46-1170-e-up",
-   "mm:volkswagen:e13-2007-46-1182-up-fahrzeugklasse-n1"
+   "ml:volkswagen:09-09-2004-15-09-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "09d51b27e77c6543"
+  "enriquecido": true,
+  "hashContenido": "a534f8bbb7e023f2"
  },
  "slug": "coche-de-pasajeros-volkswagen-safety-gate-10093368"
 }

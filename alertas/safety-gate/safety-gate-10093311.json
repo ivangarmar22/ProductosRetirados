@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -47,10 +47,15 @@
     "e1*168/2013*00242*02 (GG 2T EC 250/300 2024)",
     "e1*168/2013*00242*03 (GG 2T EC 250/300 2025)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022 - 2025"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "2022 - 2025"
+   "fechasTexto": "2022 - 2025",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -80,7 +85,17 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -112,15 +127,16 @@
    "mm:gasgas:e1-168-2013-00241-03-gg-4t-ec-250-350-450-500-2025",
    "mm:gasgas:e1-168-2013-00242-01-gg-2t-ec-250-300-2022-23",
    "mm:gasgas:e1-168-2013-00242-02-gg-2t-ec-250-300-2024",
-   "mm:gasgas:e1-168-2013-00242-03-gg-2t-ec-250-300-2025"
+   "mm:gasgas:e1-168-2013-00242-03-gg-2t-ec-250-300-2025",
+   "ml:gasgas:2022-2025"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b04c0bd8fb411629"
+  "enriquecido": true,
+  "hashContenido": "d4c9f2d2a921577a"
  },
  "slug": "motocicleta-gasgas-safety-gate-10093311"
 }

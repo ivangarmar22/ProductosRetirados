@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5900495035165"
    ],
    "descripcion": "Triciclo fabricado en metal y plástico con pedales extraíbles. Producto vendido en línea, en particular a través de kaufland.de, Amazon, Allegro, showroomprive.com, momi.pl, Cdiscount y erli.pl.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -71,7 +72,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "LV",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "534f80d3f700c06b"
+  "enriquecido": true,
+  "hashContenido": "79cd22b50f140171"
  },
  "slug": "triciclo-momi-safety-gate-10093622"
 }

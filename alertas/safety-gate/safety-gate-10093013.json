@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e9*2001/116*0072* (3R)",
     "e9*2007/46*0011* (3RN)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.06.2008 - 09.07.2013"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con bolsas de aire Takata.",
-   "fechasTexto": "18.06.2008 - 09.07.2013"
+   "fechasTexto": "18.06.2008 - 09.07.2013",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HR",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +93,16 @@
   "claves": [
    "ref:SR/00564/25",
    "mm:seat:e9-2001-116-0072-3r",
-   "mm:seat:e9-2007-46-0011-3rn"
+   "mm:seat:e9-2007-46-0011-3rn",
+   "ml:seat:18-06-2008-09-07-2013"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ebbab3632aed96be"
+  "enriquecido": true,
+  "hashContenido": "a4ca346fb55a77e7"
  },
  "slug": "coche-de-pasajeros-seat-safety-gate-10093013"
 }

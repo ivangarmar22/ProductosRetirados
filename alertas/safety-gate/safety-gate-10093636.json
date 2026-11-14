@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,33 +27,19 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "963-0-A",
-    "963-0-C",
-    "963-7-E",
-    "963-8-H",
-    "963-4-C",
-    "963-4-D",
-    "963-4-E",
-    "963-0-D",
-    "963-8-G",
-    "963-2-A",
-    "963-2-E",
-    "e1*2018/858*00039*00-*07",
-    "e1*2018/858*00045*00-*08",
-    "e1*2018/858*00049*00-*07",
-    "e1*2018/858*00056*00-*07",
-    "e1*2018/858*00047*00-*07",
-    "e1*2018/858*00046*00-*07",
-    "e1*2018/858*00050*00-*07",
-    "e1*2018/858*00048*00-*07",
-    "e1*2018/858*00055*00-*07",
-    "e1*2018/858*00041*00-*07",
-    "e1*2018/858*00051*00-*07"
+    "963-0-A, 963-0-C, 963-7-E, 963-8-H, 963-4-C, 963-4-D, 963-4-E, 963-0-D, 963-8-G, 963-2-A, 963-2-E",
+    "e1*2018/858*00039*00-*07, e1*2018/858*00045*00-*08, e1*2018/858*00049*00-*07, e1*2018/858*00056*00-*07, e1*2018/858*00047*00-*07, e1*2018/858*00046*00-*07,",
+    "e1*2018/858*00050*00-*07, e1*2018/858*00048*00-*07, e1*2018/858*00055*00-*07, e1*2018/858*00041*00-*07, e1*2018/858*00051*00-*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.05.2022 - 26.08.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "18.05.2022 - 26.08.2024"
+   "fechasTexto": "18.05.2022 - 26.08.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,36 +104,18 @@
  "dedup": {
   "claves": [
    "ref:SR/01016/25",
-   "mm:mercedes-benz:963-0-a",
-   "mm:mercedes-benz:963-0-c",
-   "mm:mercedes-benz:963-7-e",
-   "mm:mercedes-benz:963-8-h",
-   "mm:mercedes-benz:963-4-c",
-   "mm:mercedes-benz:963-4-d",
-   "mm:mercedes-benz:963-4-e",
-   "mm:mercedes-benz:963-0-d",
-   "mm:mercedes-benz:963-8-g",
-   "mm:mercedes-benz:963-2-a",
-   "mm:mercedes-benz:963-2-e",
-   "mm:mercedes-benz:e1-2018-858-00039-00-07",
-   "mm:mercedes-benz:e1-2018-858-00045-00-08",
-   "mm:mercedes-benz:e1-2018-858-00049-00-07",
-   "mm:mercedes-benz:e1-2018-858-00056-00-07",
-   "mm:mercedes-benz:e1-2018-858-00047-00-07",
-   "mm:mercedes-benz:e1-2018-858-00046-00-07",
-   "mm:mercedes-benz:e1-2018-858-00050-00-07",
-   "mm:mercedes-benz:e1-2018-858-00048-00-07",
-   "mm:mercedes-benz:e1-2018-858-00055-00-07",
-   "mm:mercedes-benz:e1-2018-858-00041-00-07",
-   "mm:mercedes-benz:e1-2018-858-00051-00-07"
+   "mm:mercedes-benz:963-0-a-963-0-c-963-7-e-963-8-h-963-4-c-963-4-d-963-4-e-963-0-d-963-8-g-963-2-a-963-2-e",
+   "mm:mercedes-benz:e1-2018-858-00039-00-07-e1-2018-858-00045-00-08-e1-2018-858-00049-00-07-e1-2018-858-00056-00-07-e1-2018-858-00047-00-07-e1-2018-858-00046-00-07",
+   "mm:mercedes-benz:e1-2018-858-00050-00-07-e1-2018-858-00048-00-07-e1-2018-858-00055-00-07-e1-2018-858-00041-00-07-e1-2018-858-00051-00-07",
+   "ml:mercedes-benz:18-05-2022-26-08-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "24018cda4da05ced"
+  "enriquecido": true,
+  "hashContenido": "3240a5de93bc17f5"
  },
  "slug": "camion-mercedes-benz-safety-gate-10093636"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e13*168/2013*01838*02 (CBR650R)",
     "e13*168/2013*01840*02 (CB650R)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.01.2024 - 08.04.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "11.01.2024 - 08.04.2024"
+   "fechasTexto": "11.01.2024 - 08.04.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +103,16 @@
   "claves": [
    "ref:SR/00973/25",
    "mm:honda:e13-168-2013-01838-02-cbr650r",
-   "mm:honda:e13-168-2013-01840-02-cb650r"
+   "mm:honda:e13-168-2013-01840-02-cb650r",
+   "ml:honda:11-01-2024-08-04-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0459c7107b8a67ac"
+  "enriquecido": true,
+  "hashContenido": "7a199b9d868a343a"
  },
  "slug": "motocicleta-honda-safety-gate-10093554"
 }

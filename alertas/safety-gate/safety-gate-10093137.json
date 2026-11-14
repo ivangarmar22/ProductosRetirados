@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5905874866323"
    ],
    "descripcion": "Juguete suave en forma de ganso blanco.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a5ac359bfdf6b059"
+  "enriquecido": true,
+  "hashContenido": "77f6d0cc77090640"
  },
  "slug": "juguete-blando-sinsay-safety-gate-10093137"
 }

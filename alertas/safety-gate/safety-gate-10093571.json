@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "EG/NB040",
     "e13*2007/46*2366*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.2024 - 09.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Una furgoneta camper.",
-   "fechasTexto": "06.2024 - 09.2024"
+   "fechasTexto": "06.2024 - 09.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -95,15 +100,16 @@
   "claves": [
    "ref:SR/00959/25",
    "mm:niesmann-bischoff:eg-nb040",
-   "mm:niesmann-bischoff:e13-2007-46-2366-06"
+   "mm:niesmann-bischoff:e13-2007-46-2366-06",
+   "ml:niesmann-bischoff:06-2024-09-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b8e5829db3cb3f9c"
+  "enriquecido": true,
+  "hashContenido": "019f816dbd1290b2"
  },
  "slug": "furgoneta-autocaravana-niesmann-bischoff-safety-gate-10093571"
 }

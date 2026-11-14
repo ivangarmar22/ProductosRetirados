@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Motocicleta. Año modelo 2021.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3300efeb9eeb8e4b"
+  "enriquecido": true,
+  "hashContenido": "ed8d4e190c6a2aed"
  },
  "slug": "motocicleta-cf-moto-safety-gate-10093271"
 }

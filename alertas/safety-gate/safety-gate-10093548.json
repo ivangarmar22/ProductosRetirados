@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e13*2007/46*0992*14-*16",
     "e13*KS07/46*1636*01-*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.02.2023 - 13.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "16.02.2023 - 13.09.2023"
+   "fechasTexto": "16.02.2023 - 13.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +99,16 @@
    "mm:porsche:992",
    "mm:porsche:992g",
    "mm:porsche:e13-2007-46-0992-14-16",
-   "mm:porsche:e13-ks07-46-1636-01-02"
+   "mm:porsche:e13-ks07-46-1636-01-02",
+   "ml:porsche:16-02-2023-13-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4d274fa7579a6268"
+  "enriquecido": true,
+  "hashContenido": "ff0e9c3c46741ea5"
  },
  "slug": "coche-de-pasajeros-porsche-safety-gate-10093548"
 }

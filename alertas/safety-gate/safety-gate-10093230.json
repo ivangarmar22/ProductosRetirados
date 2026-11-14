@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-22"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Elevador de placas de yeso negro con volante amarillo",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0c75ca8b1f1f62ce"
+  "enriquecido": true,
+  "hashContenido": "fe04778408d0f5f8"
  },
  "slug": "elevador-de-placas-de-yeso-fartools-safety-gate-10093230"
 }

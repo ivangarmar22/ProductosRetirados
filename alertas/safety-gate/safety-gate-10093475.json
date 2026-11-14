@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.02.2022 - 20.08.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "10.02.2022 - 20.08.2022"
+   "fechasTexto": "10.02.2022 - 20.08.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00852/25",
-   "mm:mercedes-benz:individual-approval"
+   "mm:mercedes-benz:individual-approval",
+   "ml:mercedes-benz:10-02-2022-20-08-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b55c28084d8532d7"
+  "enriquecido": true,
+  "hashContenido": "6194e70bab1c2e44"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10093475"
 }

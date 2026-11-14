@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-13"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -36,9 +36,13 @@
      "numero": "05/2022"
     }
    ],
-   "ean": [],
+   "ean": [
+    "8057206580463",
+    "8057206580470"
+   ],
    "descripcion": "Cortina de luz led para uso al aire libre.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalajes de plástico."
   }
  ],
  "riesgo": {
@@ -93,6 +97,8 @@
  "dedup": {
   "claves": [
    "ref:SR/00820/25",
+   "ean:8057206580463",
+   "ean:8057206580470",
    "mm:ginma:xn-8049",
    "mm:ginma:xn-8046",
    "mm:ginma:xn-8047",
@@ -100,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "169f48c02920e268"
+  "enriquecido": true,
+  "hashContenido": "37ba3bfe8c323a83"
  },
  "slug": "cadena-de-iluminacion-ginma-safety-gate-10093191"
 }

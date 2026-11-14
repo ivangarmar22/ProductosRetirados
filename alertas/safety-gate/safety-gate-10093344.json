@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -46,10 +46,15 @@
     "e1*168/2013*00051*03 (HQV 2T TE 150/250/300 2022/23)",
     "e1*168/2013*00051*04 (HQV 2T TE 150/250/300 2024)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022 - 2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta.",
-   "fechasTexto": "2022 - 2024"
+   "fechasTexto": "2022 - 2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +84,18 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "IE",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -110,15 +126,16 @@
    "mm:husqvarna:e1-168-2013-00023-03-hqv-4t-fe-250-350-450-501-2022-23",
    "mm:husqvarna:e1-168-2013-00023-04-hqv-4t-fe-250-350-450-501-2024",
    "mm:husqvarna:e1-168-2013-00051-03-hqv-2t-te-150-250-300-2022-23",
-   "mm:husqvarna:e1-168-2013-00051-04-hqv-2t-te-150-250-300-2024"
+   "mm:husqvarna:e1-168-2013-00051-04-hqv-2t-te-150-250-300-2024",
+   "ml:husqvarna:2022-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "65e2cdb5fcfbea43"
+  "enriquecido": true,
+  "hashContenido": "64a2b5cfc4655f6c"
  },
  "slug": "motocicleta-husqvarna-safety-gate-10093344"
 }

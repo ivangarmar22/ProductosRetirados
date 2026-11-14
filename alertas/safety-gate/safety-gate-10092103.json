@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Brenderup"
    ],
    "modelos": [
-    "L05",
-    "L06",
-    "e24*2018/858*00082*00",
-    "e24*2018/858*00081*00"
+    "L05, L06",
+    "e24*2018/858*00082*00, e24*2018/858*00081*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.04.2022 - 21.08.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Tráiler",
-   "fechasTexto": "30.04.2022 - 21.08.2024"
+   "fechasTexto": "30.04.2022 - 21.08.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,18 +112,17 @@
  "dedup": {
   "claves": [
    "ref:A12/03206/24",
-   "mm:brenderup:l05",
-   "mm:brenderup:l06",
-   "mm:brenderup:e24-2018-858-00082-00",
-   "mm:brenderup:e24-2018-858-00081-00"
+   "mm:brenderup:l05-l06",
+   "mm:brenderup:e24-2018-858-00082-00-e24-2018-858-00081-00",
+   "ml:brenderup:30-04-2022-21-08-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8922704e0f881a2e"
+  "enriquecido": true,
+  "hashContenido": "5b5e1aa5cdb46a18"
  },
  "slug": "trailer-brenderup-safety-gate-10092103"
 }

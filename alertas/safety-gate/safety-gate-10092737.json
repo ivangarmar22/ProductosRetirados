@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bolso de felpa para niños, con un diseño azul claro del carácter «Stitch» y un diseño púrpura/rosa del carácter «Angel».",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,11 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0122304fe8e893fa"
+  "enriquecido": true,
+  "hashContenido": "08ff645542b35d83"
  },
  "slug": "bolso-de-felpa-primark-safety-gate-10092737"
 }

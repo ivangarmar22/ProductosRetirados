@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-31"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -24,7 +24,8 @@
   {
    "nombre": "Kletterdreieck mit Rutsche Groß klappbar 2er",
    "marcas": [
-    "CCLIFE, kiddy dreams"
+    "CCLIFE",
+    "kiddy dreams"
    ],
    "modelos": [
     "910038"
@@ -38,7 +39,8 @@
     "4066854910038"
    ],
    "descripcion": "Marco de escalada de madera y metal con tobogán. Producto vendido en línea, en particular a través de Amazon (ASIN: B0CH9MCML1).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,16 +92,18 @@
   "claves": [
    "ref:SR/01046/25",
    "ean:4066854910038",
-   "mm:cclife-kiddy-dreams:910038",
-   "ml:cclife-kiddy-dreams:slnb1299"
+   "mm:cclife:910038",
+   "ml:cclife:slnb1299",
+   "mm:kiddy-dreams:910038",
+   "ml:kiddy-dreams:slnb1299"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3345640086e67fdc"
+  "enriquecido": true,
+  "hashContenido": "c3b46737141932e2"
  },
  "slug": "marco-de-escalada-cclife-kiddy-dreams-safety-gate-10093615"
 }

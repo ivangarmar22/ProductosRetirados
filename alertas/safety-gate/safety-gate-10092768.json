@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-10"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje, 30ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "49a6acb5c40254bd"
+  "enriquecido": true,
+  "hashContenido": "1d4374dfd64ef55f"
  },
  "slug": "tinta-de-tatuaje-xtreme-advanced-tattoo-ink-safety-gate-10092768"
 }

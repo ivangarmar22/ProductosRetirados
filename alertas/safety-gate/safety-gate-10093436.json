@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-04"
  },
  "categoria": {
   "literal": "Papelería",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "24012435"
+     "numero": "2401"
+    },
+    {
+     "numero": "2435"
     }
    ],
    "ean": [
     "3539012004456"
    ],
    "descripcion": "Pack de cuatro marcadores permanentes: dos negros, uno rojo y otro azul, con una punta ancha. Producto vendido en línea, en particular a través de bureau-vallee.fr.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -102,15 +106,16 @@
    "ref:SR/00862/25",
    "ean:3539012004456",
    "mm:prix-mini:405162780",
-   "ml:prix-mini:24012435"
+   "ml:prix-mini:2401",
+   "ml:prix-mini:2435"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2dcbc32a21c525ae"
+  "enriquecido": true,
+  "hashContenido": "1983dd6b52da0d76"
  },
  "slug": "pluma-prix-mini-safety-gate-10093436"
 }

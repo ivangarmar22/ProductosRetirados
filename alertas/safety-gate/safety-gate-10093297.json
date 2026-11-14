@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-10"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
     "6937080523195"
    ],
    "descripcion": "Conjunto que consta de un cigarrillo electrónico y un recipiente recargable con nicotina que contiene líquido. Producto vendido en línea, en particular a través de gfc-provap.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Malta",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7c1e43c3c2f0a3df"
+  "enriquecido": true,
+  "hashContenido": "b779572327a5b5e2"
  },
  "slug": "cigarrillo-electronico-elfbar-safety-gate-10093297"
 }

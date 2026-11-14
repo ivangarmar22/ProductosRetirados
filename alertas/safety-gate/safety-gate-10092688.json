@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "20233048222024052175"
+     "numero": "2023304822"
+    },
+    {
+     "numero": "2024052175"
     }
    ],
    "ean": [
     "5053249268132"
    ],
    "descripcion": "Polvo para bebés, 284 g.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanca con tapón de rosca blanco."
   }
  ],
  "riesgo": {
@@ -89,15 +93,16 @@
    "ref:SR/00808/25",
    "ean:5053249268132",
    "mm:nuage:nua1193a",
-   "ml:nuage:20233048222024052175"
+   "ml:nuage:2023304822",
+   "ml:nuage:2024052175"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5c1b418e290bbacc"
+  "enriquecido": true,
+  "hashContenido": "b12c8b74e756ea89"
  },
  "slug": "polvo-para-bebes-nuage-safety-gate-10092688"
 }

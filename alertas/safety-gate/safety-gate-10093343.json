@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Alfa Romeo"
    ],
    "modelos": [
-    "e3*2007/46*0382*03",
-    "*06",
-    "*08-*09",
-    "*11",
-    "*14-*19 (952)",
-    "e3*2007/46*0435*01",
-    "*03",
-    "*05",
-    "*09",
-    "*11-*13 (949)"
+    "e3*2007/46*0382*03, *06, *08-*09, *11, *14-*19 (952)",
+    "e3*2007/46*0435*01, *03, *05, *09, *11-*13 (949)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.04.2019 - 14.07.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "15.04.2019 - 14.07.2020"
+   "fechasTexto": "15.04.2019 - 14.07.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,19 +102,17 @@
  "dedup": {
   "claves": [
    "ref:SR/00789/25",
-   "mm:alfa-romeo:e3-2007-46-0382-03",
-   "mm:alfa-romeo:08-09",
-   "mm:alfa-romeo:14-19-952",
-   "mm:alfa-romeo:e3-2007-46-0435-01",
-   "mm:alfa-romeo:11-13-949"
+   "mm:alfa-romeo:e3-2007-46-0382-03-06-08-09-11-14-19-952",
+   "mm:alfa-romeo:e3-2007-46-0435-01-03-05-09-11-13-949",
+   "ml:alfa-romeo:15-04-2019-14-07-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bc921f4178dff3d9"
+  "enriquecido": true,
+  "hashContenido": "bbbb64ff66243677"
  },
  "slug": "coche-de-pasajeros-alfa-romeo-safety-gate-10093343"
 }

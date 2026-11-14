@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-10"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
     "6976650503489"
    ],
    "descripcion": "Cigarrillo electrónico desechable, 30.000 bocanadas, volumen: 36 ml, no se indica el contenido de nicotina.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con una imagen de cráneo."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "60fc52af3465120b"
+  "enriquecido": true,
+  "hashContenido": "792e258612b38eb2"
  },
  "slug": "cigarrillo-electronico-desechable-bang-safety-gate-10093483"
 }

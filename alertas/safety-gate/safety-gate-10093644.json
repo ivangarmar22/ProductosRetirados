@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,10 @@
    ],
    "lotes": [
     {
-     "numero": "22AC0041122AC00412"
+     "numero": "22AC00411"
+    },
+    {
+     "numero": "22AC00412"
     }
    ],
    "ean": [
@@ -42,7 +45,8 @@
     "3700281180305"
    ],
    "descripcion": "Bola transparente que contiene líquido, un pez de plástico, purpurina y un dispositivo eléctrico luminoso.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Red de plástico con etiquetas de cartón adheridas."
   }
  ],
  "riesgo": {
@@ -76,7 +80,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,15 +125,16 @@
    "mm:roldan:9106662",
    "mm:roldan:9106673",
    "mm:roldan:9106674",
-   "ml:roldan:22ac0041122ac00412"
+   "ml:roldan:22ac00411",
+   "ml:roldan:22ac00412"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "39a36c068e4ddfa8"
+  "enriquecido": true,
+  "hashContenido": "83eae41ebc81f830"
  },
  "slug": "bolas-de-rebote-roldan-safety-gate-10093644"
 }

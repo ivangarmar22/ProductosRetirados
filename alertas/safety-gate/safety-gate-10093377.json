@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-23"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Máquina de niebla para DJs móviles, fiestas, pequeños lugares con receptor de RF interno (incorporado en el controlador led interno) y un receptor de RF externo conectable (a través de una combinación de enchufe XLR de 3 pines) y dos controles remotos. Producto vendido en línea, en particular a través de djlicht.nl.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fb50122038c707a1"
+  "enriquecido": true,
+  "hashContenido": "3c51ff0704ff1bf8"
  },
  "slug": "maquina-de-niebla-stage-smoke-machine-safety-gate-10093377"
 }

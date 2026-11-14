@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-02-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-25"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Excavadora embolsadora.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6de0780775be4b1a"
+  "enriquecido": true,
+  "hashContenido": "5a6f5a490ebb98f4"
  },
  "slug": "excavadora-wacker-neuson-safety-gate-10093388"
 }

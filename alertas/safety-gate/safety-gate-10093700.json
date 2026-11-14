@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-06"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
     "8720859471616"
    ],
    "descripcion": "Vestido, destinado a niñas con cordón funcional en la zona de la cintura. Producto vendido en línea, en particular a través de nono-kidswear.nl.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e13cb7133711fd83"
+  "enriquecido": true,
+  "hashContenido": "d34a92cf0b3f819b"
  },
  "slug": "vestido-de-los-ninos-nono-safety-gate-10093700"
 }

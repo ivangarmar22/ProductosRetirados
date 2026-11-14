@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-03-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,36 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "-24291 281035-24292 281041-24293 281041-24294 281041-24295 281041-24324 281169-24325 281169-24351 281169"
+     "numero": "-24291 281035"
+    },
+    {
+     "numero": "-24292 281041"
+    },
+    {
+     "numero": "-24293 281041"
+    },
+    {
+     "numero": "-24294 281041"
+    },
+    {
+     "numero": "-24295 281041"
+    },
+    {
+     "numero": "-24324 281169"
+    },
+    {
+     "numero": "-24325 281169"
+    },
+    {
+     "numero": "-24351 281169"
     }
    ],
    "ean": [
     "4045612010388"
    ],
    "descripcion": "Crema para la piel.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Olla blanca con tapa púrpura."
   }
  ],
  "riesgo": {
@@ -75,7 +97,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,15 +133,22 @@
   "claves": [
    "ref:SR/00625/25",
    "ean:4045612010388",
-   "ml:cd-softcreme:24291-281035-24292-281041-24293-281041-24294-281041-24295-281041-24324-281169-24325-281169-24351-281169"
+   "ml:cd-softcreme:24291-281035",
+   "ml:cd-softcreme:24292-281041",
+   "ml:cd-softcreme:24293-281041",
+   "ml:cd-softcreme:24294-281041",
+   "ml:cd-softcreme:24295-281041",
+   "ml:cd-softcreme:24324-281169",
+   "ml:cd-softcreme:24325-281169",
+   "ml:cd-softcreme:24351-281169"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a9eb25d1ee494cc1"
+  "enriquecido": true,
+  "hashContenido": "268e0d61b83443bd"
  },
  "slug": "crema-para-la-piel-cd-softcreme-safety-gate-10093228"
 }
