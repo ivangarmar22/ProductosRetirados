@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -40,7 +40,8 @@
     "845644008537"
    ],
    "descripcion": "Varios modelos de amplificadores de guitarra eléctrica Blackstar.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido en lo que respecta a Irlanda del Norte",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2116220e5d0c982e"
+  "enriquecido": true,
+  "hashContenido": "e25eecd2ab9e9345"
  },
  "slug": "amplificador-de-guitarra-electrica-blackstar-safety-gate-10092613"
 }

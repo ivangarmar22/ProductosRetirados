@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Triumph"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.07.2023 - 16.08.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta diseñada exclusivamente para uso en competiciones de circuito cerrado: motocross.",
-   "fechasTexto": "20.07.2023 - 16.08.2024"
+   "fechasTexto": "20.07.2023 - 16.08.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +81,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:SR/00073/25"
+   "ref:SR/00073/25",
+   "ml:triumph:20-07-2023-16-08-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "952295cc0d401fdf"
+  "enriquecido": true,
+  "hashContenido": "5751ee5a354fe841"
  },
  "slug": "motocicleta-triumph-safety-gate-10092695"
 }

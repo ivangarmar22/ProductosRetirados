@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e3*2018/858*00078*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.03.2024 - 31.05.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "26.03.2024 - 31.05.2024"
+   "fechasTexto": "26.03.2024 - 31.05.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "GR",
+   "LU",
+   "NO",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03804/24",
-   "mm:jeep:e3-2018-858-00078-04"
+   "mm:jeep:e3-2018-858-00078-04",
+   "ml:jeep:26-03-2024-31-05-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bc7d95c99ffbe6a1"
+  "enriquecido": true,
+  "hashContenido": "7558812b1bd8132f"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10092576"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,10 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "23002041"
+     "numero": "23002041,"
     },
     {
-     "numero": "23002042"
+     "numero": "23002042,"
     },
     {
      "numero": "23002043"
@@ -45,7 +45,8 @@
     "8714627015003"
    ],
    "descripcion": "Juego de alimentación de juguete para una muñeca, que consta de cinco elementos: babero, taza, plato, tenedor y cuchara. El producto estuvo disponible para la venta entre la semana 43 de 2023 y la semana 42 de 2024.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,7 +77,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FR",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00899634e3955366"
+  "enriquecido": true,
+  "hashContenido": "b5eb2bcd50427abe"
  },
  "slug": "juego-de-juguetes-de-plastico-toi-toys-safety-gate-10092750"
 }

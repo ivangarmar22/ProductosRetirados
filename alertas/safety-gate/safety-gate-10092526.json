@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-17"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -27,16 +27,19 @@
     "Zeeman"
    ],
    "modelos": [
-    "C90612",
-    "A58048"
+    "C90612 / A58048"
    ],
    "lotes": [],
    "ean": [
     "2011680580483",
-    "2012880580488"
+    "2012880580488",
+    "2014080580480",
+    "2015280580485",
+    "2016480580480"
    ],
    "descripcion": "Camisa, destinada a niños, con estampado negro \"24/7/365 Always Ready\" y estampado naranja \"Nerf\". Producto vendido en línea, en particular a través de zeeman.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje."
   }
  ],
  "riesgo": {
@@ -103,16 +106,18 @@
    "ref:SR/03754/24",
    "ean:2011680580483",
    "ean:2012880580488",
-   "mm:zeeman:c90612",
-   "mm:zeeman:a58048"
+   "ean:2014080580480",
+   "ean:2015280580485",
+   "ean:2016480580480",
+   "mm:zeeman:c90612-a58048"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a6abc1c57cabf9a0"
+  "enriquecido": true,
+  "hashContenido": "a29c9cb50f9c21bc"
  },
  "slug": "camiseta-de-los-ninos-zeeman-safety-gate-10092526"
 }

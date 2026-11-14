@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pequeño juguete exprimible de forma ovalada con patas, manos y orejas sobresalientes, en forma de lechón, búho, panda, perro, oso o gato.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico sellado, transparente."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "95263ec6ea5d00ea"
+  "enriquecido": true,
+  "hashContenido": "c07b64c4aa448db0"
  },
  "slug": "juguete-exprimible-safety-gate-10092637"
 }

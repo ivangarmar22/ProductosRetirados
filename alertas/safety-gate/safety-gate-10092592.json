@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "4020972115034"
    ],
    "descripcion": "Puzzle de juguete de madera que representa nueve vehículos de la ciudad.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -110,11 +114,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8e1ddf0785e40219"
+  "enriquecido": true,
+  "hashContenido": "eb35f10bc8116003"
  },
  "slug": "puzzle-legler-smallfoot-safety-gate-10092592"
 }

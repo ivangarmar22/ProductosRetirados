@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-18"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "ANWG20ANWL15"
+     "numero": "ANWG20"
+    },
+    {
+     "numero": "ANWL15"
     }
    ],
    "ean": [
     "5055402967500"
    ],
    "descripcion": "Corrector de maquillaje líquido, 8,5 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico transparente alargada con aplicador."
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
    "ref:SR/03778/24",
    "ean:5055402967500",
    "mm:mua-makeup-academy-professional:142",
-   "ml:mua-makeup-academy-professional:anwg20anwl15"
+   "ml:mua-makeup-academy-professional:anwg20",
+   "ml:mua-makeup-academy-professional:anwl15"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "470262a3574e4e85"
+  "enriquecido": true,
+  "hashContenido": "2f85b44afaf2a5ff"
  },
  "slug": "corrector-de-maquillaje-mua-makeup-academy-professional-safety-gate-10092453"
 }

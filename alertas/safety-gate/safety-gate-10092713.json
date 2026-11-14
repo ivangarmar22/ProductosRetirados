@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave en forma de oso de peluche con patrones relacionados con el espectáculo \"Moulin Rouge\".",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7652afb37e0f51e8"
+  "enriquecido": true,
+  "hashContenido": "e0c74f2bccc1ae28"
  },
  "slug": "juguete-blando-ming-productions-safety-gate-10092713"
 }

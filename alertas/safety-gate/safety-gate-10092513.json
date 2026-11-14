@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -36,10 +36,18 @@
     "E8*16R08*16857*",
     "E8*16R08*16938*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.06.2024 - 30.10.2024 (200 mm)"
+    },
+    {
+     "numero": "08.04.2024 - 30.10.2024 (165 mm)"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo / Sistema de cinturón de seguridad.",
-   "fechasTexto": "03.06.2024 - 30.10.2024 (200 mm)08.04.2024 - 30.10.2024 (165 mm)"
+   "fechasTexto": "03.06.2024 - 30.10.2024 (200 mm)08.04.2024 - 30.10.2024 (165 mm)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Rumanía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +101,17 @@
    "mm:schnierle:e8-16r08-16815",
    "mm:schnierle:e8-16r08-16842",
    "mm:schnierle:e8-16r08-16857",
-   "mm:schnierle:e8-16r08-16938"
+   "mm:schnierle:e8-16r08-16938",
+   "ml:schnierle:03-06-2024-30-10-2024-200-mm",
+   "ml:schnierle:08-04-2024-30-10-2024-165-mm"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db4c44db8bd3c93d"
+  "enriquecido": true,
+  "hashContenido": "105bf55da8a4aae8"
  },
  "slug": "parte-del-vehiculo-sistema-de-cinturon-de-seguridad-schnierle-safety-gate-10092513"
 }

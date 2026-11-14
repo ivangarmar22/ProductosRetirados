@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "JT",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.08.2017 - 16.02.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros / camioneta con transmisión manual.",
-   "fechasTexto": "23.08.2017 - 16.02.2023"
+   "fechasTexto": "23.08.2017 - 16.02.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03688/24",
-   "mm:jeep:individual-approval"
+   "mm:jeep:individual-approval",
+   "ml:jeep:23-08-2017-16-02-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c345ce7ce70e08c2"
+  "enriquecido": true,
+  "hashContenido": "3904a7000004afa6"
  },
  "slug": "coche-de-pasajeros-camioneta-jeep-safety-gate-10092460"
 }

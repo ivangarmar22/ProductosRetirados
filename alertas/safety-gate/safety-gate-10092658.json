@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-08"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -27,14 +27,13 @@
     "Not specified"
    ],
    "modelos": [
-    "US-090810",
-    "OT-X-02-02",
-    "75cdae95-f31c-452e-8224-76fbf35ab235"
+    "US-090810, OT-X-02-02, 75cdae95-f31c-452e-8224-76fbf35ab235"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Conjunto de tres collares hechos de metal dorado con un tema de Halloween.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -83,17 +82,15 @@
  "dedup": {
   "claves": [
    "ref:INFO/00006/25",
-   "mm:not-specified:us-090810",
-   "mm:not-specified:ot-x-02-02",
-   "mm:not-specified:75cdae95-f31c-452e-8224-76fbf35ab235"
+   "mm:not-specified:us-090810-ot-x-02-02-75cdae95-f31c-452e-8224-76fbf35ab235"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ffd9830a4a0c419f"
+  "enriquecido": true,
+  "hashContenido": "223e4224c4073cab"
  },
  "slug": "collar-not-specified-safety-gate-10092658"
 }

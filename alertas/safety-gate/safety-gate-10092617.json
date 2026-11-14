@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -44,10 +44,18 @@
     "g11*2018/858*00524*01 3008",
     "g11*2018/858*00524*01 5008"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.7. 2023 - 29.11.2024 : 3008"
+    },
+    {
+     "numero": "5.12.2023 - 29.11.2024 : 5008"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "17.7. 2023 - 29.11.2024 : 30085.12.2023 - 29.11.2024 : 5008"
+   "fechasTexto": "17.7. 2023 - 29.11.2024 : 30085.12.2023 - 29.11.2024 : 5008",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +85,24 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,15 +136,17 @@
    "mm:peugeot:g11-2018-858-00524-00-3008",
    "mm:peugeot:g11-2018-858-00524-00-5008",
    "mm:peugeot:g11-2018-858-00524-01-3008",
-   "mm:peugeot:g11-2018-858-00524-01-5008"
+   "mm:peugeot:g11-2018-858-00524-01-5008",
+   "ml:peugeot:17-7-2023-29-11-2024-3008",
+   "ml:peugeot:5-12-2023-29-11-2024-5008"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ab27919635573bc4"
+  "enriquecido": true,
+  "hashContenido": "e5ef2e14894877ce"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10092617"
 }

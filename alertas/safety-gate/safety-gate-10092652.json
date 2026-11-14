@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-09"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
     "097298021169"
    ],
    "descripcion": "Cortador de uñas con batería para mascotas. Cuerpo de plástico gris cilíndrico con interruptor de encendido/apagado naranja y tapa de seguridad transparente. Cabezal de pulido recubierto de papel de lija negro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f166669d6c69cabd"
+  "enriquecido": true,
+  "hashContenido": "873e52a5f59377d3"
  },
  "slug": "cortador-de-unas-para-mascotas-telebrands-safety-gate-10092652"
 }

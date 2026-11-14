@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,15 @@
     "30339203",
     "30414050"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.12.2023 - 15.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Partes del vehículo, incluido el brazo de control izquierdo, incluida la rótula, el brazo de control derecho, incluida la rótula, el brazo de control superior delantero derecho, el brazo de control superior delantero izquierdo y la suspensión del hueso de la horquilla derecha con rótula.",
-   "fechasTexto": "22.12.2023 - 15.10.2024"
+   "fechasTexto": "22.12.2023 - 15.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -101,15 +106,16 @@
    "mm:atec:10660063",
    "mm:atec:30300114",
    "mm:atec:30339203",
-   "mm:atec:30414050"
+   "mm:atec:30414050",
+   "ml:atec:22-12-2023-15-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fe95725d27dd11a9"
+  "enriquecido": true,
+  "hashContenido": "9dcb966179ad0461"
  },
  "slug": "parte-del-vehiculo-brazo-de-control-atec-safety-gate-10092492"
 }

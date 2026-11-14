@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-17"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -34,7 +34,13 @@
    ],
    "lotes": [
     {
-     "numero": "508747509012 509201"
+     "numero": "508747"
+    },
+    {
+     "numero": "509012"
+    },
+    {
+     "numero": "509201"
     }
    ],
    "ean": [
@@ -44,7 +50,8 @@
     "5390711602569"
    ],
    "descripcion": "Tazas de cerámica. Producto vendido en línea, en particular a través de https://www.shamrockgiftcompany.com/",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje. Una tarjeta colgante se adjunta a la taza."
   }
  ],
  "riesgo": {
@@ -102,15 +109,17 @@
    "mm:guinness:02597",
    "mm:guinness:02598",
    "mm:guinness:02748",
-   "ml:guinness:508747509012-509201"
+   "ml:guinness:508747",
+   "ml:guinness:509012",
+   "ml:guinness:509201"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9c109ed87ca6f285"
+  "enriquecido": true,
+  "hashContenido": "f5fab53a65e90aa9"
  },
  "slug": "tazas-guinness-safety-gate-10092383"
 }

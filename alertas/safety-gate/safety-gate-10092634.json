@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "E",
     "e2*2007/46*0685*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "8.1.2024 - 3.2.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "8.1.2024 - 3.2.2024"
+   "fechasTexto": "8.1.2024 - 3.2.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "HR",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +94,16 @@
  "dedup": {
   "claves": [
    "ref:SR/00054/25",
-   "mm:toyota:e2-2007-46-0685"
+   "mm:toyota:e2-2007-46-0685",
+   "ml:toyota:8-1-2024-3-2-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5e9624b0e5d74be8"
+  "enriquecido": true,
+  "hashContenido": "350ad03667acad84"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10092634"
 }

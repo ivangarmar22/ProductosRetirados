@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-02"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "TBSD00098TBSD01180"
+     "numero": "TBSD00098"
+    },
+    {
+     "numero": "TBSD01180"
     }
    ],
    "ean": [],
    "descripcion": "Equipo de protección individual destinado a proteger contra una caída durante las actividades de escalada.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +92,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03758/24",
-   "ml:headrush-technologies:tbsd00098tbsd01180"
+   "ml:headrush-technologies:tbsd00098",
+   "ml:headrush-technologies:tbsd01180"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9efc2e2c6233d4b1"
+  "enriquecido": true,
+  "hashContenido": "9a2da6d4bc07bc24"
  },
  "slug": "acoplamiento-automatico-headrush-technologies-safety-gate-10092445"
 }

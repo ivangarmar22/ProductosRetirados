@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-06"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "2021092220220456"
+     "numero": "20210922"
+    },
+    {
+     "numero": "20220456"
     }
    ],
    "ean": [
     "5902581658852"
    ],
    "descripcion": "Silla de paseo para niños en diseño gris-rosado con cuatro ruedas. El cochecito está destinado a niños a partir de 6 meses de edad, hasta un peso máximo de 15 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +76,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +99,16 @@
    "ref:OR/00181/24",
    "ean:5902581658852",
    "mm:lionelo:tropical-pink",
-   "ml:lionelo:2021092220220456"
+   "ml:lionelo:20210922",
+   "ml:lionelo:20220456"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "abdab7ec3d1a70f9"
+  "enriquecido": true,
+  "hashContenido": "eaedf04794ef774f"
  },
  "slug": "silla-de-paseo-lionelo-safety-gate-10092520"
 }

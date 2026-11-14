@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-19"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Roarlabs",
    "marcas": [
-    "Roar X, Roarlabs"
+    "Roar X",
+    "Roarlabs"
    ],
    "modelos": [
     "Blue Sour Raspberry",
@@ -41,7 +42,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cigarrillo electrónico desechable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón negra con el nombre del producto y el sabor correspondiente."
   }
  ],
  "riesgo": {
@@ -94,24 +96,34 @@
  "dedup": {
   "claves": [
    "ref:SR/03824/24",
-   "mm:roar-x-roarlabs:blue-sour-raspberry",
-   "mm:roar-x-roarlabs:blueberry",
-   "mm:roar-x-roarlabs:cherry",
-   "mm:roar-x-roarlabs:juicy-grape",
-   "mm:roar-x-roarlabs:lemon-lime-soda",
-   "mm:roar-x-roarlabs:peach-soda",
-   "mm:roar-x-roarlabs:pineapple-ice",
-   "mm:roar-x-roarlabs:spearmint",
-   "mm:roar-x-roarlabs:strawberry-cherry-raz",
-   "mm:roar-x-roarlabs:watermelon-splash"
+   "mm:roar-x:blue-sour-raspberry",
+   "mm:roar-x:blueberry",
+   "mm:roar-x:cherry",
+   "mm:roar-x:juicy-grape",
+   "mm:roar-x:lemon-lime-soda",
+   "mm:roar-x:peach-soda",
+   "mm:roar-x:pineapple-ice",
+   "mm:roar-x:spearmint",
+   "mm:roar-x:strawberry-cherry-raz",
+   "mm:roar-x:watermelon-splash",
+   "mm:roarlabs:blue-sour-raspberry",
+   "mm:roarlabs:blueberry",
+   "mm:roarlabs:cherry",
+   "mm:roarlabs:juicy-grape",
+   "mm:roarlabs:lemon-lime-soda",
+   "mm:roarlabs:peach-soda",
+   "mm:roarlabs:pineapple-ice",
+   "mm:roarlabs:spearmint",
+   "mm:roarlabs:strawberry-cherry-raz",
+   "mm:roarlabs:watermelon-splash"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f19f3370f05f15e0"
+  "enriquecido": true,
+  "hashContenido": "5c530b08e6785cb8"
  },
  "slug": "cigarrillo-electronico-desechable-roar-x-roarlabs-safety-gate-10092107"
 }

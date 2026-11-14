@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Kia"
    ],
    "modelos": [
-    "e11*2007/46*0634*01",
-    "e11*2001/116*0358*04",
-    "e11*2007/46*0634*05",
-    "e11*2001/116*0358*06",
-    "e11*2007/46*0141*03",
-    "e11*2001/116*0358*05"
+    "e11*2007/46*0634*01; e11*2001/116*0358*04; e11*2007/46*0634*05; e11*2001/116*0358*06; e11*2007/46*0141*03; e11*2001/116*0358*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.07. 2010 - 21.08.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "01.07. 2010 - 21.08.2014"
+   "fechasTexto": "01.07. 2010 - 21.08.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,22 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +97,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03805/24",
-   "mm:kia:e11-2007-46-0634-01",
-   "mm:kia:e11-2001-116-0358-04",
-   "mm:kia:e11-2007-46-0634-05",
-   "mm:kia:e11-2001-116-0358-06",
-   "mm:kia:e11-2007-46-0141-03",
-   "mm:kia:e11-2001-116-0358-05"
+   "mm:kia:e11-2007-46-0634-01-e11-2001-116-0358-04-e11-2007-46-0634-05-e11-2001-116-0358-06-e11-2007-46-0141-03-e11-2001-116-0358-05",
+   "ml:kia:01-07-2010-21-08-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35d8fd0c0bb0b841"
+  "enriquecido": true,
+  "hashContenido": "6c61f5d99fbf70b3"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10092575"
 }

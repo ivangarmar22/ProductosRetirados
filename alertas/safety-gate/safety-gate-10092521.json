@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,20 @@
     "Kia"
    ],
    "modelos": [
+    "e4*2001/116*0139*09",
     "e4*2001/116*0139*05",
     "e4*2001/116*0139*06",
-    "e4*2001/116*0139*08",
-    "e4*2001/116*0139*09"
+    "e4*2001/116*0139*08"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.06.2010 - 30.10.2013"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "09.06.2010 - 30.10.2013"
+   "fechasTexto": "09.06.2010 - 30.10.2013",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,23 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +101,19 @@
  "dedup": {
   "claves": [
    "ref:SR/00016/25",
+   "mm:kia:e4-2001-116-0139-09",
    "mm:kia:e4-2001-116-0139-05",
    "mm:kia:e4-2001-116-0139-06",
    "mm:kia:e4-2001-116-0139-08",
-   "mm:kia:e4-2001-116-0139-09"
+   "ml:kia:09-06-2010-30-10-2013"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6e2f72800753f0c0"
+  "enriquecido": true,
+  "hashContenido": "5ec7983ffe11ba4d"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10092521"
 }

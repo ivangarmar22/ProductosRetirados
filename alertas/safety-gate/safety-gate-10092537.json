@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "G6L",
-    "G6K",
-    "G6E",
-    "BMWi-N",
-    "e1*2018/858*00316*",
-    "e1*2018/858*00360*",
-    "e1*2018/858*00317*",
-    "e1*2018/858*00109*"
+    "G6L, G6K, G6E, BMWi-N",
+    "e1*2018/858*00316*, e1*2018/858*00360*, e1*2018/858*00317*, e1*2018/858*00109*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "9.10.2024 - 18.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "9.10.2024 - 18.10.2024"
+   "fechasTexto": "9.10.2024 - 18.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -97,22 +96,17 @@
  "dedup": {
   "claves": [
    "ref:SR/03712/24",
-   "mm:bmw:g6l",
-   "mm:bmw:g6k",
-   "mm:bmw:g6e",
-   "mm:bmw:bmwi-n",
-   "mm:bmw:e1-2018-858-00316",
-   "mm:bmw:e1-2018-858-00360",
-   "mm:bmw:e1-2018-858-00317",
-   "mm:bmw:e1-2018-858-00109"
+   "mm:bmw:g6l-g6k-g6e-bmwi-n",
+   "mm:bmw:e1-2018-858-00316-e1-2018-858-00360-e1-2018-858-00317-e1-2018-858-00109",
+   "ml:bmw:9-10-2024-18-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22756d4eb2eaafb6"
+  "enriquecido": true,
+  "hashContenido": "6335b7059362e423"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10092537"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,7 +24,8 @@
   {
    "nombre": "Several models of motorcycle tyres",
    "marcas": [
-    "Avon, Dunlop"
+    "Avon",
+    "Dunlop"
    ],
    "modelos": [
     "120/70R17 58H TL SPORTSMART TT 1DK8B 6T1M",
@@ -48,10 +49,15 @@
     "MT90B16 72H TL D402F (HARLEY.D) 1DKTR 2JJ8",
     "MT90B16 74H TL D402 (HARLEY.D) 1DKTR 2JY8"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.10.2024 - 09.11.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumático de motocicleta.",
-   "fechasTexto": "20.10.2024 - 09.11.2024"
+   "fechasTexto": "20.10.2024 - 09.11.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,7 +87,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,34 +104,56 @@
  "dedup": {
   "claves": [
    "ref:SR/00004/25",
-   "mm:avon-dunlop:120-70r17-58h-tl-sportsmart-tt-1dk8b-6t1m",
-   "mm:avon-dunlop:120-70zr17-58w-tl-sportsmart-tt-1dk8b-6u1m",
-   "mm:avon-dunlop:120-70zr17-58w-tl-sx-gp-racer-d212-m-1dk8b-6k1m",
-   "mm:avon-dunlop:130-70-16-61s-tl-scootsmart-1dk4w-4b1m",
-   "mm:avon-dunlop:150-70b18-70s-m-s-tt-d908-rr-1dk2h-4a2m",
-   "mm:avon-dunlop:150-70r18-70t-m-s-tl-trx-raid-1dk2h-4h1m",
-   "mm:avon-dunlop:160-60zr17-69w-tl-m-s-mutant-1dk12-5c1m",
-   "mm:avon-dunlop:160-60zr17-69w-tl-sportsmart-mk4-1dk12-5h1m",
-   "mm:avon-dunlop:170-60r17-72t-m-s-tl-trx-raid-1dk8c-4p1m",
-   "mm:avon-dunlop:170-60zr17-72w-tl-sportsmart-tt-1dk8c-4n1m",
-   "mm:avon-dunlop:170-60zr17-72w-tl-trx-meridian-1dk8c-4k1m",
-   "mm:avon-dunlop:170-80b15-83h-rf-tl-cobra-chrome-1dknu-4a1m",
-   "mm:avon-dunlop:180-55zr17-73w-tl-qualifier-core-1dk8e-5d1m",
-   "mm:avon-dunlop:180-55zr17-73w-tl-sx-roadsmart-iii-1dk8e-4r1m",
-   "mm:avon-dunlop:190-50zr17-73w-tl-sx-roadsmart-iii-1dk8n-4m1m",
-   "mm:avon-dunlop:190-55zr17-75w-tl-qualifier-core-1dk50-5y1m",
-   "mm:avon-dunlop:190-55zr17-75w-tl-sportsmart-tt-1dk50-5t1m",
-   "mm:avon-dunlop:90-90-21-54h-tl-trailmax-1dk0f-4a3m",
-   "mm:avon-dunlop:mt90b16-72h-tl-d402f-harley-d-1dktr-2jj8",
-   "mm:avon-dunlop:mt90b16-74h-tl-d402-harley-d-1dktr-2jy8"
+   "mm:avon:120-70r17-58h-tl-sportsmart-tt-1dk8b-6t1m",
+   "mm:avon:120-70zr17-58w-tl-sportsmart-tt-1dk8b-6u1m",
+   "mm:avon:120-70zr17-58w-tl-sx-gp-racer-d212-m-1dk8b-6k1m",
+   "mm:avon:130-70-16-61s-tl-scootsmart-1dk4w-4b1m",
+   "mm:avon:150-70b18-70s-m-s-tt-d908-rr-1dk2h-4a2m",
+   "mm:avon:150-70r18-70t-m-s-tl-trx-raid-1dk2h-4h1m",
+   "mm:avon:160-60zr17-69w-tl-m-s-mutant-1dk12-5c1m",
+   "mm:avon:160-60zr17-69w-tl-sportsmart-mk4-1dk12-5h1m",
+   "mm:avon:170-60r17-72t-m-s-tl-trx-raid-1dk8c-4p1m",
+   "mm:avon:170-60zr17-72w-tl-sportsmart-tt-1dk8c-4n1m",
+   "mm:avon:170-60zr17-72w-tl-trx-meridian-1dk8c-4k1m",
+   "mm:avon:170-80b15-83h-rf-tl-cobra-chrome-1dknu-4a1m",
+   "mm:avon:180-55zr17-73w-tl-qualifier-core-1dk8e-5d1m",
+   "mm:avon:180-55zr17-73w-tl-sx-roadsmart-iii-1dk8e-4r1m",
+   "mm:avon:190-50zr17-73w-tl-sx-roadsmart-iii-1dk8n-4m1m",
+   "mm:avon:190-55zr17-75w-tl-qualifier-core-1dk50-5y1m",
+   "mm:avon:190-55zr17-75w-tl-sportsmart-tt-1dk50-5t1m",
+   "mm:avon:90-90-21-54h-tl-trailmax-1dk0f-4a3m",
+   "mm:avon:mt90b16-72h-tl-d402f-harley-d-1dktr-2jj8",
+   "mm:avon:mt90b16-74h-tl-d402-harley-d-1dktr-2jy8",
+   "ml:avon:20-10-2024-09-11-2024",
+   "mm:dunlop:120-70r17-58h-tl-sportsmart-tt-1dk8b-6t1m",
+   "mm:dunlop:120-70zr17-58w-tl-sportsmart-tt-1dk8b-6u1m",
+   "mm:dunlop:120-70zr17-58w-tl-sx-gp-racer-d212-m-1dk8b-6k1m",
+   "mm:dunlop:130-70-16-61s-tl-scootsmart-1dk4w-4b1m",
+   "mm:dunlop:150-70b18-70s-m-s-tt-d908-rr-1dk2h-4a2m",
+   "mm:dunlop:150-70r18-70t-m-s-tl-trx-raid-1dk2h-4h1m",
+   "mm:dunlop:160-60zr17-69w-tl-m-s-mutant-1dk12-5c1m",
+   "mm:dunlop:160-60zr17-69w-tl-sportsmart-mk4-1dk12-5h1m",
+   "mm:dunlop:170-60r17-72t-m-s-tl-trx-raid-1dk8c-4p1m",
+   "mm:dunlop:170-60zr17-72w-tl-sportsmart-tt-1dk8c-4n1m",
+   "mm:dunlop:170-60zr17-72w-tl-trx-meridian-1dk8c-4k1m",
+   "mm:dunlop:170-80b15-83h-rf-tl-cobra-chrome-1dknu-4a1m",
+   "mm:dunlop:180-55zr17-73w-tl-qualifier-core-1dk8e-5d1m",
+   "mm:dunlop:180-55zr17-73w-tl-sx-roadsmart-iii-1dk8e-4r1m",
+   "mm:dunlop:190-50zr17-73w-tl-sx-roadsmart-iii-1dk8n-4m1m",
+   "mm:dunlop:190-55zr17-75w-tl-qualifier-core-1dk50-5y1m",
+   "mm:dunlop:190-55zr17-75w-tl-sportsmart-tt-1dk50-5t1m",
+   "mm:dunlop:90-90-21-54h-tl-trailmax-1dk0f-4a3m",
+   "mm:dunlop:mt90b16-72h-tl-d402f-harley-d-1dktr-2jj8",
+   "mm:dunlop:mt90b16-74h-tl-d402-harley-d-1dktr-2jy8",
+   "ml:dunlop:20-10-2024-09-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "da792861fe956c35"
+  "enriquecido": true,
+  "hashContenido": "18b329ef56b83050"
  },
  "slug": "neumatico-de-motocicleta-avon-dunlop-safety-gate-10092464"
 }

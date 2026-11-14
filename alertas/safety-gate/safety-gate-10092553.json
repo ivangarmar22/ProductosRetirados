@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Coche de pasajeros. Año modelo: 2024 - 2025.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,13 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "HU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "438ee3b586ceb17f"
+  "enriquecido": true,
+  "hashContenido": "9361915a8a990d0e"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10092553"
 }

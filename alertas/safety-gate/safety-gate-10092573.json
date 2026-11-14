@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*2018/858*11257*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.04.2023 - 16.05.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "03.04.2023 - 16.05.2023"
+   "fechasTexto": "03.04.2023 - 16.05.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:SR/03807/24",
-   "mm:jeep:e9-2018-858-11257-01"
+   "mm:jeep:e9-2018-858-11257-01",
+   "ml:jeep:03-04-2023-16-05-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "97d537fbf03efdee"
+  "enriquecido": true,
+  "hashContenido": "2be8b407e91c11df"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10092573"
 }

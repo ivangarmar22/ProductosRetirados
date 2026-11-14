@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2025-01-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "ALPINA G01",
     "e1*KS07/46*0069*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2018 - 30.05.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.08.2018 - 30.05.2024"
+   "fechasTexto": "01.08.2018 - 30.05.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "LU",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +93,16 @@
   "claves": [
    "ref:A12/02737/24",
    "mm:bmw-alpina:alpina-g01",
-   "mm:bmw-alpina:e1-ks07-46-0069"
+   "mm:bmw-alpina:e1-ks07-46-0069",
+   "ml:bmw-alpina:01-08-2018-30-05-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c236def5f1b8189f"
+  "enriquecido": true,
+  "hashContenido": "91a981c8eb065714"
  },
  "slug": "coche-de-pasajeros-bmw-alpina-safety-gate-10048563"
 }
