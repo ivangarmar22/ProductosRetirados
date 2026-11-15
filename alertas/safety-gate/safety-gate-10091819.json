@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5905515351102"
    ],
    "descripcion": "Juego de juguetes magnéticos que consta de varias bolas magnéticas pequeñas y palos de diferentes colores. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b2c0ddae00202133"
+  "enriquecido": true,
+  "hashContenido": "3d5d18879c0005bb"
  },
  "slug": "juguete-magnetico-lean-toys-safety-gate-10091819"
 }

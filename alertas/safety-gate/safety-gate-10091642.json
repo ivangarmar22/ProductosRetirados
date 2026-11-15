@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Alpina"
    ],
    "modelos": [
-    "Alpina F30",
-    "Alpina F25",
-    "e1*KS07/46*0034*06-*10",
-    "e1*KS07/46*0035*04-*06"
+    "Alpina F30, Alpina F25",
+    "e1*KS07/46*0034*06-*10, e1*KS07/46*0035*04-*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.1.2016 - 12.12.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2.1.2016 - 12.12.2017"
+   "fechasTexto": "2.1.2016 - 12.12.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +69,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "GR",
+   "LU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,18 +102,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02967/24",
-   "mm:alpina:alpina-f30",
-   "mm:alpina:alpina-f25",
-   "mm:alpina:e1-ks07-46-0034-06-10",
-   "mm:alpina:e1-ks07-46-0035-04-06"
+   "mm:alpina:alpina-f30-alpina-f25",
+   "mm:alpina:e1-ks07-46-0034-06-10-e1-ks07-46-0035-04-06",
+   "ml:alpina:2-1-2016-12-12-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "71b2d7ed6dd72cad"
+  "enriquecido": true,
+  "hashContenido": "86c2265224a9e2d4"
  },
  "slug": "coche-de-pasajeros-alpina-safety-gate-10091642"
 }

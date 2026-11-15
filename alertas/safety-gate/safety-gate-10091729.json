@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-17"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,12 +34,31 @@
    ],
    "lotes": [
     {
-     "numero": "From MCJF-1000031 to MCJF-1005100 (HRM1000)From MCKF-1000010 to MCKF-1003129 (HRM1500)From MCLF-1000011 to MCLF-1003702 (HRM1500 Live)From MCMF-1000002 to MCMF-1001631 (HRM2500 )From MCMF-1001692 to MCMF-1002081 (HRM2500)From MCNF-1000046 to MCNF-1002691 (HRM2500 Live)From MCPF-1000050 to MCPF-1003289 (HRM4000 Live)"
+     "numero": "From MCJF-1000031 to MCJF-1005100 (HRM1000)"
+    },
+    {
+     "numero": "From MCKF-1000010 to MCKF-1003129 (HRM1500)"
+    },
+    {
+     "numero": "From MCLF-1000011 to MCLF-1003702 (HRM1500 Live)"
+    },
+    {
+     "numero": "From MCMF-1000002 to MCMF-1001631 (HRM2500 )"
+    },
+    {
+     "numero": "From MCMF-1001692 to MCMF-1002081 (HRM2500)"
+    },
+    {
+     "numero": "From MCNF-1000046 to MCNF-1002691 (HRM2500 Live)"
+    },
+    {
+     "numero": "From MCPF-1000050 to MCPF-1003289 (HRM4000 Live)"
     }
    ],
    "ean": [],
    "descripcion": "Cortacésped robótico blanco.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +89,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "DK",
+   "EE",
+   "LU",
+   "LV",
+   "PL",
+   "SK",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +131,21 @@
    "mm:honda:hrm1500",
    "mm:honda:hrm2500",
    "mm:honda:hrm4000",
-   "ml:honda:from-mcjf-1000031-to-mcjf-1005100-hrm1000-from-mckf-1000010-to-mckf-1003129-hrm1500-from-mclf-1000011-to-mclf-1003702-hrm1500-live-from-mcmf-1000002-to-mcmf-1001631-hrm2500-from-mcmf-1001692-to-mcmf-1002081-hrm2500-from-mcnf-1000046-to-mcnf-1002691-hrm2500-live-from-mcpf-1000050-to-mcpf-1003289-hrm4000-live"
+   "ml:honda:from-mcjf-1000031-to-mcjf-1005100-hrm1000",
+   "ml:honda:from-mckf-1000010-to-mckf-1003129-hrm1500",
+   "ml:honda:from-mclf-1000011-to-mclf-1003702-hrm1500-live",
+   "ml:honda:from-mcmf-1000002-to-mcmf-1001631-hrm2500",
+   "ml:honda:from-mcmf-1001692-to-mcmf-1002081-hrm2500",
+   "ml:honda:from-mcnf-1000046-to-mcnf-1002691-hrm2500-live",
+   "ml:honda:from-mcpf-1000050-to-mcpf-1003289-hrm4000-live"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "857a0d7b65bc7454"
+  "enriquecido": true,
+  "hashContenido": "610223838838d235"
  },
  "slug": "cortacesped-honda-safety-gate-10091729"
 }

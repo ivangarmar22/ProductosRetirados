@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "0887961809596"
    ],
    "descripcion": "Conjunto de gimnasio de juguete para niños, que incluye una mancuerna de juguete, una mancuerna de juguete, una botella de bebida de juguete y una cinta para la cabeza.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "IE",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "62208d3af46ed7ff"
+  "enriquecido": true,
+  "hashContenido": "29800cea62620b81"
  },
  "slug": "juego-de-juguetes-fisher-price-safety-gate-10021408"
 }

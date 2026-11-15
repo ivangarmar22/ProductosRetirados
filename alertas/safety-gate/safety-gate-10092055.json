@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete giratorio de abeja de succión, tres piezas. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -58,7 +59,10 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c708e70469f5880a"
+  "enriquecido": true,
+  "hashContenido": "78b273047a5a1452"
  },
  "slug": "juguete-de-hiladora-spinner-toy-safety-gate-10092055"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-04"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -33,7 +33,13 @@
    ],
    "lotes": [
     {
-     "numero": "614034261447386616438"
+     "numero": "6140342"
+    },
+    {
+     "numero": "6144738"
+    },
+    {
+     "numero": "6616438"
     }
    ],
    "ean": [
@@ -42,7 +48,8 @@
     "5905909000234"
    ],
    "descripcion": "Cigarrillo electrónico desechable, 9000 PUFFS, con una concentración de nicotina de 20 mg/ml, un volumen de 15 ml y 600 mA.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +79,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,15 +118,17 @@
    "mm:aroma-king:blue-razz-lemonade",
    "mm:aroma-king:delicious-apple",
    "mm:aroma-king:juice-peach",
-   "ml:aroma-king:614034261447386616438"
+   "ml:aroma-king:6140342",
+   "ml:aroma-king:6144738",
+   "ml:aroma-king:6616438"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb4d93b84979dc86"
+  "enriquecido": true,
+  "hashContenido": "7da72cb338a0329c"
  },
  "slug": "cigarrillo-electronico-desechable-aroma-king-safety-gate-10091781"
 }

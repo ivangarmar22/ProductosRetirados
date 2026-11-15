@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0154"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.02.2021 - 24.11.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "20.02.2021 - 24.11.2023"
+   "fechasTexto": "20.02.2021 - 24.11.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03071/24",
-   "mm:nissan:e2-2007-46-0154"
+   "mm:nissan:e2-2007-46-0154",
+   "ml:nissan:20-02-2021-24-11-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "15a96905135bd882"
+  "enriquecido": true,
+  "hashContenido": "62480a66a9ffdb5c"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-nissan-safety-gate-10091790"
 }

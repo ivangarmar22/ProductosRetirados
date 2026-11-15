@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e6*2018/858*00001*02",
     "e6*2018/858*00001*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.12.2019 - 12.01.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Nombre del modelo (código del modelo): Highlander (AXUH78, GSU70, GSU75, TXUA70, TXUA75). Año modelo: 2020 a 2023.",
-   "fechasTexto": "06.12.2019 - 12.01.2024"
+   "fechasTexto": "06.12.2019 - 12.01.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,15 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FR",
+   "HU",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +96,16 @@
    "mm:toyota:e6-2018-858-00001-00",
    "mm:toyota:e6-2018-858-00001-01",
    "mm:toyota:e6-2018-858-00001-02",
-   "mm:toyota:e6-2018-858-00001-03"
+   "mm:toyota:e6-2018-858-00001-03",
+   "ml:toyota:06-12-2019-12-01-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7f3386381c86e3c3"
+  "enriquecido": true,
+  "hashContenido": "2827fb0f73a0097c"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10091843"
 }

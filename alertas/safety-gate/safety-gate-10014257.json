@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "17683VE 48/24"
+     "numero": "17683"
+    },
+    {
+     "numero": "VE 48/24"
     }
    ],
    "ean": [
     "4038732022034"
    ],
    "descripcion": "Doce tipos diferentes de pequeños juguetes blandos en forma de animales bebés, de aproximadamente 5,5 cm de largo, con un bucle colgante de 6 cm: pollito, cocodrilo, burro, oso, mono, tigre, perro, vaca, panda, cerdo, león e hipopótamo. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -101,15 +105,16 @@
    "ref:A12/02945/24",
    "ean:4038732022034",
    "mm:trendy:02203",
-   "ml:trendy:17683ve-48-24"
+   "ml:trendy:17683",
+   "ml:trendy:ve-48-24"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0f4bcc41fd43f2ae"
+  "enriquecido": true,
+  "hashContenido": "d58a83afa681c3cb"
  },
  "slug": "juguetes-blandos-trendy-safety-gate-10014257"
 }

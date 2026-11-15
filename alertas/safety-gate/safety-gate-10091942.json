@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "21223.138123.1"
+     "numero": "21223.1"
+    },
+    {
+     "numero": "38123.1"
     }
    ],
    "ean": [
     "8429007063085"
    ],
    "descripcion": "Producto químico de descamación de la piel.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco y verde que contiene viales."
   }
  ],
  "riesgo": {
@@ -87,15 +91,16 @@
   "claves": [
    "ref:A12/03121/24",
    "ean:8429007063085",
-   "ml:laviderm:21223-138123-1"
+   "ml:laviderm:21223-1",
+   "ml:laviderm:38123-1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f9ea25849be368c3"
+  "enriquecido": true,
+  "hashContenido": "d31eae4de62df974"
  },
  "slug": "producto-de-descamacion-de-la-piel-laviderm-safety-gate-10091942"
 }

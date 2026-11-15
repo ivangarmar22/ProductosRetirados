@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e1*2007/46*1797* (G3X)",
     "e1*2007/46*1988* (F34XM)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.12.2016 - 27.06.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "21.12.2016 - 27.06.2024"
+   "fechasTexto": "21.12.2016 - 27.06.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +107,16 @@
   "claves": [
    "ref:A12/02712/24",
    "mm:bmw:e1-2007-46-1797-g3x",
-   "mm:bmw:e1-2007-46-1988-f34xm"
+   "mm:bmw:e1-2007-46-1988-f34xm",
+   "ml:bmw:21-12-2016-27-06-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dc1145986be43475"
+  "enriquecido": true,
+  "hashContenido": "2967f8e24246aa2e"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10014333"
 }

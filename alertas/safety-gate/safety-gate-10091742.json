@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e1*2007/46*1935* (SYMWE)",
     "e1*2007/46*1953* (SYMVE)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.01.2024 - 06.08.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros.",
-   "fechasTexto": "08.01.2024 - 06.08.2024"
+   "fechasTexto": "08.01.2024 - 06.08.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "IE",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +96,16 @@
   "claves": [
    "ref:A12/03009/24",
    "mm:vw:e1-2007-46-1935-symwe",
-   "mm:vw:e1-2007-46-1953-symve"
+   "mm:vw:e1-2007-46-1953-symve",
+   "ml:vw:08-01-2024-06-08-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a4cb4a804c0d4b8d"
+  "enriquecido": true,
+  "hashContenido": "8606faaa0f78a80a"
  },
  "slug": "furgoneta-de-pasajeros-vw-safety-gate-10091742"
 }

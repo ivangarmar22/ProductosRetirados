@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "F2CLA",
-    "F2A",
-    "F2B",
-    "e1*2007/46*1912*22",
-    "e1*2007/46*1829*22",
-    "e1*2007/46*1909*25"
+    "F2CLA, F2A, F2B",
+    "e1*2007/46*1912*22, e1*2007/46*1829*22, e1*2007/46*1909*25"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.6.2024 - 18.7.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros con volante a la izquierda.",
-   "fechasTexto": "18.6.2024 - 18.7.2024"
+   "fechasTexto": "18.6.2024 - 18.7.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "GR",
+   "HU",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,20 +119,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02969/24",
-   "mm:mercedes-benz:f2cla",
-   "mm:mercedes-benz:f2a",
-   "mm:mercedes-benz:f2b",
-   "mm:mercedes-benz:e1-2007-46-1912-22",
-   "mm:mercedes-benz:e1-2007-46-1829-22",
-   "mm:mercedes-benz:e1-2007-46-1909-25"
+   "mm:mercedes-benz:f2cla-f2a-f2b",
+   "mm:mercedes-benz:e1-2007-46-1912-22-e1-2007-46-1829-22-e1-2007-46-1909-25",
+   "ml:mercedes-benz:18-6-2024-18-7-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e57e64967bb60113"
+  "enriquecido": true,
+  "hashContenido": "3c256f3387e7eff1"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10091694"
 }

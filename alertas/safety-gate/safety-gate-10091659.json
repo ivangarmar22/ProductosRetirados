@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e5*2007/46*1191*13",
     "e5*2007/46*1191*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "January 2024 - May 2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús",
-   "fechasTexto": "January 2024 - May 2024"
+   "fechasTexto": "January 2024 - May 2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,15 +84,16 @@
   "claves": [
    "ref:A12/02972/24",
    "mm:temsa:e5-2007-46-1191-13",
-   "mm:temsa:e5-2007-46-1191-14"
+   "mm:temsa:e5-2007-46-1191-14",
+   "ml:temsa:january-2024-may-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "322ec5eeb91cdb2f"
+  "enriquecido": true,
+  "hashContenido": "f06e7751d52f537a"
  },
  "slug": "autobus-temsa-safety-gate-10091659"
 }

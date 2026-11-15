@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,21 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "E2037: 2318"
+     "numero": "E2037: 2318, 2319 and 2322"
     },
     {
-     "numero": "2319 and 2322E20382: 2313"
-    },
-    {
-     "numero": "2316"
-    },
-    {
-     "numero": "2318 and 2319"
+     "numero": "E20382: 2313, 2316, 2318 and 2319"
     }
    ],
    "ean": [],
    "descripcion": "Banco de energía USB azul y azul oscuro. Carga eléctrica de 10400 mAh y 5200 mAh. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,7 +76,13 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "DK",
+   "PL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,18 +108,16 @@
    "ref:A12/03159/24",
    "mm:ikea:e2037-705-556-47",
    "mm:ikea:e20382-105-556-45",
-   "ml:ikea:e2037-2318",
-   "ml:ikea:2319-and-2322e20382-2313",
-   "ml:ikea:2316",
-   "ml:ikea:2318-and-2319"
+   "ml:ikea:e2037-2318-2319-and-2322",
+   "ml:ikea:e20382-2313-2316-2318-and-2319"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4dee2ca4ae849274"
+  "enriquecido": true,
+  "hashContenido": "e8963a23f48449cc"
  },
  "slug": "banco-de-energia-ikea-safety-gate-10091877"
 }

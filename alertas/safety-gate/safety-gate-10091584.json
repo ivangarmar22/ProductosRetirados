@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Haldex"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.03.2023 - 31.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo: Válvula de estacionamiento y derivación.",
-   "fechasTexto": "01.03.2023 - 31.12.2023"
+   "fechasTexto": "01.03.2023 - 31.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,15 +79,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/02831/24"
+   "ref:A12/02831/24",
+   "ml:haldex:01-03-2023-31-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ae7233de614ddf8f"
+  "enriquecido": true,
+  "hashContenido": "656820d0c942f16a"
  },
  "slug": "parte-del-vehiculo-valvula-de-estacionamiento-y-derivacion-haldex-safety-gate-10091584"
 }

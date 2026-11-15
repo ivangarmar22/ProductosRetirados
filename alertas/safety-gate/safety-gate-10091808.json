@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,51 +36,28 @@
    ],
    "lotes": [
     {
-     "numero": "Enriched Body Cream: 21L014Lite Lytic Tx: 21K001"
+     "numero": "Enriched Body Cream: 21L014"
     },
     {
-     "numero": "22D013"
+     "numero": "Lite Lytic Tx: 21K001, 22D013, 22E036, 22E037"
     },
     {
-     "numero": "22E036"
+     "numero": "Lytic Sport Tx: 21J085, 22A012, 22C048, 22I096"
     },
     {
-     "numero": "22E037Lytic Sport Tx: 21J085"
+     "numero": "Lytic Tx: 21J004, 22D015, 22F014, 22F062, 22H096"
     },
     {
-     "numero": "22A012"
+     "numero": "Purifying Spot Gel: 21I067, 21K067, 22G017, 22I090"
     },
     {
-     "numero": "22C048"
-    },
-    {
-     "numero": "22I096Lytic Tx: 21J004"
-    },
-    {
-     "numero": "22D015"
-    },
-    {
-     "numero": "22F014"
-    },
-    {
-     "numero": "22F062"
-    },
-    {
-     "numero": "22H096Purifying Spot Gel: 21I067"
-    },
-    {
-     "numero": "21K067"
-    },
-    {
-     "numero": "22G017"
-    },
-    {
-     "numero": "22I090Restorative Hand Cream: 21L102"
+     "numero": "Restorative Hand Cream: 21L102"
     }
    ],
    "ean": [],
    "descripcion": "Conjunto cosmético compuesto por loción limpiadora de poros (40 ml), loción de control de aceite (40 ml), crema de manos (75 g), crema corporal (230 g) y gel de manchas (10 ml).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tx lítico: Botella de plástico blanca / marrón Lite Lytic Tx: Botella de plástico blanca / marrón Lytic Sport Tx: Botella de plástico blanca / marrón Crema de manos restauradora: Botella de plástico gris Crema corporal enriquecida: Botella de plástico gris oscuro Spot Gel: Botella de plástico"
   }
  ],
  "riesgo": {
@@ -159,28 +136,20 @@
    "mm:epionce:lytic-tx-715454",
    "mm:epionce:purifying-spot-gel-715573",
    "mm:epionce:restorative-hand-cream-715693",
-   "ml:epionce:enriched-body-cream-21l014lite-lytic-tx-21k001",
-   "ml:epionce:22d013",
-   "ml:epionce:22e036",
-   "ml:epionce:22e037lytic-sport-tx-21j085",
-   "ml:epionce:22a012",
-   "ml:epionce:22c048",
-   "ml:epionce:22i096lytic-tx-21j004",
-   "ml:epionce:22d015",
-   "ml:epionce:22f014",
-   "ml:epionce:22f062",
-   "ml:epionce:22h096purifying-spot-gel-21i067",
-   "ml:epionce:21k067",
-   "ml:epionce:22g017",
-   "ml:epionce:22i090restorative-hand-cream-21l102"
+   "ml:epionce:enriched-body-cream-21l014",
+   "ml:epionce:lite-lytic-tx-21k001-22d013-22e036-22e037",
+   "ml:epionce:lytic-sport-tx-21j085-22a012-22c048-22i096",
+   "ml:epionce:lytic-tx-21j004-22d015-22f014-22f062-22h096",
+   "ml:epionce:purifying-spot-gel-21i067-21k067-22g017-22i090",
+   "ml:epionce:restorative-hand-cream-21l102"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64bf144d448e81b7"
+  "enriquecido": true,
+  "hashContenido": "ec12618f8100f299"
  },
  "slug": "conjunto-de-cosmeticos-epionce-safety-gate-10091808"
 }

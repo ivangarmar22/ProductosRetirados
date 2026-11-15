@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pistola de juguete de plástico.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de malla."
   }
  ],
  "riesgo": {
@@ -64,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "ES",
+   "FR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "57ae7c06669bcdd9"
+  "enriquecido": true,
+  "hashContenido": "c9a35064164dc984"
  },
  "slug": "juego-de-pistolas-de-juguete-tedi-safety-gate-10091778"
 }

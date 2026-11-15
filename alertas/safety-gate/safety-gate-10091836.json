@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-18"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -34,7 +34,8 @@
     "5904083360691"
    ],
    "descripcion": "Chaleco salvavidas / ayuda a la flotabilidad con corte recortado. Tiene una cremallera frontal, dos bolsillos delanteros, un bolsillo interior y un cierre de hebilla. Apretado en la cintura y los hombros.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f469058b2312fd65"
+  "enriquecido": true,
+  "hashContenido": "689fe77aa293896b"
  },
  "slug": "chaleco-salvavidas-aquarius-safety-gate-10091836"
 }

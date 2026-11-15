@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-24"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -35,7 +35,10 @@
    ],
    "lotes": [
     {
-     "numero": "HHP20240422150000HHP20240424100000"
+     "numero": "HHP20240422150000"
+    },
+    {
+     "numero": "HHP20240424100000"
     }
    ],
    "ean": [
@@ -48,7 +51,8 @@
     "6939625123785"
    ],
    "descripcion": "Cigarrillo electrónico desechable, con una capacidad de 2000 bocanadas y líquido aromatizado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico sellado en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -127,11 +131,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22e02fa367bb3669"
+  "enriquecido": true,
+  "hashContenido": "9a2024d25e13cf6a"
  },
  "slug": "cigarrillo-electronico-desechable-insta-bar-wt-20000-puffs-safety-gate-10091771"
 }

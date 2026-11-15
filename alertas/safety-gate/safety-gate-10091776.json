@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-05"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Hervidor eléctrico de plástico, 1,7 litros.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Croacia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9754dd880a920eae"
+  "enriquecido": true,
+  "hashContenido": "87021a52c3ce7718"
  },
  "slug": "hervidor-de-agua-electrico-tedi-safety-gate-10091776"
 }

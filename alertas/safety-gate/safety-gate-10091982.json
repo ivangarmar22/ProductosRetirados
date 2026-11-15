@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "McLaren"
    ],
    "modelos": [
-    "e5*2007/46*1205*01-*07 (MA3)",
-    "e5*KS18/858*00013*00 (MA3)"
+    "e5*2007/46*1205*01-*07 (MA3), e5*KS18/858*00013*00 (MA3)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "9.8.2019 - 6.6.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "9.8.2019 - 6.6.2023"
+   "fechasTexto": "9.8.2019 - 6.6.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03136/24",
-   "mm:mclaren:e5-2007-46-1205-01-07-ma3",
-   "mm:mclaren:e5-ks18-858-00013-00-ma3"
+   "mm:mclaren:e5-2007-46-1205-01-07-ma3-e5-ks18-858-00013-00-ma3",
+   "ml:mclaren:9-8-2019-6-6-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "63d85618537e680f"
+  "enriquecido": true,
+  "hashContenido": "12ea1a68ca9338ed"
  },
  "slug": "coche-de-pasajeros-mclaren-safety-gate-10091982"
 }

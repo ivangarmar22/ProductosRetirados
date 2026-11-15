@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-24"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -37,7 +37,10 @@
    ],
    "lotes": [
     {
-     "numero": ":PE240601PE240601"
+     "numero": ":PE240601"
+    },
+    {
+     "numero": "PE240601"
     }
    ],
    "ean": [
@@ -52,7 +55,8 @@
     "6976243122912"
    ],
    "descripcion": "Cigarrillo electrónico desechable con líquido aromatizado. Fecha de fabricación 30/06/2024, fecha de caducidad 30/06/2025.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico sellado en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -141,11 +145,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8c9f0496f31e5059"
+  "enriquecido": true,
+  "hashContenido": "574d72346f933654"
  },
  "slug": "cigarrillo-electronico-desechable-rendm-torando-20000-safety-gate-10091664"
 }
