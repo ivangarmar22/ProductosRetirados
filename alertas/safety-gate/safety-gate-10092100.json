@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-17"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "2000010534982"
    ],
    "descripcion": "Muñeca de sirena.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de plástico y espalda de cartón de colores."
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "255537e388c5e20f"
+  "enriquecido": true,
+  "hashContenido": "26885664f506202c"
  },
  "slug": "muneca-woolworth-safety-gate-10092100"
 }

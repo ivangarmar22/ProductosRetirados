@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "2023031CH285"
+     "numero": "2023031"
+    },
+    {
+     "numero": "CH285"
     }
    ],
    "ean": [
     "5907569188956"
    ],
    "descripcion": "Eau de parfum, destinado a hombres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -98,15 +102,16 @@
   "claves": [
    "ref:A12/03400/24",
    "ean:5907569188956",
-   "ml:chatler:2023031ch285"
+   "ml:chatler:2023031",
+   "ml:chatler:ch285"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "98169c56436a9b70"
+  "enriquecido": true,
+  "hashContenido": "eadb506653869164"
  },
  "slug": "perfume-chatler-safety-gate-10092160"
 }

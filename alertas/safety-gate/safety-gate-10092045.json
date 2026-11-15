@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -41,7 +41,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Coche de pasajeros. Modelo (tipo, chasis): S60 (224, 0030077 > 0081026), V60 (225, 0349448 > 0416028), S90 (234, 0078061 > 0097025), V90 (235, 0124795 > 0160056), V90cc (236, 0131020), S90L (238, 0147548 > 0197403), XC60 (246, 0045830 > 0670020), XC90 (256, 0534257 > 0670018). Año modelo: 2020 - 2021.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +72,18 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8e0e9ece2d8f0181"
+  "enriquecido": true,
+  "hashContenido": "37ef9862503e45f9"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10092045"
 }

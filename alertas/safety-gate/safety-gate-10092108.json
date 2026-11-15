@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-04"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,12 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "D1L19D1L21D1L22"
+     "numero": "D1L19"
+    },
+    {
+     "numero": "D1L21"
+    },
+    {
+     "numero": "D1L22"
     }
    ],
    "ean": [],
    "descripcion": "Pintura de dedos en tres colores: azul, amarillo y rojo. Producto vendido en línea, en particular a través de Aliexpress (identificador único: 1005006702056913).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -90,15 +97,17 @@
   "claves": [
    "ref:A12/03322/24",
    "mm:crayola:55-1310",
-   "ml:crayola:d1l19d1l21d1l22"
+   "ml:crayola:d1l19",
+   "ml:crayola:d1l21",
+   "ml:crayola:d1l22"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7361134a266991ae"
+  "enriquecido": true,
+  "hashContenido": "918965f8554f5127"
  },
  "slug": "pintura-de-dedos-crayola-safety-gate-10092108"
 }

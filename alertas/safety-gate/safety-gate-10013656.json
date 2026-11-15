@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-25"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "31050F0354"
+     "numero": "31050"
+    },
+    {
+     "numero": "F0354"
     }
    ],
    "ean": [
     "8018365310506"
    ],
    "descripcion": "Eau de parfum, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella en un recipiente de lata."
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
    "ref:A12/03320/24",
    "ean:8018365310506",
    "mm:versace:baby-rose-jeans",
-   "ml:versace:31050f0354"
+   "ml:versace:31050",
+   "ml:versace:f0354"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "814fd0d27f48d078"
+  "enriquecido": true,
+  "hashContenido": "1e16bfb1c8a9ec2d"
  },
  "slug": "perfume-versace-safety-gate-10013656"
 }

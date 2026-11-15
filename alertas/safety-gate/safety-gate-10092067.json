@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-27"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -40,9 +40,12 @@
     "WATERMELON BUBBLE GUM"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "6976793395484"
+   ],
    "descripcion": "Cigarrillo electrónico desechable, con una capacidad de 25000 bocanadas y líquido aromatizado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico sellado en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -94,15 +97,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/03260/24"
+   "ref:A12/03260/24",
+   "ean:6976793395484"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dc671f3117649a64"
+  "enriquecido": true,
+  "hashContenido": "2b560b9ff650d3cb"
  },
  "slug": "cigarrillo-electronico-desechable-rendm-tornado-safety-gate-10092067"
 }

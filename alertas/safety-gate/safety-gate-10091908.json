@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -35,10 +35,15 @@
     "e3*2018/858*00061*07*00 (MHEV and PHEV)",
     "e3*2018/858*00061*09*00 (MHEV)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.07.2023 - 24.09.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "20.07.2023 - 24.09.2024"
+   "fechasTexto": "20.07.2023 - 24.09.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +73,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +107,16 @@
    "mm:alfa-romeo:e3-2018-858-00061-05-00-phev",
    "mm:alfa-romeo:e3-2018-858-00061-06-00-mhev-and-phev",
    "mm:alfa-romeo:e3-2018-858-00061-07-00-mhev-and-phev",
-   "mm:alfa-romeo:e3-2018-858-00061-09-00-mhev"
+   "mm:alfa-romeo:e3-2018-858-00061-09-00-mhev",
+   "ml:alfa-romeo:20-07-2023-24-09-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "622cea36a72e9487"
+  "enriquecido": true,
+  "hashContenido": "61131e169a16577c"
  },
  "slug": "coche-de-pasajeros-alfa-romeo-safety-gate-10091908"
 }

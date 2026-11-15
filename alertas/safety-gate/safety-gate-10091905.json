@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -38,10 +38,21 @@
     "e3*2007/46*0508*20*00 (Compass MHEV and PHEV)",
     "e3*2007/46*0508*21*00 (Compass MHEV and PHEV)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.07.23 - 25.09.2024 (Renegade PHEV)"
+    },
+    {
+     "numero": "20.07.23 - 30.09.2024 (Compass MHEV and PHEV)"
+    },
+    {
+     "numero": "20.07.23 - 30.09.2024 (Renegade MHEV)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "20.07.23 - 25.09.2024 (Renegade PHEV)20.07.23 - 30.09.2024 (Compass MHEV and PHEV)20.07.23 - 30.09.2024 (Renegade MHEV)"
+   "fechasTexto": "20.07.23 - 25.09.2024 (Renegade PHEV)20.07.23 - 30.09.2024 (Compass MHEV and PHEV)20.07.23 - 30.09.2024 (Renegade MHEV)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +82,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "GR",
+   "HR",
+   "LU",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,15 +121,18 @@
    "mm:jeep:e3-2007-46-0508-18-00-compass-mhev-and-phev",
    "mm:jeep:e3-2007-46-0508-19-00-compass-mhev-and-phev",
    "mm:jeep:e3-2007-46-0508-20-00-compass-mhev-and-phev",
-   "mm:jeep:e3-2007-46-0508-21-00-compass-mhev-and-phev"
+   "mm:jeep:e3-2007-46-0508-21-00-compass-mhev-and-phev",
+   "ml:jeep:20-07-23-25-09-2024-renegade-phev",
+   "ml:jeep:20-07-23-30-09-2024-compass-mhev-and-phev",
+   "ml:jeep:20-07-23-30-09-2024-renegade-mhev"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32998e5b201aeb17"
+  "enriquecido": true,
+  "hashContenido": "ab92ffe8be49ac11"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10091905"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e5*2018/858*00042*00",
     "e5*2018/858*00042*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.10.2022 - 08.02.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.10.2022 - 08.02.2023"
+   "fechasTexto": "12.10.2022 - 08.02.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,17 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FR",
+   "HU",
+   "IE",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +96,16 @@
    "ref:A12/03161/24",
    "mm:vw-volkswagen-ag:e11-16r-08-02-10011-00",
    "mm:vw-volkswagen-ag:e5-2018-858-00042-00",
-   "mm:vw-volkswagen-ag:e5-2018-858-00042-01"
+   "mm:vw-volkswagen-ag:e5-2018-858-00042-01",
+   "ml:vw-volkswagen-ag:12-10-2022-08-02-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4330a61eb52568d8"
+  "enriquecido": true,
+  "hashContenido": "3019ba078da6b8ac"
  },
  "slug": "coche-de-pasajeros-vw-volkswagen-ag-safety-gate-10092046"
 }

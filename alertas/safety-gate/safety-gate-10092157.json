@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "23l1424A03"
+     "numero": "23l14"
+    },
+    {
+     "numero": "24A03"
     }
    ],
    "ean": [
     "3760099700690"
    ],
    "descripcion": "Mascarilla facial.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalajes de plástico."
   }
  ],
  "riesgo": {
@@ -66,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +88,16 @@
   "claves": [
    "ref:A12/03427/24",
    "ean:3760099700690",
-   "ml:placentor-vegetal:23l1424a03"
+   "ml:placentor-vegetal:23l14",
+   "ml:placentor-vegetal:24a03"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c9d04e365e73e12d"
+  "enriquecido": true,
+  "hashContenido": "a6ce7eef4e0d1399"
  },
  "slug": "mascarilla-facial-placentor-vegetal-safety-gate-10092157"
 }

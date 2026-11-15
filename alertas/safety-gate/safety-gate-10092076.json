@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-31"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,14 +32,18 @@
    ],
    "lotes": [
     {
-     "numero": "122023314017"
+     "numero": "122023"
+    },
+    {
+     "numero": "314017"
     }
    ],
    "ean": [
     "5715404196000"
    ],
    "descripcion": "Columpio de bebé interior. Fabricado en 100% algodón y relleno de poliéster reciclado. Medidas 30 cm x 27 cm x 28 cm. Lotes lanzados en mayo de 2023 y febrero de 2024. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +73,12 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "Dinamarca",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "HR",
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,15 +101,16 @@
    "ean:5715404196000",
    "mm:konges-slojd:ks100424",
    "mm:konges-slojd:ks3383",
-   "ml:konges-slojd:122023314017"
+   "ml:konges-slojd:122023",
+   "ml:konges-slojd:314017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8ca7deaeac9732e4"
+  "enriquecido": true,
+  "hashContenido": "461b3b85ac72515b"
  },
  "slug": "swing-konges-slojd-safety-gate-10092076"
 }

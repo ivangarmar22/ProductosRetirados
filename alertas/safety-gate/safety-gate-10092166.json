@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*595/2009*2018/932D*18338*05",
     "e2*595/2009*2018/932D*18339*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09/2019 - 12/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "09/2019 - 12/2021"
+   "fechasTexto": "09/2019 - 12/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +89,16 @@
   "claves": [
    "ref:A12/03359/24",
    "mm:volvo-trucks-renault-trucks:e2-595-2009-2018-932d-18338-05",
-   "mm:volvo-trucks-renault-trucks:e2-595-2009-2018-932d-18339-03"
+   "mm:volvo-trucks-renault-trucks:e2-595-2009-2018-932d-18339-03",
+   "ml:volvo-trucks-renault-trucks:09-2019-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e047a1060b9d5aba"
+  "enriquecido": true,
+  "hashContenido": "946f6aef39ea7349"
  },
  "slug": "camion-volvo-trucks-renault-trucks-safety-gate-10092166"
 }

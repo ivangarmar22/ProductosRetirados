@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-26"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -32,7 +32,8 @@
     "3342540832695"
    ],
    "descripcion": "Dispositivo de protección contra caídas / anclaje para escalar - tornillo de hielo de 10 centímetros. Se trata de todos los lotes. Las versiones de tornillos de hielo de 13, 17 y 21 centímetros no se ven afectadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lámina de plástico y red de plástico naranja. Una cubierta de papel se adjunta a la hoja de plástico."
   }
  ],
  "riesgo": {
@@ -62,7 +63,11 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "SI",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f6209c19cbe13370"
+  "enriquecido": true,
+  "hashContenido": "b86328a9eb069ed0"
  },
  "slug": "anclaje-de-hielo-petzl-safety-gate-10014182"
 }

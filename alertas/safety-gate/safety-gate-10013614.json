@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-25"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "00J78AC241222"
+     "numero": "00J78AC2"
+    },
+    {
+     "numero": "41222"
     }
    ],
    "ean": [
     "8052086376717"
    ],
    "descripcion": "Eau de parfum destinado a mujeres, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
    "ref:A12/03313/24",
    "ean:8052086376717",
    "mm:salvatore-ferragamo:limited-edition",
-   "ml:salvatore-ferragamo:00j78ac241222"
+   "ml:salvatore-ferragamo:00j78ac2",
+   "ml:salvatore-ferragamo:41222"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1037ce16714572e3"
+  "enriquecido": true,
+  "hashContenido": "604e1749d928d3b3"
  },
  "slug": "perfume-salvatore-ferragamo-safety-gate-10013614"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "2307-1652308-1652406-165"
+     "numero": "2307-165"
+    },
+    {
+     "numero": "2308-165"
+    },
+    {
+     "numero": "2406-165"
     }
    ],
    "ean": [
     "5053249265476"
    ],
    "descripcion": "Loción limpiadora, 250ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanca con etiqueta blanca, verde y azul."
   }
  ],
  "riesgo": {
@@ -68,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +98,17 @@
    "ref:A12/03398/24",
    "ean:5053249265476",
    "mm:nuage:nua1165",
-   "ml:nuage:2307-1652308-1652406-165"
+   "ml:nuage:2307-165",
+   "ml:nuage:2308-165",
+   "ml:nuage:2406-165"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fd45f0ec36289496"
+  "enriquecido": true,
+  "hashContenido": "3d22560505899f11"
  },
  "slug": "limpiador-nuage-safety-gate-10092117"
 }

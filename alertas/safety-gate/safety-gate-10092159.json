@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "21L0522D01-3"
+     "numero": "21L05"
+    },
+    {
+     "numero": "22D01-3"
     }
    ],
    "ean": [
     "3760099700133"
    ],
    "descripcion": "Crema facial antienvejecimiento, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tarro de plástico."
   }
  ],
  "riesgo": {
@@ -66,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +88,16 @@
   "claves": [
    "ref:A12/03425/24",
    "ean:3760099700133",
-   "ml:placentor-vegetal:21l0522d01-3"
+   "ml:placentor-vegetal:21l05",
+   "ml:placentor-vegetal:22d01-3"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d1d6e050b716570f"
+  "enriquecido": true,
+  "hashContenido": "0f861fbde6c360e1"
  },
  "slug": "crema-facial-placentor-vegetal-safety-gate-10092159"
 }

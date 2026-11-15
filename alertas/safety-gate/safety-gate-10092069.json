@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-23"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "4040849620621"
    ],
    "descripcion": "Ventilador de sobremesa de 20 cm, plata mate. Protector de ventilador marcado \"goobay\". Cable USB/DC negro de 12 m. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco y verde."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "af34c40509b1215f"
+  "enriquecido": true,
+  "hashContenido": "c78d15a46e8a61fc"
  },
  "slug": "ventilador-goobay-safety-gate-10092069"
 }

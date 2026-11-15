@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,15 @@
     "e3*2007/46*0508*18",
     "e3*2007/46*0508*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.11.2021 - 07.05.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros eléctrico híbrido enchufable.",
-   "fechasTexto": "09.11.2021 - 07.05.2024"
+   "fechasTexto": "09.11.2021 - 07.05.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +72,21 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IS",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +110,16 @@
    "mm:jeep:e3-2007-46-0508-12",
    "mm:jeep:e3-2007-46-0508-14",
    "mm:jeep:e3-2007-46-0508-18",
-   "mm:jeep:e3-2007-46-0508-20"
+   "mm:jeep:e3-2007-46-0508-20",
+   "ml:jeep:09-11-2021-07-05-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "69870db609039ad6"
+  "enriquecido": true,
+  "hashContenido": "f637972d3d0e881f"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10049191"
 }

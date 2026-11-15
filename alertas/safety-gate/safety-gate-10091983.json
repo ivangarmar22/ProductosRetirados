@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Hyundai"
    ],
    "modelos": [
-    "e4*2001/116*0129*18",
-    "e4*2001/116*0129*20"
+    "e4*2001/116*0129*18; e4*2001/116*0129*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.05.2015 - 27.11.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero",
-   "fechasTexto": "08.05.2015 - 27.11.2020"
+   "fechasTexto": "08.05.2015 - 27.11.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "IE",
+   "LU",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,16 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03182/24",
-   "mm:hyundai:e4-2001-116-0129-18",
-   "mm:hyundai:e4-2001-116-0129-20"
+   "mm:hyundai:e4-2001-116-0129-18-e4-2001-116-0129-20",
+   "ml:hyundai:08-05-2015-27-11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3869d53456331d11"
+  "enriquecido": true,
+  "hashContenido": "b6efd97855b0c627"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-hyundai-safety-gate-10091983"
 }

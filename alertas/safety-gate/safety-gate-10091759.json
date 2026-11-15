@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,22 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0624*24",
-    "e2*2007/46*0624*25 (Rifter and Partner)",
+    "e2*2007/46*0624*24, e2*2007/46*0624*25 (Rifter and Partner)",
     "e2*2007/46*0625*26 to e2*2007/46*0625*28 (Rifter and Partner)",
     "e2*2007/46*0639*27 (2008 II)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.10.2023 - 15.11.2023 (2008 II)"
+    },
+    {
+     "numero": "11.09.2023 - 22.01.2024 (Rifter and Partner)"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "02.10.2023 - 15.11.2023 (2008 II)11.09.2023 - 22.01.2024 (Rifter and Partner)"
+   "fechasTexto": "02.10.2023 - 15.11.2023 (2008 II)11.09.2023 - 22.01.2024 (Rifter and Partner)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +72,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "HU",
+   "LU",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,18 +103,19 @@
  "dedup": {
   "claves": [
    "ref:A12/03179/24",
-   "mm:peugeot:e2-2007-46-0624-24",
-   "mm:peugeot:e2-2007-46-0624-25-rifter-and-partner",
+   "mm:peugeot:e2-2007-46-0624-24-e2-2007-46-0624-25-rifter-and-partner",
    "mm:peugeot:e2-2007-46-0625-26-to-e2-2007-46-0625-28-rifter-and-partner",
-   "mm:peugeot:e2-2007-46-0639-27-2008-ii"
+   "mm:peugeot:e2-2007-46-0639-27-2008-ii",
+   "ml:peugeot:02-10-2023-15-11-2023-2008-ii",
+   "ml:peugeot:11-09-2023-22-01-2024-rifter-and-partner"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a7e1cc34f2da9fa7"
+  "enriquecido": true,
+  "hashContenido": "e960f6391cb06f23"
  },
  "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10091759"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0014*51"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.05.2022 - 23.05.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Una furgoneta camper.",
-   "fechasTexto": "09.05.2022 - 23.05.2022"
+   "fechasTexto": "09.05.2022 - 23.05.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03199/24",
-   "mm:renault:e2-2007-46-0014-51"
+   "mm:renault:e2-2007-46-0014-51",
+   "ml:renault:09-05-2022-23-05-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5797ce93e3804582"
+  "enriquecido": true,
+  "hashContenido": "d4b809d8877a6848"
  },
  "slug": "furgoneta-autocaravana-renault-safety-gate-10091872"
 }

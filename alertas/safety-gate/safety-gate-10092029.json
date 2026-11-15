@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,15 +28,19 @@
    ],
    "modelos": [
     "V37 (Q50)",
-    "Y51 (Q70",
-    "M30)",
+    "Y51 (Q70, M30)",
     "e13*2007/46*1105",
     "e13*2007/46*1378"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.10.2009 - 19.05.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "15.10.2009 - 19.05.2022"
+   "fechasTexto": "15.10.2009 - 19.05.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,18 +86,18 @@
   "claves": [
    "ref:A12/03334/24",
    "mm:infiniti:v37-q50",
-   "mm:infiniti:y51-q70",
-   "mm:infiniti:m30",
+   "mm:infiniti:y51-q70-m30",
    "mm:infiniti:e13-2007-46-1105",
-   "mm:infiniti:e13-2007-46-1378"
+   "mm:infiniti:e13-2007-46-1378",
+   "ml:infiniti:15-10-2009-19-05-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "95bea81946831901"
+  "enriquecido": true,
+  "hashContenido": "e55d25ec27ec57f0"
  },
  "slug": "coche-de-pasajeros-infiniti-safety-gate-10092029"
 }

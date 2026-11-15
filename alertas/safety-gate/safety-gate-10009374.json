@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,7 +24,8 @@
   {
    "nombre": "Berlingo, C3, C3 aircross, C4, C4 cactus , C4 picasso DS3",
    "marcas": [
-    "CITROEN, DS"
+    "CITROEN",
+    "DS"
    ],
    "modelos": [
     "BERLINGO V3 (B9) : e2*2001/116*0366*30 e2*2001/116*0366*31",
@@ -35,10 +36,15 @@
     "C4 PICASSO (B78) : e2*2007/46*0356*14 e2*2007/46*0356*15 e2*2007/46*0356*16",
     "DS3 (A55/A56) :e2*2007/46*0003*48 e2*2007/46*0003*50"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07/02/2017 - 13/11/2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "07/02/2017 - 13/11/2019"
+   "fechasTexto": "07/02/2017 - 13/11/2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +74,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "HR",
+   "IE",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,21 +126,30 @@
  "dedup": {
   "claves": [
    "ref:A12/01048/24",
-   "mm:citroen-ds:berlingo-v3-b9-e2-2001-116-0366-30-e2-2001-116-0366-31",
-   "mm:citroen-ds:c3-aircross-v2-a88-e4-2007-46-1241-00-e4-2007-46-1241-01",
-   "mm:citroen-ds:c3-v4-b618-e2-2007-46-0000-00-e2-2007-46-0003-44-e2-2007-46-0003-46-e2-2007-46-0003-48-e2-2007-46-0003-49-e2-2007-46-0003-50",
-   "mm:citroen-ds:c4-cactus-e3-cube-e2-2007-46-0000-00-e2-2007-46-0440-07-e2-2007-46-0440-08-e2-2007-46-0440-09-e2-2007-46-0440-10-e2-2007-46-0440-12-e2-2007-46-0440-13",
-   "mm:citroen-ds:c4-v2-ds4-b7-e2-2007-46-0040-29-e2-2007-46-0079-17",
-   "mm:citroen-ds:c4-picasso-b78-e2-2007-46-0356-14-e2-2007-46-0356-15-e2-2007-46-0356-16",
-   "mm:citroen-ds:ds3-a55-a56-e2-2007-46-0003-48-e2-2007-46-0003-50"
+   "mm:citroen:berlingo-v3-b9-e2-2001-116-0366-30-e2-2001-116-0366-31",
+   "mm:citroen:c3-aircross-v2-a88-e4-2007-46-1241-00-e4-2007-46-1241-01",
+   "mm:citroen:c3-v4-b618-e2-2007-46-0000-00-e2-2007-46-0003-44-e2-2007-46-0003-46-e2-2007-46-0003-48-e2-2007-46-0003-49-e2-2007-46-0003-50",
+   "mm:citroen:c4-cactus-e3-cube-e2-2007-46-0000-00-e2-2007-46-0440-07-e2-2007-46-0440-08-e2-2007-46-0440-09-e2-2007-46-0440-10-e2-2007-46-0440-12-e2-2007-46-0440-13",
+   "mm:citroen:c4-v2-ds4-b7-e2-2007-46-0040-29-e2-2007-46-0079-17",
+   "mm:citroen:c4-picasso-b78-e2-2007-46-0356-14-e2-2007-46-0356-15-e2-2007-46-0356-16",
+   "mm:citroen:ds3-a55-a56-e2-2007-46-0003-48-e2-2007-46-0003-50",
+   "ml:citroen:07-02-2017-13-11-2019",
+   "mm:ds:berlingo-v3-b9-e2-2001-116-0366-30-e2-2001-116-0366-31",
+   "mm:ds:c3-aircross-v2-a88-e4-2007-46-1241-00-e4-2007-46-1241-01",
+   "mm:ds:c3-v4-b618-e2-2007-46-0000-00-e2-2007-46-0003-44-e2-2007-46-0003-46-e2-2007-46-0003-48-e2-2007-46-0003-49-e2-2007-46-0003-50",
+   "mm:ds:c4-cactus-e3-cube-e2-2007-46-0000-00-e2-2007-46-0440-07-e2-2007-46-0440-08-e2-2007-46-0440-09-e2-2007-46-0440-10-e2-2007-46-0440-12-e2-2007-46-0440-13",
+   "mm:ds:c4-v2-ds4-b7-e2-2007-46-0040-29-e2-2007-46-0079-17",
+   "mm:ds:c4-picasso-b78-e2-2007-46-0356-14-e2-2007-46-0356-15-e2-2007-46-0356-16",
+   "mm:ds:ds3-a55-a56-e2-2007-46-0003-48-e2-2007-46-0003-50",
+   "ml:ds:07-02-2017-13-11-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d0afb6f242c72f55"
+  "enriquecido": true,
+  "hashContenido": "d3c82338a3d6be22"
  },
  "slug": "coche-de-pasajeros-citroen-ds-safety-gate-10009374"
 }

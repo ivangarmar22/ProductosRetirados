@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-10"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -35,7 +35,8 @@
     "3596710517367"
    ],
    "descripcion": "Gel de ducha naranja, anunciado como exfoliante, 250 ml y 750 ml. Se trata de todos los lotes. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico transparente con tapa naranja. En la etiqueta naranja, una imagen de un albaricoque."
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ba9bc1c558a42970"
+  "enriquecido": true,
+  "hashContenido": "1f868dfee3fd2e73"
  },
  "slug": "gel-de-ducha-cosmia-safety-gate-10091868"
 }

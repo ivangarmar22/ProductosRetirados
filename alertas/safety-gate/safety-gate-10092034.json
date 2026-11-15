@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5060307678208"
    ],
    "descripcion": "Montar en un juguete eléctrico. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FR",
+   "NL",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "560d29c310013942"
+  "enriquecido": true,
+  "hashContenido": "204a069893352c57"
  },
  "slug": "juguete-de-paseo-spike-safety-gate-10092034"
 }
