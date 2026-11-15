@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-16"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -38,7 +38,8 @@
     "840058819700"
    ],
    "descripcion": "Tinta de tatuaje, 30 ml Producto vendido online.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico transparente con tapa transparente."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c6827cf970ccb9ad"
+  "enriquecido": true,
+  "hashContenido": "e55886e937e0e5e9"
  },
  "slug": "tinta-de-tatuaje-world-famous-tattoo-ink-safety-gate-10092332"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-31"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,7 +34,8 @@
     "843004109016"
    ],
    "descripcion": "Lápiz labial y sacapuntas. Producto vendido en línea, en particular a través de sephora.fr.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -65,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3d5f7c4e978caff5"
+  "enriquecido": true,
+  "hashContenido": "b17327d2ddcd21fd"
  },
  "slug": "delineador-de-labios-pat-mcgrath-labs-safety-gate-10092318"
 }

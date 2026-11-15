@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,14 +32,18 @@
    ],
    "lotes": [
     {
-     "numero": "5708 (30ml)7331 (70ml)"
+     "numero": "5708 (30ml)"
+    },
+    {
+     "numero": "7331 (70ml)"
     }
    ],
    "ean": [
     "8906008721010"
    ],
    "descripcion": "Conjunto compuesto por dos eaux de parfum, 70 ml y 30 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botellas de plástico en una caja de cartón con una ventana de plástico."
   }
  ],
  "riesgo": {
@@ -103,15 +107,16 @@
    "ean:8906008721010",
    "mm:star-nature:17200-70-ml",
    "mm:star-nature:19140-30-ml",
-   "ml:star-nature:5708-30ml-7331-70ml"
+   "ml:star-nature:5708-30ml",
+   "ml:star-nature:7331-70ml"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "91103fc7fe8a7a2a"
+  "enriquecido": true,
+  "hashContenido": "0da438680274d7c0"
  },
  "slug": "juego-de-perfumes-star-nature-safety-gate-10092185"
 }

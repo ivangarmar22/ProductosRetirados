@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,7 +24,8 @@
   {
    "nombre": "500",
    "marcas": [
-    "Abarth, Fiat"
+    "Abarth",
+    "Fiat"
    ],
    "modelos": [
     "e3*2018/858*00001*06*01 (Fiat)",
@@ -33,10 +34,18 @@
     "e3*2018/858*00001*09*00 (Fiat)",
     "e3*2018/858*00001*10*00 (Abarth)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.09.2021 - 10.11.2023 (Fiat)"
+    },
+    {
+     "numero": "24.01.2024 (Abarth)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "21.09.2021 - 10.11.2023 (Fiat)24.01.2024 (Abarth)"
+   "fechasTexto": "21.09.2021 - 10.11.2023 (Fiat)24.01.2024 (Abarth)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,19 +96,28 @@
  "dedup": {
   "claves": [
    "ref:A12/03461/24",
-   "mm:abarth-fiat:e3-2018-858-00001-06-01-fiat",
-   "mm:abarth-fiat:e3-2018-858-00001-07-00-fiat",
-   "mm:abarth-fiat:e3-2018-858-00001-08-00-fiat",
-   "mm:abarth-fiat:e3-2018-858-00001-09-00-fiat",
-   "mm:abarth-fiat:e3-2018-858-00001-10-00-abarth"
+   "mm:abarth:e3-2018-858-00001-06-01-fiat",
+   "mm:abarth:e3-2018-858-00001-07-00-fiat",
+   "mm:abarth:e3-2018-858-00001-08-00-fiat",
+   "mm:abarth:e3-2018-858-00001-09-00-fiat",
+   "mm:abarth:e3-2018-858-00001-10-00-abarth",
+   "ml:abarth:21-09-2021-10-11-2023-fiat",
+   "ml:abarth:24-01-2024-abarth",
+   "mm:fiat:e3-2018-858-00001-06-01-fiat",
+   "mm:fiat:e3-2018-858-00001-07-00-fiat",
+   "mm:fiat:e3-2018-858-00001-08-00-fiat",
+   "mm:fiat:e3-2018-858-00001-09-00-fiat",
+   "mm:fiat:e3-2018-858-00001-10-00-abarth",
+   "ml:fiat:21-09-2021-10-11-2023-fiat",
+   "ml:fiat:24-01-2024-abarth"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6e0bb40be5a2ffed"
+  "enriquecido": true,
+  "hashContenido": "2c01e0c37702235e"
  },
  "slug": "coche-de-pasajeros-abarth-fiat-safety-gate-10092002"
 }

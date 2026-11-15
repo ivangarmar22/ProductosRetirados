@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "080920300526028260THP12"
+     "numero": "0809203005"
+    },
+    {
+     "numero": "26028260THP12"
     }
    ],
    "ean": [
     "4015100401752"
    ],
    "descripcion": "Gel capilar, 150 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo de plástico negro."
   }
  ],
  "riesgo": {
@@ -101,15 +105,16 @@
    "ref:A12/03567/24",
    "ean:4015100401752",
    "mm:taft-schwarzkopf-henkel:mega-stark-5",
-   "ml:taft-schwarzkopf-henkel:080920300526028260thp12"
+   "ml:taft-schwarzkopf-henkel:0809203005",
+   "ml:taft-schwarzkopf-henkel:26028260thp12"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b3477d080d164cf9"
+  "enriquecido": true,
+  "hashContenido": "932592d286772be2"
  },
  "slug": "gel-para-el-cabello-taft-schwarzkopf-henkel-safety-gate-10092427"
 }

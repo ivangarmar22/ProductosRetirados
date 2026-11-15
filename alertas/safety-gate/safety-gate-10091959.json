@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "BraunAbility Europe AB"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4/11/2021 - 29/05/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo para el coche (restricción de silla de ruedas).",
-   "fechasTexto": "4/11/2021 - 29/05/2023"
+   "fechasTexto": "4/11/2021 - 29/05/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,15 +88,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:SR/03707/24"
+   "ref:SR/03707/24",
+   "ml:braunability-europe-ab:4-11-2021-29-05-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4349b1c287775c44"
+  "enriquecido": true,
+  "hashContenido": "8e072904e8d643dc"
  },
  "slug": "sistema-de-retencion-para-sillas-de-ruedas-braunability-europe-ab-safety-gate-10091959"
 }

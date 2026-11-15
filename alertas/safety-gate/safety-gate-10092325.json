@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-31"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,7 +34,8 @@
     "5060332320301"
    ],
    "descripcion": "Lápiz de ojos. Producto vendido en línea, en particular a través de Sephora.fr",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "deeab8d877356d9c"
+  "enriquecido": true,
+  "hashContenido": "e38fe99095e0675b"
  },
  "slug": "delineador-de-ojos-charlotte-tilbury-safety-gate-10092325"
 }

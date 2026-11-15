@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-10"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,13 @@
    ],
    "lotes": [
     {
-     "numero": "1917245A19247AY918301"
+     "numero": "1917245A"
+    },
+    {
+     "numero": "19247A"
+    },
+    {
+     "numero": "Y918301"
     }
    ],
    "ean": [
@@ -39,7 +45,8 @@
     "679602708937"
    ],
    "descripcion": "Conjunto compuesto por un eau de toilette y un gel de baño para el cabello y el cuerpo, de 40 ml y 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -107,15 +114,17 @@
    "ean:679602703611",
    "ean:679602708937",
    "mm:zippo:709361",
-   "ml:zippo:1917245a19247ay918301"
+   "ml:zippo:1917245a",
+   "ml:zippo:19247a",
+   "ml:zippo:y918301"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "77a2e2ef70269af5"
+  "enriquecido": true,
+  "hashContenido": "3a9fa5753f7abd7d"
  },
  "slug": "conjunto-de-cosmeticos-zippo-safety-gate-10030783"
 }

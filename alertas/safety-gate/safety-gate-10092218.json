@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-12"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -34,7 +34,8 @@
     "3665257049256"
    ],
    "descripcion": "La correa puede fallar bajo cargas por debajo de su capacidad máxima especificada de 350 daN. Esto puede aumentar el riesgo de un accidente.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d4d184c85ef46d2e"
+  "enriquecido": true,
+  "hashContenido": "46575ae436792a1b"
  },
  "slug": "correa-de-trinquete-auchan-safety-gate-10092218"
 }

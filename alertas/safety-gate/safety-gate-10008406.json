@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,20 +27,18 @@
     "Audi"
    ],
    "modelos": [
-    "8E",
-    "8H",
-    "QB6",
-    "4F",
-    "e1*2001/116*0151*",
-    "e1*2001/116*0177*",
-    "e1*2001/116*0243*",
-    "e1*2001/116*0254*",
-    "e1*2001/116*0276*"
+    "8E, 8H, QB6, 4F",
+    "e1*2001/116*0151*, e1*2001/116*0177*, e1*2001/116*0243*, e1*2001/116*0254*, e1*2001/116*0276*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.05.2003 - 29.09.2011"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con airbag Takata.",
-   "fechasTexto": "12.05.2003 - 29.09.2011"
+   "fechasTexto": "12.05.2003 - 29.09.2011",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +69,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "EE",
+   "FI",
+   "IE",
+   "NO",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,20 +87,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00788/23",
-   "mm:audi:qb6",
-   "mm:audi:e1-2001-116-0151",
-   "mm:audi:e1-2001-116-0177",
-   "mm:audi:e1-2001-116-0243",
-   "mm:audi:e1-2001-116-0254",
-   "mm:audi:e1-2001-116-0276"
+   "mm:audi:8e-8h-qb6-4f",
+   "mm:audi:e1-2001-116-0151-e1-2001-116-0177-e1-2001-116-0243-e1-2001-116-0254-e1-2001-116-0276",
+   "ml:audi:12-05-2003-29-09-2011"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "66dd1d7559869aba"
+  "enriquecido": true,
+  "hashContenido": "6e920446fead37d9"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10008406"
 }

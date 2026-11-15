@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-17"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Cargador USB",
    "marcas": [
-    "Hongyu, Rong Shi"
+    "Hongyu",
+    "Rong Shi"
    ],
    "modelos": [
     "RS-010"
@@ -34,7 +35,8 @@
     "6900180802804"
    ],
    "descripcion": "Cargador USB con cubierta de plástico blanco y dos enchufes USB-A.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -108,15 +110,16 @@
   "claves": [
    "ref:A11/00167/24",
    "ean:6900180802804",
-   "mm:hongyu-rong-shi:rs-010"
+   "mm:hongyu:rs-010",
+   "mm:rong-shi:rs-010"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bbe90fcc40d2277b"
+  "enriquecido": true,
+  "hashContenido": "8d17c7765c9d82d3"
  },
  "slug": "cargador-usb-hongyu-rong-shi-safety-gate-10092417"
 }

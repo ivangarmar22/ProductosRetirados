@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e2*2007/46*0533*27",
     "e2*2007/46*0533*28"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.08.2024 - 08.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "28.08.2024 - 08.10.2024"
+   "fechasTexto": "28.08.2024 - 08.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "IE",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +102,16 @@
    "mm:opel:e2-2007-46-0532-21",
    "mm:opel:e2-2007-46-0533-26",
    "mm:opel:e2-2007-46-0533-27",
-   "mm:opel:e2-2007-46-0533-28"
+   "mm:opel:e2-2007-46-0533-28",
+   "ml:opel:28-08-2024-08-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cfca9ab87550d067"
+  "enriquecido": true,
+  "hashContenido": "66e5ae1404c18dff"
  },
  "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-opel-safety-gate-10092303"
 }

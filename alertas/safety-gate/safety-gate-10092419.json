@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e13*KS18/858*00015*03 (992M)",
     "e13*KS18/858*00016*02 (982R)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.09.2023 - 23.10.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "13.09.2023 - 23.10.2024"
+   "fechasTexto": "13.09.2023 - 23.10.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,15 +118,16 @@
    "mm:porsche:e13-2018-858-00425-01-ya",
    "mm:porsche:e13-ks07-46-1634-01-982g",
    "mm:porsche:e13-ks18-858-00015-03-992m",
-   "mm:porsche:e13-ks18-858-00016-02-982r"
+   "mm:porsche:e13-ks18-858-00016-02-982r",
+   "ml:porsche:13-09-2023-23-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "90bb7ff243a4ad39"
+  "enriquecido": true,
+  "hashContenido": "c8b3330d6f3ab22f"
  },
  "slug": "coche-de-pasajeros-porsche-safety-gate-10092419"
 }

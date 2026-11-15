@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -56,10 +56,36 @@
     "from e4*2007/46*0537*04 to e4*2007/46*0537*21",
     "from e50*2001/116*0007*01 to e50*2001/116*0007*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.01.2005 - 11.06.2014 (Astra H)"
+    },
+    {
+     "numero": "04.07.2003 - 10.10.2008 (Vectra C)"
+    },
+    {
+     "numero": "05.02.2009 - 24.03.2017 (Meriva B)"
+    },
+    {
+     "numero": "08.05.2012 - 22.08.2018 (Cascada A)"
+    },
+    {
+     "numero": "15.12.2011 - 06.06.2018 (Mokka A)"
+    },
+    {
+     "numero": "16.02.2005 - 19.06.2008 (Signum A)"
+    },
+    {
+     "numero": "24.02.2009 - 23.08.2018 (Astra J)"
+    },
+    {
+     "numero": "25.02.2011 - 26.07.2016 (Zafira C)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coches de pasajeros.",
-   "fechasTexto": "03.01.2005 - 11.06.2014 (Astra H)04.07.2003 - 10.10.2008 (Vectra C)05.02.2009 - 24.03.2017 (Meriva B)08.05.2012 - 22.08.2018 (Cascada A)15.12.2011 - 06.06.2018 (Mokka A)16.02.2005 - 19.06.2008 (Signum A) 24.02.2009 - 23.08.2018 (Astra J)25.02.2011 - 26.07.2016 (Zafira C)"
+   "fechasTexto": "03.01.2005 - 11.06.2014 (Astra H)04.07.2003 - 10.10.2008 (Vectra C)05.02.2009 - 24.03.2017 (Meriva B)08.05.2012 - 22.08.2018 (Cascada A)15.12.2011 - 06.06.2018 (Mokka A)16.02.2005 - 19.06.2008 (Signum A) 24.02.2009 - 23.08.2018 (Astra J)25.02.2011 - 26.07.2016 (Zafira C)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -90,7 +116,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "HU",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -160,15 +195,23 @@
    "mm:opel-vauxhall:from-e4-2007-46-0309-01-to-e4-2007-46-0309-06",
    "mm:opel-vauxhall:from-e4-2007-46-0537-00-to-e4-2007-46-0537-02",
    "mm:opel-vauxhall:from-e4-2007-46-0537-04-to-e4-2007-46-0537-21",
-   "mm:opel-vauxhall:from-e50-2001-116-0007-01-to-e50-2001-116-0007-05"
+   "mm:opel-vauxhall:from-e50-2001-116-0007-01-to-e50-2001-116-0007-05",
+   "ml:opel-vauxhall:03-01-2005-11-06-2014-astra-h",
+   "ml:opel-vauxhall:04-07-2003-10-10-2008-vectra-c",
+   "ml:opel-vauxhall:05-02-2009-24-03-2017-meriva-b",
+   "ml:opel-vauxhall:08-05-2012-22-08-2018-cascada-a",
+   "ml:opel-vauxhall:15-12-2011-06-06-2018-mokka-a",
+   "ml:opel-vauxhall:16-02-2005-19-06-2008-signum-a",
+   "ml:opel-vauxhall:24-02-2009-23-08-2018-astra-j",
+   "ml:opel-vauxhall:25-02-2011-26-07-2016-zafira-c"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6bdb8b9d0f2204e5"
+  "enriquecido": true,
+  "hashContenido": "ca6a52398c619964"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10013405"
 }

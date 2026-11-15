@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
     "8059385002620"
    ],
    "descripcion": "Lápiz de ojos. Producto vendido en línea, en particular a través de Zalando.be.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f5abb23f10e7968"
+  "enriquecido": true,
+  "hashContenido": "84978d36e2641cb9"
  },
  "slug": "lapiz-de-ojos-kiko-safety-gate-10092364"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-24"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "0200030569151"
    ],
    "descripcion": "Cinta para la cabeza de elegante vestido con luz de cuerda y velo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,15 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "Dinamarca",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "EE",
+   "FR",
+   "IE",
+   "PL",
+   "PT",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "85af64be764d3d1f"
+  "enriquecido": true,
+  "hashContenido": "3127561cba2b506e"
  },
  "slug": "cinta-para-el-cabello-de-lujo-flying-tiger-copenhagen-safety-gate-10092273"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2007/46*1047*08 (DC)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.09.2023 - 17.01.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coches de pasajeros.",
-   "fechasTexto": "19.09.2023 - 17.01.2024"
+   "fechasTexto": "19.09.2023 - 17.01.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01915/24",
-   "mm:jaguar:e5-2007-46-1047-08-dc"
+   "mm:jaguar:e5-2007-46-1047-08-dc",
+   "ml:jaguar:19-09-2023-17-01-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "132b49d5c43e5869"
+  "enriquecido": true,
+  "hashContenido": "a32480e98398157c"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10013816"
 }

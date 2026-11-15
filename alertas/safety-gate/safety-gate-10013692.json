@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "036110 5126310 1"
+     "numero": "036110 5"
+    },
+    {
+     "numero": "126310 1"
     }
    ],
    "ean": [
     "8011889092064"
    ],
    "descripcion": "Gel de ducha, 400 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -89,15 +93,16 @@
    "ref:A12/03532/24",
    "ean:8011889092064",
    "mm:roccobarocco:9206",
-   "ml:roccobarocco:036110-5126310-1"
+   "ml:roccobarocco:036110-5",
+   "ml:roccobarocco:126310-1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "143b21fb918efd1a"
+  "enriquecido": true,
+  "hashContenido": "7fef61f690abdb2e"
  },
  "slug": "gel-de-ducha-roccobarocco-safety-gate-10013692"
 }

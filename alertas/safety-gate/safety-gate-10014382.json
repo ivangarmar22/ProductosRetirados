@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-11"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "72427266601401"
+     "numero": "7242"
+    },
+    {
+     "numero": "7266601401"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "737052137070"
    ],
    "descripcion": "Set de regalo compuesto por un eau de parfum (50 ml), una loción corporal (200 ml) y un gel de ducha (100 ml).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -99,15 +103,16 @@
    "ean:737052039480",
    "ean:737052137070",
    "mm:valentino:81080124",
-   "ml:valentino:72427266601401"
+   "ml:valentino:7242",
+   "ml:valentino:7266601401"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7af5cca295f58961"
+  "enriquecido": true,
+  "hashContenido": "49048dfc04194a7f"
  },
  "slug": "conjunto-de-cosmeticos-valentino-safety-gate-10014382"
 }

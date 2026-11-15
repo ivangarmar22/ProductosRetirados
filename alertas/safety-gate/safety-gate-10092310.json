@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-08"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "2200160714160"
    ],
    "descripcion": "Conjunto de sellos de juguete, 26 piezas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana de plástico."
   }
  ],
  "riesgo": {
@@ -72,7 +73,12 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8541ad0a3d4f1083"
+  "enriquecido": true,
+  "hashContenido": "9fb1f2b1188392d0"
  },
  "slug": "sellos-de-juguete-pepco-safety-gate-10092310"
 }

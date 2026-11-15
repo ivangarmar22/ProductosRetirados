@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-16"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Fast charger",
    "marcas": [
-    "KeKe, XinHua Electronics"
+    "KeKe",
+    "XinHua Electronics"
    ],
    "modelos": [
     "932",
@@ -35,7 +36,8 @@
     "6902022111839"
    ],
    "descripcion": "Cargador USB con cubierta de plástico blanco, enchufe de red integrado, un USB-A y un enchufe USB-C.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blister y espalda de cartón."
   }
  ],
  "riesgo": {
@@ -105,16 +107,18 @@
   "claves": [
    "ref:A11/00163/24",
    "ean:6902022111839",
-   "mm:keke-xinhua-electronics:932",
-   "mm:keke-xinhua-electronics:pd001"
+   "mm:keke:932",
+   "mm:keke:pd001",
+   "mm:xinhua-electronics:932",
+   "mm:xinhua-electronics:pd001"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "47bb3c490dae67bf"
+  "enriquecido": true,
+  "hashContenido": "f94327f3074661bf"
  },
  "slug": "cargador-usb-keke-xinhua-electronics-safety-gate-10092415"
 }

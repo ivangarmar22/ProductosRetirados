@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Opel"
    ],
    "modelos": [
-    "MR",
-    "MT",
-    "MS",
-    "MU",
-    "e1*2007/46*0362*14-*20",
-    "* 22-*32",
-    "e1*2007/46*0405*06-*10",
-    "*12-*15",
-    "* 19-*20",
-    "e1*2007/46*0471*11-*18",
-    "*20-*28",
-    "e1*2007/46*0472*05-*07"
+    "MR, MT, MS, MU",
+    "e1*2007/46*0362*14-*20, * 22-*32, e1*2007/46*0405*06-*10, *12-*15, * 19-*20, e1*2007/46*0471*11-*18, *20-*28, e1*2007/46*0472*05-*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.5.2014 - 21.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero",
-   "fechasTexto": "25.5.2014 - 21.12.2021"
+   "fechasTexto": "25.5.2014 - 21.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,22 +107,17 @@
  "dedup": {
   "claves": [
    "ref:SR/03723/24",
-   "mm:opel:e1-2007-46-0362-14-20",
-   "mm:opel:22-32",
-   "mm:opel:e1-2007-46-0405-06-10",
-   "mm:opel:12-15",
-   "mm:opel:19-20",
-   "mm:opel:e1-2007-46-0471-11-18",
-   "mm:opel:20-28",
-   "mm:opel:e1-2007-46-0472-05-07"
+   "mm:opel:mr-mt-ms-mu",
+   "mm:opel:e1-2007-46-0362-14-20-22-32-e1-2007-46-0405-06-10-12-15-19-20-e1-2007-46-0471-11-18-20-28-e1-2007-46-0472-05-07",
+   "ml:opel:25-5-2014-21-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6d662937bfd50045"
+  "enriquecido": true,
+  "hashContenido": "20a0838ac3d69a92"
  },
  "slug": "vehiculo-comercial-ligero-opel-safety-gate-10092551"
 }

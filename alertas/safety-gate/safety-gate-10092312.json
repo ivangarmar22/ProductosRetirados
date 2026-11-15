@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -35,10 +35,15 @@
     "e6*2007/46*0318*08",
     "e6*2007/46*0318*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.01.2023 - 05.11.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Nombre del modelo (código del modelo): Corolla (MZEH19, ZWE219). Año modelo: 2023 - 2024. Países de producción: Reino Unido y Turquía.",
-   "fechasTexto": "16.01.2023 - 05.11.2024"
+   "fechasTexto": "16.01.2023 - 05.11.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +73,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +114,16 @@
    "mm:toyota:e6-2007-46-0316-09",
    "mm:toyota:e6-2007-46-0318-07",
    "mm:toyota:e6-2007-46-0318-08",
-   "mm:toyota:e6-2007-46-0318-09"
+   "mm:toyota:e6-2007-46-0318-09",
+   "ml:toyota:16-01-2023-05-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3c728a108dddbe39"
+  "enriquecido": true,
+  "hashContenido": "ebb0de59ebe494c2"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10092312"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-12-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*2115*00 - *12 (R2S)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.06.2020 - 19.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros con motor de gasolina de 8 cilindros.",
-   "fechasTexto": "30.06.2020 - 19.09.2023"
+   "fechasTexto": "30.06.2020 - 19.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +98,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03598/24",
-   "mm:mercedes-benz:e1-2007-46-2115-00-12-r2s"
+   "mm:mercedes-benz:e1-2007-46-2115-00-12-r2s",
+   "ml:mercedes-benz:30-06-2020-19-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8166cb5a9ef7799c"
+  "enriquecido": true,
+  "hashContenido": "0ec04ec245908300"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10092360"
 }
