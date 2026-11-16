@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*1133*26",
-    "*27 (410 02)",
-    "e1*2007/46*1160*27",
-    "*28 (410 03)"
+    "e1*2007/46*1133*26,*27 (410 02), e1*2007/46*1160*27,*28 (410 03)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.12.2023 - 13.2.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús",
-   "fechasTexto": "12.12.2023 - 13.2.2024"
+   "fechasTexto": "12.12.2023 - 13.2.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02482/24",
-   "mm:mercedes-benz:e1-2007-46-1133-26",
-   "mm:mercedes-benz:27-410-02",
-   "mm:mercedes-benz:e1-2007-46-1160-27",
-   "mm:mercedes-benz:28-410-03"
+   "mm:mercedes-benz:e1-2007-46-1133-26-27-410-02-e1-2007-46-1160-27-28-410-03",
+   "ml:mercedes-benz:12-12-2023-13-2-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e22da5cf2bd027f0"
+  "enriquecido": true,
+  "hashContenido": "511919b5652b96a5"
  },
  "slug": "autobus-mercedes-benz-safety-gate-10014145"
 }

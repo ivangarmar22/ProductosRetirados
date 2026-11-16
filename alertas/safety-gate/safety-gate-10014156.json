@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,24 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "0038923193389352"
+     "numero": "0038"
+    },
+    {
+     "numero": "9231"
+    },
+    {
+     "numero": "9338"
+    },
+    {
+     "numero": "9352"
     }
    ],
    "ean": [
     "3412242030511"
    ],
    "descripcion": "Después del afeitado, 100ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio en una caja de cartón de colores."
   }
  ],
  "riesgo": {
@@ -106,15 +116,18 @@
   "claves": [
    "ref:A12/02540/24",
    "ean:3412242030511",
-   "ml:adidas:0038923193389352"
+   "ml:adidas:0038",
+   "ml:adidas:9231",
+   "ml:adidas:9338",
+   "ml:adidas:9352"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1865b0259be7134b"
+  "enriquecido": true,
+  "hashContenido": "aecd4ba5f6d41a2d"
  },
  "slug": "aftershave-adidas-safety-gate-10014156"
 }

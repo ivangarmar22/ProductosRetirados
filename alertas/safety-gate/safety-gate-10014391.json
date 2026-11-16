@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E13*26R03/04*8611*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.11.2020 - 01.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Portabicicletas para vehículos de motor.",
-   "fechasTexto": "01.11.2020 - 01.10.2021"
+   "fechasTexto": "01.11.2020 - 01.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02600/24",
-   "mm:busbiker:e13-26r03-04-8611-01"
+   "mm:busbiker:e13-26r03-04-8611-01",
+   "ml:busbiker:01-11-2020-01-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4ae46a9f0677bf89"
+  "enriquecido": true,
+  "hashContenido": "0952636dd7025a8b"
  },
  "slug": "portabicicletas-busbiker-safety-gate-10014391"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-22"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -37,9 +37,12 @@
     "51466917"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "505919724479"
+   ],
    "descripcion": "Conjunto de pantalones cortos & para niños con protección contra los rayos UV. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,6 +92,7 @@
  "dedup": {
   "claves": [
    "ref:INFO/00096/24",
+   "ean:505919724479",
    "mm:george:51466767",
    "mm:george:51466791",
    "mm:george:51466821",
@@ -100,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ebceb5f23644b6c5"
+  "enriquecido": true,
+  "hashContenido": "0b1307c2fc620958"
  },
  "slug": "conjunto-de-ropa-para-ninos-george-safety-gate-10014003"
 }

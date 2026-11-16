@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-23"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Tornillo de hormigón para uso en hormigón agrietado y no agrietado R-LX-06 de acuerdo con ETA-17/0806 de 29.06.2020 con profundidad de incrustación reducida (hef = 32 mm/hnom = 43 mm) y estándar.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -74,7 +75,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e6377b97788587ce"
+  "enriquecido": true,
+  "hashContenido": "0ced1045bc1371df"
  },
  "slug": "tornillo-de-hormigon-rawlplug-safety-gate-10007984"
 }

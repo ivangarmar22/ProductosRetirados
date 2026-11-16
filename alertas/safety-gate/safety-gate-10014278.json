@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-04"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0103802158"
+     "numero": "01038"
+    },
+    {
+     "numero": "02158"
     }
    ],
    "ean": [
     "5907813184475"
    ],
    "descripcion": "Mousse de color de pelo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor de metal rosa con una tapa de plástico en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -105,15 +109,16 @@
    "ref:A12/02552/24",
    "ean:5907813184475",
    "mm:wats-elysee:47-copper",
-   "ml:wats-elysee:0103802158"
+   "ml:wats-elysee:01038",
+   "ml:wats-elysee:02158"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "acaff9006f0f65f6"
+  "enriquecido": true,
+  "hashContenido": "62bbf805ef67778c"
  },
  "slug": "mousse-colorante-del-cabello-wats-elysee-safety-gate-10014278"
 }

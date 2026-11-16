@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-19"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -31,20 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "010248"
+     "numero": "010248; 120739"
     },
     {
-     "numero": "120739010248"
-    },
-    {
-     "numero": "120783"
+     "numero": "010248; 120783"
     }
    ],
    "ean": [
     "4049077806845"
    ],
    "descripcion": "Barra de ombligo curvada teñida de plata con un extremo esférico y un diamante decorativo 'flor' opuesto, con tres diamantes de imitación encadenados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Soporte de cartón impreso con ventana, dentro de un contenedor de plástico incoloro."
   }
  ],
  "riesgo": {
@@ -78,7 +76,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,17 +95,16 @@
    "ref:A12/02445/24",
    "ean:4049077806845",
    "mm:bijou-brigitte:e3-690-489-515",
-   "ml:bijou-brigitte:010248",
-   "ml:bijou-brigitte:120739010248",
-   "ml:bijou-brigitte:120783"
+   "ml:bijou-brigitte:010248-120739",
+   "ml:bijou-brigitte:010248-120783"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32bfc3be93564e0f"
+  "enriquecido": true,
+  "hashContenido": "eb2fefc9381fd1cc"
  },
  "slug": "perforacion-del-ombligo-bijou-brigitte-safety-gate-10014117"
 }

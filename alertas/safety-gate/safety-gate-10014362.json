@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje, 30 ml (1 fl. oz). Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico transparente con tapa negra."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2cdb567fee48dc88"
+  "enriquecido": true,
+  "hashContenido": "6fcffb95ff736814"
  },
  "slug": "tinta-de-tatuaje-dynamic-safety-gate-10014362"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "BMW Motorrad"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.06.2023 - 17.06.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Alforjas laterales de motocicleta. Modelo de la motocicleta: R 1300 GS.",
-   "fechasTexto": "07.06.2023 - 17.06.2024"
+   "fechasTexto": "07.06.2023 - 17.06.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +95,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/02538/24"
+   "ref:A12/02538/24",
+   "ml:bmw-motorrad:07-06-2023-17-06-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9c045ae6588498ab"
+  "enriquecido": true,
+  "hashContenido": "78c24b047d39f2f2"
  },
  "slug": "cajas-laterales-de-motocicleta-bmw-motorrad-safety-gate-10014253"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Coche de pasajeros. Año del modelo: 2021-2023.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,15 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HU",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "02c209baeea0f6e7"
+  "enriquecido": true,
+  "hashContenido": "e646fa81badd2938"
  },
  "slug": "coche-de-pasajeros-subaru-safety-gate-10014040"
 }

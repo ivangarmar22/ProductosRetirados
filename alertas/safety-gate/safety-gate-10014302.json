@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-18"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6974760350160"
    ],
    "descripcion": "Faro negro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de papel negra y naranja."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a3d78942d1799ee2"
+  "enriquecido": true,
+  "hashContenido": "7e3b51b062e8353a"
  },
  "slug": "lampara-de-cabeza-superfire-safety-gate-10014302"
 }

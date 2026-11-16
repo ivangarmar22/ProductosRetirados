@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-23"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Tornillo de hormigón anunciado como aprobado de acuerdo con ETA-17/0806 de 29.06.2020 para su uso en concreto agrietado y sin agrietar en condiciones internas secas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1b43d79f541005ae"
+  "enriquecido": true,
+  "hashContenido": "2f329c0f7362684f"
  },
  "slug": "tornillo-de-hormigon-rawlplug-safety-gate-10010572"
 }

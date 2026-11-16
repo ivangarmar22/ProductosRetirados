@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "BraunAbility Europe AB"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1/08/2023 - 31/08/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Asiento de coche giratorio y elevador.",
-   "fechasTexto": "1/08/2023 - 31/08/2023"
+   "fechasTexto": "1/08/2023 - 31/08/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +81,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/02441/24"
+   "ref:A12/02441/24",
+   "ml:braunability-europe-ab:1-08-2023-31-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "731a630eec9e6c84"
+  "enriquecido": true,
+  "hashContenido": "d730e3cabcefbcde"
  },
  "slug": "asiento-de-coche-giratorio-y-elevador-braunability-europe-ab-safety-gate-10014074"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-04"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "19-510124-B22-510825-C51002019-A"
+     "numero": "19-510124-B"
+    },
+    {
+     "numero": "22-510825-C"
+    },
+    {
+     "numero": "51002019-A"
     }
    ],
    "ean": [
     "5907709921511"
    ],
    "descripcion": "Eau de parfum,100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -98,15 +105,17 @@
   "claves": [
    "ref:A12/02493/24",
    "ean:5907709921511",
-   "ml:luxure-parfumes:19-510124-b22-510825-c51002019-a"
+   "ml:luxure-parfumes:19-510124-b",
+   "ml:luxure-parfumes:22-510825-c",
+   "ml:luxure-parfumes:51002019-a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c60cda13deb48348"
+  "enriquecido": true,
+  "hashContenido": "2dbeaefb05544024"
  },
  "slug": "perfume-luxure-parfumes-safety-gate-10014249"
 }

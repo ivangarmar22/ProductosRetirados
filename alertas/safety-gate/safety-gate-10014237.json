@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "BMW."
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2018 - 31.05.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "01.08.2018 - 31.05.2020"
+   "fechasTexto": "01.08.2018 - 31.05.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HR",
+   "HU",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,15 +122,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/02466/24"
+   "ref:A12/02466/24",
+   "ml:bmw:01-08-2018-31-05-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "658e2db48436ca28"
+  "enriquecido": true,
+  "hashContenido": "3387c5ddf23f9ee9"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10014237"
 }

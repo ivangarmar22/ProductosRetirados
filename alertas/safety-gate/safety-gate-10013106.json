@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-22"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -27,15 +27,15 @@
     "So cute"
    ],
    "modelos": [
-    "SCU34335802",
-    "style 343358"
+    "SCU34335802, style 343358"
    ],
    "lotes": [],
    "ean": [
     "2200234335864"
    ],
    "descripcion": "Frasco de plástico destinado a bebés, 150 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Se adjunta a la hoja de cartón."
   }
  ],
  "riesgo": {
@@ -65,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,16 +83,15 @@
   "claves": [
    "ref:A12/01286/24",
    "ean:2200234335864",
-   "mm:so-cute:scu34335802",
-   "mm:so-cute:style-343358"
+   "mm:so-cute:scu34335802-style-343358"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c9afaf1760dc0005"
+  "enriquecido": true,
+  "hashContenido": "367eb95511b28f26"
  },
  "slug": "botella-de-bebe-so-cute-safety-gate-10013106"
 }

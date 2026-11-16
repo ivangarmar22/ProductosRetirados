@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e1*2007/46*0301*28 (906BB35)",
     "e1*2007/46*1760*11 (KL3A4)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "11.12.2023"
+   "fechasTexto": "11.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,15 +86,16 @@
   "claves": [
    "ref:A12/02465/24",
    "mm:mercedes-benz:e1-2007-46-0301-28-906bb35",
-   "mm:mercedes-benz:e1-2007-46-1760-11-kl3a4"
+   "mm:mercedes-benz:e1-2007-46-1760-11-kl3a4",
+   "ml:mercedes-benz:11-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "20d2536505bacf9b"
+  "enriquecido": true,
+  "hashContenido": "92a1c1f32024d72a"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10014177"
 }

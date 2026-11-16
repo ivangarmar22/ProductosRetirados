@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,18 @@
    "modelos": [
     "e4*2007/46*1067*07 e4*2007/46*1067*08 e4*2007/46*1067*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "S90, V90, V90 Cross Country: 30/04/2018 - 23/08/2020"
+    },
+    {
+     "numero": "XC60, XC90: 13/11/2017 - 12/05/2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "S90, V90, V90 Cross Country: 30/04/2018 - 23/08/2020XC60, XC90: 13/11/2017 - 12/05/2019"
+   "fechasTexto": "S90, V90, V90 Cross Country: 30/04/2018 - 23/08/2020XC60, XC90: 13/11/2017 - 12/05/2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +105,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02342/24",
-   "mm:volvo:e4-2007-46-1067-07-e4-2007-46-1067-08-e4-2007-46-1067-09"
+   "mm:volvo:e4-2007-46-1067-07-e4-2007-46-1067-08-e4-2007-46-1067-09",
+   "ml:volvo:s90-v90-v90-cross-country-30-04-2018-23-08-2020",
+   "ml:volvo:xc60-xc90-13-11-2017-12-05-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "093d77e2b05198f5"
+  "enriquecido": true,
+  "hashContenido": "7be730e841b773fd"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10013849"
 }

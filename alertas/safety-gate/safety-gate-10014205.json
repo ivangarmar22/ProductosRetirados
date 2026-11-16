@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*0014*34 (633 04)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4/12/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús",
-   "fechasTexto": "4/12/2023"
+   "fechasTexto": "4/12/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02486/24",
-   "mm:setra:e1-2007-46-0014-34-633-04"
+   "mm:setra:e1-2007-46-0014-34-633-04",
+   "ml:setra:4-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d046df89d6661cbf"
+  "enriquecido": true,
+  "hashContenido": "109a67a572570d1f"
  },
  "slug": "autobus-setra-safety-gate-10014205"
 }

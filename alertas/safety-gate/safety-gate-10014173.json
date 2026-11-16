@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*167/2013*00333*04 (M25)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.7.2020 - 31.3.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor (vehículo agrícola y forestal)",
-   "fechasTexto": "1.7.2020 - 31.3.2022"
+   "fechasTexto": "1.7.2020 - 31.3.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +97,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02484/24",
-   "mm:kubota:e1-167-2013-00333-04-m25"
+   "mm:kubota:e1-167-2013-00333-04-m25",
+   "ml:kubota:1-7-2020-31-3-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fefa1d4aa7969fd7"
+  "enriquecido": true,
+  "hashContenido": "b671c1be1a02af9d"
  },
  "slug": "tractor-kubota-safety-gate-10014173"
 }

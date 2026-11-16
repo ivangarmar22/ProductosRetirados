@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete suave blanco y negro con ojos azules en forma de perro husky. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente."
   }
  ],
  "riesgo": {
@@ -69,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1074fad33a05a9bb"
+  "enriquecido": true,
+  "hashContenido": "771b8faf919dabdc"
  },
  "slug": "juguete-blando-mjcm-limited-safety-gate-10014323"
 }

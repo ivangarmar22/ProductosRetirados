@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-28"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -34,7 +34,8 @@
     "2200133671865"
    ],
    "descripcion": "Lámpara portátil con una base de gres, que incluye una pantalla de vidrio extraíble de una fuente de luz reemplazable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje,"
   }
  ],
  "riesgo": {
@@ -72,7 +73,12 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "HR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6f6d0f1e80ef49fc"
+  "enriquecido": true,
+  "hashContenido": "61a29345b3806b18"
  },
  "slug": "lampara-portatil-pepco-safety-gate-10014052"
 }

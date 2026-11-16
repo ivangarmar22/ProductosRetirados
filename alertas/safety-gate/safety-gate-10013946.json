@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e1*2001/116*0207*23-*29",
     "e1*2007/46*0272*11-*19"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.10.2016 - 13.06.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "02.10.2016 - 13.06.2019"
+   "fechasTexto": "02.10.2016 - 13.06.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +104,16 @@
    "mm:ford:pj2",
    "mm:ford:pu2",
    "mm:ford:e1-2001-116-0207-23-29",
-   "mm:ford:e1-2007-46-0272-11-19"
+   "mm:ford:e1-2007-46-0272-11-19",
+   "ml:ford:02-10-2016-13-06-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "173819433de52847"
+  "enriquecido": true,
+  "hashContenido": "ad37cf8df3437bee"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-ford-safety-gate-10013946"
 }

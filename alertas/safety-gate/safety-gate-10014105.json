@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-03-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e9*2018/858*11384*02 (GM)",
     "e9*2018/858*11385*02 (GN)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.10.2023 - 02.11.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "11.10.2023 - 02.11.2023"
+   "fechasTexto": "11.10.2023 - 02.11.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,15 +84,16 @@
   "claves": [
    "ref:A12/02447/24",
    "mm:ineos:e9-2018-858-11384-02-gm",
-   "mm:ineos:e9-2018-858-11385-02-gn"
+   "mm:ineos:e9-2018-858-11385-02-gn",
+   "ml:ineos:11-10-2023-02-11-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "10d99e020d9b7afc"
+  "enriquecido": true,
+  "hashContenido": "75680df9c4681e20"
  },
  "slug": "coche-de-pasajeros-ineos-safety-gate-10014105"
 }
