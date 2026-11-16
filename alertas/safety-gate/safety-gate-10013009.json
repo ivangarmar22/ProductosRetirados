@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Porsche"
    ],
    "modelos": [
-    "e13*2007/46*0992*00-*16 (992)",
-    "e13*KS07/46*1636*01-*02 (992G)",
-    "e13*KS18/858*00015*01-*03 (992M)",
-    "e13*KS07/46*1638*01 (992K)"
+    "e13*2007/46*0992*00-*16 (992), e13*KS07/46*1636*01-*02 (992G), e13*KS18/858*00015*01-*03 (992M), e13*KS07/46*1638*01 (992K)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.07.2020 - 21.02.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "09.07.2020 - 21.02.2024"
+   "fechasTexto": "09.07.2020 - 21.02.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01256/24",
-   "mm:porsche:e13-2007-46-0992-00-16-992",
-   "mm:porsche:e13-ks07-46-1636-01-02-992g",
-   "mm:porsche:e13-ks18-858-00015-01-03-992m",
-   "mm:porsche:e13-ks07-46-1638-01-992k"
+   "mm:porsche:e13-2007-46-0992-00-16-992-e13-ks07-46-1636-01-02-992g-e13-ks18-858-00015-01-03-992m-e13-ks07-46-1638-01-992k",
+   "ml:porsche:09-07-2020-21-02-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2d9fc5575ffb297a"
+  "enriquecido": true,
+  "hashContenido": "dda3f8c8b361d95b"
  },
  "slug": "coche-de-pasajeros-porsche-safety-gate-10013009"
 }

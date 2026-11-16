@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Goodyear"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.03.2024 - 24.03.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumáticos para automóviles. Número de modelo / DOT en el flanco del neumático: 1L1K8 JB1R / 1224, 1L1HA JC1R / 1224. Producto vendido en línea.",
-   "fechasTexto": "18.03.2024 - 24.03.2024"
+   "fechasTexto": "18.03.2024 - 24.03.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Luxemburgo",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +87,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A11/00118/24"
+   "ref:A11/00118/24",
+   "ml:goodyear:18-03-2024-24-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3478ec887bbe3edb"
+  "enriquecido": true,
+  "hashContenido": "22ed6a292d8a1e1d"
  },
  "slug": "piezas-de-vehiculos-neumaticos-para-automoviles-goodyear-safety-gate-10030764"
 }

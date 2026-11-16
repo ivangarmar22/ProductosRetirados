@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-25"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -36,9 +36,16 @@
     "8722"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "8699243805057",
+    "8699243852051",
+    "8699243866058",
+    "8699243886926",
+    "8699243887220"
+   ],
    "descripcion": "Colcha ligera incluida como parte de un juego de cunas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolso de polietileno con cremallera, con etiquetas informativas sobre características esenciales e instrucciones de mantenimiento."
   }
  ],
  "riesgo": {
@@ -88,6 +95,11 @@
  "dedup": {
   "claves": [
    "ref:A12/02716/24",
+   "ean:8699243805057",
+   "ean:8699243852051",
+   "ean:8699243866058",
+   "ean:8699243886926",
+   "ean:8699243887220",
    "mm:funna-baby:5101",
    "mm:funna-baby:0505",
    "mm:funna-baby:5205",
@@ -98,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "81144ddb697c239b"
+  "enriquecido": true,
+  "hashContenido": "ff35d34c88a0273c"
  },
  "slug": "colcha-ligera-funna-baby-safety-gate-10045186"
 }

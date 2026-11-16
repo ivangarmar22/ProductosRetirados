@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,15 @@
     "e1*KS07/46*0034*00 -*11",
     "e1*KS07/46*0035*00 -*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.03.2003 - 20.06.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos de pasajeros, equipados con Airbag Takata mediante la conversión del volante en «Sport» o «M Sport». Serie: E90, E91, E92, F06, F10, F11, F12, F13, F25, F30, F31, F32, F33.",
-   "fechasTexto": "13.03.2003 - 20.06.2018"
+   "fechasTexto": "13.03.2003 - 20.06.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +72,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "GR",
+   "LU",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -122,15 +136,16 @@
    "mm:bmw-alpina:e1-ks07-46-0011-00-10",
    "mm:bmw-alpina:e1-ks07-46-0018-00",
    "mm:bmw-alpina:e1-ks07-46-0034-00-11",
-   "mm:bmw-alpina:e1-ks07-46-0035-00-06"
+   "mm:bmw-alpina:e1-ks07-46-0035-00-06",
+   "ml:bmw-alpina:13-03-2003-20-06-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3e36e49b00c1a7e0"
+  "enriquecido": true,
+  "hashContenido": "bd18d54db6ce1192"
  },
  "slug": "coche-de-pasajeros-bmw-alpina-safety-gate-10091589"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "11130300895016876"
+     "numero": "111303008"
+    },
+    {
+     "numero": "95016876"
     }
    ],
    "ean": [
     "4005808780570"
    ],
    "descripcion": "Crema corporal, 400 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor de plástico azul."
   }
  ],
  "riesgo": {
@@ -109,15 +113,16 @@
    "ref:A12/02728/24",
    "ean:4005808780570",
    "mm:nivea:83882-471-ab-03",
-   "ml:nivea:11130300895016876"
+   "ml:nivea:111303008",
+   "ml:nivea:95016876"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3184cf79a9c1f0f4"
+  "enriquecido": true,
+  "hashContenido": "95e07690f4c41c41"
  },
  "slug": "crema-corporal-nivea-safety-gate-10062768"
 }

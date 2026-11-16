@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-18"
  },
  "categoria": {
   "literal": "Otros - Producto del tatuaje",
@@ -27,23 +27,21 @@
     "AMIEA"
    ],
    "modelos": [
-    "Evolutionline",
-    "Desert",
-    "réf 301",
-    "FXB 710",
-    "Organicline",
-    "Grenat",
-    "réf 148",
-    "FXR 572"
+    "Evolutionline / Desert / réf 301 / FXB 710",
+    "Organicline / Grenat / réf 148 / FXR 572"
    ],
    "lotes": [
     {
-     "numero": "1809618791"
+     "numero": "18096"
+    },
+    {
+     "numero": "18791"
     }
    ],
    "ean": [],
    "descripcion": "Pigmento colorante (10 ml) en dos colores diferentes (\"Desierto\" y \"Granada\").",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de gotero con tapón de rosca blanco. Embalado en embalaje de cartón con una ventana de plástico transparente."
   }
  ],
  "riesgo": {
@@ -112,23 +110,18 @@
  "dedup": {
   "claves": [
    "ref:A11/00113/24",
-   "mm:amiea:evolutionline",
-   "mm:amiea:desert",
-   "mm:amiea:ref-301",
-   "mm:amiea:fxb-710",
-   "mm:amiea:organicline",
-   "mm:amiea:grenat",
-   "mm:amiea:ref-148",
-   "mm:amiea:fxr-572",
-   "ml:amiea:1809618791"
+   "mm:amiea:evolutionline-desert-ref-301-fxb-710",
+   "mm:amiea:organicline-grenat-ref-148-fxr-572",
+   "ml:amiea:18096",
+   "ml:amiea:18791"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1e8a61152f6a592e"
+  "enriquecido": true,
+  "hashContenido": "f1bd31b1b4636a7b"
  },
  "slug": "tinta-de-tatuaje-amiea-safety-gate-10013895"
 }

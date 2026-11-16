@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-12"
  },
  "categoria": {
   "literal": "Guirnaldas luminosas",
@@ -27,13 +27,13 @@
     "Not specified"
    ],
    "modelos": [
-    "LC0594mc00",
-    "A03134"
+    "LC0594mc00, A03134"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Cadena de iluminación con luces en diferentes colores. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -83,16 +83,15 @@
  "dedup": {
   "claves": [
    "ref:A12/02646/24",
-   "mm:not-specified:lc0594mc00",
-   "mm:not-specified:a03134"
+   "mm:not-specified:lc0594mc00-a03134"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df39dd02c7bcea80"
+  "enriquecido": true,
+  "hashContenido": "535d6cae2baa9c8b"
  },
  "slug": "cadena-de-iluminacion-not-specified-safety-gate-10021688"
 }

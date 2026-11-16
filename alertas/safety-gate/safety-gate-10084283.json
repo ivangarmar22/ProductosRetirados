@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5012866610373"
    ],
    "descripcion": "Conjunto de juguetes de baño.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c04e0c3c0c478faa"
+  "enriquecido": true,
+  "hashContenido": "6b10054a70ae1a59"
  },
  "slug": "juguetes-de-bano-a-to-z-safety-gate-10084283"
 }

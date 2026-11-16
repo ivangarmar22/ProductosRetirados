@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "072019GDYB 1878-58"
+     "numero": "072019GD"
+    },
+    {
+     "numero": "YB 1878-58"
     }
    ],
    "ean": [
     "6932762124042"
    ],
    "descripcion": "Eau de parfum, destinado a hombres, 35 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -106,15 +110,16 @@
   "claves": [
    "ref:A12/02868/24",
    "ean:6932762124042",
-   "ml:yabi-cosmetics:072019gdyb-1878-58"
+   "ml:yabi-cosmetics:072019gd",
+   "ml:yabi-cosmetics:yb-1878-58"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b65f224ac119c4ee"
+  "enriquecido": true,
+  "hashContenido": "4b728fb5c8ede6cc"
  },
  "slug": "perfume-yabi-cosmetics-safety-gate-10091653"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-05"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -34,7 +34,8 @@
     "5903240385300"
    ],
    "descripcion": "Estufa de gas portátil, alimentada por propano / butano.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Grecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bbed5c55fa1d9b46"
+  "enriquecido": true,
+  "hashContenido": "d759eba4fca13b67"
  },
  "slug": "estufa-de-gas-portatil-alpen-camping-safety-gate-10053869"
 }

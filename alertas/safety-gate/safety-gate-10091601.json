@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "SMU/2310/BH"
-    },
-    {
-     "numero": "MHD 12-2026"
+     "numero": "SMU/2310/BH, MHD 12-2026"
     }
    ],
    "ean": [
     "8908014436254"
    ],
    "descripcion": "tinte para el cabello a base de henna, 500 g. El producto es un polvo fino, marrón,",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico con estampado en color."
   }
  ],
  "riesgo": {
@@ -105,16 +103,15 @@
   "claves": [
    "ref:A12/02823/24",
    "ean:8908014436254",
-   "ml:shringar:smu-2310-bh",
-   "ml:shringar:mhd-12-2026"
+   "ml:shringar:smu-2310-bh-mhd-12-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "01ef5e5099807d0c"
+  "enriquecido": true,
+  "hashContenido": "310fea4765b7e5c1"
  },
  "slug": "tinte-para-el-cabello-shringar-safety-gate-10091601"
 }

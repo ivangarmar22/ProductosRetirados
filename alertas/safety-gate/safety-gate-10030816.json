@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8904001202130"
    ],
    "descripcion": "Juego de petanca de juguete hecho de espuma, con seis bolas (rojo, azul, verde) y un gato amarillo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente con cremallera."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,11 +114,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1009156f416dccc1"
+  "enriquecido": true,
+  "hashContenido": "621765a98b57d7c2"
  },
  "slug": "juego-de-petanca-de-juguete-rubbabu-safety-gate-10030816"
 }

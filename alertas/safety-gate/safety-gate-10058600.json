@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "SK",
     "e13*2018/858*00002*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.08.2024 - 09.08.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "06.08.2024 - 09.08.2024"
+   "fechasTexto": "06.08.2024 - 09.08.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02730/24",
-   "mm:vw:e13-2018-858-00002"
+   "mm:vw:e13-2018-858-00002",
+   "ml:vw:06-08-2024-09-08-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ee71adddb04fe203"
+  "enriquecido": true,
+  "hashContenido": "d84a747b8f65a2ab"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10058600"
 }

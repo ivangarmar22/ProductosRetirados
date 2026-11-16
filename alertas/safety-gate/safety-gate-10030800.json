@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -83,10 +83,15 @@
     "e1*2007/46*1621*",
     "e1*2007/46*1622*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2006 - 2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero, equipado con bolsas de aire Takata.",
-   "fechasTexto": "2006 - 2017"
+   "fechasTexto": "2006 - 2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -117,7 +122,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "HR",
+   "HU",
+   "IS",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -205,15 +222,16 @@
    "mm:vw:e1-2007-46-1619",
    "mm:vw:e1-2007-46-1620",
    "mm:vw:e1-2007-46-1621",
-   "mm:vw:e1-2007-46-1622"
+   "mm:vw:e1-2007-46-1622",
+   "ml:vw:2006-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8e53f733fd9407af"
+  "enriquecido": true,
+  "hashContenido": "8855c624c8969e3d"
  },
  "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-vw-safety-gate-10030800"
 }

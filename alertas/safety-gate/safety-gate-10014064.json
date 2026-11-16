@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-31"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "8430852571786"
    ],
    "descripcion": "Estera de rompecabezas de goma que consta de nueve piezas con dimensiones 32 cm x 32 cm x 1 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envoltura de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "DK",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ebd76a28a6a53e46"
+  "enriquecido": true,
+  "hashContenido": "6b15cd0be8834c72"
  },
  "slug": "alfombra-de-rompecabezas-pincello-safety-gate-10014064"
 }

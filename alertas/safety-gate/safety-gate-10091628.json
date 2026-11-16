@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,15 @@
     "e13*168/2013*00089*02",
     "e13*168/2013*00089*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2017 - 2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta con tres ruedas.",
-   "fechasTexto": "2017 - 2019"
+   "fechasTexto": "2017 - 2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +71,14 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Canadá",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +109,16 @@
    "mm:can-am:e13-168-2013-00088-01",
    "mm:can-am:e13-168-2013-00089-00",
    "mm:can-am:e13-168-2013-00089-02",
-   "mm:can-am:e13-168-2013-00089-03"
+   "mm:can-am:e13-168-2013-00089-03",
+   "ml:can-am:2017-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e5ceca958e43134f"
+  "enriquecido": true,
+  "hashContenido": "a9ffa0e87f381c7b"
  },
  "slug": "vehiculo-de-tres-ruedas-can-am-safety-gate-10091628"
 }

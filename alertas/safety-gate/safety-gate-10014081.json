@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-17"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "21223.138123.146523.1"
+     "numero": "21223.1"
+    },
+    {
+     "numero": "38123.1"
+    },
+    {
+     "numero": "46523.1"
     }
    ],
    "ean": [
     "8429007063238"
    ],
    "descripcion": "Peeling de piel.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco y púrpura que contiene viales"
   }
  ],
  "riesgo": {
@@ -91,15 +98,17 @@
   "claves": [
    "ref:A12/02676/24",
    "ean:8429007063238",
-   "ml:tegoder-tdc-clinik:21223-138123-146523-1"
+   "ml:tegoder-tdc-clinik:21223-1",
+   "ml:tegoder-tdc-clinik:38123-1",
+   "ml:tegoder-tdc-clinik:46523-1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7abbfdf371aef44d"
+  "enriquecido": true,
+  "hashContenido": "8a339b351119b39a"
  },
  "slug": "peeling-de-piel-tegoder-tdc-clinik-safety-gate-10014081"
 }

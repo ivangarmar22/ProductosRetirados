@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-10-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,24 @@
     "e4*2007/46*0295* (KL1YN)",
     "e4*2007/46*0696* (KL1B)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.12.2008 - 10.01.2017 (Cruze)"
+    },
+    {
+     "numero": "12.11.2012 - 31.08.2015 (Trax)"
+    },
+    {
+     "numero": "18.06.2010 - 10.05.2016 (Orlando)"
+    },
+    {
+     "numero": "26.01.2011 - 27.06.2016 (Aveo)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con bolsas de aire Takata.",
-   "fechasTexto": "02.12.2008 - 10.01.2017 (Cruze)12.11.2012 - 31.08.2015 (Trax)18.06.2010 - 10.05.2016 (Orlando)26.01.2011 - 27.06.2016 (Aveo)"
+   "fechasTexto": "02.12.2008 - 10.01.2017 (Cruze)12.11.2012 - 31.08.2015 (Trax)18.06.2010 - 10.05.2016 (Orlando)26.01.2011 - 27.06.2016 (Aveo)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +81,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "GR",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,15 +118,19 @@
    "mm:chevrolet:e4-2007-46-0224-kl1y",
    "mm:chevrolet:e4-2007-46-0270-kl1t",
    "mm:chevrolet:e4-2007-46-0295-kl1yn",
-   "mm:chevrolet:e4-2007-46-0696-kl1b"
+   "mm:chevrolet:e4-2007-46-0696-kl1b",
+   "ml:chevrolet:02-12-2008-10-01-2017-cruze",
+   "ml:chevrolet:12-11-2012-31-08-2015-trax",
+   "ml:chevrolet:18-06-2010-10-05-2016-orlando",
+   "ml:chevrolet:26-01-2011-27-06-2016-aveo"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a5e52da2c19e80d9"
+  "enriquecido": true,
+  "hashContenido": "8d0070d46de0f3da"
  },
  "slug": "coche-de-pasajeros-chevrolet-safety-gate-10091594"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e9*2018/858*11120*03",
     "e9*2018/858*11229*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.09.2023 - 23.10.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "04.09.2023 - 23.10.2023"
+   "fechasTexto": "04.09.2023 - 23.10.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HU",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +95,16 @@
   "claves": [
    "ref:A12/02682/24",
    "mm:land-rover:e9-2018-858-11120-03",
-   "mm:land-rover:e9-2018-858-11229-02"
+   "mm:land-rover:e9-2018-858-11229-02",
+   "ml:land-rover:04-09-2023-23-10-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c0c45c116447d720"
+  "enriquecido": true,
+  "hashContenido": "8600954b260ec9a1"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10029237"
 }

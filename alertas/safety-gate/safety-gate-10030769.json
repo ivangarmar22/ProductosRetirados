@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-17"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -27,19 +27,20 @@
     "TK Group"
    ],
    "modelos": [
-    "TKFWG",
-    "gelb",
-    "ZK001/ZK003",
-    "UNISIZE"
+    "TKFWG, gelb, ZK001/ZK003, UNISIZE"
    ],
    "lotes": [
     {
-     "numero": "05457TK05487"
+     "numero": "05457"
+    },
+    {
+     "numero": "TK05487"
     }
    ],
    "ean": [],
    "descripcion": "Chaleco amarillo con cremallera de alta visibilidad. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente, hoja de cubierta con información del producto e instrucciones en la parte posterior."
   }
  ],
  "riesgo": {
@@ -100,19 +101,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02672/24",
-   "mm:tk-group:tkfwg",
-   "mm:tk-group:gelb",
-   "mm:tk-group:zk001-zk003",
-   "mm:tk-group:unisize",
-   "ml:tk-group:05457tk05487"
+   "mm:tk-group:tkfwg-gelb-zk001-zk003-unisize",
+   "ml:tk-group:05457",
+   "ml:tk-group:tk05487"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aaa73d0d622b9100"
+  "enriquecido": true,
+  "hashContenido": "270b1fbd13ce8123"
  },
  "slug": "chaleco-de-seguridad-tk-group-safety-gate-10030769"
 }

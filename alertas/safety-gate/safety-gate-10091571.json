@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,24 @@
     "e2*2007/46*0639*17 - e2*2007/46*0639*22 (Mokka)",
     "e4*2007/46*1194*16 - e4*2007/46*1194*18 (Crossland X)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 11/1/2022 to 6/12/2022 (Astra L)"
+    },
+    {
+     "numero": "From 3/1/2022 to 9/11/2022 (Crossland X)"
+    },
+    {
+     "numero": "From 4/1/2022 to 10/1/2023 (Mokka)"
+    },
+    {
+     "numero": "From 5/1/2022 to 19/10/2022 (Corsa)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "From 11/1/2022 to 6/12/2022 (Astra L)From 3/1/2022 to 9/11/2022 (Crossland X)From 4/1/2022 to 10/1/2023 (Mokka)From 5/1/2022 to 19/10/2022 (Corsa)"
+   "fechasTexto": "From 11/1/2022 to 6/12/2022 (Astra L)From 3/1/2022 to 9/11/2022 (Crossland X)From 4/1/2022 to 10/1/2023 (Mokka)From 5/1/2022 to 19/10/2022 (Corsa)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +80,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +122,19 @@
    "mm:opel-vauxhall:e2-2007-46-0628-25-and-e2-2007-46-0628-26-astra-l",
    "mm:opel-vauxhall:e2-2007-46-0639-17-e2-2007-46-0639-20-corsa",
    "mm:opel-vauxhall:e2-2007-46-0639-17-e2-2007-46-0639-22-mokka",
-   "mm:opel-vauxhall:e4-2007-46-1194-16-e4-2007-46-1194-18-crossland-x"
+   "mm:opel-vauxhall:e4-2007-46-1194-16-e4-2007-46-1194-18-crossland-x",
+   "ml:opel-vauxhall:from-11-1-2022-to-6-12-2022-astra-l",
+   "ml:opel-vauxhall:from-3-1-2022-to-9-11-2022-crossland-x",
+   "ml:opel-vauxhall:from-4-1-2022-to-10-1-2023-mokka",
+   "ml:opel-vauxhall:from-5-1-2022-to-19-10-2022-corsa"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2433330a03fa3f53"
+  "enriquecido": true,
+  "hashContenido": "cfb805fc315112b6"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10091571"
 }

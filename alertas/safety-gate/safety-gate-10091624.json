@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-17"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -37,7 +37,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cigarrillo electrónico desechable con un volumen de hasta 20 ml y una capacidad de hasta 10000 bocanadas. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico dentro de una caja de cartón."
   }
  ],
  "riesgo": {
@@ -67,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "86e8069d8b92adc5"
+  "enriquecido": true,
+  "hashContenido": "0f3273393049217e"
  },
  "slug": "cigarrillo-electronico-desechable-vabeen-safety-gate-10091624"
 }

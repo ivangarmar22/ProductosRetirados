@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0532*21 (V)",
     "e2*2007/46*0533*26 (V)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.02.2024 - 28.06.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "19.02.2024 - 28.06.2024"
+   "fechasTexto": "19.02.2024 - 28.06.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "IE",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +96,16 @@
   "claves": [
    "ref:A12/02736/24",
    "mm:peugeot:e2-2007-46-0532-21-v",
-   "mm:peugeot:e2-2007-46-0533-26-v"
+   "mm:peugeot:e2-2007-46-0533-26-v",
+   "ml:peugeot:19-02-2024-28-06-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8e7a7bcd9121a0f5"
+  "enriquecido": true,
+  "hashContenido": "f05c83c2d67356df"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10048803"
 }

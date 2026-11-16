@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "e3*2018/858*00078*04*00 (600 BEV)",
     "e3*2018/858*00078*05*00 (600)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.04.2024 - 09.05.2024 (600 BEV)"
+    },
+    {
+     "numero": "08.04.2024 - 25.04.2024 (600)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "05.04.2024 - 09.05.2024 (600 BEV)08.04.2024 - 25.04.2024 (600)"
+   "fechasTexto": "05.04.2024 - 09.05.2024 (600 BEV)08.04.2024 - 25.04.2024 (600)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +90,17 @@
   "claves": [
    "ref:A12/02732/24",
    "mm:fiat:e3-2018-858-00078-04-00-600-bev",
-   "mm:fiat:e3-2018-858-00078-05-00-600"
+   "mm:fiat:e3-2018-858-00078-05-00-600",
+   "ml:fiat:05-04-2024-09-05-2024-600-bev",
+   "ml:fiat:08-04-2024-25-04-2024-600"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3bcd481f47a99c98"
+  "enriquecido": true,
+  "hashContenido": "b072d75a22f8d2f7"
  },
  "slug": "coche-de-pasajeros-fiat-safety-gate-10044680"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "IN 0623IN 0723IN 0823IN 1023"
+     "numero": "IN 0623"
+    },
+    {
+     "numero": "IN 0723"
+    },
+    {
+     "numero": "IN 0823"
+    },
+    {
+     "numero": "IN 1023"
     }
    ],
    "ean": [
@@ -40,7 +49,8 @@
     "605566130859"
    ],
    "descripcion": "Alfombra de espuma, destinada a niños pequeños, 150 x 200 cm, con una película impresa laminada sobre la espuma.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +84,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Hong Kong",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "EE",
+   "IE",
+   "PL",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +118,18 @@
    "ean:605566130859",
    "mm:taf-toys:12715-savannah",
    "mm:taf-toys:13085-urban-garden",
-   "ml:taf-toys:in-0623in-0723in-0823in-1023"
+   "ml:taf-toys:in-0623",
+   "ml:taf-toys:in-0723",
+   "ml:taf-toys:in-0823",
+   "ml:taf-toys:in-1023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7d6c000ac9dcdc8f"
+  "enriquecido": true,
+  "hashContenido": "197d913a2e35fa97"
  },
  "slug": "playmat-taf-toys-safety-gate-10014176"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,21 @@
     "Bmw"
    ],
    "modelos": [
-    "e1*2007/46*1952* (G7X)",
-    "e1*2007/46*2066* (F56XM)",
-    "e1*2018/858*00316* (G6L)",
-    "e1*2018/858*00317* (G6E)",
-    "e1*2018/858*00154* (G7L)",
-    "e1*2018/858*00117* (U2AT)",
-    "e1*2018/858*00153* (U1X)",
-    "e1*2007/46*1918* (G5X)",
-    "e1*2007/46*2020* (G6X)",
+    "e1*2007/46*1952* (G7X), e1*2007/46*2066* (F56XM)",
+    "e1*2018/858*00316* (G6L), e1*2018/858*00317* (G6E), e1*2018/858*00154* (G7L), e1*2018/858*00117* (U2AT), e1*2018/858*00153* (U1X), e1*2007/46*1918* (G5X), e1*2007/46*2020* (G6X),",
     "e1*2018/858*00371 (U2X)",
     "e1*2018/858*00397 (F7)",
     "e1*2018/858*00451 (G9M)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.06.2022 - 27.01.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "09.06.2022 - 27.01.2024"
+   "fechasTexto": "09.06.2022 - 27.01.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +71,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -129,26 +142,20 @@
  "dedup": {
   "claves": [
    "ref:A12/00996/24",
-   "mm:bmw:e1-2007-46-1952-g7x",
-   "mm:bmw:e1-2007-46-2066-f56xm",
-   "mm:bmw:e1-2018-858-00316-g6l",
-   "mm:bmw:e1-2018-858-00317-g6e",
-   "mm:bmw:e1-2018-858-00154-g7l",
-   "mm:bmw:e1-2018-858-00117-u2at",
-   "mm:bmw:e1-2018-858-00153-u1x",
-   "mm:bmw:e1-2007-46-1918-g5x",
-   "mm:bmw:e1-2007-46-2020-g6x",
+   "mm:bmw:e1-2007-46-1952-g7x-e1-2007-46-2066-f56xm",
+   "mm:bmw:e1-2018-858-00316-g6l-e1-2018-858-00317-g6e-e1-2018-858-00154-g7l-e1-2018-858-00117-u2at-e1-2018-858-00153-u1x-e1-2007-46-1918-g5x-e1-2007-46-2020-g6x",
    "mm:bmw:e1-2018-858-00371-u2x",
    "mm:bmw:e1-2018-858-00397-f7",
-   "mm:bmw:e1-2018-858-00451-g9m"
+   "mm:bmw:e1-2018-858-00451-g9m",
+   "ml:bmw:09-06-2022-27-01-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e81b72f2a47e9df7"
+  "enriquecido": true,
+  "hashContenido": "2220122d0feff745"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10012761"
 }

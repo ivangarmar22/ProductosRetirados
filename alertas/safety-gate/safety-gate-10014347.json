@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.06.2023 - 01.07.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo todo terreno de cuatro ruedas.",
-   "fechasTexto": "28.06.2023 - 01.07.2024"
+   "fechasTexto": "28.06.2023 - 01.07.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "HR",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +102,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02762/24",
-   "mm:polaris:individual-approval"
+   "mm:polaris:individual-approval",
+   "ml:polaris:28-06-2023-01-07-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8dafb8ecfe5ea6e3"
+  "enriquecido": true,
+  "hashContenido": "bc813d55d99f68b5"
  },
  "slug": "vehiculo-todo-terreno-polaris-safety-gate-10014347"
 }

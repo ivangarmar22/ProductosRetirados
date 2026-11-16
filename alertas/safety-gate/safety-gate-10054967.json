@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Modelo (tipo): Polestar 2 (534). Chasis: de 0240527 a 0312963. Año modelo: 2024-2025.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3bf669536d3b3fe2"
+  "enriquecido": true,
+  "hashContenido": "78b5afbdc93d28e7"
  },
  "slug": "coche-de-pasajeros-polestar-safety-gate-10054967"
 }

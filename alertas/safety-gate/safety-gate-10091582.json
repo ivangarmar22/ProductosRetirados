@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -54,10 +54,15 @@
     "e1*2007/46*0316*",
     "e24*2007/46*0022*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.01.2006 - 28.05.2008"
+    }
+   ],
    "ean": [],
    "descripcion": "Coches de pasajeros, equipados con bolsas de aire Takata.",
-   "fechasTexto": "02.01.2006 - 28.05.2008"
+   "fechasTexto": "02.01.2006 - 28.05.2008",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -88,7 +93,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "GR",
+   "HR",
+   "LU",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -157,15 +170,16 @@
    "mm:bmw:e1-2007-46-0314",
    "mm:bmw:e1-2007-46-0315",
    "mm:bmw:e1-2007-46-0316",
-   "mm:bmw:e24-2007-46-0022"
+   "mm:bmw:e24-2007-46-0022",
+   "ml:bmw:02-01-2006-28-05-2008"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a4b69fc98ac2e1f"
+  "enriquecido": true,
+  "hashContenido": "52f650e728980a32"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10091582"
 }

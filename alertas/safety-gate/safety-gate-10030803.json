@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,15 @@
     "e1*2001/116*0468*",
     "e13*2007/46*1167*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2006 - 21.05.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con bolsas de aire Takata.",
-   "fechasTexto": "01.08.2006 - 21.05.2014"
+   "fechasTexto": "01.08.2006 - 21.05.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +73,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Brasil",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,15 +111,16 @@
    "mm:vw:3cc",
    "mm:vw:e1-2001-116-0301",
    "mm:vw:e1-2001-116-0468",
-   "mm:vw:e13-2007-46-1167"
+   "mm:vw:e13-2007-46-1167",
+   "ml:vw:01-08-2006-21-05-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "632bfba0ca99973e"
+  "enriquecido": true,
+  "hashContenido": "4ae25159d191a045"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10030803"
 }

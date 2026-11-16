@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Un conjunto de tres bolas de playa hechas de plástico PVC rosa y transparente con purpurina en el interior. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -61,7 +62,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5721047f5f0c587b"
+  "enriquecido": true,
+  "hashContenido": "9a989ebef46a6921"
  },
  "slug": "bola-de-plastico-uppblasbar-strandboll-safety-gate-10021324"
 }

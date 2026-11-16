@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e2*2007/46*0685*12",
     "e2*2007/46*0685*13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.06.2022 - 27.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros / Vehículo comercial ligero. - Nombre del modelo (código del modelo): Proace City (BPZ), Proace City Verso (BKY); - Modelo (VDS/VIS Range): Proace City (EUHNP2 / GJ013501), Proace City Verso (ERHNP2 / GJ012904 ~ GJ022607), Proace City Verso (ERHNS3 / GJ002108 ~ GJ999876) - Año del modelo: 2022.",
-   "fechasTexto": "15.06.2022 - 27.12.2022"
+   "fechasTexto": "15.06.2022 - 27.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "IS",
+   "PL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +92,16 @@
    "ref:A12/02711/24",
    "mm:toyota:e2-2007-46-0685-09",
    "mm:toyota:e2-2007-46-0685-12",
-   "mm:toyota:e2-2007-46-0685-13"
+   "mm:toyota:e2-2007-46-0685-13",
+   "ml:toyota:15-06-2022-27-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2c96cd044054981c"
+  "enriquecido": true,
+  "hashContenido": "5fd200b70de1387f"
  },
  "slug": "vehiculo-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10014324"
 }

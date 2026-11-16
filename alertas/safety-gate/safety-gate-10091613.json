@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,21 @@
     "e9*168/2013*30001*07",
     "e9*168/2013*30003*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.09.2022"
+    },
+    {
+     "numero": "14.09.2022"
+    },
+    {
+     "numero": "14.10.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta. Modelo del año: 2023.",
-   "fechasTexto": "12.09.202214.09.202214.10.2022"
+   "fechasTexto": "12.09.202214.09.202214.10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +75,10 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +103,18 @@
    "ref:A12/02867/24",
    "mm:montesa:e9-168-2013-11013-05",
    "mm:montesa:e9-168-2013-30001-07",
-   "mm:montesa:e9-168-2013-30003-06"
+   "mm:montesa:e9-168-2013-30003-06",
+   "ml:montesa:12-09-2022",
+   "ml:montesa:14-09-2022",
+   "ml:montesa:14-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fc1c5aea118ed2dd"
+  "enriquecido": true,
+  "hashContenido": "d403966c14887864"
  },
  "slug": "motocicleta-montesa-safety-gate-10091613"
 }

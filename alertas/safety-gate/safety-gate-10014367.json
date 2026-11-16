@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "220923012302"
+     "numero": "2209"
+    },
+    {
+     "numero": "2301"
+    },
+    {
+     "numero": "2302"
     }
    ],
    "ean": [
     "5056549327967"
    ],
    "descripcion": "Deshumidificador doméstico de 10 litros. Producto vendido en línea, en particular a través de Amazon (ASIN: B00PIQ0RH2) y eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con marca y dirección."
   }
  ],
  "riesgo": {
@@ -87,15 +94,17 @@
   "claves": [
    "ref:A11/00106/24",
    "ean:5056549327967",
-   "ml:electriq:220923012302"
+   "ml:electriq:2209",
+   "ml:electriq:2301",
+   "ml:electriq:2302"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cef11798392e0e3a"
+  "enriquecido": true,
+  "hashContenido": "f15a339a07a4d460"
  },
  "slug": "deshumidificador-electriq-safety-gate-10014367"
 }

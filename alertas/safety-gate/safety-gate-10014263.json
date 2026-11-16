@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e6*168/2013*00135*00 (WEM1)",
     "e6*168/2013*00137*00 (WEM0)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.2022 - 05.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta equipada con neumáticos Dunlop Trailmax Mixtour B con la siguiente especificación de tipo de tubo \"150/70R17 M/C 69H\". El neumático solo está disponible con la motocicleta llamada V-Strom (DL800DE M3, M4) cuando se instala como equipo original (el neumático no está disponible en el mercado abierto).",
-   "fechasTexto": "11.2022 - 05.2024"
+   "fechasTexto": "11.2022 - 05.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +103,16 @@
   "claves": [
    "ref:A12/02710/24",
    "mm:suzuki:e6-168-2013-00135-00-wem1",
-   "mm:suzuki:e6-168-2013-00137-00-wem0"
+   "mm:suzuki:e6-168-2013-00137-00-wem0",
+   "ml:suzuki:11-2022-05-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "da277ceaffb154c9"
+  "enriquecido": true,
+  "hashContenido": "e07ebf066d3c3458"
  },
  "slug": "motocicleta-suzuki-safety-gate-10014263"
 }

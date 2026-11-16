@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,30 @@
     "e2*2007/46*0628*17 - e2*2007/46*0628*21 (308)",
     "e2*2007/46*0639*17 - e2*2007/46*0639*20 (208 et 2008)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1/2/2022 (Partner)"
+    },
+    {
+     "numero": "From 22/1/2022 to 1/2/2022 (301)"
+    },
+    {
+     "numero": "From 3/1/2022 to 14/10/2022 (2008)"
+    },
+    {
+     "numero": "From 3/1/2022 to 8/11/2022 (208)"
+    },
+    {
+     "numero": "From 4/1/2022 to 8/12/2022 (5008)"
+    },
+    {
+     "numero": "From 5/1/2022 to 9/12/2022 (308 and 3008)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "1/2/2022 (Partner)From 22/1/2022 to 1/2/2022 (301)From 3/1/2022 to 14/10/2022 (2008)From 3/1/2022 to 8/11/2022 (208)From 4/1/2022 to 8/12/2022 (5008)From 5/1/2022 to 9/12/2022 (308 and 3008)"
+   "fechasTexto": "1/2/2022 (Partner)From 22/1/2022 to 1/2/2022 (301)From 3/1/2022 to 14/10/2022 (2008)From 3/1/2022 to 8/11/2022 (208)From 4/1/2022 to 8/12/2022 (5008)From 5/1/2022 to 9/12/2022 (308 and 3008)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +86,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,15 +141,21 @@
    "mm:peugeot:e2-2007-46-0534-21-e2-2007-46-0534-23-3008-et-5008",
    "mm:peugeot:e2-2007-46-0625-18-partner",
    "mm:peugeot:e2-2007-46-0628-17-e2-2007-46-0628-21-308",
-   "mm:peugeot:e2-2007-46-0639-17-e2-2007-46-0639-20-208-et-2008"
+   "mm:peugeot:e2-2007-46-0639-17-e2-2007-46-0639-20-208-et-2008",
+   "ml:peugeot:1-2-2022-partner",
+   "ml:peugeot:from-22-1-2022-to-1-2-2022-301",
+   "ml:peugeot:from-3-1-2022-to-14-10-2022-2008",
+   "ml:peugeot:from-3-1-2022-to-8-11-2022-208",
+   "ml:peugeot:from-4-1-2022-to-8-12-2022-5008",
+   "ml:peugeot:from-5-1-2022-to-9-12-2022-308-and-3008"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1dbd74cb242a8e57"
+  "enriquecido": true,
+  "hashContenido": "f043d4a187c20214"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10091438"
 }

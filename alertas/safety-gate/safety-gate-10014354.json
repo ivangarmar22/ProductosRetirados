@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-02"
  },
  "categoria": {
   "literal": "Herramientas manuales",
@@ -24,7 +24,8 @@
   {
    "nombre": "Pellintaittopihti suora, balancing pliers",
    "marcas": [
-    "Auto Tools, MR-tuote"
+    "Auto Tools",
+    "MR-tuote"
    ],
    "modelos": [
     "MR-1219",
@@ -36,7 +37,8 @@
     "6430074695729"
    ],
    "descripcion": "Alicates plegables de chapa negra, rectos, 200 mm, con asas de plástico rojo y alicates de peso de rueda plateada con asas de plástico rojo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Los alicates se sujetan a una percha de plástico negro con una etiqueta adhesiva y los alicates de peso de la rueda se embalan en una ampolla con un fondo de cartón negro y un frente de plástico transparente."
   }
  ],
  "riesgo": {
@@ -95,16 +97,18 @@
    "ref:A12/02750/24",
    "ean:6430032150758",
    "ean:6430074695729",
-   "mm:auto-tools-mr-tuote:mr-1219",
-   "mm:auto-tools-mr-tuote:mr-2763"
+   "mm:auto-tools:mr-1219",
+   "mm:auto-tools:mr-2763",
+   "mm:mr-tuote:mr-1219",
+   "mm:mr-tuote:mr-2763"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9d440d569655d62f"
+  "enriquecido": true,
+  "hashContenido": "a83938d914f8ce5f"
  },
  "slug": "alicates-plegables-auto-tools-mr-tuote-safety-gate-10014354"
 }

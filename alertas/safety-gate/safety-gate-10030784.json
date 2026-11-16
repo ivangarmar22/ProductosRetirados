@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-09"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -39,7 +39,8 @@
     "8904001241894"
    ],
    "descripcion": "Coche naranja hecho de goma lisa con ruedas amarillas, seis bolas exprimibles con revestimiento rosa, naranja, turquesa, azul, rojo o verde, juego de bolos de goma y otros setenta juguetes. Todos los lotes se ven afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón (bolas educativas, coche de mascota naranja), bolsa de plástico (juego de bolos), otros envases para los otros setenta productos."
   }
  ],
  "riesgo": {
@@ -74,7 +75,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "DE",
+   "EE",
+   "FI",
+   "IS",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -136,11 +144,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0f536028dd0538fa"
+  "enriquecido": true,
+  "hashContenido": "20974b4f94748d20"
  },
  "slug": "juguetes-rubbabu-safety-gate-10030784"
 }

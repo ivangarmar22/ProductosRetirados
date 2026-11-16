@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-26"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -34,14 +34,51 @@
    ],
    "lotes": [
     {
-     "numero": "KT24040006-15KT24040006-16KT24040006-17KT24040018-14KT24040018-16KT24040018-17KT24040034-10KT24040034-2KT24040034-4KT24040034-8KT24040045-10KT24040045-8KT24040045-9"
+     "numero": "KT24040006-15"
+    },
+    {
+     "numero": "KT24040006-16"
+    },
+    {
+     "numero": "KT24040006-17"
+    },
+    {
+     "numero": "KT24040018-14"
+    },
+    {
+     "numero": "KT24040018-16"
+    },
+    {
+     "numero": "KT24040018-17"
+    },
+    {
+     "numero": "KT24040034-10"
+    },
+    {
+     "numero": "KT24040034-2"
+    },
+    {
+     "numero": "KT24040034-4"
+    },
+    {
+     "numero": "KT24040034-8"
+    },
+    {
+     "numero": "KT24040045-10"
+    },
+    {
+     "numero": "KT24040045-8"
+    },
+    {
+     "numero": "KT24040045-9"
     }
    ],
    "ean": [
     "3583787837726"
    ],
    "descripcion": "Casco de bicicleta.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +112,16 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "HR",
+   "IE",
+   "PT",
+   "SI",
+   "SK",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,15 +146,27 @@
    "mm:rockrider:8615651",
    "mm:rockrider:8843310",
    "mm:rockrider:8843312",
-   "ml:rockrider:kt24040006-15kt24040006-16kt24040006-17kt24040018-14kt24040018-16kt24040018-17kt24040034-10kt24040034-2kt24040034-4kt24040034-8kt24040045-10kt24040045-8kt24040045-9"
+   "ml:rockrider:kt24040006-15",
+   "ml:rockrider:kt24040006-16",
+   "ml:rockrider:kt24040006-17",
+   "ml:rockrider:kt24040018-14",
+   "ml:rockrider:kt24040018-16",
+   "ml:rockrider:kt24040018-17",
+   "ml:rockrider:kt24040034-10",
+   "ml:rockrider:kt24040034-2",
+   "ml:rockrider:kt24040034-4",
+   "ml:rockrider:kt24040034-8",
+   "ml:rockrider:kt24040045-10",
+   "ml:rockrider:kt24040045-8",
+   "ml:rockrider:kt24040045-9"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "79f18cfb00409d24"
+  "enriquecido": true,
+  "hashContenido": "f67d7ace098e7656"
  },
  "slug": "casco-de-bicicleta-rockrider-safety-gate-10054122"
 }

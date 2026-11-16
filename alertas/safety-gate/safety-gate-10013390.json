@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-10-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,19 @@
     "Hyundai"
    ],
    "modelos": [
-    "SX2",
-    "CN7",
+    "SX2, CN7",
     "e4*2018/858*00153*",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.04.2023 - 27.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "19.04.2023 - 27.12.2023"
+   "fechasTexto": "19.04.2023 - 27.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,18 +104,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01586/24",
-   "mm:hyundai:sx2",
-   "mm:hyundai:cn7",
+   "mm:hyundai:sx2-cn7",
    "mm:hyundai:e4-2018-858-00153",
-   "mm:hyundai:individual-approval"
+   "mm:hyundai:individual-approval",
+   "ml:hyundai:19-04-2023-27-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4892fae895ddcf90"
+  "enriquecido": true,
+  "hashContenido": "c4100ef9546ab5c4"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10013390"
 }
