@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "1193ABX 15:38 A8194ABX 00:27"
+     "numero": "1193ABX 15:38 A"
+    },
+    {
+     "numero": "8194ABX 00:27"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "8720181047107"
    ],
    "descripcion": "Espuma de ducha de talco con etiqueta dorada y etiqueta roja, 700 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -103,15 +107,16 @@
    "ean:8712561899284",
    "ean:8720181047107",
    "mm:dove:bagno-schiuma",
-   "ml:dove:1193abx-15-38-a8194abx-00-27"
+   "ml:dove:1193abx-15-38-a",
+   "ml:dove:8194abx-00-27"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c9cca2a9a494a574"
+  "enriquecido": true,
+  "hashContenido": "8abb9e34c7ece045"
  },
  "slug": "espuma-de-bano-dove-safety-gate-10012311"
 }

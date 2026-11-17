@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-26"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -32,14 +32,24 @@
    ],
    "lotes": [
     {
-     "numero": "1929/245711/246745/248234/24"
+     "numero": "1929/24"
+    },
+    {
+     "numero": "5711/24"
+    },
+    {
+     "numero": "6745/24"
+    },
+    {
+     "numero": "8234/24"
     }
    ],
    "ean": [
     "5907603464107"
    ],
    "descripcion": "Base de asiento de coche para niños. Fechas de venta: 24.04.2024 - 24.06.2024. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +79,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "SI",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,15 +106,18 @@
    "ean:5907603464107",
    "mm:avionaut:04527",
    "mm:avionaut:av-169",
-   "ml:avionaut:1929-245711-246745-248234-24"
+   "ml:avionaut:1929-24",
+   "ml:avionaut:5711-24",
+   "ml:avionaut:6745-24",
+   "ml:avionaut:8234-24"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "060e771176578767"
+  "enriquecido": true,
+  "hashContenido": "3adbf643095363ed"
  },
  "slug": "base-del-asiento-de-coche-de-los-ninos-avionaut-safety-gate-10013606"
 }

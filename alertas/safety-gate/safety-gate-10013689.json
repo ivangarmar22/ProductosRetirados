@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-04"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -39,7 +39,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pares de pendientes metálicos dorados y plateados con elementos decorativos (se venden en 6 pares y en 7 pares). Cada par se atribuye a un día (de lunes a domingo y de lunes a sábado, respectivamente).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Espalda de cartón."
   }
  ],
  "riesgo": {
@@ -69,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1f3286088848d929"
+  "enriquecido": true,
+  "hashContenido": "0f4117331acd2512"
  },
  "slug": "pendientes-tedi-safety-gate-10013689"
 }

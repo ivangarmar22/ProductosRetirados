@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,15 @@
     "e1*124r00/03*1967*00",
     "e1*124r00/03*2050*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.05.2022 - 14.10.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo / Llanta de rueda.",
-   "fechasTexto": "02.05.2022 - 14.10.2022"
+   "fechasTexto": "02.05.2022 - 14.10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +72,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,15 +103,16 @@
    "mm:autec:vd7017",
    "mm:autec:vd8019",
    "mm:autec:e1-124r00-03-1967-00",
-   "mm:autec:e1-124r00-03-2050-00"
+   "mm:autec:e1-124r00-03-2050-00",
+   "ml:autec:02-05-2022-14-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a0864e11eab0224f"
+  "enriquecido": true,
+  "hashContenido": "783556be366793e0"
  },
  "slug": "parte-del-vehiculo-llanta-de-rueda-autec-safety-gate-10013931"
 }

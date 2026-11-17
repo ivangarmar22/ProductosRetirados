@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-25"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -46,7 +46,8 @@
     "5902533924011"
    ],
    "descripcion": "Asiento de coche infantil para niños de hasta 13 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,7 +77,13 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "HR",
+   "LV",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -110,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e23106abc8c111bc"
+  "enriquecido": true,
+  "hashContenido": "7a1326d036049b2a"
  },
  "slug": "asiento-de-coche-de-los-ninos-kinderkraft-safety-gate-10013416"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "19151A"
-    },
-    {
-     "numero": "19246B"
+     "numero": "19151A; 19246B"
     }
    ],
    "ean": [
     "5901832067313"
    ],
    "descripcion": "Eau de parfum, destinado a mujeres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -105,16 +103,15 @@
   "claves": [
    "ref:A12/01965/24",
    "ean:5901832067313",
-   "ml:la-rive:19151a",
-   "ml:la-rive:19246b"
+   "ml:la-rive:19151a-19246b"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7cacc0ab074be6be"
+  "enriquecido": true,
+  "hashContenido": "5ac597e90935f87b"
  },
  "slug": "perfume-la-rive-safety-gate-10013904"
 }

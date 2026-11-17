@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-19"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Flip flops de plástico en color negro. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c511a558e0294826"
+  "enriquecido": true,
+  "hashContenido": "96e8eb9c90c2897a"
  },
  "slug": "flip-flops-honululu-pe-slippers-safety-gate-10013697"
 }

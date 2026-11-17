@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,14 +24,11 @@
   {
    "nombre": "Defender, Discovery, Velar, Range Rover Sport, Range Rover",
    "marcas": [
-    "Land Rover, Range Rover"
+    "Land Rover",
+    "Range Rover"
    ],
    "modelos": [
-    "LE",
-    "LR",
-    "LY",
-    "L1",
-    "LK",
+    "LE, LR, LY, L1, LK",
     "e5*2007/46*0092*08",
     "e5*2007/46*0125*05",
     "e5*2007/46*1055*06",
@@ -39,10 +36,18 @@
     "e9*2018/858*11120*03",
     "e9*2018/858*11229*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Defender N1: 06.12.2023 - 17.12.2023"
+    },
+    {
+     "numero": "Others: 29.11.2023 - 12.03.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coches de pasajeros / camionetas.",
-   "fechasTexto": "Defender N1: 06.12.2023 - 17.12.2023Others: 29.11.2023 - 12.03.2024"
+   "fechasTexto": "Defender N1: 06.12.2023 - 17.12.2023Others: 29.11.2023 - 12.03.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +79,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,20 +126,32 @@
  "dedup": {
   "claves": [
    "ref:A12/01932/24",
-   "mm:land-rover-range-rover:e5-2007-46-0092-08",
-   "mm:land-rover-range-rover:e5-2007-46-0125-05",
-   "mm:land-rover-range-rover:e5-2007-46-1055-06",
-   "mm:land-rover-range-rover:e5-2007-46-1057-09-10",
-   "mm:land-rover-range-rover:e9-2018-858-11120-03",
-   "mm:land-rover-range-rover:e9-2018-858-11229-02"
+   "mm:land-rover:le-lr-ly-l1-lk",
+   "mm:land-rover:e5-2007-46-0092-08",
+   "mm:land-rover:e5-2007-46-0125-05",
+   "mm:land-rover:e5-2007-46-1055-06",
+   "mm:land-rover:e5-2007-46-1057-09-10",
+   "mm:land-rover:e9-2018-858-11120-03",
+   "mm:land-rover:e9-2018-858-11229-02",
+   "ml:land-rover:defender-n1-06-12-2023-17-12-2023",
+   "ml:land-rover:others-29-11-2023-12-03-2024",
+   "mm:range-rover:le-lr-ly-l1-lk",
+   "mm:range-rover:e5-2007-46-0092-08",
+   "mm:range-rover:e5-2007-46-0125-05",
+   "mm:range-rover:e5-2007-46-1055-06",
+   "mm:range-rover:e5-2007-46-1057-09-10",
+   "mm:range-rover:e9-2018-858-11120-03",
+   "mm:range-rover:e9-2018-858-11229-02",
+   "ml:range-rover:defender-n1-06-12-2023-17-12-2023",
+   "ml:range-rover:others-29-11-2023-12-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e04619ef63a22bc1"
+  "enriquecido": true,
+  "hashContenido": "d6ed9052107729d6"
  },
  "slug": "coche-de-pasajeros-camioneta-land-rover-range-rover-safety-gate-10013827"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -43,10 +43,15 @@
     "e8*2007/46*0249*00-*25",
     "e8*2007/46*0272*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.09.2012 - 27.06.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coches de pasajeros, equipados con bolsas de aire Takata.",
-   "fechasTexto": "24.09.2012 - 27.06.2014"
+   "fechasTexto": "24.09.2012 - 27.06.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +82,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "NO",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -140,15 +160,16 @@
    "mm:skoda:e11-2007-46-0250",
    "mm:skoda:e13-2007-46-1169",
    "mm:skoda:e8-2007-46-0249-00-25",
-   "mm:skoda:e8-2007-46-0272"
+   "mm:skoda:e8-2007-46-0272",
+   "ml:skoda:24-09-2012-27-06-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f50df68db4e4d916"
+  "enriquecido": true,
+  "hashContenido": "2113f8593f2f6d4c"
  },
  "slug": "coche-de-pasajeros-skoda-safety-gate-10014005"
 }

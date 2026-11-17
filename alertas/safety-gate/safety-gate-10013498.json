@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,24 @@
     "Lexus and Toyota"
    ],
    "modelos": [
-    "e6*2007/46*0250*06",
-    "e6*2018/858*00081*00",
-    "e6*2018/858*00002*02",
-    "e6*2018/858*00209*00",
-    "e6*2018/858*00144*01",
-    "e6*2018/858*00186*00",
-    "e6*2018/858*00260*00",
-    "e6*2007/46*0263*06",
-    "e6*2007/46*0263*07",
-    "e6*2018/858*00264*00"
+    "e6*2007/46*0250*06, e6*2018/858*00081*00.",
+    "e6*2018/858*00002*02, e6*2018/858*00209*00, e6*2018/858*00144*01, e6*2018/858*00186*00, e6*2018/858*00260*00, e6*2007/46*0263*06, e6*2007/46*0263*07, e6*2018/858*00264*00,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "- Lexus: ES (20/02/2023 ~ 23/08/2023), LS500/500H (10/11/2022 ~ 07/09/2023, LX600/500D (14/02/2023 ~ 28/08/2023), NX (13/12/2022 ~ 04/03/2023), RX (08/11/2022 ~ 08/08/2023),"
+    },
+    {
+     "numero": "- Lexus: RZ (23/01/2023 ~ 21/07/2023), UX (20/01/2023 ~ 10/08/2023);"
+    },
+    {
+     "numero": "- Toyota: Bz4X (10/03/2023 ~ 11/07/2023), Corolla Cross (20/12/2022 ~ 04/04/2023), Mirai (11/01/2023 ~ 19/09/2023), Prius PHEV (16/03/2023 ~ 04/08/2023)."
+    }
+   ],
    "ean": [],
    "descripcion": "Código del modelo: Lexus: AXZA10/AXZH10/GSZ10, GVF50/GVF55, FJA310/VJA310, AAZA25/AAZH20/AAZH25/AAZH26/TAZA25, AALH15/AALH16/TALA15/TALH17, XEBM15, KMA10/MZAA10/MZAH10/MZAH15; Toyota: XEAM10/YEAM15, MXGH12/MXGH15/ZVG12/ZVG13, JPD20, MXWH61. Año de los modelos: 2023.",
-   "fechasTexto": "- Lexus: ES (20/02/2023 ~ 23/08/2023), LS500/500H (10/11/2022 ~ 07/09/2023, LX600/500D (14/02/2023 ~ 28/08/2023), NX (13/12/2022 ~ 04/03/2023), RX (08/11/2022 ~ 08/08/2023),- Lexus: RZ (23/01/2023 ~ 21/07/2023), UX (20/01/2023 ~ 10/08/2023);- Toyota: Bz4X (10/03/2023 ~ 11/07/2023), Corolla Cross (20/12/2022 ~ 04/04/2023), Mirai (11/01/2023 ~ 19/09/2023), Prius PHEV (16/03/2023 ~ 04/08/2023)."
+   "fechasTexto": "- Lexus: ES (20/02/2023 ~ 23/08/2023), LS500/500H (10/11/2022 ~ 07/09/2023, LX600/500D (14/02/2023 ~ 28/08/2023), NX (13/12/2022 ~ 04/03/2023), RX (08/11/2022 ~ 08/08/2023),- Lexus: RZ (23/01/2023 ~ 21/07/2023), UX (20/01/2023 ~ 10/08/2023);- Toyota: Bz4X (10/03/2023 ~ 11/07/2023), Corolla Cross (20/12/2022 ~ 04/04/2023), Mirai (11/01/2023 ~ 19/09/2023), Prius PHEV (16/03/2023 ~ 04/08/2023).",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +74,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,24 +133,19 @@
  "dedup": {
   "claves": [
    "ref:A12/01818/24",
-   "mm:lexus-and-toyota:e6-2007-46-0250-06",
-   "mm:lexus-and-toyota:e6-2018-858-00081-00",
-   "mm:lexus-and-toyota:e6-2018-858-00002-02",
-   "mm:lexus-and-toyota:e6-2018-858-00209-00",
-   "mm:lexus-and-toyota:e6-2018-858-00144-01",
-   "mm:lexus-and-toyota:e6-2018-858-00186-00",
-   "mm:lexus-and-toyota:e6-2018-858-00260-00",
-   "mm:lexus-and-toyota:e6-2007-46-0263-06",
-   "mm:lexus-and-toyota:e6-2007-46-0263-07",
-   "mm:lexus-and-toyota:e6-2018-858-00264-00"
+   "mm:lexus-and-toyota:e6-2007-46-0250-06-e6-2018-858-00081-00",
+   "mm:lexus-and-toyota:e6-2018-858-00002-02-e6-2018-858-00209-00-e6-2018-858-00144-01-e6-2018-858-00186-00-e6-2018-858-00260-00-e6-2007-46-0263-06-e6-2007-46-0263-07-e6-2018-858-00264-00",
+   "ml:lexus-and-toyota:lexus-es-20-02-2023-23-08-2023-ls500-500h-10-11-2022-07-09-2023-lx600-500d-14-02-2023-28-08-2023-nx-13-12-2022-04-03-2023-rx-08-11-2022-08-08-2023",
+   "ml:lexus-and-toyota:lexus-rz-23-01-2023-21-07-2023-ux-20-01-2023-10-08-2023",
+   "ml:lexus-and-toyota:toyota-bz4x-10-03-2023-11-07-2023-corolla-cross-20-12-2022-04-04-2023-mirai-11-01-2023-19-09-2023-prius-phev-16-03-2023-04-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ffea44399edaea35"
+  "enriquecido": true,
+  "hashContenido": "8f20b3ae4725dfcd"
  },
  "slug": "coche-de-pasajeros-lexus-and-toyota-safety-gate-10013498"
 }

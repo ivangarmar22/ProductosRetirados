@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,9 +35,12 @@
      "numero": "9445202204"
     }
    ],
-   "ean": [],
+   "ean": [
+    "8434077794180"
+   ],
    "descripcion": "Disfraz de pirata compuesto por andadores, pantalones, chaqueta, camisa y sombrero.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico y textil."
   }
  ],
  "riesgo": {
@@ -99,17 +102,18 @@
  "dedup": {
   "claves": [
    "ref:A12/02025/24",
+   "ean:8434077794180",
    "mm:fiestas-guirca:77418-size-5-6",
    "mm:fiestas-guirca:77419-size-7-9",
    "ml:fiestas-guirca:9445202204"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4195e4b74091ac60"
+  "enriquecido": true,
+  "hashContenido": "61d96c466395dcd8"
  },
  "slug": "disfraz-de-disfraz-infantil-fiestas-guirca-safety-gate-10013955"
 }

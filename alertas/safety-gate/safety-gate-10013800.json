@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-08"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -24,7 +24,8 @@
   {
    "nombre": "Arrastador primeros pasos",
    "marcas": [
-    "FROOTIMALS, GIGGLE"
+    "FROOTIMALS",
+    "GIGGLE"
    ],
    "modelos": [
     "FT00026"
@@ -38,7 +39,8 @@
     "8435507867603"
    ],
    "descripcion": "Juguete tirador de madera en forma de abeja, destinado a niños de 12 meses o más.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,16 +109,18 @@
   "claves": [
    "ref:A12/01956/24",
    "ean:8435507867603",
-   "mm:frootimals-giggle:ft00026",
-   "ml:frootimals-giggle:202205128"
+   "mm:frootimals:ft00026",
+   "ml:frootimals:202205128",
+   "mm:giggle:ft00026",
+   "ml:giggle:202205128"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fca1d3df183ffcb9"
+  "enriquecido": true,
+  "hashContenido": "4e46d1414ca721e7"
  },
  "slug": "juguete-de-traccion-frootimals-giggle-safety-gate-10013800"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "W0924"
-    },
-    {
-     "numero": "58850919"
+     "numero": "W0924, 58850919"
     }
    ],
    "ean": [
     "5907690127688"
    ],
    "descripcion": "Eau de parfum, destinado a mujeres, 80 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -101,16 +99,15 @@
   "claves": [
    "ref:A12/01888/24",
    "ean:5907690127688",
-   "ml:jfenzi:w0924",
-   "ml:jfenzi:58850919"
+   "ml:jfenzi:w0924-58850919"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "976e14c6d47ca1be"
+  "enriquecido": true,
+  "hashContenido": "7e93f3d00e095dba"
  },
  "slug": "perfume-jfenzi-safety-gate-10013833"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-25"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "403333572630"
+     "numero": "403333"
+    },
+    {
+     "numero": "572630"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "4053873333832"
    ],
    "descripcion": "Guantes cortos de cuero, guantes cortos de moto marrón y negro; guantes cortos de cuero, guantes cortos de motocicleta grises y negros; Material: forro de cuero (piel de cabra): 100% poliéster Gama de tamaños: HOMBRE/UNISEX (UE): 7.5 - 8 - 8.5 - 9 - 9.5 - 10 - 10.5 - 11. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envase original del fabricante con la información del usuario adjunta"
   }
  ],
  "riesgo": {
@@ -85,7 +89,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Pakistán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -112,15 +118,16 @@
    "ean:4053873333733",
    "ean:4053873333832",
    "mm:spirit-motors-johnny-bglove:3115251",
-   "ml:spirit-motors-johnny-bglove:403333572630"
+   "ml:spirit-motors-johnny-bglove:403333",
+   "ml:spirit-motors-johnny-bglove:572630"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "555204f55a4ee642"
+  "enriquecido": true,
+  "hashContenido": "5d92ce7c136a1387"
  },
  "slug": "guantes-spirit-motors-johnny-bglove-safety-gate-10013491"
 }

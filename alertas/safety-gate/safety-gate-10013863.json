@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,20 @@
     "Audi"
    ],
    "modelos": [
-    "8H",
-    "8P",
+    "8H, 8P",
     "e1*2001/116*0177*",
     "e1*2001/116*0217*",
     "e1*2001/116*0456*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.07.2004 - 22.04.2013"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con bolsas de aire Takata.",
-   "fechasTexto": "13.07.2004 - 22.04.2013"
+   "fechasTexto": "13.07.2004 - 22.04.2013",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +71,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,17 +102,19 @@
  "dedup": {
   "claves": [
    "ref:A12/01957/24",
+   "mm:audi:8h-8p",
    "mm:audi:e1-2001-116-0177",
    "mm:audi:e1-2001-116-0217",
-   "mm:audi:e1-2001-116-0456"
+   "mm:audi:e1-2001-116-0456",
+   "ml:audi:13-07-2004-22-04-2013"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a5b0aa676ab58169"
+  "enriquecido": true,
+  "hashContenido": "f5cac077e51e32f1"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10013863"
 }

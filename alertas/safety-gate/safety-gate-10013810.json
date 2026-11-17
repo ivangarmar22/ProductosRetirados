@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "FML2E",
     "e1*2007/46*2063*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.06.2020 - 01.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coches de pasajeros.",
-   "fechasTexto": "10.06.2020 - 01.12.2022"
+   "fechasTexto": "10.06.2020 - 01.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +105,16 @@
   "claves": [
    "ref:A12/01914/24",
    "mm:mini:fml2e",
-   "mm:mini:e1-2007-46-2063"
+   "mm:mini:e1-2007-46-2063",
+   "ml:mini:10-06-2020-01-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e46cb7b0b6a9e643"
+  "enriquecido": true,
+  "hashContenido": "fead4638517c7f7f"
  },
  "slug": "coche-de-pasajeros-mini-safety-gate-10013810"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,30 @@
    ],
    "lotes": [
     {
-     "numero": "P124A153P124A154P124A155P124B156P224A154P224B155"
+     "numero": "P124A153"
+    },
+    {
+     "numero": "P124A154"
+    },
+    {
+     "numero": "P124A155"
+    },
+    {
+     "numero": "P124B156"
+    },
+    {
+     "numero": "P224A154"
+    },
+    {
+     "numero": "P224B155"
     }
    ],
    "ean": [
     "3264680022050"
    ],
    "descripcion": "Agua micelar floral de rosa calmante, 400 ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de bomba de plástico."
   }
  ],
  "riesgo": {
@@ -73,7 +89,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,15 +118,20 @@
    "ref:A11/00084/24",
    "ean:3264680022050",
    "mm:nuxe:vn051302",
-   "ml:nuxe:p124a153p124a154p124a155p124b156p224a154p224b155"
+   "ml:nuxe:p124a153",
+   "ml:nuxe:p124a154",
+   "ml:nuxe:p124a155",
+   "ml:nuxe:p124b156",
+   "ml:nuxe:p224a154",
+   "ml:nuxe:p224b155"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4b09127b75d2acf6"
+  "enriquecido": true,
+  "hashContenido": "cb6085851c1faf4c"
  },
  "slug": "agua-micelar-nuxe-safety-gate-10013874"
 }

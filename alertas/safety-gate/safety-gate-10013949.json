@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -49,10 +49,15 @@
     "e4*30r02/24*109320*01",
     "e4*30r02/24*132721*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.03.2024 - 07.03.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Piezas de vehículos / Neumáticos para automóviles.",
-   "fechasTexto": "04.03.2024 - 07.03.2024"
+   "fechasTexto": "04.03.2024 - 07.03.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,7 +87,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Hungría",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -150,15 +158,16 @@
    "mm:vredestein:e4-30r02-22-127387-00",
    "mm:vredestein:e4-30r02-23-127383-00",
    "mm:vredestein:e4-30r02-24-109320-01",
-   "mm:vredestein:e4-30r02-24-132721-00"
+   "mm:vredestein:e4-30r02-24-132721-00",
+   "ml:vredestein:04-03-2024-07-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "41bfa1621339938b"
+  "enriquecido": true,
+  "hashContenido": "e773f8ee436a3b77"
  },
  "slug": "piezas-de-vehiculos-neumaticos-para-automoviles-vredestein-safety-gate-10013949"
 }

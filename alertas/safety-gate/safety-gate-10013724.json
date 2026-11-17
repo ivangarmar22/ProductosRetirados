@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,21 @@
     "e6*2018/858*00186*00",
     "e6*2018/858*00186*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.11.2021 - 14.11.2023 (Bz4X)"
+    },
+    {
+     "numero": "15.04.2021 - 06.03.2023 (NX)"
+    },
+    {
+     "numero": "21.02.2022 - 23.01.2024 (Corolla Cross)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coches de pasajeros. Año de los modelos: 2021-2024; Código modelo: - Bz4X : XEAM10, YEAM15, - Cruz de Corola : MXGH12, MXGH15, ZVG12, ZVG13, - NX : AAZA20, AAZA25, AAZH20, AAZH25, AAZH26, MAZA20, TAZA25.",
-   "fechasTexto": "02.11.2021 - 14.11.2023 (Bz4X)15.04.2021 - 06.03.2023 (NX)21.02.2022 - 23.01.2024 (Corolla Cross)"
+   "fechasTexto": "02.11.2021 - 14.11.2023 (Bz4X)15.04.2021 - 06.03.2023 (NX)21.02.2022 - 23.01.2024 (Corolla Cross)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +77,23 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +120,18 @@
    "mm:lexus-and-toyota:e6-2018-858-00144-00",
    "mm:lexus-and-toyota:e6-2018-858-00144-01",
    "mm:lexus-and-toyota:e6-2018-858-00186-00",
-   "mm:lexus-and-toyota:e6-2018-858-00186-01"
+   "mm:lexus-and-toyota:e6-2018-858-00186-01",
+   "ml:lexus-and-toyota:02-11-2021-14-11-2023-bz4x",
+   "ml:lexus-and-toyota:15-04-2021-06-03-2023-nx",
+   "ml:lexus-and-toyota:21-02-2022-23-01-2024-corolla-cross"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd1996b20eb96134"
+  "enriquecido": true,
+  "hashContenido": "2b4c2c95ba6d09dd"
  },
  "slug": "coche-de-pasajeros-lexus-and-toyota-safety-gate-10013724"
 }

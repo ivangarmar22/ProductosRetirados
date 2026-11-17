@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,18 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0534*04",
-    "*11-*16 (M)",
+    "e2*2007/46*0534*04,*11-*16 (M)",
     "e2*2007/46*0628*05-*11 (F)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.03.2019 - 28.04.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "12.03.2019 - 28.04.2021"
+   "fechasTexto": "12.03.2019 - 28.04.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,17 +105,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01705/24",
-   "mm:peugeot:e2-2007-46-0534-04",
-   "mm:peugeot:11-16-m",
-   "mm:peugeot:e2-2007-46-0628-05-11-f"
+   "mm:peugeot:e2-2007-46-0534-04-11-16-m",
+   "mm:peugeot:e2-2007-46-0628-05-11-f",
+   "ml:peugeot:12-03-2019-28-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f56f4e7af0b937f8"
+  "enriquecido": true,
+  "hashContenido": "f768ab22f264bad2"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10013534"
 }

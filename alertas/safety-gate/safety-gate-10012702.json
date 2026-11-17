@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "3338025677622"
    ],
    "descripcion": "Juguete hecho de un palo de madera equipado con ruedas de madera y montado con cabeza de unicornio.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico sobre la cabeza del unicornio."
   }
  ],
  "riesgo": {
@@ -69,7 +70,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "CZ",
+   "EE",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aa8d7ded775f38ca"
+  "enriquecido": true,
+  "hashContenido": "113e1e488957d232"
  },
  "slug": "unicornio-de-juguete-equikids-safety-gate-10012702"
 }

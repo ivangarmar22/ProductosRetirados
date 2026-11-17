@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-22"
  },
  "categoria": {
   "literal": "Otros - Cigarrillos electrónicos",
@@ -36,7 +36,10 @@
    ],
    "lotes": [
     {
-     "numero": "FGH4230401FR20231214"
+     "numero": "FGH4230401"
+    },
+    {
+     "numero": "FR20231214"
     }
    ],
    "ean": [
@@ -48,7 +51,8 @@
     "4060171002896"
    ],
    "descripcion": "Cigarrillo electrónico desechable sin nicotina.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón impresa en color."
   }
  ],
  "riesgo": {
@@ -86,7 +90,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -149,15 +155,16 @@
    "mm:freigeist:lemon-thc-p-vape",
    "mm:freigeist:lemon-og-h4cbd-vape",
    "mm:freigeist:tropical-blaze-thc-p-vape",
-   "ml:freigeist:fgh4230401fr20231214"
+   "ml:freigeist:fgh4230401",
+   "ml:freigeist:fr20231214"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32efa042afd4100f"
+  "enriquecido": true,
+  "hashContenido": "114a5fbd794a2949"
  },
  "slug": "cigarrillo-electronico-freigeist-safety-gate-10013905"
 }

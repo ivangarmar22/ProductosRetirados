@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-15"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -27,32 +27,19 @@
     "FROFILE"
    ],
    "modelos": [
-    "TK01",
-    "WMTK001 (CJYTK01-BlackA",
-    "A001)",
-    "TK01",
-    "WMTK001 (CJYTK01-BlackA",
-    "A002)",
-    "TK01",
-    "WMTK001 (CJYTK01-BlackA",
-    "A003)",
-    "TK01",
-    "WMTK001 (CJYTK01-BlackA",
-    "A008)",
-    "TK01",
-    "WMTK001 (CJYTK01-BlackA",
-    "A010)",
-    "TK01",
-    "WMTK001 (CJYTK01-BlackA",
-    "A012)",
-    "TK01",
-    "WMTK001 (CJYTK01-BlackA",
-    "A6868)"
+    "TK01 / WMTK001 (CJYTK01-BlackA, A001)",
+    "TK01 / WMTK001 (CJYTK01-BlackA, A002)",
+    "TK01 / WMTK001 (CJYTK01-BlackA, A003)",
+    "TK01 / WMTK001 (CJYTK01-BlackA, A008)",
+    "TK01 / WMTK001 (CJYTK01-BlackA, A010)",
+    "TK01 / WMTK001 (CJYTK01-BlackA, A012)",
+    "TK01 / WMTK001 (CJYTK01-BlackA, A6868)"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Casco de bicicleta. Producto vendido en línea, en particular a través de Amazon (ASIN: B08B7W9S1V). Todos los lotes están afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -90,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,23 +106,21 @@
  "dedup": {
   "claves": [
    "ref:A12/01830/24",
-   "mm:frofile:tk01",
-   "mm:frofile:wmtk001-cjytk01-blacka",
-   "mm:frofile:a001",
-   "mm:frofile:a002",
-   "mm:frofile:a003",
-   "mm:frofile:a008",
-   "mm:frofile:a010",
-   "mm:frofile:a012",
-   "mm:frofile:a6868"
+   "mm:frofile:tk01-wmtk001-cjytk01-blacka-a001",
+   "mm:frofile:tk01-wmtk001-cjytk01-blacka-a002",
+   "mm:frofile:tk01-wmtk001-cjytk01-blacka-a003",
+   "mm:frofile:tk01-wmtk001-cjytk01-blacka-a008",
+   "mm:frofile:tk01-wmtk001-cjytk01-blacka-a010",
+   "mm:frofile:tk01-wmtk001-cjytk01-blacka-a012",
+   "mm:frofile:tk01-wmtk001-cjytk01-blacka-a6868"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1a892517e0442e73"
+  "enriquecido": true,
+  "hashContenido": "ef989f27868ae04a"
  },
  "slug": "casco-de-bicicleta-frofile-safety-gate-10013673"
 }

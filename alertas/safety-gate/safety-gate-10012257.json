@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-02"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,24 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "L12116L12815L14615L15116"
+     "numero": "L12116"
+    },
+    {
+     "numero": "L12815"
+    },
+    {
+     "numero": "L14615"
+    },
+    {
+     "numero": "L15116"
     }
    ],
    "ean": [
     "8424730003254"
    ],
    "descripcion": "Eau de toilette, destinado a mujeres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lata de aluminio."
   }
  ],
  "riesgo": {
@@ -86,15 +96,18 @@
   "claves": [
    "ref:A12/01726/24",
    "ean:8424730003254",
-   "ml:yuven-beauty:l12116l12815l14615l15116"
+   "ml:yuven-beauty:l12116",
+   "ml:yuven-beauty:l12815",
+   "ml:yuven-beauty:l14615",
+   "ml:yuven-beauty:l15116"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1a974e70d5b12f4a"
+  "enriquecido": true,
+  "hashContenido": "a95a09c07c5cbc67"
  },
  "slug": "agua-de-toilette-yuven-beauty-safety-gate-10012257"
 }

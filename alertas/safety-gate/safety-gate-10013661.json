@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-06"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,9 +34,14 @@
     "VIMTO 2%"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "5905311241720",
+    "5905311251309",
+    "5905311251330"
+   ],
    "descripcion": "Cigarrillo electrónico desechable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -104,15 +109,18 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01884/24"
+   "ref:A12/01884/24",
+   "ean:5905311241720",
+   "ean:5905311251309",
+   "ean:5905311251330"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1202e60de61eb3c0"
+  "enriquecido": true,
+  "hashContenido": "78f34b0e514f5807"
  },
  "slug": "cigarrillo-electronico-desechable-aroma-king-9000-puffs-safety-gate-10013661"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-17"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5901890058100"
    ],
    "descripcion": "Multímetro digital negro y amarillo utilizado para medir el voltaje y la corriente en circuitos eléctricos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +118,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9ba6fad83e503edf"
+  "enriquecido": true,
+  "hashContenido": "77d2b187b5bbae27"
  },
  "slug": "multimetro-digital-rebel-safety-gate-10013991"
 }

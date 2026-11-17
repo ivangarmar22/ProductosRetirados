@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-11"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "A6627NBI-002"
+     "numero": "A6627"
+    },
+    {
+     "numero": "NBI-002"
     }
    ],
    "ean": [
     "5425017734222"
    ],
    "descripcion": "Eau de parfum, destinado a mujeres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella en una caja cilíndrica."
   }
  ],
  "riesgo": {
@@ -106,15 +110,16 @@
   "claves": [
    "ref:A12/01847/24",
    "ean:5425017734222",
-   "ml:new-brand:a6627nbi-002"
+   "ml:new-brand:a6627",
+   "ml:new-brand:nbi-002"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4e5fce34cd83570a"
+  "enriquecido": true,
+  "hashContenido": "642a11e000b9987b"
  },
  "slug": "perfume-new-brand-safety-gate-10013758"
 }

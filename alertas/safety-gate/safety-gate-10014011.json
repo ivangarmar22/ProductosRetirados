@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*KS18/858*00010*00-*01 (KG-11)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.8.2023 - 5.4.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "19.8.2023 - 5.4.2024"
+   "fechasTexto": "19.8.2023 - 5.4.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02005/24",
-   "mm:koenigsegg:e5-ks18-858-00010-00-01-kg-11"
+   "mm:koenigsegg:e5-ks18-858-00010-00-01-kg-11",
+   "ml:koenigsegg:19-8-2023-5-4-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e54f640eabb73e41"
+  "enriquecido": true,
+  "hashContenido": "5caa4f916d99d969"
  },
  "slug": "coche-de-pasajeros-koenigsegg-safety-gate-10014011"
 }

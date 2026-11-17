@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,13 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "1710047K1825186K1826187K"
+     "numero": "1710047K"
+    },
+    {
+     "numero": "1825186K"
+    },
+    {
+     "numero": "1826187K"
     }
    ],
    "ean": [
@@ -38,7 +44,8 @@
     "8032979041397"
    ],
    "descripcion": "Eau de toilette, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de lata."
   }
  ],
  "riesgo": {
@@ -122,15 +129,17 @@
    "ean:8032979040024",
    "ean:8032979040031",
    "ean:8032979041397",
-   "ml:jame-parfum:1710047k1825186k1826187k"
+   "ml:jame-parfum:1710047k",
+   "ml:jame-parfum:1825186k",
+   "ml:jame-parfum:1826187k"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cfa9e27e68fe4693"
+  "enriquecido": true,
+  "hashContenido": "8c862e7c1ffc920a"
  },
  "slug": "agua-de-toilette-jame-parfum-safety-gate-10012391"
 }

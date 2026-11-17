@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "73114CYB 20:4580254CYB 19:41"
+     "numero": "73114CYB 20:45"
+    },
+    {
+     "numero": "80254CYB 19:41"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "50099634"
    ],
    "descripcion": "Desodorante de talco en spray con crema hidratante, 75 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -104,15 +108,16 @@
    "ref:A12/01810/24",
    "ean:50099627",
    "ean:50099634",
-   "ml:dove:73114cyb-20-4580254cyb-19-41"
+   "ml:dove:73114cyb-20-45",
+   "ml:dove:80254cyb-19-41"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "29eaf2518b8963d7"
+  "enriquecido": true,
+  "hashContenido": "7ee2744e71acd0e6"
  },
  "slug": "desodorante-dove-safety-gate-10012313"
 }
