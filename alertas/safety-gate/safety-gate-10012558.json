@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "0225X84203201386183219285814219285834"
+     "numero": "0225X84203"
+    },
+    {
+     "numero": "201386183"
+    },
+    {
+     "numero": "219285814"
+    },
+    {
+     "numero": "219285834"
     }
    ],
    "ean": [
@@ -40,7 +49,8 @@
     "8015700159240"
    ],
    "descripcion": "Múltiples tintes para el cabello coloreados, 50 ml cada uno.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -118,15 +128,18 @@
    "ean:8015700152951",
    "ean:8015700153040",
    "ean:8015700159240",
-   "ml:palette:0225x84203201386183219285814219285834"
+   "ml:palette:0225x84203",
+   "ml:palette:201386183",
+   "ml:palette:219285814",
+   "ml:palette:219285834"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9b53130a868de8f1"
+  "enriquecido": true,
+  "hashContenido": "1491cac929ab91ba"
  },
  "slug": "tinte-para-el-cabello-palette-safety-gate-10012558"
 }

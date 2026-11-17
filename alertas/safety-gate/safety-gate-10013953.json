@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-23"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -27,12 +27,8 @@
     "Bloomingville"
    ],
    "modelos": [
-    "Agnes Cup",
-    "Green",
-    "Stoneware/82060911",
-    "Agnes Cup",
-    "White",
-    "Stoneware/82060912"
+    "Agnes Cup, Green, Stoneware/82060911",
+    "Agnes Cup, White, Stoneware/82060912"
    ],
    "lotes": [],
    "ean": [
@@ -40,7 +36,8 @@
     "5711173322008"
    ],
    "descripcion": "Taza de beber de cerámica para niños con naranjas pintadas en el exterior. Una naranja colocada en la parte inferior de la taza, tamaño: Ø 7cm x H 6cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "Dinamarca",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,19 +97,16 @@
    "ref:A12/02254/24",
    "ean:5711173321995",
    "ean:5711173322008",
-   "mm:bloomingville:agnes-cup",
-   "mm:bloomingville:green",
-   "mm:bloomingville:stoneware-82060911",
-   "mm:bloomingville:white",
-   "mm:bloomingville:stoneware-82060912"
+   "mm:bloomingville:agnes-cup-green-stoneware-82060911",
+   "mm:bloomingville:agnes-cup-white-stoneware-82060912"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2af53354b29d29b7"
+  "enriquecido": true,
+  "hashContenido": "62eaeccc5d19ee82"
  },
  "slug": "taza-de-beber-para-los-ninos-bloomingville-safety-gate-10013953"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B16045"
-    },
-    {
-     "numero": "B16044"
+     "numero": "B16045; B16044"
     }
    ],
    "ean": [
     "8715658350118"
    ],
    "descripcion": "Eau de toilette, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -93,16 +91,15 @@
   "claves": [
    "ref:A12/02168/24",
    "ean:8715658350118",
-   "ml:real-time:b16045",
-   "ml:real-time:b16044"
+   "ml:real-time:b16045-b16044"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3f9e3b36e61cfa71"
+  "enriquecido": true,
+  "hashContenido": "af7ff615888930f1"
  },
  "slug": "agua-de-toilette-real-time-safety-gate-10014049"
 }

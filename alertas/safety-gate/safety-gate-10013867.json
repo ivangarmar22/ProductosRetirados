@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,41 +29,25 @@
    "modelos": [
     "TR*2007/46*8177",
     "TR*2007/46*8200",
-    "e2*2007/46*0016*01",
-    "*02",
-    "*13",
-    "*14 and *22 to *55",
+    "e2*2007/46*0016*01, *02, *13, *14 and *22 to *55",
     "e2*2007/46*0017*00 and *10 to *34",
-    "e2*2007/46*0019*00",
-    "*01 and *18 to *47",
-    "e2*2007/46*0020*15 to 20",
-    "*22 to *26",
-    "*28 to *38",
+    "e2*2007/46*0019*00, *01 and *18 to *47",
+    "e2*2007/46*0020*15 to 20, *22 to *26, *28 to *38",
     "e2*2007/46*0021*14",
-    "e2*2007/46*0048*09",
-    "*12",
-    "*16",
-    "*20",
-    "*22 to *28",
-    "*31",
-    "*32",
-    "*34",
-    "*36 and *37",
-    "e2*2007/46*0049*00 to *02",
-    "*04 to *06",
-    "*11",
-    "*17",
-    "*20 to *49",
-    "e2*2007/46*0050*01",
-    "*15 to *26",
-    "*28 to *40",
-    "e2*2007/46*0050*15 to 26",
-    "28 to 39"
+    "e2*2007/46*0048*09, *12, *16, *20, *22 to *28, *31, *32, *34, *36 and *37",
+    "e2*2007/46*0049*00 to *02, *04 to *06, *11, *17, *20 to *49",
+    "e2*2007/46*0050*01, *15 to *26, *28 to *40",
+    "e2*2007/46*0050*15 to 26, 28 to 39"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.09.2014 - 27.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros / Vehículo comercial ligero.",
-   "fechasTexto": "23.09.2014 - 27.09.2023"
+   "fechasTexto": "23.09.2014 - 27.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -93,7 +77,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "HR",
+   "IE",
+   "PL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -110,34 +103,24 @@
    "ref:A11/00094/24",
    "mm:renault:tr-2007-46-8177",
    "mm:renault:tr-2007-46-8200",
-   "mm:renault:e2-2007-46-0016-01",
-   "mm:renault:14-and-22-to-55",
+   "mm:renault:e2-2007-46-0016-01-02-13-14-and-22-to-55",
    "mm:renault:e2-2007-46-0017-00-and-10-to-34",
-   "mm:renault:e2-2007-46-0019-00",
-   "mm:renault:01-and-18-to-47",
-   "mm:renault:e2-2007-46-0020-15-to-20",
-   "mm:renault:22-to-26",
-   "mm:renault:28-to-38",
+   "mm:renault:e2-2007-46-0019-00-01-and-18-to-47",
+   "mm:renault:e2-2007-46-0020-15-to-20-22-to-26-28-to-38",
    "mm:renault:e2-2007-46-0021-14",
-   "mm:renault:e2-2007-46-0048-09",
-   "mm:renault:22-to-28",
-   "mm:renault:36-and-37",
-   "mm:renault:e2-2007-46-0049-00-to-02",
-   "mm:renault:04-to-06",
-   "mm:renault:20-to-49",
-   "mm:renault:e2-2007-46-0050-01",
-   "mm:renault:15-to-26",
-   "mm:renault:28-to-40",
-   "mm:renault:e2-2007-46-0050-15-to-26",
-   "mm:renault:28-to-39"
+   "mm:renault:e2-2007-46-0048-09-12-16-20-22-to-28-31-32-34-36-and-37",
+   "mm:renault:e2-2007-46-0049-00-to-02-04-to-06-11-17-20-to-49",
+   "mm:renault:e2-2007-46-0050-01-15-to-26-28-to-40",
+   "mm:renault:e2-2007-46-0050-15-to-26-28-to-39",
+   "ml:renault:23-09-2014-27-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0318ca208213d44e"
+  "enriquecido": true,
+  "hashContenido": "1849665ac233b26a"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-renault-safety-gate-10013867"
 }

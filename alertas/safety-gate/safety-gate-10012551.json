@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "AA ED181230 MD1220 1851AA ED190431 MD0421 1244"
+     "numero": "AA ED181230 MD1220 1851"
+    },
+    {
+     "numero": "AA ED190431 MD0421 1244"
     }
    ],
-   "ean": [],
+   "ean": [
+    "8003510000579"
+   ],
    "descripcion": "Laca para el cabello, anunciada como que proporciona una fuerte sujeción, 300 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lata de aluminio."
   }
  ],
  "riesgo": {
@@ -95,15 +101,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02209/24",
-   "ml:splend-or:aa-ed181230-md1220-1851aa-ed190431-md0421-1244"
+   "ean:8003510000579",
+   "ml:splend-or:aa-ed181230-md1220-1851",
+   "ml:splend-or:aa-ed190431-md0421-1244"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "039b3b0ba1e4a9a9"
+  "enriquecido": true,
+  "hashContenido": "1b979ce8a8640a9d"
  },
  "slug": "laca-para-el-cabello-splend-or-safety-gate-10012551"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "117201117302"
+     "numero": "117201"
+    },
+    {
+     "numero": "117302"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "8053285014912"
    ],
    "descripcion": "Una crema depilatoria para las piernas y el cuerpo con manteca de karité, 150 ml. Una crema depilatoria para piernas y cuerpo con aceite de almendras dulces, 150 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -116,15 +120,16 @@
    "ref:A12/02247/24",
    "ean:8053285014905",
    "ean:8053285014912",
-   "ml:cosmi:117201117302"
+   "ml:cosmi:117201",
+   "ml:cosmi:117302"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "04b298eec9ee62da"
+  "enriquecido": true,
+  "hashContenido": "0ec37d7b87d9c6b4"
  },
  "slug": "crema-depilatoria-cosmi-safety-gate-10012602"
 }

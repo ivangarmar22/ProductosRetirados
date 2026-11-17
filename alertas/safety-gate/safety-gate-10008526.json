@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Seat"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2013, 2014, 2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, equipado con infladores de airbag fabricados por TAKATA",
-   "fechasTexto": "2013, 2014, 2015"
+   "fechasTexto": "2013, 2014, 2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +66,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "GR",
+   "IE",
+   "NL",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -70,15 +84,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/00871/23"
+   "ref:A12/00871/23",
+   "ml:seat:2013-2014-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b0f50fe89c46ea8e"
+  "enriquecido": true,
+  "hashContenido": "85ee6ffca9cafa93"
  },
  "slug": "coche-de-pasajeros-seat-safety-gate-10008526"
 }

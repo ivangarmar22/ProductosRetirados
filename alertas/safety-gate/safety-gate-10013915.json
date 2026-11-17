@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "00090700"
-    },
-    {
-     "numero": "200708"
+     "numero": "00090700 / 200708"
     }
    ],
    "ean": [
     "8410757101660"
    ],
    "descripcion": "Leche corporal, 400 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanca."
   }
  ],
  "riesgo": {
@@ -105,16 +103,15 @@
   "claves": [
    "ref:A12/02187/24",
    "ean:8410757101660",
-   "ml:s-nonas:00090700",
-   "ml:s-nonas:200708"
+   "ml:s-nonas:00090700-200708"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4c32b856417823d0"
+  "enriquecido": true,
+  "hashContenido": "ae2efaddb073c31d"
  },
  "slug": "leche-corporal-s-nonas-safety-gate-10013915"
 }

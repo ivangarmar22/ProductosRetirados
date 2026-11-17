@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-08-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "00691050"
+     "numero": "0069"
+    },
+    {
+     "numero": "1050"
     }
    ],
    "ean": [
     "5050456521555"
    ],
    "descripcion": "Después del afeitado, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón de color oro plateado."
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
   "claves": [
    "ref:A12/02107/24",
    "ean:5050456521555",
-   "ml:playboy:00691050"
+   "ml:playboy:0069",
+   "ml:playboy:1050"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "44d9b3c4fd8213ef"
+  "enriquecido": true,
+  "hashContenido": "6350096f87daaf9e"
  },
  "slug": "despues-del-afeitado-playboy-safety-gate-10014022"
 }
