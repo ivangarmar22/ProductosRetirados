@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,27 @@
    ],
    "lotes": [
     {
-     "numero": "LT 2000193LT 2001008LT2000598LT2000607LT2000940"
+     "numero": "LT 2000193"
+    },
+    {
+     "numero": "LT 2001008"
+    },
+    {
+     "numero": "LT2000598"
+    },
+    {
+     "numero": "LT2000607"
+    },
+    {
+     "numero": "LT2000940"
     }
    ],
    "ean": [
     "3700476010653"
    ],
    "descripcion": "Tabla de cortar de madera y juego de comida, que representa un trozo de carne, una cabeza de brócoli, una zanahoria, una cebolla, una papa y un cuchillo. Elementos en tres partes: croissants, zanahorias, patatas",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Película elástica"
   }
  ],
  "riesgo": {
@@ -72,7 +85,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,15 +129,19 @@
    "ref:A12/01436/24",
    "ean:3700476010653",
    "mm:storiz:503487",
-   "ml:storiz:lt-2000193lt-2001008lt2000598lt2000607lt2000940"
+   "ml:storiz:lt-2000193",
+   "ml:storiz:lt-2001008",
+   "ml:storiz:lt2000598",
+   "ml:storiz:lt2000607",
+   "ml:storiz:lt2000940"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7da525da15de81ce"
+  "enriquecido": true,
+  "hashContenido": "d31046049a4debce"
  },
  "slug": "juego-de-cocina-de-juguete-storiz-safety-gate-10012968"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-16"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -27,17 +27,23 @@
     "Soho Home"
    ],
    "modelos": [
-    "King Steel",
-    "Super King Navy and King Sage"
+    "King Steel, Super King Navy and King Sage."
    ],
    "lotes": [
     {
-     "numero": "745045067450793474550770"
+     "numero": "74504506"
+    },
+    {
+     "numero": "74507934"
+    },
+    {
+     "numero": "74550770"
     }
    ],
    "ean": [],
    "descripcion": "Marco de cama de madera con inserciones de terciopelo en los paneles superior e inferior. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -90,17 +96,18 @@
  "dedup": {
   "claves": [
    "ref:INFO/00077/24",
-   "mm:soho-home:king-steel",
-   "mm:soho-home:super-king-navy-and-king-sage",
-   "ml:soho-home:745045067450793474550770"
+   "mm:soho-home:king-steel-super-king-navy-and-king-sage",
+   "ml:soho-home:74504506",
+   "ml:soho-home:74507934",
+   "ml:soho-home:74550770"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7704bdbc26e69cd6"
+  "enriquecido": true,
+  "hashContenido": "4fa4715c194e5e11"
  },
  "slug": "cama-de-madera-soho-home-safety-gate-10012966"
 }

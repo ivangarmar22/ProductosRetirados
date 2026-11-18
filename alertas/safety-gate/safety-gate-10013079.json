@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Regenerační balzám TOTAL REPAIR 5",
    "marcas": [
-    "ELSEVE, L'OREAL PARIS"
+    "ELSEVE",
+    "L'OREAL PARIS"
    ],
    "modelos": [],
    "lotes": [
@@ -36,7 +37,8 @@
     "3600522747932"
    ],
    "descripcion": "Acondicionador capilar, 400 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -90,15 +92,16 @@
   "claves": [
    "ref:A12/01244/24",
    "ean:3600522747932",
-   "ml:elseve-l-oreal-paris:24s302"
+   "ml:elseve:24s302",
+   "ml:l-oreal-paris:24s302"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8a071905e6b39a24"
+  "enriquecido": true,
+  "hashContenido": "72de059f519e3619"
  },
  "slug": "acondicionador-de-cabello-elseve-l-oreal-paris-safety-gate-10013079"
 }

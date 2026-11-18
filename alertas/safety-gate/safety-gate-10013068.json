@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "E8*44R04/17*8144*01 (TH01)",
     "E8*44R04/18*12126*01 (TH02)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2022 - 31.05.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Asiento de seguridad para niños",
-   "fechasTexto": "01.08.2022 - 31.05.2023"
+   "fechasTexto": "01.08.2022 - 31.05.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -92,15 +97,16 @@
   "claves": [
    "ref:A12/01358/24",
    "mm:abuki:e8-44r04-17-8144-01-th01",
-   "mm:abuki:e8-44r04-18-12126-01-th02"
+   "mm:abuki:e8-44r04-18-12126-01-th02",
+   "ml:abuki:01-08-2022-31-05-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "78bf6c80748ee05b"
+  "enriquecido": true,
+  "hashContenido": "63a8ae1a97d4a16d"
  },
  "slug": "asiento-de-seguridad-para-ninos-abuki-safety-gate-10013068"
 }

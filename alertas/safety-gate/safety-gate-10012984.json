@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -57,10 +57,18 @@
     "e2*KS07/46*0004*04 (DS3)",
     "e2*KS07/46*0005*00 (DS3)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "C3: 27.05.2009 - 04.02.2017"
+    },
+    {
+     "numero": "DS3: 16.09.2009 - 07.02.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de motor para el transporte de pasajeros, equipado con airbags Takata",
-   "fechasTexto": "C3: 27.05.2009 - 04.02.2017DS3: 16.09.2009 - 07.02.2017"
+   "fechasTexto": "C3: 27.05.2009 - 04.02.2017DS3: 16.09.2009 - 07.02.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -90,7 +98,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "GR",
+   "HR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -137,15 +150,17 @@
    "mm:citroen-ds:e2-2007-46-0060-12-c3",
    "mm:citroen-ds:e2-ks07-46-0004-00-to-e2-ks07-46-0004-02-ds3",
    "mm:citroen-ds:e2-ks07-46-0004-04-ds3",
-   "mm:citroen-ds:e2-ks07-46-0005-00-ds3"
+   "mm:citroen-ds:e2-ks07-46-0005-00-ds3",
+   "ml:citroen-ds:c3-27-05-2009-04-02-2017",
+   "ml:citroen-ds:ds3-16-09-2009-07-02-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7550d0c91da6c86d"
+  "enriquecido": true,
+  "hashContenido": "719e57f4d753998e"
  },
  "slug": "coche-de-pasajeros-citroen-ds-safety-gate-10012984"
 }

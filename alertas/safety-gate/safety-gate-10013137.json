@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-29"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,7 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "BLUEBERRY POMEGRANATEBLUEBERRY SOUR RASPBERRYSTRAWBERRY ICETRIPLE MELON"
+     "numero": "BLUEBERRY POMEGRANATE"
+    },
+    {
+     "numero": "BLUEBERRY SOUR RASPBERRY"
+    },
+    {
+     "numero": "STRAWBERRY ICE"
+    },
+    {
+     "numero": "TRIPLE MELON"
     }
    ],
    "ean": [
@@ -39,7 +48,8 @@
     "6975255095825"
    ],
    "descripcion": "Cigarrillo electrónico desechable con líquido aromatizado",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El cigarrillo electrónico se embala en un paquete de plástico sellado, que se coloca en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -92,15 +102,18 @@
    "ean:6975255094149",
    "ean:6975255094163",
    "ean:6975255095825",
-   "ml:imoment:blueberry-pomegranateblueberry-sour-raspberrystrawberry-icetriple-melon"
+   "ml:imoment:blueberry-pomegranate",
+   "ml:imoment:blueberry-sour-raspberry",
+   "ml:imoment:strawberry-ice",
+   "ml:imoment:triple-melon"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ad6ad665c71d779b"
+  "enriquecido": true,
+  "hashContenido": "379816c564d9f551"
  },
  "slug": "cigarrillo-electronico-desechable-imoment-safety-gate-10013137"
 }

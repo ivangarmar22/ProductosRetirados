@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,21 @@
     "Hyundai"
    ],
    "modelos": [
-    "IONIQ 5 (NE): e9*2018/858*11054*01",
-    "e9*2018/858*11054*03",
-    "e9*2018/858*11054*04",
-    "IONIQ 6 (CE): e4*2018/858*00145*00",
-    "e4*2018/858*00145*01"
+    "IONIQ 5 (NE): e9*2018/858*11054*01, e9*2018/858*11054*03, e9*2018/858*11054*04",
+    "IONIQ 6 (CE): e4*2018/858*00145*00, e4*2018/858*00145*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "IONIQ 5 (NE): 13.01.2021 - 29.02.2024"
+    },
+    {
+     "numero": "IONIQ 6 (CE): 28.09.2022 - 04.03.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Año del modelo: 2021 - 2024. VIN: - de KMHKM81BUMU000305 a KMHKR81FPRU290705 (IONIQ 5) - de KMHM241A1PA000485 a KMHM341BXRA074383 (IONIQ 6)",
-   "fechasTexto": "IONIQ 5 (NE): 13.01.2021 - 29.02.2024IONIQ 6 (CE): 28.09.2022 - 04.03.2024"
+   "fechasTexto": "IONIQ 5 (NE): 13.01.2021 - 29.02.2024IONIQ 6 (CE): 28.09.2022 - 04.03.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +71,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,19 +103,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01427/24",
-   "mm:hyundai:ioniq-5-ne-e9-2018-858-11054-01",
-   "mm:hyundai:e9-2018-858-11054-03",
-   "mm:hyundai:e9-2018-858-11054-04",
-   "mm:hyundai:ioniq-6-ce-e4-2018-858-00145-00",
-   "mm:hyundai:e4-2018-858-00145-01"
+   "mm:hyundai:ioniq-5-ne-e9-2018-858-11054-01-e9-2018-858-11054-03-e9-2018-858-11054-04",
+   "mm:hyundai:ioniq-6-ce-e4-2018-858-00145-00-e4-2018-858-00145-01",
+   "ml:hyundai:ioniq-5-ne-13-01-2021-29-02-2024",
+   "ml:hyundai:ioniq-6-ce-28-09-2022-04-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5b4378b97cb844f9"
+  "enriquecido": true,
+  "hashContenido": "03234485b8f2c74e"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10013200"
 }

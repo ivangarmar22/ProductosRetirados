@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.11.2023 - 06.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "06.11.2023 - 06.12.2023"
+   "fechasTexto": "06.11.2023 - 06.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "HU",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +92,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01224/24",
-   "mm:ford:individual-approval"
+   "mm:ford:individual-approval",
+   "ml:ford:06-11-2023-06-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1dc44d106e74394c"
+  "enriquecido": true,
+  "hashContenido": "f23937cf95cca786"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10012996"
 }

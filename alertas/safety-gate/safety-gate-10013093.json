@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-04"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -31,12 +31,22 @@
    ],
    "lotes": [
     {
-     "numero": "ORD01007279_01ORD01007280_01ORD01007281_01ORD01007282_01"
+     "numero": "ORD01007279_01"
+    },
+    {
+     "numero": "ORD01007280_01"
+    },
+    {
+     "numero": "ORD01007281_01"
+    },
+    {
+     "numero": "ORD01007282_01"
     }
    ],
    "ean": [],
    "descripcion": "Monedero negro, anunciado para mujeres.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +81,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,15 +106,18 @@
   "claves": [
    "ref:A12/01205/24",
    "mm:pepco-women:plu-599589",
-   "ml:pepco-women:ord01007279-01ord01007280-01ord01007281-01ord01007282-01"
+   "ml:pepco-women:ord01007279-01",
+   "ml:pepco-women:ord01007280-01",
+   "ml:pepco-women:ord01007281-01",
+   "ml:pepco-women:ord01007282-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1da5add892505909"
+  "enriquecido": true,
+  "hashContenido": "1612b82b570adbcb"
  },
  "slug": "monedero-pepco-women-safety-gate-10013093"
 }

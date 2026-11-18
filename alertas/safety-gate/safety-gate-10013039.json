@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -25,13 +25,13 @@
    "nombre": "Electric lunch box",
    "marcas": [],
    "modelos": [
-    "DFH-001",
-    "DFH-002"
+    "DFH-001 / DFH-002"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Caja de almuerzo eléctrica para calentar la comida. Producto vendido en línea, en particular a través de Amazon (ASIN: B0CBPYR5GT)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón roja y blanca."
   }
  ],
  "riesgo": {
@@ -69,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -123,11 +126,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5e74eaaf050ff3d4"
+  "enriquecido": true,
+  "hashContenido": "082f41473946d3d2"
  },
  "slug": "caja-de-almuerzo-electrica-electric-lunch-box-safety-gate-10013039"
 }

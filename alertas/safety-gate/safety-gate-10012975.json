@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "ODES1000ATV-S",
     "e13*167/2013*00333*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2021 - 09.01.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo todo terreno.",
-   "fechasTexto": "01.08.2021 - 09.01.2023"
+   "fechasTexto": "01.08.2021 - 09.01.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +99,16 @@
   "claves": [
    "ref:A12/01212/24",
    "mm:odes:odes1000atv-s",
-   "mm:odes:e13-167-2013-00333-00"
+   "mm:odes:e13-167-2013-00333-00",
+   "ml:odes:01-08-2021-09-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3df99974f2cb40f0"
+  "enriquecido": true,
+  "hashContenido": "d80c5d6b51dd6939"
  },
  "slug": "vehiculo-todo-terreno-odes-safety-gate-10012975"
 }

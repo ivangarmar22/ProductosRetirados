@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2007/46*0121*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.03.2023 - 15.01.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Año del modelo: 2023 - 2024. VIN: desde NLHBR51GXPZ298898 a NLHBR51G1RZ438016.",
-   "fechasTexto": "28.03.2023 - 15.01.2024"
+   "fechasTexto": "28.03.2023 - 15.01.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01433/24",
-   "mm:hyundai:e5-2007-46-0121-05"
+   "mm:hyundai:e5-2007-46-0121-05",
+   "ml:hyundai:28-03-2023-15-01-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d2b832e88ed06993"
+  "enriquecido": true,
+  "hashContenido": "0012fa95b9294935"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10013201"
 }

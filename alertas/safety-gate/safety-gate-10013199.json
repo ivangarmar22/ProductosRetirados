@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,18 @@
    "modelos": [
     "e4*2018/858*00153*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "G 1.0 T-GDI KAPPA: 17.04.2023 - 30.12.2023"
+    },
+    {
+     "numero": "G 1.6 T-GDI GAMMA: 21.03.2023 - 05.01.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Año del modelo: 2023 - 2024. VIN: - de KMHHB8126RU009458 a KMHHC8126RU110304 (G 1.0 T-GDI KAPPA) - de KMHHB813DRU007149 a KMHB8137RU110257 (G 1.6 T-GDI GAMMA)",
-   "fechasTexto": "G 1.0 T-GDI KAPPA: 17.04.2023 - 30.12.2023G 1.6 T-GDI GAMMA: 21.03.2023 - 05.01.2024"
+   "fechasTexto": "G 1.0 T-GDI KAPPA: 17.04.2023 - 30.12.2023G 1.6 T-GDI GAMMA: 21.03.2023 - 05.01.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +70,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +97,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01421/24",
-   "mm:hyundai:e4-2018-858-00153-00"
+   "mm:hyundai:e4-2018-858-00153-00",
+   "ml:hyundai:g-1-0-t-gdi-kappa-17-04-2023-30-12-2023",
+   "ml:hyundai:g-1-6-t-gdi-gamma-21-03-2023-05-01-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3edacfedb27a2d06"
+  "enriquecido": true,
+  "hashContenido": "41ebd8142f718eba"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10013199"
 }

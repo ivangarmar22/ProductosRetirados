@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-19"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
     "8594196133199"
    ],
    "descripcion": "Cartucho de cigarrillo electrónico que contiene un líquido amarillo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja plegada impresa en color con una etiqueta adhesiva."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dafb4d922965f3eb"
+  "enriquecido": true,
+  "hashContenido": "919e6cd38991c577"
  },
  "slug": "cartucho-de-cigarrillo-electronico-euphoria-safety-gate-10013232"
 }

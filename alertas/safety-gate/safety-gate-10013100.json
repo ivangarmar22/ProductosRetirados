@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "DFK",
     "e13*2007/46*2188*13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.11.2022 - 19.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "25.11.2022 - 19.12.2023"
+   "fechasTexto": "25.11.2022 - 19.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +100,16 @@
   "claves": [
    "ref:A12/01351/24",
    "mm:ford:dfk",
-   "mm:ford:e13-2007-46-2188-13"
+   "mm:ford:e13-2007-46-2188-13",
+   "ml:ford:25-11-2022-19-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5268d1d5767b388f"
+  "enriquecido": true,
+  "hashContenido": "5350eca137329f37"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10013100"
 }

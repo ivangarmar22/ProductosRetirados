@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "BMW Motorrad"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2023-2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Alforjas laterales de motocicleta.",
-   "fechasTexto": "2023-2024"
+   "fechasTexto": "2023-2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +93,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01221/24"
+   "ref:A12/01221/24",
+   "ml:bmw-motorrad:2023-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ac6f6b6ad2532223"
+  "enriquecido": true,
+  "hashContenido": "8177fb4f172dc237"
  },
  "slug": "cajas-laterales-de-motocicleta-bmw-motorrad-safety-gate-10012800"
 }

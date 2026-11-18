@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2018/858*00260*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.03.2023 - 29.03.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Código del modelo: MXWH61; Año modelo: 2023-2024.",
-   "fechasTexto": "15.03.2023 - 29.03.2024"
+   "fechasTexto": "15.03.2023 - 29.03.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01225/24",
-   "mm:toyota:e6-2018-858-00260-00"
+   "mm:toyota:e6-2018-858-00260-00",
+   "ml:toyota:15-03-2023-29-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "106ecab22776f15f"
+  "enriquecido": true,
+  "hashContenido": "d08f96b2e6e50c54"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10012781"
 }

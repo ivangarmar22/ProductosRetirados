@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-11"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Tinta de tatuaje de color mostaza, 30 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "ES"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ffe789411ccf2d93"
+  "enriquecido": true,
+  "hashContenido": "cb8625eaa8b26b27"
  },
  "slug": "tinta-de-tatuaje-viking-by-dynamic-safety-gate-10011909"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2018/858*00001* (NX4e)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.11.2022 - 05.04.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "30.11.2022 - 05.04.2023"
+   "fechasTexto": "30.11.2022 - 05.04.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01218/24",
-   "mm:hyundai:e5-2018-858-00001-nx4e"
+   "mm:hyundai:e5-2018-858-00001-nx4e",
+   "ml:hyundai:30-11-2022-05-04-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "31299a28c9df9c31"
+  "enriquecido": true,
+  "hashContenido": "52430eb280f2e6ec"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10013067"
 }

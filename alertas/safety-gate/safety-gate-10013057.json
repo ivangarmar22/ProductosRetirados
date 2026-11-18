@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "2200128845769"
    ],
    "descripcion": "Un conjunto que consiste en una pistola de juguete de plástico, que es un juguete de proyectiles con seis proyectiles.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de plástico con respaldo de cartón."
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "115b900e66d3fd28"
+  "enriquecido": true,
+  "hashContenido": "8ece686081642e01"
  },
  "slug": "juego-de-pistolas-de-juguete-safety-gate-10013057"
 }

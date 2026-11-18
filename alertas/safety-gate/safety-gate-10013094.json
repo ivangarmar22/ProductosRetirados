@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-26"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -29,12 +29,22 @@
    ],
    "lotes": [
     {
-     "numero": "ORD00974450_01ORD00974451_01ORD00974452_01ORD00974453_01"
+     "numero": "ORD00974450_01"
+    },
+    {
+     "numero": "ORD00974451_01"
+    },
+    {
+     "numero": "ORD00974452_01"
+    },
+    {
+     "numero": "ORD00974453_01"
     }
    ],
    "ean": [],
    "descripcion": "Trajes de bebé, paquete de dos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +78,12 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "33f24032b5e50a75"
+  "enriquecido": true,
+  "hashContenido": "9224d906eb7a2471"
  },
  "slug": "ropa-de-bebe-safety-gate-10013094"
 }

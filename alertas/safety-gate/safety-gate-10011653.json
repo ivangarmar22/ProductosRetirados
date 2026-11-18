@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "26K D0026M 905"
+     "numero": "26K D00"
+    },
+    {
+     "numero": "26M 905"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "3600541284432"
    ],
    "descripcion": "Champú, anunciado como fortalecedor y reparador, 250 ml y 400 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -108,15 +112,16 @@
    "ref:A12/01371/24",
    "ean:3600541284036",
    "ean:3600541284432",
-   "ml:garnier:26k-d0026m-905"
+   "ml:garnier:26k-d00",
+   "ml:garnier:26m-905"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a3ef6bdddc37fca6"
+  "enriquecido": true,
+  "hashContenido": "ebff16b7508a02a5"
  },
  "slug": "champu-garnier-safety-gate-10011653"
 }

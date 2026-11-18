@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-15"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8000796009609"
    ],
    "descripcion": "Bola blanda",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "01929a3be4014bff"
+  "enriquecido": true,
+  "hashContenido": "e402994daa0fd398"
  },
  "slug": "bola-blanda-soft-ball-20cm-safety-gate-10013010"
 }

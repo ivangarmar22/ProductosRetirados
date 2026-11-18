@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-13"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
     "5901299008775"
    ],
    "descripcion": "Líquido de lavado del parabrisas del coche",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete transparente en forma de botella de plástico con una boquilla."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "195e4bf4bf1d35d5"
+  "enriquecido": true,
+  "hashContenido": "ec60ca330ecc6e47"
  },
  "slug": "liquido-de-lavado-del-parabrisas-del-coche-q11-de-icer-30-c-sena-safety-gate-10013219"
 }

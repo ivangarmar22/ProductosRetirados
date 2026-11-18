@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "91663*05 Corr.01",
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.03.2012 - 07.03.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Componente de la palanca de freno de la motocicleta.",
-   "fechasTexto": "30.03.2012 - 07.03.2024"
+   "fechasTexto": "30.03.2012 - 07.03.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +96,16 @@
   "claves": [
    "ref:A12/01273/24",
    "mm:motea:91663-05-corr-01",
-   "mm:motea:individual-approval"
+   "mm:motea:individual-approval",
+   "ml:motea:30-03-2012-07-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d0858831799d1f52"
+  "enriquecido": true,
+  "hashContenido": "8f69f03dd6c0c713"
  },
  "slug": "motocicleta-pieza-de-repuesto-motea-safety-gate-10013058"
 }

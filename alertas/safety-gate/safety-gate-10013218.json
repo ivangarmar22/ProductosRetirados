@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-13"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
     "5901299007440"
    ],
    "descripcion": "Líquido de lavado del parabrisas del coche en un líquido azulado",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico transparente con una boquilla."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e5dcd8ea726f914f"
+  "enriquecido": true,
+  "hashContenido": "99bca61d3692b23e"
  },
  "slug": "liquido-de-lavado-del-parabrisas-del-coche-q11-de-icer-30-c-safety-gate-10013218"
 }

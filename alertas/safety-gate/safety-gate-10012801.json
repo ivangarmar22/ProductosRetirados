@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Yamaha"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.06.2014 - 30.03.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta/pieza de repuesto",
-   "fechasTexto": "01.06.2014 - 30.03.2023"
+   "fechasTexto": "01.06.2014 - 30.03.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "HR",
+   "IE",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +98,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/01226/24"
+   "ref:A12/01226/24",
+   "ml:yamaha:01-06-2014-30-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6a9d3b0f8efec4af"
+  "enriquecido": true,
+  "hashContenido": "62073d46b9ccf0cd"
  },
  "slug": "motocicleta-pieza-de-repuesto-yamaha-safety-gate-10012801"
 }
