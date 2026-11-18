@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-04"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Los gránulos. El producto se anuncia como un cebo venenoso para controlar ratones, ratas, ratones de campo, coypus, voles y lunares. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalajes de plástico."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8c6f5083b2bd7f56"
+  "enriquecido": true,
+  "hashContenido": "6ba31c60fbfa4128"
  },
  "slug": "producto-de-control-de-plagas-stop-rodent-safety-gate-10012727"
 }

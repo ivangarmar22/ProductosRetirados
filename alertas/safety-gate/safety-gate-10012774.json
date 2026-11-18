@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -43,10 +43,15 @@
     "e4*2007/46*0271*09",
     "e4*2007/46*0271*10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17/04/2013 - 23/03/2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de motor diseñado para el transporte de pasajeros.",
-   "fechasTexto": "17/04/2013 - 23/03/2017"
+   "fechasTexto": "17/04/2013 - 23/03/2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,7 +81,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,15 +123,16 @@
    "mm:opel-vauxhall:e4-2007-46-0271-07",
    "mm:opel-vauxhall:e4-2007-46-0271-08",
    "mm:opel-vauxhall:e4-2007-46-0271-09",
-   "mm:opel-vauxhall:e4-2007-46-0271-10"
+   "mm:opel-vauxhall:e4-2007-46-0271-10",
+   "ml:opel-vauxhall:17-04-2013-23-03-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1029e52a34e5fe1c"
+  "enriquecido": true,
+  "hashContenido": "d8507ddcac213348"
  },
  "slug": "coche-de-pasajeros-opel-vauxhall-safety-gate-10012774"
 }

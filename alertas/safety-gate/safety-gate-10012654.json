@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.01.2004 - 31.12.2005"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "12.01.2004 - 31.12.2005"
+   "fechasTexto": "12.01.2004 - 31.12.2005",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +72,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "NO",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +97,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00957/24",
-   "mm:alpina:individual-approval"
+   "mm:alpina:individual-approval",
+   "ml:alpina:12-01-2004-31-12-2005"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "49a386ccd9d9641f"
+  "enriquecido": true,
+  "hashContenido": "a4cbceeb452ef70b"
  },
  "slug": "coche-de-pasajeros-alpina-safety-gate-10012654"
 }

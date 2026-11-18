@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e6*2018/858*00001*00",
-    "e6*2018/858*00001*01",
-    "e6*2018/858*00001*02"
+    "e6*2018/858*00001*00, e6*2018/858*00001*01, e6*2018/858*00001*02."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "6.12.2019 - 29.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, Highlander (AXUH70, AXUH78, GSU70, GSU75, TXUA70, TXUA75); año modelo: 2019~2023",
-   "fechasTexto": "6.12.2019 - 29.08.2023"
+   "fechasTexto": "6.12.2019 - 29.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "FR",
+   "HR",
+   "HU",
+   "IS",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,17 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02663/23",
-   "mm:toyota:e6-2018-858-00001-00",
-   "mm:toyota:e6-2018-858-00001-01",
-   "mm:toyota:e6-2018-858-00001-02"
+   "mm:toyota:e6-2018-858-00001-00-e6-2018-858-00001-01-e6-2018-858-00001-02",
+   "ml:toyota:6-12-2019-29-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "362c2dcf77386901"
+  "enriquecido": true,
+  "hashContenido": "0fca969b02e33f87"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10010752"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete magnético que contiene 20 piedras magnéticas (cuatro piezas ovaladas, cuatro triangulares, cuatro cilindros y cuatro imanes en forma de bola, tres imanes en forma de corazón y un imán en forma de estrella), una bolsa de transporte y una cuerda. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -61,7 +62,11 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6f728adfde733974"
+  "enriquecido": true,
+  "hashContenido": "e585cd709789d30f"
  },
  "slug": "juguete-magnetico-magnetic-safety-gate-10012707"
 }

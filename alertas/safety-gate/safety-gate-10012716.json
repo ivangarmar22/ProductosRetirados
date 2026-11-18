@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-27"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -24,7 +24,8 @@
   {
    "nombre": "Softbälle, 3 Stück",
    "marcas": [
-    "Frabar, Tedi"
+    "Frabar",
+    "Tedi"
    ],
    "modelos": [
     "0178-3"
@@ -32,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Tres bolas de plástico blando en diferentes colores cada una con un diámetro de 7 centímetros.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente con etiqueta adhesiva."
   }
  ],
  "riesgo": {
@@ -62,7 +64,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BG",
+   "HR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00975/24",
-   "mm:frabar-tedi:0178-3"
+   "mm:frabar:0178-3",
+   "mm:tedi:0178-3"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b3529493b8a6f1fe"
+  "enriquecido": true,
+  "hashContenido": "0bcc3f8ab024ec75"
  },
  "slug": "juego-de-bolas-de-plastico-frabar-tedi-safety-gate-10012716"
 }

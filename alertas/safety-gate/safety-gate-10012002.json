@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,12 +27,17 @@
     "CAKE"
    ],
    "modelos": [
-    "e9*168/2013*11466*01-*02 (Kalk&)"
+    "e9*168/2013*11466*01-*02 (Kalk&)."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2018 - 01.11.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta eléctrica para uso en carretera y fuera de carretera.",
-   "fechasTexto": "01.01.2018 - 01.11.2023"
+   "fechasTexto": "01.01.2018 - 01.11.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -86,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00412/24",
-   "mm:cake:e9-168-2013-11466-01-02-kalk"
+   "mm:cake:e9-168-2013-11466-01-02-kalk",
+   "ml:cake:01-01-2018-01-11-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0a92dea15caa3842"
+  "enriquecido": true,
+  "hashContenido": "de127c41e292b83a"
  },
  "slug": "motocicleta-electrica-cake-safety-gate-10012002"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "2000010906642"
    ],
    "descripcion": "Bola de estrés en forma de pez, con bolas de gel verde en el interior. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico"
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d6b463bbc1d20aef"
+  "enriquecido": true,
+  "hashContenido": "9571946df2ff54d8"
  },
  "slug": "juguete-exprimible-anti-stress-quetschball-safety-gate-10012533"
 }

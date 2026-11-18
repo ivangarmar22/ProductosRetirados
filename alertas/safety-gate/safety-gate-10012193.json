@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-09"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "61440300587144030151"
+     "numero": "6144030058"
+    },
+    {
+     "numero": "7144030151"
     }
    ],
    "ean": [
     "8574192212319"
    ],
    "descripcion": "Cigarrillo electrónico desechable con líquido aromatizado, 18 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Producto sellado en una bolsa de plástico azul, colocado en una caja de papel."
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ref:A12/00874/24",
    "ean:8574192212319",
    "mm:randm:strawberry-watermelon-bubblegum",
-   "ml:randm:61440300587144030151"
+   "ml:randm:6144030058",
+   "ml:randm:7144030151"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76a3297f44234824"
+  "enriquecido": true,
+  "hashContenido": "79ecca7620fa92ea"
  },
  "slug": "cigarrillo-electronico-desechable-randm-safety-gate-10012193"
 }

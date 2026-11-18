@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "77439443542"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2023 - 2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Caja superior de la motocicleta",
-   "fechasTexto": "2023 - 2024"
+   "fechasTexto": "2023 - 2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +97,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00998/24",
-   "mm:bmw-motorrad:77439443542"
+   "mm:bmw-motorrad:77439443542",
+   "ml:bmw-motorrad:2023-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e42774ed57c6fb72"
+  "enriquecido": true,
+  "hashContenido": "98ccd5a5987890a9"
  },
  "slug": "caja-superior-de-la-motocicleta-bmw-motorrad-safety-gate-10012759"
 }

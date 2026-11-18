@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "PALETTE"
    ],
    "modelos": [
-    "RI6 FIRE RED",
-    "7-89"
+    "RI6 FIRE RED, 7-89"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "9000101003017"
    ],
    "descripcion": "Tinte para el cabello, anunciado como color intenso y de larga duración, un tubo de crema colorante (50 ml), una botella con revelador (50 ml), una bolsa de mascarillas de cuidado (10 ml), un par de guantes y un manual de instrucciones.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón púrpura."
   }
  ],
  "riesgo": {
@@ -101,17 +101,16 @@
   "claves": [
    "ref:A12/01188/24",
    "ean:9000101003017",
-   "mm:palette:ri6-fire-red",
-   "mm:palette:7-89",
+   "mm:palette:ri6-fire-red-7-89",
    "ml:palette:0817192282"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "75eb3f4f60c8da09"
+  "enriquecido": true,
+  "hashContenido": "4f936ac6b8ae081e"
  },
  "slug": "tinte-para-el-cabello-palette-safety-gate-10013028"
 }

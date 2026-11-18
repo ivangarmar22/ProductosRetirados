@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-19"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Mezcla de aceite esencial con aroma de petitgrain y ylang. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Matraz oscuro de 10 ml, etiqueta azul oscuro."
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +82,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2ede1afa6b74931c"
+  "enriquecido": true,
+  "hashContenido": "c24ace1ac4230f06"
  },
  "slug": "mezcla-de-aceite-esencial-i-love-wellness-safety-gate-10012592"
 }

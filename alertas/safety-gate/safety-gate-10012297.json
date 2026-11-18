@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "5037832307217"
    ],
    "descripcion": "Juguete suave en forma de braquiosaurio. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cedb91c532a46403"
+  "enriquecido": true,
+  "hashContenido": "c0db9fcaf9e46e8f"
  },
  "slug": "juguete-suave-living-nature-safety-gate-10012297"
 }

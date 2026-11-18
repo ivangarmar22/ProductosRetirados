@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-03"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "202306242023072220230819"
+     "numero": "20230624"
+    },
+    {
+     "numero": "20230722"
+    },
+    {
+     "numero": "20230819"
     }
    ],
    "ean": [
     "2200159662960"
    ],
    "descripcion": "Juego de ruedas de cerámica de juguete compuesto por 18 piezas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +75,10 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +100,17 @@
    "ref:A12/01179/24",
    "ean:2200159662960",
    "mm:pepco:896723",
-   "ml:pepco:202306242023072220230819"
+   "ml:pepco:20230624",
+   "ml:pepco:20230722",
+   "ml:pepco:20230819"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f5caea5a8fc2ee9e"
+  "enriquecido": true,
+  "hashContenido": "a78cd07e17955865"
  },
  "slug": "juego-de-ruedas-de-ceramica-de-juguete-pepco-safety-gate-10013005"
 }

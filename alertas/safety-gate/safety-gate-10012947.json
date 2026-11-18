@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-11"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,7 +38,8 @@
     "8595059740264"
    ],
    "descripcion": "Gel de ducha, 500 ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanca. El paquete tiene una tapa azul."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0c648aa1bf12aa8e"
+  "enriquecido": true,
+  "hashContenido": "9cb3e49743d4e71f"
  },
  "slug": "gel-de-ducha-lactovit-safety-gate-10012947"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,22 +27,19 @@
     "Technisat"
    ],
    "modelos": [
-    "0001/9103",
-    "0000/9103"
+    "0001/9103, 0000/9103"
    ],
    "lotes": [
     {
-     "numero": "10086918812 to 10086920811"
-    },
-    {
-     "numero": "10086920812 to 10086922811"
+     "numero": "10086918812 to 10086920811, 10086920812 to 10086922811"
     }
    ],
    "ean": [
     "4019588191037"
    ],
    "descripcion": "Auriculares bluetooth para niños con cable adicional. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con percha Euro slot."
   }
  ],
  "riesgo": {
@@ -80,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -125,18 +124,16 @@
   "claves": [
    "ref:A12/00914/24",
    "ean:4019588191037",
-   "mm:technisat:0001-9103",
-   "mm:technisat:0000-9103",
-   "ml:technisat:10086918812-to-10086920811",
-   "ml:technisat:10086920812-to-10086922811"
+   "mm:technisat:0001-9103-0000-9103",
+   "ml:technisat:10086918812-to-10086920811-10086920812-to-10086922811"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ec96c7fc92572b87"
+  "enriquecido": true,
+  "hashContenido": "3a9b62b37d865031"
  },
  "slug": "auriculares-inalambricos-para-ninos-technisat-safety-gate-10012521"
 }

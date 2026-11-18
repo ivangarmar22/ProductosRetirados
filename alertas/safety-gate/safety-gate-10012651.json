@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,15 @@
     "e2*NIV18/858*225562",
     "e2*NIV18/858*225564"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.07.2020 - 16.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero",
-   "fechasTexto": "29.07.2020 - 16.06.2023"
+   "fechasTexto": "29.07.2020 - 16.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +92,16 @@
    "mm:renault:e2-2007-46-0348-03-to-07",
    "mm:renault:e2-2007-46-0740-00-to-05",
    "mm:renault:e2-niv18-858-225562",
-   "mm:renault:e2-niv18-858-225564"
+   "mm:renault:e2-niv18-858-225564",
+   "ml:renault:29-07-2020-16-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "59822e6bb38a07f3"
+  "enriquecido": true,
+  "hashContenido": "825236effa327fc0"
  },
  "slug": "vehiculo-comercial-ligero-renault-safety-gate-10012651"
 }

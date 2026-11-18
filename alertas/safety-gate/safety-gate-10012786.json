@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-03"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Tres bolas de masaje de color arco iris hechas de plástico suave con perillas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Red de plástico blanco con etiqueta de cartón blanco rectangular desplegable."
   }
  ],
  "riesgo": {
@@ -64,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "CZ",
+   "HR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "068ff207e1ff6a9d"
+  "enriquecido": true,
+  "hashContenido": "8b3fb5d6ac0260f2"
  },
  "slug": "bolas-de-masaje-tedi-safety-gate-10012786"
 }

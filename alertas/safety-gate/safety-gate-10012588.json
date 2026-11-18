@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-04"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Arco de escalada con diferentes colores. También podría ser utilizado como una mecedora.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c3b5b9d2b1978649"
+  "enriquecido": true,
+  "hashContenido": "bdd0d6333be188ff"
  },
  "slug": "arco-de-escalada-viga-safety-gate-10012588"
 }

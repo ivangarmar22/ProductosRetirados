@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Triumph Motorcycles"
    ],
    "modelos": [
-    "e9*168/2013*11674*01 (type L101R)",
-    "e9*168/2013*11675*00-*02 (type L101)"
+    "e9*168/2013*11674*01 (type L101R), e9*168/2013*11675*00-*02 (type L101)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.04.2022 - 01.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicletas",
-   "fechasTexto": "19.04.2022 - 01.06.2022"
+   "fechasTexto": "19.04.2022 - 01.06.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00615/24",
-   "mm:triumph-motorcycles:e9-168-2013-11674-01-type-l101r",
-   "mm:triumph-motorcycles:e9-168-2013-11675-00-02-type-l101"
+   "mm:triumph-motorcycles:e9-168-2013-11674-01-type-l101r-e9-168-2013-11675-00-02-type-l101",
+   "ml:triumph-motorcycles:19-04-2022-01-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6903d9537900ae61"
+  "enriquecido": true,
+  "hashContenido": "f87983e75c640c71"
  },
  "slug": "moto-triumph-motorcycles-safety-gate-10012112"
 }

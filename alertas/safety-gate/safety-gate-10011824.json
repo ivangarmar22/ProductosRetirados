@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-28"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Botella de plástico con líquido verde",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con etiqueta, tapón de rosca y punta de caída"
   }
  ],
  "riesgo": {
@@ -70,7 +71,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "CZ",
+   "ES",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "28378aa96195499c"
+  "enriquecido": true,
+  "hashContenido": "dada179e6c53b4a9"
  },
  "slug": "tinta-de-tatuaje-dynamic-safety-gate-10011824"
 }

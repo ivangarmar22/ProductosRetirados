@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-06"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -40,7 +40,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Olla de cocina de camping de aluminio disponible en varias capacidades: 1 litro, 1,3 litros, 1,7 litros, 2 litros. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Una caja de cartón con una imagen del producto/modelo."
   }
  ],
  "riesgo": {
@@ -70,7 +71,14 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FR",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -138,11 +146,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "83691dc181f4ea97"
+  "enriquecido": true,
+  "hashContenido": "7acc255d4d1d73f1"
  },
  "slug": "olla-de-camping-msr-safety-gate-10012072"
 }

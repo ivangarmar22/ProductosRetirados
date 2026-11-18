@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -24,7 +24,8 @@
   {
    "nombre": "ANTI-DANDRUFF INTENSIVE SHAMPOO",
    "marcas": [
-    "Schwarzkopf, schauma"
+    "Schwarzkopf",
+    "schauma"
    ],
    "modelos": [],
    "lotes": [
@@ -36,7 +37,8 @@
     "3838824208930"
    ],
    "descripcion": "Champú anti-caspa, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico negra."
   }
  ],
  "riesgo": {
@@ -66,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +86,16 @@
   "claves": [
    "ref:A12/01052/24",
    "ean:3838824208930",
-   "ml:schwarzkopf-schauma:0903378630"
+   "ml:schwarzkopf:0903378630",
+   "ml:schauma:0903378630"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4999f059bb3e08e8"
+  "enriquecido": true,
+  "hashContenido": "978289107411b135"
  },
  "slug": "champu-schwarzkopf-schauma-safety-gate-10012796"
 }

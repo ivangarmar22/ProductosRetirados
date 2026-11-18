@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
     "5902114882235"
    ],
    "descripcion": "Eau de toilette, en botella de vidrio, con vaporizador, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón de color dorado."
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d4be43a5cd7f99f2"
+  "enriquecido": true,
+  "hashContenido": "03fa123d204389d1"
  },
  "slug": "agua-de-toilette-gordano-parfums-safety-gate-10012914"
 }

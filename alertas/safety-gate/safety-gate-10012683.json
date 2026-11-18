@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "HM",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.11.2007 - 29.05.2013"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "16.11.2007 - 29.05.2013"
+   "fechasTexto": "16.11.2007 - 29.05.2013",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00951/24",
-   "mm:kia:individual-approval"
+   "mm:kia:individual-approval",
+   "ml:kia:16-11-2007-29-05-2013"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fa2d8bc90026cbc2"
+  "enriquecido": true,
+  "hashContenido": "fb8c0b9e74b162e7"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10012683"
 }

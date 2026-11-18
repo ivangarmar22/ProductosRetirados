@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2018/858*00039*00-*05 (963-0-A)",
-    "e1*2018/858*00040*00-*05 (963-4-A)",
-    "e1*2018/858*00045*-*06 (963-0-C)",
-    "e1*2018/858*00049*00-*05 (963-7-E)",
-    "e1*2018/858*00051*00-*05 (963-2-E)",
-    "e1*2018/858*00055*00-*05 (963-8-G)",
-    "e1*2018/858*00056*00-*05 (963-8-H)"
+    "e1*2018/858*00039*00-*05 (963-0-A), e1*2018/858*00040*00-*05 (963-4-A), e1*2018/858*00045*-*06 (963-0-C), e1*2018/858*00049*00-*05 (963-7-E), e1*2018/858*00051*00-*05 (963-2-E),",
+    "e1*2018/858*00055*00-*05 (963-8-G), e1*2018/858*00056*00-*05 (963-8-H)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.08.2023 - 08.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "08.08.2023 - 08.09.2023"
+   "fechasTexto": "08.08.2023 - 08.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HU",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,21 +98,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01030/24",
-   "mm:mercedes-benz:e1-2018-858-00039-00-05-963-0-a",
-   "mm:mercedes-benz:e1-2018-858-00040-00-05-963-4-a",
-   "mm:mercedes-benz:e1-2018-858-00045-06-963-0-c",
-   "mm:mercedes-benz:e1-2018-858-00049-00-05-963-7-e",
-   "mm:mercedes-benz:e1-2018-858-00051-00-05-963-2-e",
-   "mm:mercedes-benz:e1-2018-858-00055-00-05-963-8-g",
-   "mm:mercedes-benz:e1-2018-858-00056-00-05-963-8-h"
+   "mm:mercedes-benz:e1-2018-858-00039-00-05-963-0-a-e1-2018-858-00040-00-05-963-4-a-e1-2018-858-00045-06-963-0-c-e1-2018-858-00049-00-05-963-7-e-e1-2018-858-00051-00-05-963-2-e",
+   "mm:mercedes-benz:e1-2018-858-00055-00-05-963-8-g-e1-2018-858-00056-00-05-963-8-h",
+   "ml:mercedes-benz:08-08-2023-08-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5769327ed4bc3b08"
+  "enriquecido": true,
+  "hashContenido": "e84406474be7fe0e"
  },
  "slug": "camion-mercedes-benz-safety-gate-10012795"
 }

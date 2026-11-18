@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "08203956980823993459"
+     "numero": "0820395698"
+    },
+    {
+     "numero": "0823993459"
     }
    ],
    "ean": [
     "4015000500838"
    ],
    "descripcion": "Gel capilar incoloro, 150 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico incoloro con tapa naranja."
   }
  ],
  "riesgo": {
@@ -105,15 +109,16 @@
    "ref:A12/01014/24",
    "ean:4015000500838",
    "mm:schwarzkopf:taft-looks",
-   "ml:schwarzkopf:08203956980823993459"
+   "ml:schwarzkopf:0820395698",
+   "ml:schwarzkopf:0823993459"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4ea05a06e2d648d7"
+  "enriquecido": true,
+  "hashContenido": "8218115fe63498f9"
  },
  "slug": "gel-para-el-cabello-schwarzkopf-safety-gate-10012776"
 }

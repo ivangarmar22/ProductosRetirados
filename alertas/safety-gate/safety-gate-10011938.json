@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,15 +27,14 @@
     "Little teether"
    ],
    "modelos": [
-    "CBA.0014F.0000",
-    "gigogne ours",
-    "CBA.0015F.0000",
-    "gigogne chat"
+    "CBA.0014F.0000, gigogne ours",
+    "CBA.0015F.0000, gigogne chat"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Muñecas de juguete de nidificación de color pastel con formas simplificadas de gatos y osos. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -109,18 +108,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01103/24",
-   "mm:little-teether:cba-0014f-0000",
-   "mm:little-teether:gigogne-ours",
-   "mm:little-teether:cba-0015f-0000",
-   "mm:little-teether:gigogne-chat"
+   "mm:little-teether:cba-0014f-0000-gigogne-ours",
+   "mm:little-teether:cba-0015f-0000-gigogne-chat"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "abd9a0e60a4b7a3b"
+  "enriquecido": true,
+  "hashContenido": "9640eea2c424eb43"
  },
  "slug": "munecas-de-juguete-anidantes-little-teether-safety-gate-10011938"
 }

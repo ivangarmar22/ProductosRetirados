@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "no brand"
    ],
    "modelos": [
-    "TH02",
-    "White"
+    "TH02, White"
    ],
    "lotes": [],
    "ean": [
     "7330163295023"
    ],
    "descripcion": "Estación de carga para el teléfono móvil.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca"
   }
  ],
  "riesgo": {
@@ -65,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,16 +87,15 @@
   "claves": [
    "ref:A12/00960/24",
    "ean:7330163295023",
-   "mm:no-brand:th02",
-   "mm:no-brand:white"
+   "mm:no-brand:th02-white"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fdff73e827faa981"
+  "enriquecido": true,
+  "hashContenido": "d43fa3423b9fc647"
  },
  "slug": "estacion-de-carga-no-brand-safety-gate-10012722"
 }

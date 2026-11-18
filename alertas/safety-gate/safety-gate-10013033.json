@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-09"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "LOR-6763"
-    },
-    {
-     "numero": "BA021448T"
+     "numero": "LOR-6763, BA021448T"
     }
    ],
    "ean": [
     "8412428017553"
    ],
    "descripcion": "Champú y baño de burbujas, 475 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico rosa con tapa roja."
   }
  ],
  "riesgo": {
@@ -71,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,16 +96,15 @@
    "ref:A12/01183/24",
    "ean:8412428017553",
    "mm:disney:2in1-bubble-bath",
-   "ml:disney:lor-6763",
-   "ml:disney:ba021448t"
+   "ml:disney:lor-6763-ba021448t"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "53fe53396b07e3ee"
+  "enriquecido": true,
+  "hashContenido": "2cd6984b88b9fb5f"
  },
  "slug": "champu-disney-safety-gate-10013033"
 }

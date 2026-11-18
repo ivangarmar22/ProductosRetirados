@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "450SR S: e13*168/2013*01531*04",
     "450SR: e13*168/2013*01531*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12/2022 - 04/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicletas.",
-   "fechasTexto": "12/2022 - 04/2023"
+   "fechasTexto": "12/2022 - 04/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +91,16 @@
   "claves": [
    "ref:A12/00695/24",
    "mm:cf-moto:450sr-s-e13-168-2013-01531-04",
-   "mm:cf-moto:450sr-e13-168-2013-01531-03"
+   "mm:cf-moto:450sr-e13-168-2013-01531-03",
+   "ml:cf-moto:12-2022-04-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4dc0836acb5ca96a"
+  "enriquecido": true,
+  "hashContenido": "24bf15c1ada3eef4"
  },
  "slug": "moto-cf-moto-safety-gate-10012102"
 }

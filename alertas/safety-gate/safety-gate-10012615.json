@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "3611872155049"
    ],
    "descripcion": "Pandereta de juguete de madera con jingles metálicos pintados en el lateral. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje"
   }
  ],
  "riesgo": {
@@ -74,7 +75,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b04209d94e2bba53"
+  "enriquecido": true,
+  "hashContenido": "b8c9b85e6cc58b19"
  },
  "slug": "pandereta-de-juguete-maisons-du-monde-safety-gate-10012615"
 }

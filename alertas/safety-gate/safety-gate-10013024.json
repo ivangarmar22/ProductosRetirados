@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "02036022490209994091"
+     "numero": "0203602249"
+    },
+    {
+     "numero": "0209994091"
     }
    ],
    "ean": [
     "9000100633260"
    ],
    "descripcion": "Tinte para el cabello, un tubo de crema colorante (50 ml), un frasco de aplicación con leche en desarrollo (50 ml), una bolsa de bálsamo (15 ml), un manual de instrucciones y guantes protectores.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -105,15 +109,16 @@
    "ref:A12/01189/24",
    "ean:9000100633260",
    "mm:syoss:8-7-honey-blonde",
-   "ml:syoss:02036022490209994091"
+   "ml:syoss:0203602249",
+   "ml:syoss:0209994091"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6c67e57a7837145b"
+  "enriquecido": true,
+  "hashContenido": "66698ba1c1102446"
  },
  "slug": "tinte-para-el-cabello-syoss-safety-gate-10013024"
 }

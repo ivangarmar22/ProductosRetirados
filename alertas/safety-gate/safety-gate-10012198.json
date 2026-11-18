@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "0200030504732"
    ],
    "descripcion": "Espada de juguete de plástico con luz y sonido incorporados. La espada está hecha de cuadrados de colores transparentes, azul oscuro y marrón.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,14 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "EE",
+   "IE",
+   "PL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ded2f045256980c6"
+  "enriquecido": true,
+  "hashContenido": "3c30edd940647c41"
  },
  "slug": "espada-de-juguete-con-bateria-flying-tiger-copenhagen-safety-gate-10012198"
 }
