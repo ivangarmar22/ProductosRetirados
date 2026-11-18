@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5903317226338"
    ],
    "descripcion": "Cargador USB multipuerto negro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón verde y negro."
   }
  ],
  "riesgo": {
@@ -73,7 +74,12 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "HR",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1555b0baae75968e"
+  "enriquecido": true,
+  "hashContenido": "c3a928b5d3f89d7c"
  },
  "slug": "cargador-usb-green-cell-safety-gate-10013425"
 }

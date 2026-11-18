@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-04"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "V2107V2210V2212"
+     "numero": "V2107"
+    },
+    {
+     "numero": "V2210"
+    },
+    {
+     "numero": "V2212"
     }
    ],
    "ean": [
     "5060679072093"
    ],
    "descripcion": "Mordedor de cara plana con clip de chupete amarillo, vendidos juntos. Teether en forma de león. Producto vendido en línea, en particular a través de Amazon (ASIN: B09P3225R1).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico con la parte posterior de cartón."
   }
  ],
  "riesgo": {
@@ -72,7 +79,13 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "LV",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,15 +118,17 @@
    "ref:A12/01387/24",
    "ean:5060679072093",
    "mm:matchstick-monkey:mm-sc-flt-001",
-   "ml:matchstick-monkey:v2107v2210v2212"
+   "ml:matchstick-monkey:v2107",
+   "ml:matchstick-monkey:v2210",
+   "ml:matchstick-monkey:v2212"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c9b20043e31d16ee"
+  "enriquecido": true,
+  "hashContenido": "445b8ca04c673613"
  },
  "slug": "teether-con-clip-matchstick-monkey-safety-gate-10012644"
 }

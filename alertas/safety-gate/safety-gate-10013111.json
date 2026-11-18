@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "3048700024053"
    ],
    "descripcion": "Juguete de madera de bloques de apilamiento para construir la torre Eiffel. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "61d9fade94ed8707"
+  "enriquecido": true,
+  "hashContenido": "b95ee73003edd6a2"
  },
  "slug": "juguete-de-madera-vilac-safety-gate-10013111"
 }

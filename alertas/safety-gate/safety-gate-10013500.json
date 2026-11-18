@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e11*98/14*0185*04",
     "e11*98/14*0185*13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.06.2006 - 22.08.2012"
+    }
+   ],
    "ean": [],
    "descripcion": "Vagones de pasajeros, equipados con airbags Takata.",
-   "fechasTexto": "05.06.2006 - 22.08.2012"
+   "fechasTexto": "05.06.2006 - 22.08.2012",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "HR",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +91,16 @@
   "claves": [
    "ref:A12/01675/24",
    "mm:land-rover:e11-98-14-0185-04",
-   "mm:land-rover:e11-98-14-0185-13"
+   "mm:land-rover:e11-98-14-0185-13",
+   "ml:land-rover:05-06-2006-22-08-2012"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64c6587797103b60"
+  "enriquecido": true,
+  "hashContenido": "7539bad82a67dba9"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10013500"
 }

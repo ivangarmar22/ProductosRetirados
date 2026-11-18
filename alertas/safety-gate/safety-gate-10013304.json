@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "Anbernic"
    ],
    "modelos": [
-    "retro-boy-pro",
-    "RG 353VS"
+    "retro-boy-pro, RG 353VS"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Consola de juegos gris.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -63,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,16 +88,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01492/24",
-   "mm:anbernic:retro-boy-pro",
-   "mm:anbernic:rg-353vs"
+   "mm:anbernic:retro-boy-pro-rg-353vs"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9e65f28f45de86dc"
+  "enriquecido": true,
+  "hashContenido": "b419dc756852b698"
  },
  "slug": "consola-de-juegos-anbernic-safety-gate-10013304"
 }

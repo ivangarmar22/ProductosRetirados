@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2007/46*0486*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.06.2023 - 02.05.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "01.06.2023 - 02.05.2024"
+   "fechasTexto": "01.06.2023 - 02.05.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Portugal",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HR",
+   "IE",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +99,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01557/24",
-   "mm:mitsubishi:e6-2007-46-0486-07"
+   "mm:mitsubishi:e6-2007-46-0486-07",
+   "ml:mitsubishi:01-06-2023-02-05-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "642780fe6dd8a485"
+  "enriquecido": true,
+  "hashContenido": "706fba9c02e7a3e8"
  },
  "slug": "camion-mitsubishi-safety-gate-10013361"
 }

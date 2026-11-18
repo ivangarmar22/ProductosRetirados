@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,10 +32,21 @@
     "VJA310 (LX600)",
     "VXKA75 (Tundra)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "LX600: 08.07.2021 - 25.11.2022"
+    },
+    {
+     "numero": "Land Cruiser: 26.04.2021 - 10.11.2022"
+    },
+    {
+     "numero": "Tundra: 28.02.2022 - 28.02.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coches de pasajeros. Año del modelo: 2021-2022. Países de producción: Japón y Estados Unidos.",
-   "fechasTexto": "LX600: 08.07.2021 - 25.11.2022Land Cruiser: 26.04.2021 - 10.11.2022Tundra: 28.02.2022 - 28.02.2022"
+   "fechasTexto": "LX600: 08.07.2021 - 25.11.2022Land Cruiser: 26.04.2021 - 10.11.2022Tundra: 28.02.2022 - 28.02.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,15 +95,18 @@
    "mm:lexus-and-toyota:no-approval-number",
    "mm:lexus-and-toyota:vja300-land-cruiser",
    "mm:lexus-and-toyota:vja310-lx600",
-   "mm:lexus-and-toyota:vxka75-tundra"
+   "mm:lexus-and-toyota:vxka75-tundra",
+   "ml:lexus-and-toyota:lx600-08-07-2021-25-11-2022",
+   "ml:lexus-and-toyota:land-cruiser-26-04-2021-10-11-2022",
+   "ml:lexus-and-toyota:tundra-28-02-2022-28-02-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4acc58463461b990"
+  "enriquecido": true,
+  "hashContenido": "ee35be5b01bd6813"
  },
  "slug": "coche-de-pasajeros-lexus-and-toyota-safety-gate-10013332"
 }

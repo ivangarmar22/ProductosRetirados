@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-27"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,7 +29,22 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "2023-04 (Watermelon)2023-05 (Apple Jack)2023-05 (Pink Berry)2023-05 (Skittlez)2023-05 (Super Lemon)2024-01 (Ultra 96%)"
+     "numero": "2023-04 (Watermelon)"
+    },
+    {
+     "numero": "2023-05 (Apple Jack)"
+    },
+    {
+     "numero": "2023-05 (Pink Berry)"
+    },
+    {
+     "numero": "2023-05 (Skittlez)"
+    },
+    {
+     "numero": "2023-05 (Super Lemon)"
+    },
+    {
+     "numero": "2024-01 (Ultra 96%)"
     }
    ],
    "ean": [
@@ -40,7 +55,8 @@
     "4260757711024"
    ],
    "descripcion": "Cigarrillo electrónico desechable que contiene hexahidrocannabinol (HHC), anunciado como libre de nicotina.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Papel de plástico"
   }
  ],
  "riesgo": {
@@ -110,15 +126,20 @@
    "ean:4260757710812",
    "ean:4260757710997",
    "ean:4260757711024",
-   "ml:only-grams:2023-04-watermelon-2023-05-apple-jack-2023-05-pink-berry-2023-05-skittlez-2023-05-super-lemon-2024-01-ultra-96"
+   "ml:only-grams:2023-04-watermelon",
+   "ml:only-grams:2023-05-apple-jack",
+   "ml:only-grams:2023-05-pink-berry",
+   "ml:only-grams:2023-05-skittlez",
+   "ml:only-grams:2023-05-super-lemon",
+   "ml:only-grams:2024-01-ultra-96"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "daf68d8b3e5bd939"
+  "enriquecido": true,
+  "hashContenido": "8411b4324e9797b6"
  },
  "slug": "cigarrillo-electronico-desechable-only-grams-safety-gate-10012336"
 }

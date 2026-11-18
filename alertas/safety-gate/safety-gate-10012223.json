@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "24451R443763R444129"
+     "numero": "24451"
+    },
+    {
+     "numero": "R443763"
+    },
+    {
+     "numero": "R444129"
     }
    ],
    "ean": [
     "8002410007671"
    ],
    "descripcion": "Gel de baño y ducha, 750ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -86,15 +93,17 @@
   "claves": [
    "ref:A12/01506/24",
    "ean:8002410007671",
-   "ml:neutro-roberts:24451r443763r444129"
+   "ml:neutro-roberts:24451",
+   "ml:neutro-roberts:r443763",
+   "ml:neutro-roberts:r444129"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7748ddf57378f804"
+  "enriquecido": true,
+  "hashContenido": "157a85e0b4300c3a"
  },
  "slug": "gel-de-bano-y-ducha-neutro-roberts-safety-gate-10012223"
 }

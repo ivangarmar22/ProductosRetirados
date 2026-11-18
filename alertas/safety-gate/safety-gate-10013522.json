@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2018/858*00127"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.04.2022 - 05.05.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Autocaravana.",
-   "fechasTexto": "05.04.2022 - 05.05.2023"
+   "fechasTexto": "05.04.2022 - 05.05.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01673/24",
-   "mm:renault:e13-2018-858-00127"
+   "mm:renault:e13-2018-858-00127",
+   "ml:renault:05-04-2022-05-05-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2504253ddf4a0ca5"
+  "enriquecido": true,
+  "hashContenido": "ed6cace135676d01"
  },
  "slug": "autocaravana-renault-safety-gate-10013522"
 }

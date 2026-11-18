@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-14"
  },
  "categoria": {
   "literal": "Otros - Cigarrillos electrónicos desechables",
@@ -24,13 +24,26 @@
   {
    "nombre": "Cigarrillo electrónico desechable",
    "marcas": [
-    "Adai, GZUZ, Haftbefehl"
+    "Adai",
+    "GZUZ",
+    "Haftbefehl"
    ],
    "modelos": [],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "4262373891548",
+    "4262373891555",
+    "4262373891562",
+    "4262373891579",
+    "4262373891586",
+    "4262373891609",
+    "4262373891616",
+    "4262373891784",
+    "4262373891791"
+   ],
    "descripcion": "Cigarrillo electrónico desechable con cannabinoides. Todos los números de lote se refieren. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón coloridamente impresa."
   }
  ],
  "riesgo": {
@@ -130,15 +143,24 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01588/24"
+   "ref:A12/01588/24",
+   "ean:4262373891548",
+   "ean:4262373891555",
+   "ean:4262373891562",
+   "ean:4262373891579",
+   "ean:4262373891586",
+   "ean:4262373891609",
+   "ean:4262373891616",
+   "ean:4262373891784",
+   "ean:4262373891791"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b51a6e1624c2e4ae"
+  "enriquecido": true,
+  "hashContenido": "0da3df17df92232e"
  },
  "slug": "cigarrillo-electronico-desechable-adai-gzuz-haftbefehl-safety-gate-10013248"
 }

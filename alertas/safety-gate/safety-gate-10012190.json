@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "19382 02396519394 02410920365 023949"
+     "numero": "19382 023965"
+    },
+    {
+     "numero": "19394 024109"
+    },
+    {
+     "numero": "20365 023949"
     }
    ],
    "ean": [
     "8008970011646"
    ],
    "descripcion": "Gel de ducha, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -110,15 +117,17 @@
   "claves": [
    "ref:A12/01681/24",
    "ean:8008970011646",
-   "ml:vidal:19382-02396519394-02410920365-023949"
+   "ml:vidal:19382-023965",
+   "ml:vidal:19394-024109",
+   "ml:vidal:20365-023949"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "51afde8fe00392a2"
+  "enriquecido": true,
+  "hashContenido": "c267c8a33692e46f"
  },
  "slug": "gel-de-ducha-vidal-safety-gate-10012190"
 }

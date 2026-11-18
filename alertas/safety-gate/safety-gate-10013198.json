@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-05-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,21 @@
     "Hyundai"
    ],
    "modelos": [
-    "Kauai N (OS N): e4*2007/46*1259*14",
-    "e4*2007/46*1259*15",
-    "e4*2007/46*1259*16",
-    "Santa Fé PE (TM PE): e4*2007/46*1318*03",
-    "e4*2007/46*1318*06",
-    "e4*2007/46*1318*07"
+    "Kauai N (OS N): e4*2007/46*1259*14, e4*2007/46*1259*15, e4*2007/46*1259*16",
+    "Santa Fé PE (TM PE): e4*2007/46*1318*03, e4*2007/46*1318*06, e4*2007/46*1318*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Kauai N (OS N): 15.06.2020 - 03.05.2022"
+    },
+    {
+     "numero": "Santa Fé PE (TM PE): 29.01.2020 - 03.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Año del modelo: 2020 - 2022. VIN: - de KMHL341CXLA082074 a KMHL341C6NA207431 (Kauai N) - de KMHS381HHLU271500 a KMHS281HGNU438074 (Santa Fé PE)",
-   "fechasTexto": "Kauai N (OS N): 15.06.2020 - 03.05.2022Santa Fé PE (TM PE): 29.01.2020 - 03.06.2022"
+   "fechasTexto": "Kauai N (OS N): 15.06.2020 - 03.05.2022Santa Fé PE (TM PE): 29.01.2020 - 03.06.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +71,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,20 +102,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01428/24",
-   "mm:hyundai:kauai-n-os-n-e4-2007-46-1259-14",
-   "mm:hyundai:e4-2007-46-1259-15",
-   "mm:hyundai:e4-2007-46-1259-16",
-   "mm:hyundai:santa-fe-pe-tm-pe-e4-2007-46-1318-03",
-   "mm:hyundai:e4-2007-46-1318-06",
-   "mm:hyundai:e4-2007-46-1318-07"
+   "mm:hyundai:kauai-n-os-n-e4-2007-46-1259-14-e4-2007-46-1259-15-e4-2007-46-1259-16",
+   "mm:hyundai:santa-fe-pe-tm-pe-e4-2007-46-1318-03-e4-2007-46-1318-06-e4-2007-46-1318-07",
+   "ml:hyundai:kauai-n-os-n-15-06-2020-03-05-2022",
+   "ml:hyundai:santa-fe-pe-tm-pe-29-01-2020-03-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "39f5a660dd3dbb77"
+  "enriquecido": true,
+  "hashContenido": "6886b0bf6c5feb77"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10013198"
 }

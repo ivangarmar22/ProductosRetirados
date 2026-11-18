@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-11"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Una manta para usar cuando el bebé está durmiendo. La manta envuelve al bebé y tiene una capucha con orejas. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +82,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eb99af63ef60f38a"
+  "enriquecido": true,
+  "hashContenido": "c4bfa75f80b18cde"
  },
  "slug": "manta-de-envoltura-de-bebe-ortorex-safety-gate-10011862"
 }

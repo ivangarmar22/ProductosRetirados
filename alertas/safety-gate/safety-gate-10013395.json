@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -38,7 +38,8 @@
     "5902694000180"
    ],
    "descripcion": "Cable de extensión negro de 1,5 metros de largo con cuatro enchufes sin interruptor. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente unida a una etiqueta de papel."
   }
  ],
  "riesgo": {
@@ -76,7 +77,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +113,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a3c78d796c831b25"
+  "enriquecido": true,
+  "hashContenido": "0040db2bea64ff76"
  },
  "slug": "plomo-de-extension-elgotech-safety-gate-10013395"
 }

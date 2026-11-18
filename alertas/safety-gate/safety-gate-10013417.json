@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -39,10 +39,15 @@
     "e9*2007/46*0012*",
     "e9*2007/46*0013*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.05.2009 - 01.06.2010"
+    }
+   ],
    "ean": [],
    "descripcion": null,
-   "fechasTexto": "12.05.2009 - 01.06.2010"
+   "fechasTexto": "12.05.2009 - 01.06.2010",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +77,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +117,16 @@
    "mm:seat:e9-2001-116-0050",
    "mm:seat:e9-2001-116-0052",
    "mm:seat:e9-2007-46-0012",
-   "mm:seat:e9-2007-46-0013"
+   "mm:seat:e9-2007-46-0013",
+   "ml:seat:12-05-2009-01-06-2010"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5c0980aacfa4d51c"
+  "enriquecido": true,
+  "hashContenido": "7e7ddc147fc6904e"
  },
  "slug": "producto-seat-safety-gate-10013417"
 }

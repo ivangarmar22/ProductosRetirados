@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Meyle"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.06.2023 - 28.02.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo: manguera de freno delantera izquierda y derecha.",
-   "fechasTexto": "07.06.2023 - 28.02.2024"
+   "fechasTexto": "07.06.2023 - 28.02.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/01528/24"
+   "ref:A12/01528/24",
+   "ml:meyle:07-06-2023-28-02-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "de676670dcf49dd6"
+  "enriquecido": true,
+  "hashContenido": "df9d1054e5160cb7"
  },
  "slug": "pieza-del-vehiculo-manguera-de-freno-meyle-safety-gate-10013319"
 }

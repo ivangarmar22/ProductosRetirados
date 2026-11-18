@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-29"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Sonajero de juguete con campanas unidas a un soporte semicircular. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -67,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e26d8fd5cf191eb"
+  "enriquecido": true,
+  "hashContenido": "da30373cbebe6d82"
  },
  "slug": "sonajero-de-juguete-wooden-semicircle-hand-rattle-safety-gate-10013465"
 }

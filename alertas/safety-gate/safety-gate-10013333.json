@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0686*19"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.09.2023 - 22.01.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Código modelo: BPZ (Proace City), BKY (Proace City Verso). Año del modelo: 2023 ~ 2024.",
-   "fechasTexto": "11.09.2023 - 22.01.2024"
+   "fechasTexto": "11.09.2023 - 22.01.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "GR",
+   "HR",
+   "HU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01573/24",
-   "mm:toyota:e2-2007-46-0686-19"
+   "mm:toyota:e2-2007-46-0686-19",
+   "ml:toyota:11-09-2023-22-01-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b7818ad11a46c0bd"
+  "enriquecido": true,
+  "hashContenido": "ea5d29918f777cff"
  },
  "slug": "turismo-vehiculo-comercial-ligero-toyota-safety-gate-10013333"
 }

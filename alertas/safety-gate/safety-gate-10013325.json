@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Meyle"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.01.2021 - 15.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo: cubo de rueda.",
-   "fechasTexto": "07.01.2021 - 15.12.2023"
+   "fechasTexto": "07.01.2021 - 15.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +87,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/01530/24"
+   "ref:A12/01530/24",
+   "ml:meyle:07-01-2021-15-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f46e11c362a4572a"
+  "enriquecido": true,
+  "hashContenido": "715f212721ea58cb"
  },
  "slug": "parte-del-vehiculo-buje-de-rueda-meyle-safety-gate-10013325"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-06-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "RNG EV EA",
     "e13*167/2013*00200*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.05.2019 - 13.03.2023"
+    }
+   ],
    "ean": [],
    "descripcion": null,
-   "fechasTexto": "14.05.2019 - 13.03.2023"
+   "fechasTexto": "14.05.2019 - 13.03.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "GR",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +100,16 @@
   "claves": [
    "ref:A12/01579/24",
    "mm:polaris:rng-ev-ea",
-   "mm:polaris:e13-167-2013-00200-01"
+   "mm:polaris:e13-167-2013-00200-01",
+   "ml:polaris:14-05-2019-13-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "024f62531e7e977c"
+  "enriquecido": true,
+  "hashContenido": "00ced109aed5fec1"
  },
  "slug": "producto-polaris-safety-gate-10013396"
 }
