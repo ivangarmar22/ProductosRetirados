@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "OSRAM"
    ],
    "modelos": [
-    "OBSL260",
-    "RPPL260"
+    "OBSL260, RPPL260"
    ],
    "lotes": [],
    "ean": [
     "4062172264341"
    ],
    "descripcion": "Ayuda inicial de la batería de litio 9000-mAh con una función de carga rápida para vehículos de 12V. Producto vendido en línea, en particular a través de eBay con el artículo número 256330022004.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón de color negro/naranja"
   }
  ],
  "riesgo": {
@@ -65,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "IE",
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,16 +94,15 @@
   "claves": [
    "ref:A12/00735/24",
    "ean:4062172264341",
-   "mm:osram:obsl260",
-   "mm:osram:rppl260"
+   "mm:osram:obsl260-rppl260"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f8acc3ec975f45b1"
+  "enriquecido": true,
+  "hashContenido": "ff777c34cbe46b06"
  },
  "slug": "arrancador-de-carga-rapido-osram-safety-gate-10011997"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,21 @@
     "Mazda"
    ],
    "modelos": [
-    "CX-60:e13*2018/858*00255*01",
-    "e13*2018/858*00255*02",
-    "e13*2018/858*00255*03",
-    "e13*2018/858*00255*04",
-    "e13*2018/858*00255*06",
-    "e13*2018/858*00255*07",
-    "e13*2018/858*00255*08",
+    "CX-60:e13*2018/858*00255*01, e13*2018/858*00255*02, e13*2018/858*00255*03, e13*2018/858*00255*04, e13*2018/858*00255*06, e13*2018/858*00255*07, e13*2018/858*00255*08",
     "CX-90: Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.03.2022 -11.12.2023 (CX-60)"
+    },
+    {
+     "numero": "26.04.2023 - 11.11.2023 (CX-90)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "15.03.2022 -11.12.2023 (CX-60)26.04.2023 - 11.11.2023 (CX-90)"
+   "fechasTexto": "15.03.2022 -11.12.2023 (CX-60)26.04.2023 - 11.11.2023 (CX-90)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +71,22 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,22 +105,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00811/24",
-   "mm:mazda:cx-60-e13-2018-858-00255-01",
-   "mm:mazda:e13-2018-858-00255-02",
-   "mm:mazda:e13-2018-858-00255-03",
-   "mm:mazda:e13-2018-858-00255-04",
-   "mm:mazda:e13-2018-858-00255-06",
-   "mm:mazda:e13-2018-858-00255-07",
-   "mm:mazda:e13-2018-858-00255-08",
-   "mm:mazda:cx-90-individual-approval"
+   "mm:mazda:cx-60-e13-2018-858-00255-01-e13-2018-858-00255-02-e13-2018-858-00255-03-e13-2018-858-00255-04-e13-2018-858-00255-06-e13-2018-858-00255-07-e13-2018-858-00255-08",
+   "mm:mazda:cx-90-individual-approval",
+   "ml:mazda:15-03-2022-11-12-2023-cx-60",
+   "ml:mazda:26-04-2023-11-11-2023-cx-90"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4887a58d99a274a3"
+  "enriquecido": true,
+  "hashContenido": "bb395bda83aaacac"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10012401"
 }

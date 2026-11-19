@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,7 +38,8 @@
     "4015100200560"
    ],
    "descripcion": "Gel de ducha",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico gris."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1464964cd635c636"
+  "enriquecido": true,
+  "hashContenido": "c66e9af1e88b6989"
  },
  "slug": "gel-de-ducha-fa-men-safety-gate-10012231"
 }

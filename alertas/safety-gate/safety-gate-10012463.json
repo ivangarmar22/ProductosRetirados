@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,26 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "472984"
-    },
-    {
-     "numero": "512523"
-    },
-    {
-     "numero": "506426"
-    },
-    {
-     "numero": "506483"
-    },
-    {
-     "numero": "512523"
+     "numero": "472984, 512523, 506426, 506483, 512523"
     }
    ],
    "ean": [
     "810108371465"
    ],
    "descripcion": "Cargador inalámbrico, negro",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -84,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -122,18 +113,15 @@
    "ref:A12/00852/24",
    "ean:810108371465",
    "mm:lax:mag15vnt",
-   "ml:lax:472984",
-   "ml:lax:512523",
-   "ml:lax:506426",
-   "ml:lax:506483"
+   "ml:lax:472984-512523-506426-506483-512523"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db5b9a23a77fc979"
+  "enriquecido": true,
+  "hashContenido": "41a2c1ee04c63a3a"
  },
  "slug": "cargador-inalambrico-lax-safety-gate-10012463"
 }

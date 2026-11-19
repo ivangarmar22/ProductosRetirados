@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "​e9*2018/858*11384*03 (GM)",
     "​e9*2018/858*11385*03 (GN)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.09.2022 - 07.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "14.09.2022 - 07.12.2023"
+   "fechasTexto": "14.09.2022 - 07.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "IE",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +91,16 @@
   "claves": [
    "ref:A12/00588/24",
    "mm:ineos:e9-2018-858-11384-03-gm",
-   "mm:ineos:e9-2018-858-11385-03-gn"
+   "mm:ineos:e9-2018-858-11385-03-gn",
+   "ml:ineos:14-09-2022-07-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df9f60a82af6ba17"
+  "enriquecido": true,
+  "hashContenido": "d5d3f355494a4e9d"
  },
  "slug": "coche-de-pasajeros-ineos-safety-gate-10012130"
 }

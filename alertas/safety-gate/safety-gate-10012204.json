@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-29"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta de carga.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,15 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "FI",
+   "FR",
+   "LU",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "13c4e612130a8bc8"
+  "enriquecido": true,
+  "hashContenido": "d90a20e8b4500c4c"
  },
  "slug": "bicicleta-de-carga-babboe-safety-gate-10012204"
 }

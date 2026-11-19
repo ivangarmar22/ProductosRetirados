@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "4015100339246"
    ],
    "descripcion": "Gel de ducha de color azul.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico transparente con una parte superior azul oscuro."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9477a794738ab41f"
+  "enriquecido": true,
+  "hashContenido": "0f372e080ca977a3"
  },
  "slug": "gel-de-ducha-fa-safety-gate-10012230"
 }

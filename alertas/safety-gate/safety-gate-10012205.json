@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-29"
  },
  "categoria": {
   "literal": "Otros - Bicicleta de carga",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicleta de carga sin asistencia eléctrica. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,14 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Mauritania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "FR",
+   "IE",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "306f4ca11f1d36cd"
+  "enriquecido": true,
+  "hashContenido": "867871b598e40d18"
  },
  "slug": "bicicleta-de-carga-babboe-safety-gate-10012205"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-04"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "USAMS"
    ],
    "modelos": [
-    "US–CC075",
-    "T21OCTC01"
+    "US–CC075, T21OCTC01"
    ],
    "lotes": [],
    "ean": [
     "6958444969930"
    ],
    "descripcion": "Cargador USB blanco con enchufe de red integrado y un puerto USB A. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -69,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,16 +104,15 @@
   "claves": [
    "ref:A11/00043/24",
    "ean:6958444969930",
-   "mm:usams:us-cc075",
-   "mm:usams:t21octc01"
+   "mm:usams:us-cc075-t21octc01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f320d8877ef37799"
+  "enriquecido": true,
+  "hashContenido": "e5376e24f6263e79"
  },
  "slug": "cargador-usb-usams-safety-gate-10012449"
 }

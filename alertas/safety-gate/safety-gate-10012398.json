@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,7 +35,8 @@
     "5908275169840"
    ],
    "descripcion": "Un conjunto de bloques que consta de 12 bolas, 15 palos con un imán en diferentes colores, y 23 bloques de colores — paneles.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -75,7 +76,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +113,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cfd15183462355c1"
+  "enriquecido": true,
+  "hashContenido": "54e64eefb359d99b"
  },
  "slug": "juguete-magnetico-mega-creative-safety-gate-10012398"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,20 @@
     "Ford"
    ],
    "modelos": [
-    "e13*2007/46*2188*00-*12",
-    "e13*2001/116*0185*43-*44"
+    "e13*2007/46*2188*00-*12, e13*2001/116*0185*43-*44"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Galaxy / S-Max: 04.08.2020 - 01.03.2023"
+    },
+    {
+     "numero": "Kuga: 23.07.2019 - 20.04.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "Galaxy / S-Max: 04.08.2020 - 01.03.2023Kuga: 23.07.2019 - 20.04.2023"
+   "fechasTexto": "Galaxy / S-Max: 04.08.2020 - 01.03.2023Kuga: 23.07.2019 - 20.04.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +70,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,16 +111,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00784/24",
-   "mm:ford:e13-2007-46-2188-00-12",
-   "mm:ford:e13-2001-116-0185-43-44"
+   "mm:ford:e13-2007-46-2188-00-12-e13-2001-116-0185-43-44",
+   "ml:ford:galaxy-s-max-04-08-2020-01-03-2023",
+   "ml:ford:kuga-23-07-2019-20-04-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "98fbbbc6ceefc8aa"
+  "enriquecido": true,
+  "hashContenido": "3b97064051a53312"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10012259"
 }

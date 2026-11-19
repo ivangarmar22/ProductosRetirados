@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2007/46*0970*00-*09 (970)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.07.2009 - 22.06.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "21.07.2009 - 22.06.2016"
+   "fechasTexto": "21.07.2009 - 22.06.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00682/24",
-   "mm:porsche:e13-2007-46-0970-00-09-970"
+   "mm:porsche:e13-2007-46-0970-00-09-970",
+   "ml:porsche:21-07-2009-22-06-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5cfac7b2706f80d1"
+  "enriquecido": true,
+  "hashContenido": "ef26d2d17bdbebd1"
  },
  "slug": "coche-de-pasajeros-porsche-safety-gate-10012239"
 }

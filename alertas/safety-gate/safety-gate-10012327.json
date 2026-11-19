@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "02068815050228475829"
+     "numero": "0206881505"
+    },
+    {
+     "numero": "0228475829"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "9000101064919"
    ],
    "descripcion": "Tinte para el cabello, de color rojo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con descripción checa, eslovaca y húngara."
   }
  ],
  "riesgo": {
@@ -70,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,15 +119,16 @@
    "ean:9000101064919",
    "mm:syoss:0206881505",
    "mm:syoss:0228475829",
-   "ml:syoss:02068815050228475829"
+   "ml:syoss:0206881505",
+   "ml:syoss:0228475829"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3a79a3c2431f1400"
+  "enriquecido": true,
+  "hashContenido": "7c28a79dce28d102"
  },
  "slug": "tinte-para-el-cabello-syoss-safety-gate-10012327"
 }

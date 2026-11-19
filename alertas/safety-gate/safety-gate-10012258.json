@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,42 @@
     "Lexus and Toyota"
    ],
    "modelos": [
-    "C-HR: MAXH10",
-    "ZYX11",
+    "C-HR: MAXH10, ZYX11",
     "NX450h+: AAZH26",
-    "RAV4 HEV: AXAH52",
-    "AXAH54",
-    "AXAL52",
-    "AXAL54",
+    "RAV4 HEV: AXAH52, AXAH54, AXAL52, AXAL54",
     "RAV4 PHV: AXAP54",
     "RX350h: AALH15",
     "RX450h+: AALH16",
     "RX500h: TALH17",
     "e6*2007/46*0289*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "C-HR: 08.01.2020 - 29.07.2023"
+    },
+    {
+     "numero": "NX450h+: 18.11.2021 - 08.02.2022"
+    },
+    {
+     "numero": "RAV4 HEV: 18.07.2019 - 21.09.2023"
+    },
+    {
+     "numero": "RAV4 PHV: 30.09.2022 - 29.09.2023"
+    },
+    {
+     "numero": "RX350h: 11.11.2022 - 23.09.2023"
+    },
+    {
+     "numero": "RX450h+: 07.11.2022 - 23.11.2023"
+    },
+    {
+     "numero": "RX500h: 10.11.2022 - 20.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "C-HR: 08.01.2020 - 29.07.2023NX450h+: 18.11.2021 - 08.02.2022RAV4 HEV: 18.07.2019 - 21.09.2023RAV4 PHV: 30.09.2022 - 29.09.2023RX350h: 11.11.2022 - 23.09.2023RX450h+: 07.11.2022 - 23.11.2023RX500h: 10.11.2022 - 20.09.2023"
+   "fechasTexto": "C-HR: 08.01.2020 - 29.07.2023NX450h+: 18.11.2021 - 08.02.2022RAV4 HEV: 18.07.2019 - 21.09.2023RAV4 PHV: 30.09.2022 - 29.09.2023RX350h: 11.11.2022 - 23.09.2023RX450h+: 07.11.2022 - 23.11.2023RX500h: 10.11.2022 - 20.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +92,13 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FR",
+   "PL",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,26 +113,29 @@
  "dedup": {
   "claves": [
    "ref:A12/00794/24",
-   "mm:lexus-and-toyota:c-hr-maxh10",
-   "mm:lexus-and-toyota:zyx11",
+   "mm:lexus-and-toyota:c-hr-maxh10-zyx11",
    "mm:lexus-and-toyota:nx450h-aazh26",
-   "mm:lexus-and-toyota:rav4-hev-axah52",
-   "mm:lexus-and-toyota:axah54",
-   "mm:lexus-and-toyota:axal52",
-   "mm:lexus-and-toyota:axal54",
+   "mm:lexus-and-toyota:rav4-hev-axah52-axah54-axal52-axal54",
    "mm:lexus-and-toyota:rav4-phv-axap54",
    "mm:lexus-and-toyota:rx350h-aalh15",
    "mm:lexus-and-toyota:rx450h-aalh16",
    "mm:lexus-and-toyota:rx500h-talh17",
-   "mm:lexus-and-toyota:e6-2007-46-0289-04"
+   "mm:lexus-and-toyota:e6-2007-46-0289-04",
+   "ml:lexus-and-toyota:c-hr-08-01-2020-29-07-2023",
+   "ml:lexus-and-toyota:nx450h-18-11-2021-08-02-2022",
+   "ml:lexus-and-toyota:rav4-hev-18-07-2019-21-09-2023",
+   "ml:lexus-and-toyota:rav4-phv-30-09-2022-29-09-2023",
+   "ml:lexus-and-toyota:rx350h-11-11-2022-23-09-2023",
+   "ml:lexus-and-toyota:rx450h-07-11-2022-23-11-2023",
+   "ml:lexus-and-toyota:rx500h-10-11-2022-20-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5a71b61460d92453"
+  "enriquecido": true,
+  "hashContenido": "1f776582c09964be"
  },
  "slug": "coche-de-pasajeros-lexus-and-toyota-safety-gate-10012258"
 }

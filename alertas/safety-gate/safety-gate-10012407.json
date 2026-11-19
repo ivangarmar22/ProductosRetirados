@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,7 +24,8 @@
   {
    "nombre": "LEÓN, FORMENTOR",
    "marcas": [
-    "Cupra, Seat"
+    "Cupra",
+    "Seat"
    ],
    "modelos": [
     "e9*2007/46*3167*01",
@@ -32,10 +33,15 @@
     "e9*2007/46*4008*00",
     "e9*2007/46*4008*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12/03/2020 - 04/04/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros de conducción a la derecha con transmisión automática y servosistema electrónico de frenos.",
-   "fechasTexto": "12/03/2020 - 04/04/2022"
+   "fechasTexto": "12/03/2020 - 04/04/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,18 +92,24 @@
  "dedup": {
   "claves": [
    "ref:A12/00858/24",
-   "mm:cupra-seat:e9-2007-46-3167-01",
-   "mm:cupra-seat:e9-2007-46-3167-16",
-   "mm:cupra-seat:e9-2007-46-4008-00",
-   "mm:cupra-seat:e9-2007-46-4008-11"
+   "mm:cupra:e9-2007-46-3167-01",
+   "mm:cupra:e9-2007-46-3167-16",
+   "mm:cupra:e9-2007-46-4008-00",
+   "mm:cupra:e9-2007-46-4008-11",
+   "ml:cupra:12-03-2020-04-04-2022",
+   "mm:seat:e9-2007-46-3167-01",
+   "mm:seat:e9-2007-46-3167-16",
+   "mm:seat:e9-2007-46-4008-00",
+   "mm:seat:e9-2007-46-4008-11",
+   "ml:seat:12-03-2020-04-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b31d2da415b61312"
+  "enriquecido": true,
+  "hashContenido": "8f92d08458c44624"
  },
  "slug": "coche-de-pasajeros-cupra-seat-safety-gate-10012407"
 }

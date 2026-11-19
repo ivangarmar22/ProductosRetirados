@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Barra de tracción",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "549136152ad7dcb0"
+  "enriquecido": true,
+  "hashContenido": "6f1f0a769f4f29ba"
  },
  "slug": "barra-de-traccion-trako-safety-gate-10012361"
 }

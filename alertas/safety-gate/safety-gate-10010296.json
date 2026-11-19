@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,13 @@
    ],
    "lotes": [
     {
-     "numero": "0102 (MP0102)0442 (MP0442)0447 (MP0447)-"
+     "numero": "0102 (MP0102)"
+    },
+    {
+     "numero": "0442 (MP0442)"
+    },
+    {
+     "numero": "0447 (MP0447)-"
     }
    ],
    "ean": [
@@ -41,7 +47,8 @@
     "8435606204477"
    ],
    "descripcion": "Muñeca de 40 cm vestida de pijama rosa y blanco o azul y blanco (con motivo de oso, estrella y corazón) con velcro en la parte posterior y un sombrero blanco. También tiene un babero con los mismos motivos que ata en la parte posterior. Un maniquí y un maniquí de plástico blanco se unen a la chaqueta mediante un clip.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de regalo."
   }
  ],
  "riesgo": {
@@ -124,15 +131,17 @@
    "ean:8435606204477",
    "mm:marina-pau:les-petits-reveurs-30-cm",
    "mm:marina-pau:petite-etoile-40-cm",
-   "ml:marina-pau:0102-mp0102-0442-mp0442-0447-mp0447"
+   "ml:marina-pau:0102-mp0102",
+   "ml:marina-pau:0442-mp0442",
+   "ml:marina-pau:0447-mp0447"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d159c09ed142dfa4"
+  "enriquecido": true,
+  "hashContenido": "20252e0e5389e9ea"
  },
  "slug": "muneca-de-plastico-marina-pau-safety-gate-10010296"
 }

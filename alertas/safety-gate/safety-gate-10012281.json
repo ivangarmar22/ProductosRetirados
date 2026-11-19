@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "VW"
    ],
    "modelos": [
-    "e1*2007/46*0623* (AU)",
-    "e1*2007/46*0452* (3d)",
-    "e1*2007/46*0627* (AUV)"
+    "e1*2007/46*0623* (AU), e1*2007/46*0452* (3d), e1*2007/46*0627* (AUV)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.04.2014 - 25.07.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "29.04.2014 - 25.07.2016"
+   "fechasTexto": "29.04.2014 - 25.07.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,17 +96,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00787/24",
-   "mm:vw:e1-2007-46-0623-au",
-   "mm:vw:e1-2007-46-0452-3d",
-   "mm:vw:e1-2007-46-0627-auv"
+   "mm:vw:e1-2007-46-0623-au-e1-2007-46-0452-3d-e1-2007-46-0627-auv",
+   "ml:vw:29-04-2014-25-07-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3734264ceebfba25"
+  "enriquecido": true,
+  "hashContenido": "1453bea5f9802efc"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10012281"
 }

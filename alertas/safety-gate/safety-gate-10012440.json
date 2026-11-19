@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-26"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "JOKADE"
    ],
    "modelos": [
-    "JB003",
-    "JB004"
+    "JB003, JB004"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Cargador USB negro con enchufe de red integrado y dos puertos USB A. Producto vendido en línea, en particular a través de Alibaba.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Ampolla."
   }
  ],
  "riesgo": {
@@ -94,16 +94,15 @@
  "dedup": {
   "claves": [
    "ref:A11/00045/24",
-   "mm:jokade:jb003",
-   "mm:jokade:jb004"
+   "mm:jokade:jb003-jb004"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7a034364b881ccf7"
+  "enriquecido": true,
+  "hashContenido": "e5e631b302ce2c43"
  },
  "slug": "cargador-usb-jokade-safety-gate-10012440"
 }

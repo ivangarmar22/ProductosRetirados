@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-11"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -34,7 +34,8 @@
     "8714184890600"
    ],
    "descripcion": "Casco ecuestre negro. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón negro."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "afb744eb0c69c188"
+  "enriquecido": true,
+  "hashContenido": "d6ade73a494c9f80"
  },
  "slug": "casco-ecuestre-imperial-riding-safety-gate-10012493"
 }

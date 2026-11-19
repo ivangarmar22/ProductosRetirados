@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,19 @@
    ],
    "modelos": [
     "DOT 1WPPJ TPWL 4622",
-    "R330",
-    "205/55 R16 91V"
+    "R330, 205/55 R16 91V"
    ],
-   "lotes": [],
-   "ean": [],
+   "lotes": [
+    {
+     "numero": "10.2022"
+    }
+   ],
+   "ean": [
+    "6939364203939"
+   ],
    "descripcion": "Neumático de 16 pulgadas para coches.",
-   "fechasTexto": "10.2022"
+   "fechasTexto": "10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,17 +91,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00834/24",
+   "ean:6939364203939",
    "mm:winrun:dot-1wppj-tpwl-4622",
-   "mm:winrun:r330",
-   "mm:winrun:205-55-r16-91v"
+   "mm:winrun:r330-205-55-r16-91v",
+   "ml:winrun:10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0a824d8493e0905c"
+  "enriquecido": true,
+  "hashContenido": "87b551347c2463a3"
  },
  "slug": "neumatico-de-coche-winrun-safety-gate-10012479"
 }

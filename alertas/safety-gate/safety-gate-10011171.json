@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-09"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "3380743092157"
    ],
    "descripcion": "Proyector de antorcha led Harry Potter operado por batería. Todos los lotes afectados.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -76,7 +77,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,11 +123,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b8c3035cc61ed411"
+  "enriquecido": true,
+  "hashContenido": "15192f2f8eabaed6"
  },
  "slug": "proyector-de-antorcha-led-lexibook-safety-gate-10011171"
 }

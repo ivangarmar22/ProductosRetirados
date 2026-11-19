@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "e2*2007/46*0348*07 (MAEVA)",
-    "e2*2007/46*0740*02",
-    "e2*2007/46*0740*04 (MAEVB)"
+    "e2*2007/46*0740*02, e2*2007/46*0740*04 (MAEVB)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20/06/2022 - 02/05/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero",
-   "fechasTexto": "20/06/2022 - 02/05/2023"
+   "fechasTexto": "20/06/2022 - 02/05/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,16 +87,16 @@
   "claves": [
    "ref:A12/00857/24",
    "mm:renault:e2-2007-46-0348-07-maeva",
-   "mm:renault:e2-2007-46-0740-02",
-   "mm:renault:e2-2007-46-0740-04-maevb"
+   "mm:renault:e2-2007-46-0740-02-e2-2007-46-0740-04-maevb",
+   "ml:renault:20-06-2022-02-05-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f1eefa31fc9a95f5"
+  "enriquecido": true,
+  "hashContenido": "9c247a79a3d46f4b"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-renault-safety-gate-10012409"
 }

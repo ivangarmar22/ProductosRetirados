@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-28"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -27,15 +27,15 @@
     "Samshield"
    ],
    "modelos": [
-    "#2K16",
-    "#02"
+    "#2K16 / #02"
    ],
    "lotes": [],
    "ean": [
     "5714447000121"
    ],
    "descripcion": "Casco ecuestre negro con logo en la parte delantera. Fechas de producción: 10/2020, 12/2020 y 06/2021. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón marrón."
   }
  ],
  "riesgo": {
@@ -65,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +94,15 @@
   "claves": [
    "ref:A12/00864/24",
    "ean:5714447000121",
-   "mm:samshield:2k16"
+   "mm:samshield:2k16-02"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "281b3d06c357305d"
+  "enriquecido": true,
+  "hashContenido": "d6234b04857a5a0b"
  },
  "slug": "casco-ecuestre-samshield-safety-gate-10012490"
 }

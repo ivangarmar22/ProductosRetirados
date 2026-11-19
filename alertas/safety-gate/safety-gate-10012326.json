@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "FL4",
     "e4*168/2013*00166*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.05.2023 - 06.10.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "10.05.2023 - 06.10.2023"
+   "fechasTexto": "10.05.2023 - 06.10.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +98,16 @@
   "claves": [
    "ref:A12/00843/24",
    "mm:harley-davidson:fl4",
-   "mm:harley-davidson:e4-168-2013-00166-00"
+   "mm:harley-davidson:e4-168-2013-00166-00",
+   "ml:harley-davidson:10-05-2023-06-10-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ad2aab72e8d6aeb8"
+  "enriquecido": true,
+  "hashContenido": "c52ac8e65147fc95"
  },
  "slug": "moto-harley-davidson-safety-gate-10012326"
 }

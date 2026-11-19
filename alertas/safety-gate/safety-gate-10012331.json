@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.05.2010 - 3.03.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "17.05.2010 - 3.03.2019"
+   "fechasTexto": "17.05.2010 - 3.03.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00789/24",
-   "mm:ford:individual-approval"
+   "mm:ford:individual-approval",
+   "ml:ford:17-05-2010-3-03-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c6bd170d7995740c"
+  "enriquecido": true,
+  "hashContenido": "03c7a39f5ca76a50"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10012331"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-22"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -35,7 +35,8 @@
     "5904067440067"
    ],
    "descripcion": "Accesorio de corte tipo flail con seis cuchillos metálicos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente con almohadilla de papel."
   }
  ],
  "riesgo": {
@@ -69,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "640b7b669beb3f60"
+  "enriquecido": true,
+  "hashContenido": "b5255779c5c22beb"
  },
  "slug": "accesorio-para-cortadoras-de-cepillos-powermat-safety-gate-10012520"
 }

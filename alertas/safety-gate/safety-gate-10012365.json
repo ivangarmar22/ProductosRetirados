@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,17 +24,29 @@
   {
    "nombre": "Berlingo (Citroen) Partner (Peugeot) Proace city(Toyota) Combo(Opel)",
    "marcas": [
-    "CITROEN, DANGEL, Opel, Peugeot, Toyota"
+    "CITROEN",
+    "DANGEL",
+    "Opel",
+    "Peugeot",
+    "Toyota"
    ],
    "modelos": [
     "e2*KS07/46*0085*02 to e2*KS07/46*0085*05 (V37PC)",
     "e2*KS07/46*0086*02 to e2*KS07/46*0086*05 (V37OV)",
     "e2*KS07/46*0093*00 to e2*KS07/46*0093*03 (V37TO)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.2019 - 04.2021 (STELLANTIS)"
+    },
+    {
+     "numero": "12.2019 - 04.2021 (Toyota Motor Europe)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "04.2019 - 04.2021 (STELLANTIS)12.2019 - 04.2021 (Toyota Motor Europe)"
+   "fechasTexto": "04.2019 - 04.2021 (STELLANTIS)12.2019 - 04.2021 (Toyota Motor Europe)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +76,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "HU",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,17 +113,39 @@
  "dedup": {
   "claves": [
    "ref:A12/00859/24",
-   "mm:citroen-dangel-opel-peugeot-toyota:e2-ks07-46-0085-02-to-e2-ks07-46-0085-05-v37pc",
-   "mm:citroen-dangel-opel-peugeot-toyota:e2-ks07-46-0086-02-to-e2-ks07-46-0086-05-v37ov",
-   "mm:citroen-dangel-opel-peugeot-toyota:e2-ks07-46-0093-00-to-e2-ks07-46-0093-03-v37to"
+   "mm:citroen:e2-ks07-46-0085-02-to-e2-ks07-46-0085-05-v37pc",
+   "mm:citroen:e2-ks07-46-0086-02-to-e2-ks07-46-0086-05-v37ov",
+   "mm:citroen:e2-ks07-46-0093-00-to-e2-ks07-46-0093-03-v37to",
+   "ml:citroen:04-2019-04-2021-stellantis",
+   "ml:citroen:12-2019-04-2021-toyota-motor-europe",
+   "mm:dangel:e2-ks07-46-0085-02-to-e2-ks07-46-0085-05-v37pc",
+   "mm:dangel:e2-ks07-46-0086-02-to-e2-ks07-46-0086-05-v37ov",
+   "mm:dangel:e2-ks07-46-0093-00-to-e2-ks07-46-0093-03-v37to",
+   "ml:dangel:04-2019-04-2021-stellantis",
+   "ml:dangel:12-2019-04-2021-toyota-motor-europe",
+   "mm:opel:e2-ks07-46-0085-02-to-e2-ks07-46-0085-05-v37pc",
+   "mm:opel:e2-ks07-46-0086-02-to-e2-ks07-46-0086-05-v37ov",
+   "mm:opel:e2-ks07-46-0093-00-to-e2-ks07-46-0093-03-v37to",
+   "ml:opel:04-2019-04-2021-stellantis",
+   "ml:opel:12-2019-04-2021-toyota-motor-europe",
+   "mm:peugeot:e2-ks07-46-0085-02-to-e2-ks07-46-0085-05-v37pc",
+   "mm:peugeot:e2-ks07-46-0086-02-to-e2-ks07-46-0086-05-v37ov",
+   "mm:peugeot:e2-ks07-46-0093-00-to-e2-ks07-46-0093-03-v37to",
+   "ml:peugeot:04-2019-04-2021-stellantis",
+   "ml:peugeot:12-2019-04-2021-toyota-motor-europe",
+   "mm:toyota:e2-ks07-46-0085-02-to-e2-ks07-46-0085-05-v37pc",
+   "mm:toyota:e2-ks07-46-0086-02-to-e2-ks07-46-0086-05-v37ov",
+   "mm:toyota:e2-ks07-46-0093-00-to-e2-ks07-46-0093-03-v37to",
+   "ml:toyota:04-2019-04-2021-stellantis",
+   "ml:toyota:12-2019-04-2021-toyota-motor-europe"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "628e41fa0856c24a"
+  "enriquecido": true,
+  "hashContenido": "b2539314c5f58100"
  },
  "slug": "coche-de-pasajeros-citroen-dangel-opel-peugeot-toyota-safety-gate-10012365"
 }

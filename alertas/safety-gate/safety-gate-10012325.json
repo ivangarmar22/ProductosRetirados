@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2018/858*00017*05-*06 (R2CS)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.09.2022 - 27.02.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros equipado con un motor híbrido enchufable.",
-   "fechasTexto": "19.09.2022 - 27.02.2023"
+   "fechasTexto": "19.09.2022 - 27.02.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00766/24",
-   "mm:mercedes-benz:e1-2018-858-00017-05-06-r2cs"
+   "mm:mercedes-benz:e1-2018-858-00017-05-06-r2cs",
+   "ml:mercedes-benz:19-09-2022-27-02-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "181453afcffd6c87"
+  "enriquecido": true,
+  "hashContenido": "07a600975b937290"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10012325"
 }

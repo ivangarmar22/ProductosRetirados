@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "AW",
-    "3C",
-    "A3",
-    "e1*2007/46*1783*",
-    "e1*2001/116*0307*",
-    "individual approval"
+    "AW, 3C, A3",
+    "e1*2007/46*1783*, e1*2001/116*0307*, individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.03.2016 - 07.08.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "29.03.2016 - 07.08.2017"
+   "fechasTexto": "29.03.2016 - 07.08.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -90,17 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00793/24",
-   "mm:vw:e1-2007-46-1783",
-   "mm:vw:e1-2001-116-0307",
-   "mm:vw:individual-approval"
+   "mm:vw:aw-3c-a3",
+   "mm:vw:e1-2007-46-1783-e1-2001-116-0307-individual-approval",
+   "ml:vw:29-03-2016-07-08-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "090172d9e3324918"
+  "enriquecido": true,
+  "hashContenido": "2ddb95e0ab48e225"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10012298"
 }

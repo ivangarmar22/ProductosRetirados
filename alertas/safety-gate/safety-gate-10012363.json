@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-19"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Palette Intensive Color Creme",
    "marcas": [
-    "PALETTE, SCHWARZKPOF"
+    "PALETTE",
+    "SCHWARZKPOF"
    ],
    "modelos": [
     "LRN5",
@@ -34,17 +35,24 @@
    ],
    "lotes": [
     {
-     "numero": "080677519708098768640821775921"
+     "numero": "0806775197"
+    },
+    {
+     "numero": "0809876864"
+    },
+    {
+     "numero": "0821775921"
     }
    ],
    "ean": [
+    "9000101003291",
     "3838824159898",
     "3838824307312",
-    "9000101003017",
-    "9000101003291"
+    "9000101003017"
    ],
    "descripcion": "Tinte de pelo rojo. El envase contiene un tubo con crema colorante (50 ml), un frasco con emulsión en desarrollo (50 ml), una bolsa de mascarilla de cuidado (10 ml), un par de guantes e instrucciones de uso.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón púrpura."
   }
  ],
  "riesgo": {
@@ -101,23 +109,32 @@
  "dedup": {
   "claves": [
    "ref:A12/00769/24",
+   "ean:9000101003291",
    "ean:3838824159898",
    "ean:3838824307312",
    "ean:9000101003017",
-   "ean:9000101003291",
-   "mm:palette-schwarzkpof:lrn5",
-   "mm:palette-schwarzkpof:ri5",
-   "mm:palette-schwarzkpof:ri6",
-   "mm:palette-schwarzkpof:rv6",
-   "ml:palette-schwarzkpof:080677519708098768640821775921"
+   "mm:palette:lrn5",
+   "mm:palette:ri5",
+   "mm:palette:ri6",
+   "mm:palette:rv6",
+   "ml:palette:0806775197",
+   "ml:palette:0809876864",
+   "ml:palette:0821775921",
+   "mm:schwarzkpof:lrn5",
+   "mm:schwarzkpof:ri5",
+   "mm:schwarzkpof:ri6",
+   "mm:schwarzkpof:rv6",
+   "ml:schwarzkpof:0806775197",
+   "ml:schwarzkpof:0809876864",
+   "ml:schwarzkpof:0821775921"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b308a906813e3dc2"
+  "enriquecido": true,
+  "hashContenido": "f6a170aa77328285"
  },
  "slug": "tinte-para-el-cabello-palette-schwarzkpof-safety-gate-10012363"
 }

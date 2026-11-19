@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -39,10 +39,18 @@
     "e9*2018/858*30002*10",
     "e9*2018/858*30002*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "AUSTRAL 21.04.2022 - 28.11.2023"
+    },
+    {
+     "numero": "Espace VI 10.03.2023 - 28.11.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "AUSTRAL 21.04.2022 - 28.11.2023Espace VI 10.03.2023 - 28.11.2023"
+   "fechasTexto": "AUSTRAL 21.04.2022 - 28.11.2023Espace VI 10.03.2023 - 28.11.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +80,18 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "ES",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,15 +120,17 @@
    "mm:renault:e9-2018-858-30002-08",
    "mm:renault:e9-2018-858-30002-09",
    "mm:renault:e9-2018-858-30002-10",
-   "mm:renault:e9-2018-858-30002-11"
+   "mm:renault:e9-2018-858-30002-11",
+   "ml:renault:austral-21-04-2022-28-11-2023",
+   "ml:renault:espace-vi-10-03-2023-28-11-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0533ff1868737179"
+  "enriquecido": true,
+  "hashContenido": "a1af5b37dd039be5"
  },
  "slug": "coche-de-pasajeros-renault-safety-gate-10012215"
 }

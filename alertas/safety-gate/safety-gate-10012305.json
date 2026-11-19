@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-09-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2018/858*00266*00-*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.04.2023 - 11.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "06.04.2023 - 11.09.2023"
+   "fechasTexto": "06.04.2023 - 11.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00752/24",
-   "mm:honda:e6-2018-858-00266-00-01"
+   "mm:honda:e6-2018-858-00266-00-01",
+   "ml:honda:06-04-2023-11-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "180b5d03eae8cbda"
+  "enriquecido": true,
+  "hashContenido": "23a64ea17ce4c2fc"
  },
  "slug": "coche-de-pasajeros-honda-safety-gate-10012305"
 }

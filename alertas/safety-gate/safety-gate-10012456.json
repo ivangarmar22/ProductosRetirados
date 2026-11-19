@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "504161504166"
+     "numero": "504161"
+    },
+    {
+     "numero": "504166"
     }
    ],
    "ean": [
     "840286404754"
    ],
    "descripcion": "Estación de carga plegable blanca 3-en-1, blanca",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +76,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,15 +112,16 @@
    "ref:A12/00826/24",
    "ean:840286404754",
    "mm:brookstone:jjt-a80",
-   "ml:brookstone:504161504166"
+   "ml:brookstone:504161",
+   "ml:brookstone:504166"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e3a9d39671fbb1ff"
+  "enriquecido": true,
+  "hashContenido": "25beeb22cb8df462"
  },
  "slug": "estacion-de-carga-brookstone-safety-gate-10012456"
 }

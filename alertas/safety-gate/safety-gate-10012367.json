@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-18"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Agente de chapado, 160 ml. Producto vendido en línea, en particular a través de Amazon (ASIN: B0BR8WPC3J).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo blanco con etiqueta verde."
   }
  ],
  "riesgo": {
@@ -61,7 +62,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cc9b9b04415bafe0"
+  "enriquecido": true,
+  "hashContenido": "68d7bc7875dde987"
  },
  "slug": "agente-de-chapado-jue-fish-safety-gate-10012367"
 }

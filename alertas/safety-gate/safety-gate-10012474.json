@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "G6L",
-    "G6E",
-    "e1*2018/858*00316*",
-    "e1*2018/858*00317*"
+    "G6L, G6E",
+    "e1*2018/858*00316*, e1*2018/858*00317*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.01.2024 - 29.01.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "12.01.2024 - 29.01.2024"
+   "fechasTexto": "12.01.2024 - 29.01.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,18 +110,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00856/24",
-   "mm:bmw:g6l",
-   "mm:bmw:g6e",
-   "mm:bmw:e1-2018-858-00316",
-   "mm:bmw:e1-2018-858-00317"
+   "mm:bmw:g6l-g6e",
+   "mm:bmw:e1-2018-858-00316-e1-2018-858-00317",
+   "ml:bmw:12-01-2024-29-01-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6d6e95311e81c493"
+  "enriquecido": true,
+  "hashContenido": "c4fea23400c93863"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10012474"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-04-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*168/2013*11690*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.09.2020 - 06.03.2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "12.09.2020 - 06.03.2024"
+   "fechasTexto": "12.09.2020 - 06.03.2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +96,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00878/24",
-   "mm:triumph-motorcycles:e9-168-2013-11690-03"
+   "mm:triumph-motorcycles:e9-168-2013-11690-03",
+   "ml:triumph-motorcycles:12-09-2020-06-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5d6c253e79b3a7ef"
+  "enriquecido": true,
+  "hashContenido": "738eea1e94a04790"
  },
  "slug": "moto-triumph-motorcycles-ltd-safety-gate-10012384"
 }

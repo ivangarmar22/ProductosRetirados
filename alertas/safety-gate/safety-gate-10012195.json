@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R2CW",
     "e1*2018/858*00016*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.06.2023 - 25.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Nombre del modelo del automóvil de pasajeros: C 300e, C 300e 4MATIC, C 400e 4MATIC",
-   "fechasTexto": "21.06.2023 - 25.08.2023"
+   "fechasTexto": "21.06.2023 - 25.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "LU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +94,16 @@
   "claves": [
    "ref:A12/00681/24",
    "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:e1-2018-858-00016-06"
+   "mm:mercedes-benz:e1-2018-858-00016-06",
+   "ml:mercedes-benz:21-06-2023-25-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ef06b49cf9ebd649"
+  "enriquecido": true,
+  "hashContenido": "e6b09a54540f5e18"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10012195"
 }
