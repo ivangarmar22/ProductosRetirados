@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-19"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Tinta de maquillaje permanente, producto del tatuaje, 15 ml. Todos los lotes se refieren. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +82,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f6135c170cbe3cee"
+  "enriquecido": true,
+  "hashContenido": "836abd6047e37ecf"
  },
  "slug": "tinta-de-tatuaje-maquillaje-permanente-perma-blend-safety-gate-10011488"
 }

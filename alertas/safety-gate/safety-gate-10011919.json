@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-13"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "6913-17044"
+     "numero": "6913-1"
+    },
+    {
+     "numero": "7044"
     }
    ],
    "ean": [],
    "descripcion": "Sudadera con capucha pensada para niños de entre 104 y 176, con cordones libres.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00319/24",
-   "ml:waxmen-kids:6913-17044"
+   "ml:waxmen-kids:6913-1",
+   "ml:waxmen-kids:7044"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4d7337ee16c4f49a"
+  "enriquecido": true,
+  "hashContenido": "45c7f23a1106d2dc"
  },
  "slug": "sudadera-waxmen-kids-safety-gate-10011919"
 }

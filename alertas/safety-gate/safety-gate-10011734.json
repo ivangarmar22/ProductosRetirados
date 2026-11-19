@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-23"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -32,7 +32,8 @@
     "2014110608092"
    ],
    "descripcion": "Cable de plástico negro con luz led. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c7056e418df5ff36"
+  "enriquecido": true,
+  "hashContenido": "3d3702ddcc6835a2"
  },
  "slug": "luz-led-con-usb-usb-led-light-bojbar-usb-led-lampa-svart-safety-gate-10011734"
 }

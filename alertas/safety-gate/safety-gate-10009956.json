@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-23"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -27,13 +27,7 @@
     "Electriq"
    ],
    "modelos": [
-    "IQGH603S",
-    "IQGH604B",
-    "IQGHVOL",
-    "IQGH75BG",
-    "IQGH75S",
-    "IQGH75WG",
-    "IQGH604W"
+    "IQGH603S, IQGH604B, IQGHVOL, IQGH75BG, IQGH75S, IQGH75WG ,IQGH604W"
    ],
    "lotes": [],
    "ean": [
@@ -46,7 +40,8 @@
     "5056096053999"
    ],
    "descripcion": "Construido en placa de gas. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón marrón con texto negro."
   }
  ],
  "riesgo": {
@@ -129,21 +124,15 @@
    "ean:5060388567606",
    "ean:5056096049527",
    "ean:5056096053999",
-   "mm:electriq:iqgh603s",
-   "mm:electriq:iqgh604b",
-   "mm:electriq:iqghvol",
-   "mm:electriq:iqgh75bg",
-   "mm:electriq:iqgh75s",
-   "mm:electriq:iqgh75wg",
-   "mm:electriq:iqgh604w"
+   "mm:electriq:iqgh603s-iqgh604b-iqghvol-iqgh75bg-iqgh75s-iqgh75wg-iqgh604w"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b96c3e4e8c5c1d82"
+  "enriquecido": true,
+  "hashContenido": "d43a25d6d661752a"
  },
  "slug": "construido-en-placa-de-gas-electriq-safety-gate-10009956"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-24"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -34,7 +34,8 @@
     "4031381002068"
    ],
    "descripcion": "Casco ecuestre, tamaño XS con logotipo en la parte delantera. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón marrón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,12 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "36c065a3f0657aa0"
+  "enriquecido": true,
+  "hashContenido": "7d7f5511a1bafc9b"
  },
  "slug": "casco-ecuestre-casco-nori-hufeisen-safety-gate-10011887"
 }

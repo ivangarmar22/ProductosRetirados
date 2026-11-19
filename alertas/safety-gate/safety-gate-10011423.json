@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-17"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Salter/Beldray Cordless Vacuum",
    "marcas": [
-    "Beldray, Salter"
+    "Beldray",
+    "Salter"
    ],
    "modelos": [
     "TYBSDC1400500"
@@ -44,7 +45,8 @@
     "5054061210453"
    ],
    "descripcion": "Aspiradora inalámbrica. Este producto se vende en línea, en particular a través de Amazon (sin ASIN incluido).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón sólida"
   }
  ],
  "riesgo": {
@@ -107,16 +109,18 @@
    "ean:5054061105896",
    "ean:5054061106442",
    "ean:5054061210453",
-   "mm:beldray-salter:tybsdc1400500",
-   "ml:beldray-salter:all-batches"
+   "mm:beldray:tybsdc1400500",
+   "ml:beldray:all-batches",
+   "mm:salter:tybsdc1400500",
+   "ml:salter:all-batches"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb5c1cbcad1094e1"
+  "enriquecido": true,
+  "hashContenido": "5eb565f081264221"
  },
  "slug": "aspiradora-inalambrica-beldray-salter-safety-gate-10011423"
 }

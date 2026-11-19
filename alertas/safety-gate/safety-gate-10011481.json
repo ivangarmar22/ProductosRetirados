@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-26"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "8595025345653"
    ],
    "descripcion": "Cordón de extensión en color naranja.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico transparente."
   }
  ],
  "riesgo": {
@@ -67,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8a0f5c8cb0f154f3"
+  "enriquecido": true,
+  "hashContenido": "315eed638995f1d9"
  },
  "slug": "cable-de-extension-emos-safety-gate-10011481"
 }

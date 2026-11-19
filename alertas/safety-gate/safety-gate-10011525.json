@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-25"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -38,7 +38,8 @@
     "3701107955343"
    ],
    "descripcion": "Scooter eléctrico con batería y transformador. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "357644ec2fb6c28f"
+  "enriquecido": true,
+  "hashContenido": "c8d47f7a1b56a923"
  },
  "slug": "scooter-electrico-vsett-safety-gate-10011525"
 }

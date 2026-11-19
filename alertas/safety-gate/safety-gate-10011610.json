@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Ford"
    ],
    "modelos": [
-    "DYB",
-    "DM2",
-    "WA6",
-    "DXA",
-    "BA7",
-    "e13*2007/46*1138*14",
-    "e13*2001/116*0109*37",
-    "e13*2001/116*0185*24-*25",
-    "e13*2007/46*1103*15",
-    "e13*2001/116*0249*29"
+    "DYB, DM2, WA6, DXA, BA7",
+    "e13*2007/46*1138*14, e13*2001/116*0109*37, e13*2001/116*0185*24-*25, e13*2007/46*1103*15, e13*2001/116*0249*29"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.07.2014 - 19.10.2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con motor diesel Duratorq 2.0L.",
-   "fechasTexto": "18.07.2014 - 19.10.2015"
+   "fechasTexto": "18.07.2014 - 19.10.2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "GR",
+   "IE",
+   "MT",
+   "NO",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,24 +115,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00141/24",
-   "mm:ford:dyb",
-   "mm:ford:dm2",
-   "mm:ford:wa6",
-   "mm:ford:dxa",
-   "mm:ford:ba7",
-   "mm:ford:e13-2007-46-1138-14",
-   "mm:ford:e13-2001-116-0109-37",
-   "mm:ford:e13-2001-116-0185-24-25",
-   "mm:ford:e13-2007-46-1103-15",
-   "mm:ford:e13-2001-116-0249-29"
+   "mm:ford:dyb-dm2-wa6-dxa-ba7",
+   "mm:ford:e13-2007-46-1138-14-e13-2001-116-0109-37-e13-2001-116-0185-24-25-e13-2007-46-1103-15-e13-2001-116-0249-29",
+   "ml:ford:18-07-2014-19-10-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "38c732215caf9210"
+  "enriquecido": true,
+  "hashContenido": "4a3792040079b3f0"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10011610"
 }

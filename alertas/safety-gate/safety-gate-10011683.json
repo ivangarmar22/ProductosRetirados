@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-22"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cinco chalecos amarillos de alta visibilidad. El producto se vende en línea, en particular a través de Amazon (ASIN: B0CFKJM78H).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico re-sellable."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "674a91ec72ece5b8"
+  "enriquecido": true,
+  "hashContenido": "c32dadaeb2ce9538"
  },
  "slug": "chaleco-de-seguridad-afaik-safety-gate-10011683"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "VW – Volkswagen"
    ],
    "modelos": [
-    "CD",
-    "CDV",
-    "3H",
-    "3CC",
-    "e1*2007/46*2014*",
-    "e1*2007/46*2180*",
-    "e1*2007/46*1725*",
-    "e1*2001/116*0468*"
+    "CD, CDV, 3H, 3CC",
+    "e1*2007/46*2014*, e1*2007/46*2180*, e1*2007/46*1725*, e1*2001/116*0468*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.05.2019 - 20.11.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros de conducción a la derecha con caja de cambios directos y refuerzo electrónico de fuerza de freno.",
-   "fechasTexto": "13.05.2019 - 20.11.2023"
+   "fechasTexto": "13.05.2019 - 20.11.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "IE",
+   "MT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,20 +99,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00188/24",
-   "mm:vw-volkswagen:cdv",
-   "mm:vw-volkswagen:3cc",
-   "mm:vw-volkswagen:e1-2007-46-2014",
-   "mm:vw-volkswagen:e1-2007-46-2180",
-   "mm:vw-volkswagen:e1-2007-46-1725",
-   "mm:vw-volkswagen:e1-2001-116-0468"
+   "mm:vw-volkswagen:cd-cdv-3h-3cc",
+   "mm:vw-volkswagen:e1-2007-46-2014-e1-2007-46-2180-e1-2007-46-1725-e1-2001-116-0468",
+   "ml:vw-volkswagen:13-05-2019-20-11-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9610de3b607c43a0"
+  "enriquecido": true,
+  "hashContenido": "c781f8458717f736"
  },
  "slug": "coche-de-pasajeros-vw-volkswagen-safety-gate-10011677"
 }

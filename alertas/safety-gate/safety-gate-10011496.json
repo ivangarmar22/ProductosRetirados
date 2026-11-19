@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete de proyectiles con energía almacenada que consiste en un lanzador con un mecanismo de liberación y un proyectil — un cohete. Vendido con la revista National Geographic Kids n.º 6/2022.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4362288b732a25cd"
+  "enriquecido": true,
+  "hashContenido": "0e85a852f51d8af8"
  },
  "slug": "juguete-de-plastico-space-rocket-safety-gate-10011496"
 }

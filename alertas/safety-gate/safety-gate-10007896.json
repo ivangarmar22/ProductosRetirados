@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-12"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8619372372695"
    ],
    "descripcion": "Juguete suave de la forma de una oruga",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Croacia",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c83ff7a684fac7f2"
+  "enriquecido": true,
+  "hashContenido": "a75cee9d835735e9"
  },
  "slug": "juguete-suave-gran-toys-safety-gate-10007896"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Land Rover"
    ],
    "modelos": [
-    "e11*98/14*0185*04-*13",
-    "LM"
+    "e11*98/14*0185*04-*13 / LM"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "6.04.2006 - 24.07.2012"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "6.04.2006 - 24.07.2012"
+   "fechasTexto": "6.04.2006 - 24.07.2012",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "GR",
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02022/23",
-   "mm:land-rover:e11-98-14-0185-04-13"
+   "mm:land-rover:e11-98-14-0185-04-13-lm",
+   "ml:land-rover:6-04-2006-24-07-2012"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "79198b950c2c7875"
+  "enriquecido": true,
+  "hashContenido": "a10a76aebe648093"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10010060"
 }

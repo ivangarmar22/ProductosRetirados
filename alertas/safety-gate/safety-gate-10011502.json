@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-04"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6957713003849"
    ],
    "descripcion": "Linterna led recargable. Este producto se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ee2891b4396dcf8c"
+  "enriquecido": true,
+  "hashContenido": "8d9fee3b3c09cc25"
  },
  "slug": "linterna-recargable-led-armytek-safety-gate-10011502"
 }

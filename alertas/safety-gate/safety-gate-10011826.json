@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*0080*11 (2Sb)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.4.2023 to 6.8.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Remolque de caja de caballos.",
-   "fechasTexto": "17.4.2023 to 6.8.2023"
+   "fechasTexto": "17.4.2023 to 6.8.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00247/24",
-   "mm:ifor-williams-trailers:e4-2007-46-0080-11-2sb"
+   "mm:ifor-williams-trailers:e4-2007-46-0080-11-2sb",
+   "ml:ifor-williams-trailers:17-4-2023-to-6-8-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "389aec3c0bf544ed"
+  "enriquecido": true,
+  "hashContenido": "d591d8b4c9857ed2"
  },
  "slug": "trailer-ifor-williams-trailers-safety-gate-10011826"
 }

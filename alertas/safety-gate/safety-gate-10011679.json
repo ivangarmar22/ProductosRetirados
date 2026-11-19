@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,18 @@
     "Lexus"
    ],
    "modelos": [
-    "AZ1",
-    "AL2(EU",
-    "M)",
-    "e6*2007/46*0111*",
-    "e6*2007/46*0163*"
+    "AZ1, AL2(EU,M)",
+    "e6*2007/46*0111*, e6*2007/46*0163*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.03.2018 – 26.05.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con una bomba de combustible de alta presión.",
-   "fechasTexto": "12.03.2018 – 26.05.2022"
+   "fechasTexto": "12.03.2018 – 26.05.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HU",
+   "IE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,18 +95,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00190/24",
-   "mm:lexus:az1",
-   "mm:lexus:al2-eu",
-   "mm:lexus:e6-2007-46-0111",
-   "mm:lexus:e6-2007-46-0163"
+   "mm:lexus:az1-al2-eu-m",
+   "mm:lexus:e6-2007-46-0111-e6-2007-46-0163",
+   "ml:lexus:12-03-2018-26-05-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "10e70ea76594be74"
+  "enriquecido": true,
+  "hashContenido": "bfa68d8552887edd"
  },
  "slug": "coche-de-pasajeros-lexus-safety-gate-10011679"
 }

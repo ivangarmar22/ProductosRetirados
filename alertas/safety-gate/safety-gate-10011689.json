@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,18 @@
     "Opel"
    ],
    "modelos": [
-    "H",
-    "Y",
-    "e2*2007/46*0735*04",
-    "e3*2007/46*0045*27",
-    "e3*2007/46*0050*28"
+    "H, Y",
+    "e2*2007/46*0735*04, e3*2007/46*0045*27, e3*2007/46*0050*28"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.3.2023 - 5.6.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero",
-   "fechasTexto": "20.3.2023 - 5.6.2023"
+   "fechasTexto": "20.3.2023 - 5.6.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,17 +103,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00194/24",
-   "mm:opel:e2-2007-46-0735-04",
-   "mm:opel:e3-2007-46-0045-27",
-   "mm:opel:e3-2007-46-0050-28"
+   "mm:opel:h-y",
+   "mm:opel:e2-2007-46-0735-04-e3-2007-46-0045-27-e3-2007-46-0050-28",
+   "ml:opel:20-3-2023-5-6-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7e385376e75f0e7a"
+  "enriquecido": true,
+  "hashContenido": "d280ebbec28126e0"
  },
  "slug": "vehiculo-comercial-ligero-opel-safety-gate-10011689"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-01"
  },
  "categoria": {
   "literal": "Artículos varios",
@@ -27,8 +27,7 @@
     "Not specified"
    ],
    "modelos": [
-    "ps-dms1",
-    "FD-368"
+    "ps-dms1 / FD-368"
    ],
    "lotes": [
     {
@@ -37,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Aspiradora negra para teclado con USB. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,17 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00235/24",
-   "mm:not-specified:ps-dms1",
-   "mm:not-specified:fd-368",
+   "mm:not-specified:ps-dms1-fd-368",
    "ml:not-specified:not-specified"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "83e0be53ad480f6a"
+  "enriquecido": true,
+  "hashContenido": "8422661b36724061"
  },
  "slug": "limpiador-de-teclados-not-specified-safety-gate-10011808"
 }

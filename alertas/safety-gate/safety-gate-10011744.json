@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Fuso"
    ],
    "modelos": [
-    "FE4P10TF1N1",
-    "FE4P10TF1N2",
-    "e4*2007/46*0784*07-*10",
-    "e4*2007/46*0785*08-*11"
+    "FE4P10TF1N1, FE4P10TF1N2",
+    "e4*2007/46*0784*07-*10, e4*2007/46*0785*08-*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1/07/2019 – 31/10/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "1/07/2019 – 31/10/2022"
+   "fechasTexto": "1/07/2019 – 31/10/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Portugal",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "MT",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,18 +104,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00170/24",
-   "mm:fuso:fe4p10tf1n1",
-   "mm:fuso:fe4p10tf1n2",
-   "mm:fuso:e4-2007-46-0784-07-10",
-   "mm:fuso:e4-2007-46-0785-08-11"
+   "mm:fuso:fe4p10tf1n1-fe4p10tf1n2",
+   "mm:fuso:e4-2007-46-0784-07-10-e4-2007-46-0785-08-11",
+   "ml:fuso:1-07-2019-31-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c4e1b82a3acd1586"
+  "enriquecido": true,
+  "hashContenido": "e41c5d7161531078"
  },
  "slug": "camion-fuso-safety-gate-10011744"
 }

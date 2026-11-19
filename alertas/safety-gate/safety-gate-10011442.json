@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-02"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Mancuernas negras (1 kg y 2 kg). El nombre de la marca (Wrange) y el peso de la mancuerna están escritos con letras blancas en el extremo de las mancuernas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente (niebla)."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "afa05d37714553a3"
+  "enriquecido": true,
+  "hashContenido": "47a608a828050213"
  },
  "slug": "mancuerna-wrange-safety-gate-10011442"
 }

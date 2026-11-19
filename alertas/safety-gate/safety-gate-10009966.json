@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-18"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -34,7 +34,8 @@
     "5059340157993"
    ],
    "descripcion": "Construido en placa de gas",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -71,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d1f3b5af066e56bd"
+  "enriquecido": true,
+  "hashContenido": "c2cabe150a348f56"
  },
  "slug": "construido-en-placa-de-gas-cooke-lewis-safety-gate-10009966"
 }

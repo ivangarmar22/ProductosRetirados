@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,18 @@
     "Peugeot"
    ],
    "modelos": [
-    "H",
-    "Y",
-    "e2*2007/46*0735*04",
-    "e3*2007/46*0045*27",
-    "e3*2007/46*0050*28"
+    "H, Y",
+    "e2*2007/46*0735*04, e3*2007/46*0045*27, e3*2007/46*0050*28"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.3.2023 - 1.9.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero",
-   "fechasTexto": "20.3.2023 - 1.9.2023"
+   "fechasTexto": "20.3.2023 - 1.9.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,17 +107,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00243/24",
-   "mm:peugeot:e2-2007-46-0735-04",
-   "mm:peugeot:e3-2007-46-0045-27",
-   "mm:peugeot:e3-2007-46-0050-28"
+   "mm:peugeot:h-y",
+   "mm:peugeot:e2-2007-46-0735-04-e3-2007-46-0045-27-e3-2007-46-0050-28",
+   "ml:peugeot:20-3-2023-1-9-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ea9fdcfca58e9f9b"
+  "enriquecido": true,
+  "hashContenido": "2c91b05311437139"
  },
  "slug": "vehiculo-comercial-ligero-peugeot-safety-gate-10011693"
 }

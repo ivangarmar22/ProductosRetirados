@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-23"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -27,12 +27,7 @@
     "Caple"
    ],
    "modelos": [
-    "C749G",
-    "C750G",
-    "C767G",
-    "C768G",
-    "C774G",
-    "C775G"
+    "C749G / C750G / C767G / C768G / C774G / C775G"
    ],
    "lotes": [],
    "ean": [
@@ -44,7 +39,8 @@
     "5038024369938"
    ],
    "descripcion": "Construido en placa de gas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -102,20 +98,15 @@
    "ean:5038024322940",
    "ean:5038024322957",
    "ean:5038024369938",
-   "mm:caple:c749g",
-   "mm:caple:c750g",
-   "mm:caple:c767g",
-   "mm:caple:c768g",
-   "mm:caple:c774g",
-   "mm:caple:c775g"
+   "mm:caple:c749g-c750g-c767g-c768g-c774g-c775g"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b73fd1e2edc5d604"
+  "enriquecido": true,
+  "hashContenido": "6e437c327f1fa43e"
  },
  "slug": "construido-en-placa-de-gas-caple-safety-gate-10009972"
 }

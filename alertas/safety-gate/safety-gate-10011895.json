@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "2Cb",
     "e4*2007/46*0228*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.08.2022 - 24.03.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Remolque con función de inclinación.",
-   "fechasTexto": "18.08.2022 - 24.03.2023"
+   "fechasTexto": "18.08.2022 - 24.03.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +87,16 @@
   "claves": [
    "ref:A12/00328/24",
    "mm:ifor-williams-trailers:2cb",
-   "mm:ifor-williams-trailers:e4-2007-46-0228-11"
+   "mm:ifor-williams-trailers:e4-2007-46-0228-11",
+   "ml:ifor-williams-trailers:18-08-2022-24-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e5ce59d6bc889d97"
+  "enriquecido": true,
+  "hashContenido": "be95f54398b5ec87"
  },
  "slug": "trailer-ifor-williams-trailers-safety-gate-10011895"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e1*2007/46*1982*",
-    "JTSC"
+    "e1*2007/46*1982* / JTSC"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.01.2023 - 3.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "24.01.2023 - 3.08.2023"
+   "fechasTexto": "24.01.2023 - 3.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,16 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00143/24",
-   "mm:toyota:e1-2007-46-1982",
-   "mm:toyota:jtsc"
+   "mm:toyota:e1-2007-46-1982-jtsc",
+   "ml:toyota:24-01-2023-3-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "29ca816a80e2e81d"
+  "enriquecido": true,
+  "hashContenido": "499d3fb62ab1d283"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10011541"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-23"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "8056420221985"
    ],
    "descripcion": "Estufa eléctrica con un elemento calefactor negro de unos 10 cm de diámetro, hecha de metal gris y plástico negro. La base tiene un indicador rojo, un dial para ajustar la potencia del elemento calefactor (de apagado a 5) y un cable negro con un enchufe.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dbf97f46d7ebe252"
+  "enriquecido": true,
+  "hashContenido": "b0f6473a65b5b068"
  },
  "slug": "estufa-electrica-beper-safety-gate-10011482"
 }

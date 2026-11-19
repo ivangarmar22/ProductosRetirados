@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Ducati"
    ],
    "modelos": [
-    "e49*168/2013*00009*",
-    "e49*168/2013*00010*",
-    "e49*168/2013*00011*",
-    "e3*168/2013*00031*"
+    "e49*168/2013*00009*, e49*168/2013*00010*, e49*168/2013*00011*, e3*168/2013*00031*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2017-2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "2017-2021"
+   "fechasTexto": "2017-2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "NL",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02418/23",
-   "mm:ducati:e49-168-2013-00009",
-   "mm:ducati:e49-168-2013-00010",
-   "mm:ducati:e49-168-2013-00011",
-   "mm:ducati:e3-168-2013-00031"
+   "mm:ducati:e49-168-2013-00009-e49-168-2013-00010-e49-168-2013-00011-e3-168-2013-00031",
+   "ml:ducati:2017-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0ca9678928d6b228"
+  "enriquecido": true,
+  "hashContenido": "690b60d069d02ada"
  },
  "slug": "moto-ducati-safety-gate-10010481"
 }

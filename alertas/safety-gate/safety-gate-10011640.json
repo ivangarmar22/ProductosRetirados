@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,51 +27,19 @@
     "Bmw"
    ],
    "modelos": [
-    "F5LM",
-    "F8CM",
-    "F56XM",
-    "F34XM",
-    "G3X",
-    "G4X",
-    "G5X",
-    "G6X",
-    "G3XE",
-    "G8C",
-    "G3L",
-    "G3K",
-    "G3C",
-    "G4C",
-    "G4Z",
-    "G5L",
-    "G5K",
-    "G6GT",
-    "G2C",
-    "G234M",
-    "e1*2007/46*1828*",
-    "e1*2007/46*2019*",
-    "e1*2007/46*2066*",
-    "e1*2007/46*1988*",
-    "e1*2007/46*1797*",
-    "e1*2007/46*1881*",
-    "e1*2007/46*1918*",
-    "e1*2007/46*2020*",
-    "e1*2007/46*2130*",
-    "e1*2007/46*1906*",
-    "e1*2007/46*1947*",
-    "e1*2007/46*2017*",
-    "e1*2007/46* 2126*",
-    "e1*2018/858*00122*",
-    "e1*2007/46*1949*",
-    "e1*2007/46*1688*",
-    "e1*2007/46*1750*",
-    "e1*2007/46*1791*",
-    "e1*2018/858*00123*",
-    "e1*2018/858*00003*"
+    "F5LM, F8CM, F56XM, F34XM, G3X, G4X, G5X, G6X, G3XE, G8C, G3L, G3K, G3C, G4C, G4Z, G5L, G5K, G6GT, G2C, G234M",
+    "e1*2007/46*1828*, e1*2007/46*2019*, e1*2007/46*2066*, e1*2007/46*1988*, e1*2007/46*1797*, e1*2007/46*1881*, e1*2007/46*1918*, e1*2007/46*2020*, e1*2007/46*2130*, e1*2007/46*1906*, e1*2007/46*1947*",
+    "e1*2007/46*2017*, e1*2007/46* 2126*, e1*2018/858*00122*, e1*2007/46*1949*, e1*2007/46*1688*, e1*2007/46*1750*, e1*2007/46*1791*, e1*2018/858*00123*, e1*2018/858*00003*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.1.2023 - 15.6.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "19.1.2023 - 15.6.2023"
+   "fechasTexto": "19.1.2023 - 15.6.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -101,7 +69,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "FR",
+   "GR",
+   "HU",
+   "LU",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -157,54 +134,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00184/24",
-   "mm:bmw:f5lm",
-   "mm:bmw:f8cm",
-   "mm:bmw:f56xm",
-   "mm:bmw:f34xm",
-   "mm:bmw:g3x",
-   "mm:bmw:g4x",
-   "mm:bmw:g5x",
-   "mm:bmw:g6x",
-   "mm:bmw:g3xe",
-   "mm:bmw:g8c",
-   "mm:bmw:g3l",
-   "mm:bmw:g3k",
-   "mm:bmw:g3c",
-   "mm:bmw:g4c",
-   "mm:bmw:g4z",
-   "mm:bmw:g5l",
-   "mm:bmw:g5k",
-   "mm:bmw:g6gt",
-   "mm:bmw:g2c",
-   "mm:bmw:g234m",
-   "mm:bmw:e1-2007-46-1828",
-   "mm:bmw:e1-2007-46-2019",
-   "mm:bmw:e1-2007-46-2066",
-   "mm:bmw:e1-2007-46-1988",
-   "mm:bmw:e1-2007-46-1797",
-   "mm:bmw:e1-2007-46-1881",
-   "mm:bmw:e1-2007-46-1918",
-   "mm:bmw:e1-2007-46-2020",
-   "mm:bmw:e1-2007-46-2130",
-   "mm:bmw:e1-2007-46-1906",
-   "mm:bmw:e1-2007-46-1947",
-   "mm:bmw:e1-2007-46-2017",
-   "mm:bmw:e1-2007-46-2126",
-   "mm:bmw:e1-2018-858-00122",
-   "mm:bmw:e1-2007-46-1949",
-   "mm:bmw:e1-2007-46-1688",
-   "mm:bmw:e1-2007-46-1750",
-   "mm:bmw:e1-2007-46-1791",
-   "mm:bmw:e1-2018-858-00123",
-   "mm:bmw:e1-2018-858-00003"
+   "mm:bmw:f5lm-f8cm-f56xm-f34xm-g3x-g4x-g5x-g6x-g3xe-g8c-g3l-g3k-g3c-g4c-g4z-g5l-g5k-g6gt-g2c-g234m",
+   "mm:bmw:e1-2007-46-1828-e1-2007-46-2019-e1-2007-46-2066-e1-2007-46-1988-e1-2007-46-1797-e1-2007-46-1881-e1-2007-46-1918-e1-2007-46-2020-e1-2007-46-2130-e1-2007-46-1906-e1-2007-46-1947",
+   "mm:bmw:e1-2007-46-2017-e1-2007-46-2126-e1-2018-858-00122-e1-2007-46-1949-e1-2007-46-1688-e1-2007-46-1750-e1-2007-46-1791-e1-2018-858-00123-e1-2018-858-00003",
+   "ml:bmw:19-1-2023-15-6-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76e17762c46a40a3"
+  "enriquecido": true,
+  "hashContenido": "022b8c92082abe40"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10011640"
 }

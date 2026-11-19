@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "250",
     "e3*2007/46*0044*46"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.3.2023 - 12.10.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero",
-   "fechasTexto": "20.3.2023 - 12.10.2023"
+   "fechasTexto": "20.3.2023 - 12.10.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +100,16 @@
   "claves": [
    "ref:A12/00193/24",
    "mm:fiat:250",
-   "mm:fiat:e3-2007-46-0044-46"
+   "mm:fiat:e3-2007-46-0044-46",
+   "ml:fiat:20-3-2023-12-10-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "187c63eb71195853"
+  "enriquecido": true,
+  "hashContenido": "5f6e4a85eb344298"
  },
  "slug": "vehiculo-comercial-ligero-fiat-safety-gate-10011699"
 }

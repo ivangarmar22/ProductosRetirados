@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Kia"
    ],
    "modelos": [
-    "Ceed (CD 5Door): e4*2007/46*1299*09",
-    "XCeed (CUV): e4*2007/46*1299*09",
-    "Proceed (Shooting Brake): e4*2007/46*1299*03",
-    "Ceed SW (Sportwagon): e4*2007/46*1299*03",
-    "Sportage (QLe)",
-    ": e5*2007/46*1081*03"
+    "Ceed (CD 5Door): e4*2007/46*1299*09 , XCeed (CUV): e4*2007/46*1299*09 , Proceed (Shooting Brake): e4*2007/46*1299*03 , Ceed SW (Sportwagon): e4*2007/46*1299*03 , Sportage (QLe),: e5*2007/46*1081*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.10.2018 – 05.10.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "26.10.2018 – 05.10.2020"
+   "fechasTexto": "26.10.2018 – 05.10.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,22 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IS",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,20 +113,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02275/23",
-   "mm:kia:ceed-cd-5door-e4-2007-46-1299-09",
-   "mm:kia:xceed-cuv-e4-2007-46-1299-09",
-   "mm:kia:proceed-shooting-brake-e4-2007-46-1299-03",
-   "mm:kia:ceed-sw-sportwagon-e4-2007-46-1299-03",
-   "mm:kia:sportage-qle",
-   "mm:kia:e5-2007-46-1081-03"
+   "mm:kia:ceed-cd-5door-e4-2007-46-1299-09-xceed-cuv-e4-2007-46-1299-09-proceed-shooting-brake-e4-2007-46-1299-03-ceed-sw-sportwagon-e4-2007-46-1299-03-sportage-qle-e5-2007-46-1081-03",
+   "ml:kia:26-10-2018-05-10-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "62014b6e6f6ee36c"
+  "enriquecido": true,
+  "hashContenido": "fb0c3e5d308c1d2f"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10010355"
 }

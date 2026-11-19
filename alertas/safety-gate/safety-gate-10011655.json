@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Hyundai"
    ],
    "modelos": [
-    "PDE",
-    "TLE",
-    "e5*2007/46*1075*",
-    "e5*2007/46*1076*"
+    "PDE, TLE",
+    "e5*2007/46*1075*, e5*2007/46*1076*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.10.2018 - 27.10.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "23.10.2018 - 27.10.2020"
+   "fechasTexto": "23.10.2018 - 27.10.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,18 +107,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00185/24",
-   "mm:hyundai:pde",
-   "mm:hyundai:tle",
-   "mm:hyundai:e5-2007-46-1075",
-   "mm:hyundai:e5-2007-46-1076"
+   "mm:hyundai:pde-tle",
+   "mm:hyundai:e5-2007-46-1075-e5-2007-46-1076",
+   "ml:hyundai:23-10-2018-27-10-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5827b67904a3958a"
+  "enriquecido": true,
+  "hashContenido": "d6a1c52a77bf2b84"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10011655"
 }

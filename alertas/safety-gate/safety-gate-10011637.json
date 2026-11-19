@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-12"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "691621094518"
    ],
    "descripcion": "Tren de juguete de madera compuesto por cuatro piezas de tren de madera separadas, conectadas magnéticamente entre sí. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +113,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a526bf295c3019ba"
+  "enriquecido": true,
+  "hashContenido": "9ee5e4f3f3f84857"
  },
  "slug": "tren-de-juguete-bigjigs-toys-safety-gate-10011637"
 }
