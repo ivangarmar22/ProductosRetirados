@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,13 +27,13 @@
     "Zuru"
    ],
    "modelos": [
-    "25282",
-    "dated between 01/05/2019 and 19/06/2022"
+    "25282, dated between 01/05/2019 and 19/06/2022"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Un juguete de baño musical en forma de tiburón (azul, amarillo o rosa), de unos 18 cm de largo, de plástico duro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete individual de cartón azul con imágenes del océano."
   }
  ],
  "riesgo": {
@@ -64,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,16 +86,15 @@
  "dedup": {
   "claves": [
    "ref:INFO/00059/24",
-   "mm:zuru:25282",
-   "mm:zuru:dated-between-01-05-2019-and-19-06-2022"
+   "mm:zuru:25282-dated-between-01-05-2019-and-19-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "73a266a12ecfb316"
+  "enriquecido": true,
+  "hashContenido": "27f622b0f4480924"
  },
  "slug": "juguete-de-bano-zuru-safety-gate-10011473"
 }

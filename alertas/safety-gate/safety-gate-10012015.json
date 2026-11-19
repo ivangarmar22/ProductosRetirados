@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "Jakemy"
    ],
    "modelos": [
-    "ETP6634",
-    "JM-Z19"
+    "ETP6634, JM-Z19"
    ],
    "lotes": [],
    "ean": [
     "6949639105417"
    ],
    "descripcion": "Lupa con led. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -85,16 +85,15 @@
   "claves": [
    "ref:A12/00396/24",
    "ean:6949639105417",
-   "mm:jakemy:etp6634",
-   "mm:jakemy:jm-z19"
+   "mm:jakemy:etp6634-jm-z19"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6f41b273dc3ace51"
+  "enriquecido": true,
+  "hashContenido": "19af792295bdb5c6"
  },
  "slug": "lupa-con-led-jakemy-safety-gate-10012015"
 }

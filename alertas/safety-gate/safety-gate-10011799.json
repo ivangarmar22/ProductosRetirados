@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-01-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Ducati"
    ],
    "modelos": [
-    "e49*168/2013*00009* (GA)",
-    "e49*168/2013*00010* (GB)",
-    "e49*168/2013*00011* (GA)",
-    "e3*168/2013*00031* (1G)"
+    "e49*168/2013*00009* (GA), e49*168/2013*00010* (GB), e49*168/2013*00011* (GA), e3*168/2013*00031* (1G)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.11.2015 - 27.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "21.11.2015 - 27.06.2023"
+   "fechasTexto": "21.11.2015 - 27.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,18 +103,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00297/24",
-   "mm:ducati:e49-168-2013-00009-ga",
-   "mm:ducati:e49-168-2013-00010-gb",
-   "mm:ducati:e49-168-2013-00011-ga",
-   "mm:ducati:e3-168-2013-00031-1g"
+   "mm:ducati:e49-168-2013-00009-ga-e49-168-2013-00010-gb-e49-168-2013-00011-ga-e3-168-2013-00031-1g",
+   "ml:ducati:21-11-2015-27-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4052ef275460843d"
+  "enriquecido": true,
+  "hashContenido": "30a1f3820f226fc2"
  },
  "slug": "moto-ducati-safety-gate-10011799"
 }

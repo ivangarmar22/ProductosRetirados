@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,9 +32,12 @@
      "numero": "BB-L1271-25"
     }
    ],
-   "ean": [],
+   "ean": [
+    "0809550012712"
+   ],
    "descripcion": "Muñeca de plástico con pelo rubio en un vestido colorido (oro, bronce, azul, plata) con puntos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Ampolla colorida (púrpura, azul, rosa)."
   }
  ],
  "riesgo": {
@@ -94,15 +97,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/00402/24"
+   "ref:A12/00402/24",
+   "ean:0809550012712"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "121e3629b3a404c6"
+  "enriquecido": true,
+  "hashContenido": "6eaf2b99e6625bbf"
  },
  "slug": "muneca-de-plastico-beautiful-girl-girl-fashion-safety-gate-10012034"
 }

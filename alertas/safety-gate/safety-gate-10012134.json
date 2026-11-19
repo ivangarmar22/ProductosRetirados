@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,7 +35,8 @@
     "5904326431478"
    ],
    "descripcion": "Muñeca de plástico vestida con un vestido colorido.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -73,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a5443ba29d1fb8a0"
+  "enriquecido": true,
+  "hashContenido": "cdcf0a3dab78940c"
  },
  "slug": "muneca-de-plastico-bigtoys-safety-gate-10012134"
 }

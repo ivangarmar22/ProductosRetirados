@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Honda"
    ],
    "modelos": [
-    "e6*168/2013*00133*00",
-    "e6*168/2013*00133*01",
-    "e6*168/2013*00134*00",
-    "e6*168/2013*00134*01"
+    "e6*168/2013*00133*00, e6*168/2013*00133*01, e6*168/2013*00134*00, e6*168/2013*00134*01."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.01.2023 - 01.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Modelo de Motocicleta Año: Tipo 2023: RD16.",
-   "fechasTexto": "24.01.2023 - 01.12.2023"
+   "fechasTexto": "24.01.2023 - 01.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "LU",
+   "MT",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00470/24",
-   "mm:honda:e6-168-2013-00133-00",
-   "mm:honda:e6-168-2013-00133-01",
-   "mm:honda:e6-168-2013-00134-00",
-   "mm:honda:e6-168-2013-00134-01"
+   "mm:honda:e6-168-2013-00133-00-e6-168-2013-00133-01-e6-168-2013-00134-00-e6-168-2013-00134-01",
+   "ml:honda:24-01-2023-01-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d949a022d587d69b"
+  "enriquecido": true,
+  "hashContenido": "8dc4e1b61392c56a"
  },
  "slug": "moto-honda-safety-gate-10012009"
 }

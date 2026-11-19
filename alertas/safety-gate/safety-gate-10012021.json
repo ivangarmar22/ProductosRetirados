@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-22"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cargador USB, 40W. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,17 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "LU",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7a69efbd602304dc"
+  "enriquecido": true,
+  "hashContenido": "efb6a8f90caee99b"
  },
  "slug": "cargador-usb-ikea-safety-gate-10012021"
 }

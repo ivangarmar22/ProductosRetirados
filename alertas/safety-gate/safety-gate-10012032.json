@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "My skin"
    ],
    "modelos": [
-    "TBD0202614101A",
-    "C22019-01"
+    "TBD0202614101A / C22019-01"
    ],
    "lotes": [],
    "ean": [
     "3701107153985"
    ],
    "descripcion": "Depiladora. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco."
   }
  ],
  "riesgo": {
@@ -90,16 +90,15 @@
   "claves": [
    "ref:A12/00397/24",
    "ean:3701107153985",
-   "mm:my-skin:tbd0202614101a",
-   "mm:my-skin:c22019-01"
+   "mm:my-skin:tbd0202614101a-c22019-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "962146c64de4ed83"
+  "enriquecido": true,
+  "hashContenido": "b5fc2b94b32829ba"
  },
  "slug": "depiladora-facial-my-skin-safety-gate-10012032"
 }

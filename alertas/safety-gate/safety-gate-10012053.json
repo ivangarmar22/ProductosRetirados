@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-08"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -33,7 +33,8 @@
     "2200259656593"
    ],
    "descripcion": "Juguete controlado a distancia que se asemeja a una abeja.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón impresa."
   }
  ],
  "riesgo": {
@@ -68,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BG",
+   "EE",
+   "HR",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f3324cb9c9ccf37a"
+  "enriquecido": true,
+  "hashContenido": "5b0a6cb349433a21"
  },
  "slug": "juguete-controlado-a-distancia-r-c-car-safety-gate-10012053"
 }

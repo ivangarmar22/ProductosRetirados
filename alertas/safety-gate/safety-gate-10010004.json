@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-29"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Caldera de calefacción central, número de serie que comienza con 22 o 23 (año de producción 2022 y 2023).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja"
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9b4204929c43f5ca"
+  "enriquecido": true,
+  "hashContenido": "ef8e4155ea7e9f12"
  },
  "slug": "caldera-intercambiador-de-calor-ferroli-safety-gate-10010004"
 }

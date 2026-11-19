@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-20"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -31,7 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "R16129 190 2AR16129 190 3AR16129 Z99 2AR16129 Z99 3A"
+     "numero": "R16129 190 2A"
+    },
+    {
+     "numero": "R16129 190 3A"
+    },
+    {
+     "numero": "R16129 Z99 2A"
+    },
+    {
+     "numero": "R16129 Z99 3A"
     }
    ],
    "ean": [
@@ -41,7 +50,8 @@
     "3143162661102"
    ],
    "descripcion": "Chaqueta con capucha con capucha con mangas desmontables",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -104,15 +114,18 @@
    "ean:3143162640961",
    "ean:3143162661102",
    "mm:michael-kors:r16129",
-   "ml:michael-kors:r16129-190-2ar16129-190-3ar16129-z99-2ar16129-z99-3a"
+   "ml:michael-kors:r16129-190-2a",
+   "ml:michael-kors:r16129-190-3a",
+   "ml:michael-kors:r16129-z99-2a",
+   "ml:michael-kors:r16129-z99-3a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6c080821bc6c6101"
+  "enriquecido": true,
+  "hashContenido": "7b5f605748debda9"
  },
  "slug": "chaqueta-de-puffer-para-ninos-michael-kors-safety-gate-10011917"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-22"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -24,7 +24,8 @@
   {
    "nombre": "Dentalbel FFP2 Mondmasker",
    "marcas": [
-    "BARI, DENTALBEL"
+    "BARI",
+    "DENTALBEL"
    ],
    "modelos": [
     "BKG-N01"
@@ -38,7 +39,8 @@
     "9507972357299"
    ],
    "descripcion": "Máscara de protección respiratoria blanca con clase FFP2.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón; embalaje individual en un paquete de plástico transparente."
   }
  ],
  "riesgo": {
@@ -97,16 +99,18 @@
   "claves": [
    "ref:A12/00371/24",
    "ean:9507972357299",
-   "mm:bari-dentalbel:bkg-n01",
-   "ml:bari-dentalbel:2022105"
+   "mm:bari:bkg-n01",
+   "ml:bari:2022105",
+   "mm:dentalbel:bkg-n01",
+   "ml:dentalbel:2022105"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "46922ae0290dc1d8"
+  "enriquecido": true,
+  "hashContenido": "7412ba8ba04e7e8b"
  },
  "slug": "mascara-de-filtro-de-particulas-bari-dentalbel-safety-gate-10010932"
 }

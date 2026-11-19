@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,15 @@
     "Suzuki"
    ],
    "modelos": [
-    "AKK414",
-    "AKK415",
-    "APK414",
-    "APK415",
-    "e4*2007/46*0779*16",
-    "e4*2007/46*0928*13"
+    "AKK414 / AKK415",
+    "APK414 / APK415",
+    "e4*2007/46*0779*16, e4*2007/46*0928*13"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +65,15 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Hungría",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,20 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00405/24",
-   "mm:suzuki:akk414",
-   "mm:suzuki:akk415",
-   "mm:suzuki:apk414",
-   "mm:suzuki:apk415",
-   "mm:suzuki:e4-2007-46-0779-16",
-   "mm:suzuki:e4-2007-46-0928-13"
+   "mm:suzuki:akk414-akk415",
+   "mm:suzuki:apk414-apk415",
+   "mm:suzuki:e4-2007-46-0779-16-e4-2007-46-0928-13"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "727801993f896d6d"
+  "enriquecido": true,
+  "hashContenido": "651711dd7b3ac984"
  },
  "slug": "coche-de-pasajeros-suzuki-safety-gate-10012001"
 }

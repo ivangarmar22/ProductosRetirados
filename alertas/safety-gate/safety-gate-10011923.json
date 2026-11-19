@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-04"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Lonchera eléctrica. Este producto se vende en línea en particular a través de Amazon (ASIN B0B6NBYHPB).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,11 +121,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4a66e27cd2ecee36"
+  "enriquecido": true,
+  "hashContenido": "3a165f7f18433e8b"
  },
  "slug": "lonchera-electrica-kimfead-safety-gate-10011923"
 }

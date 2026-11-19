@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-27"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,14 +32,18 @@
    ],
    "lotes": [
     {
-     "numero": "1442124521"
+     "numero": "14421"
+    },
+    {
+     "numero": "24521"
     }
    ],
    "ean": [
     "3170650006954"
    ],
    "descripcion": "Cera cerámica para vehículos negros y oscuros, 500 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico gris con una pistola pulverizadora y una imagen de la carrocería de un automóvil antes/después de la aplicación del producto."
   }
  ],
  "riesgo": {
@@ -100,15 +104,16 @@
    "ean:3170650006954",
    "mm:abelauto:000695",
    "mm:abelauto:ufi-code-9hhf-x4ps-wooh-fc6r",
-   "ml:abelauto:1442124521"
+   "ml:abelauto:14421",
+   "ml:abelauto:24521"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "69b406c6da5ebd5f"
+  "enriquecido": true,
+  "hashContenido": "ada17bcac66f92fb"
  },
  "slug": "cera-de-coche-abelauto-safety-gate-10012027"
 }

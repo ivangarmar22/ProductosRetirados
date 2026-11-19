@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-16"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Accesorio de corte tipo flail con seis cuchillos. El producto se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Soporte de cartón con una cubierta de plástico transparente en la parte superior."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "80090843f013dbec"
+  "enriquecido": true,
+  "hashContenido": "64148927d7491871"
  },
  "slug": "accesorio-para-cortador-de-cepillos-trimmer-with-6-teeth-steel-blades-safety-gate-10011574"
 }

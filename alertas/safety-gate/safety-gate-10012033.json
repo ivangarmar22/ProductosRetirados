@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "My skin"
    ],
    "modelos": [
-    "TBD0512392",
-    "C2017-01"
+    "TBD0512392 / C2017-01"
    ],
    "lotes": [],
    "ean": [
     "3701107149803"
    ],
    "descripcion": "Limpiador de piel electrónico blanco. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca"
   }
  ],
  "riesgo": {
@@ -90,16 +90,15 @@
   "claves": [
    "ref:A12/00399/24",
    "ean:3701107149803",
-   "mm:my-skin:tbd0512392",
-   "mm:my-skin:c2017-01"
+   "mm:my-skin:tbd0512392-c2017-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2a30dbfa5ebebaf5"
+  "enriquecido": true,
+  "hashContenido": "85af84209bedf65e"
  },
  "slug": "dispositivo-de-limpieza-de-la-piel-my-skin-safety-gate-10012033"
 }

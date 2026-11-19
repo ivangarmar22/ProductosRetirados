@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bola de arco iris hecha de plástico con perillas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Red de plástico blanco con etiqueta de cartón blanca adjunta."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2b8414ff1aca8b94"
+  "enriquecido": true,
+  "hashContenido": "20ed4a6087093219"
  },
  "slug": "bola-tedi-safety-gate-10012046"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-05"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Lonchera eléctrica. Este producto se vende en línea en particular a través de Amazon (ASIN B08BZ726HQ).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7e720d8e7d80b759"
+  "enriquecido": true,
+  "hashContenido": "6f821b725236a139"
  },
  "slug": "lonchera-electrica-structure-safety-gate-10011924"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-23"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
     "5901477173868"
    ],
    "descripcion": "Accesorio de corte tipo flail con 2 cadenas de motosierra. El producto se vende en línea, en particular a través de Allegro, número de identificación 13297636203.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -62,7 +63,11 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "905b7688ec6828af"
+  "enriquecido": true,
+  "hashContenido": "ae58eba94d294a4d"
  },
  "slug": "accesorio-para-cortador-de-cepillos-saw-head-with-chain-falon-tech-ftc-safety-gate-10011576"
 }

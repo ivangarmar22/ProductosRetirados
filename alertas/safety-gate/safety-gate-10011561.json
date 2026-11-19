@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,12 +32,18 @@
    ],
    "lotes": [
     {
-     "numero": "CF220040-009CF220040-081"
+     "numero": "CF220040-009"
+    },
+    {
+     "numero": "CF220040-081"
     }
    ],
-   "ean": [],
+   "ean": [
+    "3701052828105"
+   ],
    "descripcion": "Globos metálicos en oro y plata.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en un paquete de 25 globos metálicos y en un paquete de 30 globos de oro y plata para un arco de globo."
   }
  ],
  "riesgo": {
@@ -95,17 +101,19 @@
  "dedup": {
   "claves": [
    "ref:A12/00391/24",
+   "ean:3701052828105",
    "mm:fete-a-deco:balc03",
    "mm:fete-a-deco:balk30aor",
-   "ml:fete-a-deco:cf220040-009cf220040-081"
+   "ml:fete-a-deco:cf220040-009",
+   "ml:fete-a-deco:cf220040-081"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7fe5bc85dd51f9cb"
+  "enriquecido": true,
+  "hashContenido": "39d2bc6501123e25"
  },
  "slug": "globos-fete-a-deco-safety-gate-10011561"
 }

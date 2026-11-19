@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-15"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Lonchera eléctrica. Este producto se vende en línea en particular a través de Amazon (ASIN: B0B7BJ3BY9).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Producto envuelto en una bolsa de plástico transparente."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4e6e2038183d8b37"
+  "enriquecido": true,
+  "hashContenido": "59426dc53333d615"
  },
  "slug": "caja-de-almuerzo-electrica-electric-lunchbox-safety-gate-10011920"
 }

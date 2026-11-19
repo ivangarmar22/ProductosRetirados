@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,23 @@
     "Honda"
    ],
    "modelos": [
-    "e4*2002/24*1247*03",
-    "e4*168/2013*00054*01",
-    "e4*168/2013*00054*02",
-    "e4*168/2013*00075*00",
-    "e4*168/2013*00075*01",
-    "e4*168/2013*00075*02",
-    "e4*168/2013*00075*03",
-    "e4*168/2013*00075*04"
+    "e4*2002/24*1247*03, e4*168/2013*00054*01, e4*168/2013*00054*02, e4*168/2013*00075*00, e4*168/2013*00075*01, e4*168/2013*00075*02, e4*168/2013*00075*03, e4*168/2013*00075*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.11.2017 (CBR600RA/RR)"
+    },
+    {
+     "numero": "14.12.2016 (CBR1000RA/RR/S1/S2)"
+    },
+    {
+     "numero": "31.10.2017 (GL1800/BD/B/DA)"
+    }
+   ],
    "ean": [],
    "descripcion": "Año modelo: 2018 (CBR600RA/RR), 2018 y 2019 (CBR1000RA/RR/S1/S2) 2018 y 2019/2020, 2021, 2023 y 2024 (GL1800/BD/B/DA)",
-   "fechasTexto": "14.11.2017 (CBR600RA/RR)14.12.2016 (CBR1000RA/RR/S1/S2)31.10.2017 (GL1800/BD/B/DA)"
+   "fechasTexto": "14.11.2017 (CBR600RA/RR)14.12.2016 (CBR1000RA/RR/S1/S2)31.10.2017 (GL1800/BD/B/DA)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +73,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,22 +109,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00491/24",
-   "mm:honda:e4-2002-24-1247-03",
-   "mm:honda:e4-168-2013-00054-01",
-   "mm:honda:e4-168-2013-00054-02",
-   "mm:honda:e4-168-2013-00075-00",
-   "mm:honda:e4-168-2013-00075-01",
-   "mm:honda:e4-168-2013-00075-02",
-   "mm:honda:e4-168-2013-00075-03",
-   "mm:honda:e4-168-2013-00075-04"
+   "mm:honda:e4-2002-24-1247-03-e4-168-2013-00054-01-e4-168-2013-00054-02-e4-168-2013-00075-00-e4-168-2013-00075-01-e4-168-2013-00075-02-e4-168-2013-00075-03-e4-168-2013-00075-04",
+   "ml:honda:14-11-2017-cbr600ra-rr",
+   "ml:honda:14-12-2016-cbr1000ra-rr-s1-s2",
+   "ml:honda:31-10-2017-gl1800-bd-b-da"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b9098dc3ae205658"
+  "enriquecido": true,
+  "hashContenido": "45c21add3c79f842"
  },
  "slug": "moto-honda-safety-gate-10012069"
 }

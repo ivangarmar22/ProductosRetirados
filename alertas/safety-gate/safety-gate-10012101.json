@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,18 @@
     "Dodge"
    ],
    "modelos": [
-    "DS",
-    "DJ",
-    "D2",
-    "DD",
-    "DF",
-    "DP",
+    "DS, DJ, D2, DD, DF, DP",
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.06.2022 - 21.07.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta/vehículo comercial ligero",
-   "fechasTexto": "21.06.2022 - 21.07.2023"
+   "fechasTexto": "21.06.2022 - 21.07.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,15 +106,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00604/24",
-   "mm:dodge:individual-approval"
+   "mm:dodge:ds-dj-d2-dd-df-dp",
+   "mm:dodge:individual-approval",
+   "ml:dodge:21-06-2022-21-07-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c02b2504e4014e23"
+  "enriquecido": true,
+  "hashContenido": "e5d1b893fd9bf244"
  },
  "slug": "camioneta-vehiculo-comercial-ligero-dodge-safety-gate-10012101"
 }

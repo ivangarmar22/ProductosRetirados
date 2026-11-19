@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-03-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-07-09"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "5414834831818"
    ],
    "descripcion": "Juguete del panel de actividad en forma de radio.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "FR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a065116d37fe175e"
+  "enriquecido": true,
+  "hashContenido": "8753dd1e8b96c8d7"
  },
  "slug": "juguete-del-panel-de-actividad-lilliputiens-safety-gate-10012150"
 }

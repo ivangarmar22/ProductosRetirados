@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,27 +27,19 @@
     "Iveco"
    ],
    "modelos": [
-    "e3*2007/46*0104* (AA3C)",
-    "e3*2007/46*0135* (BA3C)",
-    "e3*2007/46*0137* (AB3C)",
-    "e3*2007/46*0131* (AC3C)",
-    "e3*2007/46*0132* (AD3C)",
-    "e3*2007/46*0143* (1A3C)",
-    "e3*2007/46*0133* (2B3C)",
-    "e3*2007/46*0134 (2C3C)",
-    "e3*2007/46*0130* (2D3C)",
-    "e3*2007/46*0136* (2Y3C)",
-    "e3*2007/46*0179* (MS34Y)",
-    "e3*2007/46*0185* (MTGD2)",
-    "e3*2007/46*0181* (MTGE3)",
-    "e3*2007/46*0184* (MGTA2)",
-    "e3*2007/46*0182* (MGTB3)",
+    "e3*2007/46*0104* (AA3C), e3*2007/46*0135* (BA3C), e3*2007/46*0137* (AB3C), e3*2007/46*0131* (AC3C), e3*2007/46*0132* (AD3C), e3*2007/46*0143* (1A3C), e3*2007/46*0133* (2B3C), e3*2007/46*0134 (2C3C)",
+    "e3*2007/46*0130* (2D3C), e3*2007/46*0136* (2Y3C), e3*2007/46*0179* (MS34Y), e3*2007/46*0185* (MTGD2), e3*2007/46*0181* (MTGE3), e3*2007/46*0184* (MGTA2), e3*2007/46*0182* (MGTB3)",
     "e3*2007/46*0183* (MTGC4)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.03.2022 - 30.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "01.03.2022 - 30.09.2023"
+   "fechasTexto": "01.03.2022 - 30.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +69,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "IE",
+   "IT",
+   "NO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,30 +106,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00298/24",
-   "mm:iveco:e3-2007-46-0104-aa3c",
-   "mm:iveco:e3-2007-46-0135-ba3c",
-   "mm:iveco:e3-2007-46-0137-ab3c",
-   "mm:iveco:e3-2007-46-0131-ac3c",
-   "mm:iveco:e3-2007-46-0132-ad3c",
-   "mm:iveco:e3-2007-46-0143-1a3c",
-   "mm:iveco:e3-2007-46-0133-2b3c",
-   "mm:iveco:e3-2007-46-0134-2c3c",
-   "mm:iveco:e3-2007-46-0130-2d3c",
-   "mm:iveco:e3-2007-46-0136-2y3c",
-   "mm:iveco:e3-2007-46-0179-ms34y",
-   "mm:iveco:e3-2007-46-0185-mtgd2",
-   "mm:iveco:e3-2007-46-0181-mtge3",
-   "mm:iveco:e3-2007-46-0184-mgta2",
-   "mm:iveco:e3-2007-46-0182-mgtb3",
-   "mm:iveco:e3-2007-46-0183-mtgc4"
+   "mm:iveco:e3-2007-46-0104-aa3c-e3-2007-46-0135-ba3c-e3-2007-46-0137-ab3c-e3-2007-46-0131-ac3c-e3-2007-46-0132-ad3c-e3-2007-46-0143-1a3c-e3-2007-46-0133-2b3c-e3-2007-46-0134-2c3c",
+   "mm:iveco:e3-2007-46-0130-2d3c-e3-2007-46-0136-2y3c-e3-2007-46-0179-ms34y-e3-2007-46-0185-mtgd2-e3-2007-46-0181-mtge3-e3-2007-46-0184-mgta2-e3-2007-46-0182-mgtb3",
+   "mm:iveco:e3-2007-46-0183-mtgc4",
+   "ml:iveco:01-03-2022-30-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "818f758712339e9d"
+  "enriquecido": true,
+  "hashContenido": "98464d5456701490"
  },
  "slug": "camion-iveco-safety-gate-10011845"
 }

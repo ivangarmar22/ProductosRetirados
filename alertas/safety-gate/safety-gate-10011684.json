@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave del león amarillo. Este producto se vende en línea, en particular a través de Joom.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico"
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d9443c468127a560"
+  "enriquecido": true,
+  "hashContenido": "ff5ca553355092e7"
  },
  "slug": "juguete-suave-newsway-safety-gate-10011684"
 }

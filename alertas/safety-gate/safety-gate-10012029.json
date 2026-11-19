@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "639/4E",
-    "639/2E",
-    "e1*2007/46*0621*00",
-    "e1*KS07/46*0028*01"
+    "639/4E, 639/2E",
+    "e1*2007/46*0621*00, e1*KS07/46*0028*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.03.2011 - 19.06.2012"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero",
-   "fechasTexto": "02.03.2011 - 19.06.2012"
+   "fechasTexto": "02.03.2011 - 19.06.2012",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,18 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00435/24",
-   "mm:mercedes-benz:639-4e",
-   "mm:mercedes-benz:639-2e",
-   "mm:mercedes-benz:e1-2007-46-0621-00",
-   "mm:mercedes-benz:e1-ks07-46-0028-01"
+   "mm:mercedes-benz:639-4e-639-2e",
+   "mm:mercedes-benz:e1-2007-46-0621-00-e1-ks07-46-0028-01",
+   "ml:mercedes-benz:02-03-2011-19-06-2012"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5fdbb42362cb9b47"
+  "enriquecido": true,
+  "hashContenido": "01199bbe5976fe7d"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10012029"
 }

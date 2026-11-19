@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-02-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Audi"
    ],
    "modelos": [
-    "e1*2001/116*0350* (4L)",
-    "e1*2001/116*0367* (4L)"
+    "e1*2001/116*0350* (4L), e1*2001/116*0367* (4L)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.8.2023 - 19.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "11.8.2023 - 19.12.2023"
+   "fechasTexto": "11.8.2023 - 19.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +98,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00409/24",
-   "mm:audi:e1-2001-116-0350-4l",
-   "mm:audi:e1-2001-116-0367-4l"
+   "mm:audi:e1-2001-116-0350-4l-e1-2001-116-0367-4l",
+   "ml:audi:11-8-2023-19-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5f6c3d3848db4485"
+  "enriquecido": true,
+  "hashContenido": "4490d3ff91896f7f"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10011998"
 }
