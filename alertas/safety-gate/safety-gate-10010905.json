@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "VBEP/40"
-    },
-    {
-     "numero": "191117"
+     "numero": "VBEP/40, 191117"
     }
    ],
    "ean": [
     "5901468904259"
    ],
    "descripcion": "EAU de toilette, anunciado como un spray natural, destinado a los hombres, 100 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de papel de color negro."
   }
  ],
  "riesgo": {
@@ -73,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,16 +101,15 @@
   "claves": [
    "ref:A12/02769/23",
    "ean:5901468904259",
-   "ml:vittorio-bellucci:vbep-40",
-   "ml:vittorio-bellucci:191117"
+   "ml:vittorio-bellucci:vbep-40-191117"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "01db798e5a304757"
+  "enriquecido": true,
+  "hashContenido": "f2ffbc3c70f42727"
  },
  "slug": "eau-de-toilette-vittorio-bellucci-safety-gate-10010905"
 }

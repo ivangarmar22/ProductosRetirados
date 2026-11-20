@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-14"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,10 +32,7 @@
    ],
    "lotes": [
     {
-     "numero": "EP016391"
-    },
-    {
-     "numero": "MFG:2023/04/01"
+     "numero": "EP016391, MFG:2023/04/01"
     }
    ],
    "ean": [
@@ -43,7 +40,8 @@
     "6937643537317"
    ],
    "descripcion": "Cigarrillo electrónico desechable, forma cuboides, 5 % nicotina, volumen 13 ml, 5000 puffs, capacidad de batería: 650 mAh, variando en color dependiendo del sabor.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de unidad en una caja de papel."
   }
  ],
  "riesgo": {
@@ -96,16 +94,15 @@
    "ean:6937643537317",
    "mm:elf-bar:dragon-fruit-banana-berry",
    "mm:elf-bar:kiwi-dragon-fruit-berry",
-   "ml:elf-bar:ep016391",
-   "ml:elf-bar:mfg-2023-04-01"
+   "ml:elf-bar:ep016391-mfg-2023-04-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "abfce263a109916b"
+  "enriquecido": true,
+  "hashContenido": "e84ee07f28b81eab"
  },
  "slug": "cigarrillo-electronico-desechable-elf-bar-safety-gate-10010862"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-19"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Mezcla para tatuar, 30 ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con tapa de tornillo y boquilla dispensadora."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e39c49e9916e7d5c"
+  "enriquecido": true,
+  "hashContenido": "58fc02524b2f7ba3"
  },
  "slug": "tinta-del-tatuaje-dynamic-safety-gate-10010488"
 }

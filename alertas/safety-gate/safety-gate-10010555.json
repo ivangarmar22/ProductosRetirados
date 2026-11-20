@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-25"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,23 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "27281"
-    },
-    {
-     "numero": "27783"
-    },
-    {
-     "numero": "28405"
-    },
-    {
-     "numero": "30005"
+     "numero": "27281, 27783, 28405, 30005"
     }
    ],
    "ean": [
     "36214457"
    ],
    "descripcion": "Espejo de vanidad blanco con luces conectadas. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca con imagen de unidad de vanidad espejo. Envuelto en polietileno transparente."
   }
  ],
  "riesgo": {
@@ -99,18 +91,15 @@
    "ref:A12/02583/23",
    "ean:36214457",
    "mm:the-port-co-gallery:cd0446-4980",
-   "ml:the-port-co-gallery:27281",
-   "ml:the-port-co-gallery:27783",
-   "ml:the-port-co-gallery:28405",
-   "ml:the-port-co-gallery:30005"
+   "ml:the-port-co-gallery:27281-27783-28405-30005"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f7c60615c1bbf26a"
+  "enriquecido": true,
+  "hashContenido": "5890bfa0a90f925a"
  },
  "slug": "espejo-de-vanidad-the-port-co-gallery-safety-gate-10010555"
 }

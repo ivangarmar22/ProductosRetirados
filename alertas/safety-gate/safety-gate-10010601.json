@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R1SLAMG",
     "e1*2018/858*00137*00 - 03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4.06.2021 – 29.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo serie SL (tipo R 232) equipado con un motor M177",
-   "fechasTexto": "4.06.2021 – 29.08.2023"
+   "fechasTexto": "4.06.2021 – 29.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "MT",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +110,16 @@
   "claves": [
    "ref:A12/02619/23",
    "mm:mercedes-benz:r1slamg",
-   "mm:mercedes-benz:e1-2018-858-00137-00-03"
+   "mm:mercedes-benz:e1-2018-858-00137-00-03",
+   "ml:mercedes-benz:4-06-2021-29-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d994bb64460b8477"
+  "enriquecido": true,
+  "hashContenido": "8ec98bf5becfdc18"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10010601"
 }

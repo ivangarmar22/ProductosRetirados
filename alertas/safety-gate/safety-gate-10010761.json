@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "5902114882976"
    ],
    "descripcion": "EAU de toilette, anunciado como spray natural, destinado a los hombres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella en caja de papel con patrón de diamante blanco."
   }
  ],
  "riesgo": {
@@ -74,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dea9ef0652a636c6"
+  "enriquecido": true,
+  "hashContenido": "a7af703c8024fc89"
  },
  "slug": "eau-de-toilette-gordano-parfums-safety-gate-10010761"
 }

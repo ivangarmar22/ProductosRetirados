@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "nextec"
    ],
    "modelos": [
-    "PB000043",
-    "PS-D-120W12V10A"
+    "PB000043 / PS-D-120W12V10A"
    ],
    "lotes": [],
    "ean": [
     "5908293900043"
    ],
    "descripcion": "Fuente de alimentación led, 100-240V/50/60Hz, 12VDC/máximo 10A/120W, clase II, IP44. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Una caja de cartón marrón."
   }
  ],
  "riesgo": {
@@ -69,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,16 +101,15 @@
   "claves": [
    "ref:A12/02593/23",
    "ean:5908293900043",
-   "mm:nextec:pb000043",
-   "mm:nextec:ps-d-120w12v10a"
+   "mm:nextec:pb000043-ps-d-120w12v10a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3453f01c3b654dce"
+  "enriquecido": true,
+  "hashContenido": "555d8ce5770a3b12"
  },
  "slug": "fuente-de-alimentacion-led-nextec-safety-gate-10010611"
 }

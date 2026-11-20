@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-31"
  },
  "categoria": {
   "literal": "Guirnaldas luminosas",
@@ -32,9 +32,12 @@
     "0000303868"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "33420124002434"
+   ],
    "descripcion": "Cadenas de iluminación de color blanco con bombillas led en diversas formas como estrellas, luna y estrellas y asteriscos. Las cadenas no están marcadas con datos obligatorios ni se proporcionan con un manguito en el que se indicarían estos datos. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Los productos se embalan en caja de papel. El paquete incluye instrucciones de uso en eslovaco."
   }
  ],
  "riesgo": {
@@ -119,17 +122,18 @@
  "dedup": {
   "claves": [
    "ref:A12/02622/23",
+   "ean:33420124002434",
    "mm:glod:0000303860",
    "mm:glod:0000303864",
    "mm:glod:0000303868"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c5c3452e7d517206"
+  "enriquecido": true,
+  "hashContenido": "cb4e3ae272f3c3d2"
  },
  "slug": "cadenas-de-iluminacion-led-glod-safety-gate-10010684"
 }

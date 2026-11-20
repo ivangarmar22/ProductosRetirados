@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "KL",
     "e9*2007/46*3167*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.7.2023 - 28.7.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "27.7.2023 - 28.7.2023"
+   "fechasTexto": "27.7.2023 - 28.7.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "NL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02618/23",
-   "mm:seat:e9-2007-46-3167"
+   "mm:seat:e9-2007-46-3167",
+   "ml:seat:27-7-2023-28-7-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6ed9131f2b15bd15"
+  "enriquecido": true,
+  "hashContenido": "98382443c2b3af39"
  },
  "slug": "coche-de-pasajeros-seat-safety-gate-10010686"
 }

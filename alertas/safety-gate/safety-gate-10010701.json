@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,7 +38,8 @@
     "5902114880262"
    ],
    "descripcion": "EAU de parfum destinado a hombres en botella de plástico de 20 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico en estuche de cuero en una caja de cartón de color plateado."
   }
  ],
  "riesgo": {
@@ -76,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "beb4519a6652469f"
+  "enriquecido": true,
+  "hashContenido": "35b49adb883bce3c"
  },
  "slug": "perfume-lotus-safety-gate-10010701"
 }

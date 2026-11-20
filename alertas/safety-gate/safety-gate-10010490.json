@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,26 +24,35 @@
   {
    "nombre": "SPACETOURER / JUMPY 4 ; TRAVELLER / EXPERT 4 (K0) ; ZAFIRA / VIVARO (K0) ; ULYSSE / SCUDO V3 (K0)",
    "marcas": [
-    "CITROEN, Fiat, Opel, Peugeot"
+    "CITROEN",
+    "Fiat",
+    "Opel",
+    "Peugeot"
    ],
    "modelos": [
-    "SPACETOURER",
-    "JUMPY 4 : e2*2007/46*0530*13-17",
-    "e2*2007/46*0531*17 - 21",
-    "TRAVELLER",
-    "EXPERT 4 : e2*2007/46*0532*13 - 18",
-    "e2*2007/46*0533*17 - 21",
-    "ULYSSE",
-    "SCUDO : e2*2007/46*0532*17 - 18",
-    "e2*2007/46*0533*20",
-    "ZAFIRA",
-    "VIVARO : e2*2007/46*0532*14 - 17",
-    "e2*2007/46*0533*18 - 21"
+    "SPACETOURER / JUMPY 4 : e2*2007/46*0530*13-17 ; e2*2007/46*0531*17 - 21",
+    "TRAVELLER / EXPERT 4 : e2*2007/46*0532*13 - 18 ; e2*2007/46*0533*17 - 21",
+    "ULYSSE / SCUDO : e2*2007/46*0532*17 - 18 ; e2*2007/46*0533*20",
+    "ZAFIRA / VIVARO : e2*2007/46*0532*14 - 17 ; e2*2007/46*0533*18 - 21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "SPACETOURER / JUMPY 4: 29.1.2020 - 2.6.2022"
+    },
+    {
+     "numero": "TRAVELLER / EXPERT 4: 30.1.2020 - 27.6.2022"
+    },
+    {
+     "numero": "ULYSSE / SCUDO: 23.8.2021 - 24.11.2021"
+    },
+    {
+     "numero": "ZAFIRA / VIVARO: 30.1.2020 - 27.6.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros",
-   "fechasTexto": "SPACETOURER / JUMPY 4: 29.1.2020 - 2.6.2022TRAVELLER / EXPERT 4: 30.1.2020 - 27.6.2022ULYSSE / SCUDO: 23.8.2021 - 24.11.2021ZAFIRA / VIVARO: 30.1.2020 - 27.6.2022"
+   "fechasTexto": "SPACETOURER / JUMPY 4: 29.1.2020 - 2.6.2022TRAVELLER / EXPERT 4: 30.1.2020 - 27.6.2022ULYSSE / SCUDO: 23.8.2021 - 24.11.2021ZAFIRA / VIVARO: 30.1.2020 - 27.6.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +82,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,26 +121,46 @@
  "dedup": {
   "claves": [
    "ref:A12/02586/23",
-   "mm:citroen-fiat-opel-peugeot:spacetourer",
-   "mm:citroen-fiat-opel-peugeot:jumpy-4-e2-2007-46-0530-13-17",
-   "mm:citroen-fiat-opel-peugeot:e2-2007-46-0531-17-21",
-   "mm:citroen-fiat-opel-peugeot:traveller",
-   "mm:citroen-fiat-opel-peugeot:expert-4-e2-2007-46-0532-13-18",
-   "mm:citroen-fiat-opel-peugeot:e2-2007-46-0533-17-21",
-   "mm:citroen-fiat-opel-peugeot:ulysse",
-   "mm:citroen-fiat-opel-peugeot:scudo-e2-2007-46-0532-17-18",
-   "mm:citroen-fiat-opel-peugeot:e2-2007-46-0533-20",
-   "mm:citroen-fiat-opel-peugeot:zafira",
-   "mm:citroen-fiat-opel-peugeot:vivaro-e2-2007-46-0532-14-17",
-   "mm:citroen-fiat-opel-peugeot:e2-2007-46-0533-18-21"
+   "mm:citroen:spacetourer-jumpy-4-e2-2007-46-0530-13-17-e2-2007-46-0531-17-21",
+   "mm:citroen:traveller-expert-4-e2-2007-46-0532-13-18-e2-2007-46-0533-17-21",
+   "mm:citroen:ulysse-scudo-e2-2007-46-0532-17-18-e2-2007-46-0533-20",
+   "mm:citroen:zafira-vivaro-e2-2007-46-0532-14-17-e2-2007-46-0533-18-21",
+   "ml:citroen:spacetourer-jumpy-4-29-1-2020-2-6-2022",
+   "ml:citroen:traveller-expert-4-30-1-2020-27-6-2022",
+   "ml:citroen:ulysse-scudo-23-8-2021-24-11-2021",
+   "ml:citroen:zafira-vivaro-30-1-2020-27-6-2022",
+   "mm:fiat:spacetourer-jumpy-4-e2-2007-46-0530-13-17-e2-2007-46-0531-17-21",
+   "mm:fiat:traveller-expert-4-e2-2007-46-0532-13-18-e2-2007-46-0533-17-21",
+   "mm:fiat:ulysse-scudo-e2-2007-46-0532-17-18-e2-2007-46-0533-20",
+   "mm:fiat:zafira-vivaro-e2-2007-46-0532-14-17-e2-2007-46-0533-18-21",
+   "ml:fiat:spacetourer-jumpy-4-29-1-2020-2-6-2022",
+   "ml:fiat:traveller-expert-4-30-1-2020-27-6-2022",
+   "ml:fiat:ulysse-scudo-23-8-2021-24-11-2021",
+   "ml:fiat:zafira-vivaro-30-1-2020-27-6-2022",
+   "mm:opel:spacetourer-jumpy-4-e2-2007-46-0530-13-17-e2-2007-46-0531-17-21",
+   "mm:opel:traveller-expert-4-e2-2007-46-0532-13-18-e2-2007-46-0533-17-21",
+   "mm:opel:ulysse-scudo-e2-2007-46-0532-17-18-e2-2007-46-0533-20",
+   "mm:opel:zafira-vivaro-e2-2007-46-0532-14-17-e2-2007-46-0533-18-21",
+   "ml:opel:spacetourer-jumpy-4-29-1-2020-2-6-2022",
+   "ml:opel:traveller-expert-4-30-1-2020-27-6-2022",
+   "ml:opel:ulysse-scudo-23-8-2021-24-11-2021",
+   "ml:opel:zafira-vivaro-30-1-2020-27-6-2022",
+   "mm:peugeot:spacetourer-jumpy-4-e2-2007-46-0530-13-17-e2-2007-46-0531-17-21",
+   "mm:peugeot:traveller-expert-4-e2-2007-46-0532-13-18-e2-2007-46-0533-17-21",
+   "mm:peugeot:ulysse-scudo-e2-2007-46-0532-17-18-e2-2007-46-0533-20",
+   "mm:peugeot:zafira-vivaro-e2-2007-46-0532-14-17-e2-2007-46-0533-18-21",
+   "ml:peugeot:spacetourer-jumpy-4-29-1-2020-2-6-2022",
+   "ml:peugeot:traveller-expert-4-30-1-2020-27-6-2022",
+   "ml:peugeot:ulysse-scudo-23-8-2021-24-11-2021",
+   "ml:peugeot:zafira-vivaro-30-1-2020-27-6-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8b294aa4579d0f29"
+  "enriquecido": true,
+  "hashContenido": "dede03d84cd349ba"
  },
  "slug": "furgoneta-de-pasajeros-citroen-fiat-opel-peugeot-safety-gate-10010490"
 }

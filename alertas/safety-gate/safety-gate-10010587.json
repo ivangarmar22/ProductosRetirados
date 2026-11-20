@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-01"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Cortador eléctrico portátil de setos",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IT",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c0f43fba41d82c10"
+  "enriquecido": true,
+  "hashContenido": "db3f52d814cf0e95"
  },
  "slug": "recortador-electrico-de-setos-oleo-mac-safety-gate-10010587"
 }

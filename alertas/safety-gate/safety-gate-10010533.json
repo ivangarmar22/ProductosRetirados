@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "AV1",
     "e3*2018/858*00061*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.9.2022 - 26.8.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "15.9.2022 - 26.8.2023"
+   "fechasTexto": "15.9.2022 - 26.8.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +99,16 @@
   "claves": [
    "ref:A12/02539/23",
    "mm:alfa-romeo:av1",
-   "mm:alfa-romeo:e3-2018-858-00061-02"
+   "mm:alfa-romeo:e3-2018-858-00061-02",
+   "ml:alfa-romeo:15-9-2022-26-8-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cba6dc8d42dcb8c3"
+  "enriquecido": true,
+  "hashContenido": "e24f7e3756d1e68d"
  },
  "slug": "coche-de-pasajeros-alfa-romeo-safety-gate-10010533"
 }

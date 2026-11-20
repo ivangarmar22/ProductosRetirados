@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Madera pintada y sin pintar, verde, coche deportivo de cuatro ruedas con un payaso. El payaso tiene una cara pintada con una nariz de bola roja pegada y un cuello amarillo. Sombrero de rayas de algodón ajustado con bola de brillo metálico. Peso del juguete — 24 g, dimensiones — (43 x 63 x 51) mm",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico"
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "230b3d7225ce457f"
+  "enriquecido": true,
+  "hashContenido": "2868d5ccb5ef355b"
  },
  "slug": "juguete-de-coche-de-madera-safety-gate-10010561"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "ZONTES"
    ],
    "modelos": [
-    "e9*168/2013*11867*01 (ZT350)",
-    "e9*168/2013*11914*02 (V350)"
+    "e9*168/2013*11867*01 (ZT350), e9*168/2013*11914*02 (V350)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.11.2022 - 24.11.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "21.11.2022 - 24.11.2022"
+   "fechasTexto": "21.11.2022 - 24.11.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,16 +104,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02689/23",
-   "mm:zontes:e9-168-2013-11867-01-zt350",
-   "mm:zontes:e9-168-2013-11914-02-v350"
+   "mm:zontes:e9-168-2013-11867-01-zt350-e9-168-2013-11914-02-v350",
+   "ml:zontes:21-11-2022-24-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4a3eea5a53564363"
+  "enriquecido": true,
+  "hashContenido": "be5f21a741044d46"
  },
  "slug": "moto-zontes-safety-gate-10010569"
 }

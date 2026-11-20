@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-10"
  },
  "categoria": {
   "literal": "Papelería",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bolígrafo retráctil, de color oro rosa, con la parte superior en forma de cabeza de conejo y un pompón rosa.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cartón blanco, al que está unido el bolígrafo."
   }
  ],
  "riesgo": {
@@ -64,7 +65,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "HR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c8df301436913e39"
+  "enriquecido": true,
+  "hashContenido": "71cdeb5895be9079"
  },
  "slug": "boligrafo-einhorn-safety-gate-10010793"
 }

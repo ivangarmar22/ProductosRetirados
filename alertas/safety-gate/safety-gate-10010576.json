@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-26"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "5901477163463"
    ],
    "descripcion": "Accesorio de corte tipo flail compuesto por 6 cuchillos metálicos. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente con almohadilla de papel."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "242d4a5a536df1fb"
+  "enriquecido": true,
+  "hashContenido": "541156091bce40e0"
  },
  "slug": "accesorio-para-cortadoras-de-cepillos-geko-safety-gate-10010576"
 }

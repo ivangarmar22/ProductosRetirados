@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Goodyear"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.07.2023-09.07.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "235/50R18 101V XL «Goodyear ULTRAGRIP PERFORMANCE 3» neumáticos fabricados durante la semana 27 de 2023. Pueden identificarse mediante un número DOT en el flanco del neumático con lectura 1K51P ML1R 2723. Producto vendido en línea.",
-   "fechasTexto": "03.07.2023-09.07.2023"
+   "fechasTexto": "03.07.2023-09.07.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +82,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A11/00117/23"
+   "ref:A11/00117/23",
+   "ml:goodyear:03-07-2023-09-07-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "43e82ba0687dd2d4"
+  "enriquecido": true,
+  "hashContenido": "5e4ec5fdea8cdc87"
  },
  "slug": "neumaticos-goodyear-safety-gate-10010506"
 }

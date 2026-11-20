@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,7 +35,8 @@
     "5060427356000"
    ],
    "descripcion": "Jabón espumante, disponible en varios colores. Puede chorrear, dar forma y rebotar. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de aerosol de metal (capacidad 225 ml), azul claro con una imagen de pulpo, rosa con panda, amarillo con un mono o morado con una imagen de unicornio,"
   }
  ],
  "riesgo": {
@@ -65,7 +66,11 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "62cde72485067062"
+  "enriquecido": true,
+  "hashContenido": "3995e5ac1044ab1a"
  },
  "slug": "jabon-espumoso-kids-stuff-safety-gate-10010781"
 }

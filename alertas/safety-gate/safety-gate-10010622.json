@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-16"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -36,7 +36,8 @@
     "8711252997438"
    ],
    "descripcion": "Casco de bicicleta en diferentes colores y tamaños (S, M, L) vendido desde 2016. El nombre del modelo (HB13) se indica en una pegatina dentro del casco. Todos los lotes se refieren. Producto vendido en línea, en particular a través de Amazon, ASIN B089B1QGFS",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Casco de bicicleta con cartón adjunto que contiene información sobre el producto"
   }
  ],
  "riesgo": {
@@ -75,7 +76,13 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "HR",
+   "IE",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,11 +125,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c234a5aa2144f835"
+  "enriquecido": true,
+  "hashContenido": "4a174f67a2e1fa52"
  },
  "slug": "casco-de-bicicleta-dunlop-safety-gate-10010622"
 }

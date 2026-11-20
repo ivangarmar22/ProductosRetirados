@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-25"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,15 +31,13 @@
    ],
    "lotes": [
     {
-     "numero": "PUR-004-D1"
-    },
-    {
-     "numero": "11/2022-11/2024"
+     "numero": "PUR-004-D1, 11/2022-11/2024"
     }
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje en una botella púrpura con una etiqueta de plata, 30 ml. Vida útil 11/2024. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje exterior."
   }
  ],
  "riesgo": {
@@ -69,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "ES",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,16 +87,15 @@
   "claves": [
    "ref:A12/02537/23",
    "mm:dynamic:purple",
-   "ml:dynamic:pur-004-d1",
-   "ml:dynamic:11-2022-11-2024"
+   "ml:dynamic:pur-004-d1-11-2022-11-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "09c463fc4461c723"
+  "enriquecido": true,
+  "hashContenido": "0609eee7add8fd02"
  },
  "slug": "tinta-del-tatuaje-dynamic-safety-gate-10010489"
 }

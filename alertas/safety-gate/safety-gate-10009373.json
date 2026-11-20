@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-09"
  },
  "categoria": {
   "literal": "Otros - Agujas de tatuaje",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "6651L243"
-    },
-    {
-     "numero": "5551H291"
+     "numero": "6651L243, 5551H291"
     }
    ],
    "ean": [
     "8033524894376"
    ],
    "descripcion": "Agujas de tatuaje.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con instrucciones de uso en italiano."
   }
  ],
  "riesgo": {
@@ -109,16 +107,15 @@
   "claves": [
    "ref:A12/02688/23",
    "ean:8033524894376",
-   "ml:mei-cha:6651l243",
-   "ml:mei-cha:5551h291"
+   "ml:mei-cha:6651l243-5551h291"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "21772bd656a48a3f"
+  "enriquecido": true,
+  "hashContenido": "54f692f27226127e"
  },
  "slug": "agujas-de-tatuaje-mei-cha-safety-gate-10009373"
 }

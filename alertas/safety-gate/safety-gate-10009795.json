@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Lexus and Toyota"
    ],
    "modelos": [
-    "NX450h+: e6*2018/858*00081*00",
-    "RAV4 PHEV: e6*2007/46*0429*00",
-    "e6*2007/46*0429*01"
+    "NX450h+: e6*2018/858*00081*00; RAV4 PHEV: e6*2007/46*0429*00, e6*2007/46*0429*01."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "NX450h+: 16.04.2021 - 6.06.2022; RAV4 PHEV: 26.11.2019 - 26.05.2022."
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros, equipado con motor híbrido enchufable. Código de modelo: NX450h+: AAZH26; RAV4 PHEV: AXAP54; año modelo: 2021-2022.",
-   "fechasTexto": "NX450h+: 16.04.2021 - 6.06.2022; RAV4 PHEV: 26.11.2019 - 26.05.2022."
+   "fechasTexto": "NX450h+: 16.04.2021 - 6.06.2022; RAV4 PHEV: 26.11.2019 - 26.05.2022.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IS",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,17 +100,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01675/23",
-   "mm:lexus-and-toyota:nx450h-e6-2018-858-00081-00",
-   "mm:lexus-and-toyota:rav4-phev-e6-2007-46-0429-00",
-   "mm:lexus-and-toyota:e6-2007-46-0429-01"
+   "mm:lexus-and-toyota:nx450h-e6-2018-858-00081-00-rav4-phev-e6-2007-46-0429-00-e6-2007-46-0429-01",
+   "ml:lexus-and-toyota:nx450h-16-04-2021-6-06-2022-rav4-phev-26-11-2019-26-05-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1d9f3c568cfa0f60"
+  "enriquecido": true,
+  "hashContenido": "df274314b471b4d1"
  },
  "slug": "coche-de-pasajeros-lexus-and-toyota-safety-gate-10009795"
 }

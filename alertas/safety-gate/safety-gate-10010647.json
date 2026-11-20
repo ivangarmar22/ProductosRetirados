@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "F2",
-    "e1*2007/46*1801*",
-    "e1*2007/46*1840*"
+    "e1*2007/46*1801*, e1*2007/46*1840*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.06.2023 – 28.07.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "23.06.2023 – 28.07.2023"
+   "fechasTexto": "23.06.2023 – 28.07.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,16 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02640/23",
-   "mm:audi:e1-2007-46-1801",
-   "mm:audi:e1-2007-46-1840"
+   "mm:audi:e1-2007-46-1801-e1-2007-46-1840",
+   "ml:audi:23-06-2023-28-07-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2884705bbb731888"
+  "enriquecido": true,
+  "hashContenido": "3ea74f81d8ae5ff4"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10010647"
 }

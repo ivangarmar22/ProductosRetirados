@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Can-am"
    ],
    "modelos": [
-    "e13*167/2013*00013*07",
-    "e13*167/2013*00201*03",
-    "e13*167/2013*00013*08",
-    "e13*167/2013*00201*04"
+    "e13*167/2013*00013*07, e13*167/2013*00201*03, e13*167/2013*00013*08, e13*167/2013*00201*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.03.2021 - 10.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo todo terreno de cuatro ruedas, equipado con un motor HD7 o 700, modelo 2022-2023",
-   "fechasTexto": "16.03.2021 - 10.08.2023"
+   "fechasTexto": "16.03.2021 - 10.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,18 +107,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02680/23",
-   "mm:can-am:e13-167-2013-00013-07",
-   "mm:can-am:e13-167-2013-00201-03",
-   "mm:can-am:e13-167-2013-00013-08",
-   "mm:can-am:e13-167-2013-00201-04"
+   "mm:can-am:e13-167-2013-00013-07-e13-167-2013-00201-03-e13-167-2013-00013-08-e13-167-2013-00201-04",
+   "ml:can-am:16-03-2021-10-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ddcdc681a756dfef"
+  "enriquecido": true,
+  "hashContenido": "8cac2c03ebcb58a7"
  },
  "slug": "vehiculo-todo-terreno-de-cuatro-ruedas-can-am-safety-gate-10010683"
 }

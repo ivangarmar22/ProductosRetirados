@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,7 +38,8 @@
     "5907464412156"
    ],
    "descripcion": "EAU de parfum spray, 100 ml en una botella de tapa de plástico blanco.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón rojo."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5b55fc112d08220d"
+  "enriquecido": true,
+  "hashContenido": "a9b310f0d0ce3c8b"
  },
  "slug": "perfume-cote-d-azur-safety-gate-10010708"
 }

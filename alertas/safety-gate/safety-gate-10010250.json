@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,17 +29,17 @@
    "modelos": [
     "BLS MY2006: e4*2001/116*0109*00",
     "BLS MY2007: e4*2001/116*0109*01 and e4*2001/116*0109*02",
-    "BLS MY2008: e4*2001/116*0109*03",
-    "e4*2001/116*0109*04",
-    "e4*2001/116*0109*05",
-    "e4*2001/116*0109*06",
-    "e4*2001/116*0109*07",
-    "e4*2001/116*0109*08"
+    "BLS MY2008: e4*2001/116*0109*03, e4*2001/116*0109*04, e4*2001/116*0109*05, e4*2001/116*0109*06, e4*2001/116*0109*07, e4*2001/116*0109*08"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.03.2006 - 17.10.2007"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "16.03.2006 - 17.10.2007"
+   "fechasTexto": "16.03.2006 - 17.10.2007",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "MT",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,20 +91,16 @@
    "ref:A12/02197/23",
    "mm:cadillac:bls-my2006-e4-2001-116-0109-00",
    "mm:cadillac:bls-my2007-e4-2001-116-0109-01-and-e4-2001-116-0109-02",
-   "mm:cadillac:bls-my2008-e4-2001-116-0109-03",
-   "mm:cadillac:e4-2001-116-0109-04",
-   "mm:cadillac:e4-2001-116-0109-05",
-   "mm:cadillac:e4-2001-116-0109-06",
-   "mm:cadillac:e4-2001-116-0109-07",
-   "mm:cadillac:e4-2001-116-0109-08"
+   "mm:cadillac:bls-my2008-e4-2001-116-0109-03-e4-2001-116-0109-04-e4-2001-116-0109-05-e4-2001-116-0109-06-e4-2001-116-0109-07-e4-2001-116-0109-08",
+   "ml:cadillac:16-03-2006-17-10-2007"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "28e0589490c90ce3"
+  "enriquecido": true,
+  "hashContenido": "3bbf6f2d0650785c"
  },
  "slug": "coche-de-pasajeros-cadillac-safety-gate-10010250"
 }

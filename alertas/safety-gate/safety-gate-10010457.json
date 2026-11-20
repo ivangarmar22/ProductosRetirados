@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Iveco Vehículos comerciales diarios e Iveco Daily Minibus",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,11 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "HR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e077a834d84d4b37"
+  "enriquecido": true,
+  "hashContenido": "f828b079ec53b471"
  },
  "slug": "vehiculo-comercial-iveco-safety-gate-10010457"
 }

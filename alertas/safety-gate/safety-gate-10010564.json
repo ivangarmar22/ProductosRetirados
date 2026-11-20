@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "CVH-2018/858",
     "e13*2018/858*00305*00-*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.02.2022 – 6.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Caravana",
-   "fechasTexto": "16.02.2022 – 6.06.2023"
+   "fechasTexto": "16.02.2022 – 6.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +99,16 @@
   "claves": [
    "ref:A12/02541/23",
    "mm:lmc:cvh-2018-858",
-   "mm:lmc:e13-2018-858-00305-00-03"
+   "mm:lmc:e13-2018-858-00305-00-03",
+   "ml:lmc:16-02-2022-6-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "86835d9f651e2220"
+  "enriquecido": true,
+  "hashContenido": "6d77ee2e3ec00f20"
  },
  "slug": "caravana-lmc-safety-gate-10010564"
 }

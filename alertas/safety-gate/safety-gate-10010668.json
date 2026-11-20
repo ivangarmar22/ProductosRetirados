@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Ford"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.10.2022 - 28.02.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, permisos de funcionamiento de homologación de tipo individual.",
-   "fechasTexto": "19.10.2022 - 28.02.2023"
+   "fechasTexto": "19.10.2022 - 28.02.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +87,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/02641/23"
+   "ref:A12/02641/23",
+   "ml:ford:19-10-2022-28-02-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "157a83950f6d25b2"
+  "enriquecido": true,
+  "hashContenido": "94ecf427bc4942ed"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10010668"
 }

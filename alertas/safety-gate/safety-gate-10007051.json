@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-19"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Saco de dormir de lino o algodón, invierno o verano, con cordones de corbata. Para niños de 0 a 6 meses y de 6 a 18 meses. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "211ecd597cc4ac49"
+  "enriquecido": true,
+  "hashContenido": "5626211541280f6f"
  },
  "slug": "saco-de-dormir-nobodiz-safety-gate-10007051"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-08"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "3700335260243"
    ],
    "descripcion": "Muñeca hecha de tela con edredón, vestido con pantalón azul y un top floral blanco, con el pelo castaño unido en una cola de caballo por una cinta. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de regalo de madera"
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "25a783147cb59fcb"
+  "enriquecido": true,
+  "hashContenido": "5547cef54d8c77ac"
  },
  "slug": "juguete-suave-jolijou-safety-gate-10010436"
 }

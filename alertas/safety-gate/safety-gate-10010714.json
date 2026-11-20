@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-31"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,12 +31,31 @@
    ],
    "lotes": [
     {
-     "numero": "4020376637401945911540194591174020376638402327229140232722924028339663"
+     "numero": "4020376637"
+    },
+    {
+     "numero": "4019459115"
+    },
+    {
+     "numero": "4019459117"
+    },
+    {
+     "numero": "4020376638"
+    },
+    {
+     "numero": "4023272291"
+    },
+    {
+     "numero": "4023272292"
+    },
+    {
+     "numero": "4028339663"
     }
    ],
    "ean": [],
    "descripcion": "Un tractor de granja de juguetes con vagón destinado a niños mayores de 18 meses. El tractor es con sonido y el juguete utiliza baterías. El juguete incluye pequeñas figuras de juguete (granjero, caballo, cerdo). El juguete puede ser de diferentes colores.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje rectangular gris con ‘SPIRE’ escrito en esquina superior izquierda sobre fondo rojo. El juguete es visible en el embalaje. En la parte inferior está escrito ‘Tractor de granja y 18 m+’."
   }
  ],
  "riesgo": {
@@ -66,7 +85,9 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +112,21 @@
   "claves": [
    "ref:A12/02611/23",
    "mm:spire:89017631",
-   "ml:spire:4020376637401945911540194591174020376638402327229140232722924028339663"
+   "ml:spire:4020376637",
+   "ml:spire:4019459115",
+   "ml:spire:4019459117",
+   "ml:spire:4020376638",
+   "ml:spire:4023272291",
+   "ml:spire:4023272292",
+   "ml:spire:4028339663"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e173619b52e3f10c"
+  "enriquecido": true,
+  "hashContenido": "bcc1cc11296ca30b"
  },
  "slug": "tractor-de-juguete-spire-safety-gate-10010714"
 }

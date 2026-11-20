@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "BN100/20BN22+23/19 WBN551/19"
+     "numero": "BN100/20"
+    },
+    {
+     "numero": "BN22+23/19 W"
+    },
+    {
+     "numero": "BN551/19"
     }
    ],
    "ean": [
     "6281101825899"
    ],
    "descripcion": "EAU de parfum, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -91,15 +98,17 @@
   "claves": [
    "ref:A12/02669/23",
    "ean:6281101825899",
-   "ml:arabian-oud:bn100-20bn22-23-19-wbn551-19"
+   "ml:arabian-oud:bn100-20",
+   "ml:arabian-oud:bn22-23-19-w",
+   "ml:arabian-oud:bn551-19"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5768e47fa7ae480c"
+  "enriquecido": true,
+  "hashContenido": "df5902a2ae0310bc"
  },
  "slug": "perfume-arabian-oud-safety-gate-10010730"
 }

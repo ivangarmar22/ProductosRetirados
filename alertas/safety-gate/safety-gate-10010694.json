@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,21 +24,26 @@
   {
    "nombre": "DUSTER/ LOGAN III/ SANDERO III/ CLIO V CAPTUR II",
    "marcas": [
-    "Dacia, Renault"
+    "Dacia",
+    "Renault"
    ],
    "modelos": [
-    "Captur : e2*2007/46*0684*21",
-    "e2*2007/46*0684*22",
-    "Clio V : e2*2007/46*0676*19",
-    "e2*2007/46*0676*20",
-    "DACIA : e19*2007/46*0026*16",
-    "e19*2007/46*0026*17",
-    "e19*2007/46*0026*18 e2*2001/116*0323*72 e2*2001/116*0323*73 e2*2001/116*0323*74"
+    "Captur : e2*2007/46*0684*21, e2*2007/46*0684*22",
+    "Clio V : e2*2007/46*0676*19, e2*2007/46*0676*20",
+    "DACIA : e19*2007/46*0026*16, e19*2007/46*0026*17, e19*2007/46*0026*18 e2*2001/116*0323*72 e2*2001/116*0323*73 e2*2001/116*0323*74"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "DACIA: 06/02/2023 - 03/07/2023."
+    },
+    {
+     "numero": "RENAULT: 06/02/2023 - 13/06/2023."
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros equipado con un tanque de gas licuado de petróleo (GLP).",
-   "fechasTexto": "DACIA: 06/02/2023 - 03/07/2023.RENAULT: 06/02/2023 - 13/06/2023."
+   "fechasTexto": "DACIA: 06/02/2023 - 03/07/2023.RENAULT: 06/02/2023 - 13/06/2023.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "PL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,21 +108,24 @@
  "dedup": {
   "claves": [
    "ref:A12/02683/23",
-   "mm:dacia-renault:captur-e2-2007-46-0684-21",
-   "mm:dacia-renault:e2-2007-46-0684-22",
-   "mm:dacia-renault:clio-v-e2-2007-46-0676-19",
-   "mm:dacia-renault:e2-2007-46-0676-20",
-   "mm:dacia-renault:dacia-e19-2007-46-0026-16",
-   "mm:dacia-renault:e19-2007-46-0026-17",
-   "mm:dacia-renault:e19-2007-46-0026-18-e2-2001-116-0323-72-e2-2001-116-0323-73-e2-2001-116-0323-74"
+   "mm:dacia:captur-e2-2007-46-0684-21-e2-2007-46-0684-22",
+   "mm:dacia:clio-v-e2-2007-46-0676-19-e2-2007-46-0676-20",
+   "mm:dacia:dacia-e19-2007-46-0026-16-e19-2007-46-0026-17-e19-2007-46-0026-18-e2-2001-116-0323-72-e2-2001-116-0323-73-e2-2001-116-0323-74",
+   "ml:dacia:dacia-06-02-2023-03-07-2023",
+   "ml:dacia:renault-06-02-2023-13-06-2023",
+   "mm:renault:captur-e2-2007-46-0684-21-e2-2007-46-0684-22",
+   "mm:renault:clio-v-e2-2007-46-0676-19-e2-2007-46-0676-20",
+   "mm:renault:dacia-e19-2007-46-0026-16-e19-2007-46-0026-17-e19-2007-46-0026-18-e2-2001-116-0323-72-e2-2001-116-0323-73-e2-2001-116-0323-74",
+   "ml:renault:dacia-06-02-2023-03-07-2023",
+   "ml:renault:renault-06-02-2023-13-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6be922e10e952fed"
+  "enriquecido": true,
+  "hashContenido": "ee113c6c91f61989"
  },
  "slug": "coche-de-pasajeros-dacia-renault-safety-gate-10010694"
 }

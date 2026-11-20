@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2018/858*00237"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.03.2022 - 05.04.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, modelos 2WD y 4WD",
-   "fechasTexto": "09.03.2022 - 05.04.2023"
+   "fechasTexto": "09.03.2022 - 05.04.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,23 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +98,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02642/23",
-   "mm:nissan:e13-2018-858-00237"
+   "mm:nissan:e13-2018-858-00237",
+   "ml:nissan:09-03-2022-05-04-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a328ab88f4d40675"
+  "enriquecido": true,
+  "hashContenido": "73ba10f1022f3d61"
  },
  "slug": "coche-de-pasajeros-nissan-safety-gate-10010649"
 }

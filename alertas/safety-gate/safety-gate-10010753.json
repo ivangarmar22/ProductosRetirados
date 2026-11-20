@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-31"
  },
  "categoria": {
   "literal": "Artículos de pirotecnia",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "K_JF08_PL.CZ.FR.-0589-21-paper baseManufactured in 2021"
+     "numero": "K_JF08_PL.CZ.FR.-0589-21-paper base"
+    },
+    {
+     "numero": "Manufactured in 2021"
     }
    ],
    "ean": [
     "5901583660689"
    ],
    "descripcion": "Combinación de 8 disparos y 1 fuente de fuegos artificiales, clase F2.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -111,15 +115,16 @@
    "ref:A12/02628/23",
    "ean:5901583660689",
    "mm:jorge:jf08",
-   "ml:jorge:k-jf08-pl-cz-fr-0589-21-paper-basemanufactured-in-2021"
+   "ml:jorge:k-jf08-pl-cz-fr-0589-21-paper-base",
+   "ml:jorge:manufactured-in-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d00657ea5b2e51a4"
+  "enriquecido": true,
+  "hashContenido": "2c04770e9244e848"
  },
  "slug": "petardos-jorge-safety-gate-10010753"
 }

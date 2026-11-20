@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-04"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cámara instantánea coloreada",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,11 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,11 +122,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3599b0f119495b27"
+  "enriquecido": true,
+  "hashContenido": "8fd32477fee2df8a"
  },
  "slug": "camara-de-juguete-plan-toys-safety-gate-10010418"
 }

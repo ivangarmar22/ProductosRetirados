@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-15"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Tornillo de hormigón anunciado como aprobado según ETA 20/0859 para su uso en hormigón agrietado y sin agrietar en condiciones internas secas",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón verde"
   }
  ],
  "riesgo": {
@@ -74,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8e657cbcfcaba0a5"
+  "enriquecido": true,
+  "hashContenido": "9dc8df67dd4156f5"
  },
  "slug": "tornillo-de-hormigon-spax-safety-gate-10010263"
 }

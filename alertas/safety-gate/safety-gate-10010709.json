@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "W0824"
-    },
-    {
-     "numero": "58470819"
+     "numero": "W0824; 58470819"
     }
    ],
    "ean": [
     "5904730300766"
    ],
    "descripcion": "EAU de parfum spray, 100 ml, encerrado en una botella redonda de naranja,",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón decorada con un dragón con alas."
   }
  ],
  "riesgo": {
@@ -75,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,16 +104,15 @@
    "ref:A12/02633/23",
    "ean:5904730300766",
    "mm:jfenzi:anathea-eau-de-parfum-women",
-   "ml:jfenzi:w0824",
-   "ml:jfenzi:58470819"
+   "ml:jfenzi:w0824-58470819"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1c272b462fc77e40"
+  "enriquecido": true,
+  "hashContenido": "3da50344f40b409d"
  },
  "slug": "eau-de-parfum-jfenzi-safety-gate-10010709"
 }

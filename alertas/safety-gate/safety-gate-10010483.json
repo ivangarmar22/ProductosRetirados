@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Skoda"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.04.2023 - 18.04.2023."
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "04.04.2023 - 18.04.2023."
+   "fechasTexto": "04.04.2023 - 18.04.2023.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +87,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/02508/23"
+   "ref:A12/02508/23",
+   "ml:skoda:04-04-2023-18-04-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "014aae04ed86d90e"
+  "enriquecido": true,
+  "hashContenido": "edaec9682d5dc78b"
  },
  "slug": "coche-de-pasajeros-skoda-safety-gate-10010483"
 }

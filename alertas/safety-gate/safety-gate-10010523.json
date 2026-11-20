@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,14 +27,13 @@
     "Like Sun"
    ],
    "modelos": [
-    "JE139400",
-    "1455660LnY0q",
-    "4F39-5-33"
+    "JE139400, 1455660LnY0q, 4F39-5-33"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Coche de juguete multicolor accionado por batería hecho de espuma, alimentado por celdas de botón. Producto vendido onine, en particular a través de Amazon ASIN B0BQ7CSGS8.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón y plástico termoformado"
   }
  ],
  "riesgo": {
@@ -85,17 +84,15 @@
  "dedup": {
   "claves": [
    "ref:A12/02601/23",
-   "mm:like-sun:je139400",
-   "mm:like-sun:1455660lny0q",
-   "mm:like-sun:4f39-5-33"
+   "mm:like-sun:je139400-1455660lny0q-4f39-5-33"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9acc60ccd5db4bbf"
+  "enriquecido": true,
+  "hashContenido": "c5f67f6e3192ef31"
  },
  "slug": "coche-de-juguete-like-sun-safety-gate-10010523"
 }

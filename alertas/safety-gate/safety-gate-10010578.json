@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "SMU/2207/BH"
-    },
-    {
-     "numero": "BBE December 2026"
+     "numero": "SMU/2207/BH, BBE December 2026"
     }
    ],
    "ean": [
     "8908014436261"
    ],
    "descripcion": "Tinte para el cabello a base de henna. El producto es un polvo fino y marrón. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto viene en un envoltorio de película."
   }
  ],
  "riesgo": {
@@ -97,16 +95,15 @@
   "claves": [
    "ref:A12/02557/23",
    "ean:8908014436261",
-   "ml:shringar-black-henna:smu-2207-bh",
-   "ml:shringar-black-henna:bbe-december-2026"
+   "ml:shringar-black-henna:smu-2207-bh-bbe-december-2026"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e3351dc8ba244001"
+  "enriquecido": true,
+  "hashContenido": "e107871378fb5229"
  },
  "slug": "tinte-para-el-cabello-shringar-black-henna-safety-gate-10010578"
 }

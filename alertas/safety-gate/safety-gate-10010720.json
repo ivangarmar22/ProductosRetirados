@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "5900724058804"
    ],
    "descripcion": "Scooter de juguete de tres ruedas, peso máximo del usuario: 50 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3bb9892e8344cbe4"
+  "enriquecido": true,
+  "hashContenido": "3b265e14bdb470ee"
  },
  "slug": "scooter-de-juguete-meteor-safety-gate-10010720"
 }

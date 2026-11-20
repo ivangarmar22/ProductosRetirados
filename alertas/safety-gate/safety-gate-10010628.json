@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e3*2007/46*0064*69 (312)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4.4.2023 - 27.9.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "4.4.2023 - 27.9.2023"
+   "fechasTexto": "4.4.2023 - 27.9.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +102,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02568/23",
-   "mm:fiat:e3-2007-46-0064-69-312"
+   "mm:fiat:e3-2007-46-0064-69-312",
+   "ml:fiat:4-4-2023-27-9-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3041a17a74bfed17"
+  "enriquecido": true,
+  "hashContenido": "b778ded516d6278f"
  },
  "slug": "coche-de-pasajeros-fiat-safety-gate-10010628"
 }

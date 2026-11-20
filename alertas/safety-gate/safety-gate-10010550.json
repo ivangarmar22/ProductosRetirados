@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B09ED011031B09ED091230"
+     "numero": "B09ED011031"
+    },
+    {
+     "numero": "B09ED091230"
     }
    ],
    "ean": [],
    "descripcion": "Jabón líquido, anunciado como antibacteriano, té verde y menta/Jabone líquido nutritivo, crema de leche",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Dispensador de plástico"
   }
  ],
  "riesgo": {
@@ -91,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02572/23",
-   "ml:malizia:b09ed011031b09ed091230"
+   "ml:malizia:b09ed011031",
+   "ml:malizia:b09ed091230"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2d0385411882ca6e"
+  "enriquecido": true,
+  "hashContenido": "de840e26df7252cc"
  },
  "slug": "jabon-liquido-malizia-safety-gate-10010550"
 }

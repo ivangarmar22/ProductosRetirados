@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,18 @@
     "Harley Davidson P&A"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "(P/N 54000134) = 02.11.2019 - 22.08.2023"
+    },
+    {
+     "numero": "(P/N 54000294) = 23.01.2022 - 22.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Repuesto para motocicletas Harley-Davidson Softail (2018-2023): amortiguadores traseros, número de pieza 54000294 (Tall Rear Shock (P/N 54000294)) y suspensión trasera (Softail), número de parte 54000134 (Perfil Low Rear (P/N 54000134)).",
-   "fechasTexto": "(P/N 54000134) = 02.11.2019 - 22.08.2023(P/N 54000294) = 23.01.2022 - 22.08.2023"
+   "fechasTexto": "(P/N 54000134) = 02.11.2019 - 22.08.2023(P/N 54000294) = 23.01.2022 - 22.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HU",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +92,17 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/02569/23"
+   "ref:A12/02569/23",
+   "ml:harley-davidson-p-a:p-n-54000134-02-11-2019-22-08-2023",
+   "ml:harley-davidson-p-a:p-n-54000294-23-01-2022-22-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a436aa07d19bb82"
+  "enriquecido": true,
+  "hashContenido": "5f028cb64fae4b4a"
  },
  "slug": "motocicleta-parte-de-repuesto-harley-davidson-p-a-safety-gate-10010563"
 }

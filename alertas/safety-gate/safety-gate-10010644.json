@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "5907695540468"
    ],
    "descripcion": "Scooter de tres ruedas, peso máximo del usuario: 50 kg. Fecha de producción: 12/2022, color: menta.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2daee504becf4ea2"
+  "enriquecido": true,
+  "hashContenido": "238a88b0e93cf080"
  },
  "slug": "scooter-de-juguete-nils-fun-safety-gate-10010644"
 }

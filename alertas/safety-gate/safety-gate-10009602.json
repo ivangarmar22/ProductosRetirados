@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,19 @@
     "Land Rover"
    ],
    "modelos": [
-    "e5*2007/46*1055*",
-    "e5*2007/46*0092*",
-    "e5*2007/46*1057*08-*09",
-    "e5*2007/46*1056*00-*05",
-    "e5*2007/46*1053*01-*05",
-    "e9*2018/858*11120*",
-    "e9*2018/858*11229*"
+    "e5*2007/46*1055*, e5*2007/46*0092*",
+    "e5*2007/46*1057*08-*09, e5*2007/46*1056*00-*05, e5*2007/46*1053*01-*05",
+    "e9*2018/858*11120*, e9*2018/858*11229*,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.03.2019 - 09.01.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "22.03.2019 - 09.01.2023"
+   "fechasTexto": "22.03.2019 - 09.01.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "GR",
+   "NL",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,21 +99,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01547/23",
-   "mm:land-rover:e5-2007-46-1055",
-   "mm:land-rover:e5-2007-46-0092",
-   "mm:land-rover:e5-2007-46-1057-08-09",
-   "mm:land-rover:e5-2007-46-1056-00-05",
-   "mm:land-rover:e5-2007-46-1053-01-05",
-   "mm:land-rover:e9-2018-858-11120",
-   "mm:land-rover:e9-2018-858-11229"
+   "mm:land-rover:e5-2007-46-1055-e5-2007-46-0092",
+   "mm:land-rover:e5-2007-46-1057-08-09-e5-2007-46-1056-00-05-e5-2007-46-1053-01-05",
+   "mm:land-rover:e9-2018-858-11120-e9-2018-858-11229",
+   "ml:land-rover:22-03-2019-09-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7ab4c59b9ad5d621"
+  "enriquecido": true,
+  "hashContenido": "0ce7383c424744da"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10009602"
 }

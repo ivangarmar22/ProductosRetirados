@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "e4*2007/46*1259*",
     "e4*2007/46*1522*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "e4*2007/46*1259*: 17.06.2020 - 2.09.2020"
+    },
+    {
+     "numero": "e4*2007/46*1522*: 2.09.2020 - 7.12.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, vehículo eléctrico",
-   "fechasTexto": "e4*2007/46*1259*: 17.06.2020 - 2.09.2020e4*2007/46*1522*: 2.09.2020 - 7.12.2020"
+   "fechasTexto": "e4*2007/46*1259*: 17.06.2020 - 2.09.2020e4*2007/46*1522*: 2.09.2020 - 7.12.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "IS",
+   "NL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +96,17 @@
   "claves": [
    "ref:A12/02638/23",
    "mm:hyundai:e4-2007-46-1259",
-   "mm:hyundai:e4-2007-46-1522"
+   "mm:hyundai:e4-2007-46-1522",
+   "ml:hyundai:e4-2007-46-1259-17-06-2020-2-09-2020",
+   "ml:hyundai:e4-2007-46-1522-2-09-2020-7-12-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b6f000abf528576c"
+  "enriquecido": true,
+  "hashContenido": "770221a18a76b00e"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10010624"
 }
