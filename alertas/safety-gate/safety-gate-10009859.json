@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-09"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -27,15 +27,15 @@
     "Donnay"
    ],
    "modelos": [
-    "80-00788",
-    "41400"
+    "80-00788, 41400"
    ],
    "lotes": [],
    "ean": [
     "8711252414003"
    ],
    "descripcion": "Conjunto de bádminton que contiene 4 raquetas, 3 bolas de bádminton y una red.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de transporte con asas."
   }
  ],
  "riesgo": {
@@ -77,7 +77,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,16 +96,15 @@
   "claves": [
    "ref:A12/01726/23",
    "ean:8711252414003",
-   "mm:donnay:80-00788",
-   "mm:donnay:41400"
+   "mm:donnay:80-00788-41400"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "54e19bec2f9f380a"
+  "enriquecido": true,
+  "hashContenido": "24d8064eb2ad7b10"
  },
  "slug": "conjunto-de-badminton-donnay-safety-gate-10009859"
 }

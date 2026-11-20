@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-19"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -35,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Elevador de escaleras y plataforma vertical con baterías de litio.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "GR",
+   "LV",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "034c32f5bde1c4a4"
+  "enriquecido": true,
+  "hashContenido": "63ce817ea9273ec0"
  },
  "slug": "elevador-de-escaleras-vimec-safety-gate-10011030"
 }

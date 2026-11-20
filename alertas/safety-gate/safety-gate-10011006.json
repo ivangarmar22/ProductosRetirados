@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-08"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
     "8592627012167"
    ],
    "descripcion": "Impermeable amarillo (poncho). Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje transparente"
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Noruega",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "efd27e65f10afd80"
+  "enriquecido": true,
+  "hashContenido": "e75cc43996183f7a"
  },
  "slug": "impermeable-force-safety-gate-10011006"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-22"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -43,7 +43,8 @@
     "7318841763125"
    ],
    "descripcion": "Guantes negros. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +78,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Vietnam",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3112c286dcbb0ed6"
+  "enriquecido": true,
+  "hashContenido": "6b234d1d40c7de94"
  },
  "slug": "guantes-haglofs-safety-gate-10011380"
 }

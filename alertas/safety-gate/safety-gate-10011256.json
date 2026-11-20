@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,31 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "71803990 71904529720025587200564272008563GN1706GW1515"
+     "numero": "71803990"
+    },
+    {
+     "numero": "71904529"
+    },
+    {
+     "numero": "72002558"
+    },
+    {
+     "numero": "72005642"
+    },
+    {
+     "numero": "72008563"
+    },
+    {
+     "numero": "GN1706"
+    },
+    {
+     "numero": "GW1515"
     }
    ],
    "ean": [],
    "descripcion": "Cuatro latas de barniz, 2,5 kg, 375 ml, 750 ml y 750 ml respectivamente.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Estaño metálico."
   }
  ],
  "riesgo": {
@@ -115,15 +134,21 @@
  "dedup": {
   "claves": [
    "ref:A12/03064/23",
-   "ml:brignola:71803990-71904529720025587200564272008563gn1706gw1515"
+   "ml:brignola:71803990",
+   "ml:brignola:71904529",
+   "ml:brignola:72002558",
+   "ml:brignola:72005642",
+   "ml:brignola:72008563",
+   "ml:brignola:gn1706",
+   "ml:brignola:gw1515"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8dd195aecff52cd9"
+  "enriquecido": true,
+  "hashContenido": "defa13b71f607733"
  },
  "slug": "barniz-brignola-safety-gate-10011256"
 }

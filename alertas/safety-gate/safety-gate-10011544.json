@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,23 @@
     "Mazda"
    ],
    "modelos": [
-    "e13*2007/46*2249*18",
-    "e13*2007/46*2249*19",
-    "e13*2007/46*2041*21",
-    "e13*2007/46*2041*22"
+    "e13*2007/46*2249*18, e13*2007/46*2249*19, e13*2007/46*2041*21, e13*2007/46*2041*22"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3 - 6.04.2023 - 23.08.2023"
+    },
+    {
+     "numero": "CX-30 - 06.06.2023 - 2.09.2023"
+    },
+    {
+     "numero": "CX-90 - 26.04.2023 - 23.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos Mazda 3 (BP), CX-30 (DM), CX-90 (KK) equipados con el monitor de visión trasera sujeto (con líneas de guía dinámicas)/360.º monitor de visión.",
-   "fechasTexto": "3 - 6.04.2023 - 23.08.2023CX-30 - 06.06.2023 - 2.09.2023CX-90 - 26.04.2023 - 23.08.2023"
+   "fechasTexto": "3 - 6.04.2023 - 23.08.2023CX-30 - 06.06.2023 - 2.09.2023CX-90 - 26.04.2023 - 23.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +73,15 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "IS",
+   "MT",
+   "PL",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,18 +104,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00030/24",
-   "mm:mazda:e13-2007-46-2249-18",
-   "mm:mazda:e13-2007-46-2249-19",
-   "mm:mazda:e13-2007-46-2041-21",
-   "mm:mazda:e13-2007-46-2041-22"
+   "mm:mazda:e13-2007-46-2249-18-e13-2007-46-2249-19-e13-2007-46-2041-21-e13-2007-46-2041-22",
+   "ml:mazda:3-6-04-2023-23-08-2023",
+   "ml:mazda:cx-30-06-06-2023-2-09-2023",
+   "ml:mazda:cx-90-26-04-2023-23-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ea9ad9c096b2b03e"
+  "enriquecido": true,
+  "hashContenido": "b94db22bda4630ef"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10011544"
 }

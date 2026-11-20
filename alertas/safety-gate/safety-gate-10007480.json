@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "13347664219-10"
+     "numero": "13347664"
+    },
+    {
+     "numero": "219-10"
     }
    ],
    "ean": [
     "5220016606880"
    ],
    "descripcion": "Juego de 10 patos de plástico amarillo. Producto vendido también en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de red con etiqueta colgante"
   }
  ],
  "riesgo": {
@@ -72,7 +76,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,15 +112,16 @@
    "ref:A12/01851/22",
    "ean:5220016606880",
    "mm:ouatoo:ouf-set-10-canards-de-bain",
-   "ml:ouatoo:13347664219-10"
+   "ml:ouatoo:13347664",
+   "ml:ouatoo:219-10"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ce939be252daa507"
+  "enriquecido": true,
+  "hashContenido": "acc6d3cf029f3333"
  },
  "slug": "juego-de-juguetes-de-bano-de-plastico-ouatoo-safety-gate-10007480"
 }

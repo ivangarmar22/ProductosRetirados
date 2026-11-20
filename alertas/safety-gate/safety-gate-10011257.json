@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "022046349036"
+     "numero": "022046"
+    },
+    {
+     "numero": "349036"
     }
    ],
    "ean": [
     "8009740833437"
    ],
    "descripcion": "Barra de jabón, anunciada como pH neutro y que contiene miel.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tarjeta laminada transparente."
   }
  ],
  "riesgo": {
@@ -82,15 +86,16 @@
   "claves": [
    "ref:A12/03056/23",
    "ean:8009740833437",
-   "ml:perlier:022046349036"
+   "ml:perlier:022046",
+   "ml:perlier:349036"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1e340ba8dfa8a0e6"
+  "enriquecido": true,
+  "hashContenido": "bae90052825f40d9"
  },
  "slug": "barra-de-jabon-perlier-safety-gate-10011257"
 }

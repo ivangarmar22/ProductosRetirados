@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,16 +24,25 @@
   {
    "nombre": "ASTRA-L (OV512) , 308 V3 (P512)",
    "marcas": [
-    "Opel, Peugeot"
+    "Opel",
+    "Peugeot"
    ],
    "modelos": [
     "e2*2007/46*0628*23 - 28",
     "e2*2007/46*0628*25 - 27"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.03.2023 - 09.08.2023"
+    },
+    {
+     "numero": "16.03.2023 - 30.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "06.03.2023 - 09.08.202316.03.2023 - 30.08.2023"
+   "fechasTexto": "06.03.2023 - 09.08.202316.03.2023 - 30.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +72,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "PL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +95,22 @@
  "dedup": {
   "claves": [
    "ref:A12/03130/23",
-   "mm:opel-peugeot:e2-2007-46-0628-23-28",
-   "mm:opel-peugeot:e2-2007-46-0628-25-27"
+   "mm:opel:e2-2007-46-0628-23-28",
+   "mm:opel:e2-2007-46-0628-25-27",
+   "ml:opel:06-03-2023-09-08-2023",
+   "ml:opel:16-03-2023-30-08-2023",
+   "mm:peugeot:e2-2007-46-0628-23-28",
+   "mm:peugeot:e2-2007-46-0628-25-27",
+   "ml:peugeot:06-03-2023-09-08-2023",
+   "ml:peugeot:16-03-2023-30-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "530abce2adea1140"
+  "enriquecido": true,
+  "hashContenido": "a7b6d03c3e1d416b"
  },
  "slug": "coche-de-pasajeros-opel-peugeot-safety-gate-10011272"
 }

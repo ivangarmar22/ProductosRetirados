@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*0929*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2015 - 2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Serie de modelos XC90 (256); Número de chasis: de 0000378 a 0999003.",
-   "fechasTexto": "2015 - 2024"
+   "fechasTexto": "2015 - 2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "DE",
+   "GR",
+   "LU",
+   "PL",
+   "SK",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +96,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03124/23",
-   "mm:volvo:e4-2007-46-0929-06"
+   "mm:volvo:e4-2007-46-0929-06",
+   "ml:volvo:2015-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d152500919a24763"
+  "enriquecido": true,
+  "hashContenido": "1d3dd4f98bd591ed"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10011368"
 }

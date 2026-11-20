@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-15"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -27,15 +27,15 @@
     "Båtsystem"
    ],
    "modelos": [
-    "3572",
-    "2093-D2USB"
+    "3572 / 2093-D2USB"
    ],
    "lotes": [],
    "ean": [
     "7332640012512"
    ],
    "descripcion": "Foco metálico. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente."
   }
  ],
  "riesgo": {
@@ -65,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,16 +87,15 @@
   "claves": [
    "ref:A12/03077/23",
    "ean:7332640012512",
-   "mm:batsystem:3572",
-   "mm:batsystem:2093-d2usb"
+   "mm:batsystem:3572-2093-d2usb"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "17ce6db7928d8325"
+  "enriquecido": true,
+  "hashContenido": "9c3902358bb0c808"
  },
  "slug": "foco-de-luz-led-batsystem-safety-gate-10011306"
 }

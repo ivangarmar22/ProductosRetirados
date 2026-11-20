@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*KS18/858*00011*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.4.2020 - 1.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Mercedes-Benz Clase G serie 463, modelo 4x4²,",
-   "fechasTexto": "17.4.2020 - 1.12.2023"
+   "fechasTexto": "17.4.2020 - 1.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "FR",
+   "NO",
+   "PT",
+   "SK",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00027/24",
-   "mm:mercedes-amg:e1-ks18-858-00011-00"
+   "mm:mercedes-amg:e1-ks18-858-00011-00",
+   "ml:mercedes-amg:17-4-2020-1-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8d3bb8bee8a13b7c"
+  "enriquecido": true,
+  "hashContenido": "13459f4c779d6028"
  },
  "slug": "coche-de-pasajeros-mercedes-amg-safety-gate-10011464"
 }

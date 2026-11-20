@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5901500233927"
    ],
    "descripcion": "Juguete suave, un oso de peluche, tamaño: 240 mm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje, etiqueta pegada al juguete."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "824959d37e53c958"
+  "enriquecido": true,
+  "hashContenido": "d53372cb4473b984"
  },
  "slug": "juguete-suave-deef-safety-gate-10011351"
 }

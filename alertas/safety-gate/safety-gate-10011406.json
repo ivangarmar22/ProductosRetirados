@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Mazda"
    ],
    "modelos": [
-    "e13*2018/858*00255*01",
-    "e13*2018/858*00255*02",
-    "e13*2018/858*00255*03",
-    "e13*2018/858*00255*04",
-    "e13*2018/858*00255*06",
-    "e13*2018/858*00255*07"
+    "e13*2018/858*00255*01, e13*2018/858*00255*02, e13*2018/858*00255*03, e13*2018/858*00255*04, e13*2018/858*00255*06, e13*2018/858*00255*07."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 15 March 2022 through 11 July 2023."
+    }
+   ],
    "ean": [],
    "descripcion": "Mazda CX-60 (KH) SKYACTIV-G 2.5 vehículos.",
-   "fechasTexto": "From 15 March 2022 through 11 July 2023."
+   "fechasTexto": "From 15 March 2022 through 11 July 2023.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "IS",
+   "NO",
+   "PL",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,20 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00028/24",
-   "mm:mazda:e13-2018-858-00255-01",
-   "mm:mazda:e13-2018-858-00255-02",
-   "mm:mazda:e13-2018-858-00255-03",
-   "mm:mazda:e13-2018-858-00255-04",
-   "mm:mazda:e13-2018-858-00255-06",
-   "mm:mazda:e13-2018-858-00255-07"
+   "mm:mazda:e13-2018-858-00255-01-e13-2018-858-00255-02-e13-2018-858-00255-03-e13-2018-858-00255-04-e13-2018-858-00255-06-e13-2018-858-00255-07",
+   "ml:mazda:from-15-march-2022-through-11-july-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1287ae0718538ad5"
+  "enriquecido": true,
+  "hashContenido": "34bca9318c04c6a0"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10011406"
 }

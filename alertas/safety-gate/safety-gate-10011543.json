@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Mazda"
    ],
    "modelos": [
-    "e13*2018/858*00255*04",
-    "e13*2018/858*00255*06",
-    "e13*2018/858*00255*07"
+    "e13*2018/858*00255*04, e13*2018/858*00255*06, e13*2018/858*00255*07."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.09.2022 - 21.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos Mazda CX-60 (KH) M híbridos (T3R/H3T).",
-   "fechasTexto": "28.09.2022 - 21.06.2023"
+   "fechasTexto": "28.09.2022 - 21.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "PL",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,17 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00029/24",
-   "mm:mazda:e13-2018-858-00255-04",
-   "mm:mazda:e13-2018-858-00255-06",
-   "mm:mazda:e13-2018-858-00255-07"
+   "mm:mazda:e13-2018-858-00255-04-e13-2018-858-00255-06-e13-2018-858-00255-07",
+   "ml:mazda:28-09-2022-21-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1528291044bbf2da"
+  "enriquecido": true,
+  "hashContenido": "e764fa054146e1e5"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10011543"
 }

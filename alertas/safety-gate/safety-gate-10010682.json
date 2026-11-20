@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
     "8719326437187"
    ],
    "descripcion": "Crema desodorante en tubo rosado 15 ml. Producto vendido en línea, en particular a través de Amazon, ASIN B07SD1JVVM.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -63,7 +64,10 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e08b88c828181ef"
+  "enriquecido": true,
+  "hashContenido": "525d66f657f131c8"
  },
  "slug": "crema-desodorante-nuud-safety-gate-10010682"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,18 @@
    "modelos": [
     "E4 75R-0010007"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.11.2023-26.11.2023"
+    },
+    {
+     "numero": "21.08.2023-10.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumático de motocicleta, 120/70ZR17 M/C (58W)",
-   "fechasTexto": "13.11.2023-26.11.202321.08.2023-10.09.2023"
+   "fechasTexto": "13.11.2023-26.11.202321.08.2023-10.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +89,17 @@
  "dedup": {
   "claves": [
    "ref:A12/03125/23",
-   "mm:dunlop:e4-75r-0010007"
+   "mm:dunlop:e4-75r-0010007",
+   "ml:dunlop:13-11-2023-26-11-2023",
+   "ml:dunlop:21-08-2023-10-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "118c261c75a03fb4"
+  "enriquecido": true,
+  "hashContenido": "e760f72860b209b4"
  },
  "slug": "neumatico-de-motocicleta-dunlop-safety-gate-10011252"
 }

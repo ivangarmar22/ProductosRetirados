@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-03"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,17 +27,13 @@
     "ELPROM"
    ],
    "modelos": [
-    "GCV 804415 D03 TSRC",
-    "GCVS 1004420 D03 TSRCP",
-    "GCV 504415 D03 TSRC",
-    "GCV 1004415 D03 TSRC",
-    "GCV 1004420 D03 TSRC",
-    "GCV 503815 D03 TSRC"
+    "GCV 804415 D03 TSRC; GCVS 1004420 D03 TSRCP; GCV 504415 D03 TSRC; GCV 1004415 D03 TSRC; GCV 1004420 D03 TSRC; GCV 503815 D03 TSRC;"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Calentador de agua de almacenamiento eléctrico.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -71,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Bulgaria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,20 +84,15 @@
  "dedup": {
   "claves": [
    "ref:A12/03133/23",
-   "mm:elprom:gcv-804415-d03-tsrc",
-   "mm:elprom:gcvs-1004420-d03-tsrcp",
-   "mm:elprom:gcv-504415-d03-tsrc",
-   "mm:elprom:gcv-1004415-d03-tsrc",
-   "mm:elprom:gcv-1004420-d03-tsrc",
-   "mm:elprom:gcv-503815-d03-tsrc"
+   "mm:elprom:gcv-804415-d03-tsrc-gcvs-1004420-d03-tsrcp-gcv-504415-d03-tsrc-gcv-1004415-d03-tsrc-gcv-1004420-d03-tsrc-gcv-503815-d03-tsrc"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ed54ee278ead0ee9"
+  "enriquecido": true,
+  "hashContenido": "6f64809c0e5e68d5"
  },
  "slug": "calentador-de-agua-electrico-elprom-safety-gate-10010531"
 }

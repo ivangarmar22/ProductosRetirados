@@ -1,0 +1,131 @@
+{
+ "id": "safety-gate-10119624",
+ "fuente": "safety-gate",
+ "idFuente": "10119624",
+ "referenciaOficial": "SR/03259/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119624",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Detector de monóxido de carbono · Tesla · Smoke detector Smart",
+ "nombreVisible": "Detector de monóxido de carbono Tesla",
+ "motivo": "Asfixia",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-11-18",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-18"
+ },
+ "categoria": {
+  "literal": "Productos de construcción",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Smoke detector Smart",
+   "marcas": [
+    "Tesla"
+   ],
+   "modelos": [
+    "TSL-SEN-SMOKE"
+   ],
+   "lotes": [
+    {
+     "numero": "25080221000085"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Detector de monóxido de carbono y humo de plástico blanco, de diseño circular, con indicador luminoso, botón y alarma acústica incorporada.",
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Asfixia"
+  ],
+  "tipoNormalizado": [
+   "asfixia"
+  ],
+  "descripcion": "El producto no es lo suficientemente sensible con respecto a la detección de monóxido de carbono (CO) y plantea un riesgo de intoxicación por CO en el sentido de que una persona puede estar expuesta inadvertidamente al CO confiando en que el producto funciona correctamente. Esto puede conducir a la asfixia. El producto no cumple con los requisitos del Reglamento de Productos de Construcción ni con la norma europea EN 14604.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Advertencia de los riesgos a los consumidores",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Eslovaquia",
+  "paisOrigen": "Chequia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Other(www.nay.sk)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243341",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243342",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243343",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243344",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243345",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.nay.sk/novinky/sluzby/stiahnutie-vyrobku-detektor-dymu-tesla-sensor-smoke",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03259/26",
+   "mm:tesla:tsl-sen-smoke",
+   "ml:tesla:25080221000085"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-20",
+  "enriquecido": true,
+  "hashContenido": "664c9ba55d1567bd"
+ },
+ "slug": "detector-de-monoxido-de-carbono-tesla-safety-gate-10119624"
+}

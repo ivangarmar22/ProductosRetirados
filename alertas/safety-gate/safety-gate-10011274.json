@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "H+H Leipzig"
    ],
    "modelos": [
-    "COB-WW-02M (230V-COB-W)",
-    "COB-WW-XXX"
+    "COB-WW-02M (230V-COB-W), COB-WW-XXX"
    ],
    "lotes": [],
    "ean": [
     "4251707403731"
    ],
    "descripcion": "Tira de luz led con rectificador y enchufe plano de la UE, anunciada para áreas exteriores. La tira de luz se puede pedir en diferentes longitudes. El producto se vende en línea, en particular a través de eBay y Amazon (ASIN B0BRJZ2M4S)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Se suministra en una caja de cartón. En la parte delantera hay una imagen de la tira de luz y el nombre del fabricante."
   }
  ],
  "riesgo": {
@@ -105,16 +105,15 @@
   "claves": [
    "ref:A12/03135/23",
    "ean:4251707403731",
-   "mm:h-h-leipzig:cob-ww-02m-230v-cob-w",
-   "mm:h-h-leipzig:cob-ww-xxx"
+   "mm:h-h-leipzig:cob-ww-02m-230v-cob-w-cob-ww-xxx"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f7bbb66ff154b541"
+  "enriquecido": true,
+  "hashContenido": "2b86af27d173dcce"
  },
  "slug": "tira-de-led-h-h-leipzig-safety-gate-10011274"
 }

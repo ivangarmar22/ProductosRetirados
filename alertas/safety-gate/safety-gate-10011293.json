@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e2*2007/46*0686*14",
-    "e2*2007/46*0685*13",
-    "e2*2007/46*0685*14",
-    "e2*2007/46*0686*16",
-    "e2*2007/46*0685*16",
-    "e2*2007/46*0686*18"
+    "e2*2007/46*0686*14 ; e2*2007/46*0685*13 ; e2*2007/46*0685*14 ; e2*2007/46*0686*16 ; e2*2007/46*0685*16 ; e2*2007/46*0686*18"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03/03/2023 - 26/07/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero equipado con calibración de software de la unidad de control electrónico del motor (ECU)",
-   "fechasTexto": "03/03/2023 - 26/07/2023"
+   "fechasTexto": "03/03/2023 - 26/07/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HU",
+   "NO",
+   "PT",
+   "SK",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03072/23",
-   "mm:toyota:e2-2007-46-0686-14",
-   "mm:toyota:e2-2007-46-0685-13",
-   "mm:toyota:e2-2007-46-0685-14",
-   "mm:toyota:e2-2007-46-0686-16",
-   "mm:toyota:e2-2007-46-0685-16",
-   "mm:toyota:e2-2007-46-0686-18"
+   "mm:toyota:e2-2007-46-0686-14-e2-2007-46-0685-13-e2-2007-46-0685-14-e2-2007-46-0686-16-e2-2007-46-0685-16-e2-2007-46-0686-18",
+   "ml:toyota:03-03-2023-26-07-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e17f61cafbb57593"
+  "enriquecido": true,
+  "hashContenido": "4dba41b0e83f12ef"
  },
  "slug": "vehiculo-comercial-ligero-toyota-safety-gate-10011293"
 }

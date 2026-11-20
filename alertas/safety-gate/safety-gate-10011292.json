@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2018/858*00086* (004)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.02.2021 - 29.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "03.02.2021 - 29.09.2023"
+   "fechasTexto": "03.02.2021 - 29.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03132/23",
-   "mm:tesla:e4-2018-858-00086-004"
+   "mm:tesla:e4-2018-858-00086-004",
+   "ml:tesla:03-02-2021-29-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db4d7cfe1279824a"
+  "enriquecido": true,
+  "hashContenido": "ce080dc853f83f11"
  },
  "slug": "coche-de-pasajeros-tesla-safety-gate-10011292"
 }

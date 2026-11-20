@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "71802305 7150450371800282"
+     "numero": "71802305"
+    },
+    {
+     "numero": "71504503"
+    },
+    {
+     "numero": "71800282"
     }
    ],
    "ean": [],
    "descripcion": "Dos latas de barniz, 250 ml y 500 ml respectivamente.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Estaño metálico"
   }
  ],
  "riesgo": {
@@ -95,15 +102,17 @@
  "dedup": {
   "claves": [
    "ref:A12/03063/23",
-   "ml:brignola:71802305-7150450371800282"
+   "ml:brignola:71802305",
+   "ml:brignola:71504503",
+   "ml:brignola:71800282"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8cfe4edcb7627f73"
+  "enriquecido": true,
+  "hashContenido": "707717bf83226784"
  },
  "slug": "barniz-brignola-safety-gate-10011243"
 }

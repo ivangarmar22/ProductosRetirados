@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-19"
  },
  "categoria": {
   "literal": "Punteros láser",
@@ -27,13 +27,13 @@
     "QUETA"
    ],
    "modelos": [
-    "X001NDK0QF",
-    "6249275"
+    "X001NDK0QF; 6249275"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Puntero láser con enchufe USB, antorcha UV y led. Tamaño: 11,5 x 1,6 cm",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de nylon. Dimensiones: 16.5x6cm"
   }
  ],
  "riesgo": {
@@ -94,16 +94,15 @@
  "dedup": {
   "claves": [
    "ref:A12/03095/23",
-   "mm:queta:x001ndk0qf",
-   "mm:queta:6249275"
+   "mm:queta:x001ndk0qf-6249275"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "afeedb2b076f13de"
+  "enriquecido": true,
+  "hashContenido": "8320879d0c41245d"
  },
  "slug": "puntero-laser-queta-safety-gate-10011339"
 }

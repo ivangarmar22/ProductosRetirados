@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Dispensador automático de jabón. Producto vendido en línea. Solo para productos fabricados antes de diciembre de 2023.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6d00fe0b99cd3610"
+  "enriquecido": true,
+  "hashContenido": "346ccd30ec07684e"
  },
  "slug": "dispensador-automatico-de-jabon-not-specified-safety-gate-10010931"
 }

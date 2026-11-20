@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2007/46*1047*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.10.2022 - 2.10.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo eléctrico híbrido enchufable (PHEV) equipado con motor de gasolina de 2,0 litros.",
-   "fechasTexto": "25.10.2022 - 2.10.2023"
+   "fechasTexto": "25.10.2022 - 2.10.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "FI",
+   "HU",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03129/23",
-   "mm:jaguar:e5-2007-46-1047"
+   "mm:jaguar:e5-2007-46-1047",
+   "ml:jaguar:25-10-2022-2-10-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e169e917a4bc0b1a"
+  "enriquecido": true,
+  "hashContenido": "6e18c9ca72f7b9d5"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10011273"
 }

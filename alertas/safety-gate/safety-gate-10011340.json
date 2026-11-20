@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-13"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Sillón en forma de unicornio fabricado en tejido de poliéster de piel falsa acolchada. El producto se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente"
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "075649348e029d6d"
+  "enriquecido": true,
+  "hashContenido": "85ba7b8988762fb9"
  },
  "slug": "sillon-para-ninos-maisons-du-monde-safety-gate-10011340"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "7190378672008332"
+     "numero": "71903786"
+    },
+    {
+     "numero": "72008332"
     }
    ],
    "ean": [],
    "descripcion": "Barniz, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Estaño metálico"
   }
  ],
  "riesgo": {
@@ -91,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03068/23",
-   "ml:brignola:7190378672008332"
+   "ml:brignola:71903786",
+   "ml:brignola:72008332"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fb5d1eaaf1ad926c"
+  "enriquecido": true,
+  "hashContenido": "dd924d24e9066551"
  },
  "slug": "barniz-brignola-safety-gate-10011245"
 }

@@ -1,0 +1,99 @@
+{
+ "id": "safety-gate-10119467",
+ "fuente": "safety-gate",
+ "idFuente": "10119467",
+ "referenciaOficial": "SR/03253/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119467",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Jabón de manos · MEGLIO SFUSO · LAVAMANI MUSCHIO BIANCO",
+ "nombreVisible": "Jabón de manos MEGLIO SFUSO",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-11-18",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-18"
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "LAVAMANI MUSCHIO BIANCO",
+   "marcas": [
+    "MEGLIO SFUSO"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "2411"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Jabón de manos a granel, 25 kg.",
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanco con etiqueta y tapa de rosca de plástico."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano"
+  ],
+  "descripcion": "El producto está microbiológicamente contaminado con bacterias aeróbicas mesófilas (valor medido: 110 000 UFC/g). Este microorganismo puede causar enfermedades en algunos consumidores, particularmente aquellos con un sistema inmunológico debilitado. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Eslovaquia",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243197",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243198",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03253/26",
+   "ml:meglio-sfuso:2411"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-20",
+  "enriquecido": true,
+  "hashContenido": "86fd0a52fe3751f2"
+ },
+ "slug": "jabon-de-manos-meglio-sfuso-safety-gate-10119467"
+}

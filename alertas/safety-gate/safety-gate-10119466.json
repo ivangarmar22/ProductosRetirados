@@ -1,0 +1,107 @@
+{
+ "id": "safety-gate-10119466",
+ "fuente": "safety-gate",
+ "idFuente": "10119466",
+ "referenciaOficial": "SR/03260/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119466",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Champú · Lindarella · Latte d'Asina",
+ "nombreVisible": "Champú Lindarella",
+ "motivo": "Riesgos microbiológicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-11-18",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-18"
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Latte d'Asina",
+   "marcas": [
+    "Lindarella"
+   ],
+   "modelos": [],
+   "lotes": [
+    {
+     "numero": "27032023MANI.AT"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Champú a granel, 10 l.",
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanco con tapa de rosca de plástico."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos microbiológicos"
+  ],
+  "tipoNormalizado": [
+   "microbiologico",
+   "cuerpo-extrano"
+  ],
+  "descripcion": "El producto contiene una cantidad excesiva de bacterias mesófilas aeróbicas (valor medido de hasta 90 000 UFC/g). Estas bacterias pueden causar infecciones en algunos consumidores, particularmente aquellos con un sistema inmunológico debilitado. Además, el producto contiene Klebsiella pneumoniae subsp. pneumoniae. Esto plantea un riesgo de infección para el usuario. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Eslovaquia",
+  "paisOrigen": "Italia",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243193",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243194",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243195",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243196",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03260/26",
+   "ml:lindarella:27032023mani-at"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-20",
+  "enriquecido": true,
+  "hashContenido": "9ce14821ae3d4295"
+ },
+ "slug": "champu-lindarella-safety-gate-10119466"
+}

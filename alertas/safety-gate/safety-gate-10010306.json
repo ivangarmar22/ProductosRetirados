@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B.N28/02/ E27/02/2026 P28/02/2022"
+     "numero": "B.N28/02/"
+    },
+    {
+     "numero": "E27/02/2026"
+    },
+    {
+     "numero": "P28/02/2022"
     }
    ],
    "ean": [
     "6214005563581"
    ],
    "descripcion": "Polvo perfumado blanco",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanco con manga plástica impresa y tapa de tornillo blanco con agujeros y película adhesiva impresa."
   }
  ],
  "riesgo": {
@@ -91,15 +98,17 @@
   "claves": [
    "ref:INFO/00119/23",
    "ean:6214005563581",
-   "ml:fulah:b-n28-02-e27-02-2026-p28-02-2022"
+   "ml:fulah:b-n28-02",
+   "ml:fulah:e27-02-2026",
+   "ml:fulah:p28-02-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c7a4cf0f25951994"
+  "enriquecido": true,
+  "hashContenido": "14d78bdb88abd7c8"
  },
  "slug": "polvo-de-bebe-fulah-safety-gate-10010306"
 }

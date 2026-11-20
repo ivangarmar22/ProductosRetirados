@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-08"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Lemon Skunk / Wedding Cake / Spirit of the Woods",
    "marcas": [
-    "Cannastra, Cantropy"
+    "Cannastra",
+    "Cantropy"
    ],
    "modelos": [
     "Lemon Skunk",
@@ -33,20 +34,15 @@
    ],
    "lotes": [
     {
-     "numero": "YHCLS052301"
-    },
-    {
-     "numero": "YHCWC052301"
-    },
-    {
-     "numero": "HCSW052301"
+     "numero": "YHCLS052301; YHCWC052301; HCSW052301"
     }
    ],
    "ean": [
     "8594213731216"
    ],
    "descripcion": "Cartuchos de cigarrillos electrónicos libres de nicotina que contengan cannabidiol, hexahidrocannabinol (HHC) y, en algunos casos, otros cannabinoides (HHC, HHC-P, HHC-O).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Plástico duro transparente."
   }
  ],
  "riesgo": {
@@ -128,20 +124,22 @@
   "claves": [
    "ref:A12/02717/23",
    "ean:8594213731216",
-   "mm:cannastra-cantropy:lemon-skunk",
-   "mm:cannastra-cantropy:spirit-of-the-woods",
-   "mm:cannastra-cantropy:wedding-cake",
-   "ml:cannastra-cantropy:yhcls052301",
-   "ml:cannastra-cantropy:yhcwc052301",
-   "ml:cannastra-cantropy:hcsw052301"
+   "mm:cannastra:lemon-skunk",
+   "mm:cannastra:spirit-of-the-woods",
+   "mm:cannastra:wedding-cake",
+   "ml:cannastra:yhcls052301-yhcwc052301-hcsw052301",
+   "mm:cantropy:lemon-skunk",
+   "mm:cantropy:spirit-of-the-woods",
+   "mm:cantropy:wedding-cake",
+   "ml:cantropy:yhcls052301-yhcwc052301-hcsw052301"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3d2986483d43be12"
+  "enriquecido": true,
+  "hashContenido": "3b7adc8a5180e384"
  },
  "slug": "cartucho-electronico-de-cigarrillos-cannastra-cantropy-safety-gate-10010818"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-19"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,31 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "7150427271704057AS0676BT1601BU1437DN09421LX3003"
+     "numero": "71504272"
+    },
+    {
+     "numero": "71704057"
+    },
+    {
+     "numero": "AS0676"
+    },
+    {
+     "numero": "BT1601"
+    },
+    {
+     "numero": "BU1437"
+    },
+    {
+     "numero": "DN09421"
+    },
+    {
+     "numero": "LX3003"
     }
    ],
    "ean": [],
    "descripcion": "Barniz: 250 ml, 500 ml, 2,5 l.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Estaño metálico."
   }
  ],
  "riesgo": {
@@ -99,15 +118,21 @@
  "dedup": {
   "claves": [
    "ref:A12/03107/23",
-   "ml:brignola:7150427271704057as0676bt1601bu1437dn09421lx3003"
+   "ml:brignola:71504272",
+   "ml:brignola:71704057",
+   "ml:brignola:as0676",
+   "ml:brignola:bt1601",
+   "ml:brignola:bu1437",
+   "ml:brignola:dn09421",
+   "ml:brignola:lx3003"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7846f57d3a6fd1be"
+  "enriquecido": true,
+  "hashContenido": "8cc5dab0bcbce732"
  },
  "slug": "barniz-brignola-safety-gate-10011373"
 }

@@ -1,0 +1,105 @@
+{
+ "id": "safety-gate-10119662",
+ "fuente": "safety-gate",
+ "idFuente": "10119662",
+ "referenciaOficial": "SR/03272/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119662",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Coche de pasajeros · Ford · Bronco",
+ "nombreVisible": "Coche de pasajeros Ford",
+ "motivo": "Incendio",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-11-16",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-19"
+ },
+ "categoria": {
+  "literal": "Vehículos de motor",
+  "normalizada": "vehiculos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Bronco",
+   "marcas": [
+    "Ford"
+   ],
+   "modelos": [
+    "e1*IV18/858*DE5059, e1*IV18/858*DE5065"
+   ],
+   "lotes": [
+    {
+     "numero": "23.09.2020 - 28.06.2026"
+    }
+   ],
+   "ean": [],
+   "descripcion": "Coche de pasajeros.",
+   "fechasTexto": "23.09.2020 - 28.06.2026",
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Incendio"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "El arnés de cableado en el compartimiento del motor puede tener una protección contra la abrasión insuficiente. Como resultado, la cubierta del arnés de cableado puede desgastarse, lo que puede exponer los cables internos, causando un cortocircuito y un incendio. El producto incumple el Reglamento sobre la homologación y la vigilancia del mercado de los vehículos de motor y sus remolques y de los sistemas, componentes y unidades técnicas independientes destinados a dichos vehículos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Alemania",
+  "paisOrigen": "Estados Unidos",
+  "paisesDetectado": [
+   "HR",
+   "FR"
+  ],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11243380",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.ford.com/support/recalls-details/",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:SR/03272/26",
+   "mm:ford:e1-iv18-858-de5059-e1-iv18-858-de5065",
+   "ml:ford:23-09-2020-28-06-2026"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-20",
+  "enriquecido": true,
+  "hashContenido": "74a4bf1fd5818854"
+ },
+ "slug": "coche-de-pasajeros-ford-safety-gate-10119662"
+}

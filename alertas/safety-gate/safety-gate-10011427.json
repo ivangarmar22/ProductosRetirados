@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,13 +24,19 @@
   {
    "nombre": "821019610, 821019710",
    "marcas": [
-    "FAG, Schaeffler"
+    "FAG",
+    "Schaeffler"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.3.2019 - 20.9.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Suspensión delantera/brazo de control para coche de pasajeros.",
-   "fechasTexto": "25.3.2019 - 20.9.2020"
+   "fechasTexto": "25.3.2019 - 20.9.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +91,17 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/00031/24"
+   "ref:A12/00031/24",
+   "ml:fag:25-3-2019-20-9-2020",
+   "ml:schaeffler:25-3-2019-20-9-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bf9a12988150fcfd"
+  "enriquecido": true,
+  "hashContenido": "889eae0be473690a"
  },
  "slug": "suspension-delantera-brazo-de-control-para-turismo-fag-schaeffler-safety-gate-10011427"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-10"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
     "4902580131258"
    ],
    "descripcion": "Paquete de 5 baterías de botón de litio, CR2032. El producto se vende en línea, en particular a través de Amazon, ASIN B079R73R3G, a través de eBay: 256043302059, Aliexpress: 1005003094532820, Rakuten: 75430416 y Cdiscount: 3664314129702.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cartón de nuevo en negro y rojo al que se pega un frente de plástico que protege las baterías. Cada compartimiento de la batería tiene una bandeja y pre-corte en el soporte de cartón para facilitar la liberación de la batería."
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI",
+   "ES"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7fb00c1e67cdc82d"
+  "enriquecido": true,
+  "hashContenido": "e0d8543173e853d0"
  },
  "slug": "baterias-de-boton-maxell-safety-gate-10010703"
 }

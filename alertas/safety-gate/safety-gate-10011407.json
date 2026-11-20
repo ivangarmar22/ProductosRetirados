@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2024-01-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-08-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "EG/HF001",
     "e1*2007/46*1102*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.10.2023 - 01.12.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Autocaravana",
-   "fechasTexto": "01.10.2023 - 01.12.2023"
+   "fechasTexto": "01.10.2023 - 01.12.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +95,16 @@
   "claves": [
    "ref:A12/00025/24",
    "mm:hymer:eg-hf001",
-   "mm:hymer:e1-2007-46-1102"
+   "mm:hymer:e1-2007-46-1102",
+   "ml:hymer:01-10-2023-01-12-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5f34fdc0e831f4a1"
+  "enriquecido": true,
+  "hashContenido": "4bd280a4ca4f1e26"
  },
  "slug": "autocaravana-hymer-safety-gate-10011407"
 }
