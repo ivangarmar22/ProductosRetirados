@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-29"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Motosierra térmica, fecha de fabricación: 05/2022",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eb52621cf6b7c95a"
+  "enriquecido": true,
+  "hashContenido": "072acbcf5233cc99"
  },
  "slug": "motosierra-oleo-mac-safety-gate-10010872"
 }

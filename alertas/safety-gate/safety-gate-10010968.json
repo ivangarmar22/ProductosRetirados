@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*168/2013*11453*00 - e9*168/2013*11453*00 - e9*168/2013*11453*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.07. 2019 - 02.10.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "11.07. 2019 - 02.10.2023"
+   "fechasTexto": "11.07. 2019 - 02.10.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "LU",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02868/23",
-   "mm:triumph:e9-168-2013-11453-00-e9-168-2013-11453-00-e9-168-2013-11453-00"
+   "mm:triumph:e9-168-2013-11453-00-e9-168-2013-11453-00-e9-168-2013-11453-00",
+   "ml:triumph:11-07-2019-02-10-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dfbeabe534326cdd"
+  "enriquecido": true,
+  "hashContenido": "e6c04f9ab163832d"
  },
  "slug": "moto-triumph-safety-gate-10010968"
 }

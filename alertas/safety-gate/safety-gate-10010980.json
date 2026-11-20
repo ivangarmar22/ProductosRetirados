@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -38,7 +38,8 @@
     "4021574193246"
    ],
    "descripcion": "Dispositivo de relé y descendiente. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eb8267696b47fff7"
+  "enriquecido": true,
+  "hashContenido": "364e15ae23b68617"
  },
  "slug": "dispositivo-de-rele-y-descendente-edelrid-safety-gate-10010980"
 }

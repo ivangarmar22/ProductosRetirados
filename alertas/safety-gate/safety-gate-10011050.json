@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,17 @@
     "Snell"
    ],
    "modelos": [
-    "1727-530DX-124",
-    "1727-530DX-110",
-    "1727-530DX-112",
-    "1727-525DX-118",
-    "1727-520DX-114"
+    "1727-530DX-124, 1727-530DX-110, 1727-530DX-112, 1727-525DX-118, 1727-520DX-114"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.06.2022 - 01.08.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta/parte de repuesto",
-   "fechasTexto": "01.06.2022 - 01.08.2022"
+   "fechasTexto": "01.06.2022 - 01.08.2022",
+   "envase": "Embalaje de cartón negro. El nombre de la marca «Snell» y una imagen de una cadena son visibles en el embalaje. El embalaje también lleva el código modelo «525» o «530»."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,19 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02978/23",
-   "mm:snell:1727-530dx-124",
-   "mm:snell:1727-530dx-110",
-   "mm:snell:1727-530dx-112",
-   "mm:snell:1727-525dx-118",
-   "mm:snell:1727-520dx-114"
+   "mm:snell:1727-530dx-124-1727-530dx-110-1727-530dx-112-1727-525dx-118-1727-520dx-114",
+   "ml:snell:01-06-2022-01-08-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "68713ededf458acb"
+  "enriquecido": true,
+  "hashContenido": "aefcc6cf2c47e0aa"
  },
  "slug": "motocicleta-parte-de-repuesto-snell-safety-gate-10011050"
 }

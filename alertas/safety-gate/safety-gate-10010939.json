@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,7 +24,10 @@
   {
    "nombre": "C3 / 3008 II/ 5008 II/ DS3 crossback/ DS4/ 208/ 308/ C5 aircross/ Astra-L/ Mokka/ Grandland X",
    "marcas": [
-    "CITROEN, DS, Opel, Peugeot"
+    "CITROEN",
+    "DS",
+    "Opel",
+    "Peugeot"
    ],
    "modelos": [
     "208 : e2*2007/46*0639*19 - 25",
@@ -32,18 +35,52 @@
     "308 : e2*2007/46*0628*21 - 25",
     "5008 : e2*2007/46*0534*24 - 27",
     "Astra-L : e2*2007/46*0628*21 - 25",
-    "C3 : e2*2007/46*0003*70 - 72",
-    "e2*2007/46*0060*36 - 38",
+    "C3 : e2*2007/46*0003*70 - 72 / e2*2007/46*0060*36 - 38",
     "C5 aircross : e2*2007/46*0642*17 - 22",
     "DS3 CROSSBACK : e2*2007/46*0639*19 - 26",
     "DS4 : e2*2007/46*0628*20 - 25",
     "Grandland X : e2*2007/46*0597*25 - 29",
     "Mokka : e2*2007/46*0639*23 - 26"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "208: 6.5.2022 - 3.7.2023"
+    },
+    {
+     "numero": "3008: 5.4.2022 - 1.9.2023"
+    },
+    {
+     "numero": "308: 10.5.2022 - 3.7.2023"
+    },
+    {
+     "numero": "5008: 13.4.2022 - 6.9.2023"
+    },
+    {
+     "numero": "Astra-L: 19.7.2022 - 11.7.2023"
+    },
+    {
+     "numero": "C3: 28.3.2022 - 3.7.2023"
+    },
+    {
+     "numero": "C5 aircross: 3.10.2022 - 13.9.2023"
+    },
+    {
+     "numero": "DS3 crossback: 26.1.2022 - 1.9.2023"
+    },
+    {
+     "numero": "DS4: 12.7.2022 - 3.7.2023"
+    },
+    {
+     "numero": "Grandland X: 26.9.2022 - 2.9.2023"
+    },
+    {
+     "numero": "Mokka: 5.1.2023 - 6.9.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Unidad electrónica de control del motor (ECU)",
-   "fechasTexto": "208: 6.5.2022 - 3.7.20233008: 5.4.2022 - 1.9.2023308: 10.5.2022 - 3.7.20235008: 13.4.2022 - 6.9.2023Astra-L: 19.7.2022 - 11.7.2023C3: 28.3.2022 - 3.7.2023C5 aircross: 3.10.2022 - 13.9.2023DS3 crossback: 26.1.2022 - 1.9.2023DS4: 12.7.2022 - 3.7.2023Grandland X: 26.9.2022 - 2.9.2023Mokka: 5.1.2023 - 6.9.2023"
+   "fechasTexto": "208: 6.5.2022 - 3.7.20233008: 5.4.2022 - 1.9.2023308: 10.5.2022 - 3.7.20235008: 13.4.2022 - 6.9.2023Astra-L: 19.7.2022 - 11.7.2023C3: 28.3.2022 - 3.7.2023C5 aircross: 3.10.2022 - 13.9.2023DS3 crossback: 26.1.2022 - 1.9.2023DS4: 12.7.2022 - 3.7.2023Grandland X: 26.9.2022 - 2.9.2023Mokka: 5.1.2023 - 6.9.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +110,22 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -124,26 +176,102 @@
  "dedup": {
   "claves": [
    "ref:A12/02927/23",
-   "mm:citroen-ds-opel-peugeot:208-e2-2007-46-0639-19-25",
-   "mm:citroen-ds-opel-peugeot:3008-e2-2007-46-0534-23-27",
-   "mm:citroen-ds-opel-peugeot:308-e2-2007-46-0628-21-25",
-   "mm:citroen-ds-opel-peugeot:5008-e2-2007-46-0534-24-27",
-   "mm:citroen-ds-opel-peugeot:astra-l-e2-2007-46-0628-21-25",
-   "mm:citroen-ds-opel-peugeot:c3-e2-2007-46-0003-70-72",
-   "mm:citroen-ds-opel-peugeot:e2-2007-46-0060-36-38",
-   "mm:citroen-ds-opel-peugeot:c5-aircross-e2-2007-46-0642-17-22",
-   "mm:citroen-ds-opel-peugeot:ds3-crossback-e2-2007-46-0639-19-26",
-   "mm:citroen-ds-opel-peugeot:ds4-e2-2007-46-0628-20-25",
-   "mm:citroen-ds-opel-peugeot:grandland-x-e2-2007-46-0597-25-29",
-   "mm:citroen-ds-opel-peugeot:mokka-e2-2007-46-0639-23-26"
+   "mm:citroen:208-e2-2007-46-0639-19-25",
+   "mm:citroen:3008-e2-2007-46-0534-23-27",
+   "mm:citroen:308-e2-2007-46-0628-21-25",
+   "mm:citroen:5008-e2-2007-46-0534-24-27",
+   "mm:citroen:astra-l-e2-2007-46-0628-21-25",
+   "mm:citroen:c3-e2-2007-46-0003-70-72-e2-2007-46-0060-36-38",
+   "mm:citroen:c5-aircross-e2-2007-46-0642-17-22",
+   "mm:citroen:ds3-crossback-e2-2007-46-0639-19-26",
+   "mm:citroen:ds4-e2-2007-46-0628-20-25",
+   "mm:citroen:grandland-x-e2-2007-46-0597-25-29",
+   "mm:citroen:mokka-e2-2007-46-0639-23-26",
+   "ml:citroen:208-6-5-2022-3-7-2023",
+   "ml:citroen:3008-5-4-2022-1-9-2023",
+   "ml:citroen:308-10-5-2022-3-7-2023",
+   "ml:citroen:5008-13-4-2022-6-9-2023",
+   "ml:citroen:astra-l-19-7-2022-11-7-2023",
+   "ml:citroen:c3-28-3-2022-3-7-2023",
+   "ml:citroen:c5-aircross-3-10-2022-13-9-2023",
+   "ml:citroen:ds3-crossback-26-1-2022-1-9-2023",
+   "ml:citroen:ds4-12-7-2022-3-7-2023",
+   "ml:citroen:grandland-x-26-9-2022-2-9-2023",
+   "ml:citroen:mokka-5-1-2023-6-9-2023",
+   "mm:ds:208-e2-2007-46-0639-19-25",
+   "mm:ds:3008-e2-2007-46-0534-23-27",
+   "mm:ds:308-e2-2007-46-0628-21-25",
+   "mm:ds:5008-e2-2007-46-0534-24-27",
+   "mm:ds:astra-l-e2-2007-46-0628-21-25",
+   "mm:ds:c3-e2-2007-46-0003-70-72-e2-2007-46-0060-36-38",
+   "mm:ds:c5-aircross-e2-2007-46-0642-17-22",
+   "mm:ds:ds3-crossback-e2-2007-46-0639-19-26",
+   "mm:ds:ds4-e2-2007-46-0628-20-25",
+   "mm:ds:grandland-x-e2-2007-46-0597-25-29",
+   "mm:ds:mokka-e2-2007-46-0639-23-26",
+   "ml:ds:208-6-5-2022-3-7-2023",
+   "ml:ds:3008-5-4-2022-1-9-2023",
+   "ml:ds:308-10-5-2022-3-7-2023",
+   "ml:ds:5008-13-4-2022-6-9-2023",
+   "ml:ds:astra-l-19-7-2022-11-7-2023",
+   "ml:ds:c3-28-3-2022-3-7-2023",
+   "ml:ds:c5-aircross-3-10-2022-13-9-2023",
+   "ml:ds:ds3-crossback-26-1-2022-1-9-2023",
+   "ml:ds:ds4-12-7-2022-3-7-2023",
+   "ml:ds:grandland-x-26-9-2022-2-9-2023",
+   "ml:ds:mokka-5-1-2023-6-9-2023",
+   "mm:opel:208-e2-2007-46-0639-19-25",
+   "mm:opel:3008-e2-2007-46-0534-23-27",
+   "mm:opel:308-e2-2007-46-0628-21-25",
+   "mm:opel:5008-e2-2007-46-0534-24-27",
+   "mm:opel:astra-l-e2-2007-46-0628-21-25",
+   "mm:opel:c3-e2-2007-46-0003-70-72-e2-2007-46-0060-36-38",
+   "mm:opel:c5-aircross-e2-2007-46-0642-17-22",
+   "mm:opel:ds3-crossback-e2-2007-46-0639-19-26",
+   "mm:opel:ds4-e2-2007-46-0628-20-25",
+   "mm:opel:grandland-x-e2-2007-46-0597-25-29",
+   "mm:opel:mokka-e2-2007-46-0639-23-26",
+   "ml:opel:208-6-5-2022-3-7-2023",
+   "ml:opel:3008-5-4-2022-1-9-2023",
+   "ml:opel:308-10-5-2022-3-7-2023",
+   "ml:opel:5008-13-4-2022-6-9-2023",
+   "ml:opel:astra-l-19-7-2022-11-7-2023",
+   "ml:opel:c3-28-3-2022-3-7-2023",
+   "ml:opel:c5-aircross-3-10-2022-13-9-2023",
+   "ml:opel:ds3-crossback-26-1-2022-1-9-2023",
+   "ml:opel:ds4-12-7-2022-3-7-2023",
+   "ml:opel:grandland-x-26-9-2022-2-9-2023",
+   "ml:opel:mokka-5-1-2023-6-9-2023",
+   "mm:peugeot:208-e2-2007-46-0639-19-25",
+   "mm:peugeot:3008-e2-2007-46-0534-23-27",
+   "mm:peugeot:308-e2-2007-46-0628-21-25",
+   "mm:peugeot:5008-e2-2007-46-0534-24-27",
+   "mm:peugeot:astra-l-e2-2007-46-0628-21-25",
+   "mm:peugeot:c3-e2-2007-46-0003-70-72-e2-2007-46-0060-36-38",
+   "mm:peugeot:c5-aircross-e2-2007-46-0642-17-22",
+   "mm:peugeot:ds3-crossback-e2-2007-46-0639-19-26",
+   "mm:peugeot:ds4-e2-2007-46-0628-20-25",
+   "mm:peugeot:grandland-x-e2-2007-46-0597-25-29",
+   "mm:peugeot:mokka-e2-2007-46-0639-23-26",
+   "ml:peugeot:208-6-5-2022-3-7-2023",
+   "ml:peugeot:3008-5-4-2022-1-9-2023",
+   "ml:peugeot:308-10-5-2022-3-7-2023",
+   "ml:peugeot:5008-13-4-2022-6-9-2023",
+   "ml:peugeot:astra-l-19-7-2022-11-7-2023",
+   "ml:peugeot:c3-28-3-2022-3-7-2023",
+   "ml:peugeot:c5-aircross-3-10-2022-13-9-2023",
+   "ml:peugeot:ds3-crossback-26-1-2022-1-9-2023",
+   "ml:peugeot:ds4-12-7-2022-3-7-2023",
+   "ml:peugeot:grandland-x-26-9-2022-2-9-2023",
+   "ml:peugeot:mokka-5-1-2023-6-9-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d51d18820f49a755"
+  "enriquecido": true,
+  "hashContenido": "401ee01e9a92dea5"
  },
  "slug": "coche-de-pasajeros-citroen-ds-opel-peugeot-safety-gate-10010939"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2018/858*00086* (004)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.02.2021 - 24.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, vehículo eléctrico",
-   "fechasTexto": "18.02.2021 - 24.06.2023"
+   "fechasTexto": "18.02.2021 - 24.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HU",
+   "IS",
+   "NL",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +100,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02728/23",
-   "mm:tesla:e4-2018-858-00086-004"
+   "mm:tesla:e4-2018-858-00086-004",
+   "ml:tesla:18-02-2021-24-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ba21536d2551a2d3"
+  "enriquecido": true,
+  "hashContenido": "e896cfed5f507a73"
  },
  "slug": "coche-de-pasajeros-tesla-safety-gate-10010819"
 }

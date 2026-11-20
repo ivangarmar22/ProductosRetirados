@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-22"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
     "5907078921761"
    ],
    "descripcion": "Cable de extensión eléctrica, 30 metros.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente"
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d75b9ba37b77a8c9"
+  "enriquecido": true,
+  "hashContenido": "23d785faec1cffad"
  },
  "slug": "plomo-de-extension-faster-tools-safety-gate-10011175"
 }

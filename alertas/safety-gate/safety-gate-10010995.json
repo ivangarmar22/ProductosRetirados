@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e6*2018/858*00144*00",
-    "e6*2018/858*00144*01"
+    "e6*2018/858*00144*00, e6*2018/858*00144*01."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.11.2021 - 7.08.023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, marco Código: bZ4X (XEAM10, YEAM15), año modelo: 2021-2023.",
-   "fechasTexto": "2.11.2021 - 7.08.023"
+   "fechasTexto": "2.11.2021 - 7.08.023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "IS",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,16 +96,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02864/23",
-   "mm:toyota:e6-2018-858-00144-00",
-   "mm:toyota:e6-2018-858-00144-01"
+   "mm:toyota:e6-2018-858-00144-00-e6-2018-858-00144-01",
+   "ml:toyota:2-11-2021-7-08-023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f3f4080ff59d7518"
+  "enriquecido": true,
+  "hashContenido": "25d83020043d70d0"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10010995"
 }

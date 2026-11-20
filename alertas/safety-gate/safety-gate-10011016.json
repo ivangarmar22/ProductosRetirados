@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
     "5902114882754"
    ],
    "descripcion": "EAU de toilette, anunciado como spray natural, destinado a los hombres, fecha de caducidad: 062 024,50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de papel de color gris"
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "23a1674239240bf2"
+  "enriquecido": true,
+  "hashContenido": "b2829b5f74832aeb"
  },
  "slug": "perfume-gordano-parfums-safety-gate-10011016"
 }

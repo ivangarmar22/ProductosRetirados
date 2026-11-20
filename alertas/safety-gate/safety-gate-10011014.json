@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "A9937"
-    },
-    {
-     "numero": "A8404"
+     "numero": "A9937; A8404"
     }
    ],
    "ean": [
     "5425017736271"
    ],
    "descripcion": "EAU de parfum, anunciado como spray natural, destinado a las mujeres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de metal cilíndrico rosa."
   }
  ],
  "riesgo": {
@@ -105,16 +103,15 @@
   "claves": [
    "ref:A12/02957/23",
    "ean:5425017736271",
-   "ml:cuba:a9937",
-   "ml:cuba:a8404"
+   "ml:cuba:a9937-a8404"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bb727b9a2e27d72a"
+  "enriquecido": true,
+  "hashContenido": "0cf8092bb446a89f"
  },
  "slug": "perfume-cuba-safety-gate-10011014"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
     "5902815102748"
    ],
    "descripcion": "EAU de toilette destinado a mujeres en botella de 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de papel azul claro."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d31ec8a4460acc6f"
+  "enriquecido": true,
+  "hashContenido": "f44b0368f364ca5b"
  },
  "slug": "eau-de-toilette-gordano-parfums-safety-gate-10011218"
 }

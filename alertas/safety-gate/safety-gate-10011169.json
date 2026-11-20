@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Audi"
    ],
    "modelos": [
-    "e1*2001/116*0430* (B8)",
-    "e1*2001/116*0447* (B8)",
-    "e1*2001/116*0350* (4L)",
-    "e1*2001/116*0367* (4L)",
-    "e1*2007/46*1900* (F3)",
-    "e1*2007/46*2038* (F3)"
+    "e1*2001/116*0430* (B8), e1*2001/116*0447* (B8), e1*2001/116*0350* (4L), e1*2001/116*0367* (4L), e1*2007/46*1900* (F3), e1*2007/46*2038* (F3)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.06.2023 - 20.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "1.06.2023 - 20.06.2023"
+   "fechasTexto": "1.06.2023 - 20.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,20 +107,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03031/23",
-   "mm:audi:e1-2001-116-0430-b8",
-   "mm:audi:e1-2001-116-0447-b8",
-   "mm:audi:e1-2001-116-0350-4l",
-   "mm:audi:e1-2001-116-0367-4l",
-   "mm:audi:e1-2007-46-1900-f3",
-   "mm:audi:e1-2007-46-2038-f3"
+   "mm:audi:e1-2001-116-0430-b8-e1-2001-116-0447-b8-e1-2001-116-0350-4l-e1-2001-116-0367-4l-e1-2007-46-1900-f3-e1-2007-46-2038-f3",
+   "ml:audi:1-06-2023-20-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e4dbec75b5b142f0"
+  "enriquecido": true,
+  "hashContenido": "05d531d952fccb6c"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10011169"
 }

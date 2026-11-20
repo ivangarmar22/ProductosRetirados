@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Jaguar"
    ],
    "modelos": [
-    "e11*2007/46*4311*03",
-    "e11*2007/46*4311*03",
-    "e5*2007/46*1052*04",
-    "e5*2007/46*1052*01"
+    "e11*2007/46*4311*03; e11*2007/46*4311*03; e5*2007/46*1052*04; e5*2007/46*1052*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2019 - 2024"
+    }
+   ],
    "ean": [],
    "descripcion": "Jaguar I-Pace, año modelo: 2019-2024",
-   "fechasTexto": "2019 - 2024"
+   "fechasTexto": "2019 - 2024",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,17 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02867/23",
-   "mm:jaguar:e11-2007-46-4311-03",
-   "mm:jaguar:e5-2007-46-1052-04",
-   "mm:jaguar:e5-2007-46-1052-01"
+   "mm:jaguar:e11-2007-46-4311-03-e11-2007-46-4311-03-e5-2007-46-1052-04-e5-2007-46-1052-01",
+   "ml:jaguar:2019-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1f1a668a1a2a2069"
+  "enriquecido": true,
+  "hashContenido": "2139b8d84289a080"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10011000"
 }

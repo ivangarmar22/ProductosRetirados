@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,8 +27,7 @@
     "Konges slojd"
    ],
    "modelos": [
-    "KS4221",
-    "158515005"
+    "KS4221, 158515005"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "5715404003599"
    ],
    "descripcion": "Caja musical de bebés en forma de triceratops-dinosauro de peluche verde.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente."
   }
  ],
  "riesgo": {
@@ -74,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,17 +104,16 @@
   "claves": [
    "ref:A12/03019/23",
    "ean:5715404003599",
-   "mm:konges-slojd:ks4221",
-   "mm:konges-slojd:158515005",
+   "mm:konges-slojd:ks4221-158515005",
    "ml:konges-slojd:082022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "83a512187c871b89"
+  "enriquecido": true,
+  "hashContenido": "0b633389512c867c"
  },
  "slug": "juguete-musical-konges-slojd-safety-gate-10011070"
 }

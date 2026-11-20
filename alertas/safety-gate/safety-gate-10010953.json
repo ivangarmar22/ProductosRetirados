@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,7 +34,8 @@
     "5902114882570"
    ],
    "descripcion": "EAU de toilette, destinado a los hombres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de papel amarillo."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "58d91c0d267aecba"
+  "enriquecido": true,
+  "hashContenido": "ac112bb1eccdad05"
  },
  "slug": "eau-de-toilette-gordano-parfums-safety-gate-10010953"
 }

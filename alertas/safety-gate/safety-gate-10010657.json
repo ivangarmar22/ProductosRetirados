@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "RRASF02",
-    "e1*KS07/46*0077*00",
-    "e1*KS18/858*00003*00-*05"
+    "e1*KS07/46*0077*00, e1*KS18/858*00003*00-*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3.10.2019 – 8.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "3.10.2019 – 8.12.2022"
+   "fechasTexto": "3.10.2019 – 8.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,16 +106,16 @@
   "claves": [
    "ref:A12/02643/23",
    "mm:rolls-royce:rrasf02",
-   "mm:rolls-royce:e1-ks07-46-0077-00",
-   "mm:rolls-royce:e1-ks18-858-00003-00-05"
+   "mm:rolls-royce:e1-ks07-46-0077-00-e1-ks18-858-00003-00-05",
+   "ml:rolls-royce:3-10-2019-8-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c9bde1c2506b58b9"
+  "enriquecido": true,
+  "hashContenido": "2144e606aa2e784d"
  },
  "slug": "coche-de-pasajeros-rolls-royce-safety-gate-10010657"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-10"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "White Shark"
    ],
    "modelos": [
-    "GH1495",
-    "GPW-2021"
+    "GH1495 / GPW-2021"
    ],
    "lotes": [],
    "ean": [
     "0616320538941"
    ],
    "descripcion": "Controlador de juego rojo. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón negra con ventana de plástico transparente"
   }
  ],
  "riesgo": {
@@ -65,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,16 +95,15 @@
   "claves": [
    "ref:A12/02837/23",
    "ean:0616320538941",
-   "mm:white-shark:gh1495",
-   "mm:white-shark:gpw-2021"
+   "mm:white-shark:gh1495-gpw-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0293d3492c4eef32"
+  "enriquecido": true,
+  "hashContenido": "9d0a1ee679728589"
  },
  "slug": "controlador-de-juegos-white-shark-safety-gate-10010955"
 }

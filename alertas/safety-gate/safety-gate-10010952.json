@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-15"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -39,7 +39,8 @@
     "3608449812382"
    ],
    "descripcion": "Mochila de airbag. Vendido entre el 7 de diciembre de 2022 y el 16 de agosto de 2023. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +74,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Eslovaquia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a2249d67e58e8a18"
+  "enriquecido": true,
+  "hashContenido": "7756704b88a54ce5"
  },
  "slug": "mochila-de-airbag-wedze-safety-gate-10010952"
 }

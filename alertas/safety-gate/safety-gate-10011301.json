@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e2*2007/46*0685*13",
-    "e2*2007/46*0686*14",
-    "e2*2007/46*0686*16"
+    "e2*2007/46*0685*13, e2*2007/46*0686*14, e2*2007/46*0686*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03/03/2023 - 26/07/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "— Nombre del modelo (código marco): Proace City & Proace City Verso (BKYMA21, BKYMA41, BKYMD21, BKYMD41, BPZMA22, BPZMA42, BPZMA43, BPZMD22, BPZMD42, BPZMD43); Año del modelo: 2023.",
-   "fechasTexto": "03/03/2023 - 26/07/2023"
+   "fechasTexto": "03/03/2023 - 26/07/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IS",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,17 +99,16 @@
  "dedup": {
   "claves": [
    "ref:A12/03033/23",
-   "mm:toyota:e2-2007-46-0685-13",
-   "mm:toyota:e2-2007-46-0686-14",
-   "mm:toyota:e2-2007-46-0686-16"
+   "mm:toyota:e2-2007-46-0685-13-e2-2007-46-0686-14-e2-2007-46-0686-16",
+   "ml:toyota:03-03-2023-26-07-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a66a778e6d40f085"
+  "enriquecido": true,
+  "hashContenido": "e30ba5f2d16bb155"
  },
  "slug": "turismo-vehiculo-comercial-ligero-toyota-safety-gate-10011301"
 }

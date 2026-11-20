@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "VIVA LUCK"
    ],
    "modelos": [
-    "PRO: 2021/05/18",
-    "EXP: 2026/05/17"
+    "PRO: 2021/05/18, EXP: 2026/05/17"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "5060909980174"
    ],
    "descripcion": "EAU de parfum, anunciado como un spray natural, destinado a las mujeres, 120 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio en una caja de papel."
   }
  ],
  "riesgo": {
@@ -85,17 +85,16 @@
   "claves": [
    "ref:A12/02713/23",
    "ean:5060909980174",
-   "mm:viva-luck:pro-2021-05-18",
-   "mm:viva-luck:exp-2026-05-17",
+   "mm:viva-luck:pro-2021-05-18-exp-2026-05-17",
    "ml:viva-luck:vl80571"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "217a27683be686d0"
+  "enriquecido": true,
+  "hashContenido": "917197b5b658ef17"
  },
  "slug": "perfume-viva-luck-safety-gate-10010841"
 }

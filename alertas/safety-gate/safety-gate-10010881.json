@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-13"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Deshumidificador portátil, que está conectado a un suministro de red. El producto se vende en línea, en particular a través de Amazon (no conocido ASIN).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a99c77366627cc8c"
+  "enriquecido": true,
+  "hashContenido": "bb3c5f502dbac8e5"
  },
  "slug": "deshumidificador-air-me-safety-gate-10010881"
 }

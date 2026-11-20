@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,13 +27,13 @@
     "Sokos Hotels"
    ],
    "modelos": [
-    "CT17009",
-    "853624"
+    "CT17009, 853624"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete de peluche ardilla con ropa roja",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,16 +82,15 @@
  "dedup": {
   "claves": [
    "ref:A12/02983/23",
-   "mm:sokos-hotels:ct17009",
-   "mm:sokos-hotels:853624"
+   "mm:sokos-hotels:ct17009-853624"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7506d54740b3ef09"
+  "enriquecido": true,
+  "hashContenido": "82207a6e3ef04a99"
  },
  "slug": "juguete-de-peluche-sokos-hotels-safety-gate-10009989"
 }

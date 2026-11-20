@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Jabón líquido",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4f9d0e9b6897162f"
+  "enriquecido": true,
+  "hashContenido": "6b6a3f34ad577c17"
  },
  "slug": "jabon-liquido-dove-safety-gate-10008706"
 }

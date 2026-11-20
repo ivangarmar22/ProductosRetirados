@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-13"
  },
  "categoria": {
   "literal": "Papelería",
@@ -38,7 +38,8 @@
     "3588270039366"
    ],
    "descripcion": "Bolígrafo montado con un pequeño dinosaurio rosado en plástico translúcido. Un led se fija a la pluma.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9b0c77fe72235467"
+  "enriquecido": true,
+  "hashContenido": "66ad4cc938cd5079"
  },
  "slug": "boligrafo-b-g-international-safety-gate-10010744"
 }

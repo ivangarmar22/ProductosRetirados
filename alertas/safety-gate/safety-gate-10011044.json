@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-12"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "5907621827342"
    ],
    "descripcion": "Accesorio de corte tipo flail compuesto por 6 o 3 cuchillos metálicos. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente con almohadilla de papel."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3fade1c49bf03752"
+  "enriquecido": true,
+  "hashContenido": "7638237e499724d6"
  },
  "slug": "accesorio-para-cortadoras-de-cepillos-safety-gate-10011044"
 }

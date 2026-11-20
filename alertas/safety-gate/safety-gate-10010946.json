@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "R2CW",
-    "E2EQEW",
-    "R2CGLC",
-    "e1*2018/858*00016*07",
-    "e1*2018/858*00036*05",
-    "e1*2018/858*00186*04"
+    "R2CW, E2EQEW, R2CGLC",
+    "e1*2018/858*00016*07, e1*2018/858*00036*05, e1*2018/858*00186*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.09.2023 - 25.09.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "12.09.2023 - 25.09.2023"
+   "fechasTexto": "12.09.2023 - 25.09.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "HU",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,20 +103,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02964/23",
-   "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:e2eqew",
-   "mm:mercedes-benz:r2cglc",
-   "mm:mercedes-benz:e1-2018-858-00016-07",
-   "mm:mercedes-benz:e1-2018-858-00036-05",
-   "mm:mercedes-benz:e1-2018-858-00186-04"
+   "mm:mercedes-benz:r2cw-e2eqew-r2cglc",
+   "mm:mercedes-benz:e1-2018-858-00016-07-e1-2018-858-00036-05-e1-2018-858-00186-04",
+   "ml:mercedes-benz:12-09-2023-25-09-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f3ca8362580ddf07"
+  "enriquecido": true,
+  "hashContenido": "f13902dcacc56acc"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10010946"
 }

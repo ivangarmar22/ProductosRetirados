@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-24"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "5903347018682"
    ],
    "descripcion": "Accesorio de corte tipo flail compuesto por 6 cuchillos metálicos. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de blíster"
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e19655b0f6ef6462"
+  "enriquecido": true,
+  "hashContenido": "8ee3dc8af2f15bb2"
  },
  "slug": "accesorio-para-cortadoras-de-cepillos-pro-technik-safety-gate-10010579"
 }

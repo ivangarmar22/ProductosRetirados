@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-13"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -27,9 +27,7 @@
     "JSP"
    ],
    "modelos": [
-    "JSP",
-    "F631",
-    "FFP3 NR"
+    "JSP, F631, FFP3 NR"
    ],
    "lotes": [
     {
@@ -40,7 +38,8 @@
     "5038428562966"
    ],
    "descripcion": "Mascarilla protectora de filtración respiratoria, con material blanco uniforme y sin válvula. La máscara tenía correas que encajaban alrededor de las orejas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cajas de cartón blanco/negro, con un total de 40 (cuarenta) máscaras. EN 149:2001+A1:2009, FFP3 NR, CE 0370, BGX130-000-Q00, JSP VFF"
   }
  ],
  "riesgo": {
@@ -106,18 +105,16 @@
   "claves": [
    "ref:A12/03038/23",
    "ean:5038428562966",
-   "mm:jsp:jsp",
-   "mm:jsp:f631",
-   "mm:jsp:ffp3-nr",
+   "mm:jsp:jsp-f631-ffp3-nr",
    "ml:jsp:636444"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4141f6f3809a4e03"
+  "enriquecido": true,
+  "hashContenido": "bf423defed1c55cf"
  },
  "slug": "mascara-de-filtro-de-particulas-jsp-safety-gate-10011254"
 }

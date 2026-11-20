@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Honda"
    ],
    "modelos": [
-    "(RL6",
-    "RW2)"
+    "(RL6, RW2)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.02.2018 - 10.09.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, permisos de funcionamiento de homologación de tipo individual.",
-   "fechasTexto": "27.02.2018 - 10.09.2019"
+   "fechasTexto": "27.02.2018 - 10.09.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02977/23",
-   "mm:honda:rl6",
-   "mm:honda:rw2"
+   "mm:honda:rl6-rw2",
+   "ml:honda:27-02-2018-10-09-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "191b745b4febeef3"
+  "enriquecido": true,
+  "hashContenido": "f2cdde795e987beb"
  },
  "slug": "coche-de-pasajeros-honda-safety-gate-10011113"
 }

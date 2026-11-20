@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,20 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "1E",
-    "6R",
-    "5Z",
-    "AA",
-    "SYN2E",
-    "e1*2001/116*0510*",
-    "e1*2001/116*0301*",
-    "e13*2007/46*1167*",
-    "e1*2007/46*1614*"
+    "1E, 6R, 5Z, AA, SYN2E",
+    "e1*2001/116*0510*, e1*2001/116*0301*, e13*2007/46*1167*, e1*2007/46*1614*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.05.2008 - 13.08.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros/van",
-   "fechasTexto": "30.05.2008 - 13.08.2014"
+   "fechasTexto": "30.05.2008 - 13.08.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +69,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "MT",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,19 +113,17 @@
  "dedup": {
   "claves": [
    "ref:A12/03004/23",
-   "mm:vw:syn2e",
-   "mm:vw:e1-2001-116-0510",
-   "mm:vw:e1-2001-116-0301",
-   "mm:vw:e13-2007-46-1167",
-   "mm:vw:e1-2007-46-1614"
+   "mm:vw:1e-6r-5z-aa-syn2e",
+   "mm:vw:e1-2001-116-0510-e1-2001-116-0301-e13-2007-46-1167-e1-2007-46-1614",
+   "ml:vw:30-05-2008-13-08-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e9711288dd9d046f"
+  "enriquecido": true,
+  "hashContenido": "ac7f36e14a877e3a"
  },
  "slug": "coche-de-pasajeros-van-vw-safety-gate-10011190"
 }

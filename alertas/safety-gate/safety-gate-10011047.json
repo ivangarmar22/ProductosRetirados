@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "WS"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.02.2021 - 06.07.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, permisos de funcionamiento de homologación de tipo individual.",
-   "fechasTexto": "24.02.2021 - 06.07.2022"
+   "fechasTexto": "24.02.2021 - 06.07.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +87,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/02979/23"
+   "ref:A12/02979/23",
+   "ml:jeep:24-02-2021-06-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "44a96254d0c88c5c"
+  "enriquecido": true,
+  "hashContenido": "8d3bc4b6dafcbbe7"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10011047"
 }

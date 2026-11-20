@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,16 +24,25 @@
   {
    "nombre": "CORSA / 208",
    "marcas": [
-    "Opel, Peugeot"
+    "Opel",
+    "Peugeot"
    ],
    "modelos": [
     "208 : e2*2007/46*0639*05 - 23",
     "CORSA : e2*2007/46*0639/ e2*2007/46*0639*05 - 09/ e2*2007/46*0639*11 - 15/ e2*2007/46*0639*17 - 22"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "208: 16.4.2019 - 15.2.2023"
+    },
+    {
+     "numero": "CORSA: 15.7.2019 - 26.1.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "208: 16.4.2019 - 15.2.2023CORSA: 15.7.2019 - 26.1.2023"
+   "fechasTexto": "208: 16.4.2019 - 15.2.2023CORSA: 15.7.2019 - 26.1.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +72,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +101,22 @@
  "dedup": {
   "claves": [
    "ref:A12/02694/23",
-   "mm:opel-peugeot:208-e2-2007-46-0639-05-23",
-   "mm:opel-peugeot:corsa-e2-2007-46-0639-e2-2007-46-0639-05-09-e2-2007-46-0639-11-15-e2-2007-46-0639-17-22"
+   "mm:opel:208-e2-2007-46-0639-05-23",
+   "mm:opel:corsa-e2-2007-46-0639-e2-2007-46-0639-05-09-e2-2007-46-0639-11-15-e2-2007-46-0639-17-22",
+   "ml:opel:208-16-4-2019-15-2-2023",
+   "ml:opel:corsa-15-7-2019-26-1-2023",
+   "mm:peugeot:208-e2-2007-46-0639-05-23",
+   "mm:peugeot:corsa-e2-2007-46-0639-e2-2007-46-0639-05-09-e2-2007-46-0639-11-15-e2-2007-46-0639-17-22",
+   "ml:peugeot:208-16-4-2019-15-2-2023",
+   "ml:peugeot:corsa-15-7-2019-26-1-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dab558a5fd00127c"
+  "enriquecido": true,
+  "hashContenido": "1a2cd6bbf534b36e"
  },
  "slug": "coche-de-pasajeros-opel-peugeot-safety-gate-10010723"
 }

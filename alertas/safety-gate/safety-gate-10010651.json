@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Super Soco"
    ],
    "modelos": [
-    "CPX (e13*168/2013*00870)",
-    "CPX PRO (e13*168/2013*00869)",
-    "VS1 (e13*168/2013*00831)",
-    "VS1 PRO (e13*168/2013*00825)"
+    "CPX (e13*168/2013*00870), CPX PRO (e13*168/2013*00869), VS1 (e13*168/2013*00831), VS1 PRO (e13*168/2013*00825)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.11.2019 - 22.08.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Scooter eléctrico",
-   "fechasTexto": "17.11.2019 - 22.08.2023"
+   "fechasTexto": "17.11.2019 - 22.08.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "GR",
+   "LU",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,18 +101,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02818/23",
-   "mm:super-soco:cpx-e13-168-2013-00870",
-   "mm:super-soco:cpx-pro-e13-168-2013-00869",
-   "mm:super-soco:vs1-e13-168-2013-00831",
-   "mm:super-soco:vs1-pro-e13-168-2013-00825"
+   "mm:super-soco:cpx-e13-168-2013-00870-cpx-pro-e13-168-2013-00869-vs1-e13-168-2013-00831-vs1-pro-e13-168-2013-00825",
+   "ml:super-soco:17-11-2019-22-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1bd3e6df9474cf37"
+  "enriquecido": true,
+  "hashContenido": "0b562d26f5d81db6"
  },
  "slug": "scooter-electrico-super-soco-safety-gate-10010651"
 }

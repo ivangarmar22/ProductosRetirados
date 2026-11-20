@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-11-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-23"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "Bonai"
    ],
    "modelos": [
-    "2023-04-BG",
-    "X0019SSOC1"
+    "2023-04-BG / X0019SSOC1"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Paquete de seis baterías de botón CR 2032 de litio, 3 V. Producto vendido en línea, en particular a través de Amazon con el número ASIN: B08MZLG7DV",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cada blíster consiste en una parte posterior de cartón a la que se pega un frente de plástico que protege las baterías."
   }
  ],
  "riesgo": {
@@ -85,16 +85,15 @@
  "dedup": {
   "claves": [
    "ref:A12/02852/23",
-   "mm:bonai:2023-04-bg",
-   "mm:bonai:x0019ssoc1"
+   "mm:bonai:2023-04-bg-x0019ssoc1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0817924aad6f0ba4"
+  "enriquecido": true,
+  "hashContenido": "e6aa0dc77eb86fc5"
  },
  "slug": "baterias-de-boton-bonai-safety-gate-10010721"
 }
