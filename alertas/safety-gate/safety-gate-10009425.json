@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "483135121573116"
+     "numero": "48313"
+    },
+    {
+     "numero": "51215"
+    },
+    {
+     "numero": "73116"
     }
    ],
    "ean": [
     "8000000374356"
    ],
    "descripcion": "Acondicionador de cabello",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella equipada con un dispensador"
   }
  ],
  "riesgo": {
@@ -106,15 +113,17 @@
   "claves": [
    "ref:A12/02136/23",
    "ean:8000000374356",
-   "ml:strukitis-line:483135121573116"
+   "ml:strukitis-line:48313",
+   "ml:strukitis-line:51215",
+   "ml:strukitis-line:73116"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "14d92e9361e81331"
+  "enriquecido": true,
+  "hashContenido": "4cbb021343c7999f"
  },
  "slug": "acondicionador-de-cabello-strukitis-line-safety-gate-10009425"
 }

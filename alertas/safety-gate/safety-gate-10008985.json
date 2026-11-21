@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,13 @@
    ],
    "lotes": [
     {
-     "numero": "600313B833613B915113B"
+     "numero": "600313B"
+    },
+    {
+     "numero": "833613B"
+    },
+    {
+     "numero": "915113B"
     }
    ],
    "ean": [
@@ -40,7 +46,8 @@
     "8717644384701"
    ],
    "descripcion": "Acondicionador de cabello, para reparación intensiva (naranja), contra puntas abiertas (verde claro), y para crecimiento natural (verde), 200 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -125,15 +132,17 @@
    "ean:8712561653411",
    "ean:8717644384701",
    "mm:sunsilk:balsamo-per-capelli",
-   "ml:sunsilk:600313b833613b915113b"
+   "ml:sunsilk:600313b",
+   "ml:sunsilk:833613b",
+   "ml:sunsilk:915113b"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "58094b97921d9900"
+  "enriquecido": true,
+  "hashContenido": "b5d3e2199e521fff"
  },
  "slug": "acondicionador-de-cabello-sunsilk-safety-gate-10008985"
 }

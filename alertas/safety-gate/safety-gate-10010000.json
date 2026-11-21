@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -28,26 +28,28 @@
    ],
    "modelos": [
     "CIPIR Smalto LUCIDO SINTETICO",
-    "CIPIRSMALTO OPACO SINTETICO",
-    "colori VERDE BOTTIGLIA",
-    "MARRONE",
-    "NERO E GRIGIO PERLA",
-    "FIBRONITE SOTTO SMALTO CARTEGGIABILE"
+    "CIPIRSMALTO OPACO SINTETICO, colori VERDE BOTTIGLIA,MARRONE, NERO E GRIGIO PERLA",
+    "FIBRONITE SOTTO SMALTO CARTEGGIABILE,"
    ],
    "lotes": [
     {
-     "numero": "Enamels: 2M1102 99860/21 1V0430 1M0811 1M080Fibronite: 9L1216 2M1102"
+     "numero": "Enamels: 2M1102 99860/21 1V0430 1M0811 1M080"
+    },
+    {
+     "numero": "Fibronite: 9L1216 2M1102"
     }
    ],
    "ean": [
-    "8012760105217",
-    "8012760681674",
     "8012760940221",
     "8012760107822",
-    "8012760671668"
+    "8012760671668",
+    "8012760105217",
+    "8012760691673",
+    "8012760681674"
    ],
    "descripcion": "Producto de barnizado anticorrosivo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Latas metálicas de diversas capacidades de 2,5 litros, 750 ml y 250 ml."
   }
  ],
  "riesgo": {
@@ -124,26 +126,25 @@
  "dedup": {
   "claves": [
    "ref:A12/02008/23",
-   "ean:8012760105217",
-   "ean:8012760681674",
    "ean:8012760940221",
    "ean:8012760107822",
    "ean:8012760671668",
+   "ean:8012760105217",
+   "ean:8012760691673",
+   "ean:8012760681674",
    "mm:cipir:cipir-smalto-lucido-sintetico",
-   "mm:cipir:cipirsmalto-opaco-sintetico",
-   "mm:cipir:colori-verde-bottiglia",
-   "mm:cipir:marrone",
-   "mm:cipir:nero-e-grigio-perla",
+   "mm:cipir:cipirsmalto-opaco-sintetico-colori-verde-bottiglia-marrone-nero-e-grigio-perla",
    "mm:cipir:fibronite-sotto-smalto-carteggiabile",
-   "ml:cipir:enamels-2m1102-99860-21-1v0430-1m0811-1m080fibronite-9l1216-2m1102"
+   "ml:cipir:enamels-2m1102-99860-21-1v0430-1m0811-1m080",
+   "ml:cipir:fibronite-9l1216-2m1102"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30fec0c78fb04d36"
+  "enriquecido": true,
+  "hashContenido": "b653ef9b5c7e9140"
  },
  "slug": "barniz-cipir-safety-gate-10010000"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-06"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "6418914916708"
    ],
    "descripcion": "Generador de inversores. Gasolina utilizada como combustible, salida de dos tomas AC 230 V y una salida de 12 CC. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2084e41c0ad0b47a"
+  "enriquecido": true,
+  "hashContenido": "0cd02733662014fd"
  },
  "slug": "generador-de-inversores-rato-safety-gate-10010190"
 }

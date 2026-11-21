@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,19 +31,7 @@
    ],
    "lotes": [
     {
-     "numero": "3100156 02-21"
-    },
-    {
-     "numero": "2500945 10-15"
-    },
-    {
-     "numero": "2800210 03-18"
-    },
-    {
-     "numero": "2800113 02-18"
-    },
-    {
-     "numero": "2800210 03-18"
+     "numero": "3100156 02-21 ,2500945 10-15 ,2800210 03-18, 2800113 02-18,2800210 03-18"
     }
    ],
    "ean": [
@@ -52,7 +40,8 @@
     "8016256001977"
    ],
    "descripcion": "Producto de barnizado, pintura anticorrosiva, varios colores (rojo óxido, naranja...)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Latas metálicas de 2,5 litros."
   }
  ],
  "riesgo": {
@@ -117,18 +106,15 @@
    "ean:8016256001908",
    "ean:8016256001977",
    "mm:san-marco-saturno:saturno",
-   "ml:san-marco-saturno:3100156-02-21",
-   "ml:san-marco-saturno:2500945-10-15",
-   "ml:san-marco-saturno:2800210-03-18",
-   "ml:san-marco-saturno:2800113-02-18"
+   "ml:san-marco-saturno:3100156-02-21-2500945-10-15-2800210-03-18-2800113-02-18-2800210-03-18"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "abe82e3907523b61"
+  "enriquecido": true,
+  "hashContenido": "ff0d0be047a6c6d0"
  },
  "slug": "barniz-san-marco-saturno-safety-gate-10009951"
 }

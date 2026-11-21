@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-31"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -33,13 +33,7 @@
    ],
    "lotes": [
     {
-     "numero": "P19/21 EXP 19/31"
-    },
-    {
-     "numero": "P15/21 EXP 15/31"
-    },
-    {
-     "numero": "P19/21 EXP 19/31"
+     "numero": "P19/21 EXP 19/31 ,P15/21 EXP 15/31, P19/21 EXP 19/31"
     }
    ],
    "ean": [
@@ -48,7 +42,8 @@
     "8711347262182"
    ],
    "descripcion": "Barniz impregnante, en varios colores: blanco, nogal claro y transparente.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Latas de pulverización de 400 ml."
   }
  ],
  "riesgo": {
@@ -115,16 +110,15 @@
    "mm:motip-spray:motip-spray-bianco-p15-21-exp-15-31-400ml",
    "mm:motip-spray:motip-spray-noce-chiaro-p19-21-exp-19-31-400ml-8",
    "mm:motip-spray:motip-spray-trasparente-p19-21-exp-19-31-400ml",
-   "ml:motip-spray:p19-21-exp-19-31",
-   "ml:motip-spray:p15-21-exp-15-31"
+   "ml:motip-spray:p19-21-exp-19-31-p15-21-exp-15-31-p19-21-exp-19-31"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dfc097081489c1b5"
+  "enriquecido": true,
+  "hashContenido": "f181e07e7b4f060f"
  },
  "slug": "barniz-motip-spray-safety-gate-10009980"
 }

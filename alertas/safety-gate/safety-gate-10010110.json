@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,25 +27,14 @@
     "Subaru"
    ],
    "modelos": [
-    "e1*2007/46*0079*05",
-    "e1*2007/46*1320*00",
-    "e1*2007/46*1320*01",
-    "e1*2007/46*1320*02",
-    "e1*2007/46*0079*08",
-    "e13*2007/46*1648*02",
-    "e13*2007/46*1678*03",
-    "e13*2007/46*1648*04",
-    "e1*2007/46*0597*08",
-    "e1*2007/46*1648*02",
-    "e1*2007/46*1203*03",
-    "e1*2007/46*1203*04",
-    "e1*2007/46*1203*05",
-    "e1*2007/46*1320*02"
+    "e1*2007/46*0079*05; e1*2007/46*1320*00; e1*2007/46*1320*01; e1*2007/46*1320*02; e1*2007/46*0079*08; e13*2007/46*1648*02; e13*2007/46*1678*03; e13*2007/46*1648*04; e1*2007/46*0597*08",
+    "e1*2007/46*1648*02; e1*2007/46*1203*03; e1*2007/46*1203*04; e1*2007/46*1203*05; e1*2007/46*1320*02"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Vehículo de pasajeros: Legacy, Outback, Levorg, WRX (modelo del año 2015-2018); Impreza, XV: (año modelo 2017-2019)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +64,18 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,27 +106,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02023/23",
-   "mm:subaru:e1-2007-46-0079-05",
-   "mm:subaru:e1-2007-46-1320-00",
-   "mm:subaru:e1-2007-46-1320-01",
-   "mm:subaru:e1-2007-46-1320-02",
-   "mm:subaru:e1-2007-46-0079-08",
-   "mm:subaru:e13-2007-46-1648-02",
-   "mm:subaru:e13-2007-46-1678-03",
-   "mm:subaru:e13-2007-46-1648-04",
-   "mm:subaru:e1-2007-46-0597-08",
-   "mm:subaru:e1-2007-46-1648-02",
-   "mm:subaru:e1-2007-46-1203-03",
-   "mm:subaru:e1-2007-46-1203-04",
-   "mm:subaru:e1-2007-46-1203-05"
+   "mm:subaru:e1-2007-46-0079-05-e1-2007-46-1320-00-e1-2007-46-1320-01-e1-2007-46-1320-02-e1-2007-46-0079-08-e13-2007-46-1648-02-e13-2007-46-1678-03-e13-2007-46-1648-04-e1-2007-46-0597-08",
+   "mm:subaru:e1-2007-46-1648-02-e1-2007-46-1203-03-e1-2007-46-1203-04-e1-2007-46-1203-05-e1-2007-46-1320-02"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "631d4d3604fa3b68"
+  "enriquecido": true,
+  "hashContenido": "d55b0936496310a7"
  },
  "slug": "coche-de-pasajeros-subaru-safety-gate-10010110"
 }

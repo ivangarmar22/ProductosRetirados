@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "67204309 - 73513C080373C0 - 67204300"
+     "numero": "67204309 - 73513C0"
+    },
+    {
+     "numero": "80373C0 - 67204300"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "8717644384541"
    ],
    "descripcion": "Champú para cabello teñido, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -112,15 +116,16 @@
    "ref:A12/01981/23",
    "ean:8717644383803",
    "ean:8717644384541",
-   "ml:sunsilk:67204309-73513c080373c0-67204300"
+   "ml:sunsilk:67204309-73513c0",
+   "ml:sunsilk:80373c0-67204300"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30c816d90b4b6575"
+  "enriquecido": true,
+  "hashContenido": "d2cdf428edbc667c"
  },
  "slug": "champu-sunsilk-safety-gate-10009786"
 }

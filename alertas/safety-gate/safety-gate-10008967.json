@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,12 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "089811091116991"
+     "numero": "08981"
+    },
+    {
+     "numero": "10911"
+    },
+    {
+     "numero": "16991"
     }
    ],
    "ean": [],
    "descripcion": "Gel de baño y ducha.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -102,15 +109,17 @@
   "claves": [
    "ref:A12/01926/23",
    "mm:neutro-roberts:bagno-doccia",
-   "ml:neutro-roberts:089811091116991"
+   "ml:neutro-roberts:08981",
+   "ml:neutro-roberts:10911",
+   "ml:neutro-roberts:16991"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1d9d1c14747b68fc"
+  "enriquecido": true,
+  "hashContenido": "27705fc2a20bee4c"
  },
  "slug": "gel-de-bano-y-ducha-neutro-roberts-safety-gate-10008967"
 }

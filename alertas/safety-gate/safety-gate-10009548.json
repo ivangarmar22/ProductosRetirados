@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,9 +32,12 @@
      "numero": "94050817"
     }
    ],
-   "ean": [],
+   "ean": [
+    "4005808678600"
+   ],
    "descripcion": "Mousse de estilo con inscripción «extra fuerte»",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lata de aluminio de 150 ml"
   }
  ],
  "riesgo": {
@@ -91,15 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02207/23",
+   "ean:4005808678600",
    "ml:nivea:94050817"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b52fa6e20982d2ff"
+  "enriquecido": true,
+  "hashContenido": "0e588e422251584f"
  },
  "slug": "mousse-de-estilo-nivea-safety-gate-10009548"
 }

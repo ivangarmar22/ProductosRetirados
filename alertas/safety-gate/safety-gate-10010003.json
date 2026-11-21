@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -27,72 +27,14 @@
     "IMPA ADVANCE"
    ],
    "modelos": [
-    "IMPA ADVANCE GIALLO",
-    "NEUTRAL MAGENTA",
-    "ROSSO",
-    "ARANCIO",
-    "BLU",
-    "NERO",
-    "VERDE",
-    "VIOLETTO"
+    "IMPA ADVANCE GIALLO, NEUTRAL MAGENTA, ROSSO, ARANCIO,BLU, NERO, VERDE, VIOLETTO"
    ],
    "lotes": [
     {
-     "numero": "19050057"
+     "numero": "19050057, 19040053, 20060399, 21010150, 21010158, 20070518, 20010008, 19020612, 20120268 18110099, 20080039, 19060339"
     },
     {
-     "numero": "19040053"
-    },
-    {
-     "numero": "20060399"
-    },
-    {
-     "numero": "21010150"
-    },
-    {
-     "numero": "21010158"
-    },
-    {
-     "numero": "20070518"
-    },
-    {
-     "numero": "20010008"
-    },
-    {
-     "numero": "19020612"
-    },
-    {
-     "numero": "20120268 18110099"
-    },
-    {
-     "numero": "20080039"
-    },
-    {
-     "numero": "1906033920120032"
-    },
-    {
-     "numero": "19030675"
-    },
-    {
-     "numero": "19030204"
-    },
-    {
-     "numero": "18120097"
-    },
-    {
-     "numero": "20070156"
-    },
-    {
-     "numero": "20060074"
-    },
-    {
-     "numero": "19040146"
-    },
-    {
-     "numero": "19110071"
-    },
-    {
-     "numero": "19030098"
+     "numero": "20120032, 19030675, 19030204,18120097, 20070156, 20060074, 19040146, 19110071, 19030098"
     }
    ],
    "ean": [
@@ -111,7 +53,8 @@
     "8026126027006"
    ],
    "descripcion": "Tintado solvente para el sistema de tintado en varios colores: amarillo, neutro, magenta, rojo, naranja, azul, negro, verde, violeta.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Latas metálicas de 1 kg, 3,5 kg y 6 kg."
   }
  ],
  "riesgo": {
@@ -189,41 +132,17 @@
    "ean:8026126032185",
    "ean:8026126032109",
    "ean:8026126027006",
-   "mm:impa-advance:impa-advance-giallo",
-   "mm:impa-advance:neutral-magenta",
-   "mm:impa-advance:rosso",
-   "mm:impa-advance:arancio",
-   "mm:impa-advance:blu",
-   "mm:impa-advance:nero",
-   "mm:impa-advance:verde",
-   "mm:impa-advance:violetto",
-   "ml:impa-advance:19050057",
-   "ml:impa-advance:19040053",
-   "ml:impa-advance:20060399",
-   "ml:impa-advance:21010150",
-   "ml:impa-advance:21010158",
-   "ml:impa-advance:20070518",
-   "ml:impa-advance:20010008",
-   "ml:impa-advance:19020612",
-   "ml:impa-advance:20120268-18110099",
-   "ml:impa-advance:20080039",
-   "ml:impa-advance:1906033920120032",
-   "ml:impa-advance:19030675",
-   "ml:impa-advance:19030204",
-   "ml:impa-advance:18120097",
-   "ml:impa-advance:20070156",
-   "ml:impa-advance:20060074",
-   "ml:impa-advance:19040146",
-   "ml:impa-advance:19110071",
-   "ml:impa-advance:19030098"
+   "mm:impa-advance:impa-advance-giallo-neutral-magenta-rosso-arancio-blu-nero-verde-violetto",
+   "ml:impa-advance:19050057-19040053-20060399-21010150-21010158-20070518-20010008-19020612-20120268-18110099-20080039-19060339",
+   "ml:impa-advance:20120032-19030675-19030204-18120097-20070156-20060074-19040146-19110071-19030098"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "73c05b60ecc9ad9f"
+  "enriquecido": true,
+  "hashContenido": "b440a943c6ea4cde"
  },
  "slug": "barniz-impa-advance-safety-gate-10010003"
 }

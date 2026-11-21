@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B12ED180231B12ED300930"
+     "numero": "B12ED180231"
+    },
+    {
+     "numero": "B12ED300930"
     }
    ],
    "ean": [
     "80451914"
    ],
    "descripcion": "Aftershave",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor de plástico"
   }
  ],
  "riesgo": {
@@ -102,15 +106,16 @@
   "claves": [
    "ref:A12/02138/23",
    "ean:80451914",
-   "ml:intesa:b12ed180231b12ed300930"
+   "ml:intesa:b12ed180231",
+   "ml:intesa:b12ed300930"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7b28f52fc320280c"
+  "enriquecido": true,
+  "hashContenido": "6e19dcbc2213806f"
  },
  "slug": "aftershave-intesa-safety-gate-10009535"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-16"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Desmontador de pintura, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanco"
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "80ee8bbc6ac874b3"
+  "enriquecido": true,
+  "hashContenido": "a4dc5a914e8a50c7"
  },
  "slug": "stripper-de-pintura-tamiya-safety-gate-10010103"
 }

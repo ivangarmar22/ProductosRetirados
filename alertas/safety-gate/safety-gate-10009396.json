@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "19031 02006719271 02269519272 022718"
+     "numero": "19031 020067"
+    },
+    {
+     "numero": "19271 022695"
+    },
+    {
+     "numero": "19272 022718"
     }
    ],
    "ean": [
     "8008970005768"
    ],
    "descripcion": "Champú anunciado para cabello teñido y tratado",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico de 250 ml"
   }
  ],
  "riesgo": {
@@ -102,15 +109,17 @@
   "claves": [
    "ref:A12/02179/23",
    "ean:8008970005768",
-   "ml:vidal:19031-02006719271-02269519272-022718"
+   "ml:vidal:19031-020067",
+   "ml:vidal:19271-022695",
+   "ml:vidal:19272-022718"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "02996399a88beb1b"
+  "enriquecido": true,
+  "hashContenido": "bbc9786f1e499f74"
  },
  "slug": "champu-vidal-safety-gate-10009396"
 }

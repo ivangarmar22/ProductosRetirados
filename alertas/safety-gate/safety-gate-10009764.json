@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-13"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -36,7 +36,8 @@
     "8019190277088"
    ],
    "descripcion": "Guantes de látex azul con la mención «trabajar con agentes químicos» en el etiquetado",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Soporte de cartón que conecta los dos guantes"
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0f6bbbfb67a0fc47"
+  "enriquecido": true,
+  "hashContenido": "5348937e73821ab1"
  },
  "slug": "guantes-de-latex-kapriol-safety-gate-10009764"
 }

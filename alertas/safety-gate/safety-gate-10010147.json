@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -33,7 +33,8 @@
     "5999100621688"
    ],
    "descripcion": "Juguete de dardos magnéticos con un tablero textil de doble cara que se puede enrollar y dardos de plástico con imanes en los extremos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -73,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -112,11 +115,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df1576dada792662"
+  "enriquecido": true,
+  "hashContenido": "db6f8cb97ced55cd"
  },
  "slug": "juego-de-dardos-safety-magnetic-dartboard-safety-gate-10010147"
 }

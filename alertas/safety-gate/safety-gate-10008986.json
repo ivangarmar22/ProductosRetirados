@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "24N60224R200"
+     "numero": "24N602"
+    },
+    {
+     "numero": "24R200"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "8001980136538"
    ],
    "descripcion": "Acondicionador de cabello, 200 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -115,15 +119,16 @@
    "ean:3600521706121",
    "ean:8001980136538",
    "mm:l-oreal:balsamo-per-capelli",
-   "ml:l-oreal:24n60224r200"
+   "ml:l-oreal:24n602",
+   "ml:l-oreal:24r200"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fc5e4a14160d817a"
+  "enriquecido": true,
+  "hashContenido": "a2e1a6d92cc7d505"
  },
  "slug": "acondicionador-de-cabello-l-oreal-safety-gate-10008986"
 }

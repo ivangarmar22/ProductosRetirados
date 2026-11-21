@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Bmw"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2002"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2002"
+   "fechasTexto": "2002",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +66,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,15 +92,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/02024/23"
+   "ref:A12/02024/23",
+   "ml:bmw:2002"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6b298a9cd271b9be"
+  "enriquecido": true,
+  "hashContenido": "906463b054ccf2d5"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10010075"
 }

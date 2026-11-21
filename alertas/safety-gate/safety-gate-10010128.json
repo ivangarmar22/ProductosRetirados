@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-13"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Accesorio de corte compuesto por 6 cuchillos. Diámetro: 250 mm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de blíster."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "283ddc32dda83bfc"
+  "enriquecido": true,
+  "hashContenido": "5c46ebb103fd6b20"
  },
  "slug": "cabezal-de-corte-rotativo-con-seis-cuchillos-cepillos-flinke-fachgebit-safety-gate-10010128"
 }

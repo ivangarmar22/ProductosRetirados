@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "20/01376/013"
+     "numero": "20/013"
+    },
+    {
+     "numero": "76/013"
     }
    ],
-   "ean": [],
+   "ean": [
+    "8058333440132"
+   ],
    "descripcion": "EAU de toilette destinado a mujeres",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio de 50 ml"
   }
  ],
  "riesgo": {
@@ -103,15 +109,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02137/23",
-   "ml:glamour-profumi:20-01376-013"
+   "ean:8058333440132",
+   "ml:glamour-profumi:20-013",
+   "ml:glamour-profumi:76-013"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6271ac63474f2ae3"
+  "enriquecido": true,
+  "hashContenido": "fcf296570f6a0f16"
  },
  "slug": "eau-de-toilette-glamour-profumi-safety-gate-10009444"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "1642410326918435104295"
+     "numero": "16424103269"
+    },
+    {
+     "numero": "18435104295"
     }
    ],
    "ean": [
     "8008970043326"
    ],
    "descripcion": "Crema de baño y ducha.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de aluminio."
   }
  ],
  "riesgo": {
@@ -101,15 +105,16 @@
    "ref:A12/01983/23",
    "ean:8008970043326",
    "mm:tesori-d-oriente:orchidee",
-   "ml:tesori-d-oriente:1642410326918435104295"
+   "ml:tesori-d-oriente:16424103269",
+   "ml:tesori-d-oriente:18435104295"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a6b49028c52fd2c3"
+  "enriquecido": true,
+  "hashContenido": "a8d7dc7888be31de"
  },
  "slug": "crema-de-bano-y-ducha-tesori-d-oriente-safety-gate-10009016"
 }

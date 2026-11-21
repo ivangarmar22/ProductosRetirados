@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,16 +31,23 @@
    ],
    "lotes": [
     {
-     "numero": "408553-116408553-140408553-164"
+     "numero": "408553-116"
+    },
+    {
+     "numero": "408553-140"
+    },
+    {
+     "numero": "408553-164"
     }
    ],
    "ean": [
+    "871236361209",
     "871236361186",
-    "871236361193",
-    "871236361209"
+    "871236361193"
    ],
    "descripcion": "Disfraz con chaqueta y pantalón.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Empaquetado en una funda de plástico con una caja de cartón. Presencia de una etiqueta con marcas."
   }
  ],
  "riesgo": {
@@ -77,7 +84,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,19 +106,21 @@
  "dedup": {
   "claves": [
    "ref:A12/02130/23",
+   "ean:871236361209",
    "ean:871236361186",
    "ean:871236361193",
-   "ean:871236361209",
    "mm:funny-fashion-espa:f408553",
-   "ml:funny-fashion-espa:408553-116408553-140408553-164"
+   "ml:funny-fashion-espa:408553-116",
+   "ml:funny-fashion-espa:408553-140",
+   "ml:funny-fashion-espa:408553-164"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76f00c05873c4172"
+  "enriquecido": true,
+  "hashContenido": "10e56120f523e776"
  },
  "slug": "disfraz-de-disfraces-funny-fashion-espa-safety-gate-10010031"
 }

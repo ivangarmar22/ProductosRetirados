@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Motea"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.7.2018 - 1.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Pieza del vehículo, manillar",
-   "fechasTexto": "1.7.2018 - 1.12.2022"
+   "fechasTexto": "1.7.2018 - 1.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "IE",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +89,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/01587/23"
+   "ref:A12/01587/23",
+   "ml:motea:1-7-2018-1-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "23d937085dc1405b"
+  "enriquecido": true,
+  "hashContenido": "f70b40c264af38c8"
  },
  "slug": "parte-del-vehiculo-motea-safety-gate-10009542"
 }

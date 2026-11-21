@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-31"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,7 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "72005091 72201354 7220336572103745 7220503772105405 7220170072204392 7200831872205024 71909028"
+     "numero": "72005091 72201354 72203365"
+    },
+    {
+     "numero": "72103745 72205037"
+    },
+    {
+     "numero": "72105405 72201700"
+    },
+    {
+     "numero": "72204392 72008318"
+    },
+    {
+     "numero": "72205024 71909028"
     }
    ],
    "ean": [
@@ -45,7 +57,8 @@
     "8010589863059"
    ],
    "descripcion": "Producto de barnizado en varios colores: rojo italiano, marrón oscuro, azul cielo, blanco hielo, girasol amarillo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Latas metálicas de 750 ml."
   }
  ],
  "riesgo": {
@@ -119,15 +132,19 @@
    "ean:8010589863097",
    "ean:8010589863059",
    "mm:boero:smalto-brillante",
-   "ml:boero:72005091-72201354-7220336572103745-7220503772105405-7220170072204392-7200831872205024-71909028"
+   "ml:boero:72005091-72201354-72203365",
+   "ml:boero:72103745-72205037",
+   "ml:boero:72105405-72201700",
+   "ml:boero:72204392-72008318",
+   "ml:boero:72205024-71909028"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f516dedbe60876ec"
+  "enriquecido": true,
+  "hashContenido": "36a55fd4722321ff"
  },
  "slug": "barniz-boero-safety-gate-10009971"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "K08ED211230K09ED110131"
+     "numero": "K08ED211230"
+    },
+    {
+     "numero": "K09ED110131"
     }
    ],
    "ean": [
     "8003510023271"
    ],
    "descripcion": "Acondicionador con aceite de almendra y argán, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -101,15 +105,16 @@
    "ref:A12/02163/23",
    "ean:8003510023271",
    "mm:splend-or:condizionante-districante",
-   "ml:splend-or:k08ed211230k09ed110131"
+   "ml:splend-or:k08ed211230",
+   "ml:splend-or:k09ed110131"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d8b3f1a48820fd8d"
+  "enriquecido": true,
+  "hashContenido": "07101ab27eb0c616"
  },
  "slug": "acondicionador-splend-or-safety-gate-10009410"
 }

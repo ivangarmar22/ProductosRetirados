@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "40204847B0B1140734847B0B10"
+     "numero": "40204847B0B11"
+    },
+    {
+     "numero": "40734847B0B10"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "5410076762163"
    ],
    "descripcion": "Acondicionador de cabello, 200 y 230 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -115,15 +119,16 @@
    "ean:5410076459193",
    "ean:5410076762163",
    "mm:pantene:balsamo-per-capelli",
-   "ml:pantene:40204847b0b1140734847b0b10"
+   "ml:pantene:40204847b0b11",
+   "ml:pantene:40734847b0b10"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "49b7b3be6f54ce6e"
+  "enriquecido": true,
+  "hashContenido": "4e3b5fd2660b5197"
  },
  "slug": "acondicionador-de-cabello-pantene-safety-gate-10008992"
 }

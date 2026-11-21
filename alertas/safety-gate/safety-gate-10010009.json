@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,13 @@
     "Suzuki"
    ],
    "modelos": [
-    "e6*2007/46*0430*00",
-    "e6*2007/46*0430*01"
+    "e6*2007/46*0430*00, e6*2007/46*0430*01"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Turismo, equipado con un sistema híbrido enchufable que incluye un convertidor DC/DC",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +63,21 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +92,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01835/23",
-   "mm:suzuki:e6-2007-46-0430-00",
-   "mm:suzuki:e6-2007-46-0430-01"
+   "mm:suzuki:e6-2007-46-0430-00-e6-2007-46-0430-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f4d8130409ef1a72"
+  "enriquecido": true,
+  "hashContenido": "c13cd0e76bae803c"
  },
  "slug": "coche-de-pasajeros-suzuki-safety-gate-10010009"
 }

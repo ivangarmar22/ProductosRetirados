@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "FENDT M2-22P",
     "e1*167/2013*00423*00-*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.06.2022 - 06.07.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor agrícola",
-   "fechasTexto": "22.06.2022 - 06.07.2023"
+   "fechasTexto": "22.06.2022 - 06.07.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +94,16 @@
   "claves": [
    "ref:A12/02070/23",
    "mm:fendt:fendt-m2-22p",
-   "mm:fendt:e1-167-2013-00423-00-01"
+   "mm:fendt:e1-167-2013-00423-00-01",
+   "ml:fendt:22-06-2022-06-07-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "70ceb5051dcceccd"
+  "enriquecido": true,
+  "hashContenido": "52befb966bd09b4d"
  },
  "slug": "tractor-agricola-fendt-safety-gate-10010114"
 }

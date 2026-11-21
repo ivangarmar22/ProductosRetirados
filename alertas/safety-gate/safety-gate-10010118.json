@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "A5884A7855"
+     "numero": "A5884"
+    },
+    {
+     "numero": "A7855"
     }
    ],
    "ean": [
     "5425017732464"
    ],
    "descripcion": "EAU de parfum destinado a mujeres 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de metal."
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ref:A12/01899/23",
    "ean:5425017732464",
    "mm:cuba:jungle-zebra-edp-for-women",
-   "ml:cuba:a5884a7855"
+   "ml:cuba:a5884",
+   "ml:cuba:a7855"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eab3181cb73892fe"
+  "enriquecido": true,
+  "hashContenido": "0e5cc8ed2febb965"
  },
  "slug": "perfume-cuba-safety-gate-10010118"
 }

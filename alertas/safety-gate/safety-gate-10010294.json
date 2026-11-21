@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "312-16136"
-    },
-    {
-     "numero": "2101100"
+     "numero": "312-16136 / 2101100"
     }
    ],
    "ean": [
     "5056289408803"
    ],
    "descripcion": "Cubo con 5 actividades diferentes añadidas en los lados y la parte superior del cubo. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -69,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,16 +114,15 @@
   "claves": [
    "ref:A12/02176/23",
    "ean:5056289408803",
-   "ml:addo-play:312-16136",
-   "ml:addo-play:2101100"
+   "ml:addo-play:312-16136-2101100"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d439c1e7a40de49e"
+  "enriquecido": true,
+  "hashContenido": "681f064b9af9d1dc"
  },
  "slug": "cubo-de-actividad-addo-play-safety-gate-10010294"
 }

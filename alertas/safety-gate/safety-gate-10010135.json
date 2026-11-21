@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,7 +36,13 @@
    ],
    "lotes": [
     {
-     "numero": "202208172022081820220823"
+     "numero": "20220817"
+    },
+    {
+     "numero": "20220818"
+    },
+    {
+     "numero": "20220823"
     }
    ],
    "ean": [
@@ -48,7 +54,8 @@
     "6974670112575"
    ],
    "descripcion": "Cigarrillo electrónico desechable, forma cilíndrica, 3 % nicotina, volumen 10 ml, 3000 puffs.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de unidad en una caja de papel, que varía en color dependiendo del sabor."
   }
  ],
  "riesgo": {
@@ -121,15 +128,17 @@
    "mm:jook:mung-bean-ice",
    "mm:jook:peach",
    "mm:jook:pineapple-cherry-ice",
-   "ml:jook:202208172022081820220823"
+   "ml:jook:20220817",
+   "ml:jook:20220818",
+   "ml:jook:20220823"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1def8d21c65d8f47"
+  "enriquecido": true,
+  "hashContenido": "ff91a23f25994991"
  },
  "slug": "cigarrillo-electronico-desechable-jook-safety-gate-10010135"
 }

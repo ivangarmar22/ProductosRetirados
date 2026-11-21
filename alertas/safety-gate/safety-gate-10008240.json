@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-13"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,13 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "Grape Energy EP017303"
+     "numero": "Grape Energy EP017303, MFG: 2022.06.16"
     },
     {
-     "numero": "MFG: 2022.06.16Mango EP017330"
-    },
-    {
-     "numero": "MFG: 2022.05.17"
+     "numero": "Mango EP017330, MFG: 2022.05.17"
     }
    ],
    "ean": [
@@ -46,7 +43,8 @@
     "6939287931193"
    ],
    "descripcion": "Cigarrillo electrónico desechable, forma cilíndrica, 5 % nicotina, volumen 4,8 ml, 1500 puffs, capacidad de batería: 850 mAh, variando en color dependiendo del sabor.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de unidad en una caja de papel que varía en color dependiendo del sabor."
   }
  ],
  "riesgo": {
@@ -99,17 +97,16 @@
    "ean:6939287931193",
    "mm:elf-bar:grape-energy",
    "mm:elf-bar:mango",
-   "ml:elf-bar:grape-energy-ep017303",
-   "ml:elf-bar:mfg-2022-06-16mango-ep017330",
-   "ml:elf-bar:mfg-2022-05-17"
+   "ml:elf-bar:grape-energy-ep017303-mfg-2022-06-16",
+   "ml:elf-bar:mango-ep017330-mfg-2022-05-17"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eaf3d32695f0b450"
+  "enriquecido": true,
+  "hashContenido": "a6d4ff20fd715fcd"
  },
  "slug": "cigarrillo-electronico-desechable-elf-bar-safety-gate-10008240"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -30,9 +30,12 @@
     "Eau de toilette"
    ],
    "lotes": [],
-   "ean": [],
+   "ean": [
+    "8004830289118"
+   ],
    "descripcion": "EAU de toilette spray, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -93,15 +96,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01999/23",
+   "ean:8004830289118",
    "mm:comin-parfum:eau-de-toilette"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22aa6680ad6c389b"
+  "enriquecido": true,
+  "hashContenido": "d1a848aab7f7325a"
  },
  "slug": "eau-de-toilette-comin-parfum-safety-gate-10009910"
 }

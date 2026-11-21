@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "F407281367F40ZZ81368F413292346F418181999F426343300"
+     "numero": "F407281367"
+    },
+    {
+     "numero": "F40ZZ81368"
+    },
+    {
+     "numero": "F413292346"
+    },
+    {
+     "numero": "F418181999"
+    },
+    {
+     "numero": "F426343300"
     }
    ],
    "ean": [
@@ -42,7 +54,8 @@
     "8015700156775"
    ],
    "descripcion": "Espuma de baño, 750 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -129,15 +142,19 @@
    "ean:8015700153378",
    "ean:8015700156775",
    "mm:neutromed:bagnoschiuma",
-   "ml:neutromed:f407281367f40zz81368f413292346f418181999f426343300"
+   "ml:neutromed:f407281367",
+   "ml:neutromed:f40zz81368",
+   "ml:neutromed:f413292346",
+   "ml:neutromed:f418181999",
+   "ml:neutromed:f426343300"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "11a1079bf25a11b1"
+  "enriquecido": true,
+  "hashContenido": "ae48f91595712b8e"
  },
  "slug": "espuma-de-bano-neutromed-safety-gate-10009819"
 }

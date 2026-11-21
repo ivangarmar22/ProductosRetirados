@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "S60. V 60: (e4*2007/46*1315)",
-    "XC40: (e9*2007/46*3146)"
+    "S60. V 60: (e4*2007/46*1315); XC40: (e9*2007/46*3146)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022 - 2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2022 - 2023"
+   "fechasTexto": "2022 - 2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,23 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HR",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,16 +106,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02214/23",
-   "mm:volvo:s60-v-60-e4-2007-46-1315",
-   "mm:volvo:xc40-e9-2007-46-3146"
+   "mm:volvo:s60-v-60-e4-2007-46-1315-xc40-e9-2007-46-3146",
+   "ml:volvo:2022-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "23f5f5e72fe20943"
+  "enriquecido": true,
+  "hashContenido": "28e8f53f6938d69b"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10010249"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "057.19/54412.22/044320/0445442931688/544"
+     "numero": "057.19/544"
+    },
+    {
+     "numero": "12.22/044"
+    },
+    {
+     "numero": "320/044"
+    },
+    {
+     "numero": "54429316"
+    },
+    {
+     "numero": "88/544"
     }
    ],
    "ean": [
@@ -39,7 +51,8 @@
     "8058333445441"
    ],
    "descripcion": "EAU de toilette, 50 ml y 15 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -124,15 +137,19 @@
    "ean:8056157395447",
    "ean:8058333442440",
    "ean:8058333445441",
-   "ml:glamour-profumi:057-19-54412-22-044320-0445442931688-544"
+   "ml:glamour-profumi:057-19-544",
+   "ml:glamour-profumi:12-22-044",
+   "ml:glamour-profumi:320-044",
+   "ml:glamour-profumi:54429316",
+   "ml:glamour-profumi:88-544"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1b7993213350375b"
+  "enriquecido": true,
+  "hashContenido": "433b96d7e3c484e0"
  },
  "slug": "eau-de-toilette-glamour-profumi-safety-gate-10009449"
 }

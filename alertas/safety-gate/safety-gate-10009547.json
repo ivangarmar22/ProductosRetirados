@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,24 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "055020088121261221391"
+     "numero": "055020"
+    },
+    {
+     "numero": "08812"
+    },
+    {
+     "numero": "12612"
+    },
+    {
+     "numero": "21391"
     }
    ],
    "ean": [
     "80859840"
    ],
    "descripcion": "Desodorante enrollable",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico de 50 ml"
   }
  ],
  "riesgo": {
@@ -106,15 +116,18 @@
   "claves": [
    "ref:A12/02140/23",
    "ean:80859840",
-   "ml:borotalco:055020088121261221391"
+   "ml:borotalco:055020",
+   "ml:borotalco:08812",
+   "ml:borotalco:12612",
+   "ml:borotalco:21391"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a2e1328d97f0e365"
+  "enriquecido": true,
+  "hashContenido": "9b06219b1033e9be"
  },
  "slug": "desodorante-enrollable-borotalco-safety-gate-10009547"
 }

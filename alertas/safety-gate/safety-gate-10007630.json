@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-30"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,31 +29,28 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "APPLE PEACH MFG: 2022.10.30"
+     "numero": "APPLE PEACH MFG: 2022.10.30, EXP: 2023.10.29"
     },
     {
-     "numero": "EXP: 2023.10.29BANANA ICE MFG: 2022.10.30"
+     "numero": "BANANA ICE MFG: 2022.10.30, EXP: 2023.10.29"
     },
     {
-     "numero": "EXP: 2023.10.29BLACKCURRANT MENTHOL MFG: 2022.10.30"
+     "numero": "BLACKCURRANT MENTHOL MFG: 2022.10.30, EXP: 2023.10.29"
     },
     {
-     "numero": "EXP: 2023.10.29CHERRY CRANBERRY MFG: 2022.10.30"
+     "numero": "CHERRY CRANBERRY MFG: 2022.10.30, EXP: 2023.10.29"
     },
     {
-     "numero": "EXP: 2023.10.29COCONUT MELON MFG: 2022.10.30"
+     "numero": "COCONUT MELON MFG: 2022.10.30, EXP: 2023.10.29"
     },
     {
-     "numero": "EXP: 2023.10.29GRAPE MFG: 2022.08.10"
+     "numero": "GRAPE MFG: 2022.08.10, EXP: 2023.08.09"
     },
     {
-     "numero": "EXP: 2023.08.09REDBULL MFG: 2022.10.30"
+     "numero": "REDBULL MFG: 2022.10.30, EXP: 2023.10.29"
     },
     {
-     "numero": "EXP: 2023.10.29STRAWBERRY WATERMELON BUBBLE GUM MFG: 2022.10.30"
-    },
-    {
-     "numero": "EXP: 2023.10.29"
+     "numero": "STRAWBERRY WATERMELON BUBBLE GUM MFG: 2022.10.30, EXP: 2023.10.29"
     }
    ],
    "ean": [
@@ -65,7 +62,8 @@
     "6939287958244"
    ],
    "descripcion": "Cigarrillo electrónico desechable con un volumen de 4,8 ml, 1500 puffs, capacidad de batería: 850 mAh, forma cilíndrica, variando en color dependiendo del sabor.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cigarrillo electrónico desechable en un paquete de unidad, en una bolsa de plástico con un lado transparente y el otro opaco y el paquete exterior es una caja de papel."
   }
  ],
  "riesgo": {
@@ -120,23 +118,22 @@
    "ean:6939287953270",
    "ean:6939287958220",
    "ean:6939287958244",
-   "ml:elf-bar:apple-peach-mfg-2022-10-30",
-   "ml:elf-bar:exp-2023-10-29banana-ice-mfg-2022-10-30",
-   "ml:elf-bar:exp-2023-10-29blackcurrant-menthol-mfg-2022-10-30",
-   "ml:elf-bar:exp-2023-10-29cherry-cranberry-mfg-2022-10-30",
-   "ml:elf-bar:exp-2023-10-29coconut-melon-mfg-2022-10-30",
-   "ml:elf-bar:exp-2023-10-29grape-mfg-2022-08-10",
-   "ml:elf-bar:exp-2023-08-09redbull-mfg-2022-10-30",
-   "ml:elf-bar:exp-2023-10-29strawberry-watermelon-bubble-gum-mfg-2022-10-30",
-   "ml:elf-bar:exp-2023-10-29"
+   "ml:elf-bar:apple-peach-mfg-2022-10-30-exp-2023-10-29",
+   "ml:elf-bar:banana-ice-mfg-2022-10-30-exp-2023-10-29",
+   "ml:elf-bar:blackcurrant-menthol-mfg-2022-10-30-exp-2023-10-29",
+   "ml:elf-bar:cherry-cranberry-mfg-2022-10-30-exp-2023-10-29",
+   "ml:elf-bar:coconut-melon-mfg-2022-10-30-exp-2023-10-29",
+   "ml:elf-bar:grape-mfg-2022-08-10-exp-2023-08-09",
+   "ml:elf-bar:redbull-mfg-2022-10-30-exp-2023-10-29",
+   "ml:elf-bar:strawberry-watermelon-bubble-gum-mfg-2022-10-30-exp-2023-10-29"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cd4edc0551ef7dd3"
+  "enriquecido": true,
+  "hashContenido": "eab17ff7e25a9b5a"
  },
  "slug": "cigarrillo-electronico-desechable-elf-bar-safety-gate-10007630"
 }

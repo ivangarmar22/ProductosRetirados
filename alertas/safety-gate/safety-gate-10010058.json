@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "V",
     "e9*2018/858*11085*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.12.2022 - 30.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "27.12.2022 - 30.12.2022"
+   "fechasTexto": "27.12.2022 - 30.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02025/23",
-   "mm:polestar:e9-2018-858-11085"
+   "mm:polestar:e9-2018-858-11085",
+   "ml:polestar:27-12-2022-30-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "83c456a551bc55a2"
+  "enriquecido": true,
+  "hashContenido": "339c867a933784d4"
  },
  "slug": "coche-de-pasajeros-polestar-safety-gate-10010058"
 }

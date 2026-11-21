@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "0570/54909.20/549"
+     "numero": "0570/549"
+    },
+    {
+     "numero": "09.20/549"
     }
    ],
    "ean": [
     "8056157395492"
    ],
    "descripcion": "EAU de toilette, destinado a hombres, 15 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio."
   }
  ],
  "riesgo": {
@@ -102,15 +106,16 @@
   "claves": [
    "ref:A12/02161/23",
    "ean:8056157395492",
-   "ml:glamour-profumi:0570-54909-20-549"
+   "ml:glamour-profumi:0570-549",
+   "ml:glamour-profumi:09-20-549"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e7c939a9f22f40af"
+  "enriquecido": true,
+  "hashContenido": "d9deed549cc2ca07"
  },
  "slug": "eau-de-toilette-glamour-profumi-safety-gate-10009461"
 }

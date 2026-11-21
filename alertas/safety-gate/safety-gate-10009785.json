@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "67204294734130073553CO92203CO"
+     "numero": "67204294"
+    },
+    {
+     "numero": "7341300"
+    },
+    {
+     "numero": "73553CO"
+    },
+    {
+     "numero": "92203CO"
     }
    ],
    "ean": [
@@ -39,7 +48,8 @@
     "8718114470504"
    ],
    "descripcion": "Champú y acondicionador para cabello natural, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -124,15 +134,18 @@
    "ean:8712561652155",
    "ean:8717644384329",
    "ean:8718114470504",
-   "ml:sunsilk:67204294734130073553co92203co"
+   "ml:sunsilk:67204294",
+   "ml:sunsilk:7341300",
+   "ml:sunsilk:73553co",
+   "ml:sunsilk:92203co"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0060ba45ecfa39ac"
+  "enriquecido": true,
+  "hashContenido": "1427525c2d4d5278"
  },
  "slug": "champu-sunsilk-safety-gate-10009785"
 }

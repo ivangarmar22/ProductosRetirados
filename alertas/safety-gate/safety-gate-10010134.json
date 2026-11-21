@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "YMDE.23.0013.04"
-    },
-    {
-     "numero": "MHD 10/2024"
+     "numero": "YMDE.23.0013.04, MHD 10/2024"
     }
    ],
    "ean": [
     "3701389132494"
    ],
    "descripcion": "Cigarrillo electrónico de un solo uso sin nicotina",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja plegable"
   }
  ],
  "riesgo": {
@@ -85,16 +83,15 @@
   "claves": [
    "ref:A12/02032/23",
    "ean:3701389132494",
-   "ml:ypsilos-products-bv:ymde-23-0013-04",
-   "ml:ypsilos-products-bv:mhd-10-2024"
+   "ml:ypsilos-products-bv:ymde-23-0013-04-mhd-10-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c140ff3745c12e11"
+  "enriquecido": true,
+  "hashContenido": "69bebb26e14f8efc"
  },
  "slug": "cigarrillo-electronico-de-un-solo-uso-ypsilos-products-bv-safety-gate-10010134"
 }

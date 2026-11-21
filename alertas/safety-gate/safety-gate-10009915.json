@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Land Rover"
    ],
    "modelos": [
-    "e9*2018/858*11229*01",
-    "e9*2018/858*11120*02"
+    "e9*2018/858*11229*01; e9*2018/858*11120*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.01.2023 - 30.05.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, fabricado en 2023",
-   "fechasTexto": "20.01.2023 - 30.05.2023"
+   "fechasTexto": "20.01.2023 - 30.05.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01770/23",
-   "mm:land-rover:e9-2018-858-11229-01",
-   "mm:land-rover:e9-2018-858-11120-02"
+   "mm:land-rover:e9-2018-858-11229-01-e9-2018-858-11120-02",
+   "ml:land-rover:20-01-2023-30-05-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d97cb0773685d8cf"
+  "enriquecido": true,
+  "hashContenido": "44bb72218f1efc0c"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10009915"
 }

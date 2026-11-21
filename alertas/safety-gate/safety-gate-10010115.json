@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-08"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -35,12 +35,19 @@
    ],
    "lotes": [
     {
-     "numero": "2020.112020.122021.01"
+     "numero": "2020.11"
+    },
+    {
+     "numero": "2020.12"
+    },
+    {
+     "numero": "2021.01"
     }
    ],
    "ean": [],
    "descripcion": "Bicicleta eléctrica plegable, 16 pulgadas (modelos Ciudad) y 20 pulgadas (modelos Comfort). Varios colores. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +81,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -115,15 +125,17 @@
    "mm:eovolt:city-x-ev04-16-pouces",
    "mm:eovolt:confort-ev05-20-pouces",
    "mm:eovolt:confort-x-ev06-20-pouces",
-   "ml:eovolt:2020-112020-122021-01"
+   "ml:eovolt:2020-11",
+   "ml:eovolt:2020-12",
+   "ml:eovolt:2021-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "af270e000f492c02"
+  "enriquecido": true,
+  "hashContenido": "7b51c94e4df1c024"
  },
  "slug": "bicicleta-electrica-plegable-eovolt-safety-gate-10010115"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B15580B17225"
+     "numero": "B15580"
+    },
+    {
+     "numero": "B17225"
     }
    ],
    "ean": [
     "8715658002574"
    ],
    "descripcion": "EAU de parfum, destinado a mujeres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +92,16 @@
   "claves": [
    "ref:A12/01966/23",
    "ean:8715658002574",
-   "ml:real-time:b15580b17225"
+   "ml:real-time:b15580",
+   "ml:real-time:b17225"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b9d75f47fd9dc9dd"
+  "enriquecido": true,
+  "hashContenido": "b05132955dadea88"
  },
  "slug": "perfume-real-time-safety-gate-10008982"
 }

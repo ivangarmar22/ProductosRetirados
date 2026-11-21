@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Land Rover"
    ],
    "modelos": [
-    "e11*2007/46*0133*03",
-    "e11*2007/46*0133*06",
-    "e11*2007/46*0133*09-*14"
+    "e11*2007/46*0133*03, e11*2007/46*0133*06, e11*2007/46*0133*09-*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.01.2012 - 26.01.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "29.01.2012 - 26.01.2016"
+   "fechasTexto": "29.01.2012 - 26.01.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,17 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01487/23",
-   "mm:land-rover:e11-2007-46-0133-03",
-   "mm:land-rover:e11-2007-46-0133-06",
-   "mm:land-rover:e11-2007-46-0133-09-14"
+   "mm:land-rover:e11-2007-46-0133-03-e11-2007-46-0133-06-e11-2007-46-0133-09-14",
+   "ml:land-rover:29-01-2012-26-01-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6edc5d666db6d070"
+  "enriquecido": true,
+  "hashContenido": "422cbd2526bdb733"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10009607"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "22250610244453103325641040952610"
+     "numero": "22250610"
+    },
+    {
+     "numero": "24445310"
+    },
+    {
+     "numero": "33256410"
+    },
+    {
+     "numero": "40952610"
     }
    ],
    "ean": [
@@ -39,7 +48,8 @@
     "4005900811066"
    ],
    "descripcion": "Tónico para la piel normal y sensible.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico de 200 ml"
   }
  ],
  "riesgo": {
@@ -123,15 +133,18 @@
    "ean:4005808686155",
    "ean:4005900811066",
    "mm:nivea:tonico-pelli-secche-e-sensibili",
-   "ml:nivea:22250610244453103325641040952610"
+   "ml:nivea:22250610",
+   "ml:nivea:24445310",
+   "ml:nivea:33256410",
+   "ml:nivea:40952610"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4b1f0e4b50ab9892"
+  "enriquecido": true,
+  "hashContenido": "744eb89454e77cc4"
  },
  "slug": "tonico-nivea-safety-gate-10009423"
 }

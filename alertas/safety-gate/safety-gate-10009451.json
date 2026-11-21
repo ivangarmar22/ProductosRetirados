@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-17"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "8711252124278"
    ],
    "descripcion": "Juguete láser con cabeza móvil.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,12 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FR",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d741d9a912065820"
+  "enriquecido": true,
+  "hashContenido": "359d787c440cf52c"
  },
  "slug": "juguete-laser-cat-safety-gate-10009451"
 }

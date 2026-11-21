@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -33,7 +33,13 @@
    ],
    "lotes": [
     {
-     "numero": "429264292742928"
+     "numero": "42926"
+    },
+    {
+     "numero": "42927"
+    },
+    {
+     "numero": "42928"
     }
    ],
    "ean": [
@@ -42,7 +48,8 @@
     "8003558429288"
    ],
    "descripcion": "Disfraz para niños compuesto por una túnica marrón, una diadema emplumada y un cinturón con perlas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico con una etiqueta con marcas."
   }
  ],
  "riesgo": {
@@ -76,7 +83,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,15 +116,17 @@
    "mm:widmann:128cm",
    "mm:widmann:140cm",
    "mm:widmann:158cm",
-   "ml:widmann:429264292742928"
+   "ml:widmann:42926",
+   "ml:widmann:42927",
+   "ml:widmann:42928"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "511381e65832f1cb"
+  "enriquecido": true,
+  "hashContenido": "cf1ce702f33aca3b"
  },
  "slug": "disfraz-de-disfraces-widmann-safety-gate-10010086"
 }

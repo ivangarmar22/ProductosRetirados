@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B03ED130431B03ED210631"
+     "numero": "B03ED130431"
+    },
+    {
+     "numero": "B03ED210631"
     }
    ],
    "ean": [
     "8003510028023"
    ],
    "descripcion": "Leche de baño, anunciada como que contiene leche de almendras, 750 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -102,15 +106,16 @@
   "claves": [
    "ref:A12/02190/23",
    "ean:8003510028023",
-   "ml:nidra:b03ed130431b03ed210631"
+   "ml:nidra:b03ed130431",
+   "ml:nidra:b03ed210631"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "47b59f50b2dd4eea"
+  "enriquecido": true,
+  "hashContenido": "8db8cfdd23aa37db"
  },
  "slug": "leche-de-bano-nidra-safety-gate-10009550"
 }
