@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,20 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e2*2007/46*0685*00",
-    "e2*2007/46*0685*01",
-    "e2*2007/46*0685*03",
-    "e2*2007/46*0685*05",
-    "e2*2007/46*0685*08",
-    "e2*2007/46*0685*09",
-    "e2*2007/46*0686*01",
-    "e2*2007/46*0686*02",
-    "e2*2007/46*0686*07"
+    "e2*2007/46*0685*00, e2*2007/46*0685*01, e2*2007/46*0685*03, e2*2007/46*0685*05, e2*2007/46*0685*08, e2*2007/46*0685*09, e2*2007/46*0686*01, e2*2007/46*0686*02, e2*2007/46*0686*07."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.12.2019 - 30.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Frame Code Proace City (BKYMA, BKYMD, BPZMA, BPZMD) y Proace City BEV (BPZMA); año modelo: 2022.",
-   "fechasTexto": "02.12.2019 - 30.06.2022"
+   "fechasTexto": "02.12.2019 - 30.06.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "GR",
+   "HR",
+   "IS",
+   "NL",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,23 +98,16 @@
  "dedup": {
   "claves": [
    "ref:INFO/00118/23",
-   "mm:toyota:e2-2007-46-0685-00",
-   "mm:toyota:e2-2007-46-0685-01",
-   "mm:toyota:e2-2007-46-0685-03",
-   "mm:toyota:e2-2007-46-0685-05",
-   "mm:toyota:e2-2007-46-0685-08",
-   "mm:toyota:e2-2007-46-0685-09",
-   "mm:toyota:e2-2007-46-0686-01",
-   "mm:toyota:e2-2007-46-0686-02",
-   "mm:toyota:e2-2007-46-0686-07"
+   "mm:toyota:e2-2007-46-0685-00-e2-2007-46-0685-01-e2-2007-46-0685-03-e2-2007-46-0685-05-e2-2007-46-0685-08-e2-2007-46-0685-09-e2-2007-46-0686-01-e2-2007-46-0686-02-e2-2007-46-0686-07",
+   "ml:toyota:02-12-2019-30-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bf59d87cd23c8c06"
+  "enriquecido": true,
+  "hashContenido": "a35ddcf1a9ac013b"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10010080"
 }

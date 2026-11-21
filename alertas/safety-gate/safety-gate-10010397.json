@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-06"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "5900779940536"
    ],
    "descripcion": "Accesorio de corte compuesto por 6 cuchillos. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de blíster."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db935cc20ff43075"
+  "enriquecido": true,
+  "hashContenido": "d5d1d39f1bf00724"
  },
  "slug": "accesorio-para-cortadoras-de-cepillos-malatec-safety-gate-10010397"
 }

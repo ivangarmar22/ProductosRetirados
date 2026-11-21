@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-17"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -38,7 +38,8 @@
     "5709386732127"
    ],
    "descripcion": "Ventilador de mesa. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "385a1c1d0a472386"
+  "enriquecido": true,
+  "hashContenido": "a262c3bfb1959778"
  },
  "slug": "ventilador-de-mesa-day-safety-gate-10010416"
 }

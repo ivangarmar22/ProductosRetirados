@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -25,14 +25,13 @@
    "nombre": "Adaptador de corriente",
    "marcas": [],
    "modelos": [
-    "Adapter",
-    "input 100-240V 50/60Hz",
-    "output 5V/1000mA"
+    "Adapter, input 100-240V 50/60Hz, output 5V/1000mA"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Adaptador de CA/DC para una lámpara led, entrada 100-240V 50/60Hz, salida 5V/1000mA",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c36b4433b195e182"
+  "enriquecido": true,
+  "hashContenido": "c9a8cca151cb08e1"
  },
  "slug": "adaptador-de-corriente-safety-gate-10009730"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "033107111371"
+     "numero": "0331"
+    },
+    {
+     "numero": "0711"
+    },
+    {
+     "numero": "1371"
     }
    ],
    "ean": [
     "8002410043518"
    ],
    "descripcion": "Spray desodorante",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de aluminio"
   }
  ],
  "riesgo": {
@@ -93,15 +100,17 @@
    "ref:A12/02438/23",
    "ean:8002410043518",
    "mm:borotalco:active-r303907",
-   "ml:borotalco:033107111371"
+   "ml:borotalco:0331",
+   "ml:borotalco:0711",
+   "ml:borotalco:1371"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "968806c7dbe44081"
+  "enriquecido": true,
+  "hashContenido": "1b8ee3760525f8ac"
  },
  "slug": "spray-desodorante-borotalco-safety-gate-10009079"
 }

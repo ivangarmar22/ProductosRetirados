@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Bentley"
    ],
    "modelos": [
-    "e11*KS07/46*3141* (4VS)",
-    "e11*2007/46*3609* (4V)",
-    "e5*2007/46*1125* (4V)"
+    "e11*KS07/46*3141* (4VS), e11*2007/46*3609* (4V), e5*2007/46*1125* (4V)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.11.2015 - 9.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros equipado con un motor W12.",
-   "fechasTexto": "2.11.2015 - 9.07.2021"
+   "fechasTexto": "2.11.2015 - 9.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "NL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,17 +92,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02320/23",
-   "mm:bentley:e11-ks07-46-3141-4vs",
-   "mm:bentley:e11-2007-46-3609-4v",
-   "mm:bentley:e5-2007-46-1125-4v"
+   "mm:bentley:e11-ks07-46-3141-4vs-e11-2007-46-3609-4v-e5-2007-46-1125-4v",
+   "ml:bentley:2-11-2015-9-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f05048ed0cd49f9d"
+  "enriquecido": true,
+  "hashContenido": "07ffeeeb8b3e34c6"
  },
  "slug": "coche-de-pasajeros-bentley-safety-gate-10010346"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,17 @@
     "Audi"
    ],
    "modelos": [
-    "Type-approval numbers: e1*96/27*0051*",
-    "e1*93/81*0005*",
-    "e1*93/81*0013*",
-    "e1*98/14*0089*",
-    "e1*92/53*0002*",
-    "Types: 4B",
-    "D2",
-    "B5",
-    "8N",
-    "89"
+    "Type-approval numbers: e1*96/27*0051*, e1*93/81*0005*, e1*93/81*0013*, e1*98/14*0089*, e1*92/53*0002*; Types: 4B, D2, B5, 8N, 89"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 1997 and 1999."
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos equipados con inflador de bolsa de aire Takata NADI (inflador de conductor no-Azide).",
-   "fechasTexto": "The affected vehicles were manufactured between 1997 and 1999."
+   "fechasTexto": "The affected vehicles were manufactured between 1997 and 1999.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,20 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00849/20",
-   "mm:audi:type-approval-numbers-e1-96-27-0051",
-   "mm:audi:e1-93-81-0005",
-   "mm:audi:e1-93-81-0013",
-   "mm:audi:e1-98-14-0089",
-   "mm:audi:e1-92-53-0002",
-   "mm:audi:types-4b"
+   "mm:audi:type-approval-numbers-e1-96-27-0051-e1-93-81-0005-e1-93-81-0013-e1-98-14-0089-e1-92-53-0002-types-4b-d2-b5-8n-89",
+   "ml:audi:the-affected-vehicles-were-manufactured-between-1997-and-1999"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "72667b113b04ddc5"
+  "enriquecido": true,
+  "hashContenido": "51d01fa07bcc4a0a"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10001355"
 }

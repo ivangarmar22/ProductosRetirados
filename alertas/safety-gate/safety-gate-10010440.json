@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-06"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -38,7 +38,8 @@
     "5904665712023"
    ],
    "descripcion": "Accesorio de corte compuesto por 2 cadenas. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -76,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50fec242abbade1c"
+  "enriquecido": true,
+  "hashContenido": "d0c2392162ea8783"
  },
  "slug": "accesorio-para-cortadoras-de-cepillos-bigstren-safety-gate-10010440"
 }

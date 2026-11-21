@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "PJ",
     "e8*2018/858*00014*00-*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.6.2021 - 10.6.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "21.6.2021 - 10.6.2022"
+   "fechasTexto": "21.6.2021 - 10.6.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +103,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02322/23",
-   "mm:skoda:e8-2018-858-00014-00-06"
+   "mm:skoda:e8-2018-858-00014-00-06",
+   "ml:skoda:21-6-2021-10-6-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ef5cd9dc077df7ec"
+  "enriquecido": true,
+  "hashContenido": "25447693d7b1814a"
  },
  "slug": "coche-de-pasajeros-skoda-safety-gate-10010368"
 }

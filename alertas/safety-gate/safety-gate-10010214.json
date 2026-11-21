@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-28"
  },
  "categoria": {
   "literal": "Artículos de decoración",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "QE8617848-01QE8617851-01"
+     "numero": "QE8617848-01"
+    },
+    {
+     "numero": "QE8617851-01"
     }
    ],
    "ean": [],
    "descripcion": "Una escultura en forma de oso con un soporte de luz de té que cuelga del brazo extendido del oso. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,15 +93,16 @@
   "claves": [
    "ref:A12/02282/23",
    "mm:next:bronze-bear",
-   "ml:next:qe8617848-01qe8617851-01"
+   "ml:next:qe8617848-01",
+   "ml:next:qe8617851-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b890c59300a1bc63"
+  "enriquecido": true,
+  "hashContenido": "062f5277b31d0288"
  },
  "slug": "portavelas-de-tealight-next-safety-gate-10010214"
 }

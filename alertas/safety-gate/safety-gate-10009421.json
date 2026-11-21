@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-14"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "640316747165267471652774"
+     "numero": "64031674"
+    },
+    {
+     "numero": "71652674"
+    },
+    {
+     "numero": "71652774"
     }
    ],
    "ean": [
     "4005808247868"
    ],
    "descripcion": "Reafirmar la leche hidratante para la piel normal, 250 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -105,15 +112,17 @@
    "ref:A12/02164/23",
    "ean:4005808247868",
    "mm:nivea:latte-idratante",
-   "ml:nivea:640316747165267471652774"
+   "ml:nivea:64031674",
+   "ml:nivea:71652674",
+   "ml:nivea:71652774"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8550df043f5ae687"
+  "enriquecido": true,
+  "hashContenido": "48fa001207196b12"
  },
  "slug": "leche-hidratante-nivea-safety-gate-10009421"
 }

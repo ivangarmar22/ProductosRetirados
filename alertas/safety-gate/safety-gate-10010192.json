@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Genesis"
    ],
    "modelos": [
-    "JW",
-    "JK1",
-    "JX1",
-    "RG3",
-    "e4*2018/858*00060*",
-    "e4*2018/858*00027*",
-    "e5*2007/46*0098*",
-    "e5*2007/46*0106*"
+    "JW, JK1, JX1, RG3",
+    "e4*2018/858*00060*, e4*2018/858*00027*, e5*2007/46*0098*, e5*2007/46*0106*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.03.2019 - 21.02.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "23.03.2019 - 21.02.2023"
+   "fechasTexto": "23.03.2019 - 21.02.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,21 +101,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02259/23",
-   "mm:genesis:jk1",
-   "mm:genesis:jx1",
-   "mm:genesis:rg3",
-   "mm:genesis:e4-2018-858-00060",
-   "mm:genesis:e4-2018-858-00027",
-   "mm:genesis:e5-2007-46-0098",
-   "mm:genesis:e5-2007-46-0106"
+   "mm:genesis:jw-jk1-jx1-rg3",
+   "mm:genesis:e4-2018-858-00060-e4-2018-858-00027-e5-2007-46-0098-e5-2007-46-0106",
+   "ml:genesis:23-03-2019-21-02-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "229c6295cf7fac19"
+  "enriquecido": true,
+  "hashContenido": "debe1e68fbf83f2a"
  },
  "slug": "coche-de-pasajeros-genesis-safety-gate-10010192"
 }

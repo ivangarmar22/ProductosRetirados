@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-26"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Lonchera eléctrica para calentar la comida. Producto vendido en línea en particular a través de Amazon ASIN 429200002846",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón verde y blanco con la marca ‘ERAY’."
   }
  ],
  "riesgo": {
@@ -78,7 +79,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,11 +121,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ccda836075d1407b"
+  "enriquecido": true,
+  "hashContenido": "fdaafdf77eaf7454"
  },
  "slug": "caja-de-almuerzo-electrica-eray-safety-gate-10010311"
 }

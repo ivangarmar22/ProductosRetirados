@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-11"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "EUROLAMP"
    ],
    "modelos": [
-    "145-20003",
-    "MDR-IEL-S-7W"
+    "145-20003 / MDR-IEL-S-7W"
    ],
    "lotes": [],
    "ean": [
     "5207227033025"
    ],
    "descripcion": "Lámpara led",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca"
   }
  ],
  "riesgo": {
@@ -93,16 +93,15 @@
   "claves": [
    "ref:A12/02500/23",
    "ean:5207227033025",
-   "mm:eurolamp:145-20003",
-   "mm:eurolamp:mdr-iel-s-7w"
+   "mm:eurolamp:145-20003-mdr-iel-s-7w"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b24da56a6670fa9f"
+  "enriquecido": true,
+  "hashContenido": "f712c832a0400ea9"
  },
  "slug": "lampara-led-eurolamp-safety-gate-10010539"
 }

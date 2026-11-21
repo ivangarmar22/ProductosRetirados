@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0538*21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.01.2023 - 07.03.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero. Código de marco: Proace (MDZA42, MDZA62, MDZA63); Proace Verso (MPY561, MPYA41, MPYA61); año modelo: 2023.",
-   "fechasTexto": "11.01.2023 - 07.03.2023"
+   "fechasTexto": "11.01.2023 - 07.03.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HU",
+   "NL",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +92,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02274/23",
-   "mm:toyota:e2-2007-46-0538-21"
+   "mm:toyota:e2-2007-46-0538-21",
+   "ml:toyota:11-01-2023-07-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f77745758f0aeca2"
+  "enriquecido": true,
+  "hashContenido": "f5637e4608e4649f"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10010366"
 }

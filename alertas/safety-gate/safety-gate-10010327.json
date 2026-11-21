@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-03"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "964992904129484780"
+     "numero": "96499290"
+    },
+    {
+     "numero": "4129484780"
     }
    ],
    "ean": [
     "4015600636722"
    ],
    "descripcion": "Champú",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico de 250 ml con tapa dispensadora"
   }
  ],
  "riesgo": {
@@ -85,15 +89,16 @@
    "ref:A12/02381/23",
    "ean:4015600636722",
    "mm:pantene:shampoo-con-siero-anti-eta",
-   "ml:pantene:964992904129484780"
+   "ml:pantene:96499290",
+   "ml:pantene:4129484780"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7a6aa75ac328dee2"
+  "enriquecido": true,
+  "hashContenido": "2507f7f9236cc3f7"
  },
  "slug": "champu-pantene-safety-gate-10010327"
 }

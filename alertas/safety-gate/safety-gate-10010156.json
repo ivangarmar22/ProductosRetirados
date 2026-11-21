@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-23"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -34,12 +34,19 @@
    ],
    "lotes": [
     {
-     "numero": "20xx21xx22xx"
+     "numero": "20xx"
+    },
+    {
+     "numero": "21xx"
+    },
+    {
+     "numero": "22xx"
     }
    ],
    "ean": [],
    "descripcion": "Casco de montar con pico ancho y carcasa ABS, correa de PU con hebilla de doble bloqueo. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón azul marino con el logotipo de la marca"
   }
  ],
  "riesgo": {
@@ -69,7 +76,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,15 +107,17 @@
    "mm:gpa:first-lady-2x",
    "mm:gpa:first-lady-concept",
    "mm:gpa:little-lady",
-   "ml:gpa:20xx21xx22xx"
+   "ml:gpa:20xx",
+   "ml:gpa:21xx",
+   "ml:gpa:22xx"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "589a2f5f301e6403"
+  "enriquecido": true,
+  "hashContenido": "ca5b43346c8308d4"
  },
  "slug": "casco-de-montar-gpa-safety-gate-10010156"
 }

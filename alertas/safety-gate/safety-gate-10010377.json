@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*168/2013*01513*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022-2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "2022-2023"
+   "fechasTexto": "2022-2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +97,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02317/23",
-   "mm:moto-guzzi:e13-168-2013-01513-02"
+   "mm:moto-guzzi:e13-168-2013-01513-02",
+   "ml:moto-guzzi:2022-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3d8fc26a0a20ce81"
+  "enriquecido": true,
+  "hashContenido": "3443b5feea68eb5e"
  },
  "slug": "moto-moto-guzzi-safety-gate-10010377"
 }

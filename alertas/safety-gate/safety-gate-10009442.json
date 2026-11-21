@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "5575255753"
+     "numero": "55752"
+    },
+    {
+     "numero": "55753"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "8008970048833"
    ],
    "descripcion": "Jabón de manos líquido anuncia que contiene almizcle blanco 300 ml y 500 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico verde con tapa de dispensación y cierre."
   }
  ],
  "riesgo": {
@@ -96,15 +100,16 @@
    "ref:A12/02328/23",
    "ean:8008970002637",
    "ean:8008970048833",
-   "ml:vidal:5575255753"
+   "ml:vidal:55752",
+   "ml:vidal:55753"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "361508a8b57e8161"
+  "enriquecido": true,
+  "hashContenido": "89fc4f83efec521e"
  },
  "slug": "jabon-liquido-de-manos-vidal-safety-gate-10009442"
 }

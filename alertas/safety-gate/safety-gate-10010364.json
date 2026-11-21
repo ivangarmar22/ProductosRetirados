@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*0301*25 (906BB35)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.10.2022 - 19.10.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero, serie Sprinter (907)",
-   "fechasTexto": "17.10.2022 - 19.10.2022"
+   "fechasTexto": "17.10.2022 - 19.10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02323/23",
-   "mm:mercedes-benz:e1-2007-46-0301-25-906bb35"
+   "mm:mercedes-benz:e1-2007-46-0301-25-906bb35",
+   "ml:mercedes-benz:17-10-2022-19-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cd0dcd1957eecad0"
+  "enriquecido": true,
+  "hashContenido": "d2e545012cc51131"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10010364"
 }

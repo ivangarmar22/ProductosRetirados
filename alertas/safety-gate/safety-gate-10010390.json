@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,9 +27,7 @@
     "So cute"
    ],
    "modelos": [
-    "SKU34523602",
-    "345236.Y/NOS SS23",
-    "PLU 345 236"
+    "SKU34523602, 345236.Y/NOS SS23, PLU 345 236"
    ],
    "lotes": [
     {
@@ -40,7 +38,8 @@
     "2200134523668"
    ],
    "descripcion": "Juguete de cascabel de plástico colorido con piezas de goma en la cabeza de una vaca",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de plástico"
   }
  ],
  "riesgo": {
@@ -70,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "HR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,18 +106,16 @@
   "claves": [
    "ref:A12/02405/23",
    "ean:2200134523668",
-   "mm:so-cute:sku34523602",
-   "mm:so-cute:345236-y-nos-ss23",
-   "mm:so-cute:plu-345-236",
+   "mm:so-cute:sku34523602-345236-y-nos-ss23-plu-345-236",
    "ml:so-cute:20221-105"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "767c555e171ddc54"
+  "enriquecido": true,
+  "hashContenido": "25dff6f7413b2a26"
  },
  "slug": "juguete-de-sonajero-so-cute-safety-gate-10010390"
 }

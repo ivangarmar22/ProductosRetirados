@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-14"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "Parkside"
    ],
    "modelos": [
-    "Parkside Powerstation PSGE 300",
-    "Parkside Powerstation PSGE 500"
+    "Parkside Powerstation PSGE 300, Parkside Powerstation PSGE 500"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Central eléctrica móvil. PSGE 300 A1: número de artículo 3912802974-3912802978; 39128029916; 39128019951; 39128029975; 39128029976, PSGE 500 A1: número de pieza: 3912801974-3912801977; 39128019916; 39128019951; 39128019976. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -87,16 +87,15 @@
  "dedup": {
   "claves": [
    "ref:A12/02199/23",
-   "mm:parkside:parkside-powerstation-psge-300",
-   "mm:parkside:parkside-powerstation-psge-500"
+   "mm:parkside:parkside-powerstation-psge-300-parkside-powerstation-psge-500"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b3e278b7fb1b5f6d"
+  "enriquecido": true,
+  "hashContenido": "edb754a0b5859f75"
  },
  "slug": "central-electrica-portatil-parkside-safety-gate-10010012"
 }

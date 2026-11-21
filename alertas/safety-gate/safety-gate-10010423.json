@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R2S",
     "e1*2007/46*2115*00-*10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2020 - 12.04.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, Clase S Serie 223",
-   "fechasTexto": "01.08.2020 - 12.04.2023"
+   "fechasTexto": "01.08.2020 - 12.04.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "IS",
+   "LU",
+   "NL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +105,16 @@
   "claves": [
    "ref:A12/02416/23",
    "mm:mercedes-benz:r2s",
-   "mm:mercedes-benz:e1-2007-46-2115-00-10"
+   "mm:mercedes-benz:e1-2007-46-2115-00-10",
+   "ml:mercedes-benz:01-08-2020-12-04-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2b15bff6327f7f07"
+  "enriquecido": true,
+  "hashContenido": "d9676ae106172d69"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10010423"
 }

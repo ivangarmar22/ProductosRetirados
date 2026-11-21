@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Iveco"
    ],
    "modelos": [
-    "2Y3C",
-    "BA3C",
-    "1A3C",
-    "AA3C",
-    "e3*2007/46*0136*25-*28",
-    "e3*2007/46*0135*21-*22",
-    "e3*2007/46*0143*23-*25",
-    "e3*2007/46*0104*20"
+    "2Y3C, BA3C, 1A3C, AA3C",
+    "e3*2007/46*0136*25-*28, e3*2007/46*0135*21-*22, e3*2007/46*0143*23-*25, e3*2007/46*0104*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.02.2022 - 28.11.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "22.02.2022 - 28.11.2022"
+   "fechasTexto": "22.02.2022 - 28.11.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HR",
+   "IE",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,22 +103,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02325/23",
-   "mm:iveco:2y3c",
-   "mm:iveco:ba3c",
-   "mm:iveco:1a3c",
-   "mm:iveco:aa3c",
-   "mm:iveco:e3-2007-46-0136-25-28",
-   "mm:iveco:e3-2007-46-0135-21-22",
-   "mm:iveco:e3-2007-46-0143-23-25",
-   "mm:iveco:e3-2007-46-0104-20"
+   "mm:iveco:2y3c-ba3c-1a3c-aa3c",
+   "mm:iveco:e3-2007-46-0136-25-28-e3-2007-46-0135-21-22-e3-2007-46-0143-23-25-e3-2007-46-0104-20",
+   "ml:iveco:22-02-2022-28-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30c8fb8273cae893"
+  "enriquecido": true,
+  "hashContenido": "a959d5ed12ad5579"
  },
  "slug": "camion-iveco-safety-gate-10010387"
 }

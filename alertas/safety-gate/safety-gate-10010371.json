@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Hyundai"
    ],
    "modelos": [
-    "e4*2007/46*0263* (VF)",
-    "e4*2007/46*1259* (OS)"
+    "e4*2007/46*0263* (VF), e4*2007/46*1259* (OS)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Kona: 14.12.2018 - 21.6.2020; i40: 20.12.2018 - 30.5.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "Kona: 14.12.2018 - 21.6.2020; i40: 20.12.2018 - 30.5.2020"
+   "fechasTexto": "Kona: 14.12.2018 - 21.6.2020; i40: 20.12.2018 - 30.5.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,16 +110,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02321/23",
-   "mm:hyundai:e4-2007-46-0263-vf",
-   "mm:hyundai:e4-2007-46-1259-os"
+   "mm:hyundai:e4-2007-46-0263-vf-e4-2007-46-1259-os",
+   "ml:hyundai:kona-14-12-2018-21-6-2020-i40-20-12-2018-30-5-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "67bb74b6c486b36a"
+  "enriquecido": true,
+  "hashContenido": "af71f2cd370a426c"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10010371"
 }

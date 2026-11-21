@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-28"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Accesorio de corte compuesto por 6 cuchillos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de blíster."
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6510631b8ab0a007"
+  "enriquecido": true,
+  "hashContenido": "64dcbd571b800ebe"
  },
  "slug": "accesorio-para-cortadoras-de-cepillos-flail-type-cutting-attachments-w-safety-gate-10010394"
 }

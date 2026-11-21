@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "AG6189B106166"
+     "numero": "AG6189"
+    },
+    {
+     "numero": "B106166"
     }
    ],
    "ean": [
     "8003510028597"
    ],
    "descripcion": "Paquete que contiene una crema corporal, un desodorante y una bolsa.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -106,15 +110,16 @@
   "claves": [
    "ref:A12/02354/23",
    "ean:8003510028597",
-   "ml:breeze:ag6189b106166"
+   "ml:breeze:ag6189",
+   "ml:breeze:b106166"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f909092f9b8d5ce9"
+  "enriquecido": true,
+  "hashContenido": "579b14e5f71e880c"
  },
  "slug": "conjunto-de-belleza-breeze-safety-gate-10009006"
 }

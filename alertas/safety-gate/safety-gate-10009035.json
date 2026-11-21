@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "5008034215043L28919507316521508419620"
+     "numero": "500803421"
+    },
+    {
+     "numero": "5043L28919"
+    },
+    {
+     "numero": "507316521"
+    },
+    {
+     "numero": "508419620"
     }
    ],
    "ean": [
@@ -39,7 +48,8 @@
     "8055510215842"
    ],
    "descripcion": "Eau de parfum destinado a los hombres.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio de 15 ml"
   }
  ],
  "riesgo": {
@@ -124,15 +134,18 @@
    "ean:8055510215439",
    "ean:8055510215736",
    "ean:8055510215842",
-   "ml:ekuival-parfume:5008034215043l28919507316521508419620"
+   "ml:ekuival-parfume:500803421",
+   "ml:ekuival-parfume:5043l28919",
+   "ml:ekuival-parfume:507316521",
+   "ml:ekuival-parfume:508419620"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6535e2e3054470b6"
+  "enriquecido": true,
+  "hashContenido": "603801777e7763da"
  },
  "slug": "perfume-ekuival-parfume-safety-gate-10009035"
 }

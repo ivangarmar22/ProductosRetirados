@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-06"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
     "5907621820862"
    ],
    "descripcion": "Accesorio de corte con 2 cadenas para cortadoras de cepillo portátiles. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4d28c6f0ebe0a01d"
+  "enriquecido": true,
+  "hashContenido": "f8795299f0a7bb71"
  },
  "slug": "accesorio-para-cortadoras-de-cepillos-trimmer-head-safety-gate-10010299"
 }

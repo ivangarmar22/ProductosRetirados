@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*2007/46*6537"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.12.2017 - 30.5.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "17.12.2017 - 30.5.2023"
+   "fechasTexto": "17.12.2017 - 30.5.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02477/23",
-   "mm:nissan:e9-2007-46-6537"
+   "mm:nissan:e9-2007-46-6537",
+   "ml:nissan:17-12-2017-30-5-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6d61843880bcbeba"
+  "enriquecido": true,
+  "hashContenido": "5a65787de4452ed0"
  },
  "slug": "coche-de-pasajeros-nissan-safety-gate-10010476"
 }

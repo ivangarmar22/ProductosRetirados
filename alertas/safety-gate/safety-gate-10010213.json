@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-28"
  },
  "categoria": {
   "literal": "Artículos de decoración",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "QE8622639-01QE8622642-01"
+     "numero": "QE8622639-01"
+    },
+    {
+     "numero": "QE8622642-01"
     }
    ],
    "ean": [],
    "descripcion": "Un soporte de luz de té en forma de jirafa. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -88,15 +92,16 @@
   "claves": [
    "ref:A12/02297/23",
    "mm:next:giraffe",
-   "ml:next:qe8622639-01qe8622642-01"
+   "ml:next:qe8622639-01",
+   "ml:next:qe8622642-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c9a969451fbb2e40"
+  "enriquecido": true,
+  "hashContenido": "238889d0feb0f030"
  },
  "slug": "portavelas-de-tealight-next-safety-gate-10010213"
 }

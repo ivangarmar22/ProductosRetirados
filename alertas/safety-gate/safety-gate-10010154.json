@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-09"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -38,7 +38,8 @@
     "3583787258972"
    ],
    "descripcion": "Flotador de natación inflable destinado a niños pequeños con un soporte en el que se proporcionan dos agujeros para las piernas, con correas para asegurar al niño. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "HR",
+   "IE",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6103fb2d3479ccd8"
+  "enriquecido": true,
+  "hashContenido": "88321265edb0889f"
  },
  "slug": "flotador-de-natacion-inflable-nabaiji-decathlon-safety-gate-10010154"
 }

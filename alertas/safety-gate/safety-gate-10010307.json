@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-23"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
     "2200434325665"
    ],
    "descripcion": "Pijama infantil/en general destinado a niñas pequeñas. Los pijamas tienen manga larga y pantalones, color beige con un estampado de varias formas (naranja y marrón medio bloque, garabatos púrpura, hoja verde).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente."
   }
  ],
  "riesgo": {
@@ -66,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Bangladés",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6a4d33a5dc2319e7"
+  "enriquecido": true,
+  "hashContenido": "f1277fd2bc6de2f9"
  },
  "slug": "pijama-infantil-turtledove-london-safety-gate-10010307"
 }

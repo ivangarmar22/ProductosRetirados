@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*0870*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2008 - 2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Remolque (remolque de tres caras)",
-   "fechasTexto": "2008 - 2023"
+   "fechasTexto": "2008 - 2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -85,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02248/23",
-   "mm:humbaur-kogel:e1-2007-46-0870"
+   "mm:humbaur-kogel:e1-2007-46-0870",
+   "ml:humbaur-kogel:2008-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ff80dca837e88580"
+  "enriquecido": true,
+  "hashContenido": "1a8b75ca5853fcfc"
  },
  "slug": "trailer-humbaur-kogel-safety-gate-10010297"
 }

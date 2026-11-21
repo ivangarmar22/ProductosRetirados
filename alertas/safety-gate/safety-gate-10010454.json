@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-05"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Linterna recargable",
    "marcas": [
-    "OrcaTorch, Power adapter"
+    "OrcaTorch",
+    "Power adapter"
    ],
    "modelos": [
     "WR10"
@@ -32,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Linterna recargable con módulo led, vendida con fuente de alimentación y estación de acoplamiento.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Maleta de plástico con asa."
   }
  ],
  "riesgo": {
@@ -93,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/02431/23",
-   "mm:orcatorch-power-adapter:wr10"
+   "mm:orcatorch:wr10",
+   "mm:power-adapter:wr10"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0734f260dbfc4a99"
+  "enriquecido": true,
+  "hashContenido": "5ff2f0e9efa19fb7"
  },
  "slug": "linterna-recargable-orcatorch-power-adapter-safety-gate-10010454"
 }

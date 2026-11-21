@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-09-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Bmw"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.04.2023 - 24.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros equipado con módulos de airbag de rodilla, permisos de operación de homologación de tipo individual.",
-   "fechasTexto": "23.04.2023 - 24.06.2023"
+   "fechasTexto": "23.04.2023 - 24.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -91,15 +96,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/02134/23"
+   "ref:A12/02134/23",
+   "ml:bmw:23-04-2023-24-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5fdd4f6f9e28d121"
+  "enriquecido": true,
+  "hashContenido": "f2007fd36458604c"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10010209"
 }

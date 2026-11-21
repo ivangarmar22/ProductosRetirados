@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-10-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "906BB50",
-    "906BB50/4x4",
-    "e1*2007/46*0296*18",
-    "e1*2007/46*0304*12"
+    "906BB50, 906BB50/4x4",
+    "e1*2007/46*0296*18, e1*2007/46*0304*12"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09/08/2022 - 06/10/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero",
-   "fechasTexto": "09/08/2022 - 06/10/2022"
+   "fechasTexto": "09/08/2022 - 06/10/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "NL",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,18 +93,17 @@
  "dedup": {
   "claves": [
    "ref:A12/02481/23",
-   "mm:mercedes-benz:906bb50",
-   "mm:mercedes-benz:906bb50-4x4",
-   "mm:mercedes-benz:e1-2007-46-0296-18",
-   "mm:mercedes-benz:e1-2007-46-0304-12"
+   "mm:mercedes-benz:906bb50-906bb50-4x4",
+   "mm:mercedes-benz:e1-2007-46-0296-18-e1-2007-46-0304-12",
+   "ml:mercedes-benz:09-08-2022-06-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bad3d5004347970d"
+  "enriquecido": true,
+  "hashContenido": "cb3692dbea480b0f"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10010432"
 }
