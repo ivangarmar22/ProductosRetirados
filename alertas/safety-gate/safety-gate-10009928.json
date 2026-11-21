@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "DEH",
     "e13*2007/46*1911*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.05.2023 - 26.05.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con una batería eléctrica híbrida de 48V.",
-   "fechasTexto": "24.05.2023 - 26.05.2023"
+   "fechasTexto": "24.05.2023 - 26.05.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +92,16 @@
   "claves": [
    "ref:A12/01794/23",
    "mm:ford:deh",
-   "mm:ford:e13-2007-46-1911-16"
+   "mm:ford:e13-2007-46-1911-16",
+   "ml:ford:24-05-2023-26-05-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d99b9201a117bc89"
+  "enriquecido": true,
+  "hashContenido": "df6ec6d5ec994fc6"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10009928"
 }

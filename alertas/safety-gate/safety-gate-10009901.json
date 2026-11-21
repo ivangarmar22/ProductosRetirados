@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,18 @@
     "Toyota"
    ],
    "modelos": [
-    "V",
-    "E",
-    "e2*2007/46*0537*",
-    "e2*2007/46*0538*",
-    "e2*2007/46*0685*"
+    "V, E",
+    "e2*2007/46*0537*, e2*2007/46*0538*, e2*2007/46*0685*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.02.2023 - 5.05.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero",
-   "fechasTexto": "16.02.2023 - 5.05.2023"
+   "fechasTexto": "16.02.2023 - 5.05.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "NL",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,17 +111,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01772/23",
-   "mm:toyota:e2-2007-46-0537",
-   "mm:toyota:e2-2007-46-0538",
-   "mm:toyota:e2-2007-46-0685"
+   "mm:toyota:v-e",
+   "mm:toyota:e2-2007-46-0537-e2-2007-46-0538-e2-2007-46-0685",
+   "ml:toyota:16-02-2023-5-05-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f898737af3f31a3c"
+  "enriquecido": true,
+  "hashContenido": "075eefc610fcab82"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10009901"
 }

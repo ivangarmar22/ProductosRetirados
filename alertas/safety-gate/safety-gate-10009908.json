@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R2CW",
     "e1*2018/858*00016*00-*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.06.2021 - 6.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, Modelo serie BR 206",
-   "fechasTexto": "30.06.2021 - 6.06.2023"
+   "fechasTexto": "30.06.2021 - 6.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +104,16 @@
   "claves": [
    "ref:A12/01767/23",
    "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:e1-2018-858-00016-00-07"
+   "mm:mercedes-benz:e1-2018-858-00016-00-07",
+   "ml:mercedes-benz:30-06-2021-6-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1316cf54de6379c8"
+  "enriquecido": true,
+  "hashContenido": "05f9b39a6fe9b72c"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10009908"
 }

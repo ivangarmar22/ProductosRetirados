@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-13"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Vestido sin mangas destinado a niñas de menos de un año de edad, con correas para los hombros con extremos libres para atar en la zona del hombro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Chipre",
   "paisOrigen": "Grecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "944fafec4fef1e59"
+  "enriquecido": true,
+  "hashContenido": "9810dd3766962263"
  },
  "slug": "vestido-de-ninos-safety-gate-10009855"
 }

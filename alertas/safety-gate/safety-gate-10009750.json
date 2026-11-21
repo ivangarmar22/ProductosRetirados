@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,18 @@
     "Porsche"
    ],
    "modelos": [
-    "95B",
-    "971",
-    "e13*2007/46*1165*02-*05",
-    "*07",
-    "*08",
-    "*10-*21",
-    "e13*2007/46*0971*02-*16"
+    "95B, 971",
+    "e13*2007/46*1165*02-*05, *07, *08, *10-*21, e13*2007/46*0971*02-*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.4.2014 - 13.2.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "29.4.2014 - 13.2.2023"
+   "fechasTexto": "29.4.2014 - 13.2.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,19 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01682/23",
-   "mm:porsche:95b",
-   "mm:porsche:971",
-   "mm:porsche:e13-2007-46-1165-02-05",
-   "mm:porsche:10-21",
-   "mm:porsche:e13-2007-46-0971-02-16"
+   "mm:porsche:95b-971",
+   "mm:porsche:e13-2007-46-1165-02-05-07-08-10-21-e13-2007-46-0971-02-16",
+   "ml:porsche:29-4-2014-13-2-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ff02b4b3e4069615"
+  "enriquecido": true,
+  "hashContenido": "88999d7248d58f81"
  },
  "slug": "coche-de-pasajeros-porsche-safety-gate-10009750"
 }

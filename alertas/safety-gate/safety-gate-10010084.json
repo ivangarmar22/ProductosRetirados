@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Bmw"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1999 - 2005"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "1999 - 2005"
+   "fechasTexto": "1999 - 2005",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,15 +82,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01882/23"
+   "ref:A12/01882/23",
+   "ml:bmw:1999-2005"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c39032f13362f3ea"
+  "enriquecido": true,
+  "hashContenido": "3cf80dbdddd6fa17"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10010084"
 }

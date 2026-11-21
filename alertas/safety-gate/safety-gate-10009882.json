@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,10 +29,7 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "A9608"
-    },
-    {
-     "numero": "07501"
+     "numero": "A9608; 07501"
     }
    ],
    "ean": [
@@ -40,7 +37,8 @@
     "5425017732839"
    ],
    "descripcion": "EAU de Toilette, 35 ml y 100 ml, destinado a los hombres.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja metálica de color azul plateado en forma de cilindro."
   }
  ],
  "riesgo": {
@@ -103,16 +101,15 @@
    "ref:A12/01819/23",
    "ean:5425017735953",
    "ean:5425017732839",
-   "ml:cuba:a9608",
-   "ml:cuba:07501"
+   "ml:cuba:a9608-07501"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3216c4bfce4340ac"
+  "enriquecido": true,
+  "hashContenido": "e590fedeadb5a91b"
  },
  "slug": "eau-de-toilette-cuba-safety-gate-10009882"
 }

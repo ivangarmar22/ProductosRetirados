@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,20 +27,18 @@
     "Kia"
    ],
    "modelos": [
-    "TF",
-    "JF",
-    "XM",
-    "FL",
-    "SL",
-    "YD",
-    "e4*2007/46*0255*",
-    "e4*2007/46*1018*",
-    "e11*2007/46*0634*"
+    "TF, JF, XM, FL, SL, YD",
+    "e4*2007/46*0255*, e4*2007/46*1018*, e11*2007/46*0634*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.01.2011 – 13.09.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros, permisos de funcionamiento de homologación individual.",
-   "fechasTexto": "11.01.2011 – 13.09.2018"
+   "fechasTexto": "11.01.2011 – 13.09.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +70,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HU",
+   "IE",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,17 +115,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01885/23",
-   "mm:kia:e4-2007-46-0255",
-   "mm:kia:e4-2007-46-1018",
-   "mm:kia:e11-2007-46-0634"
+   "mm:kia:tf-jf-xm-fl-sl-yd",
+   "mm:kia:e4-2007-46-0255-e4-2007-46-1018-e11-2007-46-0634",
+   "ml:kia:11-01-2011-13-09-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9530f25f7fa38fb7"
+  "enriquecido": true,
+  "hashContenido": "6f29111bab10dcb5"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10010057"
 }

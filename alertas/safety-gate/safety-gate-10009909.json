@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes Benz"
    ],
    "modelos": [
-    "628 02",
-    "628 03",
-    "e1*2007/46*0087*28-*34",
-    "e1*2007/46*0090*25-*31"
+    "628 02, 628 03",
+    "e1*2007/46*0087*28-*34, e1*2007/46*0090*25-*31"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.04.2021 - 08.06.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús",
-   "fechasTexto": "28.04.2021 - 08.06.2023"
+   "fechasTexto": "28.04.2021 - 08.06.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,18 +87,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01765/23",
-   "mm:mercedes-benz:628-02",
-   "mm:mercedes-benz:628-03",
-   "mm:mercedes-benz:e1-2007-46-0087-28-34",
-   "mm:mercedes-benz:e1-2007-46-0090-25-31"
+   "mm:mercedes-benz:628-02-628-03",
+   "mm:mercedes-benz:e1-2007-46-0087-28-34-e1-2007-46-0090-25-31",
+   "ml:mercedes-benz:28-04-2021-08-06-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a1baff014a5a09a"
+  "enriquecido": true,
+  "hashContenido": "cd0760d57ab47709"
  },
  "slug": "autobus-mercedes-benz-safety-gate-10009909"
 }

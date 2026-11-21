@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,20 +24,30 @@
   {
    "nombre": "Berlingo / Combo / Partner",
    "marcas": [
-    "CITROEN, Opel, Peugeot"
+    "CITROEN",
+    "Opel",
+    "Peugeot"
    ],
    "modelos": [
-    "BERLINGO : e2*2007/46*0625*21",
-    "e2*2007/46*0625*22",
-    "COMBO : e2*2007/46*0623*21",
-    "e2*2007/46*0623*22",
-    "PARTNER : e2*2007/46*0625*21",
-    "e2*2007/46*0625*22"
+    "BERLINGO : e2*2007/46*0625*21, e2*2007/46*0625*22",
+    "COMBO : e2*2007/46*0623*21, e2*2007/46*0623*22",
+    "PARTNER : e2*2007/46*0625*21, e2*2007/46*0625*22"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "BERLINGO: 03.10.2022 - 15.03.2023"
+    },
+    {
+     "numero": "COMBO: 03.10.2022 - 15.03.2023"
+    },
+    {
+     "numero": "PARTNER: 04.10.2022 - 15.03.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "BERLINGO: 03.10.2022 - 15.03.2023COMBO: 03.10.2022 - 15.03.2023PARTNER: 04.10.2022 - 15.03.2023"
+   "fechasTexto": "BERLINGO: 03.10.2022 - 15.03.2023COMBO: 03.10.2022 - 15.03.2023PARTNER: 04.10.2022 - 15.03.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +77,23 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,19 +116,32 @@
  "dedup": {
   "claves": [
    "ref:A12/01734/23",
-   "mm:citroen-opel-peugeot:berlingo-e2-2007-46-0625-21",
-   "mm:citroen-opel-peugeot:e2-2007-46-0625-22",
-   "mm:citroen-opel-peugeot:combo-e2-2007-46-0623-21",
-   "mm:citroen-opel-peugeot:e2-2007-46-0623-22",
-   "mm:citroen-opel-peugeot:partner-e2-2007-46-0625-21"
+   "mm:citroen:berlingo-e2-2007-46-0625-21-e2-2007-46-0625-22",
+   "mm:citroen:combo-e2-2007-46-0623-21-e2-2007-46-0623-22",
+   "mm:citroen:partner-e2-2007-46-0625-21-e2-2007-46-0625-22",
+   "ml:citroen:berlingo-03-10-2022-15-03-2023",
+   "ml:citroen:combo-03-10-2022-15-03-2023",
+   "ml:citroen:partner-04-10-2022-15-03-2023",
+   "mm:opel:berlingo-e2-2007-46-0625-21-e2-2007-46-0625-22",
+   "mm:opel:combo-e2-2007-46-0623-21-e2-2007-46-0623-22",
+   "mm:opel:partner-e2-2007-46-0625-21-e2-2007-46-0625-22",
+   "ml:opel:berlingo-03-10-2022-15-03-2023",
+   "ml:opel:combo-03-10-2022-15-03-2023",
+   "ml:opel:partner-04-10-2022-15-03-2023",
+   "mm:peugeot:berlingo-e2-2007-46-0625-21-e2-2007-46-0625-22",
+   "mm:peugeot:combo-e2-2007-46-0623-21-e2-2007-46-0623-22",
+   "mm:peugeot:partner-e2-2007-46-0625-21-e2-2007-46-0625-22",
+   "ml:peugeot:berlingo-03-10-2022-15-03-2023",
+   "ml:peugeot:combo-03-10-2022-15-03-2023",
+   "ml:peugeot:partner-04-10-2022-15-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5f4c6487ca6d220e"
+  "enriquecido": true,
+  "hashContenido": "bc9481bffadb6468"
  },
  "slug": "coche-de-pasajeros-citroen-opel-peugeot-safety-gate-10009821"
 }

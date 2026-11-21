@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "DS"
    ],
    "modelos": [
-    "F",
-    "J",
-    "e2*2007/46*0628*22",
-    "*24-*25",
-    "e2*2007/46*0601*23-*24",
-    "*25"
+    "F, J",
+    "e2*2007/46*0628*22,*24-*25, e2*2007/46*0601*23-*24, *25"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.2.2023 - 4.5.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros equipado con un motor híbrido enchufable",
-   "fechasTexto": "17.2.2023 - 4.5.2023"
+   "fechasTexto": "17.2.2023 - 4.5.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "NL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,17 +103,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01622/23",
-   "mm:ds:e2-2007-46-0628-22",
-   "mm:ds:24-25",
-   "mm:ds:e2-2007-46-0601-23-24"
+   "mm:ds:f-j",
+   "mm:ds:e2-2007-46-0628-22-24-25-e2-2007-46-0601-23-24-25",
+   "ml:ds:17-2-2023-4-5-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bba456a98d4ca097"
+  "enriquecido": true,
+  "hashContenido": "f61eb30de38578f6"
  },
  "slug": "coche-de-pasajeros-ds-safety-gate-10009679"
 }

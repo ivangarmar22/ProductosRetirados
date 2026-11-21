@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "204",
-    "R2CS",
-    "e1*2001/116*0431*65",
-    "e1*2018/858*00017*06"
+    "204, R2CS",
+    "e1*2001/116*0431*65, e1*2018/858*00017*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.03.2023 - 28.03.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "22.03.2023 - 28.03.2023"
+   "fechasTexto": "22.03.2023 - 28.03.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,18 +102,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01679/23",
-   "mm:mercedes-benz:204",
-   "mm:mercedes-benz:r2cs",
-   "mm:mercedes-benz:e1-2001-116-0431-65",
-   "mm:mercedes-benz:e1-2018-858-00017-06"
+   "mm:mercedes-benz:204-r2cs",
+   "mm:mercedes-benz:e1-2001-116-0431-65-e1-2018-858-00017-06",
+   "ml:mercedes-benz:22-03-2023-28-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "17c318f2f24149b5"
+  "enriquecido": true,
+  "hashContenido": "6644b2fb820b2752"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10009773"
 }

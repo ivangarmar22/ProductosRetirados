@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,25 @@
     "DS"
    ],
    "modelos": [
-    "DS 3 CROSSBACK : e2*2007/46*0000*00",
-    "e2*2007/46*0000*10 - 21",
+    "DS 3 CROSSBACK : e2*2007/46*0000*00 ; e2*2007/46*0000*10 - 21",
     "DS4 : e2*2007/46*0628*13 20",
-    "DS7 CROSSBACK : e2*2007/46*0601*08 - 09",
-    "e2*2007/46*0601*13 - 21"
+    "DS7 CROSSBACK : e2*2007/46*0601*08 - 09 ; e2*2007/46*0601*13 - 21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "DS3 CROSSBACK: 05/02/2020 - 31/11/2022"
+    },
+    {
+     "numero": "DS4: 20/07/2020 - 01/12/2022"
+    },
+    {
+     "numero": "DS7 CROSSBACK: 15/05/2019 - 13/07/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "DS3 CROSSBACK: 05/02/2020 - 31/11/2022DS4: 20/07/2020 - 01/12/2022DS7 CROSSBACK: 15/05/2019 - 13/07/2022"
+   "fechasTexto": "DS3 CROSSBACK: 05/02/2020 - 31/11/2022DS4: 20/07/2020 - 01/12/2022DS7 CROSSBACK: 15/05/2019 - 13/07/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +75,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HR",
+   "HU",
+   "IE",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,19 +111,20 @@
  "dedup": {
   "claves": [
    "ref:A12/01875/23",
-   "mm:ds:ds-3-crossback-e2-2007-46-0000-00",
-   "mm:ds:e2-2007-46-0000-10-21",
+   "mm:ds:ds-3-crossback-e2-2007-46-0000-00-e2-2007-46-0000-10-21",
    "mm:ds:ds4-e2-2007-46-0628-13-20",
-   "mm:ds:ds7-crossback-e2-2007-46-0601-08-09",
-   "mm:ds:e2-2007-46-0601-13-21"
+   "mm:ds:ds7-crossback-e2-2007-46-0601-08-09-e2-2007-46-0601-13-21",
+   "ml:ds:ds3-crossback-05-02-2020-31-11-2022",
+   "ml:ds:ds4-20-07-2020-01-12-2022",
+   "ml:ds:ds7-crossback-15-05-2019-13-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fcbfa363e0aea7e8"
+  "enriquecido": true,
+  "hashContenido": "af2f2fb43e7a326a"
  },
  "slug": "coche-de-pasajeros-ds-safety-gate-10010094"
 }

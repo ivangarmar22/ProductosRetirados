@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-24"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -38,7 +38,8 @@
     "8682431030195"
    ],
    "descripcion": "Máscara de filtro de partículas blanca, marcada con FFP2, y con el marcado CE en el lateral.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una caja de cartón blanco y azul con 10 máscaras."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "431fe14e65a2c134"
+  "enriquecido": true,
+  "hashContenido": "8b6d5e159d473567"
  },
  "slug": "mascara-de-filtro-de-particulas-en-med-safety-gate-10004913"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "P7 MONOCAB C",
     "e4*2007/46*1194*17-*18"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.5.2022 - 15.6.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "26.5.2022 - 15.6.2022"
+   "fechasTexto": "26.5.2022 - 15.6.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "HU",
+   "IE",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +103,16 @@
   "claves": [
    "ref:A12/01771/23",
    "mm:opel:p7-monocab-c",
-   "mm:opel:e4-2007-46-1194-17-18"
+   "mm:opel:e4-2007-46-1194-17-18",
+   "ml:opel:26-5-2022-15-6-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d9bf29e47dcc8f04"
+  "enriquecido": true,
+  "hashContenido": "fe172071c82d2540"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10009921"
 }

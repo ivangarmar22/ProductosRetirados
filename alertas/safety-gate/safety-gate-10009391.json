@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Un juego de pesca, que consta de 1 dado, 2 cañas de pescar y 11 figuras de madera diferentes. Producto vendido en línea. Número de artículo de IKEA: 10526506",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,20 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "CY",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "PL",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e64b81f32b68bffd"
+  "enriquecido": true,
+  "hashContenido": "33fcb4e656e0d095"
  },
  "slug": "caza-de-pesca-ikea-safety-gate-10009391"
 }

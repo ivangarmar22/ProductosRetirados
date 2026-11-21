@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Kia"
    ],
    "modelos": [
-    "e4*2018/858*00079*00",
-    "e9*2018/858*11241*00",
-    "e4*2018/858*00079*01",
-    "e4*2018/858*00079*02"
+    "e4*2018/858*00079*00; e9*2018/858*11241*00; e4*2018/858*00079*01; e4*2018/858*00079*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "MY: 2022-2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de pasajeros equipado con un motor híbrido enchufable",
-   "fechasTexto": "MY: 2022-2023"
+   "fechasTexto": "MY: 2022-2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,18 +104,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01783/23",
-   "mm:kia:e4-2018-858-00079-00",
-   "mm:kia:e9-2018-858-11241-00",
-   "mm:kia:e4-2018-858-00079-01",
-   "mm:kia:e4-2018-858-00079-02"
+   "mm:kia:e4-2018-858-00079-00-e9-2018-858-11241-00-e4-2018-858-00079-01-e4-2018-858-00079-02",
+   "ml:kia:my-2022-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0af64508934a71d9"
+  "enriquecido": true,
+  "hashContenido": "62c4d3f793e69e16"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10009927"
 }

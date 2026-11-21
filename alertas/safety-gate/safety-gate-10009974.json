@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,7 +34,8 @@
     "3800010509060"
    ],
    "descripcion": "Gel limpiador de manos con un 70 % de alcohol etílico, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Bulgaria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cafed6d396359c54"
+  "enriquecido": true,
+  "hashContenido": "48894125e8a97ca9"
  },
  "slug": "desinfectante-de-manos-mediskin-safety-gate-10009974"
 }

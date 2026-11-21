@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "A5548A6981A7865"
+     "numero": "A5548"
+    },
+    {
+     "numero": "A6981"
+    },
+    {
+     "numero": "A7865"
     }
    ],
    "ean": [
     "5425017736028"
    ],
    "descripcion": "EAU de Parfum, destinado a mujeres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja en forma de cilindro con tapa."
   }
  ],
  "riesgo": {
@@ -97,15 +104,17 @@
    "ref:A12/01908/23",
    "ean:5425017736028",
    "mm:cuba:cuba-chic",
-   "ml:cuba:a5548a6981a7865"
+   "ml:cuba:a5548",
+   "ml:cuba:a6981",
+   "ml:cuba:a7865"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9af1b6bb30895610"
+  "enriquecido": true,
+  "hashContenido": "8c244d0197d45ac2"
  },
  "slug": "perfume-cuba-safety-gate-10010119"
 }

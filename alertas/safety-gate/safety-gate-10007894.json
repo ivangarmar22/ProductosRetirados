@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Triumph"
    ],
    "modelos": [
-    "e9*168/2013*11690*00",
-    "e9*168/2013*11690*01",
-    "e9*168/2013*11690*02"
+    "e9*168/2013*11690*00, e9*168/2013*11690*01, e9*168/2013*11690*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.09.2020 - 15.01.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta, año modelo: 2021-2023 (Speed Triple 1200 RS) y 2022-2023 Velocidad Triple 1200 RR",
-   "fechasTexto": "01.09.2020 - 15.01.2023"
+   "fechasTexto": "01.09.2020 - 15.01.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "LU",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,17 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00306/23",
-   "mm:triumph:e9-168-2013-11690-00",
-   "mm:triumph:e9-168-2013-11690-01",
-   "mm:triumph:e9-168-2013-11690-02"
+   "mm:triumph:e9-168-2013-11690-00-e9-168-2013-11690-01-e9-168-2013-11690-02",
+   "ml:triumph:01-09-2020-15-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35cf303bfaae5a1b"
+  "enriquecido": true,
+  "hashContenido": "33a373a716aeaa3e"
  },
  "slug": "moto-triumph-safety-gate-10007894"
 }

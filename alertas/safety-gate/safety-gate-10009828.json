@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "Sencor"
    ],
    "modelos": [
-    "SHF 2000BL",
-    "TYPE: EUE2"
+    "SHF 2000BL, TYPE: EUE2"
    ],
    "lotes": [],
    "ean": [
     "8590669115501"
    ],
    "descripcion": "Humidificador ultrasónico blanco cubierto de plástico con partes azules.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón colorida."
   }
  ],
  "riesgo": {
@@ -73,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "LV",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,16 +109,15 @@
   "claves": [
    "ref:A12/01715/23",
    "ean:8590669115501",
-   "mm:sencor:shf-2000bl",
-   "mm:sencor:type-eue2"
+   "mm:sencor:shf-2000bl-type-eue2"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ff0729c2fb3b9595"
+  "enriquecido": true,
+  "hashContenido": "0a33903fad406f0a"
  },
  "slug": "humidificador-de-aire-sencor-safety-gate-10009828"
 }

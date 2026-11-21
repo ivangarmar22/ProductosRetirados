@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave en forma de muñeco de trapo con capucha. Producto vendido en línea, en particular a través de AliExpress.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje"
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "03653c33c6b47120"
+  "enriquecido": true,
+  "hashContenido": "a3ec13f1f0d0be83"
  },
  "slug": "juguete-suave-goblin-coreen-safety-gate-10009626"
 }

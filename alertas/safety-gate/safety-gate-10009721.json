@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "G3X",
     "e1*2007/46*1797*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3.08.2021 – 6.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo equipado con un motor de combustión",
-   "fechasTexto": "3.08.2021 – 6.06.2022"
+   "fechasTexto": "3.08.2021 – 6.06.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +94,16 @@
   "claves": [
    "ref:A12/01667/23",
    "mm:bmw:g3x",
-   "mm:bmw:e1-2007-46-1797"
+   "mm:bmw:e1-2007-46-1797",
+   "ml:bmw:3-08-2021-6-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4b33ff4962dabbcc"
+  "enriquecido": true,
+  "hashContenido": "c78b79c9be8e5f45"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10009721"
 }

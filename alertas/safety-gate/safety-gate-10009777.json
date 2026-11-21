@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "1T",
-    "A1",
-    "e1*2001/116*0211*",
-    "e13*2007/46*1845*"
+    "1T, A1",
+    "e1*2001/116*0211*, e13*2007/46*1845*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3.4.2023 - 20.4.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "3.4.2023 - 20.4.2023"
+   "fechasTexto": "3.4.2023 - 20.4.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "HU",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,16 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01677/23",
-   "mm:vw:e1-2001-116-0211",
-   "mm:vw:e13-2007-46-1845"
+   "mm:vw:1t-a1",
+   "mm:vw:e1-2001-116-0211-e13-2007-46-1845",
+   "ml:vw:3-4-2023-20-4-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2dfa1defc61e49a8"
+  "enriquecido": true,
+  "hashContenido": "8f79aee471f1bca2"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10009777"
 }

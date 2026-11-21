@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*1259*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.12.2022 - 30.1.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "21.12.2022 - 30.1.2023"
+   "fechasTexto": "21.12.2022 - 30.1.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "HR",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +98,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01886/23",
-   "mm:hyundai:e4-2007-46-1259"
+   "mm:hyundai:e4-2007-46-1259",
+   "ml:hyundai:21-12-2022-30-1-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8cd749e7fa1c7154"
+  "enriquecido": true,
+  "hashContenido": "54240063a75f18d6"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10010045"
 }

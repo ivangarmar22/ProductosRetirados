@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "B13268B14871"
+     "numero": "B13268"
+    },
+    {
+     "numero": "B14871"
     }
    ],
    "ean": [
     "8715658009115"
    ],
    "descripcion": "EAU de parfum, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -89,15 +93,16 @@
    "ref:A12/01923/23",
    "ean:8715658009115",
    "mm:real-time:si-femme-charme",
-   "ml:real-time:b13268b14871"
+   "ml:real-time:b13268",
+   "ml:real-time:b14871"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3136cfbe74e0b05e"
+  "enriquecido": true,
+  "hashContenido": "326e19da3c885a5b"
  },
  "slug": "perfume-real-time-safety-gate-10008988"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Yamaha"
    ],
    "modelos": [
-    "SH16",
-    "SH20",
-    "e13*168/2013*00673",
-    "e13*168/2013*00907"
+    "SH16, SH20",
+    "e13*168/2013*00673, e13*168/2013*00907"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.02.2020 - 28.02.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta, modelo de scooter de tres ruedas",
-   "fechasTexto": "1.02.2020 - 28.02.2022"
+   "fechasTexto": "1.02.2020 - 28.02.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +98,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00969/22",
-   "mm:yamaha:sh16",
-   "mm:yamaha:sh20",
-   "mm:yamaha:e13-168-2013-00673",
-   "mm:yamaha:e13-168-2013-00907"
+   "mm:yamaha:sh16-sh20",
+   "mm:yamaha:e13-168-2013-00673-e13-168-2013-00907",
+   "ml:yamaha:1-02-2020-28-02-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4dbda8077a2c2992"
+  "enriquecido": true,
+  "hashContenido": "e256645d2d3e8d87"
  },
  "slug": "moto-yamaha-safety-gate-10006333"
 }

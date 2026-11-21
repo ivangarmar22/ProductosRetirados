@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "C007530D002730"
+     "numero": "C007530"
+    },
+    {
+     "numero": "D002730"
     }
    ],
    "ean": [
     "8423564066725"
    ],
    "descripcion": "EAU de toilette, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
   "claves": [
    "ref:A12/01917/23",
    "ean:8423564066725",
-   "ml:prady-parfums:c007530d002730"
+   "ml:prady-parfums:c007530",
+   "ml:prady-parfums:d002730"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2084aff8d68cfcc3"
+  "enriquecido": true,
+  "hashContenido": "c73a38998c3464fa"
  },
  "slug": "eau-de-toilette-prady-parfums-safety-gate-10010022"
 }

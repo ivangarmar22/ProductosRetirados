@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "PF-E",
     "e1*167/2013*00263*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.07.2019 - 31.01.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor",
-   "fechasTexto": "01.07.2019 - 31.01.2023"
+   "fechasTexto": "01.07.2019 - 31.01.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +92,16 @@
   "claves": [
    "ref:A12/01760/23",
    "mm:karcher:pf-e",
-   "mm:karcher:e1-167-2013-00263"
+   "mm:karcher:e1-167-2013-00263",
+   "ml:karcher:01-07-2019-31-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "829302248eaab9b8"
+  "enriquecido": true,
+  "hashContenido": "eed815d33eae0a2c"
  },
  "slug": "tractor-karcher-safety-gate-10009898"
 }

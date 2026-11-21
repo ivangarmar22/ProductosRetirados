@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Motos de nieve Ski-Doo equipadas con un 850 E-TEC Turbo R y Lynx equipados con un motor 850 E-TEC Turbo R.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,12 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Canadá",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9b28d119485ae3c6"
+  "enriquecido": true,
+  "hashContenido": "23f55c1d27382b70"
  },
  "slug": "moto-de-nieve-ski-doo-and-lynx-safety-gate-10009807"
 }

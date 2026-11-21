@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,39 +27,19 @@
     "Renault Trucks"
    ],
    "modelos": [
-    "HD001",
-    "HD002",
-    "HD003",
-    "HD005",
-    "HD006",
-    "HD007",
-    "HD008",
-    "HD009",
-    "HD010",
-    "HD011",
-    "HD012",
-    "HD013",
-    "HD014",
-    "HD016",
-    "e2*2007/46*0229*",
-    "e2*2007/46*0322*",
-    "e2*2007/46*0230*",
-    "e1*2007/46*1064*",
-    "e1*2007/46*1059*",
-    "e1*2007/46*1060*",
-    "e1*2007/46*1050*",
-    "e1*2007/46*1051*",
-    "e2*2007/46*0358*",
-    "e2*2007/46*0482*",
-    "e1*2007/46*1326*",
-    "e1*2007/46*1325*",
-    "e2*2007/46*0505*",
-    "e1*2007/46*1606*"
+    "HD001, HD002, HD003, HD005, HD006, HD007, HD008, HD009, HD010, HD011, HD012, HD013, HD014, HD016",
+    "e2*2007/46*0229*, e2*2007/46*0322*, e2*2007/46*0230*, e1*2007/46*1064*, e1*2007/46*1059*, e1*2007/46*1060*, e1*2007/46*1050*, e1*2007/46*1051*, e2*2007/46*0358*",
+    "e2*2007/46*0482*, e1*2007/46*1326*, e1*2007/46*1325*, e2*2007/46*0505*, e1*2007/46*1606*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13/09/2021 - 20/03/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "13/09/2021 - 20/03/2023"
+   "fechasTexto": "13/09/2021 - 20/03/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,7 +69,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "IE",
+   "NL",
+   "NO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -121,42 +109,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01839/23",
-   "mm:renault-trucks:hd001",
-   "mm:renault-trucks:hd002",
-   "mm:renault-trucks:hd003",
-   "mm:renault-trucks:hd005",
-   "mm:renault-trucks:hd006",
-   "mm:renault-trucks:hd007",
-   "mm:renault-trucks:hd008",
-   "mm:renault-trucks:hd009",
-   "mm:renault-trucks:hd010",
-   "mm:renault-trucks:hd011",
-   "mm:renault-trucks:hd012",
-   "mm:renault-trucks:hd013",
-   "mm:renault-trucks:hd014",
-   "mm:renault-trucks:hd016",
-   "mm:renault-trucks:e2-2007-46-0229",
-   "mm:renault-trucks:e2-2007-46-0322",
-   "mm:renault-trucks:e2-2007-46-0230",
-   "mm:renault-trucks:e1-2007-46-1064",
-   "mm:renault-trucks:e1-2007-46-1059",
-   "mm:renault-trucks:e1-2007-46-1060",
-   "mm:renault-trucks:e1-2007-46-1050",
-   "mm:renault-trucks:e1-2007-46-1051",
-   "mm:renault-trucks:e2-2007-46-0358",
-   "mm:renault-trucks:e2-2007-46-0482",
-   "mm:renault-trucks:e1-2007-46-1326",
-   "mm:renault-trucks:e1-2007-46-1325",
-   "mm:renault-trucks:e2-2007-46-0505",
-   "mm:renault-trucks:e1-2007-46-1606"
+   "mm:renault-trucks:hd001-hd002-hd003-hd005-hd006-hd007-hd008-hd009-hd010-hd011-hd012-hd013-hd014-hd016",
+   "mm:renault-trucks:e2-2007-46-0229-e2-2007-46-0322-e2-2007-46-0230-e1-2007-46-1064-e1-2007-46-1059-e1-2007-46-1060-e1-2007-46-1050-e1-2007-46-1051-e2-2007-46-0358",
+   "mm:renault-trucks:e2-2007-46-0482-e1-2007-46-1326-e1-2007-46-1325-e2-2007-46-0505-e1-2007-46-1606",
+   "ml:renault-trucks:13-09-2021-20-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b5f750b8c51513f5"
+  "enriquecido": true,
+  "hashContenido": "e9d379f29412b2c1"
  },
  "slug": "camion-renault-trucks-safety-gate-10010005"
 }

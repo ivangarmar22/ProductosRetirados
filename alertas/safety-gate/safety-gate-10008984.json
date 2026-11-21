@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "B14564B15420B17093B17094"
+     "numero": "B14564"
+    },
+    {
+     "numero": "B15420"
+    },
+    {
+     "numero": "B17093"
+    },
+    {
+     "numero": "B17094"
     }
    ],
    "ean": [
@@ -39,7 +48,8 @@
     "8715658360056"
    ],
    "descripcion": "EAU de parfum, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalajes de cartón,"
   }
  ],
  "riesgo": {
@@ -99,15 +109,18 @@
    "ean:8715658360049",
    "ean:8715658360056",
    "mm:real-time:love-you",
-   "ml:real-time:b14564b15420b17093b17094"
+   "ml:real-time:b14564",
+   "ml:real-time:b15420",
+   "ml:real-time:b17093",
+   "ml:real-time:b17094"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2aa8d1df139ed72a"
+  "enriquecido": true,
+  "hashContenido": "0eeb62eae767a453"
  },
  "slug": "perfume-real-time-safety-gate-10008984"
 }

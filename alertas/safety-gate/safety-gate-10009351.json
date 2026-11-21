@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-12-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "3611872200473"
    ],
    "descripcion": "Juguete suave de pingüino calefactable con tejido exterior de felpa y con bolsa interior de algodón que contiene perlas turmalinas. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente"
   }
  ],
  "riesgo": {
@@ -69,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "ES"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2249bc54aaf281c4"
+  "enriquecido": true,
+  "hashContenido": "77e892567142c72e"
  },
  "slug": "juguete-suave-calefactable-maisons-du-monde-safety-gate-10009351"
 }

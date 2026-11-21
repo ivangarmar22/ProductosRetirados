@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-30"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Accesorios de corte tipo flail con seis cuchillos para cortadoras de cepillo portátiles portátiles.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de blíster."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9cfff39181986948"
+  "enriquecido": true,
+  "hashContenido": "f75d3d90bd519fdd"
  },
  "slug": "accesorios-de-corte-tipo-flail-para-cortador-de-cepillos-flinke-fachge-safety-gate-10010089"
 }

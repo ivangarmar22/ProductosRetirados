@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "131",
     "e4*2018/858*00092*00-*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.5.2022 - 10.5.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "31.5.2022 - 10.5.2023"
+   "fechasTexto": "31.5.2022 - 10.5.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +91,16 @@
   "claves": [
    "ref:A12/01676/23",
    "mm:lotus:131",
-   "mm:lotus:e4-2018-858-00092-00-03"
+   "mm:lotus:e4-2018-858-00092-00-03",
+   "ml:lotus:31-5-2022-10-5-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df7f8d3fcad14b9e"
+  "enriquecido": true,
+  "hashContenido": "7ea62a51f9e25544"
  },
  "slug": "coche-de-pasajeros-lotus-safety-gate-10009789"
 }

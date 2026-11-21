@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-09"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Conjunto de pendientes para niños, 6 piezas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "31933d9edd98dcbb"
+  "enriquecido": true,
+  "hashContenido": "36fc863913eab8f7"
  },
  "slug": "conjunto-de-pendientes-para-ninos-safety-gate-10010070"
 }

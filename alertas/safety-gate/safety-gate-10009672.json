@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,10 @@
    ],
    "lotes": [
     {
-     "numero": "All batches for the other referencesBatch 177551 for reference PX1682"
+     "numero": "All batches for the other references"
+    },
+    {
+     "numero": "Batch 177551 for reference PX1682"
     }
    ],
    "ean": [
@@ -44,7 +47,8 @@
     "4022107388467"
    ],
    "descripcion": "Varios lotes de 10 o 16 baterías de botón de litio. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje que consiste en un soporte de cartón en el que se pegan dos envases de plástico termoformados"
   }
  ],
  "riesgo": {
@@ -80,7 +84,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -124,15 +130,16 @@
    "mm:tka:px-1680",
    "mm:tka:px-1682",
    "mm:tka:px-1683",
-   "ml:tka:all-batches-for-the-other-referencesbatch-177551-for-reference-px1682"
+   "ml:tka:all-batches-for-the-other-references",
+   "ml:tka:batch-177551-for-reference-px1682"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e4ecedf29a3324dd"
+  "enriquecido": true,
+  "hashContenido": "7e95509669f2aac1"
  },
  "slug": "baterias-de-boton-tka-safety-gate-10009672"
 }

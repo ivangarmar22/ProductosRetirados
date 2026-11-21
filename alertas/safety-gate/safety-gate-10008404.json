@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "263",
     "e3*2007/46*0002*55"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.12.2022 - 28.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero",
-   "fechasTexto": "13.12.2022 - 28.12.2022"
+   "fechasTexto": "13.12.2022 - 28.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +81,16 @@
   "claves": [
    "ref:A12/00789/23",
    "mm:fiat:263",
-   "mm:fiat:e3-2007-46-0002-55"
+   "mm:fiat:e3-2007-46-0002-55",
+   "ml:fiat:13-12-2022-28-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e6197e492187b35"
+  "enriquecido": true,
+  "hashContenido": "ce1c8aef20e6cfa3"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-fiat-safety-gate-10008404"
 }

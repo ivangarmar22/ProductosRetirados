@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Autobús de juguete azul con ruedas amarillas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "HR",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "25c6585272302976"
+  "enriquecido": true,
+  "hashContenido": "55a67cbb5a1418c0"
  },
  "slug": "autobus-de-juguete-tedi-safety-gate-10009755"
 }

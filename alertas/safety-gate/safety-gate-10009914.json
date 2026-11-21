@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Vehículo de pasajeros, año modelo: 2022-2023",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,18 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "LU",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e56a3470f32c0b58"
+  "enriquecido": true,
+  "hashContenido": "359015a328b54046"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10009914"
 }

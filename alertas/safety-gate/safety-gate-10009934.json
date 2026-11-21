@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-04"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "3497674151546"
    ],
    "descripcion": "Aire acondicionado móvil blanco",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "297bb2089103ff6f"
+  "enriquecido": true,
+  "hashContenido": "5faafd6e5a144012"
  },
  "slug": "acondicionador-de-aire-essentiel-b-safety-gate-10009934"
 }

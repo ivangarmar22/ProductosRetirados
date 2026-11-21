@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,21 @@
     "Hyundai"
    ],
    "modelos": [
-    "i30: e11*2007/46*3807*",
-    "e5*2007/46*1075*",
+    "i30: e11*2007/46*3807*, e5*2007/46*1075*",
     "Tuscon: e5*2007/46*1076*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Tucson: 23.10.2018 - 27 .10.2020"
+    },
+    {
+     "numero": "i30: 25.10.2018 - 15.07.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "Tucson: 23.10.2018 - 27 .10.2020i30: 25.10.2018 - 15.07.2020"
+   "fechasTexto": "Tucson: 23.10.2018 - 27 .10.2020i30: 25.10.2018 - 15.07.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +71,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,17 +102,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01793/23",
-   "mm:hyundai:i30-e11-2007-46-3807",
-   "mm:hyundai:e5-2007-46-1075",
-   "mm:hyundai:tuscon-e5-2007-46-1076"
+   "mm:hyundai:i30-e11-2007-46-3807-e5-2007-46-1075",
+   "mm:hyundai:tuscon-e5-2007-46-1076",
+   "ml:hyundai:tucson-23-10-2018-27-10-2020",
+   "ml:hyundai:i30-25-10-2018-15-07-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9e62ebbcab8effc9"
+  "enriquecido": true,
+  "hashContenido": "450a76f76414c8fa"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10009883"
 }

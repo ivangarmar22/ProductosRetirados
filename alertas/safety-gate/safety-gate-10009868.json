@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-24"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -38,7 +38,8 @@
     "4260685420357"
    ],
    "descripcion": "Máscaras respiradoras embaladas en una caja de cartón que contiene 20 piezas. El producto se vende en línea, en particular a través de Amazon bajo varios ASINs (incluyendo B09GXGRC6X, B099WLZZ8L, B099WLZZ8J). Fecha de caducidad febrero 2026.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +116,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0083af8827e710a1"
+  "enriquecido": true,
+  "hashContenido": "b88dd1b521f771e4"
  },
  "slug": "mascara-de-filtro-de-particulas-eumepro-safety-gate-10009868"
 }

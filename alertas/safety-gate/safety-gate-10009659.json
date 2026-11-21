@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-22"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -27,17 +27,15 @@
     "MV Sports & Leisure Ltd."
    ],
    "modelos": [
-    "YX-0411 (Layout: L.O.L. Safety Helmet",
-    "Batman",
-    "Paw Patrol",
-    "Ice Queen)"
+    "YX-0411 (Layout: L.O.L. Safety Helmet , Batman, Paw Patrol, Ice Queen)"
    ],
    "lotes": [],
    "ean": [
     "5017915004882"
    ],
    "descripcion": "Casco para ciclista, skater, motociclista, talla S, M.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,18 +103,15 @@
   "claves": [
    "ref:A12/01683/23",
    "ean:5017915004882",
-   "mm:mv-sports-leisure:yx-0411-layout-l-o-l-safety-helmet",
-   "mm:mv-sports-leisure:batman",
-   "mm:mv-sports-leisure:paw-patrol",
-   "mm:mv-sports-leisure:ice-queen"
+   "mm:mv-sports-leisure:yx-0411-layout-l-o-l-safety-helmet-batman-paw-patrol-ice-queen"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d5ec0180b10db4bc"
+  "enriquecido": true,
+  "hashContenido": "a0e7faa17fba6b71"
  },
  "slug": "casco-mv-sports-leisure-ltd-safety-gate-10009659"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-26"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "El producto consta de dos perfiles a cada lado de una parte de suspensión, que se montarán en un scooter eléctrico.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "88a84c9cfbd98cdf"
+  "enriquecido": true,
+  "hashContenido": "bf9c310636872f58"
  },
  "slug": "kit-de-suspension-para-scooter-electrico-monorim-safety-gate-10009884"
 }

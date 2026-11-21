@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-09"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "BSH1/Y091BSH2/X051"
+     "numero": "BSH1/Y091"
+    },
+    {
+     "numero": "BSH2/X051"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "3760172621843"
    ],
    "descripcion": "Champú líquido, fragancia verbena/bergamot destinada a los hombres. Este producto se suministra en botella de 250 y 500 ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -99,15 +103,16 @@
    "ean:3760172621843",
    "mm:marcapar-barbier:250ml-007670",
    "mm:marcapar-barbier:500ml-007671",
-   "ml:marcapar-barbier:bsh1-y091bsh2-x051"
+   "ml:marcapar-barbier:bsh1-y091",
+   "ml:marcapar-barbier:bsh2-x051"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3ce3d5041b124f9c"
+  "enriquecido": true,
+  "hashContenido": "9f10213635b79e4e"
  },
  "slug": "champu-marcapar-barbier-safety-gate-10009816"
 }

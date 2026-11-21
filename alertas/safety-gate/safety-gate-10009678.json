@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "CITROEN"
    ],
    "modelos": [
-    "V",
-    "A",
-    "e2*2007/46*0531*22",
-    "e2*2007/46*0642*19-*20"
+    "V, A",
+    "e2*2007/46*0531*22, e2*2007/46*0642*19-*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.2.2023 - 5.5.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero equipado con un motor híbrido enchufable",
-   "fechasTexto": "20.2.2023 - 5.5.2023"
+   "fechasTexto": "20.2.2023 - 5.5.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,16 +106,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01623/23",
-   "mm:citroen:e2-2007-46-0531-22",
-   "mm:citroen:e2-2007-46-0642-19-20"
+   "mm:citroen:v-a",
+   "mm:citroen:e2-2007-46-0531-22-e2-2007-46-0642-19-20",
+   "ml:citroen:20-2-2023-5-5-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "165b8600535e3ec0"
+  "enriquecido": true,
+  "hashContenido": "4395425a0073f176"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-citroen-safety-gate-10009678"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-19"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Parrilla de barbacoa desechable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CY",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fe4443ffb0256521"
+  "enriquecido": true,
+  "hashContenido": "cbb5d92308161688"
  },
  "slug": "parrilla-de-barbacoa-desechable-barbecue-safety-gate-10009920"
 }

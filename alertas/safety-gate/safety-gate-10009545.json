@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Dodge"
    ],
    "modelos": [
-    "DJ",
-    "D2",
-    "DD",
-    "DP"
+    "DJ, D2, DD, DP"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.08.2020 - 01.02.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta pickup, Permisos de operación de homologación de tipo individual.",
-   "fechasTexto": "03.08.2020 - 01.02.2023"
+   "fechasTexto": "03.08.2020 - 01.02.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,15 +99,17 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01511/23"
+   "ref:A12/01511/23",
+   "mm:dodge:dj-d2-dd-dp",
+   "ml:dodge:03-08-2020-01-02-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ad37dbc761c7b217"
+  "enriquecido": true,
+  "hashContenido": "fc2163b8144cc6dc"
  },
  "slug": "camioneta-pickup-dodge-safety-gate-10009545"
 }

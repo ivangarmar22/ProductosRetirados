@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-14"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -34,7 +34,8 @@
     "3800151989400"
    ],
    "descripcion": "Portabebés con aberturas de pierna incorporadas. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -112,11 +116,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b3c00d9600b67661"
+  "enriquecido": true,
+  "hashContenido": "5b4874bc1a4807fe"
  },
  "slug": "portabebes-lorelli-safety-gate-10009825"
 }

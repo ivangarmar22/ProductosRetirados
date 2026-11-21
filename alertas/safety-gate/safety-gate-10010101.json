@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,25 +24,45 @@
   {
    "nombre": "Astra L, Combo, Corsa, Grandland X, Mokka, Movano, Zafira, Vivaro",
    "marcas": [
-    "Opel, Opel/Vauxhall"
+    "Opel",
+    "Opel/Vauxhall"
    ],
    "modelos": [
     "Astra L : e2*2007/46*0628*16 - 19",
-    "Combo : e2*2007/46*0622*09 - 17",
-    "e2*2007/46*0623*14 - 20",
+    "Combo : e2*2007/46*0622*09 - 17 ; e2*2007/46*0623*14 - 20",
     "Corsa : e2*2007/46*0639*10 - 20",
     "Grandland X : e2*2007/46*0597*17 - 25",
-    "Mokka : e2*2007/46*0639*12",
-    "e2*2007/46*0639*12",
-    "22",
-    "Movano : e24*2007/46*0592*03",
-    "e3*2007/46*0045*22 - 26",
+    "Mokka : e2*2007/46*0639*12 ; e2*2007/46*0639*12 ; 22",
+    "Movano : e24*2007/46*0592*03 ; e3*2007/46*0045*22 - 26",
     "Zafira/ Vivaro : e2*2007/46*0532*14 - 21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Astra L: 29/072021 - 05/07/2022"
+    },
+    {
+     "numero": "Combo: 19/10/2020 - 06/07/2022"
+    },
+    {
+     "numero": "Corsa: 25/02/2020 - 22/10/2022"
+    },
+    {
+     "numero": "Grandland X: 06/07//2020 - 03/12/2022"
+    },
+    {
+     "numero": "Mokka: 30/09/2020 - 03/12/2022"
+    },
+    {
+     "numero": "Movano: 12/10/2021 - 29/11/2022"
+    },
+    {
+     "numero": "Zafira/ Vivaro: 06/10/2020 - 11/07/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros/van",
-   "fechasTexto": "Astra L: 29/072021 - 05/07/2022Combo: 19/10/2020 - 06/07/2022Corsa: 25/02/2020 - 22/10/2022Grandland X: 06/07//2020 - 03/12/2022Mokka: 30/09/2020 - 03/12/2022Movano: 12/10/2021 - 29/11/2022Zafira/ Vivaro: 06/10/2020 - 11/07/2022"
+   "fechasTexto": "Astra L: 29/072021 - 05/07/2022Combo: 19/10/2020 - 06/07/2022Corsa: 25/02/2020 - 22/10/2022Grandland X: 06/07//2020 - 03/12/2022Mokka: 30/09/2020 - 03/12/2022Movano: 12/10/2021 - 29/11/2022Zafira/ Vivaro: 06/10/2020 - 11/07/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +92,22 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,24 +146,42 @@
  "dedup": {
   "claves": [
    "ref:A12/01877/23",
-   "mm:opel-opel-vauxhall:astra-l-e2-2007-46-0628-16-19",
-   "mm:opel-opel-vauxhall:combo-e2-2007-46-0622-09-17",
-   "mm:opel-opel-vauxhall:e2-2007-46-0623-14-20",
-   "mm:opel-opel-vauxhall:corsa-e2-2007-46-0639-10-20",
-   "mm:opel-opel-vauxhall:grandland-x-e2-2007-46-0597-17-25",
-   "mm:opel-opel-vauxhall:mokka-e2-2007-46-0639-12",
-   "mm:opel-opel-vauxhall:e2-2007-46-0639-12",
-   "mm:opel-opel-vauxhall:movano-e24-2007-46-0592-03",
-   "mm:opel-opel-vauxhall:e3-2007-46-0045-22-26",
-   "mm:opel-opel-vauxhall:zafira-vivaro-e2-2007-46-0532-14-21"
+   "mm:opel:astra-l-e2-2007-46-0628-16-19",
+   "mm:opel:combo-e2-2007-46-0622-09-17-e2-2007-46-0623-14-20",
+   "mm:opel:corsa-e2-2007-46-0639-10-20",
+   "mm:opel:grandland-x-e2-2007-46-0597-17-25",
+   "mm:opel:mokka-e2-2007-46-0639-12-e2-2007-46-0639-12-22",
+   "mm:opel:movano-e24-2007-46-0592-03-e3-2007-46-0045-22-26",
+   "mm:opel:zafira-vivaro-e2-2007-46-0532-14-21",
+   "ml:opel:astra-l-29-072021-05-07-2022",
+   "ml:opel:combo-19-10-2020-06-07-2022",
+   "ml:opel:corsa-25-02-2020-22-10-2022",
+   "ml:opel:grandland-x-06-07-2020-03-12-2022",
+   "ml:opel:mokka-30-09-2020-03-12-2022",
+   "ml:opel:movano-12-10-2021-29-11-2022",
+   "ml:opel:zafira-vivaro-06-10-2020-11-07-2022",
+   "mm:opel-vauxhall:astra-l-e2-2007-46-0628-16-19",
+   "mm:opel-vauxhall:combo-e2-2007-46-0622-09-17-e2-2007-46-0623-14-20",
+   "mm:opel-vauxhall:corsa-e2-2007-46-0639-10-20",
+   "mm:opel-vauxhall:grandland-x-e2-2007-46-0597-17-25",
+   "mm:opel-vauxhall:mokka-e2-2007-46-0639-12-e2-2007-46-0639-12-22",
+   "mm:opel-vauxhall:movano-e24-2007-46-0592-03-e3-2007-46-0045-22-26",
+   "mm:opel-vauxhall:zafira-vivaro-e2-2007-46-0532-14-21",
+   "ml:opel-vauxhall:astra-l-29-072021-05-07-2022",
+   "ml:opel-vauxhall:combo-19-10-2020-06-07-2022",
+   "ml:opel-vauxhall:corsa-25-02-2020-22-10-2022",
+   "ml:opel-vauxhall:grandland-x-06-07-2020-03-12-2022",
+   "ml:opel-vauxhall:mokka-30-09-2020-03-12-2022",
+   "ml:opel-vauxhall:movano-12-10-2021-29-11-2022",
+   "ml:opel-vauxhall:zafira-vivaro-06-10-2020-11-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a951e47839582ed4"
+  "enriquecido": true,
+  "hashContenido": "4d4fc461f8d1af6f"
  },
  "slug": "coche-de-pasajeros-van-opel-opel-vauxhall-safety-gate-10010101"
 }

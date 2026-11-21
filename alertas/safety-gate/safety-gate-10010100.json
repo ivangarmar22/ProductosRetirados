@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-09-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,28 +28,44 @@
    ],
    "modelos": [
     "Berlingo : e2*2007/46*0624*09 - 18 e2*2007/46*0625*14 - 20",
-    "C3 : e2*2007/46*0003*63 - 69",
-    "e2*2007/46*0060*29 - 34",
+    "C3 : e2*2007/46*0003*63 - 69 ; e2*2007/46*0060*29 - 34",
     "C4 : e9*2007/46*6816*00 - 12",
-    "C4 picasso : e2*2007/46*0000*00",
-    "e2*2007/46*0356*24 - 32",
+    "C4 picasso : e2*2007/46*0000*00 ; e2*2007/46*0356*24 - 32",
     "C5 Aircross : e2*2007/46*0642*10 - 18",
     "CELYSEE : e2*2007/46*0225*13 - 23",
-    "JUMPER : e2*2007/46*0000*00",
-    "e2*2007/46*0440*15",
-    "e2*2007/46*0736*02 - 04",
-    "e24*2007/46*0588*03",
-    "e24*2007/46*0593*03",
-    "e3*2007/46*0046*18 - 24 e3*2007/46*0051*20 - 21",
-    "e3*2007/46*0051*24 - 26",
-    "SPACETOURER",
-    "JUMPY 4 : e2*2007/46*0530*14 - 18",
-    "e2*2007/46*0531*17 - 21"
+    "JUMPER : e2*2007/46*0000*00 ; e2*2007/46*0440*15 ; e2*2007/46*0736*02 - 04 ; e24*2007/46*0588*03 ; e24*2007/46*0593*03 ; e3*2007/46*0046*18 - 24 e3*2007/46*0051*20 - 21 ; e3*2007/46*0051*24 - 26",
+    "SPACETOURER / JUMPY 4 : e2*2007/46*0530*14 - 18 ; e2*2007/46*0531*17 - 21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "BERLINGO: 16/06/2020 - 06/07/2022"
+    },
+    {
+     "numero": "C3: 30/06/2020 - 21/09/2022"
+    },
+    {
+     "numero": "C4 Picasso: 10/02/2020 - 27/06/2022"
+    },
+    {
+     "numero": "C4: 26/05/2020 - 30/11/2022"
+    },
+    {
+     "numero": "C5 Aircross: 05/12/2019 - 05/12/2022"
+    },
+    {
+     "numero": "CELYSEE: 12/11/2019 - 14/10/2022"
+    },
+    {
+     "numero": "JUMPER: 28/05/2020 - 02/12/2022"
+    },
+    {
+     "numero": "SPACETOURER / JUMPY 4: 16/06/2020 - 06/09/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros/van",
-   "fechasTexto": "BERLINGO: 16/06/2020 - 06/07/2022C3: 30/06/2020 - 21/09/2022C4 Picasso: 10/02/2020 - 27/06/2022C4: 26/05/2020 - 30/11/2022C5 Aircross: 05/12/2019 - 05/12/2022CELYSEE: 12/11/2019 - 14/10/2022JUMPER: 28/05/2020 - 02/12/2022SPACETOURER / JUMPY 4: 16/06/2020 - 06/09/2022"
+   "fechasTexto": "BERLINGO: 16/06/2020 - 06/07/2022C3: 30/06/2020 - 21/09/2022C4 Picasso: 10/02/2020 - 27/06/2022C4: 26/05/2020 - 30/11/2022C5 Aircross: 05/12/2019 - 05/12/2022CELYSEE: 12/11/2019 - 14/10/2022JUMPER: 28/05/2020 - 02/12/2022SPACETOURER / JUMPY 4: 16/06/2020 - 06/09/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +95,22 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -123,31 +154,29 @@
   "claves": [
    "ref:A12/01876/23",
    "mm:citroen:berlingo-e2-2007-46-0624-09-18-e2-2007-46-0625-14-20",
-   "mm:citroen:c3-e2-2007-46-0003-63-69",
-   "mm:citroen:e2-2007-46-0060-29-34",
+   "mm:citroen:c3-e2-2007-46-0003-63-69-e2-2007-46-0060-29-34",
    "mm:citroen:c4-e9-2007-46-6816-00-12",
-   "mm:citroen:c4-picasso-e2-2007-46-0000-00",
-   "mm:citroen:e2-2007-46-0356-24-32",
+   "mm:citroen:c4-picasso-e2-2007-46-0000-00-e2-2007-46-0356-24-32",
    "mm:citroen:c5-aircross-e2-2007-46-0642-10-18",
    "mm:citroen:celysee-e2-2007-46-0225-13-23",
-   "mm:citroen:jumper-e2-2007-46-0000-00",
-   "mm:citroen:e2-2007-46-0440-15",
-   "mm:citroen:e2-2007-46-0736-02-04",
-   "mm:citroen:e24-2007-46-0588-03",
-   "mm:citroen:e24-2007-46-0593-03",
-   "mm:citroen:e3-2007-46-0046-18-24-e3-2007-46-0051-20-21",
-   "mm:citroen:e3-2007-46-0051-24-26",
-   "mm:citroen:spacetourer",
-   "mm:citroen:jumpy-4-e2-2007-46-0530-14-18",
-   "mm:citroen:e2-2007-46-0531-17-21"
+   "mm:citroen:jumper-e2-2007-46-0000-00-e2-2007-46-0440-15-e2-2007-46-0736-02-04-e24-2007-46-0588-03-e24-2007-46-0593-03-e3-2007-46-0046-18-24-e3-2007-46-0051-20-21-e3-2007-46-0051-24-26",
+   "mm:citroen:spacetourer-jumpy-4-e2-2007-46-0530-14-18-e2-2007-46-0531-17-21",
+   "ml:citroen:berlingo-16-06-2020-06-07-2022",
+   "ml:citroen:c3-30-06-2020-21-09-2022",
+   "ml:citroen:c4-picasso-10-02-2020-27-06-2022",
+   "ml:citroen:c4-26-05-2020-30-11-2022",
+   "ml:citroen:c5-aircross-05-12-2019-05-12-2022",
+   "ml:citroen:celysee-12-11-2019-14-10-2022",
+   "ml:citroen:jumper-28-05-2020-02-12-2022",
+   "ml:citroen:spacetourer-jumpy-4-16-06-2020-06-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "20bc6bf58ac45516"
+  "enriquecido": true,
+  "hashContenido": "301080c75a2cf6f2"
  },
  "slug": "coche-de-pasajeros-van-citroen-safety-gate-10010100"
 }

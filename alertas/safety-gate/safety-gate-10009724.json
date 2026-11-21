@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Equilibre la bicicleta con un tornillo de color plateado en el vástago. Edad 18 a 54 meses.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,11 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "NO",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "70253e037f247875"
+  "enriquecido": true,
+  "hashContenido": "d5e981a99e835698"
  },
  "slug": "bicicleta-de-equilibrio-woom-safety-gate-10009724"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-23"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -24,7 +24,8 @@
   {
    "nombre": "Breeze Girls Forever",
    "marcas": [
-    "Breeze, Breeze Girls"
+    "Breeze",
+    "Breeze Girls"
    ],
    "modelos": [
     "16989"
@@ -32,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Sudadera con capucha gris con cordones sueltos de color rosa, talla 10 años.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -91,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01865/23",
-   "mm:breeze-breeze-girls:16989"
+   "mm:breeze:16989",
+   "mm:breeze-girls:16989"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "da136fe07f6df2e4"
+  "enriquecido": true,
+  "hashContenido": "aed2adae085db505"
  },
  "slug": "sudadera-con-capucha-para-ninos-breeze-breeze-girls-safety-gate-10010073"
 }
