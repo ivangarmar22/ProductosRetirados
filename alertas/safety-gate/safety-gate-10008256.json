@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R2S",
     "e1*2007/46*2115*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "7.3.2022 - 24.3.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "7.3.2022 - 24.3.2022"
+   "fechasTexto": "7.3.2022 - 24.3.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
   "claves": [
    "ref:A12/00856/23",
    "mm:mercedes-benz:r2s",
-   "mm:mercedes-benz:e1-2007-46-2115-06"
+   "mm:mercedes-benz:e1-2007-46-2115-06",
+   "ml:mercedes-benz:7-3-2022-24-3-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3aec9ae7176b7e1d"
+  "enriquecido": true,
+  "hashContenido": "6c65468f572c53cb"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10008256"
 }

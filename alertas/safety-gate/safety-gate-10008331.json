@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e9*168/2013*11358*##",
     "e9*168/2013*11662*##"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04/05/2020 - 07/12/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Scooter",
-   "fechasTexto": "04/05/2020 - 07/12/2020"
+   "fechasTexto": "04/05/2020 - 07/12/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,15 +88,16 @@
    "ref:A12/00838/23",
    "mm:piaggio:e9-168-2013-11015",
    "mm:piaggio:e9-168-2013-11358",
-   "mm:piaggio:e9-168-2013-11662"
+   "mm:piaggio:e9-168-2013-11662",
+   "ml:piaggio:04-05-2020-07-12-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4de6ba6c77fcf584"
+  "enriquecido": true,
+  "hashContenido": "72975b5bc2e6a246"
  },
  "slug": "scooter-piaggio-safety-gate-10008331"
 }

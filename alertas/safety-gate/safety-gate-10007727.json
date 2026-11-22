@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-13"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -27,21 +27,22 @@
     "Scott"
    ],
    "modelos": [
-    "286437 - Speedster 40 (EU)",
-    "286438 - Speedster 50 (EU)",
-    "286442 - Speedster 40 (CN)",
-    "286443 - Speedster 50 (CN)",
-    "286465 - Speedster Gravel 40 EQ (EU)",
     "286466 - Speedster Gravel 40 EQ (CN)",
     "286466 - Speedster Gravel 50 (EU)",
     "286472 - Speedster Gravel 50 (CN)",
     "286490 - Contessa Speedster Gravel 35 (EU)",
-    "286493 - Contessa Speedster Gravel 35 (CN)"
+    "286493 - Contessa Speedster Gravel 35 (CN)",
+    "286437 - Speedster 40 (EU)",
+    "286438 - Speedster 50 (EU)",
+    "286442 - Speedster 40 (CN)",
+    "286443 - Speedster 50 (CN)",
+    "286465 - Speedster Gravel 40 EQ (EU)"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Bicicletas de marca para carretera y para terrenos similares a grava.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +76,16 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "EE",
+   "FR",
+   "IE",
+   "PL",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,24 +100,24 @@
  "dedup": {
   "claves": [
    "ref:A12/00201/23",
-   "mm:scott:286437-speedster-40-eu",
-   "mm:scott:286438-speedster-50-eu",
-   "mm:scott:286442-speedster-40-cn",
-   "mm:scott:286443-speedster-50-cn",
-   "mm:scott:286465-speedster-gravel-40-eq-eu",
    "mm:scott:286466-speedster-gravel-40-eq-cn",
    "mm:scott:286466-speedster-gravel-50-eu",
    "mm:scott:286472-speedster-gravel-50-cn",
    "mm:scott:286490-contessa-speedster-gravel-35-eu",
-   "mm:scott:286493-contessa-speedster-gravel-35-cn"
+   "mm:scott:286493-contessa-speedster-gravel-35-cn",
+   "mm:scott:286437-speedster-40-eu",
+   "mm:scott:286438-speedster-50-eu",
+   "mm:scott:286442-speedster-40-cn",
+   "mm:scott:286443-speedster-50-cn",
+   "mm:scott:286465-speedster-gravel-40-eq-eu"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5ac3d5ccae2ff342"
+  "enriquecido": true,
+  "hashContenido": "aeb02018463c6360"
  },
  "slug": "bicicleta-scott-safety-gate-10007727"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-11"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "9173030891740308"
+     "numero": "91730308"
+    },
+    {
+     "numero": "91740308"
     }
    ],
    "ean": [
     "4005808678594"
    ],
    "descripcion": "Spray para el cabello",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lata de metal, 200 ml."
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:A12/01074/23",
    "ean:4005808678594",
-   "ml:nivea:9173030891740308"
+   "ml:nivea:91730308",
+   "ml:nivea:91740308"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dc41006f20681cb0"
+  "enriquecido": true,
+  "hashContenido": "ba200eec251fbc98"
  },
  "slug": "spray-para-el-cabello-nivea-safety-gate-10008465"
 }

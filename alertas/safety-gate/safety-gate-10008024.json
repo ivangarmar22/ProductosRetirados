@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-30"
  },
  "categoria": {
   "literal": "Artículos de decoración",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "El librero es un soporte de vidrio con un mineral en forma de piedra adhesiva. La piedra consiste en gran parte de orpimento y realgar.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +62,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -120,11 +124,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8513be7a3ddce707"
+  "enriquecido": true,
+  "hashContenido": "a62cfa072dd38fb2"
  },
  "slug": "direccion-de-libro-safety-gate-10008024"
 }

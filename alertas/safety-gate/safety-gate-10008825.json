@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,27 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "906BA35",
-    "906BA35/4x4",
-    "906BA50",
-    "906BB35",
-    "906BB35/4x4",
-    "906BB50",
-    "906BB50/4x4",
-    "906 AC 35",
-    "e1*2007/46*0300*15-*17",
-    "e1*2007/46*0312*12",
-    "e1*2007/46*0294*10-*12",
-    "e1*2007/46*0301*17-*19",
-    "e1*2007/46*0305*11",
-    "e1*2007/46*0296*10-*12",
-    "e1*2007/46*0304*06",
-    "e1*2001/116*0354*23"
+    "906BA35, 906BA35/4x4, 906BA50, 906BB35, 906BB35/4x4, 906BB50, 906BB50/4x4, 906 AC 35",
+    "e1*2007/46*0300*15-*17, e1*2007/46*0312*12, e1*2007/46*0294*10-*12, e1*2007/46*0301*17-*19, e1*2007/46*0305*11, e1*2007/46*0296*10-*12, e1*2007/46*0304*06, e1*2001/116*0354*23"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.03.2018 – 30.08.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero equipado con el motor OM651.",
-   "fechasTexto": "22.03.2018 – 30.08.2019"
+   "fechasTexto": "22.03.2018 – 30.08.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,30 +86,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00990/23",
-   "mm:mercedes-benz:906ba35",
-   "mm:mercedes-benz:906ba35-4x4",
-   "mm:mercedes-benz:906ba50",
-   "mm:mercedes-benz:906bb35",
-   "mm:mercedes-benz:906bb35-4x4",
-   "mm:mercedes-benz:906bb50",
-   "mm:mercedes-benz:906bb50-4x4",
-   "mm:mercedes-benz:906-ac-35",
-   "mm:mercedes-benz:e1-2007-46-0300-15-17",
-   "mm:mercedes-benz:e1-2007-46-0312-12",
-   "mm:mercedes-benz:e1-2007-46-0294-10-12",
-   "mm:mercedes-benz:e1-2007-46-0301-17-19",
-   "mm:mercedes-benz:e1-2007-46-0305-11",
-   "mm:mercedes-benz:e1-2007-46-0296-10-12",
-   "mm:mercedes-benz:e1-2007-46-0304-06",
-   "mm:mercedes-benz:e1-2001-116-0354-23"
+   "mm:mercedes-benz:906ba35-906ba35-4x4-906ba50-906bb35-906bb35-4x4-906bb50-906bb50-4x4-906-ac-35",
+   "mm:mercedes-benz:e1-2007-46-0300-15-17-e1-2007-46-0312-12-e1-2007-46-0294-10-12-e1-2007-46-0301-17-19-e1-2007-46-0305-11-e1-2007-46-0296-10-12-e1-2007-46-0304-06-e1-2001-116-0354-23",
+   "ml:mercedes-benz:22-03-2018-30-08-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "151d083ea0718875"
+  "enriquecido": true,
+  "hashContenido": "20410352cd8473ae"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10008825"
 }

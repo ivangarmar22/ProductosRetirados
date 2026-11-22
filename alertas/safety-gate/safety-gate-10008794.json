@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-16"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,14 +31,24 @@
    ],
    "lotes": [
     {
-     "numero": "BATCH: B40416BEST BY: 08/27/24LOT: IMFR 17696REF: IMFR1.5"
+     "numero": "BATCH: B40416"
+    },
+    {
+     "numero": "BEST BY: 08/27/24"
+    },
+    {
+     "numero": "LOT: IMFR 17696"
+    },
+    {
+     "numero": "REF: IMFR1.5"
     }
    ],
    "ean": [
     "840058816105"
    ],
    "descripcion": "La tinta del tatuaje está en una botella de plástico naranja con una tapa de plástico negro, volumen 44 ml. En la botella hay una etiqueta negra con textos y un dragón dorado. Fecha de caducidad 08/27/24.El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "No hay paquete exterior."
   }
  ],
  "riesgo": {
@@ -72,7 +82,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +101,18 @@
    "ref:A12/00979/23",
    "ean:840058816105",
    "mm:kuro-sumi:florentine-roof",
-   "ml:kuro-sumi:batch-b40416best-by-08-27-24lot-imfr-17696ref-imfr1-5"
+   "ml:kuro-sumi:batch-b40416",
+   "ml:kuro-sumi:best-by-08-27-24",
+   "ml:kuro-sumi:lot-imfr-17696",
+   "ml:kuro-sumi:ref-imfr1-5"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dc2da1a79689f531"
+  "enriquecido": true,
+  "hashContenido": "7d90dd68b6d429df"
  },
  "slug": "tinta-de-tatuaje-kuro-sumi-safety-gate-10008794"
 }

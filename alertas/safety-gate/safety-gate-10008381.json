@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-08-01"
  },
  "categoria": {
   "literal": "Otros - Dispositivos pirotécnicos de salvamento",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Llamarada de cohete paracaídas con luz roja para su uso como señal de socorro en todo tipo de naves. Año de fabricación: 2021. Fecha de caducidad: 05/2025.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "España",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d5d167eb1a4c54b0"
+  "enriquecido": true,
+  "hashContenido": "6adb633cf6b8fa64"
  },
  "slug": "llamarada-de-cohetes-de-paracaidas-pirolec-safety-gate-10008381"
 }

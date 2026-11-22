@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-13"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "EUROLAMP"
    ],
    "modelos": [
-    "147-47090",
-    "YXL-C1-E27"
+    "147-47090 / YXL-C1-E27"
    ],
    "lotes": [],
    "ean": [
     "5207227026850"
    ],
    "descripcion": "Cadena de iluminación para uso al aire libre. Conexión de corriente alterna a través de enchufe de red. E27 Lámparas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón impresa"
   }
  ],
  "riesgo": {
@@ -69,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,16 +99,15 @@
   "claves": [
    "ref:A12/00999/23",
    "ean:5207227026850",
-   "mm:eurolamp:147-47090",
-   "mm:eurolamp:yxl-c1-e27"
+   "mm:eurolamp:147-47090-yxl-c1-e27"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e6b2635e590ea3cc"
+  "enriquecido": true,
+  "hashContenido": "2ee147a2a56cd5fa"
  },
  "slug": "cadena-de-iluminacion-eurolamp-safety-gate-10008626"
 }

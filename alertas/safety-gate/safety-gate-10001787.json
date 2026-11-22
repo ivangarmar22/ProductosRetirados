@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,12 +32,18 @@
    ],
    "lotes": [
     {
-     "numero": "E6286E6289"
+     "numero": "E6286"
+    },
+    {
+     "numero": "E6289"
     }
    ],
-   "ean": [],
+   "ean": [
+    "5010993629893"
+   ],
    "descripcion": "Dos modelos de voladores de agua súper soaker. El modelo XP20 es un blaster de agua verde y naranja, XP30 es un blaster de agua azul y naranja.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón azul."
   }
  ],
  "riesgo": {
@@ -67,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,17 +107,19 @@
  "dedup": {
   "claves": [
    "ref:A11/00076/20",
+   "ean:5010993629893",
    "mm:nerf:xp20",
    "mm:nerf:xp30",
-   "ml:nerf:e6286e6289"
+   "ml:nerf:e6286",
+   "ml:nerf:e6289"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c8cd7ffbaef69651"
+  "enriquecido": true,
+  "hashContenido": "aeb8430d7744ca0e"
  },
  "slug": "pistola-de-agua-de-juguete-nerf-safety-gate-10001787"
 }

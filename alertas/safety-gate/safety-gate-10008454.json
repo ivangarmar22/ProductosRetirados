@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0612*19"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06/01/2023 - 11/01/2023:"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "06/01/2023 - 11/01/2023:"
+   "fechasTexto": "06/01/2023 - 11/01/2023:",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00862/23",
-   "mm:alpine:e2-2007-46-0612-19"
+   "mm:alpine:e2-2007-46-0612-19",
+   "ml:alpine:06-01-2023-11-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00e58227ddda675f"
+  "enriquecido": true,
+  "hashContenido": "3f90c5ef6e386608"
  },
  "slug": "coche-de-pasajeros-alpine-safety-gate-10008454"
 }

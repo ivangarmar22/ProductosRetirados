@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "8713291885011"
    ],
    "descripcion": "Un juguete suave chirriante en forma de ganso. Tamaño aproximado de 160 mm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "25745ca4723dc7d4"
+  "enriquecido": true,
+  "hashContenido": "6b3edb3bcb513b8e"
  },
  "slug": "juguete-suave-little-dutch-safety-gate-10008966"
 }

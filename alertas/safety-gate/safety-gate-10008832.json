@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "3380743089416"
    ],
    "descripcion": "Juego de pesca de madera en forma de gato. Producto vendido en línea, en particular a través de Amazon, ASIN: B08T64F6VL.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con inscripciones en francés, inglés y alemán."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e495038bf9dbaea"
+  "enriquecido": true,
+  "hashContenido": "9dc1e4275c4552cc"
  },
  "slug": "juego-de-pesca-lexibook-safety-gate-10008832"
 }

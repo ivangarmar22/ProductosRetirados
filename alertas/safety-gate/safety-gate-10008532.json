@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*1318*##"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "TM PE: 2.06.2020 - 13.08.2022; TM HEV: 12.09.2020 - 14.07.2022; TM PHEV: 18.01.2021 - 16.08.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "TM PE: 2.06.2020 - 13.08.2022; TM HEV: 12.09.2020 - 14.07.2022; TM PHEV: 18.01.2021 - 16.08.2022"
+   "fechasTexto": "TM PE: 2.06.2020 - 13.08.2022; TM HEV: 12.09.2020 - 14.07.2022; TM PHEV: 18.01.2021 - 16.08.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00870/23",
-   "mm:hyundai:e4-2007-46-1318"
+   "mm:hyundai:e4-2007-46-1318",
+   "ml:hyundai:tm-pe-2-06-2020-13-08-2022-tm-hev-12-09-2020-14-07-2022-tm-phev-18-01-2021-16-08-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ab3127a3477d0b8e"
+  "enriquecido": true,
+  "hashContenido": "1dc3dc699889e967"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10008532"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "e13*168/2013*00928*01",
     "e13*168/2013*00368*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.12.2022 - 12.01.2023 (CRF300LA/LRA)"
+    },
+    {
+     "numero": "19.02.2022 - 02.01.2023 (CBF300NA)"
+    }
+   ],
    "ean": [],
    "descripcion": "Año modelo: 2022 (CBF300NA) y 2023 (CRF300LA/LRA); País/lugar de producción: Fábrica de Tailandia (THM).",
-   "fechasTexto": "08.12.2022 - 12.01.2023 (CRF300LA/LRA) 19.02.2022 - 02.01.2023 (CBF300NA)"
+   "fechasTexto": "08.12.2022 - 12.01.2023 (CRF300LA/LRA) 19.02.2022 - 02.01.2023 (CBF300NA)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +73,15 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "GR",
+   "IE",
+   "NL",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +97,17 @@
   "claves": [
    "ref:A12/00985/23",
    "mm:honda:e13-168-2013-00928-01",
-   "mm:honda:e13-168-2013-00368-02"
+   "mm:honda:e13-168-2013-00368-02",
+   "ml:honda:08-12-2022-12-01-2023-crf300la-lra",
+   "ml:honda:19-02-2022-02-01-2023-cbf300na"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8c89c7ab1053f93a"
+  "enriquecido": true,
+  "hashContenido": "471db781eca2f3e0"
  },
  "slug": "moto-honda-safety-gate-10008729"
 }

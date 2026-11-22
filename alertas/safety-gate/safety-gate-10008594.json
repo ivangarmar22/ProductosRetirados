@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-05"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Guantes de cuero blanco. La parte de la muñeca está hecha de cuero amarillo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Pakistán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "707874d6b0297e76"
+  "enriquecido": true,
+  "hashContenido": "ef7746124189291d"
  },
  "slug": "guantes-laatuhanska-safety-gate-10008594"
 }

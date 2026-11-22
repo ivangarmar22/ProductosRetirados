@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-02"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,13 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "41425885"
+     "numero": "4142"
+    },
+    {
+     "numero": "58"
+    },
+    {
+     "numero": "85"
     }
    ],
    "ean": [
@@ -38,7 +44,8 @@
     "5949067517494"
    ],
    "descripcion": "El conjunto consiste en: gel de ducha (500 ml), loción corporal (250 ml) y crema de manos (50 ml).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -98,15 +105,15 @@
    "ean:5949067505774",
    "ean:5949067505804",
    "ean:5949067517494",
-   "ml:senzate-cosmetics:41425885"
+   "ml:senzate-cosmetics:4142"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5858d11b5ba689f2"
+  "enriquecido": true,
+  "hashContenido": "79f7867f2d5dbfcb"
  },
  "slug": "conjunto-cosmetico-senzate-cosmetics-safety-gate-10008824"
 }

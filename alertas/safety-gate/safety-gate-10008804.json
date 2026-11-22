@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "V",
     "e2*2007/46*0533*21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.9.2022 - 13.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero",
-   "fechasTexto": "1.9.2022 - 13.12.2022"
+   "fechasTexto": "1.9.2022 - 13.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00992/23",
-   "mm:opel:e2-2007-46-0533-21"
+   "mm:opel:e2-2007-46-0533-21",
+   "ml:opel:1-9-2022-13-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ce9f1c58a9b00035"
+  "enriquecido": true,
+  "hashContenido": "174cd1a39f7b3e1d"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-opel-safety-gate-10008804"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-18"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -27,12 +27,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "ST3FCP18S09ST9521036"
+     "numero": "ST3FCP18S09"
+    },
+    {
+     "numero": "ST9521036"
     }
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje, líquido negro. El producto también se vendió en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico y caja de cartón exterior."
   }
  ],
  "riesgo": {
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50cb3d6fee3d56a2"
+  "enriquecido": true,
+  "hashContenido": "3f00cdbfa391a247"
  },
  "slug": "tinta-de-tatuaje-stigma-true-black-safety-gate-10008600"
 }

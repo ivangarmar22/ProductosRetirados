@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-04"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "6210055 W6220008 W"
+     "numero": "6210055 W"
+    },
+    {
+     "numero": "6220008 W"
     }
    ],
    "ean": [
     "4038033390115"
    ],
    "descripcion": "Kit de cosméticos de 19 piezas para niños. Incluye productos como un lápiz labial, un brillo labial, un barniz de uñas, etc.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico transparente con asa."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
    "ref:A12/00960/23",
    "ean:4038033390115",
    "mm:pop:1539011e",
-   "ml:pop:6210055-w6220008-w"
+   "ml:pop:6210055-w",
+   "ml:pop:6220008-w"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d537ca555bc9587d"
+  "enriquecido": true,
+  "hashContenido": "3b4317d8b8b0858f"
  },
  "slug": "kit-de-cosmeticos-pop-safety-gate-10008655"
 }

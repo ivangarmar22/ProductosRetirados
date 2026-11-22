@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "G3L",
-    "G3X",
-    "G4X",
-    "F34XM",
-    "e1*2007/46*1947*",
-    "e1*2007/46*1797*",
-    "e1*2007/46*1881*",
-    "e1*2007/46*1988*"
+    "G3L, G3X, G4X, F34XM",
+    "e1*2007/46*1947*, e1*2007/46*1797*, e1*2007/46*1881*, e1*2007/46*1988*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "7.06.2019 - 3.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "7.06.2019 - 3.08.2021"
+   "fechasTexto": "7.06.2019 - 3.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,22 +86,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00988/23",
-   "mm:bmw:g3l",
-   "mm:bmw:g3x",
-   "mm:bmw:g4x",
-   "mm:bmw:f34xm",
-   "mm:bmw:e1-2007-46-1947",
-   "mm:bmw:e1-2007-46-1797",
-   "mm:bmw:e1-2007-46-1881",
-   "mm:bmw:e1-2007-46-1988"
+   "mm:bmw:g3l-g3x-g4x-f34xm",
+   "mm:bmw:e1-2007-46-1947-e1-2007-46-1797-e1-2007-46-1881-e1-2007-46-1988",
+   "ml:bmw:7-06-2019-3-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0bb1a427d44dbee8"
+  "enriquecido": true,
+  "hashContenido": "8fa261b87aebde17"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10008829"
 }

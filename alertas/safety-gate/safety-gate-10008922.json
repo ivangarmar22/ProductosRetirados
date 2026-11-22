@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "9782733872499"
    ],
    "descripcion": "Juguete suave en forma de lobo con una capa y una corona, unido a un soporte de cartón. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6d7983699c367a0a"
+  "enriquecido": true,
+  "hashContenido": "0a8483ebb57b8e53"
  },
  "slug": "juguete-suave-auzou-safety-gate-10008922"
 }

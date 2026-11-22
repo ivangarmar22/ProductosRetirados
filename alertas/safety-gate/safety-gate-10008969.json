@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "980",
     "e13*2001/116*0980*00-*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.8.2003 - 6.5.2006"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "29.8.2003 - 6.5.2006"
+   "fechasTexto": "29.8.2003 - 6.5.2006",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "NO",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +86,16 @@
   "claves": [
    "ref:A12/01065/23",
    "mm:porsche:980",
-   "mm:porsche:e13-2001-116-0980-00-01"
+   "mm:porsche:e13-2001-116-0980-00-01",
+   "ml:porsche:29-8-2003-6-5-2006"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ac8ada63b2593824"
+  "enriquecido": true,
+  "hashContenido": "9f9bf996c7e76949"
  },
  "slug": "coche-de-pasajeros-porsche-safety-gate-10008969"
 }

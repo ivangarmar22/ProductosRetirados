@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-16"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete relleno suave en forma de león unido a un paquete de chocolates.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fc27d14320554cdf"
+  "enriquecido": true,
+  "hashContenido": "ce49ea260396a4c7"
  },
  "slug": "juguete-suave-fizzy-safety-gate-10008391"
 }

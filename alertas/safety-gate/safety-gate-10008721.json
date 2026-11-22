@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-31"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "8435527814557"
    ],
    "descripcion": "Robot aspirador de plástico blanco. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "29a3bc05cc3fb416"
+  "enriquecido": true,
+  "hashContenido": "e17c1fd2b9c5bc7e"
  },
  "slug": "robot-aspirador-innovagoods-safety-gate-10008721"
 }

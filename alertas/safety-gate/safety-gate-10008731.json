@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "XMAX 125 e13*168/2013*00985*01",
     "XMAX 300 e13*168/2013*00901*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "XMAX 125: 06/04/2022 - 08/04/2022"
+    },
+    {
+     "numero": "XMAX 300: 01/04/2022 - 06/04/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Scooter",
-   "fechasTexto": "XMAX 125: 06/04/2022 - 08/04/2022XMAX 300: 01/04/2022 - 06/04/2022"
+   "fechasTexto": "XMAX 125: 06/04/2022 - 08/04/2022XMAX 300: 01/04/2022 - 06/04/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "LU",
+   "NL",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +97,17 @@
   "claves": [
    "ref:A12/00938/23",
    "mm:yamaha:xmax-125-e13-168-2013-00985-01",
-   "mm:yamaha:xmax-300-e13-168-2013-00901-01"
+   "mm:yamaha:xmax-300-e13-168-2013-00901-01",
+   "ml:yamaha:xmax-125-06-04-2022-08-04-2022",
+   "ml:yamaha:xmax-300-01-04-2022-06-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f999c692486419c1"
+  "enriquecido": true,
+  "hashContenido": "19a33bc5cd2e26a8"
  },
  "slug": "scooter-yamaha-safety-gate-10008731"
 }

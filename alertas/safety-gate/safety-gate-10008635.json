@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,20 @@
     "Kia"
    ],
    "modelos": [
-    "e4*2007/46*1365*04",
-    "e4*2007/46*1139*09"
+    "e4*2007/46*1365*04; e4*2007/46*1139*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06/2020 - 09/2020 (Soul EV)"
+    },
+    {
+     "numero": "06/2020 - 12/2020 (Niro EV)"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "06/2020 - 09/2020 (Soul EV)06/2020 - 12/2020 (Niro EV)"
+   "fechasTexto": "06/2020 - 09/2020 (Soul EV)06/2020 - 12/2020 (Niro EV)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +70,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "LU",
+   "NL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00998/23",
-   "mm:kia:e4-2007-46-1365-04",
-   "mm:kia:e4-2007-46-1139-09"
+   "mm:kia:e4-2007-46-1365-04-e4-2007-46-1139-09",
+   "ml:kia:06-2020-09-2020-soul-ev",
+   "ml:kia:06-2020-12-2020-niro-ev"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4e9d18214a139b13"
+  "enriquecido": true,
+  "hashContenido": "acef7e1b23cb4d20"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10008635"
 }

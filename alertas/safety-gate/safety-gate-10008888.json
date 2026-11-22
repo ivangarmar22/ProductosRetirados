@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "BMW."
    ],
    "modelos": [
-    "U2AT",
-    "U1X",
-    "e1*2018/858*00117*",
-    "e1*2018/858*00153*"
+    "U2AT, U1X",
+    "e1*2018/858*00117*, e1*2018/858*00153*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.06.2021 - 6.04.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "28.06.2021 - 6.04.2023"
+   "fechasTexto": "28.06.2021 - 6.04.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,23 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +99,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01029/23",
-   "mm:bmw:u2at",
-   "mm:bmw:u1x",
-   "mm:bmw:e1-2018-858-00117",
-   "mm:bmw:e1-2018-858-00153"
+   "mm:bmw:u2at-u1x",
+   "mm:bmw:e1-2018-858-00117-e1-2018-858-00153",
+   "ml:bmw:28-06-2021-6-04-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8a412469d3f97711"
+  "enriquecido": true,
+  "hashContenido": "032b9aa68e184217"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10008888"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Audi"
    ],
    "modelos": [
-    "B81",
-    "B8",
-    "8R1",
-    "8R",
-    "8R2",
-    "e13*2007/46*1084*",
-    "e1*2001/116*0430*",
-    "e13*2007/46*1083*",
-    "e1*2001/116*0473*",
-    "e13*2007/46*1179*"
+    "B81, B8, 8R1, 8R, 8R2",
+    "e13*2007/46*1084*, e1*2001/116*0430*, e13*2007/46*1083*, e1*2001/116*0473*, e13*2007/46*1179*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.9.2008 - 26.11.2012"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con airbags Takata.",
-   "fechasTexto": "13.9.2008 - 26.11.2012"
+   "fechasTexto": "13.9.2008 - 26.11.2012",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,22 +90,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00784/23",
-   "mm:audi:b81",
-   "mm:audi:8r1",
-   "mm:audi:8r2",
-   "mm:audi:e13-2007-46-1084",
-   "mm:audi:e1-2001-116-0430",
-   "mm:audi:e13-2007-46-1083",
-   "mm:audi:e1-2001-116-0473",
-   "mm:audi:e13-2007-46-1179"
+   "mm:audi:b81-b8-8r1-8r-8r2",
+   "mm:audi:e13-2007-46-1084-e1-2001-116-0430-e13-2007-46-1083-e1-2001-116-0473-e13-2007-46-1179",
+   "ml:audi:13-9-2008-26-11-2012"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "217bb51151db27ac"
+  "enriquecido": true,
+  "hashContenido": "5dc4c64565bad583"
  },
  "slug": "coche-de-pasajeros-audi-safety-gate-10008410"
 }

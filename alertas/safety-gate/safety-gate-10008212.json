@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,19 @@
     "Polaris"
    ],
    "modelos": [
-    "A23SLS95FK",
-    "A23SGS95FN",
-    "A22SLS95FJ",
-    "A22SGS95FN",
-    "A21SGS95FK",
-    "A21SLS95FG (with individual approval)",
+    "A23SLS95FK, A23SGS95FN, A22SLS95FJ, A22SGS95FN, A21SGS95FK, A21SLS95FG (with individual approval)",
     "TP11",
     "e8*167/2013*00004*00-*04 and Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2020 - 2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de todo terreno",
-   "fechasTexto": "2020 - 2023"
+   "fechasTexto": "2020 - 2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +71,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "LU",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,22 +91,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00875/23",
-   "mm:polaris:a23sls95fk",
-   "mm:polaris:a23sgs95fn",
-   "mm:polaris:a22sls95fj",
-   "mm:polaris:a22sgs95fn",
-   "mm:polaris:a21sgs95fk",
-   "mm:polaris:a21sls95fg-with-individual-approval",
+   "mm:polaris:a23sls95fk-a23sgs95fn-a22sls95fj-a22sgs95fn-a21sgs95fk-a21sls95fg-with-individual-approval",
    "mm:polaris:tp11",
-   "mm:polaris:e8-167-2013-00004-00-04-and-individual-approval"
+   "mm:polaris:e8-167-2013-00004-00-04-and-individual-approval",
+   "ml:polaris:2020-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "548f02a62484f4be"
+  "enriquecido": true,
+  "hashContenido": "527ba1123e784ba1"
  },
  "slug": "vehiculo-de-todo-terreno-polaris-safety-gate-10008212"
 }

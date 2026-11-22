@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "?"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4.10.2022 - 1.11.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Números de serie específicos de las series Can-Am® Commander, Traxter, Maverick Trail y Sport del año 2023 equipados con motores HD7, HD9, HD10, 1000 o 1000R.",
-   "fechasTexto": "4.10.2022 - 1.11.2022"
+   "fechasTexto": "4.10.2022 - 1.11.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Noruega",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "LU",
+   "NL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,15 +102,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/00877/23"
+   "ref:A12/00877/23",
+   "ml:brp-can-am:4-10-2022-1-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "95779be959d77214"
+  "enriquecido": true,
+  "hashContenido": "97e4c31d2cd37674"
  },
  "slug": "vehiculo-de-todo-terreno-brp-can-am-safety-gate-10007684"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-10"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Calentador de gas portátil 1,7 kW, tamaño: 275 x 275 x 180 mm, peso: 1,8 kg.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "En una caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2a3e6ee9e1ecf44e"
+  "enriquecido": true,
+  "hashContenido": "dc486f5fe9cbeb0d"
  },
  "slug": "calentador-de-gas-portatil-biltema-safety-gate-10007805"
 }

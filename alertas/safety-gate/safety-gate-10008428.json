@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "KH01",
     "e13*2018/858*00255*01-*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.06.2022 - 31.12. 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2.06.2022 - 31.12. 2022"
+   "fechasTexto": "2.06.2022 - 31.12. 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +98,16 @@
   "claves": [
    "ref:A12/00867/23",
    "mm:mazda:kh01",
-   "mm:mazda:e13-2018-858-00255-01-04"
+   "mm:mazda:e13-2018-858-00255-01-04",
+   "ml:mazda:2-06-2022-31-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd5178a1648ff7d7"
+  "enriquecido": true,
+  "hashContenido": "b81bd7b2b2a3a267"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10008428"
 }

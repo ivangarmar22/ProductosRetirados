@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E6*168/2013*00077*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "2021"
+   "fechasTexto": "2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "NL",
+   "NO",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +92,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00876/23",
-   "mm:suzuki:e6-168-2013-00077-00"
+   "mm:suzuki:e6-168-2013-00077-00",
+   "ml:suzuki:2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "80307c785c79ec86"
+  "enriquecido": true,
+  "hashContenido": "2f7eb95985f07af3"
  },
  "slug": "moto-suzuki-safety-gate-10008242"
 }

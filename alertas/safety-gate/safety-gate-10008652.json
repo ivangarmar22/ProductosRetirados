@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -33,10 +33,15 @@
     "e9*2007/46*3142*16 e9*2007/46*3142*21 e9*2007/46*3142*22",
     "e9*2007/46*3165*04 à 10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.8.2019 - 21.3.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2.8.2019 - 21.3.2022"
+   "fechasTexto": "2.8.2019 - 21.3.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +73,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,15 +116,16 @@
    "mm:ford:e13-2007-46-2188-01-a-10",
    "mm:ford:e9-2007-46-3142-05-a-14",
    "mm:ford:e9-2007-46-3142-16-e9-2007-46-3142-21-e9-2007-46-3142-22",
-   "mm:ford:e9-2007-46-3165-04-a-10"
+   "mm:ford:e9-2007-46-3165-04-a-10",
+   "ml:ford:2-8-2019-21-3-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5e99ac2e59aec91c"
+  "enriquecido": true,
+  "hashContenido": "a4e2042961548434"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10008652"
 }

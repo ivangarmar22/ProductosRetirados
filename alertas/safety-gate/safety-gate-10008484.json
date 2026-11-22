@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "1G13",
-    "1T13",
-    "e1*168/2013*00071*",
-    "e1*168/2013*00093*"
+    "1G13, 1T13",
+    "e1*168/2013*00071*, e1*168/2013*00093*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.09.2017 - 12.01.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "18.09.2017 - 12.01.2023"
+   "fechasTexto": "18.09.2017 - 12.01.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +93,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00864/23",
-   "mm:bmw:1g13",
-   "mm:bmw:1t13",
-   "mm:bmw:e1-168-2013-00071",
-   "mm:bmw:e1-168-2013-00093"
+   "mm:bmw:1g13-1t13",
+   "mm:bmw:e1-168-2013-00071-e1-168-2013-00093",
+   "ml:bmw:18-09-2017-12-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e4c1dd31683902a9"
+  "enriquecido": true,
+  "hashContenido": "b88f048ff6a7b322"
  },
  "slug": "moto-bmw-safety-gate-10008484"
 }

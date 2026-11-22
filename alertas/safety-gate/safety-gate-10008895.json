@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -25,13 +25,13 @@
    "nombre": "Teléfono de juguete",
    "marcas": [],
    "modelos": [
-    "STK0180005917",
-    "N°1060A"
+    "STK0180005917, N°1060A"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Teléfono de juguete con efectos de sonido y luz y baterías LR3 (AAA). Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -81,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9c9a76500a91a536"
+  "enriquecido": true,
+  "hashContenido": "f9da0eabb6c7dbc8"
  },
  "slug": "telefono-de-juguete-safety-gate-10008895"
 }

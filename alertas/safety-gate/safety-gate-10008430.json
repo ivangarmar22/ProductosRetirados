@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E4- 0297593"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.10.2021 - 17.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo (neumáticos de sustitución para automóviles)",
-   "fechasTexto": "11.10.2021 - 17.10.2021"
+   "fechasTexto": "11.10.2021 - 17.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Portugal",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00866/23",
-   "mm:platin:e4-0297593"
+   "mm:platin:e4-0297593",
+   "ml:platin:11-10-2021-17-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e213a85acb33a70"
+  "enriquecido": true,
+  "hashContenido": "76b527795cf3fc5f"
  },
  "slug": "neumaticos-platin-safety-gate-10008430"
 }

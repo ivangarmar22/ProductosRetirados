@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -33,7 +33,13 @@
    ],
    "lotes": [
     {
-     "numero": "009010012"
+     "numero": "009"
+    },
+    {
+     "numero": "010"
+    },
+    {
+     "numero": "012"
     }
    ],
    "ean": [
@@ -42,7 +48,8 @@
     "8696814064608"
    ],
    "descripcion": "Eau de toilette en botella de vidrio de 30 ml en color azul, amarillo y rosa.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de vidrio de 30 ml."
   }
  ],
  "riesgo": {
@@ -98,15 +105,17 @@
    "ean:8696814064523",
    "ean:8696814064530",
    "ean:8696814064608",
-   "ml:gabrini:009010012"
+   "ml:gabrini:009",
+   "ml:gabrini:010",
+   "ml:gabrini:012"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e9882d04c1666be3"
+  "enriquecido": true,
+  "hashContenido": "e36a147a170fbde6"
  },
  "slug": "eau-de-toilette-gabrini-safety-gate-10008541"
 }

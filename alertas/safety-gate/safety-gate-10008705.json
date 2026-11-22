@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-20"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "6900000113844"
    ],
    "descripcion": "Juego de cinco patos de juguete hechos de material plástico blando.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "151512c5315bc601"
+  "enriquecido": true,
+  "hashContenido": "5a92c5d430f2f16c"
  },
  "slug": "juguete-de-plastico-pet-happy-safety-gate-10008705"
 }

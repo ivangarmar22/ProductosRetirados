@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-22"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "8716309119795"
    ],
    "descripcion": "Cargador USB tipo C negro",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalado en plástico."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Letonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fe75de40950b3572"
+  "enriquecido": true,
+  "hashContenido": "8bd5b5d6b9b5d3a5"
  },
  "slug": "cargador-usb-gembird-safety-gate-10008140"
 }
