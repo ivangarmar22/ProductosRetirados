@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R2CW",
     "e1*2018/858*00016*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.3.2022 - 11.8.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, serie modelo 206.",
-   "fechasTexto": "24.3.2022 - 11.8.2022"
+   "fechasTexto": "24.3.2022 - 11.8.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +95,16 @@
   "claves": [
    "ref:A12/01225/23",
    "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:e1-2018-858-00016-04"
+   "mm:mercedes-benz:e1-2018-858-00016-04",
+   "ml:mercedes-benz:24-3-2022-11-8-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fbc3fc3513bc02cc"
+  "enriquecido": true,
+  "hashContenido": "8c9e915bb0d16911"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10009179"
 }

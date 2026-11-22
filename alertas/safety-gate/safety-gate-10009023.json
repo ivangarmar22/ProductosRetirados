@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual Approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.10.2022 - 17.01.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "24.10.2022 - 17.01.2023"
+   "fechasTexto": "24.10.2022 - 17.01.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +97,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01198/23",
-   "mm:bmw:individual-approval"
+   "mm:bmw:individual-approval",
+   "ml:bmw:24-10-2022-17-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6ab486b824f69bff"
+  "enriquecido": true,
+  "hashContenido": "d96391d717dbfcdb"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10009023"
 }

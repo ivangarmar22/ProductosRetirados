@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-08"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "PO1205PO1478PO1479PO1712"
+     "numero": "PO1205"
+    },
+    {
+     "numero": "PO1478"
+    },
+    {
+     "numero": "PO1479"
+    },
+    {
+     "numero": "PO1712"
     }
    ],
    "ean": [
@@ -40,7 +49,8 @@
     "5027434145461"
    ],
    "descripcion": "Mantas eléctricas calentadas en carbón y blanco. Productos vendidos en línea, en particular a través de Amazon, (ASIN B0BBG7J673, B0BBH1L6XW) y a través de eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -104,15 +114,18 @@
    "ean:5027434145461",
    "mm:online-home-shop:obebpolcl13",
    "mm:online-home-shop:obebpolwh02",
-   "ml:online-home-shop:po1205po1478po1479po1712"
+   "ml:online-home-shop:po1205",
+   "ml:online-home-shop:po1478",
+   "ml:online-home-shop:po1479",
+   "ml:online-home-shop:po1712"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a294a4d5668d60da"
+  "enriquecido": true,
+  "hashContenido": "41d8d48f96b05125"
  },
  "slug": "manta-electrica-online-home-shop-safety-gate-10009240"
 }

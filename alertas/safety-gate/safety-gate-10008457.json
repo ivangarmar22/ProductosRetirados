@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,13 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "014101179086031795130917"
+     "numero": "01410117"
+    },
+    {
+     "numero": "90860317"
+    },
+    {
+     "numero": "95130917"
     }
    ],
    "ean": [
@@ -37,7 +43,8 @@
     "4005808678617"
    ],
    "descripcion": "Mousse de cabello — Extra fuerte",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de metal"
   }
  ],
  "riesgo": {
@@ -100,15 +107,17 @@
    "ref:A12/01157/23",
    "ean:4005808678600",
    "ean:4005808678617",
-   "ml:nivea:014101179086031795130917"
+   "ml:nivea:01410117",
+   "ml:nivea:90860317",
+   "ml:nivea:95130917"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e9d28b399bc3a215"
+  "enriquecido": true,
+  "hashContenido": "2b575a56b57d4107"
  },
  "slug": "mousse-de-cabello-nivea-safety-gate-10008457"
 }

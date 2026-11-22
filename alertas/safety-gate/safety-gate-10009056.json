@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "BMW motorcycle"
    ],
    "modelos": [
-    "SM99",
-    "2R99",
-    "2R99r",
-    "e1*168/2013*00233*",
-    "e1*168/2013*00091*",
-    "e1*168/2013*00092*"
+    "SM99, 2R99, 2R99r",
+    "e1*168/2013*00233*, e1*168/2013*00091*, e1*168/2013*00092*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.10.2021 - 08.02.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicletas equipadas con una palanca de freno de mano fresada con número de pieza 37728103376.",
-   "fechasTexto": "07.10.2021 - 08.02.2023"
+   "fechasTexto": "07.10.2021 - 08.02.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,20 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01224/23",
-   "mm:bmw-motorcycle:sm99",
-   "mm:bmw-motorcycle:2r99",
-   "mm:bmw-motorcycle:2r99r",
-   "mm:bmw-motorcycle:e1-168-2013-00233",
-   "mm:bmw-motorcycle:e1-168-2013-00091",
-   "mm:bmw-motorcycle:e1-168-2013-00092"
+   "mm:bmw-motorcycle:sm99-2r99-2r99r",
+   "mm:bmw-motorcycle:e1-168-2013-00233-e1-168-2013-00091-e1-168-2013-00092",
+   "ml:bmw-motorcycle:07-10-2021-08-02-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c3d501f70950c77e"
+  "enriquecido": true,
+  "hashContenido": "0ca38cd07f1bb850"
  },
  "slug": "moto-bmw-motorcycle-safety-gate-10009056"
 }

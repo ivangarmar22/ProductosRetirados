@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-12"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave que representa al personaje de Huggy Wuggy del videojuego Poppy Playtime. Aproximadamente 40 cm. En varios colores.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Vendido sin embalar"
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb7786f2287dcf1f"
+  "enriquecido": true,
+  "hashContenido": "82cf9db0382221cc"
  },
  "slug": "juguete-suave-safety-gate-10008866"
 }

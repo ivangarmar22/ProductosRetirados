@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-12"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Router debajo de la mesa para enrutamiento pequeño y mediano y fresado de carpinterías, imitando un husillo pequeño, que va desde 11500 a 24 000 rpm. Distancia de altura ajustable 0-40 mm; el cable. El lote defectuoso se puede identificar en la placa tipo de la máquina (cuatro últimos dígitos). Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón rojo/blanco donde la imagen del producto, marca, tipo, características."
   }
  ],
  "riesgo": {
@@ -66,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "LT",
+   "LV",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eba63f215ca81ad7"
+  "enriquecido": true,
+  "hashContenido": "bb7ae2a115722c98"
  },
  "slug": "router-de-mesa-de-madera-holzmann-safety-gate-10005872"
 }

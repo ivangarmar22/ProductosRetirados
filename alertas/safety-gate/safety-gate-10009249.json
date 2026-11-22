@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "concept"
    ],
    "modelos": [
-    "Type: CF-2920",
-    "Model: ZV1000"
+    "Type: CF-2920 / Model: ZV1000"
    ],
    "lotes": [],
    "ean": [
     "8595631004395"
    ],
    "descripcion": "Humidificador de aire en forma de gota blanco con iluminación led.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -69,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,16 +96,15 @@
   "claves": [
    "ref:A12/01293/23",
    "ean:8595631004395",
-   "mm:concept:type-cf-2920",
-   "mm:concept:model-zv1000"
+   "mm:concept:type-cf-2920-model-zv1000"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "da8f464a3852228a"
+  "enriquecido": true,
+  "hashContenido": "1ca16ce05a0ceab2"
  },
  "slug": "humidificador-de-aire-concept-safety-gate-10009249"
 }

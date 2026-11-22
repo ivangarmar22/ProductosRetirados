@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "BIO BIONE"
    ],
    "modelos": [
-    "SPF 22",
-    "Karoten Panthenol"
+    "SPF 22, Karoten Panthenol"
    ],
    "lotes": [
     {
@@ -37,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Loción solar, FPS 22, volumen 200 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella blanca con tapa dosificadora de plástico."
   }
  ],
  "riesgo": {
@@ -86,17 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01343/23",
-   "mm:bio-bione:spf-22",
-   "mm:bio-bione:karoten-panthenol",
+   "mm:bio-bione:spf-22-karoten-panthenol",
    "ml:bio-bione:6-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "255fa68dd40f294a"
+  "enriquecido": true,
+  "hashContenido": "5d081d734b9bcfe7"
  },
  "slug": "protector-solar-bio-bione-safety-gate-10009271"
 }

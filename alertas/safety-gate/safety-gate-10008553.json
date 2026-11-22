@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-11-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,7 +38,8 @@
     "8715658008576"
    ],
    "descripcion": "Perfume destinado a mujeres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dd951c9dd6b7a6ed"
+  "enriquecido": true,
+  "hashContenido": "269839edd13ee27f"
  },
  "slug": "perfume-real-time-safety-gate-10008553"
 }

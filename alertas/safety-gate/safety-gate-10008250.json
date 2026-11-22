@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-16"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -51,7 +51,8 @@
     "6971695581010"
    ],
    "descripcion": "Tubo de adhesivo. El producto se vende en línea, en particular a través de Amazon, eBay y Rakuten Francia.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón gris para el producto con el número de referencia B-7000 y embalaje negro y amarillo para el producto con el número de referencia T-7000"
   }
  ],
  "riesgo": {
@@ -85,7 +86,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -140,11 +143,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e728f3ad1f3c7f59"
+  "enriquecido": true,
+  "hashContenido": "a82873479883e45e"
  },
  "slug": "pegamento-zhanlida-safety-gate-10008250"
 }

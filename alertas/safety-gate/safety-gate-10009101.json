@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "SK",
-    "SKN",
-    "e13*2018/858*00002*",
-    "e13*2018/858*00003*"
+    "SK, SKN",
+    "e13*2018/858*00002*, e13*2018/858*00003*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.9.2022 - 24.2.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Automóvil de turismo/van/vehículo comercial ligero equipado con neumáticos de 15 pulgadas (suministrado por Maxxis).",
-   "fechasTexto": "29.9.2022 - 24.2.2023"
+   "fechasTexto": "29.9.2022 - 24.2.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "NL",
+   "NO",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,17 +87,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01226/23",
-   "mm:vw:skn",
-   "mm:vw:e13-2018-858-00002",
-   "mm:vw:e13-2018-858-00003"
+   "mm:vw:sk-skn",
+   "mm:vw:e13-2018-858-00002-e13-2018-858-00003",
+   "ml:vw:29-9-2022-24-2-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dbea0ddf730e0972"
+  "enriquecido": true,
+  "hashContenido": "d2beacb8474841ec"
  },
  "slug": "turismo-vana-vehiculo-comercial-ligero-vw-safety-gate-10009101"
 }

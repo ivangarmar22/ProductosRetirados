@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0816801508209006"
+     "numero": "08168015"
+    },
+    {
+     "numero": "08209006"
     }
    ],
    "ean": [
     "8007750004410"
    ],
    "descripcion": "Jabón de crema hidratante",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -89,15 +93,16 @@
    "ref:A12/01232/23",
    "ean:8007750004410",
    "mm:spuma-di-sciampagna:0356",
-   "ml:spuma-di-sciampagna:0816801508209006"
+   "ml:spuma-di-sciampagna:08168015",
+   "ml:spuma-di-sciampagna:08209006"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d128b58807606415"
+  "enriquecido": true,
+  "hashContenido": "7a426051b5572cd1"
  },
  "slug": "jabon-de-crema-spuma-di-sciampagna-safety-gate-10008476"
 }

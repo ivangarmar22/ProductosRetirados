@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-09"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -25,13 +25,13 @@
    "nombre": "Speedcutter - MULTI CUTTING DISK UNIVERSAL 3T (115 mm X 22,23 mm, 3 Zähne)",
    "marcas": [],
    "modelos": [
-    "ME69148427",
-    "SKU Y0038-MMES3-230208-11311"
+    "ME69148427, SKU Y0038-MMES3-230208-11311"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Hoja de sierra circular, anunciada para su uso en una amoladora angular (3 cuchillas/dientes), 115 mm * 22,23 mm. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de blíster."
   }
  ],
  "riesgo": {
@@ -61,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b992bb53b4abbcc8"
+  "enriquecido": true,
+  "hashContenido": "85424eefb682a15a"
  },
  "slug": "hoja-de-sierra-circular-speedcutter-multi-cutting-disk-universal-3t-11-safety-gate-10009133"
 }

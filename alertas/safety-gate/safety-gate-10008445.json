@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "OVOE2016OVOG2027"
+     "numero": "OVOE2016"
+    },
+    {
+     "numero": "OVOG2027"
     }
    ],
    "ean": [
     "8002340015203"
    ],
    "descripcion": "Rocíe el desodorante.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico."
   }
  ],
  "riesgo": {
@@ -89,15 +93,16 @@
    "ref:A12/01228/23",
    "ean:8002340015203",
    "mm:lycia:vapo-extreme-fresh",
-   "ml:lycia:ovoe2016ovog2027"
+   "ml:lycia:ovoe2016",
+   "ml:lycia:ovog2027"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c608a00de11a548c"
+  "enriquecido": true,
+  "hashContenido": "81c6e8e81308097a"
  },
  "slug": "desodorante-lycia-safety-gate-10008445"
 }

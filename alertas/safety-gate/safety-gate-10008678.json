@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "8717278897035"
    ],
    "descripcion": "Después de afeitar, 100 ml, fecha de caducidad: 06/07/2026.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Suiza",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "86f086e5b38ea975"
+  "enriquecido": true,
+  "hashContenido": "58a3243129599490"
  },
  "slug": "despues-de-afeitar-denim-safety-gate-10008678"
 }

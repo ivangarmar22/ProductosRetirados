@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-25"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -24,7 +24,8 @@
   {
    "nombre": "THE WINNER TAKES IT ALL - Eau de toilette",
    "marcas": [
-    "Coscentra, OMERTA ® & THE WINNER TAKES IT ALL"
+    "Coscentra",
+    "OMERTA ® & THE WINNER TAKES IT ALL"
    ],
    "modelos": [],
    "lotes": [
@@ -36,7 +37,8 @@
     "8715658997429"
    ],
    "descripcion": "EAU de toilette destinado a hombres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -90,15 +92,16 @@
   "claves": [
    "ref:A12/01275/23",
    "ean:8715658997429",
-   "ml:coscentra-omerta-the-winner-takes-it-all:b17120"
+   "ml:coscentra:b17120",
+   "ml:omerta-the-winner-takes-it-all:b17120"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7b0c3dc6f8f1613c"
+  "enriquecido": true,
+  "hashContenido": "6c76b04c7735fce0"
  },
  "slug": "eau-de-toilette-coscentra-omerta-the-winner-takes-it-all-safety-gate-10008545"
 }

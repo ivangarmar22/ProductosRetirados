@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-16"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -27,13 +27,13 @@
     "Night Hawk"
    ],
    "modelos": [
-    "LSO-619",
-    "LSO-618"
+    "LSO-619 / LSO-618"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Estufa de campamento de horno de gasolina líquida en miniatura con contenedor de combustible barnizado negro, quemador de acero inoxidable y cabeza de quemador. Producto vendido en línea, en particular a través de eBay con el artículo n.º 354531766740.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -114,16 +114,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01134/23",
-   "mm:night-hawk:lso-619",
-   "mm:night-hawk:lso-618"
+   "mm:night-hawk:lso-619-lso-618"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fa30a72acb0c13da"
+  "enriquecido": true,
+  "hashContenido": "2cc06f70a57369ca"
  },
  "slug": "estufa-de-camping-night-hawk-safety-gate-10008865"
 }

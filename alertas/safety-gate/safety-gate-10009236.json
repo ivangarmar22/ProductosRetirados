@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5902934830898"
    ],
    "descripcion": "Humidificador ultrasónico cubierto de plástico blanco con función de temporizador. Capacidad: 2,2 l",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "98a78813446099c6"
+  "enriquecido": true,
+  "hashContenido": "33809cb41ac91b53"
  },
  "slug": "humidificador-de-aire-adler-europe-safety-gate-10009236"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Man"
    ],
    "modelos": [
-    "B.2018.858.008",
-    "B.2018.858.009",
-    "B.2018.858.010",
-    "B.2007.46.006",
-    "B.2007.46.007",
-    "e1*2018/858*00070*01-*03",
-    "e1*2018/858*00071*01-*03",
-    "e1*2018/858*00072*01-*03",
-    "e4*2007/46*0099*41-*42",
-    "*45-*46",
-    "e4*2007/46*0100*41-*42",
-    "*45"
+    "B.2018.858.008, B.2018.858.009, B.2018.858.010, B.2007.46.006, B.2007.46.007",
+    "e1*2018/858*00070*01-*03, e1*2018/858*00071*01-*03, e1*2018/858*00072*01-*03, e4*2007/46*0099*41-*42,*45-*46, e4*2007/46*0100*41-*42, *45"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.03.2019 - 28.11.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Autocar-autobús de pasajeros",
-   "fechasTexto": "01.03.2019 - 28.11.2022"
+   "fechasTexto": "01.03.2019 - 28.11.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "NL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,25 +82,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01183/23",
-   "mm:man:b-2018-858-008",
-   "mm:man:b-2018-858-009",
-   "mm:man:b-2018-858-010",
-   "mm:man:b-2007-46-006",
-   "mm:man:b-2007-46-007",
-   "mm:man:e1-2018-858-00070-01-03",
-   "mm:man:e1-2018-858-00071-01-03",
-   "mm:man:e1-2018-858-00072-01-03",
-   "mm:man:e4-2007-46-0099-41-42",
-   "mm:man:45-46",
-   "mm:man:e4-2007-46-0100-41-42"
+   "mm:man:b-2018-858-008-b-2018-858-009-b-2018-858-010-b-2007-46-006-b-2007-46-007",
+   "mm:man:e1-2018-858-00070-01-03-e1-2018-858-00071-01-03-e1-2018-858-00072-01-03-e4-2007-46-0099-41-42-45-46-e4-2007-46-0100-41-42-45",
+   "ml:man:01-03-2019-28-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8c02f03eef612e47"
+  "enriquecido": true,
+  "hashContenido": "774c9836b198e8cc"
  },
  "slug": "autobus-de-pasajeros-man-safety-gate-10008827"
 }

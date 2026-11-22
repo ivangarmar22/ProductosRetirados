@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,18 @@
     "Dodge"
    ],
    "modelos": [
-    "DJ (2500)",
-    "D2 (3500)",
+    "DJ (2500), D2 (3500)",
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4.9.2019-19.11.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de recogida",
-   "fechasTexto": "4.9.2019-19.11.2022"
+   "fechasTexto": "4.9.2019-19.11.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IS",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,17 +94,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01240/23",
-   "mm:dodge:dj-2500",
-   "mm:dodge:d2-3500",
-   "mm:dodge:individual-approval"
+   "mm:dodge:dj-2500-d2-3500",
+   "mm:dodge:individual-approval",
+   "ml:dodge:4-9-2019-19-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e89090cbb995e03d"
+  "enriquecido": true,
+  "hashContenido": "7add5cb7dcfc52f7"
  },
  "slug": "camioneta-de-recogida-dodge-safety-gate-10009067"
 }

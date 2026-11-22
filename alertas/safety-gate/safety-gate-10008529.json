@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-17"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,13 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "82991LW90941LW91631LW"
+     "numero": "82991LW"
+    },
+    {
+     "numero": "90941LW"
+    },
+    {
+     "numero": "91631LW"
     }
    ],
    "ean": [
@@ -37,7 +43,8 @@
     "96125564"
    ],
    "descripcion": "Spray desodorante destinado a hombres, protección antitranspirante en un recipiente de plástico de 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -108,15 +115,17 @@
    "ref:A12/01099/23",
    "ean:96040911",
    "ean:96125564",
-   "ml:dove:82991lw90941lw91631lw"
+   "ml:dove:82991lw",
+   "ml:dove:90941lw",
+   "ml:dove:91631lw"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "926a6bd16079dceb"
+  "enriquecido": true,
+  "hashContenido": "f9fc1d0677f34096"
  },
  "slug": "spray-de-desodorante-dove-safety-gate-10008529"
 }

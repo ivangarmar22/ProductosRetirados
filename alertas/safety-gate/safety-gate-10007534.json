@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*1530*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.2020 - 01.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Kia Sorento (MQ4)",
-   "fechasTexto": "01.2020 - 01.2022"
+   "fechasTexto": "01.2020 - 01.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HR",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00021/23",
-   "mm:kia:e4-2007-46-1530-00"
+   "mm:kia:e4-2007-46-1530-00",
+   "ml:kia:01-2020-01-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "204caa1afe6d792e"
+  "enriquecido": true,
+  "hashContenido": "ae016eeddbf01853"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10007534"
 }

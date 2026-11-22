@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,7 +38,8 @@
     "6291012871908"
    ],
    "descripcion": "Perfume",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Emiratos Árabes Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd9ba3967910fcfa"
+  "enriquecido": true,
+  "hashContenido": "e83a69a9a6e7a813"
  },
  "slug": "perfume-creation-lamis-safety-gate-10008578"
 }

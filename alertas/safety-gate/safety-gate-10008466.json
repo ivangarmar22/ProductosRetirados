@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "9164080891650808"
+     "numero": "91640808"
+    },
+    {
+     "numero": "91650808"
     }
    ],
    "ean": [
     "4005808678563"
    ],
    "descripcion": "Spray para el cabello 250 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Lata de metal"
   }
  ],
  "riesgo": {
@@ -89,15 +93,16 @@
    "ref:A12/01235/23",
    "ean:4005808678563",
    "mm:nivea:styling-spray-volume-care",
-   "ml:nivea:9164080891650808"
+   "ml:nivea:91640808",
+   "ml:nivea:91650808"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b2a95cda6926aa69"
+  "enriquecido": true,
+  "hashContenido": "afa942ec7c86f632"
  },
  "slug": "spray-para-el-cabello-nivea-safety-gate-10008466"
 }

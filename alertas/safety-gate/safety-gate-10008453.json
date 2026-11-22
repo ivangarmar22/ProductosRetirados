@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-17"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "020320769202577692346076"
+     "numero": "02032076"
+    },
+    {
+     "numero": "92025776"
+    },
+    {
+     "numero": "92346076"
     }
    ],
    "ean": [
     "4005800097546"
    ],
    "descripcion": "Crema de día hidratante",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -93,15 +100,17 @@
    "ref:A12/01195/23",
    "ean:4005800097546",
    "mm:nivea:81201",
-   "ml:nivea:020320769202577692346076"
+   "ml:nivea:02032076",
+   "ml:nivea:92025776",
+   "ml:nivea:92346076"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7109cb82c52a8627"
+  "enriquecido": true,
+  "hashContenido": "92bd7cd05edba54d"
  },
  "slug": "crema-facial-nivea-safety-gate-10008453"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "F2CLA",
     "e1*2007/46*1912*18-*19"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22/10/2022 - 2/12/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, serie de modelos BR 118",
-   "fechasTexto": "22/10/2022 - 2/12/2022"
+   "fechasTexto": "22/10/2022 - 2/12/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +97,16 @@
   "claves": [
    "ref:A12/01223/23",
    "mm:mercedes-benz:f2cla",
-   "mm:mercedes-benz:e1-2007-46-1912-18-19"
+   "mm:mercedes-benz:e1-2007-46-1912-18-19",
+   "ml:mercedes-benz:22-10-2022-2-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c03affd61aeb365d"
+  "enriquecido": true,
+  "hashContenido": "d489ecd7cf6fa635"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10009181"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,34 +27,28 @@
     "Land Rover"
    ],
    "modelos": [
-    "e5*2007/46*0092*06",
-    "e5*2007/46*1057*06",
-    "e5*2007/46*0092*05",
-    "e11*2007/46*0649*22",
-    "e11*2007/46*0649*19",
-    "e5*2007/46*1053*01",
-    "e5*2007/46*1053*04",
-    "e11*2007/46*0649*23",
-    "e11*2007/46*0649*24",
-    "e5*2007/46*0092*07",
-    "e5*2007/46*1057*04",
-    "e11*2007/46*0909*16",
-    "e11*2007/46*0909*20",
-    "e5*2007/46*1057*08",
-    "e5*2007/46*1056*01",
-    "e5*2007/46*1056*05",
-    "e11*2007/46*0909*19",
-    "e5*2007/46*1056*04",
-    "e5*2007/46*1057*05",
-    "e5*2007/46*1056*00",
-    "e11*2007/46*0649*17",
-    "e11*2007/46*0649*18",
-    "e5*2007/46*0092*04"
+    "e5*2007/46*0092*06; e5*2007/46*1057*06; e5*2007/46*0092*05; e11*2007/46*0649*22; e11*2007/46*0649*19; e5*2007/46*1053*01; e5*2007/46*1053*04; e11*2007/46*0649*23; e11*2007/46*0649*24",
+    "e5*2007/46*0092*07; e5*2007/46*1057*04; e11*2007/46*0909*16; e11*2007/46*0909*20; e5*2007/46*1057*08",
+    "e5*2007/46*1056*01; e5*2007/46*1056*05; e11*2007/46*0909*19; e5*2007/46*1056*04; e5*2007/46*1057*05; e5*2007/46*1056*00; e11*2007/46*0649*17; e11*2007/46*0649*18; e5*2007/46*0092*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Land Rover Defender: 2021-2023"
+    },
+    {
+     "numero": "Land Rover Range Rover Sport: 2018-2022"
+    },
+    {
+     "numero": "Land Rover Range Rover Velar: 2021-2023"
+    },
+    {
+     "numero": "Land Rover Range Rover: 2018-2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, modelos: Range Rover, Range Rover Velar; Range Rover Sport, Defender con motores Ingenium I4 2.0L Petrol Plug-in Hybrid Electric Vehicle (PHEV)",
-   "fechasTexto": "Land Rover Defender: 2021-2023Land Rover Range Rover Sport: 2018-2022Land Rover Range Rover Velar: 2021-2023Land Rover Range Rover: 2018-2022"
+   "fechasTexto": "Land Rover Defender: 2021-2023Land Rover Range Rover Sport: 2018-2022Land Rover Range Rover Velar: 2021-2023Land Rover Range Rover: 2018-2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,7 +78,20 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,37 +118,21 @@
  "dedup": {
   "claves": [
    "ref:A12/01290/23",
-   "mm:land-rover:e5-2007-46-0092-06",
-   "mm:land-rover:e5-2007-46-1057-06",
-   "mm:land-rover:e5-2007-46-0092-05",
-   "mm:land-rover:e11-2007-46-0649-22",
-   "mm:land-rover:e11-2007-46-0649-19",
-   "mm:land-rover:e5-2007-46-1053-01",
-   "mm:land-rover:e5-2007-46-1053-04",
-   "mm:land-rover:e11-2007-46-0649-23",
-   "mm:land-rover:e11-2007-46-0649-24",
-   "mm:land-rover:e5-2007-46-0092-07",
-   "mm:land-rover:e5-2007-46-1057-04",
-   "mm:land-rover:e11-2007-46-0909-16",
-   "mm:land-rover:e11-2007-46-0909-20",
-   "mm:land-rover:e5-2007-46-1057-08",
-   "mm:land-rover:e5-2007-46-1056-01",
-   "mm:land-rover:e5-2007-46-1056-05",
-   "mm:land-rover:e11-2007-46-0909-19",
-   "mm:land-rover:e5-2007-46-1056-04",
-   "mm:land-rover:e5-2007-46-1057-05",
-   "mm:land-rover:e5-2007-46-1056-00",
-   "mm:land-rover:e11-2007-46-0649-17",
-   "mm:land-rover:e11-2007-46-0649-18",
-   "mm:land-rover:e5-2007-46-0092-04"
+   "mm:land-rover:e5-2007-46-0092-06-e5-2007-46-1057-06-e5-2007-46-0092-05-e11-2007-46-0649-22-e11-2007-46-0649-19-e5-2007-46-1053-01-e5-2007-46-1053-04-e11-2007-46-0649-23-e11-2007-46-0649-24",
+   "mm:land-rover:e5-2007-46-0092-07-e5-2007-46-1057-04-e11-2007-46-0909-16-e11-2007-46-0909-20-e5-2007-46-1057-08",
+   "mm:land-rover:e5-2007-46-1056-01-e5-2007-46-1056-05-e11-2007-46-0909-19-e5-2007-46-1056-04-e5-2007-46-1057-05-e5-2007-46-1056-00-e11-2007-46-0649-17-e11-2007-46-0649-18-e5-2007-46-0092-04",
+   "ml:land-rover:land-rover-defender-2021-2023",
+   "ml:land-rover:land-rover-range-rover-sport-2018-2022",
+   "ml:land-rover:land-rover-range-rover-velar-2021-2023",
+   "ml:land-rover:land-rover-range-rover-2018-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d15aa8c18f1966c1"
+  "enriquecido": true,
+  "hashContenido": "e530ef4f205d933c"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10009235"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-07"
  },
  "categoria": {
   "literal": "Artículos de decoración",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "QE8615701QE8619969"
+     "numero": "QE8615701"
+    },
+    {
+     "numero": "QE8619969"
     }
    ],
    "ean": [],
    "descripcion": "Un hipopótamo con un soporte de luz de té unido a su brazo extendido. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón y etiqueta de columpio de cartón."
   }
  ],
  "riesgo": {
@@ -85,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01332/23",
-   "ml:next:qe8615701qe8619969"
+   "ml:next:qe8615701",
+   "ml:next:qe8619969"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c35021b599ad0af1"
+  "enriquecido": true,
+  "hashContenido": "88e5775f9e81ffd6"
  },
  "slug": "portavelas-de-tealight-next-safety-gate-10009324"
 }

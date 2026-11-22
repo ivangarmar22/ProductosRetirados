@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "3G",
     "e49*168/2013*00101*00-*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.01.2023 - 5.04.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "16.01.2023 - 5.04.2023"
+   "fechasTexto": "16.01.2023 - 5.04.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +105,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01199/23",
-   "mm:ducati:e49-168-2013-00101-00-01"
+   "mm:ducati:e49-168-2013-00101-00-01",
+   "ml:ducati:16-01-2023-5-04-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50b882678605c422"
+  "enriquecido": true,
+  "hashContenido": "d73889e5b818763f"
  },
  "slug": "moto-ducati-safety-gate-10008938"
 }

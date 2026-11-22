@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2007/46*1047*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2021-2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Jaguar F-Pace con motores Ingenium I4 2.0L Petrol Plug-in Hybrid Electric Vehicle (PHEV).",
-   "fechasTexto": "2021-2023"
+   "fechasTexto": "2021-2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "LU",
+   "NL",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01237/23",
-   "mm:jaguar:e5-2007-46-1047-05"
+   "mm:jaguar:e5-2007-46-1047-05",
+   "ml:jaguar:2021-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "29d92e3aed22fc36"
+  "enriquecido": true,
+  "hashContenido": "7e7ad2f052299b9f"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10009234"
 }

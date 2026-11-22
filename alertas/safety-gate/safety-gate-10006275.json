@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Can-am"
    ],
    "modelos": [
-    "Spyder RT",
-    "F3"
+    "Spyder RT, F3"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2015 - 2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de motor de tres ruedas/motocicleta.",
-   "fechasTexto": "2015 - 2019"
+   "fechasTexto": "2015 - 2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Canadá",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "LU",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00916/22",
-   "mm:can-am:spyder-rt"
+   "mm:can-am:spyder-rt-f3",
+   "ml:can-am:2015-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "886c89d821793c6e"
+  "enriquecido": true,
+  "hashContenido": "16cd82939e715817"
  },
  "slug": "vehiculo-de-motor-de-tres-ruedas-can-am-safety-gate-10006275"
 }

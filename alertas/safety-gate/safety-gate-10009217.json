@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "SK",
-    "SKN",
-    "e13*2018/858*00002*",
-    "e13*2018/858*00003*"
+    "SK, SKN",
+    "e13*2018/858*00002*, e13*2018/858*00003*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.3.2023 - 5.4.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero",
-   "fechasTexto": "31.3.2023 - 5.4.2023"
+   "fechasTexto": "31.3.2023 - 5.4.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -80,17 +83,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01340/23",
-   "mm:vw:skn",
-   "mm:vw:e13-2018-858-00002",
-   "mm:vw:e13-2018-858-00003"
+   "mm:vw:sk-skn",
+   "mm:vw:e13-2018-858-00002-e13-2018-858-00003",
+   "ml:vw:31-3-2023-5-4-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5a94d2b5a235df33"
+  "enriquecido": true,
+  "hashContenido": "2e28a20abcb8cdf0"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-vw-safety-gate-10009217"
 }

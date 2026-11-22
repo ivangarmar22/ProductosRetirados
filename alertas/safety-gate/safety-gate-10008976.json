@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-18"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -25,15 +25,15 @@
    "nombre": "Travel adapter with power bank",
    "marcas": [],
    "modelos": [
-    "SL-310",
-    "K242A3"
+    "SL-310, K242A3"
    ],
    "lotes": [],
    "ean": [
     "5900000026923"
    ],
    "descripcion": "Adaptador de viaje negro con dos ranuras USB, provisto de un banco de alimentación extraíble con un USB y una entrada micro USB. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón en blanco y negro."
   }
  ],
  "riesgo": {
@@ -67,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -110,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "680a39f0f9e3b7e2"
+  "enriquecido": true,
+  "hashContenido": "8c7dc0167339b880"
  },
  "slug": "adaptador-de-viaje-travel-adapter-with-power-bank-safety-gate-10008976"
 }

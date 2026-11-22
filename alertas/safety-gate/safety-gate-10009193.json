@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "R2CW",
-    "R2CS",
-    "e1*2018/858*00016*00-*04",
-    "e1*2018/858*00017*00-*04"
+    "R2CW, R2CS",
+    "e1*2018/858*00016*00-*04, e1*2018/858*00017*00-*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08/10/2020 - 12/09/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, serie de vehículos BR 206 equipados con motores diésel de 4 cilindros",
-   "fechasTexto": "08/10/2020 - 12/09/2022"
+   "fechasTexto": "08/10/2020 - 12/09/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,18 +107,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01227/23",
-   "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:r2cs",
-   "mm:mercedes-benz:e1-2018-858-00016-00-04",
-   "mm:mercedes-benz:e1-2018-858-00017-00-04"
+   "mm:mercedes-benz:r2cw-r2cs",
+   "mm:mercedes-benz:e1-2018-858-00016-00-04-e1-2018-858-00017-00-04",
+   "ml:mercedes-benz:08-10-2020-12-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f171927390bcf58b"
+  "enriquecido": true,
+  "hashContenido": "ce68e09d60d4b3db"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10009193"
 }

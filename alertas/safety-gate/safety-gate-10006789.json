@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "J",
     "e2*2007/46*0601*08"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.10.2019 - 26.11.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "04.10.2019 - 26.11.2019"
+   "fechasTexto": "04.10.2019 - 26.11.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "IE",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01515/22",
-   "mm:ds:e2-2007-46-0601-08"
+   "mm:ds:e2-2007-46-0601-08",
+   "ml:ds:04-10-2019-26-11-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ffb5a2f120dd920c"
+  "enriquecido": true,
+  "hashContenido": "bb1ad64e87136ed9"
  },
  "slug": "coche-de-pasajeros-ds-safety-gate-10006789"
 }
