@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Peugeot"
    ],
    "modelos": [
-    "M",
-    "F",
-    "e2*2007/46*0534*04",
-    "*10-*24",
-    "e2*2007/46*0628*05-*11",
-    "*13-*21"
+    "M, F",
+    "e2*2007/46*0534*04, *10-*24, e2*2007/46*0628*05-*11, *13-*21"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.3.2019 - 08.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con batería de tracción.",
-   "fechasTexto": "12.3.2019 - 08.12.2022"
+   "fechasTexto": "12.3.2019 - 08.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "NL",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,18 +105,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01619/23",
-   "mm:peugeot:e2-2007-46-0534-04",
-   "mm:peugeot:10-24",
-   "mm:peugeot:e2-2007-46-0628-05-11",
-   "mm:peugeot:13-21"
+   "mm:peugeot:m-f",
+   "mm:peugeot:e2-2007-46-0534-04-10-24-e2-2007-46-0628-05-11-13-21",
+   "ml:peugeot:12-3-2019-08-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aff8c27cf68473fc"
+  "enriquecido": true,
+  "hashContenido": "6306b79e39ae7cdf"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10009657"
 }

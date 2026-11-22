@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Porsche"
    ],
    "modelos": [
-    "992",
-    "Y1A",
-    "e13*2007/46*0992*05 -*12",
-    "e13*2007/46*0919*01-*06"
+    "992, Y1A",
+    "e13*2007/46*0992*05 -*12, e13*2007/46*0919*01-*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.6.2019 - 8.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "18.6.2019 - 8.12.2022"
+   "fechasTexto": "18.6.2019 - 8.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,18 +97,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01415/23",
-   "mm:porsche:992",
-   "mm:porsche:y1a",
-   "mm:porsche:e13-2007-46-0992-05-12",
-   "mm:porsche:e13-2007-46-0919-01-06"
+   "mm:porsche:992-y1a",
+   "mm:porsche:e13-2007-46-0992-05-12-e13-2007-46-0919-01-06",
+   "ml:porsche:18-6-2019-8-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "925435c002d2d3d9"
+  "enriquecido": true,
+  "hashContenido": "da5d9e5186b27fd5"
  },
  "slug": "coche-de-pasajeros-porsche-safety-gate-10009484"
 }

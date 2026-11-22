@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "K250/2",
     "e1*2007/46*0769*04-*13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.05.2014 - 31.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Autocaravana",
-   "fechasTexto": "27.05.2014 - 31.07.2021"
+   "fechasTexto": "27.05.2014 - 31.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,15 +97,16 @@
   "claves": [
    "ref:A12/01450/23",
    "mm:weinsberg:k250-2",
-   "mm:weinsberg:e1-2007-46-0769-04-13"
+   "mm:weinsberg:e1-2007-46-0769-04-13",
+   "ml:weinsberg:27-05-2014-31-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a898f4bc2eeb23e5"
+  "enriquecido": true,
+  "hashContenido": "3670177063aae645"
  },
  "slug": "autocaravana-weinsberg-safety-gate-10009490"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Kubota"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 2020 to 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor",
-   "fechasTexto": "From 2020 to 2022"
+   "fechasTexto": "From 2020 to 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +82,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A11/00068/23"
+   "ref:A11/00068/23",
+   "ml:kubota:from-2020-to-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b52a13760cbf22e2"
+  "enriquecido": true,
+  "hashContenido": "5533146b3063ac84"
  },
  "slug": "tractor-kubota-safety-gate-10009306"
 }

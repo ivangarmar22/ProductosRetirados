@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-04"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Crema de manos para aplicar sobre la piel.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con bomba dosificadora y tapa."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "08ec652aec2e994e"
+  "enriquecido": true,
+  "hashContenido": "668af0914ef85db4"
  },
  "slug": "crema-de-manos-nail-code-safety-gate-10009376"
 }

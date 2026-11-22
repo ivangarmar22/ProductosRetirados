@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B11106B14710"
+     "numero": "B11106"
+    },
+    {
+     "numero": "B14710"
     }
    ],
    "ean": [
     "8715658997924"
    ],
    "descripcion": "Perfume",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:A12/01471/23",
    "ean:8715658997924",
-   "ml:omerta-fair-fight:b11106b14710"
+   "ml:omerta-fair-fight:b11106",
+   "ml:omerta-fair-fight:b14710"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "acb1584ddf5b5d87"
+  "enriquecido": true,
+  "hashContenido": "19c341f65a34a572"
  },
  "slug": "eau-de-toilette-omerta-fair-fight-safety-gate-10008947"
 }

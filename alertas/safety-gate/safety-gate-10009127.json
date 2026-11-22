@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-29"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -34,7 +34,8 @@
     "8445470210108"
    ],
    "descripcion": "Vestido de verano para niños, de hasta 134 cm. El producto se vendió en línea",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje"
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "038710583d5cbd30"
+  "enriquecido": true,
+  "hashContenido": "c01a60d099cdb8be"
  },
  "slug": "vestido-de-ninos-boboli-safety-gate-10009127"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "MUVI"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2016 - 2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "2016 - 2018"
+   "fechasTexto": "2016 - 2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,15 +79,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01413/23"
+   "ref:A12/01413/23",
+   "ml:muvi:2016-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f29b0ab1d565740a"
+  "enriquecido": true,
+  "hashContenido": "66ebbad0692e8eac"
  },
  "slug": "moto-muvi-safety-gate-10009531"
 }

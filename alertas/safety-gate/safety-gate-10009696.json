@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "008421425051"
    ],
    "descripcion": "Ratón de felpa en forma de bola púrpura y blanca",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "20bdc495df7fbc11"
+  "enriquecido": true,
+  "hashContenido": "7d7f5d8bd8c63d42"
  },
  "slug": "juguete-suave-ty-safety-gate-10009696"
 }

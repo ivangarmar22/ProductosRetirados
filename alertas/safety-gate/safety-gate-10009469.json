@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "8715427064338"
    ],
    "descripcion": "Juguete que sopla burbujas de jabón, funciona con batería.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "469b65f34655edc8"
+  "enriquecido": true,
+  "hashContenido": "a52732529a9c59da"
  },
  "slug": "juguete-de-burbujas-de-jabon-grafix-safety-gate-10009469"
 }

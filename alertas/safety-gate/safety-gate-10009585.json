@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "AIGOSTAR"
    ],
    "modelos": [
-    "BLC-74035-24W",
-    "30210715"
+    "BLC-74035-24W, 30210715"
    ],
    "lotes": [],
    "ean": [
     "8433325207687"
    ],
    "descripcion": "Lámpara led de techo, 24 W, 220-240 V~, 50/60 Hz, clase II, 115 mA, tamaño 80 mm x 1 290 mm x 44 mm. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje oblongo con cartón azul en los extremos, todo envuelto en celofán."
   }
  ],
  "riesgo": {
@@ -81,16 +81,15 @@
   "claves": [
    "ref:A11/00081/23",
    "ean:8433325207687",
-   "mm:aigostar:blc-74035-24w",
-   "mm:aigostar:30210715"
+   "mm:aigostar:blc-74035-24w-30210715"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "33f6f492d65554be"
+  "enriquecido": true,
+  "hashContenido": "b1c480403ec2e285"
  },
  "slug": "lampara-led-de-techo-aigostar-safety-gate-10009585"
 }

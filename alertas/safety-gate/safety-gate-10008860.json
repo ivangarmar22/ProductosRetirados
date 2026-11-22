@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-09"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,7 +38,8 @@
     "8719668006676"
    ],
    "descripcion": "Paleta de plástico negro de pinturas faciales. Tiene 6 pinturas de maquillaje de 1 gramo (amarillo, naranja, rojo, verde, azul y negro), pintura de maquillaje blanco de 3 gramos y 4 crayones de pintura de 1,6 gramos (rojo, amarillo, negro y blanco).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se embala en cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "33aa6661565396bd"
+  "enriquecido": true,
+  "hashContenido": "28ebad24fd56c485"
  },
  "slug": "juego-de-pintura-facial-canenco-safety-gate-10008860"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "7332599072193"
    ],
    "descripcion": "Juego de juguete compuesto por ocho piezas; incluye un cinturón, una jeringa, un estetoscopio, un termómetro, un instrumento para orejas, un sombrero y otros accesorios.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón gris con imagen del juego de juguetes."
   }
  ],
  "riesgo": {
@@ -65,7 +66,11 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FR",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a24c38853b2d37eb"
+  "enriquecido": true,
+  "hashContenido": "b9f45ed0616ef763"
  },
  "slug": "juego-de-juguetes-veterinarios-jabadabado-ab-safety-gate-10009639"
 }

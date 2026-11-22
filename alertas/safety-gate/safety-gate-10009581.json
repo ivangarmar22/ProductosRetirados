@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6920075757361"
    ],
    "descripcion": "Soporte de lámpara inteligente para hacer que los equipos de iluminación funcionen a través de Wi-Fi",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -64,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FI",
+   "FR",
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "86276d09058f5fc8"
+  "enriquecido": true,
+  "hashContenido": "49cc5fed1de144a6"
  },
  "slug": "soporte-de-la-lampara-sonoff-safety-gate-10009581"
 }

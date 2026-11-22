@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +62,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ac7817754cd50a30"
+  "enriquecido": true,
+  "hashContenido": "303be80b275d9e57"
  },
  "slug": "coche-de-pasajeros-cupra-safety-gate-10009579"
 }

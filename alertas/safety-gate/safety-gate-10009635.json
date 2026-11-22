@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "KL",
     "e4*2007/46*0783*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3.09.2015 - 23.09.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "3.09.2015 - 23.09.2016"
+   "fechasTexto": "3.09.2015 - 23.09.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "NL",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,15 +98,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01543/23",
-   "mm:jeep:e4-2007-46-0783-07"
+   "mm:jeep:e4-2007-46-0783-07",
+   "ml:jeep:3-09-2015-23-09-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6a5c1fc0cafe751f"
+  "enriquecido": true,
+  "hashContenido": "96ba410d015eec32"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10009635"
 }

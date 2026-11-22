@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e2*2007/46*0537*15",
-    "e2*2007/46*0686*10",
-    "e2*2007/46*0686*08",
-    "e2*2007/46*0686*09"
+    "e2*2007/46*0537*15, e2*2007/46*0686*10, e2*2007/46*0686*08, e2*2007/46*0686*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28/11/2020 - 16/07/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Proace (MDZ122, MDZ142, MDZ143, MDZ541, MDZ542, MDZ543, MDZ561, MDZ562, MDZ563, MDZ822, MDZ842, MDZ862, MDZA22, MDZA41, MDZA42, MDZA43, MDZA44, MDZA61, MDZA62, MDZA63, MPY141, MPY161, MPY521, MPY541, MPY561, MPYA21, MPYA41, MPYA61)",
-   "fechasTexto": "28/11/2020 - 16/07/2022"
+   "fechasTexto": "28/11/2020 - 16/07/2022",
+   "envase": "Proace City (BKYMA21, BKYMA41, BKYMD21, BKYMD41, BPZMA22, BPZMA42, BPZMA43, BPZMD22, BPZMD42, BPZMD43); — Año modelo: 2020 ~ 2022."
   }
  ],
  "riesgo": {
@@ -65,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "GR",
+   "IS",
+   "NL",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01460/23",
-   "mm:toyota:e2-2007-46-0537-15",
-   "mm:toyota:e2-2007-46-0686-10",
-   "mm:toyota:e2-2007-46-0686-08",
-   "mm:toyota:e2-2007-46-0686-09"
+   "mm:toyota:e2-2007-46-0537-15-e2-2007-46-0686-10-e2-2007-46-0686-08-e2-2007-46-0686-09",
+   "ml:toyota:28-11-2020-16-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d6265201cd4beac1"
+  "enriquecido": true,
+  "hashContenido": "fd02ace8a8be596a"
  },
  "slug": "vehiculo-comercial-ligero-toyota-safety-gate-10009566"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-22"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,12 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "Blackcurrant + Lemon Remix 20506085Orange - 20614188"
+     "numero": "Blackcurrant + Lemon Remix 20506085"
+    },
+    {
+     "numero": "Orange - 20614188"
     }
    ],
    "ean": [],
    "descripcion": "Líquido para cigarrillos electrónicos",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Naranja: botella de plástico con una etiqueta de color naranja «peel and revealed» y fotos de fruta anaranjada en el fondo Blackcurrant + Lemon Remix: botella de plástico con una etiqueta de color púrpura y amarillo «peel and revealed» y fotos de fruta de limón en el fondo."
   }
  ],
  "riesgo": {
@@ -88,15 +92,16 @@
    "ref:A12/01407/23",
    "mm:fantasi-ice:orange",
    "mm:fantasi-ice:remix-blackcurrant-lemon",
-   "ml:fantasi-ice:blackcurrant-lemon-remix-20506085orange-20614188"
+   "ml:fantasi-ice:blackcurrant-lemon-remix-20506085",
+   "ml:fantasi-ice:orange-20614188"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4aadb37d184aafe9"
+  "enriquecido": true,
+  "hashContenido": "ce891d261bed2ba5"
  },
  "slug": "liquido-para-el-cigarrillo-electronico-en-el-recipiente-de-recarga-fan-safety-gate-10009504"
 }

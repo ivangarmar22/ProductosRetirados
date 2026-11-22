@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Renault"
    ],
    "modelos": [
-    "'e2*2007/46*0251*19 e2*2007/46*0251*20",
-    "AGVYH7"
+    "'e2*2007/46*0251*19 e2*2007/46*0251*20, AGVYH7"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3.01.2021 - 22.02.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo eléctrico ZOE equipado con batería BT4 XLR (Extra Long Range) AR1 * 1020 módulo de batería, fabricado en la fábrica de Flins",
-   "fechasTexto": "3.01.2021 - 22.02.2021"
+   "fechasTexto": "3.01.2021 - 22.02.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00258/22",
-   "mm:renault:e2-2007-46-0251-19-e2-2007-46-0251-20",
-   "mm:renault:agvyh7"
+   "mm:renault:e2-2007-46-0251-19-e2-2007-46-0251-20-agvyh7",
+   "ml:renault:3-01-2021-22-02-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "52accf4f789e5166"
+  "enriquecido": true,
+  "hashContenido": "0ad402d2f4ac6f71"
  },
  "slug": "coche-de-pasajeros-renault-safety-gate-10005369"
 }

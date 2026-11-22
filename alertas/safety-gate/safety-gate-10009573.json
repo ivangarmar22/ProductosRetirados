@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*168/2013*01187"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.11.2021 - 19.1.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "2.11.2021 - 19.1.2022"
+   "fechasTexto": "2.11.2021 - 19.1.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE",
+   "FI",
+   "GR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01549/23",
-   "mm:cf-moto:e13-168-2013-01187"
+   "mm:cf-moto:e13-168-2013-01187",
+   "ml:cf-moto:2-11-2021-19-1-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5da391ec5633778b"
+  "enriquecido": true,
+  "hashContenido": "9fa3b98f47db7e49"
  },
  "slug": "moto-cf-moto-safety-gate-10009573"
 }

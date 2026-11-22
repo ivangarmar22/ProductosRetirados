@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,16 +24,25 @@
   {
    "nombre": "Partner / Berlingo",
    "marcas": [
-    "CITROEN, Peugeot"
+    "CITROEN",
+    "Peugeot"
    ],
    "modelos": [
     "Berlingo: e2*2007/46*0002*21 e2*2007/46*0002*24 e2*2007/46*0002*25 e2*2007/46*0002*27 e2*2007/46*0002*30",
     "Partner: e2*2007/46*0001*21 e2*2007/46*0001*24 e2*2007/46*0001*25 e2*2007/46*0001*27 e2*2007/46*0001*30"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Berlingo: 28/11/2014 - 09/07/2018"
+    },
+    {
+     "numero": "Partner: 25/11/2014 - 04/07/2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "Berlingo: 28/11/2014 - 09/07/2018Partner: 25/11/2014 - 04/07/2018"
+   "fechasTexto": "Berlingo: 28/11/2014 - 09/07/2018Partner: 25/11/2014 - 04/07/2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +72,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +94,22 @@
  "dedup": {
   "claves": [
    "ref:A12/01555/23",
-   "mm:citroen-peugeot:berlingo-e2-2007-46-0002-21-e2-2007-46-0002-24-e2-2007-46-0002-25-e2-2007-46-0002-27-e2-2007-46-0002-30",
-   "mm:citroen-peugeot:partner-e2-2007-46-0001-21-e2-2007-46-0001-24-e2-2007-46-0001-25-e2-2007-46-0001-27-e2-2007-46-0001-30"
+   "mm:citroen:berlingo-e2-2007-46-0002-21-e2-2007-46-0002-24-e2-2007-46-0002-25-e2-2007-46-0002-27-e2-2007-46-0002-30",
+   "mm:citroen:partner-e2-2007-46-0001-21-e2-2007-46-0001-24-e2-2007-46-0001-25-e2-2007-46-0001-27-e2-2007-46-0001-30",
+   "ml:citroen:berlingo-28-11-2014-09-07-2018",
+   "ml:citroen:partner-25-11-2014-04-07-2018",
+   "mm:peugeot:berlingo-e2-2007-46-0002-21-e2-2007-46-0002-24-e2-2007-46-0002-25-e2-2007-46-0002-27-e2-2007-46-0002-30",
+   "mm:peugeot:partner-e2-2007-46-0001-21-e2-2007-46-0001-24-e2-2007-46-0001-25-e2-2007-46-0001-27-e2-2007-46-0001-30",
+   "ml:peugeot:berlingo-28-11-2014-09-07-2018",
+   "ml:peugeot:partner-25-11-2014-04-07-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7f44da1de0510138"
+  "enriquecido": true,
+  "hashContenido": "b7807a00db12e7a9"
  },
  "slug": "coche-de-pasajeros-citroen-peugeot-safety-gate-10009557"
 }

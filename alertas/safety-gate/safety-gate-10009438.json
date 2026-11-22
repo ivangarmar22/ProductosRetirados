@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "3800157606745"
    ],
    "descripcion": "Lámpara montada en pared con módulo led.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete azul con plástico transparente en el medio y el texto «LED Wallfitting VT-8111»."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "95c66a8b5777a393"
+  "enriquecido": true,
+  "hashContenido": "38cfa43eb1131d73"
  },
  "slug": "lampara-de-techo-led-v-tac-safety-gate-10009438"
 }

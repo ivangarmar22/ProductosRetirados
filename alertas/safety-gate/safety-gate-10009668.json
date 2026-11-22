@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Muñeca de plástico en forma de sirena, con traje rosa y accesorios. Destinado a niños mayores de 3 años.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de cartón."
   }
  ],
  "riesgo": {
@@ -58,7 +59,11 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "DE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "54800049b1e3312c"
+  "enriquecido": true,
+  "hashContenido": "878e5a2567f87fc3"
  },
  "slug": "muneca-de-plastico-meerjungfrau-safety-gate-10009668"
 }

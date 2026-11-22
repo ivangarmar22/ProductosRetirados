@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "0115AC00041245AC0063"
+     "numero": "0115AC0004"
+    },
+    {
+     "numero": "1245AC0063"
     }
    ],
-   "ean": [],
+   "ean": [
+    "800036012240"
+   ],
    "descripcion": "Limpiador íntimo",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor de plástico"
   }
  ],
  "riesgo": {
@@ -107,15 +113,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01529/23",
-   "ml:infasil:0115ac00041245ac0063"
+   "ean:800036012240",
+   "ml:infasil:0115ac0004",
+   "ml:infasil:1245ac0063"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "88736d112ff90715"
+  "enriquecido": true,
+  "hashContenido": "86e35da07fe601a1"
  },
  "slug": "jabon-infasil-safety-gate-10008931"
 }

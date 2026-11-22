@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "62455NX183790802NX05:26A"
+     "numero": "62455NX1837"
+    },
+    {
+     "numero": "90802NX05:26A"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "8711700560764"
    ],
    "descripcion": "Espuma de ducha",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -112,15 +116,16 @@
    "ref:A12/01510/23",
    "ean:8710908154737",
    "ean:8711700560764",
-   "ml:badedas:62455nx183790802nx05-26a"
+   "ml:badedas:62455nx1837",
+   "ml:badedas:90802nx05-26a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0af0c7726e0fb488"
+  "enriquecido": true,
+  "hashContenido": "9b6d0872e48cdce8"
  },
  "slug": "espuma-de-ducha-badedas-safety-gate-10008928"
 }

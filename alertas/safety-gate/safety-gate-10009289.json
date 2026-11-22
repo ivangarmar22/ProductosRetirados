@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "9354593372077"
    ],
    "descripcion": "Juguete suave de conejo rosa con pelo largo y llavero, indicado como «intencionado para niños menores de 36 meses».",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bb72a212c1efd61f"
+  "enriquecido": true,
+  "hashContenido": "f3f72ac873e47fac"
  },
  "slug": "juguete-suave-lovisa-safety-gate-10009289"
 }

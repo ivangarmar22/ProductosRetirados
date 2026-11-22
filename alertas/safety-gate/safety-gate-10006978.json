@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "4V",
     "e5*2007/46*1125*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "8.6.2020 - 12.3.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "8.6.2020 - 12.3.2022"
+   "fechasTexto": "8.6.2020 - 12.3.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "NL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01451/22",
-   "mm:bentley:e5-2007-46-1125"
+   "mm:bentley:e5-2007-46-1125",
+   "ml:bentley:8-6-2020-12-3-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "09ea2e5477e07bc1"
+  "enriquecido": true,
+  "hashContenido": "64eb0fcd7507df15"
  },
  "slug": "coche-de-pasajeros-bentley-safety-gate-10006978"
 }

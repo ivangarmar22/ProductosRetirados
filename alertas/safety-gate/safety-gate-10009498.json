@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "2022101020221105"
+     "numero": "20221010"
+    },
+    {
+     "numero": "20221105"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "4897025227156"
    ],
    "descripcion": "Un juguete de control remoto (llaves de coche) para niños con canciones incorporadas, sonidos y una luz",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -70,7 +74,10 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,15 +105,16 @@
    "ean:4897025227156",
    "mm:peppa-pig-toys:22706-3012316",
    "mm:peppa-pig-toys:22715-3012316",
-   "ml:peppa-pig-toys:2022101020221105"
+   "ml:peppa-pig-toys:20221010",
+   "ml:peppa-pig-toys:20221105"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7c83fb8cfe0148cf"
+  "enriquecido": true,
+  "hashContenido": "08de67644d8e4032"
  },
  "slug": "llaves-del-coche-de-juguete-peppa-pig-toys-safety-gate-10009498"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2002/24*0625*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12/06/2013 - 31/07/2013"
+    }
+   ],
    "ean": [],
    "descripcion": "Scooter",
-   "fechasTexto": "12/06/2013 - 31/07/2013"
+   "fechasTexto": "12/06/2013 - 31/07/2013",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "LU",
+   "NL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01556/23",
-   "mm:honda:e13-2002-24-0625-00"
+   "mm:honda:e13-2002-24-0625-00",
+   "ml:honda:12-06-2013-31-07-2013"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b1969bc6b9786999"
+  "enriquecido": true,
+  "hashContenido": "80ffd369b36b054e"
  },
  "slug": "scooter-honda-safety-gate-10009541"
 }

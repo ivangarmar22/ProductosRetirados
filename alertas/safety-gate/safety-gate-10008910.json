@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Perfume",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f46884c501ce6912"
+  "enriquecido": true,
+  "hashContenido": "4708601389261bc2"
  },
  "slug": "perfume-omerta-wealth-safety-gate-10008910"
 }

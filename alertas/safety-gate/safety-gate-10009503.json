@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-18"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "Souza"
    ],
    "modelos": [
-    "81.438.SK",
-    "106345"
+    "81.438.SK / 106345"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "8720143329616"
    ],
    "descripcion": "Caja de música con producto cosmético que contiene 2 pulidos de uñas, 3 piezas de sombra de ojos, 3 piezas de brillo labial y 1 colorante.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El embalaje está hecho de un material ligero y debajo de la tapa están los esmaltes de uñas. En el cajón están los otros productos cosméticos. Cuando se abre la tapa, la música sonará."
   }
  ],
  "riesgo": {
@@ -69,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,17 +92,16 @@
   "claves": [
    "ref:A12/01540/23",
    "ean:8720143329616",
-   "mm:souza:81-438-sk",
-   "mm:souza:106345",
+   "mm:souza:81-438-sk-106345",
    "ml:souza:6164"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e88b0c95418f458a"
+  "enriquecido": true,
+  "hashContenido": "c03ffba9bd8cc012"
  },
  "slug": "conjunto-de-productos-cosmeticos-souza-safety-gate-10009503"
 }

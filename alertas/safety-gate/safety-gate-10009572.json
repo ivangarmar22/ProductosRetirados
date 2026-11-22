@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-13"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -36,7 +36,8 @@
     "2200134903460"
    ],
    "descripcion": "Conjunto de pendientes para niños, seis pares (en forma de mariposas, unicornios, perlas, etc.).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6de57b405ba54a5e"
+  "enriquecido": true,
+  "hashContenido": "054149b7cf949684"
  },
  "slug": "conjunto-de-pendientes-para-ninos-safety-gate-10009572"
 }

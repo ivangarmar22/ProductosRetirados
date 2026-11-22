@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "F82 (Van): -e2*2007/46*0014*51 - e2*2007/46*0014*56",
     "J82 (Minibus): e2*98/14*0213*78 - e2*98/14*0213*81"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.01.2022 - 11.03.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero",
-   "fechasTexto": "21.01.2022 - 11.03.2023"
+   "fechasTexto": "21.01.2022 - 11.03.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,15 +84,16 @@
   "claves": [
    "ref:A12/01412/23",
    "mm:renault:f82-van-e2-2007-46-0014-51-e2-2007-46-0014-56",
-   "mm:renault:j82-minibus-e2-98-14-0213-78-e2-98-14-0213-81"
+   "mm:renault:j82-minibus-e2-98-14-0213-78-e2-98-14-0213-81",
+   "ml:renault:21-01-2022-11-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "08558c959348edfb"
+  "enriquecido": true,
+  "hashContenido": "0778be4383b65a7e"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-renault-safety-gate-10009510"
 }

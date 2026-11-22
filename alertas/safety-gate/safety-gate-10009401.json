@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -39,7 +39,8 @@
     "3716619230031"
    ],
    "descripcion": "Juguete magnético que contiene palos y bolas magnéticas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón de colores."
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Letonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e2ee847f6b3959dd"
+  "enriquecido": true,
+  "hashContenido": "ea44ae74e3aacdc0"
  },
  "slug": "juguete-magnetico-magnastix-safety-gate-10009401"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "MWD 300 SH161: e13*168/2013*00673*00",
     "MWD 300 SH201: e13*168/2013*00907*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02/2020 – 05/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta, modelo de scooter de tres ruedas",
-   "fechasTexto": "02/2020 – 05/2022"
+   "fechasTexto": "02/2020 – 05/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "GR",
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +90,16 @@
   "claves": [
    "ref:A12/01617/23",
    "mm:yamaha:mwd-300-sh161-e13-168-2013-00673-00",
-   "mm:yamaha:mwd-300-sh201-e13-168-2013-00907-00"
+   "mm:yamaha:mwd-300-sh201-e13-168-2013-00907-00",
+   "ml:yamaha:02-2020-05-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "baa4233012436f4e"
+  "enriquecido": true,
+  "hashContenido": "60247b6213212628"
  },
  "slug": "moto-yamaha-safety-gate-10009574"
 }

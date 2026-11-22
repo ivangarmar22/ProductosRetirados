@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "1712502100220391024182"
+     "numero": "17125021002"
+    },
+    {
+     "numero": "20391024182"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "8008970003047"
    ],
    "descripcion": "Espuma de ducha 250 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -111,15 +115,16 @@
    "ean:8008970002316",
    "ean:8008970003047",
    "mm:vidal:doccia-schiuma",
-   "ml:vidal:1712502100220391024182"
+   "ml:vidal:17125021002",
+   "ml:vidal:20391024182"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bccbd60820a3352a"
+  "enriquecido": true,
+  "hashContenido": "191f4104aeb2818b"
  },
  "slug": "espuma-de-ducha-vidal-safety-gate-10008772"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "0092389109450"
    ],
    "descripcion": "Juguete de panda rojo relleno con ojos y nariz de plástico.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Indonesia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fc6ab15f25ff37bc"
+  "enriquecido": true,
+  "hashContenido": "8bb734612900d1e3"
  },
  "slug": "juguete-de-peluche-wild-republic-safety-gate-10009715"
 }

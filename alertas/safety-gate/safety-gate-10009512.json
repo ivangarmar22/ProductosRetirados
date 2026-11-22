@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0251*25"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14/11/2022 - 3/12/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "14/11/2022 - 3/12/2022"
+   "fechasTexto": "14/11/2022 - 3/12/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "IE",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01410/23",
-   "mm:renault:e2-2007-46-0251-25"
+   "mm:renault:e2-2007-46-0251-25",
+   "ml:renault:14-11-2022-3-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b13aa108feff01a7"
+  "enriquecido": true,
+  "hashContenido": "360076b972677571"
  },
  "slug": "coche-de-pasajeros-renault-safety-gate-10009512"
 }

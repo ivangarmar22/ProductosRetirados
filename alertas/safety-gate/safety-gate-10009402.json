@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Honda"
    ],
    "modelos": [
-    "MC52",
-    "NC55",
-    "ND16",
-    "e13*168/2013*00363*02",
-    "e13*168/2013*00368*02",
-    "e13*168/2013*00928*01"
+    "MC52, NC55, ND16",
+    "e13*168/2013*00363*02, e13*168/2013*00368*02, e13*168/2013*00928*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19/02/2022 - 12/01/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "19/02/2022 - 12/01/2023"
+   "fechasTexto": "19/02/2022 - 12/01/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "IS",
+   "LU",
+   "NL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,20 +98,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01381/23",
-   "mm:honda:mc52",
-   "mm:honda:nc55",
-   "mm:honda:nd16",
-   "mm:honda:e13-168-2013-00363-02",
-   "mm:honda:e13-168-2013-00368-02",
-   "mm:honda:e13-168-2013-00928-01"
+   "mm:honda:mc52-nc55-nd16",
+   "mm:honda:e13-168-2013-00363-02-e13-168-2013-00368-02-e13-168-2013-00928-01",
+   "ml:honda:19-02-2022-12-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ca22fbbcf56d08f8"
+  "enriquecido": true,
+  "hashContenido": "bf759f7650e94bf0"
  },
  "slug": "moto-honda-safety-gate-10009402"
 }

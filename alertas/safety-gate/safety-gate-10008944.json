@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -33,7 +33,19 @@
    ],
    "lotes": [
     {
-     "numero": "4423177450220108CZ608158746411677481052374"
+     "numero": "44231774"
+    },
+    {
+     "numero": "50220108CZ"
+    },
+    {
+     "numero": "60815874"
+    },
+    {
+     "numero": "64116774"
+    },
+    {
+     "numero": "81052374"
     }
    ],
    "ean": [
@@ -42,7 +54,8 @@
     "4005900132369"
    ],
    "descripcion": "Leche de sol",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico de 200 ml"
   }
  ],
  "riesgo": {
@@ -129,15 +142,19 @@
    "mm:nivea:bronze-fp-20",
    "mm:nivea:bronze-fp-30",
    "mm:nivea:refresh-fp-10",
-   "ml:nivea:4423177450220108cz608158746411677481052374"
+   "ml:nivea:44231774",
+   "ml:nivea:50220108cz",
+   "ml:nivea:60815874",
+   "ml:nivea:64116774",
+   "ml:nivea:81052374"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f24049fd7a1bd13c"
+  "enriquecido": true,
+  "hashContenido": "d979d6f7e2bda89c"
  },
  "slug": "crema-solar-nivea-safety-gate-10008944"
 }

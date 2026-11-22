@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,13 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "ABED120129 MD0119ACED290631MD0621AEED020430MD0420"
+     "numero": "ABED120129 MD0119"
+    },
+    {
+     "numero": "ACED290631MD0621"
+    },
+    {
+     "numero": "AEED020430MD0420"
     }
    ],
    "ean": [
@@ -37,7 +43,8 @@
     "8003510024025"
    ],
    "descripcion": "Spray desodorante",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Recipiente de pulverización de 100 ml"
   }
  ],
  "riesgo": {
@@ -116,15 +123,17 @@
    "ref:A12/01475/23",
    "ean:8003510015474",
    "ean:8003510024025",
-   "ml:malizia:abed120129-md0119aced290631md0621aeed020430md0420"
+   "ml:malizia:abed120129-md0119",
+   "ml:malizia:aced290631md0621",
+   "ml:malizia:aeed020430md0420"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd0376a4dec520e7"
+  "enriquecido": true,
+  "hashContenido": "dbadbbfb9e10b978"
  },
  "slug": "spray-desodorante-malizia-safety-gate-10008797"
 }

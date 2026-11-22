@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-11"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -27,20 +27,17 @@
     "besrey"
    ],
    "modelos": [
-    "BSR-02A",
-    "BR-H000S"
+    "BSR-02A / BR-H000S"
    ],
    "lotes": [
     {
-     "numero": "20220806"
-    },
-    {
-     "numero": "1000220101"
+     "numero": "20220806 / 1000220101"
     }
    ],
    "ean": [],
    "descripcion": "Portabebés con aberturas de pierna incorporadas, lado exterior claro y gris oscuro. El color del lado interior también es blanco en las correas de los hombros. Producto vendido en línea, en particular a través de eBay. Número de artículo: 185658188325",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón corrugado con color de fondo en caracteres marrón y negro."
   }
  ],
  "riesgo": {
@@ -113,18 +110,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01636/23",
-   "mm:besrey:bsr-02a",
-   "mm:besrey:br-h000s",
-   "ml:besrey:20220806",
-   "ml:besrey:1000220101"
+   "mm:besrey:bsr-02a-br-h000s",
+   "ml:besrey:20220806-1000220101"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f054b60f8056e2cb"
+  "enriquecido": true,
+  "hashContenido": "34f124f9f90454be"
  },
  "slug": "portabebes-besrey-safety-gate-10009714"
 }

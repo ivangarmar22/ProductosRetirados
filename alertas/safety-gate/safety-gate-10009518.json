@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0154"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03/05/2022 - 23/05/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Sistema de inyección de combustible",
-   "fechasTexto": "03/05/2022 - 23/05/2022"
+   "fechasTexto": "03/05/2022 - 23/05/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01409/23",
-   "mm:nissan:e2-2007-46-0154"
+   "mm:nissan:e2-2007-46-0154",
+   "ml:nissan:03-05-2022-23-05-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7586f9d1f1caa1bd"
+  "enriquecido": true,
+  "hashContenido": "421b041db70fb5c3"
  },
  "slug": "furgoneta-de-pasajeros-nissan-safety-gate-10009518"
 }

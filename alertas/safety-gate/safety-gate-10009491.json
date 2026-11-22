@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Knaus"
    ],
    "modelos": [
-    "K250/2",
-    "K250/3",
-    "K250/4",
-    "KSZN1E",
-    "KSYN1EM",
-    "KSYN1EV",
-    "e1*2007/46*0769*02-*13",
-    "e1*2007/46*0770*07-*15",
-    "e1*2007/46*0725*06-*13",
-    "e1*2007/46*1927*00-*03",
-    "e1*2007/46*2106*02-*03",
-    "e1*2018/858*00151*00"
+    "K250/2, K250/3, K250/4, KSZN1E, KSYN1EM, KSYN1EV",
+    "e1*2007/46*0769*02-*13, e1*2007/46*0770*07-*15, e1*2007/46*0725*06-*13, e1*2007/46*1927*00-*03, e1*2007/46*2106*02-*03, e1*2018/858*00151*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.07.2012 - 31.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Autocaravana",
-   "fechasTexto": "03.07.2012 - 31.07.2021"
+   "fechasTexto": "03.07.2012 - 31.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "GR",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,26 +95,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01451/23",
-   "mm:knaus:k250-2",
-   "mm:knaus:k250-3",
-   "mm:knaus:k250-4",
-   "mm:knaus:kszn1e",
-   "mm:knaus:ksyn1em",
-   "mm:knaus:ksyn1ev",
-   "mm:knaus:e1-2007-46-0769-02-13",
-   "mm:knaus:e1-2007-46-0770-07-15",
-   "mm:knaus:e1-2007-46-0725-06-13",
-   "mm:knaus:e1-2007-46-1927-00-03",
-   "mm:knaus:e1-2007-46-2106-02-03",
-   "mm:knaus:e1-2018-858-00151-00"
+   "mm:knaus:k250-2-k250-3-k250-4-kszn1e-ksyn1em-ksyn1ev",
+   "mm:knaus:e1-2007-46-0769-02-13-e1-2007-46-0770-07-15-e1-2007-46-0725-06-13-e1-2007-46-1927-00-03-e1-2007-46-2106-02-03-e1-2018-858-00151-00",
+   "ml:knaus:03-07-2012-31-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b2c1c7497f9a6752"
+  "enriquecido": true,
+  "hashContenido": "09a158df45a12df6"
  },
  "slug": "autocaravana-knaus-safety-gate-10009491"
 }

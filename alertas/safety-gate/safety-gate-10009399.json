@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "BMW."
    ],
    "modelos": [
-    "X70",
-    "X5",
-    "X6",
-    "HY",
-    "M7X",
-    "e1*2001/116*0420*",
-    "e1*2007/46*0421*",
-    "e1*2007/46*0412*",
-    "e1*2007/46*0323*",
-    "e1*2007/46*0172*"
+    "X70, X5, X6, HY, M7X",
+    "e1*2001/116*0420*, e1*2007/46*0421*, e1*2007/46*0412*, e1*2007/46*0323*, e1*2007/46*0172*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01/06/2006 - 25/06/2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "01/06/2006 - 25/06/2014"
+   "fechasTexto": "01/06/2006 - 25/06/2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +69,23 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,21 +113,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01382/23",
-   "mm:bmw:x70",
-   "mm:bmw:m7x",
-   "mm:bmw:e1-2001-116-0420",
-   "mm:bmw:e1-2007-46-0421",
-   "mm:bmw:e1-2007-46-0412",
-   "mm:bmw:e1-2007-46-0323",
-   "mm:bmw:e1-2007-46-0172"
+   "mm:bmw:x70-x5-x6-hy-m7x",
+   "mm:bmw:e1-2001-116-0420-e1-2007-46-0421-e1-2007-46-0412-e1-2007-46-0323-e1-2007-46-0172",
+   "ml:bmw:01-06-2006-25-06-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "217d094e09a8052a"
+  "enriquecido": true,
+  "hashContenido": "11c6458b3f2dc82f"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10009399"
 }

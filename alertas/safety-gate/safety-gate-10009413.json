@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "9N",
-    "3C",
-    "7HC",
-    "e1*98/14*0174*",
-    "e1*2001/116*0307*",
-    "e1*2001/116*0220*"
+    "9N, 3C, 7HC",
+    "e1*98/14*0174*, e1*2001/116*0307*, e1*2001/116*0220*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "5.4.2007 - 28.9.2010"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con un airbag delantero fabricado por Takata.",
-   "fechasTexto": "5.4.2007 - 28.9.2010"
+   "fechasTexto": "5.4.2007 - 28.9.2010",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "HR",
+   "IE",
+   "MT",
+   "NL",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,18 +113,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01380/23",
-   "mm:vw:7hc",
-   "mm:vw:e1-98-14-0174",
-   "mm:vw:e1-2001-116-0307",
-   "mm:vw:e1-2001-116-0220"
+   "mm:vw:9n-3c-7hc",
+   "mm:vw:e1-98-14-0174-e1-2001-116-0307-e1-2001-116-0220",
+   "ml:vw:5-4-2007-28-9-2010"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "79772b221a1b3560"
+  "enriquecido": true,
+  "hashContenido": "c36fb2e09a6d1b4f"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10009413"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B10325B11938B14776"
+     "numero": "B10325"
+    },
+    {
+     "numero": "B11938"
+    },
+    {
+     "numero": "B14776"
     }
    ],
    "ean": [
     "8715658999584"
    ],
    "descripcion": "EAU de parfum",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -66,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +99,17 @@
   "claves": [
    "ref:A12/01523/23",
    "ean:8715658999584",
-   "ml:omerta-twice-so-nice:b10325b11938b14776"
+   "ml:omerta-twice-so-nice:b10325",
+   "ml:omerta-twice-so-nice:b11938",
+   "ml:omerta-twice-so-nice:b14776"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8d5863d78b70de6b"
+  "enriquecido": true,
+  "hashContenido": "7d4802867e193f29"
  },
  "slug": "perfume-omerta-twice-so-nice-safety-gate-10008948"
 }

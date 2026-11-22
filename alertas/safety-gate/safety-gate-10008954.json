@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-05"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,34 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "0204X675150208499514021359050602138933120220Z73892022667779302273991560228y73055"
+     "numero": "0204X67515"
+    },
+    {
+     "numero": "0208499514"
+    },
+    {
+     "numero": "0213590506"
+    },
+    {
+     "numero": "0213893312"
+    },
+    {
+     "numero": "0220Z73892"
+    },
+    {
+     "numero": "0226677793"
+    },
+    {
+     "numero": "0227399156"
+    },
+    {
+     "numero": "0228y73055"
     }
    ],
    "ean": [],
    "descripcion": "Tinte permanente para el cabello (miel rubia, rubia, marron glacé, castaño rosado claro, castaña maauve).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -111,15 +133,22 @@
  "dedup": {
   "claves": [
    "ref:A12/01594/23",
-   "ml:palette:0204x675150208499514021359050602138933120220z73892022667779302273991560228y73055"
+   "ml:palette:0204x67515",
+   "ml:palette:0208499514",
+   "ml:palette:0213590506",
+   "ml:palette:0213893312",
+   "ml:palette:0220z73892",
+   "ml:palette:0226677793",
+   "ml:palette:0227399156",
+   "ml:palette:0228y73055"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "112a3958513baf86"
+  "enriquecido": true,
+  "hashContenido": "10c3864e86e10409"
  },
  "slug": "tinte-para-el-cabello-palette-safety-gate-10008954"
 }

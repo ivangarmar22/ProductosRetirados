@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,7 +29,10 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "2414164384"
+     "numero": "24141"
+    },
+    {
+     "numero": "64384"
     }
    ],
    "ean": [
@@ -37,7 +40,8 @@
     "8008970008295"
    ],
    "descripcion": "Crema corporal",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envases de plástico marrón y negro."
   }
  ],
  "riesgo": {
@@ -112,15 +116,16 @@
    "ref:A12/01490/23",
    "ean:8008970007205",
    "ean:8008970008295",
-   "ml:tesori-d-oriente:2414164384"
+   "ml:tesori-d-oriente:24141",
+   "ml:tesori-d-oriente:64384"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a10955d571257734"
+  "enriquecido": true,
+  "hashContenido": "23264bafeef2f02a"
  },
  "slug": "crema-corporal-tesori-d-oriente-safety-gate-10008751"
 }

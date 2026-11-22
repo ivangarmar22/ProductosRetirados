@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "971",
     "e13*2007/46*0971*00-*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21/07/2015 - 10/11/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "21/07/2015 - 10/11/2021"
+   "fechasTexto": "21/07/2015 - 10/11/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "MT",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +96,16 @@
   "claves": [
    "ref:A12/01590/23",
    "mm:porsche:971",
-   "mm:porsche:e13-2007-46-0971-00-16"
+   "mm:porsche:e13-2007-46-0971-00-16",
+   "ml:porsche:21-07-2015-10-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a1c53af9d9a54cd9"
+  "enriquecido": true,
+  "hashContenido": "310b99fe8bbe6b19"
  },
  "slug": "coche-de-pasajeros-porsche-safety-gate-10009642"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "1929314291319295140849"
+     "numero": "19293142913"
+    },
+    {
+     "numero": "19295140849"
     }
    ],
    "ean": [
     "8008970050027"
    ],
    "descripcion": "Conjunto de crema corporal, crema de ducha y spray desodorante",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -118,15 +122,16 @@
   "claves": [
    "ref:A12/01515/23",
    "ean:8008970050027",
-   "ml:tesori-d-oriente:1929314291319295140849"
+   "ml:tesori-d-oriente:19293142913",
+   "ml:tesori-d-oriente:19295140849"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "443e7ca2da07f48f"
+  "enriquecido": true,
+  "hashContenido": "ccca80a74c2fb492"
  },
  "slug": "conjunto-de-belleza-tesori-d-oriente-safety-gate-10008894"
 }

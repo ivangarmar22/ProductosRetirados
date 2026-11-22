@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2007/46*0080*10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.8.2022 - 9.9.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta pickup",
-   "fechasTexto": "24.8.2022 - 9.9.2022"
+   "fechasTexto": "24.8.2022 - 9.9.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "GR",
+   "NL",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01548/23",
-   "mm:ford:e5-2007-46-0080-10"
+   "mm:ford:e5-2007-46-0080-10",
+   "ml:ford:24-8-2022-9-9-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ae923a800974f76f"
+  "enriquecido": true,
+  "hashContenido": "bb05df7259188f2a"
  },
  "slug": "camioneta-pickup-ford-safety-gate-10009576"
 }

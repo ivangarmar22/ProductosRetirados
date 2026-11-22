@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-28"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Ventana de techo plana accionada por la red a distancia. Se instalará en techos a una altura mínima de 2,5 metros del suelo. Vendido entre julio de 2021 y abril de 2023. Los productos afectados están marcados con la combinación del nombre del producto CVU y los dígitos séptimo y octavo del código del producto.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +75,14 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Dinamarca",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "HR",
+   "LU",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +115,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4be8bbf779840ccb"
+  "enriquecido": true,
+  "hashContenido": "adcba981590236f8"
  },
  "slug": "ventana-de-techo-velux-safety-gate-10009123"
 }

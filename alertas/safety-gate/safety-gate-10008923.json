@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "1917121372"
+     "numero": "19171"
+    },
+    {
+     "numero": "21372"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "80914693"
    ],
    "descripcion": "Desodorante de almizcle blanco",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envase de plástico 75 ml"
   }
  ],
  "riesgo": {
@@ -115,15 +119,16 @@
    "ean:80321132",
    "ean:80914693",
    "mm:borotalco:deodorante-vaporizzatore",
-   "ml:borotalco:1917121372"
+   "ml:borotalco:19171",
+   "ml:borotalco:21372"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7096f82e56b30798"
+  "enriquecido": true,
+  "hashContenido": "655f2fedd36c623b"
  },
  "slug": "desodorante-en-spray-borotalco-safety-gate-10008923"
 }

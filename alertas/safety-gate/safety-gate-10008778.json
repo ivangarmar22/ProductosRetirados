@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,13 @@
    ],
    "lotes": [
     {
-     "numero": "14464 3132181741568/PD19041819151 1389"
+     "numero": "14464 3132"
+    },
+    {
+     "numero": "181741568/PD190418"
+    },
+    {
+     "numero": "19151 1389"
     }
    ],
    "ean": [
@@ -39,7 +45,8 @@
     "8008970008271"
    ],
    "descripcion": "Crema de ducha, 250 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo de plástico"
   }
  ],
  "riesgo": {
@@ -107,15 +114,17 @@
    "ean:8008970000855",
    "ean:8008970008271",
    "mm:tesori-d-oriente:doccia-crema",
-   "ml:tesori-d-oriente:14464-3132181741568-pd19041819151-1389"
+   "ml:tesori-d-oriente:14464-3132",
+   "ml:tesori-d-oriente:181741568-pd190418",
+   "ml:tesori-d-oriente:19151-1389"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cfd5ba6c535d751e"
+  "enriquecido": true,
+  "hashContenido": "f229c0a60c822b57"
  },
  "slug": "crema-de-ducha-tesori-d-oriente-safety-gate-10008778"
 }

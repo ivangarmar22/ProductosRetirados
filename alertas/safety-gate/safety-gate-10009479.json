@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Jeep"
    ],
    "modelos": [
-    "MP",
-    "BU",
-    "e3*2007/46*0508*16",
-    "e3*2007/46*0300*38"
+    "MP, BU",
+    "e3*2007/46*0508*16, e3*2007/46*0300*38"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09/11/2022 - 09/03/2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con una batería eléctrica híbrida de 48V.",
-   "fechasTexto": "09/11/2022 - 09/03/2023"
+   "fechasTexto": "09/11/2022 - 09/03/2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,16 +99,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01401/23",
-   "mm:jeep:e3-2007-46-0508-16",
-   "mm:jeep:e3-2007-46-0300-38"
+   "mm:jeep:mp-bu",
+   "mm:jeep:e3-2007-46-0508-16-e3-2007-46-0300-38",
+   "ml:jeep:09-11-2022-09-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "38995f6bced509f2"
+  "enriquecido": true,
+  "hashContenido": "97733c4cc0baceed"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10009479"
 }

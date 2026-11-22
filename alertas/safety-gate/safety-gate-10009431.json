@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -25,17 +25,19 @@
    "nombre": "Beautiful Fashion Girl",
    "marcas": [],
    "modelos": [
-    "COD: 815347",
-    "710907006"
+    "COD: 815347; 710907006"
    ],
    "lotes": [
     {
      "numero": "668B"
     }
    ],
-   "ean": [],
+   "ean": [
+    "6906924660006"
+   ],
    "descripcion": "Muñeca de plástico con pelo naranja en vestido colorido.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana transparente."
   }
  ],
  "riesgo": {
@@ -87,15 +89,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01597/23"
+   "ref:A12/01597/23",
+   "ean:6906924660006"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "61f2cc9ed0227e4e"
+  "enriquecido": true,
+  "hashContenido": "4fac0973d8787c3c"
  },
  "slug": "muneca-de-plastico-beautiful-fashion-girl-safety-gate-10009431"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "JSVER"
    ],
    "modelos": [
-    "JSVER-PS2122",
-    "ECS-EU008"
+    "JSVER-PS2122 / ECS-EU008"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Toma de salida múltiple con USB, 2 tomas de acoplamiento y 2 puertos de carga USB; blanco o negro; con un interruptor. Longitud del cable: 1,5 m. Dimensiones: 130 mm x 56 mm x 4 mm. Producto vendido en línea, en particular a través de Amazon, con ASIN B08ZMNNJHV y B08ZMMDCJ5.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cartón, longitud aprox. 180 mm"
   }
  ],
  "riesgo": {
@@ -110,16 +110,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01404/23",
-   "mm:jsver:jsver-ps2122",
-   "mm:jsver:ecs-eu008"
+   "mm:jsver:jsver-ps2122-ecs-eu008"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1954b5109e622d4d"
+  "enriquecido": true,
+  "hashContenido": "741838667ce5fc7d"
  },
  "slug": "plomo-de-extension-jsver-safety-gate-10009382"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-27"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "15500260112"
+     "numero": "155002"
+    },
+    {
+     "numero": "60112"
     }
    ],
    "ean": [
     "5060186260112"
    ],
    "descripcion": "EAU de parfum",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -89,15 +93,16 @@
    "ref:A12/01476/23",
    "ean:5060186260112",
    "mm:laurelle-parfums:sexxy-shoo-balck-stiletto",
-   "ml:laurelle-parfums:15500260112"
+   "ml:laurelle-parfums:155002",
+   "ml:laurelle-parfums:60112"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76ee05846669374b"
+  "enriquecido": true,
+  "hashContenido": "7775baff2b562a66"
  },
  "slug": "perfume-laurelle-parfums-safety-gate-10008791"
 }

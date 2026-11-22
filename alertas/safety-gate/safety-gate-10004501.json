@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e1*97/27*0097*01 e1*97/27*0097*02 e1*97/27*0097*03 e1*97/27*0097*04 e1*98/14*0097*05 e1*98/14*0097*06 e1*98/14*0097*07",
     "e1*98/14*0112*00 e1*98/14*0112*01 e1*98/14*0112*02 e1*98/14*0112*03 e1*98/14*0112*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.10.1997 - 03.07.2000"
+    }
+   ],
    "ean": [],
    "descripcion": "Modelo serie E46.",
-   "fechasTexto": "23.10.1997 - 03.07.2000"
+   "fechasTexto": "23.10.1997 - 03.07.2000",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,24 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +96,16 @@
   "claves": [
    "ref:A12/01400/21",
    "mm:bmw:e1-97-27-0097-01-e1-97-27-0097-02-e1-97-27-0097-03-e1-97-27-0097-04-e1-98-14-0097-05-e1-98-14-0097-06-e1-98-14-0097-07",
-   "mm:bmw:e1-98-14-0112-00-e1-98-14-0112-01-e1-98-14-0112-02-e1-98-14-0112-03-e1-98-14-0112-04"
+   "mm:bmw:e1-98-14-0112-00-e1-98-14-0112-01-e1-98-14-0112-02-e1-98-14-0112-03-e1-98-14-0112-04",
+   "ml:bmw:23-10-1997-03-07-2000"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "44f2e185f6480f0f"
+  "enriquecido": true,
+  "hashContenido": "6cccd7faee8e9e7a"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10004501"
 }

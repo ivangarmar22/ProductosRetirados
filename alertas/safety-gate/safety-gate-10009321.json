@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-05"
  },
  "categoria": {
   "literal": "Otros - Vaso de beber",
@@ -29,12 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "BP134 BP136 BP137"
+     "numero": "BP134"
+    },
+    {
+     "numero": "BP136"
+    },
+    {
+     "numero": "BP137"
     }
    ],
    "ean": [],
    "descripcion": "Un vaso de pinta con la marca Heineken",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,15 +90,17 @@
  "dedup": {
   "claves": [
    "ref:INFO/00092/23",
-   "ml:heineken:bp134-bp136-bp137"
+   "ml:heineken:bp134",
+   "ml:heineken:bp136",
+   "ml:heineken:bp137"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a0530a98bcf89164"
+  "enriquecido": true,
+  "hashContenido": "005d200a0730d29d"
  },
  "slug": "vidrio-de-pinta-heineken-safety-gate-10009321"
 }

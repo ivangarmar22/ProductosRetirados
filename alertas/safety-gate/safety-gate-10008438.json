@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -34,7 +34,8 @@
     "5903282706279"
    ],
    "descripcion": "Lámpara colgante, IP 20, 1xGU10, max 40W.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "IT",
+   "LV",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b4c1fd7c01f99439"
+  "enriquecido": true,
+  "hashContenido": "2a42fcb6710e1eb3"
  },
  "slug": "luminaria-sollux-lighting-safety-gate-10008438"
 }

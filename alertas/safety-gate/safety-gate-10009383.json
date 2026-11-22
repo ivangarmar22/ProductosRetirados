@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,7 +31,13 @@
    ],
    "lotes": [
     {
-     "numero": "0CBCA0DBCA0DBCB"
+     "numero": "0CBCA"
+    },
+    {
+     "numero": "0DBCA"
+    },
+    {
+     "numero": "0DBCB"
     }
    ],
    "ean": [
@@ -39,7 +45,8 @@
     "4059729218131"
    ],
    "descripcion": "Corrector líquido, color 50 tostadas tibias, 5 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico transparente alargada con aplicador y etiqueta impresa."
   }
  ],
  "riesgo": {
@@ -73,7 +80,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "ES",
+   "FI",
+   "FR",
+   "LU",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,15 +125,17 @@
    "ref:A12/01391/23",
    "ean:4059729218094",
    "ean:4059729218131",
-   "ml:essence:0cbca0dbca0dbcb"
+   "ml:essence:0cbca",
+   "ml:essence:0dbca",
+   "ml:essence:0dbcb"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "17f54242ce423c19"
+  "enriquecido": true,
+  "hashContenido": "55a2564d073a479a"
  },
  "slug": "corrector-essence-safety-gate-10009383"
 }

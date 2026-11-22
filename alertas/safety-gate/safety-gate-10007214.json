@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-06-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-23"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -38,7 +38,8 @@
     "4007873804649"
    ],
    "descripcion": "Amoladora de ángulo azul. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,11 +107,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "49dfcade02b05b76"
+  "enriquecido": true,
+  "hashContenido": "5ea61f70996caea5"
  },
  "slug": "amoladora-de-angulo-lux-tools-safety-gate-10007214"
 }

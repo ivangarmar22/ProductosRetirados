@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-10"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Casco de bicicleta ligero integrado con brackets ajustables y cojines de barbilla/cuello. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "59f44f48a5506313"
+  "enriquecido": true,
+  "hashContenido": "099afc7a54497d94"
  },
  "slug": "casco-homyy-safety-gate-10009487"
 }
