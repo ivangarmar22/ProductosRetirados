@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-27"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -27,20 +27,23 @@
     "ENERGETICS – Lateral Thigh Trainer"
    ],
    "modelos": [
-    "FTG710 training/weightlifting gloves",
-    "model no 270695",
-    "Factory code: F-1309",
-    "Colour: Black-lime",
-    "Size S"
+    "FTG710 training/weightlifting gloves, model no 270695, Factory code: F-1309, Colour: Black-lime, Size S"
    ],
    "lotes": [
     {
-     "numero": "270695 7613211095388F-1309"
+     "numero": "270695"
+    },
+    {
+     "numero": "7613211095388"
+    },
+    {
+     "numero": "F-1309"
     }
    ],
    "ean": [],
    "descripcion": "Guantes de entrenamiento/levantamiento de pesas FTG710. Color: Cal negra, talla S",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Grecia",
   "paisOrigen": "Pakistán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,20 +98,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00322/23",
-   "mm:energetics-lateral-thigh-trainer:ftg710-training-weightlifting-gloves",
-   "mm:energetics-lateral-thigh-trainer:model-no-270695",
-   "mm:energetics-lateral-thigh-trainer:factory-code-f-1309",
-   "mm:energetics-lateral-thigh-trainer:colour-black-lime",
-   "mm:energetics-lateral-thigh-trainer:size-s",
-   "ml:energetics-lateral-thigh-trainer:270695-7613211095388f-1309"
+   "mm:energetics-lateral-thigh-trainer:ftg710-training-weightlifting-gloves-model-no-270695-factory-code-f-1309-colour-black-lime-size-s",
+   "ml:energetics-lateral-thigh-trainer:270695",
+   "ml:energetics-lateral-thigh-trainer:7613211095388",
+   "ml:energetics-lateral-thigh-trainer:f-1309"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f845b4856a8e09be"
+  "enriquecido": true,
+  "hashContenido": "b235b8262adb6d79"
  },
  "slug": "guantes-de-levantamiento-de-pesas-de-entrenamiento-energetics-lateral-safety-gate-10007911"
 }

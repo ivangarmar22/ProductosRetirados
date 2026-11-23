@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "3474230008636"
    ],
    "descripcion": "Bicicleta de equilibrio de acero en rojo (modelo 861), rosa (modelo 862) o azul (modelo 863) con neumáticos blancos y asas y sillines marrones, y con una pequeña cesta de mimbre en la parte delantera.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cartón Kraft."
   }
  ],
  "riesgo": {
@@ -68,7 +69,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "EE",
+   "IE",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8693e4264191e677"
+  "enriquecido": true,
+  "hashContenido": "8e236270ee34be7f"
  },
  "slug": "bicicleta-de-equilibrio-de-los-ninos-baghera-safety-gate-10007806"
 }

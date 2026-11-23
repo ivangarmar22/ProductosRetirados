@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -41,7 +41,8 @@
    ],
    "ean": [],
    "descripcion": "Pasta de dientes en tamaños 55 ml y 85 ml. Potencialmente disponible en otros tamaños también. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Pequeño tarro de vidrio hexagonal con tapa metálica."
   }
  ],
  "riesgo": {
@@ -71,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Irlanda",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -120,11 +123,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "384440d6bece493c"
+  "enriquecido": true,
+  "hashContenido": "7d7d0adf326368ad"
  },
  "slug": "pasta-de-dientes-toothfaerie-safety-gate-10007177"
 }

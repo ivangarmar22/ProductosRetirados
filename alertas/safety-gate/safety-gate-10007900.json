@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "2200132997768"
    ],
    "descripcion": "Juguete suave en forma de cono de helado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Croacia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "61161600bbd4b2ad"
+  "enriquecido": true,
+  "hashContenido": "01ffd5713ea7900a"
  },
  "slug": "juguete-suave-plush-toy-safety-gate-10007900"
 }

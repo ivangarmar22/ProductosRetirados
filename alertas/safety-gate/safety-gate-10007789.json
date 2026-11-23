@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "CITROEN"
    ],
    "modelos": [
-    "e2*2007/46*0003*67",
-    "e2*2007/46*0060*33"
+    "e2*2007/46*0003*67, e2*2007/46*0060*33"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02/04/2022 - 04/04/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "02/04/2022 - 04/04/2022"
+   "fechasTexto": "02/04/2022 - 04/04/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00437/23",
-   "mm:citroen:e2-2007-46-0003-67",
-   "mm:citroen:e2-2007-46-0060-33"
+   "mm:citroen:e2-2007-46-0003-67-e2-2007-46-0060-33",
+   "ml:citroen:02-04-2022-04-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c248079465ef3f9e"
+  "enriquecido": true,
+  "hashContenido": "9fd17c3eade5f671"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10007789"
 }

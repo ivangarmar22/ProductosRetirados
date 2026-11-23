@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "C4 PICASSO (B78) : e2*2007/46*0356*15 à 18 e2*2007/46*0356*21 à 24",
     "C5 AIRCROSS (C84) : e2*2007/46*01 à 05 e2*2007/46*0642*07 à 11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "C4 PICASSO (B78) 01/12/2017 to 18/02/2021"
+    },
+    {
+     "numero": "C5 AIRCROSS (C84) 14/06/2018 to 18/01/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos equipados con un motor diésel de 2 litros",
-   "fechasTexto": "C4 PICASSO (B78) 01/12/2017 to 18/02/2021C5 AIRCROSS (C84) 14/06/2018 to 18/01/2022"
+   "fechasTexto": "C4 PICASSO (B78) 01/12/2017 to 18/02/2021C5 AIRCROSS (C84) 14/06/2018 to 18/01/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "FI",
+   "GR",
+   "IE",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +96,17 @@
   "claves": [
    "ref:A12/00270/23",
    "mm:citroen:c4-picasso-b78-e2-2007-46-0356-15-a-18-e2-2007-46-0356-21-a-24",
-   "mm:citroen:c5-aircross-c84-e2-2007-46-01-a-05-e2-2007-46-0642-07-a-11"
+   "mm:citroen:c5-aircross-c84-e2-2007-46-01-a-05-e2-2007-46-0642-07-a-11",
+   "ml:citroen:c4-picasso-b78-01-12-2017-to-18-02-2021",
+   "ml:citroen:c5-aircross-c84-14-06-2018-to-18-01-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d0b500406d1df18f"
+  "enriquecido": true,
+  "hashContenido": "13ca61cb735b7718"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10007863"
 }

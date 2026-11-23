@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "203 CL",
     "e1*98/14*0159*00-*25"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.10.2000 - 23.12.2010"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "20.10.2000 - 23.12.2010"
+   "fechasTexto": "20.10.2000 - 23.12.2010",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +98,16 @@
   "claves": [
    "ref:A12/00392/23",
    "mm:mercedes-benz:203-cl",
-   "mm:mercedes-benz:e1-98-14-0159-00-25"
+   "mm:mercedes-benz:e1-98-14-0159-00-25",
+   "ml:mercedes-benz:20-10-2000-23-12-2010"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "51cb225e8bc09b56"
+  "enriquecido": true,
+  "hashContenido": "3d0664212bac2a11"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10007938"
 }

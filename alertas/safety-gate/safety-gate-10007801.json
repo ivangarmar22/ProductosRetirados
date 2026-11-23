@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "4810344071569"
    ],
    "descripcion": "Juguete de sonajero de plástico, de 48 cm de largo, destinado a ser colgado a través de una cuna, una cuna o un cochecito. El producto está compuesto por tres osos y seis bolas. En ambos extremos, hay asas de plástico blancas para fijar el juguete.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico con cierre de cartón ligero."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Bielorrusia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9971408460007f6b"
+  "enriquecido": true,
+  "hashContenido": "87a357bc1d46fcaa"
  },
  "slug": "juguete-de-cascabel-polesie-safety-gate-10007801"
 }

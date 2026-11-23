@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,13 @@
     "Toyota"
    ],
    "modelos": [
-    "e2*2007/46*0537",
-    "e2*2007/46*0538"
+    "e2*2007/46*0537, e2*2007/46*0538"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +76,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00308/23",
-   "mm:toyota:e2-2007-46-0537",
-   "mm:toyota:e2-2007-46-0538"
+   "mm:toyota:e2-2007-46-0537-e2-2007-46-0538"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d53af230170550d7"
+  "enriquecido": true,
+  "hashContenido": "924d9bf401850ab1"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10007803"
 }

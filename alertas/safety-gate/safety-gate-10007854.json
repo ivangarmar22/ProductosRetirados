@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-01"
  },
  "categoria": {
   "literal": "Artículos de decoración",
@@ -34,7 +34,10 @@
    ],
    "lotes": [
     {
-     "numero": "2081512081751"
+     "numero": "208151"
+    },
+    {
+     "numero": "2081751"
     }
    ],
    "ean": [
@@ -42,7 +45,8 @@
     "8711252263793"
    ],
    "descripcion": "Vela cilíndrica con un diámetro de 5 cm y una altura de 7 cm. La vela tiene un aspecto brillante, ya sea con una superficie anillada o con una superficie en forma de rombo, y está disponible en colores rojo, dorado y plateado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envoltura de plástico transparente."
   }
  ],
  "riesgo": {
@@ -114,15 +118,16 @@
    "mm:edco:26379",
    "mm:edco:42810",
    "mm:edco:42811",
-   "ml:edco:2081512081751"
+   "ml:edco:208151",
+   "ml:edco:2081751"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "18a8ff0fc979027b"
+  "enriquecido": true,
+  "hashContenido": "8f92e2872ba39ac6"
  },
  "slug": "velas-edco-safety-gate-10007854"
 }

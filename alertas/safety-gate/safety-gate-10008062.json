@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-15"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -31,7 +31,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Calzado de interior, zapatillas, suela de PVC, parte superior sintética y textil (suave), destinada a niños y mujeres. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "No empaquetado"
   }
  ],
  "riesgo": {
@@ -61,7 +62,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "85efbdecd1a2c143"
+  "enriquecido": true,
+  "hashContenido": "58402cb33486672c"
  },
  "slug": "zapatillas-safety-gate-10008062"
 }

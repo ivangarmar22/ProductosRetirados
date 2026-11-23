@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0601*00 e2*2007/46*0601*01 e2*2007/46*0601*02 e2*2007/46*0601*04 e2*2007/46*0601*05 e2*2007/46*0601*06 e2*2007/46*0601*08 e2*2007/46*0601*09 e2*2007/46*0601*10",
     "e2*2007/46*0601*11 e2*2007/46*0601*12 e2*2007/46*0601*13 e2*2007/46*0601*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08/09/2017 - 24/11/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Filtro de partículas",
-   "fechasTexto": "08/09/2017 - 24/11/2020"
+   "fechasTexto": "08/09/2017 - 24/11/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +92,16 @@
   "claves": [
    "ref:A12/00373/23",
    "mm:opel:e2-2007-46-0601-00-e2-2007-46-0601-01-e2-2007-46-0601-02-e2-2007-46-0601-04-e2-2007-46-0601-05-e2-2007-46-0601-06-e2-2007-46-0601-08-e2-2007-46-0601-09-e2-2007-46-0601-10",
-   "mm:opel:e2-2007-46-0601-11-e2-2007-46-0601-12-e2-2007-46-0601-13-e2-2007-46-0601-15"
+   "mm:opel:e2-2007-46-0601-11-e2-2007-46-0601-12-e2-2007-46-0601-13-e2-2007-46-0601-15",
+   "ml:opel:08-09-2017-24-11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "98a139325a8a181d"
+  "enriquecido": true,
+  "hashContenido": "6ed4fcb7b970f164"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10007940"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "3760231813707"
    ],
    "descripcion": "Bombas de baño azules en forma de corazón o esféricas",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente que contiene 100 bombas de baño (1 kg)"
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c4048d1e70f45126"
+  "enriquecido": true,
+  "hashContenido": "a327efc297238d2e"
  },
  "slug": "bombas-de-bano-la-savonnerie-de-nyons-safety-gate-10007966"
 }

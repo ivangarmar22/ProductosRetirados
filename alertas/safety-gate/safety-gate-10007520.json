@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-23"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "BIJ/CHE.STD 5 NNBIJ/CHE.STD 5.9 NN"
+     "numero": "BIJ/CHE.STD 5 NN"
+    },
+    {
+     "numero": "BIJ/CHE.STD 5.9 NN"
     }
    ],
    "ean": [],
    "descripcion": "Diferentes conjuntos de brazaletes dorados o plateados con cuentas de colores y pares de pendientes (bucles con cuentas de colores o colgantes con diamantes de imitación).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Almohadillas de cartón gris claro o rosa."
   }
  ],
  "riesgo": {
@@ -87,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00305/23",
-   "ml:les-bidules:bij-che-std-5-nnbij-che-std-5-9-nn"
+   "ml:les-bidules:bij-che-std-5-nn",
+   "ml:les-bidules:bij-che-std-5-9-nn"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e42070da01726716"
+  "enriquecido": true,
+  "hashContenido": "450bf7ae89bc3477"
  },
  "slug": "conjuntos-de-pulseras-y-pendientes-les-bidules-safety-gate-10007520"
 }

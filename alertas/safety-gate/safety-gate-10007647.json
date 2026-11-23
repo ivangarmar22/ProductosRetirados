@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -41,7 +41,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Aspiradora inalámbrica con la indicación «Seco húmedo», fabricada entre mayo de 2019 y febrero de 2022.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,18 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "FR",
+   "GR",
+   "IE",
+   "LV",
+   "LU",
+   "PL",
+   "PT",
+   "SK",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +121,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3c006f86784f5e75"
+  "enriquecido": true,
+  "hashContenido": "6c716ebee98b3734"
  },
  "slug": "aspiradora-inalambrica-bissell-safety-gate-10007647"
 }

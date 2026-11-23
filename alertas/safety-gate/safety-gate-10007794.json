@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,25 +24,30 @@
   {
    "nombre": "Citroën Berlingo (K9 Europe) / Peugeot Partner / Rifter (K9 Europe)/ Opel Combo (K9 Europe - P1VO)",
    "marcas": [
-    "Citroën, Opel, Peugeot"
+    "Citroën",
+    "Opel",
+    "Peugeot"
    ],
    "modelos": [
-    "BERLINGO (K9 EUROPE): e2*2007/46*0000*00",
-    "e2*2007/46*0624*00 - 09",
-    "e2*2007/46*0623*05",
-    "e2*2007/46*0625*02 -15",
-    "COMBO (K9 Europe - P1VO): e2*2007/46*0622*03 - 08",
-    "e2*2007/46*0623*02 - 14",
-    "PARTNER",
-    "RIFTER (K9 EUROPE): e2*2007/46*0624*00 - 11",
-    "e2*2007/46*0623*05",
-    "e2*2007/46*0000*00",
-    "e2*2007/46*0625*02 - 16"
+    "BERLINGO (K9 EUROPE): e2*2007/46*0000*00, e2*2007/46*0624*00 - 09, e2*2007/46*0623*05, e2*2007/46*0625*02 -15",
+    "COMBO (K9 Europe - P1VO): e2*2007/46*0622*03 - 08, e2*2007/46*0623*02 - 14",
+    "PARTNER / RIFTER (K9 EUROPE): e2*2007/46*0624*00 - 11, e2*2007/46*0623*05, e2*2007/46*0000*00, e2*2007/46*0625*02 - 16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "BERLINGO (K9 EUROPE): 08/11/2017 - 21/9/2021"
+    },
+    {
+     "numero": "Combo (K9 Europe – P1VO): 12/03/2018 - 17/9/2021"
+    },
+    {
+     "numero": "PARTNER/RIFTER (K9 EUROPE): 08/11/2017 - 21/9/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros con protección metálica debajo del motor.",
-   "fechasTexto": "BERLINGO (K9 EUROPE): 08/11/2017 - 21/9/2021Combo (K9 Europe – P1VO): 12/03/2018 - 17/9/2021PARTNER/RIFTER (K9 EUROPE): 08/11/2017 - 21/9/2021"
+   "fechasTexto": "BERLINGO (K9 EUROPE): 08/11/2017 - 21/9/2021Combo (K9 Europe – P1VO): 12/03/2018 - 17/9/2021PARTNER/RIFTER (K9 EUROPE): 08/11/2017 - 21/9/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +77,23 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "FI",
+   "DE",
+   "GR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,24 +103,32 @@
  "dedup": {
   "claves": [
    "ref:A12/00309/23",
-   "mm:citroen-opel-peugeot:berlingo-k9-europe-e2-2007-46-0000-00",
-   "mm:citroen-opel-peugeot:e2-2007-46-0624-00-09",
-   "mm:citroen-opel-peugeot:e2-2007-46-0623-05",
-   "mm:citroen-opel-peugeot:e2-2007-46-0625-02-15",
-   "mm:citroen-opel-peugeot:combo-k9-europe-p1vo-e2-2007-46-0622-03-08",
-   "mm:citroen-opel-peugeot:e2-2007-46-0623-02-14",
-   "mm:citroen-opel-peugeot:partner",
-   "mm:citroen-opel-peugeot:rifter-k9-europe-e2-2007-46-0624-00-11",
-   "mm:citroen-opel-peugeot:e2-2007-46-0000-00",
-   "mm:citroen-opel-peugeot:e2-2007-46-0625-02-16"
+   "mm:citroen:berlingo-k9-europe-e2-2007-46-0000-00-e2-2007-46-0624-00-09-e2-2007-46-0623-05-e2-2007-46-0625-02-15",
+   "mm:citroen:combo-k9-europe-p1vo-e2-2007-46-0622-03-08-e2-2007-46-0623-02-14",
+   "mm:citroen:partner-rifter-k9-europe-e2-2007-46-0624-00-11-e2-2007-46-0623-05-e2-2007-46-0000-00-e2-2007-46-0625-02-16",
+   "ml:citroen:berlingo-k9-europe-08-11-2017-21-9-2021",
+   "ml:citroen:combo-k9-europe-p1vo-12-03-2018-17-9-2021",
+   "ml:citroen:partner-rifter-k9-europe-08-11-2017-21-9-2021",
+   "mm:opel:berlingo-k9-europe-e2-2007-46-0000-00-e2-2007-46-0624-00-09-e2-2007-46-0623-05-e2-2007-46-0625-02-15",
+   "mm:opel:combo-k9-europe-p1vo-e2-2007-46-0622-03-08-e2-2007-46-0623-02-14",
+   "mm:opel:partner-rifter-k9-europe-e2-2007-46-0624-00-11-e2-2007-46-0623-05-e2-2007-46-0000-00-e2-2007-46-0625-02-16",
+   "ml:opel:berlingo-k9-europe-08-11-2017-21-9-2021",
+   "ml:opel:combo-k9-europe-p1vo-12-03-2018-17-9-2021",
+   "ml:opel:partner-rifter-k9-europe-08-11-2017-21-9-2021",
+   "mm:peugeot:berlingo-k9-europe-e2-2007-46-0000-00-e2-2007-46-0624-00-09-e2-2007-46-0623-05-e2-2007-46-0625-02-15",
+   "mm:peugeot:combo-k9-europe-p1vo-e2-2007-46-0622-03-08-e2-2007-46-0623-02-14",
+   "mm:peugeot:partner-rifter-k9-europe-e2-2007-46-0624-00-11-e2-2007-46-0623-05-e2-2007-46-0000-00-e2-2007-46-0625-02-16",
+   "ml:peugeot:berlingo-k9-europe-08-11-2017-21-9-2021",
+   "ml:peugeot:combo-k9-europe-p1vo-12-03-2018-17-9-2021",
+   "ml:peugeot:partner-rifter-k9-europe-08-11-2017-21-9-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a23173203f375b32"
+  "enriquecido": true,
+  "hashContenido": "3b323ef8892f2600"
  },
  "slug": "coche-de-pasajeros-citroen-opel-peugeot-safety-gate-10007794"
 }

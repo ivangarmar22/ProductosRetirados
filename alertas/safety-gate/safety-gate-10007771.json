@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,17 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0639*12",
-    "*14",
-    "*15",
-    "*17",
-    "*18"
+    "e2*2007/46*0639*12, *14, *15, *17, *18"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22/2/2021 - 9/2/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, Peugeot 208 II, vehículos utilizados por las escuelas de conducción",
-   "fechasTexto": "22/2/2021 - 9/2/2022"
+   "fechasTexto": "22/2/2021 - 9/2/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,15 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00439/23",
-   "mm:peugeot:e2-2007-46-0639-12"
+   "mm:peugeot:e2-2007-46-0639-12-14-15-17-18",
+   "ml:peugeot:22-2-2021-9-2-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a63bddcede562f82"
+  "enriquecido": true,
+  "hashContenido": "11e52ca175218c58"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10007771"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "203",
-    "203 K",
-    "211",
-    "211 K",
-    "209",
-    "219",
-    "e1*98/14*0139*00-*24",
-    "e1*98/14*0158*01-*20",
-    "e1*98/14*0183*00-*21",
-    "e1*2001/116*0213*00-*17",
-    "e1*98/14*0184*00-*16",
-    "e1*2001/116*0295*00-*15"
+    "203, 203 K, 211, 211 K, 209, 219",
+    "e1*98/14*0139*00-*24, e1*98/14*0158*01-*20, e1*98/14*0183*00-*21, e1*2001/116*0213*00-*17, e1*98/14*0184*00-*16, e1*2001/116*0295*00-*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.01.2000 - 23.12.2010"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "24.01.2000 - 23.12.2010"
+   "fechasTexto": "24.01.2000 - 23.12.2010",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,26 +97,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00391/23",
-   "mm:mercedes-benz:203",
-   "mm:mercedes-benz:203-k",
-   "mm:mercedes-benz:211",
-   "mm:mercedes-benz:211-k",
-   "mm:mercedes-benz:209",
-   "mm:mercedes-benz:219",
-   "mm:mercedes-benz:e1-98-14-0139-00-24",
-   "mm:mercedes-benz:e1-98-14-0158-01-20",
-   "mm:mercedes-benz:e1-98-14-0183-00-21",
-   "mm:mercedes-benz:e1-2001-116-0213-00-17",
-   "mm:mercedes-benz:e1-98-14-0184-00-16",
-   "mm:mercedes-benz:e1-2001-116-0295-00-15"
+   "mm:mercedes-benz:203-203-k-211-211-k-209-219",
+   "mm:mercedes-benz:e1-98-14-0139-00-24-e1-98-14-0158-01-20-e1-98-14-0183-00-21-e1-2001-116-0213-00-17-e1-98-14-0184-00-16-e1-2001-116-0295-00-15",
+   "ml:mercedes-benz:24-01-2000-23-12-2010"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1fea23f6cffb3c0c"
+  "enriquecido": true,
+  "hashContenido": "a8d01154bdc03d52"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10007939"
 }

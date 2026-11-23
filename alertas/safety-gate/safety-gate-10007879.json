@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "R2CW",
-    "R2CS",
-    "e1*2018/858*00016*00",
-    "e1*2018/858*00017*00",
-    "Einzelabnahmen"
+    "R2CW, R2CS",
+    "e1*2018/858*00016*00, e1*2018/858*00017*00, Einzelabnahmen"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.10. 2020 - 23.04.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "15.10. 2020 - 23.04.2021"
+   "fechasTexto": "15.10. 2020 - 23.04.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,19 +84,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00440/23",
-   "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:r2cs",
-   "mm:mercedes-benz:e1-2018-858-00016-00",
-   "mm:mercedes-benz:e1-2018-858-00017-00",
-   "mm:mercedes-benz:einzelabnahmen"
+   "mm:mercedes-benz:r2cw-r2cs",
+   "mm:mercedes-benz:e1-2018-858-00016-00-e1-2018-858-00017-00-einzelabnahmen",
+   "ml:mercedes-benz:15-10-2020-23-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6126d6db76da7462"
+  "enriquecido": true,
+  "hashContenido": "6c9b6ca6a203ee05"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10007879"
 }

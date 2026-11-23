@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-16"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cuna de niños. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -61,7 +62,11 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1bb3b963496acde5"
+  "enriquecido": true,
+  "hashContenido": "9f57dc84f6964bb3"
  },
  "slug": "cuna-de-los-ninos-cot-safety-gate-10007745"
 }

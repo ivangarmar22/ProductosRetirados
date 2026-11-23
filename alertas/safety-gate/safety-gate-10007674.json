@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-26"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "P6654 (terva)R10606 (eukalyptus)"
+     "numero": "P6654 (terva)"
+    },
+    {
+     "numero": "R10606 (eukalyptus)"
     }
    ],
    "ean": [
     "6417892021008"
    ],
    "descripcion": "Diversas fragancias de aceites esenciales (por ejemplo, «terva» y «eucalipto»), en botellas de vidrio de 10 ml. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botellas de vidrio de 10 ml embaladas en embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -67,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Finlandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,15 +105,16 @@
   "claves": [
    "ref:A12/00261/23",
    "ean:6417892021008",
-   "ml:emendo:p6654-terva-r10606-eukalyptus"
+   "ml:emendo:p6654-terva",
+   "ml:emendo:r10606-eukalyptus"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64c4cc724622effc"
+  "enriquecido": true,
+  "hashContenido": "6b4392f1c09f5b15"
  },
  "slug": "aceite-esencial-emendo-safety-gate-10007674"
 }

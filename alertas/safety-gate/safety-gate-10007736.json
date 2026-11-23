@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-16"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,13 @@
    ],
    "lotes": [
     {
-     "numero": "21W3121W3321W42"
+     "numero": "21W31"
+    },
+    {
+     "numero": "21W33"
+    },
+    {
+     "numero": "21W42"
     }
    ],
    "ean": [
@@ -40,7 +46,8 @@
     "3380235400279"
    ],
    "descripcion": "Secador de toallas eléctrico de aire caliente 500W/750W/1000W.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -102,15 +109,17 @@
    "ean:3380235400279",
    "mm:voltman:vom540026",
    "mm:voltman:vom540027",
-   "ml:voltman:21w3121w3321w42"
+   "ml:voltman:21w31",
+   "ml:voltman:21w33",
+   "ml:voltman:21w42"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "344c33573fc85dc3"
+  "enriquecido": true,
+  "hashContenido": "dd04325ce5d93e4e"
  },
  "slug": "secador-de-toallas-electrico-voltman-safety-gate-10007736"
 }

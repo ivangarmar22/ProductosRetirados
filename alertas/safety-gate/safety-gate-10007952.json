@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,10 @@
    ],
    "lotes": [
     {
-     "numero": "BK/08/21 (PEP-3411-AC)BK/09/21 (PWP20-3411-1-AC & PWP20-3411-AC & LSH-3411-AC)"
+     "numero": "BK/08/21 (PEP-3411-AC)"
+    },
+    {
+     "numero": "BK/09/21 (PWP20-3411-1-AC & PWP20-3411-AC & LSH-3411-AC)"
     }
    ],
    "ean": [
@@ -44,7 +47,8 @@
     "5056219074313"
    ],
    "descripcion": "Juego de bolos con 6 conos y 1 bola de plástico coloreado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -78,7 +82,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -122,15 +129,16 @@
    "mm:sambro:pep-3411-ac",
    "mm:sambro:pwp20-3411-1-ac",
    "mm:sambro:pwp20-3411-ac",
-   "ml:sambro:bk-08-21-pep-3411-ac-bk-09-21-pwp20-3411-1-ac-pwp20-3411-ac-lsh-3411-ac"
+   "ml:sambro:bk-08-21-pep-3411-ac",
+   "ml:sambro:bk-09-21-pwp20-3411-1-ac-pwp20-3411-ac-lsh-3411-ac"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22062c243294ab27"
+  "enriquecido": true,
+  "hashContenido": "f5ac312a36932c21"
  },
  "slug": "juguete-de-plastico-sambro-safety-gate-10007952"
 }

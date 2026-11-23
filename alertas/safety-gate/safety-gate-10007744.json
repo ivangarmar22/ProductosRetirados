@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-16"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cuna blanca para niños en madera de pino. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,11 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +109,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1e89a028a219863b"
+  "enriquecido": true,
+  "hashContenido": "a4ec5f8bc0ff2687"
  },
  "slug": "cuna-de-los-ninos-childrens-cot-safety-gate-10007744"
 }

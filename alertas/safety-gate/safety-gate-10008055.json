@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-08"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "10120221512022"
+     "numero": "1012022"
+    },
+    {
+     "numero": "1512022"
     }
    ],
    "ean": [
     "8682815049676"
    ],
    "descripcion": "Máscara media de filtración respiratoria protectora, sin válvula, marcada con FFP2 y una marca CE impresa. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje turquesa con las instrucciones y una imagen de la máscara."
   }
  ],
  "riesgo": {
@@ -101,15 +105,16 @@
    "ref:A12/00487/23",
    "ean:8682815049676",
    "mm:ice-pro-mask:ice-pro-mask",
-   "ml:ice-pro-mask:10120221512022"
+   "ml:ice-pro-mask:1012022",
+   "ml:ice-pro-mask:1512022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "198f6d433d0bfb98"
+  "enriquecido": true,
+  "hashContenido": "37288c3322ea2802"
  },
  "slug": "mascara-de-filtro-de-particulas-ice-pro-mask-safety-gate-10008055"
 }

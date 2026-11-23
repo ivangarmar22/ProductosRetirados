@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-10"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -27,14 +27,13 @@
     "Kikka boo"
    ],
    "modelos": [
-    "Libro",
-    "A8",
-    "31001030104"
+    "Libro, A8, 31001030104"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Simple silla de paseo en varios colores, adecuado para niños de 6 a 36 meses",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,16 +93,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00490/23",
-   "mm:kikka-boo:libro",
-   "mm:kikka-boo:31001030104"
+   "mm:kikka-boo:libro-a8-31001030104"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "edcf8267c944579f"
+  "enriquecido": true,
+  "hashContenido": "dcf08550e40df78f"
  },
  "slug": "silla-de-paseo-kikka-boo-safety-gate-10008053"
 }

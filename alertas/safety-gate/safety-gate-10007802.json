@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,17 @@
     "Fiat"
    ],
    "modelos": [
-    "e2*2007/46*0532*17",
-    "e2*2007/46*0532*18",
-    "e2*2007/46*0533*18",
-    "e2*2007/46*0533*19",
-    "e2*2007/46*0533*20"
+    "e2*2007/46*0532*17; e2*2007/46*0532*18; e2*2007/46*0533*18; e2*2007/46*0533*19; e2*2007/46*0533*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23/8/2021 - 14/1/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros",
-   "fechasTexto": "23/8/2021 - 14/1/2022"
+   "fechasTexto": "23/8/2021 - 14/1/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "NL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,19 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00223/23",
-   "mm:fiat:e2-2007-46-0532-17",
-   "mm:fiat:e2-2007-46-0532-18",
-   "mm:fiat:e2-2007-46-0533-18",
-   "mm:fiat:e2-2007-46-0533-19",
-   "mm:fiat:e2-2007-46-0533-20"
+   "mm:fiat:e2-2007-46-0532-17-e2-2007-46-0532-18-e2-2007-46-0533-18-e2-2007-46-0533-19-e2-2007-46-0533-20",
+   "ml:fiat:23-8-2021-14-1-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "12a7b2a300d92c06"
+  "enriquecido": true,
+  "hashContenido": "5fa82d5e53a9884f"
  },
  "slug": "furgoneta-de-pasajeros-fiat-safety-gate-10007802"
 }

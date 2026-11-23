@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,29 +27,18 @@
     "Toyota"
    ],
    "modelos": [
-    "AB1",
-    "XPA1F(EU",
-    "M)",
-    "AN1P(EU",
-    "N)",
-    "AB7(JP)",
-    "XPA1G(EU",
-    "M)",
-    "J15TM",
-    "E",
-    "e6*2007/46*0348*",
-    "e6*2007/46*0437*",
-    "e6*2007/46*0337*",
-    "e6*2018/858*00060*",
-    "e6*2007/46*0454*",
-    "e6*2007/46*0001*",
-    "e2*2007/46*0685*",
-    "e2*2007/46*0686*"
+    "AB1, XPA1F(EU,M), AN1P(EU,N), AB7(JP), XPA1G(EU,M), J15TM, E",
+    "e6*2007/46*0348*, e6*2007/46*0437*, e6*2007/46*0337*, e6*2018/858*00060*, e6*2007/46*0454*, e6*2007/46*0001*, e2*2007/46*0685*, e2*2007/46*0686*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.10.2021 - 26.10.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos/Vehículos comerciales ligeros",
-   "fechasTexto": "24.10.2021 - 26.10.2022"
+   "fechasTexto": "24.10.2021 - 26.10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "IS",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,28 +82,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00429/23",
-   "mm:toyota:ab1",
-   "mm:toyota:xpa1f-eu",
-   "mm:toyota:an1p-eu",
-   "mm:toyota:ab7-jp",
-   "mm:toyota:xpa1g-eu",
-   "mm:toyota:j15tm",
-   "mm:toyota:e6-2007-46-0348",
-   "mm:toyota:e6-2007-46-0437",
-   "mm:toyota:e6-2007-46-0337",
-   "mm:toyota:e6-2018-858-00060",
-   "mm:toyota:e6-2007-46-0454",
-   "mm:toyota:e6-2007-46-0001",
-   "mm:toyota:e2-2007-46-0685",
-   "mm:toyota:e2-2007-46-0686"
+   "mm:toyota:ab1-xpa1f-eu-m-an1p-eu-n-ab7-jp-xpa1g-eu-m-j15tm-e",
+   "mm:toyota:e6-2007-46-0348-e6-2007-46-0437-e6-2007-46-0337-e6-2018-858-00060-e6-2007-46-0454-e6-2007-46-0001-e2-2007-46-0685-e2-2007-46-0686",
+   "ml:toyota:24-10-2021-26-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c23cf0b0a781e0c4"
+  "enriquecido": true,
+  "hashContenido": "158042bfcc7a501d"
  },
  "slug": "turismos-vehiculos-comerciales-ligeros-toyota-safety-gate-10007932"
 }

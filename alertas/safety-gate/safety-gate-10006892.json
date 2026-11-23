@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "6416739564418"
    ],
    "descripcion": "Juguete de broma compuesto por una botella de «tinta desapareciendo»-líquido y un anillo de chorro. El anillo está hecho de plástico negro y tiene una figura faraón en él.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón azul-blanco, vendida en una pantalla."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ba6641714db88b79"
+  "enriquecido": true,
+  "hashContenido": "d9cb502c1b61cec0"
  },
  "slug": "juguete-de-bromas-tactic-safety-gate-10006892"
 }

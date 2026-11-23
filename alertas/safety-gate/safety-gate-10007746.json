@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-27"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "La cuna del bebé",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -65,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7b36ab4ad23e9ae5"
+  "enriquecido": true,
+  "hashContenido": "2040608085fb2ded"
  },
  "slug": "cuna-de-los-ninos-cot-safety-gate-10007746"
 }

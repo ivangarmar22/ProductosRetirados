@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,33 +27,20 @@
     "Humbaur, Kögel"
    ],
    "modelos": [
-    "HA EA G O1",
-    "HS-Senko TA G VD",
-    "HN TA G VD",
-    "Tridem",
-    "Koffer TA G VD PF Hochlader",
-    "HT/HN GR",
-    "HTK-Garant TA G VD",
-    "KFZ-Transporter",
-    "HUK EA G VD",
-    "HA EA UG",
-    "HA EA G",
-    "e1*2007/46*0044*",
-    "e1*2007/46*0082*",
-    "e1*2007/46*0142*",
-    "e1*2007/46*0166",
-    "e1*2007/46*0281*",
-    "e1*2007/46*0399*",
-    "e1*2007/46*1315*",
-    "e1*2007/46*1338*",
-    "e1*2007/46*1784*",
-    "e1*2007/46*1836*",
-    "e1*2007/46*1899*"
+    "HA EA G O1, HS-Senko TA G VD, HN TA G VD, Tridem, Koffer TA G VD PF Hochlader, HT/HN GR",
+    "HTK-Garant TA G VD, KFZ-Transporter, HUK EA G VD, HA EA UG, HA EA G,",
+    "e1*2007/46*0044*, e1*2007/46*0082*, e1*2007/46*0142*, e1*2007/46*0166, e1*2007/46*0281*, e1*2007/46*0399*,",
+    "e1*2007/46*1315*, e1*2007/46*1338*, e1*2007/46*1784*, e1*2007/46*1836*, e1*2007/46*1899*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.09.2022 - 21.10.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Remolque suministrado con neumáticos incorrectamente montados, 195/50 R13C JOURNEY",
-   "fechasTexto": "29.09.2022 - 21.10.2022"
+   "fechasTexto": "29.09.2022 - 21.10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,36 +82,19 @@
  "dedup": {
   "claves": [
    "ref:A12/00434/23",
-   "mm:humbaur-kogel:ha-ea-g-o1",
-   "mm:humbaur-kogel:hs-senko-ta-g-vd",
-   "mm:humbaur-kogel:hn-ta-g-vd",
-   "mm:humbaur-kogel:tridem",
-   "mm:humbaur-kogel:koffer-ta-g-vd-pf-hochlader",
-   "mm:humbaur-kogel:ht-hn-gr",
-   "mm:humbaur-kogel:htk-garant-ta-g-vd",
-   "mm:humbaur-kogel:kfz-transporter",
-   "mm:humbaur-kogel:huk-ea-g-vd",
-   "mm:humbaur-kogel:ha-ea-ug",
-   "mm:humbaur-kogel:ha-ea-g",
-   "mm:humbaur-kogel:e1-2007-46-0044",
-   "mm:humbaur-kogel:e1-2007-46-0082",
-   "mm:humbaur-kogel:e1-2007-46-0142",
-   "mm:humbaur-kogel:e1-2007-46-0166",
-   "mm:humbaur-kogel:e1-2007-46-0281",
-   "mm:humbaur-kogel:e1-2007-46-0399",
-   "mm:humbaur-kogel:e1-2007-46-1315",
-   "mm:humbaur-kogel:e1-2007-46-1338",
-   "mm:humbaur-kogel:e1-2007-46-1784",
-   "mm:humbaur-kogel:e1-2007-46-1836",
-   "mm:humbaur-kogel:e1-2007-46-1899"
+   "mm:humbaur-kogel:ha-ea-g-o1-hs-senko-ta-g-vd-hn-ta-g-vd-tridem-koffer-ta-g-vd-pf-hochlader-ht-hn-gr",
+   "mm:humbaur-kogel:htk-garant-ta-g-vd-kfz-transporter-huk-ea-g-vd-ha-ea-ug-ha-ea-g",
+   "mm:humbaur-kogel:e1-2007-46-0044-e1-2007-46-0082-e1-2007-46-0142-e1-2007-46-0166-e1-2007-46-0281-e1-2007-46-0399",
+   "mm:humbaur-kogel:e1-2007-46-1315-e1-2007-46-1338-e1-2007-46-1784-e1-2007-46-1836-e1-2007-46-1899",
+   "ml:humbaur-kogel:29-09-2022-21-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1ad52f33064c8beb"
+  "enriquecido": true,
+  "hashContenido": "3c0c8b6f7889e7dd"
  },
  "slug": "trailer-humbaur-kogel-safety-gate-10007715"
 }

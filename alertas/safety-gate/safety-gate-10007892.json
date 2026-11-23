@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Haldex"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.05.2022 - 24.10.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Sistema de frenado electrónico",
-   "fechasTexto": "30.05.2022 - 24.10.2022"
+   "fechasTexto": "30.05.2022 - 24.10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Hungría",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/00428/23"
+   "ref:A12/00428/23",
+   "ml:haldex:30-05-2022-24-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6ebf1439f096c939"
+  "enriquecido": true,
+  "hashContenido": "d167386c11259dc4"
  },
  "slug": "parte-del-vehiculo-haldex-safety-gate-10007892"
 }

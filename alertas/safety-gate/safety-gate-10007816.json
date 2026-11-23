@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,18 @@
     "Setra"
    ],
    "modelos": [
-    "Models: 633 04",
-    "633 05",
-    "Type-approval numbers: e1*2007/46*0014*32",
-    "Korr. 01",
-    "e1*2007/46*0018*31"
+    "Models: 633 04, 633 05",
+    "Type-approval numbers: e1*2007/46*0014*32; Korr. 01, e1*2007/46*0018*31"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 10 September 2022 to 21 September 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús",
-   "fechasTexto": "From 10 September 2022 to 21 September 2022"
+   "fechasTexto": "From 10 September 2022 to 21 September 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,19 +80,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00269/23",
-   "mm:setra:models-633-04",
-   "mm:setra:633-05",
-   "mm:setra:type-approval-numbers-e1-2007-46-0014-32",
-   "mm:setra:korr-01",
-   "mm:setra:e1-2007-46-0018-31"
+   "mm:setra:models-633-04-633-05",
+   "mm:setra:type-approval-numbers-e1-2007-46-0014-32-korr-01-e1-2007-46-0018-31",
+   "ml:setra:from-10-september-2022-to-21-september-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c0e6549cc66e1f30"
+  "enriquecido": true,
+  "hashContenido": "4de47ea33e85a478"
  },
  "slug": "autobus-setra-safety-gate-10007816"
 }

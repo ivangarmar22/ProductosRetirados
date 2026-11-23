@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-08"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -38,7 +38,8 @@
     "8711326132949"
    ],
    "descripcion": "Fluido de color azul con fragancia de limón.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se envasa en un recipiente de plástico de 5 litros, con la indicación de que evita la congelación hasta -15.°C."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -109,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eb021dc7713643ca"
+  "enriquecido": true,
+  "hashContenido": "390b97ed20a116fe"
  },
  "slug": "fluido-de-lavado-del-parabrisas-del-coche-all-ride-safety-gate-10007887"
 }

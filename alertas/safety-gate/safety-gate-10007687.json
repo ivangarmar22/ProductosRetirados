@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-06"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "Packaging: \"115\""
-    },
-    {
-     "numero": "Container: \"111\""
+     "numero": "Packaging: \"115\"; Container: \"111\""
     }
    ],
    "ean": [
     "815865000122"
    ],
    "descripcion": "Tinte de pelo en polvo negro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja hecha de cartón multicolor con una bolsita hecha de plástico verde recubierto"
   }
  ],
  "riesgo": {
@@ -71,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,16 +92,15 @@
    "ref:A12/00238/23",
    "ean:815865000122",
    "mm:kali-mehandi:0129-4074413",
-   "ml:kali-mehandi:packaging-115",
-   "ml:kali-mehandi:container-111"
+   "ml:kali-mehandi:packaging-115-container-111"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76c8e25be196a089"
+  "enriquecido": true,
+  "hashContenido": "3b9608a96f61a3a0"
  },
  "slug": "tinte-para-el-cabello-kali-mehandi-safety-gate-10007687"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "6416739569659"
    ],
    "descripcion": "Conjunto de diferentes juguetes para 21 bromas diferentes. El conjunto incluye varios líquidos y gadgets.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca con decoraciones amarillas."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7cad5a6e2b718991"
+  "enriquecido": true,
+  "hashContenido": "7e89a1fe37d5c53b"
  },
  "slug": "juego-de-juguetes-de-broma-tactic-safety-gate-10006865"
 }

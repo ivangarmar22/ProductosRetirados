@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "XM FL",
     "e11*2007/46*0634*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "6.03.2012 - 14.08.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "6.03.2012 - 14.08.2014"
+   "fechasTexto": "6.03.2012 - 14.08.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "IE",
+   "NL",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +87,16 @@
   "claves": [
    "ref:A12/00383/23",
    "mm:kia:xm-fl",
-   "mm:kia:e11-2007-46-0634"
+   "mm:kia:e11-2007-46-0634",
+   "ml:kia:6-03-2012-14-08-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35f85098eba41380"
+  "enriquecido": true,
+  "hashContenido": "b025c3af06a2ac5f"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10007888"
 }

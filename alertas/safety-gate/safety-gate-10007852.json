@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-26"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -44,7 +44,8 @@
    ],
    "ean": [],
    "descripcion": "Accionamiento de cadena para abrir y cerrar ventanas en la fachada y el techo. El producto tiene una placa que indica su fecha de producción como año (Y) mes (M) día (D): «xx.xxx.xx/xxxxxxx/YYYYMMDD/xxxxxxxx» (en inglés). Se trata de todos los accionamientos en cadena de los tipos identificados anteriormente y producidos del 1.5.2022 al 30.11.2022.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -83,7 +84,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -127,11 +132,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0bdc94cddcf7b1b5"
+  "enriquecido": true,
+  "hashContenido": "f60888c95eced844"
  },
  "slug": "accionamiento-en-cadena-en-sistemas-de-extraccion-de-humo-y-calor-d-h-safety-gate-10007852"
 }

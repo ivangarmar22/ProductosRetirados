@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,23 +24,25 @@
   {
    "nombre": "ZAFIRA / VIVARO (K0) / SPACETOURER / JUMPY 4 (K0)",
    "marcas": [
-    "Opel, Peugeot"
+    "Opel",
+    "Peugeot"
    ],
    "modelos": [
-    "SPACETOURER",
-    "JUMPY 4 (K0) : e2*2007/46*0530*13",
-    "e2*2007/46*0530*14",
-    "e2*2007/46*0530*15",
-    "e2*2007/46*0530*16",
-    "ZAFIRA",
-    "VIVARO (K0) : e2*2007/46*0532*14",
-    "e2*2007/46*0532*15",
-    "e2*2007/46*0533*15"
+    "SPACETOURER / JUMPY 4 (K0) : e2*2007/46*0530*13; e2*2007/46*0530*14; e2*2007/46*0530*15; e2*2007/46*0530*16",
+    "ZAFIRA / VIVARO (K0) : e2*2007/46*0532*14; e2*2007/46*0532*15; e2*2007/46*0533*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "SPACETOURER / JUMPY 4 (K0) : 29/1/2020 to 23/4/2021"
+    },
+    {
+     "numero": "ZAFIRA / VIVARO (K0) : 6/10/2020 to 23/4/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros",
-   "fechasTexto": "SPACETOURER / JUMPY 4 (K0) : 29/1/2020 to 23/4/2021ZAFIRA / VIVARO (K0) : 6/10/2020 to 23/4/2021"
+   "fechasTexto": "SPACETOURER / JUMPY 4 (K0) : 29/1/2020 to 23/4/2021ZAFIRA / VIVARO (K0) : 6/10/2020 to 23/4/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +72,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "FI",
+   "GR",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,23 +96,22 @@
  "dedup": {
   "claves": [
    "ref:A12/00225/23",
-   "mm:opel-peugeot:spacetourer",
-   "mm:opel-peugeot:jumpy-4-k0-e2-2007-46-0530-13",
-   "mm:opel-peugeot:e2-2007-46-0530-14",
-   "mm:opel-peugeot:e2-2007-46-0530-15",
-   "mm:opel-peugeot:e2-2007-46-0530-16",
-   "mm:opel-peugeot:zafira",
-   "mm:opel-peugeot:vivaro-k0-e2-2007-46-0532-14",
-   "mm:opel-peugeot:e2-2007-46-0532-15",
-   "mm:opel-peugeot:e2-2007-46-0533-15"
+   "mm:opel:spacetourer-jumpy-4-k0-e2-2007-46-0530-13-e2-2007-46-0530-14-e2-2007-46-0530-15-e2-2007-46-0530-16",
+   "mm:opel:zafira-vivaro-k0-e2-2007-46-0532-14-e2-2007-46-0532-15-e2-2007-46-0533-15",
+   "ml:opel:spacetourer-jumpy-4-k0-29-1-2020-to-23-4-2021",
+   "ml:opel:zafira-vivaro-k0-6-10-2020-to-23-4-2021",
+   "mm:peugeot:spacetourer-jumpy-4-k0-e2-2007-46-0530-13-e2-2007-46-0530-14-e2-2007-46-0530-15-e2-2007-46-0530-16",
+   "mm:peugeot:zafira-vivaro-k0-e2-2007-46-0532-14-e2-2007-46-0532-15-e2-2007-46-0533-15",
+   "ml:peugeot:spacetourer-jumpy-4-k0-29-1-2020-to-23-4-2021",
+   "ml:peugeot:zafira-vivaro-k0-6-10-2020-to-23-4-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "235a34ad302201fa"
+  "enriquecido": true,
+  "hashContenido": "e5630505d06e0d15"
  },
  "slug": "furgoneta-de-pasajeros-opel-peugeot-safety-gate-10007793"
 }

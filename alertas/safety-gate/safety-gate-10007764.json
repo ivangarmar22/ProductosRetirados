@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,17 +24,30 @@
   {
    "nombre": "Citroën C5 Aircross (C84) / DS7 Crossback (X74) / Peugeot 508 V2",
    "marcas": [
-    "CITROEN, DS, Peugeot"
+    "CITROEN",
+    "DS",
+    "Peugeot"
    ],
    "modelos": [
     "508 V2 : e2*2007/46*0628*00 - 07",
     "C5 AIRCROSS (C84) : e2*2007/46*0642*01 - 08",
     "DS7 CROSSBACK (X74) : e2*2007/46*0601*05 -10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "508 V2: 31/1/2018 - 13/3/2020"
+    },
+    {
+     "numero": "C5 AIRCROSS (C84): 20/6/2018 - 16/6/2020"
+    },
+    {
+     "numero": "DS7 CROSSBACK (X74): 16/5/2018 - 13/3/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con un motor BlueHDi 1.5L y una caja de cambios automática.",
-   "fechasTexto": "508 V2: 31/1/2018 - 13/3/2020C5 AIRCROSS (C84): 20/6/2018 - 16/6/2020DS7 CROSSBACK (X74): 16/5/2018 - 13/3/2020"
+   "fechasTexto": "508 V2: 31/1/2018 - 13/3/2020C5 AIRCROSS (C84): 20/6/2018 - 16/6/2020DS7 CROSSBACK (X74): 16/5/2018 - 13/3/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +77,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR",
+   "DK",
+   "FI",
+   "DE",
+   "GR",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SK",
+   "SI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,17 +101,32 @@
  "dedup": {
   "claves": [
    "ref:A12/00311/23",
-   "mm:citroen-ds-peugeot:508-v2-e2-2007-46-0628-00-07",
-   "mm:citroen-ds-peugeot:c5-aircross-c84-e2-2007-46-0642-01-08",
-   "mm:citroen-ds-peugeot:ds7-crossback-x74-e2-2007-46-0601-05-10"
+   "mm:citroen:508-v2-e2-2007-46-0628-00-07",
+   "mm:citroen:c5-aircross-c84-e2-2007-46-0642-01-08",
+   "mm:citroen:ds7-crossback-x74-e2-2007-46-0601-05-10",
+   "ml:citroen:508-v2-31-1-2018-13-3-2020",
+   "ml:citroen:c5-aircross-c84-20-6-2018-16-6-2020",
+   "ml:citroen:ds7-crossback-x74-16-5-2018-13-3-2020",
+   "mm:ds:508-v2-e2-2007-46-0628-00-07",
+   "mm:ds:c5-aircross-c84-e2-2007-46-0642-01-08",
+   "mm:ds:ds7-crossback-x74-e2-2007-46-0601-05-10",
+   "ml:ds:508-v2-31-1-2018-13-3-2020",
+   "ml:ds:c5-aircross-c84-20-6-2018-16-6-2020",
+   "ml:ds:ds7-crossback-x74-16-5-2018-13-3-2020",
+   "mm:peugeot:508-v2-e2-2007-46-0628-00-07",
+   "mm:peugeot:c5-aircross-c84-e2-2007-46-0642-01-08",
+   "mm:peugeot:ds7-crossback-x74-e2-2007-46-0601-05-10",
+   "ml:peugeot:508-v2-31-1-2018-13-3-2020",
+   "ml:peugeot:c5-aircross-c84-20-6-2018-16-6-2020",
+   "ml:peugeot:ds7-crossback-x74-16-5-2018-13-3-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6782efe7a96d960c"
+  "enriquecido": true,
+  "hashContenido": "a525b4a5f3194441"
  },
  "slug": "coche-de-pasajeros-citroen-ds-peugeot-safety-gate-10007764"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-12"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -27,13 +27,13 @@
     "Kikka boo"
    ],
    "modelos": [
-    "Fitto",
-    "D600"
+    "Fitto, D600"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Cochecito de bebé, adecuado para niños de 0 a 36 meses, máximo 15 kg, diferentes códigos de barras dependiendo del color.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -63,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,16 +92,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00499/23",
-   "mm:kikka-boo:fitto",
-   "mm:kikka-boo:d600"
+   "mm:kikka-boo:fitto-d600"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "180ffb9cd4039ef1"
+  "enriquecido": true,
+  "hashContenido": "93a2057e9b77c328"
  },
  "slug": "silla-de-bebe-kikka-boo-safety-gate-10008058"
 }

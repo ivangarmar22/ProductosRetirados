@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e6*2018/858*00060*00",
-    "e6*2007/46*0437*04"
+    "e6*2018/858*00060*00, e6*2007/46*0437*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.08.2022 - 8.09.2022; 2.09.2022 - 9.09.2022."
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, código modelo: Aygo X (KGB70) y Yaris (KSP211); Año del modelo: 2022;",
-   "fechasTexto": "30.08.2022 - 8.09.2022; 2.09.2022 - 9.09.2022."
+   "fechasTexto": "30.08.2022 - 8.09.2022; 2.09.2022 - 9.09.2022.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00482/23",
-   "mm:toyota:e6-2018-858-00060-00",
-   "mm:toyota:e6-2007-46-0437-04"
+   "mm:toyota:e6-2018-858-00060-00-e6-2007-46-0437-04",
+   "ml:toyota:30-08-2022-8-09-2022-2-09-2022-9-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bacf382636c21b62"
+  "enriquecido": true,
+  "hashContenido": "12fead1e07bfc166"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10008072"
 }

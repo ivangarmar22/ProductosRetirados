@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "FE",
     "e9*2007/46*6592*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.12.2017 - 5.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "18.12.2017 - 5.10.2021"
+   "fechasTexto": "18.12.2017 - 5.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "NL",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00486/23",
-   "mm:hyundai:e9-2007-46-6592"
+   "mm:hyundai:e9-2007-46-6592",
+   "ml:hyundai:18-12-2017-5-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e51c121c9fa8f39b"
+  "enriquecido": true,
+  "hashContenido": "d4c104660ac38251"
  },
  "slug": "automovil-de-pasajeros-vehiculo-electrico-de-pila-de-combustible-de-hi-safety-gate-10008071"
 }
