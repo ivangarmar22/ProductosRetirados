@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-29"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "140421150421"
+     "numero": "140421"
+    },
+    {
+     "numero": "150421"
     }
    ],
    "ean": [
     "3701159000213"
    ],
    "descripcion": "Aerosol universal para la difusión automática y manual de ambientador, lavanda y fragancia de manzanilla.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "250 ml de aerosol metálico cerrado por un tapón de plástico."
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
    "ref:A11/00036/23",
    "ean:3701159000213",
    "mm:le-lynx-home:9000213",
-   "ml:le-lynx-home:140421150421"
+   "ml:le-lynx-home:140421",
+   "ml:le-lynx-home:150421"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "63507ff79fd9a7e9"
+  "enriquecido": true,
+  "hashContenido": "16851f59c8d56d20"
  },
  "slug": "ambientador-de-aire-le-lynx-home-safety-gate-10008270"
 }

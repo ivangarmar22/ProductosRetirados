@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "8904001232731"
    ],
    "descripcion": "Bus de plástico azul con neumáticos de plástico negro y tres piezas extraíbles (azul oscuro, naranja y verde). El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón naranja"
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "India",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "51e1bc883a934416"
+  "enriquecido": true,
+  "hashContenido": "edee8469827c6703"
  },
  "slug": "autobus-de-juguete-rubbabu-safety-gate-10008315"
 }

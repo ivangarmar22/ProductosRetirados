@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-18"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Shorts negros para niños con estampado gris",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "892eb1042fb3e8c7"
+  "enriquecido": true,
+  "hashContenido": "7d596f892bc5bc5e"
  },
  "slug": "pantalones-cortos-para-ninos-primark-safety-gate-10008249"
 }

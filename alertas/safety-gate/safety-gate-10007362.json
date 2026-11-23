@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-20"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,7 +31,10 @@
    ],
    "lotes": [
     {
-     "numero": "12/21-2403PZN 17887332"
+     "numero": "12/21-2403"
+    },
+    {
+     "numero": "PZN 17887332"
     }
    ],
    "ean": [
@@ -39,7 +42,8 @@
     "4251806399935"
    ],
    "descripcion": "Media mascarilla filtrante de partículas con dos correas de oreja sin válvula, color gris exterior, color blanco interior, marcado con FFP2 y con el marcado CE impreso. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón azul-blanco, con un total de 10 mascarillas, marcada con FFP2 y con el marcado CE, con las indicaciones «fecha de producción 12/2021» y «fecha de caducidad 12/2023». Las bolsas individuales tienen un código de barras 4251806399935, mientras que el paquete exterior tiene un código de barras 4251806399928."
   }
  ],
  "riesgo": {
@@ -120,15 +124,16 @@
    "ean:4251806399928",
    "ean:4251806399935",
    "mm:ipos:ipos-20",
-   "ml:ipos:12-21-2403pzn-17887332"
+   "ml:ipos:12-21-2403",
+   "ml:ipos:pzn-17887332"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "085271a5dcbe20c5"
+  "enriquecido": true,
+  "hashContenido": "bf3e387a55d0c86e"
  },
  "slug": "mascara-de-filtro-de-particulas-ipos-safety-gate-10007362"
 }

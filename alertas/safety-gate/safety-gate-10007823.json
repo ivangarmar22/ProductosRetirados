@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,24 +27,18 @@
     "Kawasaki"
    ],
    "modelos": [
-    "ZXT00N",
-    "ZXT00X",
-    "ZXT02J",
-    "ZXT02A",
-    "ZRT00K",
-    "ZXT02P",
-    "Typ ZX1000P/Y",
-    "e4*2002/24*3112*00",
-    "e4*168/2013*00040*00",
-    "e4*168/2013*00094*00",
-    "e4*168/2013*00073*00",
-    "e4*168/2013*00117*00",
-    "e4*168/2013*00153*00"
+    "ZXT00N, ZXT00X, ZXT02J, ZXT02A, ZRT00K, ZXT02P, Typ ZX1000P/Y",
+    "e4*2002/24*3112*00, e4*168/2013*00040*00, e4*168/2013*00094*00, e4*168/2013*00073*00, e4*168/2013*00117*00, e4*168/2013*00153*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.11.2014 - 23.8.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "1.11.2014 - 23.8.2022"
+   "fechasTexto": "1.11.2014 - 23.8.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,27 +96,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00584/23",
-   "mm:kawasaki:zxt00n",
-   "mm:kawasaki:zxt00x",
-   "mm:kawasaki:zxt02j",
-   "mm:kawasaki:zxt02a",
-   "mm:kawasaki:zrt00k",
-   "mm:kawasaki:zxt02p",
-   "mm:kawasaki:typ-zx1000p-y",
-   "mm:kawasaki:e4-2002-24-3112-00",
-   "mm:kawasaki:e4-168-2013-00040-00",
-   "mm:kawasaki:e4-168-2013-00094-00",
-   "mm:kawasaki:e4-168-2013-00073-00",
-   "mm:kawasaki:e4-168-2013-00117-00",
-   "mm:kawasaki:e4-168-2013-00153-00"
+   "mm:kawasaki:zxt00n-zxt00x-zxt02j-zxt02a-zrt00k-zxt02p-typ-zx1000p-y",
+   "mm:kawasaki:e4-2002-24-3112-00-e4-168-2013-00040-00-e4-168-2013-00094-00-e4-168-2013-00073-00-e4-168-2013-00117-00-e4-168-2013-00153-00",
+   "ml:kawasaki:1-11-2014-23-8-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a795ecc5c25b1770"
+  "enriquecido": true,
+  "hashContenido": "98875d41e7363d40"
  },
  "slug": "moto-kawasaki-safety-gate-10007823"
 }

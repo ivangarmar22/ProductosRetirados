@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "450",
     "570"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2021-2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta, producida desde 2021 hasta 2023.",
-   "fechasTexto": "2021-2023"
+   "fechasTexto": "2021-2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,15 +91,16 @@
   "claves": [
    "ref:A12/00519/23",
    "mm:polaris:450",
-   "mm:polaris:570"
+   "mm:polaris:570",
+   "ml:polaris:2021-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7bb5d9f245903754"
+  "enriquecido": true,
+  "hashContenido": "9078d42ae0c181b6"
  },
  "slug": "moto-polaris-safety-gate-10007726"
 }

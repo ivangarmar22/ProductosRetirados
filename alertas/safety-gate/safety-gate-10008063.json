@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,13 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*0457*01",
-    "e1*2007/46*0457*04",
-    "e1*2007/46*0458*00",
-    "e1*2007/46*0458*07",
-    "e1*2007/46*0459*00",
-    "e1*2007/46*0459*04"
+    "e1*2007/46*0457*01; e1*2007/46*0457*04; e1*2007/46*0458*00; e1*2007/46*0458*07; e1*2007/46*0459*00; e1*2007/46*0459*04"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +64,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HR",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,20 +88,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00568/23",
-   "mm:mercedes-benz:e1-2007-46-0457-01",
-   "mm:mercedes-benz:e1-2007-46-0457-04",
-   "mm:mercedes-benz:e1-2007-46-0458-00",
-   "mm:mercedes-benz:e1-2007-46-0458-07",
-   "mm:mercedes-benz:e1-2007-46-0459-00",
-   "mm:mercedes-benz:e1-2007-46-0459-04"
+   "mm:mercedes-benz:e1-2007-46-0457-01-e1-2007-46-0457-04-e1-2007-46-0458-00-e1-2007-46-0458-07-e1-2007-46-0459-00-e1-2007-46-0459-04"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d51bb2289d01dff8"
+  "enriquecido": true,
+  "hashContenido": "87614859f5fb3e21"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10008063"
 }

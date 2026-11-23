@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5901477149207"
    ],
    "descripcion": "Hoja de sierra circular, ofrecida y etiquetada para su uso en una amoladora angular (3 cuchillas/dientes), 125 mm * 22,2 mm. El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "HU",
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "317c76f6043f9812"
+  "enriquecido": true,
+  "hashContenido": "5644eaa3c3e7ac89"
  },
  "slug": "hoja-de-sierra-para-amoladoras-angulares-geko-safety-gate-10008201"
 }

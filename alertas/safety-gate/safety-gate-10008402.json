@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R2CW",
     "e1*2018/858*00016*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.10.2020 - 19.01.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "14.10.2020 - 19.01.2021"
+   "fechasTexto": "14.10.2020 - 19.01.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,15 +84,16 @@
   "claves": [
    "ref:A12/00791/23",
    "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:e1-2018-858-00016-00"
+   "mm:mercedes-benz:e1-2018-858-00016-00",
+   "ml:mercedes-benz:14-10-2020-19-01-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35d36e33e3c78a13"
+  "enriquecido": true,
+  "hashContenido": "a431ec44a1a542bc"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10008402"
 }

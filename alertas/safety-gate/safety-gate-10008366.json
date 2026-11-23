@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,53 +27,20 @@
     "Volvo Trucks"
    ],
    "modelos": [
-    "VT23R",
-    "VTS3T",
-    "VTA3R",
-    "VTA3T",
-    "VTG3T",
-    "VTJ3R",
-    "VTJ3T",
-    "VT43R",
-    "VTV3R",
-    "VTS3R",
-    "VTT3R",
-    "VTC3R",
-    "VTC3T",
-    "VTG3R",
-    "VTN3R",
-    "VTU3R",
-    "VTP3R",
-    "VTL3R",
-    "VTL3T",
-    "VTR3R",
-    "VTY3R",
-    "e1*2007/46*1412*19",
-    "e1*2007/46*1443*18",
-    "e1*2007/46*1444*18",
-    "e1*2007/46*1445*18",
-    "e1*2007/46*1413*19",
-    "e5*2007/46*1020*05",
-    "e5*2007/46*1021*05",
-    "e5*2007/46*1015*05",
-    "e1*2007/46*0968*29",
-    "e1*2007/46*0967*29",
-    "e1*2007/46*0970*29",
-    "e1*2007/46*0979*29",
-    "e1*2007/46*1149*25",
-    "e5*2007/46*1023*05",
-    "e5*2007/46*1022*05",
-    "e5*2007/46*1014*05",
-    "e5*2007/46*1013*05",
-    "e5*2007/46*1016*05",
-    "e5*2007/46*1018*05",
-    "e5*2007/46*1017*05",
-    "e5*2007/46*1019*05"
+    "VT23R, VTS3T, VTA3R, VTA3T, VTG3T, VTJ3R, VTJ3T, VT43R, VTV3R, VTS3R, VTT3R, VTC3R, VTC3T, VTG3R, VTN3R, VTU3R, VTP3R, VTL3R, VTL3T, VTR3R, VTY3R",
+    "e1*2007/46*1412*19, e1*2007/46*1443*18, e1*2007/46*1444*18, e1*2007/46*1445*18, e1*2007/46*1413*19",
+    "e5*2007/46*1020*05, e5*2007/46*1021*05, e5*2007/46*1015*05, e1*2007/46*0968*29, e1*2007/46*0967*29, e1*2007/46*0970*29, e1*2007/46*0979*29, e1*2007/46*1149*25",
+    "e5*2007/46*1023*05, e5*2007/46*1022*05, e5*2007/46*1014*05, e5*2007/46*1013*05, e5*2007/46*1016*05, e5*2007/46*1018*05, e5*2007/46*1017*05, e5*2007/46*1019*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.02.2023 - 03.03.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "06.02.2023 - 03.03.2023"
+   "fechasTexto": "06.02.2023 - 03.03.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -103,7 +70,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,56 +90,19 @@
  "dedup": {
   "claves": [
    "ref:A12/00781/23",
-   "mm:volvo-trucks:vt23r",
-   "mm:volvo-trucks:vts3t",
-   "mm:volvo-trucks:vta3r",
-   "mm:volvo-trucks:vta3t",
-   "mm:volvo-trucks:vtg3t",
-   "mm:volvo-trucks:vtj3r",
-   "mm:volvo-trucks:vtj3t",
-   "mm:volvo-trucks:vt43r",
-   "mm:volvo-trucks:vtv3r",
-   "mm:volvo-trucks:vts3r",
-   "mm:volvo-trucks:vtt3r",
-   "mm:volvo-trucks:vtc3r",
-   "mm:volvo-trucks:vtc3t",
-   "mm:volvo-trucks:vtg3r",
-   "mm:volvo-trucks:vtn3r",
-   "mm:volvo-trucks:vtu3r",
-   "mm:volvo-trucks:vtp3r",
-   "mm:volvo-trucks:vtl3r",
-   "mm:volvo-trucks:vtl3t",
-   "mm:volvo-trucks:vtr3r",
-   "mm:volvo-trucks:vty3r",
-   "mm:volvo-trucks:e1-2007-46-1412-19",
-   "mm:volvo-trucks:e1-2007-46-1443-18",
-   "mm:volvo-trucks:e1-2007-46-1444-18",
-   "mm:volvo-trucks:e1-2007-46-1445-18",
-   "mm:volvo-trucks:e1-2007-46-1413-19",
-   "mm:volvo-trucks:e5-2007-46-1020-05",
-   "mm:volvo-trucks:e5-2007-46-1021-05",
-   "mm:volvo-trucks:e5-2007-46-1015-05",
-   "mm:volvo-trucks:e1-2007-46-0968-29",
-   "mm:volvo-trucks:e1-2007-46-0967-29",
-   "mm:volvo-trucks:e1-2007-46-0970-29",
-   "mm:volvo-trucks:e1-2007-46-0979-29",
-   "mm:volvo-trucks:e1-2007-46-1149-25",
-   "mm:volvo-trucks:e5-2007-46-1023-05",
-   "mm:volvo-trucks:e5-2007-46-1022-05",
-   "mm:volvo-trucks:e5-2007-46-1014-05",
-   "mm:volvo-trucks:e5-2007-46-1013-05",
-   "mm:volvo-trucks:e5-2007-46-1016-05",
-   "mm:volvo-trucks:e5-2007-46-1018-05",
-   "mm:volvo-trucks:e5-2007-46-1017-05",
-   "mm:volvo-trucks:e5-2007-46-1019-05"
+   "mm:volvo-trucks:vt23r-vts3t-vta3r-vta3t-vtg3t-vtj3r-vtj3t-vt43r-vtv3r-vts3r-vtt3r-vtc3r-vtc3t-vtg3r-vtn3r-vtu3r-vtp3r-vtl3r-vtl3t-vtr3r-vty3r",
+   "mm:volvo-trucks:e1-2007-46-1412-19-e1-2007-46-1443-18-e1-2007-46-1444-18-e1-2007-46-1445-18-e1-2007-46-1413-19",
+   "mm:volvo-trucks:e5-2007-46-1020-05-e5-2007-46-1021-05-e5-2007-46-1015-05-e1-2007-46-0968-29-e1-2007-46-0967-29-e1-2007-46-0970-29-e1-2007-46-0979-29-e1-2007-46-1149-25",
+   "mm:volvo-trucks:e5-2007-46-1023-05-e5-2007-46-1022-05-e5-2007-46-1014-05-e5-2007-46-1013-05-e5-2007-46-1016-05-e5-2007-46-1018-05-e5-2007-46-1017-05-e5-2007-46-1019-05",
+   "ml:volvo-trucks:06-02-2023-03-03-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "39d3284ee2d80cb3"
+  "enriquecido": true,
+  "hashContenido": "67c8de5ca38edddd"
  },
  "slug": "camion-volvo-trucks-safety-gate-10008366"
 }

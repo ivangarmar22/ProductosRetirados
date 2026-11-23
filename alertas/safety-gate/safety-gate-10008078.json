@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Forster"
    ],
    "modelos": [
-    "CIA8",
-    "TFDD",
-    "YCIS",
-    "CJA8",
-    "e13*2007/46*1231*18",
-    "*22-*23",
-    "*25",
-    "e13*2007/46*1858*06-*10",
-    "e13*2007/46*2277*02",
-    "e13*2018/858*00136*00-*01"
+    "CIA8, TFDD, YCIS, CJA8",
+    "e13*2007/46*1231*18, *22-*23, *25, e13*2007/46*1858*06-*10, e13*2007/46*2277*02, e13*2018/858*00136*00-*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15/01/2021 - 04/10/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Casa móvil/camper van, equipado con un porta bicicletas",
-   "fechasTexto": "15/01/2021 - 04/10/2022"
+   "fechasTexto": "15/01/2021 - 04/10/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,23 +78,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00554/23",
-   "mm:forster:cia8",
-   "mm:forster:tfdd",
-   "mm:forster:ycis",
-   "mm:forster:cja8",
-   "mm:forster:e13-2007-46-1231-18",
-   "mm:forster:22-23",
-   "mm:forster:e13-2007-46-1858-06-10",
-   "mm:forster:e13-2007-46-2277-02",
-   "mm:forster:e13-2018-858-00136-00-01"
+   "mm:forster:cia8-tfdd-ycis-cja8",
+   "mm:forster:e13-2007-46-1231-18-22-23-25-e13-2007-46-1858-06-10-e13-2007-46-2277-02-e13-2018-858-00136-00-01",
+   "ml:forster:15-01-2021-04-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "692f8910f861f808"
+  "enriquecido": true,
+  "hashContenido": "90b3b6e308fe744a"
  },
  "slug": "casa-movil-camper-van-forster-safety-gate-10008078"
 }

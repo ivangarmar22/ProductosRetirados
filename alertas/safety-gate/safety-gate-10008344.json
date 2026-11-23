@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,18 @@
     "Iveco"
    ],
    "modelos": [
-    "IDN02",
-    "IS70W2N",
-    "e3*2007/46*0490*01-*02",
-    "*04-*09",
-    "e3*2018/858*00072*00"
+    "IDN02, IS70W2N",
+    "e3*2007/46*0490*01-*02, *04-*09, e3*2018/858*00072*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4.3.2019 - 4.8.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "4.3.2019 - 4.8.2022"
+   "fechasTexto": "4.3.2019 - 4.8.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "LU",
+   "NL",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,19 +94,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00780/23",
-   "mm:iveco:idn02",
-   "mm:iveco:is70w2n",
-   "mm:iveco:e3-2007-46-0490-01-02",
-   "mm:iveco:04-09",
-   "mm:iveco:e3-2018-858-00072-00"
+   "mm:iveco:idn02-is70w2n",
+   "mm:iveco:e3-2007-46-0490-01-02-04-09-e3-2018-858-00072-00",
+   "ml:iveco:4-3-2019-4-8-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "92a9d1a7826a2aaf"
+  "enriquecido": true,
+  "hashContenido": "27b4fc92d936d01d"
  },
  "slug": "camion-iveco-safety-gate-10008344"
 }

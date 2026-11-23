@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-06-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,35 +27,19 @@
     "Iveco"
    ],
    "modelos": [
-    "AA3C",
-    "AD3C",
-    "2B3C",
-    "BA3C",
-    "2Y3C",
-    "AB3C",
-    "1A3C",
-    "MS34Y",
-    "MTGB3",
-    "MTGC4",
-    "MTGA2",
-    "e3*2007/46*0104*20-*22",
-    "e3*2007/46*0132*20",
-    "e3*2007/46*0133*17-*18",
-    "e3*2007/46*0135*21-*23",
-    "e3*2007/46*0136*26-*28",
-    "e3*2007/46*0137*19",
-    "e3*2007/46*0143*24-*26",
-    "e3*2007/46*0179*17-*18",
-    "e3*2007/46*0182*01",
-    "*16",
-    "e3*2007/46*0183*15-*16",
-    "e3*2007/46*0184*01",
-    "*12"
+    "AA3C, AD3C, 2B3C, BA3C, 2Y3C, AB3C, 1A3C, MS34Y, MTGB3, MTGC4, MTGA2",
+    "e3*2007/46*0104*20-*22, e3*2007/46*0132*20, e3*2007/46*0133*17-*18, e3*2007/46*0135*21-*23, e3*2007/46*0136*26-*28, e3*2007/46*0137*19, e3*2007/46*0143*24-*26",
+    "e3*2007/46*0179*17-*18, e3*2007/46*0182*01,*16, e3*2007/46*0183*15-*16, e3*2007/46*0184*01,*12"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18/07/2022 - 11/11/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "18/07/2022 - 11/11/2022"
+   "fechasTexto": "18/07/2022 - 11/11/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -85,7 +69,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,36 +94,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00782/23",
-   "mm:iveco:aa3c",
-   "mm:iveco:ad3c",
-   "mm:iveco:2b3c",
-   "mm:iveco:ba3c",
-   "mm:iveco:2y3c",
-   "mm:iveco:ab3c",
-   "mm:iveco:1a3c",
-   "mm:iveco:ms34y",
-   "mm:iveco:mtgb3",
-   "mm:iveco:mtgc4",
-   "mm:iveco:mtga2",
-   "mm:iveco:e3-2007-46-0104-20-22",
-   "mm:iveco:e3-2007-46-0132-20",
-   "mm:iveco:e3-2007-46-0133-17-18",
-   "mm:iveco:e3-2007-46-0135-21-23",
-   "mm:iveco:e3-2007-46-0136-26-28",
-   "mm:iveco:e3-2007-46-0137-19",
-   "mm:iveco:e3-2007-46-0143-24-26",
-   "mm:iveco:e3-2007-46-0179-17-18",
-   "mm:iveco:e3-2007-46-0182-01",
-   "mm:iveco:e3-2007-46-0183-15-16",
-   "mm:iveco:e3-2007-46-0184-01"
+   "mm:iveco:aa3c-ad3c-2b3c-ba3c-2y3c-ab3c-1a3c-ms34y-mtgb3-mtgc4-mtga2",
+   "mm:iveco:e3-2007-46-0104-20-22-e3-2007-46-0132-20-e3-2007-46-0133-17-18-e3-2007-46-0135-21-23-e3-2007-46-0136-26-28-e3-2007-46-0137-19-e3-2007-46-0143-24-26",
+   "mm:iveco:e3-2007-46-0179-17-18-e3-2007-46-0182-01-16-e3-2007-46-0183-15-16-e3-2007-46-0184-01-12",
+   "ml:iveco:18-07-2022-11-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e08311e82077d61"
+  "enriquecido": true,
+  "hashContenido": "7c6184aec1980bc2"
  },
  "slug": "camion-iveco-safety-gate-10008432"
 }

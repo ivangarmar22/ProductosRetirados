@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-27"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "3616475763110"
    ],
    "descripcion": "Juguete de cubo de actividad de madera",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5a5a758fd884eb88"
+  "enriquecido": true,
+  "hashContenido": "ff4d7d881e5d0253"
  },
  "slug": "juguete-del-cubo-de-la-actividad-my-wooden-safety-gate-10008075"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,7 +34,8 @@
     "5904730300988"
    ],
    "descripcion": "Perfume destinado a mujeres, 100 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "35f4760c30fca92d"
+  "enriquecido": true,
+  "hashContenido": "ad3c1941cee5ae48"
  },
  "slug": "perfume-jfenzi-safety-gate-10008487"
 }

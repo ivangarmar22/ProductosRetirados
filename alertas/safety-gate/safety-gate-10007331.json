@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,27 @@
     "Legrand"
    ],
    "modelos": [
-    "Références Grande Distribution: 0 973 55",
-    "0 976 15",
-    "0 976 25",
-    "0 976 28",
+    "Références Grande Distribution: 0 973 55, 0 976 15, 0 976 25, 0 976 28",
     "Références Pro: 0 860 22 et 0 861 22"
    ],
    "lotes": [
     {
-     "numero": "GTIN 3245060860226 Lot 22w07 – 22w27GTIN 3245060861223 Lot 22w07 – 22w27GTIN 3245060973551 Lot 22w07 – 22w27GTIN 3414970651655 Lot 22w07 – 22w27GTIN 3414970651815 Lot 22w07 – 22w27GTIN 3414970651877 Lot 22w07 – 22w27"
+     "numero": "GTIN 3245060860226 Lot 22w07 – 22w27"
+    },
+    {
+     "numero": "GTIN 3245060861223 Lot 22w07 – 22w27"
+    },
+    {
+     "numero": "GTIN 3245060973551 Lot 22w07 – 22w27"
+    },
+    {
+     "numero": "GTIN 3414970651655 Lot 22w07 – 22w27"
+    },
+    {
+     "numero": "GTIN 3414970651815 Lot 22w07 – 22w27"
+    },
+    {
+     "numero": "GTIN 3414970651877 Lot 22w07 – 22w27"
     }
    ],
    "ean": [
@@ -47,7 +59,8 @@
     "3414970651877"
    ],
    "descripcion": "Toma de corriente eléctrica sin alambre de tierra. Zócalo saliente de Legrand con terminales de tornillo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de blíster transparente y cartón"
   }
  ],
  "riesgo": {
@@ -127,20 +140,22 @@
    "ean:3414970651655",
    "ean:3414970651815",
    "ean:3414970651877",
-   "mm:legrand:references-grande-distribution-0-973-55",
-   "mm:legrand:0-976-15",
-   "mm:legrand:0-976-25",
-   "mm:legrand:0-976-28",
+   "mm:legrand:references-grande-distribution-0-973-55-0-976-15-0-976-25-0-976-28",
    "mm:legrand:references-pro-0-860-22-et-0-861-22",
-   "ml:legrand:gtin-3245060860226-lot-22w07-22w27gtin-3245060861223-lot-22w07-22w27gtin-3245060973551-lot-22w07-22w27gtin-3414970651655-lot-22w07-22w27gtin-3414970651815-lot-22w07-22w27gtin-3414970651877-lot-22w07-22w27"
+   "ml:legrand:gtin-3245060860226-lot-22w07-22w27",
+   "ml:legrand:gtin-3245060861223-lot-22w07-22w27",
+   "ml:legrand:gtin-3245060973551-lot-22w07-22w27",
+   "ml:legrand:gtin-3414970651655-lot-22w07-22w27",
+   "ml:legrand:gtin-3414970651815-lot-22w07-22w27",
+   "ml:legrand:gtin-3414970651877-lot-22w07-22w27"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "75d7200569bee6d0"
+  "enriquecido": true,
+  "hashContenido": "1b70ff6977565393"
  },
  "slug": "zocalo-electrico-legrand-safety-gate-10007331"
 }

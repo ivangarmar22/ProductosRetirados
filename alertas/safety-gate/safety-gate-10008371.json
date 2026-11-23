@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-13"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0351-11:17 0351-11:18"
+     "numero": "0351-11:17"
+    },
+    {
+     "numero": "0351-11:18"
     }
    ],
    "ean": [
     "8002410043525"
    ],
    "descripcion": "Spray desodorante, 150 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Aerosol de aluminio en aerosol"
   }
  ],
  "riesgo": {
@@ -68,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +99,16 @@
    "ref:A12/00659/23",
    "ean:8002410043525",
    "mm:borotalco:r303897",
-   "ml:borotalco:0351-11-17-0351-11-18"
+   "ml:borotalco:0351-11-17",
+   "ml:borotalco:0351-11-18"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "48c64b7fd9173585"
+  "enriquecido": true,
+  "hashContenido": "dd6fb3b635e7ce48"
  },
  "slug": "spray-de-desodorante-borotalco-safety-gate-10008371"
 }

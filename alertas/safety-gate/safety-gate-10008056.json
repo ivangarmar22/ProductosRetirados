@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*0300*18",
-    "e1*2007/46*0300*16",
-    "e1*2007/46*0300*17"
+    "e1*2007/46*0300*18, e1*2007/46*0300*16, e1*2007/46*0300*17"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06/2018 - 02/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "06/2018 - 02/2020"
+   "fechasTexto": "06/2018 - 02/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,17 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00589/23",
-   "mm:mercedes-benz:e1-2007-46-0300-18",
-   "mm:mercedes-benz:e1-2007-46-0300-16",
-   "mm:mercedes-benz:e1-2007-46-0300-17"
+   "mm:mercedes-benz:e1-2007-46-0300-18-e1-2007-46-0300-16-e1-2007-46-0300-17",
+   "ml:mercedes-benz:06-2018-02-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b93f53e2cfffa18b"
+  "enriquecido": true,
+  "hashContenido": "7ff116ff1e6aec49"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10008056"
 }

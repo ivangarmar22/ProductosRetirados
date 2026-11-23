@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-08-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,33 +27,19 @@
     "Skoda"
    ],
    "modelos": [
-    "AA",
-    "5J",
-    "NH",
-    "5L",
-    "5E",
-    "3T",
-    "NS",
-    "5J",
-    "NH",
-    "5E",
-    "3T",
-    "e13*2007/46*1169*00-*22",
-    "e11*2001/116*0291*00-*55",
-    "e11*2007/46*0250*00-*20",
-    "e11*2007/46*0010*00-*27",
-    "e11*2007/46*0243*00-*26",
-    "e11*2001/116*0326*00-*45",
-    "e8*2007/46*0249*00-*25",
-    "e8*2007/46*0319*00-*15",
-    "e8*2007/46*0320*00-*01",
-    "e8*2007/46*0318*00-*10",
-    "e8*2007/46*0317*00-*02"
+    "AA, 5J, NH, 5L, 5E, 3T, NS, 5J, NH, 5E, 3T;",
+    "e13*2007/46*1169*00-*22, e11*2001/116*0291*00-*55, e11*2007/46*0250*00-*20, e11*2007/46*0010*00-*27, e11*2007/46*0243*00-*26, e11*2001/116*0326*00-*45, e8*2007/46*0249*00-*25;",
+    "e8*2007/46*0319*00-*15, e8*2007/46*0320*00-*01, e8*2007/46*0318*00-*10, e8*2007/46*0317*00-*02;"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.6.2012 - 15.12.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con airbags Takata.",
-   "fechasTexto": "1.6.2012 - 15.12.2017"
+   "fechasTexto": "1.6.2012 - 15.12.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,7 +70,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,25 +99,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00787/23",
-   "mm:skoda:e13-2007-46-1169-00-22",
-   "mm:skoda:e11-2001-116-0291-00-55",
-   "mm:skoda:e11-2007-46-0250-00-20",
-   "mm:skoda:e11-2007-46-0010-00-27",
-   "mm:skoda:e11-2007-46-0243-00-26",
-   "mm:skoda:e11-2001-116-0326-00-45",
-   "mm:skoda:e8-2007-46-0249-00-25",
-   "mm:skoda:e8-2007-46-0319-00-15",
-   "mm:skoda:e8-2007-46-0320-00-01",
-   "mm:skoda:e8-2007-46-0318-00-10",
-   "mm:skoda:e8-2007-46-0317-00-02"
+   "mm:skoda:aa-5j-nh-5l-5e-3t-ns-5j-nh-5e-3t",
+   "mm:skoda:e13-2007-46-1169-00-22-e11-2001-116-0291-00-55-e11-2007-46-0250-00-20-e11-2007-46-0010-00-27-e11-2007-46-0243-00-26-e11-2001-116-0326-00-45-e8-2007-46-0249-00-25",
+   "mm:skoda:e8-2007-46-0319-00-15-e8-2007-46-0320-00-01-e8-2007-46-0318-00-10-e8-2007-46-0317-00-02",
+   "ml:skoda:1-6-2012-15-12-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3b99c7b63b59b7b1"
+  "enriquecido": true,
+  "hashContenido": "8d5cae9fc9d66515"
  },
  "slug": "coche-de-pasajeros-skoda-safety-gate-10008407"
 }

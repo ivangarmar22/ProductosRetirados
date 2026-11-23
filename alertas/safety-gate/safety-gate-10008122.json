@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "5Z",
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.11.2013 - 28.06.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Gol, Voyage, Saveiro, Fox, Fox-Derivate, Passat NMS coche de pasajeros equipado con Takata airbag",
-   "fechasTexto": "11.11.2013 - 28.06.2017"
+   "fechasTexto": "11.11.2013 - 28.06.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Brasil",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "IE",
+   "NL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,15 +87,16 @@
   "claves": [
    "ref:A12/00580/23",
    "mm:vw:e1-2001-116-0301",
-   "mm:vw:individual-approval"
+   "mm:vw:individual-approval",
+   "ml:vw:11-11-2013-28-06-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f676940b75fc807e"
+  "enriquecido": true,
+  "hashContenido": "3ccd08dd3d1e9e15"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10008122"
 }

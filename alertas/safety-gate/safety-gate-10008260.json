@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-13"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -41,7 +41,8 @@
     "5033286020733"
    ],
    "descripcion": "Astillas de escalada. Producido antes del 31.12.2022",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +76,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -131,11 +135,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e4eb060c03d12c42"
+  "enriquecido": true,
+  "hashContenido": "ce3b27c25b450e1a"
  },
  "slug": "chuletas-de-escalada-wild-country-safety-gate-10008260"
 }

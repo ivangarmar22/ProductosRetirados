@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Lincoln"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.7.2020 - 31.8.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, Permisos de funcionamiento de homologación individual",
-   "fechasTexto": "27.7.2020 - 31.8.2021"
+   "fechasTexto": "27.7.2020 - 31.8.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,15 +79,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/00565/23"
+   "ref:A12/00565/23",
+   "ml:lincoln:27-7-2020-31-8-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "40da533e7fbb235c"
+  "enriquecido": true,
+  "hashContenido": "98a6490c06465fc0"
  },
  "slug": "coche-de-pasajeros-lincoln-safety-gate-10007711"
 }

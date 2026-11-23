@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "e1*2001/116*0301* (Fox",
-    "Type 5Z)",
-    "e1*2001/116*0174* (e1*98/14*0174*00) (Polo",
-    "Type 9N)",
-    "e1*2001/116*0307* (Passat",
-    "Type 3C)",
-    "e1*2001/116*0301*##",
-    "e1*2001/116*0307*##"
+    "e1*2001/116*0301* (Fox, Type 5Z), e1*2001/116*0174* (e1*98/14*0174*00) (Polo, Type 9N), e1*2001/116*0307* (Passat, Type 3C)",
+    "e1*2001/116*0301*##; e1*2001/116*0307*##"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.10.2005 - 05.11.2009"
+    }
+   ],
    "ean": [],
    "descripcion": "Fox, Polo, Passat, Crafter (tipo: 5Z, 9N, 3C), Crafter (tipo 2E, 2F) equipado con bolsa de aire Takata",
-   "fechasTexto": "28.10.2005 - 05.11.2009"
+   "fechasTexto": "28.10.2005 - 05.11.2009",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +69,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "IE",
+   "NL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,22 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01485/22",
-   "mm:vw:e1-2001-116-0301-fox",
-   "mm:vw:type-5z",
-   "mm:vw:e1-2001-116-0174-e1-98-14-0174-00-polo",
-   "mm:vw:type-9n",
-   "mm:vw:e1-2001-116-0307-passat",
-   "mm:vw:type-3c",
-   "mm:vw:e1-2001-116-0301",
-   "mm:vw:e1-2001-116-0307"
+   "mm:vw:e1-2001-116-0301-fox-type-5z-e1-2001-116-0174-e1-98-14-0174-00-polo-type-9n-e1-2001-116-0307-passat-type-3c",
+   "mm:vw:e1-2001-116-0301-e1-2001-116-0307",
+   "ml:vw:28-10-2005-05-11-2009"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c187cad5ebf10d56"
+  "enriquecido": true,
+  "hashContenido": "62a0f6a892746a2e"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10006906"
 }

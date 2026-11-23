@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual Approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.1.2021 - 1.1.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Cuatriciclo",
-   "fechasTexto": "1.1.2021 - 1.1.2023"
+   "fechasTexto": "1.1.2021 - 1.1.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "HR",
+   "IE",
+   "NL",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00581/23",
-   "mm:polaris:individual-approval"
+   "mm:polaris:individual-approval",
+   "ml:polaris:1-1-2021-1-1-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "caa0e46a47afc65a"
+  "enriquecido": true,
+  "hashContenido": "5c7428ae39b842c8"
  },
  "slug": "cuatriciclo-polaris-safety-gate-10008116"
 }

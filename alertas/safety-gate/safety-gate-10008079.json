@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Dodge"
    ],
    "modelos": [
-    "DT (Ram 1500 Pickup)",
-    "DJ (Ram 2500 Pickup)",
-    "D2 (Ram 3500 Pickup)",
+    "DT (Ram 1500 Pickup), DJ (Ram 2500 Pickup), D2 (Ram 3500 Pickup)",
     "Individual Approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.02.2018 - 10.07.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de recogida",
-   "fechasTexto": "20.02.2018 - 10.07.2022"
+   "fechasTexto": "20.02.2018 - 10.07.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +80,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00553/23",
-   "mm:dodge:dt-ram-1500-pickup",
-   "mm:dodge:dj-ram-2500-pickup",
-   "mm:dodge:d2-ram-3500-pickup",
-   "mm:dodge:individual-approval"
+   "mm:dodge:dt-ram-1500-pickup-dj-ram-2500-pickup-d2-ram-3500-pickup",
+   "mm:dodge:individual-approval",
+   "ml:dodge:20-02-2018-10-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4dbc47618fa6622a"
+  "enriquecido": true,
+  "hashContenido": "343a67e405c28619"
  },
  "slug": "camioneta-de-recogida-dodge-safety-gate-10008079"
 }

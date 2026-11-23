@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*168/2013*00132*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.08.2021 - 18.08.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Manillares de motocicleta (n.º 55801154)",
-   "fechasTexto": "24.08.2021 - 18.08.2022"
+   "fechasTexto": "24.08.2021 - 18.08.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01826/22",
-   "mm:harley-davidson:e4-168-2013-00132-01"
+   "mm:harley-davidson:e4-168-2013-00132-01",
+   "ml:harley-davidson:24-08-2021-18-08-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32ddba27b20d175a"
+  "enriquecido": true,
+  "hashContenido": "dc20256cf0434e92"
  },
  "slug": "motocicleta-parte-de-repuesto-harley-davidson-safety-gate-10007470"
 }

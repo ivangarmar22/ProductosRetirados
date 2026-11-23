@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "BTF",
     "e13*2007/46*2324*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.09.2020 - 04.10.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de recogida",
-   "fechasTexto": "07.09.2020 - 04.10.2022"
+   "fechasTexto": "07.09.2020 - 04.10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "IS",
+   "LU",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +91,16 @@
   "claves": [
    "ref:A12/00786/23",
    "mm:isuzu:btf",
-   "mm:isuzu:e13-2007-46-2324"
+   "mm:isuzu:e13-2007-46-2324",
+   "ml:isuzu:07-09-2020-04-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "095bac4b4a515013"
+  "enriquecido": true,
+  "hashContenido": "8fbcd186b36f3c48"
  },
  "slug": "camioneta-de-recogida-isuzu-safety-gate-10008421"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,7 +24,8 @@
   {
    "nombre": "D8K - DTI 8 - EU VI Step E; D5K - DTI 5 - EU VI Step E",
    "marcas": [
-    "Renault, Volvo"
+    "Renault",
+    "Volvo"
    ],
    "modelos": [
     "e2*595/2009*2019/1939E*21100*01 e2*595/2009*2019/1939E*21101*01"
@@ -32,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Motores diesel, MDE5 y MDE8, Euro VI Step E, variantes B100",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +64,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00531/23",
-   "mm:renault-volvo:e2-595-2009-2019-1939e-21100-01-e2-595-2009-2019-1939e-21101-01"
+   "mm:renault:e2-595-2009-2019-1939e-21100-01-e2-595-2009-2019-1939e-21101-01",
+   "mm:volvo:e2-595-2009-2019-1939e-21100-01-e2-595-2009-2019-1939e-21101-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a7d1adea53d24d3f"
+  "enriquecido": true,
+  "hashContenido": "acdd328388d4abc3"
  },
  "slug": "camion-renault-volvo-safety-gate-10008120"
 }

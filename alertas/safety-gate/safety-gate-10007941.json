@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Secador de zapatos eléctrico.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con inscripción «Preparación nuclear doble, ajuste telescópico 3CM, distribución uniforme de respiraderos»."
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +82,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "664253191e37b0a0"
+  "enriquecido": true,
+  "hashContenido": "d9868d01845bd126"
  },
  "slug": "secador-de-zapatos-electrico-lutateo-safety-gate-10007941"
 }

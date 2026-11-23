@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Ci"
    ],
    "modelos": [
-    "CIA8",
-    "TFDD",
-    "CJA8",
-    "e13*2007/46*1231*18",
-    "*22-*23",
-    "*25",
-    "e13*2007/46*1858*06-*10",
-    "e13*2018/858*00136*00-*01"
+    "CIA8, TFDD, CJA8",
+    "e13*2007/46*1231*18, *22-*23, *25, e13*2007/46*1858*06-*10, e13*2018/858*00136*00-*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.10.2020 - 26.9.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Autocaravana",
-   "fechasTexto": "28.10.2020 - 26.9.2022"
+   "fechasTexto": "28.10.2020 - 26.9.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,21 +81,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00564/23",
-   "mm:ci:cia8",
-   "mm:ci:tfdd",
-   "mm:ci:cja8",
-   "mm:ci:e13-2007-46-1231-18",
-   "mm:ci:22-23",
-   "mm:ci:e13-2007-46-1858-06-10",
-   "mm:ci:e13-2018-858-00136-00-01"
+   "mm:ci:cia8-tfdd-cja8",
+   "mm:ci:e13-2007-46-1231-18-22-23-25-e13-2007-46-1858-06-10-e13-2018-858-00136-00-01",
+   "ml:ci:28-10-2020-26-9-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "771b2ea08e274f9d"
+  "enriquecido": true,
+  "hashContenido": "9c84faaf8702c469"
  },
  "slug": "autocaravana-ci-safety-gate-10008076"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,29 +27,19 @@
     "Autec"
    ],
    "modelos": [
-    "E1*124R00/01*1964*00 (KBA 53844)",
-    "E1*124R00/03*1965*00 (KBA 53845)",
-    "E1*124R00/03*1966*00 (KBA 53846)",
-    "E1*124R00/03*1967*00 (KBA 53847)",
-    "E1*124R00/03*2046*00 (KBA 54041)",
-    "E1*124R00/03*2047*00 (KBA 54042)",
-    "E1*124R00/03*2048*00 (KBA 54044)",
-    "E1*124R00/03*2049*00 (KBA 54043)",
-    "E1*124R00/03*2050*00 (KBA 54045)",
-    "VD6015",
-    "VD6016",
-    "VD6516",
-    "VD6517",
-    "VD7017",
-    "VD7018",
-    "VD7518",
-    "VD7519",
-    "VD8019"
+    "E1*124R00/01*1964*00 (KBA 53844), E1*124R00/03*1965*00 (KBA 53845), E1*124R00/03*1966*00 (KBA 53846), E1*124R00/03*1967*00 (KBA 53847)",
+    "E1*124R00/03*2046*00 (KBA 54041), E1*124R00/03*2047*00 (KBA 54042), E1*124R00/03*2048*00 (KBA 54044), E1*124R00/03*2049*00 (KBA 54043), E1*124R00/03*2050*00 (KBA 54045)",
+    "VD6015, VD6016, VD6516, VD6517, VD7017, VD7018, VD7518, VD7519, VD8019"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.05.2022 – 14.10.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Ruedas de coche",
-   "fechasTexto": "2.05.2022 – 14.10.2022"
+   "fechasTexto": "2.05.2022 – 14.10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,32 +94,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00567/23",
-   "mm:autec:e1-124r00-01-1964-00-kba-53844",
-   "mm:autec:e1-124r00-03-1965-00-kba-53845",
-   "mm:autec:e1-124r00-03-1966-00-kba-53846",
-   "mm:autec:e1-124r00-03-1967-00-kba-53847",
-   "mm:autec:e1-124r00-03-2046-00-kba-54041",
-   "mm:autec:e1-124r00-03-2047-00-kba-54042",
-   "mm:autec:e1-124r00-03-2048-00-kba-54044",
-   "mm:autec:e1-124r00-03-2049-00-kba-54043",
-   "mm:autec:e1-124r00-03-2050-00-kba-54045",
-   "mm:autec:vd6015",
-   "mm:autec:vd6016",
-   "mm:autec:vd6516",
-   "mm:autec:vd6517",
-   "mm:autec:vd7017",
-   "mm:autec:vd7018",
-   "mm:autec:vd7518",
-   "mm:autec:vd7519",
-   "mm:autec:vd8019"
+   "mm:autec:e1-124r00-01-1964-00-kba-53844-e1-124r00-03-1965-00-kba-53845-e1-124r00-03-1966-00-kba-53846-e1-124r00-03-1967-00-kba-53847",
+   "mm:autec:e1-124r00-03-2046-00-kba-54041-e1-124r00-03-2047-00-kba-54042-e1-124r00-03-2048-00-kba-54044-e1-124r00-03-2049-00-kba-54043-e1-124r00-03-2050-00-kba-54045",
+   "mm:autec:vd6015-vd6016-vd6516-vd6517-vd7017-vd7018-vd7518-vd7519-vd8019",
+   "ml:autec:2-05-2022-14-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e12695712a33e645"
+  "enriquecido": true,
+  "hashContenido": "a381cf42b282cce2"
  },
  "slug": "ruedas-de-coche-autec-safety-gate-10007365"
 }

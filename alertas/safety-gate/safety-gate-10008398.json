@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-30"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "5903111022198"
    ],
    "descripcion": "Perfume destinado a hombres.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3f66850003db827d"
+  "enriquecido": true,
+  "hashContenido": "90f642c1aa84e56a"
  },
  "slug": "perfume-jfenzi-safety-gate-10008398"
 }

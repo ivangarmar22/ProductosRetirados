@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R",
     "e4*168/2013*00095*00-*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2019 - 31.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "01.01.2019 - 31.12.2022"
+   "fechasTexto": "01.01.2019 - 31.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "GR",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00551/23",
-   "mm:indian-motorcycle:e4-168-2013-00095-00-03"
+   "mm:indian-motorcycle:e4-168-2013-00095-00-03",
+   "ml:indian-motorcycle:01-01-2019-31-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ce6d6bab7c45ecb7"
+  "enriquecido": true,
+  "hashContenido": "cb07fb915836e1b7"
  },
  "slug": "moto-indian-motorcycle-safety-gate-10008091"
 }

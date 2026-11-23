@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-11"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "0276AC00029262AC001"
+     "numero": "0276AC0002"
+    },
+    {
+     "numero": "9262AC001"
     }
    ],
    "ean": [],
    "descripcion": "Desodorante en rollo",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:A12/00723/23",
    "mm:infasil:603206",
-   "ml:infasil:0276ac00029262ac001"
+   "ml:infasil:0276ac0002",
+   "ml:infasil:9262ac001"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a1c6a9902b9b5d3f"
+  "enriquecido": true,
+  "hashContenido": "86f8ecf648f500be"
  },
  "slug": "desodorante-infasil-safety-gate-10008439"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "HARLEY-DAVIDSON"
    ],
    "modelos": [
-    "TG1",
-    "FL3",
-    "e4*168/2013*00025*02-*06",
-    "e4*168/2013*00016*05-*10"
+    "TG1, FL3",
+    "e4*168/2013*00025*02-*06, e4*168/2013*00016*05-*10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "6.7.2018 - 23.6.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "6.7.2018 - 23.6.2022"
+   "fechasTexto": "6.7.2018 - 23.6.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,18 +95,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00514/23",
-   "mm:harley-davidson:tg1",
-   "mm:harley-davidson:fl3",
-   "mm:harley-davidson:e4-168-2013-00025-02-06",
-   "mm:harley-davidson:e4-168-2013-00016-05-10"
+   "mm:harley-davidson:tg1-fl3",
+   "mm:harley-davidson:e4-168-2013-00025-02-06-e4-168-2013-00016-05-10",
+   "ml:harley-davidson:6-7-2018-23-6-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "130695bbf1ead496"
+  "enriquecido": true,
+  "hashContenido": "a693c632ef52fe9e"
  },
  "slug": "moto-harley-davidson-safety-gate-10007252"
 }

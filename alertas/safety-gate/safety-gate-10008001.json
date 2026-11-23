@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Hymer"
    ],
    "modelos": [
-    "HKS1",
-    "HRS1",
-    "HRS2",
-    "HRS3",
-    "EG/S 003",
-    "SLC23",
-    "e1*2007/46*2107*",
-    "e1*2007/46*1958*",
-    "e1*2007/46*1944*",
-    "e1*2007/46*2101*",
-    "e1*2001/116*0419*19",
-    "e1*2018/858*00200*"
+    "HKS1, HRS1, HRS2, HRS3, EG/S 003, SLC23",
+    "e1*2007/46*2107*, e1*2007/46*1958*, e1*2007/46*1944*, e1*2007/46*2101*, e1*2001/116*0419*19, e1*2018/858*00200*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.03.2018 - 30.01.2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Autocaravana",
-   "fechasTexto": "20.03.2018 - 30.01.2023"
+   "fechasTexto": "20.03.2018 - 30.01.2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "NL",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,26 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00585/23",
-   "mm:hymer:hks1",
-   "mm:hymer:hrs1",
-   "mm:hymer:hrs2",
-   "mm:hymer:hrs3",
-   "mm:hymer:eg-s-003",
-   "mm:hymer:slc23",
-   "mm:hymer:e1-2007-46-2107",
-   "mm:hymer:e1-2007-46-1958",
-   "mm:hymer:e1-2007-46-1944",
-   "mm:hymer:e1-2007-46-2101",
-   "mm:hymer:e1-2001-116-0419-19",
-   "mm:hymer:e1-2018-858-00200"
+   "mm:hymer:hks1-hrs1-hrs2-hrs3-eg-s-003-slc23",
+   "mm:hymer:e1-2007-46-2107-e1-2007-46-1958-e1-2007-46-1944-e1-2007-46-2101-e1-2001-116-0419-19-e1-2018-858-00200",
+   "ml:hymer:20-03-2018-30-01-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "daa63079a94ceb7a"
+  "enriquecido": true,
+  "hashContenido": "5afa31421c18c042"
  },
  "slug": "autocaravana-hymer-safety-gate-10008001"
 }

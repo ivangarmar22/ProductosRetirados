@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual Approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.03.2015 - 10.07.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "28.03.2015 - 10.07.2016"
+   "fechasTexto": "28.03.2015 - 10.07.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00556/23",
-   "mm:chevrolet:individual-approval"
+   "mm:chevrolet:individual-approval",
+   "ml:chevrolet:28-03-2015-10-07-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "884592dc6b61b5a3"
+  "enriquecido": true,
+  "hashContenido": "1758304c1d00c088"
  },
  "slug": "coche-de-pasajeros-chevrolet-safety-gate-10008066"
 }

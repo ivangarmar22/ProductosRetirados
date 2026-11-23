@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "4260170065582"
    ],
    "descripcion": "Arco de juguete hecho de madera y cinta adhesiva roja (plástico PVC) de 80 cm de largo. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a3a7c4c8f1eb08bb"
+  "enriquecido": true,
+  "hashContenido": "aad8e30b7b81a2da"
  },
  "slug": "arco-de-juguete-holzspielerei-safety-gate-10008332"
 }

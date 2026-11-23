@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*2007/46*6697"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.06.2022 - 14.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. VIN afectados por el rango: SJNFCAF16U1 (192388-207658).",
-   "fechasTexto": "16.06.2022 - 14.12.2022"
+   "fechasTexto": "16.06.2022 - 14.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00724/23",
-   "mm:nissan:e9-2007-46-6697"
+   "mm:nissan:e9-2007-46-6697",
+   "ml:nissan:16-06-2022-14-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6e6011db82b88048"
+  "enriquecido": true,
+  "hashContenido": "892f207d6e2254fd"
  },
  "slug": "coche-de-pasajeros-nissan-safety-gate-10008497"
 }

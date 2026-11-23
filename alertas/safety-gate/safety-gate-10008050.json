@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-10"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "LSK",
     "e13*2007/46*2387*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06/10/2020 - 19/10/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "06/10/2020 - 19/10/2020"
+   "fechasTexto": "06/10/2020 - 19/10/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
   "claves": [
    "ref:A12/00559/23",
    "mm:ford:lsk",
-   "mm:ford:e13-2007-46-2387-00"
+   "mm:ford:e13-2007-46-2387-00",
+   "ml:ford:06-10-2020-19-10-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5f7bf7b9599ac40a"
+  "enriquecido": true,
+  "hashContenido": "687b6d010fe1cc31"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10008050"
 }

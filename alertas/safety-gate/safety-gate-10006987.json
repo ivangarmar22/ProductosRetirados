@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "BA",
-    "e49*168/2013*00008*00-*01",
-    "e49*168/2013*00012*00-*01"
+    "e49*168/2013*00008*00-*01, e49*168/2013*00012*00-*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3.3.2015 - 12.7.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta, Hypermotard 939 Año Modelo 2016-2018, Hyperstrada 939 Año Modelo 2016-2017",
-   "fechasTexto": "3.3.2015 - 12.7.2018"
+   "fechasTexto": "3.3.2015 - 12.7.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HR",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,16 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01708/22",
-   "mm:ducati:e49-168-2013-00008-00-01",
-   "mm:ducati:e49-168-2013-00012-00-01"
+   "mm:ducati:e49-168-2013-00008-00-01-e49-168-2013-00012-00-01",
+   "ml:ducati:3-3-2015-12-7-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9545c5db8a3a473d"
+  "enriquecido": true,
+  "hashContenido": "25c7a4a5ac319519"
  },
  "slug": "moto-ducati-safety-gate-10006987"
 }

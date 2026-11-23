@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "2R99",
-    "2R99r",
-    "2X99",
-    "2X99r",
-    "e1*168/2013*00091*03-*05",
-    "e1*168/2013*00092*03-*05",
-    "e1*168/2013*00162*00-*03",
-    "e1*168/2013*00163*00-*03"
+    "2R99, 2R99r, 2X99, 2X99r",
+    "e1*168/2013*00091*03-*05, e1*168/2013*00092*03-*05, e1*168/2013*00162*00-*03, e1*168/2013*00163*00-*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3.04.2019 - 20.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "3.04.2019 - 20.12.2022"
+   "fechasTexto": "3.04.2019 - 20.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,22 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00582/23",
-   "mm:bmw:2r99",
-   "mm:bmw:2r99r",
-   "mm:bmw:2x99",
-   "mm:bmw:2x99r",
-   "mm:bmw:e1-168-2013-00091-03-05",
-   "mm:bmw:e1-168-2013-00092-03-05",
-   "mm:bmw:e1-168-2013-00162-00-03",
-   "mm:bmw:e1-168-2013-00163-00-03"
+   "mm:bmw:2r99-2r99r-2x99-2x99r",
+   "mm:bmw:e1-168-2013-00091-03-05-e1-168-2013-00092-03-05-e1-168-2013-00162-00-03-e1-168-2013-00163-00-03",
+   "ml:bmw:3-04-2019-20-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2a8627323f79c88b"
+  "enriquecido": true,
+  "hashContenido": "86552f9145d4c25b"
  },
  "slug": "moto-bmw-safety-gate-10008103"
 }

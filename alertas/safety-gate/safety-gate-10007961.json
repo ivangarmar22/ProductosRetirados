@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Individual Approval",
     "RU"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.08.2016 - 7.08.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, vehículo eléctrico híbrido enchufado",
-   "fechasTexto": "12.08.2016 - 7.08.2018"
+   "fechasTexto": "12.08.2016 - 7.08.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "NL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00611/23",
-   "mm:chrysler:individual-approval"
+   "mm:chrysler:individual-approval",
+   "ml:chrysler:12-08-2016-7-08-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c7c105d194a98a5d"
+  "enriquecido": true,
+  "hashContenido": "a5b81ab192340f68"
  },
  "slug": "coche-de-pasajeros-chrysler-safety-gate-10007961"
 }

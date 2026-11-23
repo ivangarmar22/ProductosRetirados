@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-26"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Ventilador para uso en cocinas, baños, garajes para ventilación. El producto se vende en línea, en particular a través de Amazon. ASIN B09G2ZKCMY",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3061a552550c0e35"
+  "enriquecido": true,
+  "hashContenido": "0f6fea148b478467"
  },
  "slug": "ventilador-de-escape-eunewr-safety-gate-10008154"
 }

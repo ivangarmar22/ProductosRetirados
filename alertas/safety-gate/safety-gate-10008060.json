@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Fendt Caravan"
    ],
    "modelos": [
-    "FCEA1",
-    "FCTA1",
-    "e1*2007/46*0463*12",
-    "e1*2007/46*0464*13"
+    "FCEA1, FCTA1",
+    "e1*2007/46*0463*12, e1*2007/46*0464*13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "9.09.2022 - 8.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Caravana",
-   "fechasTexto": "9.09.2022 - 8.12.2022"
+   "fechasTexto": "9.09.2022 - 8.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +80,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00583/23",
-   "mm:fendt-caravan:fcea1",
-   "mm:fendt-caravan:fcta1",
-   "mm:fendt-caravan:e1-2007-46-0463-12",
-   "mm:fendt-caravan:e1-2007-46-0464-13"
+   "mm:fendt-caravan:fcea1-fcta1",
+   "mm:fendt-caravan:e1-2007-46-0463-12-e1-2007-46-0464-13",
+   "ml:fendt-caravan:9-09-2022-8-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9aa0fa75e75040ff"
+  "enriquecido": true,
+  "hashContenido": "40887a5efd3e866a"
  },
  "slug": "caravana-fendt-caravan-safety-gate-10008060"
 }

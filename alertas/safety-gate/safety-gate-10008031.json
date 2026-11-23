@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-12"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -33,12 +33,19 @@
    ],
    "lotes": [
     {
-     "numero": "008254380082544300825481"
+     "numero": "00825438"
+    },
+    {
+     "numero": "00825443"
+    },
+    {
+     "numero": "00825481"
     }
    ],
    "ean": [],
    "descripcion": "Botas de seguridad marrones, con parte superior de cuero de grano completo, destinadas a trabajos al aire libre en el sector de la construcción",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -91,15 +98,17 @@
    "mm:opsial:55752354",
    "mm:opsial:p702688",
    "mm:opsial:size-44",
-   "ml:opsial:008254380082544300825481"
+   "ml:opsial:00825438",
+   "ml:opsial:00825443",
+   "ml:opsial:00825481"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8ee1961abda7d25b"
+  "enriquecido": true,
+  "hashContenido": "3bb78c7b92d8772c"
  },
  "slug": "calzado-de-seguridad-opsial-safety-gate-10008031"
 }

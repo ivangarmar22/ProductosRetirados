@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-04-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-18"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "3700022206******3700022208******"
+     "numero": "3700022206******"
+    },
+    {
+     "numero": "3700022208******"
     }
    ],
    "ean": [
     "8606018857616"
    ],
    "descripcion": "Tapa de cocción de vidrio cerámico negro con 4 zonas de calefacción. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,7 +80,9 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,15 +104,16 @@
    "ref:A12/00662/23",
    "ean:8606018857616",
    "mm:tesla:hv6400tb",
-   "ml:tesla:3700022206-3700022208"
+   "ml:tesla:3700022206",
+   "ml:tesla:3700022208"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "28fd8dbcf5564b9b"
+  "enriquecido": true,
+  "hashContenido": "dba10a38108b509e"
  },
  "slug": "tapa-de-coccion-de-vidrio-ceramica-tesla-safety-gate-10008326"
 }
