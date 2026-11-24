@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*1067*08 – e4*2007/46*1067*13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2020 - 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2020 - 2021"
+   "fechasTexto": "2020 - 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "LU",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01835/22",
-   "mm:polestar:e4-2007-46-1067-08-e4-2007-46-1067-13"
+   "mm:polestar:e4-2007-46-1067-08-e4-2007-46-1067-13",
+   "ml:polestar:2020-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b3ac483df86b5a71"
+  "enriquecido": true,
+  "hashContenido": "7c454a3e69e9b1f3"
  },
  "slug": "coche-de-pasajeros-polestar-safety-gate-10007486"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-29"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5901299932988"
    ],
    "descripcion": "Hervidor eléctrico de acero inoxidable con mango de plástico negro. Capacidad: 1,8 litros, 1500-1800W.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -75,7 +76,13 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HU",
+   "LV",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -107,11 +114,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f30741ac31ecc26b"
+  "enriquecido": true,
+  "hashContenido": "763edeb67853b80e"
  },
  "slug": "hervidor-electrico-titanum-safety-gate-10007730"
 }

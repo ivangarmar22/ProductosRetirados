@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,12 +34,22 @@
    ],
    "lotes": [
     {
-     "numero": "019159028099 (127020E)037149046426 (R11195L)"
+     "numero": "019159"
+    },
+    {
+     "numero": "028099 (127020E)"
+    },
+    {
+     "numero": "037149"
+    },
+    {
+     "numero": "046426 (R11195L)"
     }
    ],
    "ean": [],
    "descripcion": "Suero antienvejecimiento, 30 ml, en un frasco de bomba.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón roja."
   }
  ],
  "riesgo": {
@@ -97,15 +107,18 @@
    "mm:annayake:127020e",
    "mm:annayake:127020f",
    "mm:annayake:r11195l",
-   "ml:annayake:019159028099-127020e-037149046426-r11195l"
+   "ml:annayake:019159",
+   "ml:annayake:028099-127020e",
+   "ml:annayake:037149",
+   "ml:annayake:046426-r11195l"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4b13f97a11890194"
+  "enriquecido": true,
+  "hashContenido": "845a5d4d6cd963eb"
  },
  "slug": "suero-antienvejecimiento-annayake-safety-gate-10007410"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-17"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,27 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "03 2023A0412 2023A135 2022A096 2023A089 2022A13"
+     "numero": "03 2023A04"
+    },
+    {
+     "numero": "12 2023A13"
+    },
+    {
+     "numero": "5 2022A09"
+    },
+    {
+     "numero": "6 2023A08"
+    },
+    {
+     "numero": "9 2022A13"
     }
    ],
    "ean": [
     "4770001336526"
    ],
    "descripcion": "Crema facial de 50 ml, que indica tener cera de abejas y aceite vegetal, con la marca «con proteínas» y como «nutrición» y «para todo tipo de piel». Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca en forma de cubo, con varios tonos de verde. Información de la etiqueta en lituano, inglés, letón, estonio y ruso."
   }
  ],
  "riesgo": {
@@ -66,7 +79,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Lituania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +105,19 @@
   "claves": [
    "ref:A12/00034/23",
    "ean:4770001336526",
-   "ml:margarita:03-2023a0412-2023a135-2022a096-2023a089-2022a13"
+   "ml:margarita:03-2023a04",
+   "ml:margarita:12-2023a13",
+   "ml:margarita:5-2022a09",
+   "ml:margarita:6-2023a08",
+   "ml:margarita:9-2022a13"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aa794e70cf5c7aca"
+  "enriquecido": true,
+  "hashContenido": "62c54e93b4dfd22b"
  },
  "slug": "crema-facial-margarita-safety-gate-10007484"
 }

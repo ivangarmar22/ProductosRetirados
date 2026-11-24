@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-26"
  },
  "categoria": {
   "literal": "Artículos de decoración",
@@ -28,13 +28,13 @@
    ],
    "modelos": [
     "WHISKEY/2/CZARNY/TUV",
-    "Whiskey 2 TÜV English style",
-    "Black"
+    "Whiskey 2 TÜV English style, Black"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Chimenea decorativa de bioetanol independiente.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,16 +84,15 @@
   "claves": [
    "ref:A12/00097/23",
    "mm:kratki:whiskey-2-czarny-tuv",
-   "mm:kratki:whiskey-2-tuv-english-style",
-   "mm:kratki:black"
+   "mm:kratki:whiskey-2-tuv-english-style-black"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "03c525864f4be1ef"
+  "enriquecido": true,
+  "hashContenido": "fce7553172b6c449"
  },
  "slug": "chimenea-de-bioetanol-kratki-safety-gate-10007559"
 }

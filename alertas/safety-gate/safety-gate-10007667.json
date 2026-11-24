@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-26"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,12 +27,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "AA0&-05-03LD004046"
+     "numero": "AA0&-05-03"
+    },
+    {
+     "numero": "LD004046"
     }
    ],
    "ean": [],
    "descripcion": "Zócalo USB de pared con 2 puertos USB empotrados, aparentemente con una capacidad de 5 V y 2 A. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envoltura de burbujas."
   }
  ],
  "riesgo": {
@@ -114,11 +118,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "094ac5056bf7d1c4"
+  "enriquecido": true,
+  "hashContenido": "99c05d1bba34f71b"
  },
  "slug": "zocalo-en-la-pared-safety-gate-10007667"
 }

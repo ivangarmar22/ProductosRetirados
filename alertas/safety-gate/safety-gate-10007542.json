@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Varios productos de lavandería y limpieza del hogar, incluyendo: limpiador de superficies, concentrado de limpieza multiuso, detergente para platos, limpiador de vidrio y espejos, jabón para platos, solución de manchas, acondicionador de tela, detergente de firma, detergente blanco, detergente oscuro, champú de lana y cachemira.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botellas de plástico. Los códigos de lote de los productos retirados comienzan con las letras F, H y T y los últimos cuatro dígitos están numerados o menos de 9354, 2262 y 5264, respectivamente."
   }
  ],
  "riesgo": {
@@ -64,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "69a1b7ea3c409469"
+  "enriquecido": true,
+  "hashContenido": "2f1098837fbf154b"
  },
  "slug": "productos-de-lavanderia-y-limpieza-del-hogar-the-laundress-safety-gate-10007542"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Uniroyal"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.04.2022 - 17.04.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumáticos para turismos: 205/65R15 94V US2, 255/45R20 105W XL FR ASC, 205/55R16 91H TS870, 205/55R17 91W EC6 MO, 215/60R16 99V XL ASE 2, 225/55R17 101V XL RP60 WI, 195/50R15 82H MP62 AWEVO",
-   "fechasTexto": "11.04.2022 - 17.04.2022"
+   "fechasTexto": "11.04.2022 - 17.04.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Portugal",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -69,15 +76,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/00162/23"
+   "ref:A12/00162/23",
+   "ml:uniroyal:11-04-2022-17-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0e721c3917b430c2"
+  "enriquecido": true,
+  "hashContenido": "853d5f20cc153d2e"
  },
  "slug": "neumaticos-uniroyal-safety-gate-10007519"
 }

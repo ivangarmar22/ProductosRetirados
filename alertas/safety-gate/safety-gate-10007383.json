@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-22"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje marrón oscuro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "botella de plástico etiquetada con boquilla de dosificación integrada en la tapa del tornillo"
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "045f0eb7def1439d"
+  "enriquecido": true,
+  "hashContenido": "672c8d813dfa9317"
  },
  "slug": "tinta-de-tatuaje-dynamic-safety-gate-10007383"
 }

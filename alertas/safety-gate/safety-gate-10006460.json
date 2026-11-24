@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,48 @@
    ],
    "lotes": [
     {
-     "numero": "4299a/0821/PL089/CN4299b/0821/PL089/CN4299c/0821/PL089/CN4299d/0821/PL089/CN4299e/0821/PL089/CN4301a/0821/PL089/CN4301b/0821/PL089/CN4301c/0821/PL089/CN4302a/0821/PL089/CN4302b/0821/PL089/CN4302c/0821/PL089/CN4302d/0821/PL089/CN"
+     "numero": "4299a/0821/PL089/CN"
+    },
+    {
+     "numero": "4299b/0821/PL089/CN"
+    },
+    {
+     "numero": "4299c/0821/PL089/CN"
+    },
+    {
+     "numero": "4299d/0821/PL089/CN"
+    },
+    {
+     "numero": "4299e/0821/PL089/CN"
+    },
+    {
+     "numero": "4301a/0821/PL089/CN"
+    },
+    {
+     "numero": "4301b/0821/PL089/CN"
+    },
+    {
+     "numero": "4301c/0821/PL089/CN"
+    },
+    {
+     "numero": "4302a/0821/PL089/CN"
+    },
+    {
+     "numero": "4302b/0821/PL089/CN"
+    },
+    {
+     "numero": "4302c/0821/PL089/CN"
+    },
+    {
+     "numero": "4302d/0821/PL089/CN"
     }
    ],
    "ean": [
     "5060023420891"
    ],
    "descripcion": "Juguete sensorial",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja"
   }
  ],
  "riesgo": {
@@ -68,7 +102,13 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +137,26 @@
    "ref:A12/01087/22",
    "ean:5060023420891",
    "mm:petilou-le-toy-van:pl089",
-   "ml:petilou-le-toy-van:4299a-0821-pl089-cn4299b-0821-pl089-cn4299c-0821-pl089-cn4299d-0821-pl089-cn4299e-0821-pl089-cn4301a-0821-pl089-cn4301b-0821-pl089-cn4301c-0821-pl089-cn4302a-0821-pl089-cn4302b-0821-pl089-cn4302c-0821-pl089-cn4302d-0821-pl089-cn"
+   "ml:petilou-le-toy-van:4299a-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4299b-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4299c-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4299d-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4299e-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4301a-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4301b-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4301c-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4302a-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4302b-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4302c-0821-pl089-cn",
+   "ml:petilou-le-toy-van:4302d-0821-pl089-cn"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "07f6d6331cc73ffa"
+  "enriquecido": true,
+  "hashContenido": "7a3833248d41de8f"
  },
  "slug": "conjunto-de-juguetes-petilou-le-toy-van-safety-gate-10006460"
 }

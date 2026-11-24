@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-08"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Protección de la cabeza para niños de 8 a 20 meses. Color beige o azul con correa de barbilla negra. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envuelto en cartón fino."
   }
  ],
  "riesgo": {
@@ -63,7 +64,13 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "FI",
+   "IT",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a69b27345775770a"
+  "enriquecido": true,
+  "hashContenido": "b92d87e7f9eaf2de"
  },
  "slug": "proteccion-de-la-cabeza-de-los-ninos-okbaby-safety-gate-10004802"
 }

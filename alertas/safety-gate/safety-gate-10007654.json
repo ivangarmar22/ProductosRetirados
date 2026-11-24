@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "EB",
-    "EBN",
-    "e1*2018/858*00164*",
-    "e1*2018/858*00165*"
+    "EB, EBN",
+    "e1*2018/858*00164*, e1*2018/858*00165*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.07.2022 - 4.11.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros equipado con neumáticos de verano de tamaño y diseño 255/50 R19 107T XL Eco Contact 6Q ContiSeal (+).",
-   "fechasTexto": "18.07.2022 - 4.11.2022"
+   "fechasTexto": "18.07.2022 - 4.11.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "GR",
+   "IE",
+   "NL",
+   "NO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,17 +85,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00150/23",
-   "mm:vw:ebn",
-   "mm:vw:e1-2018-858-00164",
-   "mm:vw:e1-2018-858-00165"
+   "mm:vw:eb-ebn",
+   "mm:vw:e1-2018-858-00164-e1-2018-858-00165",
+   "ml:vw:18-07-2022-4-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "defb645b2147126e"
+  "enriquecido": true,
+  "hashContenido": "4ba69304a3bdfa6b"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10007654"
 }

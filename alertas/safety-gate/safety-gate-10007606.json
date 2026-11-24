@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-10"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,51 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "903048"
+     "numero": "903048; 906048; 909048; 912061; 918084; 918086; 918087"
     },
     {
-     "numero": "906048"
-    },
-    {
-     "numero": "909048"
-    },
-    {
-     "numero": "912061"
-    },
-    {
-     "numero": "918084"
-    },
-    {
-     "numero": "918086"
-    },
-    {
-     "numero": "918087A-922-01"
-    },
-    {
-     "numero": "A-922-02"
-    },
-    {
-     "numero": "A-922-03"
-    },
-    {
-     "numero": "A-922-01-06-1122-01"
-    },
-    {
-     "numero": "A-922-02-00-1022-01"
-    },
-    {
-     "numero": "A-922-02-03-1022-01"
-    },
-    {
-     "numero": "A-922-02-12-1022-01"
-    },
-    {
-     "numero": "A-922-02-18-1022-01"
+     "numero": "A-922-01; A-922-02; A-922-03; A-922-01-06-1122-01; A-922-02-00-1022-01; A-922-02-03-1022-01; A-922-02-12-1022-01; A-922-02-18-1022-01"
     }
    ],
    "ean": [],
    "descripcion": "Líquido para cigarrillos electrónicos. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón plegable con tres botellas de plástico de 10 ml."
   }
  ],
  "riesgo": {
@@ -139,28 +104,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00038/23",
-   "ml:tom-klark-s:903048",
-   "ml:tom-klark-s:906048",
-   "ml:tom-klark-s:909048",
-   "ml:tom-klark-s:912061",
-   "ml:tom-klark-s:918084",
-   "ml:tom-klark-s:918086",
-   "ml:tom-klark-s:918087a-922-01",
-   "ml:tom-klark-s:a-922-02",
-   "ml:tom-klark-s:a-922-03",
-   "ml:tom-klark-s:a-922-01-06-1122-01",
-   "ml:tom-klark-s:a-922-02-00-1022-01",
-   "ml:tom-klark-s:a-922-02-03-1022-01",
-   "ml:tom-klark-s:a-922-02-12-1022-01",
-   "ml:tom-klark-s:a-922-02-18-1022-01"
+   "ml:tom-klark-s:903048-906048-909048-912061-918084-918086-918087",
+   "ml:tom-klark-s:a-922-01-a-922-02-a-922-03-a-922-01-06-1122-01-a-922-02-00-1022-01-a-922-02-03-1022-01-a-922-02-12-1022-01-a-922-02-18-1022-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7c54b8aa7c379381"
+  "enriquecido": true,
+  "hashContenido": "4c855bb901bfb49b"
  },
  "slug": "liquido-para-cigarrillos-electronicos-tom-klark-s-safety-gate-10007606"
 }

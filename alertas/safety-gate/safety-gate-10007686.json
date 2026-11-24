@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "DAF Trucks NV"
    ],
    "modelos": [
-    "H4EN3",
-    "H4SN3",
-    "e4*2007/46*0001*13-*18",
-    "e4*2007/46*0021*12-*15"
+    "H4EN3, H4SN3",
+    "e4*2007/46*0001*13-*18, e4*2007/46*0021*12-*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2/04/2014 to 19/12/2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "2/04/2014 to 19/12/2018"
+   "fechasTexto": "2/04/2014 to 19/12/2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "NL",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +86,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00176/23",
-   "mm:daf-trucks-nv:h4en3",
-   "mm:daf-trucks-nv:h4sn3",
-   "mm:daf-trucks-nv:e4-2007-46-0001-13-18",
-   "mm:daf-trucks-nv:e4-2007-46-0021-12-15"
+   "mm:daf-trucks-nv:h4en3-h4sn3",
+   "mm:daf-trucks-nv:e4-2007-46-0001-13-18-e4-2007-46-0021-12-15",
+   "ml:daf-trucks-nv:2-04-2014-to-19-12-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e7928d1f8b089cbf"
+  "enriquecido": true,
+  "hashContenido": "c6c6cb23cd31fee0"
  },
  "slug": "camion-daf-trucks-nv-safety-gate-10007686"
 }

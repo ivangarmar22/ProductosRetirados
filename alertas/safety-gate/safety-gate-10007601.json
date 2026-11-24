@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-16"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cadena hecha de una cinta de plástico negro con cierre metálico de color plateado y colgante en forma de corazón de plástico azul, incrustado en metal plateado; anillo de metal de color plateado con parte decorativa en forma de corazón de plástico azul.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Soporte de cartón rectangular, blanco en medio y rosa/amarillo/violeta en los bordes, impreso con seis pequeños corazones en diferentes colores con lemas geliebt, kuschelig, überrascht, glücklich, schläfrig, verträumt (amado, cariñoso, sorprendido, feliz, soñador) sellado en película plástica transparente."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1f3ecf0aa6c36f59"
+  "enriquecido": true,
+  "hashContenido": "f04230d13eeee33d"
  },
  "slug": "conjunto-de-joyas-tedi-safety-gate-10007601"
 }

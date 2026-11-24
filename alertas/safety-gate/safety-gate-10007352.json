@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "3700217366063"
    ],
    "descripcion": "Bandeja de madera, destinada a niños de 2 a 5 años, con frutas y verduras en dos mitades unidas por un imán, con un cuchillo de madera.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "BG",
+   "IE",
+   "IS",
+   "IT",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c5f7fe75df833c98"
+  "enriquecido": true,
+  "hashContenido": "633e2ecebed0074f"
  },
  "slug": "rompecabezas-magnetico-janod-safety-gate-10007352"
 }

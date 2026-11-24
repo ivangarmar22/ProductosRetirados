@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-12"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Sombreros para niños hechos de lana de punto, con dos grandes cordones sujetables. Productos vendidos en tamaños 0 (36-40 cm) y 1 (42-46 cm), en diferentes colores. Los números de lote comienzan con 3611. Producto vendido en Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Producto vendido sin embalaje."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "91eeac2d92fd60b6"
+  "enriquecido": true,
+  "hashContenido": "a625435482ddfcfe"
  },
  "slug": "sombrero-de-los-ninos-disana-safety-gate-10006943"
 }

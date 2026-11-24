@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-17"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cachorro de juguete, con piel sintética marrón, chaqueta sintética y sombrero. Los ojos, la nariz y la caja de la batería del juguete están hechos de plástico duro. Una caja de baterías con dos pilas AA 1.5V de potencia se coloca en el abdomen. Cuando el botón de la batería está encendido, el cachorro ladra, corre, mueve su cola.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +85,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ab293170ae9a364e"
+  "enriquecido": true,
+  "hashContenido": "e1106ad269abe9de"
  },
  "slug": "cachorro-de-juguete-safety-gate-10007682"
 }

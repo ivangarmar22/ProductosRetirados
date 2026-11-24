@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,12 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "018488028109"
+     "numero": "018488"
+    },
+    {
+     "numero": "028109"
     }
    ],
    "ean": [],
    "descripcion": "Envase de cuatro viales de 7,5 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Viales envasados en embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -71,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +103,16 @@
    "ref:A12/00101/23",
    "mm:orlane:3630000",
    "mm:orlane:3630090",
-   "ml:orlane:018488028109"
+   "ml:orlane:018488",
+   "ml:orlane:028109"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fe8e9f5120bb71cc"
+  "enriquecido": true,
+  "hashContenido": "011ff7d122cd3d75"
  },
  "slug": "crema-de-blanqueamiento-de-la-piel-orlane-safety-gate-10007400"
 }

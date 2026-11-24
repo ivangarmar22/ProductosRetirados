@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "8715427063430"
    ],
    "descripcion": "25 plumas de fieltro en varios colores. Producto vendido en línea, en particular a través de Bol.com",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Los artículos se venden en un embalaje transparente con etiqueta blanca."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "27feb73c1cef2687"
+  "enriquecido": true,
+  "hashContenido": "09e3d56794d587b7"
  },
  "slug": "plumas-de-fieltro-grafix-safety-gate-10004513"
 }

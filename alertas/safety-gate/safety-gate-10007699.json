@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,31 +27,19 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "166",
-    "204 X",
-    "204",
-    "204 K",
-    "212",
-    "212 K",
-    "R1ES",
-    "218",
-    "221",
-    "R1EC",
-    "e1*2007/46*0485*00-*16",
-    "e1*2001/116*0335*19-*33",
-    "e1*2007/46*1666*00-*01",
-    "e1*2007/46*0598*00-*22",
-    "e1*2001/116*0480*08-*23",
-    "e1*2001/116*0431*15-*43",
-    "e1*2001/116*0457*28",
-    "e1*2001/116*0501*05-*32",
-    "e1*2007/46*0200*04-*25",
-    "e1*2007/46*1560*00-*05"
+    "166, 204 X, 204, 204 K, 212, 212 K, R1ES, 218, 221, R1EC",
+    "e1*2007/46*0485*00-*16, e1*2001/116*0335*19-*33, e1*2007/46*1666*00-*01",
+    "e1*2007/46*0598*00-*22, e1*2001/116*0480*08-*23, e1*2001/116*0431*15-*43, e1*2001/116*0457*28, e1*2001/116*0501*05-*32, e1*2007/46*0200*04-*25, e1*2007/46*1560*00-*05,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.04.2010 -12.04.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "14.04.2010 -12.04.2017"
+   "fechasTexto": "14.04.2010 -12.04.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,34 +88,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00185/23",
-   "mm:mercedes-benz:166",
-   "mm:mercedes-benz:204-x",
-   "mm:mercedes-benz:204",
-   "mm:mercedes-benz:204-k",
-   "mm:mercedes-benz:212",
-   "mm:mercedes-benz:212-k",
-   "mm:mercedes-benz:r1es",
-   "mm:mercedes-benz:218",
-   "mm:mercedes-benz:221",
-   "mm:mercedes-benz:r1ec",
-   "mm:mercedes-benz:e1-2007-46-0485-00-16",
-   "mm:mercedes-benz:e1-2001-116-0335-19-33",
-   "mm:mercedes-benz:e1-2007-46-1666-00-01",
-   "mm:mercedes-benz:e1-2007-46-0598-00-22",
-   "mm:mercedes-benz:e1-2001-116-0480-08-23",
-   "mm:mercedes-benz:e1-2001-116-0431-15-43",
-   "mm:mercedes-benz:e1-2001-116-0457-28",
-   "mm:mercedes-benz:e1-2001-116-0501-05-32",
-   "mm:mercedes-benz:e1-2007-46-0200-04-25",
-   "mm:mercedes-benz:e1-2007-46-1560-00-05"
+   "mm:mercedes-benz:166-204-x-204-204-k-212-212-k-r1es-218-221-r1ec",
+   "mm:mercedes-benz:e1-2007-46-0485-00-16-e1-2001-116-0335-19-33-e1-2007-46-1666-00-01",
+   "mm:mercedes-benz:e1-2007-46-0598-00-22-e1-2001-116-0480-08-23-e1-2001-116-0431-15-43-e1-2001-116-0457-28-e1-2001-116-0501-05-32-e1-2007-46-0200-04-25-e1-2007-46-1560-00-05",
+   "ml:mercedes-benz:14-04-2010-12-04-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b62908b4ddda62aa"
+  "enriquecido": true,
+  "hashContenido": "f481590a2a3b0fe9"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10007699"
 }

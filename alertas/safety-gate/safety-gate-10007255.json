@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "E-11E-127"
+     "numero": "E-11"
+    },
+    {
+     "numero": "E-127"
     }
    ],
    "ean": [
     "815865000412"
    ],
    "descripcion": "Tinte para cabello de henna, indicado para fabricarse el 05/2020 (E-11) o el 10/2020 (E-127), y expirar el 04/2023 (E-11). Producto vendido en línea, en particular a través de eBay, con el número de artículo 234008603513.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje negro de base cuadrada con escritura en oro y blanco y una imagen de una mujer con cabello negro en la parte delantera de la etiqueta."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
   "claves": [
    "ref:A12/00208/23",
    "ean:815865000412",
-   "ml:black-rose:e-11e-127"
+   "ml:black-rose:e-11",
+   "ml:black-rose:e-127"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c312dc0208c930a3"
+  "enriquecido": true,
+  "hashContenido": "9e9847bff6cc054c"
  },
  "slug": "tinte-para-el-cabello-black-rose-safety-gate-10007255"
 }

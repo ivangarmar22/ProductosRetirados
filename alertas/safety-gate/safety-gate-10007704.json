@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-26"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "4678146782"
+     "numero": "46781"
+    },
+    {
+     "numero": "46782"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "0285785105977"
    ],
    "descripcion": "Conejo blanco con manta azul o rosa. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje"
   }
  ],
  "riesgo": {
@@ -101,15 +105,16 @@
    "ean:0285785105977",
    "mm:newbie:791970",
    "mm:newbie:857854",
-   "ml:newbie:4678146782"
+   "ml:newbie:46781",
+   "ml:newbie:46782"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ec9220fa408a3d94"
+  "enriquecido": true,
+  "hashContenido": "ae85f28e4a358178"
  },
  "slug": "manta-de-juguete-newbie-safety-gate-10007704"
 }

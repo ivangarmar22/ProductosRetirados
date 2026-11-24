@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-01"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "3858890578317"
    ],
    "descripcion": "Hervidor de agua en acero inoxidable con mango de plástico negro",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cartón marrón impreso con escritura e imágenes en blanco"
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -116,11 +119,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "38c470a640923609"
+  "enriquecido": true,
+  "hashContenido": "68efc5d2e42db52e"
  },
  "slug": "hervidor-electrico-rox-safety-gate-10007489"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,12 +32,19 @@
    ],
    "lotes": [
     {
-     "numero": "016029019209019291"
+     "numero": "016029"
+    },
+    {
+     "numero": "019209"
+    },
+    {
+     "numero": "019291"
     }
    ],
    "ean": [],
    "descripcion": "200 ml de loción",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico embalada en embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -71,7 +78,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +106,17 @@
    "ref:A12/01829/22",
    "mm:orlane:3660000",
    "mm:orlane:3660090",
-   "ml:orlane:016029019209019291"
+   "ml:orlane:016029",
+   "ml:orlane:019209",
+   "ml:orlane:019291"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fb9a449be9fb7828"
+  "enriquecido": true,
+  "hashContenido": "cc95889849b238cd"
  },
  "slug": "locion-aclarante-de-la-piel-orlane-safety-gate-10007403"
 }

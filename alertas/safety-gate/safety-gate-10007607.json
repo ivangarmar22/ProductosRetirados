@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "e4*2007/46*0929",
-    "e4*2007/46*1067",
-    "e4*2007/46*1220",
-    "e4*2007/46*1315"
+    "e4*2007/46*0929, e4*2007/46*1067, e4*2007/46*1220, e4*2007/46*1315."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Model Year: 2019-2022."
+    }
+   ],
    "ean": [],
    "descripcion": "Modelo (Tipo): Volvo V60 Cross Country (227), V90 Cross Country (236), XC60 (246) y XC90 (256).",
-   "fechasTexto": "Model Year: 2019-2022."
+   "fechasTexto": "Model Year: 2019-2022.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00059/23",
-   "mm:volvo:e4-2007-46-0929",
-   "mm:volvo:e4-2007-46-1067",
-   "mm:volvo:e4-2007-46-1220",
-   "mm:volvo:e4-2007-46-1315"
+   "mm:volvo:e4-2007-46-0929-e4-2007-46-1067-e4-2007-46-1220-e4-2007-46-1315",
+   "ml:volvo:model-year-2019-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2a043bddcef3c7e3"
+  "enriquecido": true,
+  "hashContenido": "bb461c7f835aa6e0"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10007607"
 }

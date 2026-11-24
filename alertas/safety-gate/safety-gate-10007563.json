@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Kia"
    ],
    "modelos": [
-    "e11*2007/46*0136*10",
-    "e11*2007/46*0136*13",
-    "e11*2007/46*0136*15"
+    "e11*2007/46*0136*10, e11*2007/46*0136*13, e11*2007/46*0136*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.05.2013 - 17.11.2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Kia Sportage (SLe)",
-   "fechasTexto": "15.05.2013 - 17.11.2015"
+   "fechasTexto": "15.05.2013 - 17.11.2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Eslovaquia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,17 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00020/23",
-   "mm:kia:e11-2007-46-0136-10",
-   "mm:kia:e11-2007-46-0136-13",
-   "mm:kia:e11-2007-46-0136-15"
+   "mm:kia:e11-2007-46-0136-10-e11-2007-46-0136-13-e11-2007-46-0136-15",
+   "ml:kia:15-05-2013-17-11-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bdfafd6cb52bd9b4"
+  "enriquecido": true,
+  "hashContenido": "4eda803a5cfb407c"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10007563"
 }

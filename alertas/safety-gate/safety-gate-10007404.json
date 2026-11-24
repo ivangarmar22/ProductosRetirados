@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "018029018308"
+     "numero": "018029"
+    },
+    {
+     "numero": "018308"
     }
    ],
    "ean": [],
    "descripcion": "30 ml de suero",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de bomba embalada en embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -95,15 +99,16 @@
   "claves": [
    "ref:A12/01828/22",
    "mm:orlane:8141000",
-   "ml:orlane:018029018308"
+   "ml:orlane:018029",
+   "ml:orlane:018308"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0d9c385ba8998e6d"
+  "enriquecido": true,
+  "hashContenido": "05ab6d611bec988f"
  },
  "slug": "suero-para-el-cuidado-de-la-piel-orlane-safety-gate-10007404"
 }

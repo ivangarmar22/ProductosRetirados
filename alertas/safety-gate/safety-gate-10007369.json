@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-25"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Máquina de procesamiento láser (clase 4) que consiste en un marco de mesa sin carcasa protectora. Producto vendido en línea, en particular a través de Amazon con números ASIN B09X34JVFS y B09Y8P88L1.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "41952f8b5b0daa5b"
+  "enriquecido": true,
+  "hashContenido": "b781061c36444fb5"
  },
  "slug": "maquina-de-grabado-por-laser-atomstack-safety-gate-10007369"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-02-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "e4*2007/46*1315",
-    "e4*2007/46*1067",
-    "e4*2007/46*1220",
-    "e4*2007/46*0929",
-    "e9*2007/46*3146"
+    "e4*2007/46*1315; e4*2007/46*1067; e4*2007/46*1220; e4*2007/46*0929; e9*2007/46*3146;"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2023"
+   "fechasTexto": "2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,19 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00184/23",
-   "mm:volvo:e4-2007-46-1315",
-   "mm:volvo:e4-2007-46-1067",
-   "mm:volvo:e4-2007-46-1220",
-   "mm:volvo:e4-2007-46-0929",
-   "mm:volvo:e9-2007-46-3146"
+   "mm:volvo:e4-2007-46-1315-e4-2007-46-1067-e4-2007-46-1220-e4-2007-46-0929-e9-2007-46-3146",
+   "ml:volvo:2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5caeda6842beb540"
+  "enriquecido": true,
+  "hashContenido": "32b2f81ef235b596"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10007721"
 }

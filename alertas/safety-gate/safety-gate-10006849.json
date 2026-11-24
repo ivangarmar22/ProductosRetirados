@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E1*168/2013*00050*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Las motocicletas; Año modelo: 2023",
-   "fechasTexto": "2022"
+   "fechasTexto": "2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01866/22",
-   "mm:ktm:e1-168-2013-00050-03"
+   "mm:ktm:e1-168-2013-00050-03",
+   "ml:ktm:2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "543dc25720a919f2"
+  "enriquecido": true,
+  "hashContenido": "7cbb3773e8f41edc"
  },
  "slug": "moto-ktm-safety-gate-10006849"
 }

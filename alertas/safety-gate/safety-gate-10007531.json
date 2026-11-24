@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-06-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "463A 4x4²",
     "e1*KS18/858*00011*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.9.2020 - 13.12.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "11.9.2020 - 13.12.2022"
+   "fechasTexto": "11.9.2020 - 13.12.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HR",
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +90,16 @@
   "claves": [
    "ref:A12/00070/23",
    "mm:mercedes-benz:463a-4x4",
-   "mm:mercedes-benz:e1-ks18-858-00011-00"
+   "mm:mercedes-benz:e1-ks18-858-00011-00",
+   "ml:mercedes-benz:11-9-2020-13-12-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2a535c780b926ef4"
+  "enriquecido": true,
+  "hashContenido": "60374e22d1bb2e0f"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10007531"
 }

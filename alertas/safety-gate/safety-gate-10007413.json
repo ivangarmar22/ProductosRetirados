@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-24"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -36,7 +36,8 @@
     "3858890449501"
    ],
    "descripcion": "Zócalo de lámpara E27 en blanco y negro con terminal serial y percha, sin tapa. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vendió sin embalaje."
   }
  ],
  "riesgo": {
@@ -70,7 +71,10 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9438e5d1ec87fde2"
+  "enriquecido": true,
+  "hashContenido": "3a51d968bcee6902"
  },
  "slug": "zocalo-de-bombilla-commel-safety-gate-10007413"
 }

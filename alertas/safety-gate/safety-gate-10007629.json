@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Yamaha"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03/2022 to 04/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de utilidad",
-   "fechasTexto": "03/2022 to 04/2022"
+   "fechasTexto": "03/2022 to 04/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -70,15 +77,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/00160/23"
+   "ref:A12/00160/23",
+   "ml:yamaha:03-2022-to-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dbd2e2317880a8b2"
+  "enriquecido": true,
+  "hashContenido": "7262ac0d74b27ee9"
  },
  "slug": "vehiculo-de-utilidad-yamaha-safety-gate-10007629"
 }

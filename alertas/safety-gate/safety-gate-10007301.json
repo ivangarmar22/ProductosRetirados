@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e1*2001/116*0196*00",
-    "e11*2001/116*0196*01",
-    "e11*2001/116*0196*02",
-    "e11*2001/116*0196*03",
-    "e11*2001/116*0196*04"
+    "e1*2001/116*0196*00; e11*2001/116*0196*01; e11*2001/116*0196*02; e11*2001/116*0196*03; e11*2001/116*0196*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.08.2002 - 24.04.2006"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, código modelo: ADT251, AZT250, AZT251, CDT250, ZZT250, ZZT251; Año del modelo: 2002-2006.",
-   "fechasTexto": "21.08.2002 - 24.04.2006"
+   "fechasTexto": "21.08.2002 - 24.04.2006",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,19 +100,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01861/22",
-   "mm:toyota:e1-2001-116-0196-00",
-   "mm:toyota:e11-2001-116-0196-01",
-   "mm:toyota:e11-2001-116-0196-02",
-   "mm:toyota:e11-2001-116-0196-03",
-   "mm:toyota:e11-2001-116-0196-04"
+   "mm:toyota:e1-2001-116-0196-00-e11-2001-116-0196-01-e11-2001-116-0196-02-e11-2001-116-0196-03-e11-2001-116-0196-04",
+   "ml:toyota:21-08-2002-24-04-2006"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4e9a34eb1cdd3b32"
+  "enriquecido": true,
+  "hashContenido": "9c59ec1a66ea0a1d"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10007301"
 }

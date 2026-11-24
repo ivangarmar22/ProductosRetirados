@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Model: SCB*S3B",
     "Type-approval number: e4*2007/46*0152*17-*18"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.1.2019 - 30.11.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Semirremolque",
-   "fechasTexto": "10.1.2019 - 30.11.2019"
+   "fechasTexto": "10.1.2019 - 30.11.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +84,16 @@
   "claves": [
    "ref:A12/00002/23",
    "mm:schmitz-cargobull:model-scb-s3b",
-   "mm:schmitz-cargobull:type-approval-number-e4-2007-46-0152-17-18"
+   "mm:schmitz-cargobull:type-approval-number-e4-2007-46-0152-17-18",
+   "ml:schmitz-cargobull:10-1-2019-30-11-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ec8a20f60b3a9971"
+  "enriquecido": true,
+  "hashContenido": "8d0772837610b6e8"
  },
  "slug": "semirremolque-schmitz-cargobull-safety-gate-10007502"
 }

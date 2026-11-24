@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-02-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0685*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.09.2022 - 24.11.2022, 07.09.2022 - 30.11.2022."
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero, Proace City BEV (BKY, BPZ); Año del modelo: 2022.",
-   "fechasTexto": "06.09.2022 - 24.11.2022, 07.09.2022 - 30.11.2022."
+   "fechasTexto": "06.09.2022 - 24.11.2022, 07.09.2022 - 30.11.2022.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "NL",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00152/23",
-   "mm:toyota:e2-2007-46-0685-11"
+   "mm:toyota:e2-2007-46-0685-11",
+   "ml:toyota:06-09-2022-24-11-2022-07-09-2022-30-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d976ed4b36ada8f7"
+  "enriquecido": true,
+  "hashContenido": "576a5fde60db9fde"
  },
  "slug": "vehiculo-comercial-ligero-toyota-safety-gate-10007680"
 }

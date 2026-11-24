@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-10"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Beauty Professional Curling Wand Irons 6-in-1",
    "marcas": [
-    "Elehot, Elgetec"
+    "Elehot",
+    "Elgetec"
    ],
    "modelos": [
     "KR-D03B"
@@ -32,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Varita rizadora con 6 accesorios. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca"
   }
  ],
  "riesgo": {
@@ -86,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00046/23",
-   "mm:elehot-elgetec:kr-d03b"
+   "mm:elehot:kr-d03b",
+   "mm:elgetec:kr-d03b"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b9c2adf7d7c4e32d"
+  "enriquecido": true,
+  "hashContenido": "b04079ba5bc4dd40"
  },
  "slug": "planchas-de-varita-rizadora-elehot-elgetec-safety-gate-10007512"
 }

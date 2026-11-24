@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-20"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "4897082663096"
    ],
    "descripcion": "Central eléctrica portátil con conexión de alimentación de CA, batería y salida con zócalo de CA, 5 VDC USBs y 12 VDC. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón impresa."
   }
  ],
  "riesgo": {
@@ -72,7 +73,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "427c0fe685419935"
+  "enriquecido": true,
+  "hashContenido": "87b0b4c5b4050dcc"
  },
  "slug": "central-electrica-portatil-ecoflow-safety-gate-10007691"
 }

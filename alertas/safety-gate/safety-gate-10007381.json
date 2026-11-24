@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-12"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,14 +27,13 @@
     "Tikkaterä"
    ],
    "modelos": [
-    "115mm",
-    "125mm",
-    "230mm"
+    "115mm / 125mm / 230mm"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Hoja de sierra de cadena para amoladora angular",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico"
   }
  ],
  "riesgo": {
@@ -79,17 +78,15 @@
  "dedup": {
   "claves": [
    "ref:INFO/00001/23",
-   "mm:tikkatera:115mm",
-   "mm:tikkatera:125mm",
-   "mm:tikkatera:230mm"
+   "mm:tikkatera:115mm-125mm-230mm"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0ee0d8eacebd8b76"
+  "enriquecido": true,
+  "hashContenido": "fb09be4b9d0c13a6"
  },
  "slug": "hoja-de-sierra-para-amoladora-angular-tikkatera-safety-gate-10007381"
 }

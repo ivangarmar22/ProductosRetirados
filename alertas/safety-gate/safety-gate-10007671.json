@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -24,7 +24,8 @@
   {
    "nombre": "Half mask devil / Halbmaske Teufel",
    "marcas": [
-    "Party x People, Rubie's"
+    "Party x People",
+    "Rubie's"
    ],
    "modelos": [
     "6240335"
@@ -34,7 +35,8 @@
     "4002162297102"
    ],
    "descripcion": "Máscara roja de media cara que representa una cara de diablo con cuernos negros y colmillos unidos. El producto pesa alrededor de 50 g y está completamente hecho de cloruro de polivinilo. Sus dimensiones son de 60 mm x 155 mm x 185 mm. Producto vendido en línea, en particular a través de Amazon, bajo ASIN B01LEPZM9I.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +74,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,15 +105,16 @@
   "claves": [
    "ref:A12/00161/23",
    "ean:4002162297102",
-   "mm:party-x-people-rubie-s:6240335"
+   "mm:party-x-people:6240335",
+   "mm:rubie-s:6240335"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4f456308390a628d"
+  "enriquecido": true,
+  "hashContenido": "1a6969e334ec845e"
  },
  "slug": "mascara-de-vestir-elegante-party-x-people-rubie-s-safety-gate-10007671"
 }

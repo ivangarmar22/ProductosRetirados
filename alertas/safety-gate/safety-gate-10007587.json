@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5902719735790"
    ],
    "descripcion": "Bola con espigas hechas de material similar al caucho.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de red."
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7fb9ffb99464f849"
+  "enriquecido": true,
+  "hashContenido": "40d10136ba154e7b"
  },
  "slug": "bola-de-plastico-bigtoys-safety-gate-10007587"
 }

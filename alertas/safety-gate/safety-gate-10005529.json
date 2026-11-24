@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "18-64424/288"
+     "numero": "18-644"
+    },
+    {
+     "numero": "24/288"
     }
    ],
    "ean": [
     "8711866242955"
    ],
    "descripcion": "Una bola de globo accionada por batería hecha de plástico blando con luz. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje"
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ref:A12/00263/22",
    "ean:8711866242955",
    "mm:johntoy:24295",
-   "ml:johntoy:18-64424-288"
+   "ml:johntoy:18-644",
+   "ml:johntoy:24-288"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cc3c1754bc9d3200"
+  "enriquecido": true,
+  "hashContenido": "ae596a1f37dc06e5"
  },
  "slug": "bola-de-globo-con-luz-johntoy-safety-gate-10005529"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-31"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,13 +27,13 @@
     "Kaindl"
    ],
    "modelos": [
-    "SUPER-CARVER 115X10X22",
-    "2MM"
+    "SUPER-CARVER 115X10X22,2MM"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Hoja de sierra de talla azul. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico"
   }
  ],
  "riesgo": {
@@ -63,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +80,15 @@
  "dedup": {
   "claves": [
    "ref:A11/00005/23",
-   "mm:kaindl:super-carver-115x10x22",
-   "mm:kaindl:2mm"
+   "mm:kaindl:super-carver-115x10x22-2mm"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9272c491acb75a16"
+  "enriquecido": true,
+  "hashContenido": "673d9182aa3a0fca"
  },
  "slug": "hoja-de-sierra-para-amoladora-angular-kaindl-safety-gate-10007378"
 }

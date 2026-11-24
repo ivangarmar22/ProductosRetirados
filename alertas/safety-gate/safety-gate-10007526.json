@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e13*2018/858*00225*01",
-    "e13*2018/858*00225*02"
+    "e13*2018/858*00225*01, e13*2018/858*00225*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.03.2022 - 26.10.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Nombre del modelo (Código modelo): GR86 (ZN8); Año del modelo: 2022.",
-   "fechasTexto": "17.03.2022 - 26.10.2022"
+   "fechasTexto": "17.03.2022 - 26.10.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "GR",
+   "NL",
+   "PL",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00019/23",
-   "mm:toyota:e13-2018-858-00225-01",
-   "mm:toyota:e13-2018-858-00225-02"
+   "mm:toyota:e13-2018-858-00225-01-e13-2018-858-00225-02",
+   "ml:toyota:17-03-2022-26-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b1dc1bc7e4f252a8"
+  "enriquecido": true,
+  "hashContenido": "0af182cb1c334eef"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10007526"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -33,12 +33,22 @@
    ],
    "lotes": [
     {
-     "numero": "018069018418019189019309"
+     "numero": "018069"
+    },
+    {
+     "numero": "018418"
+    },
+    {
+     "numero": "019189"
+    },
+    {
+     "numero": "019309"
     }
    ],
    "ean": [],
    "descripcion": "Crema de 50 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tarro de vidrio embalado en embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -72,7 +82,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,15 +111,18 @@
    "mm:orlane:1576900",
    "mm:orlane:8710000",
    "mm:orlane:8710090",
-   "ml:orlane:018069018418019189019309"
+   "ml:orlane:018069",
+   "ml:orlane:018418",
+   "ml:orlane:019189",
+   "ml:orlane:019309"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b4387385191f668b"
+  "enriquecido": true,
+  "hashContenido": "f5bd3ec27b8acf24"
  },
  "slug": "crema-para-el-cuidado-de-la-piel-orlane-safety-gate-10007405"
 }

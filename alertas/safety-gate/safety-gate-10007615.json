@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-11"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,47 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "Apple IceBanana IceBlueberry IceBubble Gum IceCola IceMixed BerryPeach IceStrawberry Ice CreamStrawnanaWatermelon Lush"
+     "numero": "Apple Ice"
+    },
+    {
+     "numero": "Banana Ice"
+    },
+    {
+     "numero": "Blueberry Ice"
+    },
+    {
+     "numero": "Bubble Gum Ice"
+    },
+    {
+     "numero": "Cola Ice"
+    },
+    {
+     "numero": "Mixed Berry"
+    },
+    {
+     "numero": "Peach Ice"
+    },
+    {
+     "numero": "Strawberry Ice Cream"
+    },
+    {
+     "numero": "Strawnana"
+    },
+    {
+     "numero": "Watermelon Lush"
     }
    ],
-   "ean": [],
+   "ean": [
+    "690277787058",
+    "690277787072",
+    "690277787157",
+    "690277787164",
+    "690277787225",
+    "690277787362"
+   ],
    "descripcion": "Cigarrillo electrónico desechable, 5 % nicotina XXTRA Power Juice, volumen 6 ml, 2000 bocanadas, capacidad de la batería: 800 mAh, variando en color dependiendo del sabor.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cigarrillo electrónico desechable en un paquete de unidad en una caja de plástico hexagonal."
   }
  ],
  "riesgo": {
@@ -91,15 +126,30 @@
  "dedup": {
   "claves": [
    "ref:A12/00039/23",
-   "ml:bang:apple-icebanana-iceblueberry-icebubble-gum-icecola-icemixed-berrypeach-icestrawberry-ice-creamstrawnanawatermelon-lush"
+   "ean:690277787058",
+   "ean:690277787072",
+   "ean:690277787157",
+   "ean:690277787164",
+   "ean:690277787225",
+   "ean:690277787362",
+   "ml:bang:apple-ice",
+   "ml:bang:banana-ice",
+   "ml:bang:blueberry-ice",
+   "ml:bang:bubble-gum-ice",
+   "ml:bang:cola-ice",
+   "ml:bang:mixed-berry",
+   "ml:bang:peach-ice",
+   "ml:bang:strawberry-ice-cream",
+   "ml:bang:strawnana",
+   "ml:bang:watermelon-lush"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "34fba55f40c1843b"
+  "enriquecido": true,
+  "hashContenido": "141b30bcc8f43494"
  },
  "slug": "cigarrillo-electronico-desechable-bang-safety-gate-10007615"
 }

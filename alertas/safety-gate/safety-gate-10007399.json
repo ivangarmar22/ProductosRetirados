@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,15 @@
     "e4*2007/46*1128*",
     "et e4*2018/858*00100*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28/03/2022 - 06/09/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "28/03/2022 - 06/09/2022"
+   "fechasTexto": "28/03/2022 - 06/09/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +88,16 @@
    "ref:A12/01867/22",
    "mm:scania:e4-2018-858-00098",
    "mm:scania:e4-2007-46-1128",
-   "mm:scania:et-e4-2018-858-00100"
+   "mm:scania:et-e4-2018-858-00100",
+   "ml:scania:28-03-2022-06-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "01488c463a435033"
+  "enriquecido": true,
+  "hashContenido": "d73a232fe57b3f2d"
  },
  "slug": "camion-scania-safety-gate-10007399"
 }

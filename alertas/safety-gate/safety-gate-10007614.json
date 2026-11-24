@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-06"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juego de bolas magnéticas fuertes con un diámetro de 5 mm en colores variados, disponibles en surtidos de 64, 100, 216, 512 y 1024 piezas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de blíster transparente envuelto en una bolsa de tela (mientras que la bolsa de tela se ha cambiado a una caja de metal ahora)."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "de1edddf6672a683"
+  "enriquecido": true,
+  "hashContenido": "8a7d9c551409b102"
  },
  "slug": "bolas-magneticas-myhodo-safety-gate-10007614"
 }

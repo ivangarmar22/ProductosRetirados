@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,12 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "018498019121"
+     "numero": "018498"
+    },
+    {
+     "numero": "019121"
     }
    ],
    "ean": [],
    "descripcion": "Frasco de 50 ml de crema",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tarro de crema embalado en embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -71,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,15 +103,16 @@
    "ref:A12/01831/22",
    "mm:orlane:3640000",
    "mm:orlane:3640090",
-   "ml:orlane:018498019121"
+   "ml:orlane:018498",
+   "ml:orlane:019121"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1002cc16257166e9"
+  "enriquecido": true,
+  "hashContenido": "8dab2abba65bb53d"
  },
  "slug": "crema-para-aclarar-la-piel-orlane-safety-gate-10007401"
 }

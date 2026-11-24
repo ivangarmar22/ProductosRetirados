@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "834",
     "e3*KS07/46*0075*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.3.2022 - 27.7.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "23.3.2022 - 27.7.2022"
+   "fechasTexto": "23.3.2022 - 27.7.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
   "claves": [
    "ref:A12/01834/22",
    "mm:lamborghini:834",
-   "mm:lamborghini:e3-ks07-46-0075"
+   "mm:lamborghini:e3-ks07-46-0075",
+   "ml:lamborghini:23-3-2022-27-7-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1aad711fe9e9d568"
+  "enriquecido": true,
+  "hashContenido": "7fc4c2deb9a73bd9"
  },
  "slug": "coche-de-pasajeros-lamborghini-safety-gate-10007346"
 }

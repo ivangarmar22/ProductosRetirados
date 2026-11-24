@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,30 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "11 2023A163 2023A055 2022A067 2023A119 2022A129 2022A14"
+     "numero": "11 2023A16"
+    },
+    {
+     "numero": "3 2023A05"
+    },
+    {
+     "numero": "5 2022A06"
+    },
+    {
+     "numero": "7 2023A11"
+    },
+    {
+     "numero": "9 2022A12"
+    },
+    {
+     "numero": "9 2022A14"
     }
    ],
    "ean": [
     "4770001336540"
    ],
    "descripcion": "Crema facial con Colágeno y Aceites Vegetales, 50 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca y verde."
   }
  ],
  "riesgo": {
@@ -66,7 +82,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Lituania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +100,20 @@
   "claves": [
    "ref:A12/00154/23",
    "ean:4770001336540",
-   "ml:margarita:11-2023a163-2023a055-2022a067-2023a119-2022a129-2022a14"
+   "ml:margarita:11-2023a16",
+   "ml:margarita:3-2023a05",
+   "ml:margarita:5-2022a06",
+   "ml:margarita:7-2023a11",
+   "ml:margarita:9-2022a12",
+   "ml:margarita:9-2022a14"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "89c86496a1459764"
+  "enriquecido": true,
+  "hashContenido": "c167e36b993e12bc"
  },
  "slug": "crema-facial-margarita-safety-gate-10007515"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-19"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pantalón para niños con cordón en la cintura, disponible en varios colores (negro, menta, azul, gris). Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50865259d08dca4b"
+  "enriquecido": true,
+  "hashContenido": "70622cace68955da"
  },
  "slug": "pantalon-para-ninos-america-today-safety-gate-10006142"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2023-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-05-16"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "1137000402LS00030"
+     "numero": "1137000402"
+    },
+    {
+     "numero": "LS00030"
     }
    ],
    "ean": [],
    "descripcion": "Juguete suave que representa al personaje «Huggy Wuggy» del videojuego «Poppy Playtime», en diferentes tamaños (aproximadamente 20, 40 u 80 cm de largo), disponible en diferentes colores. El producto puede incluir un llavero.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Vendido sin embalar"
   }
  ],
  "riesgo": {
@@ -78,7 +82,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "HU",
+   "RO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -125,11 +133,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7f043ac7058fa612"
+  "enriquecido": true,
+  "hashContenido": "9b364762a7195bfb"
  },
  "slug": "juguete-suave-huggy-wuggy-monster-key-rings-huggy-wuggy-monster-soft-t-safety-gate-10006715"
 }
