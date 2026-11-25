@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,7 +38,8 @@
     "8436097092659"
    ],
    "descripcion": "Mascarilla para el cabello con queratina.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Olla cilíndrica sellada con un tapón de tornillo, todo en plástico blanco opaco."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "ES"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +118,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "779b54b0917cc413"
+  "enriquecido": true,
+  "hashContenido": "0765c8e4abc9b05a"
  },
  "slug": "mascarilla-para-el-cabello-byphasse-safety-gate-10007174"
 }

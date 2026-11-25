@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,35 +27,19 @@
     "Scania"
    ],
    "modelos": [
-    "N323",
-    "N324",
-    "N333",
-    "N334",
-    "N343",
-    "N353",
-    "N323",
-    "N324",
-    "N333",
-    "N334",
-    "N343",
-    "N353",
-    "e4*2007/46*1130*00",
-    "e4*2007/46*1131*00",
-    "e4*2007/46*1132*00",
-    "e4*2007/46*1133*00",
-    "e4*2018/858*00098*02",
-    "e4*2018/858*00099*02",
-    "e4*2018/858*00100*02",
-    "e4*2018/858*00101*02",
-    "e4*2018/858*00102*02",
-    "e4*2018/858*00103*02",
-    "e4*2007/46*1128*00",
-    "e4*2007/46*1129*00"
+    "N323, N324, N333, N334, N343, N353, N323, N324, N333, N334, N343, N353",
+    "e4*2007/46*1130*00, e4*2007/46*1131*00, e4*2007/46*1132*00, e4*2007/46*1133*00",
+    "e4*2018/858*00098*02, e4*2018/858*00099*02, e4*2018/858*00100*02, e4*2018/858*00101*02, e4*2018/858*00102*02, e4*2018/858*00103*02, e4*2007/46*1128*00, e4*2007/46*1129*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.01.2021 – 30.06.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "1.01.2021 – 30.06.2021"
+   "fechasTexto": "1.01.2021 – 30.06.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -85,7 +69,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,32 +88,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01652/22",
-   "mm:scania:n323",
-   "mm:scania:n324",
-   "mm:scania:n333",
-   "mm:scania:n334",
-   "mm:scania:n343",
-   "mm:scania:n353",
-   "mm:scania:e4-2007-46-1130-00",
-   "mm:scania:e4-2007-46-1131-00",
-   "mm:scania:e4-2007-46-1132-00",
-   "mm:scania:e4-2007-46-1133-00",
-   "mm:scania:e4-2018-858-00098-02",
-   "mm:scania:e4-2018-858-00099-02",
-   "mm:scania:e4-2018-858-00100-02",
-   "mm:scania:e4-2018-858-00101-02",
-   "mm:scania:e4-2018-858-00102-02",
-   "mm:scania:e4-2018-858-00103-02",
-   "mm:scania:e4-2007-46-1128-00",
-   "mm:scania:e4-2007-46-1129-00"
+   "mm:scania:n323-n324-n333-n334-n343-n353-n323-n324-n333-n334-n343-n353",
+   "mm:scania:e4-2007-46-1130-00-e4-2007-46-1131-00-e4-2007-46-1132-00-e4-2007-46-1133-00",
+   "mm:scania:e4-2018-858-00098-02-e4-2018-858-00099-02-e4-2018-858-00100-02-e4-2018-858-00101-02-e4-2018-858-00102-02-e4-2018-858-00103-02-e4-2007-46-1128-00-e4-2007-46-1129-00",
+   "ml:scania:1-01-2021-30-06-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "595b7ee8bd00c9cd"
+  "enriquecido": true,
+  "hashContenido": "beb6831f949b6b24"
  },
  "slug": "camion-scania-safety-gate-10007189"
 }

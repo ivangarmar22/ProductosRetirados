@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-11-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "Type-approval numbers: e6*2007/46*0289*01",
-    "e6*2007/46*0289*02"
+    "Type-approval numbers: e6*2007/46*0289*01, e6*2007/46*0289*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 25 September and 26 October 2019."
+    }
+   ],
    "ean": [],
    "descripcion": "Códigos de modelo: AXAA52, AXAA54, AXAH52, AXAH54, MXAA52, MXAA54.",
-   "fechasTexto": "The affected vehicles were manufactured between 25 September and 26 October 2019."
+   "fechasTexto": "The affected vehicles were manufactured between 25 September and 26 October 2019.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00825/20",
-   "mm:toyota:type-approval-numbers-e6-2007-46-0289-01",
-   "mm:toyota:e6-2007-46-0289-02"
+   "mm:toyota:type-approval-numbers-e6-2007-46-0289-01-e6-2007-46-0289-02",
+   "ml:toyota:the-affected-vehicles-were-manufactured-between-25-september-and-26-october-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cab685789e0c5b8f"
+  "enriquecido": true,
+  "hashContenido": "2a11e2ce846cee2e"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10001347"
 }

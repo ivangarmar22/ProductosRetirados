@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "2AB",
     "e5*2007/46*0080*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.01.2022 - 17.09.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta de recogida",
-   "fechasTexto": "12.01.2022 - 17.09.2022"
+   "fechasTexto": "12.01.2022 - 17.09.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Sudáfrica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "IS",
+   "NL",
+   "PL",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +98,16 @@
   "claves": [
    "ref:A12/01568/22",
    "mm:ford:2ab",
-   "mm:ford:e5-2007-46-0080-09"
+   "mm:ford:e5-2007-46-0080-09",
+   "ml:ford:12-01-2022-17-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df94a6080be8aed7"
+  "enriquecido": true,
+  "hashContenido": "3cc2836db648bc31"
  },
  "slug": "camioneta-de-recogida-ford-safety-gate-10007066"
 }

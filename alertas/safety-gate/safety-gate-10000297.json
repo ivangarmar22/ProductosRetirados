@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-11-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*2007/46*3142*11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 18/09/2019 and 25/09/2019."
+    }
+   ],
    "ean": [],
    "descripcion": "Automóvil de pasajeros bajo el código de recuperación de Ford: 19S46.",
-   "fechasTexto": "The affected vehicles were manufactured between 18/09/2019 and 25/09/2019."
+   "fechasTexto": "The affected vehicles were manufactured between 18/09/2019 and 25/09/2019.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "ES",
+   "FI",
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00050/20",
-   "mm:ford:e9-2007-46-3142-11"
+   "mm:ford:e9-2007-46-3142-11",
+   "ml:ford:the-affected-vehicles-were-manufactured-between-18-09-2019-and-25-09-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "958c1e9df25fc5eb"
+  "enriquecido": true,
+  "hashContenido": "4ede4d100f46bb7d"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10000297"
 }

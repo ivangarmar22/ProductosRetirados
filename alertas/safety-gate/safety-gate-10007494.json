@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-03"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0628*17",
     "e2*2007/46*0628*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "8.10.2019 - 23.11.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "8.10.2019 - 23.11.2019"
+   "fechasTexto": "8.10.2019 - 23.11.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +81,16 @@
   "claves": [
    "ref:A12/01825/22",
    "mm:opel:e2-2007-46-0628-17",
-   "mm:opel:e2-2007-46-0628-16"
+   "mm:opel:e2-2007-46-0628-16",
+   "ml:opel:8-10-2019-23-11-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a4cd279ae91930df"
+  "enriquecido": true,
+  "hashContenido": "eb468fbcd2ba3533"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10007494"
 }

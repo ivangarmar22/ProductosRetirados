@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Ryker MY2019-MY2023"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2019 - 2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de cuatro ruedas todo terreno de los años de modelo 2019 a 2021 y números de serie específicos de los años de modelo 2022-2023.",
-   "fechasTexto": "2019 - 2023"
+   "fechasTexto": "2019 - 2023",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "LU",
+   "NL",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01673/22",
-   "mm:brp:ryker-my2019-my2023"
+   "mm:brp:ryker-my2019-my2023",
+   "ml:brp:2019-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f9deac3eb2bc7998"
+  "enriquecido": true,
+  "hashContenido": "e227a81666430e56"
  },
  "slug": "vehiculo-de-todo-terreno-brp-safety-gate-10007157"
 }

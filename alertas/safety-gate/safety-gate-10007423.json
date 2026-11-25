@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-09"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -25,10 +25,7 @@
    "nombre": "Sople Lampki 300L",
    "marcas": [],
    "modelos": [
-    "230 V",
-    "50 Hz",
-    "IP 44",
-    "18 W",
+    "230 V / 50 Hz / IP 44 / 18 W",
     "WG-9106"
    ],
    "lotes": [],
@@ -36,7 +33,8 @@
     "5919071591063"
    ],
    "descripcion": "Cadena de iluminación con 300 lámparas led de 6,3 metros de largo, con unidad controladora.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón de colores."
   }
  ],
  "riesgo": {
@@ -72,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ddc0fe2860b3975c"
+  "enriquecido": true,
+  "hashContenido": "477e21ca2b28a933"
  },
  "slug": "cadena-de-iluminacion-sople-lampki-300l-safety-gate-10007423"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,8 +27,7 @@
     "ANCO"
    ],
    "modelos": [
-    "50W",
-    "4000K"
+    "50W, 4000K"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "5998982320269"
    ],
    "descripcion": "Luz led, con parte exterior metálica en color negro con un soporte que permite fijarlo a un borde. La parte interior es blanca y protegida por vidrio.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -103,17 +103,16 @@
   "claves": [
    "ref:A12/01638/22",
    "ean:5998982320269",
-   "mm:anco:50w",
-   "mm:anco:4000k",
+   "mm:anco:50w-4000k",
    "ml:anco:321484"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e06f0660ef1b9c62"
+  "enriquecido": true,
+  "hashContenido": "ba4fce9a8db440fe"
  },
  "slug": "proyector-led-anco-safety-gate-10007170"
 }

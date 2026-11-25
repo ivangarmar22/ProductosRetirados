@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "SMART LED STRIP LIGHT"
    ],
    "modelos": [
-    "5050-60LED-strip light-IP20",
-    "GO24-120200-AG"
+    "5050-60LED-strip light-IP20, GO24-120200-AG"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Tira led suministrada con una fuente de alimentación. Especificaciones eléctricas: Luminaria: 12VDC, 2A (en el paquete); Transformador: 100-240VAC/50/60Hz/0,7A, 12.0VDC/2,0A/24W, Clase II, IP20, ta 35.°C, tc 70.°C. Producto también vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón negra."
   }
  ],
  "riesgo": {
@@ -91,16 +91,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01603/22",
-   "mm:smart-led-strip-light:5050-60led-strip-light-ip20",
-   "mm:smart-led-strip-light:go24-120200-ag"
+   "mm:smart-led-strip-light:5050-60led-strip-light-ip20-go24-120200-ag"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "566015df0c1ec02d"
+  "enriquecido": true,
+  "hashContenido": "8ca83e2758460d34"
  },
  "slug": "tira-de-led-smart-led-strip-light-safety-gate-10007160"
 }

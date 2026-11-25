@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-11-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Kia"
    ],
    "modelos": [
-    "Type-approval numbers: e4*2007/46*0894*10",
-    "e4*2007/46*0894*08"
+    "Type-approval numbers: e4*2007/46*0894*10, e4*2007/46*0894*08"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles are from model year: 2020."
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "The affected vehicles are from model year: 2020."
+   "fechasTexto": "The affected vehicles are from model year: 2020.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "EE",
+   "FI",
+   "HR",
+   "IE",
+   "IS",
+   "LU",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00154/20",
-   "mm:kia:type-approval-numbers-e4-2007-46-0894-10",
-   "mm:kia:e4-2007-46-0894-08"
+   "mm:kia:type-approval-numbers-e4-2007-46-0894-10-e4-2007-46-0894-08",
+   "ml:kia:the-affected-vehicles-are-from-model-year-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6679f623015a579c"
+  "enriquecido": true,
+  "hashContenido": "4186d3137828148a"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10000520"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-17"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -33,7 +33,13 @@
    ],
    "lotes": [
     {
-     "numero": "MAHC10L220101MAOC10L2311101MAST10L4202-1"
+     "numero": "MAHC10L220101"
+    },
+    {
+     "numero": "MAOC10L2311101"
+    },
+    {
+     "numero": "MAST10L4202-1"
     }
    ],
    "ean": [
@@ -42,7 +48,8 @@
     "3700552303884"
    ],
    "descripcion": "Juguetes blandos en forma de animales (cangrejo ermitaño, pulpo, tortuga) que contienen una caja de música pull-string.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja o base de cartón"
   }
  ],
  "riesgo": {
@@ -76,7 +83,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -118,15 +128,17 @@
    "mm:little-big-friends:brigitte-le-bernard-l-hermite",
    "mm:little-big-friends:emilie-la-tortue",
    "mm:little-big-friends:octave-la-pieuvre",
-   "ml:little-big-friends:mahc10l220101maoc10l2311101mast10l4202-1"
+   "ml:little-big-friends:mahc10l220101",
+   "ml:little-big-friends:maoc10l2311101",
+   "ml:little-big-friends:mast10l4202-1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3fce2a083ee61523"
+  "enriquecido": true,
+  "hashContenido": "e41dc784e84d39e9"
  },
  "slug": "juguete-suave-musical-little-big-friends-safety-gate-10007240"
 }

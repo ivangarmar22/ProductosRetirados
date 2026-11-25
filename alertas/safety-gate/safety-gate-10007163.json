@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -25,17 +25,15 @@
    "nombre": "Pfeil- und Bogen Set",
    "marcas": [],
    "modelos": [
-    "KiK9822 (aus 2021",
-    "Farbe grün)",
-    "KiK9895 (aus 2022",
-    "Farbe blau)",
-    "KiK9896 (aus 2022",
-    "Farbe grün)"
+    "KiK9822 (aus 2021, Farbe grün)",
+    "KiK9895 (aus 2022, Farbe blau)",
+    "KiK9896 (aus 2022, Farbe grün)"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Juego de arco y flecha de juguete, con una altura de 57 cm, una anchura de 25 cm y un grosor de 5 cm. El modelo KiK9822, fabricado en 2021, tiene un color verde, mientras que los modelos KiK9895 y KiK9896 (ambos fabricados en 2022) son respectivamente azul y verde. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -67,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d981361316d6f684"
+  "enriquecido": true,
+  "hashContenido": "fe83eeb01de7e5b6"
  },
  "slug": "arco-de-juguete-y-conjunto-de-flechas-pfeil-und-bogen-set-safety-gate-10007163"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "DEH",
     "e13*2007/46*1911*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "9.6.2022 - 6.7.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "9.6.2022 - 6.7.2022"
+   "fechasTexto": "9.6.2022 - 6.7.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "NL",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +92,16 @@
   "claves": [
    "ref:A12/01712/22",
    "mm:ford:deh",
-   "mm:ford:e13-2007-46-1911-15"
+   "mm:ford:e13-2007-46-1911-15",
+   "ml:ford:9-6-2022-6-7-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "69dcce077d988035"
+  "enriquecido": true,
+  "hashContenido": "cc24310c37e5b4cd"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10007187"
 }

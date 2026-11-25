@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*98/14*0070*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4.11.2003 - 4.03.2005; 23.04.2001 - 13.07.2004; 10.10.2003 - 21.01.2004; 1.06. 2001 - 4.09.2003."
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero; Modelo del año 2001~2005.",
-   "fechasTexto": "4.11.2003 - 4.03.2005; 23.04.2001 - 13.07.2004; 10.10.2003 - 21.01.2004; 1.06. 2001 - 4.09.2003."
+   "fechasTexto": "4.11.2003 - 4.03.2005; 23.04.2001 - 13.07.2004; 10.10.2003 - 21.01.2004; 1.06. 2001 - 4.09.2003.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01663/22",
-   "mm:toyota:e6-98-14-0070-01"
+   "mm:toyota:e6-98-14-0070-01",
+   "ml:toyota:4-11-2003-4-03-2005-23-04-2001-13-07-2004-10-10-2003-21-01-2004-1-06-2001-4-09-2003"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6184b31298a0cc7e"
+  "enriquecido": true,
+  "hashContenido": "96660a86b47d5c73"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-toyota-safety-gate-10007213"
 }

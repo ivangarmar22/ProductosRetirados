@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Un tarro transparente con limo azul. Producto vendido en línea, en particular a través de Wish.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "RO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,11 +87,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "de70ba451ff03287"
+  "enriquecido": true,
+  "hashContenido": "bb84f3d872c92c99"
  },
  "slug": "limo-de-juguete-clear-slime-safety-gate-10007145"
 }

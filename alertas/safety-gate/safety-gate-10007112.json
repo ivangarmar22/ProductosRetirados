@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "e4*2007/46*0929",
-    "e4*2007/46*1315",
-    "e4*2007/46*1220",
-    "e4*2007/46*1067"
+    "e4*2007/46*0929; e4*2007/46*1315; e4*2007/46*1220; e4*2007/46*1067"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022 ~ 2023"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, vehículo híbrido enchufable.",
-   "fechasTexto": "2022 ~ 2023"
+   "fechasTexto": "2022 ~ 2023",
+   "envase": "¿POR QUÉ?"
   }
  ],
  "riesgo": {
@@ -65,7 +67,22 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +92,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01606/22",
-   "mm:volvo:e4-2007-46-0929",
-   "mm:volvo:e4-2007-46-1315",
-   "mm:volvo:e4-2007-46-1220",
-   "mm:volvo:e4-2007-46-1067"
+   "mm:volvo:e4-2007-46-0929-e4-2007-46-1315-e4-2007-46-1220-e4-2007-46-1067",
+   "ml:volvo:2022-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fe514ee80e65eb7a"
+  "enriquecido": true,
+  "hashContenido": "828dc0ea48347cc8"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10007112"
 }

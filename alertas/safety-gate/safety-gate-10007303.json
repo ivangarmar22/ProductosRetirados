@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "INDEX 310101SE1802WD-1"
+     "numero": "INDEX 310101"
+    },
+    {
+     "numero": "SE1802WD-1"
     }
    ],
    "ean": [
     "5901508310101"
    ],
    "descripcion": "Luz nocturna en forma de manzana con tres ledes de colores diferentes, y con una cubierta de plástico blanco opaco y el interruptor de encendido/apagado de la carcasa. Indicación de las habilitaciones en la placa de tipo: 110-230V/0.4 W/50/60 Hz/8 lm. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de plástico con espalda de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +108,16 @@
    "ref:A12/01777/22",
    "ean:5901508310101",
    "mm:polux:835",
-   "ml:polux:index-310101se1802wd-1"
+   "ml:polux:index-310101",
+   "ml:polux:se1802wd-1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "106a816a99873980"
+  "enriquecido": true,
+  "hashContenido": "5c7e85005bdba285"
  },
  "slug": "luz-de-noche-de-zocalo-polux-safety-gate-10007303"
 }

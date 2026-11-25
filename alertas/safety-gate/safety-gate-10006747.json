@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-10-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0016*49"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.05.2022 - 18.05.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "03.05.2022 - 18.05.2022"
+   "fechasTexto": "03.05.2022 - 18.05.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "NL",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01604/22",
-   "mm:renault:e2-2007-46-0016-49"
+   "mm:renault:e2-2007-46-0016-49",
+   "ml:renault:03-05-2022-18-05-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "19fe68e0aa4da494"
+  "enriquecido": true,
+  "hashContenido": "05da73955ab7eb98"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-renault-safety-gate-10006747"
 }

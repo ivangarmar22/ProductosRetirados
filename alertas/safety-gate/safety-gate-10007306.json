@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-17"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "CXI03808-732ECXI3679-679E"
+     "numero": "CXI03808-732E"
+    },
+    {
+     "numero": "CXI3679-679E"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "4059483332302"
    ],
    "descripcion": "Dos variedades de orejas: Juego de tres pares con piedra brillante; conjunto de tres pares en tres colores (oro, cobre, plata).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -78,7 +82,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Vietnam",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,15 +107,16 @@
    "ean:4059483332302",
    "mm:accessories-und-six:679-697",
    "mm:accessories-und-six:808-732",
-   "ml:accessories-und-six:cxi03808-732ecxi3679-679e"
+   "ml:accessories-und-six:cxi03808-732e",
+   "ml:accessories-und-six:cxi3679-679e"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f0404a1ff4ee520e"
+  "enriquecido": true,
+  "hashContenido": "87f43af5b20ae361"
  },
  "slug": "tachuelas-de-orejas-accessories-und-six-safety-gate-10007306"
 }

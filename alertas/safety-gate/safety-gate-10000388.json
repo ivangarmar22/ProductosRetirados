@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-11-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,28 +27,17 @@
     "Lemförder"
    ],
    "modelos": [
-    "KTYPNR: 19547",
-    "19548",
-    "19549",
-    "19550",
-    "19551",
-    "30408",
-    "30854",
-    "30856",
-    "30857",
-    "30857",
-    "32072",
-    "32073",
-    "32074",
-    "32076",
-    "779",
-    "816",
-    "9086"
+    "KTYPNR: 19547,19548,19549,19550,19551,30408,30854,30856,30857,30857,32072,32073,32074,32076,779,816,9086"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected units were manufactured between 1 January 2018 and 31 October 2019."
+    }
+   ],
    "ean": [],
    "descripcion": "Articulación axial.",
-   "fechasTexto": "The affected units were manufactured between 1 January 2018 and 31 October 2019."
+   "fechasTexto": "The affected units were manufactured between 1 January 2018 and 31 October 2019.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,30 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00072/20",
-   "mm:lemforder:ktypnr-19547",
-   "mm:lemforder:19548",
-   "mm:lemforder:19549",
-   "mm:lemforder:19550",
-   "mm:lemforder:19551",
-   "mm:lemforder:30408",
-   "mm:lemforder:30854",
-   "mm:lemforder:30856",
-   "mm:lemforder:30857",
-   "mm:lemforder:32072",
-   "mm:lemforder:32073",
-   "mm:lemforder:32074",
-   "mm:lemforder:32076",
-   "mm:lemforder:779",
-   "mm:lemforder:816",
-   "mm:lemforder:9086"
+   "mm:lemforder:ktypnr-19547-19548-19549-19550-19551-30408-30854-30856-30857-30857-32072-32073-32074-32076-779-816-9086",
+   "ml:lemforder:the-affected-units-were-manufactured-between-1-january-2018-and-31-october-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "78dd94e98d7c3897"
+  "enriquecido": true,
+  "hashContenido": "9f7dfd5ad95d9b12"
  },
  "slug": "parte-del-vehiculo-lemforder-safety-gate-10000388"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-11-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Model 2019"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03/10/2018 to 05/07/2019"
+    }
+   ],
    "ean": [],
    "descripcion": "La moto.",
-   "fechasTexto": "03/10/2018 to 05/07/2019"
+   "fechasTexto": "03/10/2018 to 05/07/2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,22 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "ES",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NL",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +92,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00167/20",
-   "mm:piaggio:model-2019"
+   "mm:piaggio:model-2019",
+   "ml:piaggio:03-10-2018-to-05-07-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "011175a277bea359"
+  "enriquecido": true,
+  "hashContenido": "488ac8962c756fe4"
  },
  "slug": "moto-piaggio-safety-gate-10000218"
 }

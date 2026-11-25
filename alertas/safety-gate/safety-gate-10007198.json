@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Stromer"
    ],
    "modelos": [
-    "ST1",
-    "ST5",
-    "e13*168/2013*00603*02",
-    "e13*168/2013*00480*04"
+    "ST1, ST5",
+    "e13*168/2013*00603*02, e13*168/2013*00480*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.02.2019 –31.03.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Bicicletas eléctricas asistidas por pedal sin aceleradores.",
-   "fechasTexto": "1.02.2019 –31.03.2020"
+   "fechasTexto": "1.02.2019 –31.03.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suiza",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +85,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01705/22",
-   "mm:stromer:st1",
-   "mm:stromer:st5",
-   "mm:stromer:e13-168-2013-00603-02",
-   "mm:stromer:e13-168-2013-00480-04"
+   "mm:stromer:st1-st5",
+   "mm:stromer:e13-168-2013-00603-02-e13-168-2013-00480-04",
+   "ml:stromer:1-02-2019-31-03-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "28c24562fe7ceed9"
+  "enriquecido": true,
+  "hashContenido": "8e9c5390b7de00b4"
  },
  "slug": "pedelec-de-velocidad-stromer-safety-gate-10007198"
 }

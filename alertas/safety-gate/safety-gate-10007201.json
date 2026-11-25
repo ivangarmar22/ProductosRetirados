@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,21 @@
     "e1*168/2013*00185*02 (2020-2021)",
     "e1*168/2013*00185*03 (2022)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "MY 2021"
+    },
+    {
+     "numero": "MY 2022"
+    },
+    {
+     "numero": "MY2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto, años modelo 2020-2022.",
-   "fechasTexto": "MY 2021MY 2022MY2020"
+   "fechasTexto": "MY 2021MY 2022MY2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +74,20 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "LU",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +103,18 @@
   "claves": [
    "ref:A12/01681/22",
    "mm:ktm:e1-168-2013-00185-02-2020-2021",
-   "mm:ktm:e1-168-2013-00185-03-2022"
+   "mm:ktm:e1-168-2013-00185-03-2022",
+   "ml:ktm:my-2021",
+   "ml:ktm:my-2022",
+   "ml:ktm:my2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f584e9bdca1698d6"
+  "enriquecido": true,
+  "hashContenido": "06247fe6306866d9"
  },
  "slug": "moto-ktm-safety-gate-10007201"
 }

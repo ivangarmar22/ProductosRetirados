@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,13 +27,13 @@
     "Timco"
    ],
    "modelos": [
-    "7 T",
-    "51 cm"
+    "7 T, 51 cm"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Divisor eléctrico de troncos de cuña. El producto se fabrica en 2021, tiene una tensión de 230 V, 1,5 kW de potencia, una corriente nominal de 16 A y una frecuencia de 50 Hz, y pesa 86 kg. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -84,16 +84,15 @@
  "dedup": {
   "claves": [
    "ref:A11/00144/22",
-   "mm:timco:7-t",
-   "mm:timco:51-cm"
+   "mm:timco:7-t-51-cm"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "468c7095ad98ca2e"
+  "enriquecido": true,
+  "hashContenido": "993508da081ac5e0"
  },
  "slug": "divisor-de-troncos-de-cuna-timco-safety-gate-10007372"
 }

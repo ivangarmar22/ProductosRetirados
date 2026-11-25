@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,16 +24,22 @@
   {
    "nombre": "Oblic+4, Oblic+3, Oblic+2, Promax E3, Provan, JMS H, Imara, Nuno H",
    "marcas": [
-    "Fautras, St Georges"
+    "Fautras",
+    "St Georges"
    ],
    "modelos": [
     "2E",
     "e4*2007/46*0028*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.11.2021 - 09.09.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Tráiler",
-   "fechasTexto": "01.11.2021 - 09.09.2022"
+   "fechasTexto": "01.11.2021 - 09.09.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,15 +84,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01578/22",
-   "mm:fautras-st-georges:e4-2007-46-0028-06"
+   "mm:fautras:e4-2007-46-0028-06",
+   "ml:fautras:01-11-2021-09-09-2022",
+   "mm:st-georges:e4-2007-46-0028-06",
+   "ml:st-georges:01-11-2021-09-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1bf07812a2296950"
+  "enriquecido": true,
+  "hashContenido": "1f97c0ff38dd7585"
  },
  "slug": "trailer-fautras-st-georges-safety-gate-10007100"
 }

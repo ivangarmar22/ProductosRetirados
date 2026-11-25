@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-20"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -34,7 +34,8 @@
     "0604375208728"
    ],
    "descripcion": "Pequeñas y compactas estufas de gas de dos llamas para acampar. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Rumanía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -125,11 +129,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cfc74defa3a75636"
+  "enriquecido": true,
+  "hashContenido": "7a2e2a9e22a2d57c"
  },
  "slug": "estufa-de-camping-portatil-optimus-safety-gate-10007307"
 }

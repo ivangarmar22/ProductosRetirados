@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Opel"
    ],
    "modelos": [
-    "e13*2007/46*1777*00-*07",
-    "Type: 1G0F"
+    "e13*2007/46*1777*00-*07, Type: 1G0F"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 27 June 2016 and 5 September 2019."
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "The affected vehicles were manufactured between 27 June 2016 and 5 September 2019."
+   "fechasTexto": "The affected vehicles were manufactured between 27 June 2016 and 5 September 2019.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "IS"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00308/21",
-   "mm:opel:e13-2007-46-1777-00-07",
-   "mm:opel:type-1g0f"
+   "mm:opel:e13-2007-46-1777-00-07-type-1g0f",
+   "ml:opel:the-affected-vehicles-were-manufactured-between-27-june-2016-and-5-september-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "59e15c342d23aa91"
+  "enriquecido": true,
+  "hashContenido": "3d2f4c54dfd6208e"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10003293"
 }

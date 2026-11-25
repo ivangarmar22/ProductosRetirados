@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "G5L",
-    "G5K",
-    "F5LM",
-    "e1*2007/46*1688*",
-    "e1*2007/46*1750*",
-    "e1*2007/46*1828*"
+    "G5L, G5K, F5LM",
+    "e1*2007/46*1688*, e1*2007/46*1750*, e1*2007/46*1828*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.6.2022 - 24.6.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "23.6.2022 - 24.6.2022"
+   "fechasTexto": "23.6.2022 - 24.6.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "IE",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +88,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01717/22",
-   "mm:bmw:g5l",
-   "mm:bmw:g5k",
-   "mm:bmw:f5lm",
-   "mm:bmw:e1-2007-46-1688",
-   "mm:bmw:e1-2007-46-1750",
-   "mm:bmw:e1-2007-46-1828"
+   "mm:bmw:g5l-g5k-f5lm",
+   "mm:bmw:e1-2007-46-1688-e1-2007-46-1750-e1-2007-46-1828",
+   "ml:bmw:23-6-2022-24-6-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32df5f32ce1115e8"
+  "enriquecido": true,
+  "hashContenido": "194af0802b275c99"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10007149"
 }

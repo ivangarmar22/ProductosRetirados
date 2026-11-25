@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-06-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "4046729438324"
    ],
    "descripcion": "La caja de música enrollada manualmente, las figuras «bailan» como resultado de un disco de hierro giratorio dentro de la caja de música y un imán en las figuras. El juguete está destinado a niños menores de 36 meses. Producto vendido en línea, en particular a través de Amazon, ASIN: B014L09TC4.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "FR",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -120,11 +125,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5b21ecf7423f57f1"
+  "enriquecido": true,
+  "hashContenido": "02e0cc3667d15278"
  },
  "slug": "caja-de-musica-musicbox-kingdom-safety-gate-10006993"
 }

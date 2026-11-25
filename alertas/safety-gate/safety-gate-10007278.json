@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "H1GLE",
     "e1*2007/46*1885*03-*17"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.11.2017 - 20.07.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "27.11.2017 - 20.07.2022"
+   "fechasTexto": "27.11.2017 - 20.07.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +99,16 @@
   "claves": [
    "ref:A12/01743/22",
    "mm:mercedes-benz:h1gle",
-   "mm:mercedes-benz:e1-2007-46-1885-03-17"
+   "mm:mercedes-benz:e1-2007-46-1885-03-17",
+   "ml:mercedes-benz:27-11-2017-20-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "08739f19f3fd7074"
+  "enriquecido": true,
+  "hashContenido": "82ce83db29b3f0ad"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10007278"
 }

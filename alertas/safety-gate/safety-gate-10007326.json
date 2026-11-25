@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "2835-2B12CX2-RGB-36DCC-0981-1"
+     "numero": "2835-2B12CX2-RGB-36D"
+    },
+    {
+     "numero": "CC-0981-1"
     }
    ],
    "ean": [],
    "descripcion": "Lámpara de plástico blanco con luz en diferentes colores. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón marrón."
   }
  ],
  "riesgo": {
@@ -102,15 +106,16 @@
   "claves": [
    "ref:A12/01790/22",
    "mm:i-link:fb003",
-   "ml:i-link:2835-2b12cx2-rgb-36dcc-0981-1"
+   "ml:i-link:2835-2b12cx2-rgb-36d",
+   "ml:i-link:cc-0981-1"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bb81ebefe9e2e5a5"
+  "enriquecido": true,
+  "hashContenido": "b81900eb7c49036b"
  },
  "slug": "lampara-de-led-i-link-safety-gate-10007326"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,15 +27,15 @@
     "Bath Tub"
    ],
    "modelos": [
-    "236510",
-    "LT156493"
+    "236510, LT156493"
    ],
    "lotes": [],
    "ean": [
     "8584156236510"
    ],
    "descripcion": "Muñeca de plástico en forma de bebé pequeño, que se vende junto con un conjunto de accesorios de juguete: bañera de plástico, ducha, jabón, pato y rueda de natación.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente cerrada con cartón."
   }
  ],
  "riesgo": {
@@ -93,16 +93,15 @@
   "claves": [
    "ref:A12/01581/22",
    "ean:8584156236510",
-   "mm:bath-tub:236510",
-   "mm:bath-tub:lt156493"
+   "mm:bath-tub:236510-lt156493"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "042c7918918c2060"
+  "enriquecido": true,
+  "hashContenido": "7d1b4c0678421a48"
  },
  "slug": "muneca-de-plastico-con-accesorios-bath-tub-safety-gate-10007091"
 }

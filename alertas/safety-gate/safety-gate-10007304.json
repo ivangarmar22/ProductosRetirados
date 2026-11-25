@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "158/IJ/U336/2020"
+     "numero": "158/IJ/U3"
+    },
+    {
+     "numero": "36/2020"
     }
    ],
    "ean": [
     "4029957008057"
    ],
    "descripcion": "Láctea, líquido nublado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico incolora etiquetada con tapa de rosca semitransparente y dispensador de bomba integrado."
   }
  ],
  "riesgo": {
@@ -87,15 +91,16 @@
   "claves": [
    "ref:A12/01752/22",
    "ean:4029957008057",
-   "ml:ahrenshof-arztseife:158-ij-u336-2020"
+   "ml:ahrenshof-arztseife:158-ij-u3",
+   "ml:ahrenshof-arztseife:36-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "de5159ad09a483f6"
+  "enriquecido": true,
+  "hashContenido": "415581fee90652b5"
  },
  "slug": "jabon-ahrenshof-arztseife-safety-gate-10007304"
 }

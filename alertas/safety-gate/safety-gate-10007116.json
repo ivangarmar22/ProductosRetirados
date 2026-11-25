@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "G3L",
-    "G3K",
-    "G234M",
-    "e1*2007/46*1947*",
-    "e1*2007/46*2017*",
-    "e1*2018/858*00003*"
+    "G3L, G3K, G234M",
+    "e1*2007/46*1947*, e1*2007/46*2017*, e1*2018/858*00003*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.09.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "12.09.2022"
+   "fechasTexto": "12.09.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +88,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01718/22",
-   "mm:bmw:g3l",
-   "mm:bmw:g3k",
-   "mm:bmw:g234m",
-   "mm:bmw:e1-2007-46-1947",
-   "mm:bmw:e1-2007-46-2017",
-   "mm:bmw:e1-2018-858-00003"
+   "mm:bmw:g3l-g3k-g234m",
+   "mm:bmw:e1-2007-46-1947-e1-2007-46-2017-e1-2018-858-00003",
+   "ml:bmw:12-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1c36e4c4d47f649e"
+  "enriquecido": true,
+  "hashContenido": "42feb74edf9922f7"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10007116"
 }

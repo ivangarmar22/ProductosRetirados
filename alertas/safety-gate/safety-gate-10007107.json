@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-26"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Dispositivo de protección para las rodillas a usar al usar motocicletas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa transparente con tarjeta de cabecera."
   }
  ],
  "riesgo": {
@@ -66,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PL",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -115,11 +121,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6ae161ddbc73faab"
+  "enriquecido": true,
+  "hashContenido": "3201a68ecc8619cc"
  },
  "slug": "protectores-de-rodilla-shot-race-gear-safety-gate-10007107"
 }

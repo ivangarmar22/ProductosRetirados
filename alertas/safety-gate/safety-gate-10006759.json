@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,14 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "22.02.2024"
+     "numero": "22.02.2024."
     }
    ],
    "ean": [
     "5904941841133"
    ],
    "descripcion": "Limpiador de líquidos. Producto vendido también en línea",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanco con pulverizador, volumen 500 ml."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Letonia",
   "paisOrigen": "Lituania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7f8f4f0bded8bd31"
+  "enriquecido": true,
+  "hashContenido": "c8520d10609602c5"
  },
  "slug": "limpiador-de-cuartos-de-bano-sann-profi-safety-gate-10006759"
 }

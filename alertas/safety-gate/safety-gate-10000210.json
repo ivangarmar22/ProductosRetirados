@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-11-16"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,12 +32,19 @@
    ],
    "lotes": [
     {
-     "numero": "Batch: HCY010W140G96IMX40Exp: 4/30/2023Lot: SS270"
+     "numero": "Batch: HCY010W140G96IMX40"
+    },
+    {
+     "numero": "Exp: 4/30/2023"
+    },
+    {
+     "numero": "Lot: SS270"
     }
    ],
    "ean": [],
    "descripcion": "29,6 ml de tinta de tatuaje verde en un frasco de plástico transparente equipado con una boquilla dosificadora y una tapa atornillada.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +97,17 @@
    "ref:A12/00095/20",
    "mm:intenze:article-st1015lg",
    "mm:intenze:ref-1036c01518d02101007",
-   "ml:intenze:batch-hcy010w140g96imx40exp-4-30-2023lot-ss270"
+   "ml:intenze:batch-hcy010w140g96imx40",
+   "ml:intenze:exp-4-30-2023",
+   "ml:intenze:lot-ss270"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "80cd1f0617824db6"
+  "enriquecido": true,
+  "hashContenido": "c5c85b69f300c332"
  },
  "slug": "tinta-de-tatuaje-intenze-safety-gate-10000210"
 }

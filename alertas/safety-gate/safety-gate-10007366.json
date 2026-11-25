@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-10-18"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,22 @@
     "Suzuki"
    ],
    "modelos": [
-    "e4*2007/46*0779*04 - e4*2007/46*0779*15",
-    "e4*2007/46*0928*02 - e4*2007/46*0928*11",
-    "e4*2007/46*0928*05",
-    "e4*2007/46*1205*00 - e4*2007/46*1205*03",
-    "e4*2007/46*1205*01 - e4*2007/46*1205*12",
-    "e6*2007/46*0177*01 - e6*2007/46*0177*03"
+    "e4*2007/46*0779*04 - e4*2007/46*0779*15;",
+    "e4*2007/46*0928*02 - e4*2007/46*0928*11;",
+    "e4*2007/46*0928*05;",
+    "e4*2007/46*1205*00 - e4*2007/46*1205*03;",
+    "e4*2007/46*1205*01 - e4*2007/46*1205*12;",
+    "e6*2007/46*0177*01 - e6*2007/46*0177*03;"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2015-2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2015-2022"
+   "fechasTexto": "2015-2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +72,18 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +98,16 @@
    "mm:suzuki:e4-2007-46-0928-05",
    "mm:suzuki:e4-2007-46-1205-00-e4-2007-46-1205-03",
    "mm:suzuki:e4-2007-46-1205-01-e4-2007-46-1205-12",
-   "mm:suzuki:e6-2007-46-0177-01-e6-2007-46-0177-03"
+   "mm:suzuki:e6-2007-46-0177-01-e6-2007-46-0177-03",
+   "ml:suzuki:2015-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7641a3603c32f784"
+  "enriquecido": true,
+  "hashContenido": "9a3601ffed50ec4a"
  },
  "slug": "coche-de-pasajeros-suzuki-safety-gate-10007366"
 }

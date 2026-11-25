@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "20-270821-2709"
+     "numero": "20-2708"
+    },
+    {
+     "numero": "21-2709"
     }
    ],
    "ean": [],
    "descripcion": "Kit de afeitado compuesto por una crema en un tubo blanco de 10 ml y una cuchilla de afeitar de plástico de doble hoja.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cartón blanco de la esterilla (tamaño: 50x120x25mm)."
   }
  ],
  "riesgo": {
@@ -95,15 +99,16 @@
   "claves": [
    "ref:A12/01569/22",
    "mm:bunzl-rafferty:gqgen10059",
-   "ml:bunzl-rafferty:20-270821-2709"
+   "ml:bunzl-rafferty:20-2708",
+   "ml:bunzl-rafferty:21-2709"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "69ff46b0a0f875a3"
+  "enriquecido": true,
+  "hashContenido": "ab27e095a097d696"
  },
  "slug": "kit-de-afeitado-bunzl-rafferty-safety-gate-10007137"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "CiaoBosi"
    ],
    "modelos": [
-    "T-9267",
-    "TX-9267"
+    "T-9267, TX-9267"
    ],
    "lotes": [],
    "ean": [
     "6972785792675"
    ],
    "descripcion": "Secador de pelo negro con 2 boquillas desmontables.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón de colores."
   }
  ],
  "riesgo": {
@@ -104,16 +104,15 @@
   "claves": [
    "ref:A12/01709/22",
    "ean:6972785792675",
-   "mm:ciaobosi:t-9267",
-   "mm:ciaobosi:tx-9267"
+   "mm:ciaobosi:t-9267-tx-9267"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f902f05b3f16345"
+  "enriquecido": true,
+  "hashContenido": "d15322c24bb43749"
  },
  "slug": "secador-de-pelo-ciaobosi-safety-gate-10007206"
 }

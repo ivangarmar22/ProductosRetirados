@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "(ABE) KBA 53204"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.11.2019 - 21.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Ruedas para coches",
-   "fechasTexto": "1.11.2019 - 21.06.2022"
+   "fechasTexto": "1.11.2019 - 21.06.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01547/22",
-   "mm:esseruote:abe-kba-53204"
+   "mm:esseruote:abe-kba-53204",
+   "ml:esseruote:1-11-2019-21-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e1a5137f680a1370"
+  "enriquecido": true,
+  "hashContenido": "dd3af1d91120eea8"
  },
  "slug": "piezas-de-vehiculos-ruedas-de-recambio-esseruote-safety-gate-10007043"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-11-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Man"
    ],
    "modelos": [
-    "Models: L.2007.46.009",
-    "L.2007.46.013",
-    "Type-approval number: e4*2007/46*0237*33 - 36",
-    "e4*2007/46*0418*31"
+    "Models: L.2007.46.009, L.2007.46.013",
+    "Type-approval number: e4*2007/46*0237*33 - 36, e4*2007/46*0418*31"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "May 2019 to November 2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "May 2019 to November 2019"
+   "fechasTexto": "May 2019 to November 2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,18 +78,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00177/20",
-   "mm:man:models-l-2007-46-009",
-   "mm:man:l-2007-46-013",
-   "mm:man:type-approval-number-e4-2007-46-0237-33-36",
-   "mm:man:e4-2007-46-0418-31"
+   "mm:man:models-l-2007-46-009-l-2007-46-013",
+   "mm:man:type-approval-number-e4-2007-46-0237-33-36-e4-2007-46-0418-31",
+   "ml:man:may-2019-to-november-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "523c4197bd8b230f"
+  "enriquecido": true,
+  "hashContenido": "06256d8fd003f032"
  },
  "slug": "camion-man-safety-gate-10000517"
 }

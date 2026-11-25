@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Dacia"
    ],
    "modelos": [
-    "e9*2018/858*11001*04",
-    "e9*2018/858*11001*05"
+    "e9*2018/858*11001*04, e9*2018/858*11001*05."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.04.2022 - 04.10.2022."
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, Dacia Spring XBG fabricado en la planta de SHIYAN.",
-   "fechasTexto": "26.04.2022 - 04.10.2022."
+   "fechasTexto": "26.04.2022 - 04.10.2022.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FR",
+   "NL",
+   "PL",
+   "RO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01662/22",
-   "mm:dacia:e9-2018-858-11001-04",
-   "mm:dacia:e9-2018-858-11001-05"
+   "mm:dacia:e9-2018-858-11001-04-e9-2018-858-11001-05",
+   "ml:dacia:26-04-2022-04-10-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d4637db483333d13"
+  "enriquecido": true,
+  "hashContenido": "9092ef66b4f98e39"
  },
  "slug": "coche-de-pasajeros-dacia-safety-gate-10007218"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-01-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,16 +28,17 @@
    ],
    "modelos": [
     "136",
-    "e13*2007/46*2420*01",
-    "e13*2007/46*2420*02",
-    "e13*2007/46*2420*03",
-    "e13*2007/46*2420*04",
-    "e13*2007/46*2420*05"
+    "e13*2007/46*2420*01, e13*2007/46*2420*02, e13*2007/46*2420*03, e13*2007/46*2420*04, e13*2007/46*2420*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.08.2021 - 31.08.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Casa móvil/camper van",
-   "fechasTexto": "24.08.2021 - 31.08.2022"
+   "fechasTexto": "24.08.2021 - 31.08.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,19 +84,16 @@
   "claves": [
    "ref:A12/01577/22",
    "mm:eura-mobil:136",
-   "mm:eura-mobil:e13-2007-46-2420-01",
-   "mm:eura-mobil:e13-2007-46-2420-02",
-   "mm:eura-mobil:e13-2007-46-2420-03",
-   "mm:eura-mobil:e13-2007-46-2420-04",
-   "mm:eura-mobil:e13-2007-46-2420-05"
+   "mm:eura-mobil:e13-2007-46-2420-01-e13-2007-46-2420-02-e13-2007-46-2420-03-e13-2007-46-2420-04-e13-2007-46-2420-05",
+   "ml:eura-mobil:24-08-2021-31-08-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ac4f384027e6f251"
+  "enriquecido": true,
+  "hashContenido": "c1a466c59ad06102"
  },
  "slug": "casa-movil-camper-van-eura-mobil-safety-gate-10007105"
 }
