@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "454016"
-    },
-    {
-     "numero": "D18C11"
+     "numero": "454016, D18C11"
     }
    ],
    "ean": [
     "3551440454016"
    ],
    "descripcion": "Perfume",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella embalada en una caja de cartón blanca, envuelta en una película de plástico transparente, 100 ml."
   }
  ],
  "riesgo": {
@@ -89,16 +87,15 @@
   "claves": [
    "ref:A12/01188/22",
    "ean:3551440454016",
-   "ml:ap-durand-parfums:454016",
-   "ml:ap-durand-parfums:d18c11"
+   "ml:ap-durand-parfums:454016-d18c11"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df6753e0a0916d80"
+  "enriquecido": true,
+  "hashContenido": "c72dcea90ff14b95"
  },
  "slug": "perfume-ap-durand-parfums-safety-gate-10006606"
 }

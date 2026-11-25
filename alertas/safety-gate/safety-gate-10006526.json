@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Honda"
    ],
    "modelos": [
-    "e6*2007/46*0415*00",
-    "e6*2007/46*0415*01",
-    "e6*2007/46*0415*02"
+    "e6*2007/46*0415*00, e6*2007/46*0415*01, e6*2007/46*0415*02."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01/2020 – 02/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "01/2020 – 02/2021"
+   "fechasTexto": "01/2020 – 02/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,23 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,17 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01111/22",
-   "mm:honda:e6-2007-46-0415-00",
-   "mm:honda:e6-2007-46-0415-01",
-   "mm:honda:e6-2007-46-0415-02"
+   "mm:honda:e6-2007-46-0415-00-e6-2007-46-0415-01-e6-2007-46-0415-02",
+   "ml:honda:01-2020-02-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f2f49e9105a6d0cc"
+  "enriquecido": true,
+  "hashContenido": "63157fc859576bb7"
  },
  "slug": "coche-de-pasajeros-honda-safety-gate-10006526"
 }

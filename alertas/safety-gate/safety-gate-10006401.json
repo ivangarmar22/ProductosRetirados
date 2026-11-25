@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.03.2015 - 31.08.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta/vehículo comercial ligero",
-   "fechasTexto": "27.03.2015 - 31.08.2020"
+   "fechasTexto": "27.03.2015 - 31.08.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01034/22",
-   "mm:dodge:individual-approval"
+   "mm:dodge:individual-approval",
+   "ml:dodge:27-03-2015-31-08-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ce538814c4c55ab1"
+  "enriquecido": true,
+  "hashContenido": "da834429d155a653"
  },
  "slug": "camioneta-vehiculo-comercial-ligero-dodge-safety-gate-10006401"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-26"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B40404 WFSOR 200407"
+     "numero": "B40404"
+    },
+    {
+     "numero": "WFSOR 200407"
     }
    ],
    "ean": [],
    "descripcion": "Tinta roja del tatuaje.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico"
   }
  ],
  "riesgo": {
@@ -87,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01884/21",
-   "ml:world-famous-tattoo-ink:b40404-wfsor-200407"
+   "ml:world-famous-tattoo-ink:b40404",
+   "ml:world-famous-tattoo-ink:wfsor-200407"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00a7a679b3f0f0ad"
+  "enriquecido": true,
+  "hashContenido": "2482cddf22871c84"
  },
  "slug": "tinta-de-tatto-world-famous-tattoo-ink-safety-gate-10005078"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,15 +27,15 @@
     "Handy"
    ],
    "modelos": [
-    "GTP 1835",
-    "GY 9310"
+    "GTP 1835 / GY 9310"
    ],
    "lotes": [],
    "ean": [
     "5906190666338"
    ],
    "descripcion": "Motosierra eléctrica.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -89,16 +89,15 @@
   "claves": [
    "ref:A12/01109/22",
    "ean:5906190666338",
-   "mm:handy:gtp-1835",
-   "mm:handy:gy-9310"
+   "mm:handy:gtp-1835-gy-9310"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6b78fc2b3c47e3f9"
+  "enriquecido": true,
+  "hashContenido": "51ce130097dd6c6d"
  },
  "slug": "motosierra-handy-safety-gate-10006523"
 }

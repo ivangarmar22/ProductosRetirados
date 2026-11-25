@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "B",
     "e9*2007/46*6816*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.11.2021 - 17.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "17.11.2021 - 17.11.2021"
+   "fechasTexto": "17.11.2021 - 17.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01178/22",
-   "mm:citroen:e9-2007-46-6816-07"
+   "mm:citroen:e9-2007-46-6816-07",
+   "ml:citroen:17-11-2021-17-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a4f23c16e47480c9"
+  "enriquecido": true,
+  "hashContenido": "2b8541d61ddd1135"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10006587"
 }

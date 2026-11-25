@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "B40401PBBLB200406"
+     "numero": "B40401"
+    },
+    {
+     "numero": "PBBLB200406"
     }
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico negro."
   }
  ],
  "riesgo": {
@@ -83,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00007/22",
-   "ml:perma-blend:b40401pbblb200406"
+   "ml:perma-blend:b40401",
+   "ml:perma-blend:pbblb200406"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eeaa2a588f993095"
+  "enriquecido": true,
+  "hashContenido": "cb41cbac6d005e79"
  },
  "slug": "tinta-de-tatuaje-perma-blend-safety-gate-10005077"
 }

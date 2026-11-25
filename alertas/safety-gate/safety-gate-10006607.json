@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "250221011863AHP1863"
+     "numero": "250221011863"
+    },
+    {
+     "numero": "AHP1863"
     }
    ],
    "ean": [
     "6291100135998"
    ],
    "descripcion": "Un perfume.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "50 gr. pequeño contenedor cilíndrico en un paquete exterior burgondy y dorado."
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:A12/01197/22",
    "ean:6291100135998",
-   "ml:al-haramain:250221011863ahp1863"
+   "ml:al-haramain:250221011863",
+   "ml:al-haramain:ahp1863"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3bc5f9ce4a891865"
+  "enriquecido": true,
+  "hashContenido": "87a65e19e862d70b"
  },
  "slug": "perfume-al-haramain-safety-gate-10006607"
 }

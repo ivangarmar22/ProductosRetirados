@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,22 +31,34 @@
    ],
    "lotes": [
     {
-     "numero": "20673532067375 2069477"
+     "numero": "2067353"
     },
     {
-     "numero": "2069478"
+     "numero": "2067375"
     },
     {
-     "numero": "2069503"
+     "numero": "2069477,"
     },
     {
-     "numero": "2077939 - 20779582077965"
+     "numero": "2069478,"
     },
     {
-     "numero": "2077966"
+     "numero": "2069503,"
     },
     {
-     "numero": "2077967 2084350 - 2084353"
+     "numero": "2077939 - 2077958"
+    },
+    {
+     "numero": "2077965,"
+    },
+    {
+     "numero": "2077966,"
+    },
+    {
+     "numero": "2077967"
+    },
+    {
+     "numero": "2084350 - 2084353"
     }
    ],
    "ean": [
@@ -54,7 +66,8 @@
     "8711292119326"
    ],
    "descripcion": "Asesino electrónico de insectos LED.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "En una caja de cartón"
   }
  ],
  "riesgo": {
@@ -88,7 +101,13 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "IT",
+   "LU",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,20 +125,24 @@
    "ean:8711252078755",
    "ean:8711292119326",
    "mm:grundig:zd-20w-3",
-   "ml:grundig:20673532067375-2069477",
+   "ml:grundig:2067353",
+   "ml:grundig:2067375",
+   "ml:grundig:2069477",
    "ml:grundig:2069478",
    "ml:grundig:2069503",
-   "ml:grundig:2077939-20779582077965",
+   "ml:grundig:2077939-2077958",
+   "ml:grundig:2077965",
    "ml:grundig:2077966",
-   "ml:grundig:2077967-2084350-2084353"
+   "ml:grundig:2077967",
+   "ml:grundig:2084350-2084353"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "93d810f298c984da"
+  "enriquecido": true,
+  "hashContenido": "ae919ac321cdd4d9"
  },
  "slug": "asesino-de-insectos-grundig-safety-gate-10006113"
 }

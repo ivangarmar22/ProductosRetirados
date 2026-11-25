@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -24,21 +24,32 @@
   {
    "nombre": "Textilerfrischer Sommerblumen",
    "marcas": [
-    "Fresh&Dry, Woolworth"
+    "Fresh&Dry",
+    "Woolworth"
    ],
    "modelos": [
     "Sommerblumen"
    ],
    "lotes": [
     {
-     "numero": "101121266325/00/01410"
+     "numero": "101"
+    },
+    {
+     "numero": "121"
+    },
+    {
+     "numero": "266325/00/01"
+    },
+    {
+     "numero": "410"
     }
    ],
    "ean": [
     "2000007762589"
    ],
    "descripcion": "Líquido que elimina olores, para rociar sobre textiles como alfombras, cojines, asientos para automóviles, ropa y calzado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico con boquilla de pulverización, 500 ml."
   }
  ],
  "riesgo": {
@@ -113,16 +124,24 @@
   "claves": [
    "ref:A12/01215/22",
    "ean:2000007762589",
-   "mm:fresh-dry-woolworth:sommerblumen",
-   "ml:fresh-dry-woolworth:101121266325-00-01410"
+   "mm:fresh-dry:sommerblumen",
+   "ml:fresh-dry:101",
+   "ml:fresh-dry:121",
+   "ml:fresh-dry:266325-00-01",
+   "ml:fresh-dry:410",
+   "mm:woolworth:sommerblumen",
+   "ml:woolworth:101",
+   "ml:woolworth:121",
+   "ml:woolworth:266325-00-01",
+   "ml:woolworth:410"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f5c9e7878e08a702"
+  "enriquecido": true,
+  "hashContenido": "c0c9ae182c012350"
  },
  "slug": "ambientador-textil-fresh-dry-woolworth-safety-gate-10006624"
 }

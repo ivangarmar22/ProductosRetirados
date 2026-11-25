@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "Best"
    ],
    "modelos": [
-    "FH-307",
-    "ART:190043"
+    "FH-307, ART:190043"
    ],
    "lotes": [],
    "ean": [
     "6916766190043"
    ],
    "descripcion": "Secador de pelo negro y rosado con 2 boquillas desmontables.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón colorida"
   }
  ],
  "riesgo": {
@@ -104,16 +104,15 @@
   "claves": [
    "ref:A12/01075/22",
    "ean:6916766190043",
-   "mm:best:fh-307",
-   "mm:best:art-190043"
+   "mm:best:fh-307-art-190043"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aaaf91895cff0e19"
+  "enriquecido": true,
+  "hashContenido": "2ee1b167b637ce51"
  },
  "slug": "secador-de-pelo-best-safety-gate-10006493"
 }

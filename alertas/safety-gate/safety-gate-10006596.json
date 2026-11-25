@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "2021030720210309"
+     "numero": "20210307"
+    },
+    {
+     "numero": "20210309"
     }
    ],
    "ean": [
     "8682431030478"
    ],
    "descripcion": "Máscara de media cara de filtración respiratoria protectora marcada con FFP2 y con la marca CE impresa.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanco-azul que contiene 6 máscaras empacadas individualmente, con la reivindicación FFP2 y la marca CE impresas."
   }
  ],
  "riesgo": {
@@ -105,15 +109,16 @@
    "ref:A12/01195/22",
    "ean:8682431030478",
    "mm:en-med:enm-712",
-   "ml:en-med:2021030720210309"
+   "ml:en-med:20210307",
+   "ml:en-med:20210309"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3f15d9a947d1a22d"
+  "enriquecido": true,
+  "hashContenido": "96c83d0251e7fe4d"
  },
  "slug": "mascara-de-filtro-de-particulas-en-med-safety-gate-10006596"
 }

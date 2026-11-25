@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "GASGAS"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto para competiciones, 249,9 cm³, off road, Model Year 2022",
-   "fechasTexto": "2022"
+   "fechasTexto": "2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,14 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "GR",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +86,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/01172/22"
+   "ref:A12/01172/22",
+   "ml:gasgas:2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "63d6971418010b33"
+  "enriquecido": true,
+  "hashContenido": "ceb17b07d673e09c"
  },
  "slug": "moto-gasgas-safety-gate-10006534"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Jaguar"
    ],
    "modelos": [
-    "e5*2001/116*1000***",
-    "e5*2007/46*1047***",
-    "e5*2007/46*1049***",
-    "e5*2007/46*1048***"
+    "e5*2001/116*1000***, e5*2007/46*1047***, e5*2007/46*1049***, e5*2007/46*1048***"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.01.2022 - 15.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "19.01.2022 - 15.03.2022"
+   "fechasTexto": "19.01.2022 - 15.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01257/22",
-   "mm:jaguar:e5-2001-116-1000",
-   "mm:jaguar:e5-2007-46-1047",
-   "mm:jaguar:e5-2007-46-1049",
-   "mm:jaguar:e5-2007-46-1048"
+   "mm:jaguar:e5-2001-116-1000-e5-2007-46-1047-e5-2007-46-1049-e5-2007-46-1048",
+   "ml:jaguar:19-01-2022-15-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dfbde69938e8780a"
+  "enriquecido": true,
+  "hashContenido": "8d949e43ce6e98c6"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10006652"
 }

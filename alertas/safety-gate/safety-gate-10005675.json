@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "BMW Motorrad"
    ],
    "modelos": [
-    "2T16",
-    "2T16r",
-    "e1*168/2013*00010*",
-    "e1*168/2013*00011*"
+    "2T16, 2T16r",
+    "e1*168/2013*00010*, e1*168/2013*00011*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.09.2015 - 29.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "28.09.2015 - 29.06.2022"
+   "fechasTexto": "28.09.2015 - 29.06.2022",
+   "envase": "No hay información"
   }
  ],
  "riesgo": {
@@ -65,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "NL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +89,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00421/22",
-   "mm:bmw-motorrad:2t16",
-   "mm:bmw-motorrad:2t16r",
-   "mm:bmw-motorrad:e1-168-2013-00010",
-   "mm:bmw-motorrad:e1-168-2013-00011"
+   "mm:bmw-motorrad:2t16-2t16r",
+   "mm:bmw-motorrad:e1-168-2013-00010-e1-168-2013-00011",
+   "ml:bmw-motorrad:28-09-2015-29-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fab74ca48716adae"
+  "enriquecido": true,
+  "hashContenido": "5645bd9f518aa734"
  },
  "slug": "moto-bmw-motorrad-safety-gate-10005675"
 }

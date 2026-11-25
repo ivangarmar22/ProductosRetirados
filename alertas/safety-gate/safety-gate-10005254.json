@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -38,12 +38,16 @@
    ],
    "lotes": [
     {
-     "numero": "20mg/ml HY21SC010Aexpiry date 01/08/23"
+     "numero": "20mg/ml HY21SC010A"
+    },
+    {
+     "numero": "expiry date 01/08/23"
     }
    ],
    "ean": [],
    "descripcion": "Cigarrillo electrónico desechable de un solo uso que contiene nicotina que contiene líquido (volumen 2 ml).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja rectangular en varios colores dependiendo del sabor."
   }
  ],
  "riesgo": {
@@ -100,15 +104,16 @@
    "mm:ultimate-bar-20-mg-ml:lemon-twist",
    "mm:ultimate-bar-20-mg-ml:orange-soda",
    "mm:ultimate-bar-20-mg-ml:pineapple-crush",
-   "ml:ultimate-bar-20-mg-ml:20mg-ml-hy21sc010aexpiry-date-01-08-23"
+   "ml:ultimate-bar-20-mg-ml:20mg-ml-hy21sc010a",
+   "ml:ultimate-bar-20-mg-ml:expiry-date-01-08-23"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9376d492ffb90b46"
+  "enriquecido": true,
+  "hashContenido": "b4e47a58f880ef9d"
  },
  "slug": "cigarrillo-electronico-desechable-ultimate-bar-20-mg-ml-safety-gate-10005254"
 }

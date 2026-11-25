@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "SC79",
     "e4*168/2013*00075*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.12.2019 - 01.05.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "05.12.2019 - 01.05.2021"
+   "fechasTexto": "05.12.2019 - 01.05.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "HU",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +83,16 @@
   "claves": [
    "ref:A12/01181/22",
    "mm:honda:sc79",
-   "mm:honda:e4-168-2013-00075-02"
+   "mm:honda:e4-168-2013-00075-02",
+   "ml:honda:05-12-2019-01-05-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32254c154e36266d"
+  "enriquecido": true,
+  "hashContenido": "a69b8754380a286d"
  },
  "slug": "moto-honda-safety-gate-10006588"
 }

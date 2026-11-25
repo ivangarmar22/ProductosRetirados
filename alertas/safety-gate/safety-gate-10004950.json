@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "BK1551MX40SS295"
+     "numero": "BK1551MX40"
+    },
+    {
+     "numero": "SS295"
     }
    ],
    "ean": [],
    "descripcion": "Tinta de tatuaje, también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanco con tapa roja, embalaje exterior de cartón blanco y azul."
   }
  ],
  "riesgo": {
@@ -91,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01882/21",
-   "ml:intenze-tattoo-ink:bk1551mx40ss295"
+   "ml:intenze-tattoo-ink:bk1551mx40",
+   "ml:intenze-tattoo-ink:ss295"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2a18e68c959c472b"
+  "enriquecido": true,
+  "hashContenido": "43787dc7db0b7c03"
  },
  "slug": "tinta-de-tatuaje-intenze-tattoo-ink-safety-gate-10004950"
 }

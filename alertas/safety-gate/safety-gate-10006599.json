@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "204 X",
     "e1*2001/116*0480*41"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.05.2021- 12.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo, clase EQC (BR 293)",
-   "fechasTexto": "26.05.2021- 12.07.2021"
+   "fechasTexto": "26.05.2021- 12.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +87,16 @@
   "claves": [
    "ref:A12/01180/22",
    "mm:mercedes-benz:204-x",
-   "mm:mercedes-benz:e1-2001-116-0480-41"
+   "mm:mercedes-benz:e1-2001-116-0480-41",
+   "ml:mercedes-benz:26-05-2021-12-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "08d7003a17192c32"
+  "enriquecido": true,
+  "hashContenido": "e2b1c0394b3f972c"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006599"
 }

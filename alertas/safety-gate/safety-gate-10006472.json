@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,7 +32,8 @@
     "8424050001213"
    ],
    "descripcion": "Mezcla de magnesio y colofonia líquida utilizada para la escalada en roca o el montañismo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se envasa en un frasco de 250 ml."
   }
  ],
  "riesgo": {
@@ -71,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "16c52693d50dd0f0"
+  "enriquecido": true,
+  "hashContenido": "452e286bf0f43b9d"
  },
  "slug": "tiza-de-escalada-climbing-technology-safety-gate-10006472"
 }

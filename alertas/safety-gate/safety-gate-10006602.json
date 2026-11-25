@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "2-480-16.8HCH – 469"
+     "numero": "2-480-16.8"
+    },
+    {
+     "numero": "HCH – 469"
     }
    ],
    "ean": [
     "8410166404697"
    ],
    "descripcion": "Mangas anaranjadas inflables con cuadros (estrella de tinte) y con inscripción negra «ARRAY OF STARS, STARS TOYS, roll-ups, edad 1-6 años». Tamaño 8 x 6 pulgadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico con información en el interior de un folleto. El etiquetado frontal en el paquete indica más de 3 años, mientras que en la etiqueta blanca 18 meses."
   }
  ],
  "riesgo": {
@@ -82,15 +86,16 @@
   "claves": [
    "ref:A12/01191/22",
    "ean:8410166404697",
-   "ml:numerous-star:2-480-16-8hch-469"
+   "ml:numerous-star:2-480-16-8",
+   "ml:numerous-star:hch-469"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d005cdba5969529c"
+  "enriquecido": true,
+  "hashContenido": "8c0b4cbfa704f78c"
  },
  "slug": "brazaletes-inflables-numerous-star-safety-gate-10006602"
 }

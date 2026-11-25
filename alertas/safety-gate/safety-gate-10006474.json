@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "LS",
     "e11*2001/116*0243*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.05.2009 - 28.03.2011"
+    }
+   ],
    "ean": [],
    "descripcion": "Los automóviles afectados pertenecen a los coches con las especificaciones «Range Rover Sport Non-Autobiography».",
-   "fechasTexto": "20.05.2009 - 28.03.2011"
+   "fechasTexto": "20.05.2009 - 28.03.2011",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +80,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01050/22",
-   "mm:land-rover:e11-2001-116-0243"
+   "mm:land-rover:e11-2001-116-0243",
+   "ml:land-rover:20-05-2009-28-03-2011"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "018f6e2cf54295c7"
+  "enriquecido": true,
+  "hashContenido": "0c6b95f7e35a2767"
  },
  "slug": "coche-de-pasajeros-land-rover-safety-gate-10006474"
 }

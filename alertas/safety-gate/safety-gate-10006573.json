@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-17"
  },
  "categoria": {
   "literal": "Otros - Hamaca",
@@ -32,12 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "40614625145934061462514852"
+     "numero": "4061462514593"
+    },
+    {
+     "numero": "4061462514852"
     }
    ],
    "ean": [],
    "descripcion": "Hamaca portátil con soporte, un modelo con borde azul y el otro con borde verde.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,15 +93,16 @@
    "ref:INFO/00115/22",
    "mm:adventuridge:flx-fhm-s01",
    "mm:adventuridge:flx-fhm-s02",
-   "ml:adventuridge:40614625145934061462514852"
+   "ml:adventuridge:4061462514593",
+   "ml:adventuridge:4061462514852"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bfc483bc519346f7"
+  "enriquecido": true,
+  "hashContenido": "ec06a25741531112"
  },
  "slug": "hamaca-adventuridge-safety-gate-10006573"
 }

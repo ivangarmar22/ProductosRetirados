@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "LX230A",
     "e1*168/2013*00166*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2020 - 31.08.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "01.01.2020 - 31.08.2020"
+   "fechasTexto": "01.01.2020 - 31.08.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Indonesia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "GR",
+   "HR",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +91,16 @@
   "claves": [
    "ref:A12/01225/22",
    "mm:kawasaki:lx230a",
-   "mm:kawasaki:e1-168-2013-00166-00"
+   "mm:kawasaki:e1-168-2013-00166-00",
+   "ml:kawasaki:01-01-2020-31-08-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "be3f40dd79990476"
+  "enriquecido": true,
+  "hashContenido": "b2c292c29fe5f432"
  },
  "slug": "moto-kawasaki-safety-gate-10006488"
 }

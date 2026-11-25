@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-17"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -45,7 +45,8 @@
     "5059340257228"
    ],
    "descripcion": "Armario montado en la pared y gabinete de baño independiente con espejo en la puerta. Cada mueble es en colores blanco satinado, azul satinado y gris satinado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,7 +77,10 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Rumanía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "RO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -127,11 +131,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "497bcd421735ee7b"
+  "enriquecido": true,
+  "hashContenido": "56a3e48bbd8acacf"
  },
  "slug": "gabinete-con-espejo-goodhome-safety-gate-10006270"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "5999860554431"
    ],
    "descripcion": "Araña de juguete hecha de material plástico duro rompible con 2 aberturas. Dentro de la araña hay tres figuras de cocodrilo y langostas hechas de material plástico blando.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de plástico con respaldo de papel."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2ae09790e971ce23"
+  "enriquecido": true,
+  "hashContenido": "89a4649554367afe"
  },
  "slug": "juguete-expandible-surprise-spider-safety-gate-10006543"
 }

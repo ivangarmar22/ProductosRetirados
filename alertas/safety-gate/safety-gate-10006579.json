@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E130021915"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.06.2022- 17.07.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumático con un identificador único (número DOT) 1DN6Y AC9W, que se muestra en el flanco del neumático.",
-   "fechasTexto": "20.06.2022- 17.07.2022"
+   "fechasTexto": "20.06.2022- 17.07.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01227/22",
-   "mm:goodyear:e130021915"
+   "mm:goodyear:e130021915",
+   "ml:goodyear:20-06-2022-17-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b04517df50273dd4"
+  "enriquecido": true,
+  "hashContenido": "a09a219791d801c7"
  },
  "slug": "neumatico-del-remolque-del-camion-goodyear-safety-gate-10006579"
 }

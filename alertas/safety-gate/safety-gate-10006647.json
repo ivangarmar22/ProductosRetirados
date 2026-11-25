@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*167/2013*00006"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07/2021 — 06/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor agrícola",
-   "fechasTexto": "07/2021 — 06/2022"
+   "fechasTexto": "07/2021 — 06/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "HU",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01269/22",
-   "mm:claas:e2-167-2013-00006"
+   "mm:claas:e2-167-2013-00006",
+   "ml:claas:07-2021-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00614047a2a370cb"
+  "enriquecido": true,
+  "hashContenido": "fe98962b00ad5439"
  },
  "slug": "tractor-agricola-claas-safety-gate-10006647"
 }

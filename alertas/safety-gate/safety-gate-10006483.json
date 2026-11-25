@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,17 +29,15 @@
    ],
    "lotes": [
     {
-     "numero": "20200601"
-    },
-    {
-     "numero": "20200401"
+     "numero": "20200601; 20200401"
     }
    ],
    "ean": [
     "5902802913302"
    ],
    "descripcion": "Cubo de bola que consta de 216 bolas magnéticas negras con un tamaño de 5 mm cada una, con 36 bolas por lado. El producto se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Para el producto con número de serie 20200401, las bolas están selladas en plástico, para el producto con número de serie 20200601, el cubo se inserta en una caja de plástico con una tapa bisagrada. Además, ambos modelos se colocan en una caja de espuma en una caja de estaño con una tapa con una ventana transparente."
   }
  ],
  "riesgo": {
@@ -69,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b839b62a7a27a602"
+  "enriquecido": true,
+  "hashContenido": "2453cfddab71a88a"
  },
  "slug": "bolas-magneticas-magneticke-kulicky-neocube-5-mm-216-ks-cerna-safety-gate-10006483"
 }

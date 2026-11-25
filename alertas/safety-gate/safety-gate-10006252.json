@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "SENZHEN"
    ],
    "modelos": [
-    "TC33QC30",
-    "YE20566"
+    "TC33QC30, YE20566"
    ],
    "lotes": [],
    "ean": [
     "5680800205666"
    ],
    "descripcion": "Cargador de batería blanco con 1 puerto USB.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana transparente."
   }
  ],
  "riesgo": {
@@ -97,16 +97,15 @@
   "claves": [
    "ref:A11/00095/22",
    "ean:5680800205666",
-   "mm:senzhen:tc33qc30",
-   "mm:senzhen:ye20566"
+   "mm:senzhen:tc33qc30-ye20566"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0ce2a53a6206ccf4"
+  "enriquecido": true,
+  "hashContenido": "62a2975f126fea13"
  },
  "slug": "cargador-usb-senzhen-safety-gate-10006252"
 }

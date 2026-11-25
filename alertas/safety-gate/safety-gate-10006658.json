@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Zaddox"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.09. 2021 - 20.04.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Manillar negro de 22 mm con tubo de dirección en aluminio",
-   "fechasTexto": "22.09. 2021 - 20.04.2022"
+   "fechasTexto": "22.09. 2021 - 20.04.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +83,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01253/22"
+   "ref:A12/01253/22",
+   "ml:zaddox:22-09-2021-20-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "20d3b8ccf382792c"
+  "enriquecido": true,
+  "hashContenido": "3f67ef3e5b572090"
  },
  "slug": "motocicleta-parte-de-repuesto-zaddox-safety-gate-10006658"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -38,7 +38,8 @@
     "5902628709226"
    ],
    "descripcion": "Recortador de setos inalámbrico con una tensión de 18V y una longitud de corte de barra de 410 mm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +74,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d7e37f4c3ab8031c"
+  "enriquecido": true,
+  "hashContenido": "7dcbf5f643937c1c"
  },
  "slug": "recortador-de-setos-dedra-safety-gate-10006532"
 }

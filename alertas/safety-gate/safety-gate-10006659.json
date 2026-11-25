@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "CBE"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.05.2021 - 24.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo/cargador de batería (para autocaravanas)",
-   "fechasTexto": "21.05.2021 - 24.03.2022"
+   "fechasTexto": "21.05.2021 - 24.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/01254/22"
+   "ref:A12/01254/22",
+   "ml:cbe:21-05-2021-24-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "13c553f6a4284bd4"
+  "enriquecido": true,
+  "hashContenido": "6ffe11ebf29e51e8"
  },
  "slug": "parte-del-vehiculo-cargador-de-bateria-cbe-safety-gate-10006659"
 }

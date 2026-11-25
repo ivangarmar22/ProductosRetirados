@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -24,7 +24,8 @@
   {
    "nombre": "Fashion Beautiful Girl",
    "marcas": [
-    "Manny, Torch"
+    "Manny",
+    "Torch"
    ],
    "modelos": [
     "C9130"
@@ -34,7 +35,8 @@
     "5881800091307"
    ],
    "descripcion": "Muñeca de plástico en un vestido colorido, con accesorios.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana"
   }
  ],
  "riesgo": {
@@ -104,15 +106,16 @@
   "claves": [
    "ref:A12/01270/22",
    "ean:5881800091307",
-   "mm:manny-torch:c9130"
+   "mm:manny:c9130",
+   "mm:torch:c9130"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "712a0abbeccab73f"
+  "enriquecido": true,
+  "hashContenido": "fce6df2ddd6ddfac"
  },
  "slug": "muneca-de-plastico-con-accesiores-manny-torch-safety-gate-10006717"
 }

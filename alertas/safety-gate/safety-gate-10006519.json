@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-04-22"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,24 @@
    ],
    "lotes": [
     {
-     "numero": "I01ED030331I02ED010331I02ED020331I09ED100930"
+     "numero": "I01ED030331"
+    },
+    {
+     "numero": "I02ED010331"
+    },
+    {
+     "numero": "I02ED020331"
+    },
+    {
+     "numero": "I09ED100930"
     }
    ],
    "ean": [
     "8003510005284"
    ],
    "descripcion": "Espuma de afeitar, 400 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "En una lata de aerosol."
   }
  ],
  "riesgo": {
@@ -68,7 +78,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +105,18 @@
    "ref:A12/01102/22",
    "ean:8003510005284",
    "mm:figaro:400-ml",
-   "ml:figaro:i01ed030331i02ed010331i02ed020331i09ed100930"
+   "ml:figaro:i01ed030331",
+   "ml:figaro:i02ed010331",
+   "ml:figaro:i02ed020331",
+   "ml:figaro:i09ed100930"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "23ff6306ce9e71f6"
+  "enriquecido": true,
+  "hashContenido": "07632ecaa5d91f06"
  },
  "slug": "espuma-de-afeitar-figaro-safety-gate-10006519"
 }

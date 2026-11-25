@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "El juguete del sonajero está en forma de maracas tradicionales: un mango con una pieza en forma de huevo como el cuerpo del sonajero, lleno de elementos de sacudidas. Las dimensiones son de aproximadamente 11 cm x 3,8 cm x 3,8 cm, la masa es de aproximadamente 25 g. El producto se vendió en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Los juguetes se suministran en una bolsa de entrega que contiene dos piezas en diferentes colores, cada pieza se embala en una bolsa de plástico individual."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "RO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ce9c7ff0cf171a88"
+  "enriquecido": true,
+  "hashContenido": "7b1e742af69700ad"
  },
  "slug": "juguete-de-cascabel-dylandy-safety-gate-10006561"
 }

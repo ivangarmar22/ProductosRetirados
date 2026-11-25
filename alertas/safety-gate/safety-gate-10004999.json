@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -31,14 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "Sold between September 2020 and November 2021"
+     "numero": "Sold between September 2020 and November 2021."
     }
    ],
    "ean": [
     "7332599132279"
    ],
    "descripcion": "Una silla de madera para niños en forma de conejito.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con una foto de la silla."
   }
  ],
  "riesgo": {
@@ -73,7 +74,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IS"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -115,11 +118,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cad2fb2b64157d8d"
+  "enriquecido": true,
+  "hashContenido": "b6381503e39b1861"
  },
  "slug": "silla-de-ninos-jabadabado-ab-safety-gate-10004999"
 }

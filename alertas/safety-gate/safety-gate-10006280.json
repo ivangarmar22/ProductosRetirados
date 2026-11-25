@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,27 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "F2X",
-    "F2GT",
-    "F1X",
-    "G3L",
-    "G3K",
-    "G4C",
-    "G234M",
-    "BMWi-1",
-    "e1*2007/46*1824",
-    "e1*2007/46*1677",
-    "e1*2007/46*1676",
-    "e1*2007/46*1947",
-    "e1*2007/46*2017",
-    "e1*2018/858*00122",
-    "e1*2018/858*00003",
-    "e1*2007/46*1213"
+    "F2X, F2GT, F1X, G3L, G3K, G4C, G234M, BMWi-1",
+    "e1*2007/46*1824, e1*2007/46*1677, e1*2007/46*1676, e1*2007/46*1947, e1*2007/46*2017, e1*2018/858*00122, e1*2018/858*00003, e1*2007/46*1213"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.01.2022 - 02.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "11.01.2022 - 02.03.2022"
+   "fechasTexto": "11.01.2022 - 02.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +70,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,30 +100,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00976/22",
-   "mm:bmw:f2x",
-   "mm:bmw:f2gt",
-   "mm:bmw:f1x",
-   "mm:bmw:g3l",
-   "mm:bmw:g3k",
-   "mm:bmw:g4c",
-   "mm:bmw:g234m",
-   "mm:bmw:bmwi-1",
-   "mm:bmw:e1-2007-46-1824",
-   "mm:bmw:e1-2007-46-1677",
-   "mm:bmw:e1-2007-46-1676",
-   "mm:bmw:e1-2007-46-1947",
-   "mm:bmw:e1-2007-46-2017",
-   "mm:bmw:e1-2018-858-00122",
-   "mm:bmw:e1-2018-858-00003",
-   "mm:bmw:e1-2007-46-1213"
+   "mm:bmw:f2x-f2gt-f1x-g3l-g3k-g4c-g234m-bmwi-1",
+   "mm:bmw:e1-2007-46-1824-e1-2007-46-1677-e1-2007-46-1676-e1-2007-46-1947-e1-2007-46-2017-e1-2018-858-00122-e1-2018-858-00003-e1-2007-46-1213",
+   "ml:bmw:11-01-2022-02-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "55e1560abf0bc72c"
+  "enriquecido": true,
+  "hashContenido": "1178de9c5d2c55f8"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10006280"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -35,12 +35,25 @@
    ],
    "lotes": [
     {
-     "numero": "Ananas Coconut WOOO68Ananas Glace WOOO71Choco Noisette WOO107Goyave Mango WOOO92Orange Glacee WOO110"
+     "numero": "Ananas Coconut WOOO68"
+    },
+    {
+     "numero": "Ananas Glace WOOO71"
+    },
+    {
+     "numero": "Choco Noisette WOO107"
+    },
+    {
+     "numero": "Goyave Mango WOOO92"
+    },
+    {
+     "numero": "Orange Glacee WOO110"
     }
    ],
    "ean": [],
    "descripcion": "Cigarrillo electrónico desechable con una capacidad de 600 inhalaciones y una concentración declarada de nicotina de 17 mg/ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja rectangular en varios colores dependiendo de los sabores."
   }
  ],
  "riesgo": {
@@ -94,15 +107,19 @@
    "mm:liquideo:choco-noisette",
    "mm:liquideo:goyave-mango",
    "mm:liquideo:orange-glacee",
-   "ml:liquideo:ananas-coconut-wooo68ananas-glace-wooo71choco-noisette-woo107goyave-mango-wooo92orange-glacee-woo110"
+   "ml:liquideo:ananas-coconut-wooo68",
+   "ml:liquideo:ananas-glace-wooo71",
+   "ml:liquideo:choco-noisette-woo107",
+   "ml:liquideo:goyave-mango-wooo92",
+   "ml:liquideo:orange-glacee-woo110"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2779b4ee943cb777"
+  "enriquecido": true,
+  "hashContenido": "1f0327c497659bf8"
  },
  "slug": "cigarrillo-electronico-desechable-liquideo-safety-gate-10006576"
 }

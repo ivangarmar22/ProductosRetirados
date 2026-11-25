@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,12 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "0A2723-20038A19OC1209-20086B131"
+     "numero": "0A2723-20038A19"
+    },
+    {
+     "numero": "OC1209-20086B131"
     }
    ],
-   "ean": [],
+   "ean": [
+    "896364002664"
+   ],
    "descripcion": "Constructor de enlace restaurador para cabello dañado (100 y 250 ml). El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de plástico blanco suave con una tapa abatible."
   }
  ],
  "riesgo": {
@@ -66,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,16 +97,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01124/22",
+   "ean:896364002664",
    "mm:olaplex:no-3",
-   "ml:olaplex:0a2723-20038a19oc1209-20086b131"
+   "ml:olaplex:0a2723-20038a19",
+   "ml:olaplex:oc1209-20086b131"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1a905beca994c77a"
+  "enriquecido": true,
+  "hashContenido": "9f0a86a3218ba8d8"
  },
  "slug": "locion-para-el-cabello-olaplex-safety-gate-10006555"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,39 +27,19 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*0294*15-16",
-    "e1*2007/46*0299*07",
-    "e1*2007/46*0300*18",
-    "e1*2007/46*0301*18+20",
-    "e1*2007/46*0304*09",
-    "e1*2007/46*0305*14",
-    "e1*2007/46*0308*08-10",
-    "e1*2007/46*1760*04",
-    "906BA50",
-    "906BA35",
-    "906BB35",
-    "906BB50/4x4",
-    "906BB35/4x4",
-    "906BA50/4x4",
-    "KL3A4",
-    "FL3A4",
-    "FL3A5",
-    "639/2",
-    "639/4",
-    "639/5",
-    "639",
-    "e1*2007/46*1761*04",
-    "e1*2007/46*1763*04",
-    "e1*2007/46*0457*27",
-    "e1*2007/46*0458*06",
-    "*11",
-    "e1*2007/46*1459*14",
-    "e9*2001/116*0048*06"
+    "e1*2007/46*0294*15-16, e1*2007/46*0299*07, e1*2007/46*0300*18, e1*2007/46*0301*18+20, e1*2007/46*0304*09, e1*2007/46*0305*14, e1*2007/46*0308*08-10, e1*2007/46*1760*04,",
+    "906BA50, 906BA35, 906BB35, 906BB50/4x4, 906BB35/4x4, 906BA50/4x4, KL3A4, FL3A4, FL3A5, 639/2, 639/4, 639/5, 639",
+    "e1*2007/46*1761*04, e1*2007/46*1763*04, e1*2007/46*0457*27, e1*2007/46*0458*06, *11, e1*2007/46*1459*14, e9*2001/116*0048*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.01.2005 - 10.06.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "14.01.2005 - 10.06.2021"
+   "fechasTexto": "14.01.2005 - 10.06.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -89,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,41 +83,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01072/22",
-   "mm:mercedes-benz:e1-2007-46-0294-15-16",
-   "mm:mercedes-benz:e1-2007-46-0299-07",
-   "mm:mercedes-benz:e1-2007-46-0300-18",
-   "mm:mercedes-benz:e1-2007-46-0301-18-20",
-   "mm:mercedes-benz:e1-2007-46-0304-09",
-   "mm:mercedes-benz:e1-2007-46-0305-14",
-   "mm:mercedes-benz:e1-2007-46-0308-08-10",
-   "mm:mercedes-benz:e1-2007-46-1760-04",
-   "mm:mercedes-benz:906ba50",
-   "mm:mercedes-benz:906ba35",
-   "mm:mercedes-benz:906bb35",
-   "mm:mercedes-benz:906bb50-4x4",
-   "mm:mercedes-benz:906bb35-4x4",
-   "mm:mercedes-benz:906ba50-4x4",
-   "mm:mercedes-benz:kl3a4",
-   "mm:mercedes-benz:fl3a4",
-   "mm:mercedes-benz:fl3a5",
-   "mm:mercedes-benz:639-2",
-   "mm:mercedes-benz:639-4",
-   "mm:mercedes-benz:639-5",
-   "mm:mercedes-benz:639",
-   "mm:mercedes-benz:e1-2007-46-1761-04",
-   "mm:mercedes-benz:e1-2007-46-1763-04",
-   "mm:mercedes-benz:e1-2007-46-0457-27",
-   "mm:mercedes-benz:e1-2007-46-0458-06",
-   "mm:mercedes-benz:e1-2007-46-1459-14",
-   "mm:mercedes-benz:e9-2001-116-0048-06"
+   "mm:mercedes-benz:e1-2007-46-0294-15-16-e1-2007-46-0299-07-e1-2007-46-0300-18-e1-2007-46-0301-18-20-e1-2007-46-0304-09-e1-2007-46-0305-14-e1-2007-46-0308-08-10-e1-2007-46-1760-04",
+   "mm:mercedes-benz:906ba50-906ba35-906bb35-906bb50-4x4-906bb35-4x4-906ba50-4x4-kl3a4-fl3a4-fl3a5-639-2-639-4-639-5-639",
+   "mm:mercedes-benz:e1-2007-46-1761-04-e1-2007-46-1763-04-e1-2007-46-0457-27-e1-2007-46-0458-06-11-e1-2007-46-1459-14-e9-2001-116-0048-06",
+   "ml:mercedes-benz:14-01-2005-10-06-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b37899f0e72bf429"
+  "enriquecido": true,
+  "hashContenido": "08b3f1ab9219e1a0"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006477"
 }

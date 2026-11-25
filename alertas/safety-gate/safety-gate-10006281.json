@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,18 @@
     "Mini"
    ],
    "modelos": [
-    "FMK",
-    "FML4",
-    "FMCA",
-    "FMX",
-    "e1*2007/46*1683",
-    "e1*2007/46*1680",
-    "e1*2007/46*1679",
-    "e1*2007/46*1682"
+    "FMK, FML4, FMCA, FMX",
+    "e1*2007/46*1683, e1*2007/46*1680, e1*2007/46*1679, e1*2007/46*1682"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.01.2022 - 03.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "12.01.2022 - 03.03.2022"
+   "fechasTexto": "12.01.2022 - 03.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +70,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,22 +98,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00975/22",
-   "mm:mini:fmk",
-   "mm:mini:fml4",
-   "mm:mini:fmca",
-   "mm:mini:fmx",
-   "mm:mini:e1-2007-46-1683",
-   "mm:mini:e1-2007-46-1680",
-   "mm:mini:e1-2007-46-1679",
-   "mm:mini:e1-2007-46-1682"
+   "mm:mini:fmk-fml4-fmca-fmx",
+   "mm:mini:e1-2007-46-1683-e1-2007-46-1680-e1-2007-46-1679-e1-2007-46-1682",
+   "ml:mini:12-01-2022-03-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b178f2932f5004a2"
+  "enriquecido": true,
+  "hashContenido": "66d65b00598e2e00"
  },
  "slug": "coche-de-pasajeros-mini-safety-gate-10006281"
 }

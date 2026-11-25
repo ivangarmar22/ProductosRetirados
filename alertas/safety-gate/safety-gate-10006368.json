@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "KBA 53510",
     "ROOKIE 10520"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.03.2020 - 30.11.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Ruedas especiales para turismos.",
-   "fechasTexto": "1.03.2020 - 30.11.2020"
+   "fechasTexto": "1.03.2020 - 30.11.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,15 +84,16 @@
   "claves": [
    "ref:A12/01035/22",
    "mm:d-cars-performance:kba-53510",
-   "mm:d-cars-performance:rookie-10520"
+   "mm:d-cars-performance:rookie-10520",
+   "ml:d-cars-performance:1-03-2020-30-11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df99bbd357608b95"
+  "enriquecido": true,
+  "hashContenido": "fc6bdc06d7425f90"
  },
  "slug": "parte-del-vehiculo-ruedas-de-recambio-d-cars-performance-gmbh-safety-gate-10006368"
 }

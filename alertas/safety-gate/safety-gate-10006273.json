@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Max 650 and Max 1000R"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de cuatro ruedas todo terreno",
-   "fechasTexto": "2022"
+   "fechasTexto": "2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "FI",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01134/22",
-   "mm:can-am:max-650-and-max-1000r"
+   "mm:can-am:max-650-and-max-1000r",
+   "ml:can-am:2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3099cee5aa8ad6ae"
+  "enriquecido": true,
+  "hashContenido": "67951de41bd7f57d"
  },
  "slug": "vehiculo-de-cuatro-ruedas-todo-terreno-can-am-safety-gate-10006273"
 }

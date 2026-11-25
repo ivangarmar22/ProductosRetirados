@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Ferrari"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02/2005 - 07/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "612 Scaglietti;F430;F430 Spider;F430 Scuderia;Scuderia 16M;LaFerrari;LaFerrari Aperta;California;California T;FF;F12 Berlinetta; F12 TDF; GTC4 Lusso; GTC4 Lusso T; 488 Pista; 488; Pista Spider;812 Superfast; 812 GTS; 812 Competizione; Portofino; Portofino M;Roma;Monza SP1;Monza SP2;F8 Tributo;F8 Spider",
-   "fechasTexto": "02/2005 - 07/2022"
+   "fechasTexto": "02/2005 - 07/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,15 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "HU",
+   "NL",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,15 +115,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01255/22"
+   "ref:A12/01255/22",
+   "ml:ferrari:02-2005-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "047a1ff9ef1083f5"
+  "enriquecido": true,
+  "hashContenido": "ce742e375d699dbf"
  },
  "slug": "coche-de-pasajeros-ferrari-safety-gate-10006594"
 }

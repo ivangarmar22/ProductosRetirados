@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*0785*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10/2020 – 01/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero, año modelo: 2019.",
-   "fechasTexto": "10/2020 – 01/2021"
+   "fechasTexto": "10/2020 – 01/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Portugal",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FR",
+   "GR",
+   "HR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01228/22",
-   "mm:mitsubishi-fuso:e4-2007-46-0785-09"
+   "mm:mitsubishi-fuso:e4-2007-46-0785-09",
+   "ml:mitsubishi-fuso:10-2020-01-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "48b94e15718c4ad7"
+  "enriquecido": true,
+  "hashContenido": "1b4be1d051d9bad8"
  },
  "slug": "vehiculo-comercial-ligero-mitsubishi-fuso-safety-gate-10006641"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "ABE: KBA 91663",
     "BKH"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "8.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Adaptador de palanca de freno",
-   "fechasTexto": "8.08.2021"
+   "fechasTexto": "8.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +96,16 @@
   "claves": [
    "ref:A12/01252/22",
    "mm:v-trec:abe-kba-91663",
-   "mm:v-trec:bkh"
+   "mm:v-trec:bkh",
+   "ml:v-trec:8-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e97f9f2218557cda"
+  "enriquecido": true,
+  "hashContenido": "0b64124736c1196f"
  },
  "slug": "motocicleta-parte-de-repuesto-v-trec-safety-gate-10006670"
 }

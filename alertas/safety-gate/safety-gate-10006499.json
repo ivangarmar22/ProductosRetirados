@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "MY 2022 RYKER"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25/2/2021 - 5/7/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta de tres ruedas",
-   "fechasTexto": "25/2/2021 - 5/7/2022"
+   "fechasTexto": "25/2/2021 - 5/7/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FR",
+   "LU",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01131/22",
-   "mm:can-am:my-2022-ryker"
+   "mm:can-am:my-2022-ryker",
+   "ml:can-am:25-2-2021-5-7-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eda83a295913f35a"
+  "enriquecido": true,
+  "hashContenido": "348fa1181b00bc2b"
  },
  "slug": "motocicleta-de-tres-ruedas-can-am-safety-gate-10006499"
 }

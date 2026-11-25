@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Temared"
    ],
    "modelos": [
-    "4",
-    "W",
-    "2",
-    "e27*2007/46*0239*02-*03",
-    "e27*2007/46*0296*02-*03",
-    "e32*2007/46*0083*01"
+    "4, W, 2",
+    "e27*2007/46*0239*02-*03, e27*2007/46*0296*02-*03, e32*2007/46*0083*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.07.2019 - 18.02.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Tráiler",
-   "fechasTexto": "09.07.2019 - 18.02.2020"
+   "fechasTexto": "09.07.2019 - 18.02.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "NO",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,17 +87,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01173/22",
-   "mm:temared:e27-2007-46-0239-02-03",
-   "mm:temared:e27-2007-46-0296-02-03",
-   "mm:temared:e32-2007-46-0083-01"
+   "mm:temared:4-w-2",
+   "mm:temared:e27-2007-46-0239-02-03-e27-2007-46-0296-02-03-e32-2007-46-0083-01",
+   "ml:temared:09-07-2019-18-02-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b51067187f3f33e3"
+  "enriquecido": true,
+  "hashContenido": "7b217bd8d7e9a655"
  },
  "slug": "trailer-temared-safety-gate-10006524"
 }

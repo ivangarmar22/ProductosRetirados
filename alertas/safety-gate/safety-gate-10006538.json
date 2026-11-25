@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,17 @@
     "Nexen Tire"
    ],
    "modelos": [
-    "E4-30R-02/20-114134-00",
-    "E4-30R-0296000-00",
-    "E4-30R-0293535-00",
-    "E4-30R-0294978-00",
-    "E4-30R-0294979-00"
+    "E4-30R-02/20-114134-00, E4-30R-0296000-00, E4-30R-0293535-00, E4-30R-0294978-00, E4-30R-0294979-00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.07.2020 - 23.07.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumático de coche",
-   "fechasTexto": "21.07.2020 - 23.07.2020"
+   "fechasTexto": "21.07.2020 - 23.07.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,19 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01132/22",
-   "mm:nexen-tire:e4-30r-02-20-114134-00",
-   "mm:nexen-tire:e4-30r-0296000-00",
-   "mm:nexen-tire:e4-30r-0293535-00",
-   "mm:nexen-tire:e4-30r-0294978-00",
-   "mm:nexen-tire:e4-30r-0294979-00"
+   "mm:nexen-tire:e4-30r-02-20-114134-00-e4-30r-0296000-00-e4-30r-0293535-00-e4-30r-0294978-00-e4-30r-0294979-00",
+   "ml:nexen-tire:21-07-2020-23-07-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ebb55f305ba36a6a"
+  "enriquecido": true,
+  "hashContenido": "c922bacf5e97c609"
  },
  "slug": "neumatico-de-coche-nexen-tire-safety-gate-10006538"
 }

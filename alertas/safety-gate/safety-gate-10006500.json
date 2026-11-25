@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*2007/46*6879** 00 and 01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "October 2020 to January 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús equipado con batería LMP IT3",
-   "fechasTexto": "October 2020 to January 2022"
+   "fechasTexto": "October 2020 to January 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01089/22",
-   "mm:bluebus:e9-2007-46-6879-00-and-01"
+   "mm:bluebus:e9-2007-46-6879-00-and-01",
+   "ml:bluebus:october-2020-to-january-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0beab4a5bdc7351b"
+  "enriquecido": true,
+  "hashContenido": "fc0681d7a948e178"
  },
  "slug": "autobus-bluebus-safety-gate-10006500"
 }

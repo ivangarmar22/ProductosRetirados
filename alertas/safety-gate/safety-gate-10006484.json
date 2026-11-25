@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "LOT 1001"
-    },
-    {
-     "numero": "EXP: 01/03/2024"
+     "numero": "LOT 1001, EXP: 01/03/2024"
     }
    ],
    "ean": [
     "8681682476394"
    ],
    "descripcion": "Polvo blanco, perfumado",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico redonda con impresión, tapón de tornillo, con etiqueta adicional"
   }
  ],
  "riesgo": {
@@ -85,16 +83,15 @@
   "claves": [
    "ref:A12/01088/22",
    "ean:8681682476394",
-   "ml:enchanteur:lot-1001",
-   "ml:enchanteur:exp-01-03-2024"
+   "ml:enchanteur:lot-1001-exp-01-03-2024"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9fdee035db7dacb2"
+  "enriquecido": true,
+  "hashContenido": "1bb6620d5a716566"
  },
  "slug": "polvo-del-cuerpo-enchanteur-safety-gate-10006484"
 }

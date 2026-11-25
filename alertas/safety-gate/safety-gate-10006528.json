@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-08-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -27,15 +27,15 @@
     "STRUHM"
    ],
    "modelos": [
-    "Daria WLL GU 10 BLACK",
-    "INDEX: 03953"
+    "Daria WLL GU 10 BLACK, INDEX: 03953"
    ],
    "lotes": [],
    "ean": [
     "5901477339530"
    ],
    "descripcion": "Lámpara de pared o techo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -69,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,16 +97,15 @@
   "claves": [
    "ref:A12/01108/22",
    "ean:5901477339530",
-   "mm:struhm:daria-wll-gu-10-black",
-   "mm:struhm:index-03953"
+   "mm:struhm:daria-wll-gu-10-black-index-03953"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c008b54b18b388e8"
+  "enriquecido": true,
+  "hashContenido": "a3d2a666df163726"
  },
  "slug": "lampara-de-techo-struhm-safety-gate-10006528"
 }

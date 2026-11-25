@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Herramientas manuales",
@@ -27,8 +27,7 @@
     "HAUSHALT"
    ],
    "modelos": [
-    "1914",
-    "123000724"
+    "1914, 123000724"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "3871880001558"
    ],
    "descripcion": "Escalera de escalón de aluminio con 3 escalones y plataforma, fabricada en septiembre de 2021.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en un embalaje de polietileno transparente. En el lateral, hay símbolos gráficos, que dan información sobre el uso y el estándar."
   }
  ],
  "riesgo": {
@@ -89,17 +89,16 @@
   "claves": [
    "ref:A12/00966/22",
    "ean:3871880001558",
-   "mm:haushalt:1914",
-   "mm:haushalt:123000724",
+   "mm:haushalt:1914-123000724",
    "ml:haushalt:09-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3b3f5156f5418844"
+  "enriquecido": true,
+  "hashContenido": "9a0a345be7dfbd2d"
  },
  "slug": "escalera-de-escalera-haushalt-safety-gate-10006116"
 }
