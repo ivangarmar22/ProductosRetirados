@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0531*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.03.2022 - 2.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2.03.2022 - 2.03.2022"
+   "fechasTexto": "2.03.2022 - 2.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,15 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01509/22",
-   "mm:citroen:e2-2007-46-0531-20"
+   "mm:citroen:e2-2007-46-0531-20",
+   "ml:citroen:2-03-2022-2-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bb0723f24188d66a"
+  "enriquecido": true,
+  "hashContenido": "8f5a2e2968986bae"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10007003"
 }

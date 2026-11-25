@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,13 +24,19 @@
   {
    "nombre": "KTM 450 XC-F; HQV FC 250; HQV FC 350",
    "marcas": [
-    "Husqvarna, KTM"
+    "Husqvarna",
+    "KTM"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicletas (motocicletas de competencia no destinadas a la vía pública), año modelo 2023",
-   "fechasTexto": "2022"
+   "fechasTexto": "2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +66,12 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +85,17 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/01453/22"
+   "ref:A12/01453/22",
+   "ml:husqvarna:2022",
+   "ml:ktm:2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9e191eafe64e9a46"
+  "enriquecido": true,
+  "hashContenido": "ae1d6a56f97f0f1f"
  },
  "slug": "moto-husqvarna-ktm-safety-gate-10006985"
 }

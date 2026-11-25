@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Otros - Barbacoas",
@@ -31,14 +31,27 @@
    ],
    "lotes": [
     {
-     "numero": "DI101366 DI101585DI101586DI101590DI101595"
+     "numero": "DI101366"
+    },
+    {
+     "numero": "DI101585"
+    },
+    {
+     "numero": "DI101586"
+    },
+    {
+     "numero": "DI101590"
+    },
+    {
+     "numero": "DI101595"
     }
    ],
    "ean": [
     "8011469868263"
    ],
    "descripcion": "Ahumador de barbacoa con termómetro. El producto se vende en línea, en particular a través de Amazon con ASIN:B07N8XMMRW.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Cartón"
   }
  ],
  "riesgo": {
@@ -69,7 +82,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,15 +110,19 @@
    "ref:A12/01508/22",
    "ean:8011469868263",
    "mm:vounot:sku-2518146154596",
-   "ml:vounot:di101366-di101585di101586di101590di101595"
+   "ml:vounot:di101366",
+   "ml:vounot:di101585",
+   "ml:vounot:di101586",
+   "ml:vounot:di101590",
+   "ml:vounot:di101595"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b65830dfe7d004f4"
+  "enriquecido": true,
+  "hashContenido": "da3fe4a0217bc426"
  },
  "slug": "ahumador-de-barbacoa-vounot-safety-gate-10006944"
 }

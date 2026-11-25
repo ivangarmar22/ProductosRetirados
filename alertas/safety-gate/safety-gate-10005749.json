@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Olive Oil ORS Hair Relaxer",
    "marcas": [
-    "DABUR, Formerly Organic Root Stimulator"
+    "DABUR",
+    "Formerly Organic Root Stimulator"
    ],
    "modelos": [],
    "lotes": [
@@ -34,7 +35,8 @@
    ],
    "ean": [],
    "descripcion": "Loción para el cabello a base de aceite de oliva.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una caja de cartón verde."
   }
  ],
  "riesgo": {
@@ -87,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00445/22",
-   "ml:dabur-formerly-organic-root-stimulator:cd00038"
+   "ml:dabur:cd00038",
+   "ml:formerly-organic-root-stimulator:cd00038"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "06115a4de8033ad1"
+  "enriquecido": true,
+  "hashContenido": "78399056b5d57e27"
  },
  "slug": "locion-para-el-cabello-dabur-formerly-organic-root-stimulator-safety-gate-10005749"
 }

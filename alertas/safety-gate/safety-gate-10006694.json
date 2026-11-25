@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "BMWi-N",
-    "G4C",
-    "G7L",
-    "e1*2018/858*00109*",
-    "e1*2018/858*00122*",
-    "e1*2018/858*00154*"
+    "BMWi-N, G4C, G7L",
+    "e1*2018/858*00109*, e1*2018/858*00122*, e1*2018/858*00154*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.07.2021 - 08.07.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "05.07.2021 - 08.07.2022"
+   "fechasTexto": "05.07.2021 - 08.07.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IE",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01278/22",
-   "mm:bmw:bmwi-n",
-   "mm:bmw:g4c",
-   "mm:bmw:g7l",
-   "mm:bmw:e1-2018-858-00109",
-   "mm:bmw:e1-2018-858-00122",
-   "mm:bmw:e1-2018-858-00154"
+   "mm:bmw:bmwi-n-g4c-g7l",
+   "mm:bmw:e1-2018-858-00109-e1-2018-858-00122-e1-2018-858-00154",
+   "ml:bmw:05-07-2021-08-07-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8c95e2391c28c617"
+  "enriquecido": true,
+  "hashContenido": "ce2ca1d1776a27c7"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10006694"
 }

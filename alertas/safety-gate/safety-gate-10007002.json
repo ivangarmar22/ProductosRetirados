@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0533*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "2.03.2022"
+   "fechasTexto": "2.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01510/22",
-   "mm:opel:e2-2007-46-0533-20"
+   "mm:opel:e2-2007-46-0533-20",
+   "ml:opel:2-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c41780b0e2c9d657"
+  "enriquecido": true,
+  "hashContenido": "00b94c6103e2b06b"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10007002"
 }

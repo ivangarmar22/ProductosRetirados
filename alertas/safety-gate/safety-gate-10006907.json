@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e1*2001/116*0174*##",
     "e1*2001/116*0301*##"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2008 - 2009"
+    }
+   ],
    "ean": [],
    "descripcion": "VW POLO, FOX equipado con airbag TAKATA",
-   "fechasTexto": "2008 - 2009"
+   "fechasTexto": "2008 - 2009",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "GR",
+   "HR",
+   "HU",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,15 +87,16 @@
   "claves": [
    "ref:A12/01438/22",
    "mm:volkswagen:e1-2001-116-0174",
-   "mm:volkswagen:e1-2001-116-0301"
+   "mm:volkswagen:e1-2001-116-0301",
+   "ml:volkswagen:2008-2009"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "81dec329d3a18305"
+  "enriquecido": true,
+  "hashContenido": "646816f2530f7813"
  },
  "slug": "coche-de-pasajeros-volkswagen-safety-gate-10006907"
 }

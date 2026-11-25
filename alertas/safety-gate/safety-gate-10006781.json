@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -36,7 +36,8 @@
     "2000606843870"
    ],
    "descripcion": "Asiento de plástico inflable coloreado en forma de automóvil, con un volante de plástico en cuyo centro es un sonido que produce una bocina. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalado en una bolsa de plástico, dentro del paquete hay un folleto de papel con una imagen del producto e información sobre la inadecuación del producto para niños menores de tres años."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0dd53cf2a724942a"
+  "enriquecido": true,
+  "hashContenido": "b91178ac26b8a2d5"
  },
  "slug": "flotador-inflable-de-natacion-del-bebe-sea-700-safety-gate-10006781"
 }

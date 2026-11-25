@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-11-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-30"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Baba de juguete con paja adherida.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente, envuelto en una caja de cartón con una ventana."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c8613de34e556055"
+  "enriquecido": true,
+  "hashContenido": "d4068e001220987d"
  },
  "slug": "limo-de-juguete-johntoy-b-v-safety-gate-10007097"
 }

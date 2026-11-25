@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "50S15L",
     "E1*55R01/09*2422*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2014 - 05.11.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo, remolcador utilizado para conectar el semirremolque a un vehículo tractor.",
-   "fechasTexto": "01.01.2014 - 05.11.2020"
+   "fechasTexto": "01.01.2014 - 05.11.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +87,16 @@
   "claves": [
    "ref:A12/01309/22",
    "mm:saf:50s15l",
-   "mm:saf:e1-55r01-09-2422-01"
+   "mm:saf:e1-55r01-09-2422-01",
+   "ml:saf:01-01-2014-05-11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "140709f945dcde14"
+  "enriquecido": true,
+  "hashContenido": "196051d0758c7e45"
  },
  "slug": "parte-del-vehiculo-saf-safety-gate-10006733"
 }

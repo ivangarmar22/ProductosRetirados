@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -27,13 +27,13 @@
     "STP-STOPER"
    ],
    "modelos": [
-    "3248",
-    "9349"
+    "3248 / 9349"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "El conjunto consta de una sudadera negra y pantalón.El producto tiene cordones largos para atar en la zona de la cintura. Tamaño 10",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se embala en una bolsa de plástico transparente."
   }
  ],
  "riesgo": {
@@ -90,16 +90,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01472/22",
-   "mm:stp-stoper:3248",
-   "mm:stp-stoper:9349"
+   "mm:stp-stoper:3248-9349"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ac6c57bd498ed4bf"
+  "enriquecido": true,
+  "hashContenido": "2e112059991acd83"
  },
  "slug": "traje-deportivo-para-ninos-stp-stoper-safety-gate-10006986"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-20"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8719425387840"
    ],
    "descripcion": "Babygym que debe ser ensamblado. Se vende en línea, en particular a través de Bol.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "354ec23ae81048a0"
+  "enriquecido": true,
+  "hashContenido": "59694f01e78e68fd"
  },
  "slug": "gimnasio-para-bebes-eco-toys-safety-gate-10006729"
 }

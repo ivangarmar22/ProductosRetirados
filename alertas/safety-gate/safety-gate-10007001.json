@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "312",
     "e3*2007/46*0064*64"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.01.2022 - 03.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Fiat 500 1.0 Vehículos híbridos",
-   "fechasTexto": "26.01.2022 - 03.06.2022"
+   "fechasTexto": "26.01.2022 - 03.06.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +83,16 @@
   "claves": [
    "ref:A12/01449/22",
    "mm:fiat:312",
-   "mm:fiat:e3-2007-46-0064-64"
+   "mm:fiat:e3-2007-46-0064-64",
+   "ml:fiat:26-01-2022-03-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e45a2b60f0eb6ba6"
+  "enriquecido": true,
+  "hashContenido": "9a379fbf2dc08da3"
  },
  "slug": "coche-de-pasajeros-fiat-safety-gate-10007001"
 }

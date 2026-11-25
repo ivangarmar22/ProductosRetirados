@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-17"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Puf plegable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "15b13476288ca427"
+  "enriquecido": true,
+  "hashContenido": "a44501bb289fdc26"
  },
  "slug": "puf-plegable-pepco-safety-gate-10006797"
 }

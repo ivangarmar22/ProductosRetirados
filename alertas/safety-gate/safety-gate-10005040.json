@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "6972765500030"
    ],
    "descripcion": "Instrumentos de plástico azul. Producto vendido en línea, en particular a través de AliExpress: https://www.aliexpress.com/item/1005001896700575.html",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente."
   }
  ],
  "riesgo": {
@@ -65,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -108,11 +111,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bfbdcbc3a588ef16"
+  "enriquecido": true,
+  "hashContenido": "7dc6b8a46674bf7e"
  },
  "slug": "instrumentos-musicales-de-juguete-safety-gate-10005040"
 }

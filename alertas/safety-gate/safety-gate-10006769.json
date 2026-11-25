@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-17"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -34,7 +34,8 @@
     "4036021991405"
    ],
    "descripcion": "Sellador de silicona rojo con estabilidad de alta temperatura hasta 300.°C.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de blíster con cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "NL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db6672016a7dc919"
+  "enriquecido": true,
+  "hashContenido": "7fd4a8d3bc9776a7"
  },
  "slug": "sellador-de-silicona-mannol-safety-gate-10006769"
 }

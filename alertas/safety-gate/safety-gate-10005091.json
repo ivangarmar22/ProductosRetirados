@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2018/858*00001*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.10.2021 - 30.11.2021."
+    }
+   ],
    "ean": [],
    "descripcion": "— Modelo (Tipo): Vehículos Tucson (NX4e, NX4e HEV/PHEV) producidos en la planta checa; — De Vin: NX4e: de TMAJC81BHMJ132572 a TMAJB81AGNJ139795//— NX4e HEV/PHEV: de TMAJB812DNJ060495 a TMAJB812DNJ065431.",
-   "fechasTexto": "1.10.2021 - 30.11.2021."
+   "fechasTexto": "1.10.2021 - 30.11.2021.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IS",
+   "PL",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01843/21",
-   "mm:hyundai:e5-2018-858-00001-03"
+   "mm:hyundai:e5-2018-858-00001-03",
+   "ml:hyundai:1-10-2021-30-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "be1dd695eaae5a2c"
+  "enriquecido": true,
+  "hashContenido": "7a6f4cde9a908b77"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10005091"
 }

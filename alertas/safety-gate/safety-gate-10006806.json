@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,16 +28,17 @@
    ],
    "modelos": [
     "R2CW",
-    "e1*2018/858*00016*00",
-    "e1*2018/858*00016*01",
-    "e1*2018/858*00016*02",
-    "e1*2018/858*00016*03",
-    "e1*2018/858*00016*04"
+    "e1*2018/858*00016*00, e1*2018/858*00016*01, e1*2018/858*00016*02, e1*2018/858*00016*03, e1*2018/858*00016*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.10.2020 - 02.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros, Mercedes-Benz, Clase C Sedan, modelo serie 206",
-   "fechasTexto": "12.10.2020 - 02.06.2022"
+   "fechasTexto": "12.10.2020 - 02.06.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,23 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,19 +102,16 @@
   "claves": [
    "ref:A12/01395/22",
    "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:e1-2018-858-00016-00",
-   "mm:mercedes-benz:e1-2018-858-00016-01",
-   "mm:mercedes-benz:e1-2018-858-00016-02",
-   "mm:mercedes-benz:e1-2018-858-00016-03",
-   "mm:mercedes-benz:e1-2018-858-00016-04"
+   "mm:mercedes-benz:e1-2018-858-00016-00-e1-2018-858-00016-01-e1-2018-858-00016-02-e1-2018-858-00016-03-e1-2018-858-00016-04",
+   "ml:mercedes-benz:12-10-2020-02-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76bee14309e1f88e"
+  "enriquecido": true,
+  "hashContenido": "0e6ab61be133489b"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006806"
 }

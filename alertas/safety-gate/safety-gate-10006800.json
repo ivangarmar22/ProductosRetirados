@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R2CS",
     "e1*2018/858*00017*02-*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.07.2021 - 12.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Automóvil de pasajeros, Mercedes-Benz, Clase C (modelo serie 206)",
-   "fechasTexto": "02.07.2021 - 12.11.2021"
+   "fechasTexto": "02.07.2021 - 12.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +90,16 @@
   "claves": [
    "ref:A12/01347/22",
    "mm:mercedes-benz:r2cs",
-   "mm:mercedes-benz:e1-2018-858-00017-02-04"
+   "mm:mercedes-benz:e1-2018-858-00017-02-04",
+   "ml:mercedes-benz:02-07-2021-12-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7d8aab7404297c0f"
+  "enriquecido": true,
+  "hashContenido": "e08c3681c0a479ee"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006800"
 }

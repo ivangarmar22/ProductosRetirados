@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "00180600190607 EXP. 06/2022"
+     "numero": "00180600"
+    },
+    {
+     "numero": "190607 EXP. 06/2022."
     }
    ],
    "ean": [
     "8016543020056"
    ],
    "descripcion": "Crema corporal, volumen 200 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tarro de plástico blanco con un tapón de tornillo blanco."
   }
  ],
  "riesgo": {
@@ -66,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +96,16 @@
   "claves": [
    "ref:A12/01506/22",
    "ean:8016543020056",
-   "ml:marie-laurent-ml:00180600190607-exp-06-2022"
+   "ml:marie-laurent-ml:00180600",
+   "ml:marie-laurent-ml:190607-exp-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "69499c67f5feb87c"
+  "enriquecido": true,
+  "hashContenido": "ebca5ffefc110271"
  },
  "slug": "crema-del-cuerpo-marie-laurent-ml-safety-gate-10007032"
 }

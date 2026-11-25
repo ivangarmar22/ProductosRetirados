@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e11*2001/116*0323*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.11.2007 - 16.03.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "19.11.2007 - 16.03.2018"
+   "fechasTexto": "19.11.2007 - 16.03.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "GR",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01376/22",
-   "mm:jaguar-land-rover:e11-2001-116-0323"
+   "mm:jaguar-land-rover:e11-2001-116-0323",
+   "ml:jaguar-land-rover:19-11-2007-16-03-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e7890b772ac7f922"
+  "enriquecido": true,
+  "hashContenido": "3311a3fb4431e698"
  },
  "slug": "coche-de-pasajeros-jaguar-land-rover-limited-safety-gate-10006869"
 }

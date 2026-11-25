@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "F2B",
-    "e1*2007/46*1909*08",
-    "e1*2007/46*1909*09"
+    "e1*2007/46*1909*08, e1*2007/46*1909*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.10.2020 - 24.10.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Mercedes-Benz GLB (modelo serie 247)",
-   "fechasTexto": "19.10.2020 - 24.10.2020"
+   "fechasTexto": "19.10.2020 - 24.10.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +90,16 @@
   "claves": [
    "ref:A12/01426/22",
    "mm:mercedes-benz:f2b",
-   "mm:mercedes-benz:e1-2007-46-1909-08",
-   "mm:mercedes-benz:e1-2007-46-1909-09"
+   "mm:mercedes-benz:e1-2007-46-1909-08-e1-2007-46-1909-09",
+   "ml:mercedes-benz:19-10-2020-24-10-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bfd9ed64701e3c24"
+  "enriquecido": true,
+  "hashContenido": "1e2adcf4b99f091d"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006933"
 }

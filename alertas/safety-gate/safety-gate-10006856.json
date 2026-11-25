@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-21"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -34,7 +34,8 @@
     "5411212712714"
    ],
    "descripcion": "Lámpara portátil con pantalla esférica decorada con plumas blancas, equipada con tres pies ajustables. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "PL",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "10b30c7162356e95"
+  "enriquecido": true,
+  "hashContenido": "693d2cd15cee9e28"
  },
  "slug": "lampara-lucide-safety-gate-10006856"
 }

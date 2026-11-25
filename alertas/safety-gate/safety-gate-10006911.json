@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e1*168/2013*00011",
     "e1*168/2013*00010"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.03.2017 - 16.09.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "21.03.2017 - 16.09.2020"
+   "fechasTexto": "21.03.2017 - 16.09.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +82,16 @@
   "claves": [
    "ref:A12/01513/22",
    "mm:bmw:e1-168-2013-00011",
-   "mm:bmw:e1-168-2013-00010"
+   "mm:bmw:e1-168-2013-00010",
+   "ml:bmw:21-03-2017-16-09-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6848898b799000e3"
+  "enriquecido": true,
+  "hashContenido": "52a124d01c15b582"
  },
  "slug": "moto-bmw-safety-gate-10006911"
 }

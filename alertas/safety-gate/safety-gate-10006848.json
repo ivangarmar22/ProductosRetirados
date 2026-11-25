@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "KBA 51377"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.09.2015 - 04.08.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo, llanta de acero",
-   "fechasTexto": "01.09.2015 - 04.08.2020"
+   "fechasTexto": "01.09.2015 - 04.08.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01439/22",
-   "mm:roh:kba-51377"
+   "mm:roh:kba-51377",
+   "ml:roh:01-09-2015-04-08-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d53f21b8b2d6d24f"
+  "enriquecido": true,
+  "hashContenido": "19527ca86b09dc65"
  },
  "slug": "parte-del-vehiculo-rueda-de-acero-roh-safety-gate-10006848"
 }

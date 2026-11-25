@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,14 +28,17 @@
    ],
    "modelos": [
     "R2S",
-    "e1*2007/46*2115*04",
-    "e1*2007/46*2115*05",
-    "e1*2007/46*2115*06"
+    "e1*2007/46*2115*04, e1*2007/46*2115*05, e1*2007/46*2115*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.09.2020 - 16.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Maybach Clase S (modelo serie 223)",
-   "fechasTexto": "11.09.2020 - 16.12.2021"
+   "fechasTexto": "11.09.2020 - 16.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,17 +84,16 @@
   "claves": [
    "ref:A12/01379/22",
    "mm:mercedes-benz:r2s",
-   "mm:mercedes-benz:e1-2007-46-2115-04",
-   "mm:mercedes-benz:e1-2007-46-2115-05",
-   "mm:mercedes-benz:e1-2007-46-2115-06"
+   "mm:mercedes-benz:e1-2007-46-2115-04-e1-2007-46-2115-05-e1-2007-46-2115-06",
+   "ml:mercedes-benz:11-09-2020-16-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5bbf1959fcbc04a5"
+  "enriquecido": true,
+  "hashContenido": "1ab5872556b1ec99"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006878"
 }

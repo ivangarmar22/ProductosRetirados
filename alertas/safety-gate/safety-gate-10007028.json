@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2018/858*00060*00 KGB70"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.02.2022 - 03.04.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "24.02.2022 - 03.04.2022"
+   "fechasTexto": "24.02.2022 - 03.04.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "GR",
+   "HU",
+   "IS",
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01502/22",
-   "mm:toyota:e6-2018-858-00060-00-kgb70"
+   "mm:toyota:e6-2018-858-00060-00-kgb70",
+   "ml:toyota:24-02-2022-03-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "537c4e90083f1910"
+  "enriquecido": true,
+  "hashContenido": "0082b355ed0cd04f"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10007028"
 }

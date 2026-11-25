@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,21 @@
     "Toyota"
    ],
    "modelos": [
-    "e6*2018/858*00060*00 KGB70 (Aigo X) XEAM10",
-    "YEAM15 (bZ4X)",
+    "e6*2018/858*00060*00 KGB70 (Aigo X) XEAM10, YEAM15 (bZ4X)",
     "e6*2018/858*00144*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.11.2021 - 15.06.2022"
+    },
+    {
+     "numero": "06.03.2022 - 05.04.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "02.11.2021 - 15.06.2022 06.03.2022 - 05.04.2022"
+   "fechasTexto": "02.11.2021 - 15.06.2022 06.03.2022 - 05.04.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +71,18 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "NL",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,17 +97,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01499/22",
-   "mm:toyota:e6-2018-858-00060-00-kgb70-aigo-x-xeam10",
-   "mm:toyota:yeam15-bz4x",
-   "mm:toyota:e6-2018-858-00144-00"
+   "mm:toyota:e6-2018-858-00060-00-kgb70-aigo-x-xeam10-yeam15-bz4x",
+   "mm:toyota:e6-2018-858-00144-00",
+   "ml:toyota:02-11-2021-15-06-2022",
+   "ml:toyota:06-03-2022-05-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "88d24cf3e01d32ce"
+  "enriquecido": true,
+  "hashContenido": "f99976ab3b86f03c"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10007027"
 }

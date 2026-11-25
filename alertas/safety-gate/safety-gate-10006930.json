@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Los vehículos están equipados con airbags TAKATA.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IS",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6764b4aebae05f31"
+  "enriquecido": true,
+  "hashContenido": "2557e1d4f2128f93"
  },
  "slug": "camion-mercedes-benz-safety-gate-10006930"
 }

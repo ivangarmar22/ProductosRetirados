@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "FMX",
     "e1*2007/46*1682*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.11.2020 - 26.05.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "20.11.2020 - 26.05.2021"
+   "fechasTexto": "20.11.2020 - 26.05.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
   "claves": [
    "ref:A12/01378/22",
    "mm:mini:fmx",
-   "mm:mini:e1-2007-46-1682"
+   "mm:mini:e1-2007-46-1682",
+   "ml:mini:20-11-2020-26-05-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3d9d05638b52466d"
+  "enriquecido": true,
+  "hashContenido": "7cdc790b7c447cb1"
  },
  "slug": "coche-de-pasajeros-mini-safety-gate-10006880"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Carcasa negra (aproximadamente 87x48x30 mm y con la indicación JPQL-120100), con una entrada de 100-240 V y una salida de 12 V — 1 A. El producto se suministra con un cable de alimentación negro de 143 cm de largo y un cable de conexión de 90 cm de largo con un extremo de gato.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente sellada por una parte posterior de cartón marrón con diferentes etiquetas y la referencia YC50-1514."
   }
  ],
  "riesgo": {
@@ -69,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "089bf0b62281c1c2"
+  "enriquecido": true,
+  "hashContenido": "262abd6f0c11004a"
  },
  "slug": "cargador-de-bateria-ycf-safety-gate-10006890"
 }

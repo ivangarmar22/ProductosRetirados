@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "27061730619 EXP DATE 06/2022"
+     "numero": "27061730619"
+    },
+    {
+     "numero": "EXP DATE 06/2022"
     }
    ],
    "ean": [
     "5907814625298"
    ],
    "descripcion": "Perfume (eau de toilette) anunciado como «para mujeres», en una botella de vidrio con una tapa en spray, que contiene 100 ml. El contenido del vial es un líquido de color ligeramente púrpura.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón — en la parte delantera con una manzana roja dibujada."
   }
  ],
  "riesgo": {
@@ -94,15 +98,16 @@
   "claves": [
    "ref:A12/01507/22",
    "ean:5907814625298",
-   "ml:lazell-parfums:27061730619-exp-date-06-2022"
+   "ml:lazell-parfums:27061730619",
+   "ml:lazell-parfums:exp-date-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1e46dbc9ee9cf8b1"
+  "enriquecido": true,
+  "hashContenido": "72334f39b4692834"
  },
  "slug": "perfume-lazell-parfums-safety-gate-10007035"
 }

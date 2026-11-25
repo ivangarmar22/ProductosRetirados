@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,27 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "F2X",
-    "F1X",
-    "G3X",
-    "G5X",
-    "G5L",
-    "G3K",
-    "G3L",
-    "7L",
-    "e1*2007/46*1824*",
-    "e1*2007/46*1676*",
-    "e1*2007/46*1797*",
-    "e1*2007/46*1918*",
-    "e1*2007/46*1688*",
-    "e1*2007/46*2017*",
-    "e1*2007/46*1947*",
-    "e1*2007/46*0276*"
+    "F2X, F1X, G3X, G5X, G5L, G3K, G3L, 7L",
+    "e1*2007/46*1824*, e1*2007/46*1676*, e1*2007/46*1797*, e1*2007/46*1918*, e1*2007/46*1688*, e1*2007/46*2017*, e1*2007/46*1947*, e1*2007/46*0276*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.12.2019 - 22.09.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "02.12.2019 - 22.09.2022"
+   "fechasTexto": "02.12.2019 - 22.09.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,29 +86,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01377/22",
-   "mm:bmw:f2x",
-   "mm:bmw:f1x",
-   "mm:bmw:g3x",
-   "mm:bmw:g5x",
-   "mm:bmw:g5l",
-   "mm:bmw:g3k",
-   "mm:bmw:g3l",
-   "mm:bmw:e1-2007-46-1824",
-   "mm:bmw:e1-2007-46-1676",
-   "mm:bmw:e1-2007-46-1797",
-   "mm:bmw:e1-2007-46-1918",
-   "mm:bmw:e1-2007-46-1688",
-   "mm:bmw:e1-2007-46-2017",
-   "mm:bmw:e1-2007-46-1947",
-   "mm:bmw:e1-2007-46-0276"
+   "mm:bmw:f2x-f1x-g3x-g5x-g5l-g3k-g3l-7l",
+   "mm:bmw:e1-2007-46-1824-e1-2007-46-1676-e1-2007-46-1797-e1-2007-46-1918-e1-2007-46-1688-e1-2007-46-2017-e1-2007-46-1947-e1-2007-46-0276",
+   "ml:bmw:02-12-2019-22-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "087e063da05d2dd9"
+  "enriquecido": true,
+  "hashContenido": "48636879f5e5e589"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10006881"
 }

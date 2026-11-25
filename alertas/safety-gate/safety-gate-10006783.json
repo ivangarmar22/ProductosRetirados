@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-17"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Chanclas, tallas 36-41, fabricadas entre: Agosto de 2020 y febrero de 2021.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Etiqueta de papel adherida al producto."
   }
  ],
  "riesgo": {
@@ -63,7 +64,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8b302deda97369ea"
+  "enriquecido": true,
+  "hashContenido": "6efac6e1fcac006e"
  },
  "slug": "chanclas-flops-pepco-safety-gate-10006783"
 }

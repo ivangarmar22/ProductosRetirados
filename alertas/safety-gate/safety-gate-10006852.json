@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "ST O2-1",
     "e1*2007/46*0112*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.06.2022 - 06.09.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Tráiler",
-   "fechasTexto": "01.06.2022 - 06.09.2022"
+   "fechasTexto": "01.06.2022 - 06.09.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +81,16 @@
   "claves": [
    "ref:A12/01382/22",
    "mm:stema:st-o2-1",
-   "mm:stema:e1-2007-46-0112-04"
+   "mm:stema:e1-2007-46-0112-04",
+   "ml:stema:01-06-2022-06-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d4c8933d837e4360"
+  "enriquecido": true,
+  "hashContenido": "5e3ed4fba18b8ee7"
  },
  "slug": "trailer-stema-safety-gate-10006852"
 }

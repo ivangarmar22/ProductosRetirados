@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2007/46*0437*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "7.07.2020 - 13.11.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Nombre del modelo: Yaris HEV (vehículo eléctrico híbrido) TMMF (Toyota Motor Manufacturing France); Código de modelo: MXPH11; WMI: VNK; VDS: KBAC3#; Rango de vis: 0A000523 0A050470; Año del modelo: 2020. Código de modelo: MXPH11; WMI: VNK; VDS: KBAC3#; Rango de vis: A000523, 0A050470; Año del modelo: 2020.",
-   "fechasTexto": "7.07.2020 - 13.11.2020"
+   "fechasTexto": "7.07.2020 - 13.11.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "NL",
+   "PL",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01425/22",
-   "mm:toyota:e6-2007-46-0437-00"
+   "mm:toyota:e6-2007-46-0437-00",
+   "ml:toyota:7-07-2020-13-11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ef2153e8a3e58c6f"
+  "enriquecido": true,
+  "hashContenido": "8bd97953fb541987"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10006953"
 }

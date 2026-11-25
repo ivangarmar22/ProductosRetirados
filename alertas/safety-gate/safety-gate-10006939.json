@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-22"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -38,7 +38,8 @@
    ],
    "ean": [],
    "descripcion": "Scooter eléctrico para adultos, comercializado entre el 13 de enero de 2022 y el 31 de marzo de 2022. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5c26bed29befde19"
+  "enriquecido": true,
+  "hashContenido": "a7e3c45e8c3366d0"
  },
  "slug": "scooter-electrico-minimotors-safety-gate-10006939"
 }

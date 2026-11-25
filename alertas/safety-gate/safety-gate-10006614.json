@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "4897082662976"
    ],
    "descripcion": "Central eléctrica portátil con batería, entrada de CA, salida de toma de corriente alterna y múltiples salidas de CC (USB). El producto se puede utilizar como fuente de alimentación ininterrumpida (UPS). El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una caja de cartón impreso."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IS",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cf241ffcd71a0b2b"
+  "enriquecido": true,
+  "hashContenido": "e659ac90cc3810c6"
  },
  "slug": "central-electrica-portatil-ecoflow-river-600-max-safety-gate-10006614"
 }

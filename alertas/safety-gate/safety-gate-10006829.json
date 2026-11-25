@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-23"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
     "5900495853172"
    ],
    "descripcion": "Lámpara UV-C blanca de 31 cm de longitud de tipo T5, con una potencia de 8W y una longitud de onda de 85 nm. Entrada: 110-220V, 50 Hz.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -66,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "GR",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22c1749041b52c86"
+  "enriquecido": true,
+  "hashContenido": "33ec33db8059d23c"
  },
  "slug": "lampara-uv-forever-light-safety-gate-10006829"
 }

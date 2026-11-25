@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,33 +27,19 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "171",
-    "203",
-    "203 K",
-    "209",
-    "230",
-    "463",
-    "204",
-    "204 AMG",
-    "204 K",
-    "204 K AMG",
-    "207",
-    "e1*2001/116*0262*02-*14",
-    "e1*98/14*0139*18-*24",
-    "e1*98/14*0158*15-*20",
-    "e1*98/14*0184*10-*15",
-    "e1*98/14*0169*08-*17",
-    "e1*96/79*0064*26-*35",
-    "e1*2001/116*0431*00-*28",
-    "e1*2001/116*0464*00-*10",
-    "e1*2001/116*0457*00-*24",
-    "e1*2001/116*0463*00-*10",
-    "e1*2001/116*0502*00-*14"
+    "171, 203, 203 K, 209, 230, 463, 204, 204 AMG, 204 K, 204 K AMG, 207",
+    "e1*2001/116*0262*02-*14, e1*98/14*0139*18-*24, e1*98/14*0158*15-*20, e1*98/14*0184*10-*15, e1*98/14*0169*08-*17",
+    "e1*96/79*0064*26-*35, e1*2001/116*0431*00-*28, e1*2001/116*0464*00-*10, e1*2001/116*0457*00-*24, e1*2001/116*0463*00-*10, e1*2001/116*0502*00-*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.07.2004 - 08.07.2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "21.07.2004 - 08.07.2015"
+   "fechasTexto": "21.07.2004 - 08.07.2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,7 +70,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,36 +92,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01448/22",
-   "mm:mercedes-benz:171",
-   "mm:mercedes-benz:203",
-   "mm:mercedes-benz:203-k",
-   "mm:mercedes-benz:209",
-   "mm:mercedes-benz:230",
-   "mm:mercedes-benz:463",
-   "mm:mercedes-benz:204",
-   "mm:mercedes-benz:204-amg",
-   "mm:mercedes-benz:204-k",
-   "mm:mercedes-benz:204-k-amg",
-   "mm:mercedes-benz:207",
-   "mm:mercedes-benz:e1-2001-116-0262-02-14",
-   "mm:mercedes-benz:e1-98-14-0139-18-24",
-   "mm:mercedes-benz:e1-98-14-0158-15-20",
-   "mm:mercedes-benz:e1-98-14-0184-10-15",
-   "mm:mercedes-benz:e1-98-14-0169-08-17",
-   "mm:mercedes-benz:e1-96-79-0064-26-35",
-   "mm:mercedes-benz:e1-2001-116-0431-00-28",
-   "mm:mercedes-benz:e1-2001-116-0464-00-10",
-   "mm:mercedes-benz:e1-2001-116-0457-00-24",
-   "mm:mercedes-benz:e1-2001-116-0463-00-10",
-   "mm:mercedes-benz:e1-2001-116-0502-00-14"
+   "mm:mercedes-benz:171-203-203-k-209-230-463-204-204-amg-204-k-204-k-amg-207",
+   "mm:mercedes-benz:e1-2001-116-0262-02-14-e1-98-14-0139-18-24-e1-98-14-0158-15-20-e1-98-14-0184-10-15-e1-98-14-0169-08-17",
+   "mm:mercedes-benz:e1-96-79-0064-26-35-e1-2001-116-0431-00-28-e1-2001-116-0464-00-10-e1-2001-116-0457-00-24-e1-2001-116-0463-00-10-e1-2001-116-0502-00-14",
+   "ml:mercedes-benz:21-07-2004-08-07-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "97406ca320501104"
+  "enriquecido": true,
+  "hashContenido": "75914a389c92c577"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006773"
 }

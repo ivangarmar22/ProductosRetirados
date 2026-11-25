@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "3-144-42.4TB-3148"
+     "numero": "3-144-42.4"
+    },
+    {
+     "numero": "TB-3148"
     }
    ],
    "ean": [
     "8591016031482"
    ],
    "descripcion": "Muñeca de plástico de unos 40 cm de altura, con el pelo púrpura tirado hacia atrás en una cola de caballo. El paquete incluye zapatos rosados y otros accesorios de moda.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana transparente."
   }
  ],
  "riesgo": {
@@ -85,15 +89,16 @@
    "ref:A12/01336/22",
    "ean:8591016031482",
    "mm:happy-partner:2086",
-   "ml:happy-partner:3-144-42-4tb-3148"
+   "ml:happy-partner:3-144-42-4",
+   "ml:happy-partner:tb-3148"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "646af0af8e96ea35"
+  "enriquecido": true,
+  "hashContenido": "93ec1f0909e58fc0"
  },
  "slug": "muneca-de-plastico-happy-partner-safety-gate-10006814"
 }

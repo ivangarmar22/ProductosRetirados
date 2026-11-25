@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "V",
-    "e2*2007/46*0532*18",
-    "e2*KS18/858*00004*00"
+    "e2*2007/46*0532*18, e2*KS18/858*00004*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.03.2022-30.04.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "15.03.2022-30.04.2022"
+   "fechasTexto": "15.03.2022-30.04.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HU",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,16 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01351/22",
-   "mm:opel:e2-2007-46-0532-18",
-   "mm:opel:e2-ks18-858-00004-00"
+   "mm:opel:e2-2007-46-0532-18-e2-ks18-858-00004-00",
+   "ml:opel:15-03-2022-30-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bfb240b41ec093fa"
+  "enriquecido": true,
+  "hashContenido": "d3652a71a3cfbc9a"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10006791"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,7 +32,10 @@
    ],
    "lotes": [
     {
-     "numero": "145CC0101150CC0101"
+     "numero": "145CC0101"
+    },
+    {
+     "numero": "150CC0101"
     }
    ],
    "ean": [
@@ -40,7 +43,8 @@
     "4049639427327"
    ],
    "descripcion": "Maquillaje líquido en un dispensador de bomba de 30 ml en los tonos 360 true beige y 120 marfil suave.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Dispensador de bomba de 30 ml en embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -74,7 +78,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,15 +99,16 @@
    "ean:4049639427327",
    "mm:m-asam:120-soft-ivory",
    "mm:m-asam:360-true-beige",
-   "ml:m-asam:145cc0101150cc0101"
+   "ml:m-asam:145cc0101",
+   "ml:m-asam:150cc0101"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a50f7fff1e8f2716"
+  "enriquecido": true,
+  "hashContenido": "765ff6ec2dacfc37"
  },
  "slug": "maquillaje-m-asam-safety-gate-10006885"
 }

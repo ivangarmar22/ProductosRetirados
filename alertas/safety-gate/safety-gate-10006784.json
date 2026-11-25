@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-20"
  },
  "categoria": {
   "literal": "Artículos de decoración",
@@ -31,12 +31,19 @@
    ],
    "lotes": [
     {
-     "numero": "QE8606503QE8606516QE8608624"
+     "numero": "QE8606503"
+    },
+    {
+     "numero": "QE8606516"
+    },
+    {
+     "numero": "QE8608624"
     }
    ],
    "ean": [],
    "descripcion": "Jarrón de vidrio azul",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -87,15 +94,17 @@
   "claves": [
    "ref:INFO/00123/22",
    "mm:next:351715",
-   "ml:next:qe8606503qe8606516qe8608624"
+   "ml:next:qe8606503",
+   "ml:next:qe8606516",
+   "ml:next:qe8608624"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "028a3e16b8f7f468"
+  "enriquecido": true,
+  "hashContenido": "ef9e29016ec98658"
  },
  "slug": "jarron-next-safety-gate-10006784"
 }

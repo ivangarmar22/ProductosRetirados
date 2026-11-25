@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "MCEV",
     "e1*168/2013*00279*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.11.2020 - 29.08.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta, scooter eléctrico",
-   "fechasTexto": "05.11.2020 - 29.08.2022"
+   "fechasTexto": "05.11.2020 - 29.08.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +91,16 @@
   "claves": [
    "ref:A12/01348/22",
    "mm:bmw:mcev",
-   "mm:bmw:e1-168-2013-00279-00"
+   "mm:bmw:e1-168-2013-00279-00",
+   "ml:bmw:05-11-2020-29-08-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "496245529eb75219"
+  "enriquecido": true,
+  "hashContenido": "4bcd8a3cdee14111"
  },
  "slug": "moto-bmw-safety-gate-10006785"
 }

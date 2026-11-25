@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "R1SLAMG",
-    "e1*2018/858*00137*00",
-    "e1*2018/858*00137*01"
+    "e1*2018/858*00137*00, e1*2018/858*00137*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.06.2021 - 27.06.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Automóvil de pasajeros, Mercedes-Benz AG, SL (BR 232)",
-   "fechasTexto": "30.06.2021 - 27.06.2022"
+   "fechasTexto": "30.06.2021 - 27.06.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HU",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,16 +97,16 @@
   "claves": [
    "ref:A12/01512/22",
    "mm:mercedes-amg:r1slamg",
-   "mm:mercedes-amg:e1-2018-858-00137-00",
-   "mm:mercedes-amg:e1-2018-858-00137-01"
+   "mm:mercedes-amg:e1-2018-858-00137-00-e1-2018-858-00137-01",
+   "ml:mercedes-amg:30-06-2021-27-06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "64d6f3fe4459addc"
+  "enriquecido": true,
+  "hashContenido": "8d50c1984ef57bc5"
  },
  "slug": "coche-de-pasajeros-mercedes-amg-safety-gate-10007014"
 }
