@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-22"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -24,7 +24,8 @@
   {
    "nombre": "Chloe Stripe Dress",
    "marcas": [
-    "AO 76, American Outfitters"
+    "AO 76",
+    "American Outfitters"
    ],
    "modelos": [
     "1750310"
@@ -34,7 +35,8 @@
     "5400562250205"
    ],
    "descripcion": "Vestido de rayas amarillas y blancas con cinturón tejido amarillo, rojo y blanco. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -90,15 +92,16 @@
   "claves": [
    "ref:A12/00896/22",
    "ean:5400562250205",
-   "mm:ao-76-american-outfitters:1750310"
+   "mm:ao-76:1750310",
+   "mm:american-outfitters:1750310"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "79de951773f5d5d6"
+  "enriquecido": true,
+  "hashContenido": "084712a45e365a46"
  },
  "slug": "vestido-para-ninos-ao-76-american-outfitters-safety-gate-10006302"
 }

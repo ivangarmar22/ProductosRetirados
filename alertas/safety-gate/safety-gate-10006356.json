@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "AC3",
     "e5*2007/46*0090"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "5.9.2020 -16.10.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "5.9.2020 -16.10.2020"
+   "fechasTexto": "5.9.2020 -16.10.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +96,16 @@
   "claves": [
    "ref:A12/01025/22",
    "mm:hyundai:ac3",
-   "mm:hyundai:e5-2007-46-0090"
+   "mm:hyundai:e5-2007-46-0090",
+   "ml:hyundai:5-9-2020-16-10-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2a5291a11e23b443"
+  "enriquecido": true,
+  "hashContenido": "c413adc14807d1f3"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10006356"
 }

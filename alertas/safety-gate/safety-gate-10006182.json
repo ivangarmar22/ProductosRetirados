@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,14 @@
     "Saris"
    ],
    "modelos": [
-    "PL 406 204 2700 2",
-    "PL 406 184 2700 2",
-    "PL 356 184 2700 2",
-    "PL 356 170 2700",
+    "PL 406 204 2700 2; PL 406 184 2700 2; PL 356 184 2700 2; PL 356 170 2700",
     "e4*2007/46*0274"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Remolque 2,7 toneladas GVW (categoría de vehículos O2)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +64,13 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,19 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00787/22",
-   "mm:saris:pl-406-204-2700-2",
-   "mm:saris:pl-406-184-2700-2",
-   "mm:saris:pl-356-184-2700-2",
-   "mm:saris:pl-356-170-2700",
+   "mm:saris:pl-406-204-2700-2-pl-406-184-2700-2-pl-356-184-2700-2-pl-356-170-2700",
    "mm:saris:e4-2007-46-0274"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d3145e564f6400fa"
+  "enriquecido": true,
+  "hashContenido": "8f2925bb40c2fffa"
  },
  "slug": "trailer-saris-safety-gate-10006182"
 }

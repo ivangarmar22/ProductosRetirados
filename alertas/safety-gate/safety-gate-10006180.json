@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "1T",
     "e1*2001/116*0211*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.09.2005 - 21.05.2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos Touran para operación de gas (GNC)",
-   "fechasTexto": "07.09.2005 - 21.05.2015"
+   "fechasTexto": "07.09.2005 - 21.05.2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HU",
+   "IS",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00816/22",
-   "mm:volkswagen-vw:e1-2001-116-0211"
+   "mm:volkswagen-vw:e1-2001-116-0211",
+   "ml:volkswagen-vw:07-09-2005-21-05-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9f04067e24f464d9"
+  "enriquecido": true,
+  "hashContenido": "8232f73631c0feef"
  },
  "slug": "coche-de-pasajeros-volkswagen-vw-safety-gate-10006180"
 }

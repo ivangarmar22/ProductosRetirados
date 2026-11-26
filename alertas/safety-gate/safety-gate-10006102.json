@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8719987397516"
    ],
    "descripcion": "3 juguetes de pescado (azul, verde, naranja) con púas suaves y aletas y ojos pintados, con relleno de bola de espuma",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster y etiqueta adhesiva"
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CY",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "60c15a450aadf761"
+  "enriquecido": true,
+  "hashContenido": "0c6c1f4a88b2f97e"
  },
  "slug": "juguete-de-puffer-super-water-fun-safety-gate-10006102"
 }

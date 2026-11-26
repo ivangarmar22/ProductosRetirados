@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*1878*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2019"
+    }
+   ],
    "ean": [],
    "descripcion": "CLA (modelo serie 117), CLA (modelo serie 118), GLA (modelo serie 156), GLE/GLS (modelo serie 167), Clase A (modelo serie 177), AMG GT (modelo serie 190), Clase C (modelo serie 205), Clase E (modelo serie 213), Clase S/convertible (modelo serie 217), Clase S (modelo serie 222)",
-   "fechasTexto": "2019"
+   "fechasTexto": "2019",
+   "envase": "SL (modelo serie 231), E-Class Coupe/convertible (modelo serie 238), Clase B (modelo serie 246), Clase B/GLB (modelo serie 247), GLC (modelo serie 253), CLS (modelo serie 257), AMG GT 4-door coupe (modelo serie 290) y Clase G (modelo serie 463)"
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "IE",
+   "NL",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +96,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00968/22",
-   "mm:mercedes-benz:e1-2007-46-1878-03"
+   "mm:mercedes-benz:e1-2007-46-1878-03",
+   "ml:mercedes-benz:2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a2df21abae96e7c5"
+  "enriquecido": true,
+  "hashContenido": "25311446315453ea"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006319"
 }

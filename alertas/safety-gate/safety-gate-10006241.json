@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0533*19"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16/11/2021 - 16/12/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "16/11/2021 - 16/12/2021"
+   "fechasTexto": "16/11/2021 - 16/12/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "GR",
+   "HR",
+   "IE",
+   "IS",
+   "NL",
+   "NO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00875/22",
-   "mm:peugeot:e2-2007-46-0533-19"
+   "mm:peugeot:e2-2007-46-0533-19",
+   "ml:peugeot:16-11-2021-16-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c7f7605d0ea5f34d"
+  "enriquecido": true,
+  "hashContenido": "2d46253df6623af0"
  },
  "slug": "coche-de-pasajeros-peugeot-safety-gate-10006241"
 }

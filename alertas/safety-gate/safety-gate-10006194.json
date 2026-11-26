@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-31"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -27,13 +27,13 @@
     "Juko Day"
    ],
    "modelos": [
-    "110",
-    "116 cm"
+    "110, 116 cm"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Chándal (sujeto y pantalón) de color marrón claro, hecho de tejido de punto (superficie interior bordada). El suéter con capucha tiene la inscripción «JUKO DAY» y las letras JD bordadas con hilos del mismo color en el lado izquierdo de la parte delantera del traje. La capucha tiene cordones con extremos libres.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,16 +82,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00810/22",
-   "mm:juko-day:110",
-   "mm:juko-day:116-cm"
+   "mm:juko-day:110-116-cm"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "533c5189811b1d38"
+  "enriquecido": true,
+  "hashContenido": "8c31b38b5fefcba1"
  },
  "slug": "chandal-infantil-juko-day-safety-gate-10006194"
 }

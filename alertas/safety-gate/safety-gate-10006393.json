@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "Margarita"
    ],
    "modelos": [
-    "50 ml",
-    "best used until: 09 2023"
+    "50 ml, best used until: 09 2023"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "4770001336533"
    ],
    "descripcion": "Crema hidratante facial con suero natural para todo tipo de piel con proteínas, 50 ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El recipiente con la crema facial se comercializa en una caja de cartón en varios tonos de verde, con información en lituano, inglés, letón, estonio y ruso."
   }
  ],
  "riesgo": {
@@ -69,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Lituania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,17 +95,16 @@
   "claves": [
    "ref:A12/00991/22",
    "ean:4770001336533",
-   "mm:margarita:50-ml",
-   "mm:margarita:best-used-until-09-2023",
+   "mm:margarita:50-ml-best-used-until-09-2023",
    "ml:margarita:09-2023a08"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "17318e8b555e9937"
+  "enriquecido": true,
+  "hashContenido": "695516c5e892db3d"
  },
  "slug": "crema-facial-margarita-safety-gate-10006393"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "E1*124R00/01*1646*00-*01",
     "BR-I 9019"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.10.2019 - 21.11.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Ruedas de repuesto (piezas de vehículos)",
-   "fechasTexto": "22.10.2019 - 21.11.2019"
+   "fechasTexto": "22.10.2019 - 21.11.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Malasia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +98,16 @@
   "claves": [
    "ref:A12/00867/22",
    "mm:bd-breyton-design:e1-124r00-01-1646-00-01",
-   "mm:bd-breyton-design:br-i-9019"
+   "mm:bd-breyton-design:br-i-9019",
+   "ml:bd-breyton-design:22-10-2019-21-11-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4c79a98752aa5824"
+  "enriquecido": true,
+  "hashContenido": "574b63eeed9b7008"
  },
  "slug": "parte-del-vehiculo-ruedas-de-recambio-bd-breyton-design-gmbh-safety-gate-10006087"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "SYMWE",
-    "SYMVE",
-    "e1*2007/46*1935*",
-    "e1*2007/46*1953*"
+    "SYMWE, SYMVE",
+    "e1*2007/46*1935*, e1*2007/46*1953*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.12.2019 - 09.04.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "06.12.2019 - 09.04.2021"
+   "fechasTexto": "06.12.2019 - 09.04.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "HU",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +89,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00973/22",
-   "mm:vw:symwe",
-   "mm:vw:symve",
-   "mm:vw:e1-2007-46-1935",
-   "mm:vw:e1-2007-46-1953"
+   "mm:vw:symwe-symve",
+   "mm:vw:e1-2007-46-1935-e1-2007-46-1953",
+   "ml:vw:06-12-2019-09-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "49cbd7cf2425b7fa"
+  "enriquecido": true,
+  "hashContenido": "463448be39001111"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10006334"
 }

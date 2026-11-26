@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,7 +35,8 @@
     "4055334203104"
    ],
    "descripcion": "Juguete de cascabel de madera para niños pequeños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Encoger el plástico"
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "45fe974110d0c51c"
+  "enriquecido": true,
+  "hashContenido": "565b8452d3231969"
  },
  "slug": "juguete-rattle-playtive-safety-gate-10005800"
 }

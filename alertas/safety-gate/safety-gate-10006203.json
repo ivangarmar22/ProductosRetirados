@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-15"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "Juguete con forma de ciempiés elástico (naranja, púrpura o verde) con ojos de 30 cm de largo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje, una etiqueta adjunta."
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7640f3d174078859"
+  "enriquecido": true,
+  "hashContenido": "eb2aab058b1750df"
  },
  "slug": "juguete-de-puffer-tedi-safety-gate-10006203"
 }

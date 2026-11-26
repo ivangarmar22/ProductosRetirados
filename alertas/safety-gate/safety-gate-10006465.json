@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "Best"
    ],
    "modelos": [
-    "FH-306",
-    "ART: 189924"
+    "FH-306; ART: 189924"
    ],
    "lotes": [],
    "ean": [
     "6916766189924"
    ],
    "descripcion": "Secador de pelo negro con una boquilla estrecha desmontable.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de embalaje: caja de cartón colorida"
   }
  ],
  "riesgo": {
@@ -104,16 +104,15 @@
   "claves": [
    "ref:A12/01016/22",
    "ean:6916766189924",
-   "mm:best:fh-306",
-   "mm:best:art-189924"
+   "mm:best:fh-306-art-189924"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4398c7e63b84edcd"
+  "enriquecido": true,
+  "hashContenido": "4569039a72d6cb00"
  },
  "slug": "secador-de-pelo-best-safety-gate-10006465"
 }

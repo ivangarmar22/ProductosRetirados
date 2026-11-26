@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual Approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.11.2018 - 07.02.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgonetas de pasajeros/Vehículos comerciales ligeros con licencias de funcionamiento individuales, sin homologación de tipo CE y sin tipo, ya que tienen homologaciones individuales",
-   "fechasTexto": "15.11.2018 - 07.02.2019"
+   "fechasTexto": "15.11.2018 - 07.02.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00902/22",
-   "mm:mercedes-benz:individual-approval"
+   "mm:mercedes-benz:individual-approval",
+   "ml:mercedes-benz:15-11-2018-07-02-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2cddd2aa923e3c74"
+  "enriquecido": true,
+  "hashContenido": "85cc24315f41fae7"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10006282"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Par de pendientes plateados con colgante de cadena",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Pieza cuadrada de cartón de color crudo al que se unen los pendientes en la parte inferior. Precio en la parte delantera, etiquetado en la parte posterior (aviso multilingüe «Made in China», TEDi GmbH & Co. KG, código de barras)"
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f0c8033f30376900"
+  "enriquecido": true,
+  "hashContenido": "70d9cd346af6dbe4"
  },
  "slug": "pendientes-tedi-safety-gate-10006415"
 }

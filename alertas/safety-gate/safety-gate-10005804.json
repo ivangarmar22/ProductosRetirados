@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -35,7 +35,8 @@
     "4055334203098"
    ],
    "descripcion": "Juguete de madera para niños pequeños, en forma de elefante sobre cuatro ruedas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Encoger el plástico"
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "520aa7d4ec463512"
+  "enriquecido": true,
+  "hashContenido": "6d8a12f597302086"
  },
  "slug": "juguete-de-madera-playtive-safety-gate-10005804"
 }

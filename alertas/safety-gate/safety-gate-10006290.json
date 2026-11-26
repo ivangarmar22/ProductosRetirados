@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Hoja de sierra circular con un diámetro de 125x22,23 mm y 3 dientes, anunciada para amoladoras angulares. Producto vendido en línea, en particular a través de eBay, con el número de artículo 28473319142.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e858d1609a1447a"
+  "enriquecido": true,
+  "hashContenido": "407b01c48bd659e3"
  },
  "slug": "hoja-de-sierra-circular-tediam-safety-gate-10006290"
 }

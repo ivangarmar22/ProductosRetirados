@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-12"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "00180600 06/2022"
+     "numero": "00180600"
+    },
+    {
+     "numero": "06/2022"
     }
    ],
    "ean": [
     "8016543020032"
    ],
    "descripcion": "Crema corporal de almendras para «piel suave y aterciopelada», 200 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tarro de plástico blanco con un tapón de tornillo blanco."
   }
  ],
  "riesgo": {
@@ -68,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Chequia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,15 +91,16 @@
    "ref:A12/00922/22",
    "ean:8016543020032",
    "mm:marie-laurent-ml:190607",
-   "ml:marie-laurent-ml:00180600-06-2022"
+   "ml:marie-laurent-ml:00180600",
+   "ml:marie-laurent-ml:06-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e36f74371e3f8295"
+  "enriquecido": true,
+  "hashContenido": "080eb42f38cc68a9"
  },
  "slug": "crema-del-cuerpo-marie-laurent-ml-safety-gate-10006366"
 }

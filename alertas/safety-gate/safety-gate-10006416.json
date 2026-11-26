@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Dos pares de pendientes plateados con decoraciones en forma de estrella.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Pieza cuadrada de cartón de color crudo al que se unen los pendientes en la parte inferior. Etiquetado en la parte delantera: ‘Anillos, 2 pares’ y precio. Etiquetado en la parte posterior: aviso multilingüe «Made in China», TEDi GmbH & Co. KG, código de barras."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "94afb6f39cbe510c"
+  "enriquecido": true,
+  "hashContenido": "8e6633fe9a928f61"
  },
  "slug": "pendientes-tedi-safety-gate-10006416"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "5412810323104"
    ],
    "descripcion": "Asesino de insectos con led. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón verde y blanco"
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Noruega",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "323fff744e00d260"
+  "enriquecido": true,
+  "hashContenido": "df9810ec6a3989f1"
  },
  "slug": "asesino-de-insectos-nedis-safety-gate-10005203"
 }

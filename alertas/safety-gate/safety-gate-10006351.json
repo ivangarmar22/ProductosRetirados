@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-10-19"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -33,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bola de gimnasia de plástico con un diámetro de 75 cm, disponible en diferentes colores.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "HR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd1faeecaa264e0e"
+  "enriquecido": true,
+  "hashContenido": "a167b16f61ac4682"
  },
  "slug": "bola-de-gimnasia-sinsay-safety-gate-10006351"
 }

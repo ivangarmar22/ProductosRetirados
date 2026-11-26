@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-18"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -34,7 +34,8 @@
     "5902622003597"
    ],
    "descripcion": "Silla alta para niños. La etiqueta del producto contiene la identificación y el nombre y dirección del fabricante.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Letonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "LT",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "48d50f7f16b3a3f2"
+  "enriquecido": true,
+  "hashContenido": "4305dca73bf34cfd"
  },
  "slug": "silla-alta-de-los-ninos-drewex-safety-gate-10006175"
 }

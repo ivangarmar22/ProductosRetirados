@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "Best"
    ],
    "modelos": [
-    "FH-304",
-    "ART: 250594"
+    "FH-304; ART: 250594"
    ],
    "lotes": [],
    "ean": [
     "6916766250594"
    ],
    "descripcion": "Secador de pelo con carcasa de plástico de color plateado con 2 niveles de velocidad.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón de colores."
   }
  ],
  "riesgo": {
@@ -100,16 +100,15 @@
   "claves": [
    "ref:A12/01014/22",
    "ean:6916766250594",
-   "mm:best:fh-304",
-   "mm:best:art-250594"
+   "mm:best:fh-304-art-250594"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b5bd2057fce8bd32"
+  "enriquecido": true,
+  "hashContenido": "775de9b79fb22c92"
  },
  "slug": "secador-de-pelo-best-safety-gate-10006464"
 }

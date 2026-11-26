@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "5904361000943"
    ],
    "descripcion": "Juguete de acecho con una esfera superior en forma de cabeza de perro y con siete anillos de plástico apilables. Los anillos tienen diferentes colores: rojo, amarillo, naranja, verde, rosa (dos veces) y azul.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El juguete está empacado en una red amarilla. Se aplica una etiqueta adicional en la base del juguete, que contiene el marcado CE, un código de barras y un grupo de edad recomendado «18 meses»."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0a66a2f146865683"
+  "enriquecido": true,
+  "hashContenido": "343af0bfc222f8c0"
  },
  "slug": "juguete-de-apilamiento-piramida-pies-safety-gate-10006414"
 }

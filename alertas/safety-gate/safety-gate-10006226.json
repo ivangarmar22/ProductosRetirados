@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "639/2",
-    "639/4",
-    "639/5",
-    "e1*2007/46*0457*23-*25",
-    "e1*2007/46*0458*20-*22",
-    "e1*2007/46*0459*13-*15"
+    "639/2, 639/4, 639/5",
+    "e1*2007/46*0457*23-*25, e1*2007/46*0458*20-*22, e1*2007/46*0459*13-*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.11.2020 - 06.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/vehículo comercial ligero",
-   "fechasTexto": "23.11.2020 - 06.11.2021"
+   "fechasTexto": "23.11.2020 - 06.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "HU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,20 +86,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00826/22",
-   "mm:mercedes-benz:639-2",
-   "mm:mercedes-benz:639-4",
-   "mm:mercedes-benz:639-5",
-   "mm:mercedes-benz:e1-2007-46-0457-23-25",
-   "mm:mercedes-benz:e1-2007-46-0458-20-22",
-   "mm:mercedes-benz:e1-2007-46-0459-13-15"
+   "mm:mercedes-benz:639-2-639-4-639-5",
+   "mm:mercedes-benz:e1-2007-46-0457-23-25-e1-2007-46-0458-20-22-e1-2007-46-0459-13-15",
+   "ml:mercedes-benz:23-11-2020-06-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d7e05945331afc64"
+  "enriquecido": true,
+  "hashContenido": "c4bfe8cf9dd7abe3"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10006226"
 }

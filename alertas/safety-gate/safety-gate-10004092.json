@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,30 +27,36 @@
     "CITROEN"
    ],
    "modelos": [
-    "e*KS07/46*0005*00",
-    "e2*KS07/46*0005*01",
-    "e2*2007/46*0003*00",
-    "e2*2007/46*0003*40",
-    "e2*2007/46*0003*42",
-    "e2*2007/46*0003*45",
-    "e2*2007/46*0040*02",
-    "e2*2007/46*0040*29",
-    "e2*2007/46*0060*08",
-    "e2*2007/46*0060*09",
-    "e2*2007/46*0060*15",
-    "e2*2007/46*0079*04",
-    "e2*2007/46*0079*05",
-    "e2*2007/46*0092*01",
-    "e2*2007/46*0092*16",
+    "e*KS07/46*0005*00, e2*KS07/46*0005*01",
+    "e2*2007/46*0003*00, e2*2007/46*0003*40, e2*2007/46*0003*42, e2*2007/46*0003*45",
+    "e2*2007/46*0040*02, e2*2007/46*0040*29",
+    "e2*2007/46*0060*08, e2*2007/46*0060*09, e2*2007/46*0060*15",
+    "e2*2007/46*0079*04, e2*2007/46*0079*05",
+    "e2*2007/46*0092*01, e2*2007/46*0092*16",
     "e2*2007/46*0156*01",
-    "e2*KS07/46*0004*00",
-    "e2*KS07/46*0004*03",
-    "e2*KS07/46*0004*09"
+    "e2*KS07/46*0004*00, e2*KS07/46*0004*03, e2*KS07/46*0004*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "C3 V3 (A51) from 02/09/2009 to 10/02/2017"
+    },
+    {
+     "numero": "C4 V2 - DS4 (B7) AMLAT from 26/04/2012 to 12/04/2017"
+    },
+    {
+     "numero": "C4 V2 - DS4 (B7) from 29/09/2010 to 10/02/2017"
+    },
+    {
+     "numero": "DS3 from 14/10/2009 to 09/02/2017"
+    },
+    {
+     "numero": "DS5 (B81) from 21/11/2011 to 17/02/2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos equipados con airbags TAKATA.",
-   "fechasTexto": "C3 V3 (A51) from 02/09/2009 to 10/02/2017C4 V2 - DS4 (B7) AMLAT from 26/04/2012 to 12/04/2017C4 V2 - DS4 (B7) from 29/09/2010 to 10/02/2017DS3 from 14/10/2009 to 09/02/2017DS5 (B81) from 21/11/2011 to 17/02/2017"
+   "fechasTexto": "C3 V3 (A51) from 02/09/2009 to 10/02/2017C4 V2 - DS4 (B7) AMLAT from 26/04/2012 to 12/04/2017C4 V2 - DS4 (B7) from 29/09/2010 to 10/02/2017DS3 from 14/10/2009 to 09/02/2017DS5 (B81) from 21/11/2011 to 17/02/2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,7 +87,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "IE",
+   "IS",
+   "NO",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,33 +108,27 @@
  "dedup": {
   "claves": [
    "ref:A12/01043/21",
-   "mm:citroen:e-ks07-46-0005-00",
-   "mm:citroen:e2-ks07-46-0005-01",
-   "mm:citroen:e2-2007-46-0003-00",
-   "mm:citroen:e2-2007-46-0003-40",
-   "mm:citroen:e2-2007-46-0003-42",
-   "mm:citroen:e2-2007-46-0003-45",
-   "mm:citroen:e2-2007-46-0040-02",
-   "mm:citroen:e2-2007-46-0040-29",
-   "mm:citroen:e2-2007-46-0060-08",
-   "mm:citroen:e2-2007-46-0060-09",
-   "mm:citroen:e2-2007-46-0060-15",
-   "mm:citroen:e2-2007-46-0079-04",
-   "mm:citroen:e2-2007-46-0079-05",
-   "mm:citroen:e2-2007-46-0092-01",
-   "mm:citroen:e2-2007-46-0092-16",
+   "mm:citroen:e-ks07-46-0005-00-e2-ks07-46-0005-01",
+   "mm:citroen:e2-2007-46-0003-00-e2-2007-46-0003-40-e2-2007-46-0003-42-e2-2007-46-0003-45",
+   "mm:citroen:e2-2007-46-0040-02-e2-2007-46-0040-29",
+   "mm:citroen:e2-2007-46-0060-08-e2-2007-46-0060-09-e2-2007-46-0060-15",
+   "mm:citroen:e2-2007-46-0079-04-e2-2007-46-0079-05",
+   "mm:citroen:e2-2007-46-0092-01-e2-2007-46-0092-16",
    "mm:citroen:e2-2007-46-0156-01",
-   "mm:citroen:e2-ks07-46-0004-00",
-   "mm:citroen:e2-ks07-46-0004-03",
-   "mm:citroen:e2-ks07-46-0004-09"
+   "mm:citroen:e2-ks07-46-0004-00-e2-ks07-46-0004-03-e2-ks07-46-0004-09",
+   "ml:citroen:c3-v3-a51-from-02-09-2009-to-10-02-2017",
+   "ml:citroen:c4-v2-ds4-b7-amlat-from-26-04-2012-to-12-04-2017",
+   "ml:citroen:c4-v2-ds4-b7-from-29-09-2010-to-10-02-2017",
+   "ml:citroen:ds3-from-14-10-2009-to-09-02-2017",
+   "ml:citroen:ds5-b81-from-21-11-2011-to-17-02-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c92614f166823590"
+  "enriquecido": true,
+  "hashContenido": "91ab2c2b549f6504"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10004092"
 }

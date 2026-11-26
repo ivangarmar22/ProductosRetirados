@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E2*100R02/03*19183*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Batería de 650 V",
-   "fechasTexto": "2020"
+   "fechasTexto": "2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,15 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00920/22",
-   "mm:blue-solutions:e2-100r02-03-19183-00"
+   "mm:blue-solutions:e2-100r02-03-19183-00",
+   "ml:blue-solutions:2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4d29cde6677f666f"
+  "enriquecido": true,
+  "hashContenido": "24f2a38ed080c9f7"
  },
  "slug": "parte-del-vehiculo-bateria-de-autobus-blue-solutions-safety-gate-10006338"
 }

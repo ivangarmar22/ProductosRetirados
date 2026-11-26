@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-18"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -24,13 +24,15 @@
   {
    "nombre": "Cafetera",
    "marcas": [
-    "Ikea, Metallisk"
+    "Ikea",
+    "Metallisk"
    ],
    "modelos": [],
    "lotes": [],
    "ean": [],
    "descripcion": "Cafetera de robo inoxidable con una capacidad de 0,4L, con una válvula de seguridad de acero inoxidable plateado o gris. Todos los modelos de 2040 a 2204 son retirados. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje"
   }
  ],
  "riesgo": {
@@ -62,7 +64,20 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Suiza",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "GR",
+   "HR",
+   "IE",
+   "IS",
+   "IT",
+   "PL",
+   "PT",
+   "RO",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8eb9397ff972b306"
+  "enriquecido": true,
+  "hashContenido": "1e88aaf8d0c7f7a3"
  },
  "slug": "cafetera-ikea-metallisk-safety-gate-10006330"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-29"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -37,7 +37,8 @@
     "3608429747086"
    ],
    "descripcion": "Reloj deportivo con GPS. El producto se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,15 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "Taiwán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "IE",
+   "IT",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fff8a2b90a343c52"
+  "enriquecido": true,
+  "hashContenido": "e94daa708f23281b"
  },
  "slug": "reloj-de-fitness-kiprun-safety-gate-10005815"
 }

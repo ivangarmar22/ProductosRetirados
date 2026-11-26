@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-17"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -35,7 +35,8 @@
     "3583784016865"
    ],
    "descripcion": "Scooter eléctrico con un límite de velocidad de 25 km/h.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,12 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "IT",
+   "PL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8e88153810dae256"
+  "enriquecido": true,
+  "hashContenido": "2ac3d5ed192bc1ac"
  },
  "slug": "scooter-electrico-oxelo-safety-gate-10006207"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Ducati"
    ],
    "modelos": [
-    "e49*168/2013*00009*00",
-    "e49*168/2013*00009*01"
+    "e49*168/2013*00009*00; e49*168/2013*00009*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12/01/2016 - 08/06/2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Ducati XDiavel, años de modelo: 2016-2018.",
-   "fechasTexto": "12/01/2016 - 08/06/2017"
+   "fechasTexto": "12/01/2016 - 08/06/2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FR",
+   "HR",
+   "IE",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00287/21",
-   "mm:ducati:e49-168-2013-00009-00",
-   "mm:ducati:e49-168-2013-00009-01"
+   "mm:ducati:e49-168-2013-00009-00-e49-168-2013-00009-01",
+   "ml:ducati:12-01-2016-08-06-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e5585006de5a5dc6"
+  "enriquecido": true,
+  "hashContenido": "ab51c501cf6d153b"
  },
  "slug": "moto-ducati-safety-gate-10003251"
 }

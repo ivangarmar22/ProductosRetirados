@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "Margarita"
    ],
    "modelos": [
-    "50 ml",
-    "best used until: 10 2023A12"
+    "50 ml, best used until: 10 2023A12"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "4770001336526"
    ],
    "descripcion": "Crema facial nutritiva con cera de abejas y aceite vegetal, 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El envase con 50 ml de crema facial está disponible en una caja de cartón verde en varios tonos, con información en lituano, inglés, letón, estonio y ruso."
   }
  ],
  "riesgo": {
@@ -69,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Lituania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,17 +95,16 @@
   "claves": [
    "ref:A12/00993/22",
    "ean:4770001336526",
-   "mm:margarita:50-ml",
-   "mm:margarita:best-used-until-10-2023a12",
+   "mm:margarita:50-ml-best-used-until-10-2023a12",
    "ml:margarita:10-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ca784580e4b08ac7"
+  "enriquecido": true,
+  "hashContenido": "80dfb79699eb5140"
  },
  "slug": "crema-facial-margarita-safety-gate-10006390"
 }

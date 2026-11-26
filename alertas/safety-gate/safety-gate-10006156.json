@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-24"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Coconut Hair Ekstrauvlazhniajushij sprei dlia volos",
    "marcas": [
-    "Dr. Santē, elfa | Pharm"
+    "Dr. Santē",
+    "elfa | Pharm"
    ],
    "modelos": [],
    "lotes": [
@@ -36,7 +37,8 @@
     "4823015938238"
    ],
    "descripcion": "Spray para cabello, 150 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una botella de plástico blanco con un tapón de tornillo — dispensador."
   }
  ],
  "riesgo": {
@@ -86,15 +88,16 @@
   "claves": [
    "ref:A12/00782/22",
    "ean:4823015938238",
-   "ml:dr-sante-elfa-pharm:14834"
+   "ml:dr-sante:14834",
+   "ml:elfa-pharm:14834"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b749dae063c0bcc1"
+  "enriquecido": true,
+  "hashContenido": "2d23ffee4bf689d7"
  },
  "slug": "spray-de-cabello-dr-sante-elfa-pharm-safety-gate-10006156"
 }

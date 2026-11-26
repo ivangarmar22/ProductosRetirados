@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-09"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -27,8 +27,7 @@
     "Kester"
    ],
    "modelos": [
-    "SN63PB37 T3",
-    "7010020511"
+    "SN63PB37 T3 / 7010020511"
    ],
    "lotes": [
     {
@@ -37,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Cartucho translúcido blanco con tapa roja y tapón que contiene 600 g de pasta de soldadura. El producto también se vende en línea al público en general, en particular a través de eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "¿POR QUÉ?"
   }
  ],
  "riesgo": {
@@ -90,17 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00846/22",
-   "mm:kester:sn63pb37-t3",
-   "mm:kester:7010020511",
+   "mm:kester:sn63pb37-t3-7010020511",
    "ml:kester:ip101270"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b2e3deaa57a35820"
+  "enriquecido": true,
+  "hashContenido": "3d893f34467ab08f"
  },
  "slug": "pasta-de-soldadura-kester-safety-gate-10006258"
 }

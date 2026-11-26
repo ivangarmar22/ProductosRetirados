@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "230 V, 50 Hz, 1000 W, Caja de cartón con pegatina.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón blanca con pegatina."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a37da7690790c3d3"
+  "enriquecido": true,
+  "hashContenido": "583c933b662e766b"
  },
  "slug": "equipo-de-control-de-la-lampara-de-descarga-horti-gear-safety-gate-10004143"
 }

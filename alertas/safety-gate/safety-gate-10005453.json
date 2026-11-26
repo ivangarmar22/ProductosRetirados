@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-25"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -24,7 +24,9 @@
   {
    "nombre": "Asiento de coche para niños",
    "marcas": [
-    "BCES, Chicco, Feeblibear"
+    "BCES",
+    "Chicco",
+    "Feeblibear"
    ],
    "modelos": [
     "BCES5202",
@@ -33,7 +35,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Asiento de coche de retención infantil",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -63,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,16 +87,20 @@
  "dedup": {
   "claves": [
    "ref:A12/00727/22",
-   "mm:bces-chicco-feeblibear:bces5202",
-   "mm:bces-chicco-feeblibear:e4-44r04-16-4720-02"
+   "mm:bces:bces5202",
+   "mm:bces:e4-44r04-16-4720-02",
+   "mm:chicco:bces5202",
+   "mm:chicco:e4-44r04-16-4720-02",
+   "mm:feeblibear:bces5202",
+   "mm:feeblibear:e4-44r04-16-4720-02"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "28e993c326b08806"
+  "enriquecido": true,
+  "hashContenido": "93c74e4be3a9d10e"
  },
  "slug": "asiento-de-coche-para-ninos-bces-chicco-feeblibear-safety-gate-10005453"
 }

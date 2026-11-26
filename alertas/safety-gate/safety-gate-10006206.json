@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Zapatos de plástico para niños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende sin embalaje."
   }
  ],
  "riesgo": {
@@ -58,7 +59,10 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,11 +80,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d6e5be6e7c50beb7"
+  "enriquecido": true,
+  "hashContenido": "2f03e503bb24932c"
  },
  "slug": "zapatos-para-ninos-safety-gate-10006206"
 }

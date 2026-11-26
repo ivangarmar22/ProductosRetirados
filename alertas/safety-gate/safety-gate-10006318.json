@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2018/858*00001*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.12.2019 - 17.06.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "06.12.2019 - 17.06.2021"
+   "fechasTexto": "06.12.2019 - 17.06.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "RO",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00977/22",
-   "mm:toyota:e6-2018-858-00001-00"
+   "mm:toyota:e6-2018-858-00001-00",
+   "ml:toyota:06-12-2019-17-06-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b45a22ba72f48beb"
+  "enriquecido": true,
+  "hashContenido": "8aeac2e17d99885c"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10006318"
 }

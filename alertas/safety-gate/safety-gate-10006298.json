@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-10-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Hoja de sierra circular anunciada para amoladoras angulares, con un diámetro de 125 mm y 40 dientes, producto vendido en línea, en particular a través de eBay, artículo número 403358612207.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +88,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3e3586b0d53db896"
+  "enriquecido": true,
+  "hashContenido": "99e8ec616298f722"
  },
  "slug": "hoja-de-sierra-circular-geko-safety-gate-10006298"
 }

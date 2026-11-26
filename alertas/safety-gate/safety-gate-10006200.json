@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "402",
     "individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.03.2022 - 30.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "21.03.2022 - 30.03.2022"
+   "fechasTexto": "21.03.2022 - 30.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +81,16 @@
   "claves": [
    "ref:A12/00827/22",
    "mm:lancia:402",
-   "mm:lancia:individual-approval"
+   "mm:lancia:individual-approval",
+   "ml:lancia:21-03-2022-30-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1214ee68475edfb5"
+  "enriquecido": true,
+  "hashContenido": "92d3130d8980aec4"
  },
  "slug": "coche-de-pasajeros-lancia-safety-gate-10006200"
 }

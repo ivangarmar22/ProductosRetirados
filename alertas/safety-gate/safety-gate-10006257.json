@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -33,13 +33,13 @@
    ],
    "lotes": [],
    "ean": [
-    "30157880",
-    "03016299",
-    "03337875670630",
+    "30162990",
+    "3337875670630",
     "3433425339887"
    ],
    "descripcion": "Concentrado de tonificación e hidratación para la piel facial, en un vial de vidrio marrón que contiene 1,8 ml. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto está contenido en un vial de vidrio marrón estéril de un solo uso que contiene 1,8 ml y se vende en un embalaje de cartón con borde parcial rojo, «V» rojo grande bajo la marca y una imagen de un vial hecho de vidrio marrón, y que contiene 1 («muestra»), 10 o 30 viales."
   }
  ],
  "riesgo": {
@@ -81,7 +81,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "EE",
+   "FR",
+   "GR",
+   "IE",
+   "PL",
+   "RO",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,9 +114,8 @@
  "dedup": {
   "claves": [
    "ref:A12/00860/22",
-   "ean:30157880",
-   "ean:03016299",
-   "ean:03337875670630",
+   "ean:30162990",
+   "ean:3337875670630",
    "ean:3433425339887",
    "mm:vichy:mb167200",
    "mm:vichy:mb180500",
@@ -115,11 +123,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c99e73d3d226db19"
+  "enriquecido": true,
+  "hashContenido": "d2c6f063613397e8"
  },
  "slug": "crema-facial-vichy-safety-gate-10006257"
 }

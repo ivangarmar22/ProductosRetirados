@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "M240",
     "e3*KS18/858*00026*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.05.2021 - 10.09.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "24.05.2021 - 10.09.2021"
+   "fechasTexto": "24.05.2021 - 10.09.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +82,16 @@
   "claves": [
    "ref:A12/00764/22",
    "mm:maserati:m240",
-   "mm:maserati:e3-ks18-858-00026-00"
+   "mm:maserati:e3-ks18-858-00026-00",
+   "ml:maserati:24-05-2021-10-09-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a1425520b49b22a1"
+  "enriquecido": true,
+  "hashContenido": "319a80d0b2904048"
  },
  "slug": "coche-de-pasajeros-maserati-safety-gate-10006091"
 }

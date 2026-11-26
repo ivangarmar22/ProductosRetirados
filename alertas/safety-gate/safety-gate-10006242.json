@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0531*19"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16/11/2021 - 16/12/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "16/11/2021 - 16/12/2021"
+   "fechasTexto": "16/11/2021 - 16/12/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "IS",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00874/22",
-   "mm:citroen:e2-2007-46-0531-19"
+   "mm:citroen:e2-2007-46-0531-19",
+   "ml:citroen:16-11-2021-16-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f5e5359ebe7ee605"
+  "enriquecido": true,
+  "hashContenido": "4c20347d51bf53a3"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10006242"
 }

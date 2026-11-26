@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-25"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -29,45 +29,13 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "718472"
-    },
-    {
-     "numero": "718473"
-    },
-    {
-     "numero": "718474"
-    },
-    {
-     "numero": "718488"
-    },
-    {
-     "numero": "718489"
-    },
-    {
-     "numero": "718490"
-    },
-    {
-     "numero": "718487"
-    },
-    {
-     "numero": "812664"
-    },
-    {
-     "numero": "718220"
-    },
-    {
-     "numero": "718221"
-    },
-    {
-     "numero": "718222"
-    },
-    {
-     "numero": "812606"
+     "numero": "718472, 718473, 718474, 718488, 718489, 718490, 718487, 812664, 718220, 718221, 718222, 812606"
     }
    ],
    "ean": [],
    "descripcion": "Muebles de jardín al aire libre con cojín de asiento. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalado en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -118,26 +86,15 @@
  "dedup": {
   "claves": [
    "ref:INFO/00102/22",
-   "ml:aldi-gardenline:718472",
-   "ml:aldi-gardenline:718473",
-   "ml:aldi-gardenline:718474",
-   "ml:aldi-gardenline:718488",
-   "ml:aldi-gardenline:718489",
-   "ml:aldi-gardenline:718490",
-   "ml:aldi-gardenline:718487",
-   "ml:aldi-gardenline:812664",
-   "ml:aldi-gardenline:718220",
-   "ml:aldi-gardenline:718221",
-   "ml:aldi-gardenline:718222",
-   "ml:aldi-gardenline:812606"
+   "ml:aldi-gardenline:718472-718473-718474-718488-718489-718490-718487-812664-718220-718221-718222-812606"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0d0f8eafc738b279"
+  "enriquecido": true,
+  "hashContenido": "4e57d14b2938280b"
  },
  "slug": "muebles-de-jardin-al-aire-libre-aldi-gardenline-safety-gate-10006108"
 }

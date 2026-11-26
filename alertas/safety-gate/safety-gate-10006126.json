@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-21"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Crema de belleza para aligerar y jabón de belleza para aclarar",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "La crema se vende en frascos y frascos amarillos y naranjas de 30 ml, 60 ml, 215 ml, 330 ml y 350 ml. El jabón se vende en un paquete amarillo y naranja de 190 g."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Costa de Marfil",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e6ffdbb7d465427"
+  "enriquecido": true,
+  "hashContenido": "989ef55d813ab426"
  },
  "slug": "crema-para-la-piel-nouvelle-parfumerie-gandour-safety-gate-10006126"
 }

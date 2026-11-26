@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "C5 aircross e2*2007/46*0642*01 à 14",
     "DS7 Crossback (X74) e2*2007/46*0601*00 - 13"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "C5 aircross 20/06/2018 - 11/10/2021"
+    },
+    {
+     "numero": "DS7 CROSSBACK 19/04/2017 - 26/11/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "C5 aircross 20/06/2018 - 11/10/2021DS7 CROSSBACK 19/04/2017 - 26/11/2022"
+   "fechasTexto": "C5 aircross 20/06/2018 - 11/10/2021DS7 CROSSBACK 19/04/2017 - 26/11/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "NL",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +91,17 @@
   "claves": [
    "ref:A12/00876/22",
    "mm:citroen-et-ds-automobile:c5-aircross-e2-2007-46-0642-01-a-14",
-   "mm:citroen-et-ds-automobile:ds7-crossback-x74-e2-2007-46-0601-00-13"
+   "mm:citroen-et-ds-automobile:ds7-crossback-x74-e2-2007-46-0601-00-13",
+   "ml:citroen-et-ds-automobile:c5-aircross-20-06-2018-11-10-2021",
+   "ml:citroen-et-ds-automobile:ds7-crossback-19-04-2017-26-11-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8b2f56d2afbf962f"
+  "enriquecido": true,
+  "hashContenido": "aa9afeac911af6ec"
  },
  "slug": "coche-de-pasajeros-citroen-et-ds-automobile-safety-gate-10005962"
 }

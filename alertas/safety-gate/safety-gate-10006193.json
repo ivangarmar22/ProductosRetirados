@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-11-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,20 @@
     "Kia"
    ],
    "modelos": [
-    "e4*2007/46*1299*15",
-    "e4*2007/46*1299*16"
+    "e4*2007/46*1299*15; e4*2007/46*1299*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Ceed, Ceed Station Wagon, Proceed, XCeed: 10.11.2021 - 02.02.2022"
+    },
+    {
+     "numero": "Sorento: 05.07.2021 - 17.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Modelos de Kia: Ceed, Ceed Station Wagon (PHEV), Proceed (CD), XCeed (PHEV) (CDCUV), Sorento (PHEV) (MQ4)",
-   "fechasTexto": "Ceed, Ceed Station Wagon, Proceed, XCeed: 10.11.2021 - 02.02.2022Sorento: 05.07.2021 - 17.08.2021"
+   "fechasTexto": "Ceed, Ceed Station Wagon, Proceed, XCeed: 10.11.2021 - 02.02.2022Sorento: 05.07.2021 - 17.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +70,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HU",
+   "PT",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00818/22",
-   "mm:kia:e4-2007-46-1299-15",
-   "mm:kia:e4-2007-46-1299-16"
+   "mm:kia:e4-2007-46-1299-15-e4-2007-46-1299-16",
+   "ml:kia:ceed-ceed-station-wagon-proceed-xceed-10-11-2021-02-02-2022",
+   "ml:kia:sorento-05-07-2021-17-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4178ff41e6fca81b"
+  "enriquecido": true,
+  "hashContenido": "292fb6ee7c6634d8"
  },
  "slug": "coche-de-pasajeros-kia-safety-gate-10006193"
 }

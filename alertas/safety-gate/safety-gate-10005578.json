@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,18 @@
     "Opel"
    ],
    "modelos": [
-    "0G-A",
-    "0G-A/V",
-    "e1*2001/116*0475*00 - e1*2001/116*0475*06",
-    "e1*2007/46*0374*00 - e1*2007/46*0374*09",
-    "e1*2007/46*0860*00"
+    "0G-A, 0G-A/V",
+    "e1*2001/116*0475*00 - e1*2001/116*0475*06 , e1*2007/46*0374*00 - e1*2007/46*0374*09 , e1*2007/46*0860*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "8.12.2007 to 26.7.2013"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "8.12.2007 to 26.7.2013"
+   "fechasTexto": "8.12.2007 to 26.7.2013",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "NL",
+   "PL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,19 +84,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00328/22",
-   "mm:opel:0g-a",
-   "mm:opel:0g-a-v",
-   "mm:opel:e1-2001-116-0475-00-e1-2001-116-0475-06",
-   "mm:opel:e1-2007-46-0374-00-e1-2007-46-0374-09",
-   "mm:opel:e1-2007-46-0860-00"
+   "mm:opel:0g-a-0g-a-v",
+   "mm:opel:e1-2001-116-0475-00-e1-2001-116-0475-06-e1-2007-46-0374-00-e1-2007-46-0374-09-e1-2007-46-0860-00",
+   "ml:opel:8-12-2007-to-26-7-2013"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a30ddb31d4d122e4"
+  "enriquecido": true,
+  "hashContenido": "96f0cdb3d8b22b96"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10005578"
 }

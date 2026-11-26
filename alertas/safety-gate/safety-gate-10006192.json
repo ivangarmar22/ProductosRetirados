@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "F",
-    "e2*2007/46*0628*17",
-    "e2*2007/46*0628*18"
+    "e2*2007/46*0628*17, e2*2007/46*0628*18"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.03.2022 - 06.04.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "01.03.2022 - 06.04.2022"
+   "fechasTexto": "01.03.2022 - 06.04.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "HU",
+   "NO",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,16 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00817/22",
-   "mm:ds:e2-2007-46-0628-17",
-   "mm:ds:e2-2007-46-0628-18"
+   "mm:ds:e2-2007-46-0628-17-e2-2007-46-0628-18",
+   "ml:ds:01-03-2022-06-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fba0a2effab59877"
+  "enriquecido": true,
+  "hashContenido": "5305960678d38bb4"
  },
  "slug": "coche-de-pasajeros-ds-safety-gate-10006192"
 }

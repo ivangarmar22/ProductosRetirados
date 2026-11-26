@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-27"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -38,7 +38,8 @@
     "5412810293124"
    ],
    "descripcion": "Placa de cocción individual portátil eléctrica con luz indicadora roja y con un quemador de hierro fundido de 185 mm de diámetro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón colorida"
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "LT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d8ca578d7ebca803"
+  "enriquecido": true,
+  "hashContenido": "69d9c0efb4f07f0f"
  },
  "slug": "placa-caliente-nedis-safety-gate-10006125"
 }

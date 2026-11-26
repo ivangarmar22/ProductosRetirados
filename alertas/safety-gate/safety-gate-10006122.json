@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-09-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "4010070392444"
    ],
    "descripcion": "Tubo suave y flexible lleno de un líquido transparente que contiene figuras flotantes.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BE",
+   "IE",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "939294e6bc814924"
+  "enriquecido": true,
+  "hashContenido": "8c94cf06f8fa3a99"
  },
  "slug": "agitador-de-agua-water-snake-safety-gate-10006122"
 }

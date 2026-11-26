@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-08"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,8 +27,7 @@
     "Margarita"
    ],
    "modelos": [
-    "50 ml",
-    "best used until: 09 2023A15"
+    "50 ml, best used until: 09 2023A15"
    ],
    "lotes": [
     {
@@ -39,7 +38,8 @@
     "4770001336540"
    ],
    "descripcion": "Crema facial con colágeno y aceite vegetal para piel madura, 50 ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El envase de 50 ml, con la crema facial, se presenta en una caja de cartón blanco y verde con información en lituano, inglés, letón, estonio y ruso."
   }
  ],
  "riesgo": {
@@ -69,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Lituania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,17 +95,16 @@
   "claves": [
    "ref:A12/00992/22",
    "ean:4770001336540",
-   "mm:margarita:50-ml",
-   "mm:margarita:best-used-until-09-2023a15",
+   "mm:margarita:50-ml-best-used-until-09-2023a15",
    "ml:margarita:09-2023a15"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7202149f04863645"
+  "enriquecido": true,
+  "hashContenido": "fd72b52d49e31f87"
  },
  "slug": "crema-facial-margarita-safety-gate-10006391"
 }

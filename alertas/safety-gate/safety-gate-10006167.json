@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Braun Ability"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.09.2021 - 04.04.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Parte del vehículo para turismos (ascensor para sillas de ruedas)",
-   "fechasTexto": "14.09.2021 - 04.04.2022"
+   "fechasTexto": "14.09.2021 - 04.04.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,15 +84,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/00900/22"
+   "ref:A12/00900/22",
+   "ml:braun-ability:14-09-2021-04-04-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dc53aab94e38fae6"
+  "enriquecido": true,
+  "hashContenido": "aa309b1d2a98b9af"
  },
  "slug": "parte-del-vehiculo-ascensor-de-silla-de-ruedas-braun-ability-safety-gate-10006167"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-06-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-09"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -27,13 +27,13 @@
     "BF&GF Fashion"
    ],
    "modelos": [
-    "Size 4",
-    "(18 - 28)"
+    "Size 4, (18 - 28)"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Chaqueta roja de invierno con capucha y cremallera, talla 4 (18-28). El producto tiene cordones con extremos libres en la cintura y en la espalda.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende sin embalaje."
   }
  ],
  "riesgo": {
@@ -82,16 +82,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00825/22",
-   "mm:bf-gf-fashion:size-4",
-   "mm:bf-gf-fashion:18-28"
+   "mm:bf-gf-fashion:size-4-18-28"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3ecd72467b7a9e56"
+  "enriquecido": true,
+  "hashContenido": "d2517b3e5ae94514"
  },
  "slug": "chaqueta-de-invierno-bf-gf-fashion-safety-gate-10006186"
 }

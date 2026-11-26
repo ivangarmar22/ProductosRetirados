@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-07-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-01"
  },
  "categoria": {
   "literal": "Aparatos de gas y componentes",
@@ -34,7 +34,8 @@
     "7391812185058"
    ],
    "descripcion": "Parabrisas para la estufa de camping Optimus Vega",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Se vende en relación con la estufa de camping."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Rumanía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eeb1c8b3bf696dcf"
+  "enriquecido": true,
+  "hashContenido": "69a6e2f20ae22518"
  },
  "slug": "estufa-de-camping-parabrisas-optimus-safety-gate-10006294"
 }

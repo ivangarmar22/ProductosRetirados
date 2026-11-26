@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-27"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "61008Seria 3"
+     "numero": "61008"
+    },
+    {
+     "numero": "Seria 3"
     }
    ],
    "ean": [
     "5901461610089"
    ],
    "descripcion": "Imagen de plástico 3D de un terrier Yorkshire con marco y pinturas acrílicas para colorear en la imagen, lavables para repintar.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón impresa en color"
   }
  ],
  "riesgo": {
@@ -66,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +88,16 @@
   "claves": [
    "ref:A12/00786/22",
    "ean:5901461610089",
-   "ml:mirage-hobby:61008seria-3"
+   "ml:mirage-hobby:61008",
+   "ml:mirage-hobby:seria-3"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "00a7e58b9f12a210"
+  "enriquecido": true,
+  "hashContenido": "829cef79f5715df4"
  },
  "slug": "conjunto-de-pintura-mirage-hobby-safety-gate-10006146"
 }
