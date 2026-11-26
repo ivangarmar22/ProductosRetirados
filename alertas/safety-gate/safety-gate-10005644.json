@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Porsche"
    ],
    "modelos": [
-    "e13*2007/46*0919*02",
-    "Y1A"
+    "e13*2007/46*0919*02, Y1A"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.10.2020 - 23.11.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "14.10.2020 - 23.11.2020"
+   "fechasTexto": "14.10.2020 - 23.11.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "HU",
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00553/22",
-   "mm:porsche:e13-2007-46-0919-02",
-   "mm:porsche:y1a"
+   "mm:porsche:e13-2007-46-0919-02-y1a",
+   "ml:porsche:14-10-2020-23-11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1f8c55cd60e0d2ee"
+  "enriquecido": true,
+  "hashContenido": "2e3bbc235be1a412"
  },
  "slug": "turismos-porsche-safety-gate-10005644"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-01"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -24,7 +24,8 @@
   {
    "nombre": "Bifriend-The Avengers Alliance Movies Thanos Charm Anhänger Halskette Personalisierte Zirkon Krist.",
    "marcas": [
-    "Meirenpeizi - Zhijia Jewelry, bifriend"
+    "Meirenpeizi - Zhijia Jewelry",
+    "bifriend"
    ],
    "modelos": [
     "ZB032"
@@ -32,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cadena de oro con colgante de cristal de circón que contiene cinco piedras de color. Producto vendido en línea, en particular a través de Amazon, con el número ASIN B07S8VT64C.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente"
   }
  ],
  "riesgo": {
@@ -93,15 +95,16 @@
  "dedup": {
   "claves": [
    "ref:INFO/00033/22",
-   "mm:meirenpeizi-zhijia-jewelry-bifriend:zb032"
+   "mm:meirenpeizi-zhijia-jewelry:zb032",
+   "mm:bifriend:zb032"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d05828fdff18d88f"
+  "enriquecido": true,
+  "hashContenido": "09df685cb40c7e7d"
  },
  "slug": "collar-meirenpeizi-zhijia-jewelry-bifriend-safety-gate-10005494"
 }

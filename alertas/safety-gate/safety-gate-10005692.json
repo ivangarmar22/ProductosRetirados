@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,19 +28,17 @@
    ],
    "modelos": [
     "B",
-    "e9*2007/46*6816*00",
-    "e9*2007/46*6816*01",
-    "e9*2007/46*6816*02",
-    "e9*2007/46*6816*03",
-    "e9*2007/46*6816*04",
-    "e9*2007/46*6816*05",
-    "e9*2007/46*6816*06",
-    "e9*2007/46*6816*07"
+    "e9*2007/46*6816*00, e9*2007/46*6816*01, e9*2007/46*6816*02, e9*2007/46*6816*03, e9*2007/46*6816*04, e9*2007/46*6816*05, e9*2007/46*6816*06, e9*2007/46*6816*07,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.05.2020 - 20.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "26.05.2020 - 20.08.2021"
+   "fechasTexto": "26.05.2020 - 20.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +68,24 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "ES",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,22 +100,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00512/22",
-   "mm:citroen:e9-2007-46-6816-00",
-   "mm:citroen:e9-2007-46-6816-01",
-   "mm:citroen:e9-2007-46-6816-02",
-   "mm:citroen:e9-2007-46-6816-03",
-   "mm:citroen:e9-2007-46-6816-04",
-   "mm:citroen:e9-2007-46-6816-05",
-   "mm:citroen:e9-2007-46-6816-06",
-   "mm:citroen:e9-2007-46-6816-07"
+   "mm:citroen:e9-2007-46-6816-00-e9-2007-46-6816-01-e9-2007-46-6816-02-e9-2007-46-6816-03-e9-2007-46-6816-04-e9-2007-46-6816-05-e9-2007-46-6816-06-e9-2007-46-6816-07",
+   "ml:citroen:26-05-2020-20-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3de82223de09f252"
+  "enriquecido": true,
+  "hashContenido": "bfa1aed9a1af223a"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10005692"
 }

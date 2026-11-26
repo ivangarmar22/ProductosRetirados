@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0639*07 - *11",
-    "e2*2007/46*0639*06 - *11"
+    "e2*2007/46*0639*07 - *11, e2*2007/46*0639*06 - *11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03/07/2019 - 27/09/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Vagón de pasajeros.",
-   "fechasTexto": "03/07/2019 - 27/09/2020"
+   "fechasTexto": "03/07/2019 - 27/09/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Eslovaquia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "GR",
+   "HU",
+   "IE",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00570/22",
-   "mm:peugeot:e2-2007-46-0639-07-11",
-   "mm:peugeot:e2-2007-46-0639-06-11"
+   "mm:peugeot:e2-2007-46-0639-07-11-e2-2007-46-0639-06-11",
+   "ml:peugeot:03-07-2019-27-09-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3184c22e81fc7d57"
+  "enriquecido": true,
+  "hashContenido": "413e39089bce9a06"
  },
  "slug": "turismos-peugeot-safety-gate-10005833"
 }

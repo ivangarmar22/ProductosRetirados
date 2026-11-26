@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-07-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Audi"
    ],
    "modelos": [
-    "8J",
-    "F3",
-    "e1*2001/116*0369",
-    "e1*2007/46*1900"
+    "8J, F3",
+    "e1*2001/116*0369, e1*2007/46*1900"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.11.2020 - 10.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "19.11.2020 - 10.03.2022"
+   "fechasTexto": "19.11.2020 - 10.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +69,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "MT",
+   "NL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,16 +93,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00541/22",
-   "mm:audi:e1-2001-116-0369",
-   "mm:audi:e1-2007-46-1900"
+   "mm:audi:8j-f3",
+   "mm:audi:e1-2001-116-0369-e1-2007-46-1900",
+   "ml:audi:19-11-2020-10-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e68bd51fe1258ba"
+  "enriquecido": true,
+  "hashContenido": "0b7f0aa4d7add678"
  },
  "slug": "turismos-audi-safety-gate-10005854"
 }

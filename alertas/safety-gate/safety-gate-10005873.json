@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-31",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-31"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -27,13 +27,13 @@
     "Migant Fashion Shoes"
    ],
    "modelos": [
-    "A922-91",
-    "P1040516"
+    "A922-91, P1040516"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Sandalias de plástico Rose Gold con texto «Reina», tamaño 39",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente"
   }
  ],
  "riesgo": {
@@ -78,16 +78,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00536/22",
-   "mm:migant-fashion-shoes:a922-91",
-   "mm:migant-fashion-shoes:p1040516"
+   "mm:migant-fashion-shoes:a922-91-p1040516"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e9fed015fc1a9d18"
+  "enriquecido": true,
+  "hashContenido": "01363819eec919a9"
  },
  "slug": "sandalias-migant-fashion-shoes-safety-gate-10005873"
 }

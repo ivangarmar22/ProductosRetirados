@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,20 +28,18 @@
    ],
    "modelos": [
     "OE-No.: 4013A281 & 4013A282",
-    "e1*2001/116*0406*00-*02+*05-*33",
-    "e1*2001/116*0482*00-*09",
-    "e1*2007/46*1218*00-*02+*04-*05",
-    "e2*2001/116*0357*01-*09",
-    "e2*2007/46*0115*01-*05+*07",
-    "e2*2001/116*0358*00-*03+*05-*10",
-    "e2*2007/46*0117*01-*07",
-    "e1*2007/46*0368*00-*12+*14-*16+*18-*22",
-    "e1*2001/116*0441*02-*04+*06-*08+*11-*22"
+    "e1*2001/116*0406*00-*02+*05-*33, e1*2001/116*0482*00-*09, e1*2007/46*1218*00-*02+*04-*05, e2*2001/116*0357*01-*09, e2*2007/46*0115*01-*05+*07",
+    "e2*2001/116*0358*00-*03+*05-*10, e2*2007/46*0117*01-*07, e1*2007/46*0368*00-*12+*14-*16+*18-*22, e1*2001/116*0441*02-*04+*06-*08+*11-*22,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.06.2018 - 10.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Brazo de control de suspensión frontal, n.º OE: 4013A281 y 4013A282, suspensión de rueda Wbone para Citroen (C-Crosser, C4 Aircross), Peugeot (4007, 4008) y Mitsubishi (ASX, Lancer, Outlander)",
-   "fechasTexto": "21.06.2018 - 10.12.2021"
+   "fechasTexto": "21.06.2018 - 10.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -91,23 +89,17 @@
   "claves": [
    "ref:A12/00696/22",
    "mm:meyle-ag:oe-no-4013a281-4013a282",
-   "mm:meyle-ag:e1-2001-116-0406-00-02-05-33",
-   "mm:meyle-ag:e1-2001-116-0482-00-09",
-   "mm:meyle-ag:e1-2007-46-1218-00-02-04-05",
-   "mm:meyle-ag:e2-2001-116-0357-01-09",
-   "mm:meyle-ag:e2-2007-46-0115-01-05-07",
-   "mm:meyle-ag:e2-2001-116-0358-00-03-05-10",
-   "mm:meyle-ag:e2-2007-46-0117-01-07",
-   "mm:meyle-ag:e1-2007-46-0368-00-12-14-16-18-22",
-   "mm:meyle-ag:e1-2001-116-0441-02-04-06-08-11-22"
+   "mm:meyle-ag:e1-2001-116-0406-00-02-05-33-e1-2001-116-0482-00-09-e1-2007-46-1218-00-02-04-05-e2-2001-116-0357-01-09-e2-2007-46-0115-01-05-07",
+   "mm:meyle-ag:e2-2001-116-0358-00-03-05-10-e2-2007-46-0117-01-07-e1-2007-46-0368-00-12-14-16-18-22-e1-2001-116-0441-02-04-06-08-11-22",
+   "ml:meyle-ag:21-06-2018-10-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d99b9d4fcdb35dd0"
+  "enriquecido": true,
+  "hashContenido": "95b6c7d7332a6eb0"
  },
  "slug": "parte-del-vehiculo-brazo-de-control-de-la-suspension-delantera-meyle-a-safety-gate-10006027"
 }

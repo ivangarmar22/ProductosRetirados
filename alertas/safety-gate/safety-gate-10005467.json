@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-01"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -24,7 +24,8 @@
   {
    "nombre": "Glitzerndes Einhorn-Armband-Halsketten-Set mit glitzernden Kristallen, mit Grußkarte, Geschenkbox",
    "marcas": [
-    "Hicarer, The Magical Unicorn"
+    "Hicarer",
+    "The Magical Unicorn"
    ],
    "modelos": [
     "Hicarer-Unicorn Charm Necklace-01"
@@ -32,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pulsera brillante con cristales, coloridos elementos de vidrio y colgante de unicornio. Producto vendido en línea, en particular a través de Amazon, con el número ASIN B07XYMHQBW.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de cartón rosa cuadrada impresa con unicornios y marca."
   }
  ],
  "riesgo": {
@@ -97,15 +99,16 @@
  "dedup": {
   "claves": [
    "ref:INFO/00024/22",
-   "mm:hicarer-the-magical-unicorn:hicarer-unicorn-charm-necklace-01"
+   "mm:hicarer:hicarer-unicorn-charm-necklace-01",
+   "mm:the-magical-unicorn:hicarer-unicorn-charm-necklace-01"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "96bf7e83e5af9f01"
+  "enriquecido": true,
+  "hashContenido": "f4c4b518719bed68"
  },
  "slug": "pulsera-con-colgante-hicarer-the-magical-unicorn-safety-gate-10005467"
 }

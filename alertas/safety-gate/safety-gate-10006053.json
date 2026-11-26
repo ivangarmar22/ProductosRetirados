@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.07.2017 - 27.02.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros.",
-   "fechasTexto": "06.07.2017 - 27.02.2018"
+   "fechasTexto": "06.07.2017 - 27.02.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00689/22",
-   "mm:toyota:individual-approval"
+   "mm:toyota:individual-approval",
+   "ml:toyota:06-07-2017-27-02-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "48ad7d4623c86e68"
+  "enriquecido": true,
+  "hashContenido": "a1bee0ca1568f1be"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10006053"
 }

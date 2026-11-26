@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-28"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Cepillado-espesor para carpintería, con una rotación de 9000 RPM/Min y 230V de potencia. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,7 +79,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,11 +105,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "977aba50f80c395c"
+  "enriquecido": true,
+  "hashContenido": "b18c467819f434c7"
  },
  "slug": "cepilladora-y-espesa-de-madera-nova-safety-gate-10005869"
 }

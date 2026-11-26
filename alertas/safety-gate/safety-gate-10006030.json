@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-14"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -31,13 +31,7 @@
    ],
    "lotes": [
     {
-     "numero": "AC354080055"
-    },
-    {
-     "numero": "AC354090055"
-    },
-    {
-     "numero": "AC354100055"
+     "numero": "AC354080055, AC354090055, AC354100055"
     }
    ],
    "ean": [
@@ -46,7 +40,8 @@
     "4058075576254"
    ],
    "descripcion": "Lámpara de armario de piso con función de inclinación, carcasa de aluminio plateado, disponible en dos longitudes de 357 mm y 557 mm. El producto se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,7 +79,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "HR",
+   "LU",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,17 +112,15 @@
    "ean:4058075268388",
    "ean:4058075576254",
    "mm:ledvance:linear-led-turn",
-   "ml:ledvance:ac354080055",
-   "ml:ledvance:ac354090055",
-   "ml:ledvance:ac354100055"
+   "ml:ledvance:ac354080055-ac354090055-ac354100055"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7f607abca4b6f19a"
+  "enriquecido": true,
+  "hashContenido": "e47b735bd941c3e9"
  },
  "slug": "tira-de-led-lineal-ledvance-safety-gate-10006030"
 }

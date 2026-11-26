@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Seat"
    ],
    "modelos": [
-    "KL",
-    "KN",
-    "e9*2007/46*3167*",
-    "e9*2007/46*6666*"
+    "KL, KN",
+    "e9*2007/46*3167*, e9*2007/46*6666*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.09.2020 -10.01.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "18.09.2020 -10.01.2022"
+   "fechasTexto": "18.09.2020 -10.01.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "MT",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,16 +90,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00697/22",
-   "mm:seat:e9-2007-46-3167",
-   "mm:seat:e9-2007-46-6666"
+   "mm:seat:kl-kn",
+   "mm:seat:e9-2007-46-3167-e9-2007-46-6666",
+   "ml:seat:18-09-2020-10-01-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c7098670c3ea8e28"
+  "enriquecido": true,
+  "hashContenido": "5995354a186b2f8a"
  },
  "slug": "coche-de-pasajeros-seat-safety-gate-10006023"
 }

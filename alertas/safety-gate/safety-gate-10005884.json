@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-12"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "34B714234В6292"
+     "numero": "34B7142"
+    },
+    {
+     "numero": "34В6292"
     }
    ],
    "ean": [
     "840029226445"
    ],
    "descripcion": "Cigarrillo electrónico recargable en un embalaje que contiene 1 mod, 1 tanque, 2 bobinas y 1 cable USB tipo C más el manual. El producto se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de cartón individual."
   }
  ],
  "riesgo": {
@@ -85,15 +89,16 @@
    "ref:A12/00574/22",
    "ean:840029226445",
    "mm:vaptio:cosmo-2",
-   "ml:vaptio:34b714234-6292"
+   "ml:vaptio:34b7142",
+   "ml:vaptio:34-6292"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "325c8c946cb849eb"
+  "enriquecido": true,
+  "hashContenido": "8855b5b7cefbbffb"
  },
  "slug": "cigarrillo-electronico-recargable-vaptio-safety-gate-10005884"
 }

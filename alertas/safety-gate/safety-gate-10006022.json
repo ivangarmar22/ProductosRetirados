@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Skoda"
    ],
    "modelos": [
-    "3T",
-    "NX",
-    "e8*2007/46*0317*",
-    "e8*2007/46*0355*"
+    "3T, NX",
+    "e8*2007/46*0317*, e8*2007/46*0355*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2019 - 28.02.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "01.01.2019 - 28.02.2022"
+   "fechasTexto": "01.01.2019 - 28.02.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +70,24 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,16 +97,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00636/22",
-   "mm:skoda:e8-2007-46-0317",
-   "mm:skoda:e8-2007-46-0355"
+   "mm:skoda:3t-nx",
+   "mm:skoda:e8-2007-46-0317-e8-2007-46-0355",
+   "ml:skoda:01-01-2019-28-02-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "86ee158db2f15048"
+  "enriquecido": true,
+  "hashContenido": "e157417c24f4b1d8"
  },
  "slug": "coche-de-pasajeros-skoda-safety-gate-10006022"
 }

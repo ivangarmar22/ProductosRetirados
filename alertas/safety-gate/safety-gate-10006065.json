@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-16"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "6991203742191"
    ],
    "descripcion": "Juguete inflable rebotante en forma de caballo, hecho de plástico rojo con mariposas coloridas pintadas.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "RO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d1808f31c3dd15e9"
+  "enriquecido": true,
+  "hashContenido": "61a0b050538e2fe6"
  },
  "slug": "juguete-rebotando-safety-gate-10006065"
 }

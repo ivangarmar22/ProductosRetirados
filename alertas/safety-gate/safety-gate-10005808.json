@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-06-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "RN70",
     "e13*168/2013*00954"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2021 - 31.01.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "01.01.2021 - 31.01.2022"
+   "fechasTexto": "01.01.2021 - 31.01.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FI",
+   "GR",
+   "IE",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +93,16 @@
   "claves": [
    "ref:A12/00495/22",
    "mm:yamaha:rn70",
-   "mm:yamaha:e13-168-2013-00954"
+   "mm:yamaha:e13-168-2013-00954",
+   "ml:yamaha:01-01-2021-31-01-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f2c867314dcfa500"
+  "enriquecido": true,
+  "hashContenido": "570728f0bf288f7a"
  },
  "slug": "moto-yamaha-safety-gate-10005808"
 }

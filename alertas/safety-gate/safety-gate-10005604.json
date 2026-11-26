@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-12"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Soporte de baño plegable blanco. El producto también se vende en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +71,11 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL",
+   "XI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5682888848b60450"
+  "enriquecido": true,
+  "hashContenido": "ae669e0ab8f52fef"
  },
  "slug": "soporte-de-bano-plegable-shnuggle-ltd-safety-gate-10005604"
 }

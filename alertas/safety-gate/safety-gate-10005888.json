@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "A1",
-    "CD",
-    "3CC",
-    "5N",
-    "3H",
-    "e13*2007/46*1845*",
-    "e1*2007/46*2014*",
-    "e1*2001/116*0468*",
-    "e1*2001/116*0450*",
-    "e1*2007/46*1725*"
+    "A1, CD, 3CC, 5N, 3H",
+    "e13*2007/46*1845*, e1*2007/46*2014*, e1*2001/116*0468*, e1*2001/116*0450*, e1*2007/46*1725*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.02.2020 - 3.02.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "28.02.2020 - 3.02.2022"
+   "fechasTexto": "28.02.2020 - 3.02.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +69,24 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "MT",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +96,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00584/22",
-   "mm:vw:3cc",
-   "mm:vw:e13-2007-46-1845",
-   "mm:vw:e1-2007-46-2014",
-   "mm:vw:e1-2001-116-0468",
-   "mm:vw:e1-2001-116-0450",
-   "mm:vw:e1-2007-46-1725"
+   "mm:vw:a1-cd-3cc-5n-3h",
+   "mm:vw:e13-2007-46-1845-e1-2007-46-2014-e1-2001-116-0468-e1-2001-116-0450-e1-2007-46-1725",
+   "ml:vw:28-02-2020-3-02-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cd19e5ad3f1ca620"
+  "enriquecido": true,
+  "hashContenido": "ec6556019c2e18eb"
  },
  "slug": "turismos-vw-safety-gate-10005888"
 }

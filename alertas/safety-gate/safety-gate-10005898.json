@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-04"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -24,7 +24,8 @@
   {
    "nombre": "Facial PPE",
    "marcas": [
-    "Cambridge, Cambridge Mask PRO"
+    "Cambridge",
+    "Cambridge Mask PRO"
    ],
    "modelos": [
     "Churchill"
@@ -38,7 +39,8 @@
     "5060437942156"
    ],
    "descripcion": "Máscara protectora negra lavable con una válvula de exhalación hecha de tela con el logotipo de Cambridge mask Co. El producto se vende con una oreja ajustable y correa para la cabeza, y un sello de la nariz de espuma.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "La máscara está embalada en una caja de cartón azul."
   }
  ],
  "riesgo": {
@@ -96,16 +98,18 @@
   "claves": [
    "ref:A12/00674/22",
    "ean:5060437942156",
-   "mm:cambridge-cambridge-mask-pro:churchill",
-   "ml:cambridge-cambridge-mask-pro:89na202009"
+   "mm:cambridge:churchill",
+   "ml:cambridge:89na202009",
+   "mm:cambridge-mask-pro:churchill",
+   "ml:cambridge-mask-pro:89na202009"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3899daa46cdc48b6"
+  "enriquecido": true,
+  "hashContenido": "3647978c87776548"
  },
  "slug": "mascara-de-filtro-de-particulas-cambridge-cambridge-mask-pro-safety-gate-10005898"
 }

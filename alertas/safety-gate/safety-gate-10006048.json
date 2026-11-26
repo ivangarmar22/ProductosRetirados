@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-05"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,12 +31,28 @@
    ],
    "lotes": [
     {
-     "numero": "ACA 0P 000187 ACA 0P 000203ACA 0P 000209ACA 0P 000210ACA 0P 000211ACA 0P 000212"
+     "numero": "ACA 0P 000187"
+    },
+    {
+     "numero": "ACA 0P 000203"
+    },
+    {
+     "numero": "ACA 0P 000209"
+    },
+    {
+     "numero": "ACA 0P 000210"
+    },
+    {
+     "numero": "ACA 0P 000211"
+    },
+    {
+     "numero": "ACA 0P 000212"
     }
    ],
    "ean": [],
    "descripcion": "Fuente de alimentación para portátiles con cable de conexión, equipado con un enchufe de dos polos con contacto protector.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -94,15 +110,20 @@
   "claves": [
    "ref:A12/00698/22",
    "mm:mobile-energy:adp-90sb-bb",
-   "ml:mobile-energy:aca-0p-000187-aca-0p-000203aca-0p-000209aca-0p-000210aca-0p-000211aca-0p-000212"
+   "ml:mobile-energy:aca-0p-000187",
+   "ml:mobile-energy:aca-0p-000203",
+   "ml:mobile-energy:aca-0p-000209",
+   "ml:mobile-energy:aca-0p-000210",
+   "ml:mobile-energy:aca-0p-000211",
+   "ml:mobile-energy:aca-0p-000212"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e3f809fb79d1bf18"
+  "enriquecido": true,
+  "hashContenido": "7f040b17c7b8ef7c"
  },
  "slug": "adaptador-de-potencia-mobile-energy-safety-gate-10006048"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "DH",
     "e4*2007/46*1030*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.06.2017 - 09.03.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "19.06.2017 - 09.03.2020"
+   "fechasTexto": "19.06.2017 - 09.03.2020",
+   "envase": "No especificado"
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "IE",
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00501/22",
-   "mm:hyundai:e4-2007-46-1030"
+   "mm:hyundai:e4-2007-46-1030",
+   "ml:hyundai:19-06-2017-09-03-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "728e92300177ef1f"
+  "enriquecido": true,
+  "hashContenido": "f06b59c3fa112796"
  },
  "slug": "turismos-hyundai-safety-gate-10005806"
 }

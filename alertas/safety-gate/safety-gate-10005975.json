@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -32,12 +32,19 @@
    ],
    "lotes": [
     {
-     "numero": "256884 256885258466"
+     "numero": "256884"
+    },
+    {
+     "numero": "256885"
+    },
+    {
+     "numero": "258466"
     }
    ],
    "ean": [],
    "descripcion": "Tinte para el cabello permanente (negro y rubio de ceniza claro). Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón, fondo beige con la cabeza de una mujer encima de la etiqueta en la parte delantera. El distintivo logotipo negro se muestra en el centro de la parte delantera de la caja. Más información sobre el producto se proporciona debajo del logotipo."
   }
  ],
  "riesgo": {
@@ -98,15 +105,17 @@
    "ref:A12/00627/22",
    "mm:dm-reell-e-expert:9-1",
    "mm:dm-reell-e-expert:10-1",
-   "ml:dm-reell-e-expert:256884-256885258466"
+   "ml:dm-reell-e-expert:256884",
+   "ml:dm-reell-e-expert:256885",
+   "ml:dm-reell-e-expert:258466"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22239046f49bf39f"
+  "enriquecido": true,
+  "hashContenido": "7f800589a33f5448"
  },
  "slug": "tinte-para-el-cabello-dm-reell-e-expert-safety-gate-10005975"
 }

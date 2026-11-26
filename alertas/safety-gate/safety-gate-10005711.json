@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,12 +29,13 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "08/23-2"
+     "numero": "08/23-2."
     }
    ],
    "ean": [],
    "descripcion": "Líquido para cigarrillos electrónicos en una cápsula de plástico 1,6 ml, 10 mg/ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Vaina de plástico"
   }
  ],
  "riesgo": {
@@ -83,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "06586e96ad7904b0"
+  "enriquecido": true,
+  "hashContenido": "69d7e0912e067e0c"
  },
  "slug": "liquido-para-cigarrillos-electronicos-wiip-safety-gate-10005711"
 }

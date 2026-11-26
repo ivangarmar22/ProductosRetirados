@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-12"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "S&W"
    ],
    "modelos": [
-    "J18",
-    "63912"
+    "J18, 63912"
    ],
    "lotes": [],
    "ean": [
     "8588588639123"
    ],
    "descripcion": "Cargador de baterías blanco y negro con 2 puertos USB.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de plástico transparente"
   }
  ],
  "riesgo": {
@@ -97,16 +97,15 @@
   "claves": [
    "ref:A11/00062/22",
    "ean:8588588639123",
-   "mm:s-w:j18",
-   "mm:s-w:63912"
+   "mm:s-w:j18-63912"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9d4779f93fee8452"
+  "enriquecido": true,
+  "hashContenido": "0b0ef8d23edfa9fa"
  },
  "slug": "cargador-usb-s-w-safety-gate-10005932"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Triumph"
    ],
    "modelos": [
-    "L101",
-    "L101R",
-    "e9*168/2013*11675*00+*01",
-    "e9*168/2013*11674*00+*01"
+    "L101, L101R",
+    "e9*168/2013*11675*00+*01, e9*168/2013*11674*00+*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.2.2021 - 31.5.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Trident 660 motocicletas desde el número de chasis AF8681 hasta el número de chasis AT4999 inclusive se ven afectadas.",
-   "fechasTexto": "1.2.2021 - 31.5.2021"
+   "fechasTexto": "1.2.2021 - 31.5.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "FI",
+   "GR",
+   "IE",
+   "LU",
+   "NL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00534/22",
-   "mm:triumph:l101",
-   "mm:triumph:l101r",
-   "mm:triumph:e9-168-2013-11675-00-01",
-   "mm:triumph:e9-168-2013-11674-00-01"
+   "mm:triumph:l101-l101r",
+   "mm:triumph:e9-168-2013-11675-00-01-e9-168-2013-11674-00-01",
+   "ml:triumph:1-2-2021-31-5-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "baa0bf50cf20eca1"
+  "enriquecido": true,
+  "hashContenido": "86dd97c1e6c949c5"
  },
  "slug": "motocicleta-triumph-safety-gate-10005865"
 }

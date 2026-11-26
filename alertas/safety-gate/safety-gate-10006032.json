@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-19"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "202102HU"
-    },
-    {
-     "numero": "2021/02"
+     "numero": "202102HU, 2021/02"
     }
    ],
    "ean": [
     "5907644003518"
    ],
    "descripcion": "Juguete plástico rígido colorido (amarillo, naranja, azul, verde). Cuatro figuras de abeja ensartadas en un cordón elástico con bolas transparentes incrustadas en la parte inferior y llenas de guisantes plásticos. Entre las figuras hay cinco cuentas, dos anillos de fijación atados en los extremos de la cuerda.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -71,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,16 +96,15 @@
    "ref:A12/00666/22",
    "ean:5907644003518",
    "mm:akuku:a0351",
-   "ml:akuku:202102hu",
-   "ml:akuku:2021-02"
+   "ml:akuku:202102hu-2021-02"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "349f76b640760549"
+  "enriquecido": true,
+  "hashContenido": "8053a5614455325e"
  },
  "slug": "juguete-de-cascabel-akuku-safety-gate-10006032"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-16"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "138560manufactured in October 2019"
+     "numero": "138560"
+    },
+    {
+     "numero": "manufactured in October 2019"
     }
    ],
    "ean": [],
    "descripcion": "Casco para ciclistas de pedal y para usuarios de skateboards y patines según EN 1078. Carcasa de plástico gris sobre un casco de espuma de poliestireno, de tamaños 54-58 cm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente"
   }
  ],
  "riesgo": {
@@ -66,7 +70,11 @@
   "ccaa": [],
   "paisNotificante": "Islandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "FI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +98,16 @@
   "claves": [
    "ref:A12/00249/22",
    "mm:rawlink:44742",
-   "ml:rawlink:138560manufactured-in-october-2019"
+   "ml:rawlink:138560",
+   "ml:rawlink:manufactured-in-october-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb32395ad7a0af8a"
+  "enriquecido": true,
+  "hashContenido": "b1e9c8700ace41a3"
  },
  "slug": "casco-de-bicicleta-rawlink-safety-gate-10005495"
 }

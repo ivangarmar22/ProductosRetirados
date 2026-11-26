@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "8711866243822"
    ],
    "descripcion": "Puffer juguete en diferentes colores y modelos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende sin embalaje, pero tiene una tarjeta de información adjunta."
   }
  ],
  "riesgo": {
@@ -76,7 +77,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b72bc79ad63bc118"
+  "enriquecido": true,
+  "hashContenido": "ae5f7ab2960ca247"
  },
  "slug": "juguete-de-puffer-johntoy-safety-gate-10005974"
 }

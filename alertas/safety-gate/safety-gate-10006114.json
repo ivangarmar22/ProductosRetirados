@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0538*18",
     "e2*2007/46*0538*19"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.11.2021 - 15.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero, WMI: YAR",
-   "fechasTexto": "24.11.2021 - 15.12.2021"
+   "fechasTexto": "24.11.2021 - 15.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "HU",
+   "NL",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +93,16 @@
   "claves": [
    "ref:A12/00755/22",
    "mm:toyota:e2-2007-46-0538-18",
-   "mm:toyota:e2-2007-46-0538-19"
+   "mm:toyota:e2-2007-46-0538-19",
+   "ml:toyota:24-11-2021-15-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "50e74d5f7fdab18d"
+  "enriquecido": true,
+  "hashContenido": "7d20f980e30a8f68"
  },
  "slug": "vehiculo-comercial-ligero-toyota-safety-gate-10006114"
 }

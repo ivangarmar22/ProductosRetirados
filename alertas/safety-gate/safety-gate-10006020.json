@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-17"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -32,7 +32,8 @@
     "5900949405674"
    ],
    "descripcion": "Baba de juguete.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envases de plástico que se asemejan a una rebanada de frutas."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "46339bc434113720"
+  "enriquecido": true,
+  "hashContenido": "1389018b37f9b11b"
  },
  "slug": "limo-de-juguete-crystal-fruit-mud-safety-gate-10006020"
 }

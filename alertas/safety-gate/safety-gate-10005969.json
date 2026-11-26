@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-04"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "4772013160526"
    ],
    "descripcion": "Batidora de mano, color blanco. 220-240V; 50/60 Hz; 400 W.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4100cf6b8a1d2620"
+  "enriquecido": true,
+  "hashContenido": "9a0a29eb4da9dffe"
  },
  "slug": "licuadora-de-mano-standart-safety-gate-10005969"
 }

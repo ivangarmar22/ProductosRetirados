@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "El Fitbit Ionic Smartwatch es un smartwatch con GPS, orientado al fitness. El producto está equipado con una batería de iones de litio y aproximadamente cuatro días de duración de la batería. El producto tiene una pantalla LCD a color de 1,4\" y estaba disponible con múltiples tamaños de banda para adaptarse a diferentes tamaños de muñeca de los consumidores.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,16 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "Taiwán",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "GR",
+   "LU",
+   "LV",
+   "NO",
+   "PL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4d2f4f5a1b9dba5d"
+  "enriquecido": true,
+  "hashContenido": "b2c9c23971048feb"
  },
  "slug": "reloj-inteligente-fitbit-llc-safety-gate-10005738"
 }

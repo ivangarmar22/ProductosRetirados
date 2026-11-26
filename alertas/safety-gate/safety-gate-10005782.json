@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,19 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "906BB50/4x4",
-    "906BA50/4x4",
-    "e1*2007/46*0304*06",
-    "e1*2007/46*0304*07",
-    "e1*2007/46*0304*08",
-    "e1*2007/46*0308*06",
-    "e1*2007/46*0308*08"
+    "906BB50/4x4, 906BA50/4x4",
+    "e1*2007/46*0304*06, e1*2007/46*0304*07, e1*2007/46*0304*08,",
+    "e1*2007/46*0308*06, e1*2007/46*0308*08,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24/07/2018 - 11/06/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "24/07/2018 - 11/06/2020"
+   "fechasTexto": "24/07/2018 - 11/06/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,21 +83,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00551/22",
-   "mm:mercedes-benz:906bb50-4x4",
-   "mm:mercedes-benz:906ba50-4x4",
-   "mm:mercedes-benz:e1-2007-46-0304-06",
-   "mm:mercedes-benz:e1-2007-46-0304-07",
-   "mm:mercedes-benz:e1-2007-46-0304-08",
-   "mm:mercedes-benz:e1-2007-46-0308-06",
-   "mm:mercedes-benz:e1-2007-46-0308-08"
+   "mm:mercedes-benz:906bb50-4x4-906ba50-4x4",
+   "mm:mercedes-benz:e1-2007-46-0304-06-e1-2007-46-0304-07-e1-2007-46-0304-08",
+   "mm:mercedes-benz:e1-2007-46-0308-06-e1-2007-46-0308-08",
+   "ml:mercedes-benz:24-07-2018-11-06-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "43720fd4a1ad6144"
+  "enriquecido": true,
+  "hashContenido": "1313e5d463cc0d61"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10005782"
 }

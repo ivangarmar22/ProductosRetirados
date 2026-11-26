@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-11"
  },
  "categoria": {
   "literal": "Embarcaciones de recreo",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Sea-Doo Spark Año de modelo 2019 a 2022. Embarcaciones equipadas con un sistema de audio portátil.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f95af8755130fc51"
+  "enriquecido": true,
+  "hashContenido": "2b1c4fcf2344cb42"
  },
  "slug": "moto-acuatica-personal-sea-doo-safety-gate-10005895"
 }

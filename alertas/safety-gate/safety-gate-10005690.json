@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Ford"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "9.4.2012 - 30.9.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Los turismos, sin números de homologación porque son vehículos de importación gris.",
-   "fechasTexto": "9.4.2012 - 30.9.2017"
+   "fechasTexto": "9.4.2012 - 30.9.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +83,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/00555/22"
+   "ref:A12/00555/22",
+   "ml:ford:9-4-2012-30-9-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "250125d4751ffbd3"
+  "enriquecido": true,
+  "hashContenido": "70fd786157ea4aab"
  },
  "slug": "coche-de-pasajeros-ford-safety-gate-10005690"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "G5X",
     "e1*2007/46*1918*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.1.2020 - 22.2.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "17.1.2020 - 22.2.2021"
+   "fechasTexto": "17.1.2020 - 22.2.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +70,23 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,15 +102,16 @@
   "claves": [
    "ref:A12/00643/22",
    "mm:bmw:g5x",
-   "mm:bmw:e1-2007-46-1918"
+   "mm:bmw:e1-2007-46-1918",
+   "ml:bmw:17-1-2020-22-2-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ad84463cb5267e3f"
+  "enriquecido": true,
+  "hashContenido": "c87f7b08b3bbf34b"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10005994"
 }

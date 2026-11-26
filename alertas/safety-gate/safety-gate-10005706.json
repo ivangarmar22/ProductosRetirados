@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,17 @@
     "Mazda"
    ],
    "modelos": [
-    "e1*97/27*0093*00 à 02",
-    "e13*96/79*0027*00",
-    "e1*95/54*0038*00",
-    "e1*95/54*0038*01",
-    "e1*95/54*0038*02"
+    "e1*97/27*0093*00 à 02, e13*96/79*0027*00, e1*95/54*0038*00, e1*95/54*0038*01, e1*95/54*0038*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.06.1989 – 01.11.2002"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "01.06.1989 – 01.11.2002"
+   "fechasTexto": "01.06.1989 – 01.11.2002",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "HU",
+   "NL",
+   "NO",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,19 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00507/22",
-   "mm:mazda:e1-97-27-0093-00-a-02",
-   "mm:mazda:e13-96-79-0027-00",
-   "mm:mazda:e1-95-54-0038-00",
-   "mm:mazda:e1-95-54-0038-01",
-   "mm:mazda:e1-95-54-0038-02"
+   "mm:mazda:e1-97-27-0093-00-a-02-e13-96-79-0027-00-e1-95-54-0038-00-e1-95-54-0038-01-e1-95-54-0038-02",
+   "ml:mazda:01-06-1989-01-11-2002"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2954d3cceb8b920f"
+  "enriquecido": true,
+  "hashContenido": "f04c02430031f576"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10005706"
 }

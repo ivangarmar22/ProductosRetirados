@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-11"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "Lot 01"
-    },
-    {
-     "numero": "MFD. 08/2019 Exp. 08/2023"
+     "numero": "Lot 01, MFD. 08/2019 Exp. 08/2023"
     }
    ],
    "ean": [
     "8857101158749"
    ],
    "descripcion": "Loción aclarante de la piel",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanco de 300 ml con tapa plateada"
   }
  ],
  "riesgo": {
@@ -92,16 +90,15 @@
    "ref:A12/00730/22",
    "ean:8857101158749",
    "mm:laser-white:diana-las008",
-   "ml:laser-white:lot-01",
-   "ml:laser-white:mfd-08-2019-exp-08-2023"
+   "ml:laser-white:lot-01-mfd-08-2019-exp-08-2023"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e138b53da55bf660"
+  "enriquecido": true,
+  "hashContenido": "325e5ceb1817922c"
  },
  "slug": "locion-aclarante-de-la-piel-laser-white-safety-gate-10005839"
 }

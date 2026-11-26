@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "536"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2021 - 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Volvo cars XC40 Recarga a mano izquierda, año de modelo 2021-2022, Modelo (Chassis): 0439208-0663838.",
-   "fechasTexto": "2021 - 2022"
+   "fechasTexto": "2021 - 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "IS",
+   "LU",
+   "NL",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00742/22",
-   "mm:volvo:536"
+   "mm:volvo:536",
+   "ml:volvo:2021-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3ba51ae874540e55"
+  "enriquecido": true,
+  "hashContenido": "6145ffdde9978230"
  },
  "slug": "coche-de-pasajeros-volvo-safety-gate-10006093"
 }

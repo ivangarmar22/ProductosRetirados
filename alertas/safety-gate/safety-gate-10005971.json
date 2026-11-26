@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2018/858*00081*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15/04/2021 - 27/01/2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Nombre del modelo (Código modelo): NX (AAZA20, AAZA25, AAZH20, AAZH25, AAZH26, MAZA20, TAZA25); Año del modelo: 2021-2022.",
-   "fechasTexto": "15/04/2021 - 27/01/2022"
+   "fechasTexto": "15/04/2021 - 27/01/2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "NL",
+   "PL",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00621/22",
-   "mm:lexus:e6-2018-858-00081-00"
+   "mm:lexus:e6-2018-858-00081-00",
+   "ml:lexus:15-04-2021-27-01-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fcbbcc3bf482c033"
+  "enriquecido": true,
+  "hashContenido": "3501b60252440011"
  },
  "slug": "coche-de-pasajeros-lexus-safety-gate-10005971"
 }

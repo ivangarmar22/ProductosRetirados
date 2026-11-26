@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "R2CS",
-    "R2CW",
-    "e1*2018/858*00016*01",
-    "e1*2018/858*00016*02",
-    "e1*2018/858*00017*01",
-    "e1*2018/858*00017*02"
+    "R2CS, R2CW",
+    "e1*2018/858*00016*01, e1*2018/858*00016*02, e1*2018/858*00017*01, e1*2018/858*00017*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.10.2021 - 30.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "01.10.2021 - 30.11.2021"
+   "fechasTexto": "01.10.2021 - 30.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +97,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00732/22",
-   "mm:mercedes-benz:r2cs",
-   "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:e1-2018-858-00016-01",
-   "mm:mercedes-benz:e1-2018-858-00016-02",
-   "mm:mercedes-benz:e1-2018-858-00017-01",
-   "mm:mercedes-benz:e1-2018-858-00017-02"
+   "mm:mercedes-benz:r2cs-r2cw",
+   "mm:mercedes-benz:e1-2018-858-00016-01-e1-2018-858-00016-02-e1-2018-858-00017-01-e1-2018-858-00017-02",
+   "ml:mercedes-benz:01-10-2021-30-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cc667c735b4ab421"
+  "enriquecido": true,
+  "hashContenido": "06f56f05d52405a8"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10006082"
 }

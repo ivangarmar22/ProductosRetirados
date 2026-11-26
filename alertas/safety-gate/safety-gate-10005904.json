@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-07"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Bolsa eléctrica de agua caliente, comercializada para niños.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1d1853e230b0af38"
+  "enriquecido": true,
+  "hashContenido": "c5ae792de3d5a31e"
  },
  "slug": "bolsa-electrica-de-agua-caliente-ardes-safety-gate-10005904"
 }

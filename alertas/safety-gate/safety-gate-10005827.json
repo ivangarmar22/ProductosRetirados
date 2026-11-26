@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*0667*##"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2014 - 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "2014 - 2021"
+   "fechasTexto": "2014 - 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "GR",
+   "HU",
+   "IS",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00582/22",
-   "mm:tesla:e4-2007-46-0667"
+   "mm:tesla:e4-2007-46-0667",
+   "ml:tesla:2014-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "faaee1a62668ca66"
+  "enriquecido": true,
+  "hashContenido": "15f1a64c3ae5f085"
  },
  "slug": "turismos-tesla-safety-gate-10005827"
 }

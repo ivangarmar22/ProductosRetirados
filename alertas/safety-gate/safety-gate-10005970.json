@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "KN",
     "e9*2007/46*6666*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.02.2021 - 30.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Passenger car",
-   "fechasTexto": "04.02.2021 - 30.11.2021"
+   "fechasTexto": "04.02.2021 - 30.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "NL",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00609/22",
-   "mm:seat:e9-2007-46-6666"
+   "mm:seat:e9-2007-46-6666",
+   "ml:seat:04-02-2021-30-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "89221d922fc9fff3"
+  "enriquecido": true,
+  "hashContenido": "478d2a0969aba697"
  },
  "slug": "passenger-car-seat-safety-gate-10005970"
 }

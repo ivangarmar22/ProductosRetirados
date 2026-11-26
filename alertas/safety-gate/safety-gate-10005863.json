@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-19"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -38,7 +38,8 @@
     "3390725700345"
    ],
    "descripcion": "Adaptador de viaje, unidad base con enchufes universales y enchufe europeo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente"
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +117,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "08ec589381cf4026"
+  "enriquecido": true,
+  "hashContenido": "449f4ca522cd7ca0"
  },
  "slug": "adaptador-de-viaje-electraline-safety-gate-10005863"
 }

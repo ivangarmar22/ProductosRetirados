@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Cupra"
    ],
    "modelos": [
-    "e9*2007/46*3167*",
-    "e9*2007/46*4008*",
-    "KL",
-    "KM"
+    "e9*2007/46*3167*, e9*2007/46*4008*",
+    "KL, KM"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.10.2020 - 28.02.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "10.10.2020 - 28.02.2022"
+   "fechasTexto": "10.10.2020 - 28.02.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +70,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,16 +95,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00676/22",
-   "mm:cupra:e9-2007-46-3167",
-   "mm:cupra:e9-2007-46-4008"
+   "mm:cupra:e9-2007-46-3167-e9-2007-46-4008",
+   "mm:cupra:kl-km",
+   "ml:cupra:10-10-2020-28-02-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7033b5236f90e8e9"
+  "enriquecido": true,
+  "hashContenido": "d06c0ab000d74b0d"
  },
  "slug": "coche-de-pasajeros-cupra-safety-gate-10006025"
 }

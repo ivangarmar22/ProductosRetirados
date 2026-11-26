@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-27"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "3PW2100230003PW210023090"
+     "numero": "3PW210023000"
+    },
+    {
+     "numero": "3PW210023090"
     }
    ],
    "ean": [],
    "descripcion": "Patinete con manillar plegable y ajustable en altura; soporta hasta 100 kg. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +72,14 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Hong Kong",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "GR",
+   "IE",
+   "NO",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00699/22",
-   "ml:ktm:3pw2100230003pw210023090"
+   "ml:ktm:3pw210023000",
+   "ml:ktm:3pw210023090"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "845155057432c57a"
+  "enriquecido": true,
+  "hashContenido": "45c4b3e6e534a71c"
  },
  "slug": "patinete-de-patin-ktm-safety-gate-10005984"
 }

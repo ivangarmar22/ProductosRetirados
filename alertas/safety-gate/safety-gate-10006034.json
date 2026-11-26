@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-27"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "221DNP 234"
+     "numero": "221"
+    },
+    {
+     "numero": "DNP 234"
     }
    ],
    "ean": [],
    "descripcion": "Par de pendientes dorados con colgante en forma de cruz; la parte delantera del colgante está decorada con diamantes de imitación.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende unido a un soporte de cartón cuadrado blanco, colocado en una bolsa de plástico transparente. El transportista tiene una inscripción («Creole Earrings») y el precio en la parte delantera y la información en la parte posterior en varios idiomas."
   }
  ],
  "riesgo": {
@@ -70,7 +74,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +98,16 @@
   "claves": [
    "ref:A12/00703/22",
    "mm:tedi:52659001751000000150",
-   "ml:tedi:221dnp-234"
+   "ml:tedi:221",
+   "ml:tedi:dnp-234"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6f83892e32fcfb8f"
+  "enriquecido": true,
+  "hashContenido": "9a99007843b5c6cd"
  },
  "slug": "pendientes-tedi-safety-gate-10006034"
 }

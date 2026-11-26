@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.08.2005 - 06.11.2014"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "23.08.2005 - 06.11.2014"
+   "fechasTexto": "23.08.2005 - 06.11.2014",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00656/22",
-   "mm:honda:individual-approval"
+   "mm:honda:individual-approval",
+   "ml:honda:23-08-2005-06-11-2014"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f00d2ceb03690fc"
+  "enriquecido": true,
+  "hashContenido": "bba0a02ca1c2d1c8"
  },
  "slug": "coche-de-pasajeros-honda-safety-gate-10005965"
 }

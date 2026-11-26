@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Cupra"
    ],
    "modelos": [
-    "5FP",
-    "KL",
-    "KM",
-    "e9*2007/46*6394*",
-    "e9*2007/46*3167*",
-    "e9*2007/46*4008*"
+    "5FP, KL, KM",
+    "e9*2007/46*6394*, e9*2007/46*3167*, e9*2007/46*4008*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.07.2020 - 02.03.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Passenger car",
-   "fechasTexto": "24.07.2020 - 02.03.2022"
+   "fechasTexto": "24.07.2020 - 02.03.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "NL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,18 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00608/22",
-   "mm:cupra:5fp",
-   "mm:cupra:e9-2007-46-6394",
-   "mm:cupra:e9-2007-46-3167",
-   "mm:cupra:e9-2007-46-4008"
+   "mm:cupra:5fp-kl-km",
+   "mm:cupra:e9-2007-46-6394-e9-2007-46-3167-e9-2007-46-4008",
+   "ml:cupra:24-07-2020-02-03-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32f119bbcc3e1e22"
+  "enriquecido": true,
+  "hashContenido": "a3a2989faf5965e8"
  },
  "slug": "passenger-car-cupra-safety-gate-10005968"
 }

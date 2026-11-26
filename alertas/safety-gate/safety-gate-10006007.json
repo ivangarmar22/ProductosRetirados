@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-16"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -34,7 +34,8 @@
    ],
    "ean": [],
    "descripcion": "El producto es un líquido aceitoso transparente para una aplicación prolongada en la cara y la barba. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto viene en una botella de vidrio oscuro con una tapa de bomba y una etiqueta en blanco y negro, y está empaquetado en cartón negro también con una etiqueta en blanco y negro."
   }
  ],
  "riesgo": {
@@ -80,7 +81,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -111,11 +114,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2df72b81cad1c852"
+  "enriquecido": true,
+  "hashContenido": "f0bc8dab1609ec06"
  },
  "slug": "aceite-de-barba-mr-burton-s-safety-gate-10006007"
 }

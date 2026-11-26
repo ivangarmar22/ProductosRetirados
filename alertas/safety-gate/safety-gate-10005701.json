@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,20 +27,17 @@
     "Mazda"
    ],
    "modelos": [
-    "e13*2001/116*0254*09",
-    "e13*2001/116*0254*10",
-    "e13*2001/116*0254*11",
-    "e13*2001/116*0254*12",
-    "e13*2001/116*0254*13",
-    "e1*2007/46*1335*03",
-    "e1*2007/46*1335*04",
-    "e13*KS07/46*0005*02",
-    "e13*KS07/46*0005*03"
+    "e13*2001/116*0254*09, e13*2001/116*0254*10, e13*2001/116*0254*11, e13*2001/116*0254*12, e13*2001/116*0254*13, e1*2007/46*1335*03, e1*2007/46*1335*04, e13*KS07/46*0005*02, e13*KS07/46*0005*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "19.12.2012 - 2.12.2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "19.12.2012 - 2.12.2015"
+   "fechasTexto": "19.12.2012 - 2.12.2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "ES",
+   "HU",
+   "NL",
+   "NO",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,23 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00509/22",
-   "mm:mazda:e13-2001-116-0254-09",
-   "mm:mazda:e13-2001-116-0254-10",
-   "mm:mazda:e13-2001-116-0254-11",
-   "mm:mazda:e13-2001-116-0254-12",
-   "mm:mazda:e13-2001-116-0254-13",
-   "mm:mazda:e1-2007-46-1335-03",
-   "mm:mazda:e1-2007-46-1335-04",
-   "mm:mazda:e13-ks07-46-0005-02",
-   "mm:mazda:e13-ks07-46-0005-03"
+   "mm:mazda:e13-2001-116-0254-09-e13-2001-116-0254-10-e13-2001-116-0254-11-e13-2001-116-0254-12-e13-2001-116-0254-13-e1-2007-46-1335-03-e1-2007-46-1335-04-e13-ks07-46-0005-02-e13-ks07-46-0005-03",
+   "ml:mazda:19-12-2012-2-12-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4b4a0744044f538e"
+  "enriquecido": true,
+  "hashContenido": "e0032a7873227fec"
  },
  "slug": "turismos-mazda-safety-gate-10005701"
 }

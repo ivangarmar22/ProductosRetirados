@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Skoda"
    ],
    "modelos": [
-    "NS",
-    "NX",
-    "3T",
-    "e8*2007/46*0249*",
-    "e8*2007/46*0355*",
-    "e8*2007/46*0317*"
+    "NS, NX, 3T",
+    "e8*2007/46*0249*, e8*2007/46*0355*, e8*2007/46*0317*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.08.2020 - 28.02.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "01.08.2020 - 28.02.2022"
+   "fechasTexto": "01.08.2020 - 28.02.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HU",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,17 +97,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00566/22",
-   "mm:skoda:e8-2007-46-0249",
-   "mm:skoda:e8-2007-46-0355",
-   "mm:skoda:e8-2007-46-0317"
+   "mm:skoda:ns-nx-3t",
+   "mm:skoda:e8-2007-46-0249-e8-2007-46-0355-e8-2007-46-0317",
+   "ml:skoda:01-08-2020-28-02-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ab4784aa202d77db"
+  "enriquecido": true,
+  "hashContenido": "686fdb116c33bdc6"
  },
  "slug": "turismos-skoda-safety-gate-10005912"
 }

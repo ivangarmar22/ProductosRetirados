@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-02"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "03/202103/20241022021"
+     "numero": "03/2021"
+    },
+    {
+     "numero": "03/2024"
+    },
+    {
+     "numero": "1022021"
     }
    ],
    "ean": [
     "8682815049676"
    ],
    "descripcion": "Máscara protectora de filtración respiratoria de la mitad de la cara para un solo uso. La máscara está marcada con FFP2 y lleva impreso el marcado CE. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una caja de cartón azul y se envasa en una bolsa de plástico blanca y transparente. Cada caja contiene 20 máscaras envueltas individualmente. Ambos embalajes llevan la mención «FFP2» y el marcado CE."
   }
  ],
  "riesgo": {
@@ -113,15 +120,17 @@
    "ref:A12/00562/22",
    "ean:8682815049676",
    "mm:ice-pro-mask:ice-pro-mask",
-   "ml:ice-pro-mask:03-202103-20241022021"
+   "ml:ice-pro-mask:03-2021",
+   "ml:ice-pro-mask:03-2024",
+   "ml:ice-pro-mask:1022021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c6539f8774482f42"
+  "enriquecido": true,
+  "hashContenido": "70119543683caf43"
  },
  "slug": "mascara-de-filtro-de-particulas-ice-pro-mask-safety-gate-10005910"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-05-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,20 +27,37 @@
     "Weleda"
    ],
    "modelos": [
-    "7528",
-    "25173600/1",
-    "PZN 044170 27 (D)"
+    "7528 / 25173600/1; PZN 044170 27 (D)"
    ],
    "lotes": [
     {
-     "numero": "H 1201H1207H1213H1214J0101J0202complete delivery of batches H1201 and J0202 to Italy"
+     "numero": "H 1201"
+    },
+    {
+     "numero": "H1207"
+    },
+    {
+     "numero": "H1213"
+    },
+    {
+     "numero": "H1214"
+    },
+    {
+     "numero": "J0101"
+    },
+    {
+     "numero": "J0202"
+    },
+    {
+     "numero": "complete delivery of batches H1201 and J0202 to Italy"
     }
    ],
    "ean": [
     "4001638096560"
    ],
    "descripcion": "Aceite para el cuidado del bebé con caléndula.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botella de plástico blanco, 200 ml, con tapa naranja, y etiqueta naranja con caracteres rojos en la parte delantera y trasera."
   }
  ],
  "riesgo": {
@@ -83,7 +100,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suiza",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "EE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,18 +124,22 @@
   "claves": [
    "ref:A11/00064/22",
    "ean:4001638096560",
-   "mm:weleda:7528",
-   "mm:weleda:25173600-1",
-   "mm:weleda:pzn-044170-27-d",
-   "ml:weleda:h-1201h1207h1213h1214j0101j0202complete-delivery-of-batches-h1201-and-j0202-to-italy"
+   "mm:weleda:7528-25173600-1-pzn-044170-27-d",
+   "ml:weleda:h-1201",
+   "ml:weleda:h1207",
+   "ml:weleda:h1213",
+   "ml:weleda:h1214",
+   "ml:weleda:j0101",
+   "ml:weleda:j0202",
+   "ml:weleda:complete-delivery-of-batches-h1201-and-j0202-to-italy"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cf9963c0d3a5942b"
+  "enriquecido": true,
+  "hashContenido": "2190909a142f0d25"
  },
  "slug": "aceite-para-el-cuidado-de-la-piel-weleda-safety-gate-10006068"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,26 +27,18 @@
     "Audi"
    ],
    "modelos": [
-    "B8",
-    "F2",
-    "GE",
-    "F8",
-    "FY",
-    "4L",
-    "e1*2001/116*0430*",
-    "e1*2001/116*0447*",
-    "e1*2007/46*1801*",
-    "e1*2007/46*1840*",
-    "e1*2007/46*1914*",
-    "e1*2007/46*1751*",
-    "e1*2007/46*1550*",
-    "e1*2001/116*0350*",
-    "e1*2001/116*0367*"
+    "B8, F2, GE, F8, FY, 4L",
+    "e1*2001/116*0430*, e1*2001/116*0447*, e1*2007/46*1801*, e1*2007/46*1840*, e1*2007/46*1914*, e1*2007/46*1751*, e1*2007/46*1550*, e1*2001/116*0350*, e1*2001/116*0367*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.11.2019 - 16.04.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "07.11.2019 - 16.04.2021"
+   "fechasTexto": "07.11.2019 - 16.04.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -76,7 +68,24 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "MT",
+   "NL",
+   "NO",
+   "PT",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,23 +95,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00504/22",
-   "mm:audi:e1-2001-116-0430",
-   "mm:audi:e1-2001-116-0447",
-   "mm:audi:e1-2007-46-1801",
-   "mm:audi:e1-2007-46-1840",
-   "mm:audi:e1-2007-46-1914",
-   "mm:audi:e1-2007-46-1751",
-   "mm:audi:e1-2007-46-1550",
-   "mm:audi:e1-2001-116-0350",
-   "mm:audi:e1-2001-116-0367"
+   "mm:audi:b8-f2-ge-f8-fy-4l",
+   "mm:audi:e1-2001-116-0430-e1-2001-116-0447-e1-2007-46-1801-e1-2007-46-1840-e1-2007-46-1914-e1-2007-46-1751-e1-2007-46-1550-e1-2001-116-0350-e1-2001-116-0367",
+   "ml:audi:07-11-2019-16-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "897c5a18ce79a7b0"
+  "enriquecido": true,
+  "hashContenido": "46e2ee189229de58"
  },
  "slug": "turismos-audi-safety-gate-10005797"
 }

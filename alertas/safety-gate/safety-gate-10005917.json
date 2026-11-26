@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-04-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-23"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Polea para uso en cuerdas altas con la indicación «Tronley de parque de aventuras».",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "EE",
+   "GR",
+   "HR",
+   "IT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,11 +93,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "213f0b53931679af"
+  "enriquecido": true,
+  "hashContenido": "7e287020d8a5089f"
  },
  "slug": "polea-petzl-safety-gate-10005917"
 }
