@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Seat"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 18.09.2020 - 14.12.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Carcasa del eje trasera derecha o trasera izquierda",
-   "fechasTexto": "From 18.09.2020 - 14.12.2020"
+   "fechasTexto": "From 18.09.2020 - 14.12.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,15 +74,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A11/00108/21"
+   "ref:A11/00108/21",
+   "ml:seat:from-18-09-2020-14-12-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9eec88778409abd8"
+  "enriquecido": true,
+  "hashContenido": "674c0cda418a0549"
  },
  "slug": "turismos-seat-safety-gate-10004860"
 }

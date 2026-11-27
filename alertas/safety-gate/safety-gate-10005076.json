@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "536"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Volvo coches XC40 modelo año 2019 equipado con motor 14 y caja de cambios 1.",
-   "fechasTexto": "2019"
+   "fechasTexto": "2019",
+   "envase": "Modelo (Chasis): del 0045002 al 0156816."
   }
  ],
  "riesgo": {
@@ -62,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01855/21",
-   "mm:volvo:536"
+   "mm:volvo:536",
+   "ml:volvo:2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb22d8b746d902cb"
+  "enriquecido": true,
+  "hashContenido": "29e820110290c6a6"
  },
  "slug": "turismos-volvo-safety-gate-10005076"
 }

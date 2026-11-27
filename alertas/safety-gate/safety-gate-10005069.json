@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Kawasaki"
    ],
    "modelos": [
-    "e1*168/2013*00141*00 - 02",
-    "e1*168/2013*00259*00",
-    "Type: EJ800B",
-    "EJ800E"
+    "e1*168/2013*00141*00 - 02, e1*168/2013*00259*00, Type: EJ800B, EJ800E"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2019 - 11.10.21"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "01.01.2019 - 11.10.21"
+   "fechasTexto": "01.01.2019 - 11.10.21",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,18 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01850/21",
-   "mm:kawasaki:e1-168-2013-00141-00-02",
-   "mm:kawasaki:e1-168-2013-00259-00",
-   "mm:kawasaki:type-ej800b",
-   "mm:kawasaki:ej800e"
+   "mm:kawasaki:e1-168-2013-00141-00-02-e1-168-2013-00259-00-type-ej800b-ej800e",
+   "ml:kawasaki:01-01-2019-11-10-21"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b4af0c56a87889df"
+  "enriquecido": true,
+  "hashContenido": "02b73de366d5d3d0"
  },
  "slug": "motocicleta-kawasaki-safety-gate-10005069"
 }

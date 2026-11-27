@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-15"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "00009450"
-    },
-    {
-     "numero": "ISO2020XMAS39450"
+     "numero": "00009450, ISO2020XMAS39450"
     }
    ],
    "ean": [
     "5902802914361"
    ],
    "descripcion": "Batería de juguete de piano y batería.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de tarjeta impresa"
   }
  ],
  "riesgo": {
@@ -71,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -104,16 +104,15 @@
    "ref:A12/01732/21",
    "ean:5902802914361",
    "mm:nanguo-baby-toys:838-52",
-   "ml:nanguo-baby-toys:00009450",
-   "ml:nanguo-baby-toys:iso2020xmas39450"
+   "ml:nanguo-baby-toys:00009450-iso2020xmas39450"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "68b52644b954a8f6"
+  "enriquecido": true,
+  "hashContenido": "e78d4b2608e4a672"
  },
  "slug": "juguete-electrico-piano-y-tambor-nanguo-baby-toys-safety-gate-10004882"
 }

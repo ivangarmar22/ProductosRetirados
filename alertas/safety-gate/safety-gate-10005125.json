@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-11"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,7 +31,31 @@
    ],
    "lotes": [
     {
-     "numero": "Blueberry Cigar Grapes Mango Mint Mojito Peach Tea Tobacco"
+     "numero": "Blueberry"
+    },
+    {
+     "numero": "Cigar"
+    },
+    {
+     "numero": "Grapes"
+    },
+    {
+     "numero": "Mango"
+    },
+    {
+     "numero": "Mint"
+    },
+    {
+     "numero": "Mojito"
+    },
+    {
+     "numero": "Peach"
+    },
+    {
+     "numero": "Tea"
+    },
+    {
+     "numero": "Tobacco"
     }
    ],
    "ean": [
@@ -46,7 +70,8 @@
     "6974165110093"
    ],
    "descripcion": "Cigarrillo electrónico desechable, de un solo uso, con una solución de 1,5 ml con contenido de nicotina al 2 %, con diferentes sabores: uvas, tabaco, arándanos, menta, mojito, melocotón, té, mango, cigarros. Capacidad de la batería 550 mAh. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón coloreado."
   }
  ],
  "riesgo": {
@@ -109,15 +134,23 @@
    "ean:6974165110079",
    "ean:6974165110093",
    "mm:ice:c207",
-   "ml:ice:blueberry-cigar-grapes-mango-mint-mojito-peach-tea-tobacco"
+   "ml:ice:blueberry",
+   "ml:ice:cigar",
+   "ml:ice:grapes",
+   "ml:ice:mango",
+   "ml:ice:mint",
+   "ml:ice:mojito",
+   "ml:ice:peach",
+   "ml:ice:tea",
+   "ml:ice:tobacco"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e8fb28da40f10b9"
+  "enriquecido": true,
+  "hashContenido": "b2c34d064129937c"
  },
  "slug": "cigarrillo-electronico-desechable-ice-safety-gate-10005125"
 }

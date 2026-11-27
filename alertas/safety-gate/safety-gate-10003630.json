@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-11"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -24,7 +24,13 @@
   {
    "nombre": "Talvine klaasipesuvedelik (ET); Tuulilasinpesuneste (FI)",
    "marcas": [
-    "Alexela, Automaailm, Bauhaus, CarMan, Carlake, GO4, Nordic"
+    "Alexela",
+    "Automaailm",
+    "Bauhaus",
+    "CarMan",
+    "Carlake",
+    "GO4",
+    "Nordic"
    ],
    "modelos": [
     "Alexela UFI code: 9A20-V0NE-F00M-PAQH",
@@ -46,7 +52,8 @@
     "4742516002142"
    ],
    "descripcion": "Líquido de color azul para la limpieza de parabrisas de automóviles a temperaturas frías como -16.°C, -18.°C y -20.°C. El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Botes de plástico y bolsas de plástico de 3L, 4L o 5L."
   }
  ],
  "riesgo": {
@@ -80,7 +87,9 @@
   "ccaa": [],
   "paisNotificante": "Estonia",
   "paisOrigen": "Estonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -136,20 +145,56 @@
    "ean:6410416082462",
    "ean:4742516008212",
    "ean:4742516002142",
-   "mm:alexela-automaailm-bauhaus-carman-carlake-go4-nordic:alexela-ufi-code-9a20-v0ne-f00m-paqh",
-   "mm:alexela-automaailm-bauhaus-carman-carlake-go4-nordic:automaailm-ufi-code-w820-coy1-5004-104f",
-   "mm:alexela-automaailm-bauhaus-carman-carlake-go4-nordic:bauhaus-ufi-code-k050-toht-000d-6q2j",
-   "mm:alexela-automaailm-bauhaus-carman-carlake-go4-nordic:carlake-ufi-code-8r40-90fm-200w-7pac",
-   "mm:alexela-automaailm-bauhaus-carman-carlake-go4-nordic:carman-ufi-code-ynha-ur4e-u109-eycn",
-   "mm:alexela-automaailm-bauhaus-carman-carlake-go4-nordic:go4-ufi-code-9a20-v0ne-f00m-paqh"
+   "mm:alexela:alexela-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:alexela:automaailm-ufi-code-w820-coy1-5004-104f",
+   "mm:alexela:bauhaus-ufi-code-k050-toht-000d-6q2j",
+   "mm:alexela:carlake-ufi-code-8r40-90fm-200w-7pac",
+   "mm:alexela:carman-ufi-code-ynha-ur4e-u109-eycn",
+   "mm:alexela:go4-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:automaailm:alexela-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:automaailm:automaailm-ufi-code-w820-coy1-5004-104f",
+   "mm:automaailm:bauhaus-ufi-code-k050-toht-000d-6q2j",
+   "mm:automaailm:carlake-ufi-code-8r40-90fm-200w-7pac",
+   "mm:automaailm:carman-ufi-code-ynha-ur4e-u109-eycn",
+   "mm:automaailm:go4-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:bauhaus:alexela-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:bauhaus:automaailm-ufi-code-w820-coy1-5004-104f",
+   "mm:bauhaus:bauhaus-ufi-code-k050-toht-000d-6q2j",
+   "mm:bauhaus:carlake-ufi-code-8r40-90fm-200w-7pac",
+   "mm:bauhaus:carman-ufi-code-ynha-ur4e-u109-eycn",
+   "mm:bauhaus:go4-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:carman:alexela-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:carman:automaailm-ufi-code-w820-coy1-5004-104f",
+   "mm:carman:bauhaus-ufi-code-k050-toht-000d-6q2j",
+   "mm:carman:carlake-ufi-code-8r40-90fm-200w-7pac",
+   "mm:carman:carman-ufi-code-ynha-ur4e-u109-eycn",
+   "mm:carman:go4-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:carlake:alexela-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:carlake:automaailm-ufi-code-w820-coy1-5004-104f",
+   "mm:carlake:bauhaus-ufi-code-k050-toht-000d-6q2j",
+   "mm:carlake:carlake-ufi-code-8r40-90fm-200w-7pac",
+   "mm:carlake:carman-ufi-code-ynha-ur4e-u109-eycn",
+   "mm:carlake:go4-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:go4:alexela-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:go4:automaailm-ufi-code-w820-coy1-5004-104f",
+   "mm:go4:bauhaus-ufi-code-k050-toht-000d-6q2j",
+   "mm:go4:carlake-ufi-code-8r40-90fm-200w-7pac",
+   "mm:go4:carman-ufi-code-ynha-ur4e-u109-eycn",
+   "mm:go4:go4-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:nordic:alexela-ufi-code-9a20-v0ne-f00m-paqh",
+   "mm:nordic:automaailm-ufi-code-w820-coy1-5004-104f",
+   "mm:nordic:bauhaus-ufi-code-k050-toht-000d-6q2j",
+   "mm:nordic:carlake-ufi-code-8r40-90fm-200w-7pac",
+   "mm:nordic:carman-ufi-code-ynha-ur4e-u109-eycn",
+   "mm:nordic:go4-ufi-code-9a20-v0ne-f00m-paqh"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aad94a08a4bad38c"
+  "enriquecido": true,
+  "hashContenido": "25f9ccfe10c4dccd"
  },
  "slug": "liquido-de-lavado-del-parabrisas-del-coche-alexela-automaailm-bauhaus-safety-gate-10003630"
 }

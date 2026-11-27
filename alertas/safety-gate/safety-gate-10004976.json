@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2001/116*0448*00 e1*2001/116*0448*01 e1*2001/116*0448*02 e1*2001/116*0448*03 e1*2001/116*0448*04 e1*2001/116*0448*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "3 August 2007 - 29 January 2010"
+    }
+   ],
    "ean": [],
    "descripcion": "Airbag en el lado del pasajero",
-   "fechasTexto": "3 August 2007 - 29 January 2010"
+   "fechasTexto": "3 August 2007 - 29 January 2010",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01804/21",
-   "mm:mazda:e1-2001-116-0448-00-e1-2001-116-0448-01-e1-2001-116-0448-02-e1-2001-116-0448-03-e1-2001-116-0448-04-e1-2001-116-0448-05"
+   "mm:mazda:e1-2001-116-0448-00-e1-2001-116-0448-01-e1-2001-116-0448-02-e1-2001-116-0448-03-e1-2001-116-0448-04-e1-2001-116-0448-05",
+   "ml:mazda:3-august-2007-29-january-2010"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3b5dfd0317cfe4ee"
+  "enriquecido": true,
+  "hashContenido": "ba6e9583d1736e9f"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10004976"
 }

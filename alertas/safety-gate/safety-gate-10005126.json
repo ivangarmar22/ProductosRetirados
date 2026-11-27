@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-11"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,12 +31,35 @@
    ],
    "lotes": [
     {
-     "numero": "banablackgreenpurpleredsun"
+     "numero": "bana"
+    },
+    {
+     "numero": "black"
+    },
+    {
+     "numero": "green"
+    },
+    {
+     "numero": "purple"
+    },
+    {
+     "numero": "red"
+    },
+    {
+     "numero": "sun"
     }
    ],
-   "ean": [],
+   "ean": [
+    "6346515626460",
+    "6346814222226",
+    "6346814222660",
+    "6346814226859",
+    "6346814229157",
+    "6376852225767"
+   ],
    "descripcion": "Cigarrillo electrónico desechable, de un solo uso, con una solución de 2 ml con contenido de nicotina al 2 %, con diferentes sabores. Capacidad de la batería 400 mAh. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón."
   }
  ],
  "riesgo": {
@@ -89,16 +112,27 @@
  "dedup": {
   "claves": [
    "ref:A12/00085/22",
+   "ean:6346515626460",
+   "ean:6346814222226",
+   "ean:6346814222660",
+   "ean:6346814226859",
+   "ean:6346814229157",
+   "ean:6376852225767",
    "mm:maxx-vape:ey003",
-   "ml:maxx-vape:banablackgreenpurpleredsun"
+   "ml:maxx-vape:bana",
+   "ml:maxx-vape:black",
+   "ml:maxx-vape:green",
+   "ml:maxx-vape:purple",
+   "ml:maxx-vape:red",
+   "ml:maxx-vape:sun"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "14b54384d2afbeba"
+  "enriquecido": true,
+  "hashContenido": "d634b330c24e4b9a"
  },
  "slug": "cigarrillo-electronico-desechable-maxx-vape-safety-gate-10005126"
 }

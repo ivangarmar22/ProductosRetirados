@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "4893014874929"
    ],
    "descripcion": "Juguete de baño (libro) hecho de material plástico suave lleno de espuma.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Envases plásticos, embalajes colectivos de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "be843a2ec6ddaf6d"
+  "enriquecido": true,
+  "hashContenido": "ab43829b71b0c68b"
  },
  "slug": "juguete-de-bano-kidsme-safety-gate-10004916"
 }

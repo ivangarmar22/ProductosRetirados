@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-14"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -27,13 +27,13 @@
     "Mano Pyplius"
    ],
    "modelos": [
-    "98",
-    "104 cm"
+    "98, 104 cm"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Chándal marrón claro, hecho de tela de punto, suéter con capucha. En la capucha se utilizan cordones textiles funcionales con extremos libres.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,15 +82,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01782/21",
-   "mm:mano-pyplius:104-cm"
+   "mm:mano-pyplius:98-104-cm"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e392fbabeee8e4aa"
+  "enriquecido": true,
+  "hashContenido": "d778a4640a2a8a91"
  },
  "slug": "chandal-infantil-mano-pyplius-safety-gate-10005017"
 }

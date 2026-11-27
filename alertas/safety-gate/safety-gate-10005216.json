@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*1157*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.2016 – 06.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros. Modelo (Tipo): IONIQ (AE EV); De VIN: de MHC85LH6HU000024 a KMHC851HUKU052022.",
-   "fechasTexto": "01.2016 – 06.2019"
+   "fechasTexto": "01.2016 – 06.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "HU",
+   "IE",
+   "IS",
+   "PL",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00069/22",
-   "mm:hyundai:e4-2007-46-1157"
+   "mm:hyundai:e4-2007-46-1157",
+   "ml:hyundai:01-2016-06-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dbaeda884bf4f224"
+  "enriquecido": true,
+  "hashContenido": "69a7d0ca6ca67c5d"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10005216"
 }

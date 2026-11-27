@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,34 +27,18 @@
     "Bmw"
    ],
    "modelos": [
-    "Type approval numbers: e1*2007/46*1824",
-    "2018",
-    "1677",
-    "0371",
-    "1676",
-    "1828",
-    "2126",
-    "1688",
-    "1750",
-    "e1*2018/858*00003",
-    "e1*KS07/46*1213*00",
-    "e1*2007/46*1213 ab*01",
-    "Type: F2X",
-    "F1H",
-    "F2GT",
-    "UKL-L",
-    "F1X",
-    "F5LM",
-    "G3C",
-    "G5L",
-    "G5K",
-    "G234M",
-    "BMWi-1"
+    "Type approval numbers: e1*2007/46*1824, 2018, 1677, 0371, 1676, 1828, 2126, 1688, 1750, e1*2018/858*00003, e1*KS07/46*1213*00, e1*2007/46*1213 ab*01",
+    "Type: F2X, F1H, F2GT, UKL-L, F1X, F5LM, G3C, G5L, G5K, G234M, BMWi-1"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.10.2021 and 27.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "21.10.2021 and 27.10.2021"
+   "fechasTexto": "21.10.2021 and 27.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,37 +88,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01785/21",
-   "mm:bmw:type-approval-numbers-e1-2007-46-1824",
-   "mm:bmw:2018",
-   "mm:bmw:1677",
-   "mm:bmw:0371",
-   "mm:bmw:1676",
-   "mm:bmw:1828",
-   "mm:bmw:2126",
-   "mm:bmw:1688",
-   "mm:bmw:1750",
-   "mm:bmw:e1-2018-858-00003",
-   "mm:bmw:e1-ks07-46-1213-00",
-   "mm:bmw:e1-2007-46-1213-ab-01",
-   "mm:bmw:type-f2x",
-   "mm:bmw:f1h",
-   "mm:bmw:f2gt",
-   "mm:bmw:ukl-l",
-   "mm:bmw:f1x",
-   "mm:bmw:f5lm",
-   "mm:bmw:g3c",
-   "mm:bmw:g5l",
-   "mm:bmw:g5k",
-   "mm:bmw:g234m",
-   "mm:bmw:bmwi-1"
+   "mm:bmw:type-approval-numbers-e1-2007-46-1824-2018-1677-0371-1676-1828-2126-1688-1750-e1-2018-858-00003-e1-ks07-46-1213-00-e1-2007-46-1213-ab-01",
+   "mm:bmw:type-f2x-f1h-f2gt-ukl-l-f1x-f5lm-g3c-g5l-g5k-g234m-bmwi-1",
+   "ml:bmw:21-10-2021-and-27-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c48506d77b1f5caf"
+  "enriquecido": true,
+  "hashContenido": "d07fdc974f89536f"
  },
  "slug": "turismos-bmw-safety-gate-10004866"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-12"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Chupete de silicona.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,12 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "Dinamarca",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "IS",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c282da469537560f"
+  "enriquecido": true,
+  "hashContenido": "89d1b8d1b05da639"
  },
  "slug": "el-otro-frigg-safety-gate-10005098"
 }

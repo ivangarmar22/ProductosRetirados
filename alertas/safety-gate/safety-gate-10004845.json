@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*168/2013*00091"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.02.2020 – 07.05.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "tapas roscadas de ejes de brazo rocker",
-   "fechasTexto": "12.02.2020 – 07.05.2020"
+   "fechasTexto": "12.02.2020 – 07.05.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01788/21",
-   "mm:bmw:e1-168-2013-00091"
+   "mm:bmw:e1-168-2013-00091",
+   "ml:bmw:12-02-2020-07-05-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f8a2deeae066408f"
+  "enriquecido": true,
+  "hashContenido": "0031774eb8c5278b"
  },
  "slug": "vehiculos-de-dos-o-tres-ruedas-y-cuatriciclos-bmw-safety-gate-10004845"
 }

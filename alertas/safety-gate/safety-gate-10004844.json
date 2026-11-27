@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2007/46*2041*00 e13*2007/46*2041*01 e13*2007/46*2041*02 e13*2007/46*2041*03 e13*2007/46*2041*04 e13*2007/46*2041*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.04.2019 - 20.03.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Luces led delanteras",
-   "fechasTexto": "25.04.2019 - 20.03.2020"
+   "fechasTexto": "25.04.2019 - 20.03.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01787/21",
-   "mm:mazda:e13-2007-46-2041-00-e13-2007-46-2041-01-e13-2007-46-2041-02-e13-2007-46-2041-03-e13-2007-46-2041-04-e13-2007-46-2041-05"
+   "mm:mazda:e13-2007-46-2041-00-e13-2007-46-2041-01-e13-2007-46-2041-02-e13-2007-46-2041-03-e13-2007-46-2041-04-e13-2007-46-2041-05",
+   "ml:mazda:25-04-2019-20-03-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "90b88fc8b1f07f17"
+  "enriquecido": true,
+  "hashContenido": "bd8b2aee001a07c8"
  },
  "slug": "para-el-transporte-de-pasajeros-mazda-safety-gate-10004844"
 }

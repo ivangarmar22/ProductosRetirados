@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "Type approval numbers: e1*2018/858*00016*00-01",
-    "e1*2018/858*00017*00-01",
-    "Type: R2CW",
-    "R2CS"
+    "Type approval numbers: e1*2018/858*00016*00-01, e1*2018/858*00017*00-01",
+    "Type: R2CW, R2CS"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "30.03.2021 - 28.06.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "30.03.2021 - 28.06.2021"
+   "fechasTexto": "30.03.2021 - 28.06.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "HU",
+   "LU",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01786/21",
-   "mm:mercedes-benz:type-approval-numbers-e1-2018-858-00016-00-01",
-   "mm:mercedes-benz:e1-2018-858-00017-00-01",
-   "mm:mercedes-benz:type-r2cw",
-   "mm:mercedes-benz:r2cs"
+   "mm:mercedes-benz:type-approval-numbers-e1-2018-858-00016-00-01-e1-2018-858-00017-00-01",
+   "mm:mercedes-benz:type-r2cw-r2cs",
+   "ml:mercedes-benz:30-03-2021-28-06-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "48a2f378c5475ba1"
+  "enriquecido": true,
+  "hashContenido": "039c5537132de5c1"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10004837"
 }

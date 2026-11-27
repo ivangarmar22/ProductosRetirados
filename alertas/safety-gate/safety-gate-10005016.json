@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-14"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -27,13 +27,13 @@
     "Mano Pyplius"
    ],
    "modelos": [
-    "122",
-    "128 cm"
+    "122, 128 cm"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Suéter verde claro, hecho de tejido de punto, con capucha, cremallera y bolsillos en la parte delantera, un aplique marcado «mano PYPLIUS su meile vaikams» en la parte inferior izquierda del bolsillo izquierdo. En la capucha se utilizan cordones textiles funcionales con extremos libres.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,16 +82,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01783/21",
-   "mm:mano-pyplius:122",
-   "mm:mano-pyplius:128-cm"
+   "mm:mano-pyplius:122-128-cm"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fb98ea1745db6399"
+  "enriquecido": true,
+  "hashContenido": "3aa64fdf567a2f19"
  },
  "slug": "sueter-para-ninos-mano-pyplius-safety-gate-10005016"
 }

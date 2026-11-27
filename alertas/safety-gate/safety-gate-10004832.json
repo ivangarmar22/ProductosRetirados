@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-16"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -74,7 +74,8 @@
     "7141211442104"
    ],
    "descripcion": "Scooter eléctrico rojo, azul, gris o negro con una batería de litio de 800 W. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -116,7 +117,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -181,11 +185,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3849784db079c41b"
+  "enriquecido": true,
+  "hashContenido": "0f15bbc3089a0816"
  },
  "slug": "scooter-electrico-kaabo-safety-gate-10004832"
 }

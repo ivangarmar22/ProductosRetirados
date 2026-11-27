@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-08"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -27,15 +27,15 @@
     "BCC"
    ],
    "modelos": [
-    "CEM I 42",
-    "5 N"
+    "CEM I 42,5 N"
    ],
    "lotes": [],
    "ean": [
     "4811184000016"
    ],
    "descripcion": "Cemento Portland, producido el 20 de agosto de 2021",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "En bolsa de papel de 35 kg."
   }
  ],
  "riesgo": {
@@ -93,16 +93,15 @@
   "claves": [
    "ref:A12/01734/21",
    "ean:4811184000016",
-   "mm:bcc:cem-i-42",
-   "mm:bcc:5-n"
+   "mm:bcc:cem-i-42-5-n"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "63c477dc2287fecc"
+  "enriquecido": true,
+  "hashContenido": "579633be3f62f4dd"
  },
  "slug": "cemento-bcc-safety-gate-10004955"
 }

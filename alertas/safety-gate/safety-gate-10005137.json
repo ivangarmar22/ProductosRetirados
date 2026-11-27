@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-06"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "\"e2*2007/46*0639*12 e2*2007/46*0639*13 e2*2007/46*0639*14 e2*2007/46*0639*15\""
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16/02/2021 - 23/07/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "16/02/2021 - 23/07/2021"
+   "fechasTexto": "16/02/2021 - 23/07/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00044/22",
-   "mm:opel:e2-2007-46-0639-12-e2-2007-46-0639-13-e2-2007-46-0639-14-e2-2007-46-0639-15"
+   "mm:opel:e2-2007-46-0639-12-e2-2007-46-0639-13-e2-2007-46-0639-14-e2-2007-46-0639-15",
+   "ml:opel:16-02-2021-23-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f099c079edc4cb7f"
+  "enriquecido": true,
+  "hashContenido": "200e6596fe669086"
  },
  "slug": "turismos-opel-safety-gate-10005137"
 }

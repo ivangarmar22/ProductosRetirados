@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-05-05"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Instrumento de juguete de baño (flautas de agua). Producto vendido en línea, en particular a través de AliExpress.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico"
   }
  ],
  "riesgo": {
@@ -61,7 +62,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d30be32c1d4de051"
+  "enriquecido": true,
+  "hashContenido": "0ea6d8225982b51b"
  },
  "slug": "juguete-de-bano-safety-gate-10005153"
 }

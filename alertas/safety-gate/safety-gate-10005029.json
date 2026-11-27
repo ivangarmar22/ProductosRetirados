@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Der Atlas (VW416) hat keine EU"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.05.2020 - 4.03.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "20.05.2020 - 4.03.2021"
+   "fechasTexto": "20.05.2020 - 4.03.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,15 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01844/21",
-   "mm:vw:der-atlas-vw416-hat-keine-eu"
+   "mm:vw:der-atlas-vw416-hat-keine-eu",
+   "ml:vw:20-05-2020-4-03-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ff718d5e419af32d"
+  "enriquecido": true,
+  "hashContenido": "f6d46995b39347cb"
  },
  "slug": "turismos-vw-safety-gate-10005029"
 }

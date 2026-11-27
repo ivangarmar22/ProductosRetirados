@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "C3 V4 (B618) e2*2007/46*0003*64 C Elysée e2*2007/46*0225*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "C3 V4 (B618) 07/04/2021 - 10/04/2021 C-Elysée 12/04/2021 - 21/04/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "C3 V4 (B618) 07/04/2021 - 10/04/2021 C-Elysée 12/04/2021 - 21/04/2021"
+   "fechasTexto": "C3 V4 (B618) 07/04/2021 - 10/04/2021 C-Elysée 12/04/2021 - 21/04/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FI",
+   "GR",
+   "HR",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00028/22",
-   "mm:citroen:c3-v4-b618-e2-2007-46-0003-64-c-elysee-e2-2007-46-0225-16"
+   "mm:citroen:c3-v4-b618-e2-2007-46-0003-64-c-elysee-e2-2007-46-0225-16",
+   "ml:citroen:c3-v4-b618-07-04-2021-10-04-2021-c-elysee-12-04-2021-21-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7934c2c1f51013ee"
+  "enriquecido": true,
+  "hashContenido": "6c89cbae5650edf1"
  },
  "slug": "coche-de-pasajeros-citroen-safety-gate-10005133"
 }

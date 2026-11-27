@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,21 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "Types: R2CW",
-    "R2S",
-    "204 X",
-    "E2EQSW",
-    "R2CW",
-    "R2S",
-    "204 X",
-    "E2EQSW",
-    "e1*2001/116*0480*42",
-    "e1*200746*2115*06",
-    "e1*2018/858*00016*02",
-    "e1*2018/858*00035*00-*03"
+    "Types: R2CW, R2S, 204 X, E2EQSW, R2CW, R2S, 204 X, E2EQSW",
+    "e1*2001/116*0480*42,",
+    "e1*200746*2115*06,",
+    "e1*2018/858*00016*02,",
+    "e1*2018/858*00035*00-*03,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.07.2021 - 05.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "EQS (297 plataforma), GLC (253 plataforma), S-Class (223 plataforma) y C-Class (206 plataforma)",
-   "fechasTexto": "07.07.2021 - 05.11.2021"
+   "fechasTexto": "07.07.2021 - 05.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +73,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "HU",
+   "LU",
+   "PL",
+   "PT",
+   "RO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,23 +99,20 @@
  "dedup": {
   "claves": [
    "ref:A12/00055/22",
-   "mm:mercedes-benz:types-r2cw",
-   "mm:mercedes-benz:r2s",
-   "mm:mercedes-benz:204-x",
-   "mm:mercedes-benz:e2eqsw",
-   "mm:mercedes-benz:r2cw",
+   "mm:mercedes-benz:types-r2cw-r2s-204-x-e2eqsw-r2cw-r2s-204-x-e2eqsw",
    "mm:mercedes-benz:e1-2001-116-0480-42",
    "mm:mercedes-benz:e1-200746-2115-06",
    "mm:mercedes-benz:e1-2018-858-00016-02",
-   "mm:mercedes-benz:e1-2018-858-00035-00-03"
+   "mm:mercedes-benz:e1-2018-858-00035-00-03",
+   "ml:mercedes-benz:07-07-2021-05-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ebcbeaae56dc2cb9"
+  "enriquecido": true,
+  "hashContenido": "262b912f94390453"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10005073"
 }

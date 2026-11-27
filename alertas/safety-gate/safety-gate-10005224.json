@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-01"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -34,7 +34,8 @@
     "5903755860125"
    ],
    "descripcion": "Sierra encadenada circular para amoladora angular — 125 mm. El producto se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Eslovenia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "54d1b07ba83b8eb1"
+  "enriquecido": true,
+  "hashContenido": "d29f76f08e61edb0"
  },
  "slug": "hoja-de-sierra-circular-proline-safety-gate-10005224"
 }

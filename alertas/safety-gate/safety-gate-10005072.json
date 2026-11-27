@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,17 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0624*00 - 13",
-    "15",
-    "e2*2007/46*0625*01 - 16",
-    "e2*2007/46*0628*00 - 09",
-    "11",
-    "Type: E",
-    "F"
+    "e2*2007/46*0624*00 - 13, 15, e2*2007/46*0625*01 - 16,, e2*2007/46*0628*00 - 09, 11, Type: E, F"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.11.2017 - 29.01.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche/vehículo pesado de mercancías",
-   "fechasTexto": "08.11.2017 - 29.01.2021"
+   "fechasTexto": "08.11.2017 - 29.01.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "HU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,18 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01845/21",
-   "mm:peugeot:e2-2007-46-0624-00-13",
-   "mm:peugeot:e2-2007-46-0625-01-16",
-   "mm:peugeot:e2-2007-46-0628-00-09",
-   "mm:peugeot:type-e"
+   "mm:peugeot:e2-2007-46-0624-00-13-15-e2-2007-46-0625-01-16-e2-2007-46-0628-00-09-11-type-e-f",
+   "ml:peugeot:08-11-2017-29-01-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "62d45b9888a37e76"
+  "enriquecido": true,
+  "hashContenido": "273e665ad6ac3763"
  },
  "slug": "vehiculos-pesados-de-transporte-de-mercancias-peugeot-safety-gate-10005072"
 }

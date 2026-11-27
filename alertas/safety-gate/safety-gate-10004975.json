@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2007/46*1116*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2 May 2006 - 22 September 2011"
+    }
+   ],
    "ean": [],
    "descripcion": "Airbag en el lado del pasajero",
-   "fechasTexto": "2 May 2006 - 22 September 2011"
+   "fechasTexto": "2 May 2006 - 22 September 2011",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01805/21",
-   "mm:mazda:e13-2007-46-1116-00"
+   "mm:mazda:e13-2007-46-1116-00",
+   "ml:mazda:2-may-2006-22-september-2011"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e317dcaf6c6a2255"
+  "enriquecido": true,
+  "hashContenido": "c7faf80fe3a76b96"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10004975"
 }

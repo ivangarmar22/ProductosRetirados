@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -51,12 +51,25 @@
    ],
    "lotes": [
     {
-     "numero": "Banana Ice: Exp. 23/04/23Banana Ice: Exp. 26/04/23Lychee Ice: Exp. 14/04/23Mango Ice: Exp. 23/04/23Tobacco: Exp. 26/03/23"
+     "numero": "Banana Ice: Exp. 23/04/23"
+    },
+    {
+     "numero": "Banana Ice: Exp. 26/04/23"
+    },
+    {
+     "numero": "Lychee Ice: Exp. 14/04/23"
+    },
+    {
+     "numero": "Mango Ice: Exp. 23/04/23"
+    },
+    {
+     "numero": "Tobacco: Exp. 26/03/23"
     }
    ],
    "ean": [],
    "descripcion": "Cigarrillos electrónicos desechables que contengan 20 mg/ml de concentración de nicotina y en volumen de hasta 2 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja rectangular en varios colores según el sabor"
   }
  ],
  "riesgo": {
@@ -128,15 +141,19 @@
    "mm:geek-bar-pro:strawberry-ice-cream",
    "mm:geek-bar-pro:tobacco",
    "mm:geek-bar-pro:watermelon-ice",
-   "ml:geek-bar-pro:banana-ice-exp-23-04-23banana-ice-exp-26-04-23lychee-ice-exp-14-04-23mango-ice-exp-23-04-23tobacco-exp-26-03-23"
+   "ml:geek-bar-pro:banana-ice-exp-23-04-23",
+   "ml:geek-bar-pro:banana-ice-exp-26-04-23",
+   "ml:geek-bar-pro:lychee-ice-exp-14-04-23",
+   "ml:geek-bar-pro:mango-ice-exp-23-04-23",
+   "ml:geek-bar-pro:tobacco-exp-26-03-23"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db6083e1e08ea689"
+  "enriquecido": true,
+  "hashContenido": "7ff23fb3cc3a4215"
  },
  "slug": "cigarrillo-electronico-desechable-geek-bar-pro-safety-gate-10004767"
 }

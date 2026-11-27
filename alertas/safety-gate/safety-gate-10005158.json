@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-01-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,33 +27,19 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2001/116*0431*47-63",
-    "e1*2001/116*0457*38-52",
-    "e1*2007/46*1818*00-16",
-    "e1*2001/116*0335*34-46",
-    "e1*2001/116*0480*31-42",
-    "e1*2007/46*1885*00-16",
-    "204",
-    "204 K",
-    "R1ECLS",
-    "221",
-    "204 X",
-    "H1GLE",
-    "212",
-    "R1ES",
-    "R1EC",
-    "463A",
-    "R2S",
-    "e1*2001/116*0501*24-53",
-    "e1*2007/46*1560*02-27",
-    "e1*2007/46*1666*00-23",
-    "e1*2007/46*1830*01-08",
-    "e1*2007/46*2115*01-06"
+    "e1*2001/116*0431*47-63, e1*2001/116*0457*38-52, e1*2007/46*1818*00-16, e1*2001/116*0335*34-46, e1*2001/116*0480*31-42, e1*2007/46*1885*00-16,",
+    "204, 204 K, R1ECLS, 221, 204 X, H1GLE, 212, R1ES, R1EC, 463A, R2S",
+    "e1*2001/116*0501*24-53, e1*2007/46*1560*02-27, e1*2007/46*1666*00-23, e1*2007/46*1830*01-08,e1*2007/46*2115*01-06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27/01/2017 - 12/10/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "27/01/2017 - 12/10/2021"
+   "fechasTexto": "27/01/2017 - 12/10/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,7 +70,24 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,36 +97,18 @@
  "dedup": {
   "claves": [
    "ref:A12/00045/22",
-   "mm:mercedes-benz:e1-2001-116-0431-47-63",
-   "mm:mercedes-benz:e1-2001-116-0457-38-52",
-   "mm:mercedes-benz:e1-2007-46-1818-00-16",
-   "mm:mercedes-benz:e1-2001-116-0335-34-46",
-   "mm:mercedes-benz:e1-2001-116-0480-31-42",
-   "mm:mercedes-benz:e1-2007-46-1885-00-16",
-   "mm:mercedes-benz:204",
-   "mm:mercedes-benz:204-k",
-   "mm:mercedes-benz:r1ecls",
-   "mm:mercedes-benz:221",
-   "mm:mercedes-benz:204-x",
-   "mm:mercedes-benz:h1gle",
-   "mm:mercedes-benz:212",
-   "mm:mercedes-benz:r1es",
-   "mm:mercedes-benz:r1ec",
-   "mm:mercedes-benz:463a",
-   "mm:mercedes-benz:r2s",
-   "mm:mercedes-benz:e1-2001-116-0501-24-53",
-   "mm:mercedes-benz:e1-2007-46-1560-02-27",
-   "mm:mercedes-benz:e1-2007-46-1666-00-23",
-   "mm:mercedes-benz:e1-2007-46-1830-01-08",
-   "mm:mercedes-benz:e1-2007-46-2115-01-06"
+   "mm:mercedes-benz:e1-2001-116-0431-47-63-e1-2001-116-0457-38-52-e1-2007-46-1818-00-16-e1-2001-116-0335-34-46-e1-2001-116-0480-31-42-e1-2007-46-1885-00-16",
+   "mm:mercedes-benz:204-204-k-r1ecls-221-204-x-h1gle-212-r1es-r1ec-463a-r2s",
+   "mm:mercedes-benz:e1-2001-116-0501-24-53-e1-2007-46-1560-02-27-e1-2007-46-1666-00-23-e1-2007-46-1830-01-08-e1-2007-46-2115-01-06",
+   "ml:mercedes-benz:27-01-2017-12-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "77972207e0bf6509"
+  "enriquecido": true,
+  "hashContenido": "e5b2382ae25d7be3"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10005158"
 }

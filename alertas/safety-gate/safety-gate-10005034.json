@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-23"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -29,14 +29,18 @@
    ],
    "lotes": [
     {
-     "numero": "batch no. 1052680115082001318715sold between 01.02.2018 and 06.2021"
+     "numero": "batch no. 1052680115082001318715"
+    },
+    {
+     "numero": "sold between 01.02.2018 and 06.2021"
     }
    ],
    "ean": [
     "3276000281474"
    ],
    "descripcion": "Sierra circular.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -102,11 +106,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "140b1ce2c6e79b92"
+  "enriquecido": true,
+  "hashContenido": "19817d9623d40b3f"
  },
  "slug": "sierra-circular-circular-saw-safety-gate-10005034"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Iveco"
    ],
    "modelos": [
-    "Type approval numbers: e3*2007/46*0135*13 - *17",
-    "e3*2007/46*0136*17 - *19",
-    "e3*2007/46*0143*16",
-    "Type: BA3C",
-    "2Y3C",
-    "1A3C"
+    "Type approval numbers: e3*2007/46*0135*13 - *17, e3*2007/46*0136*17 - *19, e3*2007/46*0143*16",
+    "Type: BA3C, 2Y3C, 1A3C"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 31/10/2018 to 05/02/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "From 31/10/2018 to 05/02/2020"
+   "fechasTexto": "From 31/10/2018 to 05/02/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,20 +84,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00911/21",
-   "mm:iveco:type-approval-numbers-e3-2007-46-0135-13-17",
-   "mm:iveco:e3-2007-46-0136-17-19",
-   "mm:iveco:e3-2007-46-0143-16",
-   "mm:iveco:type-ba3c",
-   "mm:iveco:2y3c",
-   "mm:iveco:1a3c"
+   "mm:iveco:type-approval-numbers-e3-2007-46-0135-13-17-e3-2007-46-0136-17-19-e3-2007-46-0143-16",
+   "mm:iveco:type-ba3c-2y3c-1a3c",
+   "ml:iveco:from-31-10-2018-to-05-02-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "287731a13f14fee7"
+  "enriquecido": true,
+  "hashContenido": "ab9b912739500acf"
  },
  "slug": "camion-iveco-safety-gate-10003949"
 }

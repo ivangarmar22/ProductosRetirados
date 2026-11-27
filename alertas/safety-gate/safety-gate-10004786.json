@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-13"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -32,14 +32,18 @@
    ],
    "lotes": [
     {
-     "numero": "15A2115B21"
+     "numero": "15A21"
+    },
+    {
+     "numero": "15B21"
     }
    ],
    "ean": [
     "6223003733568"
    ],
    "descripcion": "Máscara de filtración respiratoria protectora blanca de la mitad de la cara, marcada con FFP2 y con el marcado CE impreso en el lateral.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una caja de cartón blanco y azul, contiene 50 piezas."
   }
  ],
  "riesgo": {
@@ -123,15 +127,16 @@
    "ean:6223003733568",
    "mm:pharmaplast:fc-f2e",
    "mm:pharmaplast:fc-f2h",
-   "ml:pharmaplast:15a2115b21"
+   "ml:pharmaplast:15a21",
+   "ml:pharmaplast:15b21"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7847d011906f306b"
+  "enriquecido": true,
+  "hashContenido": "b58e3c01aae3ed55"
  },
  "slug": "mascara-de-filtro-de-particulas-pharmaplast-safety-gate-10004786"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Zero Motorcycles"
    ],
    "modelos": [
-    "e9*168/2013*11329*01",
-    "Type Z4"
+    "e9*168/2013*11329*01, Type Z4"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.4.2019 - 19.12.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "10.4.2019 - 19.12.2019"
+   "fechasTexto": "10.4.2019 - 19.12.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES",
+   "FI",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00029/22",
-   "mm:zero-motorcycles:e9-168-2013-11329-01",
-   "mm:zero-motorcycles:type-z4"
+   "mm:zero-motorcycles:e9-168-2013-11329-01-type-z4",
+   "ml:zero-motorcycles:10-4-2019-19-12-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bca6383eafb6b950"
+  "enriquecido": true,
+  "hashContenido": "729324d783fe2e2b"
  },
  "slug": "motocicleta-zero-motorcycles-safety-gate-10005025"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "235/55R17 103H XL",
     "DOT numbers: CN7AD72Y 4015 to 0221"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.09.2015 - 11.01.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumáticos de automóviles",
-   "fechasTexto": "28.09.2015 - 11.01.2021"
+   "fechasTexto": "28.09.2015 - 11.01.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +72,15 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "LV",
+   "NO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,15 +96,16 @@
   "claves": [
    "ref:A12/00030/22",
    "mm:continental:235-55r17-103h-xl",
-   "mm:continental:dot-numbers-cn7ad72y-4015-to-0221"
+   "mm:continental:dot-numbers-cn7ad72y-4015-to-0221",
+   "ml:continental:28-09-2015-11-01-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6967216d407da510"
+  "enriquecido": true,
+  "hashContenido": "278d939513ee53d4"
  },
  "slug": "neumaticos-de-automoviles-continental-safety-gate-10005096"
 }

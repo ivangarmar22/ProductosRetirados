@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e13*2007/46*1972*00 e13*2007/46*1972*01 e13*2007/46*1972*02 e13*2007/46*1972*03"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "6 November 2018 - 28 May 2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "6 November 2018 - 28 May 2019"
+   "fechasTexto": "6 November 2018 - 28 May 2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A11/00006/22",
-   "mm:mazda:e13-2007-46-1972-00-e13-2007-46-1972-01-e13-2007-46-1972-02-e13-2007-46-1972-03"
+   "mm:mazda:e13-2007-46-1972-00-e13-2007-46-1972-01-e13-2007-46-1972-02-e13-2007-46-1972-03",
+   "ml:mazda:6-november-2018-28-may-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eb73e43dffdff938"
+  "enriquecido": true,
+  "hashContenido": "41db6998c1960d82"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10004861"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "K7731-31100 K7113-71120 K7113-76120 K7113-81120 K7113-86120 K7113-88120 K7116-70120 K7116-71120 K7116-80120 K7513-81170 K7516-80170 K7513-71170 K7516-70170 K7516-71170",
     "K7513-81120 K7516-80120 K7513-71120 K7516-70120 K7516-71120"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2014 - 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo agrícola",
-   "fechasTexto": "2014 - 2021"
+   "fechasTexto": "2014 - 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "NO",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +89,16 @@
   "claves": [
    "ref:A11/00118/21",
    "mm:kubota:k7731-31100-k7113-71120-k7113-76120-k7113-81120-k7113-86120-k7113-88120-k7116-70120-k7116-71120-k7116-80120-k7513-81170-k7516-80170-k7513-71170-k7516-70170-k7516-71170",
-   "mm:kubota:k7513-81120-k7516-80120-k7513-71120-k7516-70120-k7516-71120"
+   "mm:kubota:k7513-81120-k7516-80120-k7513-71120-k7516-70120-k7516-71120",
+   "ml:kubota:2014-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "043ca28f367d678f"
+  "enriquecido": true,
+  "hashContenido": "7d05f517a1e40230"
  },
  "slug": "vehiculo-agricola-kubota-safety-gate-10004939"
 }

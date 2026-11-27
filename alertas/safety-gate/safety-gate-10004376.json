@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Evobus"
    ],
    "modelos": [
-    "e1*2007/46*1985*05",
-    "e1*2007/46*2083*02",
-    "Typ: 628 10",
-    "628 11"
+    "e1*2007/46*1985*05, e1*2007/46*2083*02, Typ: 628 10, 628 11"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13/03/2019 to 30/11/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús/coach",
-   "fechasTexto": "13/03/2019 to 30/11/2021"
+   "fechasTexto": "13/03/2019 to 30/11/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01300/21",
-   "mm:evobus:e1-2007-46-1985-05",
-   "mm:evobus:e1-2007-46-2083-02",
-   "mm:evobus:typ-628-10",
-   "mm:evobus:628-11"
+   "mm:evobus:e1-2007-46-1985-05-e1-2007-46-2083-02-typ-628-10-628-11",
+   "ml:evobus:13-03-2019-to-30-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1fc6ee82774f13d7"
+  "enriquecido": true,
+  "hashContenido": "2ff8b9dd05edf454"
  },
  "slug": "autobus-coach-evobus-safety-gate-10004376"
 }

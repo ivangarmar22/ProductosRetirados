@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Hyundai"
    ],
    "modelos": [
-    "Types: FS",
-    "VF",
-    "PB",
-    "ELH",
-    "RB",
-    "MD",
-    "e11*2007/46*0194",
-    "e4*2007/46*0263",
-    "e11*2001/116*0333",
-    "e11*2007/46*0192",
-    "e4*2007/46*0251",
-    "e4*2007/46*0254"
+    "Types: FS, VF, PB, ELH, RB, MD",
+    "e11*2007/46*0194, e4*2007/46*0263, e11*2001/116*0333, e11*2007/46*0192, e4*2007/46*0251, e4*2007/46*0254"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 1 January 2008 and 31 December 2012."
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "The affected vehicles were manufactured between 1 January 2008 and 31 December 2012."
+   "fechasTexto": "The affected vehicles were manufactured between 1 January 2008 and 31 December 2012.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,22 +89,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00805/21",
-   "mm:hyundai:types-fs",
-   "mm:hyundai:elh",
-   "mm:hyundai:e11-2007-46-0194",
-   "mm:hyundai:e4-2007-46-0263",
-   "mm:hyundai:e11-2001-116-0333",
-   "mm:hyundai:e11-2007-46-0192",
-   "mm:hyundai:e4-2007-46-0251",
-   "mm:hyundai:e4-2007-46-0254"
+   "mm:hyundai:types-fs-vf-pb-elh-rb-md",
+   "mm:hyundai:e11-2007-46-0194-e4-2007-46-0263-e11-2001-116-0333-e11-2007-46-0192-e4-2007-46-0251-e4-2007-46-0254",
+   "ml:hyundai:the-affected-vehicles-were-manufactured-between-1-january-2008-and-31-december-2012"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "457fef12fc8603a3"
+  "enriquecido": true,
+  "hashContenido": "69a3ae572f416712"
  },
  "slug": "coche-de-pasajeros-hyundai-safety-gate-10003828"
 }

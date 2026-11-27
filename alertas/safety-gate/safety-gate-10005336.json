@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,19 @@
     "Bmw"
    ],
    "modelos": [
-    "e1*2018/858*00122",
-    "Type: G4C"
+    "e1*2018/858*00122, Type: G4C"
    ],
-   "lotes": [],
-   "ean": [],
+   "lotes": [
+    {
+     "numero": "15.09.2021 - 30.11.2021"
+    }
+   ],
+   "ean": [
+    "61430600"
+   ],
    "descripcion": "Turismos",
-   "fechasTexto": "15.09.2021 - 30.11.2021"
+   "fechasTexto": "15.09.2021 - 30.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +69,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FR",
+   "HU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +89,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00124/22",
-   "mm:bmw:e1-2018-858-00122",
-   "mm:bmw:type-g4c"
+   "ean:61430600",
+   "mm:bmw:e1-2018-858-00122-type-g4c",
+   "ml:bmw:15-09-2021-30-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd23c37c47ffd94a"
+  "enriquecido": true,
+  "hashContenido": "a1a58bf7eaaa1f28"
  },
  "slug": "turismos-bmw-safety-gate-10005336"
 }

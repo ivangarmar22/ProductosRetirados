@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-20"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave relleno flexible que representa una jirafa con un accesorio de cadena de metal. Producto vendido en línea, en particular a través de Wish.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9623f2a6811e6f09"
+  "enriquecido": true,
+  "hashContenido": "6793b61aa998fb1a"
  },
  "slug": "juguete-de-peluche-jouets-mignons-de-peluche-de-girafe-safety-gate-10004920"
 }

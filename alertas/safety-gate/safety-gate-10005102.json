@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,17 @@
     "DS automobiles"
    ],
    "modelos": [
-    "e2*2007/46*0601*10",
-    "e2*2007/46*0601*11 e2*2007/46*0601*12",
-    "e2*2007/46*0601*13",
-    "e2*2007/46*0601*14",
-    "e2*2007/46*0601*15",
-    "e2*2007/46*0601*16",
-    "e2*2007/46*0601*17"
+    "e2*2007/46*0601*10, e2*2007/46*0601*11 e2*2007/46*0601*12, e2*2007/46*0601*13, e2*2007/46*0601*14, e2*2007/46*0601*15, e2*2007/46*0601*16, e2*2007/46*0601*17"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31/03/2021 - 28/09/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos equipados con techo retráctil.",
-   "fechasTexto": "31/03/2021 - 28/09/2021"
+   "fechasTexto": "31/03/2021 - 28/09/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "ES",
+   "FI",
+   "GR",
+   "HU",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,21 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00013/22",
-   "mm:ds-automobiles:e2-2007-46-0601-10",
-   "mm:ds-automobiles:e2-2007-46-0601-11-e2-2007-46-0601-12",
-   "mm:ds-automobiles:e2-2007-46-0601-13",
-   "mm:ds-automobiles:e2-2007-46-0601-14",
-   "mm:ds-automobiles:e2-2007-46-0601-15",
-   "mm:ds-automobiles:e2-2007-46-0601-16",
-   "mm:ds-automobiles:e2-2007-46-0601-17"
+   "mm:ds-automobiles:e2-2007-46-0601-10-e2-2007-46-0601-11-e2-2007-46-0601-12-e2-2007-46-0601-13-e2-2007-46-0601-14-e2-2007-46-0601-15-e2-2007-46-0601-16-e2-2007-46-0601-17",
+   "ml:ds-automobiles:31-03-2021-28-09-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "408965d228811f79"
+  "enriquecido": true,
+  "hashContenido": "8ff2298077438579"
  },
  "slug": "turismos-ds-automobiles-safety-gate-10005102"
 }

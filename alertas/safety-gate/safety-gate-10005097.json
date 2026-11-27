@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,12 +28,26 @@
    ],
    "modelos": [
     "e4*168/2013*00126*00",
-    "e6*168/2013*00063*00"
+    "e6*168/2013*00063*00."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "CBR1000SPL (14/04/2021~28/07/2021//27/04/2021~11/06/2021)"
+    },
+    {
+     "numero": "CBR1000STL (18/05/2021~07/06/2021)"
+    },
+    {
+     "numero": "CMX1100AM (15/04/2021~24/08/2021)"
+    },
+    {
+     "numero": "CMX1100DM (20/05/2021~20/08/2021)"
+    }
+   ],
    "ean": [],
    "descripcion": "— Código de modelo (Modelo): SC82 (CBR1000SPL, CBR1000STL), SC83 (CMX1100AM, CMX1100DM); — Año de modelo: 2020-2021.",
-   "fechasTexto": "CBR1000SPL (14/04/2021~28/07/2021//27/04/2021~11/06/2021)CBR1000STL (18/05/2021~07/06/2021)CMX1100AM (15/04/2021~24/08/2021)CMX1100DM (20/05/2021~20/08/2021)"
+   "fechasTexto": "CBR1000SPL (14/04/2021~28/07/2021//27/04/2021~11/06/2021)CBR1000STL (18/05/2021~07/06/2021)CMX1100AM (15/04/2021~24/08/2021)CMX1100DM (20/05/2021~20/08/2021)",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +77,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +101,19 @@
   "claves": [
    "ref:A12/01859/21",
    "mm:honda:e4-168-2013-00126-00",
-   "mm:honda:e6-168-2013-00063-00"
+   "mm:honda:e6-168-2013-00063-00",
+   "ml:honda:cbr1000spl-14-04-2021-28-07-2021-27-04-2021-11-06-2021",
+   "ml:honda:cbr1000stl-18-05-2021-07-06-2021",
+   "ml:honda:cmx1100am-15-04-2021-24-08-2021",
+   "ml:honda:cmx1100dm-20-05-2021-20-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c8896586bf9552a2"
+  "enriquecido": true,
+  "hashContenido": "4686422a417e853e"
  },
  "slug": "motocicleta-honda-safety-gate-10005097"
 }

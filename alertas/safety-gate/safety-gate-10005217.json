@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "VW"
    ],
    "modelos": [
-    "e1*2007/46*1783*##",
-    "AW"
+    "e1*2007/46*1783*##, AW"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.08.2021 - 09.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "10.08.2021 - 09.12.2021"
+   "fechasTexto": "10.08.2021 - 09.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Sudáfrica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,15 +80,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00057/22",
-   "mm:vw:e1-2007-46-1783"
+   "mm:vw:e1-2007-46-1783-aw",
+   "ml:vw:10-08-2021-09-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "23652d6fe30a30ac"
+  "enriquecido": true,
+  "hashContenido": "c5934cc56cddb560"
  },
  "slug": "turismos-vw-safety-gate-10005217"
 }

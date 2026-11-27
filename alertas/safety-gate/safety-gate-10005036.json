@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Ford"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22/04/2013 - 30/04/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero",
-   "fechasTexto": "22/04/2013 - 30/04/2021"
+   "fechasTexto": "22/04/2013 - 30/04/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,15 +79,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/00027/22"
+   "ref:A12/00027/22",
+   "ml:ford:22-04-2013-30-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "41391e4c3e899c04"
+  "enriquecido": true,
+  "hashContenido": "db25440d86006474"
  },
  "slug": "vehiculo-comercial-ligero-ford-safety-gate-10005036"
 }

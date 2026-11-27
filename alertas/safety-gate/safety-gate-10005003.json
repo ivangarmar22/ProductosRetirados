@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-04"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Liquide sanitaire pour chasse d'eau",
    "marcas": [
-    "Dometic, MOBILE LIVING - MADE EASY"
+    "Dometic",
+    "MOBILE LIVING - MADE EASY"
    ],
    "modelos": [
     "500 ml"
@@ -36,7 +37,8 @@
    ],
    "ean": [],
    "descripcion": "Detergente de lavado líquido en una botella de plástico negro. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una botella de plástico negro con inscripciones blancas."
   }
  ],
  "riesgo": {
@@ -89,16 +91,18 @@
  "dedup": {
   "claves": [
    "ref:A11/00002/22",
-   "mm:dometic-mobile-living-made-easy:500-ml",
-   "ml:dometic-mobile-living-made-easy:b09122016"
+   "mm:dometic:500-ml",
+   "ml:dometic:b09122016",
+   "mm:mobile-living-made-easy:500-ml",
+   "ml:mobile-living-made-easy:b09122016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6002fd26ad21dc88"
+  "enriquecido": true,
+  "hashContenido": "55a7268adc6aa5fa"
  },
  "slug": "detergente-liquido-para-inodoros-dometic-mobile-living-made-easy-safety-gate-10005003"
 }

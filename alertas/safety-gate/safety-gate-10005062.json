@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-01"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,12 +31,16 @@
    ],
    "lotes": [
     {
-     "numero": "0B00B00BBEB0"
+     "numero": "0B00B0"
+    },
+    {
+     "numero": "0BBEB0"
     }
    ],
    "ean": [],
    "descripcion": "Corrector de manchas oscuras y suero iluminador. Producto vendido en línea, en particular a través de Amazon, en https://www.amazon.fr/Serum-white-antitaches-points-noirs/dp/B08KPJ73N8/",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón de oro mate que contiene un folleto informativo y una pequeña botella de vidrio marrón cerrado con un tapón dorado opaco."
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
   "claves": [
    "ref:A12/00038/22",
    "mm:pure-white:50-ml",
-   "ml:pure-white:0b00b00bbeb0"
+   "ml:pure-white:0b00b0",
+   "ml:pure-white:0bbeb0"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3b99cd4f0872b241"
+  "enriquecido": true,
+  "hashContenido": "98e0086cc9f7c82b"
  },
  "slug": "suero-de-mancha-oscura-pure-white-safety-gate-10005062"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -34,10 +34,15 @@
     "e2*2007*46*0686*04",
     "e2*2007*46*0686*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.12.2019 - 24.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Código del marco: BKYMA2; BKYMA4; BKYMD2; BKYMD4; BPZMA2; BPZMA4; BPMZD2; BPZMD4; BPZMJ2",
-   "fechasTexto": "14.12.2019 - 24.08.2021"
+   "fechasTexto": "14.12.2019 - 24.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +72,11 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,15 +91,16 @@
    "mm:toyota:e2-2007-46-0686-02",
    "mm:toyota:e2-2007-46-0686-03",
    "mm:toyota:e2-2007-46-0686-04",
-   "mm:toyota:e2-2007-46-0686-05"
+   "mm:toyota:e2-2007-46-0686-05",
+   "ml:toyota:14-12-2019-24-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb2127a73c7642c9"
+  "enriquecido": true,
+  "hashContenido": "5c4cbd066fab5b26"
  },
  "slug": "turismos-toyota-safety-gate-10004988"
 }

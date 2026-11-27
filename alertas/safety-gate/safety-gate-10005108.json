@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "DS 3 : e2*2007/46*0003*52 e2*2007/46*0003*53",
     "DS7 crossback : e2*2007/46*0601*05 e2*2007/46*0601*07 e2*2007/46*0601*08"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "DS3 from 12/07/2018 to 22/05/2019"
+    },
+    {
+     "numero": "DS7 CROSSBACK (X74) from 04/12/2018 to 29/08/2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "DS3 from 12/07/2018 to 22/05/2019DS7 CROSSBACK (X74) from 04/12/2018 to 29/08/2019"
+   "fechasTexto": "DS3 from 12/07/2018 to 22/05/2019DS7 CROSSBACK (X74) from 04/12/2018 to 29/08/2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +71,13 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +88,17 @@
   "claves": [
    "ref:A12/00104/22",
    "mm:ds-automobiles:ds-3-e2-2007-46-0003-52-e2-2007-46-0003-53",
-   "mm:ds-automobiles:ds7-crossback-e2-2007-46-0601-05-e2-2007-46-0601-07-e2-2007-46-0601-08"
+   "mm:ds-automobiles:ds7-crossback-e2-2007-46-0601-05-e2-2007-46-0601-07-e2-2007-46-0601-08",
+   "ml:ds-automobiles:ds3-from-12-07-2018-to-22-05-2019",
+   "ml:ds-automobiles:ds7-crossback-x74-from-04-12-2018-to-29-08-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "88ae6d8f705f84fa"
+  "enriquecido": true,
+  "hashContenido": "1c2aeadff8b3881e"
  },
  "slug": "coche-de-pasajeros-ds-automobiles-safety-gate-10005108"
 }

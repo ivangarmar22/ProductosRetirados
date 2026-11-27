@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Adria"
    ],
    "modelos": [
-    "e4*2007/46*0103*19 - 22",
-    "e4*2007/46*0106*10",
-    "11",
-    "13 - 15",
-    "Typen: E",
-    "T"
+    "e4*2007/46*0103*19 - 22, e4*2007/46*0106*10, 11, 13 - 15, Typen: E, T"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03.2019 - 09.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Tráiler",
-   "fechasTexto": "03.2019 - 09.2021"
+   "fechasTexto": "03.2019 - 09.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Eslovenia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "IS",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,18 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01790/21",
-   "mm:adria:e4-2007-46-0103-19-22",
-   "mm:adria:e4-2007-46-0106-10",
-   "mm:adria:13-15",
-   "mm:adria:typen-e"
+   "mm:adria:e4-2007-46-0103-19-22-e4-2007-46-0106-10-11-13-15-typen-e-t",
+   "ml:adria:03-2019-09-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cf4af2149515aacf"
+  "enriquecido": true,
+  "hashContenido": "dc8454a616bb30be"
  },
  "slug": "trailer-adria-safety-gate-10004807"
 }

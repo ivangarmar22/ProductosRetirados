@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-21"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -41,12 +41,19 @@
    ],
    "lotes": [
     {
-     "numero": "All others: 08/27/2022Grape Ice: 08/18/2022Hawaiian Pog: 08/26/2022"
+     "numero": "All others: 08/27/2022"
+    },
+    {
+     "numero": "Grape Ice: 08/18/2022"
+    },
+    {
+     "numero": "Hawaiian Pog: 08/26/2022"
     }
    ],
    "ean": [],
    "descripcion": "Cigarrillo electrónico desechable 2 % de concentración de nicotina y en un volumen de 5 ml. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja rectangular en varios colores según el sabor"
   }
  ],
  "riesgo": {
@@ -106,15 +113,17 @@
    "mm:reymont-1688-puffs-2-5ml:monster",
    "mm:reymont-1688-puffs-2-5ml:spearmint",
    "mm:reymont-1688-puffs-2-5ml:toffee",
-   "ml:reymont-1688-puffs-2-5ml:all-others-08-27-2022grape-ice-08-18-2022hawaiian-pog-08-26-2022"
+   "ml:reymont-1688-puffs-2-5ml:all-others-08-27-2022",
+   "ml:reymont-1688-puffs-2-5ml:grape-ice-08-18-2022",
+   "ml:reymont-1688-puffs-2-5ml:hawaiian-pog-08-26-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0b224dc1022ff9b7"
+  "enriquecido": true,
+  "hashContenido": "caa40dc82e9d860a"
  },
  "slug": "cigarrillo-electronico-desechable-reymont-1688-puffs-2-5ml-safety-gate-10004773"
 }

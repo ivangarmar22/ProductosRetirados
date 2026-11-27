@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-13",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-24"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,14 +31,25 @@
    ],
    "lotes": [
     {
-     "numero": "XY7963XY8230А32252А39048"
+     "numero": "XY7963"
+    },
+    {
+     "numero": "XY8230"
+    },
+    {
+     "numero": "А32252"
+    },
+    {
+     "numero": "А39048"
     }
    ],
    "ean": [
-    "5056168854851"
+    "5056168854851",
+    "5056168855698"
    ],
    "descripcion": "Líquido para cigarrillos electrónicos, que contiene 20 mg/ml de nicotina y diferentes sabores: kiwi, mango y cítricos anaranjados, fruta forestal. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje plástico 10 ml"
   }
  ],
  "riesgo": {
@@ -68,7 +79,9 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,16 +105,20 @@
   "claves": [
    "ref:A12/00117/22",
    "ean:5056168854851",
+   "ean:5056168855698",
    "mm:just-juice:fusion",
-   "ml:just-juice:xy7963xy8230-32252-39048"
+   "ml:just-juice:xy7963",
+   "ml:just-juice:xy8230",
+   "ml:just-juice:32252",
+   "ml:just-juice:39048"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ed57ae932baa79f3"
+  "enriquecido": true,
+  "hashContenido": "d7a987d751b05249"
  },
  "slug": "liquido-para-cigarrillos-electronicos-just-juice-safety-gate-10005115"
 }

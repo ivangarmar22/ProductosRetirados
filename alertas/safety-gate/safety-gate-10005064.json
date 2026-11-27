@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-02-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,21 +27,17 @@
     "TESVOR"
    ],
    "modelos": [
-    "S6 US-Variante (Netzteil mit US-Stecker",
-    "Typ A",
-    "NEMA-1)"
+    "S6 US-Variante (Netzteil mit US-Stecker, Typ A, NEMA-1)"
    ],
    "lotes": [
     {
-     "numero": "SN TYxxUSTSS6xxxxxxxxxxxxxxxx where ‘x’ stands for alphanumeric characters (A-Z"
-    },
-    {
-     "numero": "0-9)"
+     "numero": "SN TYxxUSTSS6xxxxxxxxxxxxxxxx where ‘x’ stands for alphanumeric characters (A-Z, 0-9)"
     }
    ],
    "ean": [],
    "descripcion": "Aspiradora robot. El producto se vende en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -106,19 +102,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01887/21",
-   "mm:tesvor:s6-us-variante-netzteil-mit-us-stecker",
-   "mm:tesvor:typ-a",
-   "mm:tesvor:nema-1",
-   "ml:tesvor:sn-tyxxustss6xxxxxxxxxxxxxxxx-where-x-stands-for-alphanumeric-characters-a-z",
-   "ml:tesvor:0-9"
+   "mm:tesvor:s6-us-variante-netzteil-mit-us-stecker-typ-a-nema-1",
+   "ml:tesvor:sn-tyxxustss6xxxxxxxxxxxxxxxx-where-x-stands-for-alphanumeric-characters-a-z-0-9"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bcd5db39830938d2"
+  "enriquecido": true,
+  "hashContenido": "50b6ce15327a072a"
  },
  "slug": "aspiradora-de-robot-tesvor-safety-gate-10005064"
 }

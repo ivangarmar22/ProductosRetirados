@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e6*2007/46*0334*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.06.2020 - 05.08.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "CT200h — código de marco ZWA10, WMI: Jth, Rango por número de marco: VDS — KD5BH#; VIS — 02364459-02365931",
-   "fechasTexto": "04.06.2020 - 05.08.2020"
+   "fechasTexto": "04.06.2020 - 05.08.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "FI",
+   "FR",
+   "HU",
+   "PL",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01746/21",
-   "mm:toyota-lexus:e6-2007-46-0334-02"
+   "mm:toyota-lexus:e6-2007-46-0334-02",
+   "ml:toyota-lexus:04-06-2020-05-08-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5b93e5eef75f59c9"
+  "enriquecido": true,
+  "hashContenido": "8b1f858c1177dcf6"
  },
  "slug": "turismos-toyota-lexus-safety-gate-10004987"
 }

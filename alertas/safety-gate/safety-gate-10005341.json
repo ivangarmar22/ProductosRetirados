@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-02-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "E13*168/2013*00123"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2018-2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "2018-2020"
+   "fechasTexto": "2018-2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "PL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00125/22",
-   "mm:benelli:e13-168-2013-00123"
+   "mm:benelli:e13-168-2013-00123",
+   "ml:benelli:2018-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "203655f8a01f3098"
+  "enriquecido": true,
+  "hashContenido": "5f77f1c7c9d0e2ff"
  },
  "slug": "motocicleta-benelli-safety-gate-10005341"
 }

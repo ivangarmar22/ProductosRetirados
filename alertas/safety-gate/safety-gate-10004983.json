@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Type approval number: e4*2007/46*1293",
     "Type: 003"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "03/01/2019 - 04/06/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "03/01/2019 - 04/06/2021"
+   "fechasTexto": "03/01/2019 - 04/06/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +91,16 @@
   "claves": [
    "ref:A12/01806/21",
    "mm:tesla:type-approval-number-e4-2007-46-1293",
-   "mm:tesla:type-003"
+   "mm:tesla:type-003",
+   "ml:tesla:03-01-2019-04-06-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "85e908e26e342ce3"
+  "enriquecido": true,
+  "hashContenido": "9775611af791aa46"
  },
  "slug": "turismos-tesla-safety-gate-10004983"
 }

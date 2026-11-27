@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Type: 003",
     "e4*2007/46*1293*13 - 17"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20/09/2020 - 30/12/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "20/09/2020 - 30/12/2020"
+   "fechasTexto": "20/09/2020 - 30/12/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +81,16 @@
   "claves": [
    "ref:A12/01807/21",
    "mm:tesla:type-003",
-   "mm:tesla:e4-2007-46-1293-13-17"
+   "mm:tesla:e4-2007-46-1293-13-17",
+   "ml:tesla:20-09-2020-30-12-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4c4ea275b478caca"
+  "enriquecido": true,
+  "hashContenido": "b96ee79bc72fd8ca"
  },
  "slug": "turismos-tesla-safety-gate-10004982"
 }

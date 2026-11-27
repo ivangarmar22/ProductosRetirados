@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -39,7 +39,8 @@
     "8005125173600"
    ],
    "descripcion": "Sonajero en forma de flor con pétalos. Los pétalos, en material suave, se abren y cierran y tienen texturas en relieve.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de plástico con espalda de cartón."
   }
  ],
  "riesgo": {
@@ -69,7 +70,14 @@
   "ccaa": [],
   "paisNotificante": "Chipre",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "IE",
+   "IT",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,11 +114,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a1475a2b93e062f"
+  "enriquecido": true,
+  "hashContenido": "85d4c700c5a12f51"
  },
  "slug": "juguete-de-denticion-giocattoli-clementoni-safety-gate-10005023"
 }

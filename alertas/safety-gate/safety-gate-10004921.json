@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-13"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Traje de calabaza de bebé con sombrero. Producto vendido en línea, concretamente a través de Wish.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico con cremallera"
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "dd4fbd32da31841b"
+  "enriquecido": true,
+  "hashContenido": "36884fcb70143cab"
  },
  "slug": "traje-halloween-citrouille-bebe-enfants-garcons-filles-barboteuse-safety-gate-10004921"
 }

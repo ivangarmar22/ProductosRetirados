@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Muñeca de plástico vestida con un vestido blanco, púrpura, rosa y azul. Producto vendido en línea, en particular a través de AliExpress.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente sin información escrita en ella y tira roja en la parte superior con Rozes y texto difícil de leer"
   }
  ],
  "riesgo": {
@@ -63,7 +64,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "04b203cde8bf3669"
+  "enriquecido": true,
+  "hashContenido": "9922ba9dc0c54aa3"
  },
  "slug": "muneca-de-plastico-safety-gate-10004922"
 }

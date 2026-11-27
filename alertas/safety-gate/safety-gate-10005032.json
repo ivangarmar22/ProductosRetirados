@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-29"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -36,7 +36,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Clip de pelo con cabello falso y luces led con un compartimiento de batería que contiene dos baterías de botón.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BG",
+   "CY",
+   "EE",
+   "FI",
+   "HR",
+   "IE",
+   "LU",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,11 +113,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c889131b65e1c0ee"
+  "enriquecido": true,
+  "hashContenido": "3ddc71eab70604cf"
  },
  "slug": "clip-de-pelo-para-ninos-con-luz-led-h-m-safety-gate-10005032"
 }
