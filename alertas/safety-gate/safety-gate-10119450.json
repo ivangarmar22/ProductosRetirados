@@ -1,0 +1,104 @@
+{
+ "id": "safety-gate-10119450",
+ "fuente": "safety-gate",
+ "idFuente": "10119450",
+ "referenciaOficial": "SR/03381/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119450",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Gel de ducha · Carven · Le Parfum",
+ "nombreVisible": "Gel de ducha Carven",
+ "motivo": "Riesgos químicos",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-11-19",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-19"
+ },
+ "categoria": {
+  "literal": "Cosméticos",
+  "normalizada": "cosmeticos"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Le Parfum",
+   "marcas": [
+    "Carven"
+   ],
+   "modelos": [
+    "CV02023"
+   ],
+   "lotes": [
+    {
+     "numero": "14C01C"
+    }
+   ],
+   "ean": [
+    "3355991220164"
+   ],
+   "descripcion": "Gel perfumado de baño y ducha, 200 ml.",
+   "fechasTexto": null,
+   "envase": "Caja de cartón a rayas azules y blancas con bordes dorados."
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Riesgos químicos"
+  ],
+  "tipoNormalizado": [
+   "quimico"
+  ],
+  "descripcion": "Según la lista de ingredientes, el producto contiene 2-(4-terc-butilbencil)propionaldehído (BMHCA), que está prohibido en los productos cosméticos. BMHCA puede dañar el sistema reproductivo, puede dañar la salud del feto y puede causar sensibilización de la piel. El producto no cumple con el Reglamento de Productos Cosméticos.",
+  "nivelLiteral": "Riesgo grave",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Prohibición de comercialización del producto y medidas complementarias",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Italia",
+  "paisOrigen": null,
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11244593",
+   "nombreFichero": null
+  },
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11244594",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [],
+ "dedup": {
+  "claves": [
+   "ref:SR/03381/26",
+   "ean:3355991220164",
+   "mm:carven:cv02023",
+   "ml:carven:14c01c"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-27",
+  "enriquecido": true,
+  "hashContenido": "0414e8b4e966c509"
+ },
+ "slug": "gel-de-ducha-carven-safety-gate-10119450"
+}

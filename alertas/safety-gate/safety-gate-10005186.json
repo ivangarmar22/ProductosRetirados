@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Dunlop"
    ],
    "modelos": [
-    "KR106 MS3 TL",
-    "120/70 R17/"
+    "KR106 MS3 TL, 120/70 R17/"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4721 & 4821 & 4921"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumático de motocicleta Dunlop KR106 MS3 TL del tamaño 120/70 R17, semanas de fabricación 4721&4821&4921. Los neumáticos con estos números de semana 4721&4821&4921 que han sido marcados con una letra adicional «C» en un lado del neumático, junto al número de código de fecha semana, no están cubiertos por esta notificación.",
-   "fechasTexto": "4721 & 4821 & 4921"
+   "fechasTexto": "4721 & 4821 & 4921",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A11/00004/22",
-   "mm:dunlop:kr106-ms3-tl",
-   "mm:dunlop:120-70-r17"
+   "mm:dunlop:kr106-ms3-tl-120-70-r17",
+   "ml:dunlop:4721-4821-4921"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9b7f0dd48b927188"
+  "enriquecido": true,
+  "hashContenido": "ce43be43c908ffad"
  },
  "slug": "neumatico-de-motocicleta-dunlop-safety-gate-10005186"
 }

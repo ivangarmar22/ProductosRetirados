@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e9*168/2013*11489*00",
     "eCUV"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.10.2019 - 15.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta/vehículo comercial ligero.",
-   "fechasTexto": "01.10.2019 - 15.12.2021"
+   "fechasTexto": "01.10.2019 - 15.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +86,16 @@
   "claves": [
    "ref:A12/00479/22",
    "mm:tropos-motors:e9-168-2013-11489-00",
-   "mm:tropos-motors:ecuv"
+   "mm:tropos-motors:ecuv",
+   "ml:tropos-motors:01-10-2019-15-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "54d8eaed47d3fd98"
+  "enriquecido": true,
+  "hashContenido": "0f1a520838cf7d17"
  },
  "slug": "vehiculo-comercial-ligero-tropos-motors-safety-gate-10005673"
 }

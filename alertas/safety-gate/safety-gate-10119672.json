@@ -1,0 +1,114 @@
+{
+ "id": "safety-gate-10119672",
+ "fuente": "safety-gate",
+ "idFuente": "10119672",
+ "referenciaOficial": "OR/00129/26",
+ "urlOficial": "https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/10119672",
+ "tipoAviso": "alerta",
+ "alertaBase": null,
+ "titulo": "Taza · Dunnes Stores · Leopard Mug",
+ "nombreVisible": "Taza Dunnes Stores",
+ "motivo": "Quemaduras",
+ "resumen": null,
+ "fechas": {
+  "publicacion": "2026-11-19",
+  "publicacionWeb": null,
+  "modificacion": "2026-11-19"
+ },
+ "categoria": {
+  "literal": "Accesorios de cocina",
+  "normalizada": "hogar"
+ },
+ "publico": "consumidores",
+ "productos": [
+  {
+   "nombre": "Leopard Mug",
+   "marcas": [
+    "Dunnes Stores"
+   ],
+   "modelos": [
+    "7897310"
+   ],
+   "lotes": [
+    {
+     "numero": "24303"
+    }
+   ],
+   "ean": [
+    "5099011896219"
+   ],
+   "descripcion": "Taza con estampado de leopardo y adornos dorados.",
+   "fechasTexto": null,
+   "envase": null
+  }
+ ],
+ "riesgo": {
+  "tipos": [
+   "Quemaduras"
+  ],
+  "tipoNormalizado": [
+   "incendio"
+  ],
+  "descripcion": "La etiqueta del producto indica incorrectamente que el producto es seguro para microondas y lavavajillas. El mango y la llanta contienen metal. El microondas puede causar que estos elementos se sobrecalienten, lo que puede causar quemaduras en la piel cuando se toca. El producto no cumple el Reglamento relativo a la seguridad general de los productos.",
+  "nivelLiteral": "Otros niveles de riesgo",
+  "alergenos": []
+ },
+ "medidas": [
+  {
+   "texto": "Retirada del producto de manos de los usuarios finales",
+   "fecha": null
+  },
+  {
+   "texto": "Retirada del producto del mercado",
+   "fecha": null
+  }
+ ],
+ "recomendacion": null,
+ "hacer": [
+  "Comprueba si la marca, el modelo o el lote coinciden con tu producto.",
+  "Si coincide, deja de usarlo y contacta con la tienda o con el fabricante."
+ ],
+ "hacerOrigen": "general",
+ "distribucion": {
+  "ccaa": [],
+  "paisNotificante": "Irlanda",
+  "paisOrigen": "República Popular China",
+  "paisesDetectado": [],
+  "autoridadNotificante": null,
+  "literal": null
+ },
+ "empresas": [
+  {
+   "rol": "vendedor-online",
+   "nombre": "Other(www.dunnesstores.com)"
+  }
+ ],
+ "imagenes": [
+  {
+   "urlOrigen": "https://ec.europa.eu/safety-gate-alerts/public/api/notification/image/11244652",
+   "nombreFichero": null
+  }
+ ],
+ "documentos": [
+  {
+   "url": "https://www.dunnesstores.com/product-recalls",
+   "nombre": "Aviso de retirada"
+  }
+ ],
+ "dedup": {
+  "claves": [
+   "ref:OR/00129/26",
+   "ean:5099011896219",
+   "mm:dunnes-stores:7897310",
+   "ml:dunnes-stores:24303"
+  ]
+ },
+ "procedencia": {
+  "formato": "json-api",
+  "extraccion": "campo-estructurado",
+  "consultadoEn": "2026-11-27",
+  "enriquecido": true,
+  "hashContenido": "5c74caaab2c239b4"
+ },
+ "slug": "taza-dunnes-stores-safety-gate-10119672"
+}

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "KTM, Husqvarna, GasGas"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "MY 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto para competiciones",
-   "fechasTexto": "MY 2022"
+   "fechasTexto": "MY 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,19 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "NL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +91,16 @@
  ],
  "dedup": {
   "claves": [
-   "ref:A12/00461/22"
+   "ref:A12/00461/22",
+   "ml:ktm-husqvarna-gasgas:my-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "63341bafcf11d493"
+  "enriquecido": true,
+  "hashContenido": "92c12e1ce7b9f674"
  },
  "slug": "moto-ktm-husqvarna-gasgas-safety-gate-10005780"
 }

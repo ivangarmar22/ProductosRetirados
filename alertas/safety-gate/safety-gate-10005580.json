@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "7HC",
-    "7JO",
-    "7HMA",
-    "e1*2001/116*0220*",
-    "e1*2007/46*0130*",
-    "e1*2001/116*0289*"
+    "7HC, 7JO, 7HMA",
+    "e1*2001/116*0220*, e1*2007/46*0130*, e1*2001/116*0289*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.02.2016 - 15.03.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Volkswagen Transporter T6/T6.1 equipado con neumáticos de tipo 235/55 R 17 103 H TL XL ContiEcoContact 5",
-   "fechasTexto": "15.02.2016 - 15.03.2021"
+   "fechasTexto": "15.02.2016 - 15.03.2021",
+   "envase": "no indicado"
   }
  ],
  "riesgo": {
@@ -67,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,20 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00382/22",
-   "mm:vw:7hc",
-   "mm:vw:7jo",
-   "mm:vw:7hma",
-   "mm:vw:e1-2001-116-0220",
-   "mm:vw:e1-2007-46-0130",
-   "mm:vw:e1-2001-116-0289"
+   "mm:vw:7hc-7jo-7hma",
+   "mm:vw:e1-2001-116-0220-e1-2007-46-0130-e1-2001-116-0289",
+   "ml:vw:15-02-2016-15-03-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4d9ede94f7d4e881"
+  "enriquecido": true,
+  "hashContenido": "4d25cec3e63635cc"
  },
  "slug": "turismos-vw-safety-gate-10005580"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,31 +27,19 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "Type: NGE-L42",
-    "NGE-L62N",
-    "963-0-A",
-    "963-4-A",
-    "963-0-C",
-    "NGE-L42",
-    "NGE-L62N",
-    "963-0-A",
-    "963-4-A",
-    "963-0-C",
-    "Type: e1*2007/46*1223*00-17",
-    "e1*2007/46*1222*00-17",
-    "e1*2007/46*0726*00-19",
-    "e1*2007/46*0727*00-07",
-    "e1*2007/46*0732*00-20",
-    "e1*2018/858*00001*00-01",
-    "e1*2018/858*00029*00-01",
-    "e1*2018/858*00039*00",
-    "e1*2018/858*00040*00",
-    "e1*2018/858*00045*00"
+    "Type: NGE-L42, NGE-L62N, 963-0-A, 963-4-A, 963-0-C, NGE-L42, NGE-L62N, 963-0-A, 963-4-A, 963-0-C",
+    "Type: e1*2007/46*1223*00-17, e1*2007/46*1222*00-17, e1*2007/46*0726*00-19, e1*2007/46*0727*00-07, e1*2007/46*0732*00-20, e1*2018/858*00001*00-01",
+    "e1*2018/858*00029*00-01, e1*2018/858*00039*00, e1*2018/858*00040*00, e1*2018/858*00045*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 1.7.2015 to 1.7.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "From 1.7.2015 to 1.7.2021"
+   "fechasTexto": "From 1.7.2015 to 1.7.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,30 +86,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01254/21",
-   "mm:mercedes-benz:type-nge-l42",
-   "mm:mercedes-benz:nge-l62n",
-   "mm:mercedes-benz:963-0-a",
-   "mm:mercedes-benz:963-4-a",
-   "mm:mercedes-benz:963-0-c",
-   "mm:mercedes-benz:nge-l42",
-   "mm:mercedes-benz:type-e1-2007-46-1223-00-17",
-   "mm:mercedes-benz:e1-2007-46-1222-00-17",
-   "mm:mercedes-benz:e1-2007-46-0726-00-19",
-   "mm:mercedes-benz:e1-2007-46-0727-00-07",
-   "mm:mercedes-benz:e1-2007-46-0732-00-20",
-   "mm:mercedes-benz:e1-2018-858-00001-00-01",
-   "mm:mercedes-benz:e1-2018-858-00029-00-01",
-   "mm:mercedes-benz:e1-2018-858-00039-00",
-   "mm:mercedes-benz:e1-2018-858-00040-00",
-   "mm:mercedes-benz:e1-2018-858-00045-00"
+   "mm:mercedes-benz:type-nge-l42-nge-l62n-963-0-a-963-4-a-963-0-c-nge-l42-nge-l62n-963-0-a-963-4-a-963-0-c",
+   "mm:mercedes-benz:type-e1-2007-46-1223-00-17-e1-2007-46-1222-00-17-e1-2007-46-0726-00-19-e1-2007-46-0727-00-07-e1-2007-46-0732-00-20-e1-2018-858-00001-00-01",
+   "mm:mercedes-benz:e1-2018-858-00029-00-01-e1-2018-858-00039-00-e1-2018-858-00040-00-e1-2018-858-00045-00",
+   "ml:mercedes-benz:from-1-7-2015-to-1-7-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "99c0f6038e8c84ce"
+  "enriquecido": true,
+  "hashContenido": "bc4a7b83d85379bb"
  },
  "slug": "camion-mercedes-benz-safety-gate-10004343"
 }

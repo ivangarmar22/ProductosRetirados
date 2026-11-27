@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-14"
  },
  "categoria": {
   "literal": "Otros - Cigarrillos electrónicos",
@@ -36,12 +36,19 @@
    ],
    "lotes": [
     {
-     "numero": "201022 2053522922"
+     "numero": "201022"
+    },
+    {
+     "numero": "20535"
+    },
+    {
+     "numero": "22922"
     }
    ],
    "ean": [],
    "descripcion": "Cigarrillo electrónico desechable. Producto vendido en línea. Seis sabores diferentes.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón, embalaje interior está hecho de plástico."
   }
  ],
  "riesgo": {
@@ -116,15 +123,17 @@
    "mm:n-one:ice-mint",
    "mm:n-one:mentol",
    "mm:n-one:tobacco",
-   "ml:n-one:201022-2053522922"
+   "ml:n-one:201022",
+   "ml:n-one:20535",
+   "ml:n-one:22922"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4cde146b58b71a4f"
+  "enriquecido": true,
+  "hashContenido": "8f33d776ba32429e"
  },
  "slug": "cigarrillo-electronico-n-one-safety-gate-10005676"
 }

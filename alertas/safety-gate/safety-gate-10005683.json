@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Toyota"
    ],
    "modelos": [
-    "e6*2007/46*0338*04",
-    "e6*2007/46*0454*00",
-    "e6*2007/46*0437*01"
+    "e6*2007/46*0338*04, e6*2007/46*0454*00, e6*2007/46*0437*01."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "C-HR (20.03.2020 - 26.07.2021) , GR Yaris (24.06.2020 - 02.08.2021), Yaris (06.07.2020 - 21.06.2021)."
+    }
+   ],
    "ean": [],
    "descripcion": "Nombre del modelo (Código del modelo): C-HR (MAXH10, NGX10, ZGX10, ZYX11), GR Yaris (GXPA16) y Yaris (KSP211, MXPA11, MXPH11); Año de modelo: 2020-2021; Países de producción: Turquía (C-HR), Japón (GR Yaris) y Francia (Yaris).",
-   "fechasTexto": "C-HR (20.03.2020 - 26.07.2021) , GR Yaris (24.06.2020 - 02.08.2021), Yaris (06.07.2020 - 21.06.2021)."
+   "fechasTexto": "C-HR (20.03.2020 - 26.07.2021) , GR Yaris (24.06.2020 - 02.08.2021), Yaris (06.07.2020 - 21.06.2021).",
+   "envase": "—"
   }
  ],
  "riesgo": {
@@ -65,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "PL",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,17 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00469/22",
-   "mm:toyota:e6-2007-46-0338-04",
-   "mm:toyota:e6-2007-46-0454-00",
-   "mm:toyota:e6-2007-46-0437-01"
+   "mm:toyota:e6-2007-46-0338-04-e6-2007-46-0454-00-e6-2007-46-0437-01",
+   "ml:toyota:c-hr-20-03-2020-26-07-2021-gr-yaris-24-06-2020-02-08-2021-yaris-06-07-2020-21-06-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c1314a20c656a6fe"
+  "enriquecido": true,
+  "hashContenido": "d7e947d7325f313e"
  },
  "slug": "turismos-toyota-safety-gate-10005683"
 }

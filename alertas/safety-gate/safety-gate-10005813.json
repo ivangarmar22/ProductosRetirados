@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R2S",
     "e1*2007/46*2115*00-*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "17.06.2020 - 19.03.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "17.06.2020 - 19.03.2021"
+   "fechasTexto": "17.06.2020 - 19.03.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,15 +98,16 @@
   "claves": [
    "ref:A12/00497/22",
    "mm:mercedes-benz:r2s",
-   "mm:mercedes-benz:e1-2007-46-2115-00-02"
+   "mm:mercedes-benz:e1-2007-46-2115-00-02",
+   "ml:mercedes-benz:17-06-2020-19-03-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0ffe0783d93dfc03"
+  "enriquecido": true,
+  "hashContenido": "4be14a15b3e13dab"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10005813"
 }

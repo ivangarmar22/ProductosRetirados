@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,16 +28,17 @@
    ],
    "modelos": [
     "F",
-    "e2*2007/46*0628*13",
-    "e2*2007/46*0628*14",
-    "e2*2007/46*0628*15",
-    "e2*2007/46*0628*16",
-    "e2*2007/46*0628*17"
+    "e2*2007/46*0628*13, e2*2007/46*0628*14, e2*2007/46*0628*15, e2*2007/46*0628*16, e2*2007/46*0628*17"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.02.2021 - 15.01.2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "18.02.2021 - 15.01.2022"
+   "fechasTexto": "18.02.2021 - 15.01.2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,19 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00405/22",
-   "mm:peugeot:e2-2007-46-0628-13",
-   "mm:peugeot:e2-2007-46-0628-14",
-   "mm:peugeot:e2-2007-46-0628-15",
-   "mm:peugeot:e2-2007-46-0628-16",
-   "mm:peugeot:e2-2007-46-0628-17"
+   "mm:peugeot:e2-2007-46-0628-13-e2-2007-46-0628-14-e2-2007-46-0628-15-e2-2007-46-0628-16-e2-2007-46-0628-17",
+   "ml:peugeot:18-02-2021-15-01-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1eca059fb233029f"
+  "enriquecido": true,
+  "hashContenido": "01674b95b3e3fabb"
  },
  "slug": "turismos-peugeot-safety-gate-10005713"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Citroën"
    ],
    "modelos": [
-    "e2*2007/46*0003*66",
-    "e2*2007/46*0060*32"
+    "e2*2007/46*0003*66, e2*2007/46*0060*32"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "09.12.2021"
+   "fechasTexto": "09.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +80,16 @@
  "dedup": {
   "claves": [
    "ref:A11/00056/22",
-   "mm:citroen:e2-2007-46-0003-66",
-   "mm:citroen:e2-2007-46-0060-32"
+   "mm:citroen:e2-2007-46-0003-66-e2-2007-46-0060-32",
+   "ml:citroen:09-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "278ba7ba087ab568"
+  "enriquecido": true,
+  "hashContenido": "1c2846ece8e3aca7"
  },
  "slug": "turismos-citroen-safety-gate-10005837"
 }

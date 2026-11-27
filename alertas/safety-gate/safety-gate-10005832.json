@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0639*06 - *10"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04/05/2019 - 29/09/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Vagón de pasajeros.",
-   "fechasTexto": "04/05/2019 - 29/09/2020"
+   "fechasTexto": "04/05/2019 - 29/09/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "GR",
+   "HU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00490/22",
-   "mm:ds-automobiles:e2-2007-46-0639-06-10"
+   "mm:ds-automobiles:e2-2007-46-0639-06-10",
+   "ml:ds-automobiles:04-05-2019-29-09-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "59ef358edf6a7d7e"
+  "enriquecido": true,
+  "hashContenido": "4eb6e54367a8efa8"
  },
  "slug": "turismos-ds-automobiles-safety-gate-10005832"
 }

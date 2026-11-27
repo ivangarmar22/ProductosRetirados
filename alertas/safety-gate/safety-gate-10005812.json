@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "R35",
     "e13*2001/116*1008*20"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.08.2020 - 16.10.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "20.08.2020 - 16.10.2020"
+   "fechasTexto": "20.08.2020 - 16.10.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +82,16 @@
   "claves": [
    "ref:A12/00499/22",
    "mm:nissan:r35",
-   "mm:nissan:e13-2001-116-1008-20"
+   "mm:nissan:e13-2001-116-1008-20",
+   "ml:nissan:20-08-2020-16-10-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "181ccc71b56bca8a"
+  "enriquecido": true,
+  "hashContenido": "8cac03de403ab7b8"
  },
  "slug": "turismos-nissan-safety-gate-10005812"
 }

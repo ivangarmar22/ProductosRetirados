@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Land Rover"
    ],
    "modelos": [
-    "e11*2007/46*3784*05",
-    "e5*2007/46*1055*00"
+    "e11*2007/46*3784*05, e5*2007/46*1055*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2018 - 2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "2018 - 2019"
+   "fechasTexto": "2018 - 2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "ES",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "NL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00491/22",
-   "mm:land-rover:e11-2007-46-3784-05",
-   "mm:land-rover:e5-2007-46-1055-00"
+   "mm:land-rover:e11-2007-46-3784-05-e5-2007-46-1055-00",
+   "ml:land-rover:2018-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "87aa8a377d08bf25"
+  "enriquecido": true,
+  "hashContenido": "961fb34ac0796763"
  },
  "slug": "turismos-land-rover-safety-gate-10005847"
 }

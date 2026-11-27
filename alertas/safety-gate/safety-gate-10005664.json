@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Honda"
    ],
    "modelos": [
-    "YF7",
-    "YF8",
-    "YF6",
-    "YK3"
+    "YF7, YF8, YF6, YK3"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.06.2015 - 08.04.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "11.06.2015 - 08.04.2019"
+   "fechasTexto": "11.06.2015 - 08.04.2019",
+   "envase": "No hay información"
   }
  ],
  "riesgo": {
@@ -65,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00408/22",
-   "mm:honda:yf7",
-   "mm:honda:yf8",
-   "mm:honda:yf6",
-   "mm:honda:yk3"
+   "mm:honda:yf7-yf8-yf6-yk3",
+   "ml:honda:11-06-2015-08-04-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c6673c29ec48c2ea"
+  "enriquecido": true,
+  "hashContenido": "7a23808993cad0c5"
  },
  "slug": "turismos-honda-safety-gate-10005664"
 }

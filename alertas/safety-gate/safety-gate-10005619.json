@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-03"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "2021/02/1920212002192024/02/19"
+     "numero": "2021/02/19"
+    },
+    {
+     "numero": "2021200219"
+    },
+    {
+     "numero": "2024/02/19"
     }
    ],
    "ean": [
     "8594176575841"
    ],
    "descripcion": "Media máscara de filtro de partículas azul, de cinco capas, marcada con FFP2 y con el marcado CE impreso en él. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una bolsa de plástico transparente que contiene cinco artículos, colocados en una caja de cartón blanco y azul. El embalaje está marcado con FFP2."
   }
  ],
  "riesgo": {
@@ -110,15 +117,17 @@
    "ref:A12/00375/22",
    "ean:8594176575841",
    "mm:tex-tech:01102020-t",
-   "ml:tex-tech:2021-02-1920212002192024-02-19"
+   "ml:tex-tech:2021-02-19",
+   "ml:tex-tech:2021200219",
+   "ml:tex-tech:2024-02-19"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e5905baa001dfa12"
+  "enriquecido": true,
+  "hashContenido": "10e0e4c925df4da8"
  },
  "slug": "mascara-de-filtro-de-particulas-tex-tech-safety-gate-10005619"
 }

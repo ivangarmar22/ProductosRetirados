@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-23"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,10 +24,11 @@
   {
    "nombre": "Powerbank",
    "marcas": [
-    "Kruidvat, Trekpleister"
+    "Kruidvat",
+    "Trekpleister"
    ],
    "modelos": [
-    "10000MAH",
+    "10000MAH,",
     "ISW 47.324"
    ],
    "lotes": [
@@ -37,7 +38,8 @@
    ],
    "ean": [],
    "descripcion": "Powerbank (colores gris, negro y blanco). El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -100,17 +102,20 @@
  "dedup": {
   "claves": [
    "ref:A12/00472/22",
-   "mm:kruidvat-trekpleister:10000mah",
-   "mm:kruidvat-trekpleister:isw-47-324",
-   "ml:kruidvat-trekpleister:19-41"
+   "mm:kruidvat:10000mah",
+   "mm:kruidvat:isw-47-324",
+   "ml:kruidvat:19-41",
+   "mm:trekpleister:10000mah",
+   "mm:trekpleister:isw-47-324",
+   "ml:trekpleister:19-41"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "74122451ea4a4bb4"
+  "enriquecido": true,
+  "hashContenido": "5c29664d65a74cdf"
  },
  "slug": "banco-de-energia-kruidvat-trekpleister-safety-gate-10005663"
 }

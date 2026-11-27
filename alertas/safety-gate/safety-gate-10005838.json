@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0639*17"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.12.2021 - 10.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "09.12.2021 - 10.12.2021"
+   "fechasTexto": "09.12.2021 - 10.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES",
+   "IE",
+   "NL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A11/00055/22",
-   "mm:peugeot:e2-2007-46-0639-17"
+   "mm:peugeot:e2-2007-46-0639-17",
+   "ml:peugeot:09-12-2021-10-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6e42ba19aec8a4fe"
+  "enriquecido": true,
+  "hashContenido": "a308bd6796662443"
  },
  "slug": "turismos-peugeot-safety-gate-10005838"
 }

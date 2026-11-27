@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,18 @@
     "221004: e9*2018/858*11073*00",
     "221040: e4*2007/46*0825*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "KIA Soul (PS): 16.05.2016 - 31.12.2018"
+    },
+    {
+     "numero": "KIA Soul EV (PS EV): 20.03.2017 - 14.11.2018"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "KIA Soul (PS): 16.05.2016 - 31.12.2018KIA Soul EV (PS EV): 20.03.2017 - 14.11.2018"
+   "fechasTexto": "KIA Soul (PS): 16.05.2016 - 31.12.2018KIA Soul EV (PS EV): 20.03.2017 - 14.11.2018",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +72,23 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "EE",
+   "ES",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +112,17 @@
   "claves": [
    "ref:A12/00530/22",
    "mm:kia:221004-e9-2018-858-11073-00",
-   "mm:kia:221040-e4-2007-46-0825-01"
+   "mm:kia:221040-e4-2007-46-0825-01",
+   "ml:kia:kia-soul-ps-16-05-2016-31-12-2018",
+   "ml:kia:kia-soul-ev-ps-ev-20-03-2017-14-11-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cd71874457483917"
+  "enriquecido": true,
+  "hashContenido": "5bcf246a1de189c4"
  },
  "slug": "turismos-kia-safety-gate-10005866"
 }

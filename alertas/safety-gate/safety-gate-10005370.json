@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-16"
  },
  "categoria": {
   "literal": "Equipos para atmósferas explosivas",
@@ -27,15 +27,13 @@
     "Shenzhen Swell Technology Company Limited"
    ],
    "modelos": [
-    "V700",
-    "V710",
-    "V720",
-    "V810"
+    "V700, V710, V720, V810"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Dispositivo móvil para uso en atmósferas explosivas (ATEX categoría 2). El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,18 +82,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00168/22",
-   "mm:shenzhen-swell-technology-company:v700",
-   "mm:shenzhen-swell-technology-company:v710",
-   "mm:shenzhen-swell-technology-company:v720",
-   "mm:shenzhen-swell-technology-company:v810"
+   "mm:shenzhen-swell-technology-company:v700-v710-v720-v810"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ec4d962a90592f50"
+  "enriquecido": true,
+  "hashContenido": "b2b55eac0963fa21"
  },
  "slug": "telefono-inteligente-portatil-para-atmosferas-explosivas-shenzhen-swel-safety-gate-10005370"
 }

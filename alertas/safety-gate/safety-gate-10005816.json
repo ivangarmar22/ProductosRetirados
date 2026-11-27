@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "Qihang"
    ],
    "modelos": [
-    "QH-CHARGER",
-    "QH-C3150"
+    "QH-CHARGER / QH-C3150"
    ],
    "lotes": [],
    "ean": [
     "8698661731504"
    ],
    "descripcion": "Cargador de batería blanco con 2 puertos USB.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "caja de plástico transparente"
   }
  ],
  "riesgo": {
@@ -101,16 +101,15 @@
   "claves": [
    "ref:A11/00052/22",
    "ean:8698661731504",
-   "mm:qihang:qh-charger",
-   "mm:qihang:qh-c3150"
+   "mm:qihang:qh-charger-qh-c3150"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c3798ff0d881b080"
+  "enriquecido": true,
+  "hashContenido": "0240aec43298ad56"
  },
  "slug": "cargador-usb-qihang-safety-gate-10005816"
 }

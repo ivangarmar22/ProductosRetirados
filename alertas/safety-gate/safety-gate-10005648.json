@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,14 +28,17 @@
    ],
    "modelos": [
     "LSK",
-    "e13*2007/46*2387*00",
-    "e13*2007/46*2387*01",
-    "e13*2007/46*2387*02"
+    "e13*2007/46*2387*00 , e13*2007/46*2387*01, e13*2007/46*2387*02,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.2.2020 - 18.6.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "24.2.2020 - 18.6.2021"
+   "fechasTexto": "24.2.2020 - 18.6.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +69,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "NL",
+   "PL",
+   "RO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,17 +97,16 @@
   "claves": [
    "ref:A12/00414/22",
    "mm:ford:lsk",
-   "mm:ford:e13-2007-46-2387-00",
-   "mm:ford:e13-2007-46-2387-01",
-   "mm:ford:e13-2007-46-2387-02"
+   "mm:ford:e13-2007-46-2387-00-e13-2007-46-2387-01-e13-2007-46-2387-02",
+   "ml:ford:24-2-2020-18-6-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6f486da66f779d11"
+  "enriquecido": true,
+  "hashContenido": "d308304b40dee377"
  },
  "slug": "turismos-ford-safety-gate-10005648"
 }

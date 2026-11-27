@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "F2A",
-    "F2CLA",
-    "F2B",
-    "e1*2007/46*1829*05-*15",
-    "e1*2007/46*1912*00-*15",
-    "e1*2007/46*1909*01-*14"
+    "F2A, F2CLA, F2B",
+    "e1*2007/46*1829*05-*15, e1*2007/46*1912*00-*15, e1*2007/46*1909*01-*14"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.5.2019 - 24.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "20.5.2019 - 24.11.2021"
+   "fechasTexto": "20.5.2019 - 24.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FR",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00531/22",
-   "mm:mercedes-benz:f2a",
-   "mm:mercedes-benz:f2cla",
-   "mm:mercedes-benz:f2b",
-   "mm:mercedes-benz:e1-2007-46-1829-05-15",
-   "mm:mercedes-benz:e1-2007-46-1912-00-15",
-   "mm:mercedes-benz:e1-2007-46-1909-01-14"
+   "mm:mercedes-benz:f2a-f2cla-f2b",
+   "mm:mercedes-benz:e1-2007-46-1829-05-15-e1-2007-46-1912-00-15-e1-2007-46-1909-01-14",
+   "ml:mercedes-benz:20-5-2019-24-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30e551e51c8d023a"
+  "enriquecido": true,
+  "hashContenido": "e03f5343f5f99235"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10005842"
 }

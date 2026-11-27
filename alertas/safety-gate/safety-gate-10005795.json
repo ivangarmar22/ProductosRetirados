@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Ferrari"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08/2009 - 07/2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche deportivo de alto rendimiento",
-   "fechasTexto": "08/2009 - 07/2019"
+   "fechasTexto": "08/2009 - 07/2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,17 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "HU",
+   "NL",
+   "NO",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -69,15 +84,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/00470/22"
+   "ref:A12/00470/22",
+   "ml:ferrari:08-2009-07-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "29fc7e3371925f63"
+  "enriquecido": true,
+  "hashContenido": "0689b7cd99b71841"
  },
  "slug": "turismos-ferrari-safety-gate-10005795"
 }

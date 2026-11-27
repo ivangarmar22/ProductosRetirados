@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "MA3",
-    "e11*2007/46*3432",
-    "e5*2007/46*1205"
+    "e11*2007/46*3432, e5*2007/46*1205"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.07.2019 - 10.12.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "08.07.2019 - 10.12.2019"
+   "fechasTexto": "08.07.2019 - 10.12.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,16 +81,16 @@
   "claves": [
    "ref:A12/00471/22",
    "mm:mclaren:ma3",
-   "mm:mclaren:e11-2007-46-3432",
-   "mm:mclaren:e5-2007-46-1205"
+   "mm:mclaren:e11-2007-46-3432-e5-2007-46-1205",
+   "ml:mclaren:08-07-2019-10-12-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5937b5a7eb48eb61"
+  "enriquecido": true,
+  "hashContenido": "a08ca8c5b9728c47"
  },
  "slug": "turismos-mclaren-safety-gate-10005805"
 }

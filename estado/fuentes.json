@@ -1,9 +1,9 @@
 {
  "aemps-medicamentos": {
   "ok": true,
-  "ultimoIntento": "2026-11-26T17:02:28.967Z",
-  "ultimoOk": "2026-11-26T17:02:28.967Z",
-  "nuevas": 1,
+  "ultimoIntento": "2026-11-27T01:47:44.769Z",
+  "ultimoOk": "2026-11-27T01:47:44.769Z",
+  "nuevas": 0,
   "cambiadas": 0,
   "invalidas": 0,
   "errores": [],
@@ -11,8 +11,8 @@
  },
  "aemps-cosmeticos": {
   "ok": true,
-  "ultimoIntento": "2026-11-26T17:02:28.967Z",
-  "ultimoOk": "2026-11-26T17:02:28.967Z",
+  "ultimoIntento": "2026-11-27T01:47:44.769Z",
+  "ultimoOk": "2026-11-27T01:47:44.769Z",
   "nuevas": 0,
   "cambiadas": 0,
   "invalidas": 0,
@@ -21,8 +21,8 @@
  },
  "aesan": {
   "ok": true,
-  "ultimoIntento": "2026-11-26T17:02:28.967Z",
-  "ultimoOk": "2026-11-26T17:02:28.967Z",
+  "ultimoIntento": "2026-11-27T01:47:44.769Z",
+  "ultimoOk": "2026-11-27T01:47:44.769Z",
   "nuevas": 0,
   "cambiadas": 0,
   "invalidas": 0,
@@ -31,12 +31,14 @@
  },
  "safety-gate": {
   "ok": true,
-  "ultimoIntento": "2026-11-26T17:02:28.967Z",
-  "ultimoOk": "2026-11-26T17:02:28.967Z",
-  "nuevas": 0,
+  "ultimoIntento": "2026-11-27T01:47:44.769Z",
+  "ultimoOk": "2026-11-27T01:47:44.769Z",
+  "nuevas": 109,
   "cambiadas": 300,
-  "invalidas": 0,
-  "errores": [],
-  "total": 21900
+  "invalidas": 1,
+  "errores": [
+   "safety-gate-10119789: data/documentos/0/url must match format \"uri\""
+  ],
+  "total": 22009
  }
 }

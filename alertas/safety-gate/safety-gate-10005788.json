@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -31,14 +31,27 @@
    ],
    "lotes": [
     {
-     "numero": "22411H22413H22515H22915H23012H"
+     "numero": "22411H"
+    },
+    {
+     "numero": "22413H"
+    },
+    {
+     "numero": "22515H"
+    },
+    {
+     "numero": "22915H"
+    },
+    {
+     "numero": "23012H"
     }
    ],
    "ean": [
     "3701129801642"
    ],
    "descripcion": "Maquillaje eliminando loción micelánea, 850 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Frasco de plástico transparente que contiene 850 ml."
   }
  ],
  "riesgo": {
@@ -90,15 +103,19 @@
    "ref:INFO/00018/22",
    "ean:3701129801642",
    "mm:bioderma:850-ml",
-   "ml:bioderma:22411h22413h22515h22915h23012h"
+   "ml:bioderma:22411h",
+   "ml:bioderma:22413h",
+   "ml:bioderma:22515h",
+   "ml:bioderma:22915h",
+   "ml:bioderma:23012h"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d12ef318221b9480"
+  "enriquecido": true,
+  "hashContenido": "c2b90cb208f2ca01"
  },
  "slug": "desmaquillador-de-maquillaje-bioderma-safety-gate-10005788"
 }

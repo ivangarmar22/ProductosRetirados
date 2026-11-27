@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-07"
  },
  "categoria": {
   "literal": "Embarcaciones de recreo",
@@ -38,7 +38,8 @@
    ],
    "ean": [],
    "descripcion": "Motos acuáticas personales",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "935ee58bdff71546"
+  "enriquecido": true,
+  "hashContenido": "880fe3358ef8658b"
  },
  "slug": "motos-acuaticas-personales-kawasaki-safety-gate-10005609"
 }

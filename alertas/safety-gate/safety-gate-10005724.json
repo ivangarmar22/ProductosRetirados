@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Ignis: E4*2007/46*1162*07",
     "Swift: E4*2007/46*1205*12"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "year 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "year 2022"
+   "fechasTexto": "year 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +82,16 @@
   "claves": [
    "ref:A12/00404/22",
    "mm:suzuki:ignis-e4-2007-46-1162-07",
-   "mm:suzuki:swift-e4-2007-46-1205-12"
+   "mm:suzuki:swift-e4-2007-46-1205-12",
+   "ml:suzuki:year-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e42f5ef1a9d67974"
+  "enriquecido": true,
+  "hashContenido": "e14880800dac21fa"
  },
  "slug": "turismos-suzuki-safety-gate-10005724"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Dodge"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.07.2020 -23.10.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "13.07.2020 -23.10.2020"
+   "fechasTexto": "13.07.2020 -23.10.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -69,15 +76,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/00407/22"
+   "ref:A12/00407/22",
+   "ml:dodge:13-07-2020-23-10-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f00e94e27edd2c55"
+  "enriquecido": true,
+  "hashContenido": "21a6c9467c6f4294"
  },
  "slug": "turismos-dodge-safety-gate-10005636"
 }

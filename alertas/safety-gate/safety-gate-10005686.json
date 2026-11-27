@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-03"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -32,7 +32,8 @@
     "5713799143500"
    ],
    "descripcion": "Pintura para figuras de juguete (Warhammer) — color Kraken (verde pálido)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Olla de 18 ml"
   }
  ],
  "riesgo": {
@@ -66,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Dinamarca",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "EE",
+   "FI",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +99,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a4e1d204a1404c1d"
+  "enriquecido": true,
+  "hashContenido": "3c773e79d39a48be"
  },
  "slug": "pintura-army-painter-safety-gate-10005686"
 }

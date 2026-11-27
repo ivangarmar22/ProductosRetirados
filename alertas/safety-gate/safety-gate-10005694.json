@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-04-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,17 @@
     "Renault"
    ],
    "modelos": [
-    "e6*2018/858*00003 00",
-    "e6*2018/858*00003 01",
-    "e6*2018/858*00003 02",
-    "e6*2018/858*00003 03",
-    "e6*2018/858*00003 04",
-    "e6*2018/858*00003 05",
-    "e6*2018/858*00003 06"
+    "e6*2018/858*00003 00, e6*2018/858*00003 01, e6*2018/858*00003 02, e6*2018/858*00003 03, e6*2018/858*00003 04, e6*2018/858*00003 05, e6*2018/858*00003 06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.10.2019 - 21.11.2021."
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "11.10.2019 - 21.11.2021."
+   "fechasTexto": "11.10.2019 - 21.11.2021.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +67,23 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "IS",
+   "MT",
+   "NL",
+   "PL",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,21 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00467/22",
-   "mm:renault:e6-2018-858-00003-00",
-   "mm:renault:e6-2018-858-00003-01",
-   "mm:renault:e6-2018-858-00003-02",
-   "mm:renault:e6-2018-858-00003-03",
-   "mm:renault:e6-2018-858-00003-04",
-   "mm:renault:e6-2018-858-00003-05",
-   "mm:renault:e6-2018-858-00003-06"
+   "mm:renault:e6-2018-858-00003-00-e6-2018-858-00003-01-e6-2018-858-00003-02-e6-2018-858-00003-03-e6-2018-858-00003-04-e6-2018-858-00003-05-e6-2018-858-00003-06",
+   "ml:renault:11-10-2019-21-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d190ad3f0eee9784"
+  "enriquecido": true,
+  "hashContenido": "68322ecd4e121b66"
  },
  "slug": "turismos-renault-safety-gate-10005694"
 }

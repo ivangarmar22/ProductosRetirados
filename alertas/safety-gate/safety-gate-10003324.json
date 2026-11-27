@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-03"
  },
  "categoria": {
   "literal": "Productos de construcción",
@@ -27,14 +27,13 @@
     "Hosseven"
    ],
    "modelos": [
-    "Model 4020",
-    "Ser. N0 19003173 (on the label)",
-    "Comid Northern 40"
+    "Model 4020, Ser. N0 19003173 (on the label), Comid Northern 40"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Estufa de combustible sólido diseñada para cocinar y hornear, con una potencia nominal declarada de 7,0 kW, negra. Se producen dos variantes: izquierda (con salida a la izquierda) y derecha (con salida a la derecha).",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,17 +83,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00371/21",
-   "mm:hosseven:model-4020",
-   "mm:hosseven:ser-n0-19003173-on-the-label",
-   "mm:hosseven:comid-northern-40"
+   "mm:hosseven:model-4020-ser-n0-19003173-on-the-label-comid-northern-40"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1df52836aeab17ec"
+  "enriquecido": true,
+  "hashContenido": "a91b47c58f5c59ff"
  },
  "slug": "estufa-de-coccion-para-combustible-solido-hosseven-safety-gate-10003324"
 }

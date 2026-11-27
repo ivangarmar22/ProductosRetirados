@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-18"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Sudadera con capucha con una foto del jugador de fútbol Ronaldo impresa en la parte delantera, en la parte posterior y en la capucha, con un bolsillo delantero. El producto se vendió en línea, en particular a través de Amazon con los números ASIN A13V1IB3VIYZZH y B08K8VTPRK.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +61,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30dc5a38a81611f5"
+  "enriquecido": true,
+  "hashContenido": "c8711fd83bb4cc79"
  },
  "slug": "sudadera-con-capucha-iubbki-safety-gate-10005381"
 }

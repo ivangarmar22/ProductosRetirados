@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-03"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "100720202022/10/07"
+     "numero": "10072020"
+    },
+    {
+     "numero": "2022/10/07"
     }
    ],
    "ean": [
     "8594176575506"
    ],
    "descripcion": "Media máscara de filtro de partículas de cinco capas blanca, marcada con FFP2 y con el marcado CE impreso. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende por juegos de dos, en dos bolsas de PVC transparentes (una exterior con información, y una bolsa individual dentro). El envase lleva el marcado FFP2 y la norma EN 149, y lleva el marcado CE."
   }
  ],
  "riesgo": {
@@ -93,15 +97,16 @@
    "ref:A12/00368/22",
    "ean:8594176575506",
    "mm:tex-tech:01102020-t",
-   "ml:tex-tech:100720202022-10-07"
+   "ml:tex-tech:10072020",
+   "ml:tex-tech:2022-10-07"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "03a4920e2d6a0bf3"
+  "enriquecido": true,
+  "hashContenido": "b0c439e883d0dcca"
  },
  "slug": "mascara-de-filtro-de-particulas-tex-tech-safety-gate-10005643"
 }

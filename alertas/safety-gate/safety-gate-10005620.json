@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0014*48"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.07.21 - 29.07.21."
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "15.07.21 - 29.07.21."
+   "fechasTexto": "15.07.21 - 29.07.21.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL",
+   "PL",
+   "RO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00349/22",
-   "mm:renault:e2-2007-46-0014-48"
+   "mm:renault:e2-2007-46-0014-48",
+   "ml:renault:15-07-21-29-07-21"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f037800199cb1d15"
+  "enriquecido": true,
+  "hashContenido": "33134b01e82a0511"
  },
  "slug": "turismos-renault-safety-gate-10005620"
 }

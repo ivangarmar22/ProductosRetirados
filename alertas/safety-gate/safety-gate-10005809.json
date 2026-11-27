@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-30"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -38,7 +38,8 @@
     "4752182204207"
    ],
    "descripcion": "1 toma de cable de extensión eléctrica, con horquilla, sin puesta a tierra, 20 m de largo, naranja.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico"
   }
  ],
  "riesgo": {
@@ -71,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e8e8fd30cb4a354"
+  "enriquecido": true,
+  "hashContenido": "83f4d80b0e606fcd"
  },
  "slug": "cable-de-extension-schust-el-safety-gate-10005809"
 }

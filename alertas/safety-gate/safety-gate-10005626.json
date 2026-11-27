@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-03"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,14 +32,18 @@
    ],
    "lotes": [
     {
-     "numero": "911AIJ"
+     "numero": "911"
+    },
+    {
+     "numero": "AIJ"
     }
    ],
    "ean": [
     "8054954786604"
    ],
    "descripcion": "Sandalias de playa en PVC, dos modelos en negro y blanco",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente"
   }
  ],
  "riesgo": {
@@ -99,15 +103,16 @@
    "ean:8054954786604",
    "mm:kappa:303xs50",
    "mm:kappa:327566",
-   "ml:kappa:911aij"
+   "ml:kappa:911",
+   "ml:kappa:aij"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "58ca29f371e3c9c4"
+  "enriquecido": true,
+  "hashContenido": "f924afd6bec25c64"
  },
  "slug": "sandalias-de-playa-kappa-safety-gate-10005626"
 }

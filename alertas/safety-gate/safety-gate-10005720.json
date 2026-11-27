@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-25"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -36,12 +36,28 @@
    ],
    "lotes": [
     {
-     "numero": "Banana Milk 2021.07.09Coffee Tobacco 2021.06.20Grape Energy 2021.09.10Pineapple Peach Mango 2021.09.20Strawberry Banana 2021.08.06Strawberry Energy 2021.07.20"
+     "numero": "Banana Milk 2021.07.09"
+    },
+    {
+     "numero": "Coffee Tobacco 2021.06.20"
+    },
+    {
+     "numero": "Grape Energy 2021.09.10"
+    },
+    {
+     "numero": "Pineapple Peach Mango 2021.09.20"
+    },
+    {
+     "numero": "Strawberry Banana 2021.08.06"
+    },
+    {
+     "numero": "Strawberry Energy 2021.07.20"
     }
    ],
    "ean": [],
    "descripcion": "Cigarrillo electrónico desechable con una concentración de nicotina de 20 mg/ml y un volumen de 4,8 ml",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja rectangular en varios colores según el sabor"
   }
  ],
  "riesgo": {
@@ -96,15 +112,20 @@
    "mm:elf-bar:grape-energy-flavour",
    "mm:elf-bar:strawberry-banana-flavour",
    "mm:elf-bar:strawberry-energy-flavour",
-   "ml:elf-bar:banana-milk-2021-07-09coffee-tobacco-2021-06-20grape-energy-2021-09-10pineapple-peach-mango-2021-09-20strawberry-banana-2021-08-06strawberry-energy-2021-07-20"
+   "ml:elf-bar:banana-milk-2021-07-09",
+   "ml:elf-bar:coffee-tobacco-2021-06-20",
+   "ml:elf-bar:grape-energy-2021-09-10",
+   "ml:elf-bar:pineapple-peach-mango-2021-09-20",
+   "ml:elf-bar:strawberry-banana-2021-08-06",
+   "ml:elf-bar:strawberry-energy-2021-07-20"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "834ff37a4ea3148f"
+  "enriquecido": true,
+  "hashContenido": "aa33cb2495a2107a"
  },
  "slug": "cigarrillo-electronico-desechable-elf-bar-safety-gate-10005720"
 }
