@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "6942138937978"
    ],
    "descripcion": "Bestway Pineapple Blast, una piña inflable para uso al aire libre.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +73,9 @@
   "ccaa": [],
   "paisNotificante": "Noruega",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +108,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9ca7a6b90f87234a"
+  "enriquecido": true,
+  "hashContenido": "164ebd3254a8a92b"
  },
  "slug": "explosion-de-pina-bestway-safety-gate-10005233"
 }

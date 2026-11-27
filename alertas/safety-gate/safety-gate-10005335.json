@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "F2A",
-    "F2CLA",
-    "e1*2007/46*1829*12",
-    "e1*2007/46*1912*08"
+    "F2A, F2CLA",
+    "e1*2007/46*1829*12, e1*2007/46*1912*08"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "25.6.2020 - 8.7.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Serie de modelos: CLA (X118), Clase A (X177)",
-   "fechasTexto": "25.6.2020 - 8.7.2020"
+   "fechasTexto": "25.6.2020 - 8.7.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "HU",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +95,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00149/22",
-   "mm:mercedes-benz:f2a",
-   "mm:mercedes-benz:f2cla",
-   "mm:mercedes-benz:e1-2007-46-1829-12",
-   "mm:mercedes-benz:e1-2007-46-1912-08"
+   "mm:mercedes-benz:f2a-f2cla",
+   "mm:mercedes-benz:e1-2007-46-1829-12-e1-2007-46-1912-08",
+   "ml:mercedes-benz:25-6-2020-8-7-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a46b30069fb951c2"
+  "enriquecido": true,
+  "hashContenido": "4cf1adb1a1a7a208"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10005335"
 }

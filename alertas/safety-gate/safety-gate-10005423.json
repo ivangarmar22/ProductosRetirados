@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,7 +27,7 @@
     "Ski-Doo and Lynx"
    ],
    "modelos": [
-    "models equipped with 900 ACE Turbo engine"
+    "models equipped with 900 ACE Turbo engine."
    ],
    "lotes": [
     {
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Moto de nieve",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "Canadá",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "LV",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fd04672430db6f58"
+  "enriquecido": true,
+  "hashContenido": "d3090718734bf920"
  },
  "slug": "moto-de-nieve-ski-doo-and-lynx-safety-gate-10005423"
 }

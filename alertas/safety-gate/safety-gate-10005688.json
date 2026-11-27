@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-01"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "12/201912/2024B0276"
+     "numero": "12/2019"
+    },
+    {
+     "numero": "12/2024"
+    },
+    {
+     "numero": "B0276"
     }
    ],
    "ean": [],
    "descripcion": "Crema aclaradora de la piel anunciada como que contiene propionato de clobetasol.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en un tubo de 25 g contenido en una caja de cartón rosa con letras azules."
   }
  ],
  "riesgo": {
@@ -87,15 +94,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00376/22",
-   "ml:beneks:12-201912-2024b0276"
+   "ml:beneks:12-2019",
+   "ml:beneks:12-2024",
+   "ml:beneks:b0276"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "83baa6338e77270c"
+  "enriquecido": true,
+  "hashContenido": "6066bb2aa440ce02"
  },
  "slug": "crema-para-aclarar-la-piel-beneks-safety-gate-10005688"
 }

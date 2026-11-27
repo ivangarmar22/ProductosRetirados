@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Aprilia"
    ],
    "modelos": [
-    "KS",
-    "KV",
-    "e49*168/2013*00059*02",
-    "e49*168/2013*00060*01"
+    "KS, KV",
+    "e49*168/2013*00059*02, e49*168/2013*00060*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.02.2021 - 26.05.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "23.02.2021 - 26.05.2021"
+   "fechasTexto": "23.02.2021 - 26.05.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "GR",
+   "HR",
+   "LU",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,16 +89,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00116/22",
-   "mm:aprilia:e49-168-2013-00059-02",
-   "mm:aprilia:e49-168-2013-00060-01"
+   "mm:aprilia:ks-kv",
+   "mm:aprilia:e49-168-2013-00059-02-e49-168-2013-00060-01",
+   "ml:aprilia:23-02-2021-26-05-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ef2a560bc3bf44a8"
+  "enriquecido": true,
+  "hashContenido": "30e72e0bf4439ab1"
  },
  "slug": "motocicleta-aprilia-safety-gate-10005042"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-17",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-17"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -33,12 +33,16 @@
    ],
    "lotes": [
     {
-     "numero": "34B618234B6192"
+     "numero": "34B6182"
+    },
+    {
+     "numero": "34B6192"
     }
    ],
    "ean": [],
    "descripcion": "Cigarrillos electrónicos desechables que contengan nicotina líquida en 10 mg/ml y 20 mg/ml con un volumen de 1,3 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja rectangular en varios colores según el sabor"
   }
  ],
  "riesgo": {
@@ -90,15 +94,16 @@
    "mm:dainty-s-buzz-bar:mango-ice-flavour-in-1-3-ml-volume-10-mg-ml-nicotine-concentration",
    "mm:dainty-s-buzz-bar:mango-ice-flavour-in-1-3-ml-volume-20-mg-ml-nicotine-concentration",
    "mm:dainty-s-buzz-bar:spearmint-flavour-in-1-3-ml-volume-10-mg-ml-nicotine-concentration",
-   "ml:dainty-s-buzz-bar:34b618234b6192"
+   "ml:dainty-s-buzz-bar:34b6182",
+   "ml:dainty-s-buzz-bar:34b6192"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7106ece35a29dd45"
+  "enriquecido": true,
+  "hashContenido": "37b0d0b81b1ead7d"
  },
  "slug": "cigarrillo-electronico-desechable-dainty-s-buzz-bar-safety-gate-10005449"
 }

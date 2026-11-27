@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "DEUTZ-FAHR"
    ],
    "modelos": [
-    "VT55",
-    "TT44",
-    "VT44",
-    "VT54",
-    "VT94",
-    "e1*167/2013*00286*03",
-    "e8*167/2013*00029*05",
-    "e8*167/2013*00030*05",
-    "e8*167/2013*00031*05",
-    "e8*167/2013*00034*05"
+    "VT55, TT44, VT44, VT54, VT94",
+    "e1*167/2013*00286*03, e8*167/2013*00029*05, e8*167/2013*00030*05, e8*167/2013*00031*05, e8*167/2013*00034*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.10.2021 - 5.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor agrícola",
-   "fechasTexto": "1.10.2021 - 5.11.2021"
+   "fechasTexto": "1.10.2021 - 5.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,24 +80,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00186/22",
-   "mm:deutz-fahr:vt55",
-   "mm:deutz-fahr:tt44",
-   "mm:deutz-fahr:vt44",
-   "mm:deutz-fahr:vt54",
-   "mm:deutz-fahr:vt94",
-   "mm:deutz-fahr:e1-167-2013-00286-03",
-   "mm:deutz-fahr:e8-167-2013-00029-05",
-   "mm:deutz-fahr:e8-167-2013-00030-05",
-   "mm:deutz-fahr:e8-167-2013-00031-05",
-   "mm:deutz-fahr:e8-167-2013-00034-05"
+   "mm:deutz-fahr:vt55-tt44-vt44-vt54-vt94",
+   "mm:deutz-fahr:e1-167-2013-00286-03-e8-167-2013-00029-05-e8-167-2013-00030-05-e8-167-2013-00031-05-e8-167-2013-00034-05",
+   "ml:deutz-fahr:1-10-2021-5-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2737124a0ba1683c"
+  "enriquecido": true,
+  "hashContenido": "b781b97af5cbb70b"
  },
  "slug": "tractor-agricola-deutz-fahr-safety-gate-10005378"
 }

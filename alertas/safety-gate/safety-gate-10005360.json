@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "BENELLI"
    ],
    "modelos": [
-    "e13*168/2013*00123*02 + 03",
-    "P16"
+    "e13*168/2013*00123*02 + 03, P16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.9.2018 - 30.4.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Moto",
-   "fechasTexto": "1.9.2018 - 30.4.2019"
+   "fechasTexto": "1.9.2018 - 30.4.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "GR",
+   "IE",
+   "NL",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00180/22",
-   "mm:benelli:e13-168-2013-00123-02-03",
-   "mm:benelli:p16"
+   "mm:benelli:e13-168-2013-00123-02-03-p16",
+   "ml:benelli:1-9-2018-30-4-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2c4b81a40ca83a81"
+  "enriquecido": true,
+  "hashContenido": "9f3a3f276756513c"
  },
  "slug": "moto-benelli-safety-gate-10005360"
 }

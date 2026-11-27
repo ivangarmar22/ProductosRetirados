@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-28"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juego eléctrico de fútbol con pelota.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,11 +89,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e265417d59b022e3"
+  "enriquecido": true,
+  "hashContenido": "03afddf7a179e378"
  },
  "slug": "juego-electrico-de-futbol-hover-soccer-ball-led-hover-soccer-ball-rack-safety-gate-10005252"
 }

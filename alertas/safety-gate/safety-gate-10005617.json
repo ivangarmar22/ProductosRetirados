@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Volkswagen"
    ],
    "modelos": [
-    "7H",
-    "7J",
-    "e1*2001/116*0220*xx",
-    "e1*2007/46*0130*xx"
+    "7H, 7J",
+    "e1*2001/116*0220*xx, e1*2007/46*0130*xx"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2007 - 2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "2007 - 2015"
+   "fechasTexto": "2007 - 2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "HU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,16 +85,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00380/22",
-   "mm:volkswagen:e1-2001-116-0220-xx",
-   "mm:volkswagen:e1-2007-46-0130-xx"
+   "mm:volkswagen:7h-7j",
+   "mm:volkswagen:e1-2001-116-0220-xx-e1-2007-46-0130-xx",
+   "ml:volkswagen:2007-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "68c39cacd187b108"
+  "enriquecido": true,
+  "hashContenido": "1e2b0fd1283a3ed1"
  },
  "slug": "turismos-volkswagen-safety-gate-10005617"
 }

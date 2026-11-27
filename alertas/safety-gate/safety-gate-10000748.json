@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Jaguar"
    ],
    "modelos": [
-    "Type-approval numbers: E11*2007/46*4161",
-    "E11*2007/46*4311"
+    "Type-approval numbers: E11*2007/46*4161, E11*2007/46*4311"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 24 April and 3 July 2019."
+    }
+   ],
    "ean": [],
    "descripcion": "Automóvil de pasajeros bajo el código de retirada Jaguar: N282.",
-   "fechasTexto": "The affected vehicles were manufactured between 24 April and 3 July 2019."
+   "fechasTexto": "The affected vehicles were manufactured between 24 April and 3 July 2019.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Reino Unido",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +80,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00377/20",
-   "mm:jaguar:type-approval-numbers-e11-2007-46-4161",
-   "mm:jaguar:e11-2007-46-4311"
+   "mm:jaguar:type-approval-numbers-e11-2007-46-4161-e11-2007-46-4311",
+   "ml:jaguar:the-affected-vehicles-were-manufactured-between-24-april-and-3-july-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7bb52154681195ed"
+  "enriquecido": true,
+  "hashContenido": "5bb3682b911529b7"
  },
  "slug": "coche-de-pasajeros-jaguar-safety-gate-10000748"
 }

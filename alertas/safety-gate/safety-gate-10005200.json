@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-16"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "74269997785927426999778639"
+     "numero": "7426999778592"
+    },
+    {
+     "numero": "7426999778639"
     }
    ],
    "ean": [],
    "descripcion": "Sostenedor hecho a mano con perlas de madera coloridas. El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "DE",
+   "IE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,15 +101,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00273/22",
-   "ml:mushie:74269997785927426999778639"
+   "ml:mushie:7426999778592",
+   "ml:mushie:7426999778639"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "12826019b857f24f"
+  "enriquecido": true,
+  "hashContenido": "932184d4f8113d94"
  },
  "slug": "soporte-para-chupetes-mushie-safety-gate-10005200"
 }

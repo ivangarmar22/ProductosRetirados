@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "AW",
     "e1*2007/46*1783*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.8.2020 - 29.10.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "21.8.2020 - 29.10.2020"
+   "fechasTexto": "21.8.2020 - 29.10.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,22 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Sudáfrica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00286/22",
-   "mm:vw:e1-2007-46-1783"
+   "mm:vw:e1-2007-46-1783",
+   "ml:vw:21-8-2020-29-10-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e66f51103408e363"
+  "enriquecido": true,
+  "hashContenido": "4563f8c9c3de8a49"
  },
  "slug": "turismos-vw-safety-gate-10005431"
 }

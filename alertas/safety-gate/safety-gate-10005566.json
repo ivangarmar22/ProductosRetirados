@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-31"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -32,7 +32,8 @@
     "2010001054214"
    ],
    "descripcion": "Silla de oficina gira alrededor de un eje vertical, con un asiento suave y respaldo, con una base de metal regular de cinco haces en forma de estrella y un elevador de gas. Dimensiones exteriores de la silla — anchura 430 mm, altura máxima 1 050 mm, altura de la base con ruedas 170 mm.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,11 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f0ddc3d7275ddbdf"
+  "enriquecido": true,
+  "hashContenido": "a7499cda6cf55782"
  },
  "slug": "silla-de-oficina-office-chair-porto-safety-gate-10005566"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-25"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -28,12 +28,9 @@
    ],
    "modelos": [
     "CORE PLUS TRIPLE LOCK 88037",
-    "CORE SCREW D-SINGLE",
-    "CORE SCREW D-KIT 88062 /88054",
+    "CORE SCREW D-SINGLE / CORE SCREW D-KIT 88062 /88054",
     "RADIALIS PRO 71610",
-    "TREECORE TRIPLE LOCK",
-    "CORE SLIDING D_KIT 88036",
-    "88052"
+    "TREECORE TRIPLE LOCK / CORE SLIDING D_KIT 88036 / 88052"
    ],
    "lotes": [
     {
@@ -42,7 +39,8 @@
    ],
    "ean": [],
    "descripcion": "Tornillo-D-ring, ya sea montado en arneses de escalada o comercializado individualmente.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -117,21 +118,18 @@
   "claves": [
    "ref:A12/00293/22",
    "mm:edelrid:core-plus-triple-lock-88037",
-   "mm:edelrid:core-screw-d-single",
-   "mm:edelrid:core-screw-d-kit-88062-88054",
+   "mm:edelrid:core-screw-d-single-core-screw-d-kit-88062-88054",
    "mm:edelrid:radialis-pro-71610",
-   "mm:edelrid:treecore-triple-lock",
-   "mm:edelrid:core-sliding-d-kit-88036",
-   "mm:edelrid:88052",
+   "mm:edelrid:treecore-triple-lock-core-sliding-d-kit-88036-88052",
    "ml:edelrid:from-october-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c15e2de5f7bc79af"
+  "enriquecido": true,
+  "hashContenido": "c4de37c425cd37ee"
  },
  "slug": "tornillo-d-ring-para-arneses-de-escalada-edelrid-safety-gate-10005488"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-05-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Polaris"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2011 - 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de cuatro ruedas todo terreno (ATV)",
-   "fechasTexto": "2011 - 2021"
+   "fechasTexto": "2011 - 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES",
+   "FI",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -69,15 +78,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/00218/22"
+   "ref:A12/00218/22",
+   "ml:polaris:2011-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a1506f6170363a41"
+  "enriquecido": true,
+  "hashContenido": "c8b968d0b90688fb"
  },
  "slug": "vehiculo-de-todo-terreno-polaris-safety-gate-10005421"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-16"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -27,17 +27,15 @@
     "Magnetix"
    ],
    "modelos": [
-    "Magenetix Kids bracelet",
-    "4720iM",
-    "Magnetix Sillicone bracelet Xl",
-    "4708iXL",
-    "Magnetix sportboost bracelet",
-    "4705iM"
+    "Magenetix Kids bracelet, 4720iM",
+    "Magnetix Sillicone bracelet Xl, 4708iXL",
+    "Magnetix sportboost bracelet, 4705iM"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Pulsera con material radiactivo",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico"
   }
  ],
  "riesgo": {
@@ -73,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Países Bajos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,20 +96,17 @@
  "dedup": {
   "claves": [
    "ref:A11/00129/21",
-   "mm:magnetix:magenetix-kids-bracelet",
-   "mm:magnetix:4720im",
-   "mm:magnetix:magnetix-sillicone-bracelet-xl",
-   "mm:magnetix:4708ixl",
-   "mm:magnetix:magnetix-sportboost-bracelet",
-   "mm:magnetix:4705im"
+   "mm:magnetix:magenetix-kids-bracelet-4720im",
+   "mm:magnetix:magnetix-sillicone-bracelet-xl-4708ixl",
+   "mm:magnetix:magnetix-sportboost-bracelet-4705im"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e32aea1a6be8dff3"
+  "enriquecido": true,
+  "hashContenido": "2664634aedaea5f8"
  },
  "slug": "brazalete-magnetix-safety-gate-10005101"
 }

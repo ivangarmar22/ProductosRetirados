@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Fiat Professional"
    ],
    "modelos": [
-    "e3*2007/46*0044*40",
-    "Type: 250"
+    "e3*2007/46*0044*40, Type: 250"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.03.2021 - 22.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero",
-   "fechasTexto": "27.03.2021 - 22.11.2021"
+   "fechasTexto": "27.03.2021 - 22.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HU",
+   "LU",
+   "NL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00224/22",
-   "mm:fiat-professional:e3-2007-46-0044-40",
-   "mm:fiat-professional:type-250"
+   "mm:fiat-professional:e3-2007-46-0044-40-type-250",
+   "ml:fiat-professional:27-03-2021-22-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e928d2cf4776747f"
+  "enriquecido": true,
+  "hashContenido": "ebfaf7dc2603bf74"
  },
  "slug": "vehiculo-comercial-ligero-fiat-professional-safety-gate-10005427"
 }

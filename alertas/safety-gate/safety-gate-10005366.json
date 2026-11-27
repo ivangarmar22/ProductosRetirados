@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Maserati"
    ],
    "modelos": [
-    "E3*2007/46*0224*18",
-    "*21",
-    "*26",
-    "e3*KS18/858*00026*00",
-    "M156",
-    "M240"
+    "E3*2007/46*0224*18, *21, *26, e3*KS18/858*00026*00, M156, M240"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.11.2020 - 08.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "01.11.2020 - 08.10.2021"
+   "fechasTexto": "01.11.2020 - 08.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "FR",
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,18 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00182/22",
-   "mm:maserati:e3-2007-46-0224-18",
-   "mm:maserati:e3-ks18-858-00026-00",
-   "mm:maserati:m156",
-   "mm:maserati:m240"
+   "mm:maserati:e3-2007-46-0224-18-21-26-e3-ks18-858-00026-00-m156-m240",
+   "ml:maserati:01-11-2020-08-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f9226b71cd75ff05"
+  "enriquecido": true,
+  "hashContenido": "137155199de56edd"
  },
  "slug": "turismos-maserati-safety-gate-10005366"
 }

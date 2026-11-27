@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Ford"
    ],
    "modelos": [
-    "e5*2007/46*0080*03",
-    "2AB"
+    "e5*2007/46*0080*03, 2AB"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2.6.2020 - 23.7.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "2.6.2020 - 23.7.2020"
+   "fechasTexto": "2.6.2020 - 23.7.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Sudáfrica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "ES",
+   "FR",
+   "IE",
+   "NL",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00179/22",
-   "mm:ford:e5-2007-46-0080-03",
-   "mm:ford:2ab"
+   "mm:ford:e5-2007-46-0080-03-2ab",
+   "ml:ford:2-6-2020-23-7-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3a7d5df985976727"
+  "enriquecido": true,
+  "hashContenido": "5910d83ec1f4f214"
  },
  "slug": "turismos-ford-safety-gate-10005356"
 }

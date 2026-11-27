@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-22"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -29,12 +29,19 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "Exp.: 04/14/2023Manufacture: 04/15/2020RW2004-15"
+     "numero": "Exp.: 04/14/2023"
+    },
+    {
+     "numero": "Manufacture: 04/15/2020"
+    },
+    {
+     "numero": "RW2004-15"
     }
    ],
    "ean": [],
    "descripcion": "Máscara de filtración respiratoria protectora blanca de la mitad de la cara, marcada con KN95. Producto vendido en línea, en particular en eBay con el número de artículo 174739874669.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Las máscaras se embalan en una caja de cartón blanco-verde de 20, marcada con KN95."
   }
  ],
  "riesgo": {
@@ -99,15 +106,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01206/21",
-   "ml:trilogee:exp-04-14-2023manufacture-04-15-2020rw2004-15"
+   "ml:trilogee:exp-04-14-2023",
+   "ml:trilogee:manufacture-04-15-2020",
+   "ml:trilogee:rw2004-15"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2fd63606837d51a2"
+  "enriquecido": true,
+  "hashContenido": "37d4a790f43398cc"
  },
  "slug": "mascara-de-filtro-de-particulas-trilogee-safety-gate-10004277"
 }

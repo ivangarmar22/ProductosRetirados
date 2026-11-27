@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-03-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -31,10 +31,18 @@
     "Type A42 : e1*167/2013*00147 Type A44 : e1*167/2013*00096",
     "Type A60 : e2*167/2013*00001 Type A72 : e2*167/2013*00006"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Type A42: May 2020 and mid-October 2021/Type A44: November 2019 and mid-October 2021"
+    },
+    {
+     "numero": "Type A60: April 2018 and mid-October 2021/Type A72: July 2021 and mid-October 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo de motor agrícola",
-   "fechasTexto": "Type A42: May 2020 and mid-October 2021/Type A44: November 2019 and mid-October 2021Type A60: April 2018 and mid-October 2021/Type A72: July 2021 and mid-October 2021"
+   "fechasTexto": "Type A42: May 2020 and mid-October 2021/Type A44: November 2019 and mid-October 2021Type A60: April 2018 and mid-October 2021/Type A72: July 2021 and mid-October 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +72,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,15 +92,17 @@
    "ref:A12/00212/22",
    "mm:claas:f2cg44pf01a-e3-2016-1628-2016-1628ev6-d-1023-f4dg45pe00a-e3-2016-1628-2016-1628ev5-d-1024",
    "mm:claas:type-a42-e1-167-2013-00147-type-a44-e1-167-2013-00096",
-   "mm:claas:type-a60-e2-167-2013-00001-type-a72-e2-167-2013-00006"
+   "mm:claas:type-a60-e2-167-2013-00001-type-a72-e2-167-2013-00006",
+   "ml:claas:type-a42-may-2020-and-mid-october-2021-type-a44-november-2019-and-mid-october-2021",
+   "ml:claas:type-a60-april-2018-and-mid-october-2021-type-a72-july-2021-and-mid-october-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b1d4967c0d462cfe"
+  "enriquecido": true,
+  "hashContenido": "fef7a9a663f32977"
  },
  "slug": "vehiculo-de-motor-agricola-claas-safety-gate-10005409"
 }

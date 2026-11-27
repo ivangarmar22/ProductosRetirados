@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-28"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -31,15 +31,13 @@
    ],
    "lotes": [
     {
-     "numero": "190996183 - 191007172"
-    },
-    {
-     "numero": "191027366 - 191027557"
+     "numero": "190996183 - 191007172, 191027366 - 191027557"
     }
    ],
    "ean": [],
    "descripcion": "Motosierra. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,16 +96,15 @@
   "claves": [
    "ref:A12/00215/22",
    "mm:stihl:ms-462",
-   "ml:stihl:190996183-191007172",
-   "ml:stihl:191027366-191027557"
+   "ml:stihl:190996183-191007172-191027366-191027557"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "555d6462f8471aef"
+  "enriquecido": true,
+  "hashContenido": "cacaeb814524a11f"
  },
  "slug": "sierra-de-cadena-stihl-safety-gate-10005407"
 }

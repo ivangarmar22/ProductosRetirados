@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "\"e11*2001/116*0308*00 e11*2001/116*0308*01 e11*2001/116*0308*02 e11*2001/116*0308*03 e11*2001/116*0308*04 e11*2001/116*0308*05 e11*2001/116*0308*06 e11*2001/116*0308*07\""
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "8.05.2007 - 7.08.2012"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "8.05.2007 - 7.08.2012"
+   "fechasTexto": "8.05.2007 - 7.08.2012",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FI",
+   "HU",
+   "NL",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00282/22",
-   "mm:mazda:e11-2001-116-0308-00-e11-2001-116-0308-01-e11-2001-116-0308-02-e11-2001-116-0308-03-e11-2001-116-0308-04-e11-2001-116-0308-05-e11-2001-116-0308-06-e11-2001-116-0308-07"
+   "mm:mazda:e11-2001-116-0308-00-e11-2001-116-0308-01-e11-2001-116-0308-02-e11-2001-116-0308-03-e11-2001-116-0308-04-e11-2001-116-0308-05-e11-2001-116-0308-06-e11-2001-116-0308-07",
+   "ml:mazda:8-05-2007-7-08-2012"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3cc6990b11b2b4dc"
+  "enriquecido": true,
+  "hashContenido": "278ff9aa9c6b1c68"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10005479"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-14"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,15 +27,15 @@
     "VERTEX"
    ],
    "modelos": [
-    "SJ-1",
-    "5 t"
+    "SJ-1,5 t"
    ],
    "lotes": [],
    "ean": [
     "5902670711109"
    ],
    "descripcion": "Gato de tijera de metal, peso máximo: 1,5 t.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -65,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,16 +99,15 @@
   "claves": [
    "ref:A11/00019/22",
    "ean:5902670711109",
-   "mm:vertex:sj-1",
-   "mm:vertex:5-t"
+   "mm:vertex:sj-1-5-t"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f4dd929b3188f15"
+  "enriquecido": true,
+  "hashContenido": "51bcc306f62b5ee7"
  },
  "slug": "gato-de-tijera-vertex-safety-gate-10005380"
 }

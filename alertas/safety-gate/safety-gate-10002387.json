@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-24"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Conjunto de sudadera y pantalones diseñados para niños de 2 años. La sudadera lleva cordones decorativos en la zona del pecho con adornos tridimensionales al final.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Chipre",
   "paisOrigen": "Grecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b0d24b61ec2ed211"
+  "enriquecido": true,
+  "hashContenido": "7f2116eceffa9dbf"
  },
  "slug": "conjunto-de-ropa-para-ninos-mamma-natura-safety-gate-10002387"
 }

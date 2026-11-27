@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-18"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "1111/2020"
+     "numero": "11"
+    },
+    {
+     "numero": "11/2020"
     }
    ],
    "ean": [],
    "descripcion": "Polvo de tinte capilar a base de henna.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El polvo se envasa en una bolsa de plástico dorado de 200 g. Hay un boceto de una mujer con el pelo rojo delante del paquete."
   }
  ],
  "riesgo": {
@@ -83,15 +87,15 @@
  "dedup": {
   "claves": [
    "ref:A12/00294/22",
-   "ml:brite:1111-2020"
+   "ml:brite:11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1acc818470032321"
+  "enriquecido": true,
+  "hashContenido": "a45bce7414eebeb6"
  },
  "slug": "tinte-para-el-cabello-brite-safety-gate-10005584"
 }

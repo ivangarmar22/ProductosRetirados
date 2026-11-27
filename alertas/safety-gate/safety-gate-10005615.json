@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-28"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Crema para iluminar la piel",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Tubo de plástico blanco de 30 ml con caja de cartón naranja"
   }
  ],
  "riesgo": {
@@ -60,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "Costa de Marfil",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "95a5ecce3b3c3ea3"
+  "enriquecido": true,
+  "hashContenido": "5d9b3fc665cae941"
  },
  "slug": "crema-para-iluminar-la-piel-dream-cosmetics-safety-gate-10005615"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e13*2001/116*0156*03 e13*2001/116*0156*02 e13*2001/116*0156*01 e13*2001/116*0156*00",
     "e13*2001/116*0156*08 e13*2001/116*0156*07 e13*2001/116*0156*06 e13*2001/116*0156*05 e13*2001/116*0156*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "11.02.2005 - 17.09.2010"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos Mazda 5 equipados con un interruptor de desactivación del airbag de pasajeros.",
-   "fechasTexto": "11.02.2005 - 17.09.2010"
+   "fechasTexto": "11.02.2005 - 17.09.2010",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FI",
+   "HU",
+   "IS",
+   "NL",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +91,16 @@
   "claves": [
    "ref:A12/00253/22",
    "mm:mazda:e13-2001-116-0156-03-e13-2001-116-0156-02-e13-2001-116-0156-01-e13-2001-116-0156-00",
-   "mm:mazda:e13-2001-116-0156-08-e13-2001-116-0156-07-e13-2001-116-0156-06-e13-2001-116-0156-05-e13-2001-116-0156-04"
+   "mm:mazda:e13-2001-116-0156-08-e13-2001-116-0156-07-e13-2001-116-0156-06-e13-2001-116-0156-05-e13-2001-116-0156-04",
+   "ml:mazda:11-02-2005-17-09-2010"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cde6bd8e1949fec1"
+  "enriquecido": true,
+  "hashContenido": "190d0b42c0eb3dab"
  },
  "slug": "coche-de-pasajeros-mazda-safety-gate-10005476"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-23"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,18 @@
     "Opel"
    ],
    "modelos": [
-    "Type-approval numbers: e2*2007/46*0533*08",
-    "e2*2007/46*0532*10",
+    "Type-approval numbers: e2*2007/46*0533*08, e2*2007/46*0532*10",
     "Type: V"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 19 August and 26 September 2019."
+    }
+   ],
    "ean": [],
    "descripcion": "Automóvil de pasajeros bajo el código de recuperación Opel: E19-191187 — E19-190482, 20-C-022.",
-   "fechasTexto": "The affected vehicles were manufactured between 19 August and 26 September 2019."
+   "fechasTexto": "The affected vehicles were manufactured between 19 August and 26 September 2019.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "IE",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,17 +85,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00157/20",
-   "mm:opel:type-approval-numbers-e2-2007-46-0533-08",
-   "mm:opel:e2-2007-46-0532-10",
-   "mm:opel:type-v"
+   "mm:opel:type-approval-numbers-e2-2007-46-0533-08-e2-2007-46-0532-10",
+   "mm:opel:type-v",
+   "ml:opel:the-affected-vehicles-were-manufactured-between-19-august-and-26-september-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1308f4438f88433c"
+  "enriquecido": true,
+  "hashContenido": "50ff1673c1ad0a1d"
  },
  "slug": "coche-de-pasajeros-opel-safety-gate-10000497"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "5054110024185"
    ],
    "descripcion": "Una muñeca de pelo rubio, con un vestido rosa con lunares negros con correa negra. El juguete está decorado con pendientes, un collar y pulseras de plata. Artículos hechos de plástico.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de papel con ventana de plástico."
   }
  ],
  "riesgo": {
@@ -74,7 +75,9 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -101,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5c06bf269d1169be"
+  "enriquecido": true,
+  "hashContenido": "3bae670366435434"
  },
  "slug": "muneca-de-plastico-bella-city-chic-safety-gate-10005704"
 }

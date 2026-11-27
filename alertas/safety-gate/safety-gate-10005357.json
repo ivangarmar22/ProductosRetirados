@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e2*2007/46*0129*02-*04",
-    "*06-*08",
-    "*13",
-    "e2*2007/46*0130**02-*08",
-    "*10",
-    "*12",
-    "*13",
-    "X"
+    "e2*2007/46*0129*02-*04,*06-*08,*13, e2*2007/46*0130**02-*08,*10,*12,*13, X"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.10.2012 - 9.7.2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero",
-   "fechasTexto": "12.10.2012 - 9.7.2015"
+   "fechasTexto": "12.10.2012 - 9.7.2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FR",
+   "GR",
+   "HU",
+   "NL",
+   "NO",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,17 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00178/22",
-   "mm:mercedes-benz:e2-2007-46-0129-02-04",
-   "mm:mercedes-benz:06-08",
-   "mm:mercedes-benz:e2-2007-46-0130-02-08"
+   "mm:mercedes-benz:e2-2007-46-0129-02-04-06-08-13-e2-2007-46-0130-02-08-10-12-13-x",
+   "ml:mercedes-benz:12-10-2012-9-7-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7ddf3ddbf5ec29c4"
+  "enriquecido": true,
+  "hashContenido": "054079196c786e86"
  },
  "slug": "vehiculo-comercial-ligero-mercedes-benz-safety-gate-10005357"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,31 +27,17 @@
     "Craftride"
    ],
    "modelos": [
-    "222970",
-    "222971",
-    "222972",
-    "222973",
-    "222974",
-    "222975",
-    "222976",
-    "222977",
-    "222978",
-    "222979",
-    "222980",
-    "222981",
-    "222982",
-    "222983",
-    "A050085",
-    "A050090",
-    "A050091",
-    "A050092",
-    "A050093",
-    "A050095"
+    "222970, 222971, 222972, 222973, 222974, 222975, 222976, 222977, 222978, 222979, 222980, 222981, 222982, 222983, A050085, A050090, A050091, A050092, A050093, A050095"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "4.12.2020 - 23.7.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Llantas de ruedas para motocicletas",
-   "fechasTexto": "4.12.2020 - 23.7.2021"
+   "fechasTexto": "4.12.2020 - 23.7.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -81,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -96,34 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00379/22",
-   "mm:craftride:222970",
-   "mm:craftride:222971",
-   "mm:craftride:222972",
-   "mm:craftride:222973",
-   "mm:craftride:222974",
-   "mm:craftride:222975",
-   "mm:craftride:222976",
-   "mm:craftride:222977",
-   "mm:craftride:222978",
-   "mm:craftride:222979",
-   "mm:craftride:222980",
-   "mm:craftride:222981",
-   "mm:craftride:222982",
-   "mm:craftride:222983",
-   "mm:craftride:a050085",
-   "mm:craftride:a050090",
-   "mm:craftride:a050091",
-   "mm:craftride:a050092",
-   "mm:craftride:a050093",
-   "mm:craftride:a050095"
+   "mm:craftride:222970-222971-222972-222973-222974-222975-222976-222977-222978-222979-222980-222981-222982-222983-a050085-a050090-a050091-a050092-a050093-a050095",
+   "ml:craftride:4-12-2020-23-7-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "77580b85486cdc22"
+  "enriquecido": true,
+  "hashContenido": "6e31db6bdd3c9b65"
  },
  "slug": "llantas-de-ruedas-craftride-safety-gate-10005487"
 }

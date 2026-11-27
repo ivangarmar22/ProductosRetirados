@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e 2008 : e2*2007/46*0639*08 e2*2007/46*0639*09 e2*2007/46*0639*07",
     "e 208 : e2*2007/46*0639*08 e2*2007/46*0639*12"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15/01/2020 - 20/06/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "El coche eléctrico.",
-   "fechasTexto": "15/01/2020 - 20/06/2020"
+   "fechasTexto": "15/01/2020 - 20/06/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Eslovaquia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "NL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +86,16 @@
   "claves": [
    "ref:A12/00171/22",
    "mm:peugeot:e-2008-e2-2007-46-0639-08-e2-2007-46-0639-09-e2-2007-46-0639-07",
-   "mm:peugeot:e-208-e2-2007-46-0639-08-e2-2007-46-0639-12"
+   "mm:peugeot:e-208-e2-2007-46-0639-08-e2-2007-46-0639-12",
+   "ml:peugeot:15-01-2020-20-06-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ac73040467491ff4"
+  "enriquecido": true,
+  "hashContenido": "d0b0e766d5b61b12"
  },
  "slug": "turismos-peugeot-safety-gate-10005106"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-14"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "6933138690741"
    ],
    "descripcion": "Unidad de alimentación USB de plástico blanco con un conector USB A y un conector USB C.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HR",
+   "IT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -105,11 +110,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6996cdd592e0a542"
+  "enriquecido": true,
+  "hashContenido": "7a70ad4a506c6a2a"
  },
  "slug": "cargador-usb-ldnio-safety-gate-10005416"
 }

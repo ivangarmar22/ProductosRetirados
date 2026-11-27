@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2025-11-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*595/2009*2016/1718*12128"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.04.2013 -1.07.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "DTI 11 EUVI ETAPA B",
-   "fechasTexto": "1.04.2013 -1.07.2016"
+   "fechasTexto": "1.04.2013 -1.07.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "IS",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00200/22",
-   "mm:volvo-trucks-et-renault-trucks:e2-595-2009-2016-1718-12128"
+   "mm:volvo-trucks-et-renault-trucks:e2-595-2009-2016-1718-12128",
+   "ml:volvo-trucks-et-renault-trucks:1-04-2013-1-07-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "950775e1f468c9b3"
+  "enriquecido": true,
+  "hashContenido": "0a9d33693f268d47"
  },
  "slug": "camion-volvo-trucks-et-renault-trucks-safety-gate-10005367"
 }

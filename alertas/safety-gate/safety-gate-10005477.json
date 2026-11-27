@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-15"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e11*2001/116*0262*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.07.2015 – 18.09.2015"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "1.07.2015 – 18.09.2015"
+   "fechasTexto": "1.07.2015 – 18.09.2015",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "ES",
+   "FI",
+   "HR",
+   "HU",
+   "NL",
+   "NO",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00291/22",
-   "mm:mazda:e11-2001-116-0262-15"
+   "mm:mazda:e11-2001-116-0262-15",
+   "ml:mazda:1-07-2015-18-09-2015"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d6e432076f8622ae"
+  "enriquecido": true,
+  "hashContenido": "ff4272b6a8bb770e"
  },
  "slug": "turismos-mazda-safety-gate-10005477"
 }

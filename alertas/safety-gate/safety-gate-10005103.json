@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-18"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -38,14 +38,36 @@
    ],
    "lotes": [
     {
-     "numero": "10/1/214DON10/13/212DON10/15/215DON10/19/213DON10/20/217DON10/22/212DON10/22/216DON9/28/218DON"
+     "numero": "10/1/214DON"
+    },
+    {
+     "numero": "10/13/212DON"
+    },
+    {
+     "numero": "10/15/215DON"
+    },
+    {
+     "numero": "10/19/213DON"
+    },
+    {
+     "numero": "10/20/217DON"
+    },
+    {
+     "numero": "10/22/212DON"
+    },
+    {
+     "numero": "10/22/216DON"
+    },
+    {
+     "numero": "9/28/218DON"
     }
    ],
    "ean": [
     "5056422985222"
    ],
    "descripcion": "1piece/180g, producto de baño en forma de donut. El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Los productos se envuelven en una caja de cartón (16 piezas en una caja)."
   }
  ],
  "riesgo": {
@@ -103,15 +125,22 @@
    "mm:bath-donuts:06-lemonmeringue",
    "mm:bath-donuts:07-cinnamom-vanilla",
    "mm:bath-donuts:08-blackberry-almond",
-   "ml:bath-donuts:10-1-214don10-13-212don10-15-215don10-19-213don10-20-217don10-22-212don10-22-216don9-28-218don"
+   "ml:bath-donuts:10-1-214don",
+   "ml:bath-donuts:10-13-212don",
+   "ml:bath-donuts:10-15-215don",
+   "ml:bath-donuts:10-19-213don",
+   "ml:bath-donuts:10-20-217don",
+   "ml:bath-donuts:10-22-212don",
+   "ml:bath-donuts:10-22-216don",
+   "ml:bath-donuts:9-28-218don"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eaab16999abc1fd4"
+  "enriquecido": true,
+  "hashContenido": "b659135df14eeb95"
  },
  "slug": "producto-de-bano-bath-donuts-safety-gate-10005103"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-11"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,8 +27,7 @@
     "Qilive"
    ],
    "modelos": [
-    "151369",
-    "E8.2",
+    "151369 / E8.2",
     "Q.4863"
    ],
    "lotes": [],
@@ -36,7 +35,8 @@
     "3245676827125"
    ],
    "descripcion": "Scooter eléctrico plegable negro con cargador de batería (FOREVER), con «Electric Scooter» escrito en él. Peso: 11,5 kg",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una caja de cartón."
   }
  ],
  "riesgo": {
@@ -102,17 +102,16 @@
   "claves": [
    "ref:A12/00248/22",
    "ean:3245676827125",
-   "mm:qilive:151369",
-   "mm:qilive:e8-2",
+   "mm:qilive:151369-e8-2",
    "mm:qilive:q-4863"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3696d6fbc7ce36d2"
+  "enriquecido": true,
+  "hashContenido": "8a0c74599c067930"
  },
  "slug": "scooter-electrico-qilive-safety-gate-10005493"
 }

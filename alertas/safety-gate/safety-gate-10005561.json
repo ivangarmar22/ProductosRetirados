@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-18"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,13 +27,13 @@
     "Two Trees"
    ],
    "modelos": [
-    "TT-5.5S",
-    "TOTEM S"
+    "TT-5.5S / TOTEM S"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Pequeña máquina de grabado láser (marco de mesa sin carcasa protectora). Producto vendido en línea, en particular a través de Amazon, con el número ASIN B08NDG3P66.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón corrugado"
   }
  ],
  "riesgo": {
@@ -107,16 +107,15 @@
  "dedup": {
   "claves": [
    "ref:A11/00034/22",
-   "mm:two-trees:tt-5-5s",
-   "mm:two-trees:totem-s"
+   "mm:two-trees:tt-5-5s-totem-s"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c68844180a8c7fbe"
+  "enriquecido": true,
+  "hashContenido": "a60afc82af54de1f"
  },
  "slug": "maquina-de-grabado-laser-two-trees-safety-gate-10005561"
 }

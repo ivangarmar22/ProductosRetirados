@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-23"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Un cochecito negro diseñado para llevar niños. Los cochecitos afectados han sido fabricados desde mayo de 2018 hasta septiembre de 2019.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +63,17 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "BG",
+   "DK",
+   "GR",
+   "HR",
+   "NO",
+   "PL",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6f87d778f955414a"
+  "enriquecido": true,
+  "hashContenido": "13d4aa94f2b15677"
  },
  "slug": "silla-de-ruedas-de-bebe-thule-safety-gate-10001782"
 }

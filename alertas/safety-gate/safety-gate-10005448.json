@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-21"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Silla alta para niños hecha de material plástico con revestimiento textil.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "96df926aaf3ecb72"
+  "enriquecido": true,
+  "hashContenido": "8cd2e7c36e1e1c32"
  },
  "slug": "silla-alta-de-los-ninos-zopa-safety-gate-10005448"
 }

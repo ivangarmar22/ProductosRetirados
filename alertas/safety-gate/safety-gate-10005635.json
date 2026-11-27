@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,19 @@
     "Toyota"
    ],
    "modelos": [
-    "VDS - VEAHK#",
-    "VEAHX#",
-    "VEEHZ#",
-    "VFAHK#",
-    "VFAHX#",
-    "VFEHZ#",
-    "VGAHK#",
-    "VGAHX#",
+    "VDS - VEAHK#, VEAHX#, VEEHZ#, VFAHK#, VFAHX#, VFEHZ#, VGAHK#, VGAHX#",
     "from e2*2007/46*0537*06 to e2*2007/46*0537*14",
     "from e2*2007/46*0538*10 to e2*2007/46*0538*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Production period from 09.07.2018 to 18.06.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo comercial ligero",
-   "fechasTexto": "Production period from 09.07.2018 to 18.06.2021"
+   "fechasTexto": "Production period from 09.07.2018 to 18.06.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +69,18 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "GR",
+   "NL",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,24 +99,18 @@
  "dedup": {
   "claves": [
    "ref:INFO/00012/22",
-   "mm:toyota:vds-veahk",
-   "mm:toyota:veahx",
-   "mm:toyota:veehz",
-   "mm:toyota:vfahk",
-   "mm:toyota:vfahx",
-   "mm:toyota:vfehz",
-   "mm:toyota:vgahk",
-   "mm:toyota:vgahx",
+   "mm:toyota:vds-veahk-veahx-veehz-vfahk-vfahx-vfehz-vgahk-vgahx",
    "mm:toyota:from-e2-2007-46-0537-06-to-e2-2007-46-0537-14",
-   "mm:toyota:from-e2-2007-46-0538-10-to-e2-2007-46-0538-16"
+   "mm:toyota:from-e2-2007-46-0538-10-to-e2-2007-46-0538-16",
+   "ml:toyota:production-period-from-09-07-2018-to-18-06-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d43ae2f79aa46e0f"
+  "enriquecido": true,
+  "hashContenido": "529a392e63789cd1"
  },
  "slug": "vehiculo-comercial-ligero-toyota-safety-gate-10005635"
 }

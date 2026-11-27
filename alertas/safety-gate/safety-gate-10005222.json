@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-01-18"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Set de 10 patos de goma amarilla, apretables y con silbato. El producto se vendió en línea, en particular a través de eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Red de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "RO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db3250184b042997"
+  "enriquecido": true,
+  "hashContenido": "fa245d8200a62363"
  },
  "slug": "juguete-de-bano-set-of-rubber-ducks-safety-gate-10005222"
 }

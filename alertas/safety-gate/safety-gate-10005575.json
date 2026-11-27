@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Honda"
    ],
    "modelos": [
-    "e4*168/2013*00126*00",
-    "e4*168/2013*00126*01"
+    "e4*168/2013*00126*00, e4*168/2013*00126*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "9.12.2019 - 25.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Año de modelo: 2020 y 2022; Código de modelo (Tipo): CBR1000SPL/STL (SC82).",
-   "fechasTexto": "9.12.2019 - 25.10.2021"
+   "fechasTexto": "9.12.2019 - 25.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "LU",
+   "NL",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,16 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00299/22",
-   "mm:honda:e4-168-2013-00126-00",
-   "mm:honda:e4-168-2013-00126-01"
+   "mm:honda:e4-168-2013-00126-00-e4-168-2013-00126-01",
+   "ml:honda:9-12-2019-25-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "23589db1cf2b27af"
+  "enriquecido": true,
+  "hashContenido": "1314e8924d8f499b"
  },
  "slug": "motocicleta-honda-safety-gate-10005575"
 }

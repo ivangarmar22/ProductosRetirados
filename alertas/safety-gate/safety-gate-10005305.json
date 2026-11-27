@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "F2B",
-    "F2A",
-    "e1*2007/46*1909*03-06",
-    "e1*2007/46*1829*03-05"
+    "F2B, F2A",
+    "e1*2007/46*1909*03-06, e1*2007/46*1829*03-05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2 May 2019 -17 July 2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Serie de modelos: Clase A (BR 177), GLB (BR 247)",
-   "fechasTexto": "2 May 2019 -17 July 2020"
+   "fechasTexto": "2 May 2019 -17 July 2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "HR",
+   "LU",
+   "NL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +93,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00148/22",
-   "mm:mercedes-benz:f2b",
-   "mm:mercedes-benz:f2a",
-   "mm:mercedes-benz:e1-2007-46-1909-03-06",
-   "mm:mercedes-benz:e1-2007-46-1829-03-05"
+   "mm:mercedes-benz:f2b-f2a",
+   "mm:mercedes-benz:e1-2007-46-1909-03-06-e1-2007-46-1829-03-05",
+   "ml:mercedes-benz:2-may-2019-17-july-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "adf7a9e780845ce4"
+  "enriquecido": true,
+  "hashContenido": "d4bd6ec544de9d08"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10005305"
 }

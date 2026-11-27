@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0154"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14/07/2020 - 20/07/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "sistema de combustible (bomba de alta presión, conducto de alta presión y unidad de recuperación de combustible)",
-   "fechasTexto": "14/07/2020 - 20/07/2020"
+   "fechasTexto": "14/07/2020 - 20/07/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00184/22",
-   "mm:nissan:e2-2007-46-0154"
+   "mm:nissan:e2-2007-46-0154",
+   "ml:nissan:14-07-2020-20-07-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32daf48498f42138"
+  "enriquecido": true,
+  "hashContenido": "b36777a2246a57de"
  },
  "slug": "vehiculo-comercial-ligero-nissan-safety-gate-10005255"
 }

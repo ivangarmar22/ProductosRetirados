@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-02"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -38,7 +38,8 @@
     "6923185606345"
    ],
    "descripcion": "Tetera inteligente blanca. Capacidad: 1,5 L; potencia: 1800 W; tensión: 220-240 V, tamaño 21.4x20.3x25,8 cm. El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una caja blanca y azul."
   }
  ],
  "riesgo": {
@@ -70,7 +71,9 @@
   "ccaa": [],
   "paisNotificante": "Letonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -119,11 +122,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "13bb4b8b46e4fcbd"
+  "enriquecido": true,
+  "hashContenido": "0efc06ef3ec82b7c"
  },
  "slug": "hervidor-de-agua-inteligente-viomi-safety-gate-10003442"
 }

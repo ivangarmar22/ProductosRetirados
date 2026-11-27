@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "Evobus"
    ],
    "modelos": [
-    "628 10",
-    "628 11",
-    "e1*2007/46*1985*06",
-    "08",
-    "e1*2007/46*2083*03",
-    "05"
+    "628 10, 628 11",
+    "e1*2007/46*1985*06, 08, e1*2007/46*2083*03, 05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "28.10.2021 - 21.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús",
-   "fechasTexto": "28.10.2021 - 21.12.2021"
+   "fechasTexto": "28.10.2021 - 21.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -77,18 +78,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00315/22",
-   "mm:evobus:628-10",
-   "mm:evobus:628-11",
-   "mm:evobus:e1-2007-46-1985-06",
-   "mm:evobus:e1-2007-46-2083-03"
+   "mm:evobus:628-10-628-11",
+   "mm:evobus:e1-2007-46-1985-06-08-e1-2007-46-2083-03-05",
+   "ml:evobus:28-10-2021-21-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "36b22e96216b26f6"
+  "enriquecido": true,
+  "hashContenido": "ec0cf84c9a463866"
  },
  "slug": "autobus-evobus-safety-gate-10005608"
 }

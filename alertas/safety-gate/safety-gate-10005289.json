@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-11-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "R2CW",
-    "R2CS",
-    "e1*2018/858*00016*00",
-    "e1*2018/858*00017*00"
+    "R2CW, R2CS",
+    "e1*2018/858*00016*00, e1*2018/858*00017*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12.10.2020 - 18.3.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Serie de modelos: X206",
-   "fechasTexto": "12.10.2020 - 18.3.2021"
+   "fechasTexto": "12.10.2020 - 18.3.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -80,18 +83,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00147/22",
-   "mm:mercedes-benz:r2cw",
-   "mm:mercedes-benz:r2cs",
-   "mm:mercedes-benz:e1-2018-858-00016-00",
-   "mm:mercedes-benz:e1-2018-858-00017-00"
+   "mm:mercedes-benz:r2cw-r2cs",
+   "mm:mercedes-benz:e1-2018-858-00016-00-e1-2018-858-00017-00",
+   "ml:mercedes-benz:12-10-2020-18-3-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d38ef49f4fe6d52e"
+  "enriquecido": true,
+  "hashContenido": "bf85857670c1becf"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10005289"
 }

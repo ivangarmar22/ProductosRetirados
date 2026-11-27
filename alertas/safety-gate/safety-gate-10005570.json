@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -25,13 +25,13 @@
    "nombre": "Conjunto de juguetes",
    "marcas": [],
    "modelos": [
-    "@2671734@ 07-30",
-    "191225HS01 RUK39 22268778"
+    "@2671734@ 07-30 / 191225HS01 RUK39 22268778"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Juego de 12 huevos de plástico en varios colores que contienen cada uno un juguete sorpresa. Producto vendido en línea, en particular a través de eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico con cremallera."
   }
  ],
  "riesgo": {
@@ -70,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Luxemburgo",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9c8f95bb9b0bfa18"
+  "enriquecido": true,
+  "hashContenido": "4aea25a6c7a21a69"
  },
  "slug": "conjunto-de-juguetes-safety-gate-10005570"
 }

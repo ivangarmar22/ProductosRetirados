@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-18"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "Produced: 10.2020U25102020"
+     "numero": "Produced: 10.2020"
+    },
+    {
+     "numero": "U25102020"
     }
    ],
    "ean": [
     "8682960627002"
    ],
    "descripcion": "Máscara de filtración respiratoria protectora blanca de la mitad de la cara.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón, que contiene 25 artículos."
   }
  ],
  "riesgo": {
@@ -101,15 +105,16 @@
    "ref:A12/00131/22",
    "ean:8682960627002",
    "mm:unimed-union-medikal:ayc-300v-ffp3-nr",
-   "ml:unimed-union-medikal:produced-10-2020u25102020"
+   "ml:unimed-union-medikal:produced-10-2020",
+   "ml:unimed-union-medikal:u25102020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "83fc9037f6f7dd9d"
+  "enriquecido": true,
+  "hashContenido": "e569892b3bbe0224"
  },
  "slug": "mascara-de-filtro-de-particulas-unimed-union-medikal-safety-gate-10005139"
 }

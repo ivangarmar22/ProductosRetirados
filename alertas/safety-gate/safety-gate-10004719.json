@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-19"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Fresadora vertical y horizontal",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Eslovaquia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +90,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "543d070ea6e1a53e"
+  "enriquecido": true,
+  "hashContenido": "7e7ef32eadd91d38"
  },
  "slug": "fresadora-haas-mill-safety-gate-10004719"
 }

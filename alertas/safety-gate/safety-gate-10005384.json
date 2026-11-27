@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "5B",
     "e1*KS07/46*0008*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.10.2020 - 30.11.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "18.10.2020 - 30.11.2021"
+   "fechasTexto": "18.10.2020 - 30.11.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00176/22",
-   "mm:bugatti:e1-ks07-46-0008-15"
+   "mm:bugatti:e1-ks07-46-0008-15",
+   "ml:bugatti:18-10-2020-30-11-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "30109746817da07d"
+  "enriquecido": true,
+  "hashContenido": "b35c0484d0de5fd5"
  },
  "slug": "turismos-bugatti-safety-gate-10005384"
 }

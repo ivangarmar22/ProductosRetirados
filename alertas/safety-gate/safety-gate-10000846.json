@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-23"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -24,7 +24,8 @@
   {
    "nombre": "OLD WITCH WIG",
    "marcas": [
-    "Amscan, Christys Dress Up"
+    "Amscan",
+    "Christys Dress Up"
    ],
    "modelos": [
     "840380-55"
@@ -34,7 +35,8 @@
     "0809801705042"
    ],
    "descripcion": "Peluca de juguete largo negra con rayas blancas, 100 % poliéster.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Paquete de embalaje: bolsa de plástico transparente. El producto también se vendió en línea."
   }
  ],
  "riesgo": {
@@ -84,15 +86,16 @@
   "claves": [
    "ref:A11/00036/20",
    "ean:0809801705042",
-   "mm:amscan-christys-dress-up:840380-55"
+   "mm:amscan:840380-55",
+   "mm:christys-dress-up:840380-55"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "208ac817b6cb231a"
+  "enriquecido": true,
+  "hashContenido": "ce55aaf7bafdd965"
  },
  "slug": "peluca-de-vestido-elegante-amscan-christys-dress-up-safety-gate-10000846"
 }

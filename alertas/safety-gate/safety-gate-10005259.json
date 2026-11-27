@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*1909*12-14",
-    "F2B"
+    "e1*2007/46*1909*12-14, F2B"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.7.2021 - 7.12.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "serie de modelos X243",
-   "fechasTexto": "29.7.2021 - 7.12.2021"
+   "fechasTexto": "29.7.2021 - 7.12.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "ES",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "LU",
+   "NL",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00183/22",
-   "mm:mercedes-benz:e1-2007-46-1909-12-14",
-   "mm:mercedes-benz:f2b"
+   "mm:mercedes-benz:e1-2007-46-1909-12-14-f2b",
+   "ml:mercedes-benz:29-7-2021-7-12-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a4f142d0caea4b10"
+  "enriquecido": true,
+  "hashContenido": "8e4e7c8b5d78e651"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10005259"
 }

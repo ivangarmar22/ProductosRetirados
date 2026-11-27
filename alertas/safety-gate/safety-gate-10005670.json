@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-03-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,9 +27,7 @@
     "Zeeman"
    ],
    "modelos": [
-    "C56861",
-    "A71011",
-    "112000"
+    "C56861; A71011; 112000"
    ],
    "lotes": [
     {
@@ -40,7 +38,8 @@
     "2099901710116"
    ],
    "descripcion": "Tren de madera embalado en un paquete de cartón; 20 piezas",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -82,7 +81,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,18 +115,16 @@
   "claves": [
    "ref:A12/00354/22",
    "ean:2099901710116",
-   "mm:zeeman:c56861",
-   "mm:zeeman:a71011",
-   "mm:zeeman:112000",
+   "mm:zeeman:c56861-a71011-112000",
    "ml:zeeman:20200805"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1dc8efd63f2cb012"
+  "enriquecido": true,
+  "hashContenido": "386b62efb31dd796"
  },
  "slug": "juguete-de-madera-zeeman-safety-gate-10005670"
 }

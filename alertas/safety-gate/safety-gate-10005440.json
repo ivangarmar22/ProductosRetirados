@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,18 @@
     "New Holland, Case IH"
    ],
    "modelos": [
-    "JN",
-    "J",
-    "D",
-    "e13*2003/37*0135*",
-    "e13*74/150*2000/25*0070",
-    "e13*74/150*2000/25*0069"
+    "JN, J, D",
+    "e13*2003/37*0135*,e13*74/150*2000/25*0070, e13*74/150*2000/25*0069"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2007 - 01.09.2012"
+    }
+   ],
    "ean": [],
    "descripcion": "Tractor/Tractor agrícola",
-   "fechasTexto": "01.01.2007 - 01.09.2012"
+   "fechasTexto": "01.01.2007 - 01.09.2012",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "GR",
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,17 +83,17 @@
  "dedup": {
   "claves": [
    "ref:A12/00213/22",
-   "mm:new-holland-case-ih:e13-2003-37-0135",
-   "mm:new-holland-case-ih:e13-74-150-2000-25-0070",
-   "mm:new-holland-case-ih:e13-74-150-2000-25-0069"
+   "mm:new-holland-case-ih:jn-j-d",
+   "mm:new-holland-case-ih:e13-2003-37-0135-e13-74-150-2000-25-0070-e13-74-150-2000-25-0069",
+   "ml:new-holland-case-ih:01-01-2007-01-09-2012"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eeb85ea182e19bb0"
+  "enriquecido": true,
+  "hashContenido": "feddd174cf4cab94"
  },
  "slug": "tractor-tractor-agricola-new-holland-case-ih-safety-gate-10005440"
 }

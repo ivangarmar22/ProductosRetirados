@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-01-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*0457*21-*28",
-    "Type: 639/2"
+    "e1*2007/46*0457*21-*28, Type: 639/2"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "29.1.2019 - 14.5.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Motorhome",
-   "fechasTexto": "29.1.2019 - 14.5.2021"
+   "fechasTexto": "29.1.2019 - 14.5.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "ES",
+   "FR",
+   "GR",
+   "HU",
+   "NL",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00146/22",
-   "mm:mercedes-benz:e1-2007-46-0457-21-28",
-   "mm:mercedes-benz:type-639-2"
+   "mm:mercedes-benz:e1-2007-46-0457-21-28-type-639-2",
+   "ml:mercedes-benz:29-1-2019-14-5-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7bf9793125fde6bf"
+  "enriquecido": true,
+  "hashContenido": "7a4e3493523cfac0"
  },
  "slug": "furgoneta-de-autocaravanas-mercedes-benz-safety-gate-10005280"
 }

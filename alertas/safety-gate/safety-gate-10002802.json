@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-22"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Piercings en la nariz de metal dorado",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "cartón impreso"
   }
  ],
  "riesgo": {
@@ -74,7 +75,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "FR",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,11 +104,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "76de171454691d4d"
+  "enriquecido": true,
+  "hashContenido": "e10f7c7e299dd17e"
  },
  "slug": "piercing-amarillo-de-tamano-unico-primark-safety-gate-10002802"
 }

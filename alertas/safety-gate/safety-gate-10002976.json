@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-08"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -24,7 +24,8 @@
   {
    "nombre": "Mignon singe chiot éléphant rayé animaux en peluche poupée drôle créatif mollusque",
    "marcas": [
-    "KO BONNIE, NewSway"
+    "KO BONNIE",
+    "NewSway"
    ],
    "modelos": [
     "770983157830"
@@ -32,7 +33,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguetes suaves y rellenos que representan a los animales. Producto vendido en línea, en particular a través de Wish.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Ausencia de marcado CE."
   }
  ],
  "riesgo": {
@@ -77,15 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01540/21",
-   "mm:ko-bonnie-newsway:770983157830"
+   "mm:ko-bonnie:770983157830",
+   "mm:newsway:770983157830"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "df7399c60f7938b5"
+  "enriquecido": true,
+  "hashContenido": "9998e99219ce034e"
  },
  "slug": "juguete-de-peluche-ko-bonnie-newsway-safety-gate-10002976"
 }

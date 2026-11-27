@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-24"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "Sbs"
    ],
    "modelos": [
-    "37386",
-    "TETR1USB1ASTD"
+    "37386 / TETR1USB1ASTD"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Cargador de batería negro con 1 puerto USB.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje: caja de cartón"
   }
  ],
  "riesgo": {
@@ -94,16 +94,15 @@
  "dedup": {
   "claves": [
    "ref:A11/00053/21",
-   "mm:sbs:37386",
-   "mm:sbs:tetr1usb1astd"
+   "mm:sbs:37386-tetr1usb1astd"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9ac5c0365b53a533"
+  "enriquecido": true,
+  "hashContenido": "08ecdfd3ca16fae3"
  },
  "slug": "cargador-usb-sbs-safety-gate-10004131"
 }

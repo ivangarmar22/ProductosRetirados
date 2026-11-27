@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "VW"
    ],
    "modelos": [
-    "Types: 3H",
-    "3C",
-    "e1*2007/46*1725*",
-    "e1*2001/116*0307*"
+    "Types: 3H, 3C",
+    "e1*2007/46*1725*, e1*2001/116*0307*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.11.2019 - 12.5.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "15.11.2019 - 12.5.2021"
+   "fechasTexto": "15.11.2019 - 12.5.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "IE",
+   "NO",
+   "PT",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,17 +91,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01363/21",
-   "mm:vw:types-3h",
-   "mm:vw:e1-2007-46-1725",
-   "mm:vw:e1-2001-116-0307"
+   "mm:vw:types-3h-3c",
+   "mm:vw:e1-2007-46-1725-e1-2001-116-0307",
+   "ml:vw:15-11-2019-12-5-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f521b8c92ecb4135"
+  "enriquecido": true,
+  "hashContenido": "c753e452735ffe88"
  },
  "slug": "turismos-vw-safety-gate-10004433"
 }

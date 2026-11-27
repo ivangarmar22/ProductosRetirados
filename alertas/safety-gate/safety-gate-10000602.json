@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -39,7 +39,8 @@
     "0289047000031"
    ],
    "descripcion": "Elefante rosa de relleno suave con flor adherida.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CY"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7dcd554fe1f4c608"
+  "enriquecido": true,
+  "hashContenido": "e99824b3e18f5650"
  },
  "slug": "juguete-de-relleno-suave-jumbo-safety-gate-10000602"
 }

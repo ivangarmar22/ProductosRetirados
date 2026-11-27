@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "e2*2007/46*0537*01",
     "e2*2007/46*0537*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.06.2016 - 03.05.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "VDS — VABHX#, VEAHX#, VEAHH#",
-   "fechasTexto": "01.06.2016 - 03.05.2017"
+   "fechasTexto": "01.06.2016 - 03.05.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Bélgica",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HU",
+   "NL",
+   "PL",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,15 +103,16 @@
   "claves": [
    "ref:A12/00327/22",
    "mm:toyota:e2-2007-46-0537-01",
-   "mm:toyota:e2-2007-46-0537-02"
+   "mm:toyota:e2-2007-46-0537-02",
+   "ml:toyota:01-06-2016-03-05-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "312c8e6f58c0af18"
+  "enriquecido": true,
+  "hashContenido": "081445a80819fb76"
  },
  "slug": "vehiculo-comercial-ligero-toyota-safety-gate-10005634"
 }

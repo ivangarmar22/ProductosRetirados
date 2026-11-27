@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2022-02-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Model: L.2007.46.002",
     "Type-approval number: e4*2007/46*0230*38 - *40"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "July 2020 to October 2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "July 2020 to October 2020"
+   "fechasTexto": "July 2020 to October 2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,15 +79,16 @@
   "claves": [
    "ref:A12/00353/21",
    "mm:man:model-l-2007-46-002",
-   "mm:man:type-approval-number-e4-2007-46-0230-38-40"
+   "mm:man:type-approval-number-e4-2007-46-0230-38-40",
+   "ml:man:july-2020-to-october-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f8316652e1fdbc97"
+  "enriquecido": true,
+  "hashContenido": "d15001a8e037bad6"
  },
  "slug": "camion-man-safety-gate-10003365"
 }
