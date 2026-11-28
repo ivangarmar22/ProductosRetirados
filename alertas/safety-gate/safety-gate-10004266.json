@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-08-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Lamborghini"
    ],
    "modelos": [
-    "e3*2007/46*0616",
-    "Type 636"
+    "e3*2007/46*0616, Type 636"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 6 October and 7 December 2020."
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "The affected vehicles were manufactured between 6 October and 7 December 2020."
+   "fechasTexto": "The affected vehicles were manufactured between 6 October and 7 December 2020.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,16 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01191/21",
-   "mm:lamborghini:e3-2007-46-0616",
-   "mm:lamborghini:type-636"
+   "mm:lamborghini:e3-2007-46-0616-type-636",
+   "ml:lamborghini:the-affected-vehicles-were-manufactured-between-6-october-and-7-december-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d0899811c4898e7c"
+  "enriquecido": true,
+  "hashContenido": "7e4b460d5a72a123"
  },
  "slug": "coche-de-pasajeros-lamborghini-safety-gate-10004266"
 }

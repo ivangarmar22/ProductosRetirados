@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Subaru"
    ],
    "modelos": [
-    "E13*2007/46*1648*02",
-    "E13*2007/46*1648*03",
-    "E1*2007/46*0597*08",
-    "E13*2007/46*1648*04",
-    "E13*2007/46*1648*05",
-    "E13*2007/46*1648*06"
+    "E13*2007/46*1648*02; E13*2007/46*1648*03; E1*2007/46*0597*08; E13*2007/46*1648*04; E13*2007/46*1648*05; E13*2007/46*1648*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.04.2017 - 29.05.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Subaru Impreza y XV, año modelo 2017-2019.",
-   "fechasTexto": "06.04.2017 - 29.05.2019"
+   "fechasTexto": "06.04.2017 - 29.05.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,20 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00890/21",
-   "mm:subaru:e13-2007-46-1648-02",
-   "mm:subaru:e13-2007-46-1648-03",
-   "mm:subaru:e1-2007-46-0597-08",
-   "mm:subaru:e13-2007-46-1648-04",
-   "mm:subaru:e13-2007-46-1648-05",
-   "mm:subaru:e13-2007-46-1648-06"
+   "mm:subaru:e13-2007-46-1648-02-e13-2007-46-1648-03-e1-2007-46-0597-08-e13-2007-46-1648-04-e13-2007-46-1648-05-e13-2007-46-1648-06",
+   "ml:subaru:06-04-2017-29-05-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0ae00351feed0531"
+  "enriquecido": true,
+  "hashContenido": "9ed8f01a6d7b8725"
  },
  "slug": "turismos-subaru-safety-gate-10003964"
 }

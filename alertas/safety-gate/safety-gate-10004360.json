@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,42 +27,22 @@
     "Volvo Trucks"
    ],
    "modelos": [
-    "Models: 2423C",
-    "2433C",
-    "2443C",
-    "24A3C",
-    "24B3C",
-    "24G3C",
-    "24J3C",
-    "24K3C",
-    "24L3C",
-    "24Q3C",
-    "24R3C",
-    "24S3C",
-    "24T3C",
-    "24V3C",
-    "VT23R VT43R",
-    "VTA3T",
-    "VTG3T",
-    "VTJ3R",
-    "VTJ3T",
-    "VTL3R",
-    "VTL3T",
-    "VTR3R",
-    "VTS3R",
-    "VTS3T",
-    "VTT3R",
-    "VTV3R",
-    "VTY3R",
+    "Models: 2423C, 2433C, 2443C, 24A3C, 24B3C, 24G3C, 24J3C, 24K3C, 24L3C, 24Q3C, 24R3C, 24S3C, 24T3C, 24V3C",
+    "VT23R VT43R, VTA3T, VTG3T, VTJ3R, VTJ3T, VTL3R, VTL3T, VTR3R, VTS3R, VTS3T, VTT3R ,VTV3R, VTY3R",
     "e11*2007/46*0271 e11*2007/46*3086 e11*2007/46*0272 e11*2007/46*3087 e5*2007/46*1014 e11*2007/46*0273 e11*2007/46*3261 e5*2007/46*1016 e11*2007/46*0274 e11*2007/46*3262",
     "e11*2007/46*0278 e1*2007/46*1444 e11*2007/46*0279 e1*2007/46*1443 e11*2007/46*0282 e1*2007/46*1445 e1*2007/46*1413",
     "e11*2007/46*3265 e5*2007/46*1020 e11*2007/46*0281 e11*2007/46*3445 e5*2007/46*1022 e11*2007/46*0283 e11*2007/46*3266 e5*2007/46*1021 e11*2007/46*0284 e11*2007/46*3088 e5*2007/46*1015",
     "e5*2007/46*1017 e11*2007/46*0275 e11*2007/46*3263 e5*2007/46*1018 e11*2007/46*0276 e11*2007/46*3446 e5*2007/46*1023 e11*2007/46*0280 e11*2007/46*3264 e5*2007/46*1019 e11*2007/46*0899"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01/2014 to May 2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "01/2014 to May 2019"
+   "fechasTexto": "01/2014 to May 2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -92,7 +72,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "NO",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,45 +94,21 @@
  "dedup": {
   "claves": [
    "ref:A12/01301/21",
-   "mm:volvo-trucks:models-2423c",
-   "mm:volvo-trucks:2433c",
-   "mm:volvo-trucks:2443c",
-   "mm:volvo-trucks:24a3c",
-   "mm:volvo-trucks:24b3c",
-   "mm:volvo-trucks:24g3c",
-   "mm:volvo-trucks:24j3c",
-   "mm:volvo-trucks:24k3c",
-   "mm:volvo-trucks:24l3c",
-   "mm:volvo-trucks:24q3c",
-   "mm:volvo-trucks:24r3c",
-   "mm:volvo-trucks:24s3c",
-   "mm:volvo-trucks:24t3c",
-   "mm:volvo-trucks:24v3c",
-   "mm:volvo-trucks:vt23r-vt43r",
-   "mm:volvo-trucks:vta3t",
-   "mm:volvo-trucks:vtg3t",
-   "mm:volvo-trucks:vtj3r",
-   "mm:volvo-trucks:vtj3t",
-   "mm:volvo-trucks:vtl3r",
-   "mm:volvo-trucks:vtl3t",
-   "mm:volvo-trucks:vtr3r",
-   "mm:volvo-trucks:vts3r",
-   "mm:volvo-trucks:vts3t",
-   "mm:volvo-trucks:vtt3r",
-   "mm:volvo-trucks:vtv3r",
-   "mm:volvo-trucks:vty3r",
+   "mm:volvo-trucks:models-2423c-2433c-2443c-24a3c-24b3c-24g3c-24j3c-24k3c-24l3c-24q3c-24r3c-24s3c-24t3c-24v3c",
+   "mm:volvo-trucks:vt23r-vt43r-vta3t-vtg3t-vtj3r-vtj3t-vtl3r-vtl3t-vtr3r-vts3r-vts3t-vtt3r-vtv3r-vty3r",
    "mm:volvo-trucks:e11-2007-46-0271-e11-2007-46-3086-e11-2007-46-0272-e11-2007-46-3087-e5-2007-46-1014-e11-2007-46-0273-e11-2007-46-3261-e5-2007-46-1016-e11-2007-46-0274-e11-2007-46-3262",
    "mm:volvo-trucks:e11-2007-46-0278-e1-2007-46-1444-e11-2007-46-0279-e1-2007-46-1443-e11-2007-46-0282-e1-2007-46-1445-e1-2007-46-1413",
    "mm:volvo-trucks:e11-2007-46-3265-e5-2007-46-1020-e11-2007-46-0281-e11-2007-46-3445-e5-2007-46-1022-e11-2007-46-0283-e11-2007-46-3266-e5-2007-46-1021-e11-2007-46-0284-e11-2007-46-3088-e5-2007-46-1015",
-   "mm:volvo-trucks:e5-2007-46-1017-e11-2007-46-0275-e11-2007-46-3263-e5-2007-46-1018-e11-2007-46-0276-e11-2007-46-3446-e5-2007-46-1023-e11-2007-46-0280-e11-2007-46-3264-e5-2007-46-1019-e11-2007-46-0899"
+   "mm:volvo-trucks:e5-2007-46-1017-e11-2007-46-0275-e11-2007-46-3263-e5-2007-46-1018-e11-2007-46-0276-e11-2007-46-3446-e5-2007-46-1023-e11-2007-46-0280-e11-2007-46-3264-e5-2007-46-1019-e11-2007-46-0899",
+   "ml:volvo-trucks:01-2014-to-may-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "32c2a2a2e398a996"
+  "enriquecido": true,
+  "hashContenido": "49f7119f089f07fa"
  },
  "slug": "camion-volvo-trucks-safety-gate-10004360"
 }

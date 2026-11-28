@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2007/46*1054"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "6.11.2019 - 12.03.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "6.11.2019 - 12.03.2021"
+   "fechasTexto": "6.11.2019 - 12.03.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Eslovaquia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01348/21",
-   "mm:land-rover:e5-2007-46-1054"
+   "mm:land-rover:e5-2007-46-1054",
+   "ml:land-rover:6-11-2019-12-03-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "734a8df1a19f7a05"
+  "enriquecido": true,
+  "hashContenido": "62879cb191d43837"
  },
  "slug": "turismos-land-rover-safety-gate-10004397"
 }

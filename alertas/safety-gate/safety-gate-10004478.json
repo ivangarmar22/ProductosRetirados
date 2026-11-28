@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,13 +28,17 @@
    ],
    "modelos": [
     "Type: 3T",
-    "e8*2007/46*0317*00 -*018",
-    "e11*2001/116*0326*32-45"
+    "e8*2007/46*0317*00 -*018, e11*2001/116*0326*32-45"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.7.2019 - 22.10.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "13.7.2019 - 22.10.2019"
+   "fechasTexto": "13.7.2019 - 22.10.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,16 +79,16 @@
   "claves": [
    "ref:A12/01383/21",
    "mm:skoda:type-3t",
-   "mm:skoda:e8-2007-46-0317-00-018",
-   "mm:skoda:e11-2001-116-0326-32-45"
+   "mm:skoda:e8-2007-46-0317-00-018-e11-2001-116-0326-32-45",
+   "ml:skoda:13-7-2019-22-10-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3c3ffdb6081f3823"
+  "enriquecido": true,
+  "hashContenido": "90d5f26f9aca68cd"
  },
  "slug": "turismos-skoda-safety-gate-10004478"
 }

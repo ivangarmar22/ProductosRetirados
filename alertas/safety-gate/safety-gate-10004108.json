@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-15"
  },
  "categoria": {
   "literal": "Encendedores",
@@ -30,7 +30,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Novedad más ligera en forma de inodoro.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +62,10 @@
   "ccaa": [],
   "paisNotificante": "Chipre",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,11 +91,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "28c80c02c0a165a1"
+  "enriquecido": true,
+  "hashContenido": "26f72d7f85369645"
  },
  "slug": "encendedor-de-novedad-bd-safety-gate-10004108"
 }

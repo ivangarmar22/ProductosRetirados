@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-03-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Alfa Romeo"
    ],
    "modelos": [
-    "e3*2007/46*0382*15",
-    "e3*2007/46*0435*18",
-    "Types: 952",
-    "949"
+    "e3*2007/46*0382*15, e3*2007/46*0435*18; Types: 952, 949"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.01.2019 - 15.02.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "16.01.2019 - 15.02.2021"
+   "fechasTexto": "16.01.2019 - 15.02.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +80,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01312/21",
-   "mm:alfa-romeo:e3-2007-46-0382-15",
-   "mm:alfa-romeo:e3-2007-46-0435-18",
-   "mm:alfa-romeo:types-952",
-   "mm:alfa-romeo:949"
+   "mm:alfa-romeo:e3-2007-46-0382-15-e3-2007-46-0435-18-types-952-949",
+   "ml:alfa-romeo:16-01-2019-15-02-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "631eabcd0040d0f9"
+  "enriquecido": true,
+  "hashContenido": "7c6d95fb7a62b3ec"
  },
  "slug": "turismos-alfa-romeo-safety-gate-10004410"
 }

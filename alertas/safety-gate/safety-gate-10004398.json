@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Jaguar"
    ],
    "modelos": [
-    "e5*2007/46*1050",
-    "e5*2007/46*1047",
-    "e5*2007/46*1049",
-    "e5*2007/46*1048"
+    "e5*2007/46*1050, e5*2007/46*1047, e5*2007/46*1049, e5*2007/46*1048"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.11.2019 - 28.04.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "27.11.2019 - 28.04.2021"
+   "fechasTexto": "27.11.2019 - 28.04.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "RO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01349/21",
-   "mm:jaguar:e5-2007-46-1050",
-   "mm:jaguar:e5-2007-46-1047",
-   "mm:jaguar:e5-2007-46-1049",
-   "mm:jaguar:e5-2007-46-1048"
+   "mm:jaguar:e5-2007-46-1050-e5-2007-46-1047-e5-2007-46-1049-e5-2007-46-1048",
+   "ml:jaguar:27-11-2019-28-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b8b205158bfbae2d"
+  "enriquecido": true,
+  "hashContenido": "9dbab38627a74a11"
  },
  "slug": "turismos-jaguar-safety-gate-10004398"
 }

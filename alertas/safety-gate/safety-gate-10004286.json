@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-13"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "17007210420 -17 (presumably all products with ref. 61371 and similar products)"
+     "numero": "17007"
+    },
+    {
+     "numero": "210420 -17 (presumably all products with ref. 61371 and similar products)"
     }
    ],
    "ean": [
     "8420406613710"
    ],
    "descripcion": "Lámpara de mesa blanca y rosa clara, con dibujos de cisne, equipada con un zócalo E14 (230 V). Altura: 300 mm; Diámetro: 150 mm; Peso: 0,37 kg; Clasificación de protección: IP20; Tensión: 230 V. Producto vendido en línea, en particular a través de Amazon.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -68,7 +72,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": null,
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -113,15 +119,16 @@
    "ref:A12/01207/21",
    "ean:8420406613710",
    "mm:dalber:61371",
-   "ml:dalber:17007210420-17-presumably-all-products-with-ref-61371-and-similar-products"
+   "ml:dalber:17007",
+   "ml:dalber:210420-17-presumably-all-products-with-ref-61371-and-similar-products"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "99cefa65c25270fe"
+  "enriquecido": true,
+  "hashContenido": "071d00e1a739a0f3"
  },
  "slug": "lampara-de-mesa-para-ninos-dalber-safety-gate-10004286"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,22 +24,45 @@
   {
    "nombre": "Corolla, Yaris, Highlander, RAV4, UX200, UX300e",
    "marcas": [
-    "Lexus, Toyota"
+    "Lexus",
+    "Toyota"
    ],
    "modelos": [
-    "e6*2007/46*0318*04",
-    "e6*2007/46*0316*03",
-    "e6*2007/46*0454*00",
-    "e6*2007/46*0437*01 e6*2018/858*00001*00",
-    "e6*2007/46*0429*00",
-    "e6*2007/46*0289*04",
-    "e6*2007/46*0263*03",
-    "e6*2007/46*0448*01"
+    "e6*2007/46*0318*04, e6*2007/46*0316*03, e6*2007/46*0454*00, e6*2007/46*0437*01 e6*2018/858*00001*00, e6*2007/46*0429*00, e6*2007/46*0289*04, e6*2007/46*0263*03, e6*2007/46*0448*01."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Corolla TMMT: 31.10.2020 - 23.02.2021"
+    },
+    {
+     "numero": "Corolla TMUK: 8.09.2020 - 16.03.2021"
+    },
+    {
+     "numero": "GR Yaris: 30.09.2020 - 05.03.2021"
+    },
+    {
+     "numero": "Highlander: 02.11.2020 - 06.04.2021"
+    },
+    {
+     "numero": "RAV4 HEV: 04.08.2020 - 24.03.2021"
+    },
+    {
+     "numero": "RAV4 PHVE: 08.06.2020 - 09.03.2021"
+    },
+    {
+     "numero": "UX200/250h: 04.11.2020 - 15.03.2021"
+    },
+    {
+     "numero": "UX300e: 19.08.2020 - 23.03.2021"
+    },
+    {
+     "numero": "Yaris TMMF: 09.07.2020 - 14.04.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Códigos de modelo Toyota: Corolla TMMT (MZEA11, ZRE210, ZWE211, ZWE213), Corolla TMUK (MZEH12, NRE210, ZWE211), GR Yaris (GXPA16), Yaris TMMF (KSP211, MXPA11, MXPH11), Highlander (AXUH78), RAV4 HEV (AXAH52, AXAH54, AXAL52, AXAL54, MXAA52, MXAA54), RAV4 PHVE (AXAP54).",
-   "fechasTexto": "Corolla TMMT: 31.10.2020 - 23.02.2021Corolla TMUK: 8.09.2020 - 16.03.2021GR Yaris: 30.09.2020 - 05.03.2021Highlander: 02.11.2020 - 06.04.2021RAV4 HEV: 04.08.2020 - 24.03.2021RAV4 PHVE: 08.06.2020 - 09.03.2021UX200/250h: 04.11.2020 - 15.03.2021UX300e: 19.08.2020 - 23.03.2021Yaris TMMF: 09.07.2020 - 14.04.2021"
+   "fechasTexto": "Corolla TMMT: 31.10.2020 - 23.02.2021Corolla TMUK: 8.09.2020 - 16.03.2021GR Yaris: 30.09.2020 - 05.03.2021Highlander: 02.11.2020 - 06.04.2021RAV4 HEV: 04.08.2020 - 24.03.2021RAV4 PHVE: 08.06.2020 - 09.03.2021UX200/250h: 04.11.2020 - 15.03.2021UX300e: 19.08.2020 - 23.03.2021Yaris TMMF: 09.07.2020 - 14.04.2021",
+   "envase": "Códigos de modelo Lexus: UX200/250h (MZAA10, MZAH10, MZAH15), UX300e (KMA10); Año de modelo: 2020~2021. Vehículos equipados con un DCM (módulo de comunicación de datos) que admite un sistema de llamada de emergencia (eCall)."
   }
  ],
  "riesgo": {
@@ -69,7 +92,21 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "PL",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,22 +116,34 @@
  "dedup": {
   "claves": [
    "ref:A12/01370/21",
-   "mm:lexus-toyota:e6-2007-46-0318-04",
-   "mm:lexus-toyota:e6-2007-46-0316-03",
-   "mm:lexus-toyota:e6-2007-46-0454-00",
-   "mm:lexus-toyota:e6-2007-46-0437-01-e6-2018-858-00001-00",
-   "mm:lexus-toyota:e6-2007-46-0429-00",
-   "mm:lexus-toyota:e6-2007-46-0289-04",
-   "mm:lexus-toyota:e6-2007-46-0263-03",
-   "mm:lexus-toyota:e6-2007-46-0448-01"
+   "mm:lexus:e6-2007-46-0318-04-e6-2007-46-0316-03-e6-2007-46-0454-00-e6-2007-46-0437-01-e6-2018-858-00001-00-e6-2007-46-0429-00-e6-2007-46-0289-04-e6-2007-46-0263-03-e6-2007-46-0448-01",
+   "ml:lexus:corolla-tmmt-31-10-2020-23-02-2021",
+   "ml:lexus:corolla-tmuk-8-09-2020-16-03-2021",
+   "ml:lexus:gr-yaris-30-09-2020-05-03-2021",
+   "ml:lexus:highlander-02-11-2020-06-04-2021",
+   "ml:lexus:rav4-hev-04-08-2020-24-03-2021",
+   "ml:lexus:rav4-phve-08-06-2020-09-03-2021",
+   "ml:lexus:ux200-250h-04-11-2020-15-03-2021",
+   "ml:lexus:ux300e-19-08-2020-23-03-2021",
+   "ml:lexus:yaris-tmmf-09-07-2020-14-04-2021",
+   "mm:toyota:e6-2007-46-0318-04-e6-2007-46-0316-03-e6-2007-46-0454-00-e6-2007-46-0437-01-e6-2018-858-00001-00-e6-2007-46-0429-00-e6-2007-46-0289-04-e6-2007-46-0263-03-e6-2007-46-0448-01",
+   "ml:toyota:corolla-tmmt-31-10-2020-23-02-2021",
+   "ml:toyota:corolla-tmuk-8-09-2020-16-03-2021",
+   "ml:toyota:gr-yaris-30-09-2020-05-03-2021",
+   "ml:toyota:highlander-02-11-2020-06-04-2021",
+   "ml:toyota:rav4-hev-04-08-2020-24-03-2021",
+   "ml:toyota:rav4-phve-08-06-2020-09-03-2021",
+   "ml:toyota:ux200-250h-04-11-2020-15-03-2021",
+   "ml:toyota:ux300e-19-08-2020-23-03-2021",
+   "ml:toyota:yaris-tmmf-09-07-2020-14-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "179f3a2fce1dafef"
+  "enriquecido": true,
+  "hashContenido": "9c15ea59b6dc6fe6"
  },
  "slug": "turismos-lexus-toyota-safety-gate-10004450"
 }

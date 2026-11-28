@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Toyota Prius PHEV: e6*2007/46*0340*04",
     "Toyota Prius: e6*2007/46*0339*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.05.2021 - 02.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "31.05.2021 - 02.08.2021"
+   "fechasTexto": "31.05.2021 - 02.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,16 @@
   "ccaa": [],
   "paisNotificante": "Bulgaria",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "NO",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +88,16 @@
   "claves": [
    "ref:A12/01394/21",
    "mm:toyota:toyota-prius-phev-e6-2007-46-0340-04",
-   "mm:toyota:toyota-prius-e6-2007-46-0339-06"
+   "mm:toyota:toyota-prius-e6-2007-46-0339-06",
+   "ml:toyota:31-05-2021-02-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7db51e2f210dffd4"
+  "enriquecido": true,
+  "hashContenido": "0b5df6851714aa05"
  },
  "slug": "coche-de-pasajeros-toyota-safety-gate-10004515"
 }

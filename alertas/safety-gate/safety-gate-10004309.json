@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-15"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "1499703000001"
    ],
    "descripcion": "Arco de juguete amarillo-rojo con tres flechas (amarillo, azul y rojo) con una ventosa amarilla al final.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en un blíster de plástico y cartón colorido."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -89,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bbc31c6676c83e40"
+  "enriquecido": true,
+  "hashContenido": "c85834be74b6ee1a"
  },
  "slug": "arco-de-juguete-y-flechas-indian-archery-safety-gate-10004309"
 }

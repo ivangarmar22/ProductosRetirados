@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Type: FZ",
     "e1*2018/858*00006*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27.4.2021 to 21.5.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "27.4.2021 to 21.5.2021"
+   "fechasTexto": "27.4.2021 to 21.5.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +81,16 @@
   "claves": [
    "ref:A12/01262/21",
    "mm:audi:type-fz",
-   "mm:audi:e1-2018-858-00006"
+   "mm:audi:e1-2018-858-00006",
+   "ml:audi:27-4-2021-to-21-5-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ceeb015672426977"
+  "enriquecido": true,
+  "hashContenido": "713ae7abdabc2510"
  },
  "slug": "turismos-audi-safety-gate-10004353"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.05.2018 - 29.08.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "07.05.2018 - 29.08.2020"
+   "fechasTexto": "07.05.2018 - 29.08.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,15 +77,16 @@
  "dedup": {
   "claves": [
    "ref:INFO/00152/21",
-   "mm:dodge:individual-approval"
+   "mm:dodge:individual-approval",
+   "ml:dodge:07-05-2018-29-08-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e1e7368f03195349"
+  "enriquecido": true,
+  "hashContenido": "e2986a87bf61e6bf"
  },
  "slug": "turismos-dodge-safety-gate-10004412"
 }

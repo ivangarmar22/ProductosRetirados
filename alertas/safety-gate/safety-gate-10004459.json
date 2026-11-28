@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-12"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "from e13*2007/46*1085*05 to e13*2007/46*1085*19"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 16 August 2012 to 24 November 2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Cayenne S Diesel con un motor diésel V8 de 4,2 litros (norma de emisiones Euro 5)",
-   "fechasTexto": "From 16 August 2012 to 24 November 2017"
+   "fechasTexto": "From 16 August 2012 to 24 November 2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "HU",
+   "NO",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A11/00080/21",
-   "mm:porsche:from-e13-2007-46-1085-05-to-e13-2007-46-1085-19"
+   "mm:porsche:from-e13-2007-46-1085-05-to-e13-2007-46-1085-19",
+   "ml:porsche:from-16-august-2012-to-24-november-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9c5689f6d6495e4f"
+  "enriquecido": true,
+  "hashContenido": "af5e41843edd5d1d"
  },
  "slug": "turismos-porsche-safety-gate-10004459"
 }

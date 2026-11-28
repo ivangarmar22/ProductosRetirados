@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-23"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "OnePlus"
    ],
    "modelos": [
-    "A6199",
-    "Art: 2002141"
+    "A6199 / Art: 2002141"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Cargador de batería blanco con 2 puertos USB.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con ventana de plástico transparente."
   }
  ],
  "riesgo": {
@@ -94,16 +94,15 @@
  "dedup": {
   "claves": [
    "ref:A11/00078/21",
-   "mm:oneplus:a6199",
-   "mm:oneplus:art-2002141"
+   "mm:oneplus:a6199-art-2002141"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f44f53e613f66aa8"
+  "enriquecido": true,
+  "hashContenido": "21b95f5827bee946"
  },
  "slug": "cargador-usb-oneplus-safety-gate-10004381"
 }

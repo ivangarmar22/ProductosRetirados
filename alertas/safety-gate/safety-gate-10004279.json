@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e4*2007/46*1157*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between June 2019 and January 2020."
+    }
+   ],
    "ean": [],
    "descripcion": "Modelo (Tipo): IONIQ (AE EV); Año de modelo: 2019 ~ 2020; De VIN: de KMHC851JFLU052194 a KMHC05LJ6LU064079.",
-   "fechasTexto": "The affected vehicles were manufactured between June 2019 and January 2020."
+   "fechasTexto": "The affected vehicles were manufactured between June 2019 and January 2020.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FI",
+   "HU",
+   "IE",
+   "IS",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01211/21",
-   "mm:hyundai:e4-2007-46-1157"
+   "mm:hyundai:e4-2007-46-1157",
+   "ml:hyundai:the-affected-vehicles-were-manufactured-between-june-2019-and-january-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7e3f21cec6512f60"
+  "enriquecido": true,
+  "hashContenido": "5781f8860ee5069d"
  },
  "slug": "turismos-hyundai-safety-gate-10004279"
 }

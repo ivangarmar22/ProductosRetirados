@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Bmw"
    ],
    "modelos": [
-    "e1*168/2013*00091",
-    "Type: 2R99"
+    "e1*168/2013*00091, Type: 2R99"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "12 February 2020 - 7 May 2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "12 February 2020 - 7 May 2020"
+   "fechasTexto": "12 February 2020 - 7 May 2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HR",
+   "IE",
+   "NL",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01302/21",
-   "mm:bmw:e1-168-2013-00091",
-   "mm:bmw:type-2r99"
+   "mm:bmw:e1-168-2013-00091-type-2r99",
+   "ml:bmw:12-february-2020-7-may-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "82fa2935b63fdf53"
+  "enriquecido": true,
+  "hashContenido": "00c9c4042b03195e"
  },
  "slug": "motocicleta-bmw-safety-gate-10004334"
 }

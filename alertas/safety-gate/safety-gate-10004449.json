@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e5*2018/858*00001*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.10.2020 - 15.04.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Código de modelo: NX4",
-   "fechasTexto": "14.10.2020 - 15.04.2021"
+   "fechasTexto": "14.10.2020 - 15.04.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Chequia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "NO",
+   "PL",
+   "PT",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01373/21",
-   "mm:hyundai:e5-2018-858-00001"
+   "mm:hyundai:e5-2018-858-00001",
+   "ml:hyundai:14-10-2020-15-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b9cfc76e758f353d"
+  "enriquecido": true,
+  "hashContenido": "b29a18325e48aa00"
  },
  "slug": "turismos-hyundai-safety-gate-10004449"
 }

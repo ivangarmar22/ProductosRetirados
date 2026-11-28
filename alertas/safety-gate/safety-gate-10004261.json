@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-10-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "CITROEN"
    ],
    "modelos": [
-    "\"e2*2007/46*0530*15",
-    "e2*2007/46*0531*16\""
+    "\"e2*2007/46*0530*15, e2*2007/46*0531*16\""
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 15 and 22 April 2021."
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "The affected vehicles were manufactured between 15 and 22 April 2021."
+   "fechasTexto": "The affected vehicles were manufactured between 15 and 22 April 2021.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,16 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01240/21",
-   "mm:citroen:e2-2007-46-0530-15",
-   "mm:citroen:e2-2007-46-0531-16"
+   "mm:citroen:e2-2007-46-0530-15-e2-2007-46-0531-16",
+   "ml:citroen:the-affected-vehicles-were-manufactured-between-15-and-22-april-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f3e0315dc2f88272"
+  "enriquecido": true,
+  "hashContenido": "76aec623a826967f"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-citroen-safety-gate-10004261"
 }

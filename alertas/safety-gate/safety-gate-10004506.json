@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "Type: 224",
-    "225",
-    "227",
-    "234",
-    "235",
-    "236",
-    "238",
-    "246",
-    "256",
-    "536"
+    "Type: 224, 225, 227, 234, 235, 236, 238, 246, 256, 536."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Model year: 2020 - 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Modelos: S60, V60, XC60, V60CC, S90, V90, XC90, S90L, V90CC, XC40.",
-   "fechasTexto": "Model year: 2020 - 2021"
+   "fechasTexto": "Model year: 2020 - 2021",
+   "envase": "Chasis: de 0109120 a 0111863, de 0372592 a 0433982, de 0071123 a 0071425, de 0078849 a 0099280, de 0127797 a 0163984, de 0135345 a 0135543, de 0210929 a 0216445, de 0427444 a 0832869, de 0531733 a 0717827, de 0473404 a 0507881."
   }
  ],
  "riesgo": {
@@ -71,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "IE",
+   "IS",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,24 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01385/21",
-   "mm:volvo:type-224",
-   "mm:volvo:225",
-   "mm:volvo:227",
-   "mm:volvo:234",
-   "mm:volvo:235",
-   "mm:volvo:236",
-   "mm:volvo:238",
-   "mm:volvo:246",
-   "mm:volvo:256",
-   "mm:volvo:536"
+   "mm:volvo:type-224-225-227-234-235-236-238-246-256-536",
+   "ml:volvo:model-year-2020-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8436e9a6aa2d5f58"
+  "enriquecido": true,
+  "hashContenido": "1e97b6cc94c2ef13"
  },
  "slug": "turismos-volvo-safety-gate-10004506"
 }

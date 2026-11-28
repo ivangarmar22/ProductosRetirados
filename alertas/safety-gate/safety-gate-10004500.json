@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,19 @@
     "Seat"
    ],
    "modelos": [
-    "Types: KL",
-    "KM",
+    "Types: KL, KM",
     "e9*2007/46*3167*05 e9*2007/46*3167*06 e9*2007/46*3167*08 e9*2007/46*3167*09 e9*2007/46*3167*10",
     "e9*2007/46*3167*11 e9*2007/46*3167*12 e9*2007/46*4008*04 e9*2007/46*4008*05 e9*2007/46*4008*06 e9*2007/46*4008*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.09.2020 - 23.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "18.09.2020 - 23.08.2021"
+   "fechasTexto": "18.09.2020 - 23.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +70,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "IE",
+   "PT",
+   "RO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,17 +87,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01388/21",
-   "mm:seat:types-kl",
+   "mm:seat:types-kl-km",
    "mm:seat:e9-2007-46-3167-05-e9-2007-46-3167-06-e9-2007-46-3167-08-e9-2007-46-3167-09-e9-2007-46-3167-10",
-   "mm:seat:e9-2007-46-3167-11-e9-2007-46-3167-12-e9-2007-46-4008-04-e9-2007-46-4008-05-e9-2007-46-4008-06-e9-2007-46-4008-07"
+   "mm:seat:e9-2007-46-3167-11-e9-2007-46-3167-12-e9-2007-46-4008-04-e9-2007-46-4008-05-e9-2007-46-4008-06-e9-2007-46-4008-07",
+   "ml:seat:18-09-2020-23-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ad458cadad8eb420"
+  "enriquecido": true,
+  "hashContenido": "c2edd32335e3e7f5"
  },
  "slug": "turismos-seat-safety-gate-10004500"
 }

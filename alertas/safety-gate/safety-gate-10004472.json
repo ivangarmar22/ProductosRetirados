@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Man"
    ],
    "modelos": [
-    "Models: B.2007.46.017",
-    "B.2007.46.018",
-    "e1*2007/46*1955*03+05-06",
-    "e1*2007/46*1956*03-06"
+    "Models: B.2007.46.017, B.2007.46.018",
+    "e1*2007/46*1955*03+05-06, e1*2007/46*1956*03-06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09/12/2019 to 16/04/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús/coach",
-   "fechasTexto": "09/12/2019 to 16/04/2021"
+   "fechasTexto": "09/12/2019 to 16/04/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +82,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01375/21",
-   "mm:man:models-b-2007-46-017",
-   "mm:man:b-2007-46-018",
-   "mm:man:e1-2007-46-1955-03-05-06",
-   "mm:man:e1-2007-46-1956-03-06"
+   "mm:man:models-b-2007-46-017-b-2007-46-018",
+   "mm:man:e1-2007-46-1955-03-05-06-e1-2007-46-1956-03-06",
+   "ml:man:09-12-2019-to-16-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "80f64d52856d4880"
+  "enriquecido": true,
+  "hashContenido": "f1950cef00fa551d"
  },
  "slug": "autobus-coach-man-safety-gate-10004472"
 }

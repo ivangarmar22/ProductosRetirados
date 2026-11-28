@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Can-am"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos de cuatro ruedas todo terreno, equipados con un kit de orugas y un motor de 82 CV.",
-   "fechasTexto": "2021"
+   "fechasTexto": "2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "IS",
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +81,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01359/21"
+   "ref:A12/01359/21",
+   "ml:can-am:2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "992d115526ebf3fe"
+  "enriquecido": true,
+  "hashContenido": "4fadb883bfb697f7"
  },
  "slug": "vehiculo-de-cuatro-ruedas-todo-terreno-can-am-safety-gate-10004482"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-09-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Böckmann"
    ],
    "modelos": [
-    "Types: AB1C",
-    "AT1",
-    "ATP",
-    "KOM",
-    "AB3C",
-    "CH3",
-    "e1*2007/46*0083*06",
-    "e1*2007/46*0088*05",
-    "e1*2007/46*0104*05",
-    "e1*2007/46*0176*04",
-    "e1*2007/46*0786*05",
-    "e1*2007/46*1872*00"
+    "Types: AB1C, AT1, ATP, KOM, AB3C, CH3",
+    "e1*2007/46*0083*06 , e1*2007/46*0088*05 , e1*2007/46*0104*05 , e1*2007/46*0176*04 , e1*2007/46*0786*05 , e1*2007/46*1872*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "15.03.2021 - 23.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Remolque",
-   "fechasTexto": "15.03.2021 - 23.07.2021"
+   "fechasTexto": "15.03.2021 - 23.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,26 +80,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01304/21",
-   "mm:bockmann:types-ab1c",
-   "mm:bockmann:at1",
-   "mm:bockmann:atp",
-   "mm:bockmann:kom",
-   "mm:bockmann:ab3c",
-   "mm:bockmann:ch3",
-   "mm:bockmann:e1-2007-46-0083-06",
-   "mm:bockmann:e1-2007-46-0088-05",
-   "mm:bockmann:e1-2007-46-0104-05",
-   "mm:bockmann:e1-2007-46-0176-04",
-   "mm:bockmann:e1-2007-46-0786-05",
-   "mm:bockmann:e1-2007-46-1872-00"
+   "mm:bockmann:types-ab1c-at1-atp-kom-ab3c-ch3",
+   "mm:bockmann:e1-2007-46-0083-06-e1-2007-46-0088-05-e1-2007-46-0104-05-e1-2007-46-0176-04-e1-2007-46-0786-05-e1-2007-46-1872-00",
+   "ml:bockmann:15-03-2021-23-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "54ca6972b47c6c04"
+  "enriquecido": true,
+  "hashContenido": "eb3de8101a03b911"
  },
  "slug": "remolque-bockmann-safety-gate-10004371"
 }

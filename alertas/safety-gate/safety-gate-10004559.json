@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e9*2007/46*6697"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18/09/2019 - 28/08/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Rango afectado VIN’s: SJNFAAF16U1 (000063-064161).",
-   "fechasTexto": "18/09/2019 - 28/08/2020"
+   "fechasTexto": "18/09/2019 - 28/08/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,19 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "FR",
+   "HU",
+   "LU",
+   "PL",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +89,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01430/21",
-   "mm:nissan:e9-2007-46-6697"
+   "mm:nissan:e9-2007-46-6697",
+   "ml:nissan:18-09-2019-28-08-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "465183fa95bab87f"
+  "enriquecido": true,
+  "hashContenido": "75a1258032411042"
  },
  "slug": "turismos-nissan-safety-gate-10004559"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Ford"
    ],
    "modelos": [
-    "e1*2007/46*1097*16",
-    "e1*2007/46*1096*19",
-    "Types: FFD",
-    "FED"
+    "e1*2007/46*1097*16, e1*2007/46*1096*19; Types: FFD, FED"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "8 June 2021 - 28 June 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "8 June 2021 - 28 June 2021"
+   "fechasTexto": "8 June 2021 - 28 June 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01320/21",
-   "mm:ford:e1-2007-46-1097-16",
-   "mm:ford:e1-2007-46-1096-19",
-   "mm:ford:types-ffd",
-   "mm:ford:fed"
+   "mm:ford:e1-2007-46-1097-16-e1-2007-46-1096-19-types-ffd-fed",
+   "ml:ford:8-june-2021-28-june-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d061aea8003ed769"
+  "enriquecido": true,
+  "hashContenido": "9fd9becbdabfa366"
  },
  "slug": "turismos-ford-safety-gate-10004368"
 }

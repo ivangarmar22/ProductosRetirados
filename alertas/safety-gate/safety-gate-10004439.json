@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,25 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "Models: 963-0-C",
-    "963-8-H",
-    "963-4-A",
-    "963-2-E",
-    "963-7-E",
-    "963-8-G",
-    "963-0-A",
-    "e1*2007/46*0732*",
-    "e1*2007/46*0743*",
-    "e1*2007/46*0727*",
-    "e1*2007/46*0738*",
-    "e1*2007/46*0736*",
-    "e1*2007/46*0742*",
-    "e1*2007/46*0726*"
+    "Models: 963-0-C, 963-8-H, 963-4-A, 963-2-E, 963-7-E, 963-8-G, 963-0-A",
+    "e1*2007/46*0732*, e1*2007/46*0743*, e1*2007/46*0727*, e1*2007/46*0738*, e1*2007/46*0736*, e1*2007/46*0742*, e1*2007/46*0726*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.5.2020 to 25.3.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "22.5.2020 to 25.3.2021"
+   "fechasTexto": "22.5.2020 to 25.3.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,7 +68,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -85,28 +85,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01368/21",
-   "mm:mercedes-benz:models-963-0-c",
-   "mm:mercedes-benz:963-8-h",
-   "mm:mercedes-benz:963-4-a",
-   "mm:mercedes-benz:963-2-e",
-   "mm:mercedes-benz:963-7-e",
-   "mm:mercedes-benz:963-8-g",
-   "mm:mercedes-benz:963-0-a",
-   "mm:mercedes-benz:e1-2007-46-0732",
-   "mm:mercedes-benz:e1-2007-46-0743",
-   "mm:mercedes-benz:e1-2007-46-0727",
-   "mm:mercedes-benz:e1-2007-46-0738",
-   "mm:mercedes-benz:e1-2007-46-0736",
-   "mm:mercedes-benz:e1-2007-46-0742",
-   "mm:mercedes-benz:e1-2007-46-0726"
+   "mm:mercedes-benz:models-963-0-c-963-8-h-963-4-a-963-2-e-963-7-e-963-8-g-963-0-a",
+   "mm:mercedes-benz:e1-2007-46-0732-e1-2007-46-0743-e1-2007-46-0727-e1-2007-46-0738-e1-2007-46-0736-e1-2007-46-0742-e1-2007-46-0726",
+   "ml:mercedes-benz:22-5-2020-to-25-3-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d62df4d648ebcadc"
+  "enriquecido": true,
+  "hashContenido": "b7676983746da1d1"
  },
  "slug": "camion-mercedes-benz-safety-gate-10004439"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-09"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -27,13 +27,13 @@
     "LE ROYAL"
    ],
    "modelos": [
-    "R22614-5",
-    "243"
+    "R22614-5 / 243"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Luz nocturna en forma de búho, amarilla, led con interruptor. El producto se puede conectar directamente a la toma de corriente.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Blíster de plástico transparente con respaldo de papel."
   }
  ],
  "riesgo": {
@@ -101,16 +101,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01297/21",
-   "mm:le-royal:r22614-5",
-   "mm:le-royal:243"
+   "mm:le-royal:r22614-5-243"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9ab9eb4e76d73eb4"
+  "enriquecido": true,
+  "hashContenido": "d8da2c2837cf1d09"
  },
  "slug": "luz-de-noche-le-royal-safety-gate-10004404"
 }

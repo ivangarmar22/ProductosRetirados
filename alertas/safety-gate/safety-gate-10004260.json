@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-10-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Peugeot"
    ],
    "modelos": [
-    "e2*2007/46*0532*15",
-    "e2*2007/46*0533*16"
+    "e2*2007/46*0532*15, e2*2007/46*0533*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 15 and 21 April 2021."
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "The affected vehicles were manufactured between 15 and 21 April 2021."
+   "fechasTexto": "The affected vehicles were manufactured between 15 and 21 April 2021.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,16 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01239/21",
-   "mm:peugeot:e2-2007-46-0532-15",
-   "mm:peugeot:e2-2007-46-0533-16"
+   "mm:peugeot:e2-2007-46-0532-15-e2-2007-46-0533-16",
+   "ml:peugeot:the-affected-vehicles-were-manufactured-between-15-and-21-april-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b88546778446dc6a"
+  "enriquecido": true,
+  "hashContenido": "7c0bed78f6871fc3"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-peugeot-safety-gate-10004260"
 }

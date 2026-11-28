@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-01"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "AIGOSTAR"
    ],
    "modelos": [
-    "S11",
-    "P17/11"
+    "S11, P17/11"
    ],
    "lotes": [],
    "ean": [
     "8433325186739"
    ],
    "descripcion": "Cable de extensión multi-socket de 6 vías.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se envasa en una bolsa de plástico transparente cerrada con un pedazo de cartón."
   }
  ],
  "riesgo": {
@@ -89,16 +89,15 @@
   "claves": [
    "ref:A12/01269/21",
    "ean:8433325186739",
-   "mm:aigostar:s11",
-   "mm:aigostar:p17-11"
+   "mm:aigostar:s11-p17-11"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c286e47e28843d2c"
+  "enriquecido": true,
+  "hashContenido": "a01e95dfcb599678"
  },
  "slug": "plomo-de-extension-aigostar-safety-gate-10004116"
 }

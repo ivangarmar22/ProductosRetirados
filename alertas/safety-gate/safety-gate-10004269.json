@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2001/116*0457*52",
-    "Type: 204 K"
+    "e1*2001/116*0457*52, Type: 204 K"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 1 and 22 December 2020."
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos híbridos enchufables de clase C, modelo serie 205.",
-   "fechasTexto": "The affected vehicles were manufactured between 1 and 22 December 2020."
+   "fechasTexto": "The affected vehicles were manufactured between 1 and 22 December 2020.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01198/21",
-   "mm:mercedes-benz:e1-2001-116-0457-52",
-   "mm:mercedes-benz:type-204-k"
+   "mm:mercedes-benz:e1-2001-116-0457-52-type-204-k",
+   "ml:mercedes-benz:the-affected-vehicles-were-manufactured-between-1-and-22-december-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a4bd3f5a9443137c"
+  "enriquecido": true,
+  "hashContenido": "3f207ff80f0d74a2"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10004269"
 }

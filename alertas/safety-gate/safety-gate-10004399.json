@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Suzuki"
    ],
    "modelos": [
-    "e4*168/2013*00038*01",
-    "e4*168/2013*00038*02",
-    "e4*168/2013*00039*01"
+    "e4*168/2013*00038*01; e4*168/2013*00038*02; e4*168/2013*00039*01."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.04.2018 - 05.06.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicletas Suzki, modelos: UH125AL9; UH125AM0; UH200AL9.",
-   "fechasTexto": "02.04.2018 - 05.06.2020"
+   "fechasTexto": "02.04.2018 - 05.06.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,17 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01282/21",
-   "mm:suzuki:e4-168-2013-00038-01",
-   "mm:suzuki:e4-168-2013-00038-02",
-   "mm:suzuki:e4-168-2013-00039-01"
+   "mm:suzuki:e4-168-2013-00038-01-e4-168-2013-00038-02-e4-168-2013-00039-01",
+   "ml:suzuki:02-04-2018-05-06-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5526e26f03d88b16"
+  "enriquecido": true,
+  "hashContenido": "8f6cd6600d5f4431"
  },
  "slug": "motocicleta-suzuki-safety-gate-10004399"
 }

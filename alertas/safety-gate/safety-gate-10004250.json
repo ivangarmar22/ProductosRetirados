@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-08-03"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,14 +31,21 @@
    ],
    "lotes": [
     {
-     "numero": "Cód. Forn. 29222EXP: 11/2023L: AGO 98/2020"
+     "numero": "Cód. Forn. 29222"
+    },
+    {
+     "numero": "EXP: 11/2023"
+    },
+    {
+     "numero": "L: AGO 98/2020"
     }
    ],
    "ean": [
     "5600954005714"
    ],
    "descripcion": "50 ml de gel antibacteriano hidroalcohólico transparente. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una botella de plástico transparente de 50 ml con tapa giratoria."
   }
  ],
  "riesgo": {
@@ -93,15 +100,17 @@
    "ref:A12/01169/21",
    "ean:5600954005714",
    "mm:wells:ref-ag",
-   "ml:wells:cod-forn-29222exp-11-2023l-ago-98-2020"
+   "ml:wells:cod-forn-29222",
+   "ml:wells:exp-11-2023",
+   "ml:wells:l-ago-98-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3619bf21519bfde1"
+  "enriquecido": true,
+  "hashContenido": "fdde0eec2567e0d1"
  },
  "slug": "desinfectante-de-manos-wells-safety-gate-10004250"
 }

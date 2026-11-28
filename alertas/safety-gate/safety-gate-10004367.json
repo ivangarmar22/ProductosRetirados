@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-03-11"
  },
  "categoria": {
   "literal": "Equipos de ocio y deporte",
@@ -27,20 +27,17 @@
     "Subea"
    ],
    "modelos": [
-    "SCD manometer sold alone (Cod 2354572)",
-    "in SCD console (Cod 2532535) and in Regulator Pack SCD 500 din (Cod 2364401)"
+    "SCD manometer sold alone (Cod 2354572), in SCD console (Cod 2532535) and in Regulator Pack SCD 500 din (Cod 2364401)"
    ],
    "lotes": [
     {
-     "numero": "854/19"
-    },
-    {
-     "numero": "products sold between 01.01.2020 - 31.07.2021"
+     "numero": "854/19; products sold between 01.01.2020 - 31.07.2021."
     }
    ],
    "ean": [],
    "descripcion": "Manómetro SCD vendido solo (Código 2354572), en consola SCD (Código 2532535) y en Paquete Regulador SCD 500 din (Código 2364401). El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "IE",
+   "IT",
+   "PL",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -98,18 +103,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01390/21",
-   "mm:subea:scd-manometer-sold-alone-cod-2354572",
-   "mm:subea:in-scd-console-cod-2532535-and-in-regulator-pack-scd-500-din-cod-2364401",
-   "ml:subea:854-19",
-   "ml:subea:products-sold-between-01-01-2020-31-07-2021"
+   "mm:subea:scd-manometer-sold-alone-cod-2354572-in-scd-console-cod-2532535-and-in-regulator-pack-scd-500-din-cod-2364401",
+   "ml:subea:854-19-products-sold-between-01-01-2020-31-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "13c1895b1567f5b4"
+  "enriquecido": true,
+  "hashContenido": "f50496850e303432"
  },
  "slug": "manometro-subea-safety-gate-10004367"
 }

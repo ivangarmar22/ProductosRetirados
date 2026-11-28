@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,18 +28,17 @@
    ],
    "modelos": [
     "Type: 4701",
-    "e9*2007/46*6531*00",
-    "*01",
-    "*03",
-    "*04",
-    "*05",
-    "*07",
-    "*08"
+    "e9*2007/46*6531*00, *01, *03, *04, *05, *07,*08"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.8.2017 - 6.5.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Camioneta.",
-   "fechasTexto": "20.8.2017 - 6.5.2020"
+   "fechasTexto": "20.8.2017 - 6.5.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "HR",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,15 +83,16 @@
   "claves": [
    "ref:INFO/00153/21",
    "mm:mercedes-benz:type-4701",
-   "mm:mercedes-benz:e9-2007-46-6531-00"
+   "mm:mercedes-benz:e9-2007-46-6531-00-01-03-04-05-07-08",
+   "ml:mercedes-benz:20-8-2017-6-5-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9caa1b2b27b77019"
+  "enriquecido": true,
+  "hashContenido": "febf0a6365804050"
  },
  "slug": "camion-de-recogida-mercedes-benz-safety-gate-10004447"
 }

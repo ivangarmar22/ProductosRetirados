@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,17 @@
     "Mazda"
    ],
    "modelos": [
-    "e1*2001/116*0234*00",
-    "e1*2001/116*0234*01",
-    "e1*2001/116*0234*02",
-    "e1*2001/116*0234*03",
-    "e1*2001/116*0234*04",
-    "e1*2001/116*0234*05",
-    "e1*2001/116*0234*06",
-    "e1*2001/116*0234*07"
+    "e1*2001/116*0234*00, e1*2001/116*0234*01, e1*2001/116*0234*02, e1*2001/116*0234*03, e1*2001/116*0234*04, e1*2001/116*0234*05, e1*2001/116*0234*06, e1*2001/116*0234*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 18 February 2003 through 22 June 2006."
+    }
+   ],
    "ean": [],
    "descripcion": "Mazda 3 (BK); Gama de VIN: JMZBK**** *1 100033-527682, JM7BK**** *1 103077-206291.",
-   "fechasTexto": "From 18 February 2003 through 22 June 2006."
+   "fechasTexto": "From 18 February 2003 through 22 June 2006.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -70,7 +68,22 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,22 +93,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01229/21",
-   "mm:mazda:e1-2001-116-0234-00",
-   "mm:mazda:e1-2001-116-0234-01",
-   "mm:mazda:e1-2001-116-0234-02",
-   "mm:mazda:e1-2001-116-0234-03",
-   "mm:mazda:e1-2001-116-0234-04",
-   "mm:mazda:e1-2001-116-0234-05",
-   "mm:mazda:e1-2001-116-0234-06",
-   "mm:mazda:e1-2001-116-0234-07"
+   "mm:mazda:e1-2001-116-0234-00-e1-2001-116-0234-01-e1-2001-116-0234-02-e1-2001-116-0234-03-e1-2001-116-0234-04-e1-2001-116-0234-05-e1-2001-116-0234-06-e1-2001-116-0234-07",
+   "ml:mazda:from-18-february-2003-through-22-june-2006"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eef4e65b637b1446"
+  "enriquecido": true,
+  "hashContenido": "cbbfefeeba387616"
  },
  "slug": "turismos-mazda-safety-gate-10004305"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-01"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,8 +27,7 @@
     "AIGOSTAR"
    ],
    "modelos": [
-    "P 17/11",
-    "P40"
+    "P 17/11, P40"
    ],
    "lotes": [],
    "ean": [
@@ -36,7 +35,8 @@
     "8433325187217"
    ],
    "descripcion": "Adaptador multi-socket de 3 vías.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se envasa en una bolsa de plástico transparente cerrada con un pedazo de cartón."
   }
  ],
  "riesgo": {
@@ -95,16 +95,15 @@
    "ref:A12/01272/21",
    "ean:8433325179700",
    "ean:8433325187217",
-   "mm:aigostar:p-17-11",
-   "mm:aigostar:p40"
+   "mm:aigostar:p-17-11-p40"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ae89c49b11ce2503"
+  "enriquecido": true,
+  "hashContenido": "98304d6b6f825047"
  },
  "slug": "adaptador-multi-socket-aigostar-safety-gate-10004119"
 }

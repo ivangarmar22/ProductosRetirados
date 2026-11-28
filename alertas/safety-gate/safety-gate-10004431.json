@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-11-04"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Conjunto de accesorios para el cabello.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Irlanda",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +84,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "96b89197b1ed10a3"
+  "enriquecido": true,
+  "hashContenido": "2bdf1d032e9cae60"
  },
  "slug": "accesorios-para-el-cabello-de-crystal-creations-crystal-creations-safety-gate-10004431"
 }

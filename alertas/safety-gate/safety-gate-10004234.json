@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,30 +27,18 @@
     "Renault"
    ],
    "modelos": [
-    "Types: MF",
-    "MK",
-    "MG",
-    "VK",
-    "MM",
-    "VF",
-    "VG",
-    "e2*2007/46*0023*32",
-    "*33",
-    "*34",
-    "e2*2007/46*0025*18",
-    "*20",
-    "e2*2007/46*0026*28-*30",
-    "e2*2007/46*0028*17",
-    "e2*2007/46*0029*23 - *25",
-    "e2*2007/46*0051*26",
-    "*28",
-    "e2*2007/46*0053*29",
-    "*31"
+    "Types: MF, MK, MG, VK, MM, VF, VG",
+    "e2*2007/46*0023*32,*33,*34, e2*2007/46*0025*18,*20, e2*2007/46*0026*28-*30, e2*2007/46*0028*17, e2*2007/46*0029*23 - *25, e2*2007/46*0051*26, *28, e2*2007/46*0053*29, *31"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between February 2018 and July 2019."
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "The affected vehicles were manufactured between February 2018 and July 2019."
+   "fechasTexto": "The affected vehicles were manufactured between February 2018 and July 2019.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -80,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,22 +84,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01192/21",
-   "mm:renault:types-mf",
-   "mm:renault:e2-2007-46-0023-32",
-   "mm:renault:e2-2007-46-0025-18",
-   "mm:renault:e2-2007-46-0026-28-30",
-   "mm:renault:e2-2007-46-0028-17",
-   "mm:renault:e2-2007-46-0029-23-25",
-   "mm:renault:e2-2007-46-0051-26",
-   "mm:renault:e2-2007-46-0053-29"
+   "mm:renault:types-mf-mk-mg-vk-mm-vf-vg",
+   "mm:renault:e2-2007-46-0023-32-33-34-e2-2007-46-0025-18-20-e2-2007-46-0026-28-30-e2-2007-46-0028-17-e2-2007-46-0029-23-25-e2-2007-46-0051-26-28-e2-2007-46-0053-29-31",
+   "ml:renault:the-affected-vehicles-were-manufactured-between-february-2018-and-july-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e2fe03d0fb422f5"
+  "enriquecido": true,
+  "hashContenido": "0f497ae136d6bf0b"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-renault-safety-gate-10004234"
 }

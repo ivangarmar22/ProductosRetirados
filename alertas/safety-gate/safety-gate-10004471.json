@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "Braun-Ability"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.8.2020 - 1.3.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Componente del vehículo",
-   "fechasTexto": "1.8.2020 - 1.3.2021"
+   "fechasTexto": "1.8.2020 - 1.3.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,15 +74,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01393/21"
+   "ref:A12/01393/21",
+   "ml:braun-ability:1-8-2020-1-3-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7cb789c36248b3f6"
+  "enriquecido": true,
+  "hashContenido": "57ae51cd941b4945"
  },
  "slug": "componente-del-vehiculo-asiento-braun-ability-safety-gate-10004471"
 }

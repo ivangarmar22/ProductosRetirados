@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-14",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-11-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -36,7 +36,8 @@
     "8010047194534"
    ],
    "descripcion": "Loción de protector solar. El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón impresa multicolor. El producto viene en un tubo de plástico opaco blanco. El producto también se vendió en línea."
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LT",
+   "NL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0dec5633297a132c"
+  "enriquecido": true,
+  "hashContenido": "9d9c47520211e7b9"
  },
  "slug": "protector-solar-solartea-safety-gate-10004337"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Audi"
    ],
    "modelos": [
-    "e1*2018/858*00005",
-    "Type: FW"
+    "e1*2018/858*00005, Type: FW"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 20 November 2020 and 20 April 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículo eléctrico",
-   "fechasTexto": "The affected vehicles were manufactured between 20 November 2020 and 20 April 2021"
+   "fechasTexto": "The affected vehicles were manufactured between 20 November 2020 and 20 April 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "HR",
+   "IE",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +85,16 @@
  "dedup": {
   "claves": [
    "ref:INFO/00141/21",
-   "mm:audi:e1-2018-858-00005",
-   "mm:audi:type-fw"
+   "mm:audi:e1-2018-858-00005-type-fw",
+   "ml:audi:the-affected-vehicles-were-manufactured-between-20-november-2020-and-20-april-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8139096c8801121b"
+  "enriquecido": true,
+  "hashContenido": "adb710088ae8bf6a"
  },
  "slug": "turismos-audi-safety-gate-10004184"
 }

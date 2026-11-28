@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,14 +29,21 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "#190812-1 EF141Expiry date: 08/21"
+     "numero": "#190812-1"
+    },
+    {
+     "numero": "EF141"
+    },
+    {
+     "numero": "Expiry date: 08/21"
     }
    ],
    "ean": [
     "737192001002"
    ],
    "descripcion": "Aligeramiento de la piel cuerpo Loción. El producto se vende en línea, en particular a través de eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón exterior de dos tonos, rosa y beige. Un lado de la caja es azul y blanco, y contiene información sobre el producto en francés."
   }
  ],
  "riesgo": {
@@ -90,15 +97,17 @@
   "claves": [
    "ref:A12/01280/21",
    "ean:737192001002",
-   "ml:clear-essence:190812-1-ef141expiry-date-08-21"
+   "ml:clear-essence:190812-1",
+   "ml:clear-essence:ef141",
+   "ml:clear-essence:expiry-date-08-21"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2e001926df7df666"
+  "enriquecido": true,
+  "hashContenido": "cc367c5151629dcb"
  },
  "slug": "producto-para-aligerar-la-piel-clear-essence-safety-gate-10002509"
 }

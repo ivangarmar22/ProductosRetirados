@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-23"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "Lot 009 Manufacturing Date 9/1/2021"
-    },
-    {
-     "numero": "Expiry Date 9/1/2024 (3Months after opening)"
+     "numero": "Lot 009 Manufacturing Date 9/1/2021, Expiry Date 9/1/2024 (3Months after opening)"
     }
    ],
    "ean": [
     "5304000204396"
    ],
    "descripcion": "Toallitas húmedas para piel delicada y normal.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje plástico de 100 toallitas."
   }
  ],
  "riesgo": {
@@ -94,16 +92,15 @@
   "claves": [
    "ref:A12/01325/21",
    "ean:5304000204396",
-   "ml:otpimal:lot-009-manufacturing-date-9-1-2021",
-   "ml:otpimal:expiry-date-9-1-2024-3months-after-opening"
+   "ml:otpimal:lot-009-manufacturing-date-9-1-2021-expiry-date-9-1-2024-3months-after-opening"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "56dc71ff8ddd757a"
+  "enriquecido": true,
+  "hashContenido": "5fc9d3e07ef4f2c0"
  },
  "slug": "toallitas-humedas-otpimal-safety-gate-10004198"
 }

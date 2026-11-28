@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.08.2017 - 19.02.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "23.08.2017 - 19.02.2020"
+   "fechasTexto": "23.08.2017 - 19.02.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,15 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01431/21",
-   "mm:jeep:individual-approval"
+   "mm:jeep:individual-approval",
+   "ml:jeep:23-08-2017-19-02-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f45af6e7b90fe877"
+  "enriquecido": true,
+  "hashContenido": "292e5a9dd598eab9"
  },
  "slug": "turismos-jeep-safety-gate-10004378"
 }

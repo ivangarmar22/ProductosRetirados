@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Fiat"
    ],
    "modelos": [
-    "e3*2007/46*0049*27",
-    "Type: 250"
+    "e3*2007/46*0049*27, Type: 250"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1.02.2021 -17.06.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "1.02.2021 -17.06.2021"
+   "fechasTexto": "1.02.2021 -17.06.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "LU",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01366/21",
-   "mm:fiat:e3-2007-46-0049-27",
-   "mm:fiat:type-250"
+   "mm:fiat:e3-2007-46-0049-27-type-250",
+   "ml:fiat:1-02-2021-17-06-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d2dab1f2ef5efe01"
+  "enriquecido": true,
+  "hashContenido": "72e929afeb92b88e"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-fiat-safety-gate-10004432"
 }

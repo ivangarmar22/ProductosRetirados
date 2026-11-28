@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-10-01"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -27,15 +27,12 @@
     "Mamita Botanical"
    ],
    "modelos": [
-    "Aceite revitalizante de cuerpo",
-    "pelo",
+    "Aceite revitalizante de cuerpo y pelo",
     "Contorno de ojos reparador",
     "Crema Super Linda",
     "Exfoliante facial",
-    "Limpiador Alisante",
-    "Reafirmante",
-    "Limpiador Nutritivo",
-    "Calmante",
+    "Limpiador Alisante y Reafirmante",
+    "Limpiador Nutritivo y Calmante",
     "Serum Super Linda",
     "Tónico Elixir"
    ],
@@ -46,7 +43,8 @@
    ],
    "ean": [],
    "descripcion": "Diversos productos cosméticos de la marca Mamita Botanical, para ser utilizados para diferentes propósitos: Aceite revitalizante de cuerpo y pelo; Crema Super Linda; Contorno de ojos Reparador; Exfoliante facial; Suero Super Linda; Tónico Elixir; Limpiador Alisante y Reafirmante; Limpiador Nutritivo y Calmante.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Los productos se envasan en botellas de colores y en pequeños tubos de color plata. Las botellas pueden tener una tapa normal, una tapa de compresión o una tapa de distribución de gotas."
   }
  ],
  "riesgo": {
@@ -123,26 +121,23 @@
  "dedup": {
   "claves": [
    "ref:A11/00084/21",
-   "mm:mamita-botanical:aceite-revitalizante-de-cuerpo",
-   "mm:mamita-botanical:pelo",
+   "mm:mamita-botanical:aceite-revitalizante-de-cuerpo-y-pelo",
    "mm:mamita-botanical:contorno-de-ojos-reparador",
    "mm:mamita-botanical:crema-super-linda",
    "mm:mamita-botanical:exfoliante-facial",
-   "mm:mamita-botanical:limpiador-alisante",
-   "mm:mamita-botanical:reafirmante",
-   "mm:mamita-botanical:limpiador-nutritivo",
-   "mm:mamita-botanical:calmante",
+   "mm:mamita-botanical:limpiador-alisante-y-reafirmante",
+   "mm:mamita-botanical:limpiador-nutritivo-y-calmante",
    "mm:mamita-botanical:serum-super-linda",
    "mm:mamita-botanical:tonico-elixir",
    "ml:mamita-botanical:all"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0f880b4aa52cfbb6"
+  "enriquecido": true,
+  "hashContenido": "964149b68800f408"
  },
  "slug": "productos-cosmeticos-mamita-botanical-safety-gate-10004331"
 }

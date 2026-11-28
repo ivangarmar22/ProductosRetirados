@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "Type: 184",
-    "384"
+    "Type: 184, 384."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "S60 (2001 -2009); S80 (2001 - 2006)."
+    }
+   ],
    "ean": [],
    "descripcion": "Coches Volvo modelos S60 y S80.",
-   "fechasTexto": "S60 (2001 -2009); S80 (2001 - 2006)."
+   "fechasTexto": "S60 (2001 -2009); S80 (2001 - 2006).",
+   "envase": "Chasis: del 0147869 al 0446916; de 0000193 a 0741211."
   }
  ],
  "riesgo": {
@@ -64,7 +68,10 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,16 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01429/21",
-   "mm:volvo:type-184",
-   "mm:volvo:384"
+   "mm:volvo:type-184-384",
+   "ml:volvo:s60-2001-2009-s80-2001-2006"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b90d43b743928032"
+  "enriquecido": true,
+  "hashContenido": "92f12bb183fde18a"
  },
  "slug": "turismos-volvo-safety-gate-10004549"
 }

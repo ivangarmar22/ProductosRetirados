@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Niro de e4*2007/46*1139*09 à e4*2007/46*1139*09 Soul de e4*2007/46*1365*02 à e4*2007/46*1365*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Soul EV: from 7 January 2020 to 11 January 2020 Niro EV: from 8 January 2020 to 17 January 2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Circuito abierto de la barra del bus",
-   "fechasTexto": "Soul EV: from 7 January 2020 to 11 January 2020 Niro EV: from 8 January 2020 to 17 January 2020"
+   "fechasTexto": "Soul EV: from 7 January 2020 to 11 January 2020 Niro EV: from 8 January 2020 to 17 January 2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +80,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01401/21",
-   "mm:kia:niro-de-e4-2007-46-1139-09-a-e4-2007-46-1139-09-soul-de-e4-2007-46-1365-02-a-e4-2007-46-1365-02"
+   "mm:kia:niro-de-e4-2007-46-1139-09-a-e4-2007-46-1139-09-soul-de-e4-2007-46-1365-02-a-e4-2007-46-1365-02",
+   "ml:kia:soul-ev-from-7-january-2020-to-11-january-2020-niro-ev-from-8-january-2020-to-17-january-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6ac6ce7de0a9005f"
+  "enriquecido": true,
+  "hashContenido": "89b9c44c10e79a4a"
  },
  "slug": "vehiculo-de-transporte-de-pasajeros-kia-safety-gate-10004496"
 }

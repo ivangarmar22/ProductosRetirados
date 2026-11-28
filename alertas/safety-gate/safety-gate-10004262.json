@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-20"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Opel"
    ],
    "modelos": [
-    "e2*2007/46*0532*15",
-    "e2*2007/46*0533*16"
+    "e2*2007/46*0532*15, e2*2007/46*0533*16"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 15 and 21 April 2021."
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "The affected vehicles were manufactured between 15 and 21 April 2021."
+   "fechasTexto": "The affected vehicles were manufactured between 15 and 21 April 2021.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,15 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "GR",
+   "NO",
+   "PL",
+   "PT",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +85,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01194/21",
-   "mm:opel:e2-2007-46-0532-15",
-   "mm:opel:e2-2007-46-0533-16"
+   "mm:opel:e2-2007-46-0532-15-e2-2007-46-0533-16",
+   "ml:opel:the-affected-vehicles-were-manufactured-between-15-and-21-april-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d7c33c27da214858"
+  "enriquecido": true,
+  "hashContenido": "8a9d76d444328436"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-opel-safety-gate-10004262"
 }

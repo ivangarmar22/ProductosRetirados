@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-07-30",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-17"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Bmw"
    ],
    "modelos": [
-    "e1*2007/46*0277*24",
-    "e1*2007/46*0377"
+    "e1*2007/46*0277*24, e1*2007/46*0377"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 23 March to 1 April 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos equipados con techo solar.",
-   "fechasTexto": "From 23 March to 1 April 2021"
+   "fechasTexto": "From 23 March to 1 April 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,16 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00994/21",
-   "mm:bmw:e1-2007-46-0277-24",
-   "mm:bmw:e1-2007-46-0377"
+   "mm:bmw:e1-2007-46-0277-24-e1-2007-46-0377",
+   "ml:bmw:from-23-march-to-1-april-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8dccae2047dda116"
+  "enriquecido": true,
+  "hashContenido": "f3cd3feeafca01be"
  },
  "slug": "coche-de-pasajeros-bmw-safety-gate-10004038"
 }

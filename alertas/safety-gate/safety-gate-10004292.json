@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-10-21"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,12 +28,17 @@
    ],
    "modelos": [
     "Fiat: e13*2007/46*1216*24",
-    "Ford: e13*2007/46*1260*20"
+    "Ford: e13*2007/46*1260*20,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 19 April and 3 June 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Casa móvil/camión camper; Año de modelo: 2021.",
-   "fechasTexto": "The affected vehicles were manufactured between 19 April and 3 June 2021"
+   "fechasTexto": "The affected vehicles were manufactured between 19 April and 3 June 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,15 +79,16 @@
   "claves": [
    "ref:A12/01212/21",
    "mm:challenger:fiat-e13-2007-46-1216-24",
-   "mm:challenger:ford-e13-2007-46-1260-20"
+   "mm:challenger:ford-e13-2007-46-1260-20",
+   "ml:challenger:the-affected-vehicles-were-manufactured-between-19-april-and-3-june-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8f7863cb599755a7"
+  "enriquecido": true,
+  "hashContenido": "c2fb839d6935d560"
  },
  "slug": "casa-movil-van-de-camping-challenger-safety-gate-10004292"
 }

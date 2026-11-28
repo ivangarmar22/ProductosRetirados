@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,12 +29,16 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "Exp.Date: Sep 2023Mfg.Date: Sep 2020"
+     "numero": "Exp.Date: Sep 2023"
+    },
+    {
+     "numero": "Mfg.Date: Sep 2020"
     }
    ],
    "ean": [],
    "descripcion": "Crema para iluminar la piel en el frasco.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en un frasco de plástico redondo blanco, con un embalaje exterior de cartón blanco y azul."
   }
  ],
  "riesgo": {
@@ -99,15 +103,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01060/21",
-   "ml:aqsa-cosmetics:exp-date-sep-2023mfg-date-sep-2020"
+   "ml:aqsa-cosmetics:exp-date-sep-2023",
+   "ml:aqsa-cosmetics:mfg-date-sep-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9a9e5585e6d66e87"
+  "enriquecido": true,
+  "hashContenido": "09ecfcc06ca352a1"
  },
  "slug": "crema-para-aclarar-la-piel-aqsa-cosmetics-safety-gate-10003979"
 }

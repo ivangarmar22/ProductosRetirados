@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-08-03"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "L2002827VAL: 09/2022"
+     "numero": "L2002827"
+    },
+    {
+     "numero": "VAL: 09/2022"
     }
    ],
    "ean": [
     "5602142001669"
    ],
    "descripcion": "Envase de 500 ml de desinfectante de manos hidroalcohólico transparente con consistencia en gel. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una botella de plástico transparente de 500 ml con dispositivo de dosificación manual."
   }
  ],
  "riesgo": {
@@ -97,15 +101,16 @@
    "ref:A12/01170/21",
    "ean:5602142001669",
    "mm:sanibiok:dm-10",
-   "ml:sanibiok:l2002827val-09-2022"
+   "ml:sanibiok:l2002827",
+   "ml:sanibiok:val-09-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a88561e765069aff"
+  "enriquecido": true,
+  "hashContenido": "69be66305b7c83f1"
  },
  "slug": "desinfectante-de-manos-sanibiok-safety-gate-10004251"
 }

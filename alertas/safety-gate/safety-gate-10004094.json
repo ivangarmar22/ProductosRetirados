@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "275/55R20 0518--1218 1518--1818 2418--3119 3319--3619 4219--4419 275/65R18 2218--3018 3618--4418 0219--1019 1319--3219 3619--411"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 01.02.2018 to 01.12.2019."
+    }
+   ],
    "ean": [],
    "descripcion": "Neumático de posventa.",
-   "fechasTexto": "From 01.02.2018 to 01.12.2019."
+   "fechasTexto": "From 01.02.2018 to 01.12.2019.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,15 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01052/21",
-   "mm:cooper:275-55r20-0518-1218-1518-1818-2418-3119-3319-3619-4219-4419-275-65r18-2218-3018-3618-4418-0219-1019-1319-3219-3619-411"
+   "mm:cooper:275-55r20-0518-1218-1518-1818-2418-3119-3319-3619-4219-4419-275-65r18-2218-3018-3618-4418-0219-1019-1319-3219-3619-411",
+   "ml:cooper:from-01-02-2018-to-01-12-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "90558cc1d70b2616"
+  "enriquecido": true,
+  "hashContenido": "8e715d2905264e6f"
  },
  "slug": "neumatico-para-automoviles-de-pasajeros-cooper-safety-gate-10004094"
 }

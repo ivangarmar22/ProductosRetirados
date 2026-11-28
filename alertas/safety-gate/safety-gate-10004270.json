@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-08-24"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -31,14 +31,18 @@
    ],
    "lotes": [
     {
-     "numero": "Lot C20SP1120Lot CS20SP0121"
+     "numero": "Lot C20SP1120"
+    },
+    {
+     "numero": "Lot CS20SP0121"
     }
    ],
    "ean": [
     "7629999206564"
    ],
    "descripcion": "Máscaras blancas marcadas con FFP2 y con el marcado CE impreso, con un gran número de hilos en las franjas, anudadas a las diademas. El producto también se vendió en línea, en particular a través de Amazon, bajo ASIN B08P7XYD47.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en envases de cartón blanco-azul que contienen 20 máscaras; cada máscara está embalada individualmente en una bolsa de plástico transparente. El producto está marcado con la indicación FFP2 y el marcado CE."
   }
  ],
  "riesgo": {
@@ -109,15 +113,16 @@
    "ref:A12/01197/21",
    "ean:7629999206564",
    "mm:mfa:c-267",
-   "ml:mfa:lot-c20sp1120lot-cs20sp0121"
+   "ml:mfa:lot-c20sp1120",
+   "ml:mfa:lot-cs20sp0121"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd0226b64cd1d9e2"
+  "enriquecido": true,
+  "hashContenido": "9c982c2de0761525"
  },
  "slug": "mascara-de-filtro-de-particulas-mfa-safety-gate-10004270"
 }

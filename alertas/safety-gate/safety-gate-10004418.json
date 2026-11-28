@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Sunlight"
    ],
    "modelos": [
-    "e13*2007/46*1226*21",
-    "e1*2007/46*2125*01",
-    "Type: FI-2007/46",
-    "LVF2"
+    "e13*2007/46*1226*21, e1*2007/46*2125*01, Type: FI-2007/46, LVF2"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2020 - 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Casa móvil/van de camping.",
-   "fechasTexto": "2020 - 2021"
+   "fechasTexto": "2020 - 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +80,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01362/21",
-   "mm:sunlight:e13-2007-46-1226-21",
-   "mm:sunlight:e1-2007-46-2125-01",
-   "mm:sunlight:type-fi-2007-46",
-   "mm:sunlight:lvf2"
+   "mm:sunlight:e13-2007-46-1226-21-e1-2007-46-2125-01-type-fi-2007-46-lvf2",
+   "ml:sunlight:2020-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2b9a287e0bd67641"
+  "enriquecido": true,
+  "hashContenido": "2908b2ce03ea7bb9"
  },
  "slug": "casa-movil-van-de-camping-sunlight-safety-gate-10004418"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,17 @@
     "Mitsubishi"
    ],
    "modelos": [
-    "e1*2007/46*1769*00",
-    "e1*2007/46*1769*01",
-    "e1*2007/46*1769*02",
-    "e1*2007/46*1769*04",
-    "e1*2007/46*1769*05",
-    "e1*2007/46*1769*06",
-    "e1*2007/46*1769*07"
+    "e1*2007/46*1769*00; e1*2007/46*1769*01; e1*2007/46*1769*02; e1*2007/46*1769*04; e1*2007/46*1769*05; e1*2007/46*1769*06; e1*2007/46*1769*07"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Model Year: 2018 - 2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Mitsubishi Eclipse Cruz (GK1W, GK9W)",
-   "fechasTexto": "Model Year: 2018 - 2020"
+   "fechasTexto": "Model Year: 2018 - 2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +67,25 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "NO",
+   "PT",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,21 +95,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01386/21",
-   "mm:mitsubishi:e1-2007-46-1769-00",
-   "mm:mitsubishi:e1-2007-46-1769-01",
-   "mm:mitsubishi:e1-2007-46-1769-02",
-   "mm:mitsubishi:e1-2007-46-1769-04",
-   "mm:mitsubishi:e1-2007-46-1769-05",
-   "mm:mitsubishi:e1-2007-46-1769-06",
-   "mm:mitsubishi:e1-2007-46-1769-07"
+   "mm:mitsubishi:e1-2007-46-1769-00-e1-2007-46-1769-01-e1-2007-46-1769-02-e1-2007-46-1769-04-e1-2007-46-1769-05-e1-2007-46-1769-06-e1-2007-46-1769-07",
+   "ml:mitsubishi:model-year-2018-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e2755c34e6c3a499"
+  "enriquecido": true,
+  "hashContenido": "2e715c401dd4f802"
  },
  "slug": "turismos-mitsubishi-safety-gate-10004505"
 }

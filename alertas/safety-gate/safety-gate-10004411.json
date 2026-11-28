@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Fiat"
    ],
    "modelos": [
-    "e3*2007/46*0064*56",
-    "Type: 312"
+    "e3*2007/46*0064*56, Type: 312"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "09.09.2020 - 30.06.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "09.09.2020 - 30.06.2021"
+   "fechasTexto": "09.09.2020 - 30.06.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,20 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01319/21",
-   "mm:fiat:e3-2007-46-0064-56",
-   "mm:fiat:type-312"
+   "mm:fiat:e3-2007-46-0064-56-type-312",
+   "ml:fiat:09-09-2020-30-06-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c6065bdff4cd3018"
+  "enriquecido": true,
+  "hashContenido": "868558c0bc922368"
  },
  "slug": "turismos-fiat-safety-gate-10004411"
 }

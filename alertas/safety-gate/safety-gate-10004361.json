@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Suzuki"
    ],
    "modelos": [
-    "e4*168/2013*00038",
-    "e4*168/2013*00039",
-    "Types: WC80",
-    "WC90"
+    "e4*168/2013*00038, e4*168/2013*00039; Types: WC80, WC90"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "02.04.2018 - 05.06.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "02.04.2018 - 05.06.2020"
+   "fechasTexto": "02.04.2018 - 05.06.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +69,12 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "GR",
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,18 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01303/21",
-   "mm:suzuki:e4-168-2013-00038",
-   "mm:suzuki:e4-168-2013-00039",
-   "mm:suzuki:types-wc80",
-   "mm:suzuki:wc90"
+   "mm:suzuki:e4-168-2013-00038-e4-168-2013-00039-types-wc80-wc90",
+   "ml:suzuki:02-04-2018-05-06-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "62d630f7bf1bba92"
+  "enriquecido": true,
+  "hashContenido": "8615f7961430fd24"
  },
  "slug": "motocicleta-suzuki-safety-gate-10004361"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Renault"
    ],
    "modelos": [
-    "e2*168/2013*00001*03",
-    "Type X09"
+    "e2*168/2013*00001*03, Type X09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured on 24 and 25 September 2020."
+    }
+   ],
    "ean": [],
    "descripcion": "Cuatriciclo eléctrico.",
-   "fechasTexto": "The affected vehicles were manufactured on 24 and 25 September 2020."
+   "fechasTexto": "The affected vehicles were manufactured on 24 and 25 September 2020.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,16 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A11/00082/21",
-   "mm:renault:e2-168-2013-00001-03",
-   "mm:renault:type-x09"
+   "mm:renault:e2-168-2013-00001-03-type-x09",
+   "ml:renault:the-affected-vehicles-were-manufactured-on-24-and-25-september-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4a288b8b3aa7320b"
+  "enriquecido": true,
+  "hashContenido": "056df4e56357e471"
  },
  "slug": "cuatriciclo-renault-safety-gate-10004073"
 }

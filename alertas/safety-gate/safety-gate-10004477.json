@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*1909*03",
-    "Type: F2B"
+    "e1*2007/46*1909*03, Type: F2B"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.04.2019 - 5.07.2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Serie de modelos: BR 247.",
-   "fechasTexto": "22.04.2019 - 5.07.2019"
+   "fechasTexto": "22.04.2019 - 5.07.2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,16 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01382/21",
-   "mm:mercedes-benz:e1-2007-46-1909-03",
-   "mm:mercedes-benz:type-f2b"
+   "mm:mercedes-benz:e1-2007-46-1909-03-type-f2b",
+   "ml:mercedes-benz:22-04-2019-5-07-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e54e2a4997ab95c2"
+  "enriquecido": true,
+  "hashContenido": "12a27f1abd43ef67"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10004477"
 }

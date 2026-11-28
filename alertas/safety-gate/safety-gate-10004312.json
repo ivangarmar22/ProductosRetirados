@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-23",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-08-02"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "8711811085774"
    ],
    "descripcion": "Una caja de música de color blanco/gris. El producto también se vende en línea, en particular a través de Bol.com.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en envases transparentes."
   }
  ],
  "riesgo": {
@@ -64,7 +65,10 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,11 +92,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2fd1945f998ac5a2"
+  "enriquecido": true,
+  "hashContenido": "6edded6f65db5f1b"
  },
  "slug": "carrusel-de-madera-bambam-safety-gate-10004312"
 }

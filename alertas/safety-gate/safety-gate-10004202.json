@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-06",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 14 January 2015 and 10 November 2018."
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos fabricados para el mercado americano.",
-   "fechasTexto": "The affected vehicles were manufactured between 14 January 2015 and 10 November 2018."
+   "fechasTexto": "The affected vehicles were manufactured between 14 January 2015 and 10 November 2018.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +80,16 @@
  "dedup": {
   "claves": [
    "ref:INFO/00145/21",
-   "mm:volkswagen:individual-approval"
+   "mm:volkswagen:individual-approval",
+   "ml:volkswagen:the-affected-vehicles-were-manufactured-between-14-january-2015-and-10-november-2018"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b8742d7d1c45f436"
+  "enriquecido": true,
+  "hashContenido": "e357dbe457e77f9b"
  },
  "slug": "turismos-volkswagen-safety-gate-10004202"
 }

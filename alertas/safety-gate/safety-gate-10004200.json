@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-15"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -29,17 +29,15 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "Lot 330 Manufacturing Date 25/11/2020"
-    },
-    {
-     "numero": "Expiry Date 25/11/2023 (3 Months after opening)"
+     "numero": "Lot 330 Manufacturing Date 25/11/2020, Expiry Date 25/11/2023 (3 Months after opening)"
     }
    ],
    "ean": [
     "5304000204389"
    ],
    "descripcion": "Toallitas húmedas para piel delicada y normal.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje plástico de 100 toallitas."
   }
  ],
  "riesgo": {
@@ -98,16 +96,15 @@
   "claves": [
    "ref:A12/01323/21",
    "ean:5304000204389",
-   "ml:optimal:lot-330-manufacturing-date-25-11-2020",
-   "ml:optimal:expiry-date-25-11-2023-3-months-after-opening"
+   "ml:optimal:lot-330-manufacturing-date-25-11-2020-expiry-date-25-11-2023-3-months-after-opening"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a37ebeaac63dd195"
+  "enriquecido": true,
+  "hashContenido": "4d91148b501e9128"
  },
  "slug": "toallitas-humedas-optimal-safety-gate-10004200"
 }

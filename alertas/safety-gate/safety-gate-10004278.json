@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-10-14"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -28,12 +28,17 @@
    ],
    "modelos": [
     "Fiat: e13*2007/46*1216*24",
-    "Ford: e13*2007/46*1260*20"
+    "Ford: e13*2007/46*1260*20,"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 19 April and 3 June 2021."
+    }
+   ],
    "ean": [],
    "descripcion": "Casa móvil/camper van; Año modelo: 2021.",
-   "fechasTexto": "The affected vehicles were manufactured between 19 April and 3 June 2021."
+   "fechasTexto": "The affected vehicles were manufactured between 19 April and 3 June 2021.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,15 +79,16 @@
   "claves": [
    "ref:A12/01210/21",
    "mm:chausson:fiat-e13-2007-46-1216-24",
-   "mm:chausson:ford-e13-2007-46-1260-20"
+   "mm:chausson:ford-e13-2007-46-1260-20",
+   "ml:chausson:the-affected-vehicles-were-manufactured-between-19-april-and-3-june-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e17e03c1256b3292"
+  "enriquecido": true,
+  "hashContenido": "854b1432df0dc193"
  },
  "slug": "casa-movil-camper-van-chausson-safety-gate-10004278"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-27"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Hyundai"
    ],
    "modelos": [
-    "e4*2007/46*1030*00",
-    "Type: DH"
+    "e4*2007/46*1030*00, Type: DH"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.01.2013 - 31.12.2016"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "01.01.2013 - 31.12.2016"
+   "fechasTexto": "01.01.2013 - 31.12.2016",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República de Corea",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01424/21",
-   "mm:hyundai:e4-2007-46-1030-00",
-   "mm:hyundai:type-dh"
+   "mm:hyundai:e4-2007-46-1030-00-type-dh",
+   "ml:hyundai:01-01-2013-31-12-2016"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22f2ef652a9ac7a0"
+  "enriquecido": true,
+  "hashContenido": "da9f8dce38d5528a"
  },
  "slug": "turismos-hyundai-safety-gate-10004537"
 }

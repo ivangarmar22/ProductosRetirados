@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-04-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2007/46*1982*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 31 July 2018 and 15 June 2021."
+    }
+   ],
    "ean": [],
    "descripcion": "Código del marco: DB03, DB41, DB42); Año de modelo: 2018~2021.",
-   "fechasTexto": "The affected vehicles were manufactured between 31 July 2018 and 15 June 2021."
+   "fechasTexto": "The affected vehicles were manufactured between 31 July 2018 and 15 June 2021.",
+   "envase": "Gama de VIN: DB03 (DB0C0#MW021819 — MW021825), DB41 (DB410#0W020412-0W025834, DB410#0W009014-0W045795), DB42 (DB420#0W020336-0W045804)."
   }
  ],
  "riesgo": {
@@ -62,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "PL",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01273/21",
-   "mm:toyota:e1-2007-46-1982-00"
+   "mm:toyota:e1-2007-46-1982-00",
+   "ml:toyota:the-affected-vehicles-were-manufactured-between-31-july-2018-and-15-june-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "38cd8fa8a7fae6ae"
+  "enriquecido": true,
+  "hashContenido": "72a3cf5312aa8759"
  },
  "slug": "turismos-toyota-safety-gate-10004358"
 }

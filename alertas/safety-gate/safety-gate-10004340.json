@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-29"
  },
  "categoria": {
   "literal": "Accesorios de cocina",
@@ -34,7 +34,8 @@
     "3276000413639"
    ],
    "descripcion": "Barbacoa de carbón vegetal; size:134x58x91",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +66,10 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "07877cc35c02cf76"
+  "enriquecido": true,
+  "hashContenido": "809468f9838763fe"
  },
  "slug": "barbacoa-de-carbon-naterial-safety-gate-10004340"
 }

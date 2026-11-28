@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-03"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Cargador de batería blanco con 2 puertos USB y 1 puerto de rayos.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje: blíster y caja de cartón."
   }
  ],
  "riesgo": {
@@ -62,7 +63,10 @@
   "ccaa": [],
   "paisNotificante": "Hungría",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LT",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "09938725fc655c57"
+  "enriquecido": true,
+  "hashContenido": "9925170d37147990"
  },
  "slug": "cargador-usb-hoco-safety-gate-10004379"
 }

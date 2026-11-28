@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-16"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "Type: 3S",
     "e13*2007/46*0634*"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 5 February 2018 and 28 June 2021."
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "The affected vehicles were manufactured between 5 February 2018 and 28 June 2021."
+   "fechasTexto": "The affected vehicles were manufactured between 5 February 2018 and 28 June 2021.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Reino Unido",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "PT",
+   "RO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,15 +83,16 @@
   "claves": [
    "ref:INFO/00150/21",
    "mm:bentley:type-3s",
-   "mm:bentley:e13-2007-46-0634"
+   "mm:bentley:e13-2007-46-0634",
+   "ml:bentley:the-affected-vehicles-were-manufactured-between-5-february-2018-and-28-june-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "431c7c8d5b33744e"
+  "enriquecido": true,
+  "hashContenido": "0512b5563c1cb80b"
  },
  "slug": "coche-de-pasajeros-bentley-safety-gate-10004354"
 }

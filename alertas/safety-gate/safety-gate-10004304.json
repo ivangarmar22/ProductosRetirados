@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-09",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-09"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -24,7 +24,8 @@
   {
    "nombre": "Massage Gun",
    "marcas": [
-    "Jinhua Hengguang electronic, Out Of The Blue KG"
+    "Jinhua Hengguang electronic",
+    "Out Of The Blue KG"
    ],
    "modelos": [
     "Massage Gun: 61-1840",
@@ -33,7 +34,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pistola de masaje negra (9VDC; 1A, 1500mAh) en una caja blanda negra, con 8 accesorios y una unidad de suministro (entrada: 100-240VAC; 50/60 Hz; 0,8A, salida: 9VDC; 1,0A). Producto vendido en línea, en particular a través de AliExpress.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Se vende en maletín suave con cremallera."
   }
  ],
  "riesgo": {
@@ -94,16 +96,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01225/21",
-   "mm:jinhua-hengguang-electronic-out-of-the-blue-kg:massage-gun-61-1840",
-   "mm:jinhua-hengguang-electronic-out-of-the-blue-kg:power-supply-unit-hgcs090100"
+   "mm:jinhua-hengguang-electronic:massage-gun-61-1840",
+   "mm:jinhua-hengguang-electronic:power-supply-unit-hgcs090100",
+   "mm:out-of-the-blue-kg:massage-gun-61-1840",
+   "mm:out-of-the-blue-kg:power-supply-unit-hgcs090100"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "331c92d51d68fddd"
+  "enriquecido": true,
+  "hashContenido": "3e01a73dee270ae6"
  },
  "slug": "pistola-de-masaje-jinhua-hengguang-electronic-out-of-the-blue-kg-safety-gate-10004304"
 }

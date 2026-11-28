@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-07"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -24,17 +24,25 @@
   {
    "nombre": "La Bamakoise Tamarin Creme",
    "marcas": [
-    "H Cosmetics, La Bamakoise"
+    "H Cosmetics",
+    "La Bamakoise"
    ],
    "modelos": [],
    "lotes": [
     {
-     "numero": "229Exp.date: 12-2026Mfg.Date: 12-19"
+     "numero": "229"
+    },
+    {
+     "numero": "Exp.date: 12-2026"
+    },
+    {
+     "numero": "Mfg.Date: 12-19"
     }
    ],
    "ean": [],
    "descripcion": "Crema aclaradora de la piel en un tubo metálico de 50 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en un tubo de metal verde oscuro de 50 ml con tapa plástica y embalaje exterior de cartón verde claro, con instrucciones en inglés y francés."
   }
  ],
  "riesgo": {
@@ -104,15 +112,20 @@
  "dedup": {
   "claves": [
    "ref:A12/01062/21",
-   "ml:h-cosmetics-la-bamakoise:229exp-date-12-2026mfg-date-12-19"
+   "ml:h-cosmetics:229",
+   "ml:h-cosmetics:exp-date-12-2026",
+   "ml:h-cosmetics:mfg-date-12-19",
+   "ml:la-bamakoise:229",
+   "ml:la-bamakoise:exp-date-12-2026",
+   "ml:la-bamakoise:mfg-date-12-19"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d652e54a7570e73a"
+  "enriquecido": true,
+  "hashContenido": "63340de0778578c6"
  },
  "slug": "crema-para-aclarar-la-piel-h-cosmetics-la-bamakoise-safety-gate-10003986"
 }

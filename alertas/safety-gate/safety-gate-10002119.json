@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-10-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "Type-approval numbers: e1*2007/46*1885*00 to *03",
-    "Types: H1GLE"
+    "Type-approval numbers: e1*2007/46*1885*00 to *03, Types: H1GLE"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 17 November 2018 and 22 February 2019."
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos GLE y GLS, serie BR 167.",
-   "fechasTexto": "The affected vehicles were manufactured between 17 November 2018 and 22 February 2019."
+   "fechasTexto": "The affected vehicles were manufactured between 17 November 2018 and 22 February 2019.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01338/20",
-   "mm:mercedes-benz:type-approval-numbers-e1-2007-46-1885-00-to-03",
-   "mm:mercedes-benz:types-h1gle"
+   "mm:mercedes-benz:type-approval-numbers-e1-2007-46-1885-00-to-03-types-h1gle",
+   "ml:mercedes-benz:the-affected-vehicles-were-manufactured-between-17-november-2018-and-22-february-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "fff96f5abc732477"
+  "enriquecido": true,
+  "hashContenido": "eacd3fa473e17b18"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10002119"
 }

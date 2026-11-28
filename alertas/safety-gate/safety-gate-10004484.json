@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-09"
  },
  "categoria": {
   "literal": "Joyería y bisutería",
@@ -32,12 +32,16 @@
    ],
    "lotes": [
     {
-     "numero": "121DNP 263"
+     "numero": "121"
+    },
+    {
+     "numero": "DNP 263"
     }
    ],
    "ean": [],
    "descripcion": "Tres pulseras con varios colgantes de plata o de metal dorado.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de joyería de cartón con etiquetado"
   }
  ],
  "riesgo": {
@@ -71,7 +75,10 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -88,15 +95,16 @@
    "ref:A12/01399/21",
    "mm:tedi:35969001751000000150",
    "mm:tedi:39646001751000000150",
-   "ml:tedi:121dnp-263"
+   "ml:tedi:121",
+   "ml:tedi:dnp-263"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d356d99acbaa5428"
+  "enriquecido": true,
+  "hashContenido": "ecfc328c7c371d9d"
  },
  "slug": "brazaletes-de-madera-tedi-safety-gate-10004484"
 }

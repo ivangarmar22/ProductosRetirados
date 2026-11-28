@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Honda"
    ],
    "modelos": [
-    "CBR500RA - e13*168/2013*00507*00",
-    "CB500FA - e13*168/2013*00508*00",
-    "CB500XA - e13*168/2013*00523*00"
+    "CBR500RA - e13*168/2013*00507*00, CB500FA - e13*168/2013*00508*00, CB500XA - e13*168/2013*00523*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "CBR500RA - 26.08.19 - 20.1219, CB500FA - 31.07.19 - 15.12.19, CB500XA - 20.06.19 -17.01.20"
+    }
+   ],
    "ean": [],
    "descripcion": "Código de modelo: CBR500RA (PC62), CB500FA (PC63), CB500XA (PC64); Año de modelo: 2019.",
-   "fechasTexto": "CBR500RA - 26.08.19 - 20.1219, CB500FA - 31.07.19 - 15.12.19, CB500XA - 20.06.19 -17.01.20"
+   "fechasTexto": "CBR500RA - 26.08.19 - 20.1219, CB500FA - 31.07.19 - 15.12.19, CB500XA - 20.06.19 -17.01.20",
+   "envase": "De VIN: CBR500RA (de MLHPC62A4K5002707 a MLHPC62A3K5003704), CB500FA (de MLHPC63A4K5006643 a MLHPC63A4K5009235), CB500XA (de MLHPC64A4K5006012 a MLHPC64A7K5012158)."
   }
  ],
  "riesgo": {
@@ -64,7 +67,22 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Tailandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "PL",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,17 +92,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01350/21",
-   "mm:honda:cbr500ra-e13-168-2013-00507-00",
-   "mm:honda:cb500fa-e13-168-2013-00508-00",
-   "mm:honda:cb500xa-e13-168-2013-00523-00"
+   "mm:honda:cbr500ra-e13-168-2013-00507-00-cb500fa-e13-168-2013-00508-00-cb500xa-e13-168-2013-00523-00",
+   "ml:honda:cbr500ra-26-08-19-20-1219-cb500fa-31-07-19-15-12-19-cb500xa-20-06-19-17-01-20"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4eafe44ac2c5a0d4"
+  "enriquecido": true,
+  "hashContenido": "25dfc22326c81af4"
  },
  "slug": "motocicleta-honda-safety-gate-10004462"
 }

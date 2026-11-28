@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-20"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -32,7 +32,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Máscara de filtración respiratoria protectora blanca de la mitad de la cara, marcada con FFP2 y con el marcado CE impreso.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja con logotipo, descripción del producto, cantidad (10 unidades), capas protectoras (5) e indicación de la EN149:2001 + A1:2009 y la eficiencia del filtro (>95 %). Instrucciones de uso en inglés y alemán."
   }
  ],
  "riesgo": {
@@ -62,7 +63,9 @@
   "ccaa": [],
   "paisNotificante": "Italia",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "569d95b8087384a2"
+  "enriquecido": true,
+  "hashContenido": "ca278e9a1b81bbe4"
  },
  "slug": "mascara-de-filtro-de-particulas-nefes-maske-safety-gate-10004342"
 }

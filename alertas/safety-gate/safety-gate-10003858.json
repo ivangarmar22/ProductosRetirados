@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-26"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,38 +27,20 @@
     "Ford"
    ],
    "modelos": [
-    "Types: FED6",
-    "FCD6",
-    "FED",
-    "FDD",
-    "FCD",
-    "FAD",
-    "FCC",
-    "FAC",
-    "e1*2007/46*1096*16",
-    "e1*2007/46*1096*17",
-    "e1*2007/46*1096*19",
-    "e1*2007/46*1098*14",
-    "e1*2007/46*1098*15",
-    "e1*2007/46*1098*17",
-    "e1*2007/46*1100*15",
-    "e1*2007/46*1100*14",
-    "e1*2007/46*1100*16",
-    "e1*2007/46*1100*19",
-    "e5*2007/46*1032*03",
-    "e5*2007/46*1032*06",
-    "e1*2007/46*1005*20",
-    "e1*2007/46*1005*15",
-    "e1*2007/46*1005*16",
-    "e1*2007/46*1005*18",
-    "e5*2007/46*1034*06",
-    "e5*2007/46*1034*02",
-    "e5*2007/46*1034*08"
+    "Types: FED6, FCD6, FED, FDD, FCD, FAD, FCC, FAC",
+    "e1*2007/46*1096*16, e1*2007/46*1096*17, e1*2007/46*1096*19, e1*2007/46*1098*14, e1*2007/46*1098*15, e1*2007/46*1098*17, e1*2007/46*1100*15,",
+    "e1*2007/46*1100*14, e1*2007/46*1100*16, e1*2007/46*1100*19, e5*2007/46*1032*03, e5*2007/46*1032*06, e1*2007/46*1005*20, e1*2007/46*1005*15, e1*2007/46*1005*16, e1*2007/46*1005*18,",
+    "e5*2007/46*1034*06, e5*2007/46*1034*02, e5*2007/46*1034*08"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 30 June 2019 and 26 April 2021."
+    }
+   ],
    "ean": [],
    "descripcion": "Turismo/camión/vehículo comercial ligero",
-   "fechasTexto": "The affected vehicles were manufactured between 30 June 2019 and 26 April 2021."
+   "fechasTexto": "The affected vehicles were manufactured between 30 June 2019 and 26 April 2021.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -88,7 +70,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Turquía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HU",
+   "IE",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -103,41 +92,19 @@
  "dedup": {
   "claves": [
    "ref:A12/00853/21",
-   "mm:ford:types-fed6",
-   "mm:ford:fcd6",
-   "mm:ford:fed",
-   "mm:ford:fdd",
-   "mm:ford:fcd",
-   "mm:ford:fad",
-   "mm:ford:fcc",
-   "mm:ford:fac",
-   "mm:ford:e1-2007-46-1096-16",
-   "mm:ford:e1-2007-46-1096-17",
-   "mm:ford:e1-2007-46-1096-19",
-   "mm:ford:e1-2007-46-1098-14",
-   "mm:ford:e1-2007-46-1098-15",
-   "mm:ford:e1-2007-46-1098-17",
-   "mm:ford:e1-2007-46-1100-15",
-   "mm:ford:e1-2007-46-1100-14",
-   "mm:ford:e1-2007-46-1100-16",
-   "mm:ford:e1-2007-46-1100-19",
-   "mm:ford:e5-2007-46-1032-03",
-   "mm:ford:e5-2007-46-1032-06",
-   "mm:ford:e1-2007-46-1005-20",
-   "mm:ford:e1-2007-46-1005-15",
-   "mm:ford:e1-2007-46-1005-16",
-   "mm:ford:e1-2007-46-1005-18",
-   "mm:ford:e5-2007-46-1034-06",
-   "mm:ford:e5-2007-46-1034-02",
-   "mm:ford:e5-2007-46-1034-08"
+   "mm:ford:types-fed6-fcd6-fed-fdd-fcd-fad-fcc-fac",
+   "mm:ford:e1-2007-46-1096-16-e1-2007-46-1096-17-e1-2007-46-1096-19-e1-2007-46-1098-14-e1-2007-46-1098-15-e1-2007-46-1098-17-e1-2007-46-1100-15",
+   "mm:ford:e1-2007-46-1100-14-e1-2007-46-1100-16-e1-2007-46-1100-19-e5-2007-46-1032-03-e5-2007-46-1032-06-e1-2007-46-1005-20-e1-2007-46-1005-15-e1-2007-46-1005-16-e1-2007-46-1005-18",
+   "mm:ford:e5-2007-46-1034-06-e5-2007-46-1034-02-e5-2007-46-1034-08",
+   "ml:ford:the-affected-vehicles-were-manufactured-between-30-june-2019-and-26-april-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "25df03307ec82713"
+  "enriquecido": true,
+  "hashContenido": "f3763004a6aefa36"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-ford-safety-gate-10003858"
 }

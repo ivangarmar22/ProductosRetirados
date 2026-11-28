@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Smart"
    ],
    "modelos": [
-    "e1*2001/116*0413*45",
-    "Type: 451"
+    "e1*2001/116*0413*45, Type: 451"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "18.11.2020 to 23.11.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "18.11.2020 to 23.11.2020"
+   "fechasTexto": "18.11.2020 to 23.11.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "LU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01245/21",
-   "mm:smart:e1-2001-116-0413-45",
-   "mm:smart:type-451"
+   "mm:smart:e1-2001-116-0413-45-type-451",
+   "ml:smart:18-11-2020-to-23-11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "13ad051bad7b4a33"
+  "enriquecido": true,
+  "hashContenido": "5ed1b507e1904332"
  },
  "slug": "turismos-smart-safety-gate-10004335"
 }

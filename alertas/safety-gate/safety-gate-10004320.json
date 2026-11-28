@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-08-24"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,8 +27,7 @@
     "Pitacs Time"
    ],
    "modelos": [
-    "2192Y",
-    "3182Y"
+    "2192Y, 3182Y"
    ],
    "lotes": [],
    "ean": [
@@ -41,7 +40,8 @@
     "5055268787045"
    ],
    "descripcion": "Cable eléctrico",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -97,16 +97,15 @@
    "ean:5018486486404",
    "ean:5055268787014",
    "ean:5055268787045",
-   "mm:pitacs-time:2192y",
-   "mm:pitacs-time:3182y"
+   "mm:pitacs-time:2192y-3182y"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "65ebd4ea95c5b17f"
+  "enriquecido": true,
+  "hashContenido": "8d8080d7621a7109"
  },
  "slug": "cables-electricos-pitacs-time-safety-gate-10004320"
 }

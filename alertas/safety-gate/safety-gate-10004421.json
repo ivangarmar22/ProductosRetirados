@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Dethleffs"
    ],
    "modelos": [
-    "e1*2001/116*0416*31",
-    "Type: EG/DF 003"
+    "e1*2001/116*0416*31, Type: EG/DF 003"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2020 - 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Casa móvil/van de camping",
-   "fechasTexto": "2020 - 2021"
+   "fechasTexto": "2020 - 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01317/21",
-   "mm:dethleffs:e1-2001-116-0416-31",
-   "mm:dethleffs:type-eg-df-003"
+   "mm:dethleffs:e1-2001-116-0416-31-type-eg-df-003",
+   "ml:dethleffs:2020-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b7f0bdbd756f9731"
+  "enriquecido": true,
+  "hashContenido": "9631979d7ce085ae"
  },
  "slug": "casa-movil-van-de-camping-dethleffs-safety-gate-10004421"
 }

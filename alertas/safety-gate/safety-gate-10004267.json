@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-24"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,16 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "Types: 224",
-    "225",
-    "234",
-    "235",
-    "238"
+    "Types: 224, 225, 234, 235, 238."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Model year: 2022."
+    }
+   ],
    "ean": [],
    "descripcion": "Volvo coches, modelos S60, V60, S90, S90L y V90 recarga, equipados con PHEV.",
-   "fechasTexto": "Model year: 2022."
+   "fechasTexto": "Model year: 2022.",
+   "envase": "Chasis: de 0106036 a 0106365/de 0175035 a 0176380/de 0245030 a 0249052/de 0465050 a 0472511/de 0148878 a 0154479."
   }
  ],
  "riesgo": {
@@ -66,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "GR",
+   "LU",
+   "PL",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -76,19 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01189/21",
-   "mm:volvo:types-224",
-   "mm:volvo:225",
-   "mm:volvo:234",
-   "mm:volvo:235",
-   "mm:volvo:238"
+   "mm:volvo:types-224-225-234-235-238",
+   "ml:volvo:model-year-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5a0474e527792003"
+  "enriquecido": true,
+  "hashContenido": "c8580c4b14022f5c"
  },
  "slug": "turismos-volvo-safety-gate-10004267"
 }

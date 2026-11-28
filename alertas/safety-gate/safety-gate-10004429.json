@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-23"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -27,13 +27,13 @@
     "YX (on the box); LE ROYAL (on the label)"
    ],
    "modelos": [
-    "YX-5655COB (on the box)",
-    "R2614-22 (on the label)"
+    "YX-5655COB (on the box); R2614-22 (on the label)"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Lámpara led de camping recargable y portátil con puerto USB, que se puede operar directamente desde la red eléctrica, baterías o por el módulo solar. Se suministra con un cable de cargador.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se envasa en una caja de cartón colorida."
   }
  ],
  "riesgo": {
@@ -101,16 +101,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01328/21",
-   "mm:yx-on-the-box-le-royal-on-the-label:yx-5655cob-on-the-box",
-   "mm:yx-on-the-box-le-royal-on-the-label:r2614-22-on-the-label"
+   "mm:yx-on-the-box-le-royal-on-the-label:yx-5655cob-on-the-box-r2614-22-on-the-label"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "af5dd201fe22edac"
+  "enriquecido": true,
+  "hashContenido": "3db6c89b9fdfeefb"
  },
  "slug": "lampara-led-portatil-yx-on-the-box-le-royal-on-the-label-safety-gate-10004429"
 }

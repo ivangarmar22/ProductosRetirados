@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "Audi"
    ],
    "modelos": [
-    "e1*2007/46*2060*##",
-    "e1*2007/46*1900*##",
-    "Types GY",
-    "F3"
+    "e1*2007/46*2060*##, e1*2007/46*1900*##; Types GY, F3"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.08.2020 - 19.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "24.08.2020 - 19.07.2021"
+   "fechasTexto": "24.08.2020 - 19.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,17 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01389/21",
-   "mm:audi:e1-2007-46-2060",
-   "mm:audi:e1-2007-46-1900",
-   "mm:audi:types-gy"
+   "mm:audi:e1-2007-46-2060-e1-2007-46-1900-types-gy-f3",
+   "ml:audi:24-08-2020-19-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f0d8a60c799a7280"
+  "enriquecido": true,
+  "hashContenido": "7d2d39fd29e532ac"
  },
  "slug": "turismos-audi-safety-gate-10004499"
 }

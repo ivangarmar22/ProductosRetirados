@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-08-03"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -29,14 +29,18 @@
    "modelos": [],
    "lotes": [
     {
-     "numero": "11/202389603"
+     "numero": "11/2023"
+    },
+    {
+     "numero": "89603"
     }
    ],
    "ean": [
     "5601296896701"
    ],
    "descripcion": "Envase de 100 ml de desinfectante de manos hidroalcohólico transparente (solución líquida). El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en una botella de plástico pulverizador transparente de 100 ml."
   }
  ],
  "riesgo": {
@@ -86,15 +90,16 @@
   "claves": [
    "ref:A12/01171/21",
    "ean:5601296896701",
-   "ml:fapil:11-202389603"
+   "ml:fapil:11-2023",
+   "ml:fapil:89603"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1cd951cfa5ef9e6e"
+  "enriquecido": true,
+  "hashContenido": "33c6e3de70ab2027"
  },
  "slug": "desinfectante-de-manos-fapil-safety-gate-10004252"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-08-03"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -24,7 +24,8 @@
   {
    "nombre": "Particulate Respirator FFP2 Lexuslance",
    "marcas": [
-    "Huizhou LexusLance Technology, LexusLance"
+    "Huizhou LexusLance Technology",
+    "LexusLance"
    ],
    "modelos": [
     "LK-003"
@@ -38,7 +39,8 @@
     "8595243843078"
    ],
    "descripcion": "Máscara de filtro de partículas blancas con la marca/nombre, modelo y reivindicación FFP2/EN 149 impresa en ella, así como con el marcado CE 202003. El producto también se vende en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se envasa en 5 piezas en una bolsa de plástico blanco-azul."
   }
  ],
  "riesgo": {
@@ -109,16 +111,18 @@
   "claves": [
    "ref:A12/01173/21",
    "ean:8595243843078",
-   "mm:huizhou-lexuslance-technology-lexuslance:lk-003",
-   "ml:huizhou-lexuslance-technology-lexuslance:2402708"
+   "mm:huizhou-lexuslance-technology:lk-003",
+   "ml:huizhou-lexuslance-technology:2402708",
+   "mm:lexuslance:lk-003",
+   "ml:lexuslance:2402708"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aed8614c7f824e57"
+  "enriquecido": true,
+  "hashContenido": "48b89a0d9dc0265f"
  },
  "slug": "mascara-de-filtro-de-particulas-huizhou-lexuslance-technology-lexuslan-safety-gate-10004230"
 }

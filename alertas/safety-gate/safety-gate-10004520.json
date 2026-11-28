@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2024-12-11"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Bentley"
    ],
    "modelos": [
-    "e5*2007/46*1125*",
-    "Type 4V"
+    "e5*2007/46*1125*, Type 4V"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "9.6.2021 - 29.9.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "9.6.2021 - 29.9.2021"
+   "fechasTexto": "9.6.2021 - 29.9.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,16 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01422/21",
-   "mm:bentley:e5-2007-46-1125",
-   "mm:bentley:type-4v"
+   "mm:bentley:e5-2007-46-1125-type-4v",
+   "ml:bentley:9-6-2021-29-9-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "80e0018162214850"
+  "enriquecido": true,
+  "hashContenido": "a32bd112bb90d8d5"
  },
  "slug": "turismos-bentley-safety-gate-10004520"
 }

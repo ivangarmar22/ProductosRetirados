@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-08-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-08-18"
  },
  "categoria": {
   "literal": "Mobiliario",
@@ -36,7 +36,8 @@
     "8009271862678"
    ],
    "descripcion": "Silla de jardín de plástico blanco.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -66,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "MT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3242c7f085c047db"
+  "enriquecido": true,
+  "hashContenido": "93dbb993d0ba839f"
  },
  "slug": "silla-de-plastico-progarden-safety-gate-10003884"
 }

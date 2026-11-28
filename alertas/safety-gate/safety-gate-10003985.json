@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-10"
  },
  "categoria": {
   "literal": "Cosméticos",
@@ -24,19 +24,30 @@
   {
    "nombre": "Zaban Cream",
    "marcas": [
-    "H Cosmetics, New Light"
+    "H Cosmetics",
+    "New Light"
    ],
    "modelos": [],
    "lotes": [
     {
-     "numero": "3563560820 082027Expiry date: 08 2027Mfg.Date: 08 20"
+     "numero": "356"
+    },
+    {
+     "numero": "3560820 082027"
+    },
+    {
+     "numero": "Expiry date: 08 2027"
+    },
+    {
+     "numero": "Mfg.Date: 08 20"
     }
    ],
    "ean": [
     "6181100422955"
    ],
    "descripcion": "Crema para aclarar la piel en un tubo metálico de 47 ml.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se vende en un tubo metálico de 47 ml con tapa de plástico y embalaje de cartón exterior, con instrucciones en inglés y francés."
   }
  ],
  "riesgo": {
@@ -103,15 +114,22 @@
   "claves": [
    "ref:A12/01061/21",
    "ean:6181100422955",
-   "ml:h-cosmetics-new-light:3563560820-082027expiry-date-08-2027mfg-date-08-20"
+   "ml:h-cosmetics:356",
+   "ml:h-cosmetics:3560820-082027",
+   "ml:h-cosmetics:expiry-date-08-2027",
+   "ml:h-cosmetics:mfg-date-08-20",
+   "ml:new-light:356",
+   "ml:new-light:3560820-082027",
+   "ml:new-light:expiry-date-08-2027",
+   "ml:new-light:mfg-date-08-20"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bd162c0683288ec0"
+  "enriquecido": true,
+  "hashContenido": "03e753304e83a2cb"
  },
  "slug": "crema-para-aclarar-la-piel-h-cosmetics-new-light-safety-gate-10003985"
 }

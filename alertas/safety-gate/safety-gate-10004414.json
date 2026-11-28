@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-21",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*2115*02-03",
-    "Type: RS2"
+    "e1*2007/46*2115*02-03, Type: RS2"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "08.02.2021 - 24.03.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Serie de modelos: BR 223",
-   "fechasTexto": "08.02.2021 - 24.03.2021"
+   "fechasTexto": "08.02.2021 - 24.03.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01347/21",
-   "mm:mercedes-benz:e1-2007-46-2115-02-03",
-   "mm:mercedes-benz:type-rs2"
+   "mm:mercedes-benz:e1-2007-46-2115-02-03-type-rs2",
+   "ml:mercedes-benz:08-02-2021-24-03-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0af3b15624e25d49"
+  "enriquecido": true,
+  "hashContenido": "3e88dd164788f35d"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10004414"
 }

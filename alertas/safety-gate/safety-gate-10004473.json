@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,24 +27,18 @@
     "ABT e-Line"
    ],
    "modelos": [
-    "E24*KS07/46*0619*00",
-    "E24*KS07/46*0668*00",
-    "01",
-    "02",
-    "E24*KS07/46*0675*00",
-    "01",
-    "02",
-    "E24*KS07/46*0613*00",
-    "01",
-    "Types: EDTN",
-    "EDPN",
-    "EDPM",
-    "EDTM"
+    "E24*KS07/46*0619*00, E24*KS07/46*0668*00, 01, 02, E24*KS07/46*0675*00, 01, 02, E24*KS07/46*0613*00, 01",
+    "Types: EDTN, EDPN, EDPM, EDTM"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "31.05.2019 - 23.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "31.05.2019 - 23.07.2021"
+   "fechasTexto": "31.05.2019 - 23.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -74,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FR",
+   "IE",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -84,22 +82,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01384/21",
-   "mm:abt-e-line:e24-ks07-46-0619-00",
-   "mm:abt-e-line:e24-ks07-46-0668-00",
-   "mm:abt-e-line:e24-ks07-46-0675-00",
-   "mm:abt-e-line:e24-ks07-46-0613-00",
-   "mm:abt-e-line:types-edtn",
-   "mm:abt-e-line:edpn",
-   "mm:abt-e-line:edpm",
-   "mm:abt-e-line:edtm"
+   "mm:abt-e-line:e24-ks07-46-0619-00-e24-ks07-46-0668-00-01-02-e24-ks07-46-0675-00-01-02-e24-ks07-46-0613-00-01",
+   "mm:abt-e-line:types-edtn-edpn-edpm-edtm",
+   "ml:abt-e-line:31-05-2019-23-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f84f6b04a4c97299"
+  "enriquecido": true,
+  "hashContenido": "1db9c7b1677a505a"
  },
  "slug": "turismos-abt-e-line-safety-gate-10004473"
 }

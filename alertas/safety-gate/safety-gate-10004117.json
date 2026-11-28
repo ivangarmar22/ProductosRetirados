@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-09-01"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "AIGOSTAR"
    ],
    "modelos": [
-    "10A",
-    "10/16A"
+    "10A, 10/16A"
    ],
    "lotes": [],
    "ean": [
     "8433325185350"
    ],
    "descripcion": null,
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "The product is packaged in a clear plastic bag closed with a piece of cardboard."
   }
  ],
  "riesgo": {
@@ -89,16 +89,15 @@
   "claves": [
    "ref:A12/01271/21",
    "ean:8433325185350",
-   "mm:aigostar:10a",
-   "mm:aigostar:10-16a"
+   "mm:aigostar:10a-10-16a"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "61fb97f44ed02504"
+  "enriquecido": true,
+  "hashContenido": "40f3cdf37d98241e"
  },
  "slug": "producto-aigostar-safety-gate-10004117"
 }

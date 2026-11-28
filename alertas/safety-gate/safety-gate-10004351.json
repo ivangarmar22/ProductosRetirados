@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,19 +27,17 @@
     "Bmw"
    ],
    "modelos": [
-    "e1*2001/116*0420*",
-    "e1*2007/46*0421*",
-    "e1*2007/46*0412*",
-    "e1*2007/46*0454*",
-    "Types: X70",
-    "X5",
-    "X6",
-    "X-N1"
+    "e1*2001/116*0420*, e1*2007/46*0421*, e1*2007/46*0412*, e1*2007/46*0454*, Types: X70, X5, X6, X-N1"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "The affected vehicles were manufactured between 21 August 2006 and 21 August 2011."
+    }
+   ],
    "ean": [],
    "descripcion": "Modelo serie E70, E71.",
-   "fechasTexto": "The affected vehicles were manufactured between 21 August 2006 and 21 August 2011."
+   "fechasTexto": "The affected vehicles were manufactured between 21 August 2006 and 21 August 2011.",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -69,7 +67,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FR",
+   "GR",
+   "IE",
+   "PL",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,20 +88,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01261/21",
-   "mm:bmw:e1-2001-116-0420",
-   "mm:bmw:e1-2007-46-0421",
-   "mm:bmw:e1-2007-46-0412",
-   "mm:bmw:e1-2007-46-0454",
-   "mm:bmw:types-x70",
-   "mm:bmw:x-n1"
+   "mm:bmw:e1-2001-116-0420-e1-2007-46-0421-e1-2007-46-0412-e1-2007-46-0454-types-x70-x5-x6-x-n1",
+   "ml:bmw:the-affected-vehicles-were-manufactured-between-21-august-2006-and-21-august-2011"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e57f055687cd1f85"
+  "enriquecido": true,
+  "hashContenido": "d81c95c19dd38ea5"
  },
  "slug": "turismos-bmw-safety-gate-10004351"
 }

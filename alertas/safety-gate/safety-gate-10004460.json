@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-09-27",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Porsche"
    ],
    "modelos": [
-    "e13*2007/46*1164*02",
-    "e13*2007/46*1165*09"
+    "e13*2007/46*1164*02, e13*2007/46*1165*09"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.03.2014 - 04.08.2017"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "05.03.2014 - 04.08.2017"
+   "fechasTexto": "05.03.2014 - 04.08.2017",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,12 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "HU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A11/00081/21",
-   "mm:porsche:e13-2007-46-1164-02",
-   "mm:porsche:e13-2007-46-1165-09"
+   "mm:porsche:e13-2007-46-1164-02-e13-2007-46-1165-09",
+   "ml:porsche:05-03-2014-04-08-2017"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e6e2e1c3e05120e3"
+  "enriquecido": true,
+  "hashContenido": "03e8dd108a503b9d"
  },
  "slug": "turismos-porsche-safety-gate-10004460"
 }
