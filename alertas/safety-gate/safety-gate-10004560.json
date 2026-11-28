@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,21 @@
    "modelos": [
     "e19*2007/46*0026 (DJF)"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "New Sandero (Pitesti): 11/03/2020 - 25/09/2021"
+    },
+    {
+     "numero": "New Sandero (Somaca): 11/11/2020 - 09/08/2021"
+    },
+    {
+     "numero": "New Sandero (Tanger): 13/02/2020 - 08/08/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Nuevo Sandero equipado con motor B4D*419.",
-   "fechasTexto": "New Sandero (Pitesti): 11/03/2020 - 25/09/2021New Sandero (Somaca): 11/11/2020 - 09/08/2021New Sandero (Tanger): 13/02/2020 - 08/08/2021"
+   "fechasTexto": "New Sandero (Pitesti): 11/03/2020 - 25/09/2021New Sandero (Somaca): 11/11/2020 - 09/08/2021New Sandero (Tanger): 13/02/2020 - 08/08/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +73,15 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "Marruecos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HR",
+   "IE",
+   "PL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +91,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01440/21",
-   "mm:dacia:e19-2007-46-0026-djf"
+   "mm:dacia:e19-2007-46-0026-djf",
+   "ml:dacia:new-sandero-pitesti-11-03-2020-25-09-2021",
+   "ml:dacia:new-sandero-somaca-11-11-2020-09-08-2021",
+   "ml:dacia:new-sandero-tanger-13-02-2020-08-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "335c6348f33c74ee"
+  "enriquecido": true,
+  "hashContenido": "ad5cbc42164d620f"
  },
  "slug": "turismos-dacia-safety-gate-10004560"
 }

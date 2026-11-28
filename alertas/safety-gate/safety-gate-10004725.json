@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -34,7 +34,8 @@
     "8008215146621"
    ],
    "descripcion": "Lámpara blanca en forma de camaleón. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto está embalado en una caja de cartón blanca con el logotipo del fabricante."
   }
  ],
  "riesgo": {
@@ -64,7 +65,12 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IS",
+   "IT",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f5ac0d0f782cd0b8"
+  "enriquecido": true,
+  "hashContenido": "7ffeea8309c1f46b"
  },
  "slug": "luminaria-electrica-seletti-safety-gate-10004725"
 }

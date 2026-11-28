@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*1829*07",
-    "Type: F2A"
+    "e1*2007/46*1829*07, Type: F2A"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "27 March 2019 to 14 August 2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche",
-   "fechasTexto": "27 March 2019 to 14 August 2019"
+   "fechasTexto": "27 March 2019 to 14 August 2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,16 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01523/21",
-   "mm:mercedes-benz:e1-2007-46-1829-07",
-   "mm:mercedes-benz:type-f2a"
+   "mm:mercedes-benz:e1-2007-46-1829-07-type-f2a",
+   "ml:mercedes-benz:27-march-2019-to-14-august-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1f985602a7152f7c"
+  "enriquecido": true,
+  "hashContenido": "146a5f1848f0416e"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10004649"
 }

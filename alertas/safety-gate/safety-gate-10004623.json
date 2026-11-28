@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "Type: 285",
-    "295"
+    "Type: 285, 295."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 2001 to 2008."
+    }
+   ],
    "ean": [],
    "descripcion": "Coches Volvo modelos V70 y XC70.",
-   "fechasTexto": "From 2001 to 2008."
+   "fechasTexto": "From 2001 to 2008.",
+   "envase": "Chasis: de 0001259 a 0690996 y de 0000166 a 0288669."
   }
  ],
  "riesgo": {
@@ -64,7 +68,11 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "HR",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,16 +82,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01490/21",
-   "mm:volvo:type-285",
-   "mm:volvo:295"
+   "mm:volvo:type-285-295",
+   "ml:volvo:from-2001-to-2008"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f5d9313ab24e7404"
+  "enriquecido": true,
+  "hashContenido": "68bfd9bb80ee5032"
  },
  "slug": "turismos-volvo-safety-gate-10004623"
 }

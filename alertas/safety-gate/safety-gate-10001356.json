@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-20",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2026-05-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "VW"
    ],
    "modelos": [
-    "Type-approval numbers: e1*98/14*0043*",
-    "e1*98/14*0070",
-    "Types: 3B",
-    "1E"
+    "Type-approval numbers: e1*98/14*0043*, e1*98/14*0070, Types: 3B, 1E"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "05.11.1997 - 20.08.2000"
+    }
+   ],
    "ean": [],
    "descripcion": "Vehículos equipados con inflador de airbag Takata NADI (Non-Azide Driver Inflator).",
-   "fechasTexto": "05.11.1997 - 20.08.2000"
+   "fechasTexto": "05.11.1997 - 20.08.2000",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "HR",
+   "IE",
+   "PL",
+   "PT",
+   "RO",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,17 +87,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00851/20",
-   "mm:vw:type-approval-numbers-e1-98-14-0043",
-   "mm:vw:e1-98-14-0070",
-   "mm:vw:types-3b"
+   "mm:vw:type-approval-numbers-e1-98-14-0043-e1-98-14-0070-types-3b-1e",
+   "ml:vw:05-11-1997-20-08-2000"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "244b73eee3fed9bb"
+  "enriquecido": true,
+  "hashContenido": "b92d58b643cabc74"
  },
  "slug": "coche-de-pasajeros-vw-safety-gate-10001356"
 }

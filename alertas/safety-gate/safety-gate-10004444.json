@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,17 @@
     "CITROEN"
    ],
    "modelos": [
-    "e9*2007/46*6816*01",
-    "e9*2007/46*6816*02",
-    "e9*2007/46*6816*03",
-    "e9*2007/46*6816*04"
+    "e9*2007/46*6816*01, e9*2007/46*6816*02, e9*2007/46*6816*03, e9*2007/46*6816*04"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "20.10.2020 -- 23.04.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "20.10.2020 -- 23.04.2021"
+   "fechasTexto": "20.10.2020 -- 23.04.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "NO",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,18 +80,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01472/21",
-   "mm:citroen:e9-2007-46-6816-01",
-   "mm:citroen:e9-2007-46-6816-02",
-   "mm:citroen:e9-2007-46-6816-03",
-   "mm:citroen:e9-2007-46-6816-04"
+   "mm:citroen:e9-2007-46-6816-01-e9-2007-46-6816-02-e9-2007-46-6816-03-e9-2007-46-6816-04",
+   "ml:citroen:20-10-2020-23-04-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b6c4b259dc13680f"
+  "enriquecido": true,
+  "hashContenido": "be7d1c425e723882"
  },
  "slug": "turismos-citroen-safety-gate-10004444"
 }

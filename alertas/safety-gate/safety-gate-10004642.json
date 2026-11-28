@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-11"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -31,14 +31,36 @@
    ],
    "lotes": [
     {
-     "numero": "000469092000082211200009360221000937062131841111932022121932040821331850720"
+     "numero": "0004690920"
+    },
+    {
+     "numero": "0008221120"
+    },
+    {
+     "numero": "0009360221"
+    },
+    {
+     "numero": "0009370621"
+    },
+    {
+     "numero": "318411119"
+    },
+    {
+     "numero": "320221219"
+    },
+    {
+     "numero": "32040821"
+    },
+    {
+     "numero": "331850720"
     }
    ],
    "ean": [
     "5707152020065"
    ],
    "descripcion": "Cochecito de juguete con cuatro ruedas, para jugar con muñecas. El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +90,11 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "IS",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -90,15 +116,22 @@
    "ref:A12/01496/21",
    "ean:5707152020065",
    "mm:krea:2006",
-   "ml:krea:000469092000082211200009360221000937062131841111932022121932040821331850720"
+   "ml:krea:0004690920",
+   "ml:krea:0008221120",
+   "ml:krea:0009360221",
+   "ml:krea:0009370621",
+   "ml:krea:318411119",
+   "ml:krea:320221219",
+   "ml:krea:32040821",
+   "ml:krea:331850720"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "b9e9e3167f08b6f0"
+  "enriquecido": true,
+  "hashContenido": "2a23916a180ba571"
  },
  "slug": "cochecito-de-muneca-krea-safety-gate-10004642"
 }

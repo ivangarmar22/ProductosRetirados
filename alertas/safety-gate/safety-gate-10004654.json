@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-11-29"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -25,15 +25,13 @@
    "nombre": "Off-road jack",
    "marcas": [],
    "modelos": [
-    "1",
-    "6",
-    "2 tn",
-    "80-2085"
+    "1,6 / 2 tn, 80-2085"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Gato de granja rojo",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -63,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cc78fd3b381bcef5"
+  "enriquecido": true,
+  "hashContenido": "ec56460614737021"
  },
  "slug": "gato-todoterreno-jota-de-granja-off-road-jack-safety-gate-10004654"
 }

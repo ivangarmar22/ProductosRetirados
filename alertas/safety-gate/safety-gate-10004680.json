@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-09"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -40,7 +40,8 @@
     "3420581620485"
    ],
    "descripcion": "Botella para beber/deporte para niños 350 ml + portabotellas para bicicleta.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -79,7 +80,11 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "PL",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -114,11 +119,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "762c9d014e1bb90f"
+  "enriquecido": true,
+  "hashContenido": "6a889a58132f201b"
  },
  "slug": "botella-de-bebida-zefal-safety-gate-10004680"
 }

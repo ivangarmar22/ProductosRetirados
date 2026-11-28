@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Traje de sirena (vestido y corona), principalmente verde y púrpura. Producto vendido en línea, en particular a través de Wish.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Ausencia de marcado CE."
   }
  ],
  "riesgo": {
@@ -59,7 +60,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8a1af5a9eab4b066"
+  "enriquecido": true,
+  "hashContenido": "f39dbd809268f689"
  },
  "slug": "vestido-de-fantasia-para-ninos-safety-gate-10002978"
 }

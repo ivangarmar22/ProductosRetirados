@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-07"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
     "5901271524972"
    ],
    "descripcion": "Tanque de plástico rígido transparente y opaco con baterías, se mueve, emite sonido y luz cuando se insertan baterías de tipo «AA» de 3x1.5V.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -66,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +96,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "68235ffdbd276449"
+  "enriquecido": true,
+  "hashContenido": "3d7a0e08fc7496b2"
  },
  "slug": "juguete-con-baterias-battle-tank-special-mission-safety-gate-10004934"
 }

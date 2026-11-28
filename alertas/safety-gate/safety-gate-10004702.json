@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-10-13"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Jeep"
    ],
    "modelos": [
-    "e4*2001/116*0116*34",
-    "Type JK"
+    "e4*2001/116*0116*34, Type JK"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "24.01.2020 to 18.03.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "24.01.2020 to 18.03.2020"
+   "fechasTexto": "24.01.2020 to 18.03.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +68,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "FR",
+   "HU",
+   "LU",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,16 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01683/21",
-   "mm:jeep:e4-2001-116-0116-34",
-   "mm:jeep:type-jk"
+   "mm:jeep:e4-2001-116-0116-34-type-jk",
+   "ml:jeep:24-01-2020-to-18-03-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "eb2603f7be19dc6d"
+  "enriquecido": true,
+  "hashContenido": "95e25bf9ac2d4b36"
  },
  "slug": "turismos-jeep-safety-gate-10004702"
 }

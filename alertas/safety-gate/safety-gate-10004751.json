@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-16"
  },
  "categoria": {
   "literal": "Artículos de puericultura y equipamiento infantil",
@@ -27,18 +27,11 @@
     "Baby Wallaby"
    ],
    "modelos": [
-    "304020",
-    "303020 and 306020"
+    "304020, 303020 and 306020"
    ],
    "lotes": [
     {
-     "numero": "306020"
-    },
-    {
-     "numero": "303020"
-    },
-    {
-     "numero": "304020"
+     "numero": "306020, 303020, 304020"
     }
    ],
    "ean": [
@@ -47,7 +40,8 @@
     "6430061290210"
    ],
    "descripcion": "Un soporte de chupete con un clip de metal y una correa hecha de cuero. La marca «Baby Wallaby» está impresa en la correa. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Sin embalaje"
   }
  ],
  "riesgo": {
@@ -85,7 +79,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Finlandia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -116,19 +112,16 @@
    "ean:6430061290012",
    "ean:6430061290241",
    "ean:6430061290210",
-   "mm:baby-wallaby:304020",
-   "mm:baby-wallaby:303020-and-306020",
-   "ml:baby-wallaby:306020",
-   "ml:baby-wallaby:303020",
-   "ml:baby-wallaby:304020"
+   "mm:baby-wallaby:304020-303020-and-306020",
+   "ml:baby-wallaby:306020-303020-304020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "65066c8e1c6b96ba"
+  "enriquecido": true,
+  "hashContenido": "6e89da8154f3ca08"
  },
  "slug": "sosten-de-sosten-baby-wallaby-safety-gate-10004751"
 }

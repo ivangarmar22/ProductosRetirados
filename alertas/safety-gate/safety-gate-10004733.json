@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,21 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "Type: 212",
-    "R1ES",
-    "R1ECLS",
-    "E2EQSW",
-    "R2S",
-    "e1*2001/116*0501*53",
-    "e1*2007/46*1560*26",
-    "e1*2007/46*1818*16",
-    "e1*2018/858*00035*03",
-    "e1*2007/46*2115*06"
+    "Type: 212, R1ES, R1ECLS, E2EQSW, R2S",
+    "e1*2001/116*0501*53, e1*2007/46*1560*26, e1*2007/46*1818*16, e1*2018/858*00035*03, e1*2007/46*2115*06"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "13.10.2021 - 26.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "13.10.2021 - 26.10.2021"
+   "fechasTexto": "13.10.2021 - 26.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +68,18 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "IE",
+   "PL",
+   "PT",
+   "RO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -86,24 +94,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01603/21",
-   "mm:mercedes-benz:type-212",
-   "mm:mercedes-benz:r1es",
-   "mm:mercedes-benz:r1ecls",
-   "mm:mercedes-benz:e2eqsw",
-   "mm:mercedes-benz:r2s",
-   "mm:mercedes-benz:e1-2001-116-0501-53",
-   "mm:mercedes-benz:e1-2007-46-1560-26",
-   "mm:mercedes-benz:e1-2007-46-1818-16",
-   "mm:mercedes-benz:e1-2018-858-00035-03",
-   "mm:mercedes-benz:e1-2007-46-2115-06"
+   "mm:mercedes-benz:type-212-r1es-r1ecls-e2eqsw-r2s",
+   "mm:mercedes-benz:e1-2001-116-0501-53-e1-2007-46-1560-26-e1-2007-46-1818-16-e1-2018-858-00035-03-e1-2007-46-2115-06",
+   "ml:mercedes-benz:13-10-2021-26-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3305375c2a44e595"
+  "enriquecido": true,
+  "hashContenido": "b947b45f02627c1c"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10004733"
 }

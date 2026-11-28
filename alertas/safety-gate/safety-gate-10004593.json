@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-29"
  },
  "categoria": {
   "literal": "Equipos de alumbrado",
@@ -39,7 +39,8 @@
     "8421776169579"
    ],
    "descripcion": "Luminaria colgante con indicaciones 100V-240V y 50 Hz/60Hz. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón"
   }
  ],
  "riesgo": {
@@ -69,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -99,11 +103,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "06a38cb36eebbc14"
+  "enriquecido": true,
+  "hashContenido": "f561cd3af8b4223a"
  },
  "slug": "luminaria-colgante-faro-barcelona-safety-gate-10004593"
 }

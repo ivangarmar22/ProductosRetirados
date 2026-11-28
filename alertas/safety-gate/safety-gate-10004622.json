@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Volvo"
    ],
    "modelos": [
-    "Type: 246",
-    "256"
+    "Type: 246, 256."
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coches Volvo modelos XC60 y XC90 equipados con motor diesel.",
-   "fechasTexto": "2020"
+   "fechasTexto": "2020",
+   "envase": "Modelo (Chasis): XC60 (de 0410122 a 0468133) y XC90 (de 0530179 a 0556498)."
   }
  ],
  "riesgo": {
@@ -64,7 +68,23 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Suecia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "IS",
+   "LU",
+   "PL",
+   "RO",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,16 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01491/21",
-   "mm:volvo:type-246",
-   "mm:volvo:256"
+   "mm:volvo:type-246-256",
+   "ml:volvo:2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb19b7136c8dca3d"
+  "enriquecido": true,
+  "hashContenido": "9ffbf0c9ada1f356"
  },
  "slug": "turismos-volvo-safety-gate-10004622"
 }

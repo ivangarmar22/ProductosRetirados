@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-04-25"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Subaru"
    ],
    "modelos": [
-    "e13*2018/858*00010*00",
-    "e1*2007/46*1320*05"
+    "e13*2018/858*00010*00; e1*2007/46*1320*05;"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Model year: 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Subaru Outback, Modo año: 2021",
-   "fechasTexto": "Model year: 2021"
+   "fechasTexto": "Model year: 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,16 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "IE",
+   "LU",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +86,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01639/21",
-   "mm:subaru:e13-2018-858-00010-00",
-   "mm:subaru:e1-2007-46-1320-05"
+   "mm:subaru:e13-2018-858-00010-00-e1-2007-46-1320-05",
+   "ml:subaru:model-year-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "2f08e7dc46b9ba01"
+  "enriquecido": true,
+  "hashContenido": "a073f4f0bd5cdb8a"
  },
  "slug": "turismos-subaru-safety-gate-10004840"
 }

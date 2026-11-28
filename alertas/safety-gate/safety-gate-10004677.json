@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-04"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*0457*24-*28",
-    "Type: 639/2"
+    "e1*2007/46*0457*24-*28, Type: 639/2"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "21.02.2020 - 31.03.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "21.02.2020 - 31.03.2021"
+   "fechasTexto": "21.02.2020 - 31.03.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,17 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FR",
+   "GR",
+   "IE",
+   "IS",
+   "LU",
+   "PT",
+   "RO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +87,16 @@
  "dedup": {
   "claves": [
    "ref:INFO/00164/21",
-   "mm:mercedes-benz:e1-2007-46-0457-24-28",
-   "mm:mercedes-benz:type-639-2"
+   "mm:mercedes-benz:e1-2007-46-0457-24-28-type-639-2",
+   "ml:mercedes-benz:21-02-2020-31-03-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d22e9c6df680169b"
+  "enriquecido": true,
+  "hashContenido": "1a25821a2eb060b9"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10004677"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,14 @@
     "Suzuki"
    ],
    "modelos": [
-    "JY14",
-    "JY15",
-    "JY16 S-Cross",
-    "LY30",
-    "LY31",
-    "LY32 Vitara"
+    "JY14, JY15, JY16 S-Cross",
+    "LY30, LY31, LY32 Vitara"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Vehículos de pasajeros",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +65,17 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Hungría",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "GR",
+   "HR",
+   "IE",
+   "IS",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,20 +90,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01508/21",
-   "mm:suzuki:jy14",
-   "mm:suzuki:jy15",
-   "mm:suzuki:jy16-s-cross",
-   "mm:suzuki:ly30",
-   "mm:suzuki:ly31",
-   "mm:suzuki:ly32-vitara"
+   "mm:suzuki:jy14-jy15-jy16-s-cross",
+   "mm:suzuki:ly30-ly31-ly32-vitara"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e7e85e3f6a398a8a"
+  "enriquecido": true,
+  "hashContenido": "11efcdb2d858965d"
  },
  "slug": "turismos-suzuki-safety-gate-10004619"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-01"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Pequeño juguete suave de jirafa, con ojos marrones, manchas y pezuñas, sobre fondo amarillo, azul, verde o rosa. Una pequeña cadena está presente en la parte superior de la cabeza. El producto se vendió en línea, en particular a través de Wish.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -58,7 +59,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,11 +83,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "7c457b613b198b2e"
+  "enriquecido": true,
+  "hashContenido": "026f2caa53004618"
  },
  "slug": "juguete-suave-de-jirafa-safety-gate-10002971"
 }

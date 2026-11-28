@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-28"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,15 +27,15 @@
     "SELETTI"
    ],
    "modelos": [
-    "Mouse Standing",
-    "White"
+    "Mouse Standing, White"
    ],
    "lotes": [],
    "ean": [
     "8008215148847"
    ],
    "descripcion": "Lámpara blanca en forma de ratón en posición de pie. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "el producto se envasa en una caja de cartón blanca con el logotipo del fabricante."
   }
  ],
  "riesgo": {
@@ -65,7 +65,11 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "IT",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,16 +98,15 @@
   "claves": [
    "ref:A12/01492/21",
    "ean:8008215148847",
-   "mm:seletti:mouse-standing",
-   "mm:seletti:white"
+   "mm:seletti:mouse-standing-white"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "92e64e5d47238d68"
+  "enriquecido": true,
+  "hashContenido": "56abf6ce8ec38cbf"
  },
  "slug": "luminaria-electrica-seletti-safety-gate-10004582"
 }

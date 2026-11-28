@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-24",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-11-24"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -32,12 +32,19 @@
    ],
    "lotes": [
     {
-     "numero": "20A-LIP-GZExpiry date: 11.2021Production date: 05.2020"
+     "numero": "20A-LIP-GZ"
+    },
+    {
+     "numero": "Expiry date: 11.2021"
+    },
+    {
+     "numero": "Production date: 05.2020"
     }
    ],
    "ean": [],
    "descripcion": "Máscara protectora de filtración respiratoria de la mitad de la cara con el marcado CE impreso.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Máscaras envueltas en sobres de celofán y colocadas en envases de cartón con información sobre el lote, el año y el mes de producción y la fecha de caducidad; El marcado CE menciona la norma EN 149."
   }
  ],
  "riesgo": {
@@ -92,15 +99,17 @@
    "ref:A12/01636/21",
    "mm:gaozhen:2020dfm-lip",
    "mm:gaozhen:type-adult-gz1",
-   "ml:gaozhen:20a-lip-gzexpiry-date-11-2021production-date-05-2020"
+   "ml:gaozhen:20a-lip-gz",
+   "ml:gaozhen:expiry-date-11-2021",
+   "ml:gaozhen:production-date-05-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6f304089499f4a7a"
+  "enriquecido": true,
+  "hashContenido": "84d401b1a62c93a8"
  },
  "slug": "mascara-de-filtro-de-particulas-gaozhen-safety-gate-10004736"
 }

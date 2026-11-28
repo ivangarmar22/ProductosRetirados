@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-06-09"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "A4 : E1*93/81*0013 E1*98/14*0013 audi DUO : E1*96/79*0079 RS4 : E1*97/27*0105 A4 cabrio E1 *92/53*002 E1*98/14*002 A6 : E1*96/27*0051 E1*98/14*0051",
     "A8 : E1*93/81*005 E1*98/14*005 audi TT : E1*97/27*0089 E1*98/14*0089"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "2000-2001"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "2000-2001"
+   "fechasTexto": "2000-2001",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +69,21 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "IS",
+   "PT",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -75,15 +94,16 @@
   "claves": [
    "ref:A12/01579/21",
    "mm:audi:a4-e1-93-81-0013-e1-98-14-0013-audi-duo-e1-96-79-0079-rs4-e1-97-27-0105-a4-cabrio-e1-92-53-002-e1-98-14-002-a6-e1-96-27-0051-e1-98-14-0051",
-   "mm:audi:a8-e1-93-81-005-e1-98-14-005-audi-tt-e1-97-27-0089-e1-98-14-0089"
+   "mm:audi:a8-e1-93-81-005-e1-98-14-005-audi-tt-e1-97-27-0089-e1-98-14-0089",
+   "ml:audi:2000-2001"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0c9aabb277ae5260"
+  "enriquecido": true,
+  "hashContenido": "fb53536d913f631c"
  },
  "slug": "turismos-audi-safety-gate-10004726"
 }

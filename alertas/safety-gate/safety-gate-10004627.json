@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "Type: 906 AC",
-    "35 906 AC 35/4x4",
-    "906BB50",
-    "906BB35",
-    "906BB50/4x4",
-    "906BB35/4x4",
-    "e1*2001/116*0354*28",
-    "e1*2001/116*0424*19",
-    "e1*2007/46*0296*16",
-    "e1*2007/46*0301*23",
-    "e1*2007/46*0304*10",
-    "e1*2007/46*0305*15"
+    "Type: 906 AC, 35 906 AC 35/4x4, 906BB50, 906BB35, 906BB50/4x4, 906BB35/4x4",
+    "e1*2001/116*0354*28, e1*2001/116*0424*19, e1*2007/46*0296*16, e1*2007/46*0301*23, e1*2007/46*0304*10, e1*2007/46*0305*15"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "16.6.2021 to 16.8.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche/camión",
-   "fechasTexto": "16.6.2021 to 16.8.2021"
+   "fechasTexto": "16.6.2021 to 16.8.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,19 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "PL",
+   "PT",
+   "RO",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,26 +90,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01676/21",
-   "mm:mercedes-benz:type-906-ac",
-   "mm:mercedes-benz:35-906-ac-35-4x4",
-   "mm:mercedes-benz:906bb50",
-   "mm:mercedes-benz:906bb35",
-   "mm:mercedes-benz:906bb50-4x4",
-   "mm:mercedes-benz:906bb35-4x4",
-   "mm:mercedes-benz:e1-2001-116-0354-28",
-   "mm:mercedes-benz:e1-2001-116-0424-19",
-   "mm:mercedes-benz:e1-2007-46-0296-16",
-   "mm:mercedes-benz:e1-2007-46-0301-23",
-   "mm:mercedes-benz:e1-2007-46-0304-10",
-   "mm:mercedes-benz:e1-2007-46-0305-15"
+   "mm:mercedes-benz:type-906-ac-35-906-ac-35-4x4-906bb50-906bb35-906bb50-4x4-906bb35-4x4",
+   "mm:mercedes-benz:e1-2001-116-0354-28-e1-2001-116-0424-19-e1-2007-46-0296-16-e1-2007-46-0301-23-e1-2007-46-0304-10-e1-2007-46-0305-15",
+   "ml:mercedes-benz:16-6-2021-to-16-8-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "24bb66746ce678df"
+  "enriquecido": true,
+  "hashContenido": "5ab048215916d1f8"
  },
  "slug": "coche-camion-mercedes-benz-safety-gate-10004627"
 }

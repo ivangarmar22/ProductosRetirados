@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -30,10 +30,15 @@
     "KJ",
     "e9*2007/46*3134*31"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "14.6.2021 - 23.6.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "14.6.2021 - 23.6.2021"
+   "fechasTexto": "14.6.2021 - 23.6.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +68,15 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "España",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,15 +91,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01640/21",
-   "mm:seat:e9-2007-46-3134-31"
+   "mm:seat:e9-2007-46-3134-31",
+   "ml:seat:14-6-2021-23-6-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "4a6a07d5e90050bb"
+  "enriquecido": true,
+  "hashContenido": "26ebb1fc9672939e"
  },
  "slug": "turismos-seat-safety-gate-10004826"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-01"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -25,13 +25,13 @@
    "nombre": "Hoja de sierra de cadena",
    "marcas": [],
    "modelos": [
-    "115",
-    "125 mm"
+    "115 / 125 mm"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Hoja de sierra de cadena de madera para amoladora angular 115/125 mm. El producto fue vendido en línea, en particular a través de eBay.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +61,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -79,11 +81,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "f465db18afe317a6"
+  "enriquecido": true,
+  "hashContenido": "3ae824899cf4640a"
  },
  "slug": "hoja-de-sierra-de-cadena-safety-gate-10004589"
 }

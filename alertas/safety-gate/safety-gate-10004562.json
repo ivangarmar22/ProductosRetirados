@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-09-22"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,23 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "Types: 204",
-    "204K",
-    "212",
-    "R1ES",
-    "204 X",
-    "H1GLE",
-    "e1*2001/116*0431*53 - *62",
-    "e1*2001/116*0457*44 - *52",
-    "e1*2001/116*0501*36 - *49",
-    "e1*2007/46*1560*10 - *22",
-    "e1*2001/116*0480*37 - *41",
-    "e1*2007/46*1885*02 - *12"
+    "Types: 204, 204K, 212, R1ES, 204 X, H1GLE",
+    "e1*2001/116*0431*53 - *62, e1*2001/116*0457*44 - *52, e1*2001/116*0501*36 - *49, e1*2007/46*1560*10 - *22, e1*2001/116*0480*37 - *41, e1*2007/46*1885*02 - *12"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "04.09.2018 - 17.03.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Serie de modelos: Clase C (BR 205), clase E (BR 213), GLC (BR 253), GLE (BR 167)",
-   "fechasTexto": "04.09.2018 - 17.03.2021"
+   "fechasTexto": "04.09.2018 - 17.03.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +68,21 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,26 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01532/21",
-   "mm:mercedes-benz:types-204",
-   "mm:mercedes-benz:204k",
-   "mm:mercedes-benz:212",
-   "mm:mercedes-benz:r1es",
-   "mm:mercedes-benz:204-x",
-   "mm:mercedes-benz:h1gle",
-   "mm:mercedes-benz:e1-2001-116-0431-53-62",
-   "mm:mercedes-benz:e1-2001-116-0457-44-52",
-   "mm:mercedes-benz:e1-2001-116-0501-36-49",
-   "mm:mercedes-benz:e1-2007-46-1560-10-22",
-   "mm:mercedes-benz:e1-2001-116-0480-37-41",
-   "mm:mercedes-benz:e1-2007-46-1885-02-12"
+   "mm:mercedes-benz:types-204-204k-212-r1es-204-x-h1gle",
+   "mm:mercedes-benz:e1-2001-116-0431-53-62-e1-2001-116-0457-44-52-e1-2001-116-0501-36-49-e1-2007-46-1560-10-22-e1-2001-116-0480-37-41-e1-2007-46-1885-02-12",
+   "ml:mercedes-benz:04-09-2018-17-03-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a595f927425e5c16"
+  "enriquecido": true,
+  "hashContenido": "0d27f62c0105e21a"
  },
  "slug": "coche-de-pasajeros-mercedes-benz-safety-gate-10004562"
 }

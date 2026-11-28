@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-22"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "6417959015100"
    ],
    "descripcion": "Un juguete eléctrico de hierro hecho de plástico que es la energía de las baterías",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Una caja de cartón con una ventana de plástico"
   }
  ],
  "riesgo": {
@@ -68,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +100,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "25b23c53f73547da"
+  "enriquecido": true,
+  "hashContenido": "b0a458db3ae971d2"
  },
  "slug": "un-juguete-de-hierro-amo-toys-safety-gate-10004933"
 }

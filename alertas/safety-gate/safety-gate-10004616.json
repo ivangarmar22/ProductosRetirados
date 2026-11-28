@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,20 +27,24 @@
     "Ducati"
    ],
    "modelos": [
-    "e49*168/2013*00006*00",
-    "e49*168/2013*00006*01",
-    "e49*168/2013*00006*02",
-    "e49*168/2013*00006*03",
-    "e49*168/2013*00006*04",
-    "e49*168/2013*00006*05",
-    "e49*168/2013*00034*00",
-    "e49*168/2013*00034*01",
+    "e49*168/2013*00006*00; e49*168/2013*00006*01; e49*168/2013*00006*02; e49*168/2013*00006*03; e49*168/2013*00006*04; e49*168/2013*00006*05; e49*168/2013*00034*00; e49*168/2013*00034*01",
     "e49*168/2013*00034*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Monster 1200/1200S, Model Year: 2014-2021"
+    },
+    {
+     "numero": "Monster 1200R, Model Year: 2016-2019"
+    },
+    {
+     "numero": "Monster 821, Model Year: 2015-2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicletas Ducati, modelos: Monster 821, Monster 1200/1200S, Monster 1200R.",
-   "fechasTexto": "Monster 1200/1200S, Model Year: 2014-2021Monster 1200R, Model Year: 2016-2019Monster 821, Model Year: 2015-2021"
+   "fechasTexto": "Monster 1200/1200S, Model Year: 2014-2021Monster 1200R, Model Year: 2016-2019Monster 821, Model Year: 2015-2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -71,7 +75,17 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -81,23 +95,19 @@
  "dedup": {
   "claves": [
    "ref:A12/01473/21",
-   "mm:ducati:e49-168-2013-00006-00",
-   "mm:ducati:e49-168-2013-00006-01",
-   "mm:ducati:e49-168-2013-00006-02",
-   "mm:ducati:e49-168-2013-00006-03",
-   "mm:ducati:e49-168-2013-00006-04",
-   "mm:ducati:e49-168-2013-00006-05",
-   "mm:ducati:e49-168-2013-00034-00",
-   "mm:ducati:e49-168-2013-00034-01",
-   "mm:ducati:e49-168-2013-00034-02"
+   "mm:ducati:e49-168-2013-00006-00-e49-168-2013-00006-01-e49-168-2013-00006-02-e49-168-2013-00006-03-e49-168-2013-00006-04-e49-168-2013-00006-05-e49-168-2013-00034-00-e49-168-2013-00034-01",
+   "mm:ducati:e49-168-2013-00034-02",
+   "ml:ducati:monster-1200-1200s-model-year-2014-2021",
+   "ml:ducati:monster-1200r-model-year-2016-2019",
+   "ml:ducati:monster-821-model-year-2015-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9d1bd385dc28769b"
+  "enriquecido": true,
+  "hashContenido": "6382e64adde4bd5a"
  },
  "slug": "motocicleta-ducati-safety-gate-10004616"
 }

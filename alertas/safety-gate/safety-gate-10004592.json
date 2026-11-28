@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-17"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -27,17 +27,15 @@
     "Oxelo"
    ],
    "modelos": [
-    "LEARN 500 BLUE (model code : 8555206",
-    "article code : 2939387)",
-    "LEARN 500 PINK (model code : 8555207",
-    "article code : 2939388)",
-    "LEARN 500 YELLOW (model code : 8555205",
-    "article code : 2939386)"
+    "LEARN 500 BLUE (model code : 8555206 ; article code : 2939387)",
+    "LEARN 500 PINK (model code : 8555207 ; article code : 2939388)",
+    "LEARN 500 YELLOW (model code : 8555205 ; article code : 2939386)"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Scooter para niños disponible en diferentes colores. El producto se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +65,14 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "AT",
+   "IE",
+   "PL",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -87,20 +92,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01463/21",
-   "mm:oxelo:learn-500-blue-model-code-8555206",
-   "mm:oxelo:article-code-2939387",
-   "mm:oxelo:learn-500-pink-model-code-8555207",
-   "mm:oxelo:article-code-2939388",
-   "mm:oxelo:learn-500-yellow-model-code-8555205",
-   "mm:oxelo:article-code-2939386"
+   "mm:oxelo:learn-500-blue-model-code-8555206-article-code-2939387",
+   "mm:oxelo:learn-500-pink-model-code-8555207-article-code-2939388",
+   "mm:oxelo:learn-500-yellow-model-code-8555205-article-code-2939386"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1875a75c817ca6a4"
+  "enriquecido": true,
+  "hashContenido": "44ee2eef464cb3c6"
  },
  "slug": "scooter-de-juguete-oxelo-safety-gate-10004592"
 }

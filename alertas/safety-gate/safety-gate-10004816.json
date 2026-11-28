@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,18 +27,17 @@
     "Man"
    ],
    "modelos": [
-    "e1*2007/46*1955*02-08",
-    "e1*2007/46*1956*02",
-    "04",
-    "05-07",
-    "09",
-    "Type: B.2007.46.017",
-    "B.2007.46.018"
+    "e1*2007/46*1955*02-08, e1*2007/46*1956*02, 04, 05-07, 09, Type: B.2007.46.017, B.2007.46.018"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 03.04.2017 to 22.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús/coach",
-   "fechasTexto": "From 03.04.2017 to 22.07.2021"
+   "fechasTexto": "From 03.04.2017 to 22.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -78,19 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01647/21",
-   "mm:man:e1-2007-46-1955-02-08",
-   "mm:man:e1-2007-46-1956-02",
-   "mm:man:05-07",
-   "mm:man:type-b-2007-46-017",
-   "mm:man:b-2007-46-018"
+   "mm:man:e1-2007-46-1955-02-08-e1-2007-46-1956-02-04-05-07-09-type-b-2007-46-017-b-2007-46-018",
+   "ml:man:from-03-04-2017-to-22-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "aad712f872b34a2a"
+  "enriquecido": true,
+  "hashContenido": "8420dbd91f32f750"
  },
  "slug": "autobus-coach-man-safety-gate-10004816"
 }

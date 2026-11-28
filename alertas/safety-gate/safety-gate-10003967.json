@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Not applicable"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.03.2020 - 01.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Componente del vehículo — amortiguador estabilizador",
-   "fechasTexto": "01.03.2020 - 01.08.2021"
+   "fechasTexto": "01.03.2020 - 01.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "FI",
+   "NO"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/00937/21",
-   "mm:saf:not-applicable"
+   "mm:saf:not-applicable",
+   "ml:saf:01-03-2020-01-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9de21096ed94c0c1"
+  "enriquecido": true,
+  "hashContenido": "e3b00274f3902851"
  },
  "slug": "componente-del-vehiculo-amortiguador-estabilizador-saf-safety-gate-10003967"
 }

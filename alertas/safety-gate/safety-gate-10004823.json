@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-25",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,23 @@
     "Honda"
    ],
    "modelos": [
-    "e6*168/2013*00057*00",
-    "e6*168/2013*00064*00",
-    "e6*168/2013*00066*00"
+    "e6*168/2013*00057*00, e6*168/2013*00064*00, e6*168/2013*00066*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "NC750XDM (from 23 December 2020 to 14 September 2021)"
+    },
+    {
+     "numero": "NSS750M (from 29 September 2020 to 14 September 2021)"
+    },
+    {
+     "numero": "X-ADV750M (from 23 October 2020 to 6 September 2021)"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicletas Honda fabricadas en la fábrica de Kumamoto. Código modelo X-ADV750M (RH10), NSS750M (RH11), NC750XDM (RH9); Modo de año: 2021",
-   "fechasTexto": "NC750XDM (from 23 December 2020 to 14 September 2021)NSS750M (from 29 September 2020 to 14 September 2021)X-ADV750M (from 23 October 2020 to 6 September 2021)"
+   "fechasTexto": "NC750XDM (from 23 December 2020 to 14 September 2021)NSS750M (from 29 September 2020 to 14 September 2021)X-ADV750M (from 23 October 2020 to 6 September 2021)",
+   "envase": "De VIN: X-ADV750M (de JH2RH10A4MK000017 a JH2RH10A0MK013556), NSS750M (de JH2RH11A6MK000020 a JH2RH11A3MK008740) y NC750XDM (de JH2RH09B5MK000016 a JH2RH09B0MK006872)."
   }
  ],
  "riesgo": {
@@ -64,7 +73,21 @@
   "ccaa": [],
   "paisNotificante": "Portugal",
   "paisOrigen": "Japón",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "IE",
+   "LU",
+   "PL",
+   "SE",
+   "SI",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -74,17 +97,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01638/21",
-   "mm:honda:e6-168-2013-00057-00",
-   "mm:honda:e6-168-2013-00064-00",
-   "mm:honda:e6-168-2013-00066-00"
+   "mm:honda:e6-168-2013-00057-00-e6-168-2013-00064-00-e6-168-2013-00066-00",
+   "ml:honda:nc750xdm-from-23-december-2020-to-14-september-2021",
+   "ml:honda:nss750m-from-29-september-2020-to-14-september-2021",
+   "ml:honda:x-adv750m-from-23-october-2020-to-6-september-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "ab0ab9437881dea7"
+  "enriquecido": true,
+  "hashContenido": "1ff5e6778ba4e4bd"
  },
  "slug": "motocicleta-honda-safety-gate-10004823"
 }

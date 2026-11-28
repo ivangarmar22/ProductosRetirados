@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2001/116*0480*31 - 42",
-    "Type: 204X"
+    "e1*2001/116*0480*31 - 42, Type: 204X"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.2.2019 to 17.12.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche",
-   "fechasTexto": "22.2.2019 to 17.12.2020"
+   "fechasTexto": "22.2.2019 to 17.12.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,23 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HU",
+   "IE",
+   "IS",
+   "LU",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -78,16 +98,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01673/21",
-   "mm:mercedes-benz:e1-2001-116-0480-31-42",
-   "mm:mercedes-benz:type-204x"
+   "mm:mercedes-benz:e1-2001-116-0480-31-42-type-204x",
+   "ml:mercedes-benz:22-2-2019-to-17-12-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "9d06289dcc91b850"
+  "enriquecido": true,
+  "hashContenido": "d2e9e0487e80ed10"
  },
  "slug": "coche-mercedes-benz-safety-gate-10004610"
 }

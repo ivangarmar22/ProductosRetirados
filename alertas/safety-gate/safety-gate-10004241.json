@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-10",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-14"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Batería recargable para bicicletas eléctricas de autoservicio utilizadas en diversas ciudades de Francia, Bélgica e Irlanda (Lyon, Bruselas y Dublín)",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -91,11 +94,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3e9aa8ba6036ade9"
+  "enriquecido": true,
+  "hashContenido": "943bfe9ede3f9823"
  },
  "slug": "bateria-recargable-de-iones-de-litio-e-batteries-jcdecaux-safety-gate-10004241"
 }

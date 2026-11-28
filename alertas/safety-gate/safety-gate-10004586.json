@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Audi"
    ],
    "modelos": [
-    "e1*2007/46*1914",
-    "Type: GE"
+    "e1*2007/46*1914, Type: GE"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06/05/2021 - 14/07/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "06/05/2021 - 14/07/2021"
+   "fechasTexto": "06/05/2021 - 14/07/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "FI",
+   "FR",
+   "IE",
+   "PT",
+   "SE",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01672/21",
-   "mm:audi:e1-2007-46-1914",
-   "mm:audi:type-ge"
+   "mm:audi:e1-2007-46-1914-type-ge",
+   "ml:audi:06-05-2021-14-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "062c8b88e0c29264"
+  "enriquecido": true,
+  "hashContenido": "9955b5889862ad81"
  },
  "slug": "turismos-audi-safety-gate-10004586"
 }

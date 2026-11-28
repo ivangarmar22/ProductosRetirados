@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-09"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -28,7 +28,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Juguete suave en forma de animal imaginario (como pókemo), azul y blanco con una cuerda pequeña y una ventosa. Producto vendido en línea, especialmente en Wish.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -61,7 +62,9 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -83,11 +86,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "81f078e7265a4ced"
+  "enriquecido": true,
+  "hashContenido": "513835ba012960cf"
  },
  "slug": "juguete-suave-safety-gate-10002732"
 }

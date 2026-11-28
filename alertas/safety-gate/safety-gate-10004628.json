@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-08",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-04-25"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "8713219308141"
    ],
    "descripcion": "Masa marrón, como el limoso",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Contenedor de plástico transparente con tapa blanca, encapsulado en lámina de plástico y parcialmente sellado."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Croacia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "CZ",
+   "LV"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -93,11 +97,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "e0820a7183c1ec05"
+  "enriquecido": true,
+  "hashContenido": "6fcadb2327d7f14b"
  },
  "slug": "juguete-de-limo-venus-safety-gate-10004628"
 }

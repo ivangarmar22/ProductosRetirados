@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-02",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Arco amarillo y púrpura con tres flechas verdes. Producto vendido en línea, en particular a través de AliExpress.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón con plástico envuelto alrededor del arco y flechas."
   }
  ],
  "riesgo": {
@@ -69,7 +70,9 @@
   "ccaa": [],
   "paisNotificante": "Bélgica",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -95,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "55baaeb25ec72e50"
+  "enriquecido": true,
+  "hashContenido": "e6da815cc254242d"
  },
  "slug": "arco-de-juguete-con-flechas-safety-gate-10004923"
 }

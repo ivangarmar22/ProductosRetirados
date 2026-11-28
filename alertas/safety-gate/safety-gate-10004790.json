@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-05-30"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -24,7 +24,8 @@
   {
    "nombre": "Husqvarna TE; Husqvarna FE; GASGAS EC; GASGAS EC F",
    "marcas": [
-    "GASGAS, Husqvarna"
+    "GASGAS",
+    "Husqvarna"
    ],
    "modelos": [
     "e1*168/2013*00023*03",
@@ -34,10 +35,27 @@
     "e1*168/2013*00242*00",
     "e1*168/2013*00242*01"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "GASGAS EC F: MY 2022"
+    },
+    {
+     "numero": "GASGAS EC: MY 2021"
+    },
+    {
+     "numero": "GASGAS EC: MY 2022"
+    },
+    {
+     "numero": "Husqvarna FE: MY 2022"
+    },
+    {
+     "numero": "Husqvarna TE: MY 2022"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta",
-   "fechasTexto": "GASGAS EC F: MY 2022GASGAS EC: MY 2021GASGAS EC: MY 2022Husqvarna FE: MY 2022Husqvarna TE: MY 2022"
+   "fechasTexto": "GASGAS EC F: MY 2022GASGAS EC: MY 2021GASGAS EC: MY 2022Husqvarna FE: MY 2022Husqvarna TE: MY 2022",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +85,16 @@
   "ccaa": [],
   "paisNotificante": "Austria",
   "paisOrigen": "Austria",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FR",
+   "GR",
+   "LU",
+   "NO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -82,20 +109,36 @@
  "dedup": {
   "claves": [
    "ref:A12/01671/21",
-   "mm:gasgas-husqvarna:e1-168-2013-00023-03",
-   "mm:gasgas-husqvarna:e1-168-2013-00051-03",
-   "mm:gasgas-husqvarna:e1-168-2013-00241-00",
-   "mm:gasgas-husqvarna:e1-168-2013-00241-01",
-   "mm:gasgas-husqvarna:e1-168-2013-00242-00",
-   "mm:gasgas-husqvarna:e1-168-2013-00242-01"
+   "mm:gasgas:e1-168-2013-00023-03",
+   "mm:gasgas:e1-168-2013-00051-03",
+   "mm:gasgas:e1-168-2013-00241-00",
+   "mm:gasgas:e1-168-2013-00241-01",
+   "mm:gasgas:e1-168-2013-00242-00",
+   "mm:gasgas:e1-168-2013-00242-01",
+   "ml:gasgas:gasgas-ec-f-my-2022",
+   "ml:gasgas:gasgas-ec-my-2021",
+   "ml:gasgas:gasgas-ec-my-2022",
+   "ml:gasgas:husqvarna-fe-my-2022",
+   "ml:gasgas:husqvarna-te-my-2022",
+   "mm:husqvarna:e1-168-2013-00023-03",
+   "mm:husqvarna:e1-168-2013-00051-03",
+   "mm:husqvarna:e1-168-2013-00241-00",
+   "mm:husqvarna:e1-168-2013-00241-01",
+   "mm:husqvarna:e1-168-2013-00242-00",
+   "mm:husqvarna:e1-168-2013-00242-01",
+   "ml:husqvarna:gasgas-ec-f-my-2022",
+   "ml:husqvarna:gasgas-ec-my-2021",
+   "ml:husqvarna:gasgas-ec-my-2022",
+   "ml:husqvarna:husqvarna-fe-my-2022",
+   "ml:husqvarna:husqvarna-te-my-2022"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "cb4c119294a4a2a2"
+  "enriquecido": true,
+  "hashContenido": "814fcc996d9bba45"
  },
  "slug": "motocicleta-gasgas-husqvarna-safety-gate-10004790"
 }

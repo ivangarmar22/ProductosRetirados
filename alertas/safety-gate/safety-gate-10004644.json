@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-02-21"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -36,7 +36,8 @@
    ],
    "ean": [],
    "descripcion": "Una cámara de madera en los colores rosa y azul embalado en un embalaje de cartón",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón"
   }
  ],
  "riesgo": {
@@ -80,7 +81,12 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BE",
+   "EE",
+   "LV",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -120,11 +126,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0c66452b40177b06"
+  "enriquecido": true,
+  "hashContenido": "48c82f4155684276"
  },
  "slug": "juguete-de-madera-little-dutch-tiamo-safety-gate-10004644"
 }

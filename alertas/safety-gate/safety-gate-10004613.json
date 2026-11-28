@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "s. Anlage"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "From 29.06.2021 to 07.07.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Camión",
-   "fechasTexto": "From 29.06.2021 to 07.07.2021"
+   "fechasTexto": "From 29.06.2021 to 07.07.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,13 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "IE",
+   "PL",
+   "PT",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +83,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01506/21",
-   "mm:mercedes-benz:s-anlage"
+   "mm:mercedes-benz:s-anlage",
+   "ml:mercedes-benz:from-29-06-2021-to-07-07-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d36d3cc6f52f5d0f"
+  "enriquecido": true,
+  "hashContenido": "d689ba3a45b32fdf"
  },
  "slug": "camion-mercedes-benz-safety-gate-10004613"
 }

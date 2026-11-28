@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-05",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -42,7 +42,8 @@
    "lotes": [],
    "ean": [],
    "descripcion": "Vehículos de pasajeros, Vehículos comerciales ligeros.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,7 +74,12 @@
   "ccaa": [],
   "paisNotificante": "Países Bajos",
   "paisOrigen": "Estados Unidos",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "HR",
+   "HU",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -106,11 +112,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "1a87f93fa1eb7ff6"
+  "enriquecido": true,
+  "hashContenido": "245585c8d198d46f"
  },
  "slug": "coche-de-pasajeros-jeep-safety-gate-10004618"
 }

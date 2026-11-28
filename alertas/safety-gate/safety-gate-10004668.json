@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-31"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "Individual approval"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "26.07.2016 - 12.08.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "26.07.2016 - 12.08.2021"
+   "fechasTexto": "26.07.2016 - 12.08.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -72,15 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01570/21",
-   "mm:chevrolet:individual-approval"
+   "mm:chevrolet:individual-approval",
+   "ml:chevrolet:26-07-2016-12-08-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "3028b1f22664daf2"
+  "enriquecido": true,
+  "hashContenido": "ea5f847e5dbbdf74"
  },
  "slug": "turismos-chevrolet-safety-gate-10004668"
 }

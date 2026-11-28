@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-07",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-07"
  },
  "categoria": {
   "literal": "Ropa, textiles y artículos de moda",
@@ -24,7 +24,8 @@
   {
    "nombre": "Agatha leather A-skirt",
    "marcas": [
-    "Balmuir, Muir"
+    "Balmuir",
+    "Muir"
    ],
    "modelos": [
     "K12893"
@@ -34,7 +35,8 @@
     "6438232746627"
    ],
    "descripcion": "Falda de cuero marrón.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -84,15 +86,16 @@
   "claves": [
    "ref:A12/01721/21",
    "ean:6438232746627",
-   "mm:balmuir-muir:k12893"
+   "mm:balmuir:k12893",
+   "mm:muir:k12893"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "6a47d579f6254691"
+  "enriquecido": true,
+  "hashContenido": "1f82774508801057"
  },
  "slug": "falda-de-cuero-balmuir-muir-safety-gate-10004966"
 }

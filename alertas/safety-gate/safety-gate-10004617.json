@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-29",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-29"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e49*168/2013*00070*00"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "Model Year: 2019"
+    }
+   ],
    "ean": [],
    "descripcion": "Motocicleta Ducati, modelo: Hypermotard 950 SP",
-   "fechasTexto": "Model Year: 2019"
+   "fechasTexto": "Model Year: 2019",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE",
+   "DK",
+   "FR",
+   "GR",
+   "IE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A11/00091/21",
-   "mm:ducati:e49-168-2013-00070-00"
+   "mm:ducati:e49-168-2013-00070-00",
+   "ml:ducati:model-year-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "77065f5b40568a71"
+  "enriquecido": true,
+  "hashContenido": "b8f484ee6e4ca59f"
  },
  "slug": "motocicleta-ducati-safety-gate-10004617"
 }

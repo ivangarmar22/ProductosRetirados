@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-12-05"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2001/116*0450*##"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "06.09.2021 - 08.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Coche de pasajeros",
-   "fechasTexto": "06.09.2021 - 08.10.2021"
+   "fechasTexto": "06.09.2021 - 08.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,10 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "México",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "RO",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +80,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01680/21",
-   "mm:volkswagen-vw:e1-2001-116-0450"
+   "mm:volkswagen-vw:e1-2001-116-0450",
+   "ml:volkswagen-vw:06-09-2021-08-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "412187627b2f30f6"
+  "enriquecido": true,
+  "hashContenido": "4233d6b841244071"
  },
  "slug": "coche-de-pasajeros-volkswagen-vw-safety-gate-10004859"
 }

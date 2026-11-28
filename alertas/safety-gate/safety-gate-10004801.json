@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,14 +27,17 @@
     "Jeep"
    ],
    "modelos": [
-    "Einzelabnahmen",
-    "Typen: JT",
-    "JL"
+    "Einzelabnahmen, Typen: JT, JL"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10.7.2020 - 19.2.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "10.7.2020 - 19.2.2021"
+   "fechasTexto": "10.7.2020 - 19.2.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -75,16 +78,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01678/21",
-   "mm:jeep:einzelabnahmen",
-   "mm:jeep:typen-jt"
+   "mm:jeep:einzelabnahmen-typen-jt-jl",
+   "ml:jeep:10-7-2020-19-2-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "49ea6dc4aa6cb98f"
+  "enriquecido": true,
+  "hashContenido": "d5ca6ade4b66f053"
  },
  "slug": "turismos-jeep-safety-gate-10004801"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-15",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "E.GO"
    ],
    "modelos": [
-    "e13*KS07/46*1628",
-    "Type: KSADF1"
+    "e13*KS07/46*1628, Type: KSADF1"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "01.06.2019 - 30.06.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "01.06.2019 - 30.06.2020"
+   "fechasTexto": "01.06.2019 - 30.06.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -73,16 +77,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01573/21",
-   "mm:e-go:e13-ks07-46-1628",
-   "mm:e-go:type-ksadf1"
+   "mm:e-go:e13-ks07-46-1628-type-ksadf1",
+   "ml:e-go:01-06-2019-30-06-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "79081329e84d04f6"
+  "enriquecido": true,
+  "hashContenido": "7c1e39816fd5eff7"
  },
  "slug": "turismos-e-go-safety-gate-10004641"
 }

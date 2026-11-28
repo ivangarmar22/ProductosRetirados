@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-07"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -31,17 +31,15 @@
    ],
    "lotes": [
     {
-     "numero": "REV082919ART"
-    },
-    {
-     "numero": "UFI: MW4Q-X05Q-F00D-MSXT"
+     "numero": "REV082919ART, UFI: MW4Q-X05Q-F00D-MSXT"
     }
    ],
    "ean": [
     "0716281210341"
    ],
    "descripcion": "Kit de reparación de neumáticos, que consiste en una herramienta de inserción, una herramienta con oreja, alicates, bastones selladores de neumáticos (5 piezas) y un tubo de plástico verde con pegamento (cemento de goma). El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de plástico transparente con respaldo de cartón."
   }
  ],
  "riesgo": {
@@ -71,7 +69,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -100,16 +100,15 @@
    "ref:A12/01614/21",
    "ean:0716281210341",
    "mm:slime:20464",
-   "ml:slime:rev082919art",
-   "ml:slime:ufi-mw4q-x05q-f00d-msxt"
+   "ml:slime:rev082919art-ufi-mw4q-x05q-f00d-msxt"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "03d86398a5e41dc6"
+  "enriquecido": true,
+  "hashContenido": "e3c7f55a46dbc9f5"
  },
  "slug": "kit-de-reparacion-de-neumaticos-slime-safety-gate-10004804"
 }

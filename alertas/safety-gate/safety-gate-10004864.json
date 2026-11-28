@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-08"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e1*2001/116*0501*51 e1*2007/46*1818*14 e1*2007/46*2115*05"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "10/2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "10/2021"
+   "fechasTexto": "10/2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,14 @@
   "ccaa": [],
   "paisNotificante": "Francia",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "FI",
+   "GR",
+   "HU",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +84,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01658/21",
-   "mm:mercedes-benz:e1-2001-116-0501-51-e1-2007-46-1818-14-e1-2007-46-2115-05"
+   "mm:mercedes-benz:e1-2001-116-0501-51-e1-2007-46-1818-14-e1-2007-46-2115-05",
+   "ml:mercedes-benz:10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "762003720c24e9a7"
+  "enriquecido": true,
+  "hashContenido": "b9a6bea4ca9e20f5"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10004864"
 }

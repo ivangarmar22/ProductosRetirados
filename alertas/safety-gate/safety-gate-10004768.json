@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-16",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-03-28"
  },
  "categoria": {
   "literal": "Equipos de comunicación e información",
@@ -38,7 +38,8 @@
     "5901969417890"
    ],
    "descripcion": "Un auricular de juego negro y rojo que tiene un micrófono. El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Una caja de cartón gris oscuro con detalles rojos."
   }
  ],
  "riesgo": {
@@ -68,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Suecia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LT",
+   "LV",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "0f36e2b9d2e61bd7"
+  "enriquecido": true,
+  "hashContenido": "401f3345d0017540"
  },
  "slug": "auriculares-de-juego-genesis-safety-gate-10004768"
 }

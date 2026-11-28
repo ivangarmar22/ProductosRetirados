@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-04",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-11-25"
  },
  "categoria": {
   "literal": "Productos químicos",
@@ -38,7 +38,8 @@
     "5902051001362"
    ],
    "descripcion": "Pegamento universal de epoxi.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Embalaje de cartón de plástico."
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "Polonia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "EE",
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -97,11 +101,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "db01b29b2be0db3a"
+  "enriquecido": true,
+  "hashContenido": "22a2503dfb0d402f"
  },
  "slug": "pegamento-technicqll-pl-safety-gate-10004327"
 }

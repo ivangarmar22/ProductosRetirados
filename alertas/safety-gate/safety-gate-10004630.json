@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-28",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-12"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "6931722308126"
    ],
    "descripcion": "Un juguete de batería conectado a un caramelo. Los juguetes varían en color con (al menos) amarillo, verde y rojo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Los juguetes se venden a partir de una pantalla de 24 piezas de juguete. Los juguetes vienen en varios colores."
   }
  ],
  "riesgo": {
@@ -76,7 +77,9 @@
   "ccaa": [],
   "paisNotificante": "Finlandia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -121,11 +124,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5f5e78e50d725a3a"
+  "enriquecido": true,
+  "hashContenido": "8dd813f7d4199d68"
  },
  "slug": "juguete-johny-bee-safety-gate-10004630"
 }

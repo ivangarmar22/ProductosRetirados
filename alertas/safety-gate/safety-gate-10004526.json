@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-10-22"
  },
  "categoria": {
   "literal": "Aparatos y equipos eléctricos",
@@ -27,13 +27,13 @@
     "Homra"
    ],
    "modelos": [
-    "DB5",
-    "LDJ-Prime Edition"
+    "DB5, LDJ-Prime Edition"
    ],
    "lotes": [],
    "ean": [],
    "descripcion": "Luz de bola mágica Mp3 led, Homra, DB5, LDJ-Prime Edition.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Luz de bola mágica led."
   }
  ],
  "riesgo": {
@@ -86,16 +86,15 @@
  "dedup": {
   "claves": [
    "ref:A12/01461/21",
-   "mm:homra:db5",
-   "mm:homra:ldj-prime-edition"
+   "mm:homra:db5-ldj-prime-edition"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "d7c6ad3c2ec23f86"
+  "enriquecido": true,
+  "hashContenido": "0d23522b1cb6e208"
  },
  "slug": "lampara-de-luz-led-homra-safety-gate-10004526"
 }

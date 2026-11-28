@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-12",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-31"
  },
  "categoria": {
   "literal": "Equipos de protección",
@@ -38,7 +38,8 @@
     "3608459543139"
    ],
    "descripcion": "Chaleco salvavidas para la navegación, con un arnés textil acoplado al barco. Producto vendido en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,14 @@
   "ccaa": [],
   "paisNotificante": "Rumanía",
   "paisOrigen": "Rumanía",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IE",
+   "IT",
+   "LV",
+   "PL",
+   "PT",
+   "SK"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +102,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "a40587804ec01f4b"
+  "enriquecido": true,
+  "hashContenido": "b20420d248707470"
  },
  "slug": "chaleco-salvavidas-tribord-safety-gate-10004676"
 }

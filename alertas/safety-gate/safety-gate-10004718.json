@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,15 +27,18 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "Type: H1GLE",
-    "204",
-    "e1*2007/46*1885*00 - 11",
-    "e1*2001/116*0431*50 - 61"
+    "Type: H1GLE, 204",
+    "e1*2007/46*1885*00 - 11, e1*2001/116*0431*50 - 61"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23/12/2018 to 28/08/2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "23/12/2018 to 28/08/2020"
+   "fechasTexto": "23/12/2018 to 28/08/2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -65,7 +68,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -80,18 +85,17 @@
  "dedup": {
   "claves": [
    "ref:A12/01557/21",
-   "mm:mercedes-benz:type-h1gle",
-   "mm:mercedes-benz:204",
-   "mm:mercedes-benz:e1-2007-46-1885-00-11",
-   "mm:mercedes-benz:e1-2001-116-0431-50-61"
+   "mm:mercedes-benz:type-h1gle-204",
+   "mm:mercedes-benz:e1-2007-46-1885-00-11-e1-2001-116-0431-50-61",
+   "ml:mercedes-benz:23-12-2018-to-28-08-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "811ee34916c9fa5e"
+  "enriquecido": true,
+  "hashContenido": "16596a278c6a1b06"
  },
  "slug": "turismos-mercedes-benz-safety-gate-10004718"
 }

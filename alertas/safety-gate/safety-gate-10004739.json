@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-18",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-07-01"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,32 +27,19 @@
     "Evobus"
    ],
    "modelos": [
-    "Type: 410 02",
-    "410 04",
-    "410 03",
-    "633 02",
-    "628 02",
-    "628 03",
-    "628B01",
-    "628B02",
-    "628 10",
-    "628 11",
-    "e1*2007/46*1133*21",
-    "e1*2007/46*1569*16",
-    "e1*2007/46*1160*22",
-    "e1*2007/46*0021*15",
-    "e1*2007/46*0087*30",
-    "e1*2007/46*0090*27",
-    "e1*2007/46*0036*20",
-    "e1*2007/46*1636*11",
-    "e1*2007/46*1643*10",
-    "e1*2007/46*1985*05",
-    "e1*2007/46*2083*02"
+    "Type: 410 02, 410 04, 410 03, 633 02, 628 02, 628 03, 628B01, 628B02, 628 10, 628 11",
+    "e1*2007/46*1133*21, e1*2007/46*1569*16, e1*2007/46*1160*22, e1*2007/46*0021*15, e1*2007/46*0087*30, e1*2007/46*0090*27, e1*2007/46*0036*20, e1*2007/46*1636*11,",
+    "e1*2007/46*1643*10, e1*2007/46*1985*05, e1*2007/46*2083*02"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.3.2021 - 27.10.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Autobús/coach",
-   "fechasTexto": "23.3.2021 - 27.10.2021"
+   "fechasTexto": "23.3.2021 - 27.10.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -82,7 +69,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DK",
+   "GR",
+   "PT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,35 +83,18 @@
  "dedup": {
   "claves": [
    "ref:A12/01602/21",
-   "mm:evobus:type-410-02",
-   "mm:evobus:410-04",
-   "mm:evobus:410-03",
-   "mm:evobus:633-02",
-   "mm:evobus:628-02",
-   "mm:evobus:628-03",
-   "mm:evobus:628b01",
-   "mm:evobus:628b02",
-   "mm:evobus:628-10",
-   "mm:evobus:628-11",
-   "mm:evobus:e1-2007-46-1133-21",
-   "mm:evobus:e1-2007-46-1569-16",
-   "mm:evobus:e1-2007-46-1160-22",
-   "mm:evobus:e1-2007-46-0021-15",
-   "mm:evobus:e1-2007-46-0087-30",
-   "mm:evobus:e1-2007-46-0090-27",
-   "mm:evobus:e1-2007-46-0036-20",
-   "mm:evobus:e1-2007-46-1636-11",
-   "mm:evobus:e1-2007-46-1643-10",
-   "mm:evobus:e1-2007-46-1985-05",
-   "mm:evobus:e1-2007-46-2083-02"
+   "mm:evobus:type-410-02-410-04-410-03-633-02-628-02-628-03-628b01-628b02-628-10-628-11",
+   "mm:evobus:e1-2007-46-1133-21-e1-2007-46-1569-16-e1-2007-46-1160-22-e1-2007-46-0021-15-e1-2007-46-0087-30-e1-2007-46-0090-27-e1-2007-46-0036-20-e1-2007-46-1636-11",
+   "mm:evobus:e1-2007-46-1643-10-e1-2007-46-1985-05-e1-2007-46-2083-02",
+   "ml:evobus:23-3-2021-27-10-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "99048a7654fd10ed"
+  "enriquecido": true,
+  "hashContenido": "3a5838cc4724d742"
  },
  "slug": "autobus-coach-evobus-safety-gate-10004739"
 }

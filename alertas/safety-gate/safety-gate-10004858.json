@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-01"
  },
  "categoria": {
   "literal": "Herramientas manuales",
@@ -27,15 +27,15 @@
     "FXA"
    ],
    "modelos": [
-    "FXA200089",
-    "501810054"
+    "FXA200089, 501810054"
    ],
    "lotes": [],
    "ean": [
     "6438313304517"
    ],
    "descripcion": "Llave ajustable con mango negro/amarillo",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Bolsa de plástico transparente"
   }
  ],
  "riesgo": {
@@ -89,16 +89,15 @@
   "claves": [
    "ref:A12/01656/21",
    "ean:6438313304517",
-   "mm:fxa:fxa200089",
-   "mm:fxa:501810054"
+   "mm:fxa:fxa200089-501810054"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "bbb1896d349f1051"
+  "enriquecido": true,
+  "hashContenido": "4ea6f3a377bbd803"
  },
  "slug": "llave-de-llave-ajustable-fxa-safety-gate-10004858"
 }

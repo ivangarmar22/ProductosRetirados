@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-11",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-10-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,13 +27,17 @@
     "Peugeot"
    ],
    "modelos": [
-    "e3*2007/46*0045*17",
-    "Type: Y"
+    "e3*2007/46*0045*17, Type: Y"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "1 February 2021 to 18 May 2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros",
-   "fechasTexto": "1 February 2021 to 18 May 2021"
+   "fechasTexto": "1 February 2021 to 18 May 2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -63,7 +67,11 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Italia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL",
+   "PT",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -73,16 +81,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01556/21",
-   "mm:peugeot:e3-2007-46-0045-17",
-   "mm:peugeot:type-y"
+   "mm:peugeot:e3-2007-46-0045-17-type-y",
+   "ml:peugeot:1-february-2021-to-18-may-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5ed90c7367b6ab94"
+  "enriquecido": true,
+  "hashContenido": "07f599ead09cbfe6"
  },
  "slug": "furgoneta-de-pasajeros-peugeot-safety-gate-10004717"
 }

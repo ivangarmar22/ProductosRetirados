@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-07"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,10 +27,15 @@
     "OVATION"
    ],
    "modelos": [],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "23.11.2020 - 29.11.2020"
+    }
+   ],
    "ean": [],
    "descripcion": "Neumáticos",
-   "fechasTexto": "23.11.2020 - 29.11.2020"
+   "fechasTexto": "23.11.2020 - 29.11.2020",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -60,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "LU"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -69,15 +76,16 @@
  "documentos": [],
  "dedup": {
   "claves": [
-   "ref:A12/01677/21"
+   "ref:A12/01677/21",
+   "ml:ovation:23-11-2020-29-11-2020"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5ef1e15b1959ae6d"
+  "enriquecido": true,
+  "hashContenido": "f33b7e7b8ff7e02a"
  },
  "slug": "neumaticos-ovation-safety-gate-10004667"
 }

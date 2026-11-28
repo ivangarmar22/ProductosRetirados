@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-14"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "5204745706059"
    ],
    "descripcion": "Juego de juguetes consistente en un arco de juguete de plástico negro y flechas de color con ventosas en su extremo.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "El producto se envasa en una bolsa de nylon, con un cierre de cartón."
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Chipre",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "765a46cbffc905fa"
+  "enriquecido": true,
+  "hashContenido": "abf374ae99e05496"
  },
  "slug": "juego-de-arco-y-flecha-de-juguete-fun-fashion-safety-gate-10004567"
 }

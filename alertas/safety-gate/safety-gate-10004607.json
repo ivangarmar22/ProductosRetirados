@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-19",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-01-10"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -34,7 +34,8 @@
     "4006592471033"
    ],
    "descripcion": "Juguete elástico fabricado en polímero elástico, de dos colores, con una etiqueta con información.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -64,7 +65,9 @@
   "ccaa": [],
   "paisNotificante": "Lituania",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "DE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -92,11 +95,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "5cb221b34d02b54a"
+  "enriquecido": true,
+  "hashContenido": "fbb6a7f5fc168514"
  },
  "slug": "juguete-de-serpiente-simba-safety-gate-10004607"
 }

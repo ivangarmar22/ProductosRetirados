@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-03",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2022-02-09"
  },
  "categoria": {
   "literal": "Juguetes",
@@ -38,7 +38,8 @@
     "5707152020072"
    ],
    "descripcion": "Juguete de bebé andador, con 4 ruedas, para animar a caminar. El producto también se vendió en línea.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": null
   }
  ],
  "riesgo": {
@@ -68,7 +69,10 @@
   "ccaa": [],
   "paisNotificante": "Dinamarca",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "IS",
+   "SE"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -94,11 +98,11 @@
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "c8692d21811362be"
+  "enriquecido": true,
+  "hashContenido": "4404b7ffd0fa5466"
  },
  "slug": "caminador-de-bebe-krea-safety-gate-10004643"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-11-22",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-08-28"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -27,17 +27,17 @@
     "Mercedes-Benz"
    ],
    "modelos": [
-    "e1*2007/46*0296*14 - *16",
-    "e1*2007/46*0300*19 - *22",
-    "e1*2007/46*0301*21 - *23",
-    "Types: 906BB50",
-    "906BA35",
-    "906BB35"
+    "e1*2007/46*0296*14 - *16, e1*2007/46*0300*19 - *22, e1*2007/46*0301*21 - *23, Types: 906BB50, 906BA35, 906BB35"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "07.05.2020 - 21.09.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Furgoneta de pasajeros/Vehículo comercial ligero",
-   "fechasTexto": "07.05.2020 - 21.09.2021"
+   "fechasTexto": "07.05.2020 - 21.09.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -67,7 +67,24 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Alemania",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "BG",
+   "DK",
+   "EE",
+   "FI",
+   "FR",
+   "GR",
+   "HR",
+   "HU",
+   "IE",
+   "LU",
+   "NO",
+   "PL",
+   "PT",
+   "RO",
+   "SE",
+   "SI"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -77,20 +94,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01611/21",
-   "mm:mercedes-benz:e1-2007-46-0296-14-16",
-   "mm:mercedes-benz:e1-2007-46-0300-19-22",
-   "mm:mercedes-benz:e1-2007-46-0301-21-23",
-   "mm:mercedes-benz:types-906bb50",
-   "mm:mercedes-benz:906ba35",
-   "mm:mercedes-benz:906bb35"
+   "mm:mercedes-benz:e1-2007-46-0296-14-16-e1-2007-46-0300-19-22-e1-2007-46-0301-21-23-types-906bb50-906ba35-906bb35",
+   "ml:mercedes-benz:07-05-2020-21-09-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "54c33b47334d0c2c"
+  "enriquecido": true,
+  "hashContenido": "481ec9ff153770ce"
  },
  "slug": "furgoneta-de-pasajeros-vehiculo-comercial-ligero-mercedes-benz-safety-gate-10004745"
 }

@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-10-26",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2021-12-20"
  },
  "categoria": {
   "literal": "Maquinaria",
@@ -27,8 +27,7 @@
     "Geko"
    ],
    "modelos": [
-    "G01061 1",
-    "5t",
+    "G01061 1,5t",
     "JFM-1.5T"
    ],
    "lotes": [
@@ -40,7 +39,8 @@
     "5901477106699"
    ],
    "descripcion": "Gato de tijera de metal, peso máximo: 1,5 t.",
-   "fechasTexto": null
+   "fechasTexto": null,
+   "envase": "Caja de cartón."
   }
  ],
  "riesgo": {
@@ -70,7 +70,10 @@
   "ccaa": [],
   "paisNotificante": "Polonia",
   "paisOrigen": "República Popular China",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "GR",
+   "LT"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -102,17 +105,17 @@
   "claves": [
    "ref:A11/00090/21",
    "ean:5901477106699",
-   "mm:geko:g01061-1",
+   "mm:geko:g01061-1-5t",
    "mm:geko:jfm-1-5t",
    "ml:geko:manufactured-in-2019"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "8cea53135505ed90"
+  "enriquecido": true,
+  "hashContenido": "b8f92659e8c3c3d6"
  },
  "slug": "gato-elevador-de-tijera-geko-safety-gate-10004565"
 }

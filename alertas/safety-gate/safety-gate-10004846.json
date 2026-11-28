@@ -13,7 +13,7 @@
  "fechas": {
   "publicacion": "2021-12-01",
   "publicacionWeb": null,
-  "modificacion": null
+  "modificacion": "2023-07-19"
  },
  "categoria": {
   "literal": "Vehículos de motor",
@@ -29,10 +29,15 @@
    "modelos": [
     "e2*2007/46*0497*19/ FFL"
    ],
-   "lotes": [],
+   "lotes": [
+    {
+     "numero": "22.7.2021 - 26.7.2021"
+    }
+   ],
    "ean": [],
    "descripcion": "Turismos",
-   "fechasTexto": "22.7.2021 - 26.7.2021"
+   "fechasTexto": "22.7.2021 - 26.7.2021",
+   "envase": null
   }
  ],
  "riesgo": {
@@ -62,7 +67,9 @@
   "ccaa": [],
   "paisNotificante": "Alemania",
   "paisOrigen": "Francia",
-  "paisesDetectado": [],
+  "paisesDetectado": [
+   "PL"
+  ],
   "autoridadNotificante": null,
   "literal": null
  },
@@ -72,15 +79,16 @@
  "dedup": {
   "claves": [
    "ref:A12/01657/21",
-   "mm:fiat:e2-2007-46-0497-19-ffl"
+   "mm:fiat:e2-2007-46-0497-19-ffl",
+   "ml:fiat:22-7-2021-26-7-2021"
   ]
  },
  "procedencia": {
-  "formato": "xml",
+  "formato": "json-api",
   "extraccion": "campo-estructurado",
   "consultadoEn": "2026-11-06",
-  "enriquecido": false,
-  "hashContenido": "22e19d48d70876a8"
+  "enriquecido": true,
+  "hashContenido": "bceca44ea5950770"
  },
  "slug": "turismos-fiat-safety-gate-10004846"
 }
